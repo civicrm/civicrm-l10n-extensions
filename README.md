@@ -35,6 +35,14 @@ For more information on extension translation:
 http://wiki.civicrm.org/confluence/display/CRMDOC/Extension+translation
 
 
+Adding a new extension
+======================
+
+Each extension is a "resource" in Transifex. New extensions are
+automatically added to Transifex by the civiextensions-update-transifex.php
+script, which runs daily from a cron on biryani.
+
+
 Forums, help, community
 =======================
 
