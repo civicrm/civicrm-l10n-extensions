@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2014-05-16 13:29-0700\n"
-"PO-Revision-Date: 2014-05-16 20:18+0000\n"
+"POT-Creation-Date: 2014-05-16 13:52-0700\n"
+"PO-Revision-Date: 2014-05-16 23:02+0000\n"
 "Last-Translator: samuelsov <samuel@koumbit.org>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/civicrm_extensions/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -17,37 +17,42 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: CDM/DAO/Item.php CDM/Form/Discount/Add.php
+#: CDM/DAO/Item.php CDM/Form/Discount/Admin.php
 #: templates/CDM/Page/Discount/Usage.tpl templates/CDM/Page/Discount/View.tpl
 msgid "Code"
 msgstr ""
 
-#: CDM/DAO/Item.php CDM/Form/Discount/Add.php
+#: CDM/DAO/Item.php CDM/DAO/Track.php CDM/Form/Discount/Admin.php
 #: templates/CDM/Page/Discount/View.tpl
 msgid "Description"
 msgstr ""
 
-#: CDM/DAO/Item.php CDM/Form/Discount/Add.php
+#: CDM/DAO/Item.php CDM/Form/Discount/Admin.php
 msgid "Amount Type"
 msgstr ""
 
-#: CDM/DAO/Item.php CDM/Form/Discount/Add.php
+#: CDM/DAO/Item.php CDM/Form/Discount/Admin.php
 #: templates/CDM/Page/Discount/View.tpl
 msgid "Events"
 msgstr ""
 
-#: CDM/DAO/Item.php CDM/Form/Discount/Add.php
+#: CDM/DAO/Item.php CDM/Form/Discount/Admin.php
 #: templates/CDM/Page/Discount/View.tpl
 msgid "Memberships"
 msgstr ""
 
-#: CDM/DAO/Item.php CDM/Form/Discount/Add.php
+#: CDM/DAO/Item.php CDM/Form/Discount/Admin.php
 msgid "Activation Date"
 msgstr ""
 
-#: CDM/DAO/Item.php CDM/Form/Discount/Add.php
+#: CDM/DAO/Item.php CDM/Form/Discount/Admin.php
 #: templates/CDM/Page/Discount/View.tpl
 msgid "Expiration Date"
+msgstr ""
+
+#: CDM/Page/Discount/List.php CDM/Page/Discount/Report.php
+#: CDM/Page/Discount/View.php templates/CDM/Page/Discount/View.tpl
+msgid "Edit"
 msgstr ""
 
 #: CDM/Page/Discount/List.php CDM/Page/Discount/Report.php
@@ -62,16 +67,11 @@ msgstr ""
 
 #: CDM/Page/Discount/List.php CDM/Page/Discount/Report.php
 #: CDM/Page/Discount/View.php templates/CDM/Page/Discount/View.tpl
-msgid "Edit"
-msgstr ""
-
-#: CDM/Page/Discount/List.php CDM/Page/Discount/Report.php
-#: CDM/Page/Discount/View.php templates/CDM/Page/Discount/View.tpl
 msgid "Delete"
 msgstr ""
 
 #: CDM/Page/Discount/Report.php CDM/Page/Discount/View.php
-#: templates/CDM/Form/Discount/Add.tpl
+#: templates/CDM/Form/Discount/Admin.tpl
 msgid "Edit Discount"
 msgstr ""
 
@@ -84,7 +84,6 @@ msgid "Enable Discount"
 msgstr ""
 
 #: CDM/Page/Discount/Report.php CDM/Page/Discount/View.php
-#: templates/CDM/Form/Discount/Add.tpl
 msgid "Delete Discount"
 msgstr ""
 
@@ -118,67 +117,67 @@ msgid "Used Date"
 msgstr ""
 
 #: CDM/DAO/Track.php
-msgid "Track"
-msgstr ""
-
-#: CDM/DAO/Track.php
 msgid "Entity Table"
 msgstr ""
 
-#: CDM/Form/Discount/Add.php
+#: CDM/Form/Discount/Admin.php
 msgid "We need a valid discount ID for update and/or delete"
 msgstr ""
 
-#: CDM/Form/Discount/Add.php
+#: CDM/Form/Discount/Admin.php
+msgid "Discounts"
+msgstr ""
+
+#: CDM/Form/Discount/Admin.php
 msgid "Code already exists in Database."
 msgstr ""
 
-#: CDM/Form/Discount/Add.php
+#: CDM/Form/Discount/Admin.php
 msgid "Code can only consist of alpha-numeric characters"
 msgstr ""
 
-#: CDM/Form/Discount/Add.php templates/CDM/Page/Discount/View.tpl
+#: CDM/Form/Discount/Admin.php templates/CDM/Page/Discount/View.tpl
 msgid "Discount"
 msgstr ""
 
-#: CDM/Form/Discount/Add.php
+#: CDM/Form/Discount/Admin.php
 msgid "Percentage"
 msgstr ""
 
-#: CDM/Form/Discount/Add.php
+#: CDM/Form/Discount/Admin.php
 msgid "Monetary"
 msgstr ""
 
-#: CDM/Form/Discount/Add.php templates/CDM/Page/Discount/List.tpl
+#: CDM/Form/Discount/Admin.php templates/CDM/Page/Discount/List.tpl
 #: templates/CDM/Page/Discount/View.tpl
 msgid "Usage"
 msgstr ""
 
-#: CDM/Form/Discount/Add.php
+#: CDM/Form/Discount/Admin.php
 msgid "Must be an integer"
 msgstr ""
 
-#: CDM/Form/Discount/Add.php templates/CDM/Page/Discount/View.tpl
+#: CDM/Form/Discount/Admin.php templates/CDM/Page/Discount/View.tpl
 msgid "Organization"
 msgstr ""
 
-#: CDM/Form/Discount/Add.php
+#: CDM/Form/Discount/Admin.php
 msgid "Is this discount active?"
 msgstr ""
 
-#: CDM/Form/Discount/Add.php templates/CDM/Page/Discount/View.tpl
-msgid "Automatic Discount"
+#: CDM/Form/Discount/Admin.php
+msgid "Automatic Discount for Members"
 msgstr ""
 
-#: CDM/Form/Discount/Add.php
+#: CDM/Form/Discount/Admin.php
 msgid "PriceSets"
 msgstr ""
 
-#: CDM/Form/Discount/Add.php
+#: CDM/Form/Discount/Admin.php
 msgid "Selected Discount has been deleted."
 msgstr ""
 
-#: CDM/Form/Discount/Add.php
+#: CDM/Form/Discount/Admin.php
 msgid "The discount '%1' has been saved."
 msgstr ""
 
@@ -191,15 +190,15 @@ msgid "View Discount Code"
 msgstr ""
 
 #: CDM/Page/Discount/List.php
+msgid "Edit Discount Code"
+msgstr ""
+
+#: CDM/Page/Discount/List.php
 msgid "Disable Discount Code"
 msgstr ""
 
 #: CDM/Page/Discount/List.php
 msgid "Enable Discount Code"
-msgstr ""
-
-#: CDM/Page/Discount/List.php
-msgid "Edit Discount Code"
 msgstr ""
 
 #: CDM/Page/Discount/List.php
@@ -211,15 +210,6 @@ msgid "The discount code you entered is invalid."
 msgstr ""
 
 #: cividiscount.php
-msgid ""
-"The discount code you entered is either expired or is no longer active."
-msgstr ""
-
-#: cividiscount.php
-msgid "There are not enough uses remaining for this discount code."
-msgstr ""
-
-#: cividiscount.php
 msgid "There are not enough uses remaining for this code."
 msgstr ""
 
@@ -227,43 +217,89 @@ msgstr ""
 msgid "If you have a discount code, enter it here"
 msgstr "Si vous avez un code remise, entrez-le ici"
 
-#: templates/CDM/Form/Discount/Add.tpl
+#: cividiscount.php
+msgid "Apply"
+msgstr "Appliquer"
+
+#: templates/CDM/Form/Discount/Admin.hlp
+msgid ""
+"This discount will not be usable before this date. Leave blank to have it be"
+" enabled right away."
+msgstr ""
+
+#: templates/CDM/Form/Discount/Admin.hlp
+msgid ""
+"This discount will not be usable after this date. Leave blank to have it "
+"never expire."
+msgstr ""
+
+#: templates/CDM/Form/Discount/Admin.hlp
+msgid ""
+"Used to associate this discount code with an organization. Every time this "
+"code is used it will be recorded on that organization's contact record."
+msgstr ""
+
+#: templates/CDM/Form/Discount/Admin.hlp
+msgid ""
+"Anyone with the selected memberships will automatically have the discount "
+"code applied."
+msgstr ""
+
+#: templates/CDM/Form/Discount/Admin.hlp
+msgid ""
+"Autodiscount is generally used with a randomly-generated code which is "
+"<em>not</em> given out to users. Cividiscount will apply the discount to the"
+" members with no code required."
+msgstr ""
+
+#: templates/CDM/Form/Discount/Admin.hlp
+msgid ""
+"Allow discounts to be used on the selected events. Only active, public and "
+"current/future events are listed."
+msgstr ""
+
+#: templates/CDM/Form/Discount/Admin.hlp
+msgid ""
+"You can apply this discount to one or more fields in a price set. The "
+"discount will be applied to each selected field that the user selects."
+msgstr ""
+
+#: templates/CDM/Form/Discount/Admin.hlp
+msgid ""
+"Discount the price of purchasing memberships. Only active memberships with "
+"start and end dates defined will appear in this list."
+msgstr ""
+
+#: templates/CDM/Form/Discount/Admin.tpl
 msgid "New Discount"
 msgstr ""
 
-#: templates/CDM/Form/Discount/Add.tpl
+#: templates/CDM/Form/Discount/Admin.tpl
 msgid ""
-"WARNING: Deleting this discount code will prevent users who have this code "
-"to avail of this discount."
+"WARNING: Deleting this discount code (%1) will prevent users who have this "
+"code to avail of this discount."
 msgstr ""
 
-#: templates/CDM/Form/Discount/Add.tpl
+#: templates/CDM/Form/Discount/Admin.tpl
 msgid "Do you want to continue?"
 msgstr ""
 
-#: templates/CDM/Form/Discount/Add.tpl
+#: templates/CDM/Form/Discount/Admin.tpl
 msgid "WARNING: Do NOT use spaces in the Discount Code."
 msgstr ""
 
-#: templates/CDM/Form/Discount/Add.tpl
+#: templates/CDM/Form/Discount/Admin.tpl
 msgid "The amount (monetary or percentage) of the discount."
 msgstr ""
 
-#: templates/CDM/Form/Discount/Add.tpl
+#: templates/CDM/Form/Discount/Admin.tpl
 msgid "How many times can this code be used? Use 0 for unlimited.."
 msgstr ""
 
-#: templates/CDM/Form/Discount/Add.tpl
+#: templates/CDM/Form/Discount/Admin.tpl
 msgid ""
-"Anyone in the selected memberships will automatically have the discount code"
-" applied."
-msgstr ""
-
-#: templates/CDM/Form/Discount/Add.tpl
-msgid ""
-"Allow discounts to be used on the selected events. Only active current and "
-"future events are listed. If you use price sets for your events, you also "
-"need to select a price set below."
+"If you use price sets for your events, you also need to select any "
+"discountable price sets below."
 msgstr ""
 
 #: templates/CDM/Page/Discount/List.tpl
@@ -289,10 +325,6 @@ msgstr ""
 
 #: templates/CDM/Page/Discount/List.tpl
 msgid "New Discount Code"
-msgstr ""
-
-#: templates/CDM/Page/Discount/List.tpl
-msgid "status"
 msgstr ""
 
 #: templates/CDM/Page/Discount/List.tpl
@@ -324,7 +356,15 @@ msgid "View Discount"
 msgstr ""
 
 #: templates/CDM/Page/Discount/View.tpl
+msgid "Done"
+msgstr ""
+
+#: templates/CDM/Page/Discount/View.tpl
 msgid "(ongoing)"
+msgstr ""
+
+#: templates/CDM/Page/Discount/View.tpl
+msgid "Automatic Discount"
 msgstr ""
 
 #: templates/CDM/Page/Discount/View.tpl
