@@ -7,9 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2014-04-28 17:15-0700\n"
-"PO-Revision-Date: 2014-05-09 17:37+0000\n"
-"Last-Translator: Zoltán Reizinger <zreizinger@hdsnet.hu>\n"
+"POT-Creation-Date: 2014-05-16 13:52-0700\n"
+"PO-Revision-Date: 2014-05-16 20:52+0000\n"
+"Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
 "Language-Team: Hungarian (http://www.transifex.com/projects/p/civicrm_extensions/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,174 +17,61 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: CDM/DAO/Item.php CDM/Form/Discount/Add.php
+#: CDM/DAO/Item.php CDM/Form/Discount/Admin.php
 #: templates/CDM/Page/Discount/Usage.tpl templates/CDM/Page/Discount/View.tpl
 msgid "Code"
 msgstr "Kód"
 
-#: CDM/DAO/Item.php CDM/Form/Discount/Add.php
+#: CDM/DAO/Item.php CDM/DAO/Track.php CDM/Form/Discount/Admin.php
 #: templates/CDM/Page/Discount/View.tpl
 msgid "Description"
 msgstr "Leírás"
 
-#: CDM/DAO/Item.php templates/CDM/Page/Discount/List.tpl
-msgid "Amount"
-msgstr "Összeg"
-
-#: CDM/DAO/Item.php CDM/Form/Discount/Add.php
+#: CDM/DAO/Item.php CDM/Form/Discount/Admin.php
 msgid "Amount Type"
 msgstr "Összeg típusa"
 
-#: CDM/DAO/Item.php
-msgid "Count Max"
-msgstr "Maximális darabszám"
-
-#: CDM/DAO/Item.php
-msgid "Count Use"
-msgstr "Használatban lévő darabszám"
-
-#: CDM/DAO/Item.php CDM/Form/Discount/Add.php
+#: CDM/DAO/Item.php CDM/Form/Discount/Admin.php
 #: templates/CDM/Page/Discount/View.tpl
 msgid "Events"
 msgstr "Esemény"
 
-#: CDM/DAO/Item.php
-msgid "Pricesets"
-msgstr "Árlisták"
-
-#: CDM/DAO/Item.php CDM/Form/Discount/Add.php
+#: CDM/DAO/Item.php CDM/Form/Discount/Admin.php
 #: templates/CDM/Page/Discount/View.tpl
 msgid "Memberships"
 msgstr "Tagságok"
 
-#: CDM/DAO/Item.php
-msgid "Autodiscount"
-msgstr "Automatikus kedvezméy"
-
-#: CDM/DAO/Item.php CDM/Form/Discount/Add.php
+#: CDM/DAO/Item.php CDM/Form/Discount/Admin.php
 msgid "Activation Date"
 msgstr "Aktiválás dátuma"
 
-#: CDM/DAO/Item.php CDM/Form/Discount/Add.php
+#: CDM/DAO/Item.php CDM/Form/Discount/Admin.php
 #: templates/CDM/Page/Discount/View.tpl
 msgid "Expiration Date"
 msgstr "Lejárat dátuma"
-
-#: CDM/DAO/Track.php
-msgid "Used Date"
-msgstr "Használt dátum"
-
-#: CDM/DAO/Track.php
-msgid "Track"
-msgstr "Követés"
-
-#: CDM/DAO/Track.php
-msgid "Entity Table"
-msgstr "Egyed tábla"
-
-#: CDM/Form/Discount/Add.php
-msgid "We need a valid discount ID for update and/or delete"
-msgstr "Érvényes kedvezmény azonosító kell a frissítéshez és/vagy törléséhez"
-
-#: CDM/Form/Discount/Add.php
-msgid "Code already exists in Database."
-msgstr "A kód már az adatbázisban van."
-
-#: CDM/Form/Discount/Add.php
-msgid "Code can only consist of alpha-numeric characters"
-msgstr "A kód csak alfanumerikus karaktereket tartalmazhat"
-
-#: CDM/Form/Discount/Add.php templates/CDM/Page/Discount/View.tpl
-msgid "Discount"
-msgstr "Kedvezmény"
-
-#: CDM/Form/Discount/Add.php
-msgid "Percentage"
-msgstr "Százalék"
-
-#: CDM/Form/Discount/Add.php
-msgid "Monetary"
-msgstr "Pénzügyi"
-
-#: CDM/Form/Discount/Add.php templates/CDM/Page/Discount/List.tpl
-#: templates/CDM/Page/Discount/View.tpl
-msgid "Usage"
-msgstr "Használat"
-
-#: CDM/Form/Discount/Add.php
-msgid "Must be an integer"
-msgstr "Egésznek kell lennie"
-
-#: CDM/Form/Discount/Add.php templates/CDM/Page/Discount/View.tpl
-msgid "Organization"
-msgstr "Szervezet"
-
-#: CDM/Form/Discount/Add.php
-msgid "Is this discount active?"
-msgstr "Ez a kedvezmény aktív?"
-
-#: CDM/Form/Discount/Add.php templates/CDM/Page/Discount/View.tpl
-msgid "Automatic Discount"
-msgstr "Automatikus kedvezmény"
-
-#: CDM/Form/Discount/Add.php
-msgid "PriceSets"
-msgstr "Árlisták"
-
-#: CDM/Form/Discount/Add.php
-msgid "Selected Discount has been deleted."
-msgstr "A kiválasztott kedvezmény törlésre került."
-
-#: CDM/Form/Discount/Add.php
-msgid "The discount '%1' has been saved."
-msgstr "A '%1' kedvezmény mentve."
-
-#: CDM/Page/Discount/List.php
-msgid "View"
-msgstr "Nézet"
-
-#: CDM/Page/Discount/List.php
-msgid "View Discount Code"
-msgstr "Kedvezmény kód megtekintése"
-
-#: CDM/Page/Discount/List.php CDM/Page/Discount/Report.php
-#: CDM/Page/Discount/View.php
-msgid "Disable"
-msgstr "Letiltás"
-
-#: CDM/Page/Discount/List.php
-msgid "Disable Discount Code"
-msgstr "Kedvezmény kód letiltása"
-
-#: CDM/Page/Discount/List.php CDM/Page/Discount/Report.php
-#: CDM/Page/Discount/View.php
-msgid "Enable"
-msgstr "Engedélyezés"
-
-#: CDM/Page/Discount/List.php
-msgid "Enable Discount Code"
-msgstr "Kedvezmény kód engedélyezése"
 
 #: CDM/Page/Discount/List.php CDM/Page/Discount/Report.php
 #: CDM/Page/Discount/View.php templates/CDM/Page/Discount/View.tpl
 msgid "Edit"
 msgstr "Szerkesztés"
 
-#: CDM/Page/Discount/List.php
-msgid "Edit Discount Code"
-msgstr "Kedvezmény kód szerkesztése"
+#: CDM/Page/Discount/List.php CDM/Page/Discount/Report.php
+#: CDM/Page/Discount/View.php
+msgid "Disable"
+msgstr "Letiltás"
+
+#: CDM/Page/Discount/List.php CDM/Page/Discount/Report.php
+#: CDM/Page/Discount/View.php
+msgid "Enable"
+msgstr "Engedélyezés"
 
 #: CDM/Page/Discount/List.php CDM/Page/Discount/Report.php
 #: CDM/Page/Discount/View.php templates/CDM/Page/Discount/View.tpl
 msgid "Delete"
 msgstr "Törlés"
 
-#: CDM/Page/Discount/List.php
-msgid "Delete Discount Code"
-msgstr "Kedvezmény kód törlése"
-
 #: CDM/Page/Discount/Report.php CDM/Page/Discount/View.php
-#: templates/CDM/Form/Discount/Add.tpl
+#: templates/CDM/Form/Discount/Admin.tpl
 msgid "Edit Discount"
 msgstr "Kedvezmény szerkesztése"
 
@@ -197,7 +84,6 @@ msgid "Enable Discount"
 msgstr "Kedvezmény engedélyezése"
 
 #: CDM/Page/Discount/Report.php CDM/Page/Discount/View.php
-#: templates/CDM/Form/Discount/Add.tpl
 msgid "Delete Discount"
 msgstr "Kedvezmény törlése"
 
@@ -206,18 +92,122 @@ msgstr "Kedvezmény törlése"
 msgid "We need a valid discount ID for view"
 msgstr "Érvényes kedvezmény azonosító szükséges a megtekintéshez"
 
+#: CDM/DAO/Item.php templates/CDM/Page/Discount/List.tpl
+msgid "Amount"
+msgstr "Összeg"
+
+#: CDM/DAO/Item.php
+msgid "Count Max"
+msgstr "Maximális darabszám"
+
+#: CDM/DAO/Item.php
+msgid "Count Use"
+msgstr "Használatban lévő darabszám"
+
+#: CDM/DAO/Item.php
+msgid "Pricesets"
+msgstr "Árlisták"
+
+#: CDM/DAO/Item.php
+msgid "Autodiscount"
+msgstr "Automatikus kedvezméy"
+
+#: CDM/DAO/Track.php
+msgid "Used Date"
+msgstr "Használt dátum"
+
+#: CDM/DAO/Track.php
+msgid "Entity Table"
+msgstr "Egyed tábla"
+
+#: CDM/Form/Discount/Admin.php
+msgid "We need a valid discount ID for update and/or delete"
+msgstr "Érvényes kedvezmény azonosító kell a frissítéshez és/vagy törléséhez"
+
+#: CDM/Form/Discount/Admin.php
+msgid "Discounts"
+msgstr ""
+
+#: CDM/Form/Discount/Admin.php
+msgid "Code already exists in Database."
+msgstr "A kód már az adatbázisban van."
+
+#: CDM/Form/Discount/Admin.php
+msgid "Code can only consist of alpha-numeric characters"
+msgstr "A kód csak alfanumerikus karaktereket tartalmazhat"
+
+#: CDM/Form/Discount/Admin.php templates/CDM/Page/Discount/View.tpl
+msgid "Discount"
+msgstr "Kedvezmény"
+
+#: CDM/Form/Discount/Admin.php
+msgid "Percentage"
+msgstr "Százalék"
+
+#: CDM/Form/Discount/Admin.php
+msgid "Monetary"
+msgstr "Pénzügyi"
+
+#: CDM/Form/Discount/Admin.php templates/CDM/Page/Discount/List.tpl
+#: templates/CDM/Page/Discount/View.tpl
+msgid "Usage"
+msgstr "Használat"
+
+#: CDM/Form/Discount/Admin.php
+msgid "Must be an integer"
+msgstr "Egésznek kell lennie"
+
+#: CDM/Form/Discount/Admin.php templates/CDM/Page/Discount/View.tpl
+msgid "Organization"
+msgstr "Szervezet"
+
+#: CDM/Form/Discount/Admin.php
+msgid "Is this discount active?"
+msgstr "Ez a kedvezmény aktív?"
+
+#: CDM/Form/Discount/Admin.php
+msgid "Automatic Discount for Members"
+msgstr ""
+
+#: CDM/Form/Discount/Admin.php
+msgid "PriceSets"
+msgstr "Árlisták"
+
+#: CDM/Form/Discount/Admin.php
+msgid "Selected Discount has been deleted."
+msgstr "A kiválasztott kedvezmény törlésre került."
+
+#: CDM/Form/Discount/Admin.php
+msgid "The discount '%1' has been saved."
+msgstr "A '%1' kedvezmény mentve."
+
+#: CDM/Page/Discount/List.php
+msgid "View"
+msgstr "Nézet"
+
+#: CDM/Page/Discount/List.php
+msgid "View Discount Code"
+msgstr "Kedvezmény kód megtekintése"
+
+#: CDM/Page/Discount/List.php
+msgid "Edit Discount Code"
+msgstr "Kedvezmény kód szerkesztése"
+
+#: CDM/Page/Discount/List.php
+msgid "Disable Discount Code"
+msgstr "Kedvezmény kód letiltása"
+
+#: CDM/Page/Discount/List.php
+msgid "Enable Discount Code"
+msgstr "Kedvezmény kód engedélyezése"
+
+#: CDM/Page/Discount/List.php
+msgid "Delete Discount Code"
+msgstr "Kedvezmény kód törlése"
+
 #: cividiscount.php
 msgid "The discount code you entered is invalid."
 msgstr "A megadott kedvezmény kód érvénytelen."
-
-#: cividiscount.php
-msgid ""
-"The discount code you entered is either expired or is no longer active."
-msgstr "A megadott kedvezmény kód vagy lejárt vagy már nem aktív."
-
-#: cividiscount.php
-msgid "There are not enough uses remaining for this discount code."
-msgstr "Nem maradt elég felhasználás maradt ehhez a kedvezmény kódhoz."
 
 #: cividiscount.php
 msgid "There are not enough uses remaining for this code."
@@ -227,44 +217,90 @@ msgstr "Nem maradt elég felhasználás ehhez a kódhoz."
 msgid "If you have a discount code, enter it here"
 msgstr "Ha van kedvezmény kódja, itt adja meg"
 
-#: templates/CDM/Form/Discount/Add.tpl
+#: cividiscount.php
+msgid "Apply"
+msgstr ""
+
+#: templates/CDM/Form/Discount/Admin.hlp
+msgid ""
+"This discount will not be usable before this date. Leave blank to have it be"
+" enabled right away."
+msgstr ""
+
+#: templates/CDM/Form/Discount/Admin.hlp
+msgid ""
+"This discount will not be usable after this date. Leave blank to have it "
+"never expire."
+msgstr ""
+
+#: templates/CDM/Form/Discount/Admin.hlp
+msgid ""
+"Used to associate this discount code with an organization. Every time this "
+"code is used it will be recorded on that organization's contact record."
+msgstr ""
+
+#: templates/CDM/Form/Discount/Admin.hlp
+msgid ""
+"Anyone with the selected memberships will automatically have the discount "
+"code applied."
+msgstr ""
+
+#: templates/CDM/Form/Discount/Admin.hlp
+msgid ""
+"Autodiscount is generally used with a randomly-generated code which is "
+"<em>not</em> given out to users. Cividiscount will apply the discount to the"
+" members with no code required."
+msgstr ""
+
+#: templates/CDM/Form/Discount/Admin.hlp
+msgid ""
+"Allow discounts to be used on the selected events. Only active, public and "
+"current/future events are listed."
+msgstr ""
+
+#: templates/CDM/Form/Discount/Admin.hlp
+msgid ""
+"You can apply this discount to one or more fields in a price set. The "
+"discount will be applied to each selected field that the user selects."
+msgstr ""
+
+#: templates/CDM/Form/Discount/Admin.hlp
+msgid ""
+"Discount the price of purchasing memberships. Only active memberships with "
+"start and end dates defined will appear in this list."
+msgstr ""
+
+#: templates/CDM/Form/Discount/Admin.tpl
 msgid "New Discount"
 msgstr "Új kedvezmény"
 
-#: templates/CDM/Form/Discount/Add.tpl
+#: templates/CDM/Form/Discount/Admin.tpl
 msgid ""
-"WARNING: Deleting this discount code will prevent users who have this code "
-"to avail of this discount."
-msgstr "FIGYELMEZTETÉS: Ennek a kedvezmény kódnak a törlése megakadályozza az ezzel rendelkező felhasználókat ezen kedvezmény igénybevételében."
+"WARNING: Deleting this discount code (%1) will prevent users who have this "
+"code to avail of this discount."
+msgstr ""
 
-#: templates/CDM/Form/Discount/Add.tpl
+#: templates/CDM/Form/Discount/Admin.tpl
 msgid "Do you want to continue?"
 msgstr "Folytatni kívánja?"
 
-#: templates/CDM/Form/Discount/Add.tpl
+#: templates/CDM/Form/Discount/Admin.tpl
 msgid "WARNING: Do NOT use spaces in the Discount Code."
 msgstr "FIGYELMEZTETÉS: NE használjon szóközöket a kedvezmény kódban."
 
-#: templates/CDM/Form/Discount/Add.tpl
+#: templates/CDM/Form/Discount/Admin.tpl
 msgid "The amount (monetary or percentage) of the discount."
 msgstr "Az kedvezmény összege (pénzügyi vagy százalékos)."
 
-#: templates/CDM/Form/Discount/Add.tpl
+#: templates/CDM/Form/Discount/Admin.tpl
 msgid "How many times can this code be used? Use 0 for unlimited.."
 msgstr "Hányszor alkalmazható? Használja a 0-t a korlátlan.."
 
-#: templates/CDM/Form/Discount/Add.tpl
+#: templates/CDM/Form/Discount/Admin.tpl
 msgid ""
-"Anyone in the selected memberships will automatically have the discount code"
-" applied."
-msgstr "A kijelölt tagságoknál mindenki automatikusan megkapja a kedvezmény kódot."
-
-#: templates/CDM/Form/Discount/Add.tpl
-msgid ""
-"Allow discounts to be used on the selected events. Only active current and "
-"future events are listed. If you use price sets for your events, you also "
-"need to select a price set below."
-msgstr "Engedélyezze a kedvezményeket a kiválasztott eseményekhez. Csak  jelenlegi aktív vagy jövőbeli események kerülnek kijelzésre. Ha árlistákat használ az eseményeihez, az árlistát is ki kell választani alább."
+"If you use price sets for your events, you also need to select any "
+"discountable price sets below."
+msgstr ""
 
 #: templates/CDM/Page/Discount/List.tpl
 msgid ""
@@ -290,10 +326,6 @@ msgstr "Korlátlan"
 #: templates/CDM/Page/Discount/List.tpl
 msgid "New Discount Code"
 msgstr "Új kedvezmény kód"
-
-#: templates/CDM/Page/Discount/List.tpl
-msgid "status"
-msgstr "állapot"
 
 #: templates/CDM/Page/Discount/List.tpl
 msgid "There are no discount codes. You can <a href='%1'>add one</a>."
@@ -324,8 +356,16 @@ msgid "View Discount"
 msgstr "Kedvezmény megtekintése"
 
 #: templates/CDM/Page/Discount/View.tpl
+msgid "Done"
+msgstr ""
+
+#: templates/CDM/Page/Discount/View.tpl
 msgid "(ongoing)"
 msgstr "(folyamatban)"
+
+#: templates/CDM/Page/Discount/View.tpl
+msgid "Automatic Discount"
+msgstr "Automatikus kedvezmény"
 
 #: templates/CDM/Page/Discount/View.tpl
 msgid "Price Sets"
