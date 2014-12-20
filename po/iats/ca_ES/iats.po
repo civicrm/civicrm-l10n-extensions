@@ -1,0 +1,488 @@
+# Copyright CiviCRM LLC (c) 2004-2014
+# This file is distributed under the same license as the CiviCRM package.
+# If you contribute heavily to a translation and deem your work copyrightable,
+# make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: CiviCRM_extensions\n"
+"POT-Creation-Date: 2014-12-19 21:32-0800\n"
+"PO-Revision-Date: 2014-12-20 05:32+0000\n"
+"Language-Team: Catalan (http://www.transifex.com/projects/p/civicrm_extensions/language/ca/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: CRM/Core/Payment/iATSService.php CRM/Core/Payment/iATSServiceACHEFT.php
+#: CRM/Core/Payment/iATSServiceUKDD.php
+msgid "You have updated the amount of this recurring contribution."
+msgstr ""
+
+#: CRM/Core/Payment/iATSService.php CRM/Core/Payment/iATSServiceACHEFT.php
+#: CRM/Core/Payment/iATSServiceUKDD.php
+msgid "Warning"
+msgstr ""
+
+#: CRM/Core/Payment/iATSService.php CRM/Core/Payment/iATSServiceACHEFT.php
+msgid "You have cancelled this recurring contribution."
+msgstr ""
+
+#: CRM/Core/Payment/iATSService.php CRM/Core/Payment/iATSServiceACHEFT.php
+#: CRM/Core/Payment/iATSServiceUKDD.php
+msgid ""
+"Agent Code is not set in the Administer CiviCRM &raquo; System Settings "
+"&raquo; Payment Processors."
+msgstr ""
+
+#: CRM/Core/Payment/iATSService.php CRM/Core/Payment/iATSServiceACHEFT.php
+#: CRM/Core/Payment/iATSServiceUKDD.php
+msgid ""
+"Password is not set in the Administer CiviCRM &raquo; System Settings "
+"&raquo; Payment Processors."
+msgstr ""
+
+#: api/v3/Job/IatsACHEFTVerify.php api/v3/Job/IatsRecurringContributions.php
+msgid "An error occurred while creating activity record for contact id %1: %2"
+msgstr ""
+
+#: CRM/Core/Payment/iATSService.php
+msgid "iATS Payments"
+msgstr ""
+
+#: CRM/Core/Payment/iATSServiceACHEFT.php
+msgid "iATS Payments ACHEFT"
+msgstr ""
+
+#: CRM/Core/Payment/iATSServiceSWIPE.php
+msgid "iATS Payments SWIPE"
+msgstr ""
+
+#: CRM/Core/Payment/iATSServiceUKDD.php
+msgid "iATS Payments UK Direct Debit"
+msgstr ""
+
+#: CRM/Core/Payment/iATSServiceUKDD.php
+msgid "Invalid currency %1, must by GBP"
+msgstr ""
+
+#: CRM/Core/Payment/iATSServiceUKDD.php
+msgid ""
+"You must specify the number of installments, open-ended contributions are "
+"not allowed."
+msgstr ""
+
+#: CRM/Core/Payment/iATSServiceUKDD.php
+msgid "You must specify a number of installments greater than 1."
+msgstr ""
+
+#: CRM/Core/Payment/iATSServiceUKDD.php
+msgid "You can only choose each week on a weekly schedule."
+msgstr ""
+
+#: CRM/Core/Payment/iATSServiceUKDD.php
+msgid ""
+"You can only choose monthly or every three months (quarterly) for a monthly "
+"schedule."
+msgstr ""
+
+#: CRM/Core/Payment/iATSServiceUKDD.php
+msgid "You can only choose each year for a yearly schedule."
+msgstr ""
+
+#: CRM/Core/Payment/iATSServiceUKDD.php
+msgid "Invalid frequency unit: %1"
+msgstr ""
+
+#: CRM/Core/Payment/iATSServiceUKDD.php
+msgid ""
+"Service User Number (SUN) is not set in the Administer CiviCRM &raquo; "
+"System Settings &raquo; Payment Processors."
+msgstr ""
+
+#: CRM/Core/Payment/iATSServiceUKDD.php
+msgid "You can only use this payment processor with a UK iATS account"
+msgstr ""
+
+#: CRM/iATS/iATSService.php
+msgid "The transaction was determined to be suspicious by the issuing bank."
+msgstr ""
+
+#: CRM/iATS/iATSService.php
+msgid "The CVN failed the processor's data validation check."
+msgstr ""
+
+#: CRM/iATS/iATSService.php
+msgid "The CVN matched."
+msgstr ""
+
+#: CRM/iATS/iATSService.php
+msgid "The CVN did not match."
+msgstr ""
+
+#: CRM/iATS/iATSService.php
+msgid "The CVN was not processed by the processor for an unspecified reason."
+msgstr ""
+
+#: CRM/iATS/iATSService.php
+msgid "The CVN is on the card but was not included in the request."
+msgstr ""
+
+#: CRM/iATS/iATSService.php
+msgid "Card verification is not supported by the issuing bank."
+msgstr ""
+
+#: CRM/iATS/iATSService.php
+msgid "Card verification is not supported by the card association."
+msgstr ""
+
+#: CRM/iATS/iATSService.php
+msgid "Card verification is not supported for this processor or card type."
+msgstr ""
+
+#: CRM/iATS/iATSService.php
+msgid ""
+"An unrecognized result code was returned by the processor for the card "
+"verification response."
+msgstr ""
+
+#: CRM/iATS/iATSService.php
+msgid "No result code was returned by the processor."
+msgstr ""
+
+#: CRM/iATS/iATSService.php
+msgid "Visa"
+msgstr ""
+
+#: CRM/iATS/iATSService.php
+msgid "MasterCard"
+msgstr ""
+
+#: CRM/iATS/iATSService.php
+msgid "American Express"
+msgstr ""
+
+#: CRM/iATS/iATSService.php
+msgid "Discover Card"
+msgstr ""
+
+#: api/v3/Job/IatsACHEFTVerify.php
+msgid "Cancelled"
+msgstr ""
+
+#: api/v3/Job/IatsACHEFTVerify.php
+msgid "Verified"
+msgstr ""
+
+#: api/v3/Job/IatsACHEFTVerify.php
+msgid "No records found to process."
+msgstr ""
+
+#: api/v3/Job/IatsRecurringContributions.php
+msgid "Recur id %1 is missing a customer code."
+msgstr ""
+
+#: api/v3/Job/IatsRecurringContributions.php
+msgid "Recur id %1 is has a mismatched contact id for the customer code."
+msgstr ""
+
+#: api/v3/Job/IatsRecurringContributions.php
+msgid "Recur id %1 is has an expired cc for the customer code."
+msgstr ""
+
+#: api/v3/Job/IatsRecurringContributions.php
+msgid "Failed to process recurring contribution id %1: "
+msgstr ""
+
+#: api/v3/Job/IatsRecurringContributions.php
+msgid "Successfully processed recurring contribution id %1: "
+msgstr ""
+
+#: api/v3/Job/IatsRecurringContributions.php
+msgid "Created activity record for contact id %1"
+msgstr ""
+
+#: api/v3/Job/IatsRecurringContributions.php
+msgid "Completed, but with %1 errors. %2 records processed."
+msgstr ""
+
+#: api/v3/Job/IatsRecurringContributions.php
+msgid "%1 contribution record(s) were processed."
+msgstr ""
+
+#: api/v3/Job/IatsRecurringContributions.php
+msgid "No contribution records were processed."
+msgstr ""
+
+#: iats.php
+msgid ""
+"The PHP SOAP extension is not installed on this server, but is required for "
+"this extension"
+msgstr ""
+
+#: iats.php
+msgid "iATS Payments Installation"
+msgstr ""
+
+#: iats.php
+msgid "%1 is a required field."
+msgstr ""
+
+#: iats.php
+msgid "Name of Account Holder"
+msgstr ""
+
+#: iats.php
+msgid "Account Number"
+msgstr ""
+
+#: iats.php
+msgid "Bank Name"
+msgstr ""
+
+#: iats.php
+msgid "Account type"
+msgstr ""
+
+#: iats.php
+msgid "Bank Account Number"
+msgstr ""
+
+#: iats.php
+msgid "Bank Routing Number"
+msgstr ""
+
+#: iats.php
+msgid "Bank Number"
+msgstr ""
+
+#: iats.php
+msgid "Transit Number"
+msgstr ""
+
+#: iats.php
+msgid "Bank Number + Transit Number"
+msgstr ""
+
+#: iats.php
+msgid "Encrypted"
+msgstr ""
+
+#: iats.php
+msgid "You can only use this form to make recurring contributions."
+msgstr ""
+
+#: iats.php
+msgid "I wish to start a Direct Debit"
+msgstr ""
+
+#: iats.php
+msgid "Date of first collection"
+msgstr ""
+
+#: iats.php
+msgid "The Declaration"
+msgstr ""
+
+#: iats.php
+msgid "Number of installments"
+msgstr ""
+
+#: iats.php
+msgid "Account Holder Name"
+msgstr ""
+
+#: iats.php
+msgid "Sort Code"
+msgstr ""
+
+#: iats.php
+msgid "Name and full postal address of your Bank or Building Society"
+msgstr ""
+
+#: iats.php
+msgid "Service User Number"
+msgstr ""
+
+#: iats.php
+msgid "Reference"
+msgstr ""
+
+#: iats.php
+msgid "Today's Date"
+msgstr ""
+
+#: iats.php
+msgid "Instruction to your Bank or Building Society"
+msgstr ""
+
+#: CRM/iATS/Upgrader.php
+msgid "Process first step"
+msgstr ""
+
+#: CRM/iATS/Upgrader.php
+msgid "Process second step"
+msgstr ""
+
+#: CRM/iATS/Upgrader.php
+msgid "Upgrade Batch (%1 => %2)"
+msgstr ""
+
+#: CRM/iATS/Upgrader/Base.php
+msgid "Upgrade %1 to revision %2"
+msgstr ""
+
+#: README.md iATS_4.4.10.diff iATS_4.5.4.diff
+msgid "Please enter a valid Card Number"
+msgstr ""
+
+#: api/v3/Job/IatsACHEFTVerify.php
+msgid ""
+"Unexpected error: ACH Ref. %1 does not match for customer code %2 (should be"
+" %3)"
+msgstr ""
+
+#: api/v3/Job/IatsACHEFTVerify.php
+msgid "Completed with %1 errors."
+msgstr ""
+
+#: api/v3/Job/IatsACHEFTVerify.php
+msgid ""
+"For %1 pending ACH/EFT contributions, %2 non-recuring and %3 recurring "
+"contribution results applied."
+msgstr ""
+
+#: api/v3/Job/IatsACHEFTVerify.php
+msgid ""
+"For %1 recurring UK direct debit contribution series, %2 new contributions "
+"found."
+msgstr ""
+
+#: iATS_4.4.10.diff iATS_4.5.4.diff
+msgid "Please enter a valid Card Verification Number"
+msgstr ""
+
+#: iATS_4.4.10.diff iATS_4.5.4.diff
+msgid "Please enter a Card Number"
+msgstr ""
+
+#: iats.php
+msgid "Organization: %1, Phone: %2, Email: %3"
+msgstr ""
+
+#: iats.php
+msgid ""
+"Please pay %1 Direct Debits from the account detailed in this instruction "
+"subject to the safeguards assured by the Direct Debit Guarantee. I "
+"understand that this instruction may remain with TestingTest and, if so, "
+"details will be passed electronically to my Bank / Building Society."
+msgstr ""
+
+#: templates/CRM/iATS/BillingBlockDirectDebitExtra_CAD.tpl
+msgid ""
+"You can find your Transit number, Bank number and Account number by "
+"inspecting a cheque."
+msgstr ""
+
+#: templates/CRM/iATS/BillingBlockDirectDebitExtra_GBP.tpl
+msgid "Note: "
+msgstr ""
+
+#: templates/CRM/iATS/BillingBlockDirectDebitExtra_GBP.tpl
+msgid ""
+"All Direct Debits are protected by a guarantee. In future, if there is a "
+"change to the date, amount of frequency of your Direct Debit, we will always"
+" give you 5 working days notice in advance of your account being debited. In"
+" the event of any error, you are entitled to an immediate refund from your "
+"Bank of Building Society. You have the right to cancel at any time and this "
+"guarantee is offered by all the Banks and Building Societies that accept "
+"instructions to pay Direct Debits. A copy of the safeguards under the Direct"
+" Debit Guarantee will be sent to you with our confirmation letter."
+msgstr ""
+
+#: templates/CRM/iATS/BillingBlockDirectDebitExtra_GBP.tpl
+msgid "Contact Information: "
+msgstr ""
+
+#: templates/CRM/iATS/BillingBlockDirectDebitExtra_GBP.tpl
+msgid "You can find your Account Number and Sort Code by inspecting a cheque."
+msgstr ""
+
+#: templates/CRM/iATS/BillingBlockDirectDebitExtra_GBP.tpl
+msgid "You may select a later start date if you wish."
+msgstr ""
+
+#: templates/CRM/iATS/BillingBlockDirectDebitExtra_GBP.tpl
+msgid "Please fix the following errors in the form fields above:"
+msgstr ""
+
+#: templates/CRM/iATS/BillingBlockDirectDebitExtra_USD.tpl
+msgid ""
+"You can find your Bank Routing Number and Bank Account number by inspecting "
+"a check."
+msgstr ""
+
+#: templates/CRM/iATS/BillingBlockSwipe.tpl
+msgid ""
+"Get ready to SWIPE! Place your cursor in the Encrypted field below and swipe"
+" card."
+msgstr ""
+
+#: templates/CRM/iATS/Page/iATSAdmin.tpl
+msgid "Warning!"
+msgstr ""
+
+#: templates/CRM/iATS/Page/iATSAdmin.tpl
+msgid "Cron Running"
+msgstr ""
+
+#: templates/CRM/iATS/Page/iATSAdmin.tpl
+msgid "Your iATS Payments cron last ran at %1."
+msgstr ""
+
+#: templates/CRM/iATS/Page/iATSAdmin.tpl
+msgid ""
+"Your recurring contributions for iATS Payments requires a correctly setup "
+"and functioning cron job that runs daily. You need to take action now."
+msgstr ""
+
+#: templates/CRM/iATS/Page/iATSAdmin.tpl
+msgid "It's all good."
+msgstr ""
+
+#: templates/CRM/iATS/Page/iATSAdmin.tpl
+msgid "Invoice"
+msgstr ""
+
+#: templates/CRM/iATS/Page/iATSAdmin.tpl
+msgid "Contact"
+msgstr ""
+
+#: templates/CRM/iATS/Page/iATSAdmin.tpl
+msgid "Request IP"
+msgstr ""
+
+#: templates/CRM/iATS/Page/iATSAdmin.tpl
+msgid "Card Number"
+msgstr ""
+
+#: templates/CRM/iATS/Page/iATSAdmin.tpl
+msgid "Total"
+msgstr ""
+
+#: templates/CRM/iATS/Page/iATSAdmin.tpl
+msgid "Request DateTime"
+msgstr ""
+
+#: templates/CRM/iATS/Page/iATSAdmin.tpl
+msgid "Result"
+msgstr ""
+
+#: templates/CRM/iATS/Page/iATSAdmin.tpl
+msgid "Transaction ID"
+msgstr ""
+
+#: templates/CRM/iATS/Page/iATSAdmin.tpl
+msgid "Response DateTime"
+msgstr ""
