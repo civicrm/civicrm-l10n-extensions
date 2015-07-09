@@ -6,9 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2015-01-27 21:32-0800\n"
-"PO-Revision-Date: 2015-01-28 05:32+0000\n"
-"Language-Team: German (http://www.transifex.com/projects/p/civicrm_extensions/language/de/)\n"
+"POT-Creation-Date: 2015-07-08 22:34-0700\n"
+"PO-Revision-Date: 2015-07-09 05:34+0000\n"
+"Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
+"Language-Team: German (http://www.transifex.com/p/civicrm_extensions/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,6 +18,9 @@ msgstr ""
 
 #: CRM/Documents/DAO/Document.php CRM/Documents/Form/Document.php
 #: CRM/Documents/Form/Search.php CRM/Documents/Selector/Search.php
+#: drupal/views_civicrm_documents/form.inc
+#: drupal/views_civicrm_documents/views/documents.views.inc
+#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
 #: templates/CRM/Documents/Page/CaseDocuments.tpl
 #: templates/CRM/Documents/Page/ContactDocuments.tpl
 msgid "Subject"
@@ -27,6 +31,8 @@ msgid "Date Added"
 msgstr ""
 
 #: CRM/Documents/DAO/DocumentVersion.php CRM/Documents/Form/NewVersion.php
+#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
+#: drupal/views_civicrm_documents/views/document_versions.views.inc
 #: templates/CRM/Documents/Page/Versions.tpl
 msgid "Description"
 msgstr ""
@@ -40,8 +46,219 @@ msgid "Submit"
 msgstr ""
 
 #: CRM/Documents/Page/ContactDocuments.php CRM/Documents/Selector/Search.php
-#: documents.php templates/CRM/Documents/Page/CaseDocuments.tpl
+#: documents.php drupal/views_civicrm_documents/views/documents.views.inc
+#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
+#: templates/CRM/Documents/Page/CaseDocuments.tpl
 msgid "Documents"
+msgstr ""
+
+#: CRM/Documents/Selector/Search.php
+#: drupal/views_civicrm_documents/views/documents.views.inc
+#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
+#: templates/CRM/Documents/Page/Versions.tpl
+msgid "Date added"
+msgstr ""
+
+#: CRM/Documents/Selector/Search.php
+#: drupal/views_civicrm_documents/views/documents.views.inc
+#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
+#: templates/CRM/Documents/Page/Versions.tpl
+msgid "Added by"
+msgstr ""
+
+#: CRM/Documents/Selector/Search.php
+#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
+#: drupal/views_civicrm_documents/views/document_versions.views.inc
+#: drupal/views_civicrm_documents/views/documents.views.inc
+#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
+msgid "Date updated"
+msgstr ""
+
+#: CRM/Documents/Selector/Search.php
+#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
+#: drupal/views_civicrm_documents/views/document_versions.views.inc
+#: drupal/views_civicrm_documents/views/documents.views.inc
+#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
+msgid "Updated by"
+msgstr ""
+
+#: drupal/views_civicrm_documents/handler/views_handler_field_document.inc
+#: drupal/views_civicrm_documents/handler/views_handler_field_document_version.inc
+msgid "Download link"
+msgstr ""
+
+#: drupal/views_civicrm_documents/handler/views_handler_field_document.inc
+#: drupal/views_civicrm_documents/handler/views_handler_field_document_version.inc
+msgid "If checked a download link will be displayed."
+msgstr ""
+
+#: drupal/views_civicrm_documents/handler/views_handler_field_document.inc
+#: drupal/views_civicrm_documents/handler/views_handler_field_document_version.inc
+msgid "Download Link Text"
+msgstr ""
+
+#: drupal/views_civicrm_documents/handler/views_handler_field_document.inc
+#: drupal/views_civicrm_documents/handler/views_handler_field_document_version.inc
+msgid ""
+"The text that will display in the field with the link. If you leave this "
+"empty the filename will be displayed"
+msgstr ""
+
+#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
+#: drupal/views_civicrm_documents/views/document_versions.views.inc
+#: drupal/views_civicrm_documents/views/documents.views.inc
+#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
+msgid "Master"
+msgstr ""
+
+#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
+#: drupal/views_civicrm_documents/views/document_versions.views.inc
+msgid "Document versions"
+msgstr ""
+
+#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
+#: drupal/views_civicrm_documents/views/document_versions.views.inc
+#: drupal/views_civicrm_documents/views/documents.views.inc
+#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
+msgid "more"
+msgstr ""
+
+#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
+#: drupal/views_civicrm_documents/views/document_versions.views.inc
+#: drupal/views_civicrm_documents/views/documents.views.inc
+#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
+msgid "Apply"
+msgstr ""
+
+#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
+#: drupal/views_civicrm_documents/views/document_versions.views.inc
+#: drupal/views_civicrm_documents/views/documents.views.inc
+#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
+msgid "Reset"
+msgstr ""
+
+#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
+#: drupal/views_civicrm_documents/views/document_versions.views.inc
+#: drupal/views_civicrm_documents/views/documents.views.inc
+#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
+msgid "Sort by"
+msgstr ""
+
+#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
+#: drupal/views_civicrm_documents/views/document_versions.views.inc
+#: drupal/views_civicrm_documents/views/documents.views.inc
+#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
+msgid "Asc"
+msgstr ""
+
+#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
+#: drupal/views_civicrm_documents/views/document_versions.views.inc
+#: drupal/views_civicrm_documents/views/documents.views.inc
+#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
+msgid "Desc"
+msgstr ""
+
+#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
+#: drupal/views_civicrm_documents/views/document_versions.views.inc
+#: templates/CRM/Documents/Form/NewVersion.tpl
+msgid "Document"
+msgstr ""
+
+#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
+#: drupal/views_civicrm_documents/views/document_versions.views.inc
+msgid "Contact"
+msgstr ""
+
+#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
+#: drupal/views_civicrm_documents/views/document_versions.views.inc
+#: drupal/views_civicrm_documents/views/documents.views.inc
+#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
+msgid "Drupal User"
+msgstr ""
+
+#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
+#: drupal/views_civicrm_documents/views/document_versions.views.inc
+msgid "Version"
+msgstr ""
+
+#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
+#: drupal/views_civicrm_documents/views/document_versions.views.inc
+#: drupal/views_civicrm_documents/views/documents.views.inc
+#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
+msgid "."
+msgstr ""
+
+#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
+#: drupal/views_civicrm_documents/views/document_versions.views.inc
+#: drupal/views_civicrm_documents/views/documents.views.inc
+#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
+#: templates/CRM/Documents/Page/Versions.tpl
+#: templates/CRM/Documents/actionlinks.tpl
+msgid "Download"
+msgstr ""
+
+#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
+#: drupal/views_civicrm_documents/views/document_versions.views.inc
+#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
+msgid "All"
+msgstr ""
+
+#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
+#: drupal/views_civicrm_documents/views/document_versions.views.inc
+#: drupal/views_civicrm_documents/views/documents.views.inc
+#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
+msgid "Page"
+msgstr ""
+
+#: drupal/views_civicrm_documents/views/documents.views.inc
+#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
+msgid "Items per page"
+msgstr ""
+
+#: drupal/views_civicrm_documents/views/documents.views.inc
+#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
+msgid "- All -"
+msgstr ""
+
+#: drupal/views_civicrm_documents/views/documents.views.inc
+#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
+msgid "Offset"
+msgstr ""
+
+#: drupal/views_civicrm_documents/views/documents.views.inc
+#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
+msgid "« first"
+msgstr ""
+
+#: drupal/views_civicrm_documents/views/documents.views.inc
+#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
+msgid "‹ previous"
+msgstr ""
+
+#: drupal/views_civicrm_documents/views/documents.views.inc
+#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
+msgid "next ›"
+msgstr ""
+
+#: drupal/views_civicrm_documents/views/documents.views.inc
+#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
+msgid "last »"
+msgstr ""
+
+#: drupal/views_civicrm_documents/views/documents.views.inc
+#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
+msgid "Contact ID of document contact"
+msgstr ""
+
+#: drupal/views_civicrm_documents/views/documents.views.inc
+#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
+msgid "Versions"
+msgstr ""
+
+#: drupal/views_civicrm_documents/views/documents.views.inc
+#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
+#: templates/CRM/Documents/actionlinks.tpl
+msgid "View versions"
 msgstr ""
 
 #: CRM/Documents/DAO/DocumentEntity.php
@@ -99,22 +316,6 @@ msgstr ""
 msgid "Contacts"
 msgstr ""
 
-#: CRM/Documents/Selector/Search.php templates/CRM/Documents/Page/Versions.tpl
-msgid "Date added"
-msgstr ""
-
-#: CRM/Documents/Selector/Search.php templates/CRM/Documents/Page/Versions.tpl
-msgid "Added by"
-msgstr ""
-
-#: CRM/Documents/Selector/Search.php
-msgid "Date updated"
-msgstr ""
-
-#: CRM/Documents/Selector/Search.php
-msgid "Updated by"
-msgstr ""
-
 #: CRM/Documents/Selector/Search.php
 msgid "CiviCRM Documents Search"
 msgstr ""
@@ -129,6 +330,22 @@ msgstr ""
 
 #: documents.php
 msgid "Find documents"
+msgstr ""
+
+#: drupal/views_civicrm_documents/form.inc
+msgid "File"
+msgstr ""
+
+#: drupal/views_civicrm_documents/form.inc
+msgid "Save"
+msgstr ""
+
+#: drupal/views_civicrm_documents/form.inc
+msgid "Description of new version"
+msgstr ""
+
+#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
+msgid "Case"
 msgstr ""
 
 #: CRM/Documents/Upgrader.php
@@ -153,10 +370,6 @@ msgstr ""
 
 #: templates/CRM/Documents/Form/Document.tpl
 msgid "Case(s)"
-msgstr ""
-
-#: templates/CRM/Documents/Form/NewVersion.tpl
-msgid "Document"
 msgstr ""
 
 #: templates/CRM/Documents/Form/Search.tpl
@@ -254,15 +467,6 @@ msgstr ""
 msgid "Number"
 msgstr ""
 
-#: templates/CRM/Documents/Page/Versions.tpl
-#: templates/CRM/Documents/actionlinks.tpl
-msgid "Download"
-msgstr ""
-
 #: templates/CRM/Documents/actionlinks.tpl
 msgid "Edit"
-msgstr ""
-
-#: templates/CRM/Documents/actionlinks.tpl
-msgid "View versions"
 msgstr ""
