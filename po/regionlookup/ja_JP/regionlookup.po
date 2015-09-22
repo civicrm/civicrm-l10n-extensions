@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
 "POT-Creation-Date: 2014-05-30 06:55-0700\n"
-"PO-Revision-Date: 2015-09-21 04:06+0000\n"
+"PO-Revision-Date: 2015-09-21 22:43+0000\n"
 "Last-Translator: Satomi Sato <puritira2015@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/civicrm/civicrm_extensions/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -31,59 +31,59 @@ msgstr "フィールドセレクタ"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "District"
-msgstr ""
+msgstr "地区"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "Borough"
-msgstr ""
+msgstr "自治区"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "City"
-msgstr ""
+msgstr "市町村"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "County"
-msgstr ""
+msgstr "都道府県"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "State/Province"
-msgstr ""
+msgstr "都道府県"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "Country"
-msgstr ""
+msgstr "国"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "Postcode"
-msgstr ""
+msgstr "郵便番号"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "State/Province riding"
-msgstr ""
+msgstr "都道府県"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "Country riding"
-msgstr ""
+msgstr "国"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "Custom callback"
-msgstr ""
+msgstr "カスタムコールバック"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "Enable prefix-searching?"
-msgstr ""
+msgstr "プレフィックス検索を有効にしますか？"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "Enable wildcard search?"
-msgstr ""
+msgstr "ワイルドカード検索を有効にしますか？"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "Trigger search as the user types?"
-msgstr ""
+msgstr "ユーザタイプとしてトリガー検索しますか？"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "How many characters to send to the lookup query?"
-msgstr ""
+msgstr "検索クエリに多くの文字を送信する方法は？"
 
 #: CRM/RegionLookup/Upgrader.php
 msgid "Process first step"
@@ -95,7 +95,7 @@ msgstr "第二ステップ処理"
 
 #: CRM/RegionLookup/Upgrader.php
 msgid "Upgrade Batch (%1 => %2)"
-msgstr ""
+msgstr "アップグレードバッチ (%1 => %2)"
 
 #: CRM/RegionLookup/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
@@ -103,7 +103,7 @@ msgstr "リビジョン %2 へ %1 の更新"
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid "Lookup field"
-msgstr ""
+msgstr "ルックアップフィールド"
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid ""
@@ -111,7 +111,7 @@ msgid ""
 "billing block of contribution forms. If empty, it will disable the lookup "
 "function. Use the \"inspect element\" function of your browser to determine "
 "the correct selector."
-msgstr ""
+msgstr "フィールドは、ルックアップに使用します。これは、支援フォームの CiviCRM 課金ブロックにある郵便番号フィールドである必要があります。もし空の場合、ルックアップ機能は無効になります。正しい選択を判別するには、ブラウザの「要素の検証」機能を使用してください。"
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid "For example: .billing_name_address-section input#billing_postal_code-5"
@@ -122,31 +122,31 @@ msgid ""
 "This allows to find the closest match. For example, you may have the H1H "
 "postcode mapped to a value, with the exception of H1H 2A2 mapped to another "
 "value."
-msgstr ""
+msgstr "これは、最も一致するものを探せます。例えば、別の値にマッピングされた H1H2A2 を除外して、値にマッピングされた H1H の郵便番号を含めることができます。"
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid ""
 "This allows to search on partial matches. Makes sense mostly if used with "
 "the other options below. <strong>TODO: not implemented yet.</strong>"
-msgstr ""
+msgstr "これは、部分一致で検索することができます。以下の他のオプションとともに使用する場合は、意味があります。<strong>TODO: まだ実装されていません。.</strong>"
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid ""
 "Launches the search after each character typed by the user. Useful for "
 "partial matches with autocomplete. <strong>TODO: not implemented "
 "yet.</strong>"
-msgstr ""
+msgstr "ユーザが入力した各文字の後に検索を実行します。オートコンプリートと部分一致させるのに便利です。<strong>TODO: まだ実装されていません。.</strong>"
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid ""
 "For example, if your lookup only requires the first 3 digits of a postcode "
 "to find a match, enter 3 in this field. <strong>TODO: not implemented "
 "yet.</strong>"
-msgstr ""
+msgstr "例えば、ルックアップのみの一致を見つけるために郵便番号の最初の 3 桁が必要な場合は、このフィールドに 3 を入力してください。<strong>TODO: まだ実装されていません。.</strong>"
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid "Destination fields"
-msgstr ""
+msgstr "宛先フィールド"
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid ""
@@ -155,26 +155,26 @@ msgid ""
 "function of your browser to determine the correct selector. For example: the"
 " selector for a custom field ID 1 in a post profile is: "
 ".custom_post_profile-group #custom_1"
-msgstr ""
+msgstr "フィールドは、ルックアップによって更新されます。例えば、郵便番号の検索で、都道府県の地域フィールドを更新することができる、など。正しい選択を判別するには、ブラウザの「要素の検証」機能を使用してください。例 : POST プロファイルのカスタムフィールドID 1 のセレクタは次のとおりです : .custom_post_profile-group #custom_1"
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid "Custom overrides"
-msgstr ""
+msgstr "カスタムオーバーライド"
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid ""
 "Custom javascript function to call with the resulting data. This allows you "
 "to write your own custom callbacks and override how the response is handled."
-msgstr ""
+msgstr "カスタム JavaScript 関数は、結果データを呼び出します。これは、独自のカスタムコールバックを記述し、応答の処理方法を上書きすることができます。"
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid ""
 "Region Lookup is a CiviCRM extension openly available under the <a "
 "href=\"%1\">GNU AGPL License</a>."
-msgstr ""
+msgstr "Region Lookup は <a href=\"%1\">GNU AGPL ライセンス</a>の下で公然と利用できる CiviCRM のエクステンションです。"
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid ""
 "For new versions, bug reports or support, visit the <a href=\"%1\">project "
 "page on github</a>."
-msgstr ""
+msgstr "新バージョンでの、バグ報告やサポートについては<a href=\"%1\"> github のプロジェクトページ</a>にアクセスしてください。"
