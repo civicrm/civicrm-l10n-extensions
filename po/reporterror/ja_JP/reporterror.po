@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
 "POT-Creation-Date: 2015-05-22 22:33-0700\n"
-"PO-Revision-Date: 2015-09-21 04:19+0000\n"
+"PO-Revision-Date: 2015-09-21 22:17+0000\n"
 "Last-Translator: Satomi Sato <puritira2015@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/civicrm/civicrm_extensions/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgstr "メールの POST データを表示しますか？"
 
 #: CRM/Admin/Form/Setting/ReportError.php
 msgid "Display session data in e-mails?"
-msgstr ""
+msgstr "メールのセッションデータを表示しますか？"
 
 #: CRM/Admin/Form/Setting/ReportError.php
 msgid "- Select -"
@@ -39,31 +39,31 @@ msgstr "- 選択 -"
 
 #: CRM/Admin/Form/Setting/ReportError.php
 msgid "Do nothing (show the CiviCRM error)"
-msgstr ""
+msgstr "何もしない (CiviCRM エラーを表示)"
 
 #: CRM/Admin/Form/Setting/ReportError.php
 msgid "Redirect to front page of CMS"
-msgstr ""
+msgstr "CMSのフロントページにリダイレクト"
 
 #: CRM/Admin/Form/Setting/ReportError.php
 msgid "Redirect to a specific contribution page"
-msgstr ""
+msgstr "特定の支援ページにリダイレクト"
 
 #: CRM/Admin/Form/Setting/ReportError.php
 msgid "Enable transparent redirection?"
-msgstr ""
+msgstr "透明リダイレクトを有効にしますか？"
 
 #: CRM/Admin/Form/Setting/ReportError.php
 msgid "Send error reports for this particular error?"
-msgstr ""
+msgstr "この特定のエラーのエラーレポートを送信しますか？"
 
 #: CRM/Admin/Form/Setting/ReportError.php
 msgid "Redirect to Contribution Page"
-msgstr ""
+msgstr "支援ページにリダイレクト"
 
 #: CRM/Admin/Form/Setting/ReportError.php
 msgid "Send error reports for errors caused by bots?"
-msgstr ""
+msgstr "ボットが原因で発生したエラーのエラーレポートを送信しますか？"
 
 #: CRM/Admin/Form/Setting/ReportError.php
 msgid "Respond with a 404 page not found error?"
@@ -71,7 +71,7 @@ msgstr "404ページが見つかりませんエラーで応答しますか？"
 
 #: CRM/Admin/Form/Setting/ReportError.php
 msgid "Bots to ignore"
-msgstr ""
+msgstr "ボットを無視"
 
 #: CRM/Admin/Form/Setting/ReportError.php
 msgid "Save"
@@ -87,63 +87,63 @@ msgstr "設定を保存しました。"
 
 #: reporterror.php
 msgid "CiviCRM Error Report was uninstalled"
-msgstr ""
+msgstr "CiviCRM エラーレポートをアンインストール"
 
 #: reporterror.php
 msgid "redirected"
-msgstr ""
+msgstr "リダイレクト"
 
 #: reporterror.php
 msgid "bot"
-msgstr ""
+msgstr "ボット"
 
 #: reporterror.php
 msgid "CiviCRM error [%2] at %1"
-msgstr ""
+msgstr "%1 で CiviCRM エラー [%2]"
 
 #: reporterror.php
 msgid "CiviCRM error at %1"
-msgstr ""
+msgstr "%1 で CiviCRM エラー"
 
 #: reporterror.php
 msgid "There was a CiviCRM error at %1."
-msgstr ""
+msgstr "%1 で CiviCRM エラーが発生しました。"
 
 #: reporterror.php
 msgid "Date: %1"
-msgstr ""
+msgstr "日付 : %1"
 
 #: reporterror.php
 msgid "Error handling rules redirected the user to:"
-msgstr ""
+msgstr "エラー処理のルールはユーザをリダイレクトします : "
 
 #: templates/CRM/Admin/Form/Setting/ReportError.tpl
 msgid "General Setup"
-msgstr ""
+msgstr "一般的なセットアップ"
 
 #: templates/CRM/Admin/Form/Setting/ReportError.tpl
 msgid ""
 "This usually is your domain administrator's email. Separate multiple email "
 "addresses with a comma (','). If left empty, no e-mails will be sent."
-msgstr ""
+msgstr "これは通常、ドメイン管理者のメールです。メールアドレスが複数の場合は、カンマ ( ' , ' ) 区切りにしてください。空のままにした場合、メールは送信されません。"
 
 #: templates/CRM/Admin/Form/Setting/ReportError.tpl
 msgid ""
 "The full backtrace can provide more information on the variables passed to "
 "each function, but could expose more sensitive information."
-msgstr ""
+msgstr "完全なバックトレースは、各関数に渡された変数の、詳細な情報を提供することができますが、より多くの機密情報を公開することができます。"
 
 #: templates/CRM/Admin/Form/Setting/ReportError.tpl
 msgid ""
 "POST data is usually the data submitted in forms. This can include sensitive"
 " information."
-msgstr ""
+msgstr "POST データは、通常の形で送信されたデータです。これは、機密情報を含めることができます。"
 
 #: templates/CRM/Admin/Form/Setting/ReportError.tpl
 msgid ""
 "Session data can provide clues, but should probably be disabled most of the "
 "time, as it can include sensitive information."
-msgstr ""
+msgstr "セッションデータの手がかりを得ることができ、それに機密情報を含めることも可能ですが、ほとんどの場合、無効にしておく必要があります。"
 
 #: templates/CRM/Admin/Form/Setting/ReportError.tpl
 msgid "Contribution pages with no referrer"
@@ -154,15 +154,15 @@ msgid ""
 "Sometimes users might restore their browser session or share the link of the"
 " contribution 'thank you' page, which will result in a fatal error. You can "
 "use the options below to redirect visitors to a more relevant location."
-msgstr ""
+msgstr "時々ユーザは、自分のブラウザセッションで復元、または致命的なエラーになる支援の「感謝」ページのリンクを共有することがあります。より関連性の高い場所へ訪問者をリダイレクトするには、以下のオプションを使用することができます。"
 
 #: templates/CRM/Admin/Form/Setting/ReportError.tpl
 msgid ""
 "Web crawlers used by search engines can often generate a lot of errors. In "
 "some cases, this might be because you have invalid links, but in most cases,"
 " the bots are just being annoying and crawling where they shouldn't."
-msgstr ""
+msgstr "多くの場合、検索エンジンで使用されるウェブクローラは、エラーの多くを生成します。無効なリンクをを持つために、一部の例において殆どの場合は、迷惑なボットおよび、必要のないクロールをしている可能性があります。"
 
 #: templates/CRM/Admin/Form/Setting/ReportError.tpl
 msgid "If in doubt, leave this as is. The default is: !1"
-msgstr ""
+msgstr "少しでも疑問がある場合は、そのままにしておいてください。デフォルトは次のとおりです : !1"
