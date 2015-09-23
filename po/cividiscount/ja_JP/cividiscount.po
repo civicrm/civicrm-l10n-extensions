@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
 "POT-Creation-Date: 2014-05-20 05:30-0700\n"
-"PO-Revision-Date: 2015-09-22 03:06+0000\n"
+"PO-Revision-Date: 2015-09-22 09:28+0000\n"
 "Last-Translator: Satomi Sato <puritira2015@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/civicrm/civicrm_extensions/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -103,15 +103,15 @@ msgstr "償還コード"
 
 #: cividiscount.php
 msgid "The discount code you entered is invalid."
-msgstr ""
+msgstr "入力した割引コードは無効です。"
 
 #: cividiscount.php
 msgid "There are not enough uses remaining for this code."
-msgstr ""
+msgstr "このコードの残りに十分な用途がありません。"
 
 #: cividiscount.php
 msgid "If you have a discount code, enter it here"
-msgstr ""
+msgstr "割引コードをお持ちの場合は、ここに入力してください"
 
 #: cividiscount.php
 msgid "Apply"
@@ -151,11 +151,11 @@ msgstr "使用日"
 
 #: CRM/CiviDiscount/DAO/Track.php
 msgid "Entity Table"
-msgstr ""
+msgstr "エンティティテーブル"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "We need a valid discount ID for update and/or delete"
-msgstr ""
+msgstr "更新のために有効な割引IDを必要な場合、および / または削除します"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Discounts"
@@ -163,11 +163,11 @@ msgstr "割引"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Code already exists in Database."
-msgstr ""
+msgstr "コードは、既にデータベースに存在しています。"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Code can only consist of alpha-numeric characters"
-msgstr ""
+msgstr "コードは英数字でのみ構成することができます"
 
 #: CRM/CiviDiscount/Form/Admin.php templates/CRM/CiviDiscount/Page/View.tpl
 msgid "Discount"
@@ -175,20 +175,20 @@ msgstr "割引"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Percentage"
-msgstr ""
+msgstr "パーセンテージ"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Monetary"
-msgstr ""
+msgstr "金銭的"
 
 #: CRM/CiviDiscount/Form/Admin.php templates/CRM/CiviDiscount/Page/List.tpl
 #: templates/CRM/CiviDiscount/Page/View.tpl
 msgid "Usage"
-msgstr ""
+msgstr "使用法"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Must be an integer"
-msgstr ""
+msgstr "整数でなければなりません。"
 
 #: CRM/CiviDiscount/Form/Admin.php templates/CRM/CiviDiscount/Page/View.tpl
 msgid "Organization"
@@ -208,15 +208,15 @@ msgstr "割引対象外のユーザへメッセージ"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Specify entity for advanced autodiscount"
-msgstr ""
+msgstr "高度な自動割引のエンティティを指定"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "--any event--"
-msgstr ""
+msgstr "--任意のイベント--"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Event Types"
-msgstr ""
+msgstr "イベントタイプ"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "PriceSets"
@@ -224,17 +224,17 @@ msgstr "価格セット"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Selected Discount has been deleted."
-msgstr ""
+msgstr "選択した割引を削除されました。"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Selected Discount has been duplicated."
-msgstr ""
+msgstr "選択した割引は重複しています。"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid ""
 "You selected `any event` and specific events, specific events have been "
 "unset"
-msgstr ""
+msgstr "あなたが選択した `任意のイベント` や特定のイベントで、特定のイベントの設定が解除されています"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "The discount '%1' has been saved."
@@ -242,21 +242,21 @@ msgstr "割引「%1」を保存しました。"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "You cannot nest apis in the advanced filter"
-msgstr ""
+msgstr "高度なフィルタのネストAPIを使用することができません"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "You have a criteria without an = sign"
-msgstr ""
+msgstr "記号 = は、無しの条件を持っています"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid ""
 "You set \"any current status\" and specific statuses, specific statuses have"
 " been discarded"
-msgstr ""
+msgstr "あなたは、「任意の現在のステータス」の設定や、特定のステータスで、特定のステータスが破棄されました"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Automatic discount for existing members of type"
-msgstr ""
+msgstr "タイプに既存メンバーのための自動割引"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Automatic discount for Membership Statuses"
@@ -322,25 +322,25 @@ msgstr "割引コード"
 msgid ""
 "This discount will not be usable before this date. Leave blank to have it be"
 " enabled right away."
-msgstr ""
+msgstr "この割引は、この日付以前に使用できません。すぐ有効にする場合は、空白のままにしてください。"
 
 #: templates/CRM/CiviDiscount/Form/Admin.hlp
 msgid ""
 "This discount will not be usable after this date. Leave blank to have it "
 "never expire."
-msgstr ""
+msgstr "この割引は、この日付以後に使用できなくなります。失効させない場合は、空白のままにしてください。"
 
 #: templates/CRM/CiviDiscount/Form/Admin.hlp
 msgid ""
 "Used to associate this discount code with an organization. Every time this "
 "code is used it will be recorded on that organization's contact record."
-msgstr ""
+msgstr "団体でこの割引コードを関連付けるために使用します。このコードが使用されるたびに、それその団体の連絡先レコードに記録されます。"
 
 #: templates/CRM/CiviDiscount/Form/Admin.hlp
 msgid ""
 "Anyone with the selected memberships or contact attributes will "
 "automatically have the discount code applied."
-msgstr ""
+msgstr "選択された会員や連絡先の属性を持つ誰もが自動的に割引コードの適用がされます。"
 
 #: templates/CRM/CiviDiscount/Form/Admin.hlp
 msgid ""
@@ -353,7 +353,7 @@ msgstr "Autodiscount は一般ユーザに配られて<em>いない</em>ラン�
 msgid ""
 "Allow discounts to be used on the selected events. Only active, public and "
 "current/future events are listed."
-msgstr ""
+msgstr "選択されたイベントで使用する割引を許可します。アクティブなもののみ、パブリックおよび、現在 / 未来のイベントが記載されています。"
 
 #: templates/CRM/CiviDiscount/Form/Admin.hlp
 msgid ""
@@ -365,7 +365,7 @@ msgstr "価格セットの 1 つ以上のフィールドに、この割引を適
 msgid ""
 "Discount the price of purchasing memberships. Only active memberships with "
 "start and end dates defined will appear in this list."
-msgstr ""
+msgstr "会員を購入する際の価格を割り引きます。このリストで定義された開始日と終了日を有するアクティブなメンバーにのみ表示されます。"
 
 #: templates/CRM/CiviDiscount/Form/Admin.hlp
 msgid ""
@@ -384,7 +384,7 @@ msgstr "割引をコピー"
 
 #: templates/CRM/CiviDiscount/Form/Admin.tpl
 msgid "Are you sure you want to copy this discount code?"
-msgstr ""
+msgstr "この割引コードをコピーしてもよろしいですか？"
 
 #: templates/CRM/CiviDiscount/Form/Admin.tpl
 msgid ""
@@ -394,25 +394,25 @@ msgstr "警告 : この割引コード (%1) を削除すると、この割引を
 
 #: templates/CRM/CiviDiscount/Form/Admin.tpl
 msgid "Do you want to continue?"
-msgstr ""
+msgstr "続行しますか？"
 
 #: templates/CRM/CiviDiscount/Form/Admin.tpl
 msgid "WARNING: Do NOT use spaces in the Discount Code."
-msgstr ""
+msgstr "警告 : 割引コードにはスペースを使用しないでください。"
 
 #: templates/CRM/CiviDiscount/Form/Admin.tpl
 msgid "The amount (monetary or percentage) of the discount."
-msgstr ""
+msgstr "割引の (金銭的、またはパーセンテージ) 金額。"
 
 #: templates/CRM/CiviDiscount/Form/Admin.tpl
 msgid "How many times can this code be used? Use 0 for unlimited.."
-msgstr ""
+msgstr "このコードは、何度も使用可能にしますか？無制限の場合は 0 を使用してください.."
 
 #: templates/CRM/CiviDiscount/Form/Admin.tpl
 msgid ""
 "If you use price sets for your events, you also need to select any "
 "discountable price sets below."
-msgstr ""
+msgstr "イベントに価格セットを使用する場合は、以下の、いずれかの割引対象の価格セットを選択する必要があります。"
 
 #: templates/CRM/CiviDiscount/Form/Admin.tpl
 msgid "Discounts apply to these memberships"
@@ -420,7 +420,7 @@ msgstr "割引は、これらの会員に適用されます"
 
 #: templates/CRM/CiviDiscount/Form/Admin.tpl
 msgid "Discounts applied automatically when these criteria are met"
-msgstr ""
+msgstr "これら条件が満たされた再に、割引が自動的に適用されます"
 
 #: templates/CRM/CiviDiscount/Page/List.tpl
 msgid ""
@@ -499,12 +499,12 @@ msgstr "有効ですか？"
 
 #: templates/CRM/CiviDiscount/Page/View.tpl
 msgid "Yes"
-msgstr ""
+msgstr "はい"
 
 #: templates/CRM/CiviDiscount/Page/View.tpl
 msgid "No"
-msgstr ""
+msgstr "いいえ"
 
 #: templates/CRM/CiviDiscount/Page/View.tpl
 msgid "Note"
-msgstr ""
+msgstr "注意"
