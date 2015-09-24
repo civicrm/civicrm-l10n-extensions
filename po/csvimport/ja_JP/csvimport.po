@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
 "POT-Creation-Date: 2014-06-16 05:30-0700\n"
-"PO-Revision-Date: 2015-09-23 01:59+0000\n"
+"PO-Revision-Date: 2015-09-23 06:10+0000\n"
 "Last-Translator: Satomi Sato <puritira2015@gmail.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/civicrm/civicrm_extensions/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -193,24 +193,24 @@ msgid ""
 "Enter the character used to separate data columns in your import file. By default, the field\n"
 "  will populate with the separator defined in your global settings. Common values include a comma, semicolon,\n"
 "  or pipe character. To import a tab separated file, enter \"tab\" (without quotes) in the field."
-msgstr ""
+msgstr "インポートファイル内のデータ列を区切るために使用する文字を入力してください。デフォルトでは、フィールドには、あなたのグローバル設定で定義されたセパレータを取り込みます。\n  一般的な値は、カンマ、セミコロン、またはパイプ文字が含まれています。フィールドに (引用符なし) 「タブ」を入力して、タブ区切りのファイルをインポートします。"
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid ""
 "The API Import Wizard allows you to easily upload data against any API "
 "create method from other applications into CiviCRM."
-msgstr ""
+msgstr "APIインポートウィザードを使用すると、簡単に任意のAPIに対するデータで CiviCRM に他アプリケーションからのメソッドを作成し、アップロードすることができます。"
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid ""
 "Files to be imported must be in the 'comma-separated-values' format (CSV) "
 "and must contain data needed to match the data to an existing record in your"
 " CiviCRM database."
-msgstr ""
+msgstr "ファイル形式 (CSV) 値はコンマ区切りである必要があり、およびインポートする際は、CiviCRM データベース内の既存レコードにデータを一致させるため、必要なデータが含まれている必要があります。"
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid "File format must be comma-separated-values (CSV)."
-msgstr ""
+msgstr "ファイル形式 (CSV) 値はコンマ区切りである必要があります。"
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid "Maximum Upload File Size: %1 MB"
@@ -234,7 +234,7 @@ msgstr "保存したフィールドマッピングを\n読み込みます"
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid "Select Saved Mapping, or leave blank to create a new mapping."
-msgstr ""
+msgstr "保存されたマッピングを選択するか、新しいマッピングを作成する場合は空白のままにしてください。"
 
 #: templates/CRM/Csvimport/Import/Form/MapField.tpl
 msgid ""
@@ -242,14 +242,14 @@ msgid ""
 "select the matching CiviCRM database fields from the drop-down lists in the "
 "right-hand column. Select '- do not import -' for any columns in the import "
 "file that you want ignored."
-msgstr ""
+msgstr "インポートファイルの最初の 2 行から、以下に示す値を確認し、右側の列にあるドロップダウンリストから一致する CiviCRM のデータベースフィールドを選択してください。また、無視したいインポートファイル内のすべての列に対して「- インポートしない -」を選択してください。"
 
 #: templates/CRM/Csvimport/Import/Form/MapField.tpl
 msgid ""
 "Click 'Load Saved Field Mapping' if data has been previously imported from "
 "the same source. You can then select the saved import mapping setup and load"
 " it automatically."
-msgstr ""
+msgstr "データが以前に同じソースからインポートされている場合は「保存されたフィールドマッピングの読み込み」をクリックしてください。その後、保存されたインポートマッピングの設定を選択し、それを自動的に読み込むことができます。"
 
 #: templates/CRM/Csvimport/Import/Form/MapField.tpl
 msgid ""
@@ -257,7 +257,7 @@ msgid ""
 " check 'Save this field mapping' at the bottom of the page before "
 "continuing. The saved mapping can then be easily reused the next time data "
 "is imported."
-msgstr ""
+msgstr "同じデータソースから追加のデータをインポートすることが可能である場合は、続行する前に、ページの下部にある「このフィールドマッピングを保存します」をチェックしてください。保存されたマッピングは、簡単にデータをインポートする次の時に再利用することができます。"
 
 #: templates/CRM/Csvimport/Import/Form/MapTable.tpl
 msgid "Saved Field Mapping: %1"
@@ -415,14 +415,14 @@ msgid ""
 msgid_plural ""
 "CiviCRM has detected %count records which are duplicates of existing CiviCRM"
 " participant records."
-msgstr[0] ""
+msgstr[0] "CiviCRM は、既存の CiviCRM 参加者レコードの重複している %count のレコードを検出しました。"
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid ""
 "You can <a href=\"%1\">Download Duplicates</a>. You may then review these "
 "records to determine if they are actually duplicates, and correct the "
 "transaction IDs for those that are not."
-msgstr ""
+msgstr "あなたは、<a href=\"%1\">重複をダウンロード</a>することができます。彼らが実際に競合しているか判断するために、これらレコードを確認し、そうでないものは取引IDへ補正することができます。"
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Total rows (participant records) in uploaded file."
@@ -438,11 +438,11 @@ msgstr "不一致な行 (スキップ)"
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Rows with mismatched participant IDs... (NOT updated)."
-msgstr ""
+msgstr "一致しない参加者IDを持つ行... (更新なし)"
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Download Mismatched participants"
-msgstr ""
+msgstr "一致しない参加者をダウンロード"
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Conflicting Rows (skipped)"
@@ -450,7 +450,7 @@ msgstr "競合する行 (スキップ)"
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Rows with conflicting transaction IDs (NOT imported)."
-msgstr ""
+msgstr "競合する取引IDを持つ行 (更新なし)"
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Duplicate Rows"
@@ -458,7 +458,7 @@ msgstr "重複の行"
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Rows which are duplicates of existing CiviCRM records."
-msgstr ""
+msgstr "既存の CiviCRM レコードの重複している行。"
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Download Duplicates"
