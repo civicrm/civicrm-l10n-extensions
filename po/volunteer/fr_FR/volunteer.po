@@ -5,97 +5,36 @@
 # Translators:
 # Pierre Mathieu <pierrem7@gmail.com>, 2013
 # Vincent <vincent.primault@gmail.com>, 2014
+# Xynn <xynn.anhnguyen@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2014-04-28 17:14-0700\n"
-"PO-Revision-Date: 2014-07-18 10:35+0000\n"
-"Last-Translator: Vincent <vincent.primault@gmail.com>\n"
-"Language-Team: French (http://www.transifex.com/projects/p/civicrm_extensions/language/fr/)\n"
+"POT-Creation-Date: 2014-08-05 05:30-0700\n"
+"PO-Revision-Date: 2015-10-30 21:48+0000\n"
+"Last-Translator: Xynn <xynn.anhnguyen@gmail.com>\n"
+"Language-Team: French (http://www.transifex.com/civicrm/civicrm_extensions/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: /js/apps/define/define_views.js js/apps/define/define_views.js
-msgid ""
-"There is currently %count volunteer assigned to this need. The volunteer's "
-"activity history will be preserved, but they will be disconnected from this "
-"shift."
-msgstr ""
+#: api/v3/VolunteerNeed.php CRM/Volunteer/DAO/Need.php
+msgid "Flexible"
+msgstr "Flexible"
 
-#: /js/apps/define/define_views.js js/apps/define/define_views.js
-msgid ""
-"There is currently %1 volunteer assigned to this need. The volunteer's "
-"activity history will be preserved, but they will be disconnected from this "
-"shift."
-msgstr ""
+#: CRM/Volunteer/DAO/Need.php CRM/Volunteer/DAO/Project.php
+msgid "Enabled"
+msgstr "Activé"
 
-#: /js/apps/define/define_views.js js/apps/define/define_views.js
-msgid "There are currently %1 volunteers assigned to this need."
-msgstr "Il y a actuellement %1 bénévoles affectés à ce besoin."
+#: CRM/Volunteer/Form/Volunteer.php volunteer.php
+msgid "Volunteers"
+msgstr "Bénévoles"
 
-#: /js/apps/define/define_views.js js/apps/define/define_views.js
-msgid ""
-"There are currently %1 volunteers assigned to this need. The volunteers' "
-"activity histories will be preserved, but they will be disconnected from "
-"this shift."
-msgstr ""
-
-#: /js/apps/define/define_views.js js/apps/define/define_views.js
-msgid "Delete %1"
-msgstr "Supprimer %1"
-
-#: /js/apps/define/define_views.js /js/apps/volunteer_app.js
-#: CRM/Volunteer/Form/Log.php js/apps/define/define_views.js
-#: js/apps/volunteer_app.js
-msgid "Saved"
-msgstr "Enregistrée"
-
-#: /js/apps/volunteer_app.js /js/apps/assign/assign_views.js
-#: js/apps/volunteer_app.js js/apps/assign/assign_views.js
-#: templates/CRM/Volunteer/Form/Manage/Assign.tpl
-#: templates/CRM/Volunteer/Form/Manage/Define.tpl
-msgid "Loading"
-msgstr "Chargement"
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-#: templates/CRM/Volunteer/Form/Manage/Assign.tpl
-msgid "Available Volunteers"
-msgstr "Bénévoles disponibles"
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-msgid "Copied"
-msgstr "Copié"
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-msgid "%1 More Needed"
-msgstr "besoin de %1 autres"
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-msgid "%1 Needed"
-msgstr "%1 nécessaires"
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-msgid "None"
-msgstr "Aucun"
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-msgid "%1 has been created."
-msgstr "%1 a été créé."
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-msgid "Contact Saved"
-msgstr "Contact enregistré"
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-msgid "Delete Volunteer"
-msgstr "Supprimer le bénévole"
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-msgid "Remove %1 from %2?"
-msgstr ""
+#: CRM/Volunteer/Form/VolunteerReport.php
+#: CRM/Volunteer/Form/VolunteerSignUp.php
+msgid "Volunteer Role"
+msgstr "Rôle du bénévole"
 
 #: CRM/Volunteer/BAO/Need.php
 msgid "I'm Flexible"
@@ -113,10 +52,6 @@ msgstr "Date et heure de début"
 msgid "Duration"
 msgstr "Durée"
 
-#: CRM/Volunteer/DAO/Need.php api/v3/VolunteerNeed.php
-msgid "Flexible"
-msgstr "Flexible"
-
 #: CRM/Volunteer/DAO/Need.php
 msgid "Quantity"
 msgstr "Quantité"
@@ -129,10 +64,6 @@ msgstr "Visibilité"
 #: templates/CRM/Volunteer/Form/Manage/Define.tpl
 msgid "Role"
 msgstr "Rôle"
-
-#: CRM/Volunteer/DAO/Need.php CRM/Volunteer/DAO/Project.php
-msgid "Enabled"
-msgstr "Activé"
 
 #: CRM/Volunteer/DAO/Project.php
 msgid "CiviVolunteer Project ID"
@@ -166,6 +97,12 @@ msgstr "Veuillez entrer la durée réelle de l'activité bénévole completée"
 msgid "Volunteer hours have been logged."
 msgstr ""
 
+#: CRM/Volunteer/Form/Log.php /js/apps/define/define_views.js
+#: /js/apps/volunteer_app.js js/apps/define/define_views.js
+#: js/apps/volunteer_app.js
+msgid "Saved"
+msgstr "Enregistrée"
+
 #: CRM/Volunteer/Form/Volunteer.php
 msgid "Enable Volunteer Management?"
 msgstr "Activer Gestion des bénévoles?"
@@ -173,10 +110,6 @@ msgstr "Activer Gestion des bénévoles?"
 #: CRM/Volunteer/Form/Volunteer.php
 msgid "Select Beneficiary"
 msgstr "Sélectionner le bénéficiaire"
-
-#: CRM/Volunteer/Form/Volunteer.php volunteer.php
-msgid "Volunteers"
-msgstr "Bénévoles"
 
 #: CRM/Volunteer/Form/VolunteerReport.php
 msgid "Project"
@@ -251,11 +184,6 @@ msgid "Activity Subject"
 msgstr "Sujet de l'activité"
 
 #: CRM/Volunteer/Form/VolunteerReport.php
-#: CRM/Volunteer/Form/VolunteerSignUp.php
-msgid "Volunteer Role"
-msgstr "Rôle du bénévole"
-
-#: CRM/Volunteer/Form/VolunteerReport.php
 msgid "Time Scheduled in Minutes"
 msgstr "Temps-durée programmé en minutes"
 
@@ -300,18 +228,6 @@ msgid "You are scheduled to volunteer. Thank you!"
 msgstr "Vous êtes programmé au bénévolat. Merci!"
 
 #: CRM/Volunteer/Upgrader.php
-msgid "Process first step"
-msgstr "Traiter la première étape"
-
-#: CRM/Volunteer/Upgrader.php
-msgid "Process second step"
-msgstr "Traiter la deuxième étape"
-
-#: CRM/Volunteer/Upgrader.php
-msgid "Upgrade Batch (%1 => %2)"
-msgstr "Mettre à jour Lot (% 1 =>% 2)"
-
-#: CRM/Volunteer/Upgrader.php
 msgid "Volunteer"
 msgstr "Bénévole"
 
@@ -322,10 +238,6 @@ msgstr "Disponible"
 #: CRM/Volunteer/Upgrader.php
 msgid "No-show"
 msgstr " défection "
-
-#: CRM/Volunteer/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Mettre à jour %1 à la révision %2"
 
 #: volunteer.php
 msgid "Getting Started:"
@@ -369,11 +281,100 @@ msgstr ""
 
 #: volunteer.php
 msgid "Correct the problem at <a href=\"%1\">Settings - Resource URLs</a>."
-msgstr ""
+msgstr "Corrigez ce problème en allant dans <a href=\"%1\">Paramètres - URLs Sources</a>."
 
 #: volunteer.php
 msgid "Error"
 msgstr "Erreur"
+
+#: /js/apps/define/define_views.js js/apps/define/define_views.js
+msgid ""
+"There is currently %count volunteer assigned to this need. The volunteer's "
+"activity history will be preserved, but they will be disconnected from this "
+"shift."
+msgstr ""
+
+#: /js/apps/define/define_views.js js/apps/define/define_views.js
+msgid ""
+"There is currently %1 volunteer assigned to this need. The volunteer's "
+"activity history will be preserved, but they will be disconnected from this "
+"shift."
+msgstr ""
+
+#: /js/apps/define/define_views.js js/apps/define/define_views.js
+msgid "There are currently %1 volunteers assigned to this need."
+msgstr "Il y a actuellement %1 bénévoles affectés à ce besoin."
+
+#: /js/apps/define/define_views.js js/apps/define/define_views.js
+msgid ""
+"There are currently %1 volunteers assigned to this need. The volunteers' "
+"activity histories will be preserved, but they will be disconnected from "
+"this shift."
+msgstr ""
+
+#: /js/apps/define/define_views.js js/apps/define/define_views.js
+msgid "Delete %1"
+msgstr "Supprimer %1"
+
+#: /js/apps/volunteer_app.js /js/apps/assign/assign_views.js
+#: js/apps/volunteer_app.js js/apps/assign/assign_views.js
+#: templates/CRM/Volunteer/Form/Manage/Assign.tpl
+#: templates/CRM/Volunteer/Form/Manage/Define.tpl
+msgid "Loading"
+msgstr "Chargement"
+
+#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
+#: templates/CRM/Volunteer/Form/Manage/Assign.tpl
+msgid "Available Volunteers"
+msgstr "Bénévoles disponibles"
+
+#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
+msgid "Copied"
+msgstr "Copié"
+
+#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
+msgid "%1 More Needed"
+msgstr "besoin de %1 autres"
+
+#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
+msgid "%1 Needed"
+msgstr "%1 nécessaires"
+
+#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
+msgid "None"
+msgstr "Aucun"
+
+#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
+msgid "%1 has been created."
+msgstr "%1 a été créé."
+
+#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
+msgid "Contact Saved"
+msgstr "Contact enregistré"
+
+#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
+msgid "Delete Volunteer"
+msgstr "Supprimer le bénévole"
+
+#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
+msgid "Remove %1 from %2?"
+msgstr "Retirer %1 de %2 ?"
+
+#: CRM/Volunteer/Upgrader/Base.php
+msgid "Upgrade %1 to revision %2"
+msgstr "Mettre à jour %1 à la révision %2"
+
+#: CRM/Volunteer/Upgrader.php
+msgid "Process first step"
+msgstr "Traiter la première étape"
+
+#: CRM/Volunteer/Upgrader.php
+msgid "Process second step"
+msgstr "Traiter la deuxième étape"
+
+#: CRM/Volunteer/Upgrader.php
+msgid "Upgrade Batch (%1 => %2)"
+msgstr "Mettre à jour Lot (% 1 =>% 2)"
 
 #: templates/CRM/Volunteer/Form/Log.tpl
 msgid ""
@@ -546,7 +547,7 @@ msgstr ""
 
 #: templates/CRM/Volunteer/Form/Volunteer.hlp
 msgid "Beneficiary"
-msgstr ""
+msgstr "Bénéficiaire"
 
 #: templates/CRM/Volunteer/Form/Volunteer.hlp
 msgid ""
@@ -567,13 +568,13 @@ msgid ""
 "If you want to disable Volunteer Management for this event, uncheck\n"
 "      the box below and submit the form. Disabling Volunteer Management for this\n"
 "      event will not result in loss of volunteer data."
-msgstr ""
+msgstr "Si vous voulez désactiver le Management de volontaires pour cet événement, décochez \nla case ci-dessous et validez. Désactiver le Management de volontaires pour cet \névénement ne vous fera pas perdre les données concernant les volontaires."
 
 #: templates/CRM/Volunteer/Form/Volunteer.tpl
 msgid ""
 "If you want to enable Volunteer Management for this event, check\n"
 "      the box below and submit the form."
-msgstr ""
+msgstr "Si vous voulez activer le Management de volontaires pour cet événement, cochez \nla case ci-dessous et validez."
 
 #: templates/CRM/Volunteer/Form/Volunteer.tpl
 msgid "Define Volunteer Needs"
