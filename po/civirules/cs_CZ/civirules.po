@@ -1,4 +1,4 @@
-# Copyright CiviCRM LLC (c) 2004-2014
+# Copyright CiviCRM LLC (c) 2004-2015
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
@@ -6,8 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2015-10-14 22:34-0700\n"
-"PO-Revision-Date: 2015-10-15 05:34+0000\n"
+"POT-Creation-Date: 2018-02-06 17:41+0000\n"
+"PO-Revision-Date: 2018-02-06 17:41+0000\n"
+"Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
 "Language-Team: Czech (http://www.transifex.com/civicrm/civicrm_extensions/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,9 +16,139 @@ msgstr ""
 "Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
+#: CRM/Civirules/Delay/DayOfMonthBasedOnContribution.php
+msgid "Delay by the xth day of the month of the contribution"
+msgstr ""
+
+#: CRM/Civirules/Delay/DayOfMonthBasedOnContribution.php
+msgid "Delay by the %1 day of the month of the contribution"
+msgstr ""
+
+#: CRM/Civirules/Delay/DayOfMonthBasedOnContribution.php
+msgid "Day of month (1-31)"
+msgstr ""
+
+#: CRM/Civirules/Delay/DayOfMonthBasedOnContribution.php
+msgid "You need to provide a day of the month (between 1 and 31)"
+msgstr ""
+
+#: CRM/Civirules/Delay/DayOfMonthBasedOnContribution.php
+msgid "This delay is not available with trigger %1"
+msgstr ""
+
+#: CRM/Civirules/Delay/DelayBasedOnDateField.php
+msgid "Base delay on date field in trigger"
+msgstr ""
+
+#: CRM/Civirules/Delay/DelayBasedOnDateField.php
+msgid "%1 of %2.%3"
+msgstr ""
+
+#: CRM/Civirules/Delay/DelayBasedOnDateField.php
+msgid "Modifier"
+msgstr ""
+
+#: CRM/Civirules/Delay/DelayBasedOnDateField.php
+msgid "Before"
+msgstr ""
+
+#: CRM/Civirules/Delay/DelayBasedOnDateField.php
+#: templates/CRM/Civirules/Delay/XWeekDay.tpl
+#: templates/CRM/Civirules/Delay/XWeekDayOfMonth.tpl
+msgid "After"
+msgstr ""
+
+#: CRM/Civirules/Delay/DelayBasedOnDateField.php
+#: CRM/CivirulesConditions/Form/Contribution/SpecificAmount.php
+msgid "Amount"
+msgstr ""
+
+#: CRM/Civirules/Delay/DelayBasedOnDateField.php
+msgid "Unit"
+msgstr ""
+
+#: CRM/Civirules/Delay/DelayBasedOnDateField.php
+msgid "Day(s)"
+msgstr ""
+
+#: CRM/Civirules/Delay/DelayBasedOnDateField.php
+msgid "Month(s)"
+msgstr ""
+
+#: CRM/Civirules/Delay/DelayBasedOnDateField.php
+msgid "Week(s)"
+msgstr ""
+
+#: CRM/Civirules/Delay/DelayBasedOnDateField.php
+#: CRM/CivirulesConditions/Form/FieldValueComparison.php
+msgid "Entity"
+msgstr ""
+
+#: CRM/Civirules/Delay/DelayBasedOnDateField.php
+#: CRM/CivirulesActions/Case/Form/SetDateField.php
+#: CRM/CivirulesConditions/Form/FieldValueComparison.php
+msgid "Field"
+msgstr ""
+
+#: CRM/Civirules/Delay/DelayBasedOnDateField.php
+msgid "You need to select before or after"
+msgstr ""
+
+#: CRM/Civirules/Delay/DelayBasedOnDateField.php
+msgid "You need to specify"
+msgstr ""
+
+#: CRM/Civirules/Delay/DelayBasedOnDateField.php
+msgid "You need to select an unit"
+msgstr ""
+
+#: CRM/Civirules/Delay/DelayBasedOnDateField.php
+msgid "You need to select an entity"
+msgstr ""
+
+#: CRM/Civirules/Delay/DelayBasedOnDateField.php
+msgid "You need to select a field"
+msgstr ""
+
+#: CRM/Civirules/Delay/XDays.php
+msgid "Delay by a number of days"
+msgstr ""
+
+#: CRM/Civirules/Delay/XDays.php
+msgid "Delay by %1 days"
+msgstr ""
+
 #: CRM/Civirules/Delay/XDays.php CRM/Civirules/Delay/XWeekDay.php
 #: CRM/Civirules/Delay/XWeekDayOfMonth.php
 msgid "Days"
+msgstr ""
+
+#: CRM/Civirules/Delay/XDays.php
+msgid "You need to provide a number of days"
+msgstr ""
+
+#: CRM/Civirules/Delay/XMinutes.php
+msgid "Delay by a number of minutes"
+msgstr ""
+
+#: CRM/Civirules/Delay/XMinutes.php
+msgid "Delay by %1 minutes"
+msgstr ""
+
+#: CRM/Civirules/Delay/XMinutes.php
+msgid "Minutes"
+msgstr ""
+
+#: CRM/Civirules/Delay/XMinutes.php
+msgid "You need to provide a number of minutess"
+msgstr ""
+
+#: CRM/Civirules/Delay/XWeekDay.php
+msgid "Day of week"
+msgstr ""
+
+#: CRM/Civirules/Delay/XWeekDay.php
+msgid "Delay to %1 of %2 at %3:%4"
 msgstr ""
 
 #: CRM/Civirules/Delay/XWeekDay.php CRM/Civirules/Delay/XWeekDayOfMonth.php
@@ -60,199 +191,6 @@ msgstr ""
 msgid "Saturday"
 msgstr ""
 
-#: CRM/Civirules/Delay/XWeekDay.php CRM/Civirules/Delay/XWeekDayOfMonth.php
-msgid "You need to provide a number between 0 and 23"
-msgstr ""
-
-#: CRM/Civirules/Delay/XWeekDay.php CRM/Civirules/Delay/XWeekDayOfMonth.php
-msgid "You need to provide a number between 0 and 59"
-msgstr ""
-
-#: CRM/Civirules/Form/Rule.php CRM/Civirules/Form/RuleAction.php
-#: CRM/Civirules/Form/RuleCondition.php
-#: CRM/CivirulesActions/Activity/Form/Activity.php
-#: CRM/CivirulesActions/Contact/Form/Subtype.php
-#: CRM/CivirulesActions/Contribution/Form/ThankYouDate.php
-#: CRM/CivirulesActions/GroupContact/Form/GroupId.php
-#: CRM/CivirulesActions/Tag/Form/TagId.php
-#: CRM/CivirulesConditions/Form/Activity/RecordType.php
-#: CRM/CivirulesConditions/Form/Activity/Type.php
-#: CRM/CivirulesConditions/Form/Contact/HasTag.php
-#: CRM/CivirulesConditions/Form/Contact/InGroup.php
-#: CRM/CivirulesConditions/Form/Contribution/CountRecurring.php
-#: CRM/CivirulesConditions/Form/Contribution/DistinctContributingDay.php
-#: CRM/CivirulesConditions/Form/Contribution/DonorIsRecurring.php
-#: CRM/CivirulesConditions/Form/Contribution/FinancialType.php
-#: CRM/CivirulesConditions/Form/Contribution/PaidBy.php
-#: CRM/CivirulesConditions/Form/Contribution/RecurringEndDate.php
-#: CRM/CivirulesConditions/Form/Contribution/SpecificAmount.php
-#: CRM/CivirulesConditions/Form/Contribution/Status.php
-#: CRM/CivirulesConditions/Form/GroupContact/GroupId.php
-#: CRM/CivirulesConditions/Form/Membership/Status.php
-#: CRM/CivirulesConditions/Form/Membership/Type.php
-#: CRM/CivirulesConditions/Form/ValueComparison.php
-#: CRM/CivirulesCronTrigger/Form/GroupMembership.php
-msgid "Cancel"
-msgstr ""
-
-#: CRM/Civirules/Form/Rule.php CRM/Civirules/Page/Rule.php
-msgid "Delete"
-msgstr ""
-
-#: CRM/Civirules/Form/Rule.php CRM/Civirules/Form/RuleAction.php
-#: CRM/Civirules/Form/RuleCondition.php
-#: CRM/CivirulesActions/Activity/Form/Activity.php
-#: CRM/CivirulesActions/Contact/Form/Subtype.php
-#: CRM/CivirulesActions/Contribution/Form/ThankYouDate.php
-#: CRM/CivirulesActions/GroupContact/Form/GroupId.php
-#: CRM/CivirulesActions/Tag/Form/TagId.php
-#: CRM/CivirulesConditions/Form/Activity/RecordType.php
-#: CRM/CivirulesConditions/Form/Activity/Type.php
-#: CRM/CivirulesConditions/Form/Contact/HasTag.php
-#: CRM/CivirulesConditions/Form/Contact/InGroup.php
-#: CRM/CivirulesConditions/Form/Contribution/CountRecurring.php
-#: CRM/CivirulesConditions/Form/Contribution/DistinctContributingDay.php
-#: CRM/CivirulesConditions/Form/Contribution/DonorIsRecurring.php
-#: CRM/CivirulesConditions/Form/Contribution/FinancialType.php
-#: CRM/CivirulesConditions/Form/Contribution/PaidBy.php
-#: CRM/CivirulesConditions/Form/Contribution/RecurringEndDate.php
-#: CRM/CivirulesConditions/Form/Contribution/SpecificAmount.php
-#: CRM/CivirulesConditions/Form/Contribution/Status.php
-#: CRM/CivirulesConditions/Form/GroupContact/GroupId.php
-#: CRM/CivirulesConditions/Form/Membership/Status.php
-#: CRM/CivirulesConditions/Form/Membership/Type.php
-#: CRM/CivirulesConditions/Form/ValueComparison.php
-#: CRM/CivirulesCronTrigger/Form/GroupMembership.php
-msgid "Save"
-msgstr ""
-
-#: CRM/Civirules/Form/Rule.php CRM/Civirules/Page/Rule.php
-msgid "Edit"
-msgstr ""
-
-#: CRM/Civirules/Page/Rule.php civirules.php
-msgid "CiviRules"
-msgstr ""
-
-#: CRM/CivirulesActions/Activity/Form/Activity.php
-#: CRM/CivirulesActions/Contact/Form/Subtype.php
-#: CRM/CivirulesActions/GroupContact/Form/GroupId.php
-#: CRM/CivirulesActions/Tag/Form/TagId.php
-#: CRM/CivirulesConditions/Form/Contribution/Status.php
-#: CRM/CivirulesConditions/Form/GroupContact/GroupId.php
-msgid "-- please select --"
-msgstr ""
-
-#: CRM/CivirulesActions/Activity/Form/Activity.php
-#: CRM/CivirulesConditions/Form/Contribution/Status.php
-msgid "Status"
-msgstr ""
-
-#: CRM/CivirulesActions/Contact/Form/Subtype.php
-#: CRM/CivirulesActions/GroupContact/Form/GroupId.php
-#: CRM/CivirulesActions/Tag/Form/TagId.php
-msgid "Single/Multiple"
-msgstr ""
-
-#: CRM/CivirulesActions/Contact/Form/Subtype.php
-#: CRM/CivirulesActions/GroupContact/Form/GroupId.php
-#: CRM/CivirulesActions/Tag/Form/TagId.php
-msgid "Add >>"
-msgstr ""
-
-#: CRM/CivirulesActions/Contact/Form/Subtype.php
-#: CRM/CivirulesActions/GroupContact/Form/GroupId.php
-#: CRM/CivirulesActions/Tag/Form/TagId.php
-msgid "<< Remove"
-msgstr ""
-
-#: CRM/CivirulesActions/GroupContact/Form/GroupId.php
-#: CRM/CivirulesConditions/Form/GroupContact/GroupId.php
-msgid "Group"
-msgstr ""
-
-#: CRM/CivirulesActions/GroupContact/Form/GroupId.php
-#: CRM/CivirulesConditions/Form/Contact/InGroup.php
-#: CRM/CivirulesCronTrigger/Form/GroupMembership.php
-msgid "Groups"
-msgstr ""
-
-#: CRM/CivirulesActions/Tag/Form/TagId.php
-#: CRM/CivirulesConditions/Form/Contact/HasTag.php
-msgid "Tags"
-msgstr ""
-
-#: CRM/CivirulesConditions/Contact/HasTag.php
-#: CRM/CivirulesConditions/Contact/InGroup.php
-msgid "unknown"
-msgstr ""
-
-#: CRM/CivirulesConditions/Contact/HasTag.php
-#: CRM/CivirulesConditions/Contact/InGroup.php
-msgid "In one of selected"
-msgstr ""
-
-#: CRM/CivirulesConditions/Contact/HasTag.php
-#: CRM/CivirulesConditions/Contact/InGroup.php
-msgid "In all selected"
-msgstr ""
-
-#: CRM/CivirulesConditions/Contact/HasTag.php
-#: CRM/CivirulesConditions/Contact/InGroup.php
-msgid "Not in selected"
-msgstr ""
-
-#: CRM/CivirulesConditions/Form/Contact/HasTag.php
-#: CRM/CivirulesConditions/Form/Contact/InGroup.php
-#: CRM/CivirulesConditions/Form/Contribution/CountRecurring.php
-#: CRM/CivirulesConditions/Form/Contribution/DistinctContributingDay.php
-#: CRM/CivirulesConditions/Form/Contribution/FinancialType.php
-#: CRM/CivirulesConditions/Form/Contribution/PaidBy.php
-#: CRM/CivirulesConditions/Form/Contribution/SpecificAmount.php
-#: CRM/CivirulesConditions/Form/Membership/Status.php
-#: CRM/CivirulesConditions/Form/Membership/Type.php
-#: CRM/CivirulesConditions/Form/ValueComparison.php
-msgid "Operator"
-msgstr ""
-
-#: CRM/CivirulesConditions/Form/Contribution/FinancialType.php
-#: CRM/CivirulesConditions/Form/Membership/Status.php
-#: CRM/CivirulesConditions/Form/Membership/Type.php
-msgid "- select -"
-msgstr ""
-
-#: CRM/Civirules/Delay/XDays.php
-msgid "Delay by a number of days"
-msgstr ""
-
-#: CRM/Civirules/Delay/XDays.php
-msgid "Delay action by %1 days"
-msgstr ""
-
-#: CRM/Civirules/Delay/XDays.php
-msgid "You need to provide a number of days"
-msgstr ""
-
-#: CRM/Civirules/Delay/XMinutes.php
-msgid "Delay by a number of minutes"
-msgstr ""
-
-#: CRM/Civirules/Delay/XMinutes.php
-msgid "Delay action by %1 minutes"
-msgstr ""
-
-#: CRM/Civirules/Delay/XMinutes.php
-msgid "Minutes"
-msgstr ""
-
-#: CRM/Civirules/Delay/XMinutes.php
-msgid "You need to provide a number of minutess"
-msgstr ""
-
-#: CRM/Civirules/Delay/XWeekDay.php
-msgid "Day of week"
-msgstr ""
-
 #: CRM/Civirules/Delay/XWeekDay.php
 msgid "Every week"
 msgstr ""
@@ -265,8 +203,20 @@ msgstr ""
 msgid "Odd weeks"
 msgstr ""
 
+#: CRM/Civirules/Delay/XWeekDay.php CRM/Civirules/Delay/XWeekDayOfMonth.php
+msgid "You need to provide a number between 0 and 23"
+msgstr ""
+
+#: CRM/Civirules/Delay/XWeekDay.php CRM/Civirules/Delay/XWeekDayOfMonth.php
+msgid "You need to provide a number between 0 and 59"
+msgstr ""
+
 #: CRM/Civirules/Delay/XWeekDayOfMonth.php
 msgid "Nth weekday of month"
+msgstr ""
+
+#: CRM/Civirules/Delay/XWeekDayOfMonth.php
+msgid "Delay to %1 %2 at %3:%4"
 msgstr ""
 
 #: CRM/Civirules/Delay/XWeekDayOfMonth.php
@@ -316,6 +266,16 @@ msgid "Name"
 msgstr ""
 
 #: CRM/Civirules/Form/Rule.php
+#: templates/CRM/Civirules/Form/RuleBlocks/ConditionBlock.tpl
+#: templates/CRM/Civirules/Page/Rule.tpl
+msgid "Description"
+msgstr ""
+
+#: CRM/Civirules/Form/Rule.php
+msgid "Help text with purpose of rule"
+msgstr ""
+
+#: CRM/Civirules/Form/Rule.php
 msgid "Enabled"
 msgstr ""
 
@@ -335,6 +295,96 @@ msgstr ""
 msgid "Next"
 msgstr ""
 
+#: CRM/Civirules/Form/Rule.php CRM/Civirules/Form/RuleAction.php
+#: CRM/Civirules/Form/RuleCondition.php
+#: CRM/CivirulesActions/Activity/Form/Activity.php
+#: CRM/CivirulesActions/Activity/Form/UpdateStatus.php
+#: CRM/CivirulesActions/Case/Form/SetDateField.php
+#: CRM/CivirulesActions/Case/Form/SetStatus.php
+#: CRM/CivirulesActions/Contact/Form/Jobtitle.php
+#: CRM/CivirulesActions/Contact/Form/Subtype.php
+#: CRM/CivirulesActions/Contribution/Form/ThankYouDate.php
+#: CRM/CivirulesActions/GroupContact/Form/GroupId.php
+#: CRM/CivirulesActions/Tag/Form/TagId.php
+#: CRM/CivirulesActions/User/Form/DisplayMessage.php
+#: CRM/CivirulesConditions/Form/Activity/RecordType.php
+#: CRM/CivirulesConditions/Form/Activity/Status.php
+#: CRM/CivirulesConditions/Form/Activity/Type.php
+#: CRM/CivirulesConditions/Form/Case/CaseStatus.php
+#: CRM/CivirulesConditions/Form/Case/CaseType.php
+#: CRM/CivirulesConditions/Form/Contact/HasPhone.php
+#: CRM/CivirulesConditions/Form/Contact/HasTag.php
+#: CRM/CivirulesConditions/Form/Contact/InGroup.php
+#: CRM/CivirulesConditions/Form/Contribution/Campaign.php
+#: CRM/CivirulesConditions/Form/Contribution/DistinctContributingDay.php
+#: CRM/CivirulesConditions/Form/Contribution/FinancialType.php
+#: CRM/CivirulesConditions/Form/Contribution/PaidBy.php
+#: CRM/CivirulesConditions/Form/Contribution/SpecificAmount.php
+#: CRM/CivirulesConditions/Form/Contribution/Status.php
+#: CRM/CivirulesConditions/Form/ContributionRecur/Campaign.php
+#: CRM/CivirulesConditions/Form/ContributionRecur/Count.php
+#: CRM/CivirulesConditions/Form/ContributionRecur/DonorIsRecurring.php
+#: CRM/CivirulesConditions/Form/ContributionRecur/EndDate.php
+#: CRM/CivirulesConditions/Form/FieldValueChangeComparison.php
+#: CRM/CivirulesConditions/Form/GroupContact/GroupId.php
+#: CRM/CivirulesConditions/Form/Membership/ActiveMembership.php
+#: CRM/CivirulesConditions/Form/Membership/Status.php
+#: CRM/CivirulesConditions/Form/Membership/Type.php
+#: CRM/CivirulesConditions/Form/ValueComparison.php
+#: CRM/CivirulesCronTrigger/Form/ActivityDate.php
+#: CRM/CivirulesCronTrigger/Form/GroupMembership.php
+msgid "Cancel"
+msgstr ""
+
+#: CRM/Civirules/Form/Rule.php CRM/Civirules/Page/Rule.php
+msgid "Delete"
+msgstr ""
+
+#: CRM/Civirules/Form/Rule.php CRM/Civirules/Form/RuleAction.php
+#: CRM/Civirules/Form/RuleCondition.php
+#: CRM/CivirulesActions/Activity/Form/Activity.php
+#: CRM/CivirulesActions/Activity/Form/UpdateStatus.php
+#: CRM/CivirulesActions/Case/Form/SetDateField.php
+#: CRM/CivirulesActions/Case/Form/SetStatus.php
+#: CRM/CivirulesActions/Contact/Form/Jobtitle.php
+#: CRM/CivirulesActions/Contact/Form/Subtype.php
+#: CRM/CivirulesActions/Contribution/Form/ThankYouDate.php
+#: CRM/CivirulesActions/GroupContact/Form/GroupId.php
+#: CRM/CivirulesActions/Tag/Form/TagId.php
+#: CRM/CivirulesActions/User/Form/DisplayMessage.php
+#: CRM/CivirulesConditions/Form/Activity/RecordType.php
+#: CRM/CivirulesConditions/Form/Activity/Status.php
+#: CRM/CivirulesConditions/Form/Activity/Type.php
+#: CRM/CivirulesConditions/Form/Case/CaseStatus.php
+#: CRM/CivirulesConditions/Form/Case/CaseType.php
+#: CRM/CivirulesConditions/Form/Contact/HasPhone.php
+#: CRM/CivirulesConditions/Form/Contact/HasTag.php
+#: CRM/CivirulesConditions/Form/Contact/InGroup.php
+#: CRM/CivirulesConditions/Form/Contribution/Campaign.php
+#: CRM/CivirulesConditions/Form/Contribution/DistinctContributingDay.php
+#: CRM/CivirulesConditions/Form/Contribution/FinancialType.php
+#: CRM/CivirulesConditions/Form/Contribution/PaidBy.php
+#: CRM/CivirulesConditions/Form/Contribution/SpecificAmount.php
+#: CRM/CivirulesConditions/Form/Contribution/Status.php
+#: CRM/CivirulesConditions/Form/ContributionRecur/Campaign.php
+#: CRM/CivirulesConditions/Form/ContributionRecur/Count.php
+#: CRM/CivirulesConditions/Form/ContributionRecur/DonorIsRecurring.php
+#: CRM/CivirulesConditions/Form/ContributionRecur/EndDate.php
+#: CRM/CivirulesConditions/Form/FieldValueChangeComparison.php
+#: CRM/CivirulesConditions/Form/GroupContact/GroupId.php
+#: CRM/CivirulesConditions/Form/Membership/ActiveMembership.php
+#: CRM/CivirulesConditions/Form/Membership/Status.php
+#: CRM/CivirulesConditions/Form/Membership/Type.php
+#: CRM/CivirulesConditions/Form/ValueComparison.php
+#: CRM/CivirulesCronTrigger/Form/ActivityDate.php
+#: CRM/CivirulesCronTrigger/Form/GroupMembership.php
+msgid "Save"
+msgstr ""
+
+#: CRM/Civirules/Form/Rule.php CRM/Civirules/Page/Rule.php
+msgid "Edit"
+msgstr ""
+
 #: CRM/Civirules/Form/Rule.php
 msgid "Edit delay"
 msgstr ""
@@ -348,8 +398,20 @@ msgid "Delay action to"
 msgstr ""
 
 #: CRM/Civirules/Form/RuleAction.php
+msgid "Don't recheck condition upon processing of delayed action"
+msgstr ""
+
+#: CRM/Civirules/Form/RuleAction.php
 msgid ""
 "Action has to be selected, press CANCEL if you do not want to add an action"
+msgstr ""
+
+#: CRM/Civirules/Form/RuleAction.php
+msgid "Not a valid action, action class is missing"
+msgstr ""
+
+#: CRM/Civirules/Form/RuleAction.php
+msgid "This action is not available with trigger %1"
 msgstr ""
 
 #: CRM/Civirules/Form/RuleCondition.php
@@ -378,12 +440,25 @@ msgid ""
 "condition"
 msgstr ""
 
+#: CRM/Civirules/Form/RuleHelpText44.php
+#: CRM/Civirules/Form/RuleHelpTextWindow.php
+msgid "Help For Civirule"
+msgstr ""
+
 #: CRM/Civirules/Page/Rule.php
 msgid "Disable"
 msgstr ""
 
 #: CRM/Civirules/Page/Rule.php
 msgid "Enable"
+msgstr ""
+
+#: CRM/Civirules/Page/Rule.php civirules.php
+msgid "CiviRules"
+msgstr ""
+
+#: CRM/Civirules/Upgrader/Base.php
+msgid "Upgrade %1 to revision %2"
 msgstr ""
 
 #: CRM/Civirules/Utils.php
@@ -399,6 +474,7 @@ msgid "Type: %1"
 msgstr ""
 
 #: CRM/CivirulesActions/Activity/Add.php
+#: CRM/CivirulesActions/Activity/UpdateStatus.php
 msgid "Status: %1"
 msgstr ""
 
@@ -407,7 +483,11 @@ msgid "Subject: %1"
 msgstr ""
 
 #: CRM/CivirulesActions/Activity/Add.php
-msgid "Assignee: %1"
+msgid "Assignee(s): %1"
+msgstr ""
+
+#: CRM/CivirulesActions/Activity/Add.php
+msgid "Activity date time"
 msgstr ""
 
 #: CRM/CivirulesActions/Activity/Form/Activity.php
@@ -415,7 +495,61 @@ msgid "Activity type"
 msgstr ""
 
 #: CRM/CivirulesActions/Activity/Form/Activity.php
+#: CRM/CivirulesActions/Activity/Form/UpdateStatus.php
+#: CRM/CivirulesActions/Contact/Form/Subtype.php
+#: CRM/CivirulesActions/GroupContact/Form/GroupId.php
+#: CRM/CivirulesActions/Tag/Form/TagId.php
+#: CRM/CivirulesConditions/Form/Contribution/Status.php
+#: CRM/CivirulesConditions/Form/GroupContact/GroupId.php
+msgid "-- please select --"
+msgstr ""
+
+#: CRM/CivirulesActions/Activity/Form/Activity.php
+#: CRM/CivirulesActions/Activity/Form/UpdateStatus.php
+#: CRM/CivirulesConditions/Form/Contribution/Status.php
+msgid "Status"
+msgstr ""
+
+#: CRM/CivirulesActions/Activity/Form/Activity.php
 msgid "Subject"
+msgstr ""
+
+#: CRM/CivirulesActions/Activity/Form/Activity.php
+msgid "Assigned to"
+msgstr ""
+
+#: CRM/CivirulesActions/Activity/Form/Activity.php
+msgid " - Do not set an activity date - "
+msgstr ""
+
+#: CRM/CivirulesActions/Activity/Form/Activity.php
+msgid "Set activity date"
+msgstr ""
+
+#: CRM/CivirulesActions/Case/Form/SetDateField.php
+msgid " - Set date to time of processing of action - "
+msgstr ""
+
+#: CRM/CivirulesActions/Case/Form/SetDateField.php
+msgid "Set date"
+msgstr ""
+
+#: CRM/CivirulesActions/Case/Form/SetStatus.php
+msgid "Set status to"
+msgstr ""
+
+#: CRM/CivirulesActions/Case/SetStatus.php
+msgid "Set case status to: %1"
+msgstr ""
+
+#: CRM/CivirulesActions/Contact/Form/Jobtitle.php
+msgid "Job title"
+msgstr ""
+
+#: CRM/CivirulesActions/Contact/Form/Subtype.php
+#: CRM/CivirulesActions/GroupContact/Form/GroupId.php
+#: CRM/CivirulesActions/Tag/Form/TagId.php
+msgid "Single/Multiple"
 msgstr ""
 
 #: CRM/CivirulesActions/Contact/Form/Subtype.php
@@ -435,7 +569,23 @@ msgid "Contact sub types"
 msgstr ""
 
 #: CRM/CivirulesActions/Contact/Form/Subtype.php
+#: CRM/CivirulesActions/GroupContact/Form/GroupId.php
+#: CRM/CivirulesActions/Tag/Form/TagId.php
+msgid "Add >>"
+msgstr ""
+
+#: CRM/CivirulesActions/Contact/Form/Subtype.php
+#: CRM/CivirulesActions/GroupContact/Form/GroupId.php
+#: CRM/CivirulesActions/Tag/Form/TagId.php
+msgid "<< Remove"
+msgstr ""
+
+#: CRM/CivirulesActions/Contact/Form/Subtype.php
 msgid "You have to select at least one subtype"
+msgstr ""
+
+#: CRM/CivirulesActions/Contact/SetJobTitle.php
+msgid "Set job title to %1"
 msgstr ""
 
 #: CRM/CivirulesActions/Contact/Subtype.php
@@ -463,6 +613,17 @@ msgid "Select multiple groups"
 msgstr ""
 
 #: CRM/CivirulesActions/GroupContact/Form/GroupId.php
+#: CRM/CivirulesConditions/Form/GroupContact/GroupId.php
+msgid "Group"
+msgstr ""
+
+#: CRM/CivirulesActions/GroupContact/Form/GroupId.php
+#: CRM/CivirulesConditions/Form/Contact/InGroup.php
+#: CRM/CivirulesCronTrigger/Form/GroupMembership.php
+msgid "Groups"
+msgstr ""
+
+#: CRM/CivirulesActions/GroupContact/Form/GroupId.php
 msgid "You have to select at least one group"
 msgstr ""
 
@@ -487,6 +648,11 @@ msgid "Tag"
 msgstr ""
 
 #: CRM/CivirulesActions/Tag/Form/TagId.php
+#: CRM/CivirulesConditions/Form/Contact/HasTag.php
+msgid "Tags"
+msgstr ""
+
+#: CRM/CivirulesActions/Tag/Form/TagId.php
 msgid "You have to select at least one tag"
 msgstr ""
 
@@ -498,8 +664,60 @@ msgstr ""
 msgid "Remove tag (%1) from contact"
 msgstr ""
 
+#: CRM/CivirulesActions/User/Form/DisplayMessage.php
+msgid "Message title: "
+msgstr ""
+
+#: CRM/CivirulesActions/User/Form/DisplayMessage.php
+msgid "Message: "
+msgstr ""
+
+#: CRM/CivirulesActions/User/Form/DisplayMessage.php
+msgid "Type of message: "
+msgstr ""
+
 #: CRM/CivirulesConditions/Activity/RecordType.php
 msgid "For all %1"
+msgstr ""
+
+#: CRM/CivirulesConditions/Contact/HasPhone.php
+msgid "Any phone type"
+msgstr ""
+
+#: CRM/CivirulesConditions/Contact/HasPhone.php
+msgid "Phone type is %1"
+msgstr ""
+
+#: CRM/CivirulesConditions/Contact/HasPhone.php
+msgid "Any location"
+msgstr ""
+
+#: CRM/CivirulesConditions/Contact/HasPhone.php
+msgid "Location is %1"
+msgstr ""
+
+#: CRM/CivirulesConditions/Contact/HasPhone.php
+msgid " and "
+msgstr ""
+
+#: CRM/CivirulesConditions/Contact/HasTag.php
+#: CRM/CivirulesConditions/Contact/InGroup.php
+msgid "unknown"
+msgstr ""
+
+#: CRM/CivirulesConditions/Contact/HasTag.php
+#: CRM/CivirulesConditions/Contact/InGroup.php
+msgid "In one of selected"
+msgstr ""
+
+#: CRM/CivirulesConditions/Contact/HasTag.php
+#: CRM/CivirulesConditions/Contact/InGroup.php
+msgid "In all selected"
+msgstr ""
+
+#: CRM/CivirulesConditions/Contact/HasTag.php
+#: CRM/CivirulesConditions/Contact/InGroup.php
+msgid "Not in selected"
 msgstr ""
 
 #: CRM/CivirulesConditions/Contribution/LastContribution.php
@@ -530,28 +748,84 @@ msgstr ""
 msgid "Total amount"
 msgstr ""
 
-#: CRM/CivirulesConditions/Form/Contribution/CountRecurring.php
-msgid "Number of Recurring Contribution Collections"
+#: CRM/CivirulesConditions/Form/Activity/Status.php
+msgid "Activity status(es)"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Activity/Status.php
+#: CRM/CivirulesConditions/Form/Activity/Type.php
+#: CRM/CivirulesConditions/Form/Case/CaseStatus.php
+#: CRM/CivirulesConditions/Form/Case/CaseType.php
+#: CRM/CivirulesConditions/Form/Contact/HasTag.php
+#: CRM/CivirulesConditions/Form/Contact/InGroup.php
+#: CRM/CivirulesConditions/Form/Contribution/Campaign.php
+#: CRM/CivirulesConditions/Form/Contribution/DistinctContributingDay.php
+#: CRM/CivirulesConditions/Form/Contribution/FinancialType.php
+#: CRM/CivirulesConditions/Form/Contribution/PaidBy.php
+#: CRM/CivirulesConditions/Form/Contribution/SpecificAmount.php
+#: CRM/CivirulesConditions/Form/ContributionRecur/Campaign.php
+#: CRM/CivirulesConditions/Form/ContributionRecur/Count.php
+#: CRM/CivirulesConditions/Form/FieldValueChangeComparison.php
+#: CRM/CivirulesConditions/Form/Membership/Status.php
+#: CRM/CivirulesConditions/Form/Membership/Type.php
+#: CRM/CivirulesConditions/Form/ValueComparison.php
+msgid "Operator"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Activity/Type.php
+#: templates/CRM/CivirulesConditions/Form/Activity/Type.tpl
+msgid "Activity Type(s)"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Case/CaseStatus.php
+msgid "Case Status(es)"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Case/CaseType.php
+#: CRM/CivirulesConditions/Form/Membership/ActiveMembership.php
+#: CRM/CivirulesConditions/Form/Membership/Status.php
+#: CRM/CivirulesConditions/Form/Membership/Type.php
+msgid "- select -"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Case/CaseType.php
+msgid "Case Type(s)"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Contact/HasPhone.php
+msgid " - Any phone type -"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Contact/HasPhone.php
+msgid "- Any location -"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Contact/HasPhone.php
+msgid "Location type"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Contact/HasPhone.php
+msgid "Phone type"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Contribution/Campaign.php
+#: CRM/CivirulesConditions/Form/ContributionRecur/Campaign.php
+#: templates/CRM/CivirulesConditions/Form/Contribution/Campaign.tpl
+#: templates/CRM/CivirulesConditions/Form/ContributionRecur/Campaign.tpl
+msgid "Campaign(s)"
 msgstr ""
 
 #: CRM/CivirulesConditions/Form/Contribution/DistinctContributingDay.php
 msgid "Number of Days"
 msgstr ""
 
-#: CRM/CivirulesConditions/Form/Contribution/DonorIsRecurring.php
-msgid "Donor has recurring contributions?"
-msgstr ""
-
 #: CRM/CivirulesConditions/Form/Contribution/FinancialType.php
-msgid "Financial type"
+#: templates/CRM/CivirulesConditions/Form/Contribution/FinancialType.tpl
+msgid "Financial Type(s)"
 msgstr ""
 
 #: CRM/CivirulesConditions/Form/Contribution/PaidBy.php
 msgid "Payment instrument"
-msgstr ""
-
-#: CRM/CivirulesConditions/Form/Contribution/RecurringEndDate.php
-msgid "End Date is"
 msgstr ""
 
 #: CRM/CivirulesConditions/Form/Contribution/SpecificAmount.php
@@ -559,27 +833,50 @@ msgid " - any -"
 msgstr ""
 
 #: CRM/CivirulesConditions/Form/Contribution/SpecificAmount.php
+msgid "Count What?"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Contribution/SpecificAmount.php
 msgid "where Operator"
 msgstr ""
 
 #: CRM/CivirulesConditions/Form/Contribution/SpecificAmount.php
-msgid "of Financial Type"
+msgid "of Financial Type(s)"
 msgstr ""
 
 #: CRM/CivirulesConditions/Form/Contribution/SpecificAmount.php
 msgid "Number of Contributions"
 msgstr ""
 
-#: CRM/CivirulesConditions/Form/Contribution/SpecificAmount.php
-msgid "Amount"
+#: CRM/CivirulesConditions/Form/ContributionRecur/Count.php
+msgid "Number of Recurring Contribution Collections"
 msgstr ""
 
-#: CRM/CivirulesConditions/Form/FieldValueComparison.php
-msgid "Entity"
+#: CRM/CivirulesConditions/Form/ContributionRecur/DonorIsRecurring.php
+msgid "Donor has recurring contributions?"
 msgstr ""
 
-#: CRM/CivirulesConditions/Form/FieldValueComparison.php
-msgid "Field"
+#: CRM/CivirulesConditions/Form/ContributionRecur/EndDate.php
+msgid "End Date is"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/FieldValueChangeComparison.php
+#: CRM/CivirulesConditions/Form/ValueComparison.php
+msgid "Compare value is required"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/FieldValueChangeComparison.php
+msgid "Compare values is a required field"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/FieldValueChangeComparison.php
+#: CRM/CivirulesConditions/Form/ValueComparison.php
+msgid "Compare value"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/FieldValueChangeComparison.php
+#: CRM/CivirulesConditions/Form/ValueComparison.php
+msgid "Compare values"
 msgstr ""
 
 #: CRM/CivirulesConditions/Form/FieldValueComparison.php
@@ -590,24 +887,21 @@ msgstr ""
 msgid "Field is not valid"
 msgstr ""
 
-#: CRM/CivirulesConditions/Form/Membership/Status.php
-msgid "Membership Status"
-msgstr ""
-
+#: CRM/CivirulesConditions/Form/Membership/ActiveMembership.php
 #: CRM/CivirulesConditions/Form/Membership/Type.php
 msgid "Membership Type"
 msgstr ""
 
-#: CRM/CivirulesConditions/Form/ValueComparison.php
-msgid "Compare value is required"
+#: CRM/CivirulesConditions/Form/Membership/Status.php
+msgid "Membership Status"
 msgstr ""
 
-#: CRM/CivirulesConditions/Form/ValueComparison.php
-msgid "Compare value"
+#: CRM/CivirulesConditions/Generic/FieldValueChangeComparison.php
+msgid "Old value  "
 msgstr ""
 
-#: CRM/CivirulesConditions/Form/ValueComparison.php
-msgid "Compare values"
+#: CRM/CivirulesConditions/Generic/FieldValueChangeComparison.php
+msgid "and new value "
 msgstr ""
 
 #: CRM/CivirulesConditions/Generic/ValueComparison.php
@@ -632,6 +926,18 @@ msgstr ""
 
 #: CRM/CivirulesConditions/Generic/ValueComparison.php
 msgid "Is less than or equal to"
+msgstr ""
+
+#: CRM/CivirulesConditions/Generic/ValueComparison.php
+msgid "Contains string (case insensitive)"
+msgstr ""
+
+#: CRM/CivirulesConditions/Generic/ValueComparison.php
+msgid "Is empty"
+msgstr ""
+
+#: CRM/CivirulesConditions/Generic/ValueComparison.php
+msgid "Is not empty"
 msgstr ""
 
 #: CRM/CivirulesConditions/Generic/ValueComparison.php
@@ -738,8 +1044,20 @@ msgstr ""
 msgid "all time"
 msgstr ""
 
+#: CRM/CivirulesCronTrigger/ActivityDate.php
+msgid "Activity with type %1 and status %2 date reached"
+msgstr ""
+
 #: CRM/CivirulesCronTrigger/Birthday.php
 msgid "Person"
+msgstr ""
+
+#: CRM/CivirulesCronTrigger/Form/ActivityDate.php
+msgid "Activity Type"
+msgstr ""
+
+#: CRM/CivirulesCronTrigger/Form/ActivityDate.php
+msgid "Activity Status"
 msgstr ""
 
 #: CRM/CivirulesCronTrigger/GroupMembership.php
@@ -768,25 +1086,8 @@ msgid ""
 " and op"
 msgstr ""
 
-#: CRM/Civirules/Delay/XWeekDay.php
-msgid "Delay action to %1 of %2 at %3:%4"
-msgstr ""
-
-#: CRM/Civirules/Delay/XWeekDayOfMonth.php
-msgid "Delay action to %1 %2 at %3:%4"
-msgstr ""
-
-#: CRM/Civirules/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr ""
-
 #: templates/CRM/Civirules/Delay/XWeekDay.tpl
 msgid "on"
-msgstr ""
-
-#: templates/CRM/Civirules/Delay/XWeekDay.tpl
-#: templates/CRM/Civirules/Delay/XWeekDayOfMonth.tpl
-msgid "After"
 msgstr ""
 
 #: templates/CRM/Civirules/Form/Rule.tpl
@@ -813,12 +1114,13 @@ msgstr ""
 msgid "Condition"
 msgstr ""
 
-#: templates/CRM/Civirules/Form/RuleBlocks/ConditionBlock.tpl
-msgid "Description"
-msgstr ""
-
 #: templates/CRM/Civirules/Form/RuleBlocks/TriggerBlock.tpl
 msgid "Edit trigger parameters"
+msgstr ""
+
+#: templates/CRM/Civirules/Form/RuleHelpText44.tpl
+#: templates/CRM/Civirules/Form/RuleHelpTextWindow.tpl
+msgid "Done"
 msgstr ""
 
 #: templates/CRM/Civirules/Page/Rule.tpl
@@ -841,7 +1143,16 @@ msgstr ""
 msgid "Assignee"
 msgstr ""
 
+#: templates/CRM/CivirulesConditions/Form/FieldValueChangeComparison.tpl
+msgid "Original value"
+msgstr ""
+
+#: templates/CRM/CivirulesConditions/Form/FieldValueChangeComparison.tpl
 #: templates/CRM/CivirulesConditions/Form/FieldValueComparison.tpl
 #: templates/CRM/CivirulesConditions/Form/ValueComparison.tpl
 msgid "Seperate each value on a new line"
+msgstr ""
+
+#: templates/CRM/CivirulesConditions/Form/FieldValueChangeComparison.tpl
+msgid "New value"
 msgstr ""
