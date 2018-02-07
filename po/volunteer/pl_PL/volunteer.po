@@ -1,4 +1,4 @@
-# Copyright CiviCRM LLC (c) 2004-2014
+# Copyright CiviCRM LLC (c) 2004-2015
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
@@ -8,32 +8,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2014-08-05 05:30-0700\n"
-"PO-Revision-Date: 2016-09-12 22:37+0000\n"
-"Last-Translator: Marcin Lewandowski <email.marcina.lewandowskiego@gmail.com>\n"
+"POT-Creation-Date: 2018-02-06 17:35+0000\n"
+"PO-Revision-Date: 2018-02-06 17:35+0000\n"
+"Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
 "Language-Team: Polish (http://www.transifex.com/civicrm/civicrm_extensions/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pl\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-
-#: api/v3/VolunteerNeed.php CRM/Volunteer/DAO/Need.php
-msgid "Flexible"
-msgstr "Elastyczność"
-
-#: CRM/Volunteer/DAO/Need.php CRM/Volunteer/DAO/Project.php
-msgid "Enabled"
-msgstr "Dostępny"
-
-#: CRM/Volunteer/Form/Volunteer.php volunteer.php
-msgid "Volunteers"
-msgstr "Wolontariusze"
-
-#: CRM/Volunteer/Form/VolunteerReport.php
-#: CRM/Volunteer/Form/VolunteerSignUp.php
-msgid "Volunteer Role"
-msgstr "Rola Wolontariusza"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 #: CRM/Volunteer/BAO/Need.php
 msgid "I'm Flexible"
@@ -51,6 +34,10 @@ msgstr "Data i Czas Rozpoczęcia"
 msgid "Duration"
 msgstr "Okres trwania"
 
+#: CRM/Volunteer/DAO/Need.php api/v3/VolunteerNeed.php
+msgid "Flexible"
+msgstr "Elastyczność"
+
 #: CRM/Volunteer/DAO/Need.php
 msgid "Quantity"
 msgstr "Ilość"
@@ -63,6 +50,10 @@ msgstr "Widzialność"
 #: templates/CRM/Volunteer/Form/Manage/Define.tpl
 msgid "Role"
 msgstr "Rola"
+
+#: CRM/Volunteer/DAO/Need.php CRM/Volunteer/DAO/Project.php
+msgid "Enabled"
+msgstr "Dostępny"
 
 #: CRM/Volunteer/DAO/Project.php
 msgid "CiviVolunteer Project ID"
@@ -96,8 +87,7 @@ msgstr "Proszę podać aktualny okres Zakończenia aktywności wolontariatu"
 msgid "Volunteer hours have been logged."
 msgstr "Godziny Woluntariusza zostały zapisane."
 
-#: CRM/Volunteer/Form/Log.php /js/apps/define/define_views.js
-#: /js/apps/volunteer_app.js js/apps/define/define_views.js
+#: CRM/Volunteer/Form/Log.php js/apps/define/define_views.js
 #: js/apps/volunteer_app.js
 msgid "Saved"
 msgstr "Zapisane"
@@ -109,6 +99,10 @@ msgstr "Włącz Zarządzanie Wolontariuszem"
 #: CRM/Volunteer/Form/Volunteer.php
 msgid "Select Beneficiary"
 msgstr "Wybierz beneficjenta"
+
+#: CRM/Volunteer/Form/Volunteer.php volunteer.php
+msgid "Volunteers"
+msgstr "Wolontariusze"
 
 #: CRM/Volunteer/Form/VolunteerReport.php
 msgid "Project"
@@ -183,6 +177,11 @@ msgid "Activity Subject"
 msgstr "Temat Aktywacji"
 
 #: CRM/Volunteer/Form/VolunteerReport.php
+#: CRM/Volunteer/Form/VolunteerSignUp.php
+msgid "Volunteer Role"
+msgstr "Rola Wolontariusza"
+
+#: CRM/Volunteer/Form/VolunteerReport.php
 msgid "Time Scheduled in Minutes"
 msgstr "Czas Planu w Minutach"
 
@@ -226,6 +225,10 @@ msgstr "Zatwierdź"
 msgid "You are scheduled to volunteer. Thank you!"
 msgstr "Zaplanowałeś Wolontariat. Dziękujemy bardzo!"
 
+#: CRM/Volunteer/Upgrader/Base.php
+msgid "Upgrade %1 to revision %2"
+msgstr "Aktualizacja 1% dla zmiany 2%"
+
 #: CRM/Volunteer/Upgrader.php
 msgid "Volunteer"
 msgstr "Wolontariusz"
@@ -238,142 +241,77 @@ msgstr "Dostępny"
 msgid "No-show"
 msgstr "Nie wyświetla"
 
-#: volunteer.php
-msgid "Getting Started:"
-msgstr "Rozpocznijmy:"
+#: js/apps/assign/assign_views.js
+#: templates/CRM/Volunteer/Form/Manage/Assign.tpl
+msgid "Available Volunteers"
+msgstr "Dostępni wolontariusze"
 
-#: volunteer.php
-msgid "Read <a href=\"%1\" target=\"_blank\">documentation</a>"
-msgstr "Przeczytaj <a href=\"%1\" target=\"_blank\">dokumentację</a>"
+#: js/apps/assign/assign_views.js
+msgid "Copied"
+msgstr "Skopiowano"
 
-#: volunteer.php
-msgid "Ask questions on the <a href=\"%1\" target=\"_blank\">forum</a>"
-msgstr "Zadaj pytanie na <a href=\"%1\" target=\"_blank\">forum</a>"
+#: js/apps/assign/assign_views.js
+msgid "%1 More Needed"
+msgstr "Potrzebnych Więcej 1%"
 
-#: volunteer.php
-msgid "Configure <a href=\"%1\" target=\"_blank\">volunteer roles</a>"
-msgstr "Skonfiguruj <a href=\"%1\" target=\"_blank\">role wolontariuszy</a>"
+#: js/apps/assign/assign_views.js
+msgid "%1 Needed"
+msgstr "Potrzebnych 1%"
 
-#: volunteer.php
-msgid ""
-"Enable volunteer management for one or more <a href=\"%1\" "
-"target=\"_blank\">events</a>"
-msgstr "Włącz zarządzenie wolontariuszami dla jednego lub więcej <a href=\"%1\" target=\"_blank\">wydarzeń</a>."
+#: js/apps/assign/assign_views.js
+msgid "None"
+msgstr "Żadne"
 
-#: volunteer.php
-msgid "CiviVolunteer Installed"
-msgstr "CiviVolunteer zainstalowany"
+#: js/apps/assign/assign_views.js js/apps/volunteer_app.js
+#: templates/CRM/Volunteer/Form/Manage/Assign.tpl
+#: templates/CRM/Volunteer/Form/Manage/Define.tpl
+msgid "Loading"
+msgstr "Wczytuje"
 
-#: volunteer.php
-msgid "Volunteer Now"
-msgstr "Wolontariat Teraz"
+#: js/apps/assign/assign_views.js
+msgid "%1 has been created."
+msgstr "1% został utworzony."
 
-#: volunteer.php
-msgid "CiviVolunteer"
-msgstr "CiviWolontariusze"
+#: js/apps/assign/assign_views.js
+msgid "Contact Saved"
+msgstr "Kontakt Zapisany"
 
-#: volunteer.php
-msgid ""
-"Your extension resource url is not configured correctly. CiviVolunteer "
-"cannot work without this setting."
-msgstr "Źródłowy adres URL jest nieprawidłowo skonfigurowany. CiviVolunteer nie może pracować prawidłowo bez tego ustawienia."
+#: js/apps/assign/assign_views.js
+msgid "Delete Volunteer"
+msgstr "Usuń wolontariusza"
 
-#: volunteer.php
-msgid "Correct the problem at <a href=\"%1\">Settings - Resource URLs</a>."
-msgstr ""
+#: js/apps/assign/assign_views.js
+msgid "Remove %1 from %2?"
+msgstr "Usunąć %1 z %2?"
 
-#: volunteer.php
-msgid "Error"
-msgstr "Błąd"
-
-#: /js/apps/define/define_views.js js/apps/define/define_views.js
+#: js/apps/define/define_views.js
 msgid ""
 "There is currently %count volunteer assigned to this need. The volunteer's "
 "activity history will be preserved, but they will be disconnected from this "
 "shift."
 msgstr ""
 
-#: /js/apps/define/define_views.js js/apps/define/define_views.js
+#: js/apps/define/define_views.js
 msgid ""
 "There is currently %1 volunteer assigned to this need. The volunteer's "
 "activity history will be preserved, but they will be disconnected from this "
 "shift."
 msgstr ""
 
-#: /js/apps/define/define_views.js js/apps/define/define_views.js
+#: js/apps/define/define_views.js
 msgid "There are currently %1 volunteers assigned to this need."
 msgstr "Obecnie jest zapisanych 1% wolontariuszy  dla tej sprawy"
 
-#: /js/apps/define/define_views.js js/apps/define/define_views.js
+#: js/apps/define/define_views.js
 msgid ""
 "There are currently %1 volunteers assigned to this need. The volunteers' "
 "activity histories will be preserved, but they will be disconnected from "
 "this shift."
 msgstr ""
 
-#: /js/apps/define/define_views.js js/apps/define/define_views.js
+#: js/apps/define/define_views.js
 msgid "Delete %1"
 msgstr "Usuń 1%"
-
-#: /js/apps/volunteer_app.js /js/apps/assign/assign_views.js
-#: js/apps/volunteer_app.js js/apps/assign/assign_views.js
-#: templates/CRM/Volunteer/Form/Manage/Assign.tpl
-#: templates/CRM/Volunteer/Form/Manage/Define.tpl
-msgid "Loading"
-msgstr "Wczytuje"
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-#: templates/CRM/Volunteer/Form/Manage/Assign.tpl
-msgid "Available Volunteers"
-msgstr "Dostępni wolontariusze"
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-msgid "Copied"
-msgstr "Skopiowano"
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-msgid "%1 More Needed"
-msgstr "Potrzebnych Więcej 1%"
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-msgid "%1 Needed"
-msgstr "Potrzebnych 1%"
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-msgid "None"
-msgstr "Żadne"
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-msgid "%1 has been created."
-msgstr "1% został utworzony."
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-msgid "Contact Saved"
-msgstr "Kontakt Zapisany"
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-msgid "Delete Volunteer"
-msgstr "Usuń wolontariusza"
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-msgid "Remove %1 from %2?"
-msgstr "Usunąć %1 z %2?"
-
-#: CRM/Volunteer/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Aktualizacja 1% dla zmiany 2%"
-
-#: CRM/Volunteer/Upgrader.php
-msgid "Process first step"
-msgstr "Zacznij pierwszy krok"
-
-#: CRM/Volunteer/Upgrader.php
-msgid "Process second step"
-msgstr "Zacznij drugi krok"
-
-#: CRM/Volunteer/Upgrader.php
-msgid "Upgrade Batch (%1 => %2)"
-msgstr "Uaktualnione Grupy (1% => 2%)"
 
 #: templates/CRM/Volunteer/Form/Log.tpl
 msgid ""
@@ -590,3 +528,51 @@ msgstr "Log Godzin Wolontariusza"
 #: templates/CRM/Volunteer/Form/Volunteer.tpl
 msgid "Enable or disable volunteer management for this event."
 msgstr "Włącz lub wyłącz zarządzanie wolontariuszami w tym wydarzeniu."
+
+#: volunteer.php
+msgid "Getting Started:"
+msgstr "Rozpocznijmy:"
+
+#: volunteer.php
+msgid "Read <a href=\"%1\" target=\"_blank\">documentation</a>"
+msgstr "Przeczytaj <a href=\"%1\" target=\"_blank\">dokumentację</a>"
+
+#: volunteer.php
+msgid "Ask questions on the <a href=\"%1\" target=\"_blank\">forum</a>"
+msgstr "Zadaj pytanie na <a href=\"%1\" target=\"_blank\">forum</a>"
+
+#: volunteer.php
+msgid "Configure <a href=\"%1\" target=\"_blank\">volunteer roles</a>"
+msgstr "Skonfiguruj <a href=\"%1\" target=\"_blank\">role wolontariuszy</a>"
+
+#: volunteer.php
+msgid ""
+"Enable volunteer management for one or more <a href=\"%1\" "
+"target=\"_blank\">events</a>"
+msgstr "Włącz zarządzenie wolontariuszami dla jednego lub więcej <a href=\"%1\" target=\"_blank\">wydarzeń</a>."
+
+#: volunteer.php
+msgid "CiviVolunteer Installed"
+msgstr "CiviVolunteer zainstalowany"
+
+#: volunteer.php
+msgid "Volunteer Now"
+msgstr "Wolontariat Teraz"
+
+#: volunteer.php
+msgid "CiviVolunteer"
+msgstr "CiviWolontariusze"
+
+#: volunteer.php
+msgid ""
+"Your extension resource url is not configured correctly. CiviVolunteer "
+"cannot work without this setting."
+msgstr "Źródłowy adres URL jest nieprawidłowo skonfigurowany. CiviVolunteer nie może pracować prawidłowo bez tego ustawienia."
+
+#: volunteer.php
+msgid "Correct the problem at <a href=\"%1\">Settings - Resource URLs</a>."
+msgstr ""
+
+#: volunteer.php
+msgid "Error"
+msgstr "Błąd"
