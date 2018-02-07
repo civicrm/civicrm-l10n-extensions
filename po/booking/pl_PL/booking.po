@@ -1,4 +1,4 @@
-# Copyright CiviCRM LLC (c) 2004-2014
+# Copyright CiviCRM LLC (c) 2004-2015
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
@@ -8,15 +8,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2014-05-16 13:29-0700\n"
-"PO-Revision-Date: 2016-09-12 22:50+0000\n"
-"Last-Translator: Marcin Lewandowski <email.marcina.lewandowskiego@gmail.com>\n"
+"POT-Creation-Date: 2018-02-06 17:34+0000\n"
+"PO-Revision-Date: 2018-02-06 17:34+0000\n"
+"Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
 "Language-Team: Polish (http://www.transifex.com/civicrm/civicrm_extensions/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pl\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+
+#: CRM/Admin/Form/AdhocChargesItem.php
+msgid "Settings - Additional Charges Item"
+msgstr "Ustawienia - Przedmiot Dodatkowych Opłat"
 
 #: CRM/Admin/Form/AdhocChargesItem.php CRM/Admin/Form/Resource.php
 #: CRM/Admin/Form/ResourceConfigOption.php
@@ -81,6 +85,14 @@ msgstr "Zapisz"
 msgid "Cancel"
 msgstr "Anuluj"
 
+#: CRM/Admin/Form/AdhocChargesItem.php
+msgid "This field should be numeric."
+msgstr "Wartość powinna być liczbą."
+
+#: CRM/Admin/Form/AdhocChargesItem.php
+msgid "Selected additional charges item has been deleted."
+msgstr "Wybór przedmiotu dodatkowych opłat został usunięty."
+
 #: CRM/Admin/Form/AdhocChargesItem.php CRM/Admin/Form/Resource.php
 #: CRM/Admin/Form/ResourceConfigOption.php
 #: CRM/Admin/Form/ResourceConfigSet.php CRM/Booking/Form/Booking/Update.php
@@ -99,201 +111,6 @@ msgstr "Record '%1' został zapisany"
 #: CRM/Booking/Form/Booking/Info.php CRM/Booking/Form/Booking/Update.php
 msgid "Saved"
 msgstr "Zapisano"
-
-#: CRM/Admin/Form/Resource.php CRM/Admin/Form/ResourceConfigOption.php
-#: CRM/Booking/BAO/Query.php CRM/Booking/Form/Booking/Base.php
-#: CRM/Booking/Form/Booking/Cancel.php CRM/Booking/Form/Booking/Info.php
-#: CRM/Booking/Form/Booking/Update.php
-msgid "- select -"
-msgstr "-wybierz-"
-
-#: CRM/Admin/Form/Resource.php CRM/Booking/DAO/Booking.php
-#: CRM/Booking/Form/Booking/Info.php templates/CRM/Admin/Page/Resource.tpl
-#: templates/CRM/Booking/Form/Booking/View.tpl
-msgid "Description"
-msgstr "Opis"
-
-#: CRM/Admin/Form/ResourceConfigOption.php
-#: CRM/Admin/Page/ResourceConfigOption.php
-msgid "Settings - Resource Configuration Option"
-msgstr "Ustawienia - Opcja Zawartość Konfiguracji"
-
-#: CRM/Admin/Form/ResourceConfigOption.php
-#: CRM/Booking/DAO/ResourceConfigOption.php
-#: templates/CRM/Admin/Page/ResourceConfigOption.tpl
-msgid "Max Size"
-msgstr "Maksymalny Rozmiar"
-
-#: CRM/Admin/Form/ResourceConfigSet.php CRM/Admin/Page/ResourceConfigSet.php
-msgid "Settings - Resource Configuration Set"
-msgstr "Ustawienia - Wybór Zawartości Konfiguracji"
-
-#: CRM/Admin/Form/ResourceConfigSet.php CRM/Booking/BAO/Booking.php
-#: CRM/Booking/DAO/Booking.php CRM/Booking/DAO/ResourceConfigSet.php
-#: CRM/Booking/Form/Booking/Info.php CRM/Booking/Selector/Search.php
-#: templates/CRM/Admin/Page/ResourceConfigSet.tpl
-#: templates/CRM/Booking/Page/AssociatedBooking.tpl
-msgid "Title"
-msgstr "Tytuł"
-
-#: CRM/Admin/Page/AdhocChargesItem.php CRM/Admin/Page/Resource.php
-#: CRM/Admin/Page/ResourceConfigOption.php
-#: CRM/Admin/Page/ResourceConfigSet.php CRM/Booking/Selector/Search.php
-#: templates/CRM/Booking/Form/Booking/View.tpl
-#: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource.tpl
-msgid "Edit"
-msgstr "Edycja"
-
-#: CRM/Admin/Page/AdhocChargesItem.php CRM/Admin/Page/Resource.php
-#: CRM/Admin/Page/ResourceConfigOption.php
-#: CRM/Admin/Page/ResourceConfigSet.php
-msgid "Disable"
-msgstr "Wyłączony"
-
-#: CRM/Admin/Page/AdhocChargesItem.php CRM/Admin/Page/Resource.php
-#: CRM/Admin/Page/ResourceConfigOption.php
-#: CRM/Admin/Page/ResourceConfigSet.php
-msgid "Enable"
-msgstr "Włączony"
-
-#: CRM/Admin/Page/AdhocChargesItem.php CRM/Admin/Page/Resource.php
-#: CRM/Admin/Page/ResourceConfigOption.php
-#: CRM/Admin/Page/ResourceConfigSet.php CRM/Booking/Form/Booking/Base.php
-#: CRM/Booking/Selector/Search.php templates/CRM/Booking/Form/Booking/View.tpl
-msgid "Delete"
-msgstr "Usuń"
-
-#: CRM/Booking/BAO/Booking.php CRM/Booking/DAO/Booking.php
-msgid "PO Number"
-msgstr "PO Numer"
-
-#: CRM/Booking/BAO/Booking.php CRM/Booking/Selector/Search.php booking.php
-#: templates/CRM/Booking/Page/AssociatedBooking.tpl
-msgid "Booking Status"
-msgstr "Status rezerwacji"
-
-#: CRM/Booking/BAO/Query.php booking.php
-msgid "Resource Type"
-msgstr "Rodzaj zawartości"
-
-#: CRM/Booking/BAO/Query.php CRM/Booking/DAO/Payment.php
-#: templates/CRM/Booking/Form/Booking/Update.tpl
-#: templates/CRM/Booking/Form/Search/DayViewResults.tpl
-msgid "Booking ID"
-msgstr "Id rezerwacji"
-
-#: CRM/Booking/DAO/AdhocCharges.php CRM/Booking/DAO/Slot.php
-#: CRM/Booking/DAO/SubSlot.php templates/CRM/Booking/Form/Booking/View.tpl
-#: templates/CRM/Booking/Form/Search/DayViewResults.tpl
-#: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource-modal.tpl
-#: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource.tpl
-#: templates/CRM/Booking/tpl/select-resource/add-source.modal.tpl
-msgid "Quantity"
-msgstr "Ilość"
-
-#: CRM/Booking/DAO/AdhocCharges.php CRM/Booking/DAO/AdhocChargesItem.php
-#: CRM/Booking/DAO/Resource.php CRM/Booking/DAO/ResourceConfigOption.php
-#: CRM/Booking/DAO/ResourceConfigSet.php CRM/Booking/DAO/Slot.php
-msgid "Slot is cancelled"
-msgstr "Slot został wycofany"
-
-#: CRM/Booking/DAO/AdhocCharges.php CRM/Booking/DAO/AdhocChargesItem.php
-#: CRM/Booking/DAO/Resource.php CRM/Booking/DAO/ResourceConfigOption.php
-#: CRM/Booking/DAO/ResourceConfigSet.php CRM/Booking/DAO/Slot.php
-msgid "Slot is in the Trash"
-msgstr "Slot jest w koszu"
-
-#: CRM/Booking/DAO/AdhocChargesItem.php CRM/Booking/DAO/Payment.php
-#: CRM/Booking/DAO/ResourceConfigOption.php
-#: CRM/Booking/DAO/ResourceConfigSet.php CRM/Booking/DAO/ResourceCriteria.php
-msgid "ID"
-msgstr "ID"
-
-#: CRM/Booking/DAO/Booking.php CRM/Booking/Selector/Search.php
-#: templates/CRM/Booking/Form/Booking/View.tpl
-msgid "Start Date"
-msgstr "Data rozpoczęcia"
-
-#: CRM/Booking/DAO/Booking.php CRM/Booking/Selector/Search.php
-#: templates/CRM/Booking/Form/Booking/View.tpl
-msgid "End Date"
-msgstr "Data zakończenia"
-
-#: CRM/Booking/DAO/Booking.php CRM/Booking/DAO/Slot.php
-#: CRM/Booking/DAO/SubSlot.php CRM/Booking/Form/Booking/Info.php
-#: templates/CRM/Booking/Form/Booking/View.tpl
-#: templates/CRM/Booking/Form/Search/DayViewResults.tpl
-#: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource-modal.tpl
-#: templates/CRM/Booking/tpl/add-sub-resource/edit-adhock-charges-modal.tpl
-#: templates/CRM/Booking/tpl/select-resource/add-source.modal.tpl
-msgid "Note"
-msgstr "Nota"
-
-#: CRM/Booking/Form/AddSubResource.php CRM/Booking/Form/Booking/Info.php
-#: CRM/Booking/Form/SelectResource.php CRM/Booking/Selector/Search.php
-msgid "Edit Booking"
-msgstr "Edycja rezerwacji"
-
-#: CRM/Booking/Form/AddSubResource.php CRM/Booking/Form/Booking/Info.php
-#: CRM/Booking/Form/SelectResource.php booking.php
-msgid "New Booking"
-msgstr "Nowe rezerwacja"
-
-#: CRM/Booking/Form/AddSubResource.php CRM/Booking/Form/SelectResource.php
-msgid "Next >>"
-msgstr "Następny>>"
-
-#: CRM/Booking/Form/Booking/Base.php CRM/Booking/Form/Task/Result.php
-msgid "Done"
-msgstr "Zrobione"
-
-#: CRM/Booking/Form/Booking/Base.php CRM/Booking/Form/Booking/Info.php
-msgid "Primary contact"
-msgstr "Główny kontakt"
-
-#: CRM/Booking/Form/Booking/Base.php CRM/Booking/Form/Booking/Info.php
-msgid "Secondary contact"
-msgstr "Dodatkowy kontakt"
-
-#: CRM/Booking/Form/Booking/Base.php CRM/Booking/Selector/Search.php
-#: templates/CRM/Booking/Form/Search/Criteria.tpl
-#: templates/CRM/Booking/Page/AssociatedBooking.tpl
-msgid "Payment Status"
-msgstr "Status Wpłaty"
-
-#: CRM/Booking/Form/Booking/Base.php CRM/Booking/Form/Booking/Info.php
-msgid "This field is required."
-msgstr "To pole jest wymagane"
-
-#: CRM/Booking/Form/Booking/Info.php CRM/Booking/Form/Booking/Update.php
-#: templates/CRM/Booking/Form/Booking/View.tpl
-msgid "Booking status"
-msgstr "Status rezerwacji"
-
-#: CRM/Booking/Form/Search.php booking.php
-msgid "Find Bookings"
-msgstr "Znajdź rezerwację"
-
-#: CRM/Booking/Page/Tab.php CRM/Booking/Selector/Search.php booking.php
-#: templates/CRM/Booking/Form/Booking/View.tpl
-msgid "Booking"
-msgstr "Rezerwacje"
-
-#: CRM/Booking/Page/Tab.php CRM/Booking/Selector/Search.php
-msgid "View Booking"
-msgstr "Widok rezerwacji"
-
-#: CRM/Admin/Form/AdhocChargesItem.php
-msgid "Settings - Additional Charges Item"
-msgstr "Ustawienia - Przedmiot Dodatkowych Opłat"
-
-#: CRM/Admin/Form/AdhocChargesItem.php
-msgid "This field should be numeric."
-msgstr "Wartość powinna być liczbą."
-
-#: CRM/Admin/Form/AdhocChargesItem.php
-msgid "Selected additional charges item has been deleted."
-msgstr "Wybór przedmiotu dodatkowych opłat został usunięty."
 
 #: CRM/Admin/Form/AdhocChargesItem.php
 msgid "Your additional charges item '%1' has been added."
@@ -351,6 +168,19 @@ msgstr "Ustawienia - zasoby"
 msgid "Resource type"
 msgstr "Typ zasobu"
 
+#: CRM/Admin/Form/Resource.php CRM/Admin/Form/ResourceConfigOption.php
+#: CRM/Booking/BAO/Query.php CRM/Booking/Form/Booking/Base.php
+#: CRM/Booking/Form/Booking/Cancel.php CRM/Booking/Form/Booking/Info.php
+#: CRM/Booking/Form/Booking/Update.php
+msgid "- select -"
+msgstr "-wybierz-"
+
+#: CRM/Admin/Form/Resource.php CRM/Booking/DAO/Booking.php
+#: CRM/Booking/Form/Booking/Info.php templates/CRM/Admin/Page/Resource.tpl
+#: templates/CRM/Booking/Form/Booking/View.tpl
+msgid "Description"
+msgstr "Opis"
+
 #: CRM/Admin/Form/Resource.php
 msgid "Is Unlimited?"
 msgstr "Jest nielimitowany?"
@@ -359,7 +189,7 @@ msgstr "Jest nielimitowany?"
 msgid "Resource configuration set"
 msgstr "Zestaw ustawień zasobu"
 
-#: CRM/Admin/Form/Resource.php
+#: CRM/Admin/Form/Resource.php booking.php
 msgid "Resource Location"
 msgstr "Lokalizacja zasobu"
 
@@ -372,6 +202,17 @@ msgid "Selected resource has been deleted."
 msgstr "Wybrany zasób został usunięty."
 
 #: CRM/Admin/Form/ResourceConfigOption.php
+#: CRM/Admin/Page/ResourceConfigOption.php
+msgid "Settings - Resource Configuration Option"
+msgstr "Ustawienia - Opcja Zawartość Konfiguracji"
+
+#: CRM/Admin/Form/ResourceConfigOption.php
+#: CRM/Booking/DAO/ResourceConfigOption.php
+#: templates/CRM/Admin/Page/ResourceConfigOption.tpl
+msgid "Max Size"
+msgstr "Maksymalny Rozmiar"
+
+#: CRM/Admin/Form/ResourceConfigOption.php
 #: templates/CRM/Admin/Page/ResourceConfigOption.tpl
 msgid "Unit"
 msgstr "Jednostka"
@@ -379,6 +220,18 @@ msgstr "Jednostka"
 #: CRM/Admin/Form/ResourceConfigOption.php
 msgid "Selected resource configuration option has been deleted."
 msgstr "Wybrane opcje konfiguracji zasobu zostały usunięte."
+
+#: CRM/Admin/Form/ResourceConfigSet.php CRM/Admin/Page/ResourceConfigSet.php
+msgid "Settings - Resource Configuration Set"
+msgstr "Ustawienia - Wybór Zawartości Konfiguracji"
+
+#: CRM/Admin/Form/ResourceConfigSet.php CRM/Booking/BAO/Booking.php
+#: CRM/Booking/DAO/Booking.php CRM/Booking/DAO/ResourceConfigSet.php
+#: CRM/Booking/Form/Booking/Info.php CRM/Booking/Selector/Search.php
+#: templates/CRM/Admin/Page/ResourceConfigSet.tpl
+#: templates/CRM/Booking/Page/AssociatedBooking.tpl
+msgid "Title"
+msgstr "Tytuł"
 
 #: CRM/Admin/Form/ResourceConfigSet.php
 msgid "Selected resource configuration set has been deleted."
@@ -390,17 +243,44 @@ msgid ""
 "option now."
 msgstr ""
 
+#: CRM/Admin/Page/AdhocChargesItem.php CRM/Admin/Page/Resource.php
+#: CRM/Admin/Page/ResourceConfigOption.php
+#: CRM/Admin/Page/ResourceConfigSet.php CRM/Booking/Selector/Search.php
+#: templates/CRM/Booking/Form/Booking/View.tpl
+#: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource.tpl
+msgid "Edit"
+msgstr "Edycja"
+
 #: CRM/Admin/Page/AdhocChargesItem.php
 msgid "Edit Additional Charges Item"
 msgstr ""
+
+#: CRM/Admin/Page/AdhocChargesItem.php CRM/Admin/Page/Resource.php
+#: CRM/Admin/Page/ResourceConfigOption.php
+#: CRM/Admin/Page/ResourceConfigSet.php
+msgid "Disable"
+msgstr "Wyłączony"
 
 #: CRM/Admin/Page/AdhocChargesItem.php
 msgid "Disable Additional Charges Item"
 msgstr ""
 
+#: CRM/Admin/Page/AdhocChargesItem.php CRM/Admin/Page/Resource.php
+#: CRM/Admin/Page/ResourceConfigOption.php
+#: CRM/Admin/Page/ResourceConfigSet.php
+msgid "Enable"
+msgstr "Włączony"
+
 #: CRM/Admin/Page/AdhocChargesItem.php
 msgid "Enable Additional Charges Item"
 msgstr ""
+
+#: CRM/Admin/Page/AdhocChargesItem.php CRM/Admin/Page/Resource.php
+#: CRM/Admin/Page/ResourceConfigOption.php
+#: CRM/Admin/Page/ResourceConfigSet.php CRM/Booking/Form/Booking/Base.php
+#: CRM/Booking/Selector/Search.php templates/CRM/Booking/Form/Booking/View.tpl
+msgid "Delete"
+msgstr "Usuń"
 
 #: CRM/Admin/Page/AdhocChargesItem.php
 #: templates/CRM/Admin/Form/AdhocChargesItem.tpl
@@ -473,6 +353,15 @@ msgstr ""
 msgid "Delete Resource Configuration Set"
 msgstr ""
 
+#: CRM/Booking/BAO/Booking.php CRM/Booking/DAO/Booking.php
+msgid "PO Number"
+msgstr "PO Numer"
+
+#: CRM/Booking/BAO/Booking.php CRM/Booking/Selector/Search.php booking.php
+#: templates/CRM/Booking/Page/AssociatedBooking.tpl
+msgid "Booking Status"
+msgstr "Status rezerwacji"
+
 #: CRM/Booking/BAO/Booking.php
 msgid "Send Booking Confirmation Email"
 msgstr "Wyślij potwierdzenie rezerwacji "
@@ -505,6 +394,16 @@ msgstr "Nie rozpoznana fraza wyszukiwania: %1"
 msgid "Purchase Order Number"
 msgstr "Numer zamówienia"
 
+#: CRM/Booking/BAO/Query.php booking.php
+msgid "Resource Type"
+msgstr "Rodzaj zawartości"
+
+#: CRM/Booking/BAO/Query.php CRM/Booking/DAO/Payment.php
+#: templates/CRM/Booking/Form/Booking/Update.tpl
+#: templates/CRM/Booking/Form/Search/DayViewResults.tpl
+msgid "Booking ID"
+msgstr "Id rezerwacji"
+
 #: CRM/Booking/BAO/Query.php
 msgid "Booking Title"
 msgstr "Tytuł rezerwacji"
@@ -514,6 +413,33 @@ msgstr "Tytuł rezerwacji"
 #: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource.tpl
 msgid "From"
 msgstr "Od"
+
+#: CRM/Booking/DAO/AdhocCharges.php CRM/Booking/DAO/Slot.php
+#: CRM/Booking/DAO/SubSlot.php templates/CRM/Booking/Form/Booking/View.tpl
+#: templates/CRM/Booking/Form/Search/DayViewResults.tpl
+#: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource-modal.tpl
+#: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource.tpl
+#: templates/CRM/Booking/tpl/select-resource/add-source.modal.tpl
+msgid "Quantity"
+msgstr "Ilość"
+
+#: CRM/Booking/DAO/AdhocCharges.php CRM/Booking/DAO/AdhocChargesItem.php
+#: CRM/Booking/DAO/Resource.php CRM/Booking/DAO/ResourceConfigOption.php
+#: CRM/Booking/DAO/ResourceConfigSet.php CRM/Booking/DAO/Slot.php
+msgid "Slot is cancelled"
+msgstr "Slot został wycofany"
+
+#: CRM/Booking/DAO/AdhocCharges.php CRM/Booking/DAO/AdhocChargesItem.php
+#: CRM/Booking/DAO/Resource.php CRM/Booking/DAO/ResourceConfigOption.php
+#: CRM/Booking/DAO/ResourceConfigSet.php CRM/Booking/DAO/Slot.php
+msgid "Slot is in the Trash"
+msgstr "Slot jest w koszu"
+
+#: CRM/Booking/DAO/AdhocChargesItem.php CRM/Booking/DAO/Payment.php
+#: CRM/Booking/DAO/ResourceConfigOption.php
+#: CRM/Booking/DAO/ResourceConfigSet.php CRM/Booking/DAO/ResourceCriteria.php
+msgid "ID"
+msgstr "ID"
 
 #: CRM/Booking/DAO/AdhocChargesItem.php
 #: templates/CRM/Booking/Form/Booking/View.tpl
@@ -536,9 +462,29 @@ msgstr "Identyfikator statusu"
 msgid "Booking Date"
 msgstr "Data rezerwacji"
 
+#: CRM/Booking/DAO/Booking.php CRM/Booking/Selector/Search.php
+#: templates/CRM/Booking/Form/Booking/View.tpl
+msgid "Start Date"
+msgstr "Data rozpoczęcia"
+
+#: CRM/Booking/DAO/Booking.php CRM/Booking/Selector/Search.php
+#: templates/CRM/Booking/Form/Booking/View.tpl
+msgid "End Date"
+msgstr "Data zakończenia"
+
 #: CRM/Booking/DAO/Booking.php
 msgid "Total amount"
 msgstr "Suma"
+
+#: CRM/Booking/DAO/Booking.php CRM/Booking/DAO/Slot.php
+#: CRM/Booking/DAO/SubSlot.php CRM/Booking/Form/Booking/Info.php
+#: templates/CRM/Booking/Form/Booking/View.tpl
+#: templates/CRM/Booking/Form/Search/DayViewResults.tpl
+#: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource-modal.tpl
+#: templates/CRM/Booking/tpl/add-sub-resource/edit-adhock-charges-modal.tpl
+#: templates/CRM/Booking/tpl/select-resource/add-source.modal.tpl
+msgid "Note"
+msgstr "Nota"
 
 #: CRM/Booking/DAO/Booking.php
 msgid "Adhoc Charges Note"
@@ -689,6 +635,16 @@ msgstr "Subslot jest w koszu"
 msgid "Add unlimited resources"
 msgstr "Dodaj nielimitowane zasoby"
 
+#: CRM/Booking/Form/AddSubResource.php CRM/Booking/Form/Booking/Info.php
+#: CRM/Booking/Form/SelectResource.php CRM/Booking/Selector/Search.php
+msgid "Edit Booking"
+msgstr "Edycja rezerwacji"
+
+#: CRM/Booking/Form/AddSubResource.php CRM/Booking/Form/Booking/Info.php
+#: CRM/Booking/Form/SelectResource.php booking.php
+msgid "New Booking"
+msgstr "Nowe rezerwacja"
+
 #: CRM/Booking/Form/AddSubResource.php
 #: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource.tpl
 msgid "Sub total"
@@ -717,6 +673,10 @@ msgstr "Nielimitowane zasoby"
 msgid "<< Previous"
 msgstr "<<poprzedni"
 
+#: CRM/Booking/Form/AddSubResource.php CRM/Booking/Form/SelectResource.php
+msgid "Next >>"
+msgstr "Następny>>"
+
 #: CRM/Booking/Form/Booking/Base.php
 msgid ""
 "The requested booking record does not exist (possibly the record was "
@@ -730,6 +690,10 @@ msgstr "Oczekiwany rekord rezerwacji został już anulowany."
 #: CRM/Booking/Form/Booking/Base.php
 msgid "Update Booking"
 msgstr "Aktualizuj rezerwację"
+
+#: CRM/Booking/Form/Booking/Base.php CRM/Booking/Form/Task/Result.php
+msgid "Done"
+msgstr "Zrobione"
 
 #: CRM/Booking/Form/Booking/Base.php
 msgid "Send email?"
@@ -761,6 +725,14 @@ msgstr "Stopka"
 msgid "Both"
 msgstr ""
 
+#: CRM/Booking/Form/Booking/Base.php CRM/Booking/Form/Booking/Info.php
+msgid "Primary contact"
+msgstr "Główny kontakt"
+
+#: CRM/Booking/Form/Booking/Base.php CRM/Booking/Form/Booking/Info.php
+msgid "Secondary contact"
+msgstr "Dodatkowy kontakt"
+
 #: CRM/Booking/Form/Booking/Base.php
 msgid "Email to"
 msgstr "Email do"
@@ -791,8 +763,18 @@ msgid "Paid By"
 msgstr "Opłacono przez"
 
 #: CRM/Booking/Form/Booking/Base.php
+msgid "Check Number"
+msgstr ""
+
+#: CRM/Booking/Form/Booking/Base.php
 msgid "Transaction ID"
 msgstr "Identyfikator transakcji"
+
+#: CRM/Booking/Form/Booking/Base.php CRM/Booking/Selector/Search.php
+#: templates/CRM/Booking/Form/Search/Criteria.tpl
+#: templates/CRM/Booking/Page/AssociatedBooking.tpl
+msgid "Payment Status"
+msgstr "Status Wpłaty"
 
 #: CRM/Booking/Form/Booking/Base.php
 msgid " Include payment information on booking confirmation email?"
@@ -821,6 +803,10 @@ msgstr "Proszę wybrać kontakt w celu rejestracji płatności."
 #: CRM/Booking/Form/Booking/Base.php
 msgid "Please select a financial type."
 msgstr ""
+
+#: CRM/Booking/Form/Booking/Base.php CRM/Booking/Form/Booking/Info.php
+msgid "This field is required."
+msgstr "To pole jest wymagane"
 
 #: CRM/Booking/Form/Booking/Base.php
 msgid "Please select a payment instrument."
@@ -878,6 +864,11 @@ msgstr "Informacje o rezerwacji"
 msgid "Purchase order number"
 msgstr "Numer zamówienia"
 
+#: CRM/Booking/Form/Booking/Info.php CRM/Booking/Form/Booking/Update.php
+#: templates/CRM/Booking/Form/Booking/View.tpl
+msgid "Booking status"
+msgstr "Status rezerwacji"
+
 #: CRM/Booking/Form/Booking/Info.php
 msgid "Date booking made"
 msgstr "Data stworzenia rezerwacji"
@@ -897,6 +888,10 @@ msgstr "<<Tył"
 #: CRM/Booking/Form/Booking/Info.php
 msgid "Complete and Save"
 msgstr "Zakończ i zapisz"
+
+#: CRM/Booking/Form/Booking/Info.php
+msgid "Currency"
+msgstr ""
 
 #: CRM/Booking/Form/Booking/Info.php
 msgid ""
@@ -951,6 +946,10 @@ msgstr "Idż"
 msgid "Search"
 msgstr "Szukaj"
 
+#: CRM/Booking/Form/Search.php booking.php
+msgid "Find Bookings"
+msgstr "Znajdź rezerwację"
+
 #: CRM/Booking/Form/SelectResource.php
 msgid "Resource(s)"
 msgstr "Źródła"
@@ -966,6 +965,15 @@ msgstr "Wydrukuj rezerwację"
 #: CRM/Booking/Page/Print/DayView.php
 msgid "DayViewPrint"
 msgstr "Wydrukuj widok dnia"
+
+#: CRM/Booking/Page/Tab.php CRM/Booking/Selector/Search.php booking.php
+#: templates/CRM/Booking/Form/Booking/View.tpl
+msgid "Booking"
+msgstr "Rezerwacje"
+
+#: CRM/Booking/Page/Tab.php CRM/Booking/Selector/Search.php
+msgid "View Booking"
+msgstr "Widok rezerwacji"
 
 #: CRM/Booking/Selector/Search.php
 #: templates/CRM/Booking/Page/AssociatedBooking.tpl
@@ -1012,6 +1020,10 @@ msgstr "Kontakt rezerwacji"
 msgid "CiviCRM Booking Search"
 msgstr "CiviCRM Booking szukaj"
 
+#: CRM/Booking/Upgrader/Base.php
+msgid "Upgrade %1 to revision %2"
+msgstr ""
+
 #: CRM/Booking/Upgrader.php
 msgid "Booking - Confirmation and Receipt (off-line)"
 msgstr "Rezerwacja - potwierdzenie i rachunek (offline)"
@@ -1029,20 +1041,16 @@ msgid "CiviBooking"
 msgstr "CiviRezerwacje"
 
 #: booking.php
-msgid "Manage Resources"
-msgstr "Zarządzanie Zasobami"
-
-#: booking.php
 msgid "Resource Configuration Set"
 msgstr "Wybór Zasobu Konfiguracji"
 
 #: booking.php
-msgid "Additional Charges Item"
-msgstr "Przedmiot Dodatkowych Opłat"
+msgid "Manage Resources"
+msgstr "Zarządzanie Zasobami"
 
 #: booking.php
-msgid "Resource Criteria"
-msgstr "Kryteria Zasobów"
+msgid "Additional Charges Item"
+msgstr "Przedmiot Dodatkowych Opłat"
 
 #: booking.php
 msgid "Size Unit"
@@ -1059,6 +1067,18 @@ msgstr "Ustawienia Komponentów rezerwacji"
 #: booking.php
 msgid "Day View"
 msgstr "Widok Dzienny"
+
+#: booking.php
+msgid "administer CiviBooking"
+msgstr ""
+
+#: booking.php
+msgid "create and update bookings"
+msgstr ""
+
+#: booking.php
+msgid "view all bookings"
+msgstr ""
 
 #: js/booking/add-sub-resource/view.js
 msgid "Add Unlimited Resource"
@@ -1085,6 +1105,24 @@ msgid "Please select the date and time during the valid booking time."
 msgstr ""
 
 #: js/booking/add-sub-resource/view.js
+msgid "Your resource configuration set is disabled."
+msgstr ""
+
+#: js/booking/add-sub-resource/view.js
+msgid "Click here to edit configuration set."
+msgstr ""
+
+#: js/booking/add-sub-resource/view.js
+msgid ""
+"Your resource configuration options are all disabled or none have been "
+"created."
+msgstr ""
+
+#: js/booking/add-sub-resource/view.js
+msgid "Click here to edit or create options."
+msgstr ""
+
+#: js/booking/add-sub-resource/view.js
 #: templates/CRM/Booking/Form/SelectResource.js
 #: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource-modal.tpl
 msgid "select configuration"
@@ -1096,31 +1134,6 @@ msgstr ""
 
 #: js/booking/booking-info/view.js
 msgid "Contact Saved"
-msgstr ""
-
-#: templates/CRM/Booking/Form/SelectResource.js
-msgid "New"
-msgstr ""
-
-#: templates/CRM/Booking/Form/SelectResource.js
-msgid "End date time must be after start date time"
-msgstr ""
-
-#: templates/CRM/Booking/Form/SelectResource.js
-msgid "Time clashes with another slot item."
-msgstr ""
-
-#: templates/CRM/Booking/Form/SelectResource.js
-msgid "Add resource to basket"
-msgstr ""
-
-#: templates/CRM/Booking/Form/SelectResource.js
-#: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource-modal.tpl
-msgid "Loading ..."
-msgstr ""
-
-#: templates/CRM/Booking/Form/SelectResource.js
-msgid "Resource removed"
 msgstr ""
 
 #: templates/CRM/Admin/Form/AdhocChargesItem.tpl
@@ -1164,8 +1177,8 @@ msgstr ""
 
 #: templates/CRM/Admin/Form/Preferences/Booking.tpl
 msgid ""
-"Only allow unlimited resources to be booked during the time booking of the "
-"parent limited resource?"
+"Only allow unlimited resources to be booked within time span of the parent "
+"limited resource booking?"
 msgstr ""
 
 #: templates/CRM/Admin/Form/Preferences/Booking.tpl
@@ -1304,10 +1317,6 @@ msgstr ""
 
 #: templates/CRM/Booking/Form/Booking/Cancel.tpl
 msgid "Unlimited Resource Fee"
-msgstr ""
-
-#: templates/CRM/Booking/Form/Booking/Cancel.tpl
-msgid "0"
 msgstr ""
 
 #: templates/CRM/Booking/Form/Booking/Common.tpl
@@ -1509,10 +1518,6 @@ msgstr ""
 msgid "Try a different date"
 msgstr ""
 
-#: templates/CRM/Booking/Form/Search.tpl
-msgid "Edit Search Criteria"
-msgstr ""
-
 #: templates/CRM/Booking/Form/Search/Criteria.tpl
 msgid "Start Dates"
 msgstr ""
@@ -1570,6 +1575,43 @@ msgstr ""
 msgid "make sure you have enough privileges in the access control system"
 msgstr ""
 
+#: templates/CRM/Booking/Form/Search.tpl
+msgid "Edit Search Criteria"
+msgstr ""
+
+#: templates/CRM/Booking/Form/SelectResource.js
+msgid "New"
+msgstr ""
+
+#: templates/CRM/Booking/Form/SelectResource.js
+msgid "End date time must be after start date time"
+msgstr ""
+
+#: templates/CRM/Booking/Form/SelectResource.js
+msgid "End Time clashes with another slot item."
+msgstr ""
+
+#: templates/CRM/Booking/Form/SelectResource.js
+msgid "Start time clashes with another slot item."
+msgstr ""
+
+#: templates/CRM/Booking/Form/SelectResource.js
+msgid "Add resource to basket"
+msgstr ""
+
+#: templates/CRM/Booking/Form/SelectResource.js
+#: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource-modal.tpl
+msgid "Loading ..."
+msgstr ""
+
+#: templates/CRM/Booking/Form/SelectResource.js
+msgid "Resource removed"
+msgstr ""
+
+#: templates/CRM/Booking/Form/SelectResource.js
+msgid "Max"
+msgstr ""
+
 #: templates/CRM/Booking/Form/SelectResource.tpl
 msgid ""
 "There are no resources to display. <a href='%1'>Click here</a> if you want "
@@ -1625,6 +1667,12 @@ msgstr ""
 msgid "Price estimate"
 msgstr ""
 
+#: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource-modal.tpl
+msgid ""
+"There are no unlimited resources defined. <a href='%1'>Click here</a> if you"
+" want to add new unlimited resource."
+msgstr ""
+
 #: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource.tpl
 msgid "Resource label"
 msgstr ""
@@ -1665,14 +1713,6 @@ msgstr ""
 msgid ""
 "There are no additional charges. <a href='%1'>Click here</a> if you want to "
 "add new additional charges your site."
-msgstr ""
-
-#: templates/CRM/Booking/tpl/booking-info/booking-info.tpl
-msgid "OR"
-msgstr ""
-
-#: templates/CRM/Booking/tpl/booking-info/booking-info.tpl
-msgid "- create new contact -"
 msgstr ""
 
 #: templates/CRM/Booking/tpl/booking-info/booking-info.tpl
