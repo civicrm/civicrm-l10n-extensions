@@ -1,4 +1,4 @@
-# Copyright CiviCRM LLC (c) 2004-2014
+# Copyright CiviCRM LLC (c) 2004-2015
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
@@ -7,9 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2015-07-08 22:34-0700\n"
-"PO-Revision-Date: 2015-10-15 06:34+0000\n"
-"Last-Translator: Satomi Sato <puritira2015@gmail.com>\n"
+"POT-Creation-Date: 2018-02-06 17:41+0000\n"
+"PO-Revision-Date: 2018-02-06 17:41+0000\n"
+"Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
 "Language-Team: Japanese (http://www.transifex.com/civicrm/civicrm_extensions/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,9 +19,6 @@ msgstr ""
 
 #: CRM/Documents/DAO/Document.php CRM/Documents/Form/Document.php
 #: CRM/Documents/Form/Search.php CRM/Documents/Selector/Search.php
-#: drupal/views_civicrm_documents/form.inc
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
 #: templates/CRM/Documents/Page/CaseDocuments.tpl
 #: templates/CRM/Documents/Page/ContactDocuments.tpl
 msgid "Subject"
@@ -31,12 +28,22 @@ msgstr "件名"
 msgid "Date Added"
 msgstr "追加された日付"
 
+#: CRM/Documents/DAO/DocumentEntity.php
+msgid "Entity Table"
+msgstr "エンティティテーブル"
+
+#: CRM/Documents/DAO/DocumentEntity.php
+msgid "Entity ID"
+msgstr "エンティティID"
+
 #: CRM/Documents/DAO/DocumentVersion.php CRM/Documents/Form/NewVersion.php
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
 #: templates/CRM/Documents/Page/Versions.tpl
 msgid "Description"
 msgstr "説明"
+
+#: CRM/Documents/Form/Document.php templates/CRM/Documents/actionlinks.tpl
+msgid "Delete"
+msgstr "削除"
 
 #: CRM/Documents/Form/Document.php CRM/Documents/Form/NewVersion.php
 msgid "Cancel"
@@ -46,233 +53,12 @@ msgstr "キャンセル"
 msgid "Submit"
 msgstr "送信"
 
-#: CRM/Documents/Page/ContactDocuments.php CRM/Documents/Selector/Search.php
-#: documents.php drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
+#: CRM/Documents/Form/Document.php CRM/Documents/Selector/Search.php
+#: templates/CRM/Documents/Form/Document.tpl
 #: templates/CRM/Documents/Page/CaseDocuments.tpl
-msgid "Documents"
-msgstr "ドキュメント"
-
-#: CRM/Documents/Selector/Search.php
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-#: templates/CRM/Documents/Page/Versions.tpl
-msgid "Date added"
-msgstr "日付を追加"
-
-#: CRM/Documents/Selector/Search.php
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-#: templates/CRM/Documents/Page/Versions.tpl
-msgid "Added by"
-msgstr "追加"
-
-#: CRM/Documents/Selector/Search.php
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "Date updated"
-msgstr "更新日"
-
-#: CRM/Documents/Selector/Search.php
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "Updated by"
-msgstr "更新"
-
-#: drupal/views_civicrm_documents/handler/views_handler_field_document.inc
-#: drupal/views_civicrm_documents/handler/views_handler_field_document_version.inc
-msgid "Download link"
-msgstr "ダウンロードリンク"
-
-#: drupal/views_civicrm_documents/handler/views_handler_field_document.inc
-#: drupal/views_civicrm_documents/handler/views_handler_field_document_version.inc
-msgid "If checked a download link will be displayed."
-msgstr "チェックするとダウンロードリンクが表示されます。"
-
-#: drupal/views_civicrm_documents/handler/views_handler_field_document.inc
-#: drupal/views_civicrm_documents/handler/views_handler_field_document_version.inc
-msgid "Download Link Text"
-msgstr "ダウンロードのリンクテキスト"
-
-#: drupal/views_civicrm_documents/handler/views_handler_field_document.inc
-#: drupal/views_civicrm_documents/handler/views_handler_field_document_version.inc
-msgid ""
-"The text that will display in the field with the link. If you leave this "
-"empty the filename will be displayed"
-msgstr "フィールドに表示されるリンクテキストです。空のままにした場合は、ファイル名が表示されます。"
-
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "Master"
-msgstr "マスター"
-
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-msgid "Document versions"
-msgstr "ドキュメントバージョン"
-
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "more"
-msgstr "詳細"
-
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "Apply"
-msgstr "適用"
-
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "Reset"
-msgstr "リセット"
-
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "Sort by"
-msgstr "分類"
-
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "Asc"
-msgstr "昇順"
-
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "Desc"
-msgstr "降順"
-
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-#: templates/CRM/Documents/Form/NewVersion.tpl
-msgid "Document"
-msgstr "ドキュメント"
-
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-msgid "Contact"
+#: templates/CRM/Documents/Page/ContactDocuments.tpl
+msgid "Contacts"
 msgstr "連絡先"
-
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "Drupal User"
-msgstr "Drupal ユーザ"
-
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-msgid "Version"
-msgstr "バージョン"
-
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "."
-msgstr "."
-
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-#: templates/CRM/Documents/Page/Versions.tpl
-#: templates/CRM/Documents/actionlinks.tpl
-msgid "Download"
-msgstr "ダウンロード"
-
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "All"
-msgstr "すべて"
-
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "Page"
-msgstr "ページ"
-
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "Items per page"
-msgstr "ページごとの項目"
-
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "- All -"
-msgstr "- すべて -"
-
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "Offset"
-msgstr "オフセット"
-
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "« first"
-msgstr "« 最初"
-
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "‹ previous"
-msgstr "‹ 前へ"
-
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "next ›"
-msgstr "次へ ›"
-
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "last »"
-msgstr "最後 »"
-
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "Contact ID of document contact"
-msgstr "ドキュメント連絡先の連絡先ID"
-
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "Versions"
-msgstr "バージョン"
-
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-#: templates/CRM/Documents/actionlinks.tpl
-msgid "View versions"
-msgstr "バージョンを表示"
-
-#: CRM/Documents/DAO/DocumentEntity.php
-msgid "Entity Table"
-msgstr "エンティティテーブル"
-
-#: CRM/Documents/DAO/DocumentEntity.php
-msgid "Entity ID"
-msgstr "エンティティID"
-
-#: CRM/Documents/Form/Document.php templates/CRM/Documents/actionlinks.tpl
-msgid "Delete"
-msgstr "削除"
 
 #: CRM/Documents/Form/Document.php
 msgid "Selected document has been successfully deleted."
@@ -286,14 +72,14 @@ msgstr "レコードを削除"
 msgid "Add new document"
 msgstr "新しいドキュメントを追加"
 
-#: CRM/Documents/Form/NewVersion.php
-msgid "Replace current version"
-msgstr "現在のバージョンを置換え"
-
 #: CRM/Documents/Form/NewVersion.php templates/CRM/Documents/Page/Versions.tpl
 #: templates/CRM/Documents/actionlinks.tpl
 msgid "Upload new version"
 msgstr "新しいバージョンをアップロード"
+
+#: CRM/Documents/Form/NewVersion.php
+msgid "Replace current version"
+msgstr "現在のバージョンを置換え"
 
 #: CRM/Documents/Form/Search.php
 msgid "Contact Name or Email"
@@ -307,15 +93,32 @@ msgstr "差出人 : "
 msgid "Search"
 msgstr "検索"
 
+#: CRM/Documents/Page/ContactDocuments.php CRM/Documents/Selector/Search.php
+#: documents.php templates/CRM/Documents/Page/CaseDocuments.tpl
+msgid "Documents"
+msgstr "ドキュメント"
+
 #: CRM/Documents/Selector/Search.php
 msgid "Document ID"
 msgstr "ドキュメントID"
 
-#: CRM/Documents/Selector/Search.php templates/CRM/Documents/Form/Document.tpl
-#: templates/CRM/Documents/Page/CaseDocuments.tpl
+#: CRM/Documents/Selector/Search.php
 #: templates/CRM/Documents/Page/ContactDocuments.tpl
-msgid "Contacts"
-msgstr "連絡先"
+#: templates/CRM/Documents/Page/Versions.tpl
+msgid "Date added"
+msgstr "日付を追加"
+
+#: CRM/Documents/Selector/Search.php templates/CRM/Documents/Page/Versions.tpl
+msgid "Added by"
+msgstr "追加"
+
+#: CRM/Documents/Selector/Search.php
+msgid "Date updated"
+msgstr "更新日"
+
+#: CRM/Documents/Selector/Search.php
+msgid "Updated by"
+msgstr "更新"
 
 #: CRM/Documents/Selector/Search.php
 msgid "CiviCRM Documents Search"
@@ -329,41 +132,13 @@ msgstr "以上または、に等しく"
 msgid "less than or equal to"
 msgstr "未満または、に等しく"
 
-#: documents.php
-msgid "Find documents"
-msgstr "ドキュメントを検索"
-
-#: drupal/views_civicrm_documents/form.inc
-msgid "File"
-msgstr "ファイル"
-
-#: drupal/views_civicrm_documents/form.inc
-msgid "Save"
-msgstr "保存"
-
-#: drupal/views_civicrm_documents/form.inc
-msgid "Description of new version"
-msgstr "新バージョンの説明"
-
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "Case"
-msgstr "事例"
-
-#: CRM/Documents/Upgrader.php
-msgid "Process first step"
-msgstr "最初のステップ処理"
-
-#: CRM/Documents/Upgrader.php
-msgid "Process second step"
-msgstr "第二ステップ処理"
-
-#: CRM/Documents/Upgrader.php
-msgid "Upgrade Batch (%1 => %2)"
-msgstr "アップグレードバッチ (%1 => %2)"
-
 #: CRM/Documents/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
 msgstr "リビジョン %2 へ %1 の更新"
+
+#: documents.php
+msgid "Find documents"
+msgstr "ドキュメントを検索"
 
 #: templates/CRM/Documents/Form/Document.tpl
 msgid "Are you sure you want to delete '%1'?"
@@ -373,17 +148,9 @@ msgstr "「%1」を削除してもよろしいですか？"
 msgid "Case(s)"
 msgstr "事例"
 
-#: templates/CRM/Documents/Form/Search.tpl
-msgid "Edit Search Criteria"
-msgstr "検索条件を編集"
-
-#: templates/CRM/Documents/Form/Search.tpl
-msgid "Document Tag(s)"
-msgstr "ドキュメントタグ"
-
-#: templates/CRM/Documents/Form/Search.tpl
-msgid "Document Dates"
-msgstr "ドキュメントの日付"
+#: templates/CRM/Documents/Form/NewVersion.tpl
+msgid "Document"
+msgstr "ドキュメント"
 
 #: templates/CRM/Documents/Form/Search/EmptyResults.tpl
 msgid "No matches found for:"
@@ -411,6 +178,18 @@ msgid ""
 "values"
 msgstr "日付や金額の範囲内で検索する場合は、広範囲の値を試してください"
 
+#: templates/CRM/Documents/Form/Search.tpl
+msgid "Edit Search Criteria"
+msgstr "検索条件を編集"
+
+#: templates/CRM/Documents/Form/Search.tpl
+msgid "Document Tag(s)"
+msgstr "ドキュメントタグ"
+
+#: templates/CRM/Documents/Form/Search.tpl
+msgid "Document Dates"
+msgstr "ドキュメントの日付"
+
 #: templates/CRM/Documents/Form/attachment.tpl
 msgid "Attachment(s)"
 msgstr "添付ファイル"
@@ -434,10 +213,6 @@ msgstr "現在の添付ファイル"
 #: templates/CRM/Documents/Form/attachment.tpl
 msgid "Delete this attachment"
 msgstr "この添付ファイルを削除"
-
-#: templates/CRM/Documents/Form/attachment.tpl
-msgid "Tags"
-msgstr "タグ"
 
 #: templates/CRM/Documents/Form/attachment.tpl
 msgid ""
@@ -468,6 +243,15 @@ msgstr "戻る"
 msgid "Number"
 msgstr "番号"
 
+#: templates/CRM/Documents/Page/Versions.tpl
+#: templates/CRM/Documents/actionlinks.tpl
+msgid "Download"
+msgstr "ダウンロード"
+
 #: templates/CRM/Documents/actionlinks.tpl
 msgid "Edit"
 msgstr "編集"
+
+#: templates/CRM/Documents/actionlinks.tpl
+msgid "View versions"
+msgstr "バージョンを表示"
