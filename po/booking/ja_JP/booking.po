@@ -1,4 +1,4 @@
-# Copyright CiviCRM LLC (c) 2004-2014
+# Copyright CiviCRM LLC (c) 2004-2015
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
@@ -7,15 +7,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2014-05-16 13:29-0700\n"
-"PO-Revision-Date: 2015-10-15 06:34+0000\n"
-"Last-Translator: Satomi Sato <puritira2015@gmail.com>\n"
+"POT-Creation-Date: 2018-02-06 17:34+0000\n"
+"PO-Revision-Date: 2018-02-06 17:34+0000\n"
+"Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
 "Language-Team: Japanese (http://www.transifex.com/civicrm/civicrm_extensions/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: CRM/Admin/Form/AdhocChargesItem.php
+msgid "Settings - Additional Charges Item"
+msgstr "設定 -追加料金の項目"
 
 #: CRM/Admin/Form/AdhocChargesItem.php CRM/Admin/Form/Resource.php
 #: CRM/Admin/Form/ResourceConfigOption.php
@@ -80,6 +84,14 @@ msgstr "保存"
 msgid "Cancel"
 msgstr "キャンセル"
 
+#: CRM/Admin/Form/AdhocChargesItem.php
+msgid "This field should be numeric."
+msgstr "このフィールドは数値でなければなりません。"
+
+#: CRM/Admin/Form/AdhocChargesItem.php
+msgid "Selected additional charges item has been deleted."
+msgstr "選択した追加料金の項目が削除されました。"
+
 #: CRM/Admin/Form/AdhocChargesItem.php CRM/Admin/Form/Resource.php
 #: CRM/Admin/Form/ResourceConfigOption.php
 #: CRM/Admin/Form/ResourceConfigSet.php CRM/Booking/Form/Booking/Update.php
@@ -98,201 +110,6 @@ msgstr "レコード「%1」を保存しました。"
 #: CRM/Booking/Form/Booking/Info.php CRM/Booking/Form/Booking/Update.php
 msgid "Saved"
 msgstr "保存"
-
-#: CRM/Admin/Form/Resource.php CRM/Admin/Form/ResourceConfigOption.php
-#: CRM/Booking/BAO/Query.php CRM/Booking/Form/Booking/Base.php
-#: CRM/Booking/Form/Booking/Cancel.php CRM/Booking/Form/Booking/Info.php
-#: CRM/Booking/Form/Booking/Update.php
-msgid "- select -"
-msgstr "- 選択 -"
-
-#: CRM/Admin/Form/Resource.php CRM/Booking/DAO/Booking.php
-#: CRM/Booking/Form/Booking/Info.php templates/CRM/Admin/Page/Resource.tpl
-#: templates/CRM/Booking/Form/Booking/View.tpl
-msgid "Description"
-msgstr "説明"
-
-#: CRM/Admin/Form/ResourceConfigOption.php
-#: CRM/Admin/Page/ResourceConfigOption.php
-msgid "Settings - Resource Configuration Option"
-msgstr "設定 - リソース構成オプション"
-
-#: CRM/Admin/Form/ResourceConfigOption.php
-#: CRM/Booking/DAO/ResourceConfigOption.php
-#: templates/CRM/Admin/Page/ResourceConfigOption.tpl
-msgid "Max Size"
-msgstr "最大サイズ"
-
-#: CRM/Admin/Form/ResourceConfigSet.php CRM/Admin/Page/ResourceConfigSet.php
-msgid "Settings - Resource Configuration Set"
-msgstr "設定 - リソースの構成セット"
-
-#: CRM/Admin/Form/ResourceConfigSet.php CRM/Booking/BAO/Booking.php
-#: CRM/Booking/DAO/Booking.php CRM/Booking/DAO/ResourceConfigSet.php
-#: CRM/Booking/Form/Booking/Info.php CRM/Booking/Selector/Search.php
-#: templates/CRM/Admin/Page/ResourceConfigSet.tpl
-#: templates/CRM/Booking/Page/AssociatedBooking.tpl
-msgid "Title"
-msgstr "タイトル"
-
-#: CRM/Admin/Page/AdhocChargesItem.php CRM/Admin/Page/Resource.php
-#: CRM/Admin/Page/ResourceConfigOption.php
-#: CRM/Admin/Page/ResourceConfigSet.php CRM/Booking/Selector/Search.php
-#: templates/CRM/Booking/Form/Booking/View.tpl
-#: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource.tpl
-msgid "Edit"
-msgstr "編集"
-
-#: CRM/Admin/Page/AdhocChargesItem.php CRM/Admin/Page/Resource.php
-#: CRM/Admin/Page/ResourceConfigOption.php
-#: CRM/Admin/Page/ResourceConfigSet.php
-msgid "Disable"
-msgstr "無効"
-
-#: CRM/Admin/Page/AdhocChargesItem.php CRM/Admin/Page/Resource.php
-#: CRM/Admin/Page/ResourceConfigOption.php
-#: CRM/Admin/Page/ResourceConfigSet.php
-msgid "Enable"
-msgstr "有効"
-
-#: CRM/Admin/Page/AdhocChargesItem.php CRM/Admin/Page/Resource.php
-#: CRM/Admin/Page/ResourceConfigOption.php
-#: CRM/Admin/Page/ResourceConfigSet.php CRM/Booking/Form/Booking/Base.php
-#: CRM/Booking/Selector/Search.php templates/CRM/Booking/Form/Booking/View.tpl
-msgid "Delete"
-msgstr "削除"
-
-#: CRM/Booking/BAO/Booking.php CRM/Booking/DAO/Booking.php
-msgid "PO Number"
-msgstr "PO 番号"
-
-#: CRM/Booking/BAO/Booking.php CRM/Booking/Selector/Search.php booking.php
-#: templates/CRM/Booking/Page/AssociatedBooking.tpl
-msgid "Booking Status"
-msgstr "予約ステータス"
-
-#: CRM/Booking/BAO/Query.php booking.php
-msgid "Resource Type"
-msgstr "リソースタイプ"
-
-#: CRM/Booking/BAO/Query.php CRM/Booking/DAO/Payment.php
-#: templates/CRM/Booking/Form/Booking/Update.tpl
-#: templates/CRM/Booking/Form/Search/DayViewResults.tpl
-msgid "Booking ID"
-msgstr "予約ID"
-
-#: CRM/Booking/DAO/AdhocCharges.php CRM/Booking/DAO/Slot.php
-#: CRM/Booking/DAO/SubSlot.php templates/CRM/Booking/Form/Booking/View.tpl
-#: templates/CRM/Booking/Form/Search/DayViewResults.tpl
-#: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource-modal.tpl
-#: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource.tpl
-#: templates/CRM/Booking/tpl/select-resource/add-source.modal.tpl
-msgid "Quantity"
-msgstr "分量"
-
-#: CRM/Booking/DAO/AdhocCharges.php CRM/Booking/DAO/AdhocChargesItem.php
-#: CRM/Booking/DAO/Resource.php CRM/Booking/DAO/ResourceConfigOption.php
-#: CRM/Booking/DAO/ResourceConfigSet.php CRM/Booking/DAO/Slot.php
-msgid "Slot is cancelled"
-msgstr "解除されたスロット"
-
-#: CRM/Booking/DAO/AdhocCharges.php CRM/Booking/DAO/AdhocChargesItem.php
-#: CRM/Booking/DAO/Resource.php CRM/Booking/DAO/ResourceConfigOption.php
-#: CRM/Booking/DAO/ResourceConfigSet.php CRM/Booking/DAO/Slot.php
-msgid "Slot is in the Trash"
-msgstr "スロットはゴミ箱にあります"
-
-#: CRM/Booking/DAO/AdhocChargesItem.php CRM/Booking/DAO/Payment.php
-#: CRM/Booking/DAO/ResourceConfigOption.php
-#: CRM/Booking/DAO/ResourceConfigSet.php CRM/Booking/DAO/ResourceCriteria.php
-msgid "ID"
-msgstr "ID"
-
-#: CRM/Booking/DAO/Booking.php CRM/Booking/Selector/Search.php
-#: templates/CRM/Booking/Form/Booking/View.tpl
-msgid "Start Date"
-msgstr "開始日"
-
-#: CRM/Booking/DAO/Booking.php CRM/Booking/Selector/Search.php
-#: templates/CRM/Booking/Form/Booking/View.tpl
-msgid "End Date"
-msgstr "終了日"
-
-#: CRM/Booking/DAO/Booking.php CRM/Booking/DAO/Slot.php
-#: CRM/Booking/DAO/SubSlot.php CRM/Booking/Form/Booking/Info.php
-#: templates/CRM/Booking/Form/Booking/View.tpl
-#: templates/CRM/Booking/Form/Search/DayViewResults.tpl
-#: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource-modal.tpl
-#: templates/CRM/Booking/tpl/add-sub-resource/edit-adhock-charges-modal.tpl
-#: templates/CRM/Booking/tpl/select-resource/add-source.modal.tpl
-msgid "Note"
-msgstr "注意"
-
-#: CRM/Booking/Form/AddSubResource.php CRM/Booking/Form/Booking/Info.php
-#: CRM/Booking/Form/SelectResource.php CRM/Booking/Selector/Search.php
-msgid "Edit Booking"
-msgstr "予約を編集"
-
-#: CRM/Booking/Form/AddSubResource.php CRM/Booking/Form/Booking/Info.php
-#: CRM/Booking/Form/SelectResource.php booking.php
-msgid "New Booking"
-msgstr "新しい予約"
-
-#: CRM/Booking/Form/AddSubResource.php CRM/Booking/Form/SelectResource.php
-msgid "Next >>"
-msgstr "次へ >>"
-
-#: CRM/Booking/Form/Booking/Base.php CRM/Booking/Form/Task/Result.php
-msgid "Done"
-msgstr "完了"
-
-#: CRM/Booking/Form/Booking/Base.php CRM/Booking/Form/Booking/Info.php
-msgid "Primary contact"
-msgstr "主な連絡先"
-
-#: CRM/Booking/Form/Booking/Base.php CRM/Booking/Form/Booking/Info.php
-msgid "Secondary contact"
-msgstr "予備の連絡先"
-
-#: CRM/Booking/Form/Booking/Base.php CRM/Booking/Selector/Search.php
-#: templates/CRM/Booking/Form/Search/Criteria.tpl
-#: templates/CRM/Booking/Page/AssociatedBooking.tpl
-msgid "Payment Status"
-msgstr "支払いステータス"
-
-#: CRM/Booking/Form/Booking/Base.php CRM/Booking/Form/Booking/Info.php
-msgid "This field is required."
-msgstr "このフィールドは必須です。"
-
-#: CRM/Booking/Form/Booking/Info.php CRM/Booking/Form/Booking/Update.php
-#: templates/CRM/Booking/Form/Booking/View.tpl
-msgid "Booking status"
-msgstr "予約ステータス"
-
-#: CRM/Booking/Form/Search.php booking.php
-msgid "Find Bookings"
-msgstr "予約を検索"
-
-#: CRM/Booking/Page/Tab.php CRM/Booking/Selector/Search.php booking.php
-#: templates/CRM/Booking/Form/Booking/View.tpl
-msgid "Booking"
-msgstr "予約"
-
-#: CRM/Booking/Page/Tab.php CRM/Booking/Selector/Search.php
-msgid "View Booking"
-msgstr "予約を表示"
-
-#: CRM/Admin/Form/AdhocChargesItem.php
-msgid "Settings - Additional Charges Item"
-msgstr "設定 -追加料金の項目"
-
-#: CRM/Admin/Form/AdhocChargesItem.php
-msgid "This field should be numeric."
-msgstr "このフィールドは数値でなければなりません。"
-
-#: CRM/Admin/Form/AdhocChargesItem.php
-msgid "Selected additional charges item has been deleted."
-msgstr "選択した追加料金の項目が削除されました。"
 
 #: CRM/Admin/Form/AdhocChargesItem.php
 msgid "Your additional charges item '%1' has been added."
@@ -350,6 +167,19 @@ msgstr "設定 - リソース"
 msgid "Resource type"
 msgstr "リソースタイプ"
 
+#: CRM/Admin/Form/Resource.php CRM/Admin/Form/ResourceConfigOption.php
+#: CRM/Booking/BAO/Query.php CRM/Booking/Form/Booking/Base.php
+#: CRM/Booking/Form/Booking/Cancel.php CRM/Booking/Form/Booking/Info.php
+#: CRM/Booking/Form/Booking/Update.php
+msgid "- select -"
+msgstr "- 選択 -"
+
+#: CRM/Admin/Form/Resource.php CRM/Booking/DAO/Booking.php
+#: CRM/Booking/Form/Booking/Info.php templates/CRM/Admin/Page/Resource.tpl
+#: templates/CRM/Booking/Form/Booking/View.tpl
+msgid "Description"
+msgstr "説明"
+
 #: CRM/Admin/Form/Resource.php
 msgid "Is Unlimited?"
 msgstr "無制限ですか？"
@@ -358,7 +188,7 @@ msgstr "無制限ですか？"
 msgid "Resource configuration set"
 msgstr "リソース構成セット"
 
-#: CRM/Admin/Form/Resource.php
+#: CRM/Admin/Form/Resource.php booking.php
 msgid "Resource Location"
 msgstr "リソースロケーション"
 
@@ -371,6 +201,17 @@ msgid "Selected resource has been deleted."
 msgstr "選択したリソースは削除されました。"
 
 #: CRM/Admin/Form/ResourceConfigOption.php
+#: CRM/Admin/Page/ResourceConfigOption.php
+msgid "Settings - Resource Configuration Option"
+msgstr "設定 - リソース構成オプション"
+
+#: CRM/Admin/Form/ResourceConfigOption.php
+#: CRM/Booking/DAO/ResourceConfigOption.php
+#: templates/CRM/Admin/Page/ResourceConfigOption.tpl
+msgid "Max Size"
+msgstr "最大サイズ"
+
+#: CRM/Admin/Form/ResourceConfigOption.php
 #: templates/CRM/Admin/Page/ResourceConfigOption.tpl
 msgid "Unit"
 msgstr "単位"
@@ -378,6 +219,18 @@ msgstr "単位"
 #: CRM/Admin/Form/ResourceConfigOption.php
 msgid "Selected resource configuration option has been deleted."
 msgstr "選択したリソースの設定オプションが削除されました。"
+
+#: CRM/Admin/Form/ResourceConfigSet.php CRM/Admin/Page/ResourceConfigSet.php
+msgid "Settings - Resource Configuration Set"
+msgstr "設定 - リソースの構成セット"
+
+#: CRM/Admin/Form/ResourceConfigSet.php CRM/Booking/BAO/Booking.php
+#: CRM/Booking/DAO/Booking.php CRM/Booking/DAO/ResourceConfigSet.php
+#: CRM/Booking/Form/Booking/Info.php CRM/Booking/Selector/Search.php
+#: templates/CRM/Admin/Page/ResourceConfigSet.tpl
+#: templates/CRM/Booking/Page/AssociatedBooking.tpl
+msgid "Title"
+msgstr "タイトル"
 
 #: CRM/Admin/Form/ResourceConfigSet.php
 msgid "Selected resource configuration set has been deleted."
@@ -389,17 +242,44 @@ msgid ""
 "option now."
 msgstr "リソースの構成設定「%1」が追加されました。リソースオプションを追加することができます"
 
+#: CRM/Admin/Page/AdhocChargesItem.php CRM/Admin/Page/Resource.php
+#: CRM/Admin/Page/ResourceConfigOption.php
+#: CRM/Admin/Page/ResourceConfigSet.php CRM/Booking/Selector/Search.php
+#: templates/CRM/Booking/Form/Booking/View.tpl
+#: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource.tpl
+msgid "Edit"
+msgstr "編集"
+
 #: CRM/Admin/Page/AdhocChargesItem.php
 msgid "Edit Additional Charges Item"
 msgstr "追加料金の項目を編集"
+
+#: CRM/Admin/Page/AdhocChargesItem.php CRM/Admin/Page/Resource.php
+#: CRM/Admin/Page/ResourceConfigOption.php
+#: CRM/Admin/Page/ResourceConfigSet.php
+msgid "Disable"
+msgstr "無効"
 
 #: CRM/Admin/Page/AdhocChargesItem.php
 msgid "Disable Additional Charges Item"
 msgstr "追加料金の項目を無効"
 
+#: CRM/Admin/Page/AdhocChargesItem.php CRM/Admin/Page/Resource.php
+#: CRM/Admin/Page/ResourceConfigOption.php
+#: CRM/Admin/Page/ResourceConfigSet.php
+msgid "Enable"
+msgstr "有効"
+
 #: CRM/Admin/Page/AdhocChargesItem.php
 msgid "Enable Additional Charges Item"
 msgstr "追加料金の項目を有効"
+
+#: CRM/Admin/Page/AdhocChargesItem.php CRM/Admin/Page/Resource.php
+#: CRM/Admin/Page/ResourceConfigOption.php
+#: CRM/Admin/Page/ResourceConfigSet.php CRM/Booking/Form/Booking/Base.php
+#: CRM/Booking/Selector/Search.php templates/CRM/Booking/Form/Booking/View.tpl
+msgid "Delete"
+msgstr "削除"
 
 #: CRM/Admin/Page/AdhocChargesItem.php
 #: templates/CRM/Admin/Form/AdhocChargesItem.tpl
@@ -472,6 +352,15 @@ msgstr "リソースの構成セットを有効"
 msgid "Delete Resource Configuration Set"
 msgstr "リソースの構成セットを削除"
 
+#: CRM/Booking/BAO/Booking.php CRM/Booking/DAO/Booking.php
+msgid "PO Number"
+msgstr "PO 番号"
+
+#: CRM/Booking/BAO/Booking.php CRM/Booking/Selector/Search.php booking.php
+#: templates/CRM/Booking/Page/AssociatedBooking.tpl
+msgid "Booking Status"
+msgstr "予約ステータス"
+
 #: CRM/Booking/BAO/Booking.php
 msgid "Send Booking Confirmation Email"
 msgstr "予約の確認メールを送信"
@@ -504,6 +393,16 @@ msgstr "検索フィールドを認識しません : %1"
 msgid "Purchase Order Number"
 msgstr "購入のオーダー番号"
 
+#: CRM/Booking/BAO/Query.php booking.php
+msgid "Resource Type"
+msgstr "リソースタイプ"
+
+#: CRM/Booking/BAO/Query.php CRM/Booking/DAO/Payment.php
+#: templates/CRM/Booking/Form/Booking/Update.tpl
+#: templates/CRM/Booking/Form/Search/DayViewResults.tpl
+msgid "Booking ID"
+msgstr "予約ID"
+
 #: CRM/Booking/BAO/Query.php
 msgid "Booking Title"
 msgstr "予約タイトル"
@@ -513,6 +412,33 @@ msgstr "予約タイトル"
 #: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource.tpl
 msgid "From"
 msgstr "差出人"
+
+#: CRM/Booking/DAO/AdhocCharges.php CRM/Booking/DAO/Slot.php
+#: CRM/Booking/DAO/SubSlot.php templates/CRM/Booking/Form/Booking/View.tpl
+#: templates/CRM/Booking/Form/Search/DayViewResults.tpl
+#: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource-modal.tpl
+#: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource.tpl
+#: templates/CRM/Booking/tpl/select-resource/add-source.modal.tpl
+msgid "Quantity"
+msgstr "分量"
+
+#: CRM/Booking/DAO/AdhocCharges.php CRM/Booking/DAO/AdhocChargesItem.php
+#: CRM/Booking/DAO/Resource.php CRM/Booking/DAO/ResourceConfigOption.php
+#: CRM/Booking/DAO/ResourceConfigSet.php CRM/Booking/DAO/Slot.php
+msgid "Slot is cancelled"
+msgstr "解除されたスロット"
+
+#: CRM/Booking/DAO/AdhocCharges.php CRM/Booking/DAO/AdhocChargesItem.php
+#: CRM/Booking/DAO/Resource.php CRM/Booking/DAO/ResourceConfigOption.php
+#: CRM/Booking/DAO/ResourceConfigSet.php CRM/Booking/DAO/Slot.php
+msgid "Slot is in the Trash"
+msgstr "スロットはゴミ箱にあります"
+
+#: CRM/Booking/DAO/AdhocChargesItem.php CRM/Booking/DAO/Payment.php
+#: CRM/Booking/DAO/ResourceConfigOption.php
+#: CRM/Booking/DAO/ResourceConfigSet.php CRM/Booking/DAO/ResourceCriteria.php
+msgid "ID"
+msgstr "ID"
 
 #: CRM/Booking/DAO/AdhocChargesItem.php
 #: templates/CRM/Booking/Form/Booking/View.tpl
@@ -535,9 +461,29 @@ msgstr "ステータスID"
 msgid "Booking Date"
 msgstr "予約日"
 
+#: CRM/Booking/DAO/Booking.php CRM/Booking/Selector/Search.php
+#: templates/CRM/Booking/Form/Booking/View.tpl
+msgid "Start Date"
+msgstr "開始日"
+
+#: CRM/Booking/DAO/Booking.php CRM/Booking/Selector/Search.php
+#: templates/CRM/Booking/Form/Booking/View.tpl
+msgid "End Date"
+msgstr "終了日"
+
 #: CRM/Booking/DAO/Booking.php
 msgid "Total amount"
 msgstr "合計金額"
+
+#: CRM/Booking/DAO/Booking.php CRM/Booking/DAO/Slot.php
+#: CRM/Booking/DAO/SubSlot.php CRM/Booking/Form/Booking/Info.php
+#: templates/CRM/Booking/Form/Booking/View.tpl
+#: templates/CRM/Booking/Form/Search/DayViewResults.tpl
+#: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource-modal.tpl
+#: templates/CRM/Booking/tpl/add-sub-resource/edit-adhock-charges-modal.tpl
+#: templates/CRM/Booking/tpl/select-resource/add-source.modal.tpl
+msgid "Note"
+msgstr "注意"
 
 #: CRM/Booking/DAO/Booking.php
 msgid "Adhoc Charges Note"
@@ -688,6 +634,16 @@ msgstr "サブスロットはゴミ箱にあります"
 msgid "Add unlimited resources"
 msgstr "無制限のリソースを追加"
 
+#: CRM/Booking/Form/AddSubResource.php CRM/Booking/Form/Booking/Info.php
+#: CRM/Booking/Form/SelectResource.php CRM/Booking/Selector/Search.php
+msgid "Edit Booking"
+msgstr "予約を編集"
+
+#: CRM/Booking/Form/AddSubResource.php CRM/Booking/Form/Booking/Info.php
+#: CRM/Booking/Form/SelectResource.php booking.php
+msgid "New Booking"
+msgstr "新しい予約"
+
 #: CRM/Booking/Form/AddSubResource.php
 #: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource.tpl
 msgid "Sub total"
@@ -716,6 +672,10 @@ msgstr "無制限のリソース"
 msgid "<< Previous"
 msgstr "<< 前へ"
 
+#: CRM/Booking/Form/AddSubResource.php CRM/Booking/Form/SelectResource.php
+msgid "Next >>"
+msgstr "次へ >>"
+
 #: CRM/Booking/Form/Booking/Base.php
 msgid ""
 "The requested booking record does not exist (possibly the record was "
@@ -729,6 +689,10 @@ msgstr "要求された予約レコードは既にキャンセルされました
 #: CRM/Booking/Form/Booking/Base.php
 msgid "Update Booking"
 msgstr "予約を更新"
+
+#: CRM/Booking/Form/Booking/Base.php CRM/Booking/Form/Task/Result.php
+msgid "Done"
+msgstr "完了"
 
 #: CRM/Booking/Form/Booking/Base.php
 msgid "Send email?"
@@ -760,6 +724,14 @@ msgstr "フッター"
 msgid "Both"
 msgstr "両方"
 
+#: CRM/Booking/Form/Booking/Base.php CRM/Booking/Form/Booking/Info.php
+msgid "Primary contact"
+msgstr "主な連絡先"
+
+#: CRM/Booking/Form/Booking/Base.php CRM/Booking/Form/Booking/Info.php
+msgid "Secondary contact"
+msgstr "予備の連絡先"
+
 #: CRM/Booking/Form/Booking/Base.php
 msgid "Email to"
 msgstr "メール宛先"
@@ -790,8 +762,18 @@ msgid "Paid By"
 msgstr "支払い済"
 
 #: CRM/Booking/Form/Booking/Base.php
+msgid "Check Number"
+msgstr ""
+
+#: CRM/Booking/Form/Booking/Base.php
 msgid "Transaction ID"
 msgstr "取引ID"
+
+#: CRM/Booking/Form/Booking/Base.php CRM/Booking/Selector/Search.php
+#: templates/CRM/Booking/Form/Search/Criteria.tpl
+#: templates/CRM/Booking/Page/AssociatedBooking.tpl
+msgid "Payment Status"
+msgstr "支払いステータス"
 
 #: CRM/Booking/Form/Booking/Base.php
 msgid " Include payment information on booking confirmation email?"
@@ -820,6 +802,10 @@ msgstr "支払いを記録するための連絡先を選択してください。
 #: CRM/Booking/Form/Booking/Base.php
 msgid "Please select a financial type."
 msgstr "金融タイプを選択してください。"
+
+#: CRM/Booking/Form/Booking/Base.php CRM/Booking/Form/Booking/Info.php
+msgid "This field is required."
+msgstr "このフィールドは必須です。"
 
 #: CRM/Booking/Form/Booking/Base.php
 msgid "Please select a payment instrument."
@@ -877,6 +863,11 @@ msgstr "予約情報"
 msgid "Purchase order number"
 msgstr "購入のオーダー番号"
 
+#: CRM/Booking/Form/Booking/Info.php CRM/Booking/Form/Booking/Update.php
+#: templates/CRM/Booking/Form/Booking/View.tpl
+msgid "Booking status"
+msgstr "予約ステータス"
+
 #: CRM/Booking/Form/Booking/Info.php
 msgid "Date booking made"
 msgstr "予約作成日"
@@ -896,6 +887,10 @@ msgstr "<< 戻る"
 #: CRM/Booking/Form/Booking/Info.php
 msgid "Complete and Save"
 msgstr "完了して保存"
+
+#: CRM/Booking/Form/Booking/Info.php
+msgid "Currency"
+msgstr ""
 
 #: CRM/Booking/Form/Booking/Info.php
 msgid ""
@@ -950,6 +945,10 @@ msgstr "GO"
 msgid "Search"
 msgstr "検索"
 
+#: CRM/Booking/Form/Search.php booking.php
+msgid "Find Bookings"
+msgstr "予約を検索"
+
 #: CRM/Booking/Form/SelectResource.php
 msgid "Resource(s)"
 msgstr "リソース"
@@ -965,6 +964,15 @@ msgstr "予約を印刷"
 #: CRM/Booking/Page/Print/DayView.php
 msgid "DayViewPrint"
 msgstr "DayViewPrint"
+
+#: CRM/Booking/Page/Tab.php CRM/Booking/Selector/Search.php booking.php
+#: templates/CRM/Booking/Form/Booking/View.tpl
+msgid "Booking"
+msgstr "予約"
+
+#: CRM/Booking/Page/Tab.php CRM/Booking/Selector/Search.php
+msgid "View Booking"
+msgstr "予約を表示"
 
 #: CRM/Booking/Selector/Search.php
 #: templates/CRM/Booking/Page/AssociatedBooking.tpl
@@ -1011,6 +1019,10 @@ msgstr "予約の連絡先"
 msgid "CiviCRM Booking Search"
 msgstr "CiviCRM 予約検索"
 
+#: CRM/Booking/Upgrader/Base.php
+msgid "Upgrade %1 to revision %2"
+msgstr ""
+
 #: CRM/Booking/Upgrader.php
 msgid "Booking - Confirmation and Receipt (off-line)"
 msgstr "予約 - 確認と受領書 (オフライン)"
@@ -1028,20 +1040,16 @@ msgid "CiviBooking"
 msgstr "CiviBooking"
 
 #: booking.php
-msgid "Manage Resources"
-msgstr "リソースの管理"
-
-#: booking.php
 msgid "Resource Configuration Set"
 msgstr "リソース構成セット"
 
 #: booking.php
-msgid "Additional Charges Item"
-msgstr "追加料金の項目"
+msgid "Manage Resources"
+msgstr "リソースの管理"
 
 #: booking.php
-msgid "Resource Criteria"
-msgstr "リソース条件"
+msgid "Additional Charges Item"
+msgstr "追加料金の項目"
 
 #: booking.php
 msgid "Size Unit"
@@ -1058,6 +1066,18 @@ msgstr "予約コンポーネントの設定"
 #: booking.php
 msgid "Day View"
 msgstr "日付を表示"
+
+#: booking.php
+msgid "administer CiviBooking"
+msgstr ""
+
+#: booking.php
+msgid "create and update bookings"
+msgstr ""
+
+#: booking.php
+msgid "view all bookings"
+msgstr ""
 
 #: js/booking/add-sub-resource/view.js
 msgid "Add Unlimited Resource"
@@ -1084,6 +1104,24 @@ msgid "Please select the date and time during the valid booking time."
 msgstr "有効な予約時間中の日付と時刻を選択してください。"
 
 #: js/booking/add-sub-resource/view.js
+msgid "Your resource configuration set is disabled."
+msgstr ""
+
+#: js/booking/add-sub-resource/view.js
+msgid "Click here to edit configuration set."
+msgstr ""
+
+#: js/booking/add-sub-resource/view.js
+msgid ""
+"Your resource configuration options are all disabled or none have been "
+"created."
+msgstr ""
+
+#: js/booking/add-sub-resource/view.js
+msgid "Click here to edit or create options."
+msgstr ""
+
+#: js/booking/add-sub-resource/view.js
 #: templates/CRM/Booking/Form/SelectResource.js
 #: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource-modal.tpl
 msgid "select configuration"
@@ -1096,31 +1134,6 @@ msgstr "%1 が作成されました。"
 #: js/booking/booking-info/view.js
 msgid "Contact Saved"
 msgstr "連絡先の保存"
-
-#: templates/CRM/Booking/Form/SelectResource.js
-msgid "New"
-msgstr "新規"
-
-#: templates/CRM/Booking/Form/SelectResource.js
-msgid "End date time must be after start date time"
-msgstr "終了日時は、開始日時の後でなければなりません"
-
-#: templates/CRM/Booking/Form/SelectResource.js
-msgid "Time clashes with another slot item."
-msgstr "時間別のスロット項目と競合しています。"
-
-#: templates/CRM/Booking/Form/SelectResource.js
-msgid "Add resource to basket"
-msgstr "バスケットにリソースを追加"
-
-#: templates/CRM/Booking/Form/SelectResource.js
-#: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource-modal.tpl
-msgid "Loading ..."
-msgstr "読み込み中..."
-
-#: templates/CRM/Booking/Form/SelectResource.js
-msgid "Resource removed"
-msgstr "リソースを削除"
 
 #: templates/CRM/Admin/Form/AdhocChargesItem.tpl
 msgid "New Additional Charges Item"
@@ -1163,9 +1176,9 @@ msgstr "予約構成の設定"
 
 #: templates/CRM/Admin/Form/Preferences/Booking.tpl
 msgid ""
-"Only allow unlimited resources to be booked during the time booking of the "
-"parent limited resource?"
-msgstr "唯一、無制限のリソースは、親の限られたリソースの時間予約の際に予約することが可能ですか？"
+"Only allow unlimited resources to be booked within time span of the parent "
+"limited resource booking?"
+msgstr ""
 
 #: templates/CRM/Admin/Form/Preferences/Booking.tpl
 msgid "Slot colour scheme"
@@ -1304,10 +1317,6 @@ msgstr "リソース料金"
 #: templates/CRM/Booking/Form/Booking/Cancel.tpl
 msgid "Unlimited Resource Fee"
 msgstr "無制限のリソース料金"
-
-#: templates/CRM/Booking/Form/Booking/Cancel.tpl
-msgid "0"
-msgstr "0"
 
 #: templates/CRM/Booking/Form/Booking/Common.tpl
 msgid "Email booking conformation"
@@ -1508,10 +1517,6 @@ msgstr "提案 : "
 msgid "Try a different date"
 msgstr "別の日付を試してください"
 
-#: templates/CRM/Booking/Form/Search.tpl
-msgid "Edit Search Criteria"
-msgstr "検索条件を編集"
-
 #: templates/CRM/Booking/Form/Search/Criteria.tpl
 msgid "Start Dates"
 msgstr "開始日"
@@ -1569,6 +1574,43 @@ msgstr "日付の範囲内で検索する場合は、広範囲の値を試して
 msgid "make sure you have enough privileges in the access control system"
 msgstr "必ず、アクセス制御システムに十分な権限があることを確認してください"
 
+#: templates/CRM/Booking/Form/Search.tpl
+msgid "Edit Search Criteria"
+msgstr "検索条件を編集"
+
+#: templates/CRM/Booking/Form/SelectResource.js
+msgid "New"
+msgstr "新規"
+
+#: templates/CRM/Booking/Form/SelectResource.js
+msgid "End date time must be after start date time"
+msgstr "終了日時は、開始日時の後でなければなりません"
+
+#: templates/CRM/Booking/Form/SelectResource.js
+msgid "End Time clashes with another slot item."
+msgstr ""
+
+#: templates/CRM/Booking/Form/SelectResource.js
+msgid "Start time clashes with another slot item."
+msgstr ""
+
+#: templates/CRM/Booking/Form/SelectResource.js
+msgid "Add resource to basket"
+msgstr "バスケットにリソースを追加"
+
+#: templates/CRM/Booking/Form/SelectResource.js
+#: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource-modal.tpl
+msgid "Loading ..."
+msgstr "読み込み中..."
+
+#: templates/CRM/Booking/Form/SelectResource.js
+msgid "Resource removed"
+msgstr "リソースを削除"
+
+#: templates/CRM/Booking/Form/SelectResource.js
+msgid "Max"
+msgstr ""
+
 #: templates/CRM/Booking/Form/SelectResource.tpl
 msgid ""
 "There are no resources to display. <a href='%1'>Click here</a> if you want "
@@ -1624,6 +1666,12 @@ msgstr "時間は必須です"
 msgid "Price estimate"
 msgstr "見積書"
 
+#: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource-modal.tpl
+msgid ""
+"There are no unlimited resources defined. <a href='%1'>Click here</a> if you"
+" want to add new unlimited resource."
+msgstr ""
+
 #: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource.tpl
 msgid "Resource label"
 msgstr "リソースラベル"
@@ -1665,14 +1713,6 @@ msgid ""
 "There are no additional charges. <a href='%1'>Click here</a> if you want to "
 "add new additional charges your site."
 msgstr "いずれも追加料金はありません。新しい追加料金をサイトに追加したい場合は、<a href='%1'>ここをクリック</a>してください。"
-
-#: templates/CRM/Booking/tpl/booking-info/booking-info.tpl
-msgid "OR"
-msgstr "OR"
-
-#: templates/CRM/Booking/tpl/booking-info/booking-info.tpl
-msgid "- create new contact -"
-msgstr "- 新しい連絡先を作成 -"
 
 #: templates/CRM/Booking/tpl/booking-info/booking-info.tpl
 msgid "Loading ... "
