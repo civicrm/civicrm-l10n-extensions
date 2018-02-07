@@ -1,4 +1,4 @@
-# Copyright CiviCRM LLC (c) 2004-2014
+# Copyright CiviCRM LLC (c) 2004-2015
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
@@ -7,9 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2014-12-19 21:32-0800\n"
-"PO-Revision-Date: 2015-10-15 05:40+0000\n"
-"Last-Translator: Satomi Sato <puritira2015@gmail.com>\n"
+"POT-Creation-Date: 2018-02-06 17:35+0000\n"
+"PO-Revision-Date: 2018-02-06 17:35+0000\n"
+"Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
 "Language-Team: Japanese (http://www.transifex.com/civicrm/civicrm_extensions/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,19 +17,19 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: CRM/Core/Payment/iATSService.php CRM/Core/Payment/iATSServiceACHEFT.php
-#: CRM/Core/Payment/iATSServiceUKDD.php
-msgid "You have updated the amount of this recurring contribution."
-msgstr "この定期的な支援額を更新しました。"
-
-#: CRM/Core/Payment/iATSService.php CRM/Core/Payment/iATSServiceACHEFT.php
-#: CRM/Core/Payment/iATSServiceUKDD.php
-msgid "Warning"
-msgstr "警告"
+#: CRM/Core/Payment/iATSService.php
+msgid "iATS Payments"
+msgstr "iATS 支払い"
 
 #: CRM/Core/Payment/iATSService.php CRM/Core/Payment/iATSServiceACHEFT.php
 msgid "You have cancelled this recurring contribution."
 msgstr "あなたは、この定期的な支援をキャンセルしました。"
+
+#: CRM/Core/Payment/iATSService.php CRM/Core/Payment/iATSServiceACHEFT.php
+#: CRM/iATS/Form/IATSCustomerLink.php CRM/iATS/Form/IATSOneTimeCharge.php
+#: CRM/iATS/Page/IATSCustomerLink.php iats.php
+msgid "Warning"
+msgstr "警告"
 
 #: CRM/Core/Payment/iATSService.php CRM/Core/Payment/iATSServiceACHEFT.php
 #: CRM/Core/Payment/iATSServiceUKDD.php
@@ -45,17 +45,13 @@ msgid ""
 "&raquo; Payment Processors."
 msgstr "パスワードが CiviCRM の管理 &raquo; システムの設定 &raquo; 支払いプロセッサで設定されていません。"
 
-#: api/v3/Job/IatsACHEFTVerify.php api/v3/Job/IatsRecurringContributions.php
-msgid "An error occurred while creating activity record for contact id %1: %2"
-msgstr "連絡先ID %1 のアクティビティレコードを作成中にエラーが発生しました : %2"
-
-#: CRM/Core/Payment/iATSService.php
-msgid "iATS Payments"
-msgstr "iATS 支払い"
-
 #: CRM/Core/Payment/iATSServiceACHEFT.php
 msgid "iATS Payments ACHEFT"
 msgstr "iATS 支払い ACHEFT"
+
+#: CRM/Core/Payment/iATSServiceACHEFT.php
+msgid "You have updated the amount of this recurring contribution."
+msgstr "この定期的な支援額を更新しました。"
 
 #: CRM/Core/Payment/iATSServiceSWIPE.php
 msgid "iATS Payments SWIPE"
@@ -107,115 +103,310 @@ msgstr "サービスユーザ番号 (SUN) は、CiviCRM の管理 &raquo; シス
 msgid "You can only use this payment processor with a UK iATS account"
 msgstr "あなただけの UK IATS アカウントで、この支払いプロセッサを使用することができます"
 
-#: CRM/iATS/iATSService.php
-msgid "The transaction was determined to be suspicious by the issuing bank."
-msgstr "取引は、発行銀行によって不審であると決定しました。"
+#: CRM/iATS/Form/IATSCustomerLink.php CRM/iATS/Form/IATSOneTimeCharge.php
+#: CRM/iATS/Page/IATSCustomerLink.php
+msgid "Unable to retrieve card details from iATS.<br />%1"
+msgstr ""
 
-#: CRM/iATS/iATSService.php
-msgid "The CVN failed the processor's data validation check."
-msgstr "CVN は、プロセッサのデータ検証チェックに失敗しました。"
+#: CRM/iATS/Form/IATSCustomerLink.php CRM/iATS/Form/IatsSettings.php
+msgid "Submit"
+msgstr ""
 
-#: CRM/iATS/iATSService.php
-msgid "The CVN matched."
-msgstr "CVN は一致しました。"
+#: CRM/iATS/Form/IATSCustomerLink.php CRM/iATS/Form/IATSOneTimeCharge.php
+msgid "Back"
+msgstr ""
 
-#: CRM/iATS/iATSService.php
-msgid "The CVN did not match."
-msgstr "CVN が一致しませんでした。"
+#: CRM/iATS/Form/IATSOneTimeCharge.php
+msgid "Automated email receipt for this contribution."
+msgstr ""
 
-#: CRM/iATS/iATSService.php
-msgid "The CVN was not processed by the processor for an unspecified reason."
-msgstr "CVN は、不特定な理由のため、プロセッサによって処理されませんでした。"
+#: CRM/iATS/Form/IATSOneTimeCharge.php
+msgid "Create this as a contribution in the recurring series."
+msgstr ""
 
-#: CRM/iATS/iATSService.php
-msgid "The CVN is on the card but was not included in the request."
-msgstr "CVN は、カード上にありますが、リクエストに含まれていませんでした。"
+#: CRM/iATS/Form/IATSOneTimeCharge.php
+msgid "Charge this card"
+msgstr ""
 
-#: CRM/iATS/iATSService.php
-msgid "Card verification is not supported by the issuing bank."
-msgstr "カードの検証は発行銀行によってサポートされていません。"
-
-#: CRM/iATS/iATSService.php
-msgid "Card verification is not supported by the card association."
-msgstr "カードの検証はカード協会によってサポートされていません。"
-
-#: CRM/iATS/iATSService.php
-msgid "Card verification is not supported for this processor or card type."
-msgstr "カードの確認は、このプロセッサやカードタイプでサポートされていません。"
-
-#: CRM/iATS/iATSService.php
+#: CRM/iATS/Form/IATSOneTimeCharge.php
 msgid ""
-"An unrecognized result code was returned by the processor for the card "
-"verification response."
-msgstr "カードの認証応答のプロセッサによって返された結果コードは認識されていません。"
+"The contribution created by this form will be saved as contribution in the "
+"existing recurring series unless you uncheck the corresponding setting."
+msgstr ""
 
-#: CRM/iATS/iATSService.php
-msgid "No result code was returned by the processor."
-msgstr "結果コードは、プロセッサによって返されませんでした。"
+#: CRM/iATS/Form/IatsSettings.php
+msgid "Email Recurring Contribution failure reports to this Email address"
+msgstr ""
 
-#: CRM/iATS/iATSService.php
-msgid "Visa"
-msgstr "Visa"
+#: CRM/iATS/Form/IatsSettings.php
+msgid "Email address is not a valid format."
+msgstr ""
 
-#: CRM/iATS/iATSService.php
-msgid "MasterCard"
-msgstr "MasterCard"
+#: CRM/iATS/Form/IatsSettings.php
+msgid ""
+"When failure count is equal to or greater than this number, push the next "
+"scheduled contribution date forward"
+msgstr ""
 
-#: CRM/iATS/iATSService.php
-msgid "American Express"
-msgstr "American Express"
+#: CRM/iATS/Form/IatsSettings.php
+msgid "Threshhold must be a positive integer."
+msgstr ""
 
-#: CRM/iATS/iATSService.php
-msgid "Discover Card"
-msgstr "Discover Card"
+#: CRM/iATS/Form/IatsSettings.php
+msgid "Email receipt for a Contribution in a Recurring Series"
+msgstr ""
 
-#: api/v3/Job/IatsACHEFTVerify.php
-msgid "Cancelled"
-msgstr "キャンセル済み"
+#: CRM/iATS/Form/IatsSettings.php
+msgid "Disable extra edit fields for Recurring Contributions"
+msgstr ""
 
-#: api/v3/Job/IatsACHEFTVerify.php
-msgid "Verified"
-msgstr "検証"
+#: CRM/iATS/Form/IatsSettings.php
+msgid ""
+"Enable self-service updates to recurring contribution Contact Billing Info."
+msgstr ""
 
-#: api/v3/Job/IatsACHEFTVerify.php
-msgid "No records found to process."
-msgstr "処理するレコードが見つかりません。"
+#: CRM/iATS/Form/IatsSettings.php
+msgid "Enable public selection of future recurring start dates."
+msgstr ""
 
-#: api/v3/Job/IatsRecurringContributions.php
+#: CRM/iATS/Form/IatsSettings.php
+msgid "Restrict allowable days of the month for Recurring Contributions"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Journal.php
+msgid "CiviCRM Journal Id"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Journal.php
+msgid "iATS Journal Id"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Journal.php
+msgid "Transaction Date Time"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Journal.php CRM/iATS/Form/Report/Verify.php
+msgid "Payment Status"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Last name, First name"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "First Name"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Last Name"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Prefix"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Contact Name"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Email"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Phone"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Contribution ID(s)"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Amount Contributed to date"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Total Amount contributed"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Total Amount"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Expiry Date"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Series ID"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Current Amount"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Start Date"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Modified Date"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Next Scheduled Contribution Date"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Cycle Day"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Failure Count"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Payment Processor"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Invoice ID"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Currency"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Amount"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Donation Status"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Frequency interval"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Frequency unit"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Installments"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Create Date"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Cancel Date"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Failure Retry Date"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Financial Type"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Frequency Unit"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Next Scheduled Day"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Address"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Supplementary Address Field 1"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "Supplementary Address Field 2"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php
+msgid "View Contact Summary for this Contact."
+msgstr ""
+
+#: CRM/iATS/Form/Report/Recur.php CRM/iATS/Form/Report/Verify.php
+msgid "View Details of this Recurring Series."
+msgstr ""
+
+#: CRM/iATS/Form/Report/Verify.php
+msgid "CiviCRM Verify Id"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Verify.php
+msgid "Verification Date Time"
+msgstr ""
+
+#: CRM/iATS/Form/Report/Verify.php
+msgid "View this contact."
+msgstr ""
+
+#: CRM/iATS/Form/Report/Verify.php
+msgid "View details of the verified contribution."
+msgstr ""
+
+#: CRM/iATS/Upgrader/Base.php
+msgid "Upgrade %1 to revision %2"
+msgstr "リビジョン %2 へ %1 の更新"
+
+#: api/v3/Job/Iatsrecurringcontributions.php
+msgid "Failed to acquire lock. No contribution records were processed."
+msgstr ""
+
+#: api/v3/Job/Iatsrecurringcontributions.php
 msgid "Recur id %1 is missing a customer code."
 msgstr "再発ID %1 の顧客コードが含まれていません。"
 
-#: api/v3/Job/IatsRecurringContributions.php
+#: api/v3/Job/Iatsrecurringcontributions.php
 msgid "Recur id %1 is has a mismatched contact id for the customer code."
 msgstr "再発ID %1 の顧客コードが不一致な連絡先IDを持っています。"
 
-#: api/v3/Job/IatsRecurringContributions.php
-msgid "Recur id %1 is has an expired cc for the customer code."
-msgstr "再発ID %1 の顧客コードが有効期限切れの CC を持っています。"
+#: api/v3/Job/Iatsrecurringcontributions.php
+msgid "An error occurred while creating activity record for contact id %1: %2"
+msgstr "連絡先ID %1 のアクティビティレコードを作成中にエラーが発生しました : %2"
 
-#: api/v3/Job/IatsRecurringContributions.php
-msgid "Failed to process recurring contribution id %1: "
-msgstr "定期的な支援ID %1 の処理に失敗しました : "
-
-#: api/v3/Job/IatsRecurringContributions.php
-msgid "Successfully processed recurring contribution id %1: "
-msgstr "定期的な支援ID %1 は正常に処理されました : "
-
-#: api/v3/Job/IatsRecurringContributions.php
+#: api/v3/Job/Iatsrecurringcontributions.php
 msgid "Created activity record for contact id %1"
 msgstr "連絡先ID %1 に作成したアクティビティレコード"
 
-#: api/v3/Job/IatsRecurringContributions.php
+#: api/v3/Job/Iatsrecurringcontributions.php
 msgid "Completed, but with %1 errors. %2 records processed."
 msgstr "完成しましたが、%1 エラーが発生しました。 %2 のレコードが処理されます。"
 
-#: api/v3/Job/IatsRecurringContributions.php
+#: api/v3/Job/Iatsrecurringcontributions.php
 msgid "%1 contribution record(s) were processed."
 msgstr "%1 の支援レコードが処理されました。"
 
-#: api/v3/Job/IatsRecurringContributions.php
+#: api/v3/Job/Iatsrecurringcontributions.php
 msgid "No contribution records were processed."
 msgstr "支援レコードは処理されませんでした。"
+
+#: api/v3/Job/Iatsreport.php
+msgid ""
+"For account %1, type %2, processed %3 approvals from the one-day journals, "
+"and %4 approval and %5 rejection records from previous days using the box "
+"journals."
+msgstr ""
+
+#: api/v3/Job/Iatsverify.php
+msgid "Found %1 contributions to verify."
+msgstr ""
+
+#: api/v3/Job/Iatsverify.php
+msgid "Completed with %1 errors."
+msgstr "%1 エラーで完了しました。"
 
 #: iats.php
 msgid ""
@@ -226,6 +417,12 @@ msgstr "このサーバに PHP の SOAP拡張モジュールがインストー�
 #: iats.php
 msgid "iATS Payments Installation"
 msgstr "iATS 支払いのインストール"
+
+#: iats.php
+msgid ""
+"The SOAP extension for PHP %1 is not installed on this server, but is "
+"required for this extension."
+msgstr ""
 
 #: iats.php
 msgid "%1 is a required field."
@@ -256,12 +453,32 @@ msgid "Bank Routing Number"
 msgstr "銀行のルーティング番号"
 
 #: iats.php
+msgid "Bank Number (3 digits)"
+msgstr ""
+
+#: iats.php
 msgid "Bank Number"
 msgstr "銀行番号"
 
 #: iats.php
+msgid "%1 must contain only digits."
+msgstr ""
+
+#: iats.php
+msgid "%1 must be of length 3."
+msgstr ""
+
+#: iats.php
+msgid "Transit Number (5 digits)"
+msgstr ""
+
+#: iats.php
 msgid "Transit Number"
 msgstr "取引数"
+
+#: iats.php
+msgid "%1 must be of length 5."
+msgstr ""
 
 #: iats.php
 msgid "Bank Number + Transit Number"
@@ -278,6 +495,10 @@ msgstr "あなただけの定期的な支援をするために、このフォー
 #: iats.php
 msgid "I wish to start a Direct Debit"
 msgstr "私は、口座振替を始めます"
+
+#: iats.php
+msgid "Organization: %1, Phone: %2, Email: %3"
+msgstr "団体 : %1 、電話 : %2 メール : %3"
 
 #: iats.php
 msgid "Date of first collection"
@@ -319,60 +540,6 @@ msgstr "今日の日付"
 msgid "Instruction to your Bank or Building Society"
 msgstr "あなたの銀行または社会建物への指示"
 
-#: CRM/iATS/Upgrader.php
-msgid "Process first step"
-msgstr "最初のステップ処理"
-
-#: CRM/iATS/Upgrader.php
-msgid "Process second step"
-msgstr "第二ステップ処理"
-
-#: CRM/iATS/Upgrader.php
-msgid "Upgrade Batch (%1 => %2)"
-msgstr "アップグレードバッチ (%1 => %2)"
-
-#: CRM/iATS/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "リビジョン %2 へ %1 の更新"
-
-#: README.md iATS_4.4.10.diff iATS_4.5.4.diff
-msgid "Please enter a valid Card Number"
-msgstr "有効なカード番号を入力してください"
-
-#: api/v3/Job/IatsACHEFTVerify.php
-msgid ""
-"Unexpected error: ACH Ref. %1 does not match for customer code %2 (should be"
-" %3)"
-msgstr "予期しないエラー : ACH Ref / %2  (%3 である必要があります) の顧客コードと %1 が一致しません。"
-
-#: api/v3/Job/IatsACHEFTVerify.php
-msgid "Completed with %1 errors."
-msgstr "%1 エラーで完了しました。"
-
-#: api/v3/Job/IatsACHEFTVerify.php
-msgid ""
-"For %1 pending ACH/EFT contributions, %2 non-recuring and %3 recurring "
-"contribution results applied."
-msgstr "%1 保留中の ACH / EFT 支援は、 %2 非レコードと %3 の定期的な支援の結果を得るために適用されます。"
-
-#: api/v3/Job/IatsACHEFTVerify.php
-msgid ""
-"For %1 recurring UK direct debit contribution series, %2 new contributions "
-"found."
-msgstr "定期的な UK 当座振替の支援シリーズ %1 では、%2 の新たな支援が見つかりました。"
-
-#: iATS_4.4.10.diff iATS_4.5.4.diff
-msgid "Please enter a valid Card Verification Number"
-msgstr "有効なカード確認番号を入力してください"
-
-#: iATS_4.4.10.diff iATS_4.5.4.diff
-msgid "Please enter a Card Number"
-msgstr "カード番号を入力してください"
-
-#: iats.php
-msgid "Organization: %1, Phone: %2, Email: %3"
-msgstr "団体 : %1 、電話 : %2 メール : %3"
-
 #: iats.php
 msgid ""
 "Please pay %1 Direct Debits from the account detailed in this instruction "
@@ -381,11 +548,71 @@ msgid ""
 "details will be passed electronically to my Bank / Building Society."
 msgstr "口座振替の保証により安心安全に、この指示対象に詳述された口座から %1 口座引落をお支払いください。私は、詳細が私の銀行 / 建築協会に電子的に渡されますので、この指示は、テスト中のテストに残り、および可能性があることを理解しています。"
 
+#: iats.php
+msgid "Date of first contribution"
+msgstr ""
+
+#: iats.php
+msgid ""
+"Your next scheduled contribution date will automatically be updated to the "
+"next allowable day of the month: %1"
+msgstr ""
+
+#: iats.php
+msgid "Status"
+msgstr ""
+
+#: iats.php
+msgid "Successfully processed contribution in recurring series id %1: "
+msgstr ""
+
+#: iats.php
+msgid "Successfully processed one-time contribution: "
+msgstr ""
+
+#: iats.php
+msgid "Failed to process recurring contribution id %1: "
+msgstr "定期的な支援ID %1 の処理に失敗しました : "
+
+#: iats.php
+msgid "Successfully processed recurring contribution in series id %1: "
+msgstr ""
+
+#: iats.php
+msgid ""
+"Successfully processed pending recurring contribution in series id %1: "
+msgstr ""
+
+#: iats.php
+msgid "Now"
+msgstr ""
+
+#: js/dd_cad.js
+msgid "Your Bank Number requires three digits, use a leading \"0\" if necessary"
+msgstr ""
+
+#: js/dd_cad.js
+msgid "Your Bank Transit Number requires exactly five digits"
+msgstr ""
+
+#: js/swipe.js
+msgid "Click here - then swipe."
+msgstr ""
+
+#: templates/CRM/iATS/BillingBlockDPM.tpl
+#: templates/CRM/iATS/BillingBlockDirectDebitExtra_GBP.tpl
+msgid "Please fix the following errors in the form fields above:"
+msgstr "上記のフォームフィールドで次のエラーを修正してください : "
+
 #: templates/CRM/iATS/BillingBlockDirectDebitExtra_CAD.tpl
 msgid ""
 "You can find your Transit number, Bank number and Account number by "
 "inspecting a cheque."
 msgstr "確認検査をすることによって、あなたの取引番号、銀行番号と口座番号を見つけることができます。"
+
+#: templates/CRM/iATS/BillingBlockDirectDebitExtra_CAD.tpl
+msgid "Please enter them below without any punctuation or spaces."
+msgstr ""
 
 #: templates/CRM/iATS/BillingBlockDirectDebitExtra_GBP.tpl
 msgid "Note: "
@@ -412,12 +639,9 @@ msgid "You can find your Account Number and Sort Code by inspecting a cheque."
 msgstr "あなたの口座番号を検索し、チェックを検査することで、コードを並べ替えることができます。"
 
 #: templates/CRM/iATS/BillingBlockDirectDebitExtra_GBP.tpl
+#: templates/CRM/iATS/BillingBlockRecurringExtra.tpl
 msgid "You may select a later start date if you wish."
 msgstr "望む場合は、後で開始日を選択できます。"
-
-#: templates/CRM/iATS/BillingBlockDirectDebitExtra_GBP.tpl
-msgid "Please fix the following errors in the form fields above:"
-msgstr "上記のフォームフィールドで次のエラーを修正してください : "
 
 #: templates/CRM/iATS/BillingBlockDirectDebitExtra_USD.tpl
 msgid ""
@@ -430,6 +654,10 @@ msgid ""
 "Get ready to SWIPE! Place your cursor in the Encrypted field below and swipe"
 " card."
 msgstr "スワイプする準備をしてください！暗号化された以下のフィールドとスワイプカードにカーソルを置いてください。"
+
+#: templates/CRM/iATS/ContributionRecur.tpl
+msgid "Card on File"
+msgstr ""
 
 #: templates/CRM/iATS/Page/iATSAdmin.tpl
 msgid "Warning!"
