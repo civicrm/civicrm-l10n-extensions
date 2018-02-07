@@ -1,4 +1,4 @@
-# Copyright CiviCRM LLC (c) 2004-2014
+# Copyright CiviCRM LLC (c) 2004-2015
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
@@ -7,21 +7,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2015-07-08 22:34-0700\n"
-"PO-Revision-Date: 2016-09-12 09:43+0000\n"
-"Last-Translator: Marcin Lewandowski <email.marcina.lewandowskiego@gmail.com>\n"
+"POT-Creation-Date: 2018-02-06 17:41+0000\n"
+"PO-Revision-Date: 2018-02-06 17:41+0000\n"
+"Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
 "Language-Team: Polish (http://www.transifex.com/civicrm/civicrm_extensions/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pl\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 #: CRM/Documents/DAO/Document.php CRM/Documents/Form/Document.php
 #: CRM/Documents/Form/Search.php CRM/Documents/Selector/Search.php
-#: drupal/views_civicrm_documents/form.inc
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
 #: templates/CRM/Documents/Page/CaseDocuments.tpl
 #: templates/CRM/Documents/Page/ContactDocuments.tpl
 msgid "Subject"
@@ -31,12 +28,22 @@ msgstr "Temat"
 msgid "Date Added"
 msgstr "Data dodania"
 
+#: CRM/Documents/DAO/DocumentEntity.php
+msgid "Entity Table"
+msgstr "Tabela jednostek"
+
+#: CRM/Documents/DAO/DocumentEntity.php
+msgid "Entity ID"
+msgstr "ID jednostki"
+
 #: CRM/Documents/DAO/DocumentVersion.php CRM/Documents/Form/NewVersion.php
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
 #: templates/CRM/Documents/Page/Versions.tpl
 msgid "Description"
 msgstr "Opis"
+
+#: CRM/Documents/Form/Document.php templates/CRM/Documents/actionlinks.tpl
+msgid "Delete"
+msgstr "Usuń"
 
 #: CRM/Documents/Form/Document.php CRM/Documents/Form/NewVersion.php
 msgid "Cancel"
@@ -46,233 +53,12 @@ msgstr "Anuluj"
 msgid "Submit"
 msgstr "Wysłano"
 
-#: CRM/Documents/Page/ContactDocuments.php CRM/Documents/Selector/Search.php
-#: documents.php drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
+#: CRM/Documents/Form/Document.php CRM/Documents/Selector/Search.php
+#: templates/CRM/Documents/Form/Document.tpl
 #: templates/CRM/Documents/Page/CaseDocuments.tpl
-msgid "Documents"
-msgstr "Dokumenty"
-
-#: CRM/Documents/Selector/Search.php
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-#: templates/CRM/Documents/Page/Versions.tpl
-msgid "Date added"
-msgstr "Data dodania"
-
-#: CRM/Documents/Selector/Search.php
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-#: templates/CRM/Documents/Page/Versions.tpl
-msgid "Added by"
-msgstr "Dodano przez"
-
-#: CRM/Documents/Selector/Search.php
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "Date updated"
-msgstr "Data aktualizacji"
-
-#: CRM/Documents/Selector/Search.php
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "Updated by"
-msgstr "Zaktualizowano przez"
-
-#: drupal/views_civicrm_documents/handler/views_handler_field_document.inc
-#: drupal/views_civicrm_documents/handler/views_handler_field_document_version.inc
-msgid "Download link"
-msgstr "Link pobierania"
-
-#: drupal/views_civicrm_documents/handler/views_handler_field_document.inc
-#: drupal/views_civicrm_documents/handler/views_handler_field_document_version.inc
-msgid "If checked a download link will be displayed."
-msgstr ""
-
-#: drupal/views_civicrm_documents/handler/views_handler_field_document.inc
-#: drupal/views_civicrm_documents/handler/views_handler_field_document_version.inc
-msgid "Download Link Text"
-msgstr "Tekst linku pobierania"
-
-#: drupal/views_civicrm_documents/handler/views_handler_field_document.inc
-#: drupal/views_civicrm_documents/handler/views_handler_field_document_version.inc
-msgid ""
-"The text that will display in the field with the link. If you leave this "
-"empty the filename will be displayed"
-msgstr ""
-
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "Master"
-msgstr ""
-
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-msgid "Document versions"
-msgstr "Wersje dokumentu"
-
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "more"
-msgstr "więcej"
-
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "Apply"
-msgstr "Zastosuj"
-
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "Reset"
-msgstr "Reset"
-
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "Sort by"
-msgstr "Sortuj"
-
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "Asc"
-msgstr ""
-
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "Desc"
-msgstr ""
-
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-#: templates/CRM/Documents/Form/NewVersion.tpl
-msgid "Document"
-msgstr "Dokument"
-
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-msgid "Contact"
-msgstr "Kontakt"
-
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "Drupal User"
-msgstr "Użytkownik Drupal"
-
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-msgid "Version"
-msgstr "Wersja"
-
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "."
-msgstr "."
-
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-#: templates/CRM/Documents/Page/Versions.tpl
-#: templates/CRM/Documents/actionlinks.tpl
-msgid "Download"
-msgstr "Pobierz"
-
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "All"
-msgstr "Wszystko"
-
-#: drupal/views_civicrm_documents/views/case_document_versions.views.inc
-#: drupal/views_civicrm_documents/views/document_versions.views.inc
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "Page"
-msgstr "Strona"
-
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "Items per page"
-msgstr "Ilość na stronę"
-
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "- All -"
-msgstr "-wszystko-"
-
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "Offset"
-msgstr ""
-
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "« first"
-msgstr "« pierwsza"
-
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "‹ previous"
-msgstr "‹ poprzednia"
-
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "next ›"
-msgstr "następna ›"
-
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "last »"
-msgstr "ostatnia »"
-
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "Contact ID of document contact"
-msgstr ""
-
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "Versions"
-msgstr "Wersje"
-
-#: drupal/views_civicrm_documents/views/documents.views.inc
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-#: templates/CRM/Documents/actionlinks.tpl
-msgid "View versions"
-msgstr "Pokaż wersje"
-
-#: CRM/Documents/DAO/DocumentEntity.php
-msgid "Entity Table"
-msgstr "Tabela jednostek"
-
-#: CRM/Documents/DAO/DocumentEntity.php
-msgid "Entity ID"
-msgstr "ID jednostki"
-
-#: CRM/Documents/Form/Document.php templates/CRM/Documents/actionlinks.tpl
-msgid "Delete"
-msgstr "Usuń"
+#: templates/CRM/Documents/Page/ContactDocuments.tpl
+msgid "Contacts"
+msgstr "Kontakty"
 
 #: CRM/Documents/Form/Document.php
 msgid "Selected document has been successfully deleted."
@@ -286,14 +72,14 @@ msgstr "Rekord usunięty"
 msgid "Add new document"
 msgstr "Dodaj nowy dokument"
 
-#: CRM/Documents/Form/NewVersion.php
-msgid "Replace current version"
-msgstr "Zastąp aktualną wersję"
-
 #: CRM/Documents/Form/NewVersion.php templates/CRM/Documents/Page/Versions.tpl
 #: templates/CRM/Documents/actionlinks.tpl
 msgid "Upload new version"
 msgstr "Wyślij nową wersję"
+
+#: CRM/Documents/Form/NewVersion.php
+msgid "Replace current version"
+msgstr "Zastąp aktualną wersję"
 
 #: CRM/Documents/Form/Search.php
 msgid "Contact Name or Email"
@@ -307,15 +93,32 @@ msgstr "Od:"
 msgid "Search"
 msgstr "Wyszukaj"
 
+#: CRM/Documents/Page/ContactDocuments.php CRM/Documents/Selector/Search.php
+#: documents.php templates/CRM/Documents/Page/CaseDocuments.tpl
+msgid "Documents"
+msgstr "Dokumenty"
+
 #: CRM/Documents/Selector/Search.php
 msgid "Document ID"
 msgstr "Identyfikator dokumentu"
 
-#: CRM/Documents/Selector/Search.php templates/CRM/Documents/Form/Document.tpl
-#: templates/CRM/Documents/Page/CaseDocuments.tpl
+#: CRM/Documents/Selector/Search.php
 #: templates/CRM/Documents/Page/ContactDocuments.tpl
-msgid "Contacts"
-msgstr "Kontakty"
+#: templates/CRM/Documents/Page/Versions.tpl
+msgid "Date added"
+msgstr "Data dodania"
+
+#: CRM/Documents/Selector/Search.php templates/CRM/Documents/Page/Versions.tpl
+msgid "Added by"
+msgstr "Dodano przez"
+
+#: CRM/Documents/Selector/Search.php
+msgid "Date updated"
+msgstr "Data aktualizacji"
+
+#: CRM/Documents/Selector/Search.php
+msgid "Updated by"
+msgstr "Zaktualizowano przez"
 
 #: CRM/Documents/Selector/Search.php
 msgid "CiviCRM Documents Search"
@@ -329,41 +132,13 @@ msgstr "więcej lub równe"
 msgid "less than or equal to"
 msgstr "mniej lub równe"
 
-#: documents.php
-msgid "Find documents"
-msgstr "Znajdź dokumenty"
-
-#: drupal/views_civicrm_documents/form.inc
-msgid "File"
-msgstr "Plik"
-
-#: drupal/views_civicrm_documents/form.inc
-msgid "Save"
-msgstr "Zapisz"
-
-#: drupal/views_civicrm_documents/form.inc
-msgid "Description of new version"
-msgstr "Opis nowej wersji"
-
-#: drupal/views_civicrm_documents/views/documents_by_case.views.inc
-msgid "Case"
-msgstr "Sprawa"
-
-#: CRM/Documents/Upgrader.php
-msgid "Process first step"
-msgstr "Pierwszy etap"
-
-#: CRM/Documents/Upgrader.php
-msgid "Process second step"
-msgstr "Drugi etap"
-
-#: CRM/Documents/Upgrader.php
-msgid "Upgrade Batch (%1 => %2)"
-msgstr "Zaktualizuj masowo (%1 => %2)"
-
 #: CRM/Documents/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
 msgstr "Zaktualizuj %1 do wersji %2"
+
+#: documents.php
+msgid "Find documents"
+msgstr "Znajdź dokumenty"
 
 #: templates/CRM/Documents/Form/Document.tpl
 msgid "Are you sure you want to delete '%1'?"
@@ -373,17 +148,9 @@ msgstr "Czy jesteś pewien, że chcesz usunąć '%1'?"
 msgid "Case(s)"
 msgstr "Sprawy"
 
-#: templates/CRM/Documents/Form/Search.tpl
-msgid "Edit Search Criteria"
-msgstr ""
-
-#: templates/CRM/Documents/Form/Search.tpl
-msgid "Document Tag(s)"
-msgstr ""
-
-#: templates/CRM/Documents/Form/Search.tpl
-msgid "Document Dates"
-msgstr ""
+#: templates/CRM/Documents/Form/NewVersion.tpl
+msgid "Document"
+msgstr "Dokument"
 
 #: templates/CRM/Documents/Form/Search/EmptyResults.tpl
 msgid "No matches found for:"
@@ -411,6 +178,18 @@ msgid ""
 "values"
 msgstr ""
 
+#: templates/CRM/Documents/Form/Search.tpl
+msgid "Edit Search Criteria"
+msgstr ""
+
+#: templates/CRM/Documents/Form/Search.tpl
+msgid "Document Tag(s)"
+msgstr ""
+
+#: templates/CRM/Documents/Form/Search.tpl
+msgid "Document Dates"
+msgstr ""
+
 #: templates/CRM/Documents/Form/attachment.tpl
 msgid "Attachment(s)"
 msgstr "Załącznik(i)"
@@ -434,10 +213,6 @@ msgstr "Bieżący załącznik"
 #: templates/CRM/Documents/Form/attachment.tpl
 msgid "Delete this attachment"
 msgstr "Usuń ten załącznik"
-
-#: templates/CRM/Documents/Form/attachment.tpl
-msgid "Tags"
-msgstr "Tagi"
 
 #: templates/CRM/Documents/Form/attachment.tpl
 msgid ""
@@ -468,6 +243,15 @@ msgstr "Wróć"
 msgid "Number"
 msgstr "Numer"
 
+#: templates/CRM/Documents/Page/Versions.tpl
+#: templates/CRM/Documents/actionlinks.tpl
+msgid "Download"
+msgstr "Pobierz"
+
 #: templates/CRM/Documents/actionlinks.tpl
 msgid "Edit"
 msgstr "Edytuj"
+
+#: templates/CRM/Documents/actionlinks.tpl
+msgid "View versions"
+msgstr "Pokaż wersje"
