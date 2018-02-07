@@ -1,4 +1,4 @@
-# Copyright CiviCRM LLC (c) 2004-2014
+# Copyright CiviCRM LLC (c) 2004-2015
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
@@ -7,9 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2015-05-10 22:32-0700\n"
-"PO-Revision-Date: 2015-10-15 06:34+0000\n"
-"Last-Translator: Satomi Sato <puritira2015@gmail.com>\n"
+"POT-Creation-Date: 2018-02-06 17:33+0000\n"
+"PO-Revision-Date: 2018-02-06 17:33+0000\n"
+"Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
 "Language-Team: Japanese (http://www.transifex.com/civicrm/civicrm_extensions/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,34 +23,90 @@ msgstr ""
 msgid "Activity"
 msgstr "アクティビティ"
 
+#: CRM/Extendedreport/Form/Report/Campaign/CampaignProgressReport.php
+msgid "Financial type"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/Campaign/CampaignProgressReport.php
+msgid "Raised"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/Campaign/CampaignProgressReport.php
+msgid "Total Raised"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/Campaign/CampaignProgressReport.php
+msgid "Amount received"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/Campaign/CampaignProgressReport.php
+msgid "Total Received"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/Campaign/CampaignProgressReport.php
+msgid "Amount outstanding"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/Campaign/CampaignProgressReport.php
+msgid "Pledges Outstanding"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/Campaign/CampaignProgressReport.php
+msgid "Type"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/Campaign/CampaignProgressReport.php
+msgid "Payment"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/Campaign/CampaignProgressReport.php
+msgid "Pledge"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/Campaign/CampaignProgressReport.php
+msgid "Balance to raise"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/Campaign/CampaignProgressReport.php
+msgid "Date range"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/Campaign/CampaignProgressReport.php
+msgid "Payment without pledge"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/Campaign/CampaignProgressReport.php
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Until Date"
+msgstr "日付以降"
+
+#: CRM/Extendedreport/Form/Report/Campaign/CampaignProgressReport.php
+msgid ""
+"Currently campaign revenue cannot be calculated against the goal if grouping"
+" does not include campaign"
+msgstr ""
+
 #: CRM/Extendedreport/Form/Report/Case/ActivityPivot.php
 #: CRM/Extendedreport/Form/Report/Case/CasePivot.php
 #: CRM/Extendedreport/Form/Report/Case/CaseWithActivityPivot.php
 msgid "Case"
 msgstr "事例"
 
-#: CRM/Extendedreport/Form/Report/Case/CasePivot.php
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Case Status"
-msgstr "事例ステータス"
+#: CRM/Extendedreport/Form/Report/Contribute/BookkeepingExtended.php
+msgid "Credit "
+msgstr ""
 
 #: CRM/Extendedreport/Form/Report/Contribute/BookkeepingExtended.php
-#: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
-#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Contribution Status"
-msgstr "支援ステータス"
+msgid "Debit "
+msgstr ""
 
 #: CRM/Extendedreport/Form/Report/Contribute/BookkeepingExtended.php
-#: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Payment Instrument"
-msgstr "支払い手段"
-
-#: CRM/Extendedreport/Form/Report/Contribute/BookkeepingExtended.php
-#: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
 msgid "Amount"
 msgstr "金額"
+
+#: CRM/Extendedreport/Form/Report/Contribute/BookkeepingExtended.php
+msgid "Batch "
+msgstr ""
 
 #: CRM/Extendedreport/Form/Report/Contribute/BookkeepingExtended.php
 #: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
@@ -58,50 +114,34 @@ msgstr "金額"
 msgid "View Contact Summary for this Contact."
 msgstr "この連絡先の連絡先概要を表示します。"
 
-#: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
-#: CRM/Extendedreport/Form/Report/Pledge/Btbns.php
-#: CRM/Extendedreport/Form/Report/Pledge/Lybuns.php
-#: CRM/Extendedreport/Form/Report/Pledge/Lybunt.php
-#: CRM/Extendedreport/Form/Report/Pledge/Sybuns.php
-#: CRM/Extendedreport/Form/Report/Pledge/Sybunt.php
-msgid "Donor Name"
-msgstr "寄贈者名"
+#: CRM/Extendedreport/Form/Report/Contribute/ContributionPivot.php
+msgid "Contribution"
+msgstr "支援"
 
 #: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
-#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
-msgid "First Name"
-msgstr "ファーストネーム"
+msgid "Contribution OR Soft Credit?"
+msgstr "支援またはソフトクレジットですか？"
 
 #: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
-#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
-msgid "Last Name"
-msgstr "ラストネーム"
+#: CRM/Extendedreport/Form/Report/Contribute/Overview.php
+msgid "Soft Credits"
+msgstr "ソフトクレジット"
 
 #: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
-#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
-msgid "Last Name, First Name"
-msgstr "ラストネーム、ファーストネーム"
+msgid "Soft Credit For"
+msgstr "ソフトクレジット"
 
 #: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
-#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Contribution ID"
-msgstr "支援ID"
+msgid "Contributions Only"
+msgstr "支援のみ"
 
 #: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
-#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
-msgid "Financial Type"
-msgstr "金融タイプ"
+msgid "Both"
+msgstr "両方"
 
 #: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
-#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
-msgid "Payment Type"
-msgstr "支払いタイプ"
-
-#: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Contribution Amount"
-msgstr "支援額"
+msgid "Soft Credits Only"
+msgstr "ソフトクレジットのみ"
 
 #: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
@@ -113,232 +153,6 @@ msgstr "支援額"
 #: CRM/Extendedreport/Form/Report/RelationshipExtended.php
 msgid "Group"
 msgstr "グループ"
-
-#: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
-#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Campaign"
-msgstr "キャンペーン"
-
-#: CRM/Extendedreport/Form/Report/Event/EventPivot.php
-#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
-msgid "Event"
-msgstr "イベント"
-
-#: CRM/Extendedreport/Form/Report/Event/EventPivot.php
-#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
-msgid "Participant Status"
-msgstr "参加者のステータス"
-
-#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Gender"
-msgstr "性別"
-
-#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
-#: CRM/Extendedreport/Form/Report/Pledge/Btbns.php
-#: CRM/Extendedreport/Form/Report/Pledge/Lybuns.php
-#: CRM/Extendedreport/Form/Report/Pledge/Lybunt.php
-#: CRM/Extendedreport/Form/Report/Pledge/Sybuns.php
-#: CRM/Extendedreport/Form/Report/Pledge/Sybunt.php
-msgid "Email"
-msgstr "メール"
-
-#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "State/Province"
-msgstr "都道府県"
-
-#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Participant Role"
-msgstr "参加者の役割"
-
-#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Event Type"
-msgstr "イベントタイプ"
-
-#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Event Start Date"
-msgstr "イベントの開始日"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-#: CRM/Extendedreport/Form/Report/Pledge/Btbns.php
-#: CRM/Extendedreport/Form/Report/Pledge/Lybuns.php
-#: CRM/Extendedreport/Form/Report/Pledge/Lybunt.php
-#: CRM/Extendedreport/Form/Report/Pledge/Sybuns.php
-#: CRM/Extendedreport/Form/Report/Pledge/Sybunt.php
-msgid "Total Amount"
-msgstr "合計金額"
-
-#: CRM/Extendedreport/Form/Report/Pledge/Btbns.php
-#: CRM/Extendedreport/Form/Report/Pledge/Lybuns.php
-#: CRM/Extendedreport/Form/Report/Pledge/Lybunt.php
-#: CRM/Extendedreport/Form/Report/Pledge/Sybuns.php
-#: CRM/Extendedreport/Form/Report/Pledge/Sybunt.php
-msgid "Phone No"
-msgstr "電話番号"
-
-#: CRM/Extendedreport/Form/Report/Pledge/Btbns.php
-#: CRM/Extendedreport/Form/Report/Pledge/Lybuns.php
-#: CRM/Extendedreport/Form/Report/Pledge/Lybunt.php
-#: CRM/Extendedreport/Form/Report/Pledge/Sybuns.php
-#: CRM/Extendedreport/Form/Report/Pledge/Sybunt.php
-msgid "contactId"
-msgstr "連絡先ID"
-
-#: CRM/Extendedreport/Form/Report/Pledge/Btbns.php
-#: CRM/Extendedreport/Form/Report/Pledge/Lybuns.php
-#: CRM/Extendedreport/Form/Report/Pledge/Lybunt.php
-msgid "Lybunt Report"
-msgstr "LYBUNT レポート"
-
-#: CRM/Extendedreport/Form/Report/Pledge/Btbns.php
-#: CRM/Extendedreport/Form/Report/Pledge/Lybuns.php
-#: CRM/Extendedreport/Form/Report/Pledge/Lybunt.php
-#: CRM/Extendedreport/Form/Report/Pledge/Sybuns.php
-#: CRM/Extendedreport/Form/Report/Pledge/Sybunt.php
-msgid "Year"
-msgstr "年"
-
-#: CRM/Extendedreport/Form/Report/Pledge/Btbns.php
-#: CRM/Extendedreport/Form/Report/Pledge/Lybuns.php
-#: CRM/Extendedreport/Form/Report/Pledge/Lybunt.php
-msgid "Amount (%1)"
-msgstr "金額 (%1)"
-
-#: CRM/Extendedreport/Form/Report/Pledge/Btbns.php
-#: CRM/Extendedreport/Form/Report/Pledge/Lybuns.php
-#: CRM/Extendedreport/Form/Report/Pledge/Lybunt.php
-#: CRM/Extendedreport/Form/Report/Pledge/Sybuns.php
-#: CRM/Extendedreport/Form/Report/Pledge/Sybunt.php
-msgid "View Contribution Details for this Contact."
-msgstr "この連絡先の支援の詳細を表示します。"
-
-#: CRM/Extendedreport/Form/Report/Pledge/Lybuns.php
-#: CRM/Extendedreport/Form/Report/Pledge/Lybunt.php
-#: CRM/Extendedreport/Form/Report/Pledge/Sybuns.php
-#: CRM/Extendedreport/Form/Report/Pledge/Sybunt.php
-msgid "This Year"
-msgstr "今年"
-
-#: CRM/Extendedreport/Form/Report/Contribute/BookkeepingExtended.php
-msgid "Invoice ID"
-msgstr "請求書ID"
-
-#: CRM/Extendedreport/Form/Report/Contribute/BookkeepingExtended.php
-msgid "Contribution #"
-msgstr "支援 #"
-
-#: CRM/Extendedreport/Form/Report/Contribute/BookkeepingExtended.php
-msgid "Cheque #"
-msgstr "確認 #"
-
-#: CRM/Extendedreport/Form/Report/Contribute/BookkeepingExtended.php
-msgid "Transaction Date"
-msgstr "取引日"
-
-#: CRM/Extendedreport/Form/Report/Contribute/BookkeepingExtended.php
-msgid "Trans #"
-msgstr "トランス #"
-
-#: CRM/Extendedreport/Form/Report/Contribute/BookkeepingExtended.php
-msgid "Financial Account Code - Debit"
-msgstr "金融口座コード - 引き落とし"
-
-#: CRM/Extendedreport/Form/Report/Contribute/BookkeepingExtended.php
-msgid "Financial Account Code - Credit"
-msgstr "金融口座コード - クレジット"
-
-#: CRM/Extendedreport/Form/Report/Contribute/BookkeepingExtended.php
-msgid "Financial Account Name - Debit"
-msgstr "金融口座名 - 引き落とし"
-
-#: CRM/Extendedreport/Form/Report/Contribute/BookkeepingExtended.php
-msgid "Financial Account Name - Credit"
-msgstr "金融口座名 - クレジット"
-
-#: CRM/Extendedreport/Form/Report/Contribute/ContributionPivot.php
-msgid "Contribution"
-msgstr "支援"
-
-#: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
-msgid "Donor First Name"
-msgstr "寄贈者のファーストネーム"
-
-#: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
-msgid "Donor Last Name"
-msgstr "寄贈者のラストネーム"
-
-#: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
-msgid "Contact Type"
-msgstr "連絡先タイプ"
-
-#: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
-msgid "Contact SubType"
-msgstr "連絡先サブタイプ"
-
-#: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
-msgid "Contact ID"
-msgstr "連絡先ID"
-
-#: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
-msgid "Donor Email"
-msgstr "寄贈者のメール"
-
-#: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
-msgid "Donor Phone"
-msgstr "寄贈者の電話"
-
-#: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
-msgid "Honoree Name"
-msgstr "受賞者名"
-
-#: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
-msgid "Honoree ID"
-msgstr "受賞者ID"
-
-#: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
-msgid "Honoree Email"
-msgstr "受賞者メール"
-
-#: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
-msgid "Contribution OR Soft Credit?"
-msgstr "支援またはソフトクレジットですか？"
-
-#: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
-msgid "Soft Credits"
-msgstr "ソフトクレジット"
-
-#: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
-msgid "Soft Credit For"
-msgstr "ソフトクレジット"
-
-#: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
-msgid "Contribution Page"
-msgstr "支援ページ"
-
-#: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
-msgid "Source"
-msgstr "ソース"
-
-#: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
-msgid "Check Number"
-msgstr "番号確認"
-
-#: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
-msgid "Both"
-msgstr "両方"
-
-#: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
-msgid "Contributions Only"
-msgstr "支援のみ"
-
-#: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
-msgid "Soft Credits Only"
-msgstr "ソフトクレジットのみ"
 
 #: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
 msgid "Contribution Ordinality"
@@ -361,6 +175,7 @@ msgid "Total Donations"
 msgstr "寄贈者の合計"
 
 #: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
+#: CRM/Extendedreport/Form/Report/Contribute/Overview.php
 msgid "Average"
 msgstr "平均"
 
@@ -369,6 +184,7 @@ msgid "Total Amount (Soft Credits)"
 msgstr "合計金額 (ソフトクレジット)"
 
 #: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
+#: CRM/Extendedreport/Form/Report/Contribute/Overview.php
 msgid "Total Soft Credits"
 msgstr "ソフトクレジットの合計"
 
@@ -384,13 +200,113 @@ msgstr "受賞者の連絡先概要を表示"
 msgid "View Details of this Contribution."
 msgstr "この支援の詳細を表示します。"
 
+#: CRM/Extendedreport/Form/Report/Contribute/Overview.php
+msgid "Contact Name"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/Contribute/Overview.php
+msgid "Contact ID"
+msgstr "連絡先ID"
+
+#: CRM/Extendedreport/Form/Report/Contribute/Overview.php
+#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
+#: CRM/Extendedreport/Form/Report/Pledge/Btbns.php
+#: CRM/Extendedreport/Form/Report/Pledge/Lybuns.php
+#: CRM/Extendedreport/Form/Report/Pledge/Lybunt.php
+#: CRM/Extendedreport/Form/Report/Pledge/Sybuns.php
+#: CRM/Extendedreport/Form/Report/Pledge/Sybunt.php
+msgid "Email"
+msgstr "メール"
+
+#: CRM/Extendedreport/Form/Report/Contribute/Overview.php
+msgid "Phone"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/Contribute/Overview.php
+#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Campaign"
+msgstr "キャンペーン"
+
+#: CRM/Extendedreport/Form/Report/Contribute/Overview.php
+msgid "Please select the Amount Statistics"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/Contribute/Overview.php
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+#: CRM/Extendedreport/Form/Report/Pledge/Btbns.php
+#: CRM/Extendedreport/Form/Report/Pledge/Lybuns.php
+#: CRM/Extendedreport/Form/Report/Pledge/Lybunt.php
+#: CRM/Extendedreport/Form/Report/Pledge/Sybuns.php
+#: CRM/Extendedreport/Form/Report/Pledge/Sybunt.php
+msgid "Total Amount"
+msgstr "合計金額"
+
+#: CRM/Extendedreport/Form/Report/Contribute/Overview.php
+msgid "Total Contributions"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/Contribute/Overview.php
+msgid "Mode"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/Contribute/Overview.php
+msgid "Median"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/Contribute/Overview.php
+msgid "Total Soft Credit Amount"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/Contribute/Overview.php
+msgid "Average Soft Credit"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/Contribute/Overview.php
+msgid "Contributions"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/Contribute/Overview.php
+msgid "Contributions and Soft Credits"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/Contribute/Overview.php
+msgid "List all contribution(s) for this date unit."
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/Contribute/Overview.php
+msgid "Lists detailed contribution(s) for this record."
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/Event/EventPivot.php
+#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
+msgid "Event"
+msgstr "イベント"
+
 #: CRM/Extendedreport/Form/Report/Event/EventPivot.php
 msgid "Participant"
 msgstr "参加者"
 
+#: CRM/Extendedreport/Form/Report/Event/EventPivot.php
+#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
+msgid "Participant Status"
+msgstr "参加者のステータス"
+
 #: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
 msgid "Participant Name"
 msgstr "参加者名"
+
+#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
+msgid "First Name"
+msgstr "ファーストネーム"
+
+#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
+msgid "Last Name"
+msgstr "ラストネーム"
+
+#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
+msgid "Gender"
+msgstr "性別"
 
 #: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
 msgid "Birth Date"
@@ -409,8 +325,16 @@ msgid "Organization"
 msgstr "団体"
 
 #: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
+msgid "Last Name, First Name"
+msgstr "ラストネーム、ファーストネーム"
+
+#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
 msgid "Participant E-mail"
 msgstr "参加者のメール"
+
+#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
+msgid "State/Province"
+msgstr "都道府県"
 
 #: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
 msgid "Country"
@@ -425,16 +349,66 @@ msgid "Role"
 msgstr "役割"
 
 #: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
+msgid "Registered by"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
+msgid "Source"
+msgstr "ソース"
+
+#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
 msgid "Registration Date"
 msgstr "登録日"
+
+#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Participant Role"
+msgstr "参加者の役割"
+
+#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
+msgid "Registered By ID"
+msgstr ""
 
 #: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
 msgid "Fee Currency"
 msgstr "料金通貨"
 
 #: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
+msgid "Registered by ID/Name"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Event Type"
+msgstr "イベントタイプ"
+
+#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Event Start Date"
+msgstr "イベントの開始日"
+
+#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Contribution ID"
+msgstr "支援ID"
+
+#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Financial Type"
+msgstr "金融タイプ"
+
+#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
 msgid "Payment Date"
 msgstr "支払い日"
+
+#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Contribution Status"
+msgstr "支援ステータス"
+
+#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
+msgid "Payment Type"
+msgstr "支払いタイプ"
 
 #: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
 msgid "Contribution Source"
@@ -455,6 +429,10 @@ msgstr "支援の通貨"
 #: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
 msgid "Fee Level"
 msgstr "料金レベル"
+
+#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
+msgid "Note"
+msgstr ""
 
 #: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
 msgid "Blank column at the Beginning"
@@ -481,16 +459,12 @@ msgid "View Event Income Details for this Event"
 msgstr "このイベントのイベント収入の詳細を表示"
 
 #: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
-msgid "View Contact Details"
-msgstr "連絡先の詳細を表示"
+msgid "View Participant Details"
+msgstr ""
 
 #: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
 msgid "View Participant Record"
 msgstr "参加者レコードを表示"
-
-#: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
-msgid "View"
-msgstr "表示"
 
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
 msgid "Any"
@@ -529,30 +503,6 @@ msgid "Display Options"
 msgstr "オプションを表示"
 
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "County"
-msgstr "都道府県"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Choose country first"
-msgstr "最初の国を選択してください"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Choose state first"
-msgstr "最初のステータスを選択してください"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "- N/A -"
-msgstr "- N/A -"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "- none -"
-msgstr "- なし -"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "- select -"
-msgstr "- 選択 -"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
 msgid "Group by columns"
 msgstr "カラム別にグループ"
 
@@ -581,93 +531,19 @@ msgid "Order by Section"
 msgstr "セクション順"
 
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
-#: templates/CRM/Report/Form/Tabs/OrderBy44.tpl
 #: templates/CRM/Report/Form/Tabs/OrderByEx.tpl
 msgid "Page Break"
 msgstr "ページ区切り"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Until Date"
-msgstr "日付以降"
 
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
 msgid "From Date"
 msgstr "日付から"
 
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Developer"
-msgstr "ディベロッパ"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Report URL"
-msgstr "レポートURL"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "The report is attached as a CSV file."
-msgstr "レポートは、CSVファイルとして添付されています。"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "The report is attached as a PDF file."
-msgstr "レポートは、PDFファイルとして添付されています。"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Report mail has been sent."
-msgstr "レポートメールを送信されました。"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Sent"
-msgstr "送信"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Report mail could not be sent."
-msgstr "レポートメールは送信できませんでした。"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Mail Error"
-msgstr "メールエラー"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "To:"
-msgstr "宛先 : "
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Select Alternate Template"
-msgstr "代替テンプレートを選択"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Template"
-msgstr "テンプレート"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "--Select--"
-msgstr "--選択--"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Aggregate Report Column Headers"
-msgstr "集計レポートの列の見出し"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Aggregate Report Rows"
-msgstr "集計レポートの行"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Pivot table"
-msgstr "ピボットテーブル"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Custom Columns"
-msgstr "カスタムカラム"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Listed contact(s) have been added to the selected group."
-msgstr "リストされた連絡先は、選択したグループに追加されました。"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
 msgid "Update Report"
 msgstr "レポートの更新"
 
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
-#: templates/CRM/Report/Form/Fields44.tpl
 msgid "Create Report"
 msgstr "レポートの作成"
 
@@ -700,6 +576,38 @@ msgid "Preview CSV"
 msgstr "CSV プレビュー"
 
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "To:"
+msgstr "宛先 : "
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "- select -"
+msgstr "- 選択 -"
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Quantity Selected"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Select Alternate Template"
+msgstr "代替テンプレートを選択"
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Template"
+msgstr "テンプレート"
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Custom Columns"
+msgstr "カスタムカラム"
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Custom Field Display"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Listed contact(s) have been added to the selected group."
+msgstr "リストされた連絡先は、選択したグループに追加されました。"
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
 msgid "- select group -"
 msgstr "- グループを選択 -"
 
@@ -720,8 +628,8 @@ msgid "Preview Report"
 msgstr "レポートのプレビュー"
 
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Line Item Financial TYpe"
-msgstr "ラインアイテムの金融タイプ"
+msgid "Line Item Financial Type"
+msgstr ""
 
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
 msgid "Individual Line Item"
@@ -764,6 +672,14 @@ msgid "Total of Line Items"
 msgstr "ラインアイテムの合計"
 
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Tax Amount"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Tax Total of Line Items"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
 msgid "Price Field Value Label"
 msgstr "価格フィールド値のラベル"
 
@@ -794,6 +710,66 @@ msgstr "現在の会員サイクル終了日"
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
 msgid "Number of Memberships"
 msgstr "会員数"
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Cheque #"
+msgstr "確認 #"
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Payment Instrument"
+msgstr "支払い手段"
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Currency"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Transaction Date"
+msgstr "取引日"
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Transaction #"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Transaction Status"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Financial_type"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Accounting Code"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Tax Deductible"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Total Amount Paid"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Amount to be paid"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Cumulative to be paid"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Next Payment Due"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Next payment Amount"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Payment Link"
+msgstr ""
 
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
 msgid "Membership Types"
@@ -868,8 +844,40 @@ msgid "Total Pending Participants"
 msgstr "保留中の参加者の合計"
 
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Campaign Type"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Revenue goal"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Contribution Type (Financial)"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Contribution Amount"
+msgstr "支援額"
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "No. Contributions"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Contribution Page"
+msgstr "支援ページ"
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
 msgid "Contribution Details"
 msgstr "支援の詳細"
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Batch Title"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Batch Status"
+msgstr ""
 
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
 msgid "Case ID"
@@ -878,6 +886,10 @@ msgstr "事例ID"
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
 msgid "Case Subject"
 msgstr "事例の件名"
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Case Status"
+msgstr "事例ステータス"
 
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
 msgid "Case Type"
@@ -898,6 +910,38 @@ msgstr "継続期間 (日間)"
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
 msgid "Case Deleted?"
 msgstr "事例を削除しますか？"
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Pledged Amount"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Total Pledge Amount"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Frequency Unit"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Installments"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Pledge Made Date"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Pledge Start Date"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Pledge End Date"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Pledge Status"
+msgstr ""
 
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
 msgid "Relationship ID"
@@ -952,12 +996,16 @@ msgid "Activity Status"
 msgstr "アクティビティのステータス"
 
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Duration"
-msgstr "所要時間"
+msgid "Duration (sum for all contacts)"
+msgstr ""
 
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
 msgid "Total Duration"
 msgstr "所要時間の合計"
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Duration (for each contact)"
+msgstr ""
 
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
 msgid "Activity Details"
@@ -970,6 +1018,40 @@ msgstr "アクティビティの結果"
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
 msgid "Current Revision"
 msgstr "現在のリビジョン"
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "%1 for this country."
+msgstr "この国に %1"
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "%1 for this county."
+msgstr "この都道府県に %1"
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "%1 for this state."
+msgstr "この州に %1"
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Pledge payment link not added"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid ""
+"The pledge payment link cannot be added if the grouping options on the "
+"report make it ambiguous"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Record a payment received for this pledged payment"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Record Payment"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "N/A"
+msgstr ""
 
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
 msgid "January"
@@ -1031,9 +1113,49 @@ msgstr "最小"
 msgid "Max"
 msgstr "最大"
 
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "--Select--"
+msgstr "--選択--"
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Aggregate Report Column Headers"
+msgstr "集計レポートの列の見出し"
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Row Fields"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "Pivot table"
+msgstr "ピボットテーブル"
+
 #: CRM/Extendedreport/Form/Report/Member/MembershipPivot.php
 msgid "Membership"
 msgstr "会員"
+
+#: CRM/Extendedreport/Form/Report/Pledge/Btbns.php
+#: CRM/Extendedreport/Form/Report/Pledge/Lybuns.php
+#: CRM/Extendedreport/Form/Report/Pledge/Lybunt.php
+#: CRM/Extendedreport/Form/Report/Pledge/Sybuns.php
+#: CRM/Extendedreport/Form/Report/Pledge/Sybunt.php
+msgid "Donor Name"
+msgstr "寄贈者名"
+
+#: CRM/Extendedreport/Form/Report/Pledge/Btbns.php
+#: CRM/Extendedreport/Form/Report/Pledge/Lybuns.php
+#: CRM/Extendedreport/Form/Report/Pledge/Lybunt.php
+#: CRM/Extendedreport/Form/Report/Pledge/Sybuns.php
+#: CRM/Extendedreport/Form/Report/Pledge/Sybunt.php
+msgid "Phone No"
+msgstr "電話番号"
+
+#: CRM/Extendedreport/Form/Report/Pledge/Btbns.php
+#: CRM/Extendedreport/Form/Report/Pledge/Lybuns.php
+#: CRM/Extendedreport/Form/Report/Pledge/Lybunt.php
+#: CRM/Extendedreport/Form/Report/Pledge/Sybuns.php
+#: CRM/Extendedreport/Form/Report/Pledge/Sybunt.php
+msgid "contactId"
+msgstr "連絡先ID"
 
 #: CRM/Extendedreport/Form/Report/Pledge/Btbns.php
 msgid "Start Date (within range)"
@@ -1043,9 +1165,66 @@ msgstr "開始日 (範囲内)"
 msgid "Last Pledge Start Date"
 msgstr "最後のプレッジ開始日"
 
+#: CRM/Extendedreport/Form/Report/Pledge/Btbns.php
+#: CRM/Extendedreport/Form/Report/Pledge/Lybuns.php
+#: CRM/Extendedreport/Form/Report/Pledge/Lybunt.php
+msgid "Lybunt Report"
+msgstr "LYBUNT レポート"
+
+#: CRM/Extendedreport/Form/Report/Pledge/Btbns.php
+#: CRM/Extendedreport/Form/Report/Pledge/Lybuns.php
+#: CRM/Extendedreport/Form/Report/Pledge/Lybunt.php
+#: CRM/Extendedreport/Form/Report/Pledge/Sybuns.php
+#: CRM/Extendedreport/Form/Report/Pledge/Sybunt.php
+msgid "Year"
+msgstr "年"
+
+#: CRM/Extendedreport/Form/Report/Pledge/Btbns.php
+#: CRM/Extendedreport/Form/Report/Pledge/Lybuns.php
+#: CRM/Extendedreport/Form/Report/Pledge/Lybunt.php
+msgid "Amount (%1)"
+msgstr "金額 (%1)"
+
+#: CRM/Extendedreport/Form/Report/Pledge/Btbns.php
+#: CRM/Extendedreport/Form/Report/Pledge/Lybuns.php
+#: CRM/Extendedreport/Form/Report/Pledge/Lybunt.php
+#: CRM/Extendedreport/Form/Report/Pledge/Sybuns.php
+#: CRM/Extendedreport/Form/Report/Pledge/Sybunt.php
+msgid "View Contribution Details for this Contact."
+msgstr "この連絡先の支援の詳細を表示します。"
+
+#: CRM/Extendedreport/Form/Report/Pledge/Detail.php
+msgid "Balance to Pay"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/Pledge/Detail.php
+#: CRM/Extendedreport/Form/Report/Pledge/PaidAndCommitted.php
+#: CRM/Extendedreport/Form/Report/Pledge/Summary.php
+msgid "Balance"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/Pledge/Detail.php
+msgid "Do not consider payments after..."
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/Pledge/Lybuns.php
+#: CRM/Extendedreport/Form/Report/Pledge/Lybunt.php
+#: CRM/Extendedreport/Form/Report/Pledge/Sybuns.php
+#: CRM/Extendedreport/Form/Report/Pledge/Sybunt.php
+msgid "This Year"
+msgstr "今年"
+
 #: CRM/Extendedreport/Form/Report/Pledge/Lybuns.php
 msgid "Pledge status"
 msgstr "プレッジのステータス"
+
+#: CRM/Extendedreport/Form/Report/Pledge/PaidAndCommitted.php
+msgid "Amount Paid"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/RelationshipExtended.php
+msgid "Relationship"
+msgstr ""
 
 #: CRM/Extendedreport/Form/Report/RelationshipExtended.php
 msgid "Relationship A-B "
@@ -1067,47 +1246,9 @@ msgstr "連絡先タイプ B"
 msgid "View Contact details for this contact."
 msgstr "この連絡先の連絡先の詳細を表示します。"
 
-#: extendedreport.php
-msgid "CiviCRM Extended report"
-msgstr "CiviCRM Extended レポート"
-
-#: extendedreport.php
-msgid "access CiviCRM report developer"
-msgstr "CiviCRM report developer アクセス"
-
-#: extendedreport.php
-msgid "View developer tab in extended reports"
-msgstr "拡張されたレポートの開発タブを表示"
-
-#: CRM/Extendedreport/Form/Report/Contribute/DetailExtended.php
-msgid "%1 %2: %3"
-msgstr "%1 %2: %3"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "%1 for this country."
-msgstr "この国に %1"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "%1 for this county."
-msgstr "この都道府県に %1"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "%1 for this state."
-msgstr "この州に %1"
-
-#: templates/CRM/Report/Form/Fields44.tpl
-msgid "Report Criteria"
-msgstr "レポート条件"
-
-#: templates/CRM/Report/Form/Fields44.tpl
-msgid "Report Settings"
-msgstr "レポートの設定"
-
-#: templates/CRM/Report/Form/Fields44.tpl
-msgid ""
-"To save a copy with updated criteria click Report Settings above and update "
-"the Report Title. Then click Save a Copy."
-msgstr "更新した条件にコピーを保存する場合は、上記レポートの設定をクリックし、レポートのタイトルを更新します。コピーを保存をクリックしてください。"
+#: templates/CRM/Report/Form/Layout/Table.tpl
+msgid " (Subtotal)"
+msgstr ""
 
 #: templates/CRM/Report/Form/Tabs/Aggregate.tpl
 #: templates/CRM/Report/Form/Tabs/Pivot.tpl
@@ -1119,21 +1260,17 @@ msgstr "行フィールドを選択"
 msgid "Select Column Header"
 msgstr "カラムヘッダーを選択"
 
-#: templates/CRM/Report/Form/Tabs/CustomFieldSelection44.tpl
+#: templates/CRM/Report/Form/Tabs/CustomFieldSelection.tpl
 msgid "Custom Fields(s)"
 msgstr "カスタムフィールド"
-
-#: templates/CRM/Report/Form/Tabs/CustomFieldSelection44.tpl
-msgid "Select Print template"
-msgstr "印刷テンプレートを選択"
-
-#: templates/CRM/Report/Form/Tabs/FieldSelection44.tpl
-msgid "Include these Statistics"
-msgstr "これらの統計を含める"
 
 #: templates/CRM/Report/Form/Tabs/Instance.tpl
 msgid "Email Delivery Settings"
 msgstr "メール配信の設定"
+
+#: templates/CRM/Report/Form/Tabs/Instance.tpl
+msgid "Link to "
+msgstr ""
 
 #: templates/CRM/Report/Form/Tabs/Instance.tpl
 msgid ""
@@ -1163,32 +1300,26 @@ msgstr "あなたは、ドロップダウンから親メニューの項目を選
 msgid "(copy)"
 msgstr "(コピー)"
 
-#: templates/CRM/Report/Form/Tabs/OrderBy44.tpl
 #: templates/CRM/Report/Form/Tabs/OrderByEx.tpl
 msgid "Column"
 msgstr "カラム"
 
-#: templates/CRM/Report/Form/Tabs/OrderBy44.tpl
 #: templates/CRM/Report/Form/Tabs/OrderByEx.tpl
 msgid "Order"
 msgstr "順序"
 
-#: templates/CRM/Report/Form/Tabs/OrderBy44.tpl
 #: templates/CRM/Report/Form/Tabs/OrderByEx.tpl
 msgid "Section Header / Group By"
 msgstr "セクションヘッダー / グループ別"
 
-#: templates/CRM/Report/Form/Tabs/OrderBy44.tpl
 #: templates/CRM/Report/Form/Tabs/OrderByEx.tpl
 msgid "hide field or section"
 msgstr "非表示フィールドまたはセクション"
 
-#: templates/CRM/Report/Form/Tabs/OrderBy44.tpl
 #: templates/CRM/Report/Form/Tabs/OrderByEx.tpl
 msgid "show field or section"
 msgstr "表示フィールドまたはセクション"
 
-#: templates/CRM/Report/Form/Tabs/OrderBy44.tpl
 #: templates/CRM/Report/Form/Tabs/OrderByEx.tpl
 msgid "another column"
 msgstr "別のカラム"
