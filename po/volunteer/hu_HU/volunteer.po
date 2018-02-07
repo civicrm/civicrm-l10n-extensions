@@ -1,4 +1,4 @@
-# Copyright CiviCRM LLC (c) 2004-2014
+# Copyright CiviCRM LLC (c) 2004-2015
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
@@ -7,94 +7,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2014-04-28 17:14-0700\n"
-"PO-Revision-Date: 2014-07-17 12:27+0000\n"
-"Last-Translator: Zoltán Reizinger <zreizinger@hdsnet.hu>\n"
-"Language-Team: Hungarian (http://www.transifex.com/projects/p/civicrm_extensions/language/hu/)\n"
+"POT-Creation-Date: 2018-02-06 17:35+0000\n"
+"PO-Revision-Date: 2018-02-06 17:35+0000\n"
+"Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
+"Language-Team: Hungarian (http://www.transifex.com/civicrm/civicrm_extensions/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: /js/apps/define/define_views.js js/apps/define/define_views.js
-msgid ""
-"There is currently %count volunteer assigned to this need. The volunteer's "
-"activity history will be preserved, but they will be disconnected from this "
-"shift."
-msgstr "Jelenleg %count önkéntes hozzárendelve ehhez az igényhez. Az önkéntesek tevékenység története megőrzésre kerül, de leválasztásra kerülnek erről a váltásról."
-
-#: /js/apps/define/define_views.js js/apps/define/define_views.js
-msgid ""
-"There is currently %1 volunteer assigned to this need. The volunteer's "
-"activity history will be preserved, but they will be disconnected from this "
-"shift."
-msgstr "Jelenleg %1 önkéntes hozzárendelve ehhez az igényhez. Az önkéntesek tevékenység története megőrzésre kerül, de leválasztásra kerülnek erről a váltásról."
-
-#: /js/apps/define/define_views.js js/apps/define/define_views.js
-msgid "There are currently %1 volunteers assigned to this need."
-msgstr "Jelenleg %1 önkéntes hozzárendelve ehhez az igényhez."
-
-#: /js/apps/define/define_views.js js/apps/define/define_views.js
-msgid ""
-"There are currently %1 volunteers assigned to this need. The volunteers' "
-"activity histories will be preserved, but they will be disconnected from "
-"this shift."
-msgstr "Jelenleg %1 önkéntes hozzárendelve ehhez az igényhez. Az önkéntesek tevékenység története megőrzésre kerül, de leválasztásra kerülnek erről a váltásról."
-
-#: /js/apps/define/define_views.js js/apps/define/define_views.js
-msgid "Delete %1"
-msgstr "%1 törlése"
-
-#: /js/apps/define/define_views.js /js/apps/volunteer_app.js
-#: CRM/Volunteer/Form/Log.php js/apps/define/define_views.js
-#: js/apps/volunteer_app.js
-msgid "Saved"
-msgstr "Mentve"
-
-#: /js/apps/volunteer_app.js /js/apps/assign/assign_views.js
-#: js/apps/volunteer_app.js js/apps/assign/assign_views.js
-#: templates/CRM/Volunteer/Form/Manage/Assign.tpl
-#: templates/CRM/Volunteer/Form/Manage/Define.tpl
-msgid "Loading"
-msgstr "Betöltés"
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-#: templates/CRM/Volunteer/Form/Manage/Assign.tpl
-msgid "Available Volunteers"
-msgstr "Rendelkezésre álló önkéntesek"
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-msgid "Copied"
-msgstr "Másolva"
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-msgid "%1 More Needed"
-msgstr "További szükséges önkéntes %1 "
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-msgid "%1 Needed"
-msgstr "%1 szükséges"
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-msgid "None"
-msgstr "Egyik sem"
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-msgid "%1 has been created."
-msgstr "%1 létrehozva."
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-msgid "Contact Saved"
-msgstr "Kapcsolat mentve"
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-msgid "Delete Volunteer"
-msgstr "Önkéntes törlése"
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-msgid "Remove %1 from %2?"
-msgstr "Eltávolítsam az %1 a %2?"
 
 #: CRM/Volunteer/BAO/Need.php
 msgid "I'm Flexible"
@@ -164,6 +85,11 @@ msgstr "Kérem adja meg a befejezett önkéntes tevékenység tényleges időtar
 #: CRM/Volunteer/Form/Log.php
 msgid "Volunteer hours have been logged."
 msgstr "Önkéntesek idejei naplózva."
+
+#: CRM/Volunteer/Form/Log.php js/apps/define/define_views.js
+#: js/apps/volunteer_app.js
+msgid "Saved"
+msgstr "Mentve"
 
 #: CRM/Volunteer/Form/Volunteer.php
 msgid "Enable Volunteer Management?"
@@ -298,17 +224,9 @@ msgstr "Beküldés"
 msgid "You are scheduled to volunteer. Thank you!"
 msgstr "Önkéntesnek beütemezve. Köszönjük!"
 
-#: CRM/Volunteer/Upgrader.php
-msgid "Process first step"
-msgstr "Folyamat első lépése"
-
-#: CRM/Volunteer/Upgrader.php
-msgid "Process second step"
-msgstr "Folyamat második lépése"
-
-#: CRM/Volunteer/Upgrader.php
-msgid "Upgrade Batch (%1 => %2)"
-msgstr "Kötegelt frissítés (%1 => %2)"
+#: CRM/Volunteer/Upgrader/Base.php
+msgid "Upgrade %1 to revision %2"
+msgstr "%1  frissítése a %2 változatra"
 
 #: CRM/Volunteer/Upgrader.php
 msgid "Volunteer"
@@ -322,57 +240,77 @@ msgstr "Rendelkezésre áll"
 msgid "No-show"
 msgstr "Nem jelent meg"
 
-#: CRM/Volunteer/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "%1  frissítése a %2 változatra"
+#: js/apps/assign/assign_views.js
+#: templates/CRM/Volunteer/Form/Manage/Assign.tpl
+msgid "Available Volunteers"
+msgstr "Rendelkezésre álló önkéntesek"
 
-#: volunteer.php
-msgid "Getting Started:"
-msgstr "Kezdési idő:"
+#: js/apps/assign/assign_views.js
+msgid "Copied"
+msgstr "Másolva"
 
-#: volunteer.php
-msgid "Read <a href=\"%1\" target=\"_blank\">documentation</a>"
-msgstr "Tekintse meg a <a href=\"%1\" target=\"_blank\">dokumentációt</a>"
+#: js/apps/assign/assign_views.js
+msgid "%1 More Needed"
+msgstr "További szükséges önkéntes %1 "
 
-#: volunteer.php
-msgid "Ask questions on the <a href=\"%1\" target=\"_blank\">forum</a>"
-msgstr "Tegye fel kérdéseit a <a href=\"%1\" target=\"_blank\">fórumon</a>"
+#: js/apps/assign/assign_views.js
+msgid "%1 Needed"
+msgstr "%1 szükséges"
 
-#: volunteer.php
-msgid "Configure <a href=\"%1\" target=\"_blank\">volunteer roles</a>"
-msgstr "Állítsa be az <a href=\"%1\" target=\"_blank\">önkéntes szerepeket</a>"
+#: js/apps/assign/assign_views.js
+msgid "None"
+msgstr "Egyik sem"
 
-#: volunteer.php
+#: js/apps/assign/assign_views.js js/apps/volunteer_app.js
+#: templates/CRM/Volunteer/Form/Manage/Assign.tpl
+#: templates/CRM/Volunteer/Form/Manage/Define.tpl
+msgid "Loading"
+msgstr "Betöltés"
+
+#: js/apps/assign/assign_views.js
+msgid "%1 has been created."
+msgstr "%1 létrehozva."
+
+#: js/apps/assign/assign_views.js
+msgid "Contact Saved"
+msgstr "Kapcsolat mentve"
+
+#: js/apps/assign/assign_views.js
+msgid "Delete Volunteer"
+msgstr "Önkéntes törlése"
+
+#: js/apps/assign/assign_views.js
+msgid "Remove %1 from %2?"
+msgstr "Eltávolítsam az %1 a %2?"
+
+#: js/apps/define/define_views.js
 msgid ""
-"Enable volunteer management for one or more <a href=\"%1\" "
-"target=\"_blank\">events</a>"
-msgstr "Engedélyezze az önkéntesek kezelését egy vagy több <a href=\"%1\" target=\"_blank\">eseményre</a>"
+"There is currently %count volunteer assigned to this need. The volunteer's "
+"activity history will be preserved, but they will be disconnected from this "
+"shift."
+msgstr "Jelenleg %count önkéntes hozzárendelve ehhez az igényhez. Az önkéntesek tevékenység története megőrzésre kerül, de leválasztásra kerülnek erről a váltásról."
 
-#: volunteer.php
-msgid "CiviVolunteer Installed"
-msgstr "CiviÖnkéntes telepítve"
-
-#: volunteer.php
-msgid "Volunteer Now"
-msgstr "Most önkéntes"
-
-#: volunteer.php
-msgid "CiviVolunteer"
-msgstr "CiviÖnkéntes"
-
-#: volunteer.php
+#: js/apps/define/define_views.js
 msgid ""
-"Your extension resource url is not configured correctly. CiviVolunteer "
-"cannot work without this setting."
-msgstr "Az kiterjesztések erőforrás URL-je nincs rendesen beállítva. A CiviÖnkéntes ezen beállítás nélkül nem működik."
+"There is currently %1 volunteer assigned to this need. The volunteer's "
+"activity history will be preserved, but they will be disconnected from this "
+"shift."
+msgstr "Jelenleg %1 önkéntes hozzárendelve ehhez az igényhez. Az önkéntesek tevékenység története megőrzésre kerül, de leválasztásra kerülnek erről a váltásról."
 
-#: volunteer.php
-msgid "Correct the problem at <a href=\"%1\">Settings - Resource URLs</a>."
-msgstr "Javítsa a problémát a <a href=\"%1\">Rendszerbeállítások - Erőforrás URL-ek</a> alatt."
+#: js/apps/define/define_views.js
+msgid "There are currently %1 volunteers assigned to this need."
+msgstr "Jelenleg %1 önkéntes hozzárendelve ehhez az igényhez."
 
-#: volunteer.php
-msgid "Error"
-msgstr "Hiba"
+#: js/apps/define/define_views.js
+msgid ""
+"There are currently %1 volunteers assigned to this need. The volunteers' "
+"activity histories will be preserved, but they will be disconnected from "
+"this shift."
+msgstr "Jelenleg %1 önkéntes hozzárendelve ehhez az igényhez. Az önkéntesek tevékenység története megőrzésre kerül, de leválasztásra kerülnek erről a váltásról."
+
+#: js/apps/define/define_views.js
+msgid "Delete %1"
+msgstr "%1 törlése"
 
 #: templates/CRM/Volunteer/Form/Log.tpl
 msgid ""
@@ -589,3 +527,51 @@ msgstr "Önkéntes idő naplója"
 #: templates/CRM/Volunteer/Form/Volunteer.tpl
 msgid "Enable or disable volunteer management for this event."
 msgstr "Önkéntesek kezelésének engedélyezése letiltása erre az eseményre."
+
+#: volunteer.php
+msgid "Getting Started:"
+msgstr "Kezdési idő:"
+
+#: volunteer.php
+msgid "Read <a href=\"%1\" target=\"_blank\">documentation</a>"
+msgstr "Tekintse meg a <a href=\"%1\" target=\"_blank\">dokumentációt</a>"
+
+#: volunteer.php
+msgid "Ask questions on the <a href=\"%1\" target=\"_blank\">forum</a>"
+msgstr "Tegye fel kérdéseit a <a href=\"%1\" target=\"_blank\">fórumon</a>"
+
+#: volunteer.php
+msgid "Configure <a href=\"%1\" target=\"_blank\">volunteer roles</a>"
+msgstr "Állítsa be az <a href=\"%1\" target=\"_blank\">önkéntes szerepeket</a>"
+
+#: volunteer.php
+msgid ""
+"Enable volunteer management for one or more <a href=\"%1\" "
+"target=\"_blank\">events</a>"
+msgstr "Engedélyezze az önkéntesek kezelését egy vagy több <a href=\"%1\" target=\"_blank\">eseményre</a>"
+
+#: volunteer.php
+msgid "CiviVolunteer Installed"
+msgstr "CiviÖnkéntes telepítve"
+
+#: volunteer.php
+msgid "Volunteer Now"
+msgstr "Most önkéntes"
+
+#: volunteer.php
+msgid "CiviVolunteer"
+msgstr "CiviÖnkéntes"
+
+#: volunteer.php
+msgid ""
+"Your extension resource url is not configured correctly. CiviVolunteer "
+"cannot work without this setting."
+msgstr "Az kiterjesztések erőforrás URL-je nincs rendesen beállítva. A CiviÖnkéntes ezen beállítás nélkül nem működik."
+
+#: volunteer.php
+msgid "Correct the problem at <a href=\"%1\">Settings - Resource URLs</a>."
+msgstr "Javítsa a problémát a <a href=\"%1\">Rendszerbeállítások - Erőforrás URL-ek</a> alatt."
+
+#: volunteer.php
+msgid "Error"
+msgstr "Hiba"
