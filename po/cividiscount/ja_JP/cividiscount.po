@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2018-02-06 17:33+0000\n"
-"PO-Revision-Date: 2018-02-06 17:33+0000\n"
+"POT-Creation-Date: 2018-11-15 19:42+0000\n"
+"PO-Revision-Date: 2018-11-15 19:42+0000\n"
 "Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
 "Language-Team: Japanese (http://www.transifex.com/civicrm/civicrm_extensions/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -85,10 +85,6 @@ msgstr "使用日"
 #: CRM/CiviDiscount/DAO/Track.php
 msgid "Entity Table"
 msgstr "エンティティテーブル"
-
-#: CRM/CiviDiscount/Form/Admin.php
-msgid "We need a valid discount ID for update and/or delete"
-msgstr "更新のために有効な割引IDを必要な場合、および / または削除します"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Discounts"
@@ -171,6 +167,10 @@ msgid "- any -"
 msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
+msgid "Please re-enter %1, a %2 is required."
+msgstr ""
+
+#: CRM/CiviDiscount/Form/Admin.php
 msgid "Selected Discount has been deleted."
 msgstr "選択した割引を削除されました。"
 
@@ -183,21 +183,17 @@ msgid "Selected Discount has been duplicated."
 msgstr "選択した割引は重複しています。"
 
 #: CRM/CiviDiscount/Form/Admin.php
-msgid "Copied"
+msgid "Saved"
 msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid ""
-"You selected `any event` and specific events, specific events have been "
-"unset"
-msgstr "あなたが選択した `任意のイベント` や特定のイベントで、特定のイベントの設定が解除されています"
+"The events you selected will be ignored because you also chose \"any "
+"event.\""
+msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
-msgid "The discount '%1' has been saved."
-msgstr "割引「%1」を保存しました。"
-
-#: CRM/CiviDiscount/Form/Admin.php
-msgid "Saved"
+msgid "The discount \"%1\" has been saved."
 msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
@@ -210,9 +206,9 @@ msgstr "記号 = は、無しの条件を持っています"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid ""
-"You set \"any current status\" and specific statuses, specific statuses have"
-" been discarded"
-msgstr "あなたは、「任意の現在のステータス」の設定や、特定のステータスで、特定のステータスが破棄されました"
+"The statuses you selected will be ignored because you also chose \"any "
+"current status.\""
+msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Automatic discount for existing members of type"
@@ -312,7 +308,7 @@ msgstr "割引を有効"
 msgid "Delete Discount"
 msgstr "割引を削除"
 
-#: CRM/CiviDiscount/Page/Report.php CRM/CiviDiscount/Page/View.php
+#: CRM/CiviDiscount/Page/View.php
 msgid "We need a valid discount ID for view"
 msgstr "表示する有効な割引IDが必要です"
 
@@ -351,6 +347,14 @@ msgstr "割引コードをお持ちの場合は、ここに入力してくださ
 #: cividiscount.php
 msgid "Apply"
 msgstr "適用"
+
+#: cividiscount.php
+msgid "CiviDiscount"
+msgstr ""
+
+#: cividiscount.php
+msgid "administer CiviDiscount"
+msgstr ""
 
 #: templates/CRM/CiviDiscount/Form/Admin.hlp
 msgid ""
@@ -496,6 +500,11 @@ msgstr "終了日"
 
 #: templates/CRM/CiviDiscount/Page/List.tpl
 #: templates/CRM/CiviDiscount/Page/View.tpl
+msgid "Enabled?"
+msgstr "有効ですか？"
+
+#: templates/CRM/CiviDiscount/Page/List.tpl
+#: templates/CRM/CiviDiscount/Page/View.tpl
 msgid "Unlimited"
 msgstr "無制限"
 
@@ -546,10 +555,6 @@ msgstr "自動割引"
 #: templates/CRM/CiviDiscount/Page/View.tpl
 msgid "Price Sets"
 msgstr "価格セット"
-
-#: templates/CRM/CiviDiscount/Page/View.tpl
-msgid "Enabled?"
-msgstr "有効ですか？"
 
 #: templates/CRM/CiviDiscount/Page/View.tpl
 msgid "Yes"
