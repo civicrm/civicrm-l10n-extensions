@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2018-02-06 17:33+0000\n"
-"PO-Revision-Date: 2018-02-06 17:33+0000\n"
+"POT-Creation-Date: 2018-11-15 19:42+0000\n"
+"PO-Revision-Date: 2018-11-15 19:42+0000\n"
 "Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
 "Language-Team: Polish (http://www.transifex.com/civicrm/civicrm_extensions/language/pl/)\n"
 "MIME-Version: 1.0\n"
@@ -85,10 +85,6 @@ msgstr "Data użycia"
 #: CRM/CiviDiscount/DAO/Track.php
 msgid "Entity Table"
 msgstr "Tabela jednostek"
-
-#: CRM/CiviDiscount/Form/Admin.php
-msgid "We need a valid discount ID for update and/or delete"
-msgstr "Potrzebny jest prawidłowy ID obniżki do jej aktualizacji i/lub usunięcia"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Discounts"
@@ -171,6 +167,10 @@ msgid "- any -"
 msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
+msgid "Please re-enter %1, a %2 is required."
+msgstr ""
+
+#: CRM/CiviDiscount/Form/Admin.php
 msgid "Selected Discount has been deleted."
 msgstr "Wybrana obniżka została usunięta."
 
@@ -183,21 +183,17 @@ msgid "Selected Discount has been duplicated."
 msgstr "Wybrana obniżka została skopiowana."
 
 #: CRM/CiviDiscount/Form/Admin.php
-msgid "Copied"
+msgid "Saved"
 msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid ""
-"You selected `any event` and specific events, specific events have been "
-"unset"
-msgstr "Wybrałeś \"dowolne wydarzenie\" i poszczególne wydarzenia. Wydarzenia zostały usunięte."
+"The events you selected will be ignored because you also chose \"any "
+"event.\""
+msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
-msgid "The discount '%1' has been saved."
-msgstr "Obniżka '%1' została zapisana."
-
-#: CRM/CiviDiscount/Form/Admin.php
-msgid "Saved"
+msgid "The discount \"%1\" has been saved."
 msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
@@ -210,8 +206,8 @@ msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid ""
-"You set \"any current status\" and specific statuses, specific statuses have"
-" been discarded"
+"The statuses you selected will be ignored because you also chose \"any "
+"current status.\""
 msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
@@ -312,7 +308,7 @@ msgstr "Włącz rabat"
 msgid "Delete Discount"
 msgstr "Usuń rabat"
 
-#: CRM/CiviDiscount/Page/Report.php CRM/CiviDiscount/Page/View.php
+#: CRM/CiviDiscount/Page/View.php
 msgid "We need a valid discount ID for view"
 msgstr "Potrzebny jest prawidłowy numer obniżki"
 
@@ -351,6 +347,14 @@ msgstr "Kod rabatowy:"
 #: cividiscount.php
 msgid "Apply"
 msgstr "Zastosuj"
+
+#: cividiscount.php
+msgid "CiviDiscount"
+msgstr ""
+
+#: cividiscount.php
+msgid "administer CiviDiscount"
+msgstr ""
 
 #: templates/CRM/CiviDiscount/Form/Admin.hlp
 msgid ""
@@ -496,6 +500,11 @@ msgstr "Data zakończenia"
 
 #: templates/CRM/CiviDiscount/Page/List.tpl
 #: templates/CRM/CiviDiscount/Page/View.tpl
+msgid "Enabled?"
+msgstr "Włączony?"
+
+#: templates/CRM/CiviDiscount/Page/List.tpl
+#: templates/CRM/CiviDiscount/Page/View.tpl
 msgid "Unlimited"
 msgstr "Nielimitowany"
 
@@ -546,10 +555,6 @@ msgstr "Automatyczna obniżka"
 #: templates/CRM/CiviDiscount/Page/View.tpl
 msgid "Price Sets"
 msgstr "Zestaw cen"
-
-#: templates/CRM/CiviDiscount/Page/View.tpl
-msgid "Enabled?"
-msgstr "Włączony?"
 
 #: templates/CRM/CiviDiscount/Page/View.tpl
 msgid "Yes"
