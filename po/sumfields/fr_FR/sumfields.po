@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2018-02-06 17:34+0000\n"
-"PO-Revision-Date: 2018-02-06 17:34+0000\n"
+"POT-Creation-Date: 2018-11-15 19:43+0000\n"
+"PO-Revision-Date: 2018-11-15 19:43+0000\n"
 "Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
 "Language-Team: French (http://www.transifex.com/civicrm/civicrm_extensions/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -34,6 +34,12 @@ msgid ""
 "Setting changes were saved on %1, but not yet applied; they should be "
 "applied shortly."
 msgstr "Les modifications des paramètres ont été sauvegardées sur %1, mais ne sont pas encore appliquées. Elle seront appliquées prochainement."
+
+#: CRM/Sumfields/Form/SumFields.php
+msgid ""
+"Setting changes were saved on %1, data calculation will be performed on "
+"every cron run."
+msgstr ""
 
 #: CRM/Sumfields/Form/SumFields.php
 msgid ""
@@ -80,6 +86,19 @@ msgstr "Statuts des participants (ayant participé)"
 #: CRM/Sumfields/Form/SumFields.php
 msgid "Participant Status (did not attend)"
 msgstr "Statuts des participants (n'étaient pas présents)"
+
+#: CRM/Sumfields/Form/SumFields.php
+msgid "How often should summary data be updated?"
+msgstr ""
+
+#: CRM/Sumfields/Form/SumFields.php
+msgid "Instantly"
+msgstr ""
+
+#: CRM/Sumfields/Form/SumFields.php
+msgid ""
+"When ever the cron job is run (increases performance on large installation)"
+msgstr ""
 
 #: CRM/Sumfields/Form/SumFields.php
 msgid "When should these changes be applied?"
@@ -132,32 +151,32 @@ msgid "Total Lifetime Contributions"
 msgstr "Total de toutes les contributions"
 
 #: custom.php
-msgid "Total Contributions this Year"
-msgstr "Total des contributions de cette année"
+msgid "Total Contributions this Fiscal Year"
+msgstr ""
 
 #: custom.php
 msgid "Total Contributions in the Last 12 Months"
 msgstr ""
 
 #: custom.php
-msgid "Total Deductible Contributions this Year"
-msgstr "Total des contributions déductibles de cette année"
+msgid "Total Deductible Contributions this Fiscal Year"
+msgstr ""
 
 #: custom.php
-msgid "Total Contributions last Year"
-msgstr "Total des contributions de l'année passée"
+msgid "Total Contributions last Fiscal Year"
+msgstr ""
 
 #: custom.php
-msgid "Total Deductible Contributions last Year"
-msgstr "Total des contributions déductibles de l'année passée"
+msgid "Total Deductible Contributions last Fiscal Year"
+msgstr ""
 
 #: custom.php
-msgid "Total Contributions Year Before Last"
-msgstr "Total des contributions de l'avant-dernière année"
+msgid "Total Contributions Fiscal Year Before Last"
+msgstr ""
 
 #: custom.php
-msgid "Total Deductible Contributions Year Before Last"
-msgstr "Total des contributions déductibles de l'avant-dernière année"
+msgid "Total Deductible Contributions Fiscal Year Before Last"
+msgstr ""
 
 #: custom.php
 msgid "Amount of last contribution"
@@ -188,7 +207,7 @@ msgid "Total Lifetime Soft Credits"
 msgstr ""
 
 #: custom.php
-msgid "Total Soft Credits this Year"
+msgid "Total Soft Credits this Fiscal Year"
 msgstr ""
 
 #: custom.php
@@ -340,6 +359,10 @@ msgid "Status of current settings:"
 msgstr "Statut des paramètres actuels :"
 
 #: templates/CRM/Sumfields/Form/SumFields.tpl
+msgid "Data update method:"
+msgstr ""
+
+#: templates/CRM/Sumfields/Form/SumFields.tpl
 msgid "Triggers for %1:"
 msgstr ""
 
@@ -353,6 +376,21 @@ msgstr ""
 
 #: templates/CRM/Sumfields/Form/SumFields.tpl
 msgid "Field Settings"
+msgstr ""
+
+#: templates/CRM/Sumfields/Form/SumFields.tpl
+msgid ""
+"Fiscal Year can be set at <a href=\"/civicrm-"
+"master/civicrm/admin/setting/date?action=reset=1\">Administer &gt; "
+"Localization &gt; Date Formats</a>"
+msgstr ""
+
+#: templates/CRM/Sumfields/Form/SumFields.tpl
+msgid ""
+"If 'Instantly' is selected, data will be more accurate but you might face "
+"some performance issues on large installations. <br/> If 'Whenever the cron "
+"job is run' is selected, Summary Fields will rely on each CiviCRM Cron job "
+"to process all calculations needed for all contacts."
 msgstr ""
 
 #: templates/CRM/Sumfields/Form/SumFields.tpl
