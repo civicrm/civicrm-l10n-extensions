@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2018-02-06 17:33+0000\n"
-"PO-Revision-Date: 2018-02-06 17:33+0000\n"
+"POT-Creation-Date: 2018-11-15 19:42+0000\n"
+"PO-Revision-Date: 2018-11-15 19:42+0000\n"
 "Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
 "Language-Team: Hungarian (http://www.transifex.com/civicrm/civicrm_extensions/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -85,10 +85,6 @@ msgstr "Használt dátum"
 #: CRM/CiviDiscount/DAO/Track.php
 msgid "Entity Table"
 msgstr "Egyed tábla"
-
-#: CRM/CiviDiscount/Form/Admin.php
-msgid "We need a valid discount ID for update and/or delete"
-msgstr "Érvényes kedvezmény azonosító kell a frissítéshez és/vagy törléséhez"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Discounts"
@@ -171,6 +167,10 @@ msgid "- any -"
 msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
+msgid "Please re-enter %1, a %2 is required."
+msgstr ""
+
+#: CRM/CiviDiscount/Form/Admin.php
 msgid "Selected Discount has been deleted."
 msgstr "A kiválasztott kedvezmény törlésre került."
 
@@ -183,21 +183,17 @@ msgid "Selected Discount has been duplicated."
 msgstr "A kiválasztott kedvezmény megkettőzve."
 
 #: CRM/CiviDiscount/Form/Admin.php
-msgid "Copied"
+msgid "Saved"
 msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid ""
-"You selected `any event` and specific events, specific events have been "
-"unset"
-msgstr "Kiválasztotta a `bármely esemény` és az egyedi eseményeket, az egyedi események kikapcsolva"
+"The events you selected will be ignored because you also chose \"any "
+"event.\""
+msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
-msgid "The discount '%1' has been saved."
-msgstr "A '%1' kedvezmény mentve."
-
-#: CRM/CiviDiscount/Form/Admin.php
-msgid "Saved"
+msgid "The discount \"%1\" has been saved."
 msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
@@ -210,9 +206,9 @@ msgstr "Van egy = jel nélküli kritériuma"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid ""
-"You set \"any current status\" and specific statuses, specific statuses have"
-" been discarded"
-msgstr "Beállította a `bármely aktuális állapot` és az egyedi eseményeket, az egyedi állapotok eldobva"
+"The statuses you selected will be ignored because you also chose \"any "
+"current status.\""
+msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Automatic discount for existing members of type"
@@ -312,7 +308,7 @@ msgstr "Kedvezmény engedélyezése"
 msgid "Delete Discount"
 msgstr "Kedvezmény törlése"
 
-#: CRM/CiviDiscount/Page/Report.php CRM/CiviDiscount/Page/View.php
+#: CRM/CiviDiscount/Page/View.php
 msgid "We need a valid discount ID for view"
 msgstr "Érvényes kedvezmény azonosító szükséges a megtekintéshez"
 
@@ -351,6 +347,14 @@ msgstr "Ha van kedvezmény kódja, itt adja meg"
 #: cividiscount.php
 msgid "Apply"
 msgstr "Alkalmaz"
+
+#: cividiscount.php
+msgid "CiviDiscount"
+msgstr ""
+
+#: cividiscount.php
+msgid "administer CiviDiscount"
+msgstr ""
 
 #: templates/CRM/CiviDiscount/Form/Admin.hlp
 msgid ""
@@ -496,6 +500,11 @@ msgstr "Vég dátum"
 
 #: templates/CRM/CiviDiscount/Page/List.tpl
 #: templates/CRM/CiviDiscount/Page/View.tpl
+msgid "Enabled?"
+msgstr "Engedélyezett?"
+
+#: templates/CRM/CiviDiscount/Page/List.tpl
+#: templates/CRM/CiviDiscount/Page/View.tpl
 msgid "Unlimited"
 msgstr "Korlátlan"
 
@@ -546,10 +555,6 @@ msgstr "Automatikus kedvezmény"
 #: templates/CRM/CiviDiscount/Page/View.tpl
 msgid "Price Sets"
 msgstr "Árlisták"
-
-#: templates/CRM/CiviDiscount/Page/View.tpl
-msgid "Enabled?"
-msgstr "Engedélyezett?"
 
 #: templates/CRM/CiviDiscount/Page/View.tpl
 msgid "Yes"
