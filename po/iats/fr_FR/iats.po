@@ -3,13 +3,14 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
+# Guillaume Boudrias <gboudrias@gboudrias.ca>, 2018
 # Mathieu Lu <mathieu@bidon.ca>, 2016
-# samuelsov <samuel@koumbit.org>, 2017
+# samuelsov <samuel@symbiotic.coop>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2018-02-06 17:35+0000\n"
-"PO-Revision-Date: 2018-02-06 17:35+0000\n"
+"POT-Creation-Date: 2018-11-15 19:45+0000\n"
+"PO-Revision-Date: 2018-11-15 19:45+0000\n"
 "Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
 "Language-Team: French (http://www.transifex.com/civicrm/civicrm_extensions/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -117,6 +118,12 @@ msgstr ""
 msgid "Back"
 msgstr ""
 
+#: CRM/iATS/Form/IATSCustomerUpdateBillingInfo.php
+msgid ""
+"This system is unable to perform self-service updates to credit cards. "
+"Please contact the administrator of this site."
+msgstr ""
+
 #: CRM/iATS/Form/IATSOneTimeCharge.php
 msgid "Automated email receipt for this contribution."
 msgstr ""
@@ -174,16 +181,180 @@ msgstr ""
 msgid "Restrict allowable days of the month for Recurring Contributions"
 msgstr ""
 
-#: CRM/iATS/Form/Report/Journal.php
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Donor Email"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Donor Phone"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Contribution ID"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php CRM/iATS/Form/Report/Recur.php
+msgid "Financial Type"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Contribution Status"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Contribution Page"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Source"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Payment Type"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Check Number"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php CRM/iATS/Form/Report/Recur.php
+msgid "Amount"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Non-deductible Amount"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Contribution OR Soft Credit?"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Soft Credits"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Soft Credit For"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Contributions Only"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Soft Credits Only"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Both"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php CRM/iATS/Form/Report/Recur.php
+msgid "Currency"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Contribution Amount"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Payment Method"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Date Received"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Contribution"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Soft Credit Type"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Credit Card Type"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Batch Name"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Contribution Ordinality"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Contribution Note"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Donor Name"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Campaign"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php CRM/iATS/Form/Report/Journal.php
 msgid "CiviCRM Journal Id"
 msgstr ""
 
-#: CRM/iATS/Form/Report/Journal.php
+#: CRM/iATS/Form/Report/ContributeDetail.php CRM/iATS/Form/Report/Journal.php
 msgid "iATS Journal Id"
 msgstr ""
 
-#: CRM/iATS/Form/Report/Journal.php
+#: CRM/iATS/Form/Report/ContributeDetail.php CRM/iATS/Form/Report/Journal.php
 msgid "Transaction Date Time"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "iATS Journal Payment Status"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Total Amount (Contributions)"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Total Contributions"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Fees"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Net"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Average"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Total Amount (Soft Credits)"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Total Soft Credits"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "Average (Soft Credits)"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "View Contribution Details"
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php CRM/iATS/Form/Report/Recur.php
+msgid "View Contact Summary for this Contact."
+msgstr ""
+
+#: CRM/iATS/Form/Report/ContributeDetail.php
+msgid "View Details of this Contribution."
 msgstr ""
 
 #: CRM/iATS/Form/Report/Journal.php CRM/iATS/Form/Report/Verify.php
@@ -275,14 +446,6 @@ msgid "Invoice ID"
 msgstr ""
 
 #: CRM/iATS/Form/Report/Recur.php
-msgid "Currency"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Amount"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
 msgid "Donation Status"
 msgstr ""
 
@@ -311,10 +474,6 @@ msgid "Failure Retry Date"
 msgstr ""
 
 #: CRM/iATS/Form/Report/Recur.php
-msgid "Financial Type"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
 msgid "Frequency Unit"
 msgstr ""
 
@@ -332,10 +491,6 @@ msgstr ""
 
 #: CRM/iATS/Form/Report/Recur.php
 msgid "Supplementary Address Field 2"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "View Contact Summary for this Contact."
 msgstr ""
 
 #: CRM/iATS/Form/Report/Recur.php CRM/iATS/Form/Report/Verify.php
@@ -455,7 +610,7 @@ msgstr "Numéro de l'institution bancaire"
 
 #: iats.php
 msgid "Bank Number (3 digits)"
-msgstr ""
+msgstr "Numéro de banque (3 chiffres)"
 
 #: iats.php
 msgid "Bank Number"
@@ -471,7 +626,7 @@ msgstr ""
 
 #: iats.php
 msgid "Transit Number (5 digits)"
-msgstr ""
+msgstr "Numéro de transit (5 chiffres)"
 
 #: iats.php
 msgid "Transit Number"
@@ -613,7 +768,7 @@ msgstr "Vous pouvez trouver votre numéro de banque, numéro de transit et numé
 
 #: templates/CRM/iATS/BillingBlockDirectDebitExtra_CAD.tpl
 msgid "Please enter them below without any punctuation or spaces."
-msgstr ""
+msgstr "Veuillez les inscrire ci-bas sans ponctuation ni espaces."
 
 #: templates/CRM/iATS/BillingBlockDirectDebitExtra_GBP.tpl
 msgid "Note: "
