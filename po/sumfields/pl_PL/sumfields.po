@@ -4,13 +4,14 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Karolina Pomarańska <karolina@caltha.pl>, 2016
+# Marcin Lewandowski <email.marcina.lewandowskiego@gmail.com>, 2018
 # Michał Mach, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2018-02-06 17:34+0000\n"
-"PO-Revision-Date: 2018-02-06 17:34+0000\n"
-"Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
+"POT-Creation-Date: 2018-11-15 19:43+0000\n"
+"PO-Revision-Date: 2018-11-19 01:42+0000\n"
+"Last-Translator: Marcin Lewandowski <email.marcina.lewandowskiego@gmail.com>\n"
 "Language-Team: Polish (http://www.transifex.com/civicrm/civicrm_extensions/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,6 +37,12 @@ msgstr "Zmiany w ustawieniach zostały  zapisane %1, ale jeszcze nie zostały za
 
 #: CRM/Sumfields/Form/SumFields.php
 msgid ""
+"Setting changes were saved on %1, data calculation will be performed on "
+"every cron run."
+msgstr ""
+
+#: CRM/Sumfields/Form/SumFields.php
+msgid ""
 "Setting changes are in the process of being applied; the process started on "
 "%1."
 msgstr "Zmiany w ustawieniach są w trakcie aplikowania; proces rozpoczął się: %1."
@@ -54,23 +61,23 @@ msgstr "Brak możliwości ustalenia statusu (%1)."
 
 #: CRM/Sumfields/Form/SumFields.php
 msgid "Financial Types"
-msgstr "Typy finansowe"
+msgstr "Rodzaje finansowania"
 
 #: CRM/Sumfields/Form/SumFields.php
 msgid ""
 "Financial types to include when calculating contribution related summary "
 "fields."
-msgstr ""
+msgstr "Typy finansowania do włączenia, gdy będzie wyliczane pola powiązane z transakcjami."
 
 #: CRM/Sumfields/Form/SumFields.php
 msgid ""
 "Financial types to include when calculating membership related summary "
 "fields."
-msgstr ""
+msgstr "Typy finansowania do włączenia, gdy będzie wyliczane pola powiązane z członkostwem."
 
 #: CRM/Sumfields/Form/SumFields.php
 msgid "Event Types"
-msgstr "Typy wydarzeń"
+msgstr "Rodzaj wydarzenia"
 
 #: CRM/Sumfields/Form/SumFields.php
 msgid "Participant Status (attended)"
@@ -79,6 +86,19 @@ msgstr "Status uczestnika (uczestniczył)"
 #: CRM/Sumfields/Form/SumFields.php
 msgid "Participant Status (did not attend)"
 msgstr "Status uczestnika (nie uczestniczył)"
+
+#: CRM/Sumfields/Form/SumFields.php
+msgid "How often should summary data be updated?"
+msgstr "Jak często powinny być aktualizowane pola podsumowujące?"
+
+#: CRM/Sumfields/Form/SumFields.php
+msgid "Instantly"
+msgstr "Natychmiast"
+
+#: CRM/Sumfields/Form/SumFields.php
+msgid ""
+"When ever the cron job is run (increases performance on large installation)"
+msgstr "Gdy uruchomiony cron (zwiększa wydajność w większych instalacjach)"
 
 #: CRM/Sumfields/Form/SumFields.php
 msgid "When should these changes be applied?"
@@ -106,7 +126,7 @@ msgstr "Wystąpił błąd przy zapisywaniu zmian."
 
 #: CRM/Sumfields/Form/SumFields.php sumfields.php
 msgid "Error"
-msgstr ""
+msgstr "Błąd"
 
 #: CRM/Sumfields/Form/SumFields.php
 msgid "Changes were applied successfully."
@@ -114,7 +134,7 @@ msgstr "Zmiany zostały zapisane."
 
 #: CRM/Sumfields/Form/SumFields.php
 msgid "Saved"
-msgstr ""
+msgstr "Zapisano"
 
 #: CRM/Sumfields/Form/SumFields.php
 msgid ""
@@ -124,91 +144,91 @@ msgstr "Twoje pola sumaryczne zaczną być generowane w trakcie następnej reali
 
 #: custom.php sumfields.php
 msgid "Summary Fields"
-msgstr "Pola sumaryczne"
+msgstr "Pola podsumowujące"
 
 #: custom.php
 msgid "Total Lifetime Contributions"
-msgstr "Suma wszystkich darowizn"
+msgstr "Suma wszystkich transakcji"
 
 #: custom.php
-msgid "Total Contributions this Year"
-msgstr "Suma wszystkich darowizn w tym roku kalendarzowym"
+msgid "Total Contributions this Fiscal Year"
+msgstr "Suma transakcji w tym roku obrotowym"
 
 #: custom.php
 msgid "Total Contributions in the Last 12 Months"
-msgstr ""
+msgstr "Suma transakcji w ciągu ostatnich 12 miesięcy"
 
 #: custom.php
-msgid "Total Deductible Contributions this Year"
-msgstr "Suma wszystkich darowizn odliczalnych w tym roku"
+msgid "Total Deductible Contributions this Fiscal Year"
+msgstr "Suma odliczalnych transakcji w tym roku obrotowym"
 
 #: custom.php
-msgid "Total Contributions last Year"
-msgstr "Suma wszystkich darowizn w poprzednim roku"
+msgid "Total Contributions last Fiscal Year"
+msgstr "Suma transakcji w zeszłym roku obrotowym"
 
 #: custom.php
-msgid "Total Deductible Contributions last Year"
-msgstr "Suma wszystkich darowizn odliczalnych w poprzednim roku"
+msgid "Total Deductible Contributions last Fiscal Year"
+msgstr "Suma transakcji w zeszłym roku obrotowym"
 
 #: custom.php
-msgid "Total Contributions Year Before Last"
-msgstr "Suma wszystkich darowizn w przedostatnim roku"
+msgid "Total Contributions Fiscal Year Before Last"
+msgstr "Suma transakcji w przedostatnim roku obrotowym"
 
 #: custom.php
-msgid "Total Deductible Contributions Year Before Last"
-msgstr "Suma wszystkich darowizn odliczalnych w przedostatnim roku"
+msgid "Total Deductible Contributions Fiscal Year Before Last"
+msgstr "Suma odliczalnych transakcji w poprzednim roku obrotowym"
 
 #: custom.php
 msgid "Amount of last contribution"
-msgstr "Kwota ostatniej darowizny"
+msgstr "Kwota ostatniej transakcji"
 
 #: custom.php
 msgid "Date of Last Contribution"
-msgstr "Data ostatniej darowizny"
+msgstr "Data ostatniej transakcji"
 
 #: custom.php
 msgid "Date of First Contribution"
-msgstr "Data pierwszej darowizny"
+msgstr "Data pierwszej transakcji"
 
 #: custom.php
 msgid "Largest Contribution"
-msgstr "Największa darowizna"
+msgstr "Najwyższa transakcja"
 
 #: custom.php
 msgid "Count of Contributions"
-msgstr "Liczba darowizn"
+msgstr "Liczba transakcji"
 
 #: custom.php
 msgid "Average Annual (Calendar Year) Contribution"
-msgstr "Średnia roczna wielkość darowizny (w roku kalendarzowym)"
+msgstr "Średnia roczna (rok kalendarzowy) transakcja"
 
 #: custom.php
 msgid "Total Lifetime Soft Credits"
-msgstr ""
+msgstr "Suma \"transakcji w imieniu\""
 
 #: custom.php
-msgid "Total Soft Credits this Year"
+msgid "Total Soft Credits this Fiscal Year"
 msgstr ""
 
 #: custom.php
 msgid "Total Soft Credits in the Last 12 Months"
-msgstr ""
+msgstr "Suma \"transakcji w imieniu\" w ciągu ostatnich 12 miesięcy"
 
 #: custom.php
 msgid "Date of Last Membership Payment"
-msgstr "Data ostatniej płatności składki"
+msgstr "Data ostatniej składki członkowskiej"
 
 #: custom.php
 msgid "Amount of Last Membership Payment"
-msgstr "Kwota ostatniej płatności składki"
+msgstr "Kwota ostatniej składki członkowskiej"
 
 #: custom.php
 msgid "Name of the last attended event"
-msgstr "Nazwa ostatniego uczęszczonego wydarzenia"
+msgstr "Nazwa wydarzenia, w którym ostatnio uczestniczył/a"
 
 #: custom.php
 msgid "Date of the last attended event"
-msgstr "Data ostatniego uczęszczonego wydarzenia"
+msgstr "Data ostatniego wydarzenia, w którym uczestniczył/a"
 
 #: custom.php
 msgid "Total Number of events"
@@ -252,15 +272,15 @@ msgstr "Nieobecności jako procent Liczby podejść frekwencyjnych"
 
 #: custom.php
 msgid "Contribution Fields"
-msgstr ""
+msgstr "Pola podsumowujące"
 
 #: custom.php
 msgid "Fundraising"
-msgstr ""
+msgstr "Fundraising"
 
 #: custom.php
 msgid "Soft Credit Fields"
-msgstr ""
+msgstr "Pola \"transkacji w imieniu\""
 
 #: custom.php
 msgid "Membership Fields"
@@ -268,7 +288,7 @@ msgstr "Pola członkowskie"
 
 #: custom.php
 msgid "Membership"
-msgstr ""
+msgstr "Członkostwo"
 
 #: custom.php
 msgid "Standard Event Fields"
@@ -276,11 +296,11 @@ msgstr "Standardowe pola wydarzeń"
 
 #: custom.php
 msgid "Events"
-msgstr ""
+msgstr "Wydarzenia"
 
 #: custom.php
 msgid "Event Turnout Fields"
-msgstr ""
+msgstr "Pola frekwencji wydarzeń"
 
 #: sumfields.php
 msgid "Failed to create custom fields and table. Maybe they already exist?"
@@ -294,7 +314,7 @@ msgstr "Rozszerzenie jest uruchomione. Udaj się proszę do Administruj -> Dosto
 
 #: sumfields.php
 msgid "Configure Summary Fields"
-msgstr ""
+msgstr "Konfiguruj pola podsumowujące"
 
 #: sumfields.php
 msgid "Failed to rewrite sql for %s field."
@@ -312,23 +332,23 @@ msgstr "Nie przegenerowano zawartości, brak zdefiniowanych pól."
 
 #: sumfields.php
 msgid "Error creating custom field '%1'"
-msgstr ""
+msgstr "Błąd tworzenia pola niestandardowego '%1'"
 
 #: sumfields.php
 msgid "Error deleting '%s'"
-msgstr "Błąd w trakcie kasowania '%s'"
+msgstr "Błąd usuwania '%s'"
 
 #: sumfields.php
 msgid "Error deleting custom field '%s': %s"
-msgstr "Błąd w trakcie kasowania pola dodatkowego '%s': %s"
+msgstr "Błąd usuwania pola niestandardowego '%s' : %s"
 
 #: sumfields.php
 msgid "Failed to get the custom group parameters. Can't add new fields."
-msgstr "Nie udało się pozyskać parametrów grupy danych dodatkowych. Nie można dodać pól."
+msgstr "Błąd w uzyskaniu parametrów grupy niestandardowej. Nie mogę dodać nowych pól."
 
 #: sumfields.php
 msgid "Error adding custom field '%s': %s"
-msgstr "Przy dodawaniu pola dodatkowego '%s' wystąpił błąd: %s"
+msgstr "Błąd dodawania pola niestandardowego '%s' : %s"
 
 #: templates/CRM/Sumfields/Form/SumFields.tpl
 msgid "Extension Status"
@@ -339,19 +359,38 @@ msgid "Status of current settings:"
 msgstr "Status obenych ustawień:"
 
 #: templates/CRM/Sumfields/Form/SumFields.tpl
+msgid "Data update method:"
+msgstr "Metoda aktualizacji danych:"
+
+#: templates/CRM/Sumfields/Form/SumFields.tpl
 msgid "Triggers for %1:"
-msgstr ""
+msgstr "Wywoływacze dla %1"
 
 #: templates/CRM/Sumfields/Form/SumFields.tpl
 msgid "Enabled"
-msgstr ""
+msgstr "Włączony"
 
 #: templates/CRM/Sumfields/Form/SumFields.tpl
 msgid "Not Enabled"
-msgstr ""
+msgstr "Nie włączony"
 
 #: templates/CRM/Sumfields/Form/SumFields.tpl
 msgid "Field Settings"
+msgstr "Ustawienia pól"
+
+#: templates/CRM/Sumfields/Form/SumFields.tpl
+msgid ""
+"Fiscal Year can be set at <a href=\"/civicrm-"
+"master/civicrm/admin/setting/date?action=reset=1\">Administer &gt; "
+"Localization &gt; Date Formats</a>"
+msgstr ""
+
+#: templates/CRM/Sumfields/Form/SumFields.tpl
+msgid ""
+"If 'Instantly' is selected, data will be more accurate but you might face "
+"some performance issues on large installations. <br/> If 'Whenever the cron "
+"job is run' is selected, Summary Fields will rely on each CiviCRM Cron job "
+"to process all calculations needed for all contacts."
 msgstr ""
 
 #: templates/CRM/Sumfields/Form/SumFields.tpl
