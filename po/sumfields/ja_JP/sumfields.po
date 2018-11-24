@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2018-02-06 17:34+0000\n"
-"PO-Revision-Date: 2018-02-06 17:34+0000\n"
+"POT-Creation-Date: 2018-11-15 19:43+0000\n"
+"PO-Revision-Date: 2018-11-15 19:43+0000\n"
 "Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
 "Language-Team: Japanese (http://www.transifex.com/civicrm/civicrm_extensions/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -32,6 +32,12 @@ msgid ""
 "Setting changes were saved on %1, but not yet applied; they should be "
 "applied shortly."
 msgstr "設定の変更は %1 に保存されていますが、まだ適用されていません。すぐに適用してください。"
+
+#: CRM/Sumfields/Form/SumFields.php
+msgid ""
+"Setting changes were saved on %1, data calculation will be performed on "
+"every cron run."
+msgstr ""
 
 #: CRM/Sumfields/Form/SumFields.php
 msgid ""
@@ -78,6 +84,19 @@ msgstr "参加者ステータス (出席)"
 #: CRM/Sumfields/Form/SumFields.php
 msgid "Participant Status (did not attend)"
 msgstr "参加者ステータス (欠席)"
+
+#: CRM/Sumfields/Form/SumFields.php
+msgid "How often should summary data be updated?"
+msgstr ""
+
+#: CRM/Sumfields/Form/SumFields.php
+msgid "Instantly"
+msgstr ""
+
+#: CRM/Sumfields/Form/SumFields.php
+msgid ""
+"When ever the cron job is run (increases performance on large installation)"
+msgstr ""
 
 #: CRM/Sumfields/Form/SumFields.php
 msgid "When should these changes be applied?"
@@ -130,32 +149,32 @@ msgid "Total Lifetime Contributions"
 msgstr "生涯支援の合計"
 
 #: custom.php
-msgid "Total Contributions this Year"
-msgstr "今年の支援合計"
+msgid "Total Contributions this Fiscal Year"
+msgstr ""
 
 #: custom.php
 msgid "Total Contributions in the Last 12 Months"
 msgstr ""
 
 #: custom.php
-msgid "Total Deductible Contributions this Year"
-msgstr "今年の支援控除合計"
+msgid "Total Deductible Contributions this Fiscal Year"
+msgstr ""
 
 #: custom.php
-msgid "Total Contributions last Year"
-msgstr "去年の支援合計"
+msgid "Total Contributions last Fiscal Year"
+msgstr ""
 
 #: custom.php
-msgid "Total Deductible Contributions last Year"
-msgstr "去年の支援控除合計"
+msgid "Total Deductible Contributions last Fiscal Year"
+msgstr ""
 
 #: custom.php
-msgid "Total Contributions Year Before Last"
-msgstr "一昨年の支援合計"
+msgid "Total Contributions Fiscal Year Before Last"
+msgstr ""
 
 #: custom.php
-msgid "Total Deductible Contributions Year Before Last"
-msgstr "一昨年の支援控除合計"
+msgid "Total Deductible Contributions Fiscal Year Before Last"
+msgstr ""
 
 #: custom.php
 msgid "Amount of last contribution"
@@ -186,7 +205,7 @@ msgid "Total Lifetime Soft Credits"
 msgstr ""
 
 #: custom.php
-msgid "Total Soft Credits this Year"
+msgid "Total Soft Credits this Fiscal Year"
 msgstr ""
 
 #: custom.php
@@ -338,6 +357,10 @@ msgid "Status of current settings:"
 msgstr "ステータスの現在の設定 : "
 
 #: templates/CRM/Sumfields/Form/SumFields.tpl
+msgid "Data update method:"
+msgstr ""
+
+#: templates/CRM/Sumfields/Form/SumFields.tpl
 msgid "Triggers for %1:"
 msgstr ""
 
@@ -351,6 +374,21 @@ msgstr ""
 
 #: templates/CRM/Sumfields/Form/SumFields.tpl
 msgid "Field Settings"
+msgstr ""
+
+#: templates/CRM/Sumfields/Form/SumFields.tpl
+msgid ""
+"Fiscal Year can be set at <a href=\"/civicrm-"
+"master/civicrm/admin/setting/date?action=reset=1\">Administer &gt; "
+"Localization &gt; Date Formats</a>"
+msgstr ""
+
+#: templates/CRM/Sumfields/Form/SumFields.tpl
+msgid ""
+"If 'Instantly' is selected, data will be more accurate but you might face "
+"some performance issues on large installations. <br/> If 'Whenever the cron "
+"job is run' is selected, Summary Fields will rely on each CiviCRM Cron job "
+"to process all calculations needed for all contacts."
 msgstr ""
 
 #: templates/CRM/Sumfields/Form/SumFields.tpl
