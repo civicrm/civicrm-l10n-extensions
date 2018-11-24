@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2018-02-06 17:41+0000\n"
-"PO-Revision-Date: 2018-02-06 17:41+0000\n"
+"POT-Creation-Date: 2018-11-24 05:01+0000\n"
+"PO-Revision-Date: 2018-11-24 05:01+0000\n"
 "Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
 "Language-Team: Japanese (http://www.transifex.com/civicrm/civicrm_extensions/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -266,7 +266,7 @@ msgstr "ルールID"
 msgid "Name"
 msgstr "甘え"
 
-#: CRM/Civirules/Form/Rule.php
+#: CRM/Civirules/Form/Rule.php CRM/Civirules/Form/Search/Rules.php
 #: templates/CRM/Civirules/Form/RuleBlocks/ConditionBlock.tpl
 #: templates/CRM/Civirules/Page/Rule.tpl
 msgid "Description"
@@ -277,6 +277,10 @@ msgid "Help text with purpose of rule"
 msgstr ""
 
 #: CRM/Civirules/Form/Rule.php
+msgid "Civirule Tag(s)"
+msgstr ""
+
+#: CRM/Civirules/Form/Rule.php
 msgid "Enabled"
 msgstr "有効"
 
@@ -284,7 +288,8 @@ msgstr "有効"
 msgid "Created Date"
 msgstr "作成日"
 
-#: CRM/Civirules/Form/Rule.php templates/CRM/Civirules/Page/Rule.tpl
+#: CRM/Civirules/Form/Rule.php CRM/Civirules/Form/Search/Rules.php
+#: templates/CRM/Civirules/Page/Rule.tpl
 msgid "Created By"
 msgstr "作成"
 
@@ -297,43 +302,62 @@ msgid "Next"
 msgstr "次へ"
 
 #: CRM/Civirules/Form/Rule.php CRM/Civirules/Form/RuleAction.php
-#: CRM/Civirules/Form/RuleCondition.php
+#: CRM/Civirules/Form/RuleCondition.php CRM/Civirules/Form/RuleDelete.php
 #: CRM/CivirulesActions/Activity/Form/Activity.php
 #: CRM/CivirulesActions/Activity/Form/UpdateStatus.php
 #: CRM/CivirulesActions/Case/Form/SetDateField.php
 #: CRM/CivirulesActions/Case/Form/SetStatus.php
+#: CRM/CivirulesActions/Contact/Form/CommPref.php
 #: CRM/CivirulesActions/Contact/Form/Jobtitle.php
+#: CRM/CivirulesActions/Contact/Form/PrivacyOptions.php
 #: CRM/CivirulesActions/Contact/Form/Subtype.php
 #: CRM/CivirulesActions/Contribution/Form/ThankYouDate.php
 #: CRM/CivirulesActions/GroupContact/Form/GroupId.php
 #: CRM/CivirulesActions/Tag/Form/TagId.php
 #: CRM/CivirulesActions/User/Form/DisplayMessage.php
+#: CRM/CivirulesConditions/Form/Activity/Campaign.php
+#: CRM/CivirulesConditions/Form/Activity/Date.php
+#: CRM/CivirulesConditions/Form/Activity/Details.php
 #: CRM/CivirulesConditions/Form/Activity/RecordType.php
 #: CRM/CivirulesConditions/Form/Activity/Status.php
 #: CRM/CivirulesConditions/Form/Activity/Type.php
+#: CRM/CivirulesConditions/Form/Case/CaseActivity.php
 #: CRM/CivirulesConditions/Form/Case/CaseStatus.php
 #: CRM/CivirulesConditions/Form/Case/CaseType.php
+#: CRM/CivirulesConditions/Form/Contact/HasActivityInCampaign.php
+#: CRM/CivirulesConditions/Form/Contact/HasBeenInGroup.php
 #: CRM/CivirulesConditions/Form/Contact/HasPhone.php
+#: CRM/CivirulesConditions/Form/Contact/HasSubtype.php
 #: CRM/CivirulesConditions/Form/Contact/HasTag.php
 #: CRM/CivirulesConditions/Form/Contact/InGroup.php
+#: CRM/CivirulesConditions/Form/Contact/LivesInCountry.php
 #: CRM/CivirulesConditions/Form/Contribution/Campaign.php
 #: CRM/CivirulesConditions/Form/Contribution/DistinctContributingDay.php
 #: CRM/CivirulesConditions/Form/Contribution/FinancialType.php
 #: CRM/CivirulesConditions/Form/Contribution/PaidBy.php
 #: CRM/CivirulesConditions/Form/Contribution/SpecificAmount.php
 #: CRM/CivirulesConditions/Form/Contribution/Status.php
+#: CRM/CivirulesConditions/Form/Contribution/xthContribution.php
 #: CRM/CivirulesConditions/Form/ContributionRecur/Campaign.php
 #: CRM/CivirulesConditions/Form/ContributionRecur/Count.php
 #: CRM/CivirulesConditions/Form/ContributionRecur/DonorIsRecurring.php
 #: CRM/CivirulesConditions/Form/ContributionRecur/EndDate.php
+#: CRM/CivirulesConditions/Form/EntityTag/TagId.php
+#: CRM/CivirulesConditions/Form/Event/EventType.php
 #: CRM/CivirulesConditions/Form/FieldValueChangeComparison.php
+#: CRM/CivirulesConditions/Form/Group/GroupType.php
 #: CRM/CivirulesConditions/Form/GroupContact/GroupId.php
 #: CRM/CivirulesConditions/Form/Membership/ActiveMembership.php
+#: CRM/CivirulesConditions/Form/Membership/ContactHasMembership.php
 #: CRM/CivirulesConditions/Form/Membership/Status.php
 #: CRM/CivirulesConditions/Form/Membership/Type.php
+#: CRM/CivirulesConditions/Form/Participant/ParticipantRole.php
+#: CRM/CivirulesConditions/Form/Participant/ParticipantStatus.php
+#: CRM/CivirulesConditions/Form/Relationship/RelationshipType.php
 #: CRM/CivirulesConditions/Form/ValueComparison.php
 #: CRM/CivirulesCronTrigger/Form/ActivityDate.php
 #: CRM/CivirulesCronTrigger/Form/GroupMembership.php
+#: templates/CRM/Civirules/Form/RuleDelete.tpl
 msgid "Cancel"
 msgstr "キャンセル"
 
@@ -347,35 +371,53 @@ msgstr "削除"
 #: CRM/CivirulesActions/Activity/Form/UpdateStatus.php
 #: CRM/CivirulesActions/Case/Form/SetDateField.php
 #: CRM/CivirulesActions/Case/Form/SetStatus.php
+#: CRM/CivirulesActions/Contact/Form/CommPref.php
 #: CRM/CivirulesActions/Contact/Form/Jobtitle.php
+#: CRM/CivirulesActions/Contact/Form/PrivacyOptions.php
 #: CRM/CivirulesActions/Contact/Form/Subtype.php
 #: CRM/CivirulesActions/Contribution/Form/ThankYouDate.php
 #: CRM/CivirulesActions/GroupContact/Form/GroupId.php
 #: CRM/CivirulesActions/Tag/Form/TagId.php
 #: CRM/CivirulesActions/User/Form/DisplayMessage.php
+#: CRM/CivirulesConditions/Form/Activity/Campaign.php
+#: CRM/CivirulesConditions/Form/Activity/Date.php
+#: CRM/CivirulesConditions/Form/Activity/Details.php
 #: CRM/CivirulesConditions/Form/Activity/RecordType.php
 #: CRM/CivirulesConditions/Form/Activity/Status.php
 #: CRM/CivirulesConditions/Form/Activity/Type.php
+#: CRM/CivirulesConditions/Form/Case/CaseActivity.php
 #: CRM/CivirulesConditions/Form/Case/CaseStatus.php
 #: CRM/CivirulesConditions/Form/Case/CaseType.php
+#: CRM/CivirulesConditions/Form/Contact/HasActivityInCampaign.php
+#: CRM/CivirulesConditions/Form/Contact/HasBeenInGroup.php
 #: CRM/CivirulesConditions/Form/Contact/HasPhone.php
+#: CRM/CivirulesConditions/Form/Contact/HasSubtype.php
 #: CRM/CivirulesConditions/Form/Contact/HasTag.php
 #: CRM/CivirulesConditions/Form/Contact/InGroup.php
+#: CRM/CivirulesConditions/Form/Contact/LivesInCountry.php
 #: CRM/CivirulesConditions/Form/Contribution/Campaign.php
 #: CRM/CivirulesConditions/Form/Contribution/DistinctContributingDay.php
 #: CRM/CivirulesConditions/Form/Contribution/FinancialType.php
 #: CRM/CivirulesConditions/Form/Contribution/PaidBy.php
 #: CRM/CivirulesConditions/Form/Contribution/SpecificAmount.php
 #: CRM/CivirulesConditions/Form/Contribution/Status.php
+#: CRM/CivirulesConditions/Form/Contribution/xthContribution.php
 #: CRM/CivirulesConditions/Form/ContributionRecur/Campaign.php
 #: CRM/CivirulesConditions/Form/ContributionRecur/Count.php
 #: CRM/CivirulesConditions/Form/ContributionRecur/DonorIsRecurring.php
 #: CRM/CivirulesConditions/Form/ContributionRecur/EndDate.php
+#: CRM/CivirulesConditions/Form/EntityTag/TagId.php
+#: CRM/CivirulesConditions/Form/Event/EventType.php
 #: CRM/CivirulesConditions/Form/FieldValueChangeComparison.php
+#: CRM/CivirulesConditions/Form/Group/GroupType.php
 #: CRM/CivirulesConditions/Form/GroupContact/GroupId.php
 #: CRM/CivirulesConditions/Form/Membership/ActiveMembership.php
+#: CRM/CivirulesConditions/Form/Membership/ContactHasMembership.php
 #: CRM/CivirulesConditions/Form/Membership/Status.php
 #: CRM/CivirulesConditions/Form/Membership/Type.php
+#: CRM/CivirulesConditions/Form/Participant/ParticipantRole.php
+#: CRM/CivirulesConditions/Form/Participant/ParticipantStatus.php
+#: CRM/CivirulesConditions/Form/Relationship/RelationshipType.php
 #: CRM/CivirulesConditions/Form/ValueComparison.php
 #: CRM/CivirulesCronTrigger/Form/ActivityDate.php
 #: CRM/CivirulesCronTrigger/Form/GroupMembership.php
@@ -441,9 +483,96 @@ msgid ""
 "condition"
 msgstr "条件を追加していない場合は、条件を選択する必要があるのでキャンセルを押してください"
 
-#: CRM/Civirules/Form/RuleHelpText44.php
-#: CRM/Civirules/Form/RuleHelpTextWindow.php
-msgid "Help For Civirule"
+#: CRM/Civirules/Form/RuleDelete.php
+#: templates/CRM/Civirules/Form/RuleDelete.tpl
+msgid "Confirm"
+msgstr ""
+
+#: CRM/Civirules/Form/RuleDelete.php
+msgid "Rule successfully deleted from the database"
+msgstr ""
+
+#: CRM/Civirules/Form/RuleDelete.php
+msgid "Rule deleted"
+msgstr ""
+
+#: CRM/Civirules/Form/RuleDelete.php
+msgid "Delete Rule (CiviRules)"
+msgstr ""
+
+#: CRM/Civirules/Form/Search/Rules.php
+msgid "Find CiviRules Rules"
+msgstr ""
+
+#: CRM/Civirules/Form/Search/Rules.php
+msgid "Rule Label contains"
+msgstr ""
+
+#: CRM/Civirules/Form/Search/Rules.php
+#: templates/CRM/Civirules/Form/Search/RulesCriteria.tpl
+msgid "Rule Tag(s)"
+msgstr ""
+
+#: CRM/Civirules/Form/Search/Rules.php
+#: templates/CRM/Civirules/Form/Search/RulesCriteria.tpl
+msgid "Rule Trigger(s)"
+msgstr ""
+
+#: CRM/Civirules/Form/Search/Rules.php
+msgid "Only active Rules)"
+msgstr ""
+
+#: CRM/Civirules/Form/Search/Rules.php
+msgid "All Rules"
+msgstr ""
+
+#: CRM/Civirules/Form/Search/Rules.php
+msgid "Find only active Rules?"
+msgstr ""
+
+#: CRM/Civirules/Form/Search/Rules.php
+msgid "Rule Label"
+msgstr ""
+
+#: CRM/Civirules/Form/Search/Rules.php templates/CRM/Civirules/Page/Rule.tpl
+msgid "Trigger"
+msgstr "トリガー"
+
+#: CRM/Civirules/Form/Search/Rules.php
+#: CRM/CivirulesConditions/Form/EntityTag/TagId.php
+msgid "Tag(s)"
+msgstr ""
+
+#: CRM/Civirules/Form/Search/Rules.php
+msgid "Active?"
+msgstr ""
+
+#: CRM/Civirules/Form/Search/Rules.php templates/CRM/Civirules/Page/Rule.tpl
+msgid "Date Created"
+msgstr "作成日"
+
+#: CRM/Civirules/Form/Search/Rules.php
+msgid "RuleID"
+msgstr ""
+
+#: CRM/Civirules/Form/Search/Rules.php
+msgid "Help Text"
+msgstr ""
+
+#: CRM/Civirules/Form/Search/Rules.php
+msgid "Hidden Active"
+msgstr ""
+
+#: CRM/Civirules/Form/Search/Rules.php CRM/Civirules/Utils.php
+msgid "Yes"
+msgstr "はい"
+
+#: CRM/Civirules/Form/Search/Rules.php CRM/Civirules/Utils.php
+msgid "No"
+msgstr "いいえ"
+
+#: CRM/Civirules/Form/Search/Rules.php
+msgid "Found illegal '%1' string in SQL clause."
 msgstr ""
 
 #: CRM/Civirules/Page/Rule.php
@@ -454,7 +583,7 @@ msgstr "無効"
 msgid "Enable"
 msgstr "有効"
 
-#: CRM/Civirules/Page/Rule.php civirules.php
+#: CRM/Civirules/Page/Rule.php
 msgid "CiviRules"
 msgstr "CiviRules"
 
@@ -463,12 +592,8 @@ msgid "Upgrade %1 to revision %2"
 msgstr "リビジョン %2 の %1 をアップグレード"
 
 #: CRM/Civirules/Utils.php
-msgid "Yes"
-msgstr "はい"
-
-#: CRM/Civirules/Utils.php
-msgid "No"
-msgstr "いいえ"
+msgid "(no title)"
+msgstr ""
 
 #: CRM/CivirulesActions/Activity/Add.php
 msgid "Type: %1"
@@ -508,6 +633,7 @@ msgstr "-- 選択してください --"
 #: CRM/CivirulesActions/Activity/Form/Activity.php
 #: CRM/CivirulesActions/Activity/Form/UpdateStatus.php
 #: CRM/CivirulesConditions/Form/Contribution/Status.php
+#: CRM/CivirulesConditions/Form/Contribution/TotalContributedAmount.php
 msgid "Status"
 msgstr "ステータス"
 
@@ -520,7 +646,7 @@ msgid "Assigned to"
 msgstr ""
 
 #: CRM/CivirulesActions/Activity/Form/Activity.php
-msgid " - Do not set an activity date - "
+msgid " - Use system date (default) - "
 msgstr ""
 
 #: CRM/CivirulesActions/Activity/Form/Activity.php
@@ -543,8 +669,21 @@ msgstr ""
 msgid "Set case status to: %1"
 msgstr ""
 
+#: CRM/CivirulesActions/Contact/Form/CommPref.php
+#: CRM/CivirulesActions/Contact/Form/PrivacyOptions.php
+msgid "Switch On or Off"
+msgstr ""
+
+#: CRM/CivirulesActions/Contact/Form/CommPref.php
+msgid "Communication Preference(s)"
+msgstr ""
+
 #: CRM/CivirulesActions/Contact/Form/Jobtitle.php
 msgid "Job title"
+msgstr ""
+
+#: CRM/CivirulesActions/Contact/Form/PrivacyOptions.php
+msgid "Privacy Option(s)"
 msgstr ""
 
 #: CRM/CivirulesActions/Contact/Form/Subtype.php
@@ -585,8 +724,26 @@ msgstr "<< 削除"
 msgid "You have to select at least one subtype"
 msgstr "少なくとも 1 つのサブタイプを選択する必要があります"
 
+#: CRM/CivirulesActions/Contact/SetCommPref.php
+msgid "Communication Preference(s) "
+msgstr ""
+
+#: CRM/CivirulesActions/Contact/SetCommPref.php
+#: CRM/CivirulesActions/Contact/SetPrivacyOptions.php
+msgid "switched"
+msgstr ""
+
+#: CRM/CivirulesActions/Contact/SetCommPref.php
+#: CRM/CivirulesActions/Contact/SetPrivacyOptions.php
+msgid "ON"
+msgstr ""
+
 #: CRM/CivirulesActions/Contact/SetJobTitle.php
 msgid "Set job title to %1"
+msgstr ""
+
+#: CRM/CivirulesActions/Contact/SetPrivacyOptions.php
+msgid "Privacy option(s) "
 msgstr ""
 
 #: CRM/CivirulesActions/Contact/Subtype.php
@@ -677,9 +834,26 @@ msgstr ""
 msgid "Type of message: "
 msgstr ""
 
+#: CRM/CivirulesConditions/Activity/Date.php
+msgid "Activity Date "
+msgstr ""
+
+#: CRM/CivirulesConditions/Activity/Date.php
+#: CRM/CivirulesConditions/Contact/HasPhone.php
+msgid " and "
+msgstr ""
+
 #: CRM/CivirulesConditions/Activity/RecordType.php
 msgid "For all %1"
 msgstr "%1 すべて"
+
+#: CRM/CivirulesConditions/Contact/HasActivityInCampaign.php
+msgid "has activities of type(s)"
+msgstr ""
+
+#: CRM/CivirulesConditions/Contact/HasActivityInCampaign.php
+msgid " in campaign(s)"
+msgstr ""
 
 #: CRM/CivirulesConditions/Contact/HasPhone.php
 msgid "Any phone type"
@@ -697,29 +871,33 @@ msgstr ""
 msgid "Location is %1"
 msgstr ""
 
-#: CRM/CivirulesConditions/Contact/HasPhone.php
-msgid " and "
-msgstr ""
-
+#: CRM/CivirulesConditions/Contact/HasSubtype.php
 #: CRM/CivirulesConditions/Contact/HasTag.php
 #: CRM/CivirulesConditions/Contact/InGroup.php
 msgid "unknown"
 msgstr "不明"
 
+#: CRM/CivirulesConditions/Contact/HasSubtype.php
 #: CRM/CivirulesConditions/Contact/HasTag.php
 #: CRM/CivirulesConditions/Contact/InGroup.php
 msgid "In one of selected"
 msgstr "選択したうちの一つ"
 
+#: CRM/CivirulesConditions/Contact/HasSubtype.php
 #: CRM/CivirulesConditions/Contact/HasTag.php
 #: CRM/CivirulesConditions/Contact/InGroup.php
 msgid "In all selected"
 msgstr "選択したものすべて"
 
+#: CRM/CivirulesConditions/Contact/HasSubtype.php
 #: CRM/CivirulesConditions/Contact/HasTag.php
 #: CRM/CivirulesConditions/Contact/InGroup.php
 msgid "Not in selected"
 msgstr "選択してないもの"
+
+#: CRM/CivirulesConditions/Contact/LivesInCountry.php
+msgid "lives in one of"
+msgstr ""
 
 #: CRM/CivirulesConditions/Contribution/LastContribution.php
 msgid "Last contribution is n days ago"
@@ -745,18 +923,52 @@ msgstr "最後の支援は n 日前以上、または n 日前です"
 msgid "Last contribution is less than n days ago or is n days ago"
 msgstr "最後の支援は n 日前以下、または n 日前です"
 
+#: CRM/CivirulesConditions/Contribution/PaidBy.php
+msgid "Could not find payment_instruments in "
+msgstr ""
+
+#: CRM/CivirulesConditions/Contribution/PaidBy.php
+msgid ", error from API OptionValue get: "
+msgstr ""
+
 #: CRM/CivirulesConditions/Contribution/TotalContributedAmount.php
 msgid "Total amount"
 msgstr "合計金額"
 
-#: CRM/CivirulesConditions/Form/Activity/Status.php
-msgid "Activity status(es)"
+#: CRM/CivirulesConditions/Contribution/xthContribution.php
+msgid "Unexpected error from API Contribution getcount in "
 msgstr ""
 
+#: CRM/CivirulesConditions/Contribution/xthContribution.php
+msgid ", error message: "
+msgstr ""
+
+#: CRM/CivirulesConditions/Contribution/xthContribution.php
+msgid "Number of contributions of financial type "
+msgstr ""
+
+#: CRM/CivirulesConditions/EntityTag/TagId.php
+msgid "Tag for Contact is one of selected: "
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Activity/Campaign.php
+#: CRM/CivirulesConditions/Form/Contact/HasActivityInCampaign.php
+#: CRM/CivirulesConditions/Form/Contribution/Campaign.php
+#: CRM/CivirulesConditions/Form/ContributionRecur/Campaign.php
+#: templates/CRM/CivirulesConditions/Form/Contribution/Campaign.tpl
+#: templates/CRM/CivirulesConditions/Form/ContributionRecur/Campaign.tpl
+msgid "Campaign(s)"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Activity/Campaign.php
+#: CRM/CivirulesConditions/Form/Activity/Date.php
+#: CRM/CivirulesConditions/Form/Activity/Details.php
 #: CRM/CivirulesConditions/Form/Activity/Status.php
 #: CRM/CivirulesConditions/Form/Activity/Type.php
 #: CRM/CivirulesConditions/Form/Case/CaseStatus.php
 #: CRM/CivirulesConditions/Form/Case/CaseType.php
+#: CRM/CivirulesConditions/Form/Contact/HasBeenInGroup.php
+#: CRM/CivirulesConditions/Form/Contact/HasSubtype.php
 #: CRM/CivirulesConditions/Form/Contact/HasTag.php
 #: CRM/CivirulesConditions/Form/Contact/InGroup.php
 #: CRM/CivirulesConditions/Form/Contribution/Campaign.php
@@ -764,18 +976,74 @@ msgstr ""
 #: CRM/CivirulesConditions/Form/Contribution/FinancialType.php
 #: CRM/CivirulesConditions/Form/Contribution/PaidBy.php
 #: CRM/CivirulesConditions/Form/Contribution/SpecificAmount.php
+#: CRM/CivirulesConditions/Form/Contribution/xthContribution.php
 #: CRM/CivirulesConditions/Form/ContributionRecur/Campaign.php
 #: CRM/CivirulesConditions/Form/ContributionRecur/Count.php
+#: CRM/CivirulesConditions/Form/Event/EventType.php
 #: CRM/CivirulesConditions/Form/FieldValueChangeComparison.php
+#: CRM/CivirulesConditions/Form/Group/GroupType.php
+#: CRM/CivirulesConditions/Form/Membership/ContactHasMembership.php
 #: CRM/CivirulesConditions/Form/Membership/Status.php
 #: CRM/CivirulesConditions/Form/Membership/Type.php
+#: CRM/CivirulesConditions/Form/Participant/ParticipantRole.php
+#: CRM/CivirulesConditions/Form/Participant/ParticipantStatus.php
+#: CRM/CivirulesConditions/Form/Relationship/RelationshipType.php
 #: CRM/CivirulesConditions/Form/ValueComparison.php
 msgid "Operator"
 msgstr "演算子"
 
+#: CRM/CivirulesConditions/Form/Activity/Date.php
+msgid "Comparison Date"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Activity/Date.php
+msgid "Compare with"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Activity/Date.php
+msgid "From date"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Activity/Date.php
+msgid "From"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Activity/Date.php
+msgid "To date"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Activity/Date.php
+msgid "To"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Activity/Date.php
+msgid "From and To Date are required  and can not be empty when using Between"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Activity/Date.php
+msgid "From Date should be earlier than or the same as To Date"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Activity/Date.php
+msgid "Date to compare with can not be empty"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Activity/Details.php
+msgid "Text to match"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Activity/Status.php
+msgid "Activity status(es)"
+msgstr ""
+
 #: CRM/CivirulesConditions/Form/Activity/Type.php
+#: CRM/CivirulesConditions/Form/Contact/HasActivityInCampaign.php
 #: templates/CRM/CivirulesConditions/Form/Activity/Type.tpl
 msgid "Activity Type(s)"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Case/CaseActivity.php
+msgid "Number of days"
 msgstr ""
 
 #: CRM/CivirulesConditions/Form/Case/CaseStatus.php
@@ -783,14 +1051,21 @@ msgid "Case Status(es)"
 msgstr ""
 
 #: CRM/CivirulesConditions/Form/Case/CaseType.php
+#: CRM/CivirulesConditions/Form/Group/GroupType.php
 #: CRM/CivirulesConditions/Form/Membership/ActiveMembership.php
 #: CRM/CivirulesConditions/Form/Membership/Status.php
 #: CRM/CivirulesConditions/Form/Membership/Type.php
+#: CRM/CivirulesConditions/Form/Relationship/RelationshipType.php
 msgid "- select -"
 msgstr "- 選択 -"
 
 #: CRM/CivirulesConditions/Form/Case/CaseType.php
 msgid "Case Type(s)"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Contact/HasBeenInGroup.php
+#: templates/CRM/CivirulesConditions/Form/Contact/HasBeenInGroup.tpl
+msgid "Group(s)"
 msgstr ""
 
 #: CRM/CivirulesConditions/Form/Contact/HasPhone.php
@@ -809,11 +1084,24 @@ msgstr ""
 msgid "Phone type"
 msgstr ""
 
-#: CRM/CivirulesConditions/Form/Contribution/Campaign.php
-#: CRM/CivirulesConditions/Form/ContributionRecur/Campaign.php
-#: templates/CRM/CivirulesConditions/Form/Contribution/Campaign.tpl
-#: templates/CRM/CivirulesConditions/Form/ContributionRecur/Campaign.tpl
-msgid "Campaign(s)"
+#: CRM/CivirulesConditions/Form/Contact/HasSubtype.php
+msgid "Subtypes"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Contact/LivesInCountry.php
+msgid "Country"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Contact/LivesInCountry.php
+msgid "Location Type of the Address to Test"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Contact/LivesInCountry.php
+msgid "Use CiviCRM Default Country if Contact has no Address"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Contact/LivesInCountry.php
+msgid "Use CiviCRM Default Country if Address has no Country"
 msgstr ""
 
 #: CRM/CivirulesConditions/Form/Contribution/DistinctContributingDay.php
@@ -826,8 +1114,8 @@ msgid "Financial Type(s)"
 msgstr ""
 
 #: CRM/CivirulesConditions/Form/Contribution/PaidBy.php
-msgid "Payment instrument"
-msgstr "支払い手段"
+msgid "Payment Method"
+msgstr ""
 
 #: CRM/CivirulesConditions/Form/Contribution/SpecificAmount.php
 msgid " - any -"
@@ -842,12 +1130,26 @@ msgid "where Operator"
 msgstr "演算子"
 
 #: CRM/CivirulesConditions/Form/Contribution/SpecificAmount.php
+#: CRM/CivirulesConditions/Form/Contribution/xthContribution.php
 msgid "of Financial Type(s)"
 msgstr ""
 
 #: CRM/CivirulesConditions/Form/Contribution/SpecificAmount.php
+#: CRM/CivirulesConditions/Form/Contribution/xthContribution.php
 msgid "Number of Contributions"
 msgstr "支援の数"
+
+#: CRM/CivirulesConditions/Form/Contribution/TotalContributedAmount.php
+msgid "Financial type"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Contribution/TotalContributedAmount.php
+msgid "Payment instrument"
+msgstr "支払い手段"
+
+#: CRM/CivirulesConditions/Form/Contribution/xthContribution.php
+msgid "Comparing value 0 with anything but greater than makes no sense"
+msgstr ""
 
 #: CRM/CivirulesConditions/Form/ContributionRecur/Count.php
 msgid "Number of Recurring Contribution Collections"
@@ -860,6 +1162,11 @@ msgstr "寄贈者は定期的な支援をしていますか？"
 #: CRM/CivirulesConditions/Form/ContributionRecur/EndDate.php
 msgid "End Date is"
 msgstr "終了日"
+
+#: CRM/CivirulesConditions/Form/Event/EventType.php
+#: templates/CRM/CivirulesConditions/Form/Event/EventType.tpl
+msgid "Event Type(s)"
+msgstr ""
 
 #: CRM/CivirulesConditions/Form/FieldValueChangeComparison.php
 #: CRM/CivirulesConditions/Form/ValueComparison.php
@@ -888,14 +1195,32 @@ msgstr "エンティティを空にできませんでした"
 msgid "Field is not valid"
 msgstr "フィールドが有効ではありません"
 
+#: CRM/CivirulesConditions/Form/Group/GroupType.php
+msgid "Group Type(s)"
+msgstr ""
+
 #: CRM/CivirulesConditions/Form/Membership/ActiveMembership.php
+#: CRM/CivirulesConditions/Form/Membership/ContactHasMembership.php
 #: CRM/CivirulesConditions/Form/Membership/Type.php
 msgid "Membership Type"
 msgstr "会員タイプ"
 
+#: CRM/CivirulesConditions/Form/Membership/ContactHasMembership.php
 #: CRM/CivirulesConditions/Form/Membership/Status.php
 msgid "Membership Status"
 msgstr "会員ステータス"
+
+#: CRM/CivirulesConditions/Form/Participant/ParticipantRole.php
+msgid "Participant Role(s)"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Participant/ParticipantStatus.php
+msgid "Participant Status(es)"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Relationship/RelationshipType.php
+msgid "Relationship Type(s)"
+msgstr ""
 
 #: CRM/CivirulesConditions/Generic/FieldValueChangeComparison.php
 msgid "Old value  "
@@ -942,10 +1267,12 @@ msgid "Is not empty"
 msgstr ""
 
 #: CRM/CivirulesConditions/Generic/ValueComparison.php
+#: CRM/CivirulesConditions/Membership/ContactHasMembership.php
 msgid "Is one of"
 msgstr "一つです"
 
 #: CRM/CivirulesConditions/Generic/ValueComparison.php
+#: CRM/CivirulesConditions/Membership/ContactHasMembership.php
 msgid "Is not one of"
 msgstr "一つではありません"
 
@@ -968,6 +1295,14 @@ msgstr "すべてを含まない"
 #: CRM/CivirulesConditions/GroupContact/GroupId.php
 msgid "Group is %1"
 msgstr "%1 のグループ"
+
+#: CRM/CivirulesConditions/Membership/ContactHasMembership.php
+msgid "Membership type %1 %2"
+msgstr ""
+
+#: CRM/CivirulesConditions/Membership/ContactHasMembership.php
+msgid "Membership status %1 %2"
+msgstr ""
 
 #: CRM/CivirulesConditions/Utils/Period.php
 msgid "This month"
@@ -1062,10 +1397,12 @@ msgid "Activity Status"
 msgstr ""
 
 #: CRM/CivirulesCronTrigger/GroupMembership.php
+#: CRM/CivirulesCronTrigger/HasTag.php
 msgid "Unknown"
 msgstr "不明"
 
 #: CRM/CivirulesCronTrigger/GroupMembership.php
+#: CRM/CivirulesCronTrigger/HasTag.php
 msgid "Daily trigger for all members of group %1"
 msgstr "グループ %1 すべてのメンバーのデイリートリガー"
 
@@ -1086,6 +1423,22 @@ msgid ""
 "There is already a trigger for this class_name or combination of object_name"
 " and op"
 msgstr "object_name と OP のこの class_name またはそれら組み合わせのトリガーが既に存在します"
+
+#: civirules.php
+msgid "Find Rules"
+msgstr ""
+
+#: civirules.php
+msgid "New Rule"
+msgstr ""
+
+#: civirules.php
+msgid "CiviRule Tags"
+msgstr ""
+
+#: civirules.php
+msgid "CiviRules Tags"
+msgstr ""
 
 #: templates/CRM/Civirules/Delay/XWeekDay.tpl
 msgid "on"
@@ -1119,9 +1472,40 @@ msgstr "条件"
 msgid "Edit trigger parameters"
 msgstr "トリガーパラメータの編集"
 
-#: templates/CRM/Civirules/Form/RuleHelpText44.tpl
-#: templates/CRM/Civirules/Form/RuleHelpTextWindow.tpl
-msgid "Done"
+#: templates/CRM/Civirules/Form/RuleDelete.tpl
+msgid "Are you sure you want to delete the rule with label"
+msgstr ""
+
+#: templates/CRM/Civirules/Form/RuleDelete.tpl
+msgid "from the database? The associated CiviRules logs will also be deleted."
+msgstr ""
+
+#: templates/CRM/Civirules/Form/RuleDelete.tpl
+msgid "If you would like to keep the CiviRules logs, press"
+msgstr ""
+
+#: templates/CRM/Civirules/Form/RuleDelete.tpl
+msgid "and disable the Rule instead."
+msgstr ""
+
+#: templates/CRM/Civirules/Form/RuleDelete.tpl
+msgid "Press"
+msgstr ""
+
+#: templates/CRM/Civirules/Form/RuleDelete.tpl
+msgid "to really delete the rule from the database completely."
+msgstr ""
+
+#: templates/CRM/Civirules/Form/Search/Rules.tpl
+msgid "Search results listings."
+msgstr ""
+
+#: templates/CRM/Civirules/Form/Search/RulesCriteria.tpl
+msgid "Edit Search Criteria for CiviRules Rules(s)"
+msgstr ""
+
+#: templates/CRM/Civirules/Form/Search/RulesCriteria.tpl
+msgid "Rule Label contains(s)"
 msgstr ""
 
 #: templates/CRM/Civirules/Page/Rule.tpl
@@ -1129,20 +1513,40 @@ msgid "Add CiviRule"
 msgstr "CiviRule の追加"
 
 #: templates/CRM/Civirules/Page/Rule.tpl
-msgid "Trigger"
-msgstr "トリガー"
-
-#: templates/CRM/Civirules/Page/Rule.tpl
 msgid "Active"
 msgstr "アクティブ"
-
-#: templates/CRM/Civirules/Page/Rule.tpl
-msgid "Date Created"
-msgstr "作成日"
 
 #: templates/CRM/CivirulesActions/Activity/Form/Activity.tpl
 msgid "Assignee"
 msgstr "譲受人"
+
+#: templates/CRM/CivirulesConditions/Form/Contact/LivesInCountry.tpl
+msgid ""
+"\n"
+"      <p>On this form you can determine how to check if the contact lives in a country.</p>\n"
+"      <p>Default behaviour is to check if the country of the <strong>primary</strong> address of the contact in question is correct. If a contact has no address or the country of the address is empty, it is assumed the contact lives in the country that you have specified as the default CiviCRM country (check <strong>Administer>Localization>Languages, Currencies, Locations</strong>).</p>\n"
+"      <p>You can deviate from this behaviour by specifying a <strong>specific</strong> location type of which the country should be checked</p>\n"
+"      <p>You can also tick boxes which determine what will be done if:\n"
+"        <ol>\n"
+"          <li>there is no address of the contact</li>\n"
+"          <li>there is no country in the address of the contact</li>\n"
+"        </ol>\n"
+"      </p>\n"
+"      <p>In this form you can also specify which country or countries the contact should live in for the condition to be true.</p>\n"
+"    "
+msgstr ""
+
+#: templates/CRM/CivirulesConditions/Form/Contribution/TotalContributedAmount.tpl
+msgid "If you dont select any then it means of any financial type"
+msgstr ""
+
+#: templates/CRM/CivirulesConditions/Form/Contribution/TotalContributedAmount.tpl
+msgid "If you dont select any then it means of any payment instrument"
+msgstr ""
+
+#: templates/CRM/CivirulesConditions/Form/Contribution/TotalContributedAmount.tpl
+msgid "If you dont select any then it means of any contribution status"
+msgstr ""
 
 #: templates/CRM/CivirulesConditions/Form/FieldValueChangeComparison.tpl
 msgid "Original value"
