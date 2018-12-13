@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2018-02-06 17:34+0000\n"
-"PO-Revision-Date: 2018-02-06 17:34+0000\n"
+"POT-Creation-Date: 2018-12-13 05:01+0000\n"
+"PO-Revision-Date: 2018-12-13 05:01+0000\n"
 "Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
 "Language-Team: Dutch (http://www.transifex.com/civicrm/civicrm_extensions/language/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -189,7 +189,7 @@ msgstr "is onbeperkt?"
 msgid "Resource configuration set"
 msgstr "Geheel van configuratie middelen"
 
-#: CRM/Admin/Form/Resource.php booking.php
+#: CRM/Admin/Form/Resource.php CRM/Booking/Upgrader.php
 msgid "Resource Location"
 msgstr ""
 
@@ -357,8 +357,8 @@ msgstr "Verwijderen geheel configuratie middelen"
 msgid "PO Number"
 msgstr "Nummer bestelbon"
 
-#: CRM/Booking/BAO/Booking.php CRM/Booking/Selector/Search.php booking.php
-#: templates/CRM/Booking/Page/AssociatedBooking.tpl
+#: CRM/Booking/BAO/Booking.php CRM/Booking/Selector/Search.php
+#: CRM/Booking/Upgrader.php templates/CRM/Booking/Page/AssociatedBooking.tpl
 msgid "Booking Status"
 msgstr "Reservatiestatus"
 
@@ -394,7 +394,7 @@ msgstr "Zoekveld %1 wordt niet herkend."
 msgid "Purchase Order Number"
 msgstr "Ordernummer betaling"
 
-#: CRM/Booking/BAO/Query.php booking.php
+#: CRM/Booking/BAO/Query.php CRM/Booking/Upgrader.php
 msgid "Resource Type"
 msgstr "Soort middelen"
 
@@ -641,7 +641,7 @@ msgid "Edit Booking"
 msgstr "Pas reservatie aan"
 
 #: CRM/Booking/Form/AddSubResource.php CRM/Booking/Form/Booking/Info.php
-#: CRM/Booking/Form/SelectResource.php booking.php
+#: CRM/Booking/Form/SelectResource.php CRM/Booking/Upgrader.php
 msgid "New Booking"
 msgstr "Nieuwe reservatie"
 
@@ -946,7 +946,7 @@ msgstr "Verzenden"
 msgid "Search"
 msgstr "Zoeken"
 
-#: CRM/Booking/Form/Search.php booking.php
+#: CRM/Booking/Form/Search.php CRM/Booking/Upgrader.php
 msgid "Find Bookings"
 msgstr "Reservaties opzoeken"
 
@@ -966,8 +966,8 @@ msgstr "Reservaties afdrukken"
 msgid "DayViewPrint"
 msgstr "AfdrukkenDagOverzicht"
 
-#: CRM/Booking/Page/Tab.php CRM/Booking/Selector/Search.php booking.php
-#: templates/CRM/Booking/Form/Booking/View.tpl
+#: CRM/Booking/Page/Tab.php CRM/Booking/Selector/Search.php
+#: CRM/Booking/Upgrader.php templates/CRM/Booking/Form/Booking/View.tpl
 msgid "Booking"
 msgstr "Reservatie"
 
@@ -1036,35 +1036,35 @@ msgstr "Reservatie - bewijs ontvangst"
 msgid "Booking Status:"
 msgstr "Status reservatie:"
 
-#: booking.php
+#: CRM/Booking/Upgrader.php booking.php
 msgid "CiviBooking"
 msgstr "Reservaties"
 
-#: booking.php
+#: CRM/Booking/Upgrader.php
 msgid "Resource Configuration Set"
 msgstr "Geheel configuratie middelen"
 
-#: booking.php
+#: CRM/Booking/Upgrader.php
 msgid "Manage Resources"
 msgstr "Beheer middelen"
 
-#: booking.php
+#: CRM/Booking/Upgrader.php
 msgid "Additional Charges Item"
 msgstr "Onderdeel met bijkomende kosten"
 
-#: booking.php
+#: CRM/Booking/Upgrader.php
 msgid "Size Unit"
 msgstr "Grootte-eenheid"
 
-#: booking.php
+#: CRM/Booking/Upgrader.php
 msgid "Cancellation Charges"
 msgstr "Annuleringskost"
 
-#: booking.php
+#: CRM/Booking/Upgrader.php
 msgid "Booking Component Settings"
 msgstr "Parameters onderdelen reservatie"
 
-#: booking.php
+#: CRM/Booking/Upgrader.php
 msgid "Day View"
 msgstr "Dagschema"
 
@@ -1127,6 +1127,11 @@ msgstr ""
 #: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource-modal.tpl
 msgid "select configuration"
 msgstr "Kies configuratie"
+
+#: js/booking/add-sub-resource/view.js js/booking/booking-info/view.js
+#: templates/CRM/Booking/Form/SelectResource.js
+msgid "uk.co.compucorp.civicrm.booking"
+msgstr ""
 
 #: js/booking/booking-info/view.js
 msgid "%1 has been created."
