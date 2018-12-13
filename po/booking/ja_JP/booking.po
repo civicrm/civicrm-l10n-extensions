@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2018-02-06 17:34+0000\n"
-"PO-Revision-Date: 2018-02-06 17:34+0000\n"
+"POT-Creation-Date: 2018-12-13 05:01+0000\n"
+"PO-Revision-Date: 2018-12-13 05:01+0000\n"
 "Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
 "Language-Team: Japanese (http://www.transifex.com/civicrm/civicrm_extensions/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -188,7 +188,7 @@ msgstr "無制限ですか？"
 msgid "Resource configuration set"
 msgstr "リソース構成セット"
 
-#: CRM/Admin/Form/Resource.php booking.php
+#: CRM/Admin/Form/Resource.php CRM/Booking/Upgrader.php
 msgid "Resource Location"
 msgstr "リソースロケーション"
 
@@ -356,8 +356,8 @@ msgstr "リソースの構成セットを削除"
 msgid "PO Number"
 msgstr "PO 番号"
 
-#: CRM/Booking/BAO/Booking.php CRM/Booking/Selector/Search.php booking.php
-#: templates/CRM/Booking/Page/AssociatedBooking.tpl
+#: CRM/Booking/BAO/Booking.php CRM/Booking/Selector/Search.php
+#: CRM/Booking/Upgrader.php templates/CRM/Booking/Page/AssociatedBooking.tpl
 msgid "Booking Status"
 msgstr "予約ステータス"
 
@@ -393,7 +393,7 @@ msgstr "検索フィールドを認識しません : %1"
 msgid "Purchase Order Number"
 msgstr "購入のオーダー番号"
 
-#: CRM/Booking/BAO/Query.php booking.php
+#: CRM/Booking/BAO/Query.php CRM/Booking/Upgrader.php
 msgid "Resource Type"
 msgstr "リソースタイプ"
 
@@ -640,7 +640,7 @@ msgid "Edit Booking"
 msgstr "予約を編集"
 
 #: CRM/Booking/Form/AddSubResource.php CRM/Booking/Form/Booking/Info.php
-#: CRM/Booking/Form/SelectResource.php booking.php
+#: CRM/Booking/Form/SelectResource.php CRM/Booking/Upgrader.php
 msgid "New Booking"
 msgstr "新しい予約"
 
@@ -945,7 +945,7 @@ msgstr "GO"
 msgid "Search"
 msgstr "検索"
 
-#: CRM/Booking/Form/Search.php booking.php
+#: CRM/Booking/Form/Search.php CRM/Booking/Upgrader.php
 msgid "Find Bookings"
 msgstr "予約を検索"
 
@@ -965,8 +965,8 @@ msgstr "予約を印刷"
 msgid "DayViewPrint"
 msgstr "DayViewPrint"
 
-#: CRM/Booking/Page/Tab.php CRM/Booking/Selector/Search.php booking.php
-#: templates/CRM/Booking/Form/Booking/View.tpl
+#: CRM/Booking/Page/Tab.php CRM/Booking/Selector/Search.php
+#: CRM/Booking/Upgrader.php templates/CRM/Booking/Form/Booking/View.tpl
 msgid "Booking"
 msgstr "予約"
 
@@ -1035,35 +1035,35 @@ msgstr "予約 - 確認受領書"
 msgid "Booking Status:"
 msgstr "予約ステータス : "
 
-#: booking.php
+#: CRM/Booking/Upgrader.php booking.php
 msgid "CiviBooking"
 msgstr "CiviBooking"
 
-#: booking.php
+#: CRM/Booking/Upgrader.php
 msgid "Resource Configuration Set"
 msgstr "リソース構成セット"
 
-#: booking.php
+#: CRM/Booking/Upgrader.php
 msgid "Manage Resources"
 msgstr "リソースの管理"
 
-#: booking.php
+#: CRM/Booking/Upgrader.php
 msgid "Additional Charges Item"
 msgstr "追加料金の項目"
 
-#: booking.php
+#: CRM/Booking/Upgrader.php
 msgid "Size Unit"
 msgstr "サイズ単位"
 
-#: booking.php
+#: CRM/Booking/Upgrader.php
 msgid "Cancellation Charges"
 msgstr "解約料"
 
-#: booking.php
+#: CRM/Booking/Upgrader.php
 msgid "Booking Component Settings"
 msgstr "予約コンポーネントの設定"
 
-#: booking.php
+#: CRM/Booking/Upgrader.php
 msgid "Day View"
 msgstr "日付を表示"
 
@@ -1126,6 +1126,11 @@ msgstr ""
 #: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource-modal.tpl
 msgid "select configuration"
 msgstr "構成を選択"
+
+#: js/booking/add-sub-resource/view.js js/booking/booking-info/view.js
+#: templates/CRM/Booking/Form/SelectResource.js
+msgid "uk.co.compucorp.civicrm.booking"
+msgstr ""
 
 #: js/booking/booking-info/view.js
 msgid "%1 has been created."
