@@ -6,15 +6,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2018-02-06 17:34+0000\n"
-"PO-Revision-Date: 2018-02-06 17:34+0000\n"
+"POT-Creation-Date: 2018-12-13 05:01+0000\n"
+"PO-Revision-Date: 2018-12-13 05:01+0000\n"
 "Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
 "Language-Team: Hebrew (http://www.transifex.com/civicrm/civicrm_extensions/language/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: he\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
 
 #: CRM/Admin/Form/AdhocChargesItem.php
 msgid "Settings - Additional Charges Item"
@@ -187,7 +187,7 @@ msgstr ""
 msgid "Resource configuration set"
 msgstr ""
 
-#: CRM/Admin/Form/Resource.php booking.php
+#: CRM/Admin/Form/Resource.php CRM/Booking/Upgrader.php
 msgid "Resource Location"
 msgstr ""
 
@@ -355,8 +355,8 @@ msgstr ""
 msgid "PO Number"
 msgstr ""
 
-#: CRM/Booking/BAO/Booking.php CRM/Booking/Selector/Search.php booking.php
-#: templates/CRM/Booking/Page/AssociatedBooking.tpl
+#: CRM/Booking/BAO/Booking.php CRM/Booking/Selector/Search.php
+#: CRM/Booking/Upgrader.php templates/CRM/Booking/Page/AssociatedBooking.tpl
 msgid "Booking Status"
 msgstr ""
 
@@ -392,7 +392,7 @@ msgstr ""
 msgid "Purchase Order Number"
 msgstr ""
 
-#: CRM/Booking/BAO/Query.php booking.php
+#: CRM/Booking/BAO/Query.php CRM/Booking/Upgrader.php
 msgid "Resource Type"
 msgstr ""
 
@@ -639,7 +639,7 @@ msgid "Edit Booking"
 msgstr ""
 
 #: CRM/Booking/Form/AddSubResource.php CRM/Booking/Form/Booking/Info.php
-#: CRM/Booking/Form/SelectResource.php booking.php
+#: CRM/Booking/Form/SelectResource.php CRM/Booking/Upgrader.php
 msgid "New Booking"
 msgstr ""
 
@@ -944,7 +944,7 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
-#: CRM/Booking/Form/Search.php booking.php
+#: CRM/Booking/Form/Search.php CRM/Booking/Upgrader.php
 msgid "Find Bookings"
 msgstr ""
 
@@ -964,8 +964,8 @@ msgstr ""
 msgid "DayViewPrint"
 msgstr ""
 
-#: CRM/Booking/Page/Tab.php CRM/Booking/Selector/Search.php booking.php
-#: templates/CRM/Booking/Form/Booking/View.tpl
+#: CRM/Booking/Page/Tab.php CRM/Booking/Selector/Search.php
+#: CRM/Booking/Upgrader.php templates/CRM/Booking/Form/Booking/View.tpl
 msgid "Booking"
 msgstr ""
 
@@ -1034,35 +1034,35 @@ msgstr ""
 msgid "Booking Status:"
 msgstr ""
 
-#: booking.php
+#: CRM/Booking/Upgrader.php booking.php
 msgid "CiviBooking"
 msgstr ""
 
-#: booking.php
+#: CRM/Booking/Upgrader.php
 msgid "Resource Configuration Set"
 msgstr ""
 
-#: booking.php
+#: CRM/Booking/Upgrader.php
 msgid "Manage Resources"
 msgstr ""
 
-#: booking.php
+#: CRM/Booking/Upgrader.php
 msgid "Additional Charges Item"
 msgstr ""
 
-#: booking.php
+#: CRM/Booking/Upgrader.php
 msgid "Size Unit"
 msgstr ""
 
-#: booking.php
+#: CRM/Booking/Upgrader.php
 msgid "Cancellation Charges"
 msgstr ""
 
-#: booking.php
+#: CRM/Booking/Upgrader.php
 msgid "Booking Component Settings"
 msgstr ""
 
-#: booking.php
+#: CRM/Booking/Upgrader.php
 msgid "Day View"
 msgstr ""
 
@@ -1124,6 +1124,11 @@ msgstr ""
 #: templates/CRM/Booking/Form/SelectResource.js
 #: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource-modal.tpl
 msgid "select configuration"
+msgstr ""
+
+#: js/booking/add-sub-resource/view.js js/booking/booking-info/view.js
+#: templates/CRM/Booking/Form/SelectResource.js
+msgid "uk.co.compucorp.civicrm.booking"
 msgstr ""
 
 #: js/booking/booking-info/view.js
