@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2018-11-15 19:42+0000\n"
-"PO-Revision-Date: 2018-11-15 19:42+0000\n"
+"POT-Creation-Date: 2018-12-14 23:42+0000\n"
+"PO-Revision-Date: 2018-12-14 23:43+0000\n"
 "Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
 "Language-Team: Russian (http://www.transifex.com/civicrm/civicrm_extensions/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -62,15 +62,13 @@ msgid ""
 msgstr ""
 
 #: CRM/Core/Payment/Stripe.php
-msgid "No email address found.  Please report this issue."
+msgid "Backend Stripe contribution"
 msgstr ""
 
 #: CRM/Core/Payment/Stripe.php
-msgid "There was an error saving new customer within Stripe.  Is Stripe down?"
-msgstr ""
-
-#: CRM/Core/Payment/Stripe.php
-msgid "Backend contribution"
+msgid ""
+"The recurring contribution cannot be cancelled (No reference (trxn_id) "
+"found)."
 msgstr ""
 
 #: CRM/Stripe/Upgrader/Base.php
@@ -119,4 +117,32 @@ msgstr ""
 
 #: api/v3/Stripe/Populatelog.php
 msgid "The id of the payment processor."
+msgstr ""
+
+#: api/v3/StripeCustomer.php api/v3/StripeSubscription.php
+msgid "Stripe Customer ID"
+msgstr ""
+
+#: api/v3/StripeCustomer.php
+msgid "CiviCRM Contact ID"
+msgstr ""
+
+#: api/v3/StripeCustomer.php api/v3/StripeSubscription.php
+msgid "Is live processor"
+msgstr ""
+
+#: api/v3/StripeCustomer.php api/v3/StripeSubscription.php
+msgid "Payment Processor ID"
+msgstr ""
+
+#: api/v3/StripeSubscription.php
+msgid "Stripe Subscription ID"
+msgstr ""
+
+#: api/v3/StripeSubscription.php
+msgid "Contribution Recur ID"
+msgstr ""
+
+#: api/v3/StripeSubscription.php
+msgid "End Time"
 msgstr ""
