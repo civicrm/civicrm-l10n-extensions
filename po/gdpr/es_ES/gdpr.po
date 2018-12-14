@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gdpr\n"
-"POT-Creation-Date: 2018-11-15 19:51+0000\n"
+"POT-Creation-Date: 2018-12-14 23:43+0000\n"
 "Last-Translator: ixiam <info@ixiam.com>, 2018\n"
 "Language-Team: Spanish (https://www.transifex.com/civicrm/teams/1460/es/)\n"
 "MIME-Version: 1.0\n"
@@ -59,12 +59,20 @@ msgid "Phone"
 msgstr "Teléfono"
 
 #: CRM/Gdpr/CommunicationsPreferences/Utils.php
-msgid "Post"
-msgstr "Correo postal"
+msgid "Postal Mail"
+msgstr ""
 
 #: CRM/Gdpr/CommunicationsPreferences/Utils.php
 msgid "SMS"
 msgstr "SMS"
+
+#: CRM/Gdpr/CommunicationsPreferences/Utils.php
+msgid "--Select--"
+msgstr "--Seleccione--"
+
+#: CRM/Gdpr/CommunicationsPreferences/Utils.php
+msgid "Communication Preferences updated"
+msgstr "Las preferencias de comunicación han sido actualizadas"
 
 #: CRM/Gdpr/Form/Activitycontact.php CRM/Gdpr/Form/Search/ActivityContact.php
 #: templates/CRM/Gdpr/Form/Activitycontact.tpl
@@ -182,8 +190,28 @@ msgstr ""
 "Mensaje que se muestra luego de que el usuario complete el formulario."
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
-msgid "Add link to the thank you page"
-msgstr "Agregar enlace a la página de agradecimiento"
+msgid "Add to Event and Contribution Thank-you pages"
+msgstr ""
+
+#: CRM/Gdpr/Form/CommunicationsPreferences.php
+msgid "Embed the Communication Preferences form"
+msgstr ""
+
+#: CRM/Gdpr/Form/CommunicationsPreferences.php
+msgid "Add a link to the form"
+msgstr ""
+
+#: CRM/Gdpr/Form/CommunicationsPreferences.php
+msgid "Do Nothing"
+msgstr ""
+
+#: CRM/Gdpr/Form/CommunicationsPreferences.php CRM/Gdpr/Form/Settings.php
+msgid "Introductory text"
+msgstr "Texto de introducción"
+
+#: CRM/Gdpr/Form/CommunicationsPreferences.php
+msgid "Completion text"
+msgstr ""
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Link label"
@@ -345,7 +373,15 @@ msgid "Forgetme contact name"
 msgstr "Nombre de contacto para la acción de Olvidar"
 
 #: CRM/Gdpr/Form/Settings.php
+msgid "Forgetme e-mail"
+msgstr ""
+
+#: CRM/Gdpr/Form/Settings.php
 msgid "Delete Activities of Types"
+msgstr ""
+
+#: CRM/Gdpr/Form/Settings.php
+msgid "Custom groups"
 msgstr ""
 
 #: CRM/Gdpr/Form/Settings.php
@@ -365,8 +401,24 @@ msgid "Acceptance period (months)"
 msgstr "Período aceptado (meses)"
 
 #: CRM/Gdpr/Form/Settings.php
+msgid "File Upload"
+msgstr ""
+
+#: CRM/Gdpr/Form/Settings.php
+msgid "Web page link"
+msgstr ""
+
+#: CRM/Gdpr/Form/Settings.php
+msgid "Data Policy options"
+msgstr ""
+
+#: CRM/Gdpr/Form/Settings.php
 msgid "Data Policy file"
 msgstr "Vigencia de la política de datos"
+
+#: CRM/Gdpr/Form/Settings.php
+msgid "Data Policy link"
+msgstr ""
 
 #: CRM/Gdpr/Form/Settings.php
 msgid "This is a new version of the document."
@@ -379,10 +431,6 @@ msgstr "Enlace de la etiqueta"
 #: CRM/Gdpr/Form/Settings.php
 msgid "Checkbox text"
 msgstr "Texto de la casilla de selección"
-
-#: CRM/Gdpr/Form/Settings.php
-msgid "Introductory text"
-msgstr "Texto de introducción"
 
 #: CRM/Gdpr/Form/Settings.php
 msgid "Enable Terms and Conditions for every event"
@@ -413,8 +461,16 @@ msgid "Bottom of form"
 msgstr "Fin del formulario"
 
 #: CRM/Gdpr/Form/Settings.php
-msgid "Default Terms and Conditions"
-msgstr "Términos y condiciones por defecto"
+msgid "Terms and Conditions options"
+msgstr ""
+
+#: CRM/Gdpr/Form/Settings.php
+msgid "Default Terms and Conditions file"
+msgstr ""
+
+#: CRM/Gdpr/Form/Settings.php
+msgid "Default Terms and Conditions link"
+msgstr ""
 
 #: CRM/Gdpr/Form/Settings.php templates/CRM/Gdpr/Form/Settings.tpl
 msgid "Data Policy"
@@ -425,22 +481,19 @@ msgid "I accept the Data Policy."
 msgstr "Acepto la política de datos."
 
 #: CRM/Gdpr/Form/Settings.php gdpr.php
+#: templates/CRM/Gdpr/TermsConditionsField.tpl
 msgid "Terms &amp; Conditions"
 msgstr "Términos y condiciones"
 
 #: CRM/Gdpr/Form/Settings.php
-msgid "I accept the Terms &amp; Conditions for this event."
-msgstr "Acepto los términos  y condiciones para este evento."
+msgid "I accept the Terms &amp; Conditions"
+msgstr ""
 
 #: CRM/Gdpr/Form/Settings.php
 msgid "Please read and accept the Terms &amp; Conditions and Data Policy."
 msgstr ""
 "Por favor lea y acepte la política de privacidad y los términos y "
 "condiciones."
-
-#: CRM/Gdpr/Form/UpdatePreference.php
-msgid "--Select--"
-msgstr "--Seleccione--"
 
 #: CRM/Gdpr/Form/UpdatePreference.php
 msgid "<a href='%1' target='_blank'>%2</a>"
@@ -455,10 +508,6 @@ msgstr ""
 #: CRM/Gdpr/Form/UpdatePreference.php
 msgid "Source of Communication Preferences"
 msgstr "Origen de las preferencias de comunicación"
-
-#: CRM/Gdpr/Form/UpdatePreference.php
-msgid "Communication Preferences updated"
-msgstr "Las preferencias de comunicación han sido actualizadas"
 
 #: CRM/Gdpr/Page/Dashboard.php
 msgid "Please add GDPR settings"
@@ -649,11 +698,11 @@ msgstr "Página de agradecimiento para eventos y contribuciones"
 
 #: templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
 msgid ""
-"To display communication preference link in Event and Contribution thank you"
-" pages"
+"<p>Allows supporters set their preferences after registering for an event or"
+" making a contribution.</p><p>Note, to embed the Communcation Preferences "
+"form in thank-you pages, you need to give anonymous users the permission: "
+"<em>CiviCRM: access AJAX API</em>.</p>"
 msgstr ""
-"Para mostrar el enlace de las preferencias de comunicación en las páginas de"
-" agradecimiento de eventos y páginas de contribución."
 
 #: templates/CRM/Gdpr/Form/Forgetme.tpl
 msgid ""
@@ -698,6 +747,10 @@ msgstr "Fecha de suscripción"
 #: templates/CRM/Gdpr/Form/Search/GroupcontactDetails.tpl
 msgid "Search results listings."
 msgstr "Listado de resultados de la búsqueda."
+
+#: templates/CRM/Gdpr/Form/Settings.tpl
+msgid "Some of the installation data for this extension is missing."
+msgstr ""
 
 #: templates/CRM/Gdpr/Form/Settings.tpl
 msgid ""
@@ -754,10 +807,26 @@ msgstr ""
 
 #: templates/CRM/Gdpr/Form/Settings.tpl
 msgid ""
+"When field is empty, then each email will be deleted. When field is not "
+"empty, then each email will be updated with this value."
+msgstr ""
+
+#: templates/CRM/Gdpr/Form/Settings.tpl
+msgid "You can include %RANDOM% in order to have randomized email."
+msgstr ""
+
+#: templates/CRM/Gdpr/Form/Settings.tpl
+msgid ""
 "Activities of these types to be deleted during 'Forget me' process, as some "
 "activity types (eg. Inbound email) allow you to easily identify the contact "
 "after it has been anonymised. Leave empty if you do not want any activities "
 "to be deleted."
+msgstr ""
+
+#: templates/CRM/Gdpr/Form/Settings.tpl
+msgid ""
+"Data from selected custom groups to be deleted during 'Forget me' process. "
+"Leave empty if you do not want any custom groups to be deleted."
 msgstr ""
 
 #: templates/CRM/Gdpr/Form/Settings.tpl
@@ -789,8 +858,18 @@ msgstr ""
 "renovar."
 
 #: templates/CRM/Gdpr/Form/Settings.tpl
+msgid ""
+"Choose if you need to upload a file or specify a web page link for privacy "
+"policy."
+msgstr ""
+
+#: templates/CRM/Gdpr/Form/Settings.tpl
 msgid "Pdf document with the Policy/Terms."
 msgstr "Documento pdf con los términos / políticas."
+
+#: templates/CRM/Gdpr/Form/Settings.tpl
+msgid "Policy/Terms web page link."
+msgstr ""
 
 #: templates/CRM/Gdpr/Form/Settings.tpl
 msgid ""
@@ -827,7 +906,9 @@ msgstr ""
 "configuración para eventos o páginas de contribución específicos."
 
 #: templates/CRM/Gdpr/Form/Settings.tpl
-msgid "Current:"
+msgid ""
+"Choose if you need to upload a file or specify a web page link for  Default "
+"Terms and Conditions."
 msgstr ""
 
 #: templates/CRM/Gdpr/Form/Settings.tpl
@@ -837,6 +918,12 @@ msgid ""
 msgstr ""
 "Un fichero con los términos y condiciones por defecto. Puede modificar esta "
 "configuración para un evento en particular."
+
+#: templates/CRM/Gdpr/Form/Settings.tpl
+msgid ""
+"A default terms and conditions link for use in Event registrations etc. This"
+" can be overridden on the settings for the particular event.."
+msgstr ""
 
 #: templates/CRM/Gdpr/Page/ContactSummary.tpl
 msgid "GDPR Status"
