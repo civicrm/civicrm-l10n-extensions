@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2018-11-15 19:43+0000\n"
-"PO-Revision-Date: 2018-11-15 19:43+0000\n"
+"POT-Creation-Date: 2019-02-09 05:01+0000\n"
+"PO-Revision-Date: 2019-02-09 05:01+0000\n"
 "Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
 "Language-Team: Japanese (http://www.transifex.com/civicrm/civicrm_extensions/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -139,6 +139,18 @@ msgid ""
 "Your summary fields will begin being generated on the next scheduled job. It"
 " may take up to an hour to complete."
 msgstr "集計フィールドは次に予定されたジョブで生成され開始されます。これには最大で1時間かかる場合があります。"
+
+#: CRM/Sumfields/Upgrader/Base.php
+msgid "Upgrade %1 to revision %2"
+msgstr ""
+
+#: CRM/Sumfields/Upgrader.php
+msgid "Regenerate Data"
+msgstr ""
+
+#: CRM/Sumfields/Upgrader.php
+msgid "Rebuild Triggers"
+msgstr ""
 
 #: custom.php sumfields.php
 msgid "Summary Fields"
@@ -333,20 +345,24 @@ msgid "Error creating custom field '%1'"
 msgstr ""
 
 #: sumfields.php
-msgid "Error deleting '%s'"
-msgstr "「%s」の削除エラー"
+msgid "Error deleting '%1'"
+msgstr ""
 
 #: sumfields.php
-msgid "Error deleting custom field '%s': %s"
-msgstr "カスタムフィールド「%s」の削除エラーです : %s"
+msgid "Failed to rewrite sql for %1 field."
+msgstr ""
+
+#: sumfields.php
+msgid "Error deleting custom field '%1': %2"
+msgstr ""
 
 #: sumfields.php
 msgid "Failed to get the custom group parameters. Can't add new fields."
 msgstr "カスタムグループのパラメータ取得に失敗しました。新しいフィールドを追加することができません。"
 
 #: sumfields.php
-msgid "Error adding custom field '%s': %s"
-msgstr "カスタムフィールド「%s」の追加エラーです : %s"
+msgid "Error adding custom field '%1': %2"
+msgstr ""
 
 #: templates/CRM/Sumfields/Form/SumFields.tpl
 msgid "Extension Status"
