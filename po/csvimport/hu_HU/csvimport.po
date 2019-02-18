@@ -3,13 +3,14 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
+# Nagy Ákos <akoskaone@gmail.com>, 2019
 # Zoltán Reizinger <zreizinger@hdsnet.hu>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
 "POT-Creation-Date: 2018-11-15 19:44+0000\n"
-"PO-Revision-Date: 2018-11-15 19:44+0000\n"
-"Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
+"PO-Revision-Date: 2019-02-17 12:24+0000\n"
+"Last-Translator: Nagy Ákos <akoskaone@gmail.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/civicrm/civicrm_extensions/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -186,7 +187,7 @@ msgstr "Hiányzó szükséges mező(k):"
 
 #: CRM/Csvimport/Import/Parser/Api.php
 msgid "Importing entity"
-msgstr ""
+msgstr "Entitás importálása"
 
 #: CRM/Csvimport/Import/Parser.php
 msgid "Reason"
@@ -202,7 +203,7 @@ msgstr "Tevékenység történet URL megtekintése"
 
 #: CRM/Csvimport/Task/Import.php
 msgid "Invalid value for field"
-msgstr ""
+msgstr "Érvénytelen mezőérték"
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.hlp
 msgid "Import File Format"
@@ -234,15 +235,15 @@ msgid ""
 "Files to be imported must be in the 'comma-separated-values' format (CSV) "
 "and must contain data needed to match the data to an existing record in your"
 " CiviCRM database."
-msgstr ""
+msgstr "Az importálandó fájloknak CSV formátumúaknak (\"vesszővel elválasztott érték\") kell lenniük, és tartalmazniuk kell a CiviCRM adatbázisban lévő rekordoknak megfelelő adatokat."
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid "File format must be comma-separated-values (CSV)."
-msgstr ""
+msgstr "CSV fájlformátumot (\"vesszővel elválasztott érték\") kell használni."
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid "Maximum Upload File Size: %1 MB"
-msgstr ""
+msgstr "A feltöltendő fájl maximális mérete: %1 MB"
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid ""
@@ -252,7 +253,7 @@ msgstr ""
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid "This is the number of rows to process in each queue item. (Eg. 10)"
-msgstr ""
+msgstr "Az egy menetben feldolgozandó sorok száma. (Pl. 10)"
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid ""
@@ -262,13 +263,13 @@ msgstr ""
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid "Select a Different Field Mapping"
-msgstr ""
+msgstr "Válassz egy másik mezőleképzést"
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid ""
 "Load Saved Field\n"
 "          Mapping"
-msgstr ""
+msgstr "Mentett mezőleképzés visszatöltése"
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid "Select Saved Mapping, or leave blank to create a new mapping."
@@ -303,15 +304,15 @@ msgstr ""
 
 #: templates/CRM/Csvimport/Import/Form/MapTable.tpl
 msgid "Column Headers"
-msgstr ""
+msgstr "Oszlop fejléc"
 
 #: templates/CRM/Csvimport/Import/Form/MapTable.tpl
 msgid "Import Data (row %1)"
-msgstr ""
+msgstr "Adatok importálás ( %1 sor)"
 
 #: templates/CRM/Csvimport/Import/Form/MapTable.tpl
 msgid "Matching CiviCRM Field"
-msgstr ""
+msgstr "Megfelelő CiviCRM mező"
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 msgid ""
@@ -345,31 +346,31 @@ msgstr ""
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Total Rows"
-msgstr ""
+msgstr "Összes sor"
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 msgid "Total rows (records) in uploaded file."
-msgstr ""
+msgstr "A feltöltött fájlban lévő összes sor (rekord)."
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 msgid "Rows with Errors"
-msgstr ""
+msgstr "Hibás sorok"
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid ""
 "Rows with invalid data in one or more fields. These rows will be skipped "
 "(not imported)."
-msgstr ""
+msgstr "Egy vagy több mezőben érvénytelen adatokkal rendelkező sorok. Ezeket a sorokat kihagyja (importálásból kimarad)."
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Download Errors"
-msgstr ""
+msgstr "Letöltési hiba"
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 msgid "Conflicting Rows"
-msgstr ""
+msgstr "Összeférhetetlen sorok"
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 msgid ""
@@ -384,19 +385,19 @@ msgstr ""
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 msgid "Valid Rows"
-msgstr ""
+msgstr "Érvényes sorok"
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 msgid "Total rows to be imported."
-msgstr ""
+msgstr "Importálandó sorok száma."
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Import has completed successfully."
-msgstr ""
+msgstr "Az importálás sikeresen megtörtént."
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "The information below summarizes the results."
-msgstr ""
+msgstr "Eredmények összefoglalása."
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid ""
@@ -468,19 +469,19 @@ msgstr ""
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Total rows (participant records) in uploaded file."
-msgstr ""
+msgstr "A feltöltött fájlban lévő összes sorok (résztvevő rekordok) száma."
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Invalid Rows (skipped)"
-msgstr ""
+msgstr "Érvénytelen sor (kihagyva)"
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Mismatched Rows (skipped)"
-msgstr ""
+msgstr "Nem megfelelő sorok (kihagyva)"
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Rows with mismatched participant IDs... (NOT updated)."
-msgstr ""
+msgstr "Nem megfelelő azonosítókkal rendelkező sorok ... (NINCS frissítve)."
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Download Mismatched participants"
@@ -488,28 +489,28 @@ msgstr ""
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Conflicting Rows (skipped)"
-msgstr ""
+msgstr "Összeférhetetlen sorok (kihagyva)"
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Rows with conflicting transaction IDs (NOT imported)."
-msgstr ""
+msgstr "Nem megfelelő tranzakciós azonosítókkal rendelkező sorok (NINCS importálva)."
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Duplicate Rows"
-msgstr ""
+msgstr "Duplikált sorok"
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Rows which are duplicates of existing CiviCRM records."
-msgstr ""
+msgstr "A CiviCRM-ben szereplő duplikált sorok."
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Download Duplicates"
-msgstr ""
+msgstr "Duplikált sorok letöltése"
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Records Imported"
-msgstr ""
+msgstr "Importált rekordok"
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Rows imported successfully."
-msgstr ""
+msgstr "Sikeresen importált sorok."
