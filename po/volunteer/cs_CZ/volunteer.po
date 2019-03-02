@@ -4,18 +4,19 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Martin Máša <my.melody.production@gmail.com>, 2014
+# Ondřej Mazaný <mazany.o@ambassadors.cz>, 2019
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2018-02-06 17:35+0000\n"
-"PO-Revision-Date: 2018-02-06 17:35+0000\n"
-"Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
+"POT-Creation-Date: 2018-11-15 19:44+0000\n"
+"PO-Revision-Date: 2019-03-01 09:22+0000\n"
+"Last-Translator: Ondřej Mazaný <mazany.o@ambassadors.cz>\n"
 "Language-Team: Czech (http://www.transifex.com/civicrm/civicrm_extensions/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: cs\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
 #: CRM/Volunteer/BAO/Need.php
 msgid "I'm Flexible"
@@ -23,7 +24,7 @@ msgstr "Jsem flexibilní"
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "CiviVolunteer Need ID"
-msgstr ""
+msgstr "CiviDobrovolnictví Potřeba ID"
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "Start Date and Time"
@@ -31,32 +32,32 @@ msgstr "Datum a čas začátku"
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "Duration"
-msgstr "trvání"
+msgstr "Trvání"
 
 #: CRM/Volunteer/DAO/Need.php api/v3/VolunteerNeed.php
 msgid "Flexible"
-msgstr "flexibilní"
+msgstr "Flexibilní"
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "Quantity"
-msgstr "množství"
+msgstr "Množství"
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "Visibility"
-msgstr "viditelnost"
+msgstr "Viditelnost"
 
 #: CRM/Volunteer/DAO/Need.php templates/CRM/Volunteer/Form/Log.tpl
 #: templates/CRM/Volunteer/Form/Manage/Define.tpl
 msgid "Role"
-msgstr "role"
+msgstr "Role"
 
 #: CRM/Volunteer/DAO/Need.php CRM/Volunteer/DAO/Project.php
 msgid "Enabled"
-msgstr "povoleno"
+msgstr "Povoleno"
 
 #: CRM/Volunteer/DAO/Project.php
 msgid "CiviVolunteer Project ID"
-msgstr ""
+msgstr "CiviDobrovolnictví Projekt ID"
 
 #: CRM/Volunteer/DAO/Project.php
 msgid "Entity Table"
@@ -68,11 +69,11 @@ msgstr "Přihlásit se na  1% hodin dobrovolné práce"
 
 #: CRM/Volunteer/Form/Log.php
 msgid "Save"
-msgstr "uložit"
+msgstr "Uložit"
 
 #: CRM/Volunteer/Form/Log.php
 msgid "Cancel"
-msgstr "zrušit"
+msgstr "Zrušit"
 
 #: CRM/Volunteer/Form/Log.php
 msgid "-select-"
@@ -84,12 +85,12 @@ msgstr "Prosím, zadejte skutečnou dobu, po dokončení dobrovolnické činnost
 
 #: CRM/Volunteer/Form/Log.php
 msgid "Volunteer hours have been logged."
-msgstr ""
+msgstr "Odpracované hodiny dobrovolníka byly zaznamenány."
 
 #: CRM/Volunteer/Form/Log.php js/apps/define/define_views.js
 #: js/apps/volunteer_app.js
 msgid "Saved"
-msgstr "uloženo"
+msgstr "Uloženo"
 
 #: CRM/Volunteer/Form/Volunteer.php
 msgid "Enable Volunteer Management?"
@@ -97,15 +98,15 @@ msgstr "Povolit management dobrovolníků?"
 
 #: CRM/Volunteer/Form/Volunteer.php
 msgid "Select Beneficiary"
-msgstr ""
+msgstr "Vyberte příjemce"
 
 #: CRM/Volunteer/Form/Volunteer.php volunteer.php
 msgid "Volunteers"
-msgstr "dobrovolníci"
+msgstr "Dobrovolníci"
 
 #: CRM/Volunteer/Form/VolunteerReport.php
 msgid "Project"
-msgstr "projekt"
+msgstr "Projekt"
 
 #: CRM/Volunteer/Form/VolunteerReport.php
 msgid "Volunteer Name"
@@ -153,19 +154,19 @@ msgstr "Telefon dobrovolníka"
 
 #: CRM/Volunteer/Form/VolunteerReport.php
 msgid "Source Contact Phone"
-msgstr ""
+msgstr "Telefon zdroje kontaktu"
 
 #: CRM/Volunteer/Form/VolunteerReport.php
 msgid "Target Contact Phone"
-msgstr ""
+msgstr "Telefon cílového kontaktu"
 
 #: CRM/Volunteer/Form/VolunteerReport.php
 msgid "Subject"
-msgstr "předmět"
+msgstr "Předmět"
 
 #: CRM/Volunteer/Form/VolunteerReport.php
 msgid "Scheduled Date/Time"
-msgstr ""
+msgstr "Plánované datum/čas"
 
 #: CRM/Volunteer/Form/VolunteerReport.php
 msgid "Activity Status"
@@ -210,7 +211,7 @@ msgstr "Zaregistrujte se dobrovolně na %1"
 
 #: CRM/Volunteer/Form/VolunteerSignUp.php
 msgid "Shift"
-msgstr ""
+msgstr "Směna"
 
 #: CRM/Volunteer/Form/VolunteerSignUp.php
 msgid "Additional Information"
@@ -218,7 +219,7 @@ msgstr "Další informace"
 
 #: CRM/Volunteer/Form/VolunteerSignUp.php
 msgid "Submit"
-msgstr "předložit"
+msgstr "Potvrdit"
 
 #: CRM/Volunteer/Form/VolunteerSignUp.php
 msgid "You are scheduled to volunteer. Thank you!"
@@ -230,46 +231,46 @@ msgstr "Aktualizace %1 k revizi 2%"
 
 #: CRM/Volunteer/Upgrader.php
 msgid "Volunteer"
-msgstr "dobrovolník"
+msgstr "Dobrovolník"
 
 #: CRM/Volunteer/Upgrader.php
 msgid "Available"
-msgstr "dostupný"
+msgstr "Dostupný"
 
 #: CRM/Volunteer/Upgrader.php
 msgid "No-show"
-msgstr ""
+msgstr "Neúčast"
 
 #: js/apps/assign/assign_views.js
 #: templates/CRM/Volunteer/Form/Manage/Assign.tpl
 msgid "Available Volunteers"
-msgstr ""
+msgstr "Dostupní dobrovolníci"
 
 #: js/apps/assign/assign_views.js
 msgid "Copied"
-msgstr ""
+msgstr "Zkopírováno"
 
 #: js/apps/assign/assign_views.js
 msgid "%1 More Needed"
-msgstr ""
+msgstr "%1 ještě potřeba"
 
 #: js/apps/assign/assign_views.js
 msgid "%1 Needed"
-msgstr ""
+msgstr "%1 potřeba"
 
 #: js/apps/assign/assign_views.js
 msgid "None"
-msgstr ""
+msgstr "Žádný"
 
 #: js/apps/assign/assign_views.js js/apps/volunteer_app.js
 #: templates/CRM/Volunteer/Form/Manage/Assign.tpl
 #: templates/CRM/Volunteer/Form/Manage/Define.tpl
 msgid "Loading"
-msgstr ""
+msgstr "Nahrávám"
 
 #: js/apps/assign/assign_views.js
 msgid "%1 has been created."
-msgstr ""
+msgstr "%1 bylo vytvořeno."
 
 #: js/apps/assign/assign_views.js
 msgid "Contact Saved"
@@ -277,40 +278,40 @@ msgstr "Kontakt uložen"
 
 #: js/apps/assign/assign_views.js
 msgid "Delete Volunteer"
-msgstr ""
+msgstr "Smazat dobrovolníka"
 
 #: js/apps/assign/assign_views.js
 msgid "Remove %1 from %2?"
-msgstr ""
+msgstr "Odstranit %1 z %2?"
 
 #: js/apps/define/define_views.js
 msgid ""
 "There is currently %count volunteer assigned to this need. The volunteer's "
 "activity history will be preserved, but they will be disconnected from this "
 "shift."
-msgstr ""
+msgstr "V současné době je k této potřebě přiděleno 1 %c dobrovolníků. Historie činnosti dobrovolníka bude zachována, ale budou od této směny odebráni."
 
 #: js/apps/define/define_views.js
 msgid ""
 "There is currently %1 volunteer assigned to this need. The volunteer's "
 "activity history will be preserved, but they will be disconnected from this "
 "shift."
-msgstr ""
+msgstr "Momentálně je k této potřebě přiděleno 1% dobrovolníků. Historie činnosti dobrovolníka bude zachována, ale budou od této směny odebráni."
 
 #: js/apps/define/define_views.js
 msgid "There are currently %1 volunteers assigned to this need."
-msgstr ""
+msgstr "Momentálně je přiřazeno %1 dobrovolníků k této potřebě."
 
 #: js/apps/define/define_views.js
 msgid ""
 "There are currently %1 volunteers assigned to this need. The volunteers' "
 "activity histories will be preserved, but they will be disconnected from "
 "this shift."
-msgstr ""
+msgstr "Momentálně je k této potřebě přiděleno 1% dobrovolníků. Historie činnosti dobrovolníka bude zachována, ale budou od tohoto posunu odpojeni."
 
 #: js/apps/define/define_views.js
 msgid "Delete %1"
-msgstr ""
+msgstr "Smazat %1"
 
 #: templates/CRM/Volunteer/Form/Log.tpl
 msgid ""
@@ -318,105 +319,105 @@ msgid ""
 " each volunteer in minutes under Actual Duration and change status to "
 "Completed. Click 'Add Volunteer to record hours for volunteers not already "
 "listed below. Click Save to save your entries."
-msgstr ""
+msgstr "Dostupní a naplánovaní dobrovolníci jsou uvedeni níže. Zadejte čas strávený každým dobrovolníkem v minutách v sekci Aktuální trvání a změňte stav na Dokončeno. Klikněte na tlačítko Přidat dobrovolníka pro zaznamenání hodin pro dobrovolníky, které nejsou uvedeny níže. Klepnutím na tlačítko Uložit uložte své záznamy."
 
 #: templates/CRM/Volunteer/Form/Log.tpl
 msgid "Contact"
-msgstr ""
+msgstr "Kontakt"
 
 #: templates/CRM/Volunteer/Form/Log.tpl
 msgid "Start Date"
-msgstr ""
+msgstr "Začátek"
 
 #: templates/CRM/Volunteer/Form/Log.tpl
 msgid "Scheduled Duration"
-msgstr ""
+msgstr "Naplánované trvání"
 
 #: templates/CRM/Volunteer/Form/Log.tpl
 msgid "Click to copy Actual Duration from row one to all rows."
-msgstr ""
+msgstr "Klikněte pro zkopírování Aktuálního trvání z jednoho řádku na všechny."
 
 #: templates/CRM/Volunteer/Form/Log.tpl
 msgid "Click here to copy the Actual Duration value in row one to ALL rows."
-msgstr ""
+msgstr "Klikněte pro zkopírování hodnoty Aktuálního trvání z jednoho řádku na VŠECHNY řádky."
 
 #: templates/CRM/Volunteer/Form/Log.tpl
 msgid "Actual Duration"
-msgstr ""
+msgstr "Aktuální trvání"
 
 #: templates/CRM/Volunteer/Form/Log.tpl
 msgid "Click to copy Volunteer Status from row one to all rows."
-msgstr ""
+msgstr "Klikněte pro zkopírování stavu dobrovolníka z jednoho řádku na všechny řádky."
 
 #: templates/CRM/Volunteer/Form/Log.tpl
 msgid "Click here to copy the Volunteer Status value in row one to ALL rows."
-msgstr ""
+msgstr "Klikněte pro zkopírování hodnoty Stav dobrovolníka z jednoho řádku na VŠECHNY řádky."
 
 #: templates/CRM/Volunteer/Form/Log.tpl
 msgid "Status"
-msgstr ""
+msgstr "Stav"
 
 #: templates/CRM/Volunteer/Form/Log.tpl
 msgid "Add Volunteer"
-msgstr ""
+msgstr "Přidat dobrovolníka"
 
 #: templates/CRM/Volunteer/Form/Manage/Assign.tpl
 #: templates/CRM/Volunteer/Form/Manage/Define.tpl
 msgid "Done"
-msgstr ""
+msgstr "Hotovo"
 
 #: templates/CRM/Volunteer/Form/Manage/Assign.tpl
 msgid "Actions"
-msgstr ""
+msgstr "Akce"
 
 #: templates/CRM/Volunteer/Form/Manage/Assign.tpl
 msgid "Any"
-msgstr ""
+msgstr "Nezáleží"
 
 #: templates/CRM/Volunteer/Form/Manage/Assign.tpl
 msgid "Name"
-msgstr ""
+msgstr "Jméno"
 
 #: templates/CRM/Volunteer/Form/Manage/Assign.tpl
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: templates/CRM/Volunteer/Form/Manage/Assign.tpl
 msgid "Phone"
-msgstr ""
+msgstr "Telefon"
 
 #: templates/CRM/Volunteer/Form/Manage/Assign.tpl
 msgid "Select Contact"
-msgstr ""
+msgstr "Vyber kontakt"
 
 #: templates/CRM/Volunteer/Form/Manage/Assign.tpl
 msgid "Add"
-msgstr ""
+msgstr "Přidat"
 
 #: templates/CRM/Volunteer/Form/Manage/Assign.tpl
 msgid "OR"
-msgstr ""
+msgstr "NEBO"
 
 #: templates/CRM/Volunteer/Form/Manage/Assign.tpl
 msgid "- create new contact -"
-msgstr ""
+msgstr "- vytvořit nový kontakt -"
 
 #: templates/CRM/Volunteer/Form/Manage/Assign.tpl
 msgid "Move To:"
-msgstr ""
+msgstr "Přesunout do:"
 
 #: templates/CRM/Volunteer/Form/Manage/Assign.tpl
 msgid "Copy To:"
-msgstr ""
+msgstr "Zkopírovat do:"
 
 #: templates/CRM/Volunteer/Form/Manage/Assign.tpl
 #: templates/CRM/Volunteer/Form/Manage/Define.tpl
 msgid "Delete"
-msgstr ""
+msgstr "Smazat"
 
 #: templates/CRM/Volunteer/Form/Manage/Define.hlp
 msgid "Volunteer Needs"
-msgstr ""
+msgstr "Potřeba dobrovolníků"
 
 #: templates/CRM/Volunteer/Form/Manage/Define.hlp
 msgid ""
@@ -444,27 +445,27 @@ msgstr ""
 
 #: templates/CRM/Volunteer/Form/Manage/Define.tpl
 msgid "Volunteers Needed"
-msgstr ""
+msgstr "Potřeba dobrovolníků"
 
 #: templates/CRM/Volunteer/Form/Manage/Define.tpl
 msgid "Start Date/Time"
-msgstr ""
+msgstr "Začátek"
 
 #: templates/CRM/Volunteer/Form/Manage/Define.tpl
 msgid "Minutes"
-msgstr ""
+msgstr "Minut"
 
 #: templates/CRM/Volunteer/Form/Manage/Define.tpl
 msgid "Public?"
-msgstr ""
+msgstr "Veřejné?"
 
 #: templates/CRM/Volunteer/Form/Manage/Define.tpl
 msgid "Create new"
-msgstr ""
+msgstr "Vytvořit nový"
 
 #: templates/CRM/Volunteer/Form/Volunteer.hlp
 msgid "Volunteer Management"
-msgstr ""
+msgstr "Správa dobrovolníků"
 
 #: templates/CRM/Volunteer/Form/Volunteer.hlp
 msgid ""
@@ -483,7 +484,7 @@ msgstr ""
 
 #: templates/CRM/Volunteer/Form/Volunteer.hlp
 msgid "Beneficiary"
-msgstr ""
+msgstr "Příjemce"
 
 #: templates/CRM/Volunteer/Form/Volunteer.hlp
 msgid ""
@@ -497,62 +498,62 @@ msgstr ""
 msgid ""
 "The target contact for volunteer activities will be set to the beneficiary. You can filter activity searches,\n"
 "    and Volunteer and Activity reports by beneficiary using the target contact filters."
-msgstr ""
+msgstr "Cílový kontakt pro dobrovolnické aktivity bude nastaven na příjemce. Můžete filtrovat hledání činností,\n    a Dobrovolníků a Reporty činností podle příjemce použitím filtru cílového kontaktu."
 
 #: templates/CRM/Volunteer/Form/Volunteer.tpl
 msgid ""
 "If you want to disable Volunteer Management for this event, uncheck\n"
 "      the box below and submit the form. Disabling Volunteer Management for this\n"
 "      event will not result in loss of volunteer data."
-msgstr ""
+msgstr "Chcete-li pro tuto událost zakázat správu dobrovolníků, odškrtněte\n      volbu níže a odešlete formulář. Zákaz správy dobrovolníků pro tuto\n      událost nezpůsobí ztrátu dat dobrovolníka."
 
 #: templates/CRM/Volunteer/Form/Volunteer.tpl
 msgid ""
 "If you want to enable Volunteer Management for this event, check\n"
 "      the box below and submit the form."
-msgstr ""
+msgstr "Pokud chcete povolit management dobrovolníků pro tuto událost, zaškrtněte\n      volbu níže a odešlete formulář."
 
 #: templates/CRM/Volunteer/Form/Volunteer.tpl
 msgid "Define Volunteer Needs"
-msgstr ""
+msgstr "Definuj potřeby dobrovolníků"
 
 #: templates/CRM/Volunteer/Form/Volunteer.tpl
 msgid "Assign Volunteers"
-msgstr ""
+msgstr "Přiřadit dobrovolníky"
 
 #: templates/CRM/Volunteer/Form/Volunteer.tpl
 msgid "Log Volunteer Hours"
-msgstr ""
+msgstr "Zaznamenat hodiny dobrovolníků"
 
 #: templates/CRM/Volunteer/Form/Volunteer.tpl
 msgid "Enable or disable volunteer management for this event."
-msgstr ""
+msgstr "Povolit nebo zakázat management dobrovolníků pro tuto událost."
 
 #: volunteer.php
 msgid "Getting Started:"
-msgstr ""
+msgstr "Začíná:"
 
 #: volunteer.php
 msgid "Read <a href=\"%1\" target=\"_blank\">documentation</a>"
-msgstr ""
+msgstr "Přečíst<a href=\"%1\" target=\"_blank\">dokumentaci</a>"
 
 #: volunteer.php
 msgid "Ask questions on the <a href=\"%1\" target=\"_blank\">forum</a>"
-msgstr ""
+msgstr "Polořit otázku na <a href=\"%1\" target=\"_blank\">fóru</a>"
 
 #: volunteer.php
 msgid "Configure <a href=\"%1\" target=\"_blank\">volunteer roles</a>"
-msgstr ""
+msgstr "Nastavit <a href=\"%1\" target=\"_blank\">role dobrovolníků</a>"
 
 #: volunteer.php
 msgid ""
 "Enable volunteer management for one or more <a href=\"%1\" "
 "target=\"_blank\">events</a>"
-msgstr ""
+msgstr "Povolit management dobrovolníků pro jednu nebo více <a href=\"%1\" target=\"_blank\">událostí</a>"
 
 #: volunteer.php
 msgid "CiviVolunteer Installed"
-msgstr ""
+msgstr "CiviDobrovolnictví nainstalováno."
 
 #: volunteer.php
 msgid "Volunteer Now"
@@ -560,18 +561,18 @@ msgstr "Staň se dobrovolníkem/icí"
 
 #: volunteer.php
 msgid "CiviVolunteer"
-msgstr ""
+msgstr "CiviDobrovolnictví"
 
 #: volunteer.php
 msgid ""
 "Your extension resource url is not configured correctly. CiviVolunteer "
 "cannot work without this setting."
-msgstr ""
+msgstr "Vaše zdrojové url pro rozšíření není správně nastaveno. CiviDobrovolnictví nemůže fungovat bez tohoto nastavení."
 
 #: volunteer.php
 msgid "Correct the problem at <a href=\"%1\">Settings - Resource URLs</a>."
-msgstr ""
+msgstr "Opravte chybu v <a href=\"%1\">Nastavení - Zdrojové URL</a>."
 
 #: volunteer.php
 msgid "Error"
-msgstr ""
+msgstr "Chyba"
