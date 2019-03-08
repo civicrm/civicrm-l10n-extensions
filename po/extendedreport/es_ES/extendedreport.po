@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2019-02-18 05:01+0000\n"
-"PO-Revision-Date: 2019-02-18 05:01+0000\n"
+"POT-Creation-Date: 2019-03-08 05:01+0000\n"
+"PO-Revision-Date: 2019-03-08 05:01+0000\n"
 "Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
 "Language-Team: Spanish (http://www.transifex.com/civicrm/civicrm_extensions/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -91,6 +91,10 @@ msgstr ""
 #: CRM/Extendedreport/Form/Report/Case/CaseWithActivityPivot.php
 msgid "Case"
 msgstr "Caso"
+
+#: CRM/Extendedreport/Form/Report/ColumnDefinitionTrait.php
+msgid "Activity ID"
+msgstr ""
 
 #: CRM/Extendedreport/Form/Report/ColumnDefinitionTrait.php
 msgid "Activity Type"
@@ -358,10 +362,6 @@ msgstr "Evento"
 msgid "Participant"
 msgstr "Participante"
 
-#: CRM/Extendedreport/Form/Report/Event/EventPivot.php
-msgid "Participant Status"
-msgstr "Estado del participante"
-
 #: CRM/Extendedreport/Form/Report/Event/ParticipantExtended.php
 msgid "Note"
 msgstr ""
@@ -533,30 +533,6 @@ msgstr "Si"
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
 msgid "No"
 msgstr "No"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Listed contact(s) have been added to the selected group."
-msgstr ""
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "- select group -"
-msgstr "- seleccionar grupo -"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Contact to Add"
-msgstr ""
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "- choose contact -"
-msgstr "- seleccionar contacto -"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Add these Contacts to Group"
-msgstr "Añadir estos contactos al grupo"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Preview Report"
-msgstr "Vista previa del informe"
 
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
 msgid "Aggregate filter : "
@@ -1045,10 +1021,6 @@ msgid "Max"
 msgstr "Máx"
 
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "--Select--"
-msgstr "--Seleccionar--"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
 msgid "Aggregate Report Column Headers"
 msgstr ""
 
@@ -1085,6 +1057,10 @@ msgstr ""
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
 msgid "Is"
 msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ExtendedReport.php
+msgid "--Select--"
+msgstr "--Seleccionar--"
 
 #: CRM/Extendedreport/Form/Report/Member/MembershipPivot.php
 msgid "Membership"
@@ -1230,12 +1206,10 @@ msgid "Extended report"
 msgstr ""
 
 #: templates/CRM/Report/Form/Tabs/Aggregate.tpl
-#: templates/CRM/Report/Form/Tabs/Pivot.tpl
 msgid "Select Row Fields"
 msgstr ""
 
 #: templates/CRM/Report/Form/Tabs/Aggregate.tpl
-#: templates/CRM/Report/Form/Tabs/Pivot.tpl
 msgid "Select Column Header"
 msgstr ""
 
