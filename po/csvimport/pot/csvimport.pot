@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: csvimport\n"
-"POT-Creation-Date: 2018-11-15 19:44+0000\n"
+"POT-Creation-Date: 2019-03-19 05:01+0000\n"
 "Language-Team: CiviCRM Translators <civicrm-translators@lists.civicrm.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,6 +18,14 @@ msgstr ""
 #: CRM/Csvimport/Import/Form/DataSource.php
 #: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
 msgid "- select -"
+msgstr ""
+
+#: CRM/Csvimport/Import/Form/DataSource.php
+msgid "Which entity are you importing \"Notes\" to"
+msgstr ""
+
+#: CRM/Csvimport/Import/Form/DataSource.php
+msgid "Set this in CSV"
 msgstr ""
 
 #: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
@@ -70,6 +78,10 @@ msgstr ""
 
 #: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
 msgid "Allow Updating An Entity Using Unique Fields"
+msgstr ""
+
+#: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
+msgid "Ignore Case For Field Option Values"
 msgstr ""
 
 #: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
@@ -198,6 +210,10 @@ msgstr ""
 msgid "Invalid value for field"
 msgstr ""
 
+#: csvimport.php
+msgid "API csv Import"
+msgstr ""
+
 #: templates/CRM/Csvimport/Import/Form/DataSource.hlp
 msgid "Import File Format"
 msgstr ""
@@ -234,6 +250,19 @@ msgid ""
 msgstr ""
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
+msgid ""
+"Choose 'Set this in CSV' to use 'entity_table' field in next step. This "
+"allows you to import 'Notes' to multiple entities in same import."
+msgstr ""
+
+#: templates/CRM/Csvimport/Import/Form/DataSource.tpl
+msgid ""
+"Selecting an entity here will allow unique fields of this entity to be used "
+"in place of 'id'. Eg: External id for 'Contact'. (note: this will hide "
+"'entity_table' field in next step)"
+msgstr ""
+
+#: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid "File format must be comma-separated-values (CSV)."
 msgstr ""
 
@@ -255,6 +284,13 @@ msgstr ""
 msgid ""
 "Allow updating an existing entity using unique fields to match (Eg. "
 "external_id). By default updating is possible if 'id' is used."
+msgstr ""
+
+#: templates/CRM/Csvimport/Import/Form/DataSource.tpl
+msgid ""
+"Ignore letter-case when mapping values to option fields (Eg. Individual "
+"Prefix). Note that this may produce unexpected results if you have multiple "
+"option names with same name like Ms. and ms."
 msgstr ""
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
