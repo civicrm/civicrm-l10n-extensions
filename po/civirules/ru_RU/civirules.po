@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2019-02-22 05:01+0000\n"
-"PO-Revision-Date: 2019-02-22 05:01+0000\n"
+"POT-Creation-Date: 2019-04-25 05:01+0000\n"
+"PO-Revision-Date: 2019-04-25 05:01+0000\n"
 "Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
 "Language-Team: Russian (http://www.transifex.com/civicrm/civicrm_extensions/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -15,6 +15,24 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: CRM/Civirules/BAO/Rule.php
+msgid "Params can not be empty when adding or updating a civirule rule"
+msgstr ""
+
+#: CRM/Civirules/BAO/Rule.php
+msgid "rule id can not be empty when attempting to delete a civirule rule"
+msgstr ""
+
+#: CRM/Civirules/BAO/Rule.php
+msgid "You are passing a trigger id as a parameter into "
+msgstr ""
+
+#: CRM/Civirules/BAO/Rule.php
+msgid ""
+" which does not pass the PHP is_numeric test. An integer is required (only "
+"numbers allowed)! Contact your system administrator"
+msgstr ""
 
 #: CRM/Civirules/Delay/DayOfMonthBasedOnContribution.php
 msgid "Delay by the xth day of the month of the contribution"
@@ -261,13 +279,12 @@ msgstr ""
 
 #: CRM/Civirules/Form/Rule.php
 #: templates/CRM/Civirules/Form/RuleBlocks/ActionBlock.tpl
-#: templates/CRM/Civirules/Page/Rule.tpl
 msgid "Name"
 msgstr ""
 
-#: CRM/Civirules/Form/Rule.php CRM/Civirules/Form/Search/Rules.php
+#: CRM/Civirules/Form/Rule.php
 #: templates/CRM/Civirules/Form/RuleBlocks/ConditionBlock.tpl
-#: templates/CRM/Civirules/Page/Rule.tpl
+#: templates/CRM/Civirules/Page/RuleViewList.tpl
 msgid "Description"
 msgstr ""
 
@@ -287,8 +304,7 @@ msgstr ""
 msgid "Created Date"
 msgstr ""
 
-#: CRM/Civirules/Form/Rule.php CRM/Civirules/Form/Search/Rules.php
-#: templates/CRM/Civirules/Page/Rule.tpl
+#: CRM/Civirules/Form/Rule.php templates/CRM/Civirules/Page/RuleViewList.tpl
 msgid "Created By"
 msgstr ""
 
@@ -356,11 +372,12 @@ msgstr ""
 #: CRM/CivirulesConditions/Form/ValueComparison.php
 #: CRM/CivirulesCronTrigger/Form/ActivityDate.php
 #: CRM/CivirulesCronTrigger/Form/GroupMembership.php
+#: CRM/CivirulesCronTrigger/Form/MembershipEndDate.php
 #: templates/CRM/Civirules/Form/RuleDelete.tpl
 msgid "Cancel"
 msgstr ""
 
-#: CRM/Civirules/Form/Rule.php CRM/Civirules/Page/Rule.php
+#: CRM/Civirules/Form/Rule.php CRM/Civirules/Form/RuleView.php
 msgid "Delete"
 msgstr ""
 
@@ -420,10 +437,11 @@ msgstr ""
 #: CRM/CivirulesConditions/Form/ValueComparison.php
 #: CRM/CivirulesCronTrigger/Form/ActivityDate.php
 #: CRM/CivirulesCronTrigger/Form/GroupMembership.php
+#: CRM/CivirulesCronTrigger/Form/MembershipEndDate.php
 msgid "Save"
 msgstr ""
 
-#: CRM/Civirules/Form/Rule.php CRM/Civirules/Page/Rule.php
+#: CRM/Civirules/Form/Rule.php CRM/Civirules/Form/RuleView.php
 msgid "Edit"
 msgstr ""
 
@@ -499,95 +517,56 @@ msgstr ""
 msgid "Delete Rule (CiviRules)"
 msgstr ""
 
-#: CRM/Civirules/Form/Search/Rules.php
-msgid "Find CiviRules Rules"
+#: CRM/Civirules/Form/RuleView.php
+msgid "Filter Tag(s)"
 msgstr ""
 
-#: CRM/Civirules/Form/Search/Rules.php
-msgid "Rule Label contains"
+#: CRM/Civirules/Form/RuleView.php
+msgid "- Select Tag -"
 msgstr ""
 
-#: CRM/Civirules/Form/Search/Rules.php
-#: templates/CRM/Civirules/Form/Search/RulesCriteria.tpl
-msgid "Rule Tag(s)"
+#: CRM/Civirules/Form/RuleView.php
+msgid "Filter Trigger(s)"
 msgstr ""
 
-#: CRM/Civirules/Form/Search/Rules.php
-#: templates/CRM/Civirules/Form/Search/RulesCriteria.tpl
-msgid "Rule Trigger(s)"
+#: CRM/Civirules/Form/RuleView.php
+msgid "- Select Trigger -"
 msgstr ""
 
-#: CRM/Civirules/Form/Search/Rules.php
-msgid "Only active Rules"
+#: CRM/Civirules/Form/RuleView.php
+msgid "Description Contains"
 msgstr ""
 
-#: CRM/Civirules/Form/Search/Rules.php
-msgid "All Rules"
+#: CRM/Civirules/Form/RuleView.php
+msgid "Show disabled Rules?"
 msgstr ""
 
-#: CRM/Civirules/Form/Search/Rules.php
-msgid "Find only active Rules?"
+#: CRM/Civirules/Form/RuleView.php
+msgid "Filter"
 msgstr ""
 
-#: CRM/Civirules/Form/Search/Rules.php
-msgid "Rule Label"
-msgstr ""
-
-#: CRM/Civirules/Form/Search/Rules.php templates/CRM/Civirules/Page/Rule.tpl
-msgid "Trigger"
-msgstr ""
-
-#: CRM/Civirules/Form/Search/Rules.php
-#: CRM/CivirulesConditions/Form/EntityTag/TagId.php
-msgid "Tag(s)"
-msgstr ""
-
-#: CRM/Civirules/Form/Search/Rules.php
-msgid "Active?"
-msgstr ""
-
-#: CRM/Civirules/Form/Search/Rules.php templates/CRM/Civirules/Page/Rule.tpl
-msgid "Date Created"
-msgstr ""
-
-#: CRM/Civirules/Form/Search/Rules.php
-msgid "RuleID"
-msgstr ""
-
-#: CRM/Civirules/Form/Search/Rules.php
-msgid "Help Text"
-msgstr ""
-
-#: CRM/Civirules/Form/Search/Rules.php
-msgid "Hidden Active"
-msgstr ""
-
-#: CRM/Civirules/Form/Search/Rules.php CRM/Civirules/Utils.php
-msgid "Yes"
-msgstr ""
-
-#: CRM/Civirules/Form/Search/Rules.php CRM/Civirules/Utils.php
-msgid "No"
-msgstr ""
-
-#: CRM/Civirules/Form/Search/Rules.php
-msgid "Found illegal '%1' string in SQL clause."
-msgstr ""
-
-#: CRM/Civirules/Page/Rule.php
+#: CRM/Civirules/Form/RuleView.php
 msgid "Disable"
 msgstr ""
 
-#: CRM/Civirules/Page/Rule.php
+#: CRM/Civirules/Form/RuleView.php
 msgid "Enable"
 msgstr ""
 
-#: CRM/Civirules/Page/Rule.php
-msgid "CiviRules"
+#: CRM/Civirules/Form/RuleView.php
+msgid "Manage CiviRules"
 msgstr ""
 
 #: CRM/Civirules/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
+msgstr ""
+
+#: CRM/Civirules/Utils.php
+msgid "Yes"
+msgstr ""
+
+#: CRM/Civirules/Utils.php
+msgid "No"
 msgstr ""
 
 #: CRM/Civirules/Utils.php
@@ -852,9 +831,7 @@ msgid ""
 msgstr ""
 
 #: CRM/CivirulesConditions/Activity/Date.php
-msgid ""
-"Could not parse compare date from the condition params into a DateTime "
-"object in "
+msgid "Could not parse date "
 msgstr ""
 
 #: CRM/CivirulesConditions/Activity/Date.php
@@ -1040,11 +1017,32 @@ msgid "To"
 msgstr ""
 
 #: CRM/CivirulesConditions/Form/Activity/Date.php
+msgid "Compare with the date the rule is triggered"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Activity/Date.php
+msgid "Compare with the date the action is executed"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Activity/Date.php
 msgid "From and To Date are required  and can not be empty when using Between"
 msgstr ""
 
 #: CRM/CivirulesConditions/Form/Activity/Date.php
 msgid "From Date should be earlier than or the same as To Date"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Activity/Date.php
+msgid "You can only use trigger date OR action execution date, not both!"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Activity/Date.php
+msgid "Date to compare with has to be empty when using the trigger date"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Activity/Date.php
+msgid ""
+"Date to compare with has to be empty when using the action execution date"
 msgstr ""
 
 #: CRM/CivirulesConditions/Form/Activity/Date.php
@@ -1184,6 +1182,11 @@ msgstr ""
 
 #: CRM/CivirulesConditions/Form/ContributionRecur/EndDate.php
 msgid "End Date is"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/EntityTag/TagId.php
+#: templates/CRM/Civirules/Page/RuleViewList.tpl
+msgid "Tag(s)"
 msgstr ""
 
 #: CRM/CivirulesConditions/Form/Event/EventType.php
@@ -1412,11 +1415,20 @@ msgid "Person"
 msgstr ""
 
 #: CRM/CivirulesCronTrigger/Form/ActivityDate.php
+#: CRM/CivirulesCronTrigger/Form/MembershipEndDate.php
 msgid "Activity Type"
 msgstr ""
 
 #: CRM/CivirulesCronTrigger/Form/ActivityDate.php
 msgid "Activity Status"
+msgstr ""
+
+#: CRM/CivirulesCronTrigger/Form/MembershipEndDate.php
+msgid "Interval"
+msgstr ""
+
+#: CRM/CivirulesCronTrigger/Form/MembershipEndDate.php
+msgid "Interval should be a numeric value"
 msgstr ""
 
 #: CRM/CivirulesCronTrigger/GroupMembership.php
@@ -1427,6 +1439,38 @@ msgstr ""
 #: CRM/CivirulesCronTrigger/GroupMembership.php
 #: CRM/CivirulesCronTrigger/HasTag.php
 msgid "Daily trigger for all members of group %1"
+msgstr ""
+
+#: CRM/CivirulesCronTrigger/MembershipEndDate.php
+msgid "Day(s) before end date"
+msgstr ""
+
+#: CRM/CivirulesCronTrigger/MembershipEndDate.php
+msgid "Week(s) before end date"
+msgstr ""
+
+#: CRM/CivirulesCronTrigger/MembershipEndDate.php
+msgid "Month(s) before end date"
+msgstr ""
+
+#: CRM/CivirulesCronTrigger/MembershipEndDate.php
+msgid "Day(s) after end date"
+msgstr ""
+
+#: CRM/CivirulesCronTrigger/MembershipEndDate.php
+msgid "Week(s) after end date"
+msgstr ""
+
+#: CRM/CivirulesCronTrigger/MembershipEndDate.php
+msgid "Month(s) after end date"
+msgstr ""
+
+#: CRM/CivirulesCronTrigger/MembershipEndDate.php
+msgid "Membership"
+msgstr ""
+
+#: CRM/CivirulesCronTrigger/MembershipEndDate.php
+msgid "Membership end date with type %1 %2 %3"
 msgstr ""
 
 #: api/v3/CiviRuleTrigger/Create.php
@@ -1448,7 +1492,7 @@ msgid ""
 msgstr ""
 
 #: civirules.php
-msgid "Find Rules"
+msgid "Manage Rules"
 msgstr ""
 
 #: civirules.php
@@ -1519,28 +1563,64 @@ msgstr ""
 msgid "to really delete the rule from the database completely."
 msgstr ""
 
-#: templates/CRM/Civirules/Form/Search/Rules.tpl
-msgid "Search results listings."
+#: templates/CRM/Civirules/Form/RuleView.tpl
+msgid ""
+"The existing CiviRules are listed below. You can manage, delete, "
+"disable/enable or add a rule. You can filther the list of CiviRules with the"
+" Filter Criteria"
 msgstr ""
 
-#: templates/CRM/Civirules/Form/Search/RulesCriteria.tpl
-msgid "Edit Search Criteria for CiviRules Rules(s)"
-msgstr ""
-
-#: templates/CRM/Civirules/Form/Search/RulesCriteria.tpl
-msgid "Rule Label contains(s)"
-msgstr ""
-
-#: templates/CRM/Civirules/Page/Rule.tpl
+#: templates/CRM/Civirules/Page/RuleViewList.tpl
 msgid "Add CiviRule"
 msgstr ""
 
-#: templates/CRM/Civirules/Page/Rule.tpl
-msgid "Active"
+#: templates/CRM/Civirules/Page/RuleViewList.tpl
+msgid "Rule Label"
+msgstr ""
+
+#: templates/CRM/Civirules/Page/RuleViewList.tpl
+msgid "Trigger"
+msgstr ""
+
+#: templates/CRM/Civirules/Page/RuleViewList.tpl
+msgid "Active?"
+msgstr ""
+
+#: templates/CRM/Civirules/Page/RuleViewList.tpl
+msgid "Date Created"
 msgstr ""
 
 #: templates/CRM/CivirulesActions/Activity/Form/Activity.tpl
 msgid "Assignee"
+msgstr ""
+
+#: templates/CRM/CivirulesConditions/Form/Activity/Date.tpl
+msgid ""
+"You can test the activity date against specific dates (Comparison Date or "
+"From and To Date depending on the Operator)."
+msgstr ""
+
+#: templates/CRM/CivirulesConditions/Form/Activity/Date.tpl
+msgid ""
+"You can also select to test against either the date the rule is triggered or"
+" the date the action is executed. If you do not use delayed actions this is "
+"the same date but if you do use a delay there is a diffderence!"
+msgstr ""
+
+#: templates/CRM/CivirulesConditions/Form/Activity/Date.tpl
+msgid ""
+"For example, if the rule is triggered by a new activity on the 1 April but "
+"the action is executed with a delay of 1 day, comparing with the date the "
+"rule is triggered will compare with 1 April whilst comparing with the date "
+"the action is executed will compare with 2 April (if you did NOT check the "
+"<em>Don't recheck condition upon processing of delayed action!</em> box when"
+" defining the delay)"
+msgstr ""
+
+#: templates/CRM/CivirulesConditions/Form/Activity/Date.tpl
+msgid ""
+"Please note that using the date the action is executed only makes sense if "
+"you also specify a delay!!!!"
 msgstr ""
 
 #: templates/CRM/CivirulesConditions/Form/Contact/LivesInCountry.tpl
