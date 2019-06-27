@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2018-02-06 17:35+0000\n"
-"PO-Revision-Date: 2018-02-06 17:35+0000\n"
+"POT-Creation-Date: 2019-06-27 05:01+0000\n"
+"PO-Revision-Date: 2019-06-27 05:01+0000\n"
 "Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
 "Language-Team: German (http://www.transifex.com/civicrm/civicrm_extensions/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -132,6 +132,12 @@ msgid "Use Advanced Eligibility (Hooks - Memory Intensive)"
 msgstr ""
 
 #: CRM/Cdntaxreceipts/Form/Report/ReceiptsNotIssued.php
+msgid ""
+"For performance reasons, date range is limited to the current month. If you "
+"want to a different date range, please use the date filter."
+msgstr ""
+
+#: CRM/Cdntaxreceipts/Form/Report/ReceiptsNotIssued.php
 msgid "View Details of this Contribution"
 msgstr ""
 
@@ -176,6 +182,10 @@ msgid "Receipt Prefix"
 msgstr ""
 
 #: CRM/Cdntaxreceipts/Form/Settings.php
+msgid "Serial Receipt Numbers"
+msgstr ""
+
+#: CRM/Cdntaxreceipts/Form/Settings.php
 msgid "Authorized Signature Text"
 msgstr ""
 
@@ -208,7 +218,7 @@ msgid "Setup in-kind receipts?"
 msgstr ""
 
 #: CRM/Cdntaxreceipts/Form/Settings.php
-msgid "Send receipts by email?"
+msgid "Delivery Method"
 msgstr ""
 
 #: CRM/Cdntaxreceipts/Form/Settings.php
@@ -245,13 +255,6 @@ msgid "Done"
 msgstr ""
 
 #: CRM/Cdntaxreceipts/Form/ViewTaxReceipt.php
-#: CRM/Cdntaxreceipts/Task/IssueAggregateTaxReceipts.php
-#: CRM/Cdntaxreceipts/Task/IssueAnnualTaxReceipts.php
-#: CRM/Cdntaxreceipts/Task/IssueSingleTaxReceipts.php
-msgid "Processing"
-msgstr ""
-
-#: CRM/Cdntaxreceipts/Form/ViewTaxReceipt.php
 msgid "Cancel Tax Receipt"
 msgstr ""
 
@@ -275,6 +278,10 @@ msgstr ""
 
 #: CRM/Cdntaxreceipts/Form/ViewTaxReceipt.php
 msgid "Tax Receipt has been generated for printing."
+msgstr ""
+
+#: CRM/Cdntaxreceipts/Form/ViewTaxReceipt.php
+msgid "Tax Receipt data is available in the Tax Receipts Issued report."
 msgstr ""
 
 #: CRM/Cdntaxreceipts/Form/ViewTaxReceipt.php
@@ -310,6 +317,12 @@ msgstr "Zurück"
 #: CRM/Cdntaxreceipts/Task/IssueAggregateTaxReceipts.php
 #: CRM/Cdntaxreceipts/Task/IssueAnnualTaxReceipts.php
 #: CRM/Cdntaxreceipts/Task/IssueSingleTaxReceipts.php
+msgid "Processing"
+msgstr ""
+
+#: CRM/Cdntaxreceipts/Task/IssueAggregateTaxReceipts.php
+#: CRM/Cdntaxreceipts/Task/IssueAnnualTaxReceipts.php
+#: CRM/Cdntaxreceipts/Task/IssueSingleTaxReceipts.php
 msgid ""
 "Maximum of %1 tax receipt(s) were sent. Please repeat to continue "
 "processing."
@@ -331,6 +344,13 @@ msgstr ""
 #: CRM/Cdntaxreceipts/Task/IssueAnnualTaxReceipts.php
 #: CRM/Cdntaxreceipts/Task/IssueSingleTaxReceipts.php
 msgid "%1 tax receipt(s) need to be printed."
+msgstr ""
+
+#: CRM/Cdntaxreceipts/Task/IssueAggregateTaxReceipts.php
+#: CRM/Cdntaxreceipts/Task/IssueAnnualTaxReceipts.php
+#: CRM/Cdntaxreceipts/Task/IssueSingleTaxReceipts.php
+msgid ""
+"Data for %1 tax receipt(s) is available in the Tax Receipts Issued report."
 msgstr ""
 
 #: CRM/Cdntaxreceipts/Task/IssueAggregateTaxReceipts.php
@@ -359,6 +379,14 @@ msgstr ""
 
 #: CRM/Cdntaxreceipts/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
+msgstr ""
+
+#: cdntaxreceipts.functions.inc
+msgid "Failed to acquire lock. No receipts were processed."
+msgstr ""
+
+#: cdntaxreceipts.functions.inc
+msgid "Warning"
 msgstr ""
 
 #: cdntaxreceipts.functions.inc
@@ -418,7 +446,7 @@ msgid "Appraiser: %1"
 msgstr ""
 
 #: cdntaxreceipts.functions.inc
-msgid "Canadian Revenue Agency: www.cra-arc.gc.ca/charities"
+msgid "Canada Revenue Agency: canada.ca/charities-giving"
 msgstr ""
 
 #: cdntaxreceipts.functions.inc
@@ -443,10 +471,6 @@ msgstr ""
 
 #: cdntaxreceipts.php
 msgid "CiviCRM CDN Tax Receipts"
-msgstr ""
-
-#: cdntaxreceipts.php
-msgid "Open Tracking"
 msgstr ""
 
 #: cdntaxreceipts.php
@@ -495,6 +519,13 @@ msgstr ""
 
 #: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
 msgid ""
+"This is an experimental option to generate receipt numbers serially, without"
+" the gaps of the default method described above. Not recommended unless your"
+" auditor insists."
+msgstr ""
+
+#: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
+msgid ""
 "Name and position of the authorizing official to be displayed under the "
 "signature line. Defaults to \"Authorized Signature\" if no name is "
 "specified."
@@ -530,10 +561,11 @@ msgstr ""
 
 #: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
 msgid ""
-"If enabled, tax receipts will be sent via email to donors who have an email "
-"address on file. This setting applies to manually-triggered tax receipts, "
-"and is overridden if you decide to attach receipts to automated messages "
-"below."
+"Print only: all tax receipts are generated in PDF format.<br />Email or "
+"print: tax receipts are emailed if possible, otherwise generated in PDF "
+"format.<br />Data only: Tax receipts are generated internally in CiviCRM. "
+"Data can be exported for mail merge/mail house via the Tax Receipts Issued "
+"report."
 msgstr ""
 
 #: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
@@ -549,7 +581,8 @@ msgstr ""
 #: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
 msgid ""
 "If enabled, the Receipts not issued Report will have the Advanced "
-"Eligibility Check enabled by default."
+"Eligibility Check enabled by default. Required for accurate reports, but can"
+" slow reports."
 msgstr ""
 
 #: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
@@ -597,6 +630,10 @@ msgid "Method"
 msgstr ""
 
 #: templates/CRM/Cdntaxreceipts/Form/ViewTaxReceipt.tpl
+msgid "Data"
+msgstr ""
+
+#: templates/CRM/Cdntaxreceipts/Form/ViewTaxReceipt.tpl
 msgid "Type"
 msgstr ""
 
@@ -618,12 +655,31 @@ msgstr ""
 
 #: templates/CRM/Cdntaxreceipts/Form/ViewTaxReceipt.tpl
 msgid ""
+"The receipt will be sent <strong>by email</strong> to the contributor (%1)."
+msgstr ""
+
+#: templates/CRM/Cdntaxreceipts/Form/ViewTaxReceipt.tpl
+msgid ""
 "Please <strong>download and print</strong> the receipt that\n"
 "      is generated. You will need to send a printed copy to the contributor."
 msgstr ""
 
 #: templates/CRM/Cdntaxreceipts/Form/ViewTaxReceipt.tpl
 msgid "You do not have sufficient authorization to issue tax receipts."
+msgstr ""
+
+#: templates/CRM/Cdntaxreceipts/Form/ViewTaxReceipt.tpl
+msgid ""
+"Click '%1' to re-issue a tax receipt for this contribution. The tax receipt "
+"will be marked 'Cancelled' with the same receipt number and amount as the "
+"original copy."
+msgstr ""
+
+#: templates/CRM/Cdntaxreceipts/Form/ViewTaxReceipt.tpl
+msgid ""
+"Click '%1' to re-issue a tax receipt for this contribution. The tax receipt "
+"will be marked 'Duplicate' with the same receipt number and amount as the "
+"original copy."
 msgstr ""
 
 #: templates/CRM/Cdntaxreceipts/Form/ViewTaxReceipt.tpl
@@ -652,6 +708,10 @@ msgstr ""
 
 #: templates/CRM/Cdntaxreceipts/Task/IssueAggregateTaxReceipts.tpl
 msgid "Selected Contribution Amount"
+msgstr ""
+
+#: templates/CRM/Cdntaxreceipts/Task/IssueAggregateTaxReceipts.tpl
+msgid "Tax Receipts"
 msgstr ""
 
 #: templates/CRM/Cdntaxreceipts/Task/IssueAggregateTaxReceipts.tpl
