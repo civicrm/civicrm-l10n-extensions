@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2019-03-14 05:01+0000\n"
-"PO-Revision-Date: 2019-03-14 05:01+0000\n"
+"POT-Creation-Date: 2019-07-16 05:01+0000\n"
+"PO-Revision-Date: 2019-07-16 05:01+0000\n"
 "Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
 "Language-Team: French (http://www.transifex.com/civicrm/civicrm_extensions/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -19,15 +19,6 @@ msgstr ""
 
 #: CRM/Core/Payment/Stripe.php
 msgid "Stripe"
-msgstr ""
-
-#: CRM/Core/Payment/Stripe.php
-msgid "The \"Secret Key\" is not set in the Stripe Payment Processor settings."
-msgstr ""
-
-#: CRM/Core/Payment/Stripe.php
-msgid ""
-"The \"Publishable Key\" is not set in the Stripe Payment Processor settings."
 msgstr ""
 
 #: CRM/Core/Payment/Stripe.php
@@ -76,27 +67,22 @@ msgstr ""
 msgid "Upgrade %1 to revision %2"
 msgstr ""
 
-#: CRM/Stripe/Utils/Check/Webhook.php
+#: CRM/Stripe/Webhook.php
+msgid "The %1 (%2) Payment Processor has an error: %3"
+msgstr ""
+
+#: CRM/Stripe/Webhook.php
+msgid "Stripe - API Key"
+msgstr ""
+
+#: CRM/Stripe/Webhook.php
 msgid ""
-"The %1 (%2) Payment Processor does not have a webhook configured. This is "
-"only required for recurring contributions. You can review from your Stripe "
-"account, under Developers > Webhooks. The webhook URL is: %3"
+"Could not create webhook. You can review from your Stripe account, under "
+"Developers > Webhooks.<br/>The webhook URL is: %3"
 msgstr ""
 
-#: CRM/Stripe/Utils/Check/Webhook.php
-msgid "Stripe - Webhook"
-msgstr ""
-
-#: CRM/Stripe/Utils/Check/Webhook.php
-msgid "The %1 (%2) Payment Processor has a webhook configured (%3)."
-msgstr ""
-
-#: CRM/Stripe/Utils/Check/Webhook.php
-msgid ""
-"The %1 (%2) Payment Processor does not have a valid webhook configured for "
-"this website. This is only required for recurring contributions. You can "
-"review from your Stripe account, under Developers > Webhooks. The webhook "
-"URL is: %3"
+#: CRM/Stripe/Webhook.php
+msgid "Stripe Webhook: %1 (%2)"
 msgstr ""
 
 #: api/v3/Stripe/Ipn.php
@@ -152,11 +138,13 @@ msgid "CiviCRM Contact ID"
 msgstr ""
 
 #: api/v3/StripeCustomer.php api/v3/StripeSubscription.php
-msgid "Is live processor"
+msgid "Payment Processor ID"
 msgstr ""
 
-#: api/v3/StripeCustomer.php api/v3/StripeSubscription.php
-msgid "Payment Processor ID"
+#: api/v3/StripeCustomer.php
+msgid ""
+"If set only this customer will be updated, otherwise we try and update ALL "
+"customers"
 msgstr ""
 
 #: api/v3/StripeSubscription.php
@@ -169,4 +157,20 @@ msgstr ""
 
 #: api/v3/StripeSubscription.php
 msgid "End Time"
+msgstr ""
+
+#: api/v3/StripeSubscription.php
+msgid "Contact ID"
+msgstr ""
+
+#: api/v3/StripeSubscription.php
+msgid "Contribution ID"
+msgstr ""
+
+#: api/v3/StripeSubscription.php
+msgid "Membership ID"
+msgstr ""
+
+#: api/v3/StripeSubscription.php
+msgid "Link to existing membership automatically"
 msgstr ""
