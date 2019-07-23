@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2019-07-16 05:01+0000\n"
-"PO-Revision-Date: 2019-07-16 05:01+0000\n"
+"POT-Creation-Date: 2019-07-23 05:01+0000\n"
+"PO-Revision-Date: 2019-07-23 05:01+0000\n"
 "Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
 "Language-Team: French (http://www.transifex.com/civicrm/civicrm_extensions/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -63,26 +63,51 @@ msgid ""
 "found)."
 msgstr ""
 
+#: CRM/Stripe/Form/UpdateWebhook.php
+msgid "Update / Create webhook"
+msgstr ""
+
+#: CRM/Stripe/Form/UpdateWebhook.php
+msgid "All webhooks update successfully."
+msgstr ""
+
 #: CRM/Stripe/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
 msgstr ""
 
 #: CRM/Stripe/Webhook.php
-msgid "The %1 (%2) Payment Processor has an error: %3"
-msgstr ""
-
-#: CRM/Stripe/Webhook.php
-msgid "Stripe - API Key"
+msgid "Stripe Payment Processor: %1 (%2)"
 msgstr ""
 
 #: CRM/Stripe/Webhook.php
 msgid ""
-"Could not create webhook. You can review from your Stripe account, under "
-"Developers > Webhooks.<br/>The webhook URL is: %3"
+"Unable to update the webhook %1. To correct this please delete the webhook "
+"at Stripe and then revisit this page which will recreate it correctly."
 msgstr ""
 
 #: CRM/Stripe/Webhook.php
-msgid "Stripe Webhook: %1 (%2)"
+msgid ""
+"Problems detected with Stripe webhook %1. Please visit <a href=\"%2\">Fix "
+"Stripe Webhook</a> to fix."
+msgstr ""
+
+#: CRM/Stripe/Webhook.php
+msgid ""
+"Could not check/update existing webhooks, got error from stripe <em>%1</em>"
+msgstr ""
+
+#: CRM/Stripe/Webhook.php
+msgid "Could not create webhook, got error from stripe <em>%1</em>"
+msgstr ""
+
+#: CRM/Stripe/Webhook.php
+msgid ""
+"Stripe Webhook missing! Please visit <a href=\"%1\">Fix Stripe Webhook</a> "
+"to fix."
+msgstr ""
+
+#: CRM/Stripe/Webhook.php
+msgid "Stripe Payment Processor Webhook: %1 (%2)"
 msgstr ""
 
 #: api/v3/Stripe/Ipn.php
