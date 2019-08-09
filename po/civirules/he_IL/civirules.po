@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2019-04-25 05:01+0000\n"
-"PO-Revision-Date: 2019-04-25 05:01+0000\n"
+"POT-Creation-Date: 2019-08-09 05:01+0000\n"
+"PO-Revision-Date: 2019-08-09 05:01+0000\n"
 "Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
 "Language-Team: Hebrew (http://www.transifex.com/civicrm/civicrm_extensions/language/he/)\n"
 "MIME-Version: 1.0\n"
@@ -67,10 +67,12 @@ msgid "Modifier"
 msgstr ""
 
 #: CRM/Civirules/Delay/DelayBasedOnDateField.php
+#: CRM/CivirulesCronTrigger/Form/EventDate.php
 msgid "Before"
 msgstr ""
 
 #: CRM/Civirules/Delay/DelayBasedOnDateField.php
+#: CRM/CivirulesCronTrigger/Form/EventDate.php
 #: templates/CRM/Civirules/Delay/XWeekDay.tpl
 #: templates/CRM/Civirules/Delay/XWeekDayOfMonth.tpl
 msgid "After"
@@ -86,14 +88,20 @@ msgid "Unit"
 msgstr ""
 
 #: CRM/Civirules/Delay/DelayBasedOnDateField.php
+#: CRM/CivirulesCronTrigger/EventDate.php
+#: CRM/CivirulesCronTrigger/Form/EventDate.php
 msgid "Day(s)"
 msgstr ""
 
 #: CRM/Civirules/Delay/DelayBasedOnDateField.php
+#: CRM/CivirulesCronTrigger/EventDate.php
+#: CRM/CivirulesCronTrigger/Form/EventDate.php
 msgid "Month(s)"
 msgstr ""
 
 #: CRM/Civirules/Delay/DelayBasedOnDateField.php
+#: CRM/CivirulesCronTrigger/EventDate.php
+#: CRM/CivirulesCronTrigger/Form/EventDate.php
 msgid "Week(s)"
 msgstr ""
 
@@ -170,6 +178,7 @@ msgid "Delay to %1 of %2 at %3:%4"
 msgstr ""
 
 #: CRM/Civirules/Delay/XWeekDay.php CRM/Civirules/Delay/XWeekDayOfMonth.php
+#: CRM/CivirulesCronTrigger/Form/EventDate.php
 msgid "Offset"
 msgstr ""
 
@@ -344,6 +353,7 @@ msgstr ""
 #: CRM/CivirulesConditions/Form/Contact/HasPhone.php
 #: CRM/CivirulesConditions/Form/Contact/HasSubtype.php
 #: CRM/CivirulesConditions/Form/Contact/HasTag.php
+#: CRM/CivirulesConditions/Form/Contact/InDomain.php
 #: CRM/CivirulesConditions/Form/Contact/InGroup.php
 #: CRM/CivirulesConditions/Form/Contact/LivesInCountry.php
 #: CRM/CivirulesConditions/Form/Contribution/Campaign.php
@@ -371,6 +381,7 @@ msgstr ""
 #: CRM/CivirulesConditions/Form/Relationship/RelationshipType.php
 #: CRM/CivirulesConditions/Form/ValueComparison.php
 #: CRM/CivirulesCronTrigger/Form/ActivityDate.php
+#: CRM/CivirulesCronTrigger/Form/EventDate.php
 #: CRM/CivirulesCronTrigger/Form/GroupMembership.php
 #: CRM/CivirulesCronTrigger/Form/MembershipEndDate.php
 #: templates/CRM/Civirules/Form/RuleDelete.tpl
@@ -409,6 +420,7 @@ msgstr ""
 #: CRM/CivirulesConditions/Form/Contact/HasPhone.php
 #: CRM/CivirulesConditions/Form/Contact/HasSubtype.php
 #: CRM/CivirulesConditions/Form/Contact/HasTag.php
+#: CRM/CivirulesConditions/Form/Contact/InDomain.php
 #: CRM/CivirulesConditions/Form/Contact/InGroup.php
 #: CRM/CivirulesConditions/Form/Contact/LivesInCountry.php
 #: CRM/CivirulesConditions/Form/Contribution/Campaign.php
@@ -436,6 +448,7 @@ msgstr ""
 #: CRM/CivirulesConditions/Form/Relationship/RelationshipType.php
 #: CRM/CivirulesConditions/Form/ValueComparison.php
 #: CRM/CivirulesCronTrigger/Form/ActivityDate.php
+#: CRM/CivirulesCronTrigger/Form/EventDate.php
 #: CRM/CivirulesCronTrigger/Form/GroupMembership.php
 #: CRM/CivirulesCronTrigger/Form/MembershipEndDate.php
 msgid "Save"
@@ -740,6 +753,14 @@ msgstr ""
 msgid "Thank You Date"
 msgstr ""
 
+#: CRM/CivirulesActions/Contribution/Form/ThankYouDate.php
+msgid "Thank You Time will be set to : "
+msgstr ""
+
+#: CRM/CivirulesActions/Contribution/Form/ThankYouDate.php
+msgid "Thank You Time"
+msgstr ""
+
 #: CRM/CivirulesActions/GroupContact/Form/GroupId.php
 msgid "Select a single a group"
 msgstr ""
@@ -873,6 +894,7 @@ msgstr ""
 
 #: CRM/CivirulesConditions/Contact/HasSubtype.php
 #: CRM/CivirulesConditions/Contact/HasTag.php
+#: CRM/CivirulesConditions/Contact/InDomain.php
 #: CRM/CivirulesConditions/Contact/InGroup.php
 msgid "unknown"
 msgstr ""
@@ -893,6 +915,14 @@ msgstr ""
 #: CRM/CivirulesConditions/Contact/HasTag.php
 #: CRM/CivirulesConditions/Contact/InGroup.php
 msgid "Not in selected"
+msgstr ""
+
+#: CRM/CivirulesConditions/Contact/InDomain.php
+msgid "In selected domain"
+msgstr ""
+
+#: CRM/CivirulesConditions/Contact/InDomain.php
+msgid "Not in selected domain"
 msgstr ""
 
 #: CRM/CivirulesConditions/Contact/LivesInCountry.php
@@ -970,6 +1000,7 @@ msgstr ""
 #: CRM/CivirulesConditions/Form/Contact/HasBeenInGroup.php
 #: CRM/CivirulesConditions/Form/Contact/HasSubtype.php
 #: CRM/CivirulesConditions/Form/Contact/HasTag.php
+#: CRM/CivirulesConditions/Form/Contact/InDomain.php
 #: CRM/CivirulesConditions/Form/Contact/InGroup.php
 #: CRM/CivirulesConditions/Form/Contribution/Campaign.php
 #: CRM/CivirulesConditions/Form/Contribution/DistinctContributingDay.php
@@ -1109,6 +1140,10 @@ msgstr ""
 msgid "Subtypes"
 msgstr ""
 
+#: CRM/CivirulesConditions/Form/Contact/InDomain.php
+msgid "Domain"
+msgstr ""
+
 #: CRM/CivirulesConditions/Form/Contact/LivesInCountry.php
 msgid "Country"
 msgstr ""
@@ -1211,6 +1246,10 @@ msgstr ""
 #: CRM/CivirulesConditions/Form/FieldValueChangeComparison.php
 #: CRM/CivirulesConditions/Form/ValueComparison.php
 msgid "Compare values"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/FieldValueComparison.php
+msgid "Compare with original value (before the change)?"
 msgstr ""
 
 #: CRM/CivirulesConditions/Form/FieldValueComparison.php
@@ -1414,6 +1453,31 @@ msgstr ""
 msgid "Person"
 msgstr ""
 
+#: CRM/CivirulesCronTrigger/EventDate.php
+msgid "Start Date"
+msgstr ""
+
+#: CRM/CivirulesCronTrigger/EventDate.php
+msgid "End Date"
+msgstr ""
+
+#: CRM/CivirulesCronTrigger/EventDate.php
+msgid "before"
+msgstr ""
+
+#: CRM/CivirulesCronTrigger/EventDate.php
+msgid "after"
+msgstr ""
+
+#: CRM/CivirulesCronTrigger/EventDate.php
+#: CRM/CivirulesCronTrigger/Form/EventDate.php
+msgid "Year(s)"
+msgstr ""
+
+#: CRM/CivirulesCronTrigger/EventDate.php
+msgid "Event with type %1 and field %2 date reached %3"
+msgstr ""
+
 #: CRM/CivirulesCronTrigger/Form/ActivityDate.php
 #: CRM/CivirulesCronTrigger/Form/MembershipEndDate.php
 msgid "Activity Type"
@@ -1421,6 +1485,34 @@ msgstr ""
 
 #: CRM/CivirulesCronTrigger/Form/ActivityDate.php
 msgid "Activity Status"
+msgstr ""
+
+#: CRM/CivirulesCronTrigger/Form/EventDate.php
+msgid "Event Type"
+msgstr ""
+
+#: CRM/CivirulesCronTrigger/Form/EventDate.php
+msgid "Date Field"
+msgstr ""
+
+#: CRM/CivirulesCronTrigger/Form/EventDate.php
+msgid "Start date"
+msgstr ""
+
+#: CRM/CivirulesCronTrigger/Form/EventDate.php
+msgid "End date"
+msgstr ""
+
+#: CRM/CivirulesCronTrigger/Form/EventDate.php
+msgid "Offset Unit"
+msgstr ""
+
+#: CRM/CivirulesCronTrigger/Form/EventDate.php
+msgid "Offset type"
+msgstr ""
+
+#: CRM/CivirulesCronTrigger/Form/EventDate.php
+msgid "Give a date offset"
 msgstr ""
 
 #: CRM/CivirulesCronTrigger/Form/MembershipEndDate.php
