@@ -10,8 +10,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2019-08-09 05:01+0000\n"
-"PO-Revision-Date: 2019-08-09 05:01+0000\n"
+"POT-Creation-Date: 2019-08-24 05:01+0000\n"
+"PO-Revision-Date: 2019-08-24 05:01+0000\n"
 "Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
 "Language-Team: Spanish (http://www.transifex.com/civicrm/civicrm_extensions/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -341,6 +341,7 @@ msgstr "Siguiente"
 #: CRM/CivirulesActions/Contact/Form/Subtype.php
 #: CRM/CivirulesActions/Contribution/Form/ThankYouDate.php
 #: CRM/CivirulesActions/GroupContact/Form/GroupId.php
+#: CRM/CivirulesActions/Participant/Form/UpdateStatus.php
 #: CRM/CivirulesActions/Tag/Form/TagId.php
 #: CRM/CivirulesActions/User/Form/DisplayMessage.php
 #: CRM/CivirulesConditions/Form/Activity/Campaign.php
@@ -408,6 +409,7 @@ msgstr "Eliminar"
 #: CRM/CivirulesActions/Contact/Form/Subtype.php
 #: CRM/CivirulesActions/Contribution/Form/ThankYouDate.php
 #: CRM/CivirulesActions/GroupContact/Form/GroupId.php
+#: CRM/CivirulesActions/Participant/Form/UpdateStatus.php
 #: CRM/CivirulesActions/Tag/Form/TagId.php
 #: CRM/CivirulesActions/User/Form/DisplayMessage.php
 #: CRM/CivirulesConditions/Form/Activity/Campaign.php
@@ -596,6 +598,7 @@ msgstr "Tipo: %1"
 
 #: CRM/CivirulesActions/Activity/Add.php
 #: CRM/CivirulesActions/Activity/UpdateStatus.php
+#: CRM/CivirulesActions/Participant/UpdateStatus.php
 msgid "Status: %1"
 msgstr "Estado: %1"
 
@@ -619,6 +622,7 @@ msgstr "Tipo de actividad"
 #: CRM/CivirulesActions/Activity/Form/UpdateStatus.php
 #: CRM/CivirulesActions/Contact/Form/Subtype.php
 #: CRM/CivirulesActions/GroupContact/Form/GroupId.php
+#: CRM/CivirulesActions/Participant/Form/UpdateStatus.php
 #: CRM/CivirulesActions/Tag/Form/TagId.php
 #: CRM/CivirulesConditions/Form/Contribution/Status.php
 #: CRM/CivirulesConditions/Form/GroupContact/GroupId.php
@@ -627,6 +631,7 @@ msgstr "-- seleccionar --"
 
 #: CRM/CivirulesActions/Activity/Form/Activity.php
 #: CRM/CivirulesActions/Activity/Form/UpdateStatus.php
+#: CRM/CivirulesActions/Participant/Form/UpdateStatus.php
 #: CRM/CivirulesConditions/Form/Contribution/Status.php
 #: CRM/CivirulesConditions/Form/Contribution/TotalContributedAmount.php
 msgid "Status"
@@ -781,6 +786,7 @@ msgstr "Grupo"
 #: CRM/CivirulesActions/GroupContact/Form/GroupId.php
 #: CRM/CivirulesConditions/Form/Contact/InGroup.php
 #: CRM/CivirulesCronTrigger/Form/GroupMembership.php
+#: templates/CRM/CivirulesConditions/Form/Contact/InGroup.tpl
 msgid "Groups"
 msgstr "Grupos"
 
@@ -1024,6 +1030,7 @@ msgstr "Campaña(s)"
 #: CRM/CivirulesConditions/Form/Participant/ParticipantStatus.php
 #: CRM/CivirulesConditions/Form/Relationship/RelationshipType.php
 #: CRM/CivirulesConditions/Form/ValueComparison.php
+#: templates/CRM/CivirulesConditions/Form/Contact/InGroup.tpl
 msgid "Operator"
 msgstr "Operador"
 
@@ -1146,6 +1153,10 @@ msgstr ""
 
 #: CRM/CivirulesConditions/Form/Contact/InDomain.php
 msgid "Domain"
+msgstr ""
+
+#: CRM/CivirulesConditions/Form/Contact/InGroup.php
+msgid "Check Group Tree?"
 msgstr ""
 
 #: CRM/CivirulesConditions/Form/Contact/LivesInCountry.php
@@ -1717,6 +1728,31 @@ msgstr ""
 msgid ""
 "Please note that using the date the action is executed only makes sense if "
 "you also specify a delay!!!!"
+msgstr ""
+
+#: templates/CRM/CivirulesConditions/Form/Contact/InGroup.tpl
+msgid "For this CiviRule condition you can specify:"
+msgstr ""
+
+#: templates/CRM/CivirulesConditions/Form/Contact/InGroup.tpl
+msgid ""
+"if you want to check if the contact is in one group, more groups OR not in "
+"one or more groups"
+msgstr ""
+
+#: templates/CRM/CivirulesConditions/Form/Contact/InGroup.tpl
+msgid "Check Group Tree"
+msgstr ""
+
+#: templates/CRM/CivirulesConditions/Form/Contact/InGroup.tpl
+msgid ""
+"when checking do you want to ONLY check the selected groups or ALSO check "
+"for inherited group membership (if the contact is in one of the child groups"
+" of the selected groups)"
+msgstr ""
+
+#: templates/CRM/CivirulesConditions/Form/Contact/InGroup.tpl
+msgid "the groups to check for"
 msgstr ""
 
 #: templates/CRM/CivirulesConditions/Form/Contact/LivesInCountry.tpl
