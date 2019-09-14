@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2019-07-23 05:01+0000\n"
-"PO-Revision-Date: 2019-07-23 05:01+0000\n"
+"POT-Creation-Date: 2019-09-14 05:01+0000\n"
+"PO-Revision-Date: 2019-09-14 05:01+0000\n"
 "Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
 "Language-Team: Polish (http://www.transifex.com/civicrm/civicrm_extensions/language/pl/)\n"
 "MIME-Version: 1.0\n"
@@ -17,49 +17,33 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 #: CRM/Core/Payment/Stripe.php
-msgid "Stripe"
+msgid "Unable to complete payment! Missing paymentIntent ID."
 msgstr ""
 
 #: CRM/Core/Payment/Stripe.php
-msgid "- select -"
-msgstr ""
-
-#: CRM/Core/Payment/Stripe.php
-msgid "Card Number"
-msgstr ""
-
-#: CRM/Core/Payment/Stripe.php
-msgid "Security Code"
-msgstr ""
-
-#: CRM/Core/Payment/Stripe.php
-msgid "Expiration Date"
-msgstr ""
-
-#: CRM/Core/Payment/Stripe.php
-msgid "Card Type"
-msgstr ""
-
-#: CRM/Core/Payment/Stripe.php
-msgid ""
-"ALERT! Unmasked credit card received in back end. Please report this error "
-"to the site administrator."
-msgstr ""
-
-#: CRM/Core/Payment/Stripe.php
-msgid ""
-"Unable to complete payment! Please this to the site administrator with a "
-"description of what you were trying to do."
-msgstr ""
-
-#: CRM/Core/Payment/Stripe.php
-msgid "Backend Stripe contribution"
+msgid "Contribution: %1"
 msgstr ""
 
 #: CRM/Core/Payment/Stripe.php
 msgid ""
 "The recurring contribution cannot be cancelled (No reference (trxn_id) "
 "found)."
+msgstr ""
+
+#: CRM/Stripe/Check.php
+msgid ""
+"The Stripe extension requires the mjwshared extension which is not installed"
+" (https://lab.civicrm.org/extensions/mjwshared)."
+msgstr ""
+
+#: CRM/Stripe/Check.php
+msgid "Stripe: Missing Requirements"
+msgstr ""
+
+#: CRM/Stripe/Check.php
+msgid ""
+"The Stripe extension requires the mjwshared extension version %1 or greater "
+"but your system has version %2."
 msgstr ""
 
 #: CRM/Stripe/Form/UpdateWebhook.php
@@ -72,10 +56,6 @@ msgstr ""
 
 #: CRM/Stripe/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
-msgstr ""
-
-#: CRM/Stripe/Webhook.php
-msgid "Stripe Payment Processor: %1 (%2)"
 msgstr ""
 
 #: CRM/Stripe/Webhook.php
@@ -102,11 +82,12 @@ msgstr ""
 #: CRM/Stripe/Webhook.php
 msgid ""
 "Stripe Webhook missing! Please visit <a href=\"%1\">Fix Stripe Webhook</a> "
-"to fix."
+"to fix.<br />Expected webhook path is: <a href=\"%2\" "
+"target=\"_blank\">%2</a>"
 msgstr ""
 
 #: CRM/Stripe/Webhook.php
-msgid "Stripe Payment Processor Webhook: %1 (%2)"
+msgid "Stripe Payment Processor: %1 (%2)"
 msgstr ""
 
 #: api/v3/Stripe/Ipn.php
@@ -197,4 +178,17 @@ msgstr ""
 
 #: api/v3/StripeSubscription.php
 msgid "Link to existing membership automatically"
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid "Enable Stripe Javascript debugging?"
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid ""
+"Enables debug logging to browser console for stripe payment processors."
+msgstr ""
+
+#: stripe.php
+msgid "Stripe Settings"
 msgstr ""
