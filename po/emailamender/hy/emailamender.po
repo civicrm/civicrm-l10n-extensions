@@ -1,0 +1,118 @@
+# Copyright CiviCRM LLC (c) 2004-2015
+# This file is distributed under the same license as the CiviCRM package.
+# If you contribute heavily to a translation and deem your work copyrightable,
+# make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: emailamender\n"
+"POT-Creation-Date: 2018-11-15 19:44+0000\n"
+"Language-Team: Armenian (https://www.transifex.com/civicrm/teams/1460/hy/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hy\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: CRM/Emailamender/Form/Task/Correctemailaddresses.php
+msgid "Correct Email Addresses"
+msgstr ""
+
+#: CRM/Emailamender/Page/EmailAmenderSettings.php
+msgid "Email Amender Settings"
+msgstr ""
+
+#: CRM/Emailamender/Upgrader/Base.php
+msgid "Upgrade %1 to revision %2"
+msgstr ""
+
+#: CRM/Emailamender.php
+msgid "Email Address Corrector"
+msgstr ""
+
+#: api/v3/EmailAmender/UpdateCorrections.php
+msgid "Couldn't update settings - invalid domain level"
+msgstr ""
+
+#: emailamender.php
+msgid "Email - correct email addresses"
+msgstr ""
+
+#: templates/CRM/Emailamender/Form/Task/Correctemailaddresses.tpl
+msgid "contacts are due to be processed."
+msgstr ""
+
+#: templates/CRM/Emailamender/Page/EmailAmenderSettings.tpl
+msgid ""
+"When the Enable Automatic Email Corrections setting below is checked, email "
+"addresses are corrected automatically as they are added. So "
+"<strong>john@hotmai.cpm</strong> would be corrected to "
+"<strong>john@hotmail.com</strong>"
+msgstr ""
+
+#: templates/CRM/Emailamender/Page/EmailAmenderSettings.tpl
+msgid "Enable automatic email corrections."
+msgstr ""
+
+#: templates/CRM/Emailamender/Page/EmailAmenderSettings.tpl
+msgid "Compound Top Level Domain Names"
+msgstr ""
+
+#: templates/CRM/Emailamender/Page/EmailAmenderSettings.tpl
+msgid ""
+"\"Compound\" Top Level Domain Names indicate second level domain names that "
+"are usually treated as part of the first. For instance, in the case of the "
+"incorrect email address john@gmai.co.uk, we want to repair the 'gmai', not "
+"the 'co'."
+msgstr ""
+
+#: templates/CRM/Emailamender/Page/EmailAmenderSettings.tpl
+msgid "Delete this compound tld"
+msgstr ""
+
+#: templates/CRM/Emailamender/Page/EmailAmenderSettingsTable.tpl
+msgid "Incorrect Domain"
+msgstr ""
+
+#: templates/CRM/Emailamender/Page/EmailAmenderSettingsTable.tpl
+msgid "Replace with"
+msgstr ""
+
+#: templates/CRM/Emailamender/Page/EmailAmenderSettingsTable.tpl
+#: templates/CRM/Emailamender/Page/EquivalentsTable.tpl
+msgid "Options"
+msgstr ""
+
+#: templates/CRM/Emailamender/Page/EmailAmenderSettingsTable.tpl
+#: templates/CRM/Emailamender/Page/EquivalentsTable.tpl
+msgid "Save changes"
+msgstr ""
+
+#: templates/CRM/Emailamender/Page/EquivalentsTable.tpl
+msgid ""
+"When an e-mail arrives from an address for which there is no existing\n"
+"  contact in the system, normally a new contact is created with that\n"
+"  address.\n"
+"  <br/><br/>\n"
+"  However, some e-mail domains are equivalent, and lead to the\n"
+"  same accounts, eg. user@<strong>gmail</strong>.com and\n"
+"  user@<strong>googlemail</strong>.com.\n"
+"  <br/><br/>\n"
+"  If the exact \"from\" address on an incoming e-mail is not found on an\n"
+"  existing contact, we try its possible equivalents.\n"
+"  <br/><br/>\n"
+"  In the table below, groups can be created of domains that are equivalent.\n"
+"  <br/><br/>\n"
+"  Because this function is separate from the correction of added\n"
+"  addresses, it is not subject to the box 'Enable automatic email\n"
+"  corrections' being ticked.\n"
+"  <br/><br/>\n"
+"  It does not change any existing data for a contact."
+msgstr ""
+
+#: templates/CRM/Emailamender/Page/EquivalentsTable.tpl
+msgid "Group identifier"
+msgstr ""
+
+#: templates/CRM/Emailamender/Page/EquivalentsTable.tpl
+msgid "Equivalent domain"
+msgstr ""
