@@ -1,0 +1,970 @@
+# Copyright CiviCRM LLC (c) 2004-2015
+# This file is distributed under the same license as the CiviCRM package.
+# If you contribute heavily to a translation and deem your work copyrightable,
+# make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: flexiblejobs\n"
+"POT-Creation-Date: 2018-02-06 17:42+0000\n"
+"Language-Team: Armenian (https://www.transifex.com/civicrm/teams/1460/hy/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hy\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: CRM/Admin/Form/Job.php
+msgid "Manage - Scheduled Jobs"
+msgstr ""
+
+#: CRM/Admin/Form/Job.php
+msgid "Name"
+msgstr ""
+
+#: CRM/Admin/Form/Job.php
+msgid "Name already exists in Database."
+msgstr ""
+
+#: CRM/Admin/Form/Job.php
+msgid "Description"
+msgstr ""
+
+#: CRM/Admin/Form/Job.php
+msgid "API Call Entity"
+msgstr ""
+
+#: CRM/Admin/Form/Job.php
+msgid "API Call Action"
+msgstr ""
+
+#: CRM/Admin/Form/Job.php
+msgid "Run frequency"
+msgstr ""
+
+#: CRM/Admin/Form/Job.php
+msgid "Command parameters"
+msgstr ""
+
+#: CRM/Admin/Form/Job.php
+msgid "Is this Scheduled Job active?"
+msgstr ""
+
+#: CRM/Admin/Form/Job.php
+msgid "Given API command is not defined."
+msgstr ""
+
+#: CRM/Admin/Form/Job.php
+msgid "Scheduled Job Deleted."
+msgstr ""
+
+#: CRM/Admin/Form/Job.php
+msgid ""
+"Relative month values are calculated based on the length of month(s) that they pass through.\n"
+"              The result will land on the same day of the month except for days 29-31 when the target month contains fewer days than the previous month.\n"
+"              For example, if a job is scheduled to run on August 31st, the following invocation will occur on October 1st, and then the 1st of every month thereafter.\n"
+"              To avoid this issue, please schedule Monthly and Quarterly jobs to run within the first 28 days of the month."
+msgstr ""
+
+#: CRM/Admin/Form/Job.php
+msgid "Warning"
+msgstr ""
+
+#: CRM/Admin/Form/Job.php
+msgid ""
+"The update greeting job can be very resource intensive and is typically not "
+"necessary to run on a regular basis. If you do choose to enable the job, we "
+"recommend you do not run it with the force=1 option, which would rebuild "
+"greetings on all records. Leaving that option absent, or setting it to "
+"force=0, will only rebuild greetings for contacts that do not currently have"
+" a value stored. %1"
+msgstr ""
+
+#: CRM/Admin/Form/Job.php
+msgid "Warning: Update Greeting job enabled"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Yes"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "No"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Both"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "HTML"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Text"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Do not phone"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Do not email"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Do not mail"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Do not sms"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Do not trade"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "No bulk emails (User Opt Out)"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "day"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "month"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "year"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "lifetime"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Rolling"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Fixed"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Automatic"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Only send to email addresses assigned to the specified location"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Prefer email addresses assigned to the specified location"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Exclude email addresses assigned to the specified location"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Public"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Admin"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "No auto-renew option"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Give option, but not required"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Auto-renew required"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "start date"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "end date"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "member since"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Single-line input field (text or numeric)"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Multi-line text box (textarea)"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Drop-down (select list)"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Radio buttons"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Checkbox(es)"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Select Date"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "File"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Select State/Province"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Multi-Select State/Province"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Select Country"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Multi-Select Country"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Rich Text Editor"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Autocomplete-Select"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Multi-Select"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "AdvMulti-Select"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Link"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Activities"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Relationships"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Contributions"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Groups"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Memberships"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Events"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Participants"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Participants (Role)"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Participants (Event Name)"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Participants (Event Type)"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Pledges"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Grants"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Addresses"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Campaigns"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Tab"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Inline"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Tab with table"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Standalone Form or Directory"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Search Views"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Drupal User Registration"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "View/Edit Drupal User Account"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Added"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Removed"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Pending"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Dynamic"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Static"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "- select -"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "User and User Admin Only"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Public Pages"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Public Pages and Listings"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Header"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Footer"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Reply Auto-responder"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Opt-out Message"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Subscription Confirmation Request"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Welcome Message"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Unsubscribe Message"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Resubscribe Message"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Unsubscribe via email"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Unsubscribe via web page"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Resubscribe via email"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Resubscribe via web page"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Opt out via email"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Opt out via web page"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Forward this email (link)"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Reply to this email (link)"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Subscribe via web page"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Domain name"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Domain (organization) address"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Domain (organization) phone"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Domain (organization) email"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Mailing name"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Mailing group"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Mailing permalink"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Activity ID"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Activity Subject"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Activity Details"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Activity Date Time"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Membership ID"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Membership Status"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Membership Type"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Membership Start Date"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Membership Join Date"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Membership End Date"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Membership Fee"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Event ID"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Event Title"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Event Start Date"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Event End Date"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Event Type"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Event Summary"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Event Contact Email"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Event Contact Phone"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Event Description"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Event Location"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Event Fees"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Event Info URL"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Event Registration URL"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Event Balance"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Contribution ID"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Total Amount"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Fee Amount"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Net Amount"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Non-deductible Amount"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Contribution Receive Date"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Payment Instrument"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Transaction ID"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Invoice ID"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Currency"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Contribution Cancel Date"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Contribution Cancel Reason"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Receipt Date"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Thank You Date"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Contribution Source"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Amount Level"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Contribution Status"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Check Number"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Contribution Campaign"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Checksum"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Internal Contact ID"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "mm/dd/yyyy (12/31/2009)"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "dd/mm/yyyy (31/12/2009)"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "yyyy-mm-dd (2009-12-31)"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "dd-mm-yyyy (31-12-2009)"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "dd.mm.yyyy (31.12.2009)"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "M d, yyyy (Dec 31, 2009)"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "d M yyyy (31 Dec 2009)"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "MM d, yyyy (December 31, 2009)"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "d MM yyyy (31 December 2009)"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "DD, d MM yyyy (Thursday, 31 December 2009)"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "mm/dd (12/31)"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "dd-mm (31-12)"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "yyyy-mm (2009-12)"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "M yyyy (Dec 2009)"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "yyyy (2009)"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "12 Hours"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "24 Hours"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Linear (1D)"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "QR code"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Unsupervised"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Supervised"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "General"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Include"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Exclude"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Email"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Web"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "API"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Day"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Week"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Month"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Year"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Payment"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Search"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Report"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Module"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "SMS"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Yearly"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Quarterly"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Monthly"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Weekly"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Daily"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Hourly"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Every time cron job is run"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "In"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Not In"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Like"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Not Like"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Regex"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Is Empty"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Not Empty"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Is Null"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Not Null"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Exact Match"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Wildcard Match"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Base"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Scheduled"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Running"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Complete"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Paused"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "Canceled"
+msgstr ""
+
+#: CRM/Core/SelectValues.php
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: CRM/Core/SelectValues.php
+msgid "week"
+msgid_plural "weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/CRM/Admin/Form/Job.tpl
+msgid "New Scheduled Job"
+msgstr ""
+
+#: templates/CRM/Admin/Form/Job.tpl
+msgid "Edit Scheduled Job"
+msgstr ""
+
+#: templates/CRM/Admin/Form/Job.tpl
+msgid "Execute Scheduled Job"
+msgstr ""
+
+#: templates/CRM/Admin/Form/Job.tpl
+msgid "Delete Scheduled Job"
+msgstr ""
+
+#: templates/CRM/Admin/Form/Job.tpl
+msgid ""
+"WARNING: Deleting this Scheduled Job will cause some important site "
+"functionality to stop working."
+msgstr ""
+
+#: templates/CRM/Admin/Form/Job.tpl
+msgid "Do you want to continue?"
+msgstr ""
+
+#: templates/CRM/Admin/Form/Job.tpl
+msgid "Are you sure you would like to execute this job?"
+msgstr ""
+
+#: templates/CRM/Admin/Form/Job.tpl
+msgid "API call:"
+msgstr ""
+
+#: templates/CRM/Admin/Form/Job.tpl
+msgid ""
+"Put in the API method name. You need to enter pieces of full API function "
+"name as described in the documentation."
+msgstr ""
+
+#: templates/CRM/Admin/Form/Job.tpl
+msgid ""
+"Do not run this job before this date / time. The run frequency selected "
+"above will apply thereafter."
+msgstr ""
+
+#: templates/CRM/Admin/Form/Job.tpl
+msgid "Leave blank to run as soon as possible."
+msgstr ""
+
+#: templates/CRM/Admin/Form/Job.tpl
+msgid "Leave blank to run at next run frequency."
+msgstr ""
