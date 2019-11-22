@@ -1,0 +1,166 @@
+# Copyright CiviCRM LLC (c) 2004-2015
+# This file is distributed under the same license as the CiviCRM package.
+# If you contribute heavily to a translation and deem your work copyrightable,
+# make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: CiviCRM_extensions\n"
+"POT-Creation-Date: 2018-11-15 19:41+0000\n"
+"PO-Revision-Date: 2014-05-30 13:55+0000\n"
+"Language-Team: Armenian (http://www.transifex.com/civicrm/civicrm_extensions/language/hy/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hy\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: CRM/Admin/Form/Setting/RegionLookup.php
+msgid "Save"
+msgstr ""
+
+#: CRM/Admin/Form/Setting/RegionLookup.php
+msgid "Settings saved."
+msgstr ""
+
+#: CRM/RegionLookup/BAO/RegionLookup.php
+msgid "Field selector"
+msgstr ""
+
+#: CRM/RegionLookup/BAO/RegionLookup.php
+msgid "District"
+msgstr ""
+
+#: CRM/RegionLookup/BAO/RegionLookup.php
+msgid "Borough"
+msgstr ""
+
+#: CRM/RegionLookup/BAO/RegionLookup.php
+msgid "City"
+msgstr ""
+
+#: CRM/RegionLookup/BAO/RegionLookup.php
+msgid "County"
+msgstr ""
+
+#: CRM/RegionLookup/BAO/RegionLookup.php
+msgid "State/Province"
+msgstr ""
+
+#: CRM/RegionLookup/BAO/RegionLookup.php
+msgid "Country"
+msgstr ""
+
+#: CRM/RegionLookup/BAO/RegionLookup.php
+msgid "Postcode"
+msgstr ""
+
+#: CRM/RegionLookup/BAO/RegionLookup.php
+msgid "State/Province riding"
+msgstr ""
+
+#: CRM/RegionLookup/BAO/RegionLookup.php
+msgid "Country riding"
+msgstr ""
+
+#: CRM/RegionLookup/BAO/RegionLookup.php
+msgid "Custom callback"
+msgstr ""
+
+#: CRM/RegionLookup/BAO/RegionLookup.php
+msgid "Enable prefix-searching?"
+msgstr ""
+
+#: CRM/RegionLookup/BAO/RegionLookup.php
+msgid "Enable wildcard search?"
+msgstr ""
+
+#: CRM/RegionLookup/BAO/RegionLookup.php
+msgid "Trigger search as the user types?"
+msgstr ""
+
+#: CRM/RegionLookup/BAO/RegionLookup.php
+msgid "How many characters to send to the lookup query?"
+msgstr ""
+
+#: CRM/RegionLookup/Upgrader/Base.php
+msgid "Upgrade %1 to revision %2"
+msgstr ""
+
+#: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
+msgid "Lookup field"
+msgstr ""
+
+#: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
+msgid ""
+"Field used for the lookup. This should be the postcode field in the CiviCRM "
+"billing block of contribution forms. If empty, it will disable the lookup "
+"function. Use the \"inspect element\" function of your browser to determine "
+"the correct selector."
+msgstr ""
+
+#: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
+msgid "For example: .billing_name_address-section input#billing_postal_code-5"
+msgstr ""
+
+#: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
+msgid ""
+"This allows to find the closest match. For example, you may have the H1H "
+"postcode mapped to a value, with the exception of H1H 2A2 mapped to another "
+"value."
+msgstr ""
+
+#: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
+msgid ""
+"This allows to search on partial matches. Makes sense mostly if used with "
+"the other options below. <strong>TODO: not implemented yet.</strong>"
+msgstr ""
+
+#: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
+msgid ""
+"Launches the search after each character typed by the user. Useful for "
+"partial matches with autocomplete. <strong>TODO: not implemented "
+"yet.</strong>"
+msgstr ""
+
+#: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
+msgid ""
+"For example, if your lookup only requires the first 3 digits of a postcode "
+"to find a match, enter 3 in this field. <strong>TODO: not implemented "
+"yet.</strong>"
+msgstr ""
+
+#: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
+msgid "Destination fields"
+msgstr ""
+
+#: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
+msgid ""
+"Field updated by the lookup. For example, the postcode lookup may update a "
+"region field, state/country riding, etc. Use the \"inspect element\" "
+"function of your browser to determine the correct selector. For example: the"
+" selector for a custom field ID 1 in a post profile is: "
+".custom_post_profile-group #custom_1"
+msgstr ""
+
+#: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
+msgid "Custom overrides"
+msgstr ""
+
+#: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
+msgid ""
+"Custom javascript function to call with the resulting data. This allows you "
+"to write your own custom callbacks and override how the response is handled."
+msgstr ""
+
+#: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
+msgid ""
+"Region Lookup is a CiviCRM extension openly available under the <a "
+"href=\"%1\">GNU AGPL License</a>."
+msgstr ""
+
+#: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
+msgid ""
+"For new versions, bug reports or support, visit the <a href=\"%1\">project "
+"page on github</a>."
+msgstr ""
