@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: form_processor\n"
-"POT-Creation-Date: 2019-07-16 05:01+0000\n"
+"POT-Creation-Date: 2019-11-27 05:01+0000\n"
 "Language-Team: French (https://www.transifex.com/civicrm/teams/1460/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,6 +19,7 @@ msgstr ""
 #: CRM/FormProcessor/DAO/FormProcessorInput.php
 #: CRM/FormProcessor/DAO/FormProcessorInstance.php
 #: CRM/FormProcessor/DAO/FormProcessorValidation.php
+#: Civi/FormProcessor/Type/CampaignType.php
 #: api/v3/FormProcessorAction/Create.php api/v3/FormProcessorAction/Delete.php
 #: api/v3/FormProcessorAction/Validatename.php
 #: api/v3/FormProcessorDefaultDataAction/Create.php
@@ -254,7 +255,7 @@ msgstr ""
 #: CRM/FormProcessor/Upgrader.php
 msgid ""
 "Form Processor was installed successfully, but you must also install and "
-"enable the <a href=\"%1\">action-provider Extension</a>."
+"enable the <a href=\"%1\">action-provider Extension</a> version %2 or newer."
 msgstr ""
 
 #: CRM/FormProcessor/Upgrader.php
@@ -294,6 +295,27 @@ msgstr ""
 
 #: Civi/FormProcessor/OutputHandler/OutputAllActionOutput.php
 msgid "Output all the output from all the actions"
+msgstr ""
+
+#: Civi/FormProcessor/Type/CampaignType.php
+msgid "Value field"
+msgstr ""
+
+#: Civi/FormProcessor/Type/CampaignType.php
+msgid "Name of the campaign"
+msgstr ""
+
+#: Civi/FormProcessor/Type/CustomOptionListType.php
+#: ang/form_processor/FormProcessorEditCtrl/DefaultDataOutputTable.html
+msgid "Value"
+msgstr ""
+
+#: Civi/FormProcessor/Type/CustomOptionListType.php
+msgid "Label"
+msgstr ""
+
+#: Civi/FormProcessor/Type/CustomOptionListType.php
+msgid "Options"
 msgstr ""
 
 #: Civi/FormProcessor/Type/DateType.php Civi/FormProcessor/Type/TimeType.php
@@ -374,11 +396,28 @@ msgid "Option Group"
 msgstr ""
 
 #: Civi/FormProcessor/Type/Factory.php
+msgid "Custom Options"
+msgstr ""
+
+#: Civi/FormProcessor/Type/Factory.php
 msgid "Country"
 msgstr ""
 
 #: Civi/FormProcessor/Type/Factory.php
+msgid "Country ISO Code"
+msgstr ""
+
+#: Civi/FormProcessor/Type/Factory.php
+msgid "State/Province"
+msgstr ""
+
+#: Civi/FormProcessor/Type/Factory.php
 msgid "Mailing Group"
+msgstr ""
+
+#: Civi/FormProcessor/Type/Factory.php
+#: Civi/FormProcessor/Type/ParentMailingGroupType.php
+msgid "Parent Mailing Group"
 msgstr ""
 
 #: Civi/FormProcessor/Type/Factory.php
@@ -387,6 +426,14 @@ msgstr ""
 
 #: Civi/FormProcessor/Type/Factory.php
 msgid "Campaign"
+msgstr ""
+
+#: Civi/FormProcessor/Type/Factory.php
+msgid "Financial Type"
+msgstr ""
+
+#: Civi/FormProcessor/Type/Factory.php
+msgid "Membership Type"
 msgstr ""
 
 #: Civi/FormProcessor/Type/Factory.php
@@ -409,30 +456,33 @@ msgstr ""
 msgid "Decimals"
 msgstr ""
 
-#: Civi/FormProcessor/Type/OptionGroupType.php
-msgid "Use label as value"
-msgstr ""
-
-#: Civi/FormProcessor/Type/OptionGroupType.php
-msgid "Option group"
-msgstr ""
-
+#: Civi/FormProcessor/Type/MailingGroupType.php
 #: Civi/FormProcessor/Type/OptionGroupType.php
 #: Civi/FormProcessor/Type/ParticipantStatusType.php
 #: Civi/FormProcessor/Type/WeekDays.php
 msgid "Multiple"
 msgstr ""
 
+#: Civi/FormProcessor/Type/MailingGroupType.php
 #: Civi/FormProcessor/Type/OptionGroupType.php
 #: Civi/FormProcessor/Type/ParticipantStatusType.php
 #: Civi/FormProcessor/Type/WeekDays.php
 msgid "Single value"
 msgstr ""
 
+#: Civi/FormProcessor/Type/MailingGroupType.php
 #: Civi/FormProcessor/Type/OptionGroupType.php
 #: Civi/FormProcessor/Type/ParticipantStatusType.php
 #: Civi/FormProcessor/Type/WeekDays.php
 msgid "Multiple values"
+msgstr ""
+
+#: Civi/FormProcessor/Type/OptionGroupType.php
+msgid "Use label as value"
+msgstr ""
+
+#: Civi/FormProcessor/Type/OptionGroupType.php
+msgid "Option group"
 msgstr ""
 
 #: Civi/FormProcessor/Type/TimeType.php
@@ -529,10 +579,6 @@ msgstr ""
 
 #: ang/form_processor/FormProcessorEditCtrl/DefaultDataOutputTable.html
 msgid "Default data"
-msgstr ""
-
-#: ang/form_processor/FormProcessorEditCtrl/DefaultDataOutputTable.html
-msgid "Value"
 msgstr ""
 
 #: ang/form_processor/FormProcessorEditCtrl/DefaultDataOutputTable.html
