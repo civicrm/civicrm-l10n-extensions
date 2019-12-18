@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2018-11-15 19:45+0000\n"
-"PO-Revision-Date: 2018-11-15 19:45+0000\n"
+"POT-Creation-Date: 2019-12-18 05:01+0000\n"
+"PO-Revision-Date: 2019-12-18 05:01+0000\n"
 "Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
 "Language-Team: Catalan (http://www.transifex.com/civicrm/civicrm_extensions/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -16,36 +16,112 @@ msgstr ""
 "Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: CRM/Core/Payment/Faps.php
+msgid "iATS Payments 1st American Payment System Interface"
+msgstr ""
+
+#: CRM/Core/Payment/Faps.php
+msgid ""
+"Processor Id is not set in the Administer CiviCRM &raquo; System Settings "
+"&raquo; Payment Processors."
+msgstr ""
+
+#: CRM/Core/Payment/Faps.php
+msgid ""
+"Transaction Center Id is not set in the Administer CiviCRM &raquo; System "
+"Settings &raquo; Payment Processors."
+msgstr ""
+
+#: CRM/Core/Payment/Faps.php
+msgid ""
+"Merchant Key is not set in the Administer CiviCRM &raquo; System Settings "
+"&raquo; Payment Processors."
+msgstr ""
+
+#: CRM/Core/Payment/Faps.php
+msgid "Cryptogram"
+msgstr ""
+
+#: CRM/Core/Payment/Faps.php
+msgid "This function is not implemented"
+msgstr ""
+
+#: CRM/Core/Payment/Faps.php CRM/Core/Payment/iATSService.php
+#: CRM/Core/Payment/iATSServiceACHEFT.php
+msgid "You have cancelled this recurring contribution."
+msgstr ""
+
+#: CRM/Core/Payment/Faps.php CRM/Core/Payment/iATSService.php
+#: CRM/Core/Payment/iATSServiceACHEFT.php CRM/Iats/Form/IATSCustomerLink.php
+#: CRM/Iats/Form/IATSOneTimeCharge.php CRM/Iats/Page/IATSCustomerLink.php
+#: iats.php
+msgid "Warning"
+msgstr ""
+
+#: CRM/Core/Payment/FapsACH.php
+msgid "iATS Payments 1st American Payment System Interface, ACH"
+msgstr ""
+
 #: CRM/Core/Payment/iATSService.php
 msgid "iATS Payments"
 msgstr ""
 
 #: CRM/Core/Payment/iATSService.php CRM/Core/Payment/iATSServiceACHEFT.php
-msgid "You have cancelled this recurring contribution."
-msgstr ""
-
-#: CRM/Core/Payment/iATSService.php CRM/Core/Payment/iATSServiceACHEFT.php
-#: CRM/iATS/Form/IATSCustomerLink.php CRM/iATS/Form/IATSOneTimeCharge.php
-#: CRM/iATS/Page/IATSCustomerLink.php iats.php
-msgid "Warning"
-msgstr ""
-
-#: CRM/Core/Payment/iATSService.php CRM/Core/Payment/iATSServiceACHEFT.php
-#: CRM/Core/Payment/iATSServiceUKDD.php
 msgid ""
 "Agent Code is not set in the Administer CiviCRM &raquo; System Settings "
 "&raquo; Payment Processors."
 msgstr ""
 
 #: CRM/Core/Payment/iATSService.php CRM/Core/Payment/iATSServiceACHEFT.php
-#: CRM/Core/Payment/iATSServiceUKDD.php
 msgid ""
 "Password is not set in the Administer CiviCRM &raquo; System Settings "
 "&raquo; Payment Processors."
 msgstr ""
 
+#: CRM/Core/Payment/iATSService.php
+msgid ""
+"This system is unable to perform self-service updates to credit cards. "
+"Please contact the administrator of this site."
+msgstr ""
+
 #: CRM/Core/Payment/iATSServiceACHEFT.php
 msgid "iATS Payments ACHEFT"
+msgstr ""
+
+#: CRM/Core/Payment/iATSServiceACHEFT.php
+msgid "Account type"
+msgstr ""
+
+#: CRM/Core/Payment/iATSServiceACHEFT.php
+msgid "Bank Number (3 digits)"
+msgstr ""
+
+#: CRM/Core/Payment/iATSServiceACHEFT.php
+msgid "%1 is a required field."
+msgstr ""
+
+#: CRM/Core/Payment/iATSServiceACHEFT.php
+msgid "Bank Number"
+msgstr ""
+
+#: CRM/Core/Payment/iATSServiceACHEFT.php
+msgid "%1 must contain only digits."
+msgstr ""
+
+#: CRM/Core/Payment/iATSServiceACHEFT.php
+msgid "%1 must be of length 3."
+msgstr ""
+
+#: CRM/Core/Payment/iATSServiceACHEFT.php
+msgid "Transit Number (5 digits)"
+msgstr ""
+
+#: CRM/Core/Payment/iATSServiceACHEFT.php
+msgid "Transit Number"
+msgstr ""
+
+#: CRM/Core/Payment/iATSServiceACHEFT.php
+msgid "%1 must be of length 5."
 msgstr ""
 
 #: CRM/Core/Payment/iATSServiceACHEFT.php
@@ -56,462 +132,559 @@ msgstr ""
 msgid "iATS Payments SWIPE"
 msgstr ""
 
-#: CRM/Core/Payment/iATSServiceUKDD.php
-msgid "iATS Payments UK Direct Debit"
+#: CRM/Core/Payment/iATSServiceSWIPE.php
+msgid "Encrypted Credit Card Details"
 msgstr ""
 
-#: CRM/Core/Payment/iATSServiceUKDD.php
-msgid "Invalid currency %1, must by GBP"
-msgstr ""
-
-#: CRM/Core/Payment/iATSServiceUKDD.php
-msgid ""
-"You must specify the number of installments, open-ended contributions are "
-"not allowed."
-msgstr ""
-
-#: CRM/Core/Payment/iATSServiceUKDD.php
-msgid "You must specify a number of installments greater than 1."
-msgstr ""
-
-#: CRM/Core/Payment/iATSServiceUKDD.php
-msgid "You can only choose each week on a weekly schedule."
-msgstr ""
-
-#: CRM/Core/Payment/iATSServiceUKDD.php
-msgid ""
-"You can only choose monthly or every three months (quarterly) for a monthly "
-"schedule."
-msgstr ""
-
-#: CRM/Core/Payment/iATSServiceUKDD.php
-msgid "You can only choose each year for a yearly schedule."
-msgstr ""
-
-#: CRM/Core/Payment/iATSServiceUKDD.php
-msgid "Invalid frequency unit: %1"
-msgstr ""
-
-#: CRM/Core/Payment/iATSServiceUKDD.php
-msgid ""
-"Service User Number (SUN) is not set in the Administer CiviCRM &raquo; "
-"System Settings &raquo; Payment Processors."
-msgstr ""
-
-#: CRM/Core/Payment/iATSServiceUKDD.php
-msgid "You can only use this payment processor with a UK iATS account"
-msgstr ""
-
-#: CRM/iATS/Form/IATSCustomerLink.php CRM/iATS/Form/IATSOneTimeCharge.php
-#: CRM/iATS/Page/IATSCustomerLink.php
+#: CRM/Iats/Form/IATSCustomerLink.php CRM/Iats/Form/IATSOneTimeCharge.php
+#: CRM/Iats/Page/IATSCustomerLink.php
 msgid "Unable to retrieve card details from iATS.<br />%1"
 msgstr ""
 
-#: CRM/iATS/Form/IATSCustomerLink.php CRM/iATS/Form/IatsSettings.php
+#: CRM/Iats/Form/IATSCustomerLink.php CRM/Iats/Form/Settings.php
 msgid "Submit"
 msgstr ""
 
-#: CRM/iATS/Form/IATSCustomerLink.php CRM/iATS/Form/IATSOneTimeCharge.php
+#: CRM/Iats/Form/IATSCustomerLink.php CRM/Iats/Form/IATSOneTimeCharge.php
 msgid "Back"
 msgstr ""
 
-#: CRM/iATS/Form/IATSCustomerUpdateBillingInfo.php
-msgid ""
-"This system is unable to perform self-service updates to credit cards. "
-"Please contact the administrator of this site."
+#: CRM/Iats/Form/IATSOneTimeCharge.php
+#: api/v3/Job/Iatsrecurringcontributions.php
+msgid "Unexpected error getting a payment token for recurring schedule id %1"
 msgstr ""
 
-#: CRM/iATS/Form/IATSOneTimeCharge.php
+#: CRM/Iats/Form/IATSOneTimeCharge.php
+#: api/v3/Job/Iatsrecurringcontributions.php
+msgid "Recur id %1 is missing a payment token."
+msgstr ""
+
+#: CRM/Iats/Form/IATSOneTimeCharge.php
+msgid ""
+"Unexpected error getting payment processor information for recurring "
+"schedule id %1"
+msgstr ""
+
+#: CRM/Iats/Form/IATSOneTimeCharge.php
+msgid "Unexpected error transacting one-time payment for schedule id %1"
+msgstr ""
+
+#: CRM/Iats/Form/IATSOneTimeCharge.php
 msgid "Automated email receipt for this contribution."
 msgstr ""
 
-#: CRM/iATS/Form/IATSOneTimeCharge.php
+#: CRM/Iats/Form/IATSOneTimeCharge.php
 msgid "Create this as a contribution in the recurring series."
 msgstr ""
 
-#: CRM/iATS/Form/IATSOneTimeCharge.php
+#: CRM/Iats/Form/IATSOneTimeCharge.php
 msgid "Charge this card"
 msgstr ""
 
-#: CRM/iATS/Form/IATSOneTimeCharge.php
+#: CRM/Iats/Form/IATSOneTimeCharge.php
 msgid ""
 "The contribution created by this form will be saved as contribution in the "
 "existing recurring series unless you uncheck the corresponding setting."
 msgstr ""
 
-#: CRM/iATS/Form/IatsSettings.php
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Donor Email"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Donor Phone"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Contribution ID"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Financial Type"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Contribution Status"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Contribution Page"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Source"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Payment Type"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Check Number"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Amount"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Non-deductible Amount"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Contribution OR Soft Credit?"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Soft Credits"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Soft Credit For"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Cancelled / Refunded Date"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Cancellation / Refund Reason"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Contributions Only"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Soft Credits Only"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Both"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Currency"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Contribution Amount"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Payment Method"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Date Received"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Thank-you Date"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Contribution"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Soft Credit Type"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Soft Credit amount"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Soft Credit"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Credit Card Type"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Batch Name"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Contribution Ordinality"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Contribution Note"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Donor Name"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php CRM/Iats/Form/Report/Journal.php
+#: CRM/Iats/Form/Report/JournalFaps.php
+msgid "CiviCRM Journal Id"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php CRM/Iats/Form/Report/Journal.php
+msgid "iATS Journal Id"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+#: CRM/Iats/Form/Report/Journal.php CRM/Iats/Form/Report/JournalFaps.php
+msgid "Transaction Date Time"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "iATS Journal Payment Status"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid ""
+"You cannot group by soft credit when displaying contributions only.  Please "
+"uncheck \"Soft Credit\" in the Grouping tab."
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Total Amount (Contributions)"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Total Contributions"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Fees"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Net"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Average"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Total Amount (Soft Credits)"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Total Soft Credits"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "Average (Soft Credits)"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid ""
+"Is it not possible to filter on soft contribution type when not including "
+"soft credits."
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "View Contribution Details"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+#: CRM/Iats/Form/Report/Recur.php
+msgid "View Contact Summary for this Contact."
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetail.php
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "View Details of this Contribution."
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+msgid "CiviCRM 1stPay Journal Id"
+msgstr ""
+
+#: CRM/Iats/Form/Report/ContributeDetailFaps.php
+#: CRM/Iats/Form/Report/JournalFaps.php
+msgid "1stPay Transaction Id"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Journal.php CRM/Iats/Form/Report/JournalFaps.php
+#: CRM/Iats/Form/Report/Verify.php
+msgid "Payment Status"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Last name, First name"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php
+msgid "First Name"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Last Name"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Prefix"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Contact Name"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Email"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Phone"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Contribution ID(s)"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Amount - to date"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Total Amount"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Expiry Date"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Series ID"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Current Amount"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Start Date"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Modified Date"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Next Scheduled Contribution Date"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Cycle Day"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Failure Count"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Payment Processor"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Invoice ID"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Donation Status"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Frequency interval"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Frequency unit"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Installments"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Create Date"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Cancel Date"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Failure Retry Date"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Frequency Unit"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Next Scheduled Day"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Address"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Supplementary Address Field 1"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php
+msgid "Supplementary Address Field 2"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Recur.php CRM/Iats/Form/Report/Verify.php
+msgid "View Details of this Recurring Series."
+msgstr ""
+
+#: CRM/Iats/Form/Report/Verify.php
+msgid "CiviCRM Verify Id"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Verify.php
+msgid "Verification Date Time"
+msgstr ""
+
+#: CRM/Iats/Form/Report/Verify.php
+msgid "View this contact."
+msgstr ""
+
+#: CRM/Iats/Form/Report/Verify.php
+msgid "View details of the verified contribution."
+msgstr ""
+
+#: CRM/Iats/Form/Settings.php
 msgid "Email Recurring Contribution failure reports to this Email address"
 msgstr ""
 
-#: CRM/iATS/Form/IatsSettings.php
+#: CRM/Iats/Form/Settings.php
 msgid "Email address is not a valid format."
 msgstr ""
 
-#: CRM/iATS/Form/IatsSettings.php
+#: CRM/Iats/Form/Settings.php
 msgid ""
 "When failure count is equal to or greater than this number, push the next "
 "scheduled contribution date forward"
 msgstr ""
 
-#: CRM/iATS/Form/IatsSettings.php
+#: CRM/Iats/Form/Settings.php
 msgid "Threshhold must be a positive integer."
 msgstr ""
 
-#: CRM/iATS/Form/IatsSettings.php
+#: CRM/Iats/Form/Settings.php
 msgid "Email receipt for a Contribution in a Recurring Series"
 msgstr ""
 
-#: CRM/iATS/Form/IatsSettings.php
+#: CRM/Iats/Form/Settings.php
+msgid "Disable use of cryptogram (only applies to FirstAmerican)."
+msgstr ""
+
+#: CRM/Iats/Form/Settings.php
+msgid "ACH Category Text (only applies to FirstAmerican)."
+msgstr ""
+
+#: CRM/Iats/Form/Settings.php
 msgid "Disable extra edit fields for Recurring Contributions"
 msgstr ""
 
-#: CRM/iATS/Form/IatsSettings.php
+#: CRM/Iats/Form/Settings.php
 msgid ""
 "Enable self-service updates to recurring contribution Contact Billing Info."
 msgstr ""
 
-#: CRM/iATS/Form/IatsSettings.php
+#: CRM/Iats/Form/Settings.php
 msgid "Enable public selection of future recurring start dates."
 msgstr ""
 
-#: CRM/iATS/Form/IatsSettings.php
+#: CRM/Iats/Form/Settings.php
 msgid "Restrict allowable days of the month for Recurring Contributions"
 msgstr ""
 
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Donor Email"
+#: CRM/Iats/Transaction.php
+msgid "Failed to process recurring contribution id %1: %2"
 msgstr ""
 
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Donor Phone"
+#: CRM/Iats/Transaction.php
+msgid "Successfully processed recurring contribution in series id %1: %2"
 msgstr ""
 
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Contribution ID"
+#: CRM/Iats/Transaction.php
+msgid ""
+"Successfully processed pending recurring contribution in series id %1: %2"
 msgstr ""
 
-#: CRM/iATS/Form/Report/ContributeDetail.php CRM/iATS/Form/Report/Recur.php
-msgid "Financial Type"
+#: CRM/Iats/Transaction.php
+msgid "Unsupported processor class %1"
 msgstr ""
 
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Contribution Status"
+#: CRM/Iats/Transaction.php
+msgid "Unsupported processor group %1"
 msgstr ""
 
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Contribution Page"
+#: CRM/Iats/Transaction.php
+msgid "Now"
 msgstr ""
 
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Source"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Payment Type"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Check Number"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php CRM/iATS/Form/Report/Recur.php
-msgid "Amount"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Non-deductible Amount"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Contribution OR Soft Credit?"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Soft Credits"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Soft Credit For"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Contributions Only"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Soft Credits Only"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Both"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php CRM/iATS/Form/Report/Recur.php
-msgid "Currency"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Contribution Amount"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Payment Method"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Date Received"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Contribution"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Soft Credit Type"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Credit Card Type"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Batch Name"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Contribution Ordinality"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Contribution Note"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Donor Name"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Campaign"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php CRM/iATS/Form/Report/Journal.php
-msgid "CiviCRM Journal Id"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php CRM/iATS/Form/Report/Journal.php
-msgid "iATS Journal Id"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php CRM/iATS/Form/Report/Journal.php
-msgid "Transaction Date Time"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "iATS Journal Payment Status"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Total Amount (Contributions)"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Total Contributions"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Fees"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Net"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Average"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Total Amount (Soft Credits)"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Total Soft Credits"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "Average (Soft Credits)"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "View Contribution Details"
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php CRM/iATS/Form/Report/Recur.php
-msgid "View Contact Summary for this Contact."
-msgstr ""
-
-#: CRM/iATS/Form/Report/ContributeDetail.php
-msgid "View Details of this Contribution."
-msgstr ""
-
-#: CRM/iATS/Form/Report/Journal.php CRM/iATS/Form/Report/Verify.php
-msgid "Payment Status"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Last name, First name"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "First Name"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Last Name"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Prefix"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Contact Name"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Email"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Phone"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Contribution ID(s)"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Amount Contributed to date"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Total Amount contributed"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Total Amount"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Expiry Date"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Series ID"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Current Amount"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Start Date"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Modified Date"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Next Scheduled Contribution Date"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Cycle Day"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Failure Count"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Payment Processor"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Invoice ID"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Donation Status"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Frequency interval"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Frequency unit"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Installments"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Create Date"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Cancel Date"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Failure Retry Date"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Frequency Unit"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Next Scheduled Day"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Address"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Supplementary Address Field 1"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php
-msgid "Supplementary Address Field 2"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Recur.php CRM/iATS/Form/Report/Verify.php
-msgid "View Details of this Recurring Series."
-msgstr ""
-
-#: CRM/iATS/Form/Report/Verify.php
-msgid "CiviCRM Verify Id"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Verify.php
-msgid "Verification Date Time"
-msgstr ""
-
-#: CRM/iATS/Form/Report/Verify.php
-msgid "View this contact."
-msgstr ""
-
-#: CRM/iATS/Form/Report/Verify.php
-msgid "View details of the verified contribution."
-msgstr ""
-
-#: CRM/iATS/Upgrader/Base.php
+#: CRM/Iats/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
+msgstr ""
+
+#: api/v3/Job/Fapsquery.php
+msgid "For account %1, type %2, retreived %3 transactions."
 msgstr ""
 
 #: api/v3/Job/Iatsrecurringcontributions.php
@@ -519,11 +692,15 @@ msgid "Failed to acquire lock. No contribution records were processed."
 msgstr ""
 
 #: api/v3/Job/Iatsrecurringcontributions.php
-msgid "Recur id %1 is missing a customer code."
+msgid "iATS Payments (%1) Recurring Contribution ( id = %2 )"
 msgstr ""
 
 #: api/v3/Job/Iatsrecurringcontributions.php
-msgid "Recur id %1 is has a mismatched contact id for the customer code."
+msgid "Unexpected error, no payment token for recurring schedule id %1"
+msgstr ""
+
+#: api/v3/Job/Iatsrecurringcontributions.php
+msgid "Attempted iATS Payments (%1) Recurring Contribution for %2"
 msgstr ""
 
 #: api/v3/Job/Iatsrecurringcontributions.php
@@ -578,130 +755,6 @@ msgid ""
 msgstr ""
 
 #: iats.php
-msgid "%1 is a required field."
-msgstr ""
-
-#: iats.php
-msgid "Name of Account Holder"
-msgstr ""
-
-#: iats.php
-msgid "Account Number"
-msgstr ""
-
-#: iats.php
-msgid "Bank Name"
-msgstr ""
-
-#: iats.php
-msgid "Account type"
-msgstr ""
-
-#: iats.php
-msgid "Bank Account Number"
-msgstr ""
-
-#: iats.php
-msgid "Bank Routing Number"
-msgstr ""
-
-#: iats.php
-msgid "Bank Number (3 digits)"
-msgstr ""
-
-#: iats.php
-msgid "Bank Number"
-msgstr ""
-
-#: iats.php
-msgid "%1 must contain only digits."
-msgstr ""
-
-#: iats.php
-msgid "%1 must be of length 3."
-msgstr ""
-
-#: iats.php
-msgid "Transit Number (5 digits)"
-msgstr ""
-
-#: iats.php
-msgid "Transit Number"
-msgstr ""
-
-#: iats.php
-msgid "%1 must be of length 5."
-msgstr ""
-
-#: iats.php
-msgid "Bank Number + Transit Number"
-msgstr ""
-
-#: iats.php
-msgid "Encrypted"
-msgstr ""
-
-#: iats.php
-msgid "You can only use this form to make recurring contributions."
-msgstr ""
-
-#: iats.php
-msgid "I wish to start a Direct Debit"
-msgstr ""
-
-#: iats.php
-msgid "Organization: %1, Phone: %2, Email: %3"
-msgstr ""
-
-#: iats.php
-msgid "Date of first collection"
-msgstr ""
-
-#: iats.php
-msgid "The Declaration"
-msgstr ""
-
-#: iats.php
-msgid "Number of installments"
-msgstr ""
-
-#: iats.php
-msgid "Account Holder Name"
-msgstr ""
-
-#: iats.php
-msgid "Sort Code"
-msgstr ""
-
-#: iats.php
-msgid "Name and full postal address of your Bank or Building Society"
-msgstr ""
-
-#: iats.php
-msgid "Service User Number"
-msgstr ""
-
-#: iats.php
-msgid "Reference"
-msgstr ""
-
-#: iats.php
-msgid "Today's Date"
-msgstr ""
-
-#: iats.php
-msgid "Instruction to your Bank or Building Society"
-msgstr ""
-
-#: iats.php
-msgid ""
-"Please pay %1 Direct Debits from the account detailed in this instruction "
-"subject to the safeguards assured by the Direct Debit Guarantee. I "
-"understand that this instruction may remain with TestingTest and, if so, "
-"details will be passed electronically to my Bank / Building Society."
-msgstr ""
-
-#: iats.php
 msgid "Date of first contribution"
 msgstr ""
 
@@ -713,31 +766,6 @@ msgstr ""
 
 #: iats.php
 msgid "Status"
-msgstr ""
-
-#: iats.php
-msgid "Successfully processed contribution in recurring series id %1: "
-msgstr ""
-
-#: iats.php
-msgid "Successfully processed one-time contribution: "
-msgstr ""
-
-#: iats.php
-msgid "Failed to process recurring contribution id %1: "
-msgstr ""
-
-#: iats.php
-msgid "Successfully processed recurring contribution in series id %1: "
-msgstr ""
-
-#: iats.php
-msgid ""
-"Successfully processed pending recurring contribution in series id %1: "
-msgstr ""
-
-#: iats.php
-msgid "Now"
 msgstr ""
 
 #: js/dd_cad.js
@@ -752,120 +780,97 @@ msgstr ""
 msgid "Click here - then swipe."
 msgstr ""
 
-#: templates/CRM/iATS/BillingBlockDPM.tpl
-#: templates/CRM/iATS/BillingBlockDirectDebitExtra_GBP.tpl
+#: templates/CRM/Iats/BillingBlockDPM.tpl
 msgid "Please fix the following errors in the form fields above:"
 msgstr ""
 
-#: templates/CRM/iATS/BillingBlockDirectDebitExtra_CAD.tpl
+#: templates/CRM/Iats/BillingBlockDirectDebitExtra_CAD.tpl
+#: templates/CRM/Iats/BillingBlockFapsACH_CAD.tpl
 msgid ""
 "You can find your Transit number, Bank number and Account number by "
 "inspecting a cheque."
 msgstr ""
 
-#: templates/CRM/iATS/BillingBlockDirectDebitExtra_CAD.tpl
+#: templates/CRM/Iats/BillingBlockDirectDebitExtra_CAD.tpl
+#: templates/CRM/Iats/BillingBlockFapsACH_CAD.tpl
 msgid "Please enter them below without any punctuation or spaces."
 msgstr ""
 
-#: templates/CRM/iATS/BillingBlockDirectDebitExtra_GBP.tpl
-msgid "Note: "
-msgstr ""
-
-#: templates/CRM/iATS/BillingBlockDirectDebitExtra_GBP.tpl
-msgid ""
-"All Direct Debits are protected by a guarantee. In future, if there is a "
-"change to the date, amount of frequency of your Direct Debit, we will always"
-" give you 5 working days notice in advance of your account being debited. In"
-" the event of any error, you are entitled to an immediate refund from your "
-"Bank of Building Society. You have the right to cancel at any time and this "
-"guarantee is offered by all the Banks and Building Societies that accept "
-"instructions to pay Direct Debits. A copy of the safeguards under the Direct"
-" Debit Guarantee will be sent to you with our confirmation letter."
-msgstr ""
-
-#: templates/CRM/iATS/BillingBlockDirectDebitExtra_GBP.tpl
-msgid "Contact Information: "
-msgstr ""
-
-#: templates/CRM/iATS/BillingBlockDirectDebitExtra_GBP.tpl
-msgid "You can find your Account Number and Sort Code by inspecting a cheque."
-msgstr ""
-
-#: templates/CRM/iATS/BillingBlockDirectDebitExtra_GBP.tpl
-#: templates/CRM/iATS/BillingBlockRecurringExtra.tpl
-msgid "You may select a later start date if you wish."
-msgstr ""
-
-#: templates/CRM/iATS/BillingBlockDirectDebitExtra_USD.tpl
+#: templates/CRM/Iats/BillingBlockDirectDebitExtra_USD.tpl
+#: templates/CRM/Iats/BillingBlockFapsACH_USD.tpl
 msgid ""
 "You can find your Bank Routing Number and Bank Account number by inspecting "
 "a check."
 msgstr ""
 
-#: templates/CRM/iATS/BillingBlockSwipe.tpl
+#: templates/CRM/Iats/BillingBlockRecurringExtra.tpl
+msgid "You may select a later start date if you wish."
+msgstr ""
+
+#: templates/CRM/Iats/BillingBlockSwipe.tpl
 msgid ""
 "Get ready to SWIPE! Place your cursor in the Encrypted field below and swipe"
 " card."
 msgstr ""
 
-#: templates/CRM/iATS/ContributionRecur.tpl
+#: templates/CRM/Iats/ContributionRecur.tpl
 msgid "Card on File"
 msgstr ""
 
-#: templates/CRM/iATS/Page/iATSAdmin.tpl
+#: templates/CRM/Iats/Page/iATSAdmin.tpl
 msgid "Warning!"
 msgstr ""
 
-#: templates/CRM/iATS/Page/iATSAdmin.tpl
+#: templates/CRM/Iats/Page/iATSAdmin.tpl
 msgid "Cron Running"
 msgstr ""
 
-#: templates/CRM/iATS/Page/iATSAdmin.tpl
+#: templates/CRM/Iats/Page/iATSAdmin.tpl
 msgid "Your iATS Payments cron last ran at %1."
 msgstr ""
 
-#: templates/CRM/iATS/Page/iATSAdmin.tpl
+#: templates/CRM/Iats/Page/iATSAdmin.tpl
 msgid ""
 "Your recurring contributions for iATS Payments requires a correctly setup "
 "and functioning cron job that runs daily. You need to take action now."
 msgstr ""
 
-#: templates/CRM/iATS/Page/iATSAdmin.tpl
+#: templates/CRM/Iats/Page/iATSAdmin.tpl
 msgid "It's all good."
 msgstr ""
 
-#: templates/CRM/iATS/Page/iATSAdmin.tpl
+#: templates/CRM/Iats/Page/iATSAdmin.tpl
 msgid "Invoice"
 msgstr ""
 
-#: templates/CRM/iATS/Page/iATSAdmin.tpl
+#: templates/CRM/Iats/Page/iATSAdmin.tpl
 msgid "Contact"
 msgstr ""
 
-#: templates/CRM/iATS/Page/iATSAdmin.tpl
+#: templates/CRM/Iats/Page/iATSAdmin.tpl
 msgid "Request IP"
 msgstr ""
 
-#: templates/CRM/iATS/Page/iATSAdmin.tpl
+#: templates/CRM/Iats/Page/iATSAdmin.tpl
 msgid "Card Number"
 msgstr ""
 
-#: templates/CRM/iATS/Page/iATSAdmin.tpl
+#: templates/CRM/Iats/Page/iATSAdmin.tpl
 msgid "Total"
 msgstr "Total"
 
-#: templates/CRM/iATS/Page/iATSAdmin.tpl
+#: templates/CRM/Iats/Page/iATSAdmin.tpl
 msgid "Request DateTime"
 msgstr ""
 
-#: templates/CRM/iATS/Page/iATSAdmin.tpl
+#: templates/CRM/Iats/Page/iATSAdmin.tpl
 msgid "Result"
 msgstr ""
 
-#: templates/CRM/iATS/Page/iATSAdmin.tpl
+#: templates/CRM/Iats/Page/iATSAdmin.tpl
 msgid "Transaction ID"
 msgstr ""
 
-#: templates/CRM/iATS/Page/iATSAdmin.tpl
+#: templates/CRM/Iats/Page/iATSAdmin.tpl
 msgid "Response DateTime"
 msgstr ""
