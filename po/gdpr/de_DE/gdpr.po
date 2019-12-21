@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gdpr\n"
-"POT-Creation-Date: 2018-12-14 23:43+0000\n"
+"POT-Creation-Date: 2019-12-21 05:01+0000\n"
 "Last-Translator: Derek Tronsgard <dtronsgard@people-power.eu>, 2018\n"
 "Language-Team: German (https://www.transifex.com/civicrm/teams/1460/de/)\n"
 "MIME-Version: 1.0\n"
@@ -227,16 +227,36 @@ msgid "Save"
 msgstr "Speichern"
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
-msgid "Invalid URL."
-msgstr "Ungültige URL"
+msgid "Send Confirmation Email?"
+msgstr ""
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
-msgid ""
-"The completion URL does not belong to a valid page. Please check that an "
-"anonymous in user can access it."
+msgid "Text"
 msgstr ""
-"Die Abschluß-URL verweist nicht auf einer gültigen Seite. Überprüfen Sie, "
-"dass sie anonyme Benutzer zugänglich ist."
+
+#: CRM/Gdpr/Form/CommunicationsPreferences.php
+msgid "CC Confirmation To"
+msgstr ""
+
+#: CRM/Gdpr/Form/CommunicationsPreferences.php
+msgid "Please enter a valid list of comma delimited email addresses"
+msgstr ""
+
+#: CRM/Gdpr/Form/CommunicationsPreferences.php
+msgid "BCC Confirmation To"
+msgstr ""
+
+#: CRM/Gdpr/Form/CommunicationsPreferences.php
+msgid "Confirm From Name"
+msgstr ""
+
+#: CRM/Gdpr/Form/CommunicationsPreferences.php
+msgid "Confirm From Email"
+msgstr ""
+
+#: CRM/Gdpr/Form/CommunicationsPreferences.php
+msgid "Email is not valid."
+msgstr ""
 
 #: CRM/Gdpr/Form/ContributionPage/TermsAndConditions.php
 msgid "Terms & Conditions information has been saved."
@@ -555,6 +575,10 @@ msgid "Communication Preferences Link (Bulk Mailing)"
 msgstr "Kontakteinstellungen Link (Massenmail)"
 
 #: gdpr.php
+msgid "CiviGDPR"
+msgstr ""
+
+#: gdpr.php
 msgid "access GDPR"
 msgstr "DSGVO Zugang"
 
@@ -699,6 +723,42 @@ msgid ""
 " making a contribution.</p><p>Note, to embed the Communcation Preferences "
 "form in thank-you pages, you need to give anonymous users the permission: "
 "<em>CiviCRM: access AJAX API</em>.</p>"
+msgstr ""
+
+#: templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
+msgid "Confirmation Email"
+msgstr ""
+
+#: templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
+msgid "Do you want a confirmation email sent automatically to the user?"
+msgstr ""
+
+#: templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
+msgid "Additional message or instructions to include in confirmation email."
+msgstr ""
+
+#: templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
+msgid "FROM name for email."
+msgstr ""
+
+#: templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
+msgid ""
+"FROM email address (this must be a valid email account with your SMTP email "
+"service provider)."
+msgstr ""
+
+#: templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
+msgid ""
+"You may specify one or more email addresses to receive a carbon copy (cc). "
+"Multiple email addresses should be separated by a comma (e.g. "
+"jane@example.org, paula@example.org)."
+msgstr ""
+
+#: templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
+msgid ""
+"You may specify one or more email addresses to receive a blind carbon copy "
+"(bcc) of the confirmation email. Multiple email addresses should be "
+"separated by a comma (e.g. jane@example.org, paula@example.org)."
 msgstr ""
 
 #: templates/CRM/Gdpr/Form/Forgetme.tpl
