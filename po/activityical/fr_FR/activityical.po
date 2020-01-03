@@ -2,10 +2,14 @@
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# mgregoire <mgregoire@mgregoire.net>, 2020
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: activityical\n"
-"POT-Creation-Date: 2018-02-06 17:42+0000\n"
+"POT-Creation-Date: 2019-10-24 05:01+0000\n"
+"Last-Translator: mgregoire <mgregoire@mgregoire.net>, 2020\n"
 "Language-Team: French (https://www.transifex.com/civicrm/teams/1460/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14,136 +18,145 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: CRM/Activityical/DAO/ActivityicalCache.php
-#: CRM/Activityical/DAO.bkp/ActivityicalCache.php
 msgid "Cache"
-msgstr ""
+msgstr "Cache"
 
 #: CRM/Activityical/DAO/ActivityicalCache.php
-#: CRM/Activityical/DAO.bkp/ActivityicalCache.php
 msgid "Cached"
-msgstr ""
+msgstr "Mis en cache"
 
 #: CRM/Activityical/DAO/ActivityicalContact.php
-#: CRM/Activityical/DAO.bkp/ActivityicalContact.php
 msgid "Hash"
-msgstr ""
+msgstr "Hachage"
 
 #: CRM/Activityical/Form/Details.php
 msgid "The given contact does not have an activities iCalendar feed."
-msgstr ""
+msgstr "Le contact donné n'a pas de flux d'activités iCalendar."
 
 #: CRM/Activityical/Form/Details.php
 msgid "Could not find the given contact."
-msgstr ""
+msgstr "Impossible de trouver le contact donné."
 
 #: CRM/Activityical/Form/Details.php
 msgid "[contact ID %1]"
-msgstr ""
+msgstr "[ID de contact %1]"
 
 #: CRM/Activityical/Form/Details.php
 msgid "Rebuild feed URL now, for %1"
-msgstr ""
+msgstr "Reconstruire l'URL du flux maintenant, pour %1"
 
 #: CRM/Activityical/Form/Details.php
 msgid "Rebuild feed URL now"
-msgstr ""
+msgstr "Reconstruire l'URL du flux maintenant"
 
 #: CRM/Activityical/Form/Details.php
 msgid "URL rebuilt"
-msgstr ""
+msgstr "URL reconstruit"
 
 #: CRM/Activityical/Form/Details.php
 msgid ""
 "Limit the feed to activities within N days before the current date, instead "
 "of the default of %1 days."
 msgstr ""
+"Limiter le flux aux activités des N jours précédent la date actuelle, au "
+"lieu de la valeur par défaut de %1 jours."
 
 #: CRM/Activityical/Form/Details.php
 msgid ""
 "Limit the feed to activities within N days after the current date, instead "
 "of the default of %1 days."
 msgstr ""
+"Limiter le flux aux activités aux N jours suivant la date actuelle, au lieu "
+"de la valeur par défaut de % 1 jours."
 
 #: CRM/Activityical/Form/Details.php
 msgid "Get the latest feed data, completely bypassing the feed cache."
 msgstr ""
+"Obtenir les dernières données de flux, en contournant complètement le cache "
+"de flux."
 
 #: CRM/Activityical/Form/Settings.php
 msgid "Submit"
-msgstr ""
+msgstr "Soumettre"
 
 #: CRM/Activityical/Form/Settings.php
 msgid "Settings saved."
-msgstr ""
+msgstr "Paramètres sauvegardés."
 
 #: CRM/Activityical/Form/Settings.php
 msgid "none"
-msgstr ""
+msgstr "aucun"
 
 #: CRM/Activityical/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
-msgstr ""
+msgstr "Mettre à jour %1 vers la révision %2"
 
 #: activityical.php
 msgid "Activity iCalendar Feed"
-msgstr ""
+msgstr "Flux d'Activité iCalendar"
 
 #: activityical.php
 msgid "Assigned activities are accessible as an iCalendar feed."
-msgstr ""
+msgstr "Les activités affectées sont accessibles en tant que flux iCalendar."
 
 #: activityical.php
 msgid "Feed details..."
-msgstr ""
+msgstr "Détails de Flux..."
 
 #: settings/Activityical.setting.php
 msgid ""
 "Only members of this CiviCRM group will have an activity iCalendar feed."
 msgstr ""
+"Seuls les membres de ce groupe CiviCRM auront un flux d'activité iCalendar."
 
 #: settings/Activityical.setting.php
 msgid "Activity iCalendar Feed Group"
-msgstr ""
+msgstr "Activité iCalendar du Flux de Groupe"
 
 #: settings/Activityical.setting.php
 msgid ""
 "Select one more more options to limit the feed to the selected activity "
 "type(s); or select none to skip this limitation."
 msgstr ""
+"Sélectionner une autre option pour limiter le flux aux types d'activité "
+"sélectionnés; ou n'en sélectionner aucun pour ignorer cette limitation."
 
 #: settings/Activityical.setting.php
 msgid "Use Ctrl+click to select or unselect multiple options."
 msgstr ""
+"Utiliser Ctrl + clic pour sélectionner ou désélectionner plusieurs options."
 
 #: settings/Activityical.setting.php
 msgid "Limit by Activity Type"
-msgstr ""
+msgstr "Limiter par Type d'Activité"
 
 #: settings/Activityical.setting.php
 msgid ""
 "Select one more more options to limit the feed to the selected activity "
 "status(es); or select none to skip this limitation."
 msgstr ""
+"Sélectionner une autre option pour limiter le flux aux statuts d'activité "
+"sélectionnés; ou n'en sélectionner aucun pour ignorer cette limitation."
 
 #: settings/Activityical.setting.php
 msgid "Limit by Activity Status"
-msgstr ""
+msgstr "Limiter par Statut d'Activité"
 
 #: settings/Activityical.setting.php
 msgid "Append \"with\" contacts to Description?"
-msgstr ""
+msgstr "Ajouter les contacts \"avec\" à la description ?"
 
 #: settings/Activityical.setting.php
 msgid "Description Includes \"With\""
-msgstr ""
+msgstr "La description comprend \"Avec\""
 
 #: settings/Activityical.setting.php
 msgid "Append other assigned contacts to Description?"
-msgstr ""
+msgstr "Ajouter d'autres contacts affectés à la Description ?"
 
 #: settings/Activityical.setting.php
 msgid "Description Includes Assignees"
-msgstr ""
+msgstr "La Description Inclus les Assignés"
 
 #: settings/Activityical.setting.php
 msgid ""
@@ -151,68 +164,77 @@ msgid ""
 "is older than this number of minutes. Set to 0 to disable caching "
 "completely."
 msgstr ""
+"Durée de vie maximale du cache en minutes. Le contenu mis en cache sera "
+"actualisé s'il est plus ancien que ce nombre de minutes. Définissez à 0, "
+"pour désactiver complètement la mise en cache."
 
 #: settings/Activityical.setting.php
 msgid ""
 "See any Feed Details page for possible ways to bypass this on a per-request "
 "basis."
 msgstr ""
+"Consulter la page Détails du flux pour connaître les moyens possibles de "
+"contourner cela, sur une base par demande."
 
 #: settings/Activityical.setting.php
 msgid "Max Cache Lifetime"
-msgstr ""
+msgstr "Durée Max du Cache"
 
 #: settings/Activityical.setting.php
 msgid "The field \"Max cache lifetime\" is required"
-msgstr ""
+msgstr "Le champ \"Durée de vie maximale du cache\" est obligatoire"
 
 #: settings/Activityical.setting.php
 msgid "The field \"Max cache lifetime\" must be an integer"
-msgstr ""
+msgstr "Le champ \"Durée de vie maximale du cache\" doit être un entier"
 
 #: settings/Activityical.setting.php
 msgid ""
 "Maximum number of days in the past, before which no activities will be "
 "included in the feed."
 msgstr ""
+"Nombre maximal de jours antérieurs, avant lesquels aucune activité ne sera "
+"incluse dans le flux."
 
 #: settings/Activityical.setting.php
 msgid "Past Days Limit"
-msgstr ""
+msgstr "Limite de Jours Antérieurs"
 
 #: settings/Activityical.setting.php
 msgid "The field \"Past days limit\" is required."
-msgstr ""
+msgstr "Le champ \"Limite des jours antérieurs\" est obligatoire."
 
 #: settings/Activityical.setting.php
 msgid "The field \"Past days limit\" must be an integer."
-msgstr ""
+msgstr "Le champ \"Limite des jours antérieurs\" doit être un entier."
 
 #: settings/Activityical.setting.php
 msgid ""
 "Maximum number of days in the future, after which no activities will be "
 "included in the feed."
 msgstr ""
+"Nombre maximal de jours futurs, après lequel aucune activité ne sera incluse"
+" dans le flux."
 
 #: settings/Activityical.setting.php
 msgid "Future Days Limit"
-msgstr ""
+msgstr "Limite des Jours Futurs"
 
 #: settings/Activityical.setting.php
 msgid "The field \"Future days limit\" is required."
-msgstr ""
+msgstr "Le champ \"Limite des jours futurs\" est obligatoire."
 
 #: settings/Activityical.setting.php
 msgid "The field \"Future days limit\" must be an integer."
-msgstr ""
+msgstr "Le champ \"Limite des jours futurs\" doit être un entier."
 
 #: templates/CRM/Activityical/Form/Details.tpl
 msgid "Details for contact"
-msgstr ""
+msgstr "Détails du contact"
 
 #: templates/CRM/Activityical/Form/Details.tpl
 msgid "The CiviCRM assigned activities feed for %1 is available at this URL"
-msgstr ""
+msgstr "Le flux d'activités CiviCRM assigné à %1 est disponible à cette URL"
 
 #: templates/CRM/Activityical/Form/Details.tpl
 msgid "Your CiviCRM assigned activities feed is available at this URL"
