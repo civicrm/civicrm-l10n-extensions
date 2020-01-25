@@ -2,10 +2,14 @@
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# Usha Matisson <matisson@makoa.fr>, 2020
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: sparkpost\n"
-"POT-Creation-Date: 2018-11-15 19:50+0000\n"
+"POT-Creation-Date: 2018-11-29 05:01+0000\n"
+"Last-Translator: Usha Matisson <matisson@makoa.fr>, 2020\n"
 "Language-Team: French (https://www.transifex.com/civicrm/teams/1460/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,29 +19,31 @@ msgstr ""
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "API Key"
-msgstr ""
+msgstr "Clé API"
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "IP pool"
-msgstr ""
+msgstr "Pool d'IP"
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "Use backup mailer"
-msgstr ""
+msgstr "Utiliser le serveur de mail de secours"
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "Custom callback URL"
-msgstr ""
+msgstr "URL callback personnalisée"
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "Save & Send Test Email"
-msgstr ""
+msgstr "Enregistrer et Envoyer un courriel de test"
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid ""
 "Cannot send a test email because your user record does not have a valid "
 "email address."
 msgstr ""
+"Impossible d'envoyer un courriel test car votre compte utilisateur n'a pas "
+"d'adresse de courriel valide."
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid ""
@@ -46,131 +52,153 @@ msgid ""
 "Addresses</a>. The email address used may need to be a valid mail account "
 "with your email service provider."
 msgstr ""
+"L'administrateur du site doit entrer une \"Adresse de Courriel de provenance"
+" valide\" (FROM) dans <a href=\"%1\"> Administrer les Communications CiviCRM"
+" des adresses courriel de provenance (FROM)</a>. L'adresse courriel utilisée"
+" peut avoir à être un compte de messagerie valide auprès de votre "
+"fournisseur de services de messagerie."
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid ""
 "Domain %1 is not created and not verified in Sparkpost. Please follow "
 "instructions at <a href=\"%2\">%2</a>."
 msgstr ""
+"Le domaine %1 n'est pas créé ni vérifié dans Sparkpost. Merci de suivre les "
+"instructions : <a href=\"%2\">%2</a>."
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "SparkPost error"
-msgstr ""
+msgstr "Erreur SparkPost"
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "Could not check status for domain %1 (Exception %2)."
-msgstr ""
+msgstr "Impossible de vérifier l'état du domaine %1 (exception %2)."
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid ""
 "The domain '%1' is not verified. Please follow instructions at <a "
 "href=\"%2\">%2</a>."
 msgstr ""
+"Le domaine \"%1\" n'est pas vérifié. Merci de suivre les instructions : <a "
+"href=\"%2\">%2</a>."
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "The domain %1 is ready to send."
-msgstr ""
+msgstr "Le domaine %1 est prêt à envoyer."
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "SparkPost status"
-msgstr ""
+msgstr "Etat SpartPost"
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "Could not list webhooks (%1)."
-msgstr ""
+msgstr "Impossible de lister les webhooks (%1)."
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "Could not install webhook (%1)."
-msgstr ""
+msgstr "Impossible d'installer le webhook (%1)."
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "Could not install/refresh webhook."
-msgstr ""
+msgstr "Impossible d'installer/actualiser le webhook."
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "Webhook has been installed or refreshed."
-msgstr ""
+msgstr "Le webhook a été installé ou actualisé."
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "Sending test email. FROM: %1 TO: %2.<br />"
-msgstr ""
+msgstr "Envoi du courriel de test. FROM : %1 TO : %2. <br />"
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "Test for SparkPost settings"
-msgstr ""
+msgstr "Test des paramètres de SparkPost"
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "Your SparkPost settings are correct"
-msgstr ""
+msgstr "Vos paramètres SparkPost sont corrects."
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid ""
 "Your %1 settings are correct. A test email has been sent to your email "
 "address."
 msgstr ""
+"Vos paramétres %1 sont corrects. Un courriel de test a été envoyé à votre "
+"adresse de courriel."
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "Mail Sent"
-msgstr ""
+msgstr "Courriel envoyé"
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "Oops. Your %1 settings are incorrect. No test mail has been sent."
 msgstr ""
+"Oh ! Vos paramétres %1 sont incorrects. Aucun courriel de test n'a été "
+"envoyé."
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "Mail Not Sent"
-msgstr ""
+msgstr "Courriel non envoyé"
 
 #: CRM/Sparkpost/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
-msgstr ""
+msgstr "Mise à jour de %1 à la révision %2"
 
 #: sparkpost.php
 msgid "Outbound Email (SparkPost)"
-msgstr ""
+msgstr "Courriel sortant (SparkPost)"
 
 #: sparkpost.php
 msgid ""
 "This requirement is not met in your current configuration, the extension "
 "will not work."
 msgstr ""
+"Ce pré-requis n'est pas rempli dans votre configuration actuelle, "
+"l'extension ne fonctionnera pas."
 
 #: sparkpost.php
 msgid "The SparkPost extension requires PHP version 5.4 or higher."
-msgstr ""
+msgstr "L'extension SparkPost nécessite PHP version 5.4 ou +"
 
 #: sparkpost.php
 msgid "SparkPost requirements not met"
-msgstr ""
+msgstr "Les pré-requis pour SparkPost ne sont pas remplis."
 
 #: sparkpost.php
 msgid "The SparkPost extension requires the PHP curl library."
-msgstr ""
+msgstr "L'extension SparkPost nécessite la bibliothèque PHP curl."
 
 #: templates/CRM/Admin/Form/Setting/Sparkpost.tpl
 msgid "SparkPost Configuration"
-msgstr ""
+msgstr "Configuration de SparkPost"
 
 #: templates/CRM/Admin/Form/Setting/Sparkpost.tpl
 msgid "You can create API keys at:"
-msgstr ""
+msgstr "Vous pouvez créer des clés API ici :"
 
 #: templates/CRM/Admin/Form/Setting/Sparkpost.tpl
 msgid "Only used if you have one or more dedicated IP addresses at SparkPost."
 msgstr ""
+"Utilisé uniquement si vous avez une ou plusieurs adresses IP dédiées chez "
+"SparkPost."
 
 #: templates/CRM/Admin/Form/Setting/Sparkpost.tpl
 msgid "You can define a backup mailer <a href='%1'>here</a>."
-msgstr ""
+msgstr "Vous pouvez définir un serveur de secours <a href='%1'>ici</a>."
 
 #: templates/CRM/Admin/Form/Setting/Sparkpost.tpl
 msgid ""
 "It will be used if Sparkpost cannot send emails (unverified sending domain, "
 "sending limits exceeded, ...)."
 msgstr ""
+"Il sera utilisé si Sparkpost ne peut pas envoyer de courriels (domaine "
+"d'envoi non vérifié, limites d'envoi dépassées, ...)."
 
 #: templates/CRM/Admin/Form/Setting/Sparkpost.tpl
 msgid ""
 "A custom callback URL is useful when your site is behind a proxy (like "
 "CiviProxy). Leave this blank to use the default URL."
 msgstr ""
+"Une URL de callback personnalisée est utile quand votre site est derrière un"
+" proxy (comme CiviProxy). Laisser ce champ vide pour utiliser l'URL par "
+"défaut."
