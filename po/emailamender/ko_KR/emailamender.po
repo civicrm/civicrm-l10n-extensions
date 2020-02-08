@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: emailamender\n"
-"POT-Creation-Date: 2018-02-06 17:35+0000\n"
+"POT-Creation-Date: 2020-02-08 05:01+0000\n"
 "Language-Team: Korean (Korea) (https://www.transifex.com/civicrm/teams/1460/ko_KR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,11 +30,63 @@ msgid "Email Address Corrector"
 msgstr ""
 
 #: api/v3/EmailAmender/UpdateCorrections.php
-msgid "Couldn't update settings - invalid domain level"
+msgid "Invalid domain amender setting update"
 msgstr ""
 
 #: emailamender.php
 msgid "Email - correct email addresses"
+msgstr ""
+
+#: settings/EmailAmender.setting.php
+msgid "Enable realtime email fixing for new emails"
+msgstr ""
+
+#: settings/EmailAmender.setting.php
+msgid ""
+"Enable this to allow new emails to be amended on save according to "
+"configured rules. Existing updates not amended"
+msgstr ""
+
+#: settings/EmailAmender.setting.php
+msgid "List of top level domains to correct"
+msgstr ""
+
+#: settings/EmailAmender.setting.php
+msgid "Top level domains"
+msgstr ""
+
+#: settings/EmailAmender.setting.php
+msgid "List of second level domains to correct"
+msgstr ""
+
+#: settings/EmailAmender.setting.php
+msgid "Second level domains"
+msgstr ""
+
+#: settings/EmailAmender.setting.php
+msgid "List of compound top level domains"
+msgstr ""
+
+#: settings/EmailAmender.setting.php
+msgid "Compound top level domains"
+msgstr ""
+
+#: settings/EmailAmender.setting.php
+msgid "List of equivalent domains"
+msgstr ""
+
+#: settings/EmailAmender.setting.php
+msgid "Equivalent domains"
+msgstr ""
+
+#: templates/CRM/Emailamender/Form/Task/Correctemailaddresses.tpl
+msgid ""
+"This will automatically correct incorrect email addresses attached to the "
+"contacts you've selected."
+msgstr ""
+
+#: templates/CRM/Emailamender/Form/Task/Correctemailaddresses.tpl
+msgid "An activity will be added to each contact recording what has changed."
 msgstr ""
 
 #: templates/CRM/Emailamender/Form/Task/Correctemailaddresses.tpl
@@ -43,10 +95,11 @@ msgstr ""
 
 #: templates/CRM/Emailamender/Page/EmailAmenderSettings.tpl
 msgid ""
-"When the Enable Automatic Email Corrections setting below is checked, email "
-"addresses are corrected automatically as they are added. So "
-"<strong>john@hotmai.cpm</strong> would be corrected to "
-"<strong>john@hotmail.com</strong>"
+"When the Enable Automatic Email Corrections setting below is checked, email addresses are corrected automatically as they are added. So\n"
+"    <strong>john@hotmai.cpm</strong>\n"
+"    would be corrected to\n"
+"    <strong>john@hotmail.com</strong>\n"
+"  "
 msgstr ""
 
 #: templates/CRM/Emailamender/Page/EmailAmenderSettings.tpl
