@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: stripe\n"
-"POT-Creation-Date: 2020-01-19 05:01+0000\n"
+"POT-Creation-Date: 2020-02-23 05:01+0000\n"
 "Language-Team: CiviCRM Translators <civicrm-translators@lists.civicrm.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,6 +37,21 @@ msgid ""
 "but your system has version %2."
 msgstr ""
 
+#: CRM/Stripe/Check.php
+msgid ""
+"If you are using Stripe to accept payments on public forms (eg. contribution/"
+"event registration forms) it is recommended that you install the <strong><a "
+"href=\"https://lab.civicrm.org/extensions/firewall\">firewall</a></strong> "
+"extension.\n"
+"        Some sites have become targets for spammers who use the payment "
+"endpoint to try and test credit cards by submitting invalid payments to your "
+"Stripe account."
+msgstr ""
+
+#: CRM/Stripe/Check.php
+msgid "Recommended Extension: firewall"
+msgstr ""
+
 #: CRM/Stripe/Form/UpdateWebhook.php
 msgid "Update / Create webhook"
 msgstr ""
@@ -51,14 +66,26 @@ msgstr ""
 
 #: CRM/Stripe/Webhook.php
 msgid ""
+"Webhook API version is set to %2 but CiviCRM requires %3. To correct this "
+"please delete the webhook at Stripe and then revisit this page which will "
+"recreate it correctly. <em>Webhook path is: <a href=\"%1\" target=\"_blank\">"
+"%1</a>.</em>"
+msgstr ""
+
+#: CRM/Stripe/Webhook.php
+msgid ""
 "Unable to update the webhook %1. To correct this please delete the webhook "
 "at Stripe and then revisit this page which will recreate it correctly."
 msgstr ""
 
 #: CRM/Stripe/Webhook.php
 msgid ""
-"Problems detected with Stripe webhook %1. Please visit <a href=\"%2\">Fix "
-"Stripe Webhook</a> to fix."
+"Problems detected with Stripe webhook! <em>Webhook path is: <a href=\"%1\" "
+"target=\"_blank\">%1</a>.</em>"
+msgstr ""
+
+#: CRM/Stripe/Webhook.php
+msgid "View and fix problems"
 msgstr ""
 
 #: CRM/Stripe/Webhook.php
@@ -72,9 +99,8 @@ msgstr ""
 
 #: CRM/Stripe/Webhook.php
 msgid ""
-"Stripe Webhook missing! Please visit <a href=\"%1\">Fix Stripe Webhook</a> "
-"to fix.<br />Expected webhook path is: <a href=\"%2\" target=\"_blank\">%2</"
-"a>"
+"Stripe Webhook missing or needs update! <em>Expected webhook path is: <a "
+"href=\"%1\" target=\"_blank\">%1</a></em>"
 msgstr ""
 
 #: CRM/Stripe/Webhook.php
