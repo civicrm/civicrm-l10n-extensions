@@ -3,13 +3,13 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Usha Matisson <matisson@makoa.fr>, 2019
+# Usha Matisson <matisson@makoa.fr>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
-"POT-Creation-Date: 2020-02-20 05:01+0000\n"
-"Last-Translator: Usha Matisson <matisson@makoa.fr>, 2019\n"
+"POT-Creation-Date: 2020-02-27 05:01+0000\n"
+"Last-Translator: Usha Matisson <matisson@makoa.fr>, 2020\n"
 "Language-Team: French (https://www.transifex.com/civicrm/teams/1460/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,40 +30,44 @@ msgstr "Impossible d'obtenir le prix de l’événement."
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPayment/Create.php
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid "Can not get price set fields assigned to event."
-msgstr ""
+msgstr "Il n'est pas possible d'obtenir les tarifs assignés à l'événement."
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid "Previous Payment cannot be deleted (hash=%1). Please complete payment"
 msgstr ""
+"Le règlement précédent ne peut pas être supprimé (hash=%1). Merci de bien "
+"vouloir finaliser le règlement."
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid "Joomla does not support that functionality"
-msgstr ""
+msgstr "Cette fonctionnalité n'est pas supportée par Joomla"
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid ""
 "Event(id = %1) User can not be registered because event does not exist."
 msgstr ""
+"L'Utilisateur de l’événement (id=%1) ne peut pas être inscrit car "
+"l'événement n'existe pas."
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid "Contact(id = %1) is already registered on the Event(id = %2)."
-msgstr ""
+msgstr "Le contact (id=%1) est déjà inscrit à l'événement (id=%2)."
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid "Contact(id = %1) does not exist."
-msgstr ""
+msgstr "Le contact (id=%1) n'existe pas."
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid "First name '%1' cannot be empty."
-msgstr ""
+msgstr "Le prénom '%1' ne peut pas être vide."
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid "Last name '%1' cannot be empty."
-msgstr ""
+msgstr "Le nom '%1' ne peut pas être vide."
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid "Email '%1' have to be valid."
-msgstr ""
+msgstr "Le courriel '%1' doit être valide."
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid "Can not parse selected price set"
@@ -98,11 +102,11 @@ msgstr ""
 
 #: CRM/CiviMobileAPI/Api/CiviMobilePublicParticipant/Create.php
 msgid "Can not create Contact. Error: "
-msgstr ""
+msgstr "Impossible de créer le contact. Erreur :"
 
 #: CRM/CiviMobileAPI/Api/CiviMobilePublicParticipant/Create.php
 msgid "Can not create Email to Contact. Error: "
-msgstr ""
+msgstr "Impossible de créer le Courriel au contact. Erreur :"
 
 #: CRM/CiviMobileAPI/ApiWrapper/Participant/Create.php
 msgid "Empty participant status field(status_id). Please fill it."
@@ -139,12 +143,12 @@ msgstr "Quelque chose s'est mal passé. Nous ne pouvons pas créer la clé API."
 
 #: CRM/CiviMobileAPI/DAO/CivimobileEventPaymentInfo.php
 msgid "Id"
-msgstr ""
+msgstr "Id"
 
 #: CRM/CiviMobileAPI/DAO/CivimobileEventPaymentInfo.php
 #: api/v3/CiviMobileMyTicket.php
 msgid "Event Id"
-msgstr ""
+msgstr "Id. de l'événement"
 
 #: CRM/CiviMobileAPI/DAO/CivimobileEventPaymentInfo.php
 msgid "CMB Hash"
@@ -153,43 +157,43 @@ msgstr ""
 #: CRM/CiviMobileAPI/DAO/CivimobileEventPaymentInfo.php
 #: api/v3/CiviMobileParticipantPaymentLink.php
 msgid "Price Set"
-msgstr ""
+msgstr "Tarif"
 
 #: CRM/CiviMobileAPI/DAO/CivimobileEventPaymentInfo.php
 msgid "Contact Id"
-msgstr ""
+msgstr "Id. du contact"
 
 #: CRM/CiviMobileAPI/DAO/CivimobileEventPaymentInfo.php
 #: api/v3/CiviMobileParticipantPaymentLink.php
 msgid "First Name"
-msgstr ""
+msgstr "Prénom"
 
 #: CRM/CiviMobileAPI/DAO/CivimobileEventPaymentInfo.php
 #: api/v3/CiviMobileParticipantPaymentLink.php
 msgid "Last Name"
-msgstr ""
+msgstr "Nom de famille"
 
 #: CRM/CiviMobileAPI/DAO/CivimobileEventPaymentInfo.php
 #: api/v3/CiviMobileCmsRegistration.php
 #: api/v3/CiviMobileParticipantPaymentLink.php
 msgid "Email"
-msgstr ""
+msgstr "Courriel"
 
 #: CRM/CiviMobileAPI/DAO/CivimobileEventPaymentInfo.php
 msgid "Public Key"
-msgstr ""
+msgstr "Clé publique"
 
 #: CRM/CiviMobileAPI/DAO/PushNotification.php
 #: CRM/CiviMobileAPI/DAO/PushNotificationMessages.php
 msgid "id"
-msgstr ""
+msgstr "id"
 
 #: CRM/CiviMobileAPI/DAO/PushNotification.php
 #: CRM/CiviMobileAPI/DAO/PushNotificationMessages.php
 #: api/v3/CiviMobileMyTicket.php api/v3/CiviMobileParticipantPayment.php
 #: api/v3/CiviMobileParticipantPaymentLink.php
 msgid "Contact id"
-msgstr ""
+msgstr "Id. du contact"
 
 #: CRM/CiviMobileAPI/DAO/PushNotification.php api/v3/PushNotification.php
 msgid "Token"
@@ -213,20 +217,20 @@ msgstr "Est actif"
 
 #: CRM/CiviMobileAPI/DAO/PushNotificationMessages.php
 msgid "Data"
-msgstr ""
+msgstr "Donnée"
 
 #: CRM/CiviMobileAPI/DAO/PushNotificationMessages.php
 msgid "Message"
-msgstr ""
+msgstr "Message"
 
 #: CRM/CiviMobileAPI/DAO/PushNotificationMessages.php
 msgid "Entity table"
-msgstr ""
+msgstr "Table de l'entité"
 
 #: CRM/CiviMobileAPI/DAO/PushNotificationMessages.php
 #: api/v3/CiviMobileCustomFields.php
 msgid "Entity id"
-msgstr ""
+msgstr "Id. de l'entité"
 
 #: CRM/CiviMobileAPI/DAO/PushNotificationMessages.php
 msgid "Send date"
@@ -246,6 +250,9 @@ msgid ""
 "work with CiviMobileAPI. We recommend updating your calendar to the 3.4.x "
 "version or latest."
 msgstr ""
+"CiviCalendar est installé sur CiviCRM, mais sa version n'est pas "
+"suffisamment à jour pour fonctionner avec CiviMobileAPI. Nous recommandons "
+"de mettre à jour votre calendrier vers la version 3.4.x ou davantage."
 
 #: CRM/CiviMobileAPI/Form/CalendarSettings.php
 msgid ""
@@ -254,10 +261,14 @@ msgid ""
 " to set “Synchronize with CiviCalendar” flag to keep both calendars "
 "synchronized."
 msgstr ""
+"CiviCalendar et le calendrier de CiviMobile ne sont pas synchronisés. Cela "
+"peut provoquer l'affichage d'informations différentes sur le calendrier de "
+"CiviMobile. Il est recommandé d'activer le paramètre \"Synchroniser avec "
+"CiviCalendar\" pour que les deux calendriers restent synchronisés."
 
 #: CRM/CiviMobileAPI/Form/CalendarSettings.php
 msgid "Submit"
-msgstr ""
+msgstr "Soumettre"
 
 #: CRM/CiviMobileAPI/Form/CalendarSettings.php
 #: CRM/CiviMobileAPI/Form/Settings.php
@@ -266,11 +277,11 @@ msgstr "Annuler"
 
 #: CRM/CiviMobileAPI/Form/CalendarSettings.php
 msgid "Configuration Updated"
-msgstr ""
+msgstr "Configuration mise à jour"
 
 #: CRM/CiviMobileAPI/Form/CalendarSettings.php civimobileapi.php
 msgid "CiviMobile Calendar Settings"
-msgstr ""
+msgstr "Paramètres du calendrier de CiviMobile"
 
 #: CRM/CiviMobileAPI/Form/Dashboard.php
 msgid "Logout from mobile"
@@ -282,16 +293,22 @@ msgid ""
 "href=\"https://civimobile.org/partner\"  "
 "target=\"_blank\">civimobile.org</a> and generate your own Server Key"
 msgstr ""
+"Pour utiliser les Notifications Push vous devez vous inscrire à <a "
+"href=\"https://civimobile.org/partner\"  "
+"target=\"_blank\">civimobile.org</a> et générer votre propre clé de serveur."
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid ""
 "You are using CiviMobileAPI <strong>%1</strong>. The latest version is "
 "CiviMobileAPI <strong>%2</strong>"
 msgstr ""
+"Vous utilisez CiviMobileAPI <strong>%1</strong>. La version la plus récente "
+"est CiviMobileAPI <strong>%2</strong>"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Your extension version is up to date - CiviMobile <strong>%1</strong>"
 msgstr ""
+"Votre version de l'extension CiviMobile est à jour - <strong>%1</strong>"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid ""
@@ -302,10 +319,14 @@ msgstr ""
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Your Server Key is valid and you can use Push Notifications."
 msgstr ""
+"Votre clé de serveur est valide et vous pouvez dès maintenant utiliser les "
+"Notifications Push."
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Your Server Key is invalid. Please enter valid Server Key."
 msgstr ""
+"Votre clé de serveur est invalide. Merci de saisir une clé de serveur "
+"valide."
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Fields can not be empty."
@@ -317,7 +338,7 @@ msgstr "Erreur. Quelque chose s'est mal passé. Veuillez nous contacter."
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Server key"
-msgstr ""
+msgstr "Clé de serveur"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Automatically keep the extension up to date"
@@ -325,7 +346,7 @@ msgstr "Mettre à jour automatiquement l'extension"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Enable CiviMobile for Anonymous users"
-msgstr ""
+msgstr "Activer CiviMobile pour les utilisateurs anonymes"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
@@ -334,23 +355,23 @@ msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Use CMS site name"
-msgstr ""
+msgstr "Utiliser le nom du site CMS"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Use custom site name"
-msgstr ""
+msgstr "Utiliser un nom de site personnalisé"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Site name"
-msgstr ""
+msgstr "Nom du site"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Save settings"
-msgstr ""
+msgstr "Enregistrer les paramètres"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Confirm server key"
-msgstr ""
+msgstr "Confirmer la clé de serveur"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Update CiviMobile Extension"
@@ -358,7 +379,11 @@ msgstr "Mettre à jour l'extension CiviMobile"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Server key updated"
-msgstr ""
+msgstr "Clé de serveur mise à jour"
+
+#: CRM/CiviMobileAPI/Form/Settings.php civimobileapi.php
+msgid "CiviMobile Settings"
+msgstr "Paramètres de CiviMobile"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "CiviMobile updated"
@@ -366,7 +391,7 @@ msgstr "CiviMobile mis à jour"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "CiviMobile settings updated"
-msgstr ""
+msgstr "Paramètres de CiviMobile mis à jour"
 
 #: CRM/CiviMobileAPI/Hook/BuildForm/Register.php
 msgid ""
@@ -375,7 +400,7 @@ msgstr ""
 
 #: CRM/CiviMobileAPI/Hook/BuildForm/Register.php
 msgid "User was not registered."
-msgstr ""
+msgstr "L'utilisateur n'a pas été inscrit"
 
 #: CRM/CiviMobileAPI/Hook/Post/Register.php
 msgid "Failed to update participant public_key in database"
@@ -399,7 +424,7 @@ msgstr ""
 
 #: CRM/CiviMobileAPI/Install/Entity/CustomField.php
 msgid "Public key"
-msgstr ""
+msgstr "Clé publique"
 
 #: CRM/CiviMobileAPI/Install/Entity/CustomGroup.php
 msgid "Qr options"
@@ -411,7 +436,7 @@ msgstr ""
 
 #: CRM/CiviMobileAPI/Install/Entity/CustomGroup.php
 msgid "Public Info"
-msgstr ""
+msgstr "Info publique"
 
 #: CRM/CiviMobileAPI/Install/Entity/UpdateMessageTemplate.php
 msgid ""
@@ -498,22 +523,22 @@ msgstr ""
 #: CRM/CiviMobileAPI/PushNotification/Utils/Hook/PostProcess/CasePushNotification.php
 #: CRM/CiviMobileAPI/PushNotification/Utils/Hook/Pre/ActivityPushNotification.php
 msgid "Activity"
-msgstr ""
+msgstr "Activité"
 
 #: CRM/CiviMobileAPI/PushNotification/Utils/Hook/Post/CasePushNotification.php
 #: CRM/CiviMobileAPI/PushNotification/Utils/Hook/Pre/CasePushNotification.php
 msgid "Case"
-msgstr ""
+msgstr "Dossier"
 
 #: CRM/CiviMobileAPI/PushNotification/Utils/Hook/Post/ParticipantPushNotification.php
 #: CRM/CiviMobileAPI/PushNotification/Utils/Hook/PostProcess/ParticipantPushNotification.php
 #: CRM/CiviMobileAPI/PushNotification/Utils/Hook/Pre/ParticipantPushNotification.php
 msgid "Participant"
-msgstr ""
+msgstr "Participant"
 
 #: CRM/CiviMobileAPI/PushNotification/Utils/Hook/Post/RelationshipPushNotification.php
 msgid "Relationship"
-msgstr ""
+msgstr "Relation"
 
 #: CRM/CiviMobileAPI/Upgrader/Base.php CRM/CiviMobileAPI/Utils/Extension.php
 msgid "Upgrade %1 to revision %2"
@@ -521,7 +546,7 @@ msgstr ""
 
 #: CRM/CiviMobileAPI/Utils/ActivityType.php
 msgid "Send an Email"
-msgstr ""
+msgstr "Envoyer un courriel"
 
 #: CRM/CiviMobileAPI/Utils/Contact.php
 msgid "Your Api key has removed and all device disconnected from account."
@@ -543,7 +568,7 @@ msgstr ""
 #: api/v3/CiviMobileContributionStatistic.php api/v3/ContactSettings.php
 #: api/v3/PushNotification.php api/v3/PushNotificationMessages.php
 msgid "Contact ID"
-msgstr ""
+msgstr "Id. de contact"
 
 #: api/v3/CiviMobileAllowedActivityTypes.php
 msgid "Sort filed (default \"label\")"
@@ -563,31 +588,31 @@ msgstr ""
 
 #: api/v3/CiviMobileCalendar.php
 msgid "Event type"
-msgstr ""
+msgstr "Type d'événement"
 
 #: api/v3/CiviMobileCaseRole.php
 msgid "Case ID"
-msgstr ""
+msgstr "Id. de dossier"
 
 #: api/v3/CiviMobileCmsRegistration.php
 msgid "Username"
-msgstr ""
+msgstr "Nom d'utilisateur"
 
 #: api/v3/CiviMobileCmsRegistration.php api/v3/CiviMobilePublicParticipant.php
 msgid "First name"
-msgstr ""
+msgstr "Prénom"
 
 #: api/v3/CiviMobileCmsRegistration.php api/v3/CiviMobilePublicParticipant.php
 msgid "Last name"
-msgstr ""
+msgstr "Nom"
 
 #: api/v3/CiviMobileCmsRegistration.php
 msgid "Password"
-msgstr ""
+msgstr "Mot de passe"
 
 #: api/v3/CiviMobileConfirmToken.php
 msgid "Error. Can not connect to server."
-msgstr ""
+msgstr "Erreur. Impossible de se connecter au serveur."
 
 #: api/v3/CiviMobileContact.php
 msgid "Required field 'contact_id'."
@@ -595,38 +620,38 @@ msgstr ""
 
 #: api/v3/CiviMobileContact.php
 msgid "File not exist"
-msgstr ""
+msgstr "Le fichier n'existe pas"
 
 #: api/v3/CiviMobileContact.php
 msgid "Can`t upload image"
-msgstr ""
+msgstr "Impossible de téléverser l'image"
 
 #: api/v3/CiviMobileContact.php
 msgid "Something go wrong with your file"
-msgstr ""
+msgstr "Quelque chose n'a pas fonctionné avec votre fichier"
 
 #: api/v3/CiviMobileCustomFields.php
 msgid "Entity"
-msgstr ""
+msgstr "Entité"
 
 #: api/v3/CiviMobileGetPriceSetByEvent.php api/v3/CiviMobileParticipant.php
 #: api/v3/CiviMobileParticipantPayment.php
 #: api/v3/CiviMobileParticipantPaymentLink.php
 #: api/v3/CiviMobilePublicParticipant.php
 msgid "Event id"
-msgstr ""
+msgstr "Id. d'événement"
 
 #: api/v3/CiviMobileMyTicket.php
 msgid "Permission is required."
-msgstr ""
+msgstr "Une autorisation est nécessaire."
 
 #: api/v3/CiviMobileParticipant.php
 msgid "Participant status successfully updated."
-msgstr ""
+msgstr "Le statut du participant a été mis à jour correctement."
 
 #: api/v3/CiviMobileParticipant.php
 msgid "Participant id"
-msgstr ""
+msgstr "Id. de participant"
 
 #: api/v3/CiviMobileParticipant.php
 msgid "Participant status id. Allow statuses: \"Registered\" or \"Attended\""
@@ -646,7 +671,7 @@ msgstr ""
 
 #: api/v3/CiviMobileParticipantPayment.php
 msgid "Send confirmation"
-msgstr ""
+msgstr "Envoyer une confirmation"
 
 #: api/v3/CiviMobileParticipantPayment.php
 msgid "Price set selected values"
@@ -654,11 +679,11 @@ msgstr ""
 
 #: api/v3/CiviMobilePublicParticipant.php
 msgid "Contact email."
-msgstr ""
+msgstr "Courriel de contact."
 
 #: api/v3/CiviMobilePublicParticipant.php
 msgid "Ticket not found."
-msgstr ""
+msgstr "Ticket non trouvé."
 
 #: api/v3/CiviMobilePublicParticipant.php
 msgid "Event which is attached to ticket does not exist."
@@ -666,15 +691,15 @@ msgstr ""
 
 #: api/v3/CiviMobilePublicParticipant.php
 msgid "Public key."
-msgstr ""
+msgstr "Clé publique."
 
 #: api/v3/PushNotificationEventReminder.php
 msgid "Event start at"
-msgstr ""
+msgstr "L'événement débute à"
 
 #: api/v3/PushNotificationMessages.php
 msgid "Direction"
-msgstr ""
+msgstr "Direction"
 
 #: api/v3/PushNotificationMessages.php
 msgid "Deletes \"Push notification messages\" older than this param. Default 90."
@@ -682,16 +707,12 @@ msgstr ""
 
 #: civimobileapi.php
 msgid "CiviMobile"
-msgstr ""
+msgstr "CiviMobile"
 
 #: civimobileapi.php
 msgid ""
 "It means User can only update Participant status to 'Registered' or "
 "'Attended'. Uses by QR Code."
-msgstr ""
-
-#: civimobileapi.php
-msgid "CiviMobile Settings"
 msgstr ""
 
 #: civimobileapi.php
@@ -712,16 +733,16 @@ msgstr ""
 
 #: settings/civimobileapi.setting.php
 msgid "Hide past events"
-msgstr ""
+msgstr "Masquer les événements passés"
 
 #: settings/civimobileapi.setting.php
 msgid "Synchronize with CiviCalendar"
-msgstr ""
+msgstr "Synchroniser avec CiviCalendar"
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "Push Notifications"
-msgstr ""
+msgstr "Notifications Push"
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid ""
@@ -733,7 +754,7 @@ msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "Server Key"
-msgstr ""
+msgstr "Clé de serveur"
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "Server Key is used for security purposes for Push Notifications"
@@ -742,7 +763,7 @@ msgstr ""
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "Software update"
-msgstr ""
+msgstr "Mise à jour logicielle"
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid ""
@@ -753,7 +774,7 @@ msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "Access to public information in the application"
-msgstr ""
+msgstr "Accéder à l'information publique dans l'application"
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid ""
@@ -763,7 +784,7 @@ msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "Site name for CiviMobile"
-msgstr ""
+msgstr "Nom du site pour CiviMobile"
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "You can use default CMS site name or you can create your custom name."
@@ -777,11 +798,11 @@ msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "Extension Info"
-msgstr ""
+msgstr "Info sur l'extension"
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "Version"
-msgstr ""
+msgstr "Version"
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "Extension name doesn't correct"
@@ -801,7 +822,7 @@ msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "Public Area Settings"
-msgstr ""
+msgstr "Paramètres de l'espace public"
 
 #: templates/qrcode-checkin-event-options.tpl
 msgid ""
