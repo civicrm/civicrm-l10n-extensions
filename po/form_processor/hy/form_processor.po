@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: form_processor\n"
-"POT-Creation-Date: 2019-11-27 05:01+0000\n"
+"POT-Creation-Date: 2020-03-18 05:01+0000\n"
 "Language-Team: Armenian (https://www.transifex.com/civicrm/teams/1460/hy/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -81,6 +81,7 @@ msgstr ""
 
 #: CRM/FormProcessor/DAO/FormProcessorAction.php
 #: CRM/FormProcessor/DAO/FormProcessorDefaultDataAction.php
+#: CRM/FormProcessor/DAO/FormProcessorDefaultDataInput.php
 #: CRM/FormProcessor/DAO/FormProcessorInput.php
 #: CRM/FormProcessor/DAO/FormProcessorInstance.php
 #: ang/form_processor/FormProcessorEditCtrl/Details.html
@@ -93,6 +94,8 @@ msgstr ""
 #: api/v3/FormProcessorAction/Create.php
 #: api/v3/FormProcessorDefaultDataAction/Converttitletoname.php
 #: api/v3/FormProcessorDefaultDataAction/Create.php
+#: api/v3/FormProcessorDefaultDataInput/Converttitletoname.php
+#: api/v3/FormProcessorDefaultDataInput/Create.php
 #: api/v3/FormProcessorInput/Converttitletoname.php
 #: api/v3/FormProcessorInput/Create.php
 #: api/v3/FormProcessorInstance/Create.php
@@ -119,6 +122,7 @@ msgstr ""
 #: CRM/FormProcessor/DAO/FormProcessorDefaultDataInput.php
 #: CRM/FormProcessor/DAO/FormProcessorInput.php
 #: CRM/FormProcessor/DAO/FormProcessorValidation.php
+#: ang/form_processor/DelayedActionHandlerDialogCtrl.html
 #: api/v3/FormProcessorAction/Create.php
 #: api/v3/FormProcessorDefaultDataAction/Create.php
 #: api/v3/FormProcessorDefaultDataInput/Create.php
@@ -290,11 +294,11 @@ msgid "Output name"
 msgstr ""
 
 #: Civi/FormProcessor/OutputHandler/FormatOutput.php
-msgid "Formatted output"
+msgid "Decide what to send"
 msgstr ""
 
 #: Civi/FormProcessor/OutputHandler/OutputAllActionOutput.php
-msgid "Output all the output from all the actions"
+msgid "Send everything"
 msgstr ""
 
 #: Civi/FormProcessor/Type/CampaignType.php
@@ -539,6 +543,14 @@ msgstr ""
 msgid "E-mail"
 msgstr ""
 
+#: Civi/FormProcessor/Validation/MinLengthValidator.php
+msgid "Has a minimum length"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/MinLengthValidator.php
+msgid "Minimum length"
+msgstr ""
+
 #: ang/form_processor/DelayedActionHandlerDialogCtrl.html
 msgid "Delayed action"
 msgstr ""
@@ -570,15 +582,39 @@ msgid "Actions"
 msgstr ""
 
 #: ang/form_processor/FormProcessorEditCtrl/DefaultDataActionTable.html
-msgid "Actions to retrieve data"
+msgid "Retrieval methods of default data"
+msgstr ""
+
+#: ang/form_processor/FormProcessorEditCtrl/DefaultDataActionTable.html
+msgid "Add retrieval method"
+msgstr ""
+
+#: ang/form_processor/FormProcessorEditCtrl/DefaultDataActionTable.html
+msgid "- Select retrieval method -"
+msgstr ""
+
+#: ang/form_processor/FormProcessorEditCtrl/DefaultDataActionTable.html
+msgid "Edit retrieval method of default data"
 msgstr ""
 
 #: ang/form_processor/FormProcessorEditCtrl/DefaultDataInputTable.html
-msgid "Inputs for default data"
+msgid "Retrieval criteria for default data"
+msgstr ""
+
+#: ang/form_processor/FormProcessorEditCtrl/DefaultDataInputTable.html
+msgid "Add retrieval criteria"
+msgstr ""
+
+#: ang/form_processor/FormProcessorEditCtrl/DefaultDataInputTable.html
+msgid "- Select criteria type -"
+msgstr ""
+
+#: ang/form_processor/FormProcessorEditCtrl/DefaultDataInputTable.html
+msgid "Edit retrieval criteria for default data"
 msgstr ""
 
 #: ang/form_processor/FormProcessorEditCtrl/DefaultDataOutputTable.html
-msgid "Default data"
+msgid "Set defaults"
 msgstr ""
 
 #: ang/form_processor/FormProcessorEditCtrl/DefaultDataOutputTable.html
@@ -637,15 +673,23 @@ msgid "Form processor is not saved"
 msgstr ""
 
 #: ang/form_processor/FormProcessorEditCtrl.html
-msgid "Define form processeror"
+msgid "Define form processor"
 msgstr ""
 
 #: ang/form_processor/FormProcessorEditCtrl.html
-msgid "Define default data"
+msgid "Retrieval of defaults"
 msgstr ""
 
 #: ang/form_processor/FormProcessorEditCtrl.html
-msgid "Enable default data?"
+msgid "Enable default data retrieval?"
+msgstr ""
+
+#: ang/form_processor/FormProcessorEditCtrl.html
+msgid ""
+"You can use retrieval of default data to create a form which already filled "
+"with existing data. For example if you have a form for updating mailing "
+"preference you want to the form to display the current preferences. To "
+"achieve this use the retrieval of default data."
 msgstr ""
 
 #: ang/form_processor/FormProcessorEditCtrl.html
@@ -816,6 +860,23 @@ msgstr ""
 
 #: api/v3/FormProcessorInstance/Create.php
 msgid "Output handler configuration"
+msgstr ""
+
+#: api/v3/FormProcessorInstance/Export.php
+msgid "To File"
+msgstr ""
+
+#: api/v3/FormProcessorInstance/Export.php
+msgid "If a file path is given, the JSON configuration will be written there."
+msgstr ""
+
+#: api/v3/FormProcessorInstance/Import.php
+msgid "Specification File"
+msgstr ""
+
+#: api/v3/FormProcessorInstance/Import.php
+msgid ""
+"If a file path is given, the JSON configuration will be imported from there"
 msgstr ""
 
 #: form_processor.php
