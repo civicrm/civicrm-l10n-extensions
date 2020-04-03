@@ -25,12 +25,13 @@ msgstr "Ce contact a déjà été affecté à cet événement."
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPayment/Create.php
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid "Can not get price set assigned to event."
-msgstr "Impossible d'obtenir le prix de l’événement."
+msgstr "Impossible d'obtenir la tarification de l’événement."
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPayment/Create.php
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid "Can not get price set fields assigned to event."
-msgstr "Il n'est pas possible d'obtenir les tarifs assignés à l'événement."
+msgstr ""
+"Impossible d'obtenir les champs de tarification assignés à l'événement."
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid "Previous Payment cannot be deleted (hash=%1). Please complete payment"
@@ -71,34 +72,41 @@ msgstr "Le courriel '%1' doit être valide."
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid "Can not parse selected price set"
-msgstr ""
+msgstr "Impossible de parser la valeur sélectionnée pour cette tarification"
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid ""
 "Can not parse selected value for field (id = %1) for price set (id = %2)"
 msgstr ""
+"Impossible de parser la valeur sélectionnée pour le champ (id = %1) pour la "
+"tarification (id = %2)"
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid "Price Field (id = %1) does not exist for Event's"
-msgstr ""
+msgstr "Le champ de tarif (id = %1) n'existe pas pour les Evénements"
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid ""
 "Empty filed values for price set field (id = %1). Please create it in "
 "administer."
 msgstr ""
+"Valeurs de champ vides pour le champ de tarification (id =% 1). Veuillez le "
+"créer dans administrer."
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid "\"filed_value_count\" must be filled for field with \"Text\" \"html_type\""
 msgstr ""
+"\"filed_value_count\" doit être rempli pour le champ avec la valeur \"Text\""
+" ou \"html_type\"."
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid "Not valid value(id = %1) for price set field (id = %2)."
-msgstr ""
+msgstr "Valeur invalide (id = %1) pour le champ de tarification (id = %2)."
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid "Price field (id = %1) is required field for price set(id = %2)"
 msgstr ""
+"Le champ de tarif (id = %1) est obligatoire pour la tarification (id = %2)"
 
 #: CRM/CiviMobileAPI/Api/CiviMobilePublicParticipant/Create.php
 msgid "Can not create Contact. Error: "
@@ -157,7 +165,7 @@ msgstr ""
 #: CRM/CiviMobileAPI/DAO/CivimobileEventPaymentInfo.php
 #: api/v3/CiviMobileParticipantPaymentLink.php
 msgid "Price Set"
-msgstr "Tarif"
+msgstr "Tarification"
 
 #: CRM/CiviMobileAPI/DAO/CivimobileEventPaymentInfo.php
 msgid "Contact Id"
@@ -675,7 +683,7 @@ msgstr "Envoyer une confirmation"
 
 #: api/v3/CiviMobileParticipantPayment.php
 msgid "Price set selected values"
-msgstr ""
+msgstr "Valeurs sélectionnées de la tarification"
 
 #: api/v3/CiviMobilePublicParticipant.php
 msgid "Contact email."
@@ -687,7 +695,7 @@ msgstr "Ticket non trouvé."
 
 #: api/v3/CiviMobilePublicParticipant.php
 msgid "Event which is attached to ticket does not exist."
-msgstr ""
+msgstr "L'événement attaché au ticket n'existe pas."
 
 #: api/v3/CiviMobilePublicParticipant.php
 msgid "Public key."
@@ -751,6 +759,11 @@ msgid ""
 "applications. The system will \"push\" reminders and notifications during "
 "some activity in your CiviCRM."
 msgstr ""
+"Les notifications Push sont de petits messages qui peuvent atteindre votre "
+"audience partout et à tout instant. Elles ont \"poussées\" depuis un serveur"
+" backend jusqu'aux applications mobile des utilisateurs. Le système "
+"\"poussera\" des rappels et des notifications quand il y a une activité dans"
+" votre CiviCRM."
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "Server Key"
@@ -789,6 +802,8 @@ msgstr "Nom du site pour CiviMobile"
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "You can use default CMS site name or you can create your custom name."
 msgstr ""
+"Vous pouvez utiliser le nom de site par défaut du CMS ou vous pouvez créer "
+"votre propre nom personnalisé."
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid ""
@@ -806,7 +821,7 @@ msgstr "Version"
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "Extension name doesn't correct"
-msgstr ""
+msgstr "Le nom d'extension est incorrect"
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "Current extension name:"
