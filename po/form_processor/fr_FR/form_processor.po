@@ -345,6 +345,15 @@ msgid ""
 "\t\t\t\t\t<a href=\"http://nl1.php.net/manual/en/datetime.createfromformat.php#refsect1-datetime.createfromformat-parameters\">More information at php.net</a>\n"
 "\t\t\t\t\t"
 msgstr ""
+"Le format est le format d'entrée de la date. Les options disponibles sont : <br />\n"
+"\t\t\t\t\tY: année 4 chiffres (ex. 2018) <br />\n"
+"\t\t\t\t\tm: mois 2 chiffres (ex. 03) <br />\n"
+"\t\t\t\t\td: jour 2 chiffres (ex. 04) <br />\n"
+"\t\t\t\t\tH: heures format 24h avec un 0 avant (ex. 08) <br />\n"
+"\t\t\t\t\ti: minutes avec un 0 avant (ex. 06) <br />\n"
+"\t\t\t\t\t<br />\n"
+"\t\t\t\t\t<a href=\"http://nl1.php.net/manual/en/datetime.createfromformat.php#refsect1-datetime.createfromformat-parameters\">Plus d'informations sur php.net</a>\n"
+"\t\t\t\t\t"
 
 #: Civi/FormProcessor/Type/DateType.php
 msgid "Include time"
@@ -505,6 +514,12 @@ msgid ""
 "\t\t\t\t\t<a href=\"http://nl1.php.net/manual/en/datetime.createfromformat.php#refsect1-datetime.createfromformat-parameters\">More information at php.net</a>\n"
 "\t\t\t\t\t"
 msgstr ""
+"Le format est le format d'éntrée de la date. Les options suivantes sont disponibles : <br />\n"
+"\t\t\t\t\tH: heures au format 24h avec un 0 qui précéde (ex. 08) <br />\n"
+"\t\t\t\t\ti: minutes avec un 0 qui précéde (ex. 06) <br />\n"
+"\t\t\t\t\t<br />\n"
+"\t\t\t\t\t<a href=\"http://nl1.php.net/manual/en/datetime.createfromformat.php#refsect1-datetime.createfromformat-parameters\">Plus d'informations sur php.net</a>\n"
+"\t\t\t\t\t"
 
 #: Civi/FormProcessor/Type/WeekDays.php
 msgid "Sunday"
@@ -590,27 +605,27 @@ msgstr "Actions"
 
 #: ang/form_processor/FormProcessorEditCtrl/DefaultDataActionTable.html
 msgid "Retrieval methods of default data"
-msgstr ""
+msgstr "Méthodes de récupération des données par défaut"
 
 #: ang/form_processor/FormProcessorEditCtrl/DefaultDataActionTable.html
 msgid "Add retrieval method"
-msgstr ""
+msgstr "Ajouter une méthode de récupération"
 
 #: ang/form_processor/FormProcessorEditCtrl/DefaultDataActionTable.html
 msgid "- Select retrieval method -"
-msgstr ""
+msgstr "- Sélectionner une méthode de récupération -"
 
 #: ang/form_processor/FormProcessorEditCtrl/DefaultDataActionTable.html
 msgid "Edit retrieval method of default data"
-msgstr ""
+msgstr "Modifier la méthode de récupération des données par défaut"
 
 #: ang/form_processor/FormProcessorEditCtrl/DefaultDataInputTable.html
 msgid "Retrieval criteria for default data"
-msgstr ""
+msgstr "Critères de récupération des données par défaut"
 
 #: ang/form_processor/FormProcessorEditCtrl/DefaultDataInputTable.html
 msgid "Add retrieval criteria"
-msgstr ""
+msgstr "Ajouter un critère de récupération"
 
 #: ang/form_processor/FormProcessorEditCtrl/DefaultDataInputTable.html
 msgid "- Select criteria type -"
@@ -618,7 +633,7 @@ msgstr "- sélectionner le type de critère -"
 
 #: ang/form_processor/FormProcessorEditCtrl/DefaultDataInputTable.html
 msgid "Edit retrieval criteria for default data"
-msgstr ""
+msgstr "Modifier le critère de récupération de données par défaut"
 
 #: ang/form_processor/FormProcessorEditCtrl/DefaultDataOutputTable.html
 msgid "Set defaults"
@@ -664,15 +679,15 @@ msgstr "Gestionnaire de sortie"
 
 #: ang/form_processor/FormProcessorEditCtrl/OutputHandler.html
 msgid "Change and configure output handler"
-msgstr ""
+msgstr "Modifier et paramétrer le gestionnaire de sortie"
 
 #: ang/form_processor/FormProcessorEditCtrl/help.html
 msgid "This form processor could be used with the following API"
-msgstr ""
+msgstr "Ce Générateur de Formulaire pourrait être utilisé avec l'API suivante"
 
 #: ang/form_processor/FormProcessorEditCtrl.html
 msgid "Edit form processor %1"
-msgstr ""
+msgstr "Modifier le Générateur de Formulaire %1"
 
 #: ang/form_processor/FormProcessorEditCtrl.html
 #: ang/form_processor/FormProcessorListCtrl.html
@@ -693,7 +708,7 @@ msgstr ""
 
 #: ang/form_processor/FormProcessorEditCtrl.html
 msgid "Enable default data retrieval?"
-msgstr ""
+msgstr "Activer la récupération de données par défaut ?"
 
 #: ang/form_processor/FormProcessorEditCtrl.html
 msgid ""
@@ -702,6 +717,11 @@ msgid ""
 "preference you want to the form to display the current preferences. To "
 "achieve this use the retrieval of default data."
 msgstr ""
+"Vous pouvez utiliser la récupération de données par défaut pour créer un "
+"formulaire qui sera remplit automatiquement avec des données existantes. Par"
+" exemple, pour un formulaire qui sert à mettre à jour vos préférences de "
+"mailing vous voudrez que le formulaire affiche les préférences existantes. "
+"Pour cela, utilisez la récupération de données par défaut."
 
 #: ang/form_processor/FormProcessorEditCtrl.html
 msgid "Save"
@@ -788,7 +808,7 @@ msgstr "Modifier et paramétrer la condition"
 
 #: ang/form_processor/actions/crmFormProcessorActions.html
 msgid "Change and configure delay"
-msgstr ""
+msgstr "Modifier et paramétrer le délai"
 
 #: ang/form_processor/actions/crmFormProcessorActions.html
 #: ang/form_processor/config/crmFormProcessorSpecification.html
@@ -885,7 +905,7 @@ msgstr "Vers le fichier"
 
 #: api/v3/FormProcessorInstance/Export.php
 msgid "If a file path is given, the JSON configuration will be written there."
-msgstr ""
+msgstr "Si un chemin est fourni, la configuration JSON sera écrite ici."
 
 #: api/v3/FormProcessorInstance/Import.php
 msgid "Specification File"
@@ -894,7 +914,7 @@ msgstr "Fichier de spécification"
 #: api/v3/FormProcessorInstance/Import.php
 msgid ""
 "If a file path is given, the JSON configuration will be imported from there"
-msgstr ""
+msgstr "Si un chemin est fourni, la configuration JSON y sera importée."
 
 #: form_processor.php
 msgid "Automation"
