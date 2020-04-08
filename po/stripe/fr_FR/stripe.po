@@ -3,13 +3,15 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
+# Guillaume Sorel <serviceclient@all-in-appli.com>, 2020
+# Manuela Pacurari <prod@all-in-appli.com>, 2020
 # Xynn <xynn.anhnguyen@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
 "POT-Creation-Date: 2020-02-23 05:01+0000\n"
-"PO-Revision-Date: 2020-02-23 05:01+0000\n"
-"Last-Translator: civicrm_maintenance <mathieu+civicrm@bidon.ca>\n"
+"PO-Revision-Date: 2020-04-07 13:01+0000\n"
+"Last-Translator: Guillaume Sorel <serviceclient@all-in-appli.com>\n"
 "Language-Team: French (http://www.transifex.com/civicrm/civicrm_extensions/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,51 +21,51 @@ msgstr ""
 
 #: CRM/Core/Payment/Stripe.php
 msgid "Contribution: %1"
-msgstr ""
+msgstr "Contribution : %1"
 
 #: CRM/Core/Payment/Stripe.php
 msgid ""
 "The recurring contribution cannot be cancelled (No reference (trxn_id) "
 "found)."
-msgstr ""
+msgstr "La contribution périodique ne peut pas être annulée (Pas de référence (trxn_id) trouvée)."
 
 #: CRM/Stripe/Check.php
 msgid ""
 "The Stripe extension requires the mjwshared extension which is not installed"
 " (https://lab.civicrm.org/extensions/mjwshared)."
-msgstr ""
+msgstr "L'extension Stripe nécessite l'extension mjwshared qui n'est pas installée (https://lab.civicrm.org/extensions/mjwshared)."
 
 #: CRM/Stripe/Check.php
 msgid "Stripe: Missing Requirements"
-msgstr ""
+msgstr "Stripe : Les conditions requises sont manquantes"
 
 #: CRM/Stripe/Check.php
 msgid ""
 "The Stripe extension requires the mjwshared extension version %1 or greater "
 "but your system has version %2."
-msgstr ""
+msgstr "L'extension Stripe nécessite la version %1 ou supérieure de l'extension mjwshared, mais votre système possède la version %2."
 
 #: CRM/Stripe/Check.php
 msgid ""
 "If you are using Stripe to accept payments on public forms (eg. contribution/event registration forms) it is recommended that you install the <strong><a href=\"https://lab.civicrm.org/extensions/firewall\">firewall</a></strong> extension.\n"
 "        Some sites have become targets for spammers who use the payment endpoint to try and test credit cards by submitting invalid payments to your Stripe account."
-msgstr ""
+msgstr "Si vous utilisez Stripe pour accepter des paiements sur des formulaires publics (par exemple des formulaires de contribution ou d'inscription à des événements), il est recommandé d'installer l'extension <strong><a href=\"https://lab.civicrm.org/extensions/firewall\">firewall</a></strong>. Certains sites sont devenus des cibles pour les spammeurs qui utilisent le point de terminaison de paiement pour essayer de tester les cartes de crédit en soumettant des paiements non valides à votre compte Stripe. "
 
 #: CRM/Stripe/Check.php
 msgid "Recommended Extension: firewall"
-msgstr ""
+msgstr "Extension recommandée : Firewall "
 
 #: CRM/Stripe/Form/UpdateWebhook.php
 msgid "Update / Create webhook"
-msgstr ""
+msgstr "Mettre à jour / Créer un webhook"
 
 #: CRM/Stripe/Form/UpdateWebhook.php
 msgid "All webhooks update successfully."
-msgstr ""
+msgstr "Tous les webhook ont été mis à jour avec succès."
 
 #: CRM/Stripe/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
-msgstr ""
+msgstr "Mise à niveau %1 vers révision %2 "
 
 #: CRM/Stripe/Webhook.php
 msgid ""
@@ -71,156 +73,156 @@ msgid ""
 "please delete the webhook at Stripe and then revisit this page which will "
 "recreate it correctly. <em>Webhook path is: <a href=\"%1\" "
 "target=\"_blank\">%1</a>.</em>"
-msgstr ""
+msgstr "La version de l'API du webhook est définie à %2 mais CiviCRM exige %3. Pour corriger cela, veuillez supprimer le webhook dans Stripe puis revisiter cette page qui la recréera correctement. <em>Le chemin du webhook est : <a href=\"%1\" target=\"_blank\">%1</a>.</em>"
 
 #: CRM/Stripe/Webhook.php
 msgid ""
 "Unable to update the webhook %1. To correct this please delete the webhook "
 "at Stripe and then revisit this page which will recreate it correctly."
-msgstr ""
+msgstr "Impossible de mettre à jour le webhook %1. Pour corriger cela, veuillez supprimer le webhook à Stripe puis revisiter cette page qui le recréera correctement."
 
 #: CRM/Stripe/Webhook.php
 msgid ""
 "Problems detected with Stripe webhook! <em>Webhook path is: <a href=\"%1\" "
 "target=\"_blank\">%1</a>.</em>"
-msgstr ""
+msgstr "Problèmes détectés avec le webhook Stripe ! <em>Le chemin du webhook est : <a href=\"%1\" target=\"_blank\">%1</a>.</em>"
 
 #: CRM/Stripe/Webhook.php
 msgid "View and fix problems"
-msgstr ""
+msgstr "Voir et résoudre les problèmes."
 
 #: CRM/Stripe/Webhook.php
 msgid ""
 "Could not check/update existing webhooks, got error from stripe <em>%1</em>"
-msgstr ""
+msgstr "Impossible de vérifier/mettre à jour les webhooks existants, erreur <em>%1</em> dans Stripe"
 
 #: CRM/Stripe/Webhook.php
 msgid "Could not create webhook, got error from stripe <em>%1</em>"
-msgstr ""
+msgstr "N'a pas pu créer de webhook, a obtenu l'erreur <em>%1</em> de Stripe"
 
 #: CRM/Stripe/Webhook.php
 msgid ""
 "Stripe Webhook missing or needs update! <em>Expected webhook path is: <a "
 "href=\"%1\" target=\"_blank\">%1</a></em>"
-msgstr ""
+msgstr "Le webhook Stripe manque ou doit être mis à jour ! <em>Le chemin d'accès attendu pour le webhook est : <a href=\"%1\" target=\"_blank\">%1</a></em> "
 
 #: CRM/Stripe/Webhook.php
 msgid "Stripe Payment Processor: %1 (%2)"
-msgstr ""
+msgstr "Processeur de payement Stripe : %1 (%2)"
 
 #: api/v3/Stripe/Ipn.php
 msgid "CiviCRM System Log id to replay from system log."
-msgstr ""
+msgstr "ID du log du système CiviCRM pour rejouer à partir du journal du système."
 
 #: api/v3/Stripe/Ipn.php
 msgid "An event id as generated by Stripe."
-msgstr ""
+msgstr "Un identifiant d'événement tel que généré par Stripe."
 
 #: api/v3/Stripe/Ipn.php
 msgid "The payment processor to use (required if using evtid)"
-msgstr ""
+msgstr "Le processeur de payement à utiliser (obligatoire si vous utilisez evtid)"
 
 #: api/v3/Stripe/Ipn.php
 msgid ""
 "Set to 1 to override contribution page settings and do not send a receipt "
 "(default is off or 0). )"
-msgstr ""
+msgstr "Réglez sur 1 pour outrepasser les paramètres de la page de contribution et n'envoyez pas de reçu (par défaut, c'est désactivé ou 0). )"
 
 #: api/v3/Stripe/Listevents.php
 msgid "Use the given Payment Processor ID"
-msgstr ""
+msgstr "Utilisez l'identifiant du processeur de paiement donné "
 
 #: api/v3/Stripe/Listevents.php
 msgid ""
 "Limit to the given Stripe events type, defaults to "
 "invoice.payment_succeeded."
-msgstr ""
+msgstr "Limite au type d'événements Stripe donnés, par défaut à invoice.payment_succeeded."
 
 #: api/v3/Stripe/Listevents.php
 msgid "Limit number of results returned (100 is max)"
-msgstr ""
+msgstr "Limiter le nombre de résultats renvoyés (maximum 100)"
 
 #: api/v3/Stripe/Listevents.php
 msgid "Only return results after this event id."
-msgstr ""
+msgstr "Renvoyer les résultats seulement après l'identification de l'événement."
 
 #: api/v3/Stripe/Listevents.php
 msgid "How to format the output, brief or raw. Defaults to brief."
-msgstr ""
+msgstr "Comment formater le rendu, bref ou brut. Le format par défaut est \"bref\"."
 
 #: api/v3/Stripe/Populatelog.php
 msgid "The id of the payment processor."
-msgstr ""
+msgstr "L'identifiant du processeur de paiement. "
 
 #: api/v3/StripeCustomer.php api/v3/StripeSubscription.php
 msgid "Stripe Customer ID"
-msgstr ""
+msgstr "Identifiant du client Stripe "
 
 #: api/v3/StripeCustomer.php
 msgid "CiviCRM Contact ID"
-msgstr ""
+msgstr "Identifiant du contact CiviCRM"
 
 #: api/v3/StripeCustomer.php api/v3/StripeSubscription.php
 msgid "Payment Processor ID"
-msgstr ""
+msgstr "Identifiant du Processeur de paiement"
 
 #: api/v3/StripeCustomer.php
 msgid ""
 "If set only this customer will be updated, otherwise we try and update ALL "
 "customers"
-msgstr ""
+msgstr "Si cette option est activée, seul ce client sera mis à jour, sinon nous essayerons de mettre à jour TOUS les clients"
 
 #: api/v3/StripeSubscription.php
 msgid "Stripe Subscription ID"
-msgstr ""
+msgstr "Identifiant de souscription Stripe"
 
 #: api/v3/StripeSubscription.php
 msgid "Contribution Recur ID"
-msgstr ""
+msgstr "Récupérez l'identifiant de contribution"
 
 #: api/v3/StripeSubscription.php
 msgid "End Time"
-msgstr ""
+msgstr "Fin de la période "
 
 #: api/v3/StripeSubscription.php
 msgid "Contact ID"
-msgstr ""
+msgstr "Identifiant de contact"
 
 #: api/v3/StripeSubscription.php
 msgid "Contribution ID"
-msgstr ""
+msgstr "Identifiant de la contribution"
 
 #: api/v3/StripeSubscription.php
 msgid "Membership ID"
-msgstr ""
+msgstr "Identifiant de l'adhésion"
 
 #: api/v3/StripeSubscription.php
 msgid "Link to existing membership automatically"
-msgstr ""
+msgstr "Lien automatique vers l'adhésion existante"
 
 #: settings/stripe.setting.php
 msgid "Enable Stripe Javascript debugging?"
-msgstr ""
+msgstr "Activer le débogage Javascript de Stripe ?"
 
 #: settings/stripe.setting.php
 msgid ""
 "Enables debug logging to browser console for stripe payment processors."
-msgstr ""
+msgstr "Permet l'enregistrement des débogages dans la console du navigateur pour les processeurs de paiement de Stripe."
 
 #: settings/stripe.setting.php
 msgid "Allow Stripe to send a receipt for one-off payments?"
-msgstr ""
+msgstr "Permettre à Stripe d'envoyer un reçu pour les paiements uniques ?"
 
 #: settings/stripe.setting.php
 msgid ""
 "Sets the \"email_receipt\" parameter on a Stripe Charge so that Stripe can "
 "send an email receipt."
-msgstr ""
+msgstr "Définit le paramètre \"email_receipt\" sur un paiement Stripe afin que Stripe puisse envoyer un reçu par courriel."
 
 #: stripe.php
 msgid "Stripe Settings"
-msgstr ""
+msgstr "Paramètres de Stripe"
 
 #: templates/CRM/Core/Payment/Stripe/Card.tpl
 msgid "Credit or debit card"
-msgstr ""
+msgstr "Carte de crédit ou de débit"
