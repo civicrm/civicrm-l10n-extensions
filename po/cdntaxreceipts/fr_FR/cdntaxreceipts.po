@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
 "POT-Creation-Date: 2020-02-05 05:01+0000\n"
-"PO-Revision-Date: 2020-03-01 17:00+0000\n"
+"PO-Revision-Date: 2020-04-08 15:47+0000\n"
 "Last-Translator: Usha Matisson <matisson@makoa.fr>\n"
 "Language-Team: French (http://www.transifex.com/civicrm/civicrm_extensions/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -126,7 +126,7 @@ msgstr "Source de la contribution"
 
 #: CRM/Cdntaxreceipts/Form/Report/ReceiptsNotIssued.php
 msgid "Financial Type"
-msgstr "Type Financier"
+msgstr "Type d'opération (financière)"
 
 #: CRM/Cdntaxreceipts/Form/Report/ReceiptsNotIssued.php
 msgid "Yes"
@@ -144,7 +144,7 @@ msgstr "Utiliser l'égilibité avancée (Hooks - memory intensive)"
 msgid ""
 "For performance reasons, date range is limited to the current month. If you "
 "want to a different date range, please use the date filter."
-msgstr ""
+msgstr "Pour des raisons de performances, la plage de dates est limitée au mois en cours. Si vous souhaitez une autre plage de dates, veuillez utiliser le filtre de date."
 
 #: CRM/Cdntaxreceipts/Form/Report/ReceiptsNotIssued.php
 msgid "View Details of this Contribution"
@@ -291,7 +291,7 @@ msgstr "Le reçu a été généré pour l'impression."
 
 #: CRM/Cdntaxreceipts/Form/ViewTaxReceipt.php
 msgid "Tax Receipt data is available in the Tax Receipts Issued report."
-msgstr ""
+msgstr "Les données sur les reçus fiscaux sont disponibles dans le rapport sur les reçus fiscaux émis."
 
 #: CRM/Cdntaxreceipts/Form/ViewTaxReceipt.php
 msgid "Encountered an error. Tax receipt has not been issued."
@@ -354,7 +354,7 @@ msgstr "%1 reçus doivent être imprimés."
 #: CRM/Cdntaxreceipts/Task/IssueSingleTaxReceipts.php
 msgid ""
 "Data for %1 tax receipt(s) is available in the Tax Receipts Issued report."
-msgstr ""
+msgstr "Les données pour %1 reçus fiscaux sont disponibles dans le rapport sur les reçus fiscaux émis."
 
 #: CRM/Cdntaxreceipts/Task/IssueAggregateTaxReceipts.php
 #: CRM/Cdntaxreceipts/Task/IssueAnnualTaxReceipts.php
@@ -386,7 +386,7 @@ msgstr "Mise à jour de %1 à la révision %2"
 
 #: cdntaxreceipts.functions.inc
 msgid "Failed to acquire lock. No receipts were processed."
-msgstr ""
+msgstr "Échec de l'acquisition du verrou. Aucun reçu n'a été traité."
 
 #: cdntaxreceipts.functions.inc
 msgid "Warning"
@@ -450,7 +450,7 @@ msgstr "Valeur marchande : %1"
 
 #: cdntaxreceipts.functions.inc
 msgid "Canada Revenue Agency: canada.ca/charities-giving"
-msgstr ""
+msgstr "Agence Canadienne du revenu du Canada: canada.ca/charities-giving"
 
 #: cdntaxreceipts.functions.inc
 msgid "Thank you!"
@@ -525,7 +525,7 @@ msgid ""
 "This is an experimental option to generate receipt numbers serially, without"
 " the gaps of the default method described above. Not recommended unless your"
 " auditor insists."
-msgstr ""
+msgstr "Il s'agit d'une option expérimentale pour générer des numéros de reçu en série, sans les lacunes de la méthode par défaut décrite ci-dessus. Non recommandé, sauf si votre auditeur insiste."
 
 #: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
 msgid ""
@@ -569,7 +569,7 @@ msgid ""
 "format.<br />Data only: Tax receipts are generated internally in CiviCRM. "
 "Data can be exported for mail merge/mail house via the Tax Receipts Issued "
 "report."
-msgstr ""
+msgstr "Impression uniquement: tous les reçus fiscaux sont générés au format PDF.<br />E-mail ou impression: les reçus fiscaux sont envoyés par e-mail si possible, sinon générés au format PDF.<br />Données uniquement: les reçus fiscaux sont générés en interne dans CiviCRM. Les données peuvent être exportées pour la fusion et le publipostage via le rapport des reçus fiscaux émis."
 
 #: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
 msgid ""
@@ -579,14 +579,14 @@ msgid ""
 "backoffice gift entry. Be sure to alter the Contributions - Receipt (on-line"
 "/off-line) message templates to alert the donor that their tax receipt is "
 "attached."
-msgstr ""
+msgstr "** Non recommandé si vous avez des paiements ACHEFT. ** <br />Si cette option est activée, les reçus fiscaux seront joints aux courriels automatisés que CiviCRM envoie via la page de contribution en ligne, et lorsque «envoyer le reçu» est sélectionné lors de la saisie du cadeau dans le backoffice. Assurez-vous de modifier les modèles de message Contributions - Reçu (en ligne / hors ligne) pour avertir le donateur que son reçu aux fins de l'impôt est joint."
 
 #: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
 msgid ""
 "If enabled, the Receipts not issued Report will have the Advanced "
 "Eligibility Check enabled by default. Required for accurate reports, but can"
 " slow reports."
-msgstr ""
+msgstr "Lorsque activé, le rapport des reçus non-émis aura l'option de « vérification avancée de l'éligibilité » activée par défaut. Obligatoire pour des rapports justes, mais peut en ralentir la génération."
 
 #: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
 msgid "Email Message"
@@ -676,14 +676,14 @@ msgid ""
 "Click '%1' to re-issue a tax receipt for this contribution. The tax receipt "
 "will be marked 'Cancelled' with the same receipt number and amount as the "
 "original copy."
-msgstr ""
+msgstr "Cliquez sur '%1' pour réémettre un reçu fiscal pour cette contribution. Le reçu fiscal sera marqué «Annulé» avec le même numéro de reçu et le même montant que la copie originale."
 
 #: templates/CRM/Cdntaxreceipts/Form/ViewTaxReceipt.tpl
 msgid ""
 "Click '%1' to re-issue a tax receipt for this contribution. The tax receipt "
 "will be marked 'Duplicate' with the same receipt number and amount as the "
 "original copy."
-msgstr ""
+msgstr "Cliquez sur '%1' pour réémettre un reçu fiscal pour cette contribution. Le reçu fiscal sera marqué «Dupliqué» avec le même numéro de reçu et le même montant que la copie originale."
 
 #: templates/CRM/Cdntaxreceipts/Form/ViewTaxReceipt.tpl
 msgid "You do not have sufficient authorization to re-issue tax receipts."
