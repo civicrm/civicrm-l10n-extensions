@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
-"POT-Creation-Date: 2020-02-27 05:01+0000\n"
+"POT-Creation-Date: 2020-05-05 05:01+0000\n"
 "Language-Team: CiviCRM Translators <civicrm-translators@lists.civicrm.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -276,13 +276,13 @@ msgid ""
 "Server Key"
 msgstr ""
 
-#: CRM/CiviMobileAPI/Form/Settings.php
+#: CRM/CiviMobileAPI/Form/Settings.php CRM/CiviMobileAPI/Utils/Checklist.php
 msgid ""
 "You are using CiviMobileAPI <strong>%1</strong>. The latest version is "
 "CiviMobileAPI <strong>%2</strong>"
 msgstr ""
 
-#: CRM/CiviMobileAPI/Form/Settings.php
+#: CRM/CiviMobileAPI/Form/Settings.php CRM/CiviMobileAPI/Utils/Checklist.php
 msgid "Your extension version is up to date - CiviMobile <strong>%1</strong>"
 msgstr ""
 
@@ -298,6 +298,10 @@ msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Your Server Key is invalid. Please enter valid Server Key."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Field can not be empty."
 msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
@@ -317,10 +321,6 @@ msgid "Automatically keep the extension up to date"
 msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
-msgid "Enable CiviMobile for Anonymous users"
-msgstr ""
-
-#: CRM/CiviMobileAPI/Form/Settings.php
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "Show a Website URL QR-code for Anonymous users"
 msgstr ""
@@ -335,6 +335,29 @@ msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Site name"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Show Public area"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid "Show News"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid "News RSS feed URL"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Firebase key"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid "Do you have custom application?"
 msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
@@ -550,6 +573,10 @@ msgstr ""
 msgid "Limit (default unlimited)"
 msgstr ""
 
+#: api/v3/CiviMobileAvailableContactGroup.php
+msgid "Is group hidden?"
+msgstr ""
+
 #: api/v3/CiviMobileCalendar.php
 msgid "Start date for searching (Y-m-d H:i:s)"
 msgstr ""
@@ -734,6 +761,20 @@ msgid "Server Key is used for security purposes for Push Notifications"
 msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid "Firebase Key"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid "Firebase Key is used for Push Notifications"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid ""
+"If the application is custom you can use your own Firebase Key for security "
+"purposes for Push Notifications"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "Software update"
 msgstr ""
@@ -743,16 +784,6 @@ msgid ""
 "We recommend enabling automatically extension update to be sure that you are "
 "using the most secure and powerful extension version and avoid "
 "desynchronization between mobile application and extension."
-msgstr ""
-
-#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
-msgid "Access to public information in the application"
-msgstr ""
-
-#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
-msgid ""
-"By checking the checkbox you will allow access to public information by the "
-"anonymous users in the mobile application."
 msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
@@ -767,6 +798,33 @@ msgstr ""
 msgid ""
 "Show QR code on CiviCRM website for unauthorised users if checkbox is "
 "checked."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid ""
+"News will be displayed in CiviMobile and may be available in Public Area. "
+"You can also configure the default news source directly from the server."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid "Enter the RSS feed link."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid "Access to public information in the application"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid ""
+"By checking the checkbox you will allow anonymous users access to public "
+"information in the mobile application.</p>\n"
+"    <p>Events are displayed in Public Area if all required permissions for "
+"Anonymous user are distributed and if CiviEvent component is enabled. Note "
+"that if you want a specific event to be made available in the Public Area-"
+"please enable 'Public Event' checkbox in Event Info and Settings section.</"
+"p>\n"
+"    <p>News may also be present in the Public Area if Show News checkbox is "
+"enabled."
 msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
@@ -795,6 +853,14 @@ msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "Public Area Settings"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.tpl
+msgid "News"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.tpl
+msgid "Set default RSS feed on CMS"
 msgstr ""
 
 #: templates/qrcode-checkin-event-options.tpl
