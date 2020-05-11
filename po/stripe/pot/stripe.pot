@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: stripe\n"
-"POT-Creation-Date: 2020-02-23 05:01+0000\n"
+"POT-Creation-Date: 2020-05-11 05:01+0000\n"
 "Language-Team: CiviCRM Translators <civicrm-translators@lists.civicrm.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -107,6 +107,28 @@ msgstr ""
 msgid "Stripe Payment Processor: %1 (%2)"
 msgstr ""
 
+#: api/v3/Stripe/Importallcustomers.php
+#: api/v3/Stripe/Importallsubscriptions.php api/v3/Stripe/Importcustomers.php
+#: api/v3/Stripe/Importsubscriptions.php api/v3/Stripe/Listevents.php
+msgid "Use the given Payment Processor ID"
+msgstr ""
+
+#: api/v3/Stripe/Importcustomers.php api/v3/Stripe/Importsubscriptions.php
+msgid "Limit number of Customers/Subscriptions to be imported"
+msgstr ""
+
+#: api/v3/Stripe/Importcustomers.php
+msgid "Start importing customers after this one"
+msgstr ""
+
+#: api/v3/Stripe/Importcustomers.php
+msgid "Import a specific customer"
+msgstr ""
+
+#: api/v3/Stripe/Importsubscriptions.php
+msgid "Start importing subscriptions after this one"
+msgstr ""
+
 #: api/v3/Stripe/Ipn.php
 msgid "CiviCRM System Log id to replay from system log."
 msgstr ""
@@ -123,10 +145,6 @@ msgstr ""
 msgid ""
 "Set to 1 to override contribution page settings and do not send a receipt "
 "(default is off or 0). )"
-msgstr ""
-
-#: api/v3/Stripe/Listevents.php
-msgid "Use the given Payment Processor ID"
 msgstr ""
 
 #: api/v3/Stripe/Listevents.php
@@ -196,12 +214,20 @@ msgstr ""
 msgid "Link to existing membership automatically"
 msgstr ""
 
-#: settings/stripe.setting.php
-msgid "Enable Stripe Javascript debugging?"
+#: js/civicrm_stripe.js
+msgid "Please check and fill in all required fields!"
 msgstr ""
 
-#: settings/stripe.setting.php
-msgid "Enables debug logging to browser console for stripe payment processors."
+#: js/civicrm_stripe.js
+msgid "Please enter your card details!"
+msgstr ""
+
+#: js/civicrm_stripe.js
+msgid "Please check your card details!"
+msgstr ""
+
+#: js/civicrm_stripe.js
+msgid "Please complete the reCaptcha"
 msgstr ""
 
 #: settings/stripe.setting.php
@@ -214,10 +240,25 @@ msgid ""
 "send an email receipt."
 msgstr ""
 
-#: stripe.php
-msgid "Stripe Settings"
+#: settings/stripe.setting.php
+msgid "Enable Stripe Javascript debugging?"
 msgstr ""
 
-#: templates/CRM/Core/Payment/Stripe/Card.tpl
-msgid "Credit or debit card"
+#: settings/stripe.setting.php
+msgid "Enables debug logging to browser console for stripe payment processors."
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid "Disable billing address fields (Experimental)"
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid ""
+"Disable the fixed billing address fields block. Historically this was "
+"required by CiviCRM but since Stripe 6.x the stripe element collects "
+"everything it requires to make payment."
+msgstr ""
+
+#: stripe.php
+msgid "Stripe Settings"
 msgstr ""
