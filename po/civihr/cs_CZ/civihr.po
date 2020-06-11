@@ -1,4 +1,4 @@
-# Copyright CiviCRM LLC (c) 2004-2012
+# Copyright CiviCRM LLC (c) 2004-2014
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
@@ -6,100 +6,580 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2013-10-08 13:21-0400\n"
-"PO-Revision-Date: 2013-12-28 20:09+0000\n"
-"Last-Translator: Mathieu Lutfy <mathieu@bidon.ca>\n"
-"Language-Team: Czech (http://www.transifex.com/projects/p/civicrm_extensions/language/cs/)\n"
+"POT-Creation-Date: 2014-04-28 14:20-0700\n"
+"PO-Revision-Date: 2020-05-01 12:51+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
+"Language-Team: Czech (http://www.transifex.com/civicrm/civicrm_extensions/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: cs\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
+#: /hrabsence/js/new/views.js /hrabsence/js/filter/views.js
+#: hrabsence/js/new/views.js hrabsence/js/filter/views.js
+msgid "(Select type)"
+msgstr ""
+
+#: /hrabsence/js/entitlements/views.js hrabsence/js/entitlements/views.js
+msgid "Enter numeric value for entitlement amount"
+msgstr ""
+
+#: /hrabsence/js/filter/views.js hrabsence/js/filter/views.js
+msgid "%1 of %2 selected"
+msgstr ""
+
+#: /hrabsence/js/filter/views.js hrabsence/js/filter/views.js
+msgid "(Select period)"
+msgstr ""
+
+#: /hrjob/js/common/navigation.js hrjob/js/common/navigation.js
+msgid "Confirm Action"
+msgstr ""
+
+#: /hrjob/js/common/navigation.js hrjob/js/common/navigation.js
+msgid "Continue"
+msgstr ""
+
+#: /hrjob/js/common/navigation.js
+#: hrabsence/CRM/HRAbsence/Form/AbsencePeriod.php
+#: hrabsence/CRM/HRAbsence/Form/AbsenceRequest.php
+#: hrabsence/CRM/HRAbsence/Form/AbsenceType.php
+#: hrabsence/CRM/HRAbsence/Form/PublicHolidays.php
+#: hrjob/js/common/navigation.js
+#: hrjob/CRM/HRJob/Import/Form/DataSourceBaseClass.php
+#: hrjob/CRM/HRJob/Import/Form/MapFieldBaseClass.php
+msgid "Cancel"
+msgstr ""
+
+#: /hrjob/js/common/views.js /hrjob/js/jobtabapp/leave/edit_views.js
+#: /hrjob/js/jobtabapp/pension/edit_views.js
+#: /hrjob/js/jobtabapp/role/edit_views.js hrjob/js/common/views.js
+#: hrjob/js/jobtabapp/leave/edit_views.js
+#: hrjob/js/jobtabapp/pension/edit_views.js
+#: hrjob/js/jobtabapp/role/edit_views.js
+msgid "Saving"
+msgstr ""
+
+#: /hrjob/js/common/views.js /hrjob/js/jobtabapp/leave/edit_views.js
+#: /hrjob/js/jobtabapp/pension/edit_views.js
+#: /hrjob/js/jobtabapp/role/edit_views.js
+#: hrabsence/CRM/HRAbsence/Form/AbsenceRequest.php hrjob/js/common/views.js
+#: hrjob/js/jobtabapp/leave/edit_views.js
+#: hrjob/js/jobtabapp/pension/edit_views.js
+#: hrjob/js/jobtabapp/role/edit_views.js
+msgid "Saved"
+msgstr ""
+
+#: /hrjob/js/common/views.js /hrjob/js/jobtabapp/pension/edit_views.js
+#: hrjob/js/common/views.js hrjob/js/jobtabapp/pension/edit_views.js
+msgid "Error while saving. Please reload and retry."
+msgstr ""
+
+#: /hrjob/js/common/views.js /hrjob/js/jobtabapp/leave/edit_views.js
+#: /hrjob/js/jobtabapp/role/edit_views.js hrjob/js/common/views.js
+#: hrjob/js/jobtabapp/leave/edit_views.js
+#: hrjob/js/jobtabapp/role/edit_views.js
+msgid "Reset"
+msgstr ""
+
+#: /hrjob/js/common/views.js /hrjob/js/jobtabapp/leave/edit_views.js
+#: /hrjob/js/jobtabapp/role/edit_views.js hrjob/js/common/views.js
+#: hrjob/js/jobtabapp/leave/edit_views.js
+#: hrjob/js/jobtabapp/role/edit_views.js
+msgid "Abandon Changes?"
+msgstr ""
+
+#: /hrjob/js/common/views.js /hrjob/js/jobtabapp/leave/edit_views.js
+#: /hrjob/js/jobtabapp/role/edit_views.js hrjob/js/common/views.js
+#: hrjob/js/jobtabapp/leave/edit_views.js
+#: hrjob/js/jobtabapp/role/edit_views.js
+msgid ""
+"There are unsaved changes! Are you sure you want to abandon the changes?"
+msgstr ""
+
+#: /hrjob/js/entities/hrjob.js hrjob/js/entities/hrjob.js
+msgid "Field is required"
+msgstr ""
+
+#: /hrjob/js/entities/hrjob.js hrjob/js/entities/hrjob.js
+msgid "Not a number"
+msgstr ""
+
+#: /hrjob/js/jobtabapp/general/edit_controller.js
+#: /hrjob/js/jobtabapp/leave/edit_views.js
+#: /hrjob/js/jobtabapp/leave/edit_controller.js
+#: /hrjob/js/jobtabapp/pension/edit_controller.js
+#: /hrjob/js/jobtabapp/funding/edit_controller.js
+#: /hrjob/js/jobtabapp/summary/summary_controller.js
+#: /hrjob/js/jobtabapp/health/edit_controller.js
+#: /hrjob/js/jobtabapp/pay/edit_controller.js
+#: /hrjob/js/jobtabapp/role/edit_views.js
+#: /hrjob/js/jobtabapp/role/edit_controller.js
+#: /hrjob/js/jobtabapp/hour/edit_controller.js
+#: hrjob/js/jobtabapp/general/edit_controller.js
+#: hrjob/js/jobtabapp/leave/edit_views.js
+#: hrjob/js/jobtabapp/leave/edit_controller.js
+#: hrjob/js/jobtabapp/pension/edit_controller.js
+#: hrjob/js/jobtabapp/funding/edit_controller.js
+#: hrjob/js/jobtabapp/summary/summary_controller.js
+#: hrjob/js/jobtabapp/health/edit_controller.js
+#: hrjob/js/jobtabapp/pay/edit_controller.js
+#: hrjob/js/jobtabapp/role/edit_views.js
+#: hrjob/js/jobtabapp/role/edit_controller.js
+#: hrjob/js/jobtabapp/hour/edit_controller.js
+msgid "Loading"
+msgstr ""
+
+#: /hrjob/js/jobtabapp/pension/edit_views.js
+#: hrjob/js/jobtabapp/pension/edit_views.js
+msgid "The selected attachment has been deleted."
+msgstr ""
+
+#: /hrjob/js/jobtabapp/pension/edit_views.js
+#: hrjob/js/jobtabapp/pension/edit_views.js
+msgid "Removed"
+msgstr ""
+
+#: /hrjob/js/jobtabapp/summary/summary_controller.js
+#: hrjob/js/jobtabapp/summary/summary_controller.js
+msgid "Error"
+msgstr ""
+
+#: /hrjob/js/jobtabapp/pay/edit_views.js hrjob/js/jobtabapp/pay/edit_views.js
+msgid ""
+"(Estimates will be updated based on pay-rate, FTE, and system settings.)"
+msgstr ""
+
+#: /hrjob/js/jobtabapp/pay/edit_views.js hrjob/js/jobtabapp/pay/edit_views.js
+msgid "Automatic estimate"
+msgstr ""
+
+#: /hrjob/js/jobtabapp/pay/edit_views.js hrjob/js/jobtabapp/pay/edit_views.js
+msgid "Manual estimate"
+msgstr ""
+
+#: /hrjob/js/jobtabapp/role/edit_controller.js
+#: hrjob/js/jobtabapp/role/edit_controller.js
+msgid "New Role"
+msgstr ""
+
+#: /hrcase/js/hrcase.js hrcase/js/hrcase.js
+msgid "Unable to change activity date time to current date time"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/BAO/HRAbsenceType.php
+msgid "%1 (Credit)"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/BAO/HRAbsenceType.php
+msgid "Requested"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/BAO/HRAbsenceType.php
+#: hrabsence/CRM/HRAbsence/Form/AbsenceRequest.php
+msgid "Approved"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/BAO/HRAbsenceType.php
+#: hrabsence/CRM/HRAbsence/Form/AbsenceRequest.php
+msgid "Cancelled"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/BAO/HRAbsenceType.php
+#: hrabsence/CRM/HRAbsence/Form/AbsenceRequest.php
+msgid "Rejected"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/DAO/HRAbsenceEntitlement.php
+msgid "Absence entitlement amount"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/DAO/HRAbsencePeriod.php
+#: hrabsence/CRM/HRAbsence/DAO/HRAbsenceType.php
+#: hrjob/CRM/HRJob/Import/Form/MapFieldBaseClass.php
+#: hrreport/CRM/HRReport/Form/Contact/HRDetail.php
+msgid "Name"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/DAO/HRAbsencePeriod.php
+msgid "Absence Period Title"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/DAO/HRAbsencePeriod.php
+#: hrabsence/CRM/HRAbsence/Form/AbsencePeriod.php
+#: hrabsence/CRM/HRAbsence/Form/AbsenceRequest.php
+msgid "Start Date"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/DAO/HRAbsencePeriod.php
+#: hrabsence/CRM/HRAbsence/Form/AbsencePeriod.php
+msgid "End Date"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/DAO/HRAbsenceType.php
+msgid "Absence Type Title"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/DAO/HRAbsenceType.php
+msgid "Allow Credits"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/DAO/HRAbsenceType.php
+msgid "Credit Activity Type ID"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/DAO/HRAbsenceType.php
+msgid "Allow Debits"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/DAO/HRAbsenceType.php
+msgid "Debit Activity Type ID"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Form/AbsencePeriod.php
+#: hrabsence/CRM/HRAbsence/Form/AbsenceRequest.php
+#: hrabsence/CRM/HRAbsence/Form/AbsenceType.php
+#: hrabsence/CRM/HRAbsence/Form/PublicHolidays.php
+msgid "Save"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Form/AbsencePeriod.php
+#: hrabsence/CRM/HRAbsence/Form/AbsenceType.php
+#: hrabsence/CRM/HRAbsence/Form/PublicHolidays.php
+#: hrabsence/CRM/HRAbsence/Page/AbsencePeriod.php
+#: hrabsence/CRM/HRAbsence/Page/AbsenceType.php
+#: hrabsence/CRM/HRAbsence/Page/PublicHolidays.php
+msgid "Delete"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Form/AbsencePeriod.php
+msgid "Absence Period"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Form/AbsencePeriod.php
+#: hrabsence/CRM/HRAbsence/Form/AbsenceType.php
+#: hrabsence/CRM/HRAbsence/Form/PublicHolidays.php
 #: hrjob/CRM/HRJob/BAO/Query.php hrjob/CRM/HRJob/DAO/HRJobRole.php
 msgid "Title"
 msgstr ""
 
-#: hrjob/CRM/HRJob/BAO/Query.php hrjob/CRM/HRJob/DAO/HRJob.php
-msgid "Temporary"
+#: hrabsence/CRM/HRAbsence/Form/AbsencePeriod.php
+msgid "Title already exists in Database."
 msgstr ""
 
-#: hrjob/CRM/HRJob/BAO/Query.php hrjob/CRM/HRJob/DAO/HRJob.php
-msgid "Permanent"
+#: hrabsence/CRM/HRAbsence/Form/AbsencePeriod.php
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsenceCalendar.php
+msgid "End date should be after Start date."
 msgstr ""
 
-#: hrjob/CRM/HRJob/BAO/Query.php hrjob/CRM/HRJob/DAO/HRJobHour.php
-#: hrjob/CRM/HRJob/DAO/HRJobPay.php hrjob/CRM/HRJob/DAO/HRJob.php
-msgid "Day"
+#: hrabsence/CRM/HRAbsence/Form/AbsencePeriod.php
+msgid "Selected absence period has been deleted."
 msgstr ""
 
-#: hrjob/CRM/HRJob/BAO/Query.php hrjob/CRM/HRJob/DAO/HRJobHour.php
-#: hrjob/CRM/HRJob/DAO/HRJobPay.php hrjob/CRM/HRJob/DAO/HRJob.php
-msgid "Week"
+#: hrabsence/CRM/HRAbsence/Form/AbsencePeriod.php
+msgid "The absence period '%1' has been updated."
 msgstr ""
 
-#: hrjob/CRM/HRJob/BAO/Query.php hrjob/CRM/HRJob/DAO/HRJobHour.php
-#: hrjob/CRM/HRJob/DAO/HRJobPay.php hrjob/CRM/HRJob/DAO/HRJob.php
-msgid "Month"
+#: hrabsence/CRM/HRAbsence/Form/AbsencePeriod.php
+msgid "The absence period '%1' has been added."
 msgstr ""
 
-#: hrjob/CRM/HRJob/BAO/Query.php hrjob/CRM/HRJob/DAO/HRJobHour.php
-#: hrjob/CRM/HRJob/DAO/HRJobPay.php hrjob/CRM/HRJob/DAO/HRJob.php
-msgid "Year"
+#: hrabsence/CRM/HRAbsence/Form/AbsenceRequest.php
+msgid "Absence for  %1 (%2, %3)"
 msgstr ""
 
-#: hrjob/CRM/HRJob/DAO/HRJobHealth.php hrjob/CRM/HRJob/DAO/HRJobRole.php
-msgid "Description"
+#: hrabsence/CRM/HRAbsence/Form/AbsenceRequest.php
+msgid "Absence Request: Add"
 msgstr ""
 
-#: hrreport/CRM/HRReport/Form/Contact/HRDetail.php
-#: hrreport/CRM/HRReport/Form/Contact/HRSummary.php
-msgid "Contact ID"
+#: hrabsence/CRM/HRAbsence/Form/AbsenceRequest.php
+msgid "You do not have permission to %1 this absence"
 msgstr ""
 
-#: hrreport/CRM/HRReport/Form/Contact/HRDetail.php
-#: hrreport/CRM/HRReport/Form/Contact/HRSummary.php
-msgid "Work City"
+#: hrabsence/CRM/HRAbsence/Form/AbsenceRequest.php
+msgid "Approve"
 msgstr ""
 
-#: hrreport/CRM/HRReport/Form/Contact/HRDetail.php
-#: hrreport/CRM/HRReport/Form/Contact/HRSummary.php
-msgid "Work Postal Code"
+#: hrabsence/CRM/HRAbsence/Form/AbsenceRequest.php
+msgid "Cancel Absence Request"
 msgstr ""
 
-#: hrreport/CRM/HRReport/Form/Contact/HRDetail.php
-#: hrreport/CRM/HRReport/Form/Contact/HRSummary.php
-msgid "Work State/Province"
+#: hrabsence/CRM/HRAbsence/Form/AbsenceRequest.php
+msgid "Reject"
 msgstr ""
 
-#: hrreport/CRM/HRReport/Form/Contact/HRDetail.php
-#: hrreport/CRM/HRReport/Form/Contact/HRSummary.php
-msgid "Work Country"
+#: hrabsence/CRM/HRAbsence/Form/AbsenceRequest.php
+msgid "End Date / Time"
 msgstr ""
 
-#: hrreport/CRM/HRReport/Form/Contact/HRDetail.php
-#: hrreport/CRM/HRReport/Form/Contact/HRSummary.php
-msgid "Group"
+#: hrabsence/CRM/HRAbsence/Form/AbsenceRequest.php
+msgid "Save and Approve"
 msgstr ""
 
-#: hrreport/CRM/HRReport/Form/Contact/HRDetail.php
-#: hrreport/CRM/HRReport/Form/Contact/HRSummary.php
-msgid "Is Tied to Funding"
+#: hrabsence/CRM/HRAbsence/Form/AbsenceRequest.php
+msgid "From date is required."
 msgstr ""
 
-#: hrreport/CRM/HRReport/Form/Contact/HRDetail.php
-#: hrreport/CRM/HRReport/Form/Contact/HRSummary.php
-msgid "Any"
+#: hrabsence/CRM/HRAbsence/Form/AbsenceRequest.php
+msgid "End date is required."
 msgstr ""
 
-#: hrreport/CRM/HRReport/Form/Contact/HRDetail.php
-#: hrreport/CRM/HRReport/Form/Contact/HRSummary.php
-msgid "No"
+#: hrabsence/CRM/HRAbsence/Form/AbsenceRequest.php
+msgid "From date cannot be greater than to date."
 msgstr ""
 
-#: hrreport/CRM/HRReport/Form/Contact/HRDetail.php
-#: hrreport/CRM/HRReport/Form/Contact/HRSummary.php
-msgid "Yes"
+#: hrabsence/CRM/HRAbsence/Form/AbsenceRequest.php
+msgid "End date should be within a month."
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Form/AbsenceRequest.php
+msgid "Absence(s) have been applied."
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Form/AbsenceRequest.php
+msgid "Absence(s) have been applied and approved."
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Form/AbsenceRequest.php
+msgid "Absence(s) have been Cancelled."
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Form/AbsenceRequest.php
+msgid "Absence(s) have been Approved."
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Form/AbsenceRequest.php
+msgid "Absence(s) have been Rejected."
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Form/AbsenceRequest.php
+msgid "Absence(s) have been Cancelled"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Form/AbsenceType.php
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsence.php
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsenceCalendar.php
+msgid "Absence Type"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Form/AbsenceType.php
+msgid "Allow Credits?"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Form/AbsenceType.php
+msgid "Allow Debits?"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Form/AbsenceType.php
+#: hrabsence/CRM/HRAbsence/Form/PublicHolidays.php
+#: hrreport/CRM/HRReport/Form/Activity/PublicHoliday.php
+msgid "Enabled?"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Form/AbsenceType.php
+msgid "Please choose either 'Allow Debits' and/or 'Allow Credits'"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Form/AbsenceType.php
+msgid "Selected absence type has been deleted."
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Form/AbsenceType.php
+msgid "The absence type '%1' has been updated."
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Form/AbsenceType.php
+msgid "The absence type '%1' has been added."
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Form/PublicHolidays.php
+#: hrreport/CRM/HRReport/Form/Activity/PublicHoliday.php
+msgid "Public Holiday"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Form/PublicHolidays.php
+msgid "Date"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Form/PublicHolidays.php
+msgid "Selected Public Holiday has been deleted."
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Form/PublicHolidays.php
+msgid "The Public holiday '%1' has been updated."
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Form/PublicHolidays.php
+msgid "The Public Holiday '%1' has been added."
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Page/AbsencePeriod.php
+#: hrabsence/CRM/HRAbsence/Page/AbsenceType.php
+#: hrabsence/CRM/HRAbsence/Page/PublicHolidays.php
+msgid "Edit"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Page/AbsencePeriod.php
+msgid "Edit Absence Period"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Page/AbsencePeriod.php
+msgid "Delete Absence Period"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Page/AbsenceType.php
+msgid "Edit Absence Type"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Page/AbsenceType.php
+msgid "Disable"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Page/AbsenceType.php
+msgid "Disable Absence Type"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Page/AbsenceType.php
+msgid "Enable"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Page/AbsenceType.php
+msgid "Enable Absence Type"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Page/AbsenceType.php
+msgid "Delete Absence Type"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Page/EmployeeAbsencePage.php
+msgid "You do not have permission to access this page"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Page/EmployeeAbsencePage.php
+msgid "Absences for %1"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Page/EmployeeAbsencePage.php
+#: hrabsence/hrabsence.php
+msgid "My Absences"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Page/PublicHolidays.php
+msgid "Edit Public Holiday"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Page/PublicHolidays.php
+msgid "Delete Public Holiday"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/TypeLegend.php
+msgid "Multiple"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Upgrader.php hrbank/CRM/HRBank/Upgrader.php
+#: hrcareer/CRM/HRCareer/Upgrader.php hrcase/CRM/HRCase/Upgrader.php
+#: hrcaseutils/CRM/HRCaseUtils/Upgrader.php hrdemog/CRM/HRDemog/Upgrader.php
+#: hremerg/CRM/HREmerg/Upgrader.php hrident/CRM/HRIdent/Upgrader.php
+#: hrjob/CRM/HRJob/Upgrader.php hrmed/CRM/HRMed/Upgrader.php
+#: hrqual/CRM/HRQual/Upgrader.php hrreport/CRM/HRReport/Upgrader.php
+#: hrstaffdir/CRM/Hrstaffdir/Upgrader.php hrui/CRM/HRUI/Upgrader.php
+#: hrvisa/CRM/HRVisa/Upgrader.php
+msgid "Process first step"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Upgrader.php hrbank/CRM/HRBank/Upgrader.php
+#: hrcareer/CRM/HRCareer/Upgrader.php hrcase/CRM/HRCase/Upgrader.php
+#: hrcaseutils/CRM/HRCaseUtils/Upgrader.php hrdemog/CRM/HRDemog/Upgrader.php
+#: hremerg/CRM/HREmerg/Upgrader.php hrident/CRM/HRIdent/Upgrader.php
+#: hrjob/CRM/HRJob/Upgrader.php hrmed/CRM/HRMed/Upgrader.php
+#: hrqual/CRM/HRQual/Upgrader.php hrreport/CRM/HRReport/Upgrader.php
+#: hrstaffdir/CRM/Hrstaffdir/Upgrader.php hrui/CRM/HRUI/Upgrader.php
+#: hrvisa/CRM/HRVisa/Upgrader.php
+msgid "Process second step"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Upgrader.php hrbank/CRM/HRBank/Upgrader.php
+#: hrcareer/CRM/HRCareer/Upgrader.php hrcase/CRM/HRCase/Upgrader.php
+#: hrcaseutils/CRM/HRCaseUtils/Upgrader.php hrdemog/CRM/HRDemog/Upgrader.php
+#: hremerg/CRM/HREmerg/Upgrader.php hrident/CRM/HRIdent/Upgrader.php
+#: hrjob/CRM/HRJob/Upgrader.php hrmed/CRM/HRMed/Upgrader.php
+#: hrqual/CRM/HRQual/Upgrader.php hrreport/CRM/HRReport/Upgrader.php
+#: hrstaffdir/CRM/Hrstaffdir/Upgrader.php hrui/CRM/HRUI/Upgrader.php
+#: hrvisa/CRM/HRVisa/Upgrader.php
+msgid "Upgrade Batch (%1 => %2)"
+msgstr ""
+
+#: hrabsence/CRM/HRAbsence/Upgrader/Base.php
+#: hrbank/CRM/HRBank/Upgrader/Base.php hrcareer/CRM/HRCareer/Upgrader/Base.php
+#: hrcase/CRM/HRCase/Upgrader/Base.php
+#: hrcaseutils/CRM/HRCaseUtils/Upgrader/Base.php
+#: hrdemog/CRM/HRDemog/Upgrader/Base.php hremerg/CRM/HREmerg/Upgrader/Base.php
+#: hrident/CRM/HRIdent/Upgrader/Base.php hrjob/CRM/HRJob/Upgrader/Base.php
+#: hrmed/CRM/HRMed/Upgrader/Base.php hrqual/CRM/HRQual/Upgrader/Base.php
+#: hrreport/CRM/HRReport/Upgrader/Base.php
+#: hrsampledata/CRM/HRSampleData/Upgrader/Base.php
+#: hrstaffdir/CRM/Hrstaffdir/Upgrader/Base.php hrui/CRM/HRUI/Upgrader/Base.php
+#: hrvisa/CRM/HRVisa/Upgrader/Base.php
+msgid "Upgrade %1 to revision %2"
+msgstr ""
+
+#: hrabsence/hrabsence.php
+msgid "Calendar"
+msgstr ""
+
+#: hrabsence/hrabsence.php
+msgid "New Absence"
+msgstr ""
+
+#: hrabsence/hrabsence.php
+msgid "Public Holidays"
+msgstr ""
+
+#: hrabsence/hrabsence.php
+msgid "Absence Periods"
+msgstr ""
+
+#: hrabsence/hrabsence.php
+msgid "Absence Types"
+msgstr ""
+
+#: hrabsence/hrabsence.php
+msgid "Absence Report"
+msgstr ""
+
+#: hrabsence/hrabsence.php
+msgid "Absences"
+msgstr ""
+
+#: hrabsence/hrabsence.php
+msgid "CiviHRAbsence"
+msgstr ""
+
+#: hrabsence/hrabsence.php
+msgid "view HRAbsences"
+msgstr ""
+
+#: hrabsence/hrabsence.php
+msgid "edit HRAbsences"
+msgstr ""
+
+#: hrabsence/hrabsence.php
+msgid "manage own HRAbsences"
+msgstr ""
+
+#: hrcareer/hrcareer.php
+msgid ""
+"Like a CV or resume, Career History records the work and study that a person"
+" has undertaken before joining the organization."
+msgstr ""
+
+#: hrjob/CRM/HRJob/BAO/HRJob.php hrjob/CRM/HRJob/BAO/HRJobHealth.php
+#: hrjob/CRM/HRJob/BAO/HRJobHour.php hrjob/CRM/HRJob/BAO/HRJobPay.php
+#: hrjob/CRM/HRJob/BAO/HRJobPension.php
+#: hrjob/CRM/HRJob/Import/Form/MapFieldBaseClass.php
+#: hrjob/CRM/HRJob/Import/Parser.php hrjob/CRM/HRJob/Import/Parser/Api.php
+msgid "- do not import -"
 msgstr ""
 
 #: hrjob/CRM/HRJob/BAO/Query.php
@@ -135,6 +615,7 @@ msgid "Level"
 msgstr ""
 
 #: hrjob/CRM/HRJob/BAO/Query.php
+#: hrjob/CRM/HRJob/Import/Form/DataSourceBaseClass.php
 msgid "- select -"
 msgstr ""
 
@@ -144,6 +625,14 @@ msgstr ""
 
 #: hrjob/CRM/HRJob/BAO/Query.php
 msgid "Contract Duration"
+msgstr ""
+
+#: hrjob/CRM/HRJob/BAO/Query.php hrjob/CRM/HRJob/DAO/HRJob.php
+msgid "Temporary"
+msgstr ""
+
+#: hrjob/CRM/HRJob/BAO/Query.php hrjob/CRM/HRJob/DAO/HRJob.php
+msgid "Permanent"
 msgstr ""
 
 #: hrjob/CRM/HRJob/BAO/Query.php
@@ -160,6 +649,26 @@ msgstr ""
 
 #: hrjob/CRM/HRJob/BAO/Query.php
 msgid "Hours Unit"
+msgstr ""
+
+#: hrjob/CRM/HRJob/BAO/Query.php hrjob/CRM/HRJob/DAO/HRJob.php
+#: hrjob/CRM/HRJob/DAO/HRJobHour.php hrjob/CRM/HRJob/DAO/HRJobPay.php
+msgid "Day"
+msgstr ""
+
+#: hrjob/CRM/HRJob/BAO/Query.php hrjob/CRM/HRJob/DAO/HRJob.php
+#: hrjob/CRM/HRJob/DAO/HRJobHour.php hrjob/CRM/HRJob/DAO/HRJobPay.php
+msgid "Week"
+msgstr ""
+
+#: hrjob/CRM/HRJob/BAO/Query.php hrjob/CRM/HRJob/DAO/HRJob.php
+#: hrjob/CRM/HRJob/DAO/HRJobHour.php hrjob/CRM/HRJob/DAO/HRJobPay.php
+msgid "Month"
+msgstr ""
+
+#: hrjob/CRM/HRJob/BAO/Query.php hrjob/CRM/HRJob/DAO/HRJob.php
+#: hrjob/CRM/HRJob/DAO/HRJobHour.php hrjob/CRM/HRJob/DAO/HRJobPay.php
+msgid "Year"
 msgstr ""
 
 #: hrjob/CRM/HRJob/BAO/Query.php
@@ -186,80 +695,11 @@ msgstr ""
 msgid "Pay Grade"
 msgstr ""
 
-#: hrjob/CRM/HRJob/DAO/HRJobHealth.php
-msgid "Job Healthcare Provider"
-msgstr ""
-
-#: hrjob/CRM/HRJob/DAO/HRJobHealth.php
-msgid "Job Healthcare Plan"
-msgstr ""
-
-#: hrjob/CRM/HRJob/DAO/HRJobHealth.php
-msgid "Dependents"
-msgstr ""
-
-#: hrjob/CRM/HRJob/DAO/HRJobHealth.php
-msgid "Family"
-msgstr ""
-
-#: hrjob/CRM/HRJob/DAO/HRJobHealth.php
-msgid "Individual"
-msgstr ""
-
-#: hrjob/CRM/HRJob/DAO/HRJobHour.php
-msgid "Job Hours Type"
-msgstr ""
-
-#: hrjob/CRM/HRJob/DAO/HRJobHour.php
-msgid "Job Hours Amount"
-msgstr ""
-
-#: hrjob/CRM/HRJob/DAO/HRJobHour.php
-msgid "Job Hours Unit"
-msgstr ""
-
-#: hrjob/CRM/HRJob/DAO/HRJobHour.php
-msgid "Job Full-Time Equivalence"
-msgstr ""
-
-#: hrjob/CRM/HRJob/DAO/HRJobLeave.php
-msgid "Leave Type"
-msgstr ""
-
-#: hrjob/CRM/HRJob/DAO/HRJobLeave.php
-msgid "Leave Amount"
-msgstr ""
-
-#: hrjob/CRM/HRJob/DAO/HRJobPay.php
-msgid "Job Pay Grade"
-msgstr ""
-
-#: hrjob/CRM/HRJob/DAO/HRJobPay.php
-msgid "Job Pay Amount"
-msgstr ""
-
-#: hrjob/CRM/HRJob/DAO/HRJobPay.php
-msgid "Job Pay Unit"
-msgstr ""
-
-#: hrjob/CRM/HRJob/DAO/HRJobPay.php
-msgid "Job Pay Currency"
-msgstr ""
-
-#: hrjob/CRM/HRJob/DAO/HRJobPay.php
-msgid "Hour"
-msgstr ""
-
-#: hrjob/CRM/HRJob/DAO/HRJobPension.php
-msgid "Job Pension Is Enrolled"
-msgstr ""
-
-#: hrjob/CRM/HRJob/DAO/HRJobPension.php
-msgid "Employee Contribution Percentage"
-msgstr ""
-
-#: hrjob/CRM/HRJob/DAO/HRJobPension.php
-msgid "Employer Contribution Percentage"
+#: hrjob/CRM/HRJob/DAO/HRJob.php
+#: hrjob/CRM/HRJob/Import/Form/MapFieldBaseClass.php
+#: hrreport/CRM/HRReport/Form/Contact/HRDetail.php
+#: hrreport/CRM/HRReport/Form/Contact/HRSummary.php
+msgid "Contact ID"
 msgstr ""
 
 #: hrjob/CRM/HRJob/DAO/HRJob.php
@@ -272,6 +712,10 @@ msgstr ""
 
 #: hrjob/CRM/HRJob/DAO/HRJob.php
 msgid "Job Department"
+msgstr ""
+
+#: hrjob/CRM/HRJob/DAO/HRJob.php
+msgid "Funding Organization"
 msgstr ""
 
 #: hrjob/CRM/HRJob/DAO/HRJob.php
@@ -318,6 +762,125 @@ msgstr ""
 msgid "Job Is Primary"
 msgstr ""
 
+#: hrjob/CRM/HRJob/DAO/HRJobHealth.php
+#: hrreport/CRM/HRReport/Form/Contact/HRDetail.php
+#: hrreport/CRM/HRReport/Form/Contact/HRSummary.php
+msgid "Job Healthcare Provider"
+msgstr ""
+
+#: hrjob/CRM/HRJob/DAO/HRJobHealth.php
+msgid "Job Healthcare Plan"
+msgstr ""
+
+#: hrjob/CRM/HRJob/DAO/HRJobHealth.php hrjob/CRM/HRJob/DAO/HRJobRole.php
+#: hrjob/CRM/HRJob/Import/Form/MapFieldBaseClass.php
+msgid "Description"
+msgstr ""
+
+#: hrjob/CRM/HRJob/DAO/HRJobHealth.php
+msgid "Dependents"
+msgstr ""
+
+#: hrjob/CRM/HRJob/DAO/HRJobHealth.php
+#: hrreport/CRM/HRReport/Form/Contact/HRDetail.php
+#: hrreport/CRM/HRReport/Form/Contact/HRSummary.php
+msgid "Job life insurance Provider"
+msgstr ""
+
+#: hrjob/CRM/HRJob/DAO/HRJobHealth.php
+msgid "Job life insurance Plan"
+msgstr ""
+
+#: hrjob/CRM/HRJob/DAO/HRJobHealth.php
+msgid "Description Life Insurance"
+msgstr ""
+
+#: hrjob/CRM/HRJob/DAO/HRJobHealth.php
+msgid "Dependents Life Insurance"
+msgstr ""
+
+#: hrjob/CRM/HRJob/DAO/HRJobHealth.php
+msgid "Family"
+msgstr ""
+
+#: hrjob/CRM/HRJob/DAO/HRJobHealth.php
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsence.php
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsenceCalendar.php
+msgid "Individual"
+msgstr ""
+
+#: hrjob/CRM/HRJob/DAO/HRJobHour.php
+msgid "Job Hours Type"
+msgstr ""
+
+#: hrjob/CRM/HRJob/DAO/HRJobHour.php
+msgid "Job Hours Amount"
+msgstr ""
+
+#: hrjob/CRM/HRJob/DAO/HRJobHour.php
+msgid "Job Hours Unit"
+msgstr ""
+
+#: hrjob/CRM/HRJob/DAO/HRJobHour.php
+msgid "Job Full-Time Equivalence"
+msgstr ""
+
+#: hrjob/CRM/HRJob/DAO/HRJobLeave.php
+msgid "Leave Type"
+msgstr ""
+
+#: hrjob/CRM/HRJob/DAO/HRJobLeave.php
+msgid "Leave Amount"
+msgstr ""
+
+#: hrjob/CRM/HRJob/DAO/HRJobPay.php
+msgid "Job Pay Grade"
+msgstr ""
+
+#: hrjob/CRM/HRJob/DAO/HRJobPay.php
+msgid "Job Pay Amount"
+msgstr ""
+
+#: hrjob/CRM/HRJob/DAO/HRJobPay.php
+msgid "Job Pay Unit"
+msgstr ""
+
+#: hrjob/CRM/HRJob/DAO/HRJobPay.php
+msgid "Job Pay Currency"
+msgstr ""
+
+#: hrjob/CRM/HRJob/DAO/HRJobPay.php
+msgid "Estimated Annual Pay"
+msgstr ""
+
+#: hrjob/CRM/HRJob/DAO/HRJobPay.php
+msgid "Hour"
+msgstr ""
+
+#: hrjob/CRM/HRJob/DAO/HRJobPension.php
+msgid "Job Pension Is Enrolled"
+msgstr ""
+
+#: hrjob/CRM/HRJob/DAO/HRJobPension.php
+msgid "Employee Contribution Percentage"
+msgstr ""
+
+#: hrjob/CRM/HRJob/DAO/HRJobPension.php
+msgid "Employer Contribution Percentage"
+msgstr ""
+
+#: hrjob/CRM/HRJob/DAO/HRJobPension.php
+msgid "Pension Type"
+msgstr ""
+
+#: hrjob/CRM/HRJob/DAO/HRJobPension.php
+msgid "Employer Contribution Absolute Amount"
+msgstr ""
+
+#: hrjob/CRM/HRJob/DAO/HRJobPension.php
+msgid "Evidence Note"
+msgstr ""
+
 #: hrjob/CRM/HRJob/DAO/HRJobRole.php
 msgid "Amount"
 msgstr ""
@@ -346,8 +909,148 @@ msgstr ""
 msgid "Location"
 msgstr ""
 
+#: hrjob/CRM/HRJob/Import/Form/DataSourceBaseClass.php
+msgid "Import Data File"
+msgstr ""
+
+#: hrjob/CRM/HRJob/Import/Form/DataSourceBaseClass.php
+msgid "A valid file must be uploaded."
+msgstr ""
+
+#: hrjob/CRM/HRJob/Import/Form/DataSourceBaseClass.php
+msgid "File size should be less than %1 MBytes (%2 bytes)"
+msgstr ""
+
+#: hrjob/CRM/HRJob/Import/Form/DataSourceBaseClass.php
+msgid "Input file must be in CSV format"
+msgstr ""
+
+#: hrjob/CRM/HRJob/Import/Form/DataSourceBaseClass.php
+msgid "First row contains column headers"
+msgstr ""
+
+#: hrjob/CRM/HRJob/Import/Form/DataSourceBaseClass.php
+msgid "Skip"
+msgstr ""
+
+#: hrjob/CRM/HRJob/Import/Form/DataSourceBaseClass.php
+msgid "Update"
+msgstr ""
+
+#: hrjob/CRM/HRJob/Import/Form/DataSourceBaseClass.php
+msgid "No Duplicate Checking"
+msgstr ""
+
+#: hrjob/CRM/HRJob/Import/Form/DataSourceBaseClass.php
+msgid "On Duplicate Entries"
+msgstr ""
+
+#: hrjob/CRM/HRJob/Import/Form/DataSourceBaseClass.php
+msgid "Mapping Option"
+msgstr ""
+
+#: hrjob/CRM/HRJob/Import/Form/DataSourceBaseClass.php
+#: hrjob/CRM/HRJob/Import/Form/MapFieldBaseClass.php
+msgid "Continue >>"
+msgstr ""
+
+#: hrjob/CRM/HRJob/Import/Form/DataSourceBaseClass.php
+msgid "Upload Data"
+msgstr ""
+
+#: hrjob/CRM/HRJob/Import/Form/MapFieldBaseClass.php
+msgid "Save this field mapping"
+msgstr ""
+
+#: hrjob/CRM/HRJob/Import/Form/MapFieldBaseClass.php
+msgid "Update this field mapping"
+msgstr ""
+
+#: hrjob/CRM/HRJob/Import/Form/MapFieldBaseClass.php
+msgid "Save as a new field mapping"
+msgstr ""
+
+#: hrjob/CRM/HRJob/Import/Form/MapFieldBaseClass.php
+msgid "Mapper for Field %1"
+msgstr ""
+
+#: hrjob/CRM/HRJob/Import/Form/MapFieldBaseClass.php
+msgid ""
+"The data columns in this import file appear to be different from the saved "
+"mapping. Please verify that you have selected the correct saved mapping "
+"before continuing."
+msgstr ""
+
+#: hrjob/CRM/HRJob/Import/Form/MapFieldBaseClass.php
+msgid "<< Previous"
+msgstr ""
+
+#: hrjob/CRM/HRJob/Import/Form/MapFieldBaseClass.php
+msgid "Missing required field: %1"
+msgstr ""
+
+#: hrjob/CRM/HRJob/Import/Form/MapFieldBaseClass.php
+msgid "Name is required to save Import Mapping"
+msgstr ""
+
+#: hrjob/CRM/HRJob/Import/Form/MapFieldBaseClass.php
+msgid "Select saved mapping"
+msgstr ""
+
+#: hrjob/CRM/HRJob/Import/Form/SummaryBaseClass.php
+msgid "These records have been updated with the imported data."
+msgstr ""
+
+#: hrjob/CRM/HRJob/Import/Form/SummaryBaseClass.php
+msgid "These records have been filled in with the imported data."
+msgstr ""
+
+#: hrjob/CRM/HRJob/Import/Form/SummaryBaseClass.php
+msgid "These records have not been imported."
+msgstr ""
+
+#: hrjob/CRM/HRJob/Import/Parser.php
+msgid "Line Number"
+msgstr ""
+
+#: hrjob/CRM/HRJob/Import/Parser.php
+msgid "Reason"
+msgstr ""
+
+#: hrjob/CRM/HRJob/Import/Parser.php
+msgid "View Activity History URL"
+msgstr ""
+
+#: hrjob/CRM/HRJob/Import/Parser.php
+msgid "Please enter valid Contact ID"
+msgstr ""
+
+#: hrjob/CRM/HRJob/Import/Parser.php
+msgid "%1 is not numeric"
+msgstr ""
+
+#: hrjob/CRM/HRJob/Import/Parser.php
+msgid "Please enter Contact ID"
+msgstr ""
+
+#: hrjob/CRM/HRJob/Import/Parser/Api.php
+msgid "Missing required field(s) :"
+msgstr ""
+
 #: hrjob/CRM/HRJob/Page/JobsTab.php
 msgid "JobsTab"
+msgstr ""
+
+#: hrjob/CRM/HRJob/Upgrader.php
+msgid "Health Insurance Provider"
+msgstr ""
+
+#: hrjob/CRM/HRJob/Upgrader.php
+msgid "Life Insurance Provider"
+msgstr ""
+
+#: hrjob/hrjob.php
+msgid "Import Jobs"
 msgstr ""
 
 #: hrjob/hrjob.php
@@ -355,7 +1058,7 @@ msgid "Jobs"
 msgstr ""
 
 #: hrjob/hrjob.php
-msgid "CiviHR"
+msgid "CiviHRJob"
 msgstr ""
 
 #: hrjob/hrjob.php
@@ -370,8 +1073,149 @@ msgstr ""
 msgid "delete HRJobs"
 msgstr ""
 
+#: hrjob/hrjob.php
+msgid "access own HRJobs"
+msgstr ""
+
+#: hrjob/templates/CRM/HRJob/Underscore/hrjob-general-template.tpl
+msgid "New Copy of \"%1\""
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsence.php
+msgid "Approved By"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsence.php
+msgid "Added By"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsence.php
+msgid "Approved by (Contact Name)"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsence.php
+msgid "Source Contact Name"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsence.php
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsenceCalendar.php
+msgid "Limit To Current User"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsence.php
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsenceCalendar.php
+#: hrreport/CRM/HRReport/Form/Activity/PublicHoliday.php
 #: hrreport/CRM/HRReport/Form/Contact/HRDetail.php
-msgid "Name"
+#: hrreport/CRM/HRReport/Form/Contact/HRSummary.php
+msgid "No"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsence.php
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsenceCalendar.php
+#: hrreport/CRM/HRReport/Form/Activity/PublicHoliday.php
+#: hrreport/CRM/HRReport/Form/Contact/HRDetail.php
+#: hrreport/CRM/HRReport/Form/Contact/HRSummary.php
+msgid "Yes"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsence.php
+msgid "Email"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsence.php
+msgid "Approved By (Email)"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsence.php
+msgid "Added By (Email)"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsence.php
+msgid "Source Contact Email"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsence.php
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsenceCalendar.php
+msgid "Activity ID"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsence.php
+msgid "Subject"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsence.php
+msgid "Absence Requested Date"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsence.php
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsenceCalendar.php
+msgid "Status"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsence.php
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsenceCalendar.php
+msgid "Absence Date"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsence.php
+msgid "Absence Requested on"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsence.php
+msgid "Current filter criteria didn't have any target contact to add to group"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsence.php
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsenceCalendar.php
+msgid "Listed contact(s) have been added to the selected group."
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsence.php
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsenceCalendar.php
+msgid "Contacts Added"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsence.php
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsenceCalendar.php
+msgid "The listed records(s) cannot be added to the group."
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsence.php
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsenceCalendar.php
+msgid "View Contact Summary for this Contact"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsence.php
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsenceCalendar.php
+msgid "View Absence Record"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsenceCalendar.php
+msgid "Mixed"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsenceCalendar.php
+msgid "Please choose a From Date"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsenceCalendar.php
+msgid "Please choose a End Date"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsenceCalendar.php
+msgid "Please select a Group"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsenceCalendar.php
+msgid "There is no absence record for chosen Absence Date range"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Activity/HRAbsenceCalendar.php
+msgid "No Result Found"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Activity/PublicHoliday.php
+msgid "Falls on"
 msgstr ""
 
 #: hrreport/CRM/HRReport/Form/Contact/HRDetail.php
@@ -387,11 +1231,50 @@ msgid "Personal Details"
 msgstr ""
 
 #: hrreport/CRM/HRReport/Form/Contact/HRDetail.php
+#: hrreport/CRM/HRReport/Form/Contact/HRSummary.php
+msgid "Work City"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Contact/HRDetail.php
+#: hrreport/CRM/HRReport/Form/Contact/HRSummary.php
+msgid "Work Postal Code"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Contact/HRDetail.php
+#: hrreport/CRM/HRReport/Form/Contact/HRSummary.php
+msgid "Work State/Province"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Contact/HRDetail.php
+#: hrreport/CRM/HRReport/Form/Contact/HRSummary.php
+msgid "Work Country"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Contact/HRDetail.php
+#: hrreport/CRM/HRReport/Form/Contact/HRSummary.php
+msgid "Group"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Contact/HRDetail.php
+#: hrreport/CRM/HRReport/Form/Contact/HRSummary.php
+msgid "Is Tied to Funding"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Contact/HRDetail.php
+#: hrreport/CRM/HRReport/Form/Contact/HRSummary.php
+msgid "Any"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Contact/HRDetail.php
 msgid "View Contact Summary for this Contact."
 msgstr ""
 
 #: hrreport/CRM/HRReport/Form/Contact/HRSummary.php
 msgid "People"
+msgstr ""
+
+#: hrreport/CRM/HRReport/Form/Contact/HRSummary.php
+msgid "Gender"
 msgstr ""
 
 #: hrreport/CRM/HRReport/Form/Contact/HRSummary.php
@@ -414,141 +1297,14 @@ msgstr ""
 msgid "Annual Cost Equivalents"
 msgstr ""
 
+#: hrreport/hrreport.php
+msgid "CiviHRReport"
+msgstr ""
+
+#: hrreport/hrreport.php
+msgid "access HRReport"
+msgstr ""
+
 #: hrui/hrui.php
 msgid "CiviHR Home"
-msgstr ""
-
-#: /hrjob/js/jobtabapp/pension/edit_controller.js
-#: /hrjob/js/jobtabapp/general/edit_controller.js
-#: /hrjob/js/jobtabapp/health/edit_controller.js
-#: /hrjob/js/jobtabapp/role/edit_views.js
-#: /hrjob/js/jobtabapp/role/edit_controller.js
-#: /hrjob/js/jobtabapp/summary/summary_controller.js
-#: /hrjob/js/jobtabapp/hour/edit_controller.js
-#: /hrjob/js/jobtabapp/leave/edit_views.js
-#: /hrjob/js/jobtabapp/leave/edit_controller.js
-#: /hrjob/js/jobtabapp/pay/edit_controller.js
-#: hrjob/js/jobtabapp/pension/edit_controller.js
-#: hrjob/js/jobtabapp/general/edit_controller.js
-#: hrjob/js/jobtabapp/health/edit_controller.js
-#: hrjob/js/jobtabapp/role/edit_views.js
-#: hrjob/js/jobtabapp/role/edit_controller.js
-#: hrjob/js/jobtabapp/summary/summary_controller.js
-#: hrjob/js/jobtabapp/hour/edit_controller.js
-#: hrjob/js/jobtabapp/leave/edit_views.js
-#: hrjob/js/jobtabapp/leave/edit_controller.js
-#: hrjob/js/jobtabapp/pay/edit_controller.js
-msgid "Loading"
-msgstr ""
-
-#: /hrjob/js/jobtabapp/role/edit_views.js
-#: /hrjob/js/jobtabapp/leave/edit_views.js /hrjob/js/common/views.js
-#: hrjob/js/jobtabapp/role/edit_views.js
-#: hrjob/js/jobtabapp/leave/edit_views.js hrjob/js/common/views.js
-msgid "Saving"
-msgstr ""
-
-#: /hrjob/js/jobtabapp/role/edit_views.js
-#: /hrjob/js/jobtabapp/leave/edit_views.js /hrjob/js/common/views.js
-#: hrjob/js/jobtabapp/role/edit_views.js
-#: hrjob/js/jobtabapp/leave/edit_views.js hrjob/js/common/views.js
-msgid "Saved"
-msgstr ""
-
-#: /hrjob/js/jobtabapp/role/edit_views.js
-#: /hrjob/js/jobtabapp/leave/edit_views.js /hrjob/js/common/views.js
-#: hrjob/js/jobtabapp/role/edit_views.js
-#: hrjob/js/jobtabapp/leave/edit_views.js hrjob/js/common/views.js
-msgid "Reset"
-msgstr ""
-
-#: /hrjob/js/jobtabapp/role/edit_views.js
-#: /hrjob/js/jobtabapp/leave/edit_views.js /hrjob/js/common/views.js
-#: hrjob/js/jobtabapp/role/edit_views.js
-#: hrjob/js/jobtabapp/leave/edit_views.js hrjob/js/common/views.js
-msgid "Abandon Changes?"
-msgstr ""
-
-#: /hrjob/js/jobtabapp/role/edit_views.js
-#: /hrjob/js/jobtabapp/leave/edit_views.js /hrjob/js/common/views.js
-#: hrjob/js/jobtabapp/role/edit_views.js
-#: hrjob/js/jobtabapp/leave/edit_views.js hrjob/js/common/views.js
-msgid ""
-"There are unsaved changes! Are you sure you want to abandon the changes?"
-msgstr ""
-
-#: /hrjob/js/jobtabapp/role/edit_controller.js
-#: hrjob/js/jobtabapp/role/edit_controller.js
-msgid "New Role"
-msgstr ""
-
-#: /hrjob/js/jobtabapp/summary/summary_controller.js
-#: hrjob/js/jobtabapp/summary/summary_controller.js
-msgid "Error"
-msgstr ""
-
-#: /hrjob/js/common/views.js hrjob/js/common/views.js
-msgid "Error while saving. Please reload and retry."
-msgstr ""
-
-#: /hrjob/js/common/navigation.js hrjob/js/common/navigation.js
-msgid "Confirm Action"
-msgstr ""
-
-#: /hrjob/js/common/navigation.js hrjob/js/common/navigation.js
-msgid "Continue"
-msgstr ""
-
-#: /hrjob/js/common/navigation.js hrjob/js/common/navigation.js
-msgid "Cancel"
-msgstr ""
-
-#: /hrjob/js/entities/hrjob.js hrjob/js/entities/hrjob.js
-msgid "Field is required"
-msgstr ""
-
-#: /hrjob/js/entities/hrjob.js hrjob/js/entities/hrjob.js
-msgid "Not a number"
-msgstr ""
-
-#: hrbank/CRM/HRBank/Upgrader/Base.php hrcareer/CRM/HRCareer/Upgrader/Base.php
-#: hrdemog/CRM/HRDemog/Upgrader/Base.php hremerg/CRM/HREmerg/Upgrader/Base.php
-#: hrident/CRM/HRIdent/Upgrader/Base.php hrjob/CRM/HRJob/Upgrader/Base.php
-#: hrmed/CRM/HRMed/Upgrader/Base.php hrqual/CRM/HRQual/Upgrader/Base.php
-#: hrreport/CRM/HRReport/Upgrader/Base.php
-#: hrsampledata/CRM/HRSampleData/Upgrader/Base.php
-#: hrstaffdir/CRM/Hrstaffdir/Upgrader/Base.php hrui/CRM/HRUI/Upgrader/Base.php
-#: hrvisa/CRM/HRVisa/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr ""
-
-#: hrbank/CRM/HRBank/Upgrader.php hrcareer/CRM/HRCareer/Upgrader.php
-#: hrdemog/CRM/HRDemog/Upgrader.php hremerg/CRM/HREmerg/Upgrader.php
-#: hrident/CRM/HRIdent/Upgrader.php hrjob/CRM/HRJob/Upgrader.php
-#: hrmed/CRM/HRMed/Upgrader.php hrqual/CRM/HRQual/Upgrader.php
-#: hrreport/CRM/HRReport/Upgrader.php hrstaffdir/CRM/Hrstaffdir/Upgrader.php
-#: hrui/CRM/HRUI/Upgrader.php hrvisa/CRM/HRVisa/Upgrader.php
-msgid "Process first step"
-msgstr ""
-
-#: hrbank/CRM/HRBank/Upgrader.php hrcareer/CRM/HRCareer/Upgrader.php
-#: hrdemog/CRM/HRDemog/Upgrader.php hremerg/CRM/HREmerg/Upgrader.php
-#: hrident/CRM/HRIdent/Upgrader.php hrjob/CRM/HRJob/Upgrader.php
-#: hrmed/CRM/HRMed/Upgrader.php hrqual/CRM/HRQual/Upgrader.php
-#: hrreport/CRM/HRReport/Upgrader.php hrstaffdir/CRM/Hrstaffdir/Upgrader.php
-#: hrui/CRM/HRUI/Upgrader.php hrvisa/CRM/HRVisa/Upgrader.php
-msgid "Process second step"
-msgstr ""
-
-#: hrbank/CRM/HRBank/Upgrader.php hrcareer/CRM/HRCareer/Upgrader.php
-#: hrdemog/CRM/HRDemog/Upgrader.php hremerg/CRM/HREmerg/Upgrader.php
-#: hrident/CRM/HRIdent/Upgrader.php hrjob/CRM/HRJob/Upgrader.php
-#: hrmed/CRM/HRMed/Upgrader.php hrqual/CRM/HRQual/Upgrader.php
-#: hrreport/CRM/HRReport/Upgrader.php hrstaffdir/CRM/Hrstaffdir/Upgrader.php
-#: hrui/CRM/HRUI/Upgrader.php hrvisa/CRM/HRVisa/Upgrader.php
-msgid "Upgrade Batch (%1 => %2)"
-msgstr ""
-
-#: hrjob/templates/CRM/HRJob/Underscore/hrjob-general-template.tpl
-msgid "New Copy of \"%1\""
 msgstr ""
