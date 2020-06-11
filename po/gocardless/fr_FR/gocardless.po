@@ -2,11 +2,15 @@
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# Usha Matisson <matisson@makoa.fr>, 2020
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: gocardless\n"
-"POT-Creation-Date: 2020-01-16 05:01+0000\n"
-"Language-Team: French (https://www.transifex.com/civicrm/teams/1460/fr/)\n"
+"POT-Creation-Date: 2020-03-25 05:01+0000\n"
+"Last-Translator: Usha Matisson <matisson@makoa.fr>, 2020\n"
+"Language-Team: French (https://www.transifex.com/civicrm/teams/1905/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,48 +19,58 @@ msgstr ""
 
 #: CRM/Core/Payment/GoCardless.php
 msgid "Missing %1"
-msgstr ""
+msgstr "%1 manquant"
 
 #: CRM/Core/Payment/GoCardless.php
 msgid ""
 "Missing URL for API. This sould probably be %1 (for live payments) or %2 "
 "(for test/sandbox)"
 msgstr ""
-
-#: CRM/Core/Payment/GoCardless.php
-msgid "Error"
-msgstr ""
+"URL manquante pour l'API. Cela devrait probablement être %1 (pour les "
+"règlements directs) ou% 2 (pour le test / sandbox)"
 
 #: CRM/Core/Payment/GoCardless.php
 msgid "This function is not implemented"
-msgstr ""
+msgstr "Cette fonction n'est pas disponible"
 
 #: CRM/Core/Payment/GoCardless.php
 msgid "Sorry, there was an error contacting the payment processor GoCardless."
 msgstr ""
+"Désolé, une erreur s'est produite lors du contact avec le fournisseur de "
+"règlement GoCardless."
+
+#: CRM/Core/Payment/GoCardless.php
+msgid "Error"
+msgstr "Erreur"
 
 #: CRM/GoCardless/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
-msgstr ""
+msgstr "Mettre à jour %1 vers la révision %2"
 
 #: CRM/GoCardless/Upgrader.php
 msgid "GoCardless Direct Debit"
-msgstr ""
+msgstr "Virement GoCardless"
 
 #: CRM/GoCardlessUtils.php
 msgid "Sorry, we were unable to set up your Direct Debit. Please call us."
 msgstr ""
+"Désolé, nous ne sommes pas en mesure d'effectuer votre virement. Merci de "
+"nous contacter."
 
 #: CRM/GoCardlessUtils.php
 msgid ""
 "Sorry, there was a problem recording the details of your Direct Debit. "
 "Please call us."
 msgstr ""
+"Désolé, un problème est survenu lors de l'enregistrement des détails de "
+"votre prélèvement automatique. Veuillez nous appeler."
 
 #: gocardless.php
 msgid "Webhook secrets MUST be unique between test and live."
 msgstr ""
+"Les accès (secrets) du Webhook DOIVENT être uniques entre le test et la "
+"production."
 
 #: gocardless.php
 msgid "Missing Financial Account for GoCardless"
-msgstr ""
+msgstr "Il manque le compte comptable pour GoCardless"
