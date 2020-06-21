@@ -5,49 +5,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mosaico\n"
-"POT-Creation-Date: 2019-10-29 05:01+0000\n"
+"POT-Creation-Date: 2020-06-21 05:01+0000\n"
 "Language-Team: Dutch (https://www.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: CRM/Mosaico/DAO/MessageTemplate.php CRM/Mosaico/DAO/MosaicoTemplate.php
-msgid "message template ID"
-msgstr ""
-
-#: CRM/Mosaico/DAO/MessageTemplate.php
-msgid "hash_key"
-msgstr ""
-
-#: CRM/Mosaico/DAO/MessageTemplate.php
-msgid "name"
-msgstr ""
-
-#: CRM/Mosaico/DAO/MessageTemplate.php CRM/Mosaico/DAO/MosaicoTemplate.php
-msgid "HTML"
-msgstr ""
-
-#: CRM/Mosaico/DAO/MessageTemplate.php CRM/Mosaico/DAO/MosaicoTemplate.php
-msgid "metadata"
-msgstr ""
-
-#: CRM/Mosaico/DAO/MessageTemplate.php
-msgid "template"
-msgstr ""
-
-#: CRM/Mosaico/DAO/MosaicoTemplate.php api/v3/MosaicoBaseTemplate.php
-msgid "Title"
-msgstr ""
-
-#: CRM/Mosaico/DAO/MosaicoTemplate.php
-msgid "Base Template"
-msgstr ""
-
-#: CRM/Mosaico/DAO/MosaicoTemplate.php
-msgid "Content"
-msgstr ""
 
 #: CRM/Mosaico/Form/Migrate.php
 msgid "Are you sure want to copy data from Mosaico 1.x to 2.x?"
@@ -136,6 +100,34 @@ msgstr ""
 
 #: CRM/Mosaico/Utils.php
 msgid "(Deprecated) Direct ImageMagick API"
+msgstr ""
+
+#: CRM/Mosaico/Utils.php
+msgid "None"
+msgstr ""
+
+#: CRM/Mosaico/Utils.php
+msgid "3x"
+msgstr ""
+
+#: CRM/Mosaico/Utils.php
+msgid "2x"
+msgstr ""
+
+#: CRM/Mosaico/Utils.php
+msgid "Upto 190 pixels (e.g 3 column blocks)"
+msgstr ""
+
+#: CRM/Mosaico/Utils.php
+msgid "Upto 285 pixels (e.g 2 column blocks)"
+msgstr ""
+
+#: CRM/Mosaico/Utils.php
+msgid "Upto 570 pixels (e.g 1 column blocks)"
+msgstr ""
+
+#: CRM/Mosaico/Utils.php
+msgid "All (other) sizes"
 msgstr ""
 
 #: ang/crmMosaico/AdvancedDialogCtrl.html
@@ -480,6 +472,10 @@ msgid "Name"
 msgstr ""
 
 #: api/v3/MosaicoBaseTemplate.php
+msgid "Title"
+msgstr ""
+
+#: api/v3/MosaicoBaseTemplate.php
 msgid "Thumbnail URL"
 msgstr ""
 
@@ -598,6 +594,10 @@ msgstr ""
 
 #: mosaico.php
 msgid "THUMBNAILS_DIR not writable or configured"
+msgstr ""
+
+#: mosaico.php
+msgid "Email - schedule/send via CiviMail (traditional)"
 msgstr ""
 
 #: templates/CRM/Mosaico/Form/Migrate.tpl
@@ -721,6 +721,25 @@ msgstr ""
 
 #: templates/CRM/Mosaico/Form/MosaicoAdmin.tpl
 msgid "Which backend should process images?"
+msgstr ""
+
+#: templates/CRM/Mosaico/Form/MosaicoAdmin.tpl
+msgid "for resize of images with width"
+msgstr ""
+
+#: templates/CRM/Mosaico/Form/MosaicoAdmin.tpl
+msgid ""
+"When uploading images, the mosaico editor trims it down to very required "
+"size (in pixels). Use scale factor setting to keep some buffer (2x or 3x) so"
+" upscale doesn't look distorted or low resolution. Example:"
+msgstr ""
+
+#: templates/CRM/Mosaico/Form/MosaicoAdmin.tpl
+msgid "3x => Upto 285 pixels (covers both 2 and 3 column block images)"
+msgstr ""
+
+#: templates/CRM/Mosaico/Form/MosaicoAdmin.tpl
+msgid "2x => All other sizes (single column block images)"
 msgstr ""
 
 #: templates/CRM/crmMosaico/ListCtrl.hlp
