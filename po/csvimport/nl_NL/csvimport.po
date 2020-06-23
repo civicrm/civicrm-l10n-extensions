@@ -3,13 +3,14 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
+# HanV <han.velthuis@home.nl>, 2020
 # Jan Hovenkamp <hovenkamp.jan@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
 "POT-Creation-Date: 2019-04-17 05:01+0000\n"
-"PO-Revision-Date: 2020-05-01 12:52+0000\n"
-"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
+"PO-Revision-Date: 2020-06-22 10:18+0000\n"
+"Last-Translator: HanV <han.velthuis@home.nl>\n"
 "Language-Team: Dutch (http://www.transifex.com/civicrm/civicrm_extensions/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +20,7 @@ msgstr ""
 
 #: CRM/Csvimport/Import/Form/DataSource.php
 msgid "Entity To Import"
-msgstr "Entiteit voor Importeren"
+msgstr "Entiteit te importeren"
 
 #: CRM/Csvimport/Import/Form/DataSource.php
 #: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
@@ -32,15 +33,15 @@ msgstr ""
 
 #: CRM/Csvimport/Import/Form/DataSource.php
 msgid "Set this in CSV"
-msgstr ""
+msgstr "Plaats dit in CSV"
 
 #: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
 msgid "Import Data File"
-msgstr "Importeer Data Bestand"
+msgstr "Bestand importeren"
 
 #: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
 msgid "A valid file must be uploaded."
-msgstr "Een juist bestand moet worden geüpload"
+msgstr "Er moet een geldig bestand worden geüpload."
 
 #: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
 msgid "File size should be less than %1 MBytes (%2 bytes)"
@@ -48,7 +49,7 @@ msgstr "Bestandsgrootte moet kleiner zijn dan %1 MBytes (%2 bytes)"
 
 #: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
 msgid "Input file must be in CSV format"
-msgstr "Input bestand moet in CSV formaat zijn"
+msgstr "Invoerbestand moet in het CSV-formaat zijn"
 
 #: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
 msgid "First row contains column headers"
@@ -72,11 +73,11 @@ msgstr "Op Dubbele Vermeldingen"
 
 #: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
 msgid "Mapping Option"
-msgstr "Mapping Opties"
+msgstr "Mapping Optie"
 
 #: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
 msgid "Import Field Separator"
-msgstr "Veld Scheidingsteken"
+msgstr "Scheidingsteken Importeren"
 
 #: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
 msgid "Number Of Items To Process For Each Queue Item"
@@ -114,7 +115,7 @@ msgstr "Organisatie"
 
 #: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
 msgid "Contact Type"
-msgstr "Contact Type"
+msgstr "Contacttype"
 
 #: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
 msgid "Upload Data"
@@ -130,7 +131,7 @@ msgstr ""
 
 #: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
 msgid "Save this field mapping"
-msgstr "Bewaar de veld indeling"
+msgstr "Bewaar de koppeltabel"
 
 #: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
 msgid "Name"
@@ -142,15 +143,15 @@ msgstr "Beschrijving"
 
 #: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
 msgid "Update this field mapping"
-msgstr "Veld indeling bijwerken"
+msgstr "Koppeltabel bijwerken"
 
 #: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
 msgid "Save as a new field mapping"
-msgstr "Bewaar als nieuwe veld indeling"
+msgstr "Bewaar als nieuwe koppeltabel"
 
 #: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
 msgid "Mapper for Field %1"
-msgstr "Indeler voor Veld %1"
+msgstr "Indeler voor veld %1"
 
 #: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
 #: CRM/Csvimport/Import/Parser/Api.php CRM/Csvimport/Import/Parser.php
@@ -162,7 +163,7 @@ msgid ""
 "The data columns in this import file appear to be different from the saved "
 "mapping. Please verify that you have selected the correct saved mapping "
 "before continuing."
-msgstr "De data kolommen in dit importbestand lijken af te wijken van de opgeslagen indeling. Controleer of je de juiste Indeling hebt geselecteerd voordat je verder gaat."
+msgstr "De data kolommen in dit invoerbestand lijken af te wijken van de opgeslagen koppeltabel. Controleer of de juiste koppeltabel is geselecteerd voordat je verder gaat."
 
 #: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
 msgid "<< Previous"
@@ -170,11 +171,11 @@ msgstr "<< Vorige"
 
 #: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
 msgid "Name is required to save Import Mapping"
-msgstr "Naam is vereist om de Importeer Indeling op te slaan"
+msgstr "Naam is vereist om de koppeltabel op te slaan"
 
 #: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
 msgid "Select saved mapping"
-msgstr "Selecteer een opgeslagen indeling"
+msgstr "Selecteer een koppeltabel"
 
 #: CRM/Csvimport/Import/Form/PreviewBaseClass.php
 msgid "CSVImport Queue Runner - Import"
@@ -298,17 +299,17 @@ msgstr ""
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid "Select a Different Field Mapping"
-msgstr "Selecteer een andere Veld Indeling"
+msgstr "Selecteer een andere koppeltabel"
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid ""
 "Load Saved Field\n"
 "          Mapping"
-msgstr "Laad bewaarde Veld\n          Indeling"
+msgstr "Laad Bewaard veld\n          Koppeltabel"
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid "Select Saved Mapping, or leave blank to create a new mapping."
-msgstr "Selecteer Opgeslagen Indeling, of laat leeg om een nieuwe Indeling te maken."
+msgstr "Selecteer bestaande koppeltabel, of laat leeg om een nieuwe aan te maken."
 
 #: templates/CRM/Csvimport/Import/Form/MapField.tpl
 msgid ""
@@ -323,7 +324,7 @@ msgid ""
 "Click 'Load Saved Field Mapping' if data has been previously imported from "
 "the same source. You can then select the saved import mapping setup and load"
 " it automatically."
-msgstr "Klik op 'Laad bewaarde Veldindeling' indien de gegevens recent zijn geïmporteerd vanuit de zelfde bron. Je kunt de bewaarde import indeling selecteren en deze automatisch laden."
+msgstr "Klik op 'Laad koppeltabel' indien de gegevens recent zijn geïmporteerd vanuit dezelfde bron. Je kunt de koppeltabel selecteren en deze automatisch laden."
 
 #: templates/CRM/Csvimport/Import/Form/MapField.tpl
 msgid ""
@@ -335,7 +336,7 @@ msgstr ""
 
 #: templates/CRM/Csvimport/Import/Form/MapTable.tpl
 msgid "Saved Field Mapping: %1"
-msgstr "Bewaarde Veldindeling: %1"
+msgstr "Bewaarde koppeltabel: %1"
 
 #: templates/CRM/Csvimport/Import/Form/MapTable.tpl
 msgid "Column Headers"
