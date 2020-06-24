@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
 "POT-Creation-Date: 2019-04-17 05:01+0000\n"
-"PO-Revision-Date: 2020-06-22 10:18+0000\n"
+"PO-Revision-Date: 2020-06-23 19:43+0000\n"
 "Last-Translator: HanV <han.velthuis@home.nl>\n"
 "Language-Team: Dutch (http://www.transifex.com/civicrm/civicrm_extensions/language/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -29,7 +29,7 @@ msgstr "- selecteer -"
 
 #: CRM/Csvimport/Import/Form/DataSource.php
 msgid "Which entity are you importing \"Notes\" to"
-msgstr ""
+msgstr "In welke entiteit moet \"Notes\" worden geïmporteerd"
 
 #: CRM/Csvimport/Import/Form/DataSource.php
 msgid "Set this in CSV"
@@ -69,7 +69,7 @@ msgstr "Geen Duplicaat Controle"
 
 #: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
 msgid "On Duplicate Entries"
-msgstr "Op Dubbele Vermeldingen"
+msgstr "Bij Dubbele Vermeldingen"
 
 #: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
 msgid "Mapping Option"
@@ -77,19 +77,19 @@ msgstr "Mapping Optie"
 
 #: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
 msgid "Import Field Separator"
-msgstr "Scheidingsteken Importeren"
+msgstr "Scheidingsteken bij importeren"
 
 #: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
 msgid "Number Of Items To Process For Each Queue Item"
-msgstr ""
+msgstr "Aantal te verwerken items per aanvraag in wachtrij"
 
 #: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
 msgid "Allow Updating An Entity Using Unique Fields"
-msgstr ""
+msgstr "Wijzigen entiteit toestaan met unieke velden"
 
 #: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
 msgid "Ignore Case For Field Option Values"
-msgstr ""
+msgstr "Bij veldopties geen onderscheid hoofdletter of kleine letter"
 
 #: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
 #: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
@@ -103,7 +103,7 @@ msgstr "Afbreken"
 
 #: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
 msgid "Individual"
-msgstr "Individueel"
+msgstr "Persoon"
 
 #: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
 msgid "Household"
@@ -123,11 +123,11 @@ msgstr "Upload Gegevens"
 
 #: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
 msgid "Match using"
-msgstr ""
+msgstr "Vergelijken met"
 
 #: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
 msgid "Match using a combination of"
-msgstr ""
+msgstr "Vergelijken in combinatie met"
 
 #: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
 msgid "Save this field mapping"
@@ -179,7 +179,7 @@ msgstr "Selecteer een koppeltabel"
 
 #: CRM/Csvimport/Import/Form/PreviewBaseClass.php
 msgid "CSVImport Queue Runner - Import"
-msgstr ""
+msgstr "CSVImport Queue Runner - Import"
 
 #: CRM/Csvimport/Import/Form/SummaryBaseClass.php
 msgid "These records have been updated with the imported data."
@@ -195,11 +195,11 @@ msgstr "Deze regels zijn niet geïmporteerd."
 
 #: CRM/Csvimport/Import/Parser/Api.php
 msgid "Missing required field(s) :"
-msgstr "Missende verplichte velden:"
+msgstr "Ontbrekende verplichte velden:"
 
 #: CRM/Csvimport/Import/Parser/Api.php
 msgid "Importing entity"
-msgstr ""
+msgstr "Importeren entiteit"
 
 #: CRM/Csvimport/Import/Parser.php
 msgid "Reason"
@@ -215,15 +215,15 @@ msgstr "Bekijk Activiteit-geschiedenis URL"
 
 #: CRM/Csvimport/Task/Import.php
 msgid "Invalid value for field"
-msgstr ""
+msgstr "Ongeldige veldwaarde"
 
 #: csvimport.php
 msgid "API csv Import"
-msgstr ""
+msgstr "API csv importeren"
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.hlp
 msgid "Import File Format"
-msgstr "Importeer Bestandsformaat"
+msgstr "Bestandsformaat importeren"
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.hlp
 msgid "Duplicate Matching"
@@ -238,13 +238,13 @@ msgid ""
 "Enter the character used to separate data columns in your import file. By default, the field\n"
 "  will populate with the separator defined in your global settings. Common values include a comma, semicolon,\n"
 "  or pipe character. To import a tab separated file, enter \"tab\" (without quotes) in the field."
-msgstr "Voer het teken in dat gebruikt wordt om velden te scheiden in je importbestand. Standaard zal het veld  gevuld worden met het scheidingsteken dat je hebt aangegeven in de globale instellingen. Veel voorkomende waarden zijn Komma, puntkomma of het pijp teken. Om een bestand met tab-scheiding te importeren, vul je \"tab\" in zonder de aanhalingstekens."
+msgstr "Voer het teken in dat gebruikt wordt om velden te scheiden in het invoerbestand. Standaard zal het veld  gevuld worden met het scheidingsteken dat is hebt aangegeven in de globale instellingen. Veel voorkomende waarden zijn: Komma, puntkomma en het pipe-teken. Om een bestand met tabscheiding te importeren, vul je \"tab\" in zonder de aanhalingstekens."
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid ""
 "The API Import Wizard allows you to easily upload data against any API "
 "create method from other applications into CiviCRM."
-msgstr "Met de API Importeer Wizard kun je eenvoudig gegevens importeren via een API van een andere applicatie naar CiviCRM."
+msgstr "Met het API Importeerhulpmiddel kun je eenvoudig gegevens importeren via een API uit een andere applicatie naar CiviCRM."
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid ""
@@ -257,14 +257,14 @@ msgstr "Te importeren bestanden moeten het 'comma-separated-values' formaat (CSV
 msgid ""
 "Choose 'Set this in CSV' to use 'entity_table' field in next step. This "
 "allows you to import 'Notes' to multiple entities in same import."
-msgstr ""
+msgstr "Kies 'Plaats dit in CSV' om in de volgende stap het veld 'entity_table' te gebruiken. Hiermee kun je 'Notes' importeren in meerdere entiteiten in dezelfde importeerslag."
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid ""
 "Selecting an entity here will allow unique fields of this entity to be used "
 "in place of 'id'. Eg: External id for 'Contact'. (note: this will hide "
 "'entity_table' field in next step)"
-msgstr ""
+msgstr "Selecteer hier een entiteit om unieke velden van deze entiteit te gebruiken in plaats van het 'id'. Bijv.: External-id bij 'Contact'. (NB: Hierdoor wordt het veld 'entity_table' in de volgende stap verborgen)"
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid "File format must be comma-separated-values (CSV)."
@@ -282,20 +282,20 @@ msgstr "Selecteren indien de eerste rij van het bestand veldnamen bevat (Bijvoor
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid "This is the number of rows to process in each queue item. (Eg. 10)"
-msgstr ""
+msgstr "Het aantal te verwerken rijen per item in elke aanvraag in de wachtrij (bijv. 10)."
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid ""
 "Allow updating an existing entity using unique fields to match (Eg. "
 "external_id). By default updating is possible if 'id' is used."
-msgstr ""
+msgstr "Toestaan dat bij een bestaande entiteit wordt vergeleken op een uniek veld (bijv. external-id). Standaard is dit mogelijk als er een veld 'id' is."
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid ""
 "Ignore letter-case when mapping values to option fields (Eg. Individual "
 "Prefix). Note that this may produce unexpected results if you have multiple "
 "option names with same name like Ms. and ms."
-msgstr ""
+msgstr "Bij vergelijken met optievelden niet kijken naar verschil hoofdletter/kleine letter (bijv. Voorvoegsel persoon). Dit kan onverwachte resultaten geven als er opties zijn met dezelfde waarde,  'Ms' en 'ms.'"
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid "Select a Different Field Mapping"
@@ -317,7 +317,7 @@ msgid ""
 "select the matching CiviCRM database fields from the drop-down lists in the "
 "right-hand column. Select '- do not import -' for any columns in the import "
 "file that you want ignored."
-msgstr "Beoordeel de waarden van de eerste 2 rijen van je import-bestand en selecteer de overeenkomende CiviCRM database velden  uit de drop-down lijst in de rechter kolom. Selecteer '- niet importeren -' voor kolommen in het import-bestand die je wilt negeren."
+msgstr "Beoordeel de waarden van de eerste 2 rijen van je invoerbestand en selecteer de overeenkomende CiviCRM database-velden  uit de dropdown lijst in de rechterkolom. Selecteer '- niet importeren -' voor kolommen in het invoerbestand die je wilt negeren."
 
 #: templates/CRM/Csvimport/Import/Form/MapField.tpl
 msgid ""
@@ -332,7 +332,7 @@ msgid ""
 " check 'Save this field mapping' at the bottom of the page before "
 "continuing. The saved mapping can then be easily reused the next time data "
 "is imported."
-msgstr ""
+msgstr "Indien je vaker gaat importeren uit een bestand met deze bestandsindeling, vink dan 'Deze koppeltabel opslaan' aan, voordat je verder gaat. Je kan dit dan weer gebruiken bij een volgende keer importeren."
 
 #: templates/CRM/Csvimport/Import/Form/MapTable.tpl
 msgid "Saved Field Mapping: %1"
@@ -348,14 +348,14 @@ msgstr "Importeer Gegevens (rij %1)"
 
 #: templates/CRM/Csvimport/Import/Form/MapTable.tpl
 msgid "Matching CiviCRM Field"
-msgstr "Overeenkomend CiviCRM Veld"
+msgstr "Overeenkomend CiviCRM-veld"
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 msgid ""
 "The information below previews the results of importing your data in "
 "CiviCRM. Review the totals to ensure that they represent your expected "
 "results."
-msgstr ""
+msgstr "De informatie hieronder is een voorvertoning van de importslag naar CiviCRM. Bekijk de totalen om de resultaten te controleren."
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 msgid ""
@@ -364,7 +364,7 @@ msgid ""
 "just these problem records - <a href='%2'>Download Errors</a>. Then correct "
 "them in the original import file, cancel this import and begin again at step"
 " 1."
-msgstr ""
+msgstr "Er is ongeldige data of een fout formaat in %1 record(s) gevonden. Als je doorgaat worden deze records overgeslagen. Je kan de foutenlijst <a href='%2'>bekijken</a>. Gebruik dit bestand om het eerste bestand te corrigeren. Stop met importeren en begin weer bij stap 1."
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 msgid ""
@@ -373,7 +373,7 @@ msgid ""
 "download a file with just these problem records - <a href='%2'>Download "
 "Conflicts</a>. Then correct them in the original import file, cancel this "
 "import and begin again at step 1."
-msgstr ""
+msgstr "Er zijn %1 records met transactie conflicten gevonden. Als je doorgaat worden deze records overgeslagen. Je kan de  <a href='%2'>transactie conflicten downloaden</a>. Gebruik deze file om het eerste bestand te corrigeren. Stop met importeren en begin weer bij stap 1."
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 msgid "Click 'Import Now' if you are ready to proceed."
@@ -386,7 +386,7 @@ msgstr "Totaal Rijen"
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 msgid "Total rows (records) in uploaded file."
-msgstr "Totaal rijden (regels) in het geüploade bestand"
+msgstr "Totaal aantal rijen (regels) in het geüploade bestand."
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 msgid "Rows with Errors"
@@ -397,7 +397,7 @@ msgstr "Rijen met Fouten"
 msgid ""
 "Rows with invalid data in one or more fields. These rows will be skipped "
 "(not imported)."
-msgstr ""
+msgstr "Rijen met ongeldige data in een of meerdere velden. Deze rijen worden niet geïmporteerd."
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
@@ -412,7 +412,7 @@ msgstr "Conflicterende Rijen"
 msgid ""
 "Rows with conflicting transaction ids within this file. These rows will be "
 "skipped (not imported)."
-msgstr ""
+msgstr "Rijen met conflicten in transactie-id's. Deze rijen worden niet geïmporteerd."
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
@@ -442,14 +442,14 @@ msgid ""
 msgid_plural ""
 "CiviCRM has detected mismatched participant IDs. These records have not been"
 " Updated."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Er is een invoerrecord met een fout deelnemersnummer. Deze inschrijving is niet gewijzigd."
+msgstr[1] "Er zijn invoerrecords met een fout deelnemersnummer. Deze inschrijvingen zijn niet gewijzigd."
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid ""
 "You can <a href=\"%1\">Download Mismatched Participants</a>. You may then "
 "correct them, and import the new file with the corrected data."
-msgstr ""
+msgstr "Je kunt de <a href=\"%1\">fouten downloaden</a>. Gebruik dit bestand om het invoerbestand te corrigeren."
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid ""
@@ -458,14 +458,14 @@ msgid ""
 msgid_plural ""
 "CiviCRM has detected invalid data and/or formatting errors in %count "
 "records. These records have not been imported."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "CiviCRM detecteert niet geldige gegevens of opmaakfouten in een record. Het betreffende record is niet geïmporteerd."
+msgstr[1] "CiviCRM detecteert niet geldige gegevens of opmaakfouten in %count records. De betreffende records zijn niet geïmporteerd."
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid ""
 "You can <a href=\"%1\">Download Errors</a>. You may then correct them, and "
 "import the new file with the corrected data."
-msgstr ""
+msgstr "Je kunt de <a href=\"%1\">fouten downloaden</a>. Gebruik dit bestand om het invoerbestand te corrigeren."
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid ""
@@ -476,15 +476,15 @@ msgid_plural ""
 "CiviCRM has detected %count records with conflicting transaction IDs within "
 "this data file or relative to existing participant records. These records "
 "have not been imported."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "CiviCRM detecteert een invoerrecord met een niet overeenkomende transactie-id of relatief met een bestaand deelnemersrecord. Het betreffende record is niet geïmporteerd."
+msgstr[1] "CiviCRM detecteert %count invoerrecords met een niet overeenkomende transactie-id of relatief met een bestaand deelnemersrecord. De betreffende records zijn niet geïmporteerd."
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid ""
 "You can <a href=\"%1\">Download Conflicts</a>. You may then review these "
 "records to determine if they are actually conflicts, and correct the "
 "transaction IDs for those that are not."
-msgstr ""
+msgstr "Je kunt de <a href=\"%1\">fouten downloaden</a>. Gebruik dit bestand om het invoerbestand te corrigeren als het echt conflicten zijn en pas anders de foutieve transactie-id's aan."
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid ""
@@ -493,19 +493,19 @@ msgid ""
 msgid_plural ""
 "CiviCRM has detected %count records which are duplicates of existing CiviCRM"
 " participant records."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "CiviCRM heeft een duplicaat gevonden van een bestaand deelnemersrecord."
+msgstr[1] "CiviCRM heeft %count duplicaten gevonden van bestaande deelnemersrecords. "
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid ""
 "You can <a href=\"%1\">Download Duplicates</a>. You may then review these "
 "records to determine if they are actually duplicates, and correct the "
 "transaction IDs for those that are not."
-msgstr ""
+msgstr "Je kunt de <a href=\"%1\">duplicaten downloaden</a>. Gebruik dit bestand om het invoerbestand te corrigeren als het echt duplicaten zijn en pas anders de foutieve transactie-id's aan."
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Total rows (participant records) in uploaded file."
-msgstr ""
+msgstr "Aantal rijen (deelnemers) in het geüploade bestand."
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Invalid Rows (skipped)"
@@ -513,40 +513,40 @@ msgstr "Onjuiste Rijen (overgeslagen)"
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Mismatched Rows (skipped)"
-msgstr ""
+msgstr "Niet-overeenkomende rijen (overgeslagen)"
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Rows with mismatched participant IDs... (NOT updated)."
-msgstr ""
+msgstr "Rijen met niet-overeenkomende deelnemersnummers... (NIET bijgewerkt)."
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Download Mismatched participants"
-msgstr ""
+msgstr "Niet-overeenkomende deelnemers downloaden"
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Conflicting Rows (skipped)"
-msgstr ""
+msgstr "Rijen met een conflict (overgeslagen)"
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Rows with conflicting transaction IDs (NOT imported)."
-msgstr ""
+msgstr "Rijen met een conflict in transactie-id (niet geïmporteerd)."
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Duplicate Rows"
-msgstr ""
+msgstr "Dubbele rijen"
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Rows which are duplicates of existing CiviCRM records."
-msgstr ""
+msgstr "Rijen die identiek zijn aan bestaande CiviCRM-records."
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Download Duplicates"
-msgstr ""
+msgstr "Download duplicaten"
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Records Imported"
-msgstr ""
+msgstr "Geïmporteerde records"
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Rows imported successfully."
-msgstr ""
+msgstr "Succesvol geïmporteerde rijen."
