@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: form_processor\n"
-"POT-Creation-Date: 2020-03-18 05:01+0000\n"
+"POT-Creation-Date: 2020-06-26 05:01+0000\n"
 "Language-Team: Serbian (Serbia) (https://www.transifex.com/civicrm/teams/1905/sr_RS/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -236,6 +236,18 @@ msgstr ""
 msgid "Validator"
 msgstr ""
 
+#: CRM/FormProcessor/Form/RunFormProcessor.php
+msgid "- select -"
+msgstr ""
+
+#: CRM/FormProcessor/Form/RunFormProcessor.php
+msgid "Load"
+msgstr ""
+
+#: CRM/FormProcessor/Form/RunFormProcessor.php
+msgid "Submit"
+msgstr ""
+
 #: CRM/FormProcessor/Status.php
 msgid "In database"
 msgstr ""
@@ -310,6 +322,7 @@ msgid "Name of the campaign"
 msgstr ""
 
 #: Civi/FormProcessor/Type/CustomOptionListType.php
+#: Civi/FormProcessor/Validation/DateValidator.php
 #: ang/form_processor/FormProcessorEditCtrl/DefaultDataOutputTable.html
 msgid "Value"
 msgstr ""
@@ -539,8 +552,72 @@ msgstr ""
 msgid "Invalid %1"
 msgstr ""
 
+#: Civi/FormProcessor/Validation/DateValidator.php
+msgid "Date validation"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/DateValidator.php
+msgid "Operator"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/DateValidator.php
+msgid "Less than or equal"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/DateValidator.php
+msgid "Less than"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/DateValidator.php
+msgid "Greater than or equal"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/DateValidator.php
+msgid "Greater than"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/DateValidator.php
+msgid "Equal"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/DateValidator.php
+msgid "Not equal"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/DateValidator.php
+msgid "Between"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/DateValidator.php
+msgid "Between (including lower value)"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/DateValidator.php
+msgid "Between (including higher value)"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/DateValidator.php
+msgid "Between (including both values)"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/DateValidator.php
+msgid "Value 2"
+msgstr ""
+
 #: Civi/FormProcessor/Validation/EmailValidator.php
 msgid "E-mail"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/MaxValidator.php
+msgid "Is less than or equal to"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/MaxValidator.php
+msgid "Value can not be greater than %1"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/MaxValidator.php
+msgid "Maximum value"
 msgstr ""
 
 #: Civi/FormProcessor/Validation/MinLengthValidator.php
@@ -549,6 +626,18 @@ msgstr ""
 
 #: Civi/FormProcessor/Validation/MinLengthValidator.php
 msgid "Minimum length"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/MinValidator.php
+msgid "Is greater than or equal to"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/MinValidator.php
+msgid "Value can not be less than %1"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/MinValidator.php
+msgid "Minimum value"
 msgstr ""
 
 #: ang/form_processor/DelayedActionHandlerDialogCtrl.html
@@ -723,6 +812,10 @@ msgid "Revert to code"
 msgstr ""
 
 #: ang/form_processor/FormProcessorListCtrl.html
+msgid "Try out"
+msgstr ""
+
+#: ang/form_processor/FormProcessorListCtrl.html
 #: ang/form_processor/actions/crmFormProcessorActions.html
 #: ang/form_processor/inputs/crmFormProcessorInputs.html
 msgid "Edit"
@@ -885,4 +978,24 @@ msgstr ""
 
 #: form_processor.php
 msgid "Form processors"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/RunFormProcessor.tpl
+msgid "Retrieve default data"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/RunFormProcessor.tpl
+msgid ""
+"With the retrieval of default data you can lookup existing data and then "
+"change it."
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/RunFormProcessor.tpl
+msgid ""
+"<strong>Danger!</strong> Using the form below might change actual data. Use "
+"it with care."
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/RunFormProcessor.tpl
+msgid "Result"
 msgstr ""
