@@ -4,12 +4,13 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Erik Thier <ethier@ondersteuningsburo.nl>, 2018
+# HanV <han.velthuis@home.nl>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: gdpr\n"
 "POT-Creation-Date: 2019-12-21 05:01+0000\n"
-"Last-Translator: Erik Thier <ethier@ondersteuningsburo.nl>, 2018\n"
+"Last-Translator: HanV <han.velthuis@home.nl>, 2020\n"
 "Language-Team: Dutch (https://www.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,7 +37,7 @@ msgstr "Laat ons weten hoe we met u in contact kunnen blijven."
 
 #: CRM/Gdpr/CommunicationsPreferences/Utils.php
 msgid "Interest groups"
-msgstr ""
+msgstr "Belangstellingsgroepen"
 
 #: CRM/Gdpr/CommunicationsPreferences/Utils.php
 msgid ""
@@ -60,7 +61,7 @@ msgstr "Telefoon"
 
 #: CRM/Gdpr/CommunicationsPreferences/Utils.php
 msgid "Postal Mail"
-msgstr ""
+msgstr "Post"
 
 #: CRM/Gdpr/CommunicationsPreferences/Utils.php
 msgid "SMS"
@@ -68,16 +69,16 @@ msgstr "SMS"
 
 #: CRM/Gdpr/CommunicationsPreferences/Utils.php
 msgid "--Select--"
-msgstr ""
+msgstr "--Selecteer--"
 
 #: CRM/Gdpr/CommunicationsPreferences/Utils.php
 msgid "Communication Preferences updated"
-msgstr ""
+msgstr "Communicatievoorkeuren gewijzigd"
 
 #: CRM/Gdpr/Form/Activitycontact.php CRM/Gdpr/Form/Search/ActivityContact.php
 #: templates/CRM/Gdpr/Form/Activitycontact.tpl
 msgid "Contact Name"
-msgstr ""
+msgstr "Naam contact"
 
 #: CRM/Gdpr/Form/Activitycontact.php templates/CRM/Gdpr/Page/Dashboard.tpl
 msgid "Search"
@@ -97,7 +98,7 @@ msgstr "Introductie"
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Include Profile"
-msgstr ""
+msgstr "Profiel bijvoegen"
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid ""
@@ -105,26 +106,28 @@ msgid ""
 "to-date. It should  include a primary email address field."
 msgstr ""
 "Voeg een profiel toe zodat een gebruiker zijn gegevens kan controleren en "
-"eventueel aanpassen. In het profiel moet het primaire e-mail adres zijn "
+"eventueel aanpassen. In het profiel moet het primaire e-mailadres zijn "
 "opgenomen."
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Use as the mailing subscribe page"
-msgstr ""
+msgstr "Gebruik als de aanmeldingspagina"
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid ""
 "Check to use the Communications Preferences page instead of the default "
 "Mailing Subscribe page."
 msgstr ""
+"Vink dit aan om de communicatievoorkeurspagina te gebruiken in plaats van de"
+" standaard aanmeldingspagina."
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Include reCAPTCHA?"
-msgstr ""
+msgstr "reCAPTCHA gebruiken?"
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Enable Channels"
-msgstr ""
+msgstr "Kanalen inschakelen"
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Users can opt-in to these channels"
@@ -132,11 +135,11 @@ msgstr "Gebruikers kunnen zich abonneren op deze kanalen."
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Allow users to opt-in to mailing groups."
-msgstr "Sta gebruikers toe om zich te abonneren op mailinggroepen."
+msgstr "Sta gebruikers toe om zich te abonneren op mailgroepen."
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Heading for the groups section"
-msgstr ""
+msgstr "Kop voor de groepssectie"
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Introduction or description for this section."
@@ -144,16 +147,16 @@ msgstr "Introductie of beschrijving voor deze sectie."
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Enable"
-msgstr ""
+msgstr "Inschakelen"
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 #: templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
 msgid "Weight"
-msgstr ""
+msgstr "Gewicht"
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "On completion"
-msgstr ""
+msgstr "Bij afronding"
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Redirect to another page"
@@ -161,11 +164,11 @@ msgstr "Doorverwijzing naar een andere pagina"
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Display a message on the form page."
-msgstr "Een bericht tonen op de formulieren pagina."
+msgstr "Een bericht tonen op het formulier."
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Completion page"
-msgstr ""
+msgstr "Afrondingspagina"
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid ""
@@ -174,46 +177,51 @@ msgid ""
 "/thank-you) or relative (thank-you), with no leading forward slash. Leave "
 "blank to redirect to the front page."
 msgstr ""
+"Voeg de URL toe van de pagina waarna de gebruiker moet wordt verwezen na het"
+" invullen van het formulier. Die pagina moet al bestaan. Als u dit niet "
+"invult, dan wordt het de beginpagina. Het pad mag absoluut zijn (volledig "
+"adres,  http://example.com/thank-you)  of relatief zonder beginslash (thank-"
+"you),"
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Completion message"
-msgstr ""
+msgstr "Afrondingsbericht"
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "A message to display to the user after the form is submitted. "
-msgstr ""
+msgstr "De boodschap voor de gebruiker na het verzenden van het scherm."
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Add to Event and Contribution Thank-you pages"
-msgstr ""
+msgstr "Toevoegen aan Evenement-pagina's en Bedank-pagina's."
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Embed the Communication Preferences form"
-msgstr ""
+msgstr "Voeg het formulier communicatie-voorkeur toe"
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Add a link to the form"
-msgstr ""
+msgstr "Voeg een link naar het formulier toe"
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Do Nothing"
-msgstr ""
+msgstr "Doe niets"
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php CRM/Gdpr/Form/Settings.php
 msgid "Introductory text"
-msgstr ""
+msgstr "Introductie-tekst"
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Completion text"
-msgstr ""
+msgstr "Afrondingstekst"
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Link label"
-msgstr ""
+msgstr "Label van de link"
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Text above the link"
-msgstr ""
+msgstr "Tekst boven de link"
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php CRM/Gdpr/Form/Settings.php
 #: CRM/Gdpr/Form/UpdatePreference.php
@@ -222,43 +230,43 @@ msgstr "Opslaan"
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Send Confirmation Email?"
-msgstr ""
+msgstr "Bevestiging e-mailen?"
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Text"
-msgstr ""
+msgstr "Tekst"
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "CC Confirmation To"
-msgstr ""
+msgstr "CC bevestiging naar"
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Please enter a valid list of comma delimited email addresses"
-msgstr ""
+msgstr "Voer a.u.b. een kommagescheiden lijst van geldige e-mailadressen in"
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "BCC Confirmation To"
-msgstr ""
+msgstr "BCC bevestiging naar"
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Confirm From Name"
-msgstr ""
+msgstr "Naam afzender bevestiging"
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Confirm From Email"
-msgstr ""
+msgstr "E-mailadres afzender bevestiging"
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Email is not valid."
-msgstr ""
+msgstr "E-mailadres is niet geldig."
 
 #: CRM/Gdpr/Form/ContributionPage/TermsAndConditions.php
 msgid "Terms & Conditions information has been saved."
-msgstr ""
+msgstr "Informatie termen en conditie opgeslagen."
 
 #: CRM/Gdpr/Form/ContributionPage/TermsAndConditions.php
 msgid "Saved"
-msgstr ""
+msgstr "Opgeslagen"
 
 #: CRM/Gdpr/Form/Forgetme.php templates/CRM/Gdpr/Form/Settings.tpl
 msgid "Forget me"
@@ -282,7 +290,7 @@ msgstr "Contact is geanonimiseerd."
 
 #: CRM/Gdpr/Form/Forgetme.php
 msgid "Forget successful"
-msgstr "\"Vergeet me\" was succesvol"
+msgstr "\"Vergeet me\" is gelukt"
 
 #: CRM/Gdpr/Form/Forgetme.php
 msgid "Records has not been cleared."
@@ -294,7 +302,7 @@ msgstr ""
 
 #: CRM/Gdpr/Form/Forgetme.php
 msgid "GDPR - Contact has been made anonymous"
-msgstr ""
+msgstr "GDPR - Contact is anoniem gemaakt"
 
 #: CRM/Gdpr/Form/SLAAccept.php
 msgid "Submit"
@@ -311,7 +319,7 @@ msgstr "AVG - Contacten zonder activiteiten"
 #: CRM/Gdpr/Form/Search/ActivityContact.php
 #: CRM/Gdpr/Form/Search/GroupcontactDetails.php
 msgid "Contact Id"
-msgstr ""
+msgstr "Contact-id"
 
 #: CRM/Gdpr/Form/Search/ActivityContact.php
 #: CRM/Gdpr/Form/Search/GroupcontactDetails.php
@@ -321,48 +329,48 @@ msgstr "Contact Type"
 #: CRM/Gdpr/Form/Search/GroupcontactDetails.mgd.php
 #: CRM/Gdpr/Form/Search/GroupcontactDetails.php
 msgid "Search Group Subscription by Date Range"
-msgstr ""
+msgstr "Groepaanmelding zoeken op periode"
 
 #: CRM/Gdpr/Form/Search/GroupcontactDetails.php
 msgid "Name"
-msgstr ""
+msgstr "Naam"
 
 #: CRM/Gdpr/Form/Search/GroupcontactDetails.php
 msgid "- any contact type -"
-msgstr ""
+msgstr "- elk contacttype -"
 
 #: CRM/Gdpr/Form/Search/GroupcontactDetails.php
 msgid "is..."
-msgstr ""
+msgstr "is..."
 
 #: CRM/Gdpr/Form/Search/GroupcontactDetails.php
 msgid "- select group -"
-msgstr ""
+msgstr "- selecteer groep -"
 
 #: CRM/Gdpr/Form/Search/GroupcontactDetails.php
 msgid "in..."
-msgstr ""
+msgstr "in..."
 
 #: CRM/Gdpr/Form/Search/GroupcontactDetails.php
 msgid "Group Status"
-msgstr ""
+msgstr "Groepsstatus"
 
 #: CRM/Gdpr/Form/Search/GroupcontactDetails.php
 msgid "From"
-msgstr ""
+msgstr "Van"
 
 #: CRM/Gdpr/Form/Search/GroupcontactDetails.php
 #: templates/CRM/Gdpr/Page/Tab.tpl
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: CRM/Gdpr/Form/Search/GroupcontactDetails.php
 msgid "Subscription Date"
-msgstr ""
+msgstr "Aanmeldingsdatum"
 
 #: CRM/Gdpr/Form/Settings.php
 msgid "GDPR - Settings"
-msgstr ""
+msgstr "GDPR - Instellingen"
 
 #: CRM/Gdpr/Form/Settings.php templates/CRM/Gdpr/Form/Settings.tpl
 msgid "Point of Contact"
@@ -370,31 +378,31 @@ msgstr ""
 
 #: CRM/Gdpr/Form/Settings.php templates/CRM/Gdpr/Page/Dashboard.tpl
 msgid "Activity Types"
-msgstr ""
+msgstr "Activiteitstypes"
 
 #: CRM/Gdpr/Form/Settings.php
 msgid "- select -"
-msgstr ""
+msgstr "- selecteer -"
 
 #: CRM/Gdpr/Form/Settings.php
 msgid "Contact Types"
-msgstr ""
+msgstr "Contacttypes"
 
 #: CRM/Gdpr/Form/Settings.php
 msgid "Forgetme contact name"
-msgstr ""
+msgstr "Vergeet-me contactnaam"
 
 #: CRM/Gdpr/Form/Settings.php
 msgid "Forgetme e-mail"
-msgstr ""
+msgstr "Vergeet-me e-mailadres"
 
 #: CRM/Gdpr/Form/Settings.php
 msgid "Delete Activities of Types"
-msgstr ""
+msgstr "Activiteiten van types verwijderen"
 
 #: CRM/Gdpr/Form/Settings.php
 msgid "Custom groups"
-msgstr ""
+msgstr "Aangepaste groepen"
 
 #: CRM/Gdpr/Form/Settings.php
 msgid "Email the Point of Contact / DPO?"
@@ -402,51 +410,51 @@ msgstr ""
 
 #: CRM/Gdpr/Form/Settings.php
 msgid "Email Subject"
-msgstr ""
+msgstr "Onderwerp e-mail"
 
 #: CRM/Gdpr/Form/Settings.php
 msgid "Period"
-msgstr ""
+msgstr "Periode"
 
 #: CRM/Gdpr/Form/Settings.php
 msgid "Acceptance period (months)"
-msgstr ""
+msgstr "Acceptatie periode (maanden)"
 
 #: CRM/Gdpr/Form/Settings.php
 msgid "File Upload"
-msgstr ""
+msgstr "Bestandsupload"
 
 #: CRM/Gdpr/Form/Settings.php
 msgid "Web page link"
-msgstr ""
+msgstr "Webpagina link"
 
 #: CRM/Gdpr/Form/Settings.php
 msgid "Data Policy options"
-msgstr ""
+msgstr "Gegevensbeleid opties"
 
 #: CRM/Gdpr/Form/Settings.php
 msgid "Data Policy file"
-msgstr ""
+msgstr "Gegevensbeleid bestand"
 
 #: CRM/Gdpr/Form/Settings.php
 msgid "Data Policy link"
-msgstr ""
+msgstr "Gegevensbeleid link"
 
 #: CRM/Gdpr/Form/Settings.php
 msgid "This is a new version of the document."
-msgstr ""
+msgstr "Dit is een nieuwe versie van het document."
 
 #: CRM/Gdpr/Form/Settings.php
 msgid "Link Label"
-msgstr ""
+msgstr "Label Link"
 
 #: CRM/Gdpr/Form/Settings.php
 msgid "Checkbox text"
-msgstr ""
+msgstr "Checkbox tekst"
 
 #: CRM/Gdpr/Form/Settings.php
 msgid "Enable Terms and Conditions for every event"
-msgstr ""
+msgstr "Termen en condities voor elk evenement inschakelen"
 
 #: CRM/Gdpr/Form/Settings.php
 msgid "Enable Terms and Conditions for every Contribution Page"
@@ -454,7 +462,7 @@ msgstr ""
 
 #: CRM/Gdpr/Form/Settings.php
 msgid "Checkbox Position"
-msgstr ""
+msgstr "Checkbox plaats"
 
 #: CRM/Gdpr/Form/Settings.php
 msgid "Top profile"
@@ -474,23 +482,23 @@ msgstr ""
 
 #: CRM/Gdpr/Form/Settings.php
 msgid "Terms and Conditions options"
-msgstr ""
+msgstr "Termen en condities opties"
 
 #: CRM/Gdpr/Form/Settings.php
 msgid "Default Terms and Conditions file"
-msgstr ""
+msgstr "Termen en condities standaardbestand"
 
 #: CRM/Gdpr/Form/Settings.php
 msgid "Default Terms and Conditions link"
-msgstr ""
+msgstr "Termen en condities standaardlink"
 
 #: CRM/Gdpr/Form/Settings.php templates/CRM/Gdpr/Form/Settings.tpl
 msgid "Data Policy"
-msgstr ""
+msgstr "Gegevensbeleid"
 
 #: CRM/Gdpr/Form/Settings.php
 msgid "I accept the Data Policy."
-msgstr ""
+msgstr "Ik accepteer het gegevensbeleid."
 
 #: CRM/Gdpr/Form/Settings.php gdpr.php
 #: templates/CRM/Gdpr/TermsConditionsField.tpl
@@ -503,7 +511,7 @@ msgstr ""
 
 #: CRM/Gdpr/Form/Settings.php
 msgid "Please read and accept the Terms &amp; Conditions and Data Policy."
-msgstr ""
+msgstr "Lees en accepteer a.u.b het Termen en condities gegevensbeleid."
 
 #: CRM/Gdpr/Form/UpdatePreference.php
 msgid "<a href='%1' target='_blank'>%2</a>"
@@ -524,7 +532,7 @@ msgstr ""
 
 #: CRM/Gdpr/Page/Tab.php
 msgid "Data Policy acceptance."
-msgstr ""
+msgstr "Gegevensbeleid acceptatie"
 
 #: CRM/Gdpr/Page/Tab.php
 msgid "Not yet accepted by the contact."
@@ -536,7 +544,7 @@ msgstr ""
 
 #: CRM/Gdpr/SLA/Utils.php
 msgid "Data Policy accepted"
-msgstr ""
+msgstr "Gegevensbeleid geaccepteerd"
 
 #: CRM/Gdpr/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
@@ -580,7 +588,7 @@ msgstr ""
 
 #: gdpr.php
 msgid "forget contact"
-msgstr ""
+msgstr "contact vergeten"
 
 #: gdpr.php
 msgid "Anonymize contacts"
@@ -755,6 +763,8 @@ msgid ""
 "WARNING: 'Forget me' process will make the contact record totally "
 "unidentified by removing any related data and entity links."
 msgstr ""
+"Waarschuwing: de functie 'Vergeet me' maakt het record totaal onbekend door "
+"alle gerelateerde gegevens en links naar entiteiten te verwijderen."
 
 #: templates/CRM/Gdpr/Form/Forgetme.tpl
 msgid "This action cannot be undone."
@@ -773,7 +783,7 @@ msgstr ""
 
 #: templates/CRM/Gdpr/Form/Forgetme.tpl
 msgid "Click 'Forget me' if you want to continue."
-msgstr ""
+msgstr "Klik op 'Vergeet me' als u verder wilt gaan."
 
 #: templates/CRM/Gdpr/Form/Search/GroupcontactDetails.tpl
 msgid "Edit Search Criteria"
@@ -830,7 +840,7 @@ msgstr ""
 
 #: templates/CRM/Gdpr/Form/Settings.tpl
 msgid "Settings related to 'Forget me' process."
-msgstr ""
+msgstr "Instellingen van de functie 'Vergeet me'."
 
 #: templates/CRM/Gdpr/Form/Settings.tpl
 msgid "Name to be used for contacts that have been made anonymous."
@@ -853,12 +863,19 @@ msgid ""
 "after it has been anonymised. Leave empty if you do not want any activities "
 "to be deleted."
 msgstr ""
+"Activiteiten van deze types worden verwijderd bij de functie 'Vergeet me', "
+"enkele activiteitstypes (bijv. Binnenkomende e-mail) staan u toe om het "
+"contact eenvoudig te identificeren na het anoniem maken. Als u dit veld leeg"
+" laat dan worden er geen activiteiten verwijderd."
 
 #: templates/CRM/Gdpr/Form/Settings.tpl
 msgid ""
 "Data from selected custom groups to be deleted during 'Forget me' process. "
 "Leave empty if you do not want any custom groups to be deleted."
 msgstr ""
+"Gegevens van de geselecteerde aangepaste groepen worden bij het uitvoeren "
+"van de functie 'Vergeet me' verwijderd. Als u dit veld leeg laat dan worden "
+"er geen aangepaste groepen verwijderd."
 
 #: templates/CRM/Gdpr/Form/Settings.tpl
 msgid "Send Email notification to Data protection officer"
@@ -876,6 +893,8 @@ msgid ""
 "     These settings will apply in the Communications Preferences page and when Terms and Conditions are used with Events.\n"
 "    "
 msgstr ""
+"Instellingen behorend met overeenkomsten zoals Gegevensbeleid en Termen en condities.\n"
+"     Deze instellingen worden getoond op de pagina met de communicatie-voorkeuren en bij evenementen  indien daar Termen en condities worden gebruikt."
 
 #: templates/CRM/Gdpr/Form/Settings.tpl
 msgid "Number of months since contact accepted until they are due to renew."
@@ -889,11 +908,11 @@ msgstr ""
 
 #: templates/CRM/Gdpr/Form/Settings.tpl
 msgid "Pdf document with the Policy/Terms."
-msgstr ""
+msgstr "PDF-bestand met het Gegevensbeleid/Termen."
 
 #: templates/CRM/Gdpr/Form/Settings.tpl
 msgid "Policy/Terms web page link."
-msgstr ""
+msgstr "Gegevensbeleid/Termen link."
 
 #: templates/CRM/Gdpr/Form/Settings.tpl
 msgid ""
@@ -982,7 +1001,7 @@ msgstr ""
 
 #: templates/CRM/Gdpr/Page/Tab.tpl
 msgid "Forget Me"
-msgstr ""
+msgstr "Vergeet me"
 
 #: templates/CRM/Gdpr/Page/Tab.tpl
 msgid "Summary"
