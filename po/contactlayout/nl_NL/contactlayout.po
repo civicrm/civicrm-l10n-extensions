@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: contactlayout\n"
-"POT-Creation-Date: 2019-09-15 05:01+0000\n"
+"POT-Creation-Date: 2020-07-07 05:01+0000\n"
 "Language-Team: Dutch (https://www.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -79,6 +79,7 @@ msgid "Date of Birth"
 msgstr ""
 
 #: CRM/Contactlayout/BAO/ContactLayout.php
+#: CRM/Contactlayout/Page/Inline/ProfileBlock.php
 msgid "Age"
 msgstr ""
 
@@ -194,6 +195,10 @@ msgstr ""
 msgid "Codes Assigned"
 msgstr ""
 
+#: CRM/Contactlayout/DAO/ContactLayout.php CRM/Contactlayout/Upgrader.php
+msgid "Contact Summary Layouts"
+msgstr ""
+
 #: CRM/Contactlayout/DAO/ContactLayout.php
 msgid "Label"
 msgstr ""
@@ -221,10 +226,12 @@ msgid "Tabs"
 msgstr ""
 
 #: CRM/Contactlayout/Form/Inline/ProfileBlock.php
+#: ang/contactlayout/contactlayout.js
 msgid "Save"
 msgstr ""
 
 #: CRM/Contactlayout/Form/Inline/ProfileBlock.php
+#: ang/contactlayout/contactlayout.js
 msgid "Cancel"
 msgstr ""
 
@@ -236,12 +243,24 @@ msgstr ""
 msgid "view employer"
 msgstr ""
 
-#: CRM/Contactlayout/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
+#: CRM/Contactlayout/Page/Inline/ProfileBlock.php
+msgid "Contact is Deceased"
 msgstr ""
 
-#: CRM/Contactlayout/Upgrader.php
-msgid "Contact Summary Layouts"
+#: CRM/Contactlayout/Page/Inline/ProfileBlock.php
+msgid "%count year"
+msgid_plural "%count years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: CRM/Contactlayout/Page/Inline/ProfileBlock.php
+msgid "%count month"
+msgid_plural "%count months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: CRM/Contactlayout/Upgrader/Base.php
+msgid "Upgrade %1 to revision %2"
 msgstr ""
 
 #: ang/contactlayout/contactlayout.html
@@ -341,6 +360,10 @@ msgstr ""
 msgid "Block"
 msgstr ""
 
+#: ang/contactlayout/contactlayout.html
+msgid "Choose Icon"
+msgstr ""
+
 #: ang/contactlayout/contactlayout.js
 msgid "contactlayout"
 msgstr ""
@@ -357,6 +380,10 @@ msgstr ""
 msgid ""
 "You are editing global settings, which will affect more than just this "
 "layout."
+msgstr ""
+
+#: ang/contactlayout/contactlayout.js
+msgid "Relationship Selection"
 msgstr ""
 
 #: ang/contactlayout/contactlayout.js
@@ -396,6 +423,10 @@ msgid "Edit block"
 msgstr ""
 
 #: ang/contactlayout/contactlayoutblock.html
+msgid "Select relationship"
+msgstr ""
+
+#: ang/contactlayout/contactlayoutblock.html
 msgid "Remove block"
 msgstr ""
 
@@ -427,6 +458,18 @@ msgstr ""
 msgid "(No fields)"
 msgstr ""
 
+#: ang/contactlayout/edit-block-relationship-dialog.html
+msgid "- Select -"
+msgstr ""
+
 #: templates/CRM/Contactlayout/Page/Inline/ProfileBlock.tpl
 msgid "Edit"
+msgstr ""
+
+#: templates/CRM/Contactlayout/Page/Inline/ProfileBlock.tpl
+msgid "No relationship found."
+msgstr ""
+
+#: templates/CRM/Contactlayout/Page/Inline/ProfileBlock.tpl
+msgid "View Relationships"
 msgstr ""
