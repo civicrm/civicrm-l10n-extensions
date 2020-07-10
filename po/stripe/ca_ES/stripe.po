@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2020-06-21 05:01+0000\n"
-"PO-Revision-Date: 2020-06-21 05:01+0000\n"
+"POT-Creation-Date: 2020-07-10 05:01+0000\n"
+"PO-Revision-Date: 2020-07-10 05:01+0000\n"
 "Last-Translator: CiviCRM Maintenance\n"
 "Language-Team: Catalan (http://www.transifex.com/civicrm/civicrm_extensions/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -21,15 +21,33 @@ msgid "Contribution: %1"
 msgstr ""
 
 #: CRM/Core/Payment/Stripe.php
+msgid "Successfully cancelled the subscription in CiviCRM ONLY."
+msgstr ""
+
+#: CRM/Core/Payment/Stripe.php
 msgid ""
 "The recurring contribution cannot be cancelled (No reference (trxn_id) "
 "found)."
 msgstr ""
 
 #: CRM/Core/Payment/Stripe.php
+msgid "Could not delete Stripe subscription: %1"
+msgstr ""
+
+#: CRM/Core/Payment/Stripe.php
+msgid "Successfully cancelled the subscription at Stripe."
+msgstr ""
+
+#: CRM/Core/Payment/Stripe.php
 msgid ""
 "Stripe will be automatically notified and the subscription will be "
 "cancelled."
+msgstr ""
+
+#: CRM/Core/Payment/Stripe.php
+msgid ""
+"If you select 'Send cancellation request..' then Stripe will be "
+"automatically notified and the subscription will be cancelled."
 msgstr ""
 
 #: CRM/Stripe/AJAX.php
@@ -51,6 +69,10 @@ msgid "Stripe: Missing Requirements"
 msgstr ""
 
 #: CRM/Stripe/Check.php
+msgid "Install now"
+msgstr ""
+
+#: CRM/Stripe/Check.php
 msgid ""
 "If you are using Stripe to accept payments on public forms (eg. contribution/event registration forms) it is recommended that you install the <strong><a href=\"https://lab.civicrm.org/extensions/firewall\">firewall</a></strong> extension.\n"
 "        Some sites have become targets for spammers who use the payment endpoint to try and test credit cards by submitting invalid payments to your Stripe account."
@@ -62,8 +84,24 @@ msgstr ""
 
 #: CRM/Stripe/Check.php
 msgid ""
+"It is recommended that you install the <strong><a href=\"https://civicrm.org/extensions/sweetalert\">sweetalert</a></strong> extension.\n"
+"        This allows the stripe extension to show useful messages to the user when processing payment.\n"
+"        If this is not installed it will fallback to the browser \"alert\" message but you will\n"
+"        not see some messages (such as <em>we are pre-authorizing your card</em> and <em>please wait</em>) and the feedback to the user will not be as helpful."
+msgstr ""
+
+#: CRM/Stripe/Check.php
+msgid "Recommended Extension: sweetalert"
+msgstr ""
+
+#: CRM/Stripe/Check.php
+msgid ""
 "The Stripe extension requires the %1 extension version %2 or greater but "
 "your system has version %3."
+msgstr ""
+
+#: CRM/Stripe/Check.php
+msgid "Upgrade now"
 msgstr ""
 
 #: CRM/Stripe/Form/UpdateWebhook.php
