@@ -2,10 +2,14 @@
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# HanV <han.velthuis@home.nl>, 2020
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: mjwshared\n"
 "POT-Creation-Date: 2020-07-10 05:01+0000\n"
+"Last-Translator: HanV <han.velthuis@home.nl>, 2020\n"
 "Language-Team: Dutch (https://www.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,7 +19,7 @@ msgstr ""
 
 #: CRM/Core/Payment/MJWTrait.php
 msgid "Unable to complete payment! Missing %1."
-msgstr ""
+msgstr "De betaling kan niet afgerond worden! Ontbrekende %1."
 
 #: CRM/Mjwshared/Check.php
 msgid ""
@@ -23,20 +27,25 @@ msgid ""
 "        There are multiple versions of this extension on various sites and the source code has not been released.\n"
 "        It is known to be cause issues with other payment processors and should be disabled"
 msgstr ""
+"U heeft de extensie uk.co.nfpservice.onlineworldpay geïnstalleerd.\n"
+"        Dit is een extensie waarvan de code niet is vrijgegeven en waar op verschillende websites verschillende versies van in omloop zijn.\n"
+"        Het kan problemen veroorzaken met andere betaalmethoden en wij raden u aan om die extensie niet te gebruiken"
 
 #: CRM/Mjwshared/Check.php
 msgid "Incompatible Extension: uk.co.nfpservice.onlineworldpay"
-msgstr ""
+msgstr "Incompatibele extensie: uk.co.nfpservice.onlineworldpay"
 
 #: CRM/Mjwshared/Check.php
 msgid ""
 "It is recommended that you download and install the <strong><a href=\"https://civicrm.org/extensions/minifier\">minifier</a></strong> extension.\n"
 "               This will improve the page-load speeds for JS/CSS assets included with extensions such as <strong><a href=\"https://civicrm.org/extensions/stripe-payment-processor\">Stripe</a></strong>."
 msgstr ""
+"Wij bevelen aan dat u de extensie <strong><a href=\"https://civicrm.org/extensions/minifier\">minifier</a></strong> gaat gebruiken.\n"
+"               Hierdoor zal het laden sneller gaan van pagina's met JS/CSS-assets die door extensies als  <strong><a href=\"https://civicrm.org/extensions/stripe-payment-processor\">Stripe</a></strong>gebruikt worden."
 
 #: CRM/Mjwshared/Check.php
 msgid "Recommended Extension: minifier"
-msgstr ""
+msgstr "Aanbevolen extensie: minifier"
 
 #: CRM/Mjwshared/Check.php
 msgid ""
@@ -44,105 +53,111 @@ msgid ""
 "            <strong><a href=\"https://civicrm.org/extensions/contribution-transact-api\">contributiontransactlegacy</a></strong> extension.\n"
 "            This fixes a number of issues that cause payments to fail with extensions such as <strong><a href=\"https://civicrm.org/extensions/stripe-payment-processor\">Stripe</a></strong>."
 msgstr ""
+"Indien u in Drupal de webform_civicrm gebruikt om betalingen te accepteren dan bevelen wij u aan om de extensie <strong><a href=\"https://civicrm.org/extensions/contribution-transact-api\">contributiontransactlegacy</a></strong> te gaan gebruiken.\n"
+"            Dit lost een aantal problemen op bij het betalen met extensies als <strong><a href=\"https://civicrm.org/extensions/stripe-payment-processor\">Stripe</a></strong>."
 
 #: CRM/Mjwshared/Check.php
 msgid "Recommended Extension: contributiontransactlegacy"
-msgstr ""
+msgstr "Aanbevolen extensie: contributiontransactlegacy"
 
 #: api/v3/Mjwpayment.php
 msgid "Contribution ID"
-msgstr ""
+msgstr "Contributie-id"
 
 #: api/v3/Mjwpayment.php
 msgid "Entity Table"
-msgstr ""
+msgstr "Entiteitstabel"
 
 #: api/v3/Mjwpayment.php
 msgid "Entity ID"
-msgstr ""
+msgstr "Entiteit-id"
 
 #: api/v3/Mjwpayment.php
 msgid "Transaction ID"
-msgstr ""
+msgstr "Transactie-id"
 
 #: api/v3/Mjwpayment.php
 msgid "Transaction id supplied by external processor. This may not be unique."
 msgstr ""
+"Transactie-id is bepaald door een extern proces. Mogelijk is het niet uniek."
 
 #: api/v3/Mjwpayment.php
 msgid "Payment Date"
-msgstr ""
+msgstr "Betaaldatum"
 
 #: api/v3/Mjwpayment.php
 msgid "Payment ID"
-msgstr ""
+msgstr "Betalingsnummer"
 
 #: api/v3/Mjwpayment.php
 msgid "The ID of the record in civicrm_financial_trxn"
-msgstr ""
+msgstr "Het record-id in civicrm_financial_trxn"
 
 #: api/v3/Mjwpayment.php
 msgid "Total Payment Amount"
-msgstr ""
+msgstr "Totaal betaald bedrag"
 
 #: api/v3/Mjwpayment.php
 msgid "Fee Amount"
-msgstr ""
+msgstr "Kosten"
 
 #: api/v3/Mjwpayment.php
 msgid "Payment Processor"
-msgstr ""
+msgstr "Betaalmethode"
 
 #: api/v3/Mjwpayment.php
 msgid "Payment Processor for this payment"
-msgstr ""
+msgstr "Betaalmethode van deze betaling"
 
 #: api/v3/Mjwpayment.php
 msgid "Send out notifications based on contribution status change?"
 msgstr ""
+"Moet er een notificatie verzonden worden bij een wijziging van de status?"
 
 #: api/v3/Mjwpayment.php
 msgid ""
 "Most commonly this equates to emails relating to the contribution, event, "
 "etcwhen a payment completes a contribution"
 msgstr ""
+"Meestal betekent dit dat er e-mails zijn bij het voldoen van contributies, "
+"evenementen, enz. met een betaling"
 
 #: api/v3/Mjwpayment.php
 msgid "Payment Method"
-msgstr ""
+msgstr "Betaalmethode"
 
 #: api/v3/Mjwpayment.php
 msgid "FK to payment_instrument option group values"
-msgstr ""
+msgstr "FK naar payment_instrument optie-groep waarden"
 
 #: api/v3/Mjwpayment.php
 msgid "Card Type ID"
-msgstr ""
+msgstr "Kaarttype-id"
 
 #: api/v3/Mjwpayment.php
 msgid "FK to accept_creditcard option group values"
-msgstr ""
+msgstr "FK naar accept_creditcard optie-groep waarden"
 
 #: api/v3/Mjwpayment.php
 msgid "Transaction Result Code"
-msgstr ""
+msgstr "Transactie-resultaatcode"
 
 #: api/v3/Mjwpayment.php
 msgid "processor result code"
-msgstr ""
+msgstr "processor resultaatcode"
 
 #: api/v3/Mjwpayment.php
 msgid "Check Number"
-msgstr ""
+msgstr "Controlegetal"
 
 #: api/v3/Mjwpayment.php
 msgid "Check number"
-msgstr ""
+msgstr "Controle getal"
 
 #: api/v3/Mjwpayment.php
 msgid "PAN Truncation"
-msgstr ""
+msgstr "PAN Afkapping"
 
 #: api/v3/Mjwpayment.php
 msgid "Last 4 digits of credit card"
-msgstr ""
+msgstr "Laatste 4 cijfers van creditcard"
