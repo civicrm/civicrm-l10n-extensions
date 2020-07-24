@@ -51,7 +51,7 @@ msgstr "ID"
 #: api/v3/FormProcessorDefaultDataInput/Validatename.php
 #: api/v3/FormProcessorInput/Validatename.php
 msgid "Form Processor ID"
-msgstr ""
+msgstr "FormProcessor-id"
 
 #: CRM/FormProcessor/DAO/FormProcessorAction.php
 #: CRM/FormProcessor/DAO/FormProcessorDefaultDataAction.php
@@ -166,7 +166,7 @@ msgstr "Uitstel configuratie"
 #: api/v3/FormProcessorDefaultDataInput/Create.php
 #: api/v3/FormProcessorInput/Create.php
 msgid "Form Processor Instance ID"
-msgstr ""
+msgstr "FormProcessorInstantie-id"
 
 #: CRM/FormProcessor/DAO/FormProcessorDefaultDataInput.php
 #: CRM/FormProcessor/DAO/FormProcessorInput.php
@@ -199,11 +199,11 @@ msgstr "Beschrijving"
 #: ang/form_processor/OutputHandlerDialogCtrl.html
 #: api/v3/FormProcessorInstance/Create.php
 msgid "Output handler"
-msgstr ""
+msgstr "Uitvoer-handler"
 
 #: CRM/FormProcessor/DAO/FormProcessorInstance.php
 msgid "Output handler Configuration"
-msgstr ""
+msgstr "Uitvoer-handler configuratie"
 
 #: CRM/FormProcessor/DAO/FormProcessorInstance.php
 #: api/v3/FormProcessorInstance/Create.php
@@ -213,17 +213,17 @@ msgstr "Standaardgegevens inschakelen"
 #: CRM/FormProcessor/DAO/FormProcessorInstance.php
 #: api/v3/FormProcessorInstance/Create.php
 msgid "Default data output configuration"
-msgstr ""
+msgstr "Standaardgegevens uitvoer configuratie"
 
 #: CRM/FormProcessor/DAO/FormProcessorInstance.php
 #: ang/form_processor/FormProcessorEditCtrl/Details.html
 #: api/v3/FormProcessorInstance/Create.php
 msgid "Permission"
-msgstr ""
+msgstr "Recht"
 
 #: CRM/FormProcessor/DAO/FormProcessorInstance.php
 msgid "Source file"
-msgstr ""
+msgstr "Bronbestand"
 
 #: CRM/FormProcessor/DAO/FormProcessorValidation.php
 #: api/v3/FormProcessorValidation/Create.php
@@ -238,7 +238,7 @@ msgstr "Entiteit-id"
 #: CRM/FormProcessor/DAO/FormProcessorValidation.php
 #: api/v3/FormProcessorValidation/Create.php
 msgid "Validator"
-msgstr ""
+msgstr "Validator"
 
 #: CRM/FormProcessor/Form/RunFormProcessor.php
 msgid "- select -"
@@ -262,7 +262,7 @@ msgstr "In code"
 
 #: CRM/FormProcessor/Status.php
 msgid "Overriden"
-msgstr ""
+msgstr "Negeren"
 
 #: CRM/FormProcessor/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
@@ -277,6 +277,8 @@ msgid ""
 "Form Processor was installed successfully, but you must also install and "
 "enable the <a href=\"%1\">action-provider Extension</a> version %2 or newer."
 msgstr ""
+"De FormProcessor is geïnstalleerd, maar u moet ook de extensie <a href=\"%1"
+"\">action-provider</a> versie %2 of nieuwer installeren en inschakelen."
 
 #: CRM/FormProcessor/Upgrader.php
 msgid "Unknown error key: %1"
@@ -284,7 +286,7 @@ msgstr "Onbekende fout, code: %1"
 
 #: Civi/FormProcessor/API/FormProcessor.php
 msgid "Process delayed form processor actions"
-msgstr ""
+msgstr "Proces stelt acties form-processor uit"
 
 #: Civi/FormProcessor/DelayedAction/DelayByXMinutes.php
 msgid "Delay by X minutes"
@@ -355,6 +357,15 @@ msgid ""
 "\t\t\t\t\t<a href=\"http://nl1.php.net/manual/en/datetime.createfromformat.php#refsect1-datetime.createfromformat-parameters\">More information at php.net</a>\n"
 "\t\t\t\t\t"
 msgstr ""
+"Het formaat is het invoerformaat van de datum. De beschikbare onderdelen zijn: <br />\n"
+"\t\t\t\t\tY: jaar inclusief eeuw (bijv. 2018) <br />\n"
+"\t\t\t\t\tm: maand, twee cijfers (bijv. 03) <br />\n"
+"\t\t\t\t\td: dag, twee cijfers (bijv. 04) <br />\n"
+"\t\t\t\t\tH: uren in 24-uursformaat (bijv. 08) <br />\n"
+"\t\t\t\t\ti: minuten (bijv. 06) <br />\n"
+"\t\t\t\t\t<br />\n"
+"\t\t\t\t\t<a href=\"http://nl1.php.net/manual/en/datetime.createfromformat.php#refsect1-datetime.createfromformat-parameters\">Meer informatie op php.net</a>\n"
+"\t\t\t\t\t"
 
 #: Civi/FormProcessor/Type/DateType.php
 msgid "Include time"
@@ -515,6 +526,12 @@ msgid ""
 "\t\t\t\t\t<a href=\"http://nl1.php.net/manual/en/datetime.createfromformat.php#refsect1-datetime.createfromformat-parameters\">More information at php.net</a>\n"
 "\t\t\t\t\t"
 msgstr ""
+"Het formaat is het invoerformaat van de datum. De beschikbare onderdelen zijn: <br />\n"
+"\t\t\t\t\tH: uren in 24-uursformaat (bijv. 08) <br />\n"
+"\t\t\t\t\ti: minuten (bijv. 06) <br />\n"
+"\t\t\t\t\t<br />\n"
+"\t\t\t\t\t<a href=\"http://nl1.php.net/manual/en/datetime.createfromformat.php#refsect1-datetime.createfromformat-parameters\">Meer informatie op php.net</a>\n"
+"\t\t\t\t\t"
 
 #: Civi/FormProcessor/Type/WeekDays.php
 msgid "Sunday"
@@ -646,11 +663,11 @@ msgstr "Minimum"
 
 #: ang/form_processor/DelayedActionHandlerDialogCtrl.html
 msgid "Delayed action"
-msgstr ""
+msgstr "Uitgestelde actie"
 
 #: ang/form_processor/DelayedActionHandlerDialogCtrl.html
 msgid "- Select delay handler -"
-msgstr ""
+msgstr "Uitstel-handler selecteren"
 
 #: ang/form_processor/DelayedActionHandlerDialogCtrl.html
 #: ang/form_processor/FormProcessorEditCtrl.html
@@ -676,56 +693,60 @@ msgstr "Acties"
 
 #: ang/form_processor/FormProcessorEditCtrl/DefaultDataActionTable.html
 msgid "Retrieval methods of default data"
-msgstr ""
+msgstr "Ophaalmethoden van standaardgegevens"
 
 #: ang/form_processor/FormProcessorEditCtrl/DefaultDataActionTable.html
 msgid "Add retrieval method"
-msgstr ""
+msgstr "Democratie-index van The Economist"
 
 #: ang/form_processor/FormProcessorEditCtrl/DefaultDataActionTable.html
 msgid "- Select retrieval method -"
-msgstr ""
+msgstr "- Ophaalmethode selecteren -"
 
 #: ang/form_processor/FormProcessorEditCtrl/DefaultDataActionTable.html
 msgid "Edit retrieval method of default data"
-msgstr ""
+msgstr "Ophaalmethode standaardgegevens wijzigen"
 
 #: ang/form_processor/FormProcessorEditCtrl/DefaultDataInputTable.html
 msgid "Retrieval criteria for default data"
-msgstr ""
+msgstr "Criteria voor Ophalen standaardgegevens"
 
 #: ang/form_processor/FormProcessorEditCtrl/DefaultDataInputTable.html
 msgid "Add retrieval criteria"
-msgstr ""
+msgstr "Criteria ophaalmethode toevoegen"
 
 #: ang/form_processor/FormProcessorEditCtrl/DefaultDataInputTable.html
 msgid "- Select criteria type -"
-msgstr ""
+msgstr "- Criteria-type selecteren -"
 
 #: ang/form_processor/FormProcessorEditCtrl/DefaultDataInputTable.html
 msgid "Edit retrieval criteria for default data"
-msgstr ""
+msgstr "Criteria ophalen standaardgegevens wizjigen"
 
 #: ang/form_processor/FormProcessorEditCtrl/DefaultDataOutputTable.html
 msgid "Set defaults"
-msgstr ""
+msgstr "Standaarden bepalen"
 
 #: ang/form_processor/FormProcessorEditCtrl/DefaultDataOutputTable.html
 #: ang/form_processor/crmFormProcessorOutputHandler/FormatActionOutput.html
 msgid "- Select field to add to the output -"
-msgstr ""
+msgstr "- Veld selecteren om toe te voegen aan de uitvoer -"
 
 #: ang/form_processor/FormProcessorEditCtrl/Details.html
 msgid ""
 "WARNING: The form processor name includes invalid characters or is already "
 "in use by another form processor."
 msgstr ""
+"Waarschuwing: De naam van de form-processor bevat ongeldige tekens of is al "
+"in gebruik."
 
 #: ang/form_processor/FormProcessorEditCtrl/Details.html
 msgid ""
 "WARNING: If any external files or programs reference the old \"Name\", then "
 "they must be updated manually."
 msgstr ""
+"Waarschuwing: Als een extern bestand of programma de oude naam gebruiken, "
+"dan moet u dit handmatig wijzigen."
 
 #: ang/form_processor/FormProcessorEditCtrl/Details.html
 #: ang/form_processor/FormProcessorListCtrl.html
@@ -734,48 +755,48 @@ msgstr "Ingeschakeld?"
 
 #: ang/form_processor/FormProcessorEditCtrl/Details.html
 msgid "- No permission -"
-msgstr ""
+msgstr "- Niet toegestaan -"
 
 #: ang/form_processor/FormProcessorEditCtrl/InputTable.html
 msgid "Inputs"
-msgstr ""
+msgstr "Invoer"
 
 #: ang/form_processor/FormProcessorEditCtrl/OutputHandler.html
 msgid "Output Handler"
-msgstr ""
+msgstr "Outvoer-handler"
 
 #: ang/form_processor/FormProcessorEditCtrl/OutputHandler.html
 msgid "Change and configure output handler"
-msgstr ""
+msgstr "Uitvoer-handler wijzigen en configureren"
 
 #: ang/form_processor/FormProcessorEditCtrl/help.html
 msgid "This form processor could be used with the following API"
-msgstr ""
+msgstr "Deze form-processor kan gebruikt worden met de volgende API"
 
 #: ang/form_processor/FormProcessorEditCtrl.html
 msgid "Edit form processor %1"
-msgstr ""
+msgstr "Form-processor %1 wijzigen"
 
 #: ang/form_processor/FormProcessorEditCtrl.html
 #: ang/form_processor/FormProcessorListCtrl.html
 msgid "New Form Processor"
-msgstr ""
+msgstr "Form-processor toevoegen"
 
 #: ang/form_processor/FormProcessorEditCtrl.html
 msgid "Form processor is not saved"
-msgstr ""
+msgstr "Form-processor is niet opgeslagen"
 
 #: ang/form_processor/FormProcessorEditCtrl.html
 msgid "Define form processor"
-msgstr ""
+msgstr "Form-processor definiëren"
 
 #: ang/form_processor/FormProcessorEditCtrl.html
 msgid "Retrieval of defaults"
-msgstr ""
+msgstr "Standaardwaarden ophalen"
 
 #: ang/form_processor/FormProcessorEditCtrl.html
 msgid "Enable default data retrieval?"
-msgstr ""
+msgstr "Ophalen standaardgegevens inschakelen?"
 
 #: ang/form_processor/FormProcessorEditCtrl.html
 msgid ""
@@ -784,6 +805,9 @@ msgid ""
 "preference you want to the form to display the current preferences. To "
 "achieve this use the retrieval of default data."
 msgstr ""
+"U kunt standaardgegevens ophalen gebruiken om al gegevens op een nieuw "
+"scherm te zetten. Als u bijvoorbeeld de mailvoorkeur wilt laten wijzigen dan"
+" kunt u al de huidige voorkeuren tonen."
 
 #: ang/form_processor/FormProcessorEditCtrl.html
 msgid "Save"
@@ -791,21 +815,23 @@ msgstr "Opslaan"
 
 #: ang/form_processor/FormProcessorEditCtrl.js
 msgid "Edit output handler"
-msgstr ""
+msgstr "Uitvoer-handler wijzigen"
 
 #: ang/form_processor/FormProcessorExportCtrl.html
 msgid "Below the data from this form processor"
-msgstr ""
+msgstr "Onder de gegevens uit deze form-processor"
 
 #: ang/form_processor/FormProcessorExportCtrl.html
 msgid ""
 "You could copy the data and store it in your extension under "
 "com.your.extension/form-processors/name.json"
 msgstr ""
+"U kunt de gegevens kopiëren en plaatsen in uw extensie op com.your.extension"
+"/form-processors/name.json"
 
 #: ang/form_processor/FormProcessorListCtrl.html
 msgid "Form Processors"
-msgstr ""
+msgstr "Form-processors"
 
 #: ang/form_processor/FormProcessorListCtrl.html
 msgid "Status"
@@ -813,11 +839,11 @@ msgstr "Status"
 
 #: ang/form_processor/FormProcessorListCtrl.html
 msgid "Revert to code"
-msgstr ""
+msgstr "Naar code terugzetten"
 
 #: ang/form_processor/FormProcessorListCtrl.html
 msgid "Try out"
-msgstr ""
+msgstr "Proberen"
 
 #: ang/form_processor/FormProcessorListCtrl.html
 #: ang/form_processor/actions/crmFormProcessorActions.html
@@ -847,13 +873,15 @@ msgstr "Fout"
 
 #: ang/form_processor/OutputHandlerDialogCtrl.html
 msgid "- Select output handler -"
-msgstr ""
+msgstr "- Uitvoer-handler selecteren -"
 
 #: ang/form_processor/actions/ActionDialogCtrl.html
 msgid ""
 "WARNING: The name includes invalid characters or is already in use by "
 "another action."
 msgstr ""
+"Waarschuwing: De naam bevat ongeldige tekens of er is al een actie met deze "
+"naam."
 
 #: ang/form_processor/actions/ConditionDialogCtrl.html
 #: ang/form_processor/actions/crmFormProcessorActions.html
@@ -866,11 +894,11 @@ msgstr "- Geen conditie -"
 
 #: ang/form_processor/actions/crmFormProcessorActions.html
 msgid "Change and configure condition"
-msgstr ""
+msgstr "Conditie wijzigen en configureren"
 
 #: ang/form_processor/actions/crmFormProcessorActions.html
 msgid "Change and configure delay"
-msgstr ""
+msgstr "Uitstel wijzigen en configureren"
 
 #: ang/form_processor/actions/crmFormProcessorActions.html
 #: ang/form_processor/config/crmFormProcessorSpecification.html
@@ -905,7 +933,7 @@ msgstr "Item toevoegen"
 
 #: ang/form_processor/crmFormProcessorOutputHandler/FormatActionOutput.html
 msgid "Output Specification"
-msgstr ""
+msgstr "Uitvoerspecificatie"
 
 #: ang/form_processor/crmFormProcessorOutputHandler/FormatActionOutput.html
 msgid "Add field to output"
@@ -916,6 +944,8 @@ msgid ""
 "WARNING: The name includes invalid characters or is already in use by "
 "another input."
 msgstr ""
+"Waarschuwing: De naam bevat ongeldige tekens of er is al invoer met deze "
+"naam."
 
 #: ang/form_processor/inputs/InputDialogCtrl.html
 msgid "Is required?"
@@ -957,7 +987,7 @@ msgstr "Invoer wijzigen"
 
 #: api/v3/FormProcessorInstance/Create.php
 msgid "Output handler configuration"
-msgstr ""
+msgstr "Uitvoer-handler configuratie"
 
 #: api/v3/FormProcessorInstance/Export.php
 msgid "To File"
@@ -966,39 +996,47 @@ msgstr "Naar bestand"
 #: api/v3/FormProcessorInstance/Export.php
 msgid "If a file path is given, the JSON configuration will be written there."
 msgstr ""
+"Indien er een pad wordt opgegeven wordt de JSON-configuratie daar "
+"opgeslagen."
 
 #: api/v3/FormProcessorInstance/Import.php
 msgid "Specification File"
-msgstr ""
+msgstr "Specificatie-bestand"
 
 #: api/v3/FormProcessorInstance/Import.php
 msgid ""
 "If a file path is given, the JSON configuration will be imported from there"
 msgstr ""
+"Indien er een pad wordt opgegeven wordt de JSON-configuratie vanaf daar "
+"geïmporteerd"
 
 #: form_processor.php
 msgid "Automation"
-msgstr ""
+msgstr " Automatisering"
 
 #: form_processor.php
 msgid "Form processors"
-msgstr ""
+msgstr "Form-processors"
 
 #: templates/CRM/FormProcessor/Form/RunFormProcessor.tpl
 msgid "Retrieve default data"
-msgstr ""
+msgstr "Standaardgegevens ophalen"
 
 #: templates/CRM/FormProcessor/Form/RunFormProcessor.tpl
 msgid ""
 "With the retrieval of default data you can lookup existing data and then "
 "change it."
 msgstr ""
+"U kunt met het ophalen van standaardgegevens bestaande gegevens lezen en "
+"daarna wijzigen."
 
 #: templates/CRM/FormProcessor/Form/RunFormProcessor.tpl
 msgid ""
 "<strong>Danger!</strong> Using the form below might change actual data. Use "
 "it with care."
 msgstr ""
+"<strong>Let op!</strong> Met onderstand formulier actuele gegevens wijzigen."
+" Wees voorzichtig."
 
 #: templates/CRM/FormProcessor/Form/RunFormProcessor.tpl
 msgid "Result"
