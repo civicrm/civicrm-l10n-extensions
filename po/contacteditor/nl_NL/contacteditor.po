@@ -2,10 +2,14 @@
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# HanV <han.velthuis@home.nl>, 2020
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: contacteditor\n"
 "POT-Creation-Date: 2020-02-19 05:01+0000\n"
+"Last-Translator: HanV <han.velthuis@home.nl>, 2020\n"
 "Language-Team: Dutch (https://www.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,61 +19,68 @@ msgstr ""
 
 #: CRM/Contacteditor/ChangeContactType.php
 msgid "Contact type cannot be changed if subtype is not empty"
-msgstr ""
+msgstr "Het contacttype kan niet gewijzigd worden als het subtype gevuld is"
 
 #: CRM/Contacteditor/ChangeContactType.php
 msgid ""
 "Individuals cannot be changed to another type while they have birth or death"
 " data"
 msgstr ""
+"Een individu kan niet gewijzigd worden in een ander type als er een "
+"geboortedatum of een overlijdensdatum is"
 
 #: CRM/Contacteditor/ChangeContactType.php
 msgid "The contact has custom data that is not valid for the new type."
 msgstr ""
+"De aangepaste gegevens van dit contact is niet geldig bij het nieuwe type."
 
 #: CRM/Contacteditor/ChangeContactType.php
 msgid ""
 "The contact has one or more relationships that are not valid for the new "
 "type"
 msgstr ""
+"Een of meer relaties van dit contact zijn niet geldig bij het nieuwe type"
 
 #: CRM/Contacteditor/ChangeContactType.php
 msgid "Contact type changed from %1 to %2"
-msgstr ""
+msgstr "Contacttype gewijzigd van %1 in %2"
 
 #: CRM/Contacteditor/ChangeContactType.php
 msgid "Data lost by the change : "
-msgstr ""
+msgstr "Door de wijziging verloren gegevens: "
 
 #: CRM/Contacteditor/Form/ContactTypeChange.php
 msgid "Change contact type for %1"
-msgstr ""
+msgstr "Contacttype van %1 wijzigen"
 
 #: CRM/Contacteditor/Form/ContactTypeChange.php
 msgid "Save"
-msgstr ""
+msgstr "Opslaan"
 
 #: CRM/Contacteditor/Form/ContactTypeChange.php
 msgid "Cancel"
-msgstr ""
+msgstr "Afbreken"
 
 #: CRM/Contacteditor/Form/ContactTypeChange.php
 msgid "Contact type updated"
-msgstr ""
+msgstr "Contacttype gewijzigd"
 
 #: CRM/Contacteditor/Form/ContactTypeChange.php
 msgid "Contact type not changed"
-msgstr ""
+msgstr "Contacttype niet gewijzigd"
 
 #: contacteditor.php
 msgid "Change CiviCRM contact type"
-msgstr ""
+msgstr "CiviCRM contacttype wijzigen"
 
 #: contacteditor.php
 msgid ""
 "Permits changing a contact type. This may result in data loss if the new "
 "type does not support all data of the old type."
 msgstr ""
+"Staat toe het contacttype te wijzigen. Hierbij kunnen er gegevens verloren "
+"gaan als het nieuwe type niet alle bestaande gegevens van het oude type "
+"ondersteund."
 
 #: templates/CRM/Contacteditor/Form/ContactTypeChange.tpl
 msgid ""
@@ -77,3 +88,6 @@ msgid ""
 "would be invalidated. Some more trivial data (name prefix & suffix) will be "
 "stored in an activity rather than lost."
 msgstr ""
+"U kunt het type van het contact wijzigen als er daardoor geen ongeldige "
+"gegevens ontstaan. Wat triviale gegevens (prefix en suffix naam) gaat niet "
+"verloren maar wordt bij de activiteit opgeslagen."
