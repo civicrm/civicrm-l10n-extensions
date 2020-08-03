@@ -3,12 +3,13 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
+# HanV <han.velthuis@home.nl>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
 "POT-Creation-Date: 2018-11-15 19:41+0000\n"
-"PO-Revision-Date: 2020-05-01 12:52+0000\n"
-"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
+"PO-Revision-Date: 2020-08-02 16:29+0000\n"
+"Last-Translator: HanV <han.velthuis@home.nl>\n"
 "Language-Team: Dutch (http://www.transifex.com/civicrm/civicrm_extensions/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,79 +19,79 @@ msgstr ""
 
 #: CRM/Admin/Form/Setting/RegionLookup.php
 msgid "Save"
-msgstr ""
+msgstr "Opslaan"
 
 #: CRM/Admin/Form/Setting/RegionLookup.php
 msgid "Settings saved."
-msgstr ""
+msgstr "Instellingen opgeslagen."
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "Field selector"
-msgstr ""
+msgstr "Veldselectie"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "District"
-msgstr ""
+msgstr "District"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "Borough"
-msgstr ""
+msgstr "Wijk"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "City"
-msgstr ""
+msgstr "Plaats"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "County"
-msgstr ""
+msgstr "Streek"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "State/Province"
-msgstr ""
+msgstr "Staat/Provincie"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "Country"
-msgstr ""
+msgstr "Land"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "Postcode"
-msgstr ""
+msgstr "Postcode"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "State/Province riding"
-msgstr ""
+msgstr "Staat/Provincie rijden"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "Country riding"
-msgstr ""
+msgstr "Land rijden"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "Custom callback"
-msgstr ""
+msgstr "Aangepaste callback"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "Enable prefix-searching?"
-msgstr ""
+msgstr "Zoeken of prefix inschakelen? "
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "Enable wildcard search?"
-msgstr ""
+msgstr "Zoeken met wildcard inschakelen?"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "Trigger search as the user types?"
-msgstr ""
+msgstr "Trigger zoeken als de gebruikerstypes?"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "How many characters to send to the lookup query?"
-msgstr ""
+msgstr "Hoeveel tekens doorgeven bij het opzoeken?"
 
 #: CRM/RegionLookup/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
-msgstr ""
+msgstr "Upgrade %1 naar versie %2"
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid "Lookup field"
-msgstr ""
+msgstr "Opzoekveld"
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid ""
@@ -98,38 +99,38 @@ msgid ""
 "billing block of contribution forms. If empty, it will disable the lookup "
 "function. Use the \"inspect element\" function of your browser to determine "
 "the correct selector."
-msgstr ""
+msgstr "Veld gebruikt voor het opzoeken. Dit zou de postcode in de betaalinformatie van de bijdrage moeten zijn. Indien dat leeg is wordt de opzoekfunctie uitgeschakeld. Gebruik de functie \"Element inspecteren\" van uw webbrowser, meestal rechtsklikken op het scherm,  om de huidige waarde te bepalen."
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid "For example: .billing_name_address-section input#billing_postal_code-5"
-msgstr ""
+msgstr "Voorbeeld: .billing_name_address-section input#billing_postal_code-5"
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid ""
 "This allows to find the closest match. For example, you may have the H1H "
 "postcode mapped to a value, with the exception of H1H 2A2 mapped to another "
 "value."
-msgstr ""
+msgstr "Hiermee kunt de beste overeenkomst vinden. Bijvoorbeeld: u heeft de H1H postcode gekoppeld aan een waarde en de uitzondering van H1H 2A2 gekoppeld aan een andere waarde."
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid ""
 "This allows to search on partial matches. Makes sense mostly if used with "
 "the other options below. <strong>TODO: not implemented yet.</strong>"
-msgstr ""
+msgstr "Hierdoor kunt u op gedeeltelijke overeenkomsten zoeken. Dit is zinnig als het het andere onderstaande opties wordt gecombineerd.  <strong>Dit moet nog uitgewerkt worden!</strong>"
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid ""
 "Launches the search after each character typed by the user. Useful for "
 "partial matches with autocomplete. <strong>TODO: not implemented "
 "yet.</strong>"
-msgstr ""
+msgstr "Wordt gestart bij elk teken dat door de gebruiker wordt ingetikt. Gebruikt voor het automatisch aanvullen bij zoeken met gedeeltelijke overeenkomst. <strong>Dit moet nog uitgewerkt worden!</strong>"
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid ""
 "For example, if your lookup only requires the first 3 digits of a postcode "
 "to find a match, enter 3 in this field. <strong>TODO: not implemented "
 "yet.</strong>"
-msgstr ""
+msgstr "Voorbeeld: Als u al wilt zoeken met slechts de eerste drie cijfers van de postcode, vul hier dan een 3 in. <strong>Dit moet nog uitgewerkt worden!</strong>"
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid "Destination fields"
@@ -158,10 +159,10 @@ msgstr ""
 msgid ""
 "Region Lookup is a CiviCRM extension openly available under the <a "
 "href=\"%1\">GNU AGPL License</a>."
-msgstr ""
+msgstr "Region Lookup is een extensie voor CiviCRM en is vrij beschikbaar onder de <a href=\"%1\">GNU AGPL License</a>."
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid ""
 "For new versions, bug reports or support, visit the <a href=\"%1\">project "
 "page on github</a>."
-msgstr ""
+msgstr "Voor nieuwe versies en ondersteuning kunt u terecht op onze <a href=\"%1\">projectpagina op Github</a>."
