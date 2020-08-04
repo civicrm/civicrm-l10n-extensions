@@ -2,10 +2,14 @@
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# HanV <han.velthuis@home.nl>, 2020
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: tsys\n"
 "POT-Creation-Date: 2019-10-23 05:01+0000\n"
+"Last-Translator: HanV <han.velthuis@home.nl>, 2020\n"
 "Language-Team: Dutch (https://www.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,84 +19,87 @@ msgstr ""
 
 #: CRM/Core/Payment/Tsys.php
 msgid "TSYS"
-msgstr ""
+msgstr "TSYS"
 
 #: CRM/Core/Payment/Tsys.php
 msgid "The '%1' is not set in the TSYS Payment Processor settings."
 msgstr ""
+"De '%1' is niet ingevuld in de instellingen van de betaalmethode TSYS."
 
 #: CRM/Core/Payment/Tsys.php CRM/Tsys/Recur.php
 #: api/v3/Job/Tsysrecurringcontributions.php
 #: tests/phpunit/CRM/Tsys/BaseTest.php
 #: tests/phpunit/CRM/Tsys/OneTimeContributionTsysTest.php tsys.php
 msgid "API Error %1"
-msgstr ""
+msgstr "API Fout: %1"
 
 #: CRM/Core/Payment/Tsys.php
 msgid "Could not find valid TSYS Payment Processor credentials"
-msgstr ""
+msgstr "De credentials van de betaalmethode TSYS ontbreken."
 
 #: CRM/Core/Payment/Tsys.php
 msgid "Error retrieving %1 from XML"
-msgstr ""
+msgstr "Fout bij het bepalen van %1 uit XML"
 
 #: CRM/Core/Payment/Tsys.php
 msgid "You have cancelled this recurring contribution."
-msgstr ""
+msgstr "U heeft de terugkerende bijdrage geannuleerd."
 
 #: CRM/Core/Payment/Tsys.php
 msgid "Warning"
-msgstr ""
+msgstr "Waarschuwing"
 
 #: CRM/Tsys/Recur.php
 msgid "no payment token found for recurring contribution in series id %1: "
 msgstr ""
+"geen token payment gevonden bij terugkerende bijdrage in serie-id %1: "
 
 #: CRM/Tsys/Recur.php
 msgid "No valid payment processor credentials found"
-msgstr ""
+msgstr "Er is geen geldige credentials bij de betaalmethode"
 
 #: CRM/Tsys/Recur.php
 msgid "no TSYS Credentials found for payment processor id: %1 "
 msgstr ""
+"er is geen geldige TSYS-credentials gevonden bij de betaalmethode id: %1"
 
 #: CRM/Tsys/Recur.php
 #: tests/phpunit/CRM/Tsys/RecurringContributionsTsysTest.php
 msgid "Successfully processed recurring contribution in series id %1: "
-msgstr ""
+msgstr "Verwerken van terugkerende bijdragen gelukt, serie-id %1: "
 
 #: CRM/Tsys/Recur.php
 #: tests/phpunit/CRM/Tsys/RecurringContributionsTsysTest.php
 msgid "Failed to process recurring contribution id %1: "
-msgstr ""
+msgstr "Verwerken van terugkerende bijdrage mislukt, id %1: "
 
 #: CRM/Tsys/Recur.php
 msgid "Error saving payment token to database"
-msgstr ""
+msgstr "Fout bij het opslaan van het token payment"
 
 #: api/v3/Job/Tsysrecurringcontributions.php
 msgid "Failed to acquire lock. No contribution records were processed."
-msgstr ""
+msgstr "Het zetten van een lock is mislukt. Er zijn geen bijdragen verwerkt."
 
 #: api/v3/Job/Tsysrecurringcontributions.php
 msgid "An error occurred while creating activity record for contact id %1: %2"
-msgstr ""
+msgstr "Het aanmaken van activiteitsrecord voor contact-id %1: %2 is mislukt "
 
 #: api/v3/Job/Tsysrecurringcontributions.php
 msgid "Created activity record for contact id %1"
-msgstr ""
+msgstr "Activiteitsrecord voor contact-id %1 is aangemaakt"
 
 #: api/v3/Job/Tsysrecurringcontributions.php
 msgid "Completed, but with %1 errors. %2 records processed."
-msgstr ""
+msgstr "Voltooid, maar met %1 fouten, er zijn %2 records verwerkt."
 
 #: api/v3/Job/Tsysrecurringcontributions.php
 msgid "%1 contribution record(s) were processed."
-msgstr ""
+msgstr "Aantal verwerkte bijdragen: %1."
 
 #: api/v3/Job/Tsysrecurringcontributions.php
 msgid "No contribution records were processed."
-msgstr ""
+msgstr "Er zijn geen bijdragen verwerkt."
 
 #: tsys.php
 msgid ""
@@ -101,7 +108,10 @@ msgid ""
 "a \"Recurring Contributions\" report and filter for \"Contribution Status\" "
 "of \"Pending\""
 msgstr ""
+"%1 terugkerende bijdrage(n) zijn niet verwerkt inclusief de volgende: %2. "
+"<br></br> Voor meer informatie kunt een rapport \"Periodieke Bijdragen\" "
+"aanmaken en dan filteren op de status \"in afwachting\""
 
 #: tsys.php
 msgid "Uncompleted Recurring TSYS Contributions Found"
-msgstr ""
+msgstr "Er zijn niet voltooide terugkerende TSYS bijdragen"
