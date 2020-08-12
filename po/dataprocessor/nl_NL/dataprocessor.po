@@ -124,7 +124,7 @@ msgstr "Tekst als er geen resultaten zijn"
 #: CRM/DataprocessorSearch/ParticipantSearch.php
 #: CRM/DataprocessorSearch/Search.php
 msgid "Expand criteria form initially"
-msgstr "Uitbreiden criteria formulier"
+msgstr "Criteria formulier uitklappen bij openen"
 
 #: CRM/Contact/DataProcessorContactSearch.php
 #: CRM/DataprocessorSearch/ActivitySearch.php
@@ -174,8 +174,8 @@ msgid ""
 "Requires data source '%1' which could not be found. Did you rename or "
 "deleted the data source?"
 msgstr ""
-"Verwacht brondata \"%1\" die niet gevonden werd. Heeft u de naam gewijzigd "
-"of de bron verwijderd? "
+"Verwacht brondata '%1' die niet gevonden werd. Heeft u de naam gewijzigd of "
+"de bron verwijderd? "
 
 #: CRM/Contact/DataProcessorContactSummaryTab.php
 msgid ""
@@ -305,7 +305,7 @@ msgstr "Terug"
 
 #: CRM/Dataprocessor/Form/DataProcessor.php
 msgid "Edit data processor: %1"
-msgstr "Bewerkt dataprocessor: %1"
+msgstr "Bewerk dataprocessor: %1"
 
 #: CRM/Dataprocessor/Form/DataProcessor.php
 msgid "Data Processor removed"
@@ -388,7 +388,7 @@ msgstr "Is actief"
 
 #: CRM/Dataprocessor/Form/ManageDataProcessors.php
 msgid "Search"
-msgstr "Zoeke"
+msgstr "Zoeken"
 
 #: CRM/Dataprocessor/Form/Output/AbstractOutputForm.php
 msgid "Data Processor  Output  Configuration"
@@ -410,11 +410,11 @@ msgstr "Dataprocessor Output verwijderd"
 #: CRM/Dataprocessor/Form/Source.php
 #: templates/CRM/Dataprocessor/Form/Source.tpl
 msgid "Data Processor Source"
-msgstr "Source Dataprocessor"
+msgstr "Bron Dataprocessor"
 
 #: CRM/Dataprocessor/Form/Source.php
 msgid "Select source"
-msgstr "Selecteer source"
+msgstr "Selecteer bron"
 
 #: CRM/Dataprocessor/Form/Source.php
 msgid "Select Join Type"
@@ -422,11 +422,11 @@ msgstr "Selecteer join type"
 
 #: CRM/Dataprocessor/Form/Source.php
 msgid "Data Processor Source removed"
-msgstr "Source dataprocessor verwijderd"
+msgstr "Bron dataprocessor verwijderd"
 
 #: CRM/Dataprocessor/Form/Source.php
 msgid "There is already a data source with this name"
-msgstr "Er is al een data source met deze naam"
+msgstr "Er is al een databron met deze naam"
 
 #: CRM/Dataprocessor/Status.php
 msgid "In code"
@@ -478,7 +478,7 @@ msgstr "Helptekst voor dit dashlet"
 
 #: CRM/DataprocessorOutputExport/CSV.php
 msgid "Delimiter"
-msgstr "Begrenzer"
+msgstr "Afbakening"
 
 #: CRM/DataprocessorOutputExport/CSV.php
 msgid "Enclosure"
@@ -698,15 +698,15 @@ msgstr "Standaard afwijking"
 
 #: Civi/DataProcessor/DataSpecification/AggregateFunctionFieldSpecification.php
 msgid "Standard variance"
-msgstr "Standaard variance"
+msgstr "Standaard afwijking"
 
 #: Civi/DataProcessor/DataSpecification/AggregateFunctionFieldSpecification.php
 msgid "Count"
-msgstr ""
+msgstr "Telling"
 
 #: Civi/DataProcessor/DataSpecification/AggregateFunctionFieldSpecification.php
 msgid "Distinct count"
-msgstr ""
+msgstr "Unieke telling"
 
 #: Civi/DataProcessor/Factory.php
 msgid "Default"
@@ -722,7 +722,7 @@ msgstr "Contact"
 
 #: Civi/DataProcessor/Factory.php
 msgid "Permissioned Contact"
-msgstr "Contact met permissie"
+msgstr "Contact met rechten"
 
 #: Civi/DataProcessor/Factory.php
 msgid "Individual"
@@ -774,7 +774,7 @@ msgstr "Bijdrage"
 
 #: Civi/DataProcessor/Factory.php
 msgid "Recurring Contribution"
-msgstr "periodieke bijdrage"
+msgstr "Periodieke Bijdrage"
 
 #: Civi/DataProcessor/Factory.php
 msgid "Case"
@@ -790,7 +790,7 @@ msgstr "Relatietype"
 
 #: Civi/DataProcessor/Factory.php
 msgid "Event"
-msgstr "Eenement"
+msgstr "Evenement"
 
 #: Civi/DataProcessor/Factory.php
 msgid "Participant"
@@ -818,7 +818,7 @@ msgstr "LIdmaatschap"
 
 #: Civi/DataProcessor/Factory.php
 msgid "Primary Membership (retrieve the owner membership id"
-msgstr "Primair lidmaatschap (toon id van lidmaatschap eigenaar)"
+msgstr "Primair lidmaatschap (toon ID van lidmaatschap eigenaar)"
 
 #: Civi/DataProcessor/Factory.php
 msgid "Membership Type"
@@ -878,7 +878,7 @@ msgstr "Bijdragen zoeken"
 
 #: Civi/DataProcessor/Factory.php
 msgid "Membership Search"
-msgstr "LIdmaatschappen zoeken"
+msgstr "Lidmaatschappen zoeken"
 
 #: Civi/DataProcessor/Factory.php
 msgid "Participant Search"
@@ -958,7 +958,7 @@ msgstr ""
 
 #: Civi/DataProcessor/Factory.php
 msgid "Markup/Html field value"
-msgstr ""
+msgstr "Markup/HTML veld waarde"
 
 #: Civi/DataProcessor/Factory.php
 msgid "Formatted Address"
@@ -1279,7 +1279,7 @@ msgstr "weergave naam"
 
 #: Civi/DataProcessor/FieldOutputHandler/RelationshipsFieldOutputHandler.php
 msgid "Restrict to relationship"
-msgstr "Beperkt tot relatie"
+msgstr "Beperk tot relatie"
 
 #: Civi/DataProcessor/FieldOutputHandler/RelationshipsFieldOutputHandler.php
 msgid "Show relationship type"
@@ -1291,7 +1291,7 @@ msgstr "Inclusief overledenen"
 
 #: Civi/DataProcessor/FieldOutputHandler/RelationshipsFieldOutputHandler.php
 msgid "Separator"
-msgstr ""
+msgstr "Scheiding"
 
 #: Civi/DataProcessor/FieldOutputHandler/RelationshipsFieldOutputHandler.php
 msgid "Sort"
@@ -1330,11 +1330,11 @@ msgstr "Veld %1 is verplicht"
 #: Civi/DataProcessor/FilterHandler/EventFilter.php
 #: Civi/DataProcessor/Source/AbstractSource.php
 msgid "Operator:"
-msgstr ""
+msgstr "Operator:"
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
 msgid "Not set"
-msgstr ""
+msgstr "Niet ingesteld"
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
 msgid "From:"
@@ -1391,7 +1391,7 @@ msgstr "Is niet leeg"
 #: Civi/DataProcessor/FilterHandler/DateFilter.php
 #: Civi/DataProcessor/Source/AbstractSource.php
 msgid "Is equal to"
-msgstr "Is gelijk aqan"
+msgstr "Is gelijk aan"
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
 #: Civi/DataProcessor/FilterHandler/DateFilter.php
@@ -1462,7 +1462,7 @@ msgstr "Het filter %1 vereist een veld om op te filteren. Dat is er niet."
 
 #: Civi/DataProcessor/FilterHandler/ActivityFilter.php
 msgid "Limit to Contacts of activity types"
-msgstr "Beperk tot Contacten of Activiteit types"
+msgstr "Beperk tot Contacten van Activiteit types"
 
 #: Civi/DataProcessor/FilterHandler/ActivityFilter.php
 msgid "- Show all activity types -"
@@ -1470,7 +1470,7 @@ msgstr "- Toon alle activiteit types -"
 
 #: Civi/DataProcessor/FilterHandler/ActivityFilter.php
 msgid "Select a Contact"
-msgstr "Selecteer een contat"
+msgstr "Selecteer een contact"
 
 #: Civi/DataProcessor/FilterHandler/CaseRoleFilter.php
 msgid "- Filter on all roles -"
@@ -1540,11 +1540,11 @@ msgstr "API Actie"
 
 #: Civi/DataProcessor/FilterHandler/InApiFilter.php
 msgid "Value Field"
-msgstr ""
+msgstr "Waarde Veld"
 
 #: Civi/DataProcessor/FilterHandler/InApiFilter.php
 msgid "Label Field"
-msgstr ""
+msgstr "Label Veld"
 
 #: Civi/DataProcessor/FilterHandler/InApiFilter.php
 msgid "API Params"
@@ -1593,7 +1593,7 @@ msgstr "URL"
 
 #: Civi/DataProcessor/Source/CSV.php
 msgid "Field delimiter"
-msgstr ""
+msgstr "Veld begrenzer"
 
 #: Civi/DataProcessor/Source/CSV.php
 msgid "Field enclosure character"
@@ -1637,7 +1637,7 @@ msgstr "Primair lidmaatschap Contact ID"
 
 #: Civi/DataProcessor/Source/Member/PrimaryMembershipSource.php
 msgid "Membership ID"
-msgstr "Lidmaatschap-id"
+msgstr "Lidmaatschap-ID"
 
 #: Civi/DataProcessor/Source/Member/PrimaryMembershipSource.php
 msgid "Membership Contact ID"
@@ -1670,7 +1670,7 @@ msgid ""
 "You can also disable or enable the dataprocessor. "
 msgstr ""
 "U kunt de titel en beschrijving van uw dataprocessor wijzigen.\n"
-" U kunt ook de dataprocessor (de-)activeren. "
+"U kunt ook de dataprocessor (de-)activeren. "
 
 #: crm-tutorials/civicrm-dataprocessor-form-edit-action-update-Overview_of_the_configuration_screen_of_DataProcessor.js
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Sources.tpl
@@ -1897,7 +1897,7 @@ msgstr "Veld toevoegen"
 
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Filters.tpl
 msgid "Exposed"
-msgstr ""
+msgstr "Getoond"
 
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Filters.tpl
 msgid "Yes"
@@ -1980,7 +1980,7 @@ msgstr "Standaard Filter Waarde"
 #: templates/CRM/Dataprocessor/Form/FilterValue.tpl
 #: templates/CRM/Dataprocessor/Form/Output/UIOutput/CriteriaForm.tpl
 msgid "Operator"
-msgstr ""
+msgstr "Operator"
 
 #: templates/CRM/Dataprocessor/Form/FilterValue.tpl
 #: templates/CRM/Dataprocessor/Form/Output/UIOutput/CriteriaForm.tpl
