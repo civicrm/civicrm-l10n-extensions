@@ -58,16 +58,20 @@ msgid ""
 "Limit the feed to activities within N days before the current date, instead "
 "of the default of %1 days."
 msgstr ""
+"Beperk de feed tot activiteiten maximaal N dagen voor de huidige datum, "
+"i.p.v. de standaard van %1 dagen."
 
 #: CRM/Activityical/Form/Details.php
 msgid ""
 "Limit the feed to activities within N days after the current date, instead "
 "of the default of %1 days."
 msgstr ""
+"Beperk de feed tot activiteiten maximaal N dagen na de huidige datum, i.p.v."
+" de standaard van %1 dagen."
 
 #: CRM/Activityical/Form/Details.php
 msgid "Get the latest feed data, completely bypassing the feed cache."
-msgstr ""
+msgstr "Haal de meeste recente feed-gegevens op, zonder gebruik van de cache."
 
 #: CRM/Activityical/Form/Settings.php
 msgid "Submit"
@@ -87,11 +91,12 @@ msgstr "Upgrade %1 naar versie %2"
 
 #: activityical.php
 msgid "Activity iCalendar Feed"
-msgstr ""
+msgstr "Activiteiten iCalendar-feed"
 
 #: activityical.php
 msgid "Assigned activities are accessible as an iCalendar feed."
 msgstr ""
+"De toegekende activiteiten kunnen als een iCalendar-feed benaderd worden."
 
 #: activityical.php
 msgid "Feed details..."
@@ -101,20 +106,23 @@ msgstr "Feed details..."
 msgid ""
 "Only members of this CiviCRM group will have an activity iCalendar feed."
 msgstr ""
+"Alleen leden van deze CiviCRM-groep hebben een activiteiten iCalendar-feed."
 
 #: settings/Activityical.setting.php
 msgid "Activity iCalendar Feed Group"
-msgstr ""
+msgstr "Activiteiten iCalendar-feed Groep"
 
 #: settings/Activityical.setting.php
 msgid ""
 "Select one more more options to limit the feed to the selected activity "
 "type(s); or select none to skip this limitation."
 msgstr ""
+"Selecteer een of meer opties om de feed te beperken de geselecteerde "
+"activiteitstype(s), als u niks selecteert dan is er geen beperking op type."
 
 #: settings/Activityical.setting.php
 msgid "Use Ctrl+click to select or unselect multiple options."
-msgstr ""
+msgstr "Met Ctrl+klik kunt u meerdere opties (de)selecteren."
 
 #: settings/Activityical.setting.php
 msgid "Limit by Activity Type"
@@ -125,6 +133,9 @@ msgid ""
 "Select one more more options to limit the feed to the selected activity "
 "status(es); or select none to skip this limitation."
 msgstr ""
+"Selecteer een of meer opties om de feed te beperken de geselecteerde "
+"activiteitsstatus(sen), als u niks selecteert dan is er geen beperking op "
+"status."
 
 #: settings/Activityical.setting.php
 msgid "Limit by Activity Status"
@@ -132,7 +143,7 @@ msgstr "Op activiteitsstatus beperken"
 
 #: settings/Activityical.setting.php
 msgid "Append \"with\" contacts to Description?"
-msgstr ""
+msgstr "De \"met\" contacten toevoegen aan de beschrijving?"
 
 #: settings/Activityical.setting.php
 msgid "Description Includes \"With\""
@@ -140,11 +151,11 @@ msgstr "Beschrijving inclusief \"Met\""
 
 #: settings/Activityical.setting.php
 msgid "Append other assigned contacts to Description?"
-msgstr ""
+msgstr "Andere toegekende contacten toevoegen aan de beschrijving?"
 
 #: settings/Activityical.setting.php
 msgid "Description Includes Assignees"
-msgstr ""
+msgstr "Beschrijving bevat betrokkenen"
 
 #: settings/Activityical.setting.php
 msgid ""
@@ -161,6 +172,8 @@ msgid ""
 "See any Feed Details page for possible ways to bypass this on a per-request "
 "basis."
 msgstr ""
+"Elke detailpagina van een feed bekijken naar opties om dit per verzoek te "
+"kunnen overslaan."
 
 #: settings/Activityical.setting.php
 msgid "Max Cache Lifetime"
@@ -179,36 +192,40 @@ msgid ""
 "Maximum number of days in the past, before which no activities will be "
 "included in the feed."
 msgstr ""
+"Het maximale aantal dagen in het verleden, hiervoor worden er geen "
+"activiteiten opgenomen in de feed."
 
 #: settings/Activityical.setting.php
 msgid "Past Days Limit"
-msgstr ""
+msgstr "Limiet aantal dagen in het verleden"
 
 #: settings/Activityical.setting.php
 msgid "The field \"Past days limit\" is required."
-msgstr ""
+msgstr "Het veld \"Limiet aantal dagen in het verleden\" is verplicht."
 
 #: settings/Activityical.setting.php
 msgid "The field \"Past days limit\" must be an integer."
-msgstr ""
+msgstr "Het veld \"Limiet aantal dagen in het verleden\" moet een getal bevatten."
 
 #: settings/Activityical.setting.php
 msgid ""
 "Maximum number of days in the future, after which no activities will be "
 "included in the feed."
 msgstr ""
+"Het maximale aantal dagen in de toekomst, hierna worden er geen activiteiten"
+" opgenomen in de feed."
 
 #: settings/Activityical.setting.php
 msgid "Future Days Limit"
-msgstr ""
+msgstr "Limiet aantal dagen in de toekomst"
 
 #: settings/Activityical.setting.php
 msgid "The field \"Future days limit\" is required."
-msgstr ""
+msgstr "Het veld \"Limiet aantal dagen in de toekomst\" is verplicht."
 
 #: settings/Activityical.setting.php
 msgid "The field \"Future days limit\" must be an integer."
-msgstr ""
+msgstr "Het veld \"Limiet aantal dagen in de toekomst\" moet een getal bevatten."
 
 #: templates/CRM/Activityical/Form/Details.tpl
 msgid "Details for contact"
@@ -216,11 +233,11 @@ msgstr "Details van contact"
 
 #: templates/CRM/Activityical/Form/Details.tpl
 msgid "The CiviCRM assigned activities feed for %1 is available at this URL"
-msgstr ""
+msgstr "De feed met CiviCRM-activiteiten voor %1 is beschikbaar met deze URL"
 
 #: templates/CRM/Activityical/Form/Details.tpl
 msgid "Your CiviCRM assigned activities feed is available at this URL"
-msgstr ""
+msgstr "Uw feed met CiviCRM-activiteiten is beschikbaar met deze URL"
 
 #: templates/CRM/Activityical/Form/Details.tpl
 msgid "Advanced Options"
@@ -231,6 +248,8 @@ msgid ""
 "Add any of the following to the above URL to affect the behavior of your "
 "feed"
 msgstr ""
+"Voeg een van het volgende toe aan de bovenstaande URL om de werking van de "
+"feed aan te passen"
 
 #: templates/CRM/Activityical/Form/Details.tpl
 msgid "Rebuild Feed URL"
@@ -242,6 +261,9 @@ msgid ""
 "think this URL is known by people who should not have that access, you can "
 "rebuild a new URL, so that any existing URL no longer works."
 msgstr ""
+"Iedereen die uw feed-URL kent, kan uw activiteiten zien. Indien u denkt dat "
+"deze URL ongewild te bekend is, dan kunt u een nieuwe URL aanmaken, die "
+"vervangt dan de huidige URL."
 
 #: templates/CRM/Activityical/Form/Details.tpl
 msgid ""
@@ -249,6 +271,9 @@ msgid ""
 " using the URL in your calendar software (Google Calendar, etc.), you'll "
 "need to update that software with the new URL."
 msgstr ""
+"NB: Hierdoor zal de oude URL niet meer werken, als u dus deze URL al "
+"gebruikt in software (Google Calendar, enz.), dan moet u daar de nieuwe URL "
+"gaan gebruiken."
 
 #: templates/CRM/Activityical/snippet/ActivitiesTabExtra.tpl
 msgid "iCalendar"
