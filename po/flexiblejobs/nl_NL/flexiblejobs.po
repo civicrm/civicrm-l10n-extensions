@@ -2,10 +2,14 @@
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# HanV <han.velthuis@home.nl>, 2020
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: flexiblejobs\n"
 "POT-Creation-Date: 2018-02-06 17:42+0000\n"
+"Last-Translator: HanV <han.velthuis@home.nl>, 2020\n"
 "Language-Team: Dutch (https://www.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,47 +19,47 @@ msgstr ""
 
 #: CRM/Admin/Form/Job.php
 msgid "Manage - Scheduled Jobs"
-msgstr ""
+msgstr "Geplande taken beheren"
 
 #: CRM/Admin/Form/Job.php
 msgid "Name"
-msgstr ""
+msgstr "Naam"
 
 #: CRM/Admin/Form/Job.php
 msgid "Name already exists in Database."
-msgstr ""
+msgstr "Naam bestaat al in de database."
 
 #: CRM/Admin/Form/Job.php
 msgid "Description"
-msgstr ""
+msgstr "Beschrijving"
 
 #: CRM/Admin/Form/Job.php
 msgid "API Call Entity"
-msgstr ""
+msgstr "API-Call entiteit"
 
 #: CRM/Admin/Form/Job.php
 msgid "API Call Action"
-msgstr ""
+msgstr "API-Call actie"
 
 #: CRM/Admin/Form/Job.php
 msgid "Run frequency"
-msgstr ""
+msgstr "Frequentie uitvoeren"
 
 #: CRM/Admin/Form/Job.php
 msgid "Command parameters"
-msgstr ""
+msgstr "Commando parameters"
 
 #: CRM/Admin/Form/Job.php
 msgid "Is this Scheduled Job active?"
-msgstr ""
+msgstr "Is deze geplande taak actief?"
 
 #: CRM/Admin/Form/Job.php
 msgid "Given API command is not defined."
-msgstr ""
+msgstr "Dit API-commando is niet gedefinieerd."
 
 #: CRM/Admin/Form/Job.php
 msgid "Scheduled Job Deleted."
-msgstr ""
+msgstr "Geplande taak verwijderd."
 
 #: CRM/Admin/Form/Job.php
 msgid ""
@@ -64,10 +68,14 @@ msgid ""
 "              For example, if a job is scheduled to run on August 31st, the following invocation will occur on October 1st, and then the 1st of every month thereafter.\n"
 "              To avoid this issue, please schedule Monthly and Quarterly jobs to run within the first 28 days of the month."
 msgstr ""
+"Relatieve maandwaarden worden bepaald op de lengte van de maand die doorlopen wordt.\n"
+"              Het resultaat is dezelfde dag van de maand behalve voor maanden met 29-31 dagen wanneer de doelmaand minder dagen bevat dan de voorafgaande maand.\n"
+"              Voorbeeld: als een taak wordt ingeplant op 31 augustus, dan wordt de volgende plandatum 1 oktober en daarna steeds de eerste van de maand.\n"
+"              Om dit te vermijden kunt u kiezen om de taken die per maand of per kwartaal moeten worden uitgevoerd binnen de eerste 28 dagen van de maand uit te voeren."
 
 #: CRM/Admin/Form/Job.php
 msgid "Warning"
-msgstr ""
+msgstr "Waarschuwing"
 
 #: CRM/Admin/Form/Job.php
 msgid ""
@@ -85,75 +93,75 @@ msgstr ""
 
 #: CRM/Core/SelectValues.php
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #: CRM/Core/SelectValues.php
 msgid "No"
-msgstr ""
+msgstr "Nee"
 
 #: CRM/Core/SelectValues.php
 msgid "Both"
-msgstr ""
+msgstr "Beide"
 
 #: CRM/Core/SelectValues.php
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 #: CRM/Core/SelectValues.php
 msgid "Text"
-msgstr ""
+msgstr "Tekst"
 
 #: CRM/Core/SelectValues.php
 msgid "Do not phone"
-msgstr ""
+msgstr "Niet bellen"
 
 #: CRM/Core/SelectValues.php
 msgid "Do not email"
-msgstr ""
+msgstr "Niet e-mailen"
 
 #: CRM/Core/SelectValues.php
 msgid "Do not mail"
-msgstr ""
+msgstr "Geen post"
 
 #: CRM/Core/SelectValues.php
 msgid "Do not sms"
-msgstr ""
+msgstr "Geen SMS"
 
 #: CRM/Core/SelectValues.php
 msgid "Do not trade"
-msgstr ""
+msgstr "Niet mee handelen"
 
 #: CRM/Core/SelectValues.php
 msgid "No bulk emails (User Opt Out)"
-msgstr ""
+msgstr "Geen massa-mail (opt-out)"
 
 #: CRM/Core/SelectValues.php
 msgid "day"
-msgstr ""
+msgstr "dag"
 
 #: CRM/Core/SelectValues.php
 msgid "month"
-msgstr ""
+msgstr "maand"
 
 #: CRM/Core/SelectValues.php
 msgid "year"
-msgstr ""
+msgstr "jaar"
 
 #: CRM/Core/SelectValues.php
 msgid "lifetime"
-msgstr ""
+msgstr "levenslang"
 
 #: CRM/Core/SelectValues.php
 msgid "Rolling"
-msgstr ""
+msgstr "Rollend"
 
 #: CRM/Core/SelectValues.php
 msgid "Fixed"
-msgstr ""
+msgstr "Vast"
 
 #: CRM/Core/SelectValues.php
 msgid "Automatic"
-msgstr ""
+msgstr "Automatisch"
 
 #: CRM/Core/SelectValues.php
 msgid "Only send to email addresses assigned to the specified location"
@@ -169,11 +177,11 @@ msgstr ""
 
 #: CRM/Core/SelectValues.php
 msgid "Public"
-msgstr ""
+msgstr "Openbaar"
 
 #: CRM/Core/SelectValues.php
 msgid "Admin"
-msgstr ""
+msgstr "Beheerder"
 
 #: CRM/Core/SelectValues.php
 msgid "No auto-renew option"
@@ -189,15 +197,15 @@ msgstr ""
 
 #: CRM/Core/SelectValues.php
 msgid "start date"
-msgstr ""
+msgstr "startdatum"
 
 #: CRM/Core/SelectValues.php
 msgid "end date"
-msgstr ""
+msgstr "einddatum"
 
 #: CRM/Core/SelectValues.php
 msgid "member since"
-msgstr ""
+msgstr "lid sinds"
 
 #: CRM/Core/SelectValues.php
 msgid "Single-line input field (text or numeric)"
@@ -209,127 +217,127 @@ msgstr ""
 
 #: CRM/Core/SelectValues.php
 msgid "Drop-down (select list)"
-msgstr ""
+msgstr "Dropdown (selectie-lijst)"
 
 #: CRM/Core/SelectValues.php
 msgid "Radio buttons"
-msgstr ""
+msgstr "Radioknoppen "
 
 #: CRM/Core/SelectValues.php
 msgid "Checkbox(es)"
-msgstr ""
+msgstr "Checkbox(en)"
 
 #: CRM/Core/SelectValues.php
 msgid "Select Date"
-msgstr ""
+msgstr "Datum selecteren"
 
 #: CRM/Core/SelectValues.php
 msgid "File"
-msgstr ""
+msgstr "Bestand"
 
 #: CRM/Core/SelectValues.php
 msgid "Select State/Province"
-msgstr ""
+msgstr "Staat/Provincie selecteren"
 
 #: CRM/Core/SelectValues.php
 msgid "Multi-Select State/Province"
-msgstr ""
+msgstr "Meerdere Staten/Provincies selecteren"
 
 #: CRM/Core/SelectValues.php
 msgid "Select Country"
-msgstr ""
+msgstr "Land selecteren"
 
 #: CRM/Core/SelectValues.php
 msgid "Multi-Select Country"
-msgstr ""
+msgstr "Meerdere landen selecteren"
 
 #: CRM/Core/SelectValues.php
 msgid "Rich Text Editor"
-msgstr ""
+msgstr "Rich Text Editor"
 
 #: CRM/Core/SelectValues.php
 msgid "Autocomplete-Select"
-msgstr ""
+msgstr "Automatisch aanvullen selecteren"
 
 #: CRM/Core/SelectValues.php
 msgid "Multi-Select"
-msgstr ""
+msgstr "Meerdere selecteren"
 
 #: CRM/Core/SelectValues.php
 msgid "AdvMulti-Select"
-msgstr ""
+msgstr "GeavMeerdereSelecteren"
 
 #: CRM/Core/SelectValues.php
 msgid "Link"
-msgstr ""
+msgstr "Link"
 
 #: CRM/Core/SelectValues.php
 msgid "Activities"
-msgstr ""
+msgstr "Activiteiten"
 
 #: CRM/Core/SelectValues.php
 msgid "Relationships"
-msgstr ""
+msgstr "Relaties"
 
 #: CRM/Core/SelectValues.php
 msgid "Contributions"
-msgstr ""
+msgstr "Bijdragen"
 
 #: CRM/Core/SelectValues.php
 msgid "Groups"
-msgstr ""
+msgstr "Groepen"
 
 #: CRM/Core/SelectValues.php
 msgid "Memberships"
-msgstr ""
+msgstr "Lidmaatschappen"
 
 #: CRM/Core/SelectValues.php
 msgid "Events"
-msgstr ""
+msgstr "Evenementen"
 
 #: CRM/Core/SelectValues.php
 msgid "Participants"
-msgstr ""
+msgstr "Deelnemers"
 
 #: CRM/Core/SelectValues.php
 msgid "Participants (Role)"
-msgstr ""
+msgstr "Deelnemers (rol)"
 
 #: CRM/Core/SelectValues.php
 msgid "Participants (Event Name)"
-msgstr ""
+msgstr "Deelnemers (naam evenement)"
 
 #: CRM/Core/SelectValues.php
 msgid "Participants (Event Type)"
-msgstr ""
+msgstr "Deelnemers (evenementtypes)"
 
 #: CRM/Core/SelectValues.php
 msgid "Pledges"
-msgstr ""
+msgstr "Toezeggingen"
 
 #: CRM/Core/SelectValues.php
 msgid "Grants"
-msgstr ""
+msgstr "Toelagen"
 
 #: CRM/Core/SelectValues.php
 msgid "Addresses"
-msgstr ""
+msgstr "Adressen"
 
 #: CRM/Core/SelectValues.php
 msgid "Campaigns"
-msgstr ""
+msgstr "Campagnes"
 
 #: CRM/Core/SelectValues.php
 msgid "Tab"
-msgstr ""
+msgstr "Tab"
 
 #: CRM/Core/SelectValues.php
 msgid "Inline"
-msgstr ""
+msgstr "Inline"
 
 #: CRM/Core/SelectValues.php
 msgid "Tab with table"
-msgstr ""
+msgstr "Tab met tabel"
 
 #: CRM/Core/SelectValues.php
 msgid "Standalone Form or Directory"
@@ -341,35 +349,35 @@ msgstr ""
 
 #: CRM/Core/SelectValues.php
 msgid "Drupal User Registration"
-msgstr ""
+msgstr "Drupal gebruikersregistratie"
 
 #: CRM/Core/SelectValues.php
 msgid "View/Edit Drupal User Account"
-msgstr ""
+msgstr "Drupal gebruikersaccount bekijken/wijzigen"
 
 #: CRM/Core/SelectValues.php
 msgid "Added"
-msgstr ""
+msgstr "Toegevoegd"
 
 #: CRM/Core/SelectValues.php
 msgid "Removed"
-msgstr ""
+msgstr "Verwijderd"
 
 #: CRM/Core/SelectValues.php
 msgid "Pending"
-msgstr ""
+msgstr "Lopend"
 
 #: CRM/Core/SelectValues.php
 msgid "Dynamic"
-msgstr ""
+msgstr "Dynamisch"
 
 #: CRM/Core/SelectValues.php
 msgid "Static"
-msgstr ""
+msgstr "Statisch"
 
 #: CRM/Core/SelectValues.php
 msgid "- select -"
-msgstr ""
+msgstr "- selecteer -"
 
 #: CRM/Core/SelectValues.php
 msgid "User and User Admin Only"
@@ -377,7 +385,7 @@ msgstr ""
 
 #: CRM/Core/SelectValues.php
 msgid "Public Pages"
-msgstr ""
+msgstr "Openbare pagina's"
 
 #: CRM/Core/SelectValues.php
 msgid "Public Pages and Listings"
@@ -385,11 +393,11 @@ msgstr ""
 
 #: CRM/Core/SelectValues.php
 msgid "Header"
-msgstr ""
+msgstr "Header"
 
 #: CRM/Core/SelectValues.php
 msgid "Footer"
-msgstr ""
+msgstr "Voettekst"
 
 #: CRM/Core/SelectValues.php
 msgid "Reply Auto-responder"
@@ -405,31 +413,31 @@ msgstr ""
 
 #: CRM/Core/SelectValues.php
 msgid "Welcome Message"
-msgstr ""
+msgstr "Welkomstbericht"
 
 #: CRM/Core/SelectValues.php
 msgid "Unsubscribe Message"
-msgstr ""
+msgstr "Bericht uitschrijven"
 
 #: CRM/Core/SelectValues.php
 msgid "Resubscribe Message"
-msgstr ""
+msgstr "Bericht opnieuw inschrijven "
 
 #: CRM/Core/SelectValues.php
 msgid "Unsubscribe via email"
-msgstr ""
+msgstr "Via e-mail uitschrijven"
 
 #: CRM/Core/SelectValues.php
 msgid "Unsubscribe via web page"
-msgstr ""
+msgstr "Uitschrijven via webpagina"
 
 #: CRM/Core/SelectValues.php
 msgid "Resubscribe via email"
-msgstr ""
+msgstr "Opnieuw inschrijven via e-mail"
 
 #: CRM/Core/SelectValues.php
 msgid "Resubscribe via web page"
-msgstr ""
+msgstr "Opnieuw inschrijven via webpagina"
 
 #: CRM/Core/SelectValues.php
 msgid "Opt out via email"
@@ -453,79 +461,79 @@ msgstr ""
 
 #: CRM/Core/SelectValues.php
 msgid "Domain name"
-msgstr ""
+msgstr "Domeinnaam"
 
 #: CRM/Core/SelectValues.php
 msgid "Domain (organization) address"
-msgstr ""
+msgstr "Domein (organisatie) adres"
 
 #: CRM/Core/SelectValues.php
 msgid "Domain (organization) phone"
-msgstr ""
+msgstr "Domein (organisatie) telefoon"
 
 #: CRM/Core/SelectValues.php
 msgid "Domain (organization) email"
-msgstr ""
+msgstr "Domein (organisatie) e-mail"
 
 #: CRM/Core/SelectValues.php
 msgid "Mailing name"
-msgstr ""
+msgstr "Mailing naam"
 
 #: CRM/Core/SelectValues.php
 msgid "Mailing group"
-msgstr ""
+msgstr "Mailing groep"
 
 #: CRM/Core/SelectValues.php
 msgid "Mailing permalink"
-msgstr ""
+msgstr "Mailing blijvende link"
 
 #: CRM/Core/SelectValues.php
 msgid "Activity ID"
-msgstr ""
+msgstr "Activiteit-id"
 
 #: CRM/Core/SelectValues.php
 msgid "Activity Subject"
-msgstr ""
+msgstr "Activiteit onderwerp"
 
 #: CRM/Core/SelectValues.php
 msgid "Activity Details"
-msgstr ""
+msgstr "Activiteit details"
 
 #: CRM/Core/SelectValues.php
 msgid "Activity Date Time"
-msgstr ""
+msgstr "Datum/tijd activiteit"
 
 #: CRM/Core/SelectValues.php
 msgid "Membership ID"
-msgstr ""
+msgstr "Lidmaatschap-ID"
 
 #: CRM/Core/SelectValues.php
 msgid "Membership Status"
-msgstr ""
+msgstr "Lidmaatschapsstatus"
 
 #: CRM/Core/SelectValues.php
 msgid "Membership Type"
-msgstr ""
+msgstr "Lidmaatschapstype"
 
 #: CRM/Core/SelectValues.php
 msgid "Membership Start Date"
-msgstr ""
+msgstr "Startdatum lidmaatschap"
 
 #: CRM/Core/SelectValues.php
 msgid "Membership Join Date"
-msgstr ""
+msgstr "Lid sinds"
 
 #: CRM/Core/SelectValues.php
 msgid "Membership End Date"
-msgstr ""
+msgstr "Einddatum lidmaatschap"
 
 #: CRM/Core/SelectValues.php
 msgid "Membership Fee"
-msgstr ""
+msgstr "Lidmaatschap kosten"
 
 #: CRM/Core/SelectValues.php
 msgid "Event ID"
-msgstr ""
+msgstr "Event-id"
 
 #: CRM/Core/SelectValues.php
 msgid "Event Title"
