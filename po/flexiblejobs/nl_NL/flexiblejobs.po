@@ -86,10 +86,17 @@ msgid ""
 "force=0, will only rebuild greetings for contacts that do not currently have"
 " a value stored. %1"
 msgstr ""
+"De taak voor het bijwerken van begroetingen kan veel capaciteit vragen en "
+"zal normaal gesproken er niet een zijn die regelmatig periodiek uitgevoerd "
+"zal worden. Als u dit toch wil, doe dit dan niet met de force=1 optie, dan "
+"worden alle begroetingen opnieuw opgebouwd. Laat die optie weg, of gebruik "
+"force=0, om alleen begroetingen van contacten opnieuw te maken als ze nog "
+"geen waarde hebben. %1"
 
 #: CRM/Admin/Form/Job.php
 msgid "Warning: Update Greeting job enabled"
 msgstr ""
+"Waarschuwing: Taak voor het bijwerken van begroetingen is ingeschakeld"
 
 #: CRM/Core/SelectValues.php
 msgid "Yes"
@@ -166,14 +173,16 @@ msgstr "Automatisch"
 #: CRM/Core/SelectValues.php
 msgid "Only send to email addresses assigned to the specified location"
 msgstr ""
+"Alleen e-mail verzenden naar e-mailadressen die behoren bij de opgegeven "
+"locatie"
 
 #: CRM/Core/SelectValues.php
 msgid "Prefer email addresses assigned to the specified location"
-msgstr ""
+msgstr "Voorkeur voor e-mailadressen behorend bij de opgegeven locatie"
 
 #: CRM/Core/SelectValues.php
 msgid "Exclude email addresses assigned to the specified location"
-msgstr ""
+msgstr "Uitsluiten e-mailadressen die behoren bij de opgegeven locatie"
 
 #: CRM/Core/SelectValues.php
 msgid "Public"
@@ -185,15 +194,15 @@ msgstr "Beheerder"
 
 #: CRM/Core/SelectValues.php
 msgid "No auto-renew option"
-msgstr ""
+msgstr "Geen optie automatisch verlengen"
 
 #: CRM/Core/SelectValues.php
 msgid "Give option, but not required"
-msgstr ""
+msgstr "Geef optie, maar niet verplicht"
 
 #: CRM/Core/SelectValues.php
 msgid "Auto-renew required"
-msgstr ""
+msgstr "Automatisch verlengen verplicht"
 
 #: CRM/Core/SelectValues.php
 msgid "start date"
@@ -209,11 +218,11 @@ msgstr "lid sinds"
 
 #: CRM/Core/SelectValues.php
 msgid "Single-line input field (text or numeric)"
-msgstr ""
+msgstr "Invoerveld van een regel lang (tekst of numeriek)"
 
 #: CRM/Core/SelectValues.php
 msgid "Multi-line text box (textarea)"
-msgstr ""
+msgstr "Tekstvak (meerdere regels)"
 
 #: CRM/Core/SelectValues.php
 msgid "Drop-down (select list)"
@@ -341,11 +350,11 @@ msgstr "Tab met tabel"
 
 #: CRM/Core/SelectValues.php
 msgid "Standalone Form or Directory"
-msgstr ""
+msgstr "Los formulier of overzicht"
 
 #: CRM/Core/SelectValues.php
 msgid "Search Views"
-msgstr ""
+msgstr "Zoekresultaten"
 
 #: CRM/Core/SelectValues.php
 msgid "Drupal User Registration"
@@ -381,7 +390,7 @@ msgstr "- selecteer -"
 
 #: CRM/Core/SelectValues.php
 msgid "User and User Admin Only"
-msgstr ""
+msgstr "Alleen voor gebruiker en beheerder"
 
 #: CRM/Core/SelectValues.php
 msgid "Public Pages"
@@ -389,7 +398,7 @@ msgstr "Openbare pagina's"
 
 #: CRM/Core/SelectValues.php
 msgid "Public Pages and Listings"
-msgstr ""
+msgstr "Openbare pagina en Overzichten"
 
 #: CRM/Core/SelectValues.php
 msgid "Header"
@@ -401,15 +410,15 @@ msgstr "Voettekst"
 
 #: CRM/Core/SelectValues.php
 msgid "Reply Auto-responder"
-msgstr ""
+msgstr "Bericht automatische beantwoorder"
 
 #: CRM/Core/SelectValues.php
 msgid "Opt-out Message"
-msgstr ""
+msgstr "Bericht Opt-out"
 
 #: CRM/Core/SelectValues.php
 msgid "Subscription Confirmation Request"
-msgstr ""
+msgstr "Verzoek bevestigen aanmelding"
 
 #: CRM/Core/SelectValues.php
 msgid "Welcome Message"
@@ -441,23 +450,23 @@ msgstr "Opnieuw inschrijven via webpagina"
 
 #: CRM/Core/SelectValues.php
 msgid "Opt out via email"
-msgstr ""
+msgstr "Opt-out via e-mail"
 
 #: CRM/Core/SelectValues.php
 msgid "Opt out via web page"
-msgstr ""
+msgstr "Opt-out via webpagina"
 
 #: CRM/Core/SelectValues.php
 msgid "Forward this email (link)"
-msgstr ""
+msgstr "Deze e-mail doorsturen (link)"
 
 #: CRM/Core/SelectValues.php
 msgid "Reply to this email (link)"
-msgstr ""
+msgstr "Beantwoord deze e-mail (link)"
 
 #: CRM/Core/SelectValues.php
 msgid "Subscribe via web page"
-msgstr ""
+msgstr "Aanmelden via webpagina"
 
 #: CRM/Core/SelectValues.php
 msgid "Domain name"
@@ -537,442 +546,449 @@ msgstr "Event-id"
 
 #: CRM/Core/SelectValues.php
 msgid "Event Title"
-msgstr ""
+msgstr "Titel evenement"
 
 #: CRM/Core/SelectValues.php
 msgid "Event Start Date"
-msgstr ""
+msgstr "Begindatum evenement"
 
 #: CRM/Core/SelectValues.php
 msgid "Event End Date"
-msgstr ""
+msgstr "Einddatum evenement"
 
 #: CRM/Core/SelectValues.php
 msgid "Event Type"
-msgstr ""
+msgstr "Evenementstype"
 
 #: CRM/Core/SelectValues.php
 msgid "Event Summary"
-msgstr ""
+msgstr "Samenvatting evenement"
 
 #: CRM/Core/SelectValues.php
 msgid "Event Contact Email"
-msgstr ""
+msgstr "E-mail contact evenement"
 
 #: CRM/Core/SelectValues.php
 msgid "Event Contact Phone"
-msgstr ""
+msgstr "Telefoon contact evenement"
 
 #: CRM/Core/SelectValues.php
 msgid "Event Description"
-msgstr ""
+msgstr "Beschrijving evenement"
 
 #: CRM/Core/SelectValues.php
 msgid "Event Location"
-msgstr ""
+msgstr "Locatie evenement"
 
 #: CRM/Core/SelectValues.php
 msgid "Event Fees"
-msgstr ""
+msgstr "Kosten evenement"
 
 #: CRM/Core/SelectValues.php
 msgid "Event Info URL"
-msgstr ""
+msgstr "Info-URL evenement"
 
 #: CRM/Core/SelectValues.php
 msgid "Event Registration URL"
-msgstr ""
+msgstr "Registratie-URL evenement"
 
 #: CRM/Core/SelectValues.php
 msgid "Event Balance"
-msgstr ""
+msgstr "Balans evenement"
 
 #: CRM/Core/SelectValues.php
 msgid "Contribution ID"
-msgstr ""
+msgstr "Contributie-id"
 
 #: CRM/Core/SelectValues.php
 msgid "Total Amount"
-msgstr ""
+msgstr "Totaalbedrag"
 
 #: CRM/Core/SelectValues.php
 msgid "Fee Amount"
-msgstr ""
+msgstr "Kosten"
 
 #: CRM/Core/SelectValues.php
 msgid "Net Amount"
-msgstr ""
+msgstr "Netto bedrag"
 
 #: CRM/Core/SelectValues.php
 msgid "Non-deductible Amount"
-msgstr ""
+msgstr "Niet-aftrekbaar bedrag"
 
 #: CRM/Core/SelectValues.php
 msgid "Contribution Receive Date"
-msgstr ""
+msgstr "Ontvangstdatum bijdrage"
 
 #: CRM/Core/SelectValues.php
 msgid "Payment Instrument"
-msgstr ""
+msgstr "Betaalmethode"
 
 #: CRM/Core/SelectValues.php
 msgid "Transaction ID"
-msgstr ""
+msgstr "Transactie-id"
 
 #: CRM/Core/SelectValues.php
 msgid "Invoice ID"
-msgstr ""
+msgstr "Factuur-id"
 
 #: CRM/Core/SelectValues.php
 msgid "Currency"
-msgstr ""
+msgstr "Valuta"
 
 #: CRM/Core/SelectValues.php
 msgid "Contribution Cancel Date"
-msgstr ""
+msgstr "Annuleringsdatum bijdrage"
 
 #: CRM/Core/SelectValues.php
 msgid "Contribution Cancel Reason"
-msgstr ""
+msgstr "Reden annuleren"
 
 #: CRM/Core/SelectValues.php
 msgid "Receipt Date"
-msgstr ""
+msgstr "Ontvangstdatum"
 
 #: CRM/Core/SelectValues.php
 msgid "Thank You Date"
-msgstr ""
+msgstr "Bedankdatum"
 
 #: CRM/Core/SelectValues.php
 msgid "Contribution Source"
-msgstr ""
+msgstr "Bron bijdrage"
 
 #: CRM/Core/SelectValues.php
 msgid "Amount Level"
-msgstr ""
+msgstr "Bedrag niveau"
 
 #: CRM/Core/SelectValues.php
 msgid "Contribution Status"
-msgstr ""
+msgstr "Bijdragestatus"
 
 #: CRM/Core/SelectValues.php
 msgid "Check Number"
-msgstr ""
+msgstr "Controlegetal"
 
 #: CRM/Core/SelectValues.php
 msgid "Contribution Campaign"
-msgstr ""
+msgstr "Bijdrage campagne"
 
 #: CRM/Core/SelectValues.php
 msgid "Checksum"
-msgstr ""
+msgstr "Checksum"
 
 #: CRM/Core/SelectValues.php
 msgid "Internal Contact ID"
-msgstr ""
+msgstr "Intern Contact-id"
 
 #: CRM/Core/SelectValues.php
 msgid "mm/dd/yyyy (12/31/2009)"
-msgstr ""
+msgstr "mm/dd/jjjj (12/31/2009)"
 
 #: CRM/Core/SelectValues.php
 msgid "dd/mm/yyyy (31/12/2009)"
-msgstr ""
+msgstr "dd/mm/jjjj (31/12/2009)"
 
 #: CRM/Core/SelectValues.php
 msgid "yyyy-mm-dd (2009-12-31)"
-msgstr ""
+msgstr "jjjj-mm-dd (2009-12-31)"
 
 #: CRM/Core/SelectValues.php
 msgid "dd-mm-yyyy (31-12-2009)"
-msgstr ""
+msgstr "dd-mm-jjjj (31-12-2009)"
 
 #: CRM/Core/SelectValues.php
 msgid "dd.mm.yyyy (31.12.2009)"
-msgstr ""
+msgstr "dd.mm.jjjj (31.12.2009)"
 
 #: CRM/Core/SelectValues.php
 msgid "M d, yyyy (Dec 31, 2009)"
-msgstr ""
+msgstr "M d, jjjj (Dec 31, 2009)"
 
 #: CRM/Core/SelectValues.php
 msgid "d M yyyy (31 Dec 2009)"
-msgstr ""
+msgstr "d M jjjj (31 Dec 2009)"
 
 #: CRM/Core/SelectValues.php
 msgid "MM d, yyyy (December 31, 2009)"
-msgstr ""
+msgstr "MM d, jjjj (December 31, 2009)"
 
 #: CRM/Core/SelectValues.php
 msgid "d MM yyyy (31 December 2009)"
-msgstr ""
+msgstr "d MM jjjj (31 December 2009)"
 
 #: CRM/Core/SelectValues.php
 msgid "DD, d MM yyyy (Thursday, 31 December 2009)"
-msgstr ""
+msgstr "DD, d MM jjjj (Donderdag, 31 December 2009)"
 
 #: CRM/Core/SelectValues.php
 msgid "mm/dd (12/31)"
-msgstr ""
+msgstr "mm/dd (12/31)"
 
 #: CRM/Core/SelectValues.php
 msgid "dd-mm (31-12)"
-msgstr ""
+msgstr "dd-mm (31-12)"
 
 #: CRM/Core/SelectValues.php
 msgid "yyyy-mm (2009-12)"
-msgstr ""
+msgstr "jjjj-mm (2009-12)"
 
 #: CRM/Core/SelectValues.php
 msgid "M yyyy (Dec 2009)"
-msgstr ""
+msgstr "M jjjj (Dec 2009)"
 
 #: CRM/Core/SelectValues.php
 msgid "yyyy (2009)"
-msgstr ""
+msgstr "jjjj (2009)"
 
 #: CRM/Core/SelectValues.php
 msgid "12 Hours"
-msgstr ""
+msgstr "12 uurs"
 
 #: CRM/Core/SelectValues.php
 msgid "24 Hours"
-msgstr ""
+msgstr "24 uurs"
 
 #: CRM/Core/SelectValues.php
 msgid "Linear (1D)"
-msgstr ""
+msgstr "Lineair (1D)"
 
 #: CRM/Core/SelectValues.php
 msgid "QR code"
-msgstr ""
+msgstr "QR-code"
 
 #: CRM/Core/SelectValues.php
 msgid "Unsupervised"
-msgstr ""
+msgstr "Zonder toezicht"
 
 #: CRM/Core/SelectValues.php
 msgid "Supervised"
-msgstr ""
+msgstr "Onder toezicht"
 
 #: CRM/Core/SelectValues.php
 msgid "General"
-msgstr ""
+msgstr "Algemeen"
 
 #: CRM/Core/SelectValues.php
 msgid "Include"
-msgstr ""
+msgstr "Toevoegen"
 
 #: CRM/Core/SelectValues.php
 msgid "Exclude"
-msgstr ""
+msgstr "Uitsluiten"
 
 #: CRM/Core/SelectValues.php
 msgid "Email"
-msgstr ""
+msgstr "E-mail"
 
 #: CRM/Core/SelectValues.php
 msgid "Web"
-msgstr ""
+msgstr "Web"
 
 #: CRM/Core/SelectValues.php
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: CRM/Core/SelectValues.php
 msgid "Day"
-msgstr ""
+msgstr "Dag"
 
 #: CRM/Core/SelectValues.php
 msgid "Week"
-msgstr ""
+msgstr "Week"
 
 #: CRM/Core/SelectValues.php
 msgid "Month"
-msgstr ""
+msgstr "Maand"
 
 #: CRM/Core/SelectValues.php
 msgid "Year"
-msgstr ""
+msgstr "Jaar"
 
 #: CRM/Core/SelectValues.php
 msgid "Payment"
-msgstr ""
+msgstr "Betaling"
 
 #: CRM/Core/SelectValues.php
 msgid "Search"
-msgstr ""
+msgstr "Zoeken"
 
 #: CRM/Core/SelectValues.php
 msgid "Report"
-msgstr ""
+msgstr "Rapport"
 
 #: CRM/Core/SelectValues.php
 msgid "Module"
-msgstr ""
+msgstr "Module"
 
 #: CRM/Core/SelectValues.php
 msgid "SMS"
-msgstr ""
+msgstr "SMS"
 
 #: CRM/Core/SelectValues.php
 msgid "Yearly"
-msgstr ""
+msgstr "Per jaar"
 
 #: CRM/Core/SelectValues.php
 msgid "Quarterly"
-msgstr ""
+msgstr "Per kwartaal"
 
 #: CRM/Core/SelectValues.php
 msgid "Monthly"
-msgstr ""
+msgstr "Per maand"
 
 #: CRM/Core/SelectValues.php
 msgid "Weekly"
-msgstr ""
+msgstr "Per week"
 
 #: CRM/Core/SelectValues.php
 msgid "Daily"
-msgstr ""
+msgstr "Per dag"
 
 #: CRM/Core/SelectValues.php
 msgid "Hourly"
-msgstr ""
+msgstr "Per uur"
 
 #: CRM/Core/SelectValues.php
 msgid "Every time cron job is run"
-msgstr ""
+msgstr "Elke keer als de cronjob wordt uitgevoerd"
 
 #: CRM/Core/SelectValues.php
 msgid "In"
-msgstr ""
+msgstr "In"
 
 #: CRM/Core/SelectValues.php
 msgid "Not In"
-msgstr ""
+msgstr "Niet In"
 
 #: CRM/Core/SelectValues.php
 msgid "Like"
-msgstr ""
+msgstr "Als"
 
 #: CRM/Core/SelectValues.php
 msgid "Not Like"
-msgstr ""
+msgstr "Niet als"
 
 #: CRM/Core/SelectValues.php
 msgid "Regex"
-msgstr ""
+msgstr "Regex"
 
 #: CRM/Core/SelectValues.php
 msgid "Is Empty"
-msgstr ""
+msgstr "Is leeg"
 
 #: CRM/Core/SelectValues.php
 msgid "Not Empty"
-msgstr ""
+msgstr "Niet leeg"
 
 #: CRM/Core/SelectValues.php
 msgid "Is Null"
-msgstr ""
+msgstr "Is Null"
 
 #: CRM/Core/SelectValues.php
 msgid "Not Null"
-msgstr ""
+msgstr "Not Null"
 
 #: CRM/Core/SelectValues.php
 msgid "Exact Match"
-msgstr ""
+msgstr "Exact overeenkomend"
 
 #: CRM/Core/SelectValues.php
 msgid "Wildcard Match"
-msgstr ""
+msgstr "Wildcard overeenkomend"
 
 #: CRM/Core/SelectValues.php
 msgid "Base"
-msgstr ""
+msgstr "Basis"
 
 #: CRM/Core/SelectValues.php
 msgid "Scheduled"
-msgstr ""
+msgstr "Ingepland"
 
 #: CRM/Core/SelectValues.php
 msgid "Running"
-msgstr ""
+msgstr "Wordt uitgevoerd"
 
 #: CRM/Core/SelectValues.php
 msgid "Complete"
-msgstr ""
+msgstr "Uitgevoerd"
 
 #: CRM/Core/SelectValues.php
 msgid "Paused"
-msgstr ""
+msgstr "Gepauzeerd"
 
 #: CRM/Core/SelectValues.php
 msgid "Canceled"
-msgstr ""
+msgstr "Geannuleerd"
 
 #: CRM/Core/SelectValues.php
 msgid "hour"
 msgid_plural "hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "uur"
+msgstr[1] "uren"
 
 #: CRM/Core/SelectValues.php
 msgid "week"
 msgid_plural "weeks"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "week"
+msgstr[1] "weken"
 
 #: templates/CRM/Admin/Form/Job.tpl
 msgid "New Scheduled Job"
-msgstr ""
+msgstr "Taak inplannen"
 
 #: templates/CRM/Admin/Form/Job.tpl
 msgid "Edit Scheduled Job"
-msgstr ""
+msgstr "Ingeplande taak wijzigen"
 
 #: templates/CRM/Admin/Form/Job.tpl
 msgid "Execute Scheduled Job"
-msgstr ""
+msgstr "Ingeplande taak uitvoeren"
 
 #: templates/CRM/Admin/Form/Job.tpl
 msgid "Delete Scheduled Job"
-msgstr ""
+msgstr "Ingeplande taak verwijderen"
 
 #: templates/CRM/Admin/Form/Job.tpl
 msgid ""
 "WARNING: Deleting this Scheduled Job will cause some important site "
 "functionality to stop working."
 msgstr ""
+"Waarschuwing: Als u een ingeplande taak verwijderd dan werkt een mogelijk "
+"belangrijk proces niet meer waardoor u functionaliteit verliest."
 
 #: templates/CRM/Admin/Form/Job.tpl
 msgid "Do you want to continue?"
-msgstr ""
+msgstr "Wilt u doorgaan?"
 
 #: templates/CRM/Admin/Form/Job.tpl
 msgid "Are you sure you would like to execute this job?"
-msgstr ""
+msgstr "Weet u zeker dat u deze taak wil uitvoeren?"
 
 #: templates/CRM/Admin/Form/Job.tpl
 msgid "API call:"
-msgstr ""
+msgstr "API-call:"
 
 #: templates/CRM/Admin/Form/Job.tpl
 msgid ""
 "Put in the API method name. You need to enter pieces of full API function "
 "name as described in the documentation."
 msgstr ""
+"Voer de naam van de API-methode in. U hoeft mogelijk maar een deel van de "
+"functienaam, zie de documentatie, in te vullen."
 
 #: templates/CRM/Admin/Form/Job.tpl
 msgid ""
 "Do not run this job before this date / time. The run frequency selected "
 "above will apply thereafter."
 msgstr ""
+"Voor deze taak niet voor dit tijdstip uit. De frequentie van uitvoeren is "
+"daarna zoals hierboven is geselecteerd."
 
 #: templates/CRM/Admin/Form/Job.tpl
 msgid "Leave blank to run as soon as possible."
 msgstr ""
+"Laat dit leeg als de taak zo snel als mogelijk uitgevoerd moet worden."
 
 #: templates/CRM/Admin/Form/Job.tpl
 msgid "Leave blank to run at next run frequency."
-msgstr ""
+msgstr "Laat dit leeg om de taak uitvoeren volgens de geplande frequentie."
