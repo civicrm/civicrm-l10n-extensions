@@ -2,10 +2,14 @@
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# HanV <han.velthuis@home.nl>, 2020
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: emailamender\n"
 "POT-Creation-Date: 2020-02-08 05:01+0000\n"
+"Last-Translator: HanV <han.velthuis@home.nl>, 2020\n"
 "Language-Team: Dutch (https://www.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,83 +19,89 @@ msgstr ""
 
 #: CRM/Emailamender/Form/Task/Correctemailaddresses.php
 msgid "Correct Email Addresses"
-msgstr ""
+msgstr "E-mailadressen corrigeren"
 
 #: CRM/Emailamender/Page/EmailAmenderSettings.php
 msgid "Email Amender Settings"
-msgstr ""
+msgstr "Email Amender instellingen"
 
 #: CRM/Emailamender/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
-msgstr ""
+msgstr "Upgrade %1 naar versie %2"
 
 #: CRM/Emailamender.php
 msgid "Email Address Corrector"
-msgstr ""
+msgstr "E-mailadres corrector"
 
 #: api/v3/EmailAmender/UpdateCorrections.php
 msgid "Invalid domain amender setting update"
-msgstr ""
+msgstr "Ongeldige domein amender instelling wijziging"
 
 #: emailamender.php
 msgid "Email - correct email addresses"
-msgstr ""
+msgstr "E-mail - e-mailadressen corrigeren"
 
 #: settings/EmailAmender.setting.php
 msgid "Enable realtime email fixing for new emails"
-msgstr ""
+msgstr "Realtime e-mail correctie voor nieuwe e-mails inschakelen"
 
 #: settings/EmailAmender.setting.php
 msgid ""
 "Enable this to allow new emails to be amended on save according to "
 "configured rules. Existing updates not amended"
 msgstr ""
+"Schakel dit in om bij nieuwe e-mails verbeteringen volgens de ingestelde "
+"regels toe te staan bij het opslaan. Bij wijzigingen wordt er niet verbeterd"
 
 #: settings/EmailAmender.setting.php
 msgid "List of top level domains to correct"
-msgstr ""
+msgstr "Lijst van te corrigeren topleveldomeinen"
 
 #: settings/EmailAmender.setting.php
 msgid "Top level domains"
-msgstr ""
+msgstr "Topleveldomeinen"
 
 #: settings/EmailAmender.setting.php
 msgid "List of second level domains to correct"
-msgstr ""
+msgstr "Lijst van te corrigeren secondleveldomeinen"
 
 #: settings/EmailAmender.setting.php
 msgid "Second level domains"
-msgstr ""
+msgstr "Secondleveldomeinen"
 
 #: settings/EmailAmender.setting.php
 msgid "List of compound top level domains"
-msgstr ""
+msgstr "Lijst van samengestelde topleveldomeinen"
 
 #: settings/EmailAmender.setting.php
 msgid "Compound top level domains"
-msgstr ""
+msgstr "Samengestelde topleveldomeinen"
 
 #: settings/EmailAmender.setting.php
 msgid "List of equivalent domains"
-msgstr ""
+msgstr "Lijst van gelijkwaardige domeinen"
 
 #: settings/EmailAmender.setting.php
 msgid "Equivalent domains"
-msgstr ""
+msgstr "Gelijkwaardige domeinen"
 
 #: templates/CRM/Emailamender/Form/Task/Correctemailaddresses.tpl
 msgid ""
 "This will automatically correct incorrect email addresses attached to the "
 "contacts you've selected."
 msgstr ""
+"Hierdoor worden van de geselecteerde contacten automatisch verkeerde "
+"e-mailadressen gecorrigeerd. "
 
 #: templates/CRM/Emailamender/Form/Task/Correctemailaddresses.tpl
 msgid "An activity will be added to each contact recording what has changed."
 msgstr ""
+"Een wijziging wordt bij het betreffende contact als een activiteit "
+"vastgelegd."
 
 #: templates/CRM/Emailamender/Form/Task/Correctemailaddresses.tpl
 msgid "contacts are due to be processed."
-msgstr ""
+msgstr "contacten wachten op verwerking."
 
 #: templates/CRM/Emailamender/Page/EmailAmenderSettings.tpl
 msgid ""
@@ -101,14 +111,19 @@ msgid ""
 "    <strong>john@hotmail.com</strong>\n"
 "  "
 msgstr ""
+"Als de automatische e-mailcorrectie is aangevinkt, dan worden e-mailadressen automatisch gecorrigeerd als ze worden opgevoerd. Dus\n"
+"    <strong>john@hotmai.cpm</strong>\n"
+"    wordt gewijzigd in\n"
+"    <strong>john@hotmail.com</strong>\n"
+"  "
 
 #: templates/CRM/Emailamender/Page/EmailAmenderSettings.tpl
 msgid "Enable automatic email corrections."
-msgstr ""
+msgstr "Automatische e-mailcorrectie inschakelen."
 
 #: templates/CRM/Emailamender/Page/EmailAmenderSettings.tpl
 msgid "Compound Top Level Domain Names"
-msgstr ""
+msgstr "Samengestelde topleveldomein-namen"
 
 #: templates/CRM/Emailamender/Page/EmailAmenderSettings.tpl
 msgid ""
@@ -117,28 +132,32 @@ msgid ""
 "incorrect email address john@gmai.co.uk, we want to repair the 'gmai', not "
 "the 'co'."
 msgstr ""
+"\"Samengestelde\" topleveldomein-namen geven aan de secondleveldomein-naam "
+"meestal deel uitmaken van de top. Voorbeeld: bij het foute e-mailadres "
+"john@gmai.co.uk, is het de bedoeling om 'gmai' te corrigeren, het deel 'co' "
+"is correct."
 
 #: templates/CRM/Emailamender/Page/EmailAmenderSettings.tpl
 msgid "Delete this compound tld"
-msgstr ""
+msgstr "Verwijder dit samengestelde topleveldomein"
 
 #: templates/CRM/Emailamender/Page/EmailAmenderSettingsTable.tpl
 msgid "Incorrect Domain"
-msgstr ""
+msgstr "Foutief domein"
 
 #: templates/CRM/Emailamender/Page/EmailAmenderSettingsTable.tpl
 msgid "Replace with"
-msgstr ""
+msgstr "Vervangen door"
 
 #: templates/CRM/Emailamender/Page/EmailAmenderSettingsTable.tpl
 #: templates/CRM/Emailamender/Page/EquivalentsTable.tpl
 msgid "Options"
-msgstr ""
+msgstr "Opties"
 
 #: templates/CRM/Emailamender/Page/EmailAmenderSettingsTable.tpl
 #: templates/CRM/Emailamender/Page/EquivalentsTable.tpl
 msgid "Save changes"
-msgstr ""
+msgstr "Wijzigingen opslaan"
 
 #: templates/CRM/Emailamender/Page/EquivalentsTable.tpl
 msgid ""
@@ -161,11 +180,23 @@ msgid ""
 "  <br/><br/>\n"
 "  It does not change any existing data for a contact."
 msgstr ""
+"Als er een e-mail ontvangen wordt waarvan het adres niet bij een bestaand contact bekend is, wordt er normaal gesproken een nieuw contact toegevoegd met dat adres.\n"
+"  <br/><br/>\n"
+"  Maar sommige e-maildomeinen zijn gelijkwaardig en behoren eigenlijk bij hetzelfde account, bijv. user@<strong>gmail</strong>.com en\n"
+"  user@<strong>googlemail</strong>.com.\n"
+"  <br/><br/>\n"
+"  Als het exacte adres van de afzender van binnenkomende e-mail onbekend is bij een contact, dan worden er mogelijke gelijkwaardige waarden geprobeerd.\n"
+"  <br/><br/>\n"
+"  In de onderstaande tabel kunnen groepen worden aangemaakt van gelijkwaardige domeinen.\n"
+"  <br/><br/>\n"
+"  Omdat deze functie losstaat van het corrigeren van nieuwe adressen, valt het niet onder de optie 'Automatische e-mailcorrectie'.\n"
+"  <br/><br/>\n"
+"  Hierbij worden geen bestaande gegevens van contacten gewijzigd."
 
 #: templates/CRM/Emailamender/Page/EquivalentsTable.tpl
 msgid "Group identifier"
-msgstr ""
+msgstr "Groep-identifier"
 
 #: templates/CRM/Emailamender/Page/EquivalentsTable.tpl
 msgid "Equivalent domain"
-msgstr ""
+msgstr "Gelijkwaardig domein"
