@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
-"POT-Creation-Date: 2020-06-27 05:01+0000\n"
+"POT-Creation-Date: 2020-09-03 05:01+0000\n"
 "Last-Translator: Usha Matisson <matisson@makoa.fr>, 2020\n"
 "Language-Team: French (https://www.transifex.com/civicrm/teams/1905/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -290,14 +290,6 @@ msgstr ""
 #: CRM/CiviMobileAPI/DAO/LocationVenue.php api/v3/CiviMobileVenue.php
 #: templates/CRM/CiviMobileAPI/Page/ManageVenues.tpl
 msgid "Name"
-msgstr ""
-
-#: CRM/CiviMobileAPI/DAO/LocationVenue.php
-msgid "Attached file url"
-msgstr ""
-
-#: CRM/CiviMobileAPI/DAO/LocationVenue.php api/v3/CiviMobileVenue.php
-msgid "Attached file type"
 msgstr ""
 
 #: CRM/CiviMobileAPI/DAO/LocationVenue.php
@@ -585,8 +577,9 @@ msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid ""
-"Access to extension directory (%1) is denied. Please provide permission to "
-"access the extension directory"
+"Access to extension directory with all files or for directory with "
+"extensions is denied. Please provide permission to access the extension "
+"directory and directory with extensions."
 msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
@@ -741,10 +734,6 @@ msgstr ""
 msgid "Details"
 msgstr ""
 
-#: CRM/CiviMobileAPI/Form/Venue.php templates/CRM/CiviMobileAPI/Form/Venue.hlp
-msgid "Scheme"
-msgstr ""
-
 #: CRM/CiviMobileAPI/Form/Venue.php api/v3/CiviMobileVenue.php
 #: templates/CRM/CiviMobileAPI/Form/Venue.hlp
 msgid "Address"
@@ -753,6 +742,14 @@ msgstr ""
 #: CRM/CiviMobileAPI/Form/Venue.php
 #: templates/CRM/CiviMobileAPI/Page/ManageVenues.tpl
 msgid "Order"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Venue.php templates/CRM/CiviMobileAPI/Form/Venue.tpl
+msgid "Color"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Venue.php
+msgid "You can upload only PDF, PNG and JPEG files."
 msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Venue.php
@@ -782,23 +779,11 @@ msgid "Name length must be less than 255 characters."
 msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Venue.php
-msgid "Attached file url length must be less than 255 characters."
-msgstr ""
-
-#: CRM/CiviMobileAPI/Form/Venue.php
 msgid "Venue location length must be less than 255 characters."
 msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Venue.php
-msgid "You can upload only PDF, PNG and JPEG files."
-msgstr ""
-
-#: CRM/CiviMobileAPI/Form/Venue.php
 msgid "Venue with same name already exists for this location."
-msgstr ""
-
-#: CRM/CiviMobileAPI/Form/Venue.php
-msgid "Can`t upload file"
 msgstr ""
 
 #: CRM/CiviMobileAPI/Hook/BuildForm/Register.php
@@ -1170,12 +1155,8 @@ msgstr ""
 msgid "Location Id"
 msgstr ""
 
-#: api/v3/CiviMobileVenue.php api/v3/CiviMobileVenueAttachFile.php
-msgid "Venue Id"
-msgstr ""
-
 #: api/v3/CiviMobileVenue.php
-msgid "Attached file"
+msgid "Venue Id"
 msgstr ""
 
 #: api/v3/CiviMobileVenue.php
@@ -1458,6 +1439,10 @@ msgstr ""
 msgid ""
 "The Venue can be located at a different address than the event. The location"
 " map will be displayed using this field."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Venue.hlp
+msgid "Scheme"
 msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Venue.hlp
