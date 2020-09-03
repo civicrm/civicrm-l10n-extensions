@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
-"POT-Creation-Date: 2020-06-27 05:01+0000\n"
+"POT-Creation-Date: 2020-09-03 05:01+0000\n"
 "Last-Translator: HanV <han.velthuis@home.nl>, 2020\n"
 "Language-Team: Dutch (https://www.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -286,14 +286,6 @@ msgstr "EvenementSessie-id"
 #: templates/CRM/CiviMobileAPI/Page/ManageVenues.tpl
 msgid "Name"
 msgstr "Naam"
-
-#: CRM/CiviMobileAPI/DAO/LocationVenue.php
-msgid "Attached file url"
-msgstr "Bijlage bestand URL"
-
-#: CRM/CiviMobileAPI/DAO/LocationVenue.php api/v3/CiviMobileVenue.php
-msgid "Attached file type"
-msgstr "Bijlage bestandstype"
 
 #: CRM/CiviMobileAPI/DAO/LocationVenue.php
 msgid "Address Description"
@@ -579,11 +571,10 @@ msgstr "Uw extensie CiviMobile <strong>%1</strong> is actueel"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid ""
-"Access to extension directory (%1) is denied. Please provide permission to "
-"access the extension directory"
+"Access to extension directory with all files or for directory with "
+"extensions is denied. Please provide permission to access the extension "
+"directory and directory with extensions."
 msgstr ""
-"De toegang tot de map van de extensie (%1) is geweigerd. Geef toestemming om"
-" deze map te gebruiken"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Your Server Key is valid and you can use Push Notifications."
@@ -733,10 +724,6 @@ msgstr "Zaal-id bestaat niet."
 msgid "Details"
 msgstr "Details"
 
-#: CRM/CiviMobileAPI/Form/Venue.php templates/CRM/CiviMobileAPI/Form/Venue.hlp
-msgid "Scheme"
-msgstr "Schema"
-
 #: CRM/CiviMobileAPI/Form/Venue.php api/v3/CiviMobileVenue.php
 #: templates/CRM/CiviMobileAPI/Form/Venue.hlp
 msgid "Address"
@@ -746,6 +733,14 @@ msgstr "Adres"
 #: templates/CRM/CiviMobileAPI/Page/ManageVenues.tpl
 msgid "Order"
 msgstr "Volgorde"
+
+#: CRM/CiviMobileAPI/Form/Venue.php templates/CRM/CiviMobileAPI/Form/Venue.tpl
+msgid "Color"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Venue.php
+msgid "You can upload only PDF, PNG and JPEG files."
+msgstr "U kunt alleen bestanden van de types PDF, PNG en JPEG uploaden."
 
 #: CRM/CiviMobileAPI/Form/Venue.php
 msgid "Venue Not Found"
@@ -776,24 +771,12 @@ msgid "Name length must be less than 255 characters."
 msgstr "De lengte van de naam is maximaal 255 tekens."
 
 #: CRM/CiviMobileAPI/Form/Venue.php
-msgid "Attached file url length must be less than 255 characters."
-msgstr "De lengte van de URL van de bijlage is maximaal 255 tekens."
-
-#: CRM/CiviMobileAPI/Form/Venue.php
 msgid "Venue location length must be less than 255 characters."
 msgstr "De tekst van de locatie van de zaal is maximaal 255 tekens."
 
 #: CRM/CiviMobileAPI/Form/Venue.php
-msgid "You can upload only PDF, PNG and JPEG files."
-msgstr "U kunt alleen bestanden van de types PDF, PNG en JPEG uploaden."
-
-#: CRM/CiviMobileAPI/Form/Venue.php
 msgid "Venue with same name already exists for this location."
 msgstr "Er bestaat al een zaal met die naam op deze locatie."
-
-#: CRM/CiviMobileAPI/Form/Venue.php
-msgid "Can`t upload file"
-msgstr "Uploaden bestand is mislukt"
 
 #: CRM/CiviMobileAPI/Hook/BuildForm/Register.php
 msgid ""
@@ -1172,13 +1155,9 @@ msgstr "Deelnemer-id"
 msgid "Location Id"
 msgstr "Locatie-id"
 
-#: api/v3/CiviMobileVenue.php api/v3/CiviMobileVenueAttachFile.php
+#: api/v3/CiviMobileVenue.php
 msgid "Venue Id"
 msgstr "Zaal-id"
-
-#: api/v3/CiviMobileVenue.php
-msgid "Attached file"
-msgstr "Bijlage"
 
 #: api/v3/CiviMobileVenue.php
 msgid "Address_description"
@@ -1489,6 +1468,10 @@ msgid ""
 msgstr ""
 "De zaal kan op een andere plek zijn dan het evenement. De zaal wordt op de "
 "kaart aangegeven."
+
+#: templates/CRM/CiviMobileAPI/Form/Venue.hlp
+msgid "Scheme"
+msgstr "Schema"
 
 #: templates/CRM/CiviMobileAPI/Form/Venue.hlp
 msgid ""
