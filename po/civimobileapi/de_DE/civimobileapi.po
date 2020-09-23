@@ -3,14 +3,14 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Torben Bertram, 2020
 # lbl_knts <git@rlkd.de>, 2020
+# Torben Bertram, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
 "POT-Creation-Date: 2020-09-03 05:01+0000\n"
-"Last-Translator: lbl_knts <git@rlkd.de>, 2020\n"
+"Last-Translator: Torben Bertram, 2020\n"
 "Language-Team: German (https://www.transifex.com/civicrm/teams/1905/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,14 +26,16 @@ msgstr "Veranstaltungsort existiert nicht"
 msgid ""
 "Venue does not exists in session and session is outside of timeframe event"
 msgstr ""
+"Veranstaltungsort existiert nicht in der Einzelveranstaltung und die "
+"Einzelveranstaltung ist außerhalb des Veranstaltungszeitrahmens."
 
 #: CRM/CiviMobileAPI/Api/CiviMobileEventSession/Get.php
 msgid "Session is outside of timeframe event"
-msgstr ""
+msgstr "Die Einzelveranstaltung ist außerhalb des Veranstaltungszeitrahmens."
 
 #: CRM/CiviMobileAPI/Api/CiviMobileEventSession/Get.php
 msgid "Session is ready to use"
-msgstr ""
+msgstr "Einzelveranstaltung ist bereits in Verwendung."
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPayment/Create.php
 #: CRM/CiviMobileAPI/ApiWrapper/Participant/Create.php
@@ -375,6 +377,7 @@ msgstr "Nicht gefunden"
 msgid ""
 "If you want to fill Agenda, you need to add the location for the event."
 msgstr ""
+"Wenn Sie eine Agenda möchten, müssen Sie einen Veranstaltungsort hinzufügen."
 
 #: CRM/CiviMobileAPI/Form/Agenda.php api/v3/CiviMobileEventSession.php
 msgid "Speaker"
@@ -389,7 +392,7 @@ msgstr ""
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
 #: templates/CRM/CiviMobileAPI/Form/Session.hlp
 msgid "Venue"
-msgstr ""
+msgstr "Veranstaltungsort"
 
 #: CRM/CiviMobileAPI/Form/Agenda.php
 msgid "Name include"
@@ -472,7 +475,7 @@ msgstr "Speichern und weiter"
 
 #: CRM/CiviMobileAPI/Form/Session.php
 msgid "The Session was successfully created!"
-msgstr ""
+msgstr "Einzelveranstaltung erfolgreich erstellt!"
 
 #: CRM/CiviMobileAPI/Form/Session.php
 msgid "Success"
@@ -480,11 +483,11 @@ msgstr "Erfolg"
 
 #: CRM/CiviMobileAPI/Form/Session.php
 msgid "The Session was successfully updated!"
-msgstr ""
+msgstr "Einzelveranstaltung erfolgreich bearbeitet!"
 
 #: CRM/CiviMobileAPI/Form/Session.php
 msgid "The Session was not deleted!"
-msgstr ""
+msgstr "Einzelveranstaltung wurde nicht gelöscht!"
 
 #: CRM/CiviMobileAPI/Form/Session.php CRM/CiviMobileAPI/Form/Speaker.php
 msgid "Error"
@@ -492,7 +495,7 @@ msgstr "Fehler"
 
 #: CRM/CiviMobileAPI/Form/Session.php
 msgid "The Session was successfully deleted!"
-msgstr ""
+msgstr "Einzelveranstaltung wurde erfolgreich gelöscht!"
 
 #: CRM/CiviMobileAPI/Form/Session.php
 msgid "Invalid eventId parameter."
@@ -512,7 +515,7 @@ msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Session.php
 msgid "Event Session duration can`t be less than 15 min."
-msgstr ""
+msgstr "Einzelveranstaltung können nicht kürzer als 15 Min. sein."
 
 #: CRM/CiviMobileAPI/Form/Session.php
 msgid "Some speakers does not exists."
@@ -521,6 +524,8 @@ msgstr ""
 #: CRM/CiviMobileAPI/Form/Session.php
 msgid "Some speakers are busy on other Event Session at this time."
 msgstr ""
+"Manche Referenten sind zu dieser Zeit schon in anderen Einzelveranstaltungen"
+" beschäftigt. "
 
 #: CRM/CiviMobileAPI/Form/Session.php
 msgid "Venue does not exists."
@@ -529,6 +534,8 @@ msgstr ""
 #: CRM/CiviMobileAPI/Form/Session.php
 msgid "Venue is booked on other Event Session at this time."
 msgstr ""
+"Veranstaltungsort ist zu dieser Zeit schon von einer Einzelveranstaltungen "
+"gebucht. "
 
 #: CRM/CiviMobileAPI/Form/Session.php
 msgid "Venue is required."
@@ -704,12 +711,12 @@ msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Venue.php templates/CRM/CiviMobileAPI/Form/Venue.hlp
 msgid "Details"
-msgstr ""
+msgstr "Details"
 
 #: CRM/CiviMobileAPI/Form/Venue.php api/v3/CiviMobileVenue.php
 #: templates/CRM/CiviMobileAPI/Form/Venue.hlp
 msgid "Address"
-msgstr ""
+msgstr "Adresse"
 
 #: CRM/CiviMobileAPI/Form/Venue.php
 #: templates/CRM/CiviMobileAPI/Page/ManageVenues.tpl
@@ -737,6 +744,8 @@ msgid ""
 "This Venue is used in the session. To remove it, first remove it from the "
 "session."
 msgstr ""
+"Veranstaltungsort ist von einer Einzelveranstaltungen gebucht. Bitte erst "
+"die Einzelveranstaltung entfernen. "
 
 #: CRM/CiviMobileAPI/Form/Venue.php
 msgid "Venue is used"
@@ -773,11 +782,11 @@ msgstr ""
 
 #: CRM/CiviMobileAPI/Install/Entity/CustomField.php
 msgid "Is qr code used for this Event?"
-msgstr ""
+msgstr "Ist QR-Code für dieses Event in Benutzung?"
 
 #: CRM/CiviMobileAPI/Install/Entity/CustomField.php
 msgid "QR Event id"
-msgstr ""
+msgstr "QR Event ID"
 
 #: CRM/CiviMobileAPI/Install/Entity/CustomField.php
 msgid "Qr hash code"
@@ -892,22 +901,22 @@ msgstr ""
 #: CRM/CiviMobileAPI/PushNotification/Utils/Hook/PostProcess/CasePushNotification.php
 #: CRM/CiviMobileAPI/PushNotification/Utils/Hook/Pre/ActivityPushNotification.php
 msgid "Activity"
-msgstr ""
+msgstr "Aktivität"
 
 #: CRM/CiviMobileAPI/PushNotification/Utils/Hook/Post/CasePushNotification.php
 #: CRM/CiviMobileAPI/PushNotification/Utils/Hook/Pre/CasePushNotification.php
 msgid "Case"
-msgstr ""
+msgstr "Fall"
 
 #: CRM/CiviMobileAPI/PushNotification/Utils/Hook/Post/ParticipantPushNotification.php
 #: CRM/CiviMobileAPI/PushNotification/Utils/Hook/PostProcess/ParticipantPushNotification.php
 #: CRM/CiviMobileAPI/PushNotification/Utils/Hook/Pre/ParticipantPushNotification.php
 msgid "Participant"
-msgstr ""
+msgstr "Teilnehmer"
 
 #: CRM/CiviMobileAPI/PushNotification/Utils/Hook/Post/RelationshipPushNotification.php
 msgid "Relationship"
-msgstr ""
+msgstr "Beziehung"
 
 #: CRM/CiviMobileAPI/Upgrader/Base.php CRM/CiviMobileAPI/Utils/Extension.php
 msgid "Upgrade %1 to revision %2"
@@ -1117,7 +1126,7 @@ msgstr ""
 
 #: api/v3/CiviMobilePublicParticipant.php
 msgid "Public key."
-msgstr ""
+msgstr "Public key."
 
 #: api/v3/CiviMobileSpeaker.php
 msgid "Participant ID"
@@ -1145,7 +1154,7 @@ msgstr "Hintergrundfarbe"
 
 #: api/v3/PushNotificationEventReminder.php
 msgid "Event start at"
-msgstr ""
+msgstr "Veranstaltung beginnt"
 
 #: api/v3/PushNotificationMessages.php
 msgid "Direction"
@@ -1164,6 +1173,8 @@ msgid ""
 "It means User can only update Participant status to 'Registered' or "
 "'Attended'. Uses by QR Code."
 msgstr ""
+"Heißt, der Nutzer kann Teilnehmer zu 'Registriert' oder 'Teilgenommen' "
+"updaten. Wird von QR-Codes benutzt."
 
 #: civimobileapi.php
 msgid "View Agenda."
@@ -1175,7 +1186,7 @@ msgstr ""
 
 #: civimobileapi.php
 msgid "When generating QR Code tokens, use this Event"
-msgstr ""
+msgstr "Diese Veranstaltung für die Generierung von QR-Code-Token benutzen"
 
 #: settings/civimobileapi.setting.php
 msgid "Shows certain activity types on the calendar"
@@ -1203,26 +1214,30 @@ msgid ""
 "multi-day upcoming event with detailed session information, like session "
 "start/end time, topic, speaker profiles and venue."
 msgstr ""
+"Agenda Veranstaltungsdetails. Es zeigt den Zeitplan einer ein- oder "
+"mehrtägigen, zukünftigen Veranstaltung mit detaillierten Informationen wie "
+"Einzelveranstaltungen, Start/End-Zeiten, Themen, Referentenprofilen und "
+"Veranstaltungsorten."
 
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
 msgid "Read more"
-msgstr ""
+msgstr "Mehr lesen"
 
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
 msgid "Show Event Agenda:"
-msgstr ""
+msgstr "Zeige Agenda:"
 
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
 msgid "You can fill the Agenda and when you finish it, just turn it on."
-msgstr ""
+msgstr "Du kannst die Agenda füllen und am Ende einfach aktivieren."
 
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
 msgid "Sessions"
-msgstr ""
+msgstr "Einzelveranstaltungen"
 
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
 msgid "Venues"
-msgstr ""
+msgstr "Veranstaltungsorte"
 
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
 msgid ""
@@ -1231,36 +1246,43 @@ msgid ""
 "like a keynote or a workshop. Every session includes a location and "
 "speakers."
 msgstr ""
+"Die Agenda besteht aus Einzelveranstaltungen, welche die Basisbausteine für "
+"den Veranstaltungsplan darstellen. Eine typische Einzelveranstaltung ist "
+"üblicherweise eine Keynote oder ein Workshop. Jede Einzelveranstaltung "
+"umfasst einen Veranstaltungsort und einen Referenten."
 
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
 msgid "Filter by Session"
-msgstr ""
+msgstr "Nach Einzelveranstaltungen filtern"
 
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
 msgid "Session"
-msgstr ""
+msgstr "Einzelveranstaltung"
 
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
 msgid "Time"
-msgstr ""
+msgstr "Zeit"
 
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: templates/CRM/CiviMobileAPI/Form/EventLocations.tpl
 msgid "Locations"
-msgstr ""
+msgstr "Orte"
 
 #: templates/CRM/CiviMobileAPI/Form/EventLocations.tpl
 msgid "Manage Venues"
-msgstr ""
+msgstr "Veranstaltungsorte verwalten"
 
 #: templates/CRM/CiviMobileAPI/Form/Session.hlp
 msgid ""
 "Event participant who gives speeches, runs discussions on an event session "
 "topic. Any participant could be a speaker."
 msgstr ""
+"Veranstaltungsteilnehmer, die Redebeiträge geben oder an Diskussionen in den"
+" Einzelveranstaltungen beteiligt sind. Jeder Teilnehmer kann ein Referent "
+"sein."
 
 #: templates/CRM/CiviMobileAPI/Form/Session.hlp
 msgid ""
@@ -1297,7 +1319,7 @@ msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "Server Key"
-msgstr ""
+msgstr "Server Key"
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "Server Key is used for security purposes for Push Notifications"
@@ -1320,7 +1342,7 @@ msgstr ""
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "Software update"
-msgstr ""
+msgstr "Software update"
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid ""
@@ -1372,7 +1394,7 @@ msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "Version"
-msgstr ""
+msgstr "Version"
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "Extension name doesn't correct"
@@ -1407,6 +1429,8 @@ msgid ""
 "The Venue can be located at a different address than the event. The location"
 " map will be displayed using this field."
 msgstr ""
+"Ein Einzelveranstaltungsort kann an einer anderen Adresse sein als die der "
+"Veranstaltung. Die Karte zeigt die Veranstaltungsorte an."
 
 #: templates/CRM/CiviMobileAPI/Form/Venue.hlp
 msgid "Scheme"
@@ -1421,16 +1445,21 @@ msgstr ""
 #: templates/CRM/CiviMobileAPI/Form/Venue.hlp
 msgid "Short tips on how to get to the Venue (pin codes, floors, etc.)."
 msgstr ""
+"Kurzer Hinweis, wie man zum Veranstaltungsort gelangt (pin codes, Stockwerk,"
+" etc.)."
 
 #: templates/CRM/CiviMobileAPI/Form/Venue.tpl
 msgid "Location"
-msgstr ""
+msgstr "Ort"
 
 #: templates/CRM/CiviMobileAPI/Page/ManageVenues.tpl
 msgid ""
 "Venues are used to group sessions by a topic or a theme and can be located "
 "in a different address than the event."
 msgstr ""
+"Veranstaltungsorte werden benutzt, um Einzelveranstaltungen zu gruppieren "
+"nach Thema oder Gebiet und sie können abweichende Adressen als die "
+"Hauptveranstaltung haben."
 
 #: templates/CRM/CiviMobileAPI/Page/ManageVenues.tpl
 msgid "Is active ?"
@@ -1440,6 +1469,8 @@ msgstr "Ist aktiv?"
 msgid ""
 "If you want to create venues, you need to add the location for the event."
 msgstr ""
+"Wenn Sie Veranstaltungsorte für Einzelveranstaltungen anlegen möchten, dann "
+"müssen Sie einen Veranstaltungsort für die Haupt-Veranstaltung angeben. "
 
 #: templates/CRM/CiviMobileAPI/Page/Speakers.tpl
 msgid ""
@@ -1447,6 +1478,9 @@ msgid ""
 "one of the sessions. By editing the speakers you can fill in the detailed "
 "information (bio, photo, ...) about the person who will lead the session."
 msgstr ""
+"Die Liste der Referenten besteht aus den Teilnehmern, welche in einer der "
+"Einzelveranstaltungen involviert sind. Sie können detaillierte Informationen"
+" (Bio, Foto, ...) über die jeweilige Referenten eintragen."
 
 #: templates/CRM/CiviMobileAPI/Page/Speakers.tpl
 msgid "Display Name"
@@ -1462,6 +1496,9 @@ msgid ""
 "event. It is not possible to tick the QR Code generation when you edit this "
 "event."
 msgstr ""
+"Die Erstellung von QR-Codes ist nur verfügbar, wenn Sie eine Veranstaltung "
+"anlegen. Es ist nicht möglich, diese Option auszuwählen, wenn eine "
+"Veranstaltung bearbeitet wird."
 
 #: templates/qrcode-checkin-event-options.tpl
 msgid ""
@@ -1469,3 +1506,6 @@ msgid ""
 "USER. If the permission isn`t available ANONYMOUS USER will not be able to "
 "upload QR Code from public event."
 msgstr ""
+"Bitte die Berechtigung \"CiviCRM: access uploaded files\" für ANONYMOUS USER"
+" prüfen. Ist die Berechtigung nicht erteilt, dann kann ANONYMOUS USER keinen"
+" QR-Code zu einer veröffentlichten Veranstaltung hochladen. "
