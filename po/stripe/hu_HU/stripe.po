@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2020-07-10 05:01+0000\n"
-"PO-Revision-Date: 2020-07-10 05:01+0000\n"
+"POT-Creation-Date: 2020-09-29 05:01+0000\n"
+"PO-Revision-Date: 2020-09-29 05:01+0000\n"
 "Last-Translator: CiviCRM Maintenance\n"
 "Language-Team: Hungarian (http://www.transifex.com/civicrm/civicrm_extensions/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -15,10 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: CRM/Core/Payment/Stripe.php
-msgid "Contribution: %1"
-msgstr ""
 
 #: CRM/Core/Payment/Stripe.php
 msgid "Successfully cancelled the subscription in CiviCRM ONLY."
@@ -60,12 +56,13 @@ msgstr ""
 
 #: CRM/Stripe/Check.php
 msgid ""
-"The Stripe extension requires the mjwshared extension which is not installed"
-" (https://lab.civicrm.org/extensions/mjwshared)."
+"The <em>%1</em> extension requires the <em>Payment Shared</em> extension "
+"which is not installed. See <a href=\"%2\" target=\"_blank\">details</a> for"
+" more information."
 msgstr ""
 
 #: CRM/Stripe/Check.php
-msgid "Stripe: Missing Requirements"
+msgid "%1: Missing Requirements"
 msgstr ""
 
 #: CRM/Stripe/Check.php
@@ -96,12 +93,110 @@ msgstr ""
 
 #: CRM/Stripe/Check.php
 msgid ""
-"The Stripe extension requires the %1 extension version %2 or greater but "
-"your system has version %3."
+"The %1 extension requires the %2 extension version %3 or greater but your "
+"system has version %4."
 msgstr ""
 
 #: CRM/Stripe/Check.php
 msgid "Upgrade now"
+msgstr ""
+
+#: CRM/Stripe/Check.php
+msgid ""
+"Stripe does not support \"Separate Membership Payment\" on contribution pages but you have one or more contribution pages with\n"
+"                that setting enabled and Stripe as the payment processor (found on contribution page ID: %1)."
+msgstr ""
+
+#: CRM/Stripe/Check.php
+msgid "Stripe: Invalid configuration"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "Stripe Paymentintents"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "Unique ID"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "PaymentIntent ID"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "The PaymentIntent ID"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php api/v3/StripeSubscription.php
+msgid "Contribution ID"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "FK ID from civicrm_contribution"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "Payment Processor"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "Foreign key to civicrm_payment_processor.id"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "Description"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "Description of this paymentIntent"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "Status"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "The status of the paymentIntent"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "Identifier"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid ""
+"An identifier that we can use in CiviCRM to find the paymentIntent if we do "
+"not have the ID (eg. session key)"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "FK to Contact"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "Created Date"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "When was paymentIntent created"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "Flags"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid ""
+"Flags associated with this PaymentIntent (NC=no contributionID when "
+"doPayment called)"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "Referrer"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "HTTP referrer of this paymentIntent"
 msgstr ""
 
 #: CRM/Stripe/Form/UpdateWebhook.php
@@ -110,6 +205,14 @@ msgstr ""
 
 #: CRM/Stripe/Form/UpdateWebhook.php
 msgid "All webhooks update successfully."
+msgstr ""
+
+#: CRM/Stripe/Recur.php
+msgid "Now"
+msgstr ""
+
+#: CRM/Stripe/Recur.php
+msgid "Start date"
 msgstr ""
 
 #: CRM/Stripe/Upgrader/Base.php
@@ -239,6 +342,30 @@ msgid ""
 "customers"
 msgstr ""
 
+#: api/v3/StripePaymentintent.php
+msgid "Stripe generated code used to create a payment intent."
+msgstr ""
+
+#: api/v3/StripePaymentintent.php
+msgid "The payment intent id itself, if available."
+msgstr ""
+
+#: api/v3/StripePaymentintent.php
+msgid "The payment amount."
+msgstr ""
+
+#: api/v3/StripePaymentintent.php
+msgid "Whether we should try to capture the amount, not just confirm it."
+msgstr ""
+
+#: api/v3/StripePaymentintent.php
+msgid "Describe the payment."
+msgstr ""
+
+#: api/v3/StripePaymentintent.php
+msgid "The stripe payment processor id."
+msgstr ""
+
 #: api/v3/StripeSubscription.php
 msgid "Stripe Subscription ID"
 msgstr ""
@@ -256,15 +383,31 @@ msgid "Contact ID"
 msgstr ""
 
 #: api/v3/StripeSubscription.php
-msgid "Contribution ID"
-msgstr ""
-
-#: api/v3/StripeSubscription.php
 msgid "Membership ID"
 msgstr ""
 
 #: api/v3/StripeSubscription.php
 msgid "Link to existing membership automatically"
+msgstr ""
+
+#: js/civicrmStripeConfirm.js
+msgid "Payment successful"
+msgstr ""
+
+#: js/civicrmStripeConfirm.js
+msgid "Please wait..."
+msgstr ""
+
+#: js/civicrmStripeConfirm.js js/civicrm_stripe.js js/recur_start.js
+msgid "com.drastikbydesign.stripe"
+msgstr ""
+
+#: js/civicrm_stripe.js
+msgid "Please wait"
+msgstr ""
+
+#: js/civicrm_stripe.js
+msgid " while we pre-authorize your card..."
 msgstr ""
 
 #: js/civicrm_stripe.js
@@ -281,6 +424,20 @@ msgstr ""
 
 #: js/civicrm_stripe.js
 msgid "Please complete the reCaptcha"
+msgstr ""
+
+#: js/civicrm_stripe.js
+msgid ""
+"Could not load payment element - Is there a problem with your network "
+"connection?"
+msgstr ""
+
+#: js/recur_start.js
+msgid "Your membership payment will start on %1"
+msgstr ""
+
+#: js/recur_start.js
+msgid "Your recurring contribution will start on %1"
 msgstr ""
 
 #: settings/stripe.setting.php
@@ -303,6 +460,14 @@ msgid ""
 msgstr ""
 
 #: settings/stripe.setting.php
+msgid "Enable Stripe IPN (Webhook) debugging?"
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid "Enables debugging to CiviCRM log for IPN / webhook issues."
+msgstr ""
+
+#: settings/stripe.setting.php
 msgid "Disable billing address fields (Experimental)"
 msgstr ""
 
@@ -311,6 +476,24 @@ msgid ""
 "Disable the fixed billing address fields block. Historically this was "
 "required by CiviCRM but since Stripe 6.x the stripe element collects "
 "everything it requires to make payment."
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid "Enable public selection of future recurring start dates for intervals"
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid ""
+"Allow public selection of start date for a recurring contribution for "
+"intervals"
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid "Restrict allowable days of the month for Recurring Contributions"
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid "Restrict allowable days of the month"
 msgstr ""
 
 #: stripe.php
