@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mjwshared\n"
-"POT-Creation-Date: 2020-07-10 05:01+0000\n"
+"POT-Creation-Date: 2020-09-29 05:01+0000\n"
 "Last-Translator: HanV <han.velthuis@home.nl>, 2020\n"
 "Language-Team: Dutch (https://www.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -16,6 +16,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: CRM/Core/Payment/MJWTrait.php
+msgid "Contribution: %1"
+msgstr ""
 
 #: CRM/Core/Payment/MJWTrait.php
 msgid "Unable to complete payment! Missing %1."
@@ -48,6 +52,10 @@ msgid "Recommended Extension: minifier"
 msgstr "Aanbevolen extensie: minifier"
 
 #: CRM/Mjwshared/Check.php
+msgid "Install now"
+msgstr ""
+
+#: CRM/Mjwshared/Check.php
 msgid ""
 "If you are using Drupal webform_civicrm to accept payments you should download and install the\n"
 "            <strong><a href=\"https://civicrm.org/extensions/contribution-transact-api\">contributiontransactlegacy</a></strong> extension.\n"
@@ -61,18 +69,6 @@ msgid "Recommended Extension: contributiontransactlegacy"
 msgstr "Aanbevolen extensie: contributiontransactlegacy"
 
 #: api/v3/Mjwpayment.php
-msgid "Contribution ID"
-msgstr "Contributie-id"
-
-#: api/v3/Mjwpayment.php
-msgid "Entity Table"
-msgstr "Entiteitstabel"
-
-#: api/v3/Mjwpayment.php
-msgid "Entity ID"
-msgstr "Entiteit-id"
-
-#: api/v3/Mjwpayment.php
 msgid "Transaction ID"
 msgstr "Transactie-id"
 
@@ -80,6 +76,14 @@ msgstr "Transactie-id"
 msgid "Transaction id supplied by external processor. This may not be unique."
 msgstr ""
 "Transactie-id is bepaald door een extern proces. Mogelijk is het niet uniek."
+
+#: api/v3/Mjwpayment.php
+msgid "Contribution ID"
+msgstr "Contributie-id"
+
+#: api/v3/Mjwpayment.php
+msgid "Entity ID"
+msgstr "Entiteit-id"
 
 #: api/v3/Mjwpayment.php
 msgid "Payment Date"
