@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
 "POT-Creation-Date: 2020-09-29 05:01+0000\n"
-"PO-Revision-Date: 2020-09-29 05:01+0000\n"
-"Last-Translator: CiviCRM Maintenance\n"
+"PO-Revision-Date: 2020-10-07 19:07+0000\n"
+"Last-Translator: HanV <han.velthuis@home.nl>\n"
 "Language-Team: Dutch (http://www.transifex.com/civicrm/civicrm_extensions/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -60,11 +60,11 @@ msgid ""
 "The <em>%1</em> extension requires the <em>Payment Shared</em> extension "
 "which is not installed. See <a href=\"%2\" target=\"_blank\">details</a> for"
 " more information."
-msgstr ""
+msgstr "Bij de extensie <em>%1</em> moet de extensie <em>Payment Shared</em> geïnstalleerd zijn. <a href=\"%2\" target=\"_blank\">Details</a>."
 
 #: CRM/Stripe/Check.php
 msgid "%1: Missing Requirements"
-msgstr ""
+msgstr "%1: Ontbrekende vereiste onderdelen"
 
 #: CRM/Stripe/Check.php
 msgid "Install now"
@@ -96,7 +96,7 @@ msgstr "Aanbevolen extensie: sweetalert"
 msgid ""
 "The %1 extension requires the %2 extension version %3 or greater but your "
 "system has version %4."
-msgstr ""
+msgstr "De extensie %1 vereist van extensie %2 versie %3 of nieuwer, maar uw systeem heeft versie %4."
 
 #: CRM/Stripe/Check.php
 msgid "Upgrade now"
@@ -106,27 +106,27 @@ msgstr "Nu upgraden"
 msgid ""
 "Stripe does not support \"Separate Membership Payment\" on contribution pages but you have one or more contribution pages with\n"
 "                that setting enabled and Stripe as the payment processor (found on contribution page ID: %1)."
-msgstr ""
+msgstr "Stripe ondersteunt de instelling \"Separate Membership Payment\" op bijdragepagina's niet maar die zijn er nu wel met Stripe als \n                betaalmethode (gevonden op bijdragepagina ID: %1)."
 
 #: CRM/Stripe/Check.php
 msgid "Stripe: Invalid configuration"
-msgstr ""
+msgstr "Stripe: Ongeldige configuratie"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "Stripe Paymentintents"
-msgstr ""
+msgstr "Stripe Betalings-intenties"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "Unique ID"
-msgstr ""
+msgstr "Uniek-id"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "PaymentIntent ID"
-msgstr ""
+msgstr "Betalings-intentie-id"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "The PaymentIntent ID"
-msgstr ""
+msgstr "Het Betalings-intentie-id"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php api/v3/StripeSubscription.php
 msgid "Contribution ID"
@@ -134,71 +134,71 @@ msgstr "Contributie-id"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "FK ID from civicrm_contribution"
-msgstr ""
+msgstr "FK ID van civicrm_contribution"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "Payment Processor"
-msgstr ""
+msgstr "Betaalmethode"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "Foreign key to civicrm_payment_processor.id"
-msgstr ""
+msgstr "FK naar civicrm_payment_processor.id"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "Description"
-msgstr ""
+msgstr "Beschrijving"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "Description of this paymentIntent"
-msgstr ""
+msgstr "Beschrijving betalings-intentie"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "The status of the paymentIntent"
-msgstr ""
+msgstr "Status betalings-intentie"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "Identifier"
-msgstr ""
+msgstr "Identifier"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid ""
 "An identifier that we can use in CiviCRM to find the paymentIntent if we do "
 "not have the ID (eg. session key)"
-msgstr ""
+msgstr "Een identifier die we kunnen gebruiken in CiviCRM om de betalings-intentie te vinden als het ID niet bekend is (bijv. session-key)"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "FK to Contact"
-msgstr ""
+msgstr "FK naar Contact"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "Created Date"
-msgstr ""
+msgstr "Aanmaakdatum"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "When was paymentIntent created"
-msgstr ""
+msgstr "Wanneer de betalings-intentie is aangemaakt"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "Flags"
-msgstr ""
+msgstr "Vlaggen"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid ""
 "Flags associated with this PaymentIntent (NC=no contributionID when "
 "doPayment called)"
-msgstr ""
+msgstr "Vlag behorend bij deze betalings-intentie (NC=geen contributie-ID bij aanroep doPayment)"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "Referrer"
-msgstr ""
+msgstr "Referrer"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "HTTP referrer of this paymentIntent"
-msgstr ""
+msgstr "HTTP-referrer van deze betalings-intentie"
 
 #: CRM/Stripe/Form/UpdateWebhook.php
 msgid "Update / Create webhook"
@@ -210,11 +210,11 @@ msgstr "Alle webhooks zijn bijgewerkt."
 
 #: CRM/Stripe/Recur.php
 msgid "Now"
-msgstr ""
+msgstr "Nu"
 
 #: CRM/Stripe/Recur.php
 msgid "Start date"
-msgstr ""
+msgstr "Startdatum"
 
 #: CRM/Stripe/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
@@ -345,27 +345,27 @@ msgstr "Indien gezet wordt alleen gegevens van deze klant gewijzigd, anders van 
 
 #: api/v3/StripePaymentintent.php
 msgid "Stripe generated code used to create a payment intent."
-msgstr ""
+msgstr "Door Stripe gegenereerde code die gebruikt wordt om een betalings-intentie aan te maken."
 
 #: api/v3/StripePaymentintent.php
 msgid "The payment intent id itself, if available."
-msgstr ""
+msgstr "Het betaling-intentie-id, indien beschikbaar."
 
 #: api/v3/StripePaymentintent.php
 msgid "The payment amount."
-msgstr ""
+msgstr "Het bedrag."
 
 #: api/v3/StripePaymentintent.php
 msgid "Whether we should try to capture the amount, not just confirm it."
-msgstr ""
+msgstr "Of we het bedrag moeten innen, niet alleen bevestigen."
 
 #: api/v3/StripePaymentintent.php
 msgid "Describe the payment."
-msgstr ""
+msgstr "Beschrijving van betaling."
 
 #: api/v3/StripePaymentintent.php
 msgid "The stripe payment processor id."
-msgstr ""
+msgstr "Stripe betaalmethode-id."
 
 #: api/v3/StripeSubscription.php
 msgid "Stripe Subscription ID"
@@ -393,23 +393,23 @@ msgstr "Automatisch linken naar bestaand lidmaatschap"
 
 #: js/civicrmStripeConfirm.js
 msgid "Payment successful"
-msgstr ""
+msgstr "Betaling geslaagd"
 
 #: js/civicrmStripeConfirm.js
 msgid "Please wait..."
-msgstr ""
+msgstr "Even wachten..."
 
 #: js/civicrmStripeConfirm.js js/civicrm_stripe.js js/recur_start.js
 msgid "com.drastikbydesign.stripe"
-msgstr ""
+msgstr "com.drastikbydesign.stripe"
 
 #: js/civicrm_stripe.js
 msgid "Please wait"
-msgstr ""
+msgstr "Even wachten"
 
 #: js/civicrm_stripe.js
 msgid " while we pre-authorize your card..."
-msgstr ""
+msgstr " we doen een eerste controle van uw kaart..."
 
 #: js/civicrm_stripe.js
 msgid "Please check and fill in all required fields!"
@@ -431,15 +431,15 @@ msgstr "Gebruik a.u.b. reCaptcha"
 msgid ""
 "Could not load payment element - Is there a problem with your network "
 "connection?"
-msgstr ""
+msgstr "Het laden van een betalingsonderdeel is mislukt. Heeft u een probleem met de internetverbinding?"
 
 #: js/recur_start.js
 msgid "Your membership payment will start on %1"
-msgstr ""
+msgstr "De betaling voor uw lidmaatschap start op %1"
 
 #: js/recur_start.js
 msgid "Your recurring contribution will start on %1"
-msgstr ""
+msgstr "De periodieke betaling voor uw lidmaatschap start op %1"
 
 #: settings/stripe.setting.php
 msgid "Allow Stripe to send a receipt for one-off payments?"
@@ -462,11 +462,11 @@ msgstr "Debug logging naar webbrowser console inschakelen voor Stripe betaalmeth
 
 #: settings/stripe.setting.php
 msgid "Enable Stripe IPN (Webhook) debugging?"
-msgstr ""
+msgstr "Stripe IPN (Webhook) debugging inschakelen?"
 
 #: settings/stripe.setting.php
 msgid "Enables debugging to CiviCRM log for IPN / webhook issues."
-msgstr ""
+msgstr "Schakelt debugging naar CiviCRM-log in voor het oplossen van problemen met IPN / webhook."
 
 #: settings/stripe.setting.php
 msgid "Disable billing address fields (Experimental)"
@@ -481,21 +481,21 @@ msgstr "Schakel het vaste blok met factuuradresgegevens uit. Dit blok was ooit n
 
 #: settings/stripe.setting.php
 msgid "Enable public selection of future recurring start dates for intervals"
-msgstr ""
+msgstr "Schakelt openbare selectie van toekomstige periodieke startdatums in voor intervallen"
 
 #: settings/stripe.setting.php
 msgid ""
 "Allow public selection of start date for a recurring contribution for "
 "intervals"
-msgstr ""
+msgstr "Openbare selectie van toekomstige periodieke startdatums toestaan voor intervallen"
 
 #: settings/stripe.setting.php
 msgid "Restrict allowable days of the month for Recurring Contributions"
-msgstr ""
+msgstr "Beperk de toegestane maanddagen voor periodieke bijdragen"
 
 #: settings/stripe.setting.php
 msgid "Restrict allowable days of the month"
-msgstr ""
+msgstr "Toegestane maanddagen beperken"
 
 #: stripe.php
 msgid "Stripe Settings"
