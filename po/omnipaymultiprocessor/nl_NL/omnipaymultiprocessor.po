@@ -1,4 +1,4 @@
-# Copyright CiviCRM LLC (c) 2004-2014
+# Copyright CiviCRM LLC (c) 2004-2015
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
@@ -6,9 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2014-12-29 21:32-0800\n"
-"PO-Revision-Date: 2020-05-01 12:52+0000\n"
-"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
+"POT-Creation-Date: 2020-10-23 17:27+0000\n"
+"PO-Revision-Date: 2020-10-23 17:27+0000\n"
+"Last-Translator: CiviCRM Maintenance\n"
 "Language-Team: Dutch (http://www.transifex.com/civicrm/civicrm_extensions/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,53 +21,127 @@ msgid "Enter your payment details"
 msgstr "Voer betalingsgegevens in"
 
 #: CRM/Core/Payment/OmnipayMultiProcessor.php
+#: Metadata/omnipay_Cybersource.mgd.php
 msgid "- select -"
 msgstr "- keuze -"
 
 #: CRM/Core/Payment/OmnipayMultiProcessor.php
+#: Metadata/omnipay_Cybersource.mgd.php
 msgid "Card Number"
 msgstr "Kaartnummer"
 
 #: CRM/Core/Payment/OmnipayMultiProcessor.php
+#: Metadata/omnipay_Cybersource.mgd.php
 msgid "Security Code"
 msgstr "Beveiligingscode"
 
 #: CRM/Core/Payment/OmnipayMultiProcessor.php
+#: Metadata/omnipay_Cybersource.mgd.php
 msgid "Expiration Date"
 msgstr "Vervaldatum"
 
 #: CRM/Core/Payment/OmnipayMultiProcessor.php
+#: Metadata/omnipay_Cybersource.mgd.php
 msgid "Card Type"
 msgstr "Kaarttype"
 
-#: CRM/Core/Payment/PaymentExtended.php
-msgid "Online Event Registration: "
-msgstr "Online evenementsregistratie: "
+#: CRM/Core/Payment/OmnipayMultiProcessor.php
+msgid "Card Name"
+msgstr ""
+
+#: CRM/Core/Payment/OmnipayMultiProcessor.php
+msgid "Your payment was not successful. Please try again"
+msgstr ""
+
+#: CRM/Core/Payment/OmnipayMultiProcessor.php
+msgid ""
+"The transaction was not processed. The message from the bank was : %1. "
+"Please try again"
+msgstr ""
+
+#: CRM/Core/Payment/OmnipayMultiProcessor.php
+msgid "No currency specified"
+msgstr ""
+
+#: CRM/Core/Payment/OmnipayMultiProcessor.php
+msgid "Click <strong>Continue</strong> to finalise your payment"
+msgstr ""
 
 #: CRM/Core/Payment/PaymentExtended.php
-msgid "Online Contribution: "
-msgstr "Online bijdrage: "
+msgid "Transaction Prefix"
+msgstr ""
+
+#: CRM/Omnipaymultiprocessor/Form/Report/Omnilog.php
+msgid ""
+"Report only accessible with administer Payment Processors permission, may "
+"contain credentials"
+msgstr ""
+
+#: CRM/Omnipaymultiprocessor/Form/Report/Omnilog.php
+msgid "System log ID"
+msgstr ""
+
+#: CRM/Omnipaymultiprocessor/Form/Report/Omnilog.php
+msgid "Message"
+msgstr ""
+
+#: CRM/Omnipaymultiprocessor/Form/Report/Omnilog.php
+msgid "Detail"
+msgstr ""
+
+#: CRM/Omnipaymultiprocessor/Form/Report/Omnilog.php
+msgid "Level"
+msgstr ""
+
+#: CRM/Omnipaymultiprocessor/Form/Report/Omnilog.php
+msgid "Timestamp"
+msgstr ""
+
+#: Metadata/omnipay_PaypalRest.mgd.php
+msgid "Payer ID"
+msgstr ""
+
+#: Metadata/omnipay_PaypalRest.mgd.php
+msgid "post_authorize"
+msgstr ""
+
+#: omnipaymultiprocessor.php
+msgid "Omnipay Developer Settings"
+msgstr ""
+
+#: settings/Omnipay.setting.php
+msgid ""
+"In test mode the transaction is sent to the test gateway regardless of mode."
+msgstr ""
+
+#: settings/Omnipay.setting.php
+msgid "Enable test mode for Omnipay"
+msgstr ""
+
+#: settings/Omnipay.setting.php
+msgid "Success is assumed"
+msgstr ""
+
+#: settings/Omnipay.setting.php
+msgid ""
+"In omnipay developer mode guzzle tracks requests. In addition test numbers "
+"prefill"
+msgstr ""
+
+#: settings/Omnipay.setting.php
+msgid "Enable developer mode for Omnipay"
+msgstr ""
 
 #: templates/CRM/Core/Page/PaymentPage.tpl
-msgid "Submit"
-msgstr "Indienen"
-
-#: templates/SubstituteBillingBlock.tpl
-msgid ""
-"If you have a PayPal account, you can click the PayPal button to continue. "
-"Otherwise, fill in the credit card and billing information on this form and "
-"click <strong>Continue</strong> at the bottom of the page."
-msgstr "Als u een PayPal-account hebt, kunt u op de PayPal-knop klikken om door te gaan. Vul anders de creditcard- en factuurgegevens in op dit formulier en klik op <strong>Doorgaan</strong> onder aan de pagina."
-
-#: templates/SubstituteBillingBlock.tpl
 msgid ""
 "Usually the last 3-4 digits in the signature area on the back of the card."
 msgstr "Meestal de laatste 3-4 cijfers in het handtekeningsgebied op de achterkant van de kaart."
 
-#: templates/SubstituteBillingBlock.tpl
-msgid "My billing address is the same as above"
-msgstr "Mijn factuuradres is hetzelfde als hierboven"
+#: templates/CRM/Core/Page/PaymentPage.tpl
+msgid ""
+"Please Click the pay now button if you are not automatically redirected"
+msgstr ""
 
-#: templates/SubstituteBillingBlock.tpl
-msgid "Billing Name and Address"
-msgstr "Factuurnaam en adres"
+#: templates/CRM/Core/Page/PaymentPage.tpl
+msgid "Pay now"
+msgstr ""
