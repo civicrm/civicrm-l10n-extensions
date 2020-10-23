@@ -7,9 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2020-01-11 05:01+0000\n"
-"PO-Revision-Date: 2020-05-01 12:51+0000\n"
-"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
+"POT-Creation-Date: 2020-10-23 05:01+0000\n"
+"PO-Revision-Date: 2020-10-23 05:01+0000\n"
+"Last-Translator: CiviCRM Maintenance\n"
 "Language-Team: Japanese (http://www.transifex.com/civicrm/civicrm_extensions/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,35 +17,64 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+#: CRM/CiviDiscount/DAO/Item.php
+msgid "Discount Codes"
+msgstr ""
+
+#: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/Form/Admin.php
+#: CRM/CiviDiscount/Page/List.php
+msgid "Discount Code"
+msgstr "割引コード"
+
+#: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/DAO/Track.php
+msgid "Discount Item ID"
+msgstr ""
+
 #: CRM/CiviDiscount/DAO/Item.php templates/CRM/CiviDiscount/Page/Usage.tpl
 #: templates/CRM/CiviDiscount/Page/View.tpl
 msgid "Code"
 msgstr "コード"
 
-#: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/DAO/Track.php
-#: CRM/CiviDiscount/Form/Admin.php templates/CRM/CiviDiscount/Page/View.tpl
+#: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/Form/Admin.php
+#: templates/CRM/CiviDiscount/Page/View.tpl
 msgid "Description"
 msgstr "説明"
 
 #: CRM/CiviDiscount/DAO/Item.php
-msgid "Discount Filters"
-msgstr "割引フィルタ"
+msgid "Discount Description"
+msgstr ""
 
 #: CRM/CiviDiscount/DAO/Item.php templates/CRM/CiviDiscount/Page/List.tpl
 msgid "Amount"
 msgstr "金額"
 
 #: CRM/CiviDiscount/DAO/Item.php
+msgid "Amount of discount, actual or percentage"
+msgstr ""
+
+#: CRM/CiviDiscount/DAO/Item.php
 msgid "Amount Type"
 msgstr "金額タイプ"
+
+#: CRM/CiviDiscount/DAO/Item.php
+msgid "Type of discount, actual or percentage"
+msgstr ""
 
 #: CRM/CiviDiscount/DAO/Item.php
 msgid "Count Max"
 msgstr "最大カウント"
 
 #: CRM/CiviDiscount/DAO/Item.php
+msgid "Max number of times this code can be used"
+msgstr ""
+
+#: CRM/CiviDiscount/DAO/Item.php
 msgid "Count Use"
 msgstr "使用カウント"
+
+#: CRM/CiviDiscount/DAO/Item.php
+msgid "Number of times this code has been used"
+msgstr ""
 
 #: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/Form/Admin.php
 #: templates/CRM/CiviDiscount/Page/View.tpl
@@ -53,8 +82,16 @@ msgid "Events"
 msgstr "イベント"
 
 #: CRM/CiviDiscount/DAO/Item.php
+msgid "Serialized list of events for which this code can be used"
+msgstr ""
+
+#: CRM/CiviDiscount/DAO/Item.php
 msgid "Pricesets"
 msgstr "価格セット"
+
+#: CRM/CiviDiscount/DAO/Item.php
+msgid "Serialized list of pricesets for which this code can be used"
+msgstr ""
 
 #: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/Form/Admin.php
 #: templates/CRM/CiviDiscount/Page/View.tpl
@@ -62,29 +99,110 @@ msgid "Memberships"
 msgstr "会員"
 
 #: CRM/CiviDiscount/DAO/Item.php
+msgid "Serialized list of memberships for which this code can be used"
+msgstr ""
+
+#: CRM/CiviDiscount/DAO/Item.php
 msgid "Autodiscount"
 msgstr "自動割引"
 
-#: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/Form/Admin.php
-msgid "Activation Date"
-msgstr "認証日"
-
-#: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/Form/Admin.php
-#: templates/CRM/CiviDiscount/Page/View.tpl
-msgid "Expiration Date"
-msgstr "有効期限"
+#: CRM/CiviDiscount/DAO/Item.php
+msgid ""
+"Serialized list of entity-based attributes. A user with one of them has the "
+"discount automatically applied"
+msgstr ""
 
 #: CRM/CiviDiscount/DAO/Item.php
-msgid "Discount Message"
-msgstr "割引メッセージ"
+msgid "FK to Contact ID for the organization that originated this discount"
+msgstr ""
+
+#: CRM/CiviDiscount/DAO/Item.php
+msgid "Active On"
+msgstr ""
+
+#: CRM/CiviDiscount/DAO/Item.php
+msgid "Date this discount activated"
+msgstr ""
+
+#: CRM/CiviDiscount/DAO/Item.php
+msgid "Expire On"
+msgstr ""
+
+#: CRM/CiviDiscount/DAO/Item.php
+msgid "Date this discount expires"
+msgstr ""
+
+#: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/Form/Admin.php
+msgid "Is this discount active?"
+msgstr "この割引はアクティブですか？"
+
+#: CRM/CiviDiscount/DAO/Item.php
+msgid "Discount Msg Enabled"
+msgstr ""
+
+#: CRM/CiviDiscount/DAO/Item.php
+msgid "Discount Msg"
+msgstr ""
+
+#: CRM/CiviDiscount/DAO/Item.php
+msgid "Discount Filters"
+msgstr "割引フィルタ"
+
+#: CRM/CiviDiscount/DAO/Item.php
+msgid "What filters apply to this discount (json array)"
+msgstr ""
+
+#: CRM/CiviDiscount/DAO/Track.php
+msgid "Discount Trackings"
+msgstr ""
+
+#: CRM/CiviDiscount/DAO/Track.php
+msgid "Discount Tracking"
+msgstr ""
+
+#: CRM/CiviDiscount/DAO/Track.php
+msgid "FK to Item ID of the discount code"
+msgstr ""
+
+#: CRM/CiviDiscount/DAO/Track.php
+msgid "FK to Contact ID for the contact that used this discount"
+msgstr ""
 
 #: CRM/CiviDiscount/DAO/Track.php
 msgid "Used Date"
 msgstr "使用日"
 
 #: CRM/CiviDiscount/DAO/Track.php
+msgid "Date of use"
+msgstr ""
+
+#: CRM/CiviDiscount/DAO/Track.php
+msgid "Track"
+msgstr ""
+
+#: CRM/CiviDiscount/DAO/Track.php
+msgid "Tracking code information"
+msgstr ""
+
+#: CRM/CiviDiscount/DAO/Track.php
+msgid "FK to contribution table"
+msgstr ""
+
+#: CRM/CiviDiscount/DAO/Track.php
+msgid "FK to event table"
+msgstr ""
+
+#: CRM/CiviDiscount/DAO/Track.php
 msgid "Entity Table"
 msgstr "エンティティテーブル"
+
+#: CRM/CiviDiscount/DAO/Track.php
+msgid "Table where referenced item is stored"
+msgstr ""
+
+#: CRM/CiviDiscount/DAO/Track.php
+msgid "Foreign key to the referenced item"
+msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Discounts"
@@ -93,10 +211,6 @@ msgstr "割引"
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "- none -"
 msgstr ""
-
-#: CRM/CiviDiscount/Form/Admin.php CRM/CiviDiscount/Page/List.php
-msgid "Discount Code"
-msgstr "割引コード"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Code already exists in Database."
@@ -126,13 +240,17 @@ msgstr ""
 msgid "Must be an integer"
 msgstr "整数でなければなりません。"
 
+#: CRM/CiviDiscount/Form/Admin.php
+msgid "Activation Date"
+msgstr "認証日"
+
+#: CRM/CiviDiscount/Form/Admin.php templates/CRM/CiviDiscount/Page/View.tpl
+msgid "Expiration Date"
+msgstr "有効期限"
+
 #: CRM/CiviDiscount/Form/Admin.php templates/CRM/CiviDiscount/Page/View.tpl
 msgid "Organization"
 msgstr "団体"
-
-#: CRM/CiviDiscount/Form/Admin.php
-msgid "Is this discount active?"
-msgstr "この割引はアクティブですか？"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Display a message to users not eligible for this discount?"
