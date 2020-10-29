@@ -6,19 +6,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2020-02-28 05:01+0000\n"
-"PO-Revision-Date: 2020-05-01 12:52+0000\n"
-"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
+"POT-Creation-Date: 2020-10-29 05:01+0000\n"
+"PO-Revision-Date: 2020-10-29 05:01+0000\n"
+"Last-Translator: CiviCRM Maintenance\n"
 "Language-Team: French (Canada) (http://www.transifex.com/civicrm/civicrm_extensions/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-
-#: CRM/Core/Payment/Faps.php
-msgid "iATS Payments 1st American Payment System Interface"
-msgstr ""
 
 #: CRM/Core/Payment/Faps.php
 msgid ""
@@ -42,10 +38,6 @@ msgstr ""
 msgid "Cryptogram"
 msgstr ""
 
-#: CRM/Core/Payment/Faps.php
-msgid "This function is not implemented"
-msgstr ""
-
 #: CRM/Core/Payment/Faps.php CRM/Core/Payment/iATSService.php
 #: CRM/Core/Payment/iATSServiceACHEFT.php
 msgid "You have cancelled this recurring contribution."
@@ -58,12 +50,18 @@ msgstr ""
 msgid "Warning"
 msgstr ""
 
-#: CRM/Core/Payment/FapsACH.php
-msgid "iATS Payments 1st American Payment System Interface, ACH"
+#: CRM/Core/Payment/Faps.php CRM/Core/Payment/iATSService.php
+#: CRM/Core/Payment/iATSServiceACHEFT.php
+msgid "Error %1"
 msgstr ""
 
-#: CRM/Core/Payment/iATSService.php
-msgid "iATS Payments"
+#: CRM/Core/Payment/Faps.php
+msgid "Error: %1"
+msgstr ""
+
+#: CRM/Core/Payment/Faps.php CRM/Core/Payment/iATSService.php
+#: CRM/Core/Payment/iATSServiceACHEFT.php
+msgid "Unknown System Error."
 msgstr ""
 
 #: CRM/Core/Payment/iATSService.php CRM/Core/Payment/iATSServiceACHEFT.php
@@ -86,10 +84,6 @@ msgstr ""
 msgid ""
 "This system is unable to perform self-service updates to credit cards. "
 "Please contact the administrator of this site."
-msgstr ""
-
-#: CRM/Core/Payment/iATSServiceACHEFT.php
-msgid "iATS Payments ACHEFT"
 msgstr ""
 
 #: CRM/Core/Payment/iATSServiceACHEFT.php
@@ -130,10 +124,6 @@ msgstr ""
 
 #: CRM/Core/Payment/iATSServiceACHEFT.php
 msgid "You have updated the amount of this recurring contribution."
-msgstr ""
-
-#: CRM/Core/Payment/iATSServiceSWIPE.php
-msgid "iATS Payments SWIPE"
 msgstr ""
 
 #: CRM/Core/Payment/iATSServiceSWIPE.php
@@ -648,6 +638,14 @@ msgstr ""
 #: CRM/Iats/Form/Settings.php
 msgid ""
 "Enable self-service updates to recurring contribution Contact Billing Info."
+msgstr ""
+
+#: CRM/Iats/Form/Settings.php
+msgid "Allow self-service updates to recurring contribution amount."
+msgstr ""
+
+#: CRM/Iats/Form/Settings.php
+msgid "Enable self-service cancellation of a recurring contribution."
 msgstr ""
 
 #: CRM/Iats/Form/Settings.php
