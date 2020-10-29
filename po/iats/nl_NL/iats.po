@@ -7,19 +7,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2020-02-28 05:01+0000\n"
-"PO-Revision-Date: 2020-08-03 10:46+0000\n"
-"Last-Translator: HanV <han.velthuis@home.nl>\n"
+"POT-Creation-Date: 2020-10-29 05:01+0000\n"
+"PO-Revision-Date: 2020-10-29 05:01+0000\n"
+"Last-Translator: CiviCRM Maintenance\n"
 "Language-Team: Dutch (http://www.transifex.com/civicrm/civicrm_extensions/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: CRM/Core/Payment/Faps.php
-msgid "iATS Payments 1st American Payment System Interface"
-msgstr "iATS Betalingen 1st American Payment System Interface"
 
 #: CRM/Core/Payment/Faps.php
 msgid ""
@@ -43,10 +39,6 @@ msgstr "Merchant Key is niet ingesteld in Beheer &raquo; Systeeminstellingen &ra
 msgid "Cryptogram"
 msgstr "Cryptogram"
 
-#: CRM/Core/Payment/Faps.php
-msgid "This function is not implemented"
-msgstr "Deze functie is niet geïmplementeerd"
-
 #: CRM/Core/Payment/Faps.php CRM/Core/Payment/iATSService.php
 #: CRM/Core/Payment/iATSServiceACHEFT.php
 msgid "You have cancelled this recurring contribution."
@@ -59,13 +51,19 @@ msgstr "U heeft de terugkerende bijdrage geannuleerd."
 msgid "Warning"
 msgstr "Waarschuwing"
 
-#: CRM/Core/Payment/FapsACH.php
-msgid "iATS Payments 1st American Payment System Interface, ACH"
-msgstr "iATS Betalingen 1st American Payment System Interface, ACH"
+#: CRM/Core/Payment/Faps.php CRM/Core/Payment/iATSService.php
+#: CRM/Core/Payment/iATSServiceACHEFT.php
+msgid "Error %1"
+msgstr ""
 
-#: CRM/Core/Payment/iATSService.php
-msgid "iATS Payments"
-msgstr "iATS Betalingen"
+#: CRM/Core/Payment/Faps.php
+msgid "Error: %1"
+msgstr ""
+
+#: CRM/Core/Payment/Faps.php CRM/Core/Payment/iATSService.php
+#: CRM/Core/Payment/iATSServiceACHEFT.php
+msgid "Unknown System Error."
+msgstr ""
 
 #: CRM/Core/Payment/iATSService.php CRM/Core/Payment/iATSServiceACHEFT.php
 msgid ""
@@ -88,10 +86,6 @@ msgid ""
 "This system is unable to perform self-service updates to credit cards. "
 "Please contact the administrator of this site."
 msgstr "Met dit systeem kun u niet zelf creditcards wijzigen. Neem contact op met de beheerder van deze website."
-
-#: CRM/Core/Payment/iATSServiceACHEFT.php
-msgid "iATS Payments ACHEFT"
-msgstr "iATS Betalingen ACHEFT"
 
 #: CRM/Core/Payment/iATSServiceACHEFT.php
 msgid "Account type"
@@ -132,10 +126,6 @@ msgstr "%1 moet uit 5 tekens bestaan."
 #: CRM/Core/Payment/iATSServiceACHEFT.php
 msgid "You have updated the amount of this recurring contribution."
 msgstr "U heeft het bedrag van deze terugkerende bijdrage gewijzigd."
-
-#: CRM/Core/Payment/iATSServiceSWIPE.php
-msgid "iATS Payments SWIPE"
-msgstr "iATS Betalingen SWIPE"
 
 #: CRM/Core/Payment/iATSServiceSWIPE.php
 msgid "Encrypted Credit Card Details"
@@ -650,6 +640,14 @@ msgstr "Schakel extra wijzigingsvelden uit voor terugkerende bijdragen"
 msgid ""
 "Enable self-service updates to recurring contribution Contact Billing Info."
 msgstr "Zelfbediening updates inschakelen voor betaalgegevens contacten terugkerende bijdrage."
+
+#: CRM/Iats/Form/Settings.php
+msgid "Allow self-service updates to recurring contribution amount."
+msgstr ""
+
+#: CRM/Iats/Form/Settings.php
+msgid "Enable self-service cancellation of a recurring contribution."
+msgstr ""
 
 #: CRM/Iats/Form/Settings.php
 msgid "Enable public selection of future recurring start dates."
