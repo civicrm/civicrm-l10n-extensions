@@ -274,6 +274,7 @@ msgid ""
 "Set the date from which candidates are advertised to voters before voting "
 "begins."
 msgstr ""
+"De datum instellen van de geworven kandidaten voordat het stemmen begint. "
 
 #: templates/CRM/Elections/Form/CreateElection.tpl
 msgid "Voting"
@@ -281,7 +282,7 @@ msgstr "Stemming"
 
 #: templates/CRM/Elections/Form/CreateElection.tpl
 msgid "Set the range of dates when voters can submit their votes."
-msgstr ""
+msgstr "De datum instellen waarop de stemmers kunnen gaan stemmen. "
 
 #: templates/CRM/Elections/Form/CreateElection.tpl
 msgid "Results"
@@ -290,6 +291,7 @@ msgstr "Resultaten"
 #: templates/CRM/Elections/Form/CreateElection.tpl
 msgid "Set the date from which the final results are displayed to voters."
 msgstr ""
+"De datum instellen waarop de eindresultaten getoond worden aan de stemmers."
 
 #: templates/CRM/Elections/Form/CreateElection.tpl
 msgid "Settings"
@@ -300,24 +302,32 @@ msgid ""
 "Enter the number of nominations required for a person to become eligible "
 "candidate in this election."
 msgstr ""
+"Het aantal nominaties instellen dat vereist is om een kandidaat te zijn in "
+"deze verkiezing."
 
 #: templates/CRM/Elections/Form/CreateElection.tpl
 msgid ""
 "Select the groups whose members are allowed to vote & nominate in this "
 "election."
 msgstr ""
+"De groepen selecteren waarvan de leden mogen nomineren en stemmen in deze "
+"verkiezing."
 
 #: templates/CRM/Elections/Form/CreateElection.tpl
 msgid ""
 "Select &quot;Yes&quot; to allow members to change their vote right up until "
 "the close of voting in this election."
 msgstr ""
+"Selecteer &quot;Ja&quot; om toe te staan dat leden hun stem mogen wijzigen "
+"totdat de stemming gesloten wordt."
 
 #: templates/CRM/Elections/Form/CreateElection.tpl
 msgid ""
 "Select &quot;Yes&quot; to anonymise votes when results are generated for "
 "this election."
 msgstr ""
+"Selecteer &quot;Ja&quot; om de uitgebrachte stemmen anoniem te maken bij het"
+" aanmaken van de  verkiezingsuitslag."
 
 #: templates/CRM/Elections/Form/CreateElectionNomination.tpl
 msgid ""
@@ -325,70 +335,91 @@ msgid ""
 "selecting the relevant position and then searching for your nominee by name "
 "or email. Only persons that can vote in this election may be nominated."
 msgstr ""
+"Hier kunt u iemand nomineren voor een bepaalde positie in deze verkiezing "
+"door de betreffende positie en vervolgens uw gewenste kandidaat te "
+"selecteren. Alleen personen die mogen stemmen in deze verkiezing kunnen "
+"voorgedragen worden als kandidaat."
 
 #: templates/CRM/Elections/Form/CreateElectionPosition.tpl
 msgid ""
 "Use this form to add a position to be nominated for and voted on in your "
 "election."
 msgstr ""
+"Hier kunt een positie toevoegen waarvoor personen mogen worden genomineerd "
+"in deze verkiezing."
 
 #: templates/CRM/Elections/Form/CreateElectionPosition.tpl
 msgid ""
 "Positions describe an elected role to which one more persons may be elected."
 msgstr ""
+"Posities beschrijven een functie waarvoor een of meer personen kunnen worden"
+" gekozen."
 
 #: templates/CRM/Elections/Form/CreateElectionPosition.tpl
 msgid ""
 "Name of the position, to be displayed on the nomination and voting forms."
 msgstr ""
+"De naam van de positie zoals die getoond wordt bij het nomineren en bij het "
+"stemmen."
 
 #: templates/CRM/Elections/Form/CreateElectionPosition.tpl
 msgid "Number of persons who are to be elected to the position"
-msgstr ""
+msgstr "Aantal personen dat voor deze functie gekozen kan worden"
 
 #: templates/CRM/Elections/Form/CreateElectionPosition.tpl
 msgid "Order that the position is shown in on the ballot."
-msgstr ""
+msgstr "Volgorde van deze positie op het stembiljet."
 
 #: templates/CRM/Elections/Form/CreateElectionPosition.tpl
 msgid ""
 "Additional information about the position to be shown on the nomination and "
 "voting forms."
 msgstr ""
+"Aanvullende informatie over deze functie die getoond wordt bij het nomineren"
+" en het stemmen."
 
 #: templates/CRM/Elections/Form/DeleteConfirmMessage.tpl
 msgid "WARNING: This action cannot be undone."
-msgstr ""
+msgstr "Waarschuwing: Deze actie kan niet ongedaan worden gemaakt."
 
 #: templates/CRM/Elections/Form/DeleteConfirmMessage.tpl
 msgid "Click 'Delete' if you want to continue."
-msgstr ""
+msgstr "Klik op 'Verwijder' als u verder wilt gaan."
 
 #: templates/CRM/Elections/Form/RejectNomination.tpl
 msgid ""
 "To withdraw your candidacy, add any comments and press the \"Withdraw\" "
 "button."
 msgstr ""
+"Vul om uw kandidaatsstelling in te trekken een toelichting in en druk op de "
+"knop 'Intrekken',"
 
 #: templates/CRM/Elections/Form/VoteCandidates.tpl
 msgid "Use this form to vote for your preferred candidates in each position."
 msgstr ""
+"Hier kunt u stemmen op de door u gekozen kandidaat (evt. meerdere "
+"kandidaten) voor elk van de beschikbare functies van de verkiezing."
 
 #: templates/CRM/Elections/Form/VoteCandidates.tpl
 msgid ""
 "Votes are numbered from 1 onwards, where 1 is your highest preference, "
 "followed by 2 and so on."
-msgstr ""
+msgstr "Kies uw gewenste kandidaat op plek 1, uw nummer twee op plek 2, enz."
 
 #: templates/CRM/Elections/Form/VoteCandidates.tpl
 msgid ""
 "For positions where multiple seats are available, you only need to vote "
 "once, with your order of preferences being considered across all seats."
 msgstr ""
+"Ook als er meerdere kandidaten gekozen kunnen worden voor een bepaalde "
+"functie, hoeft u maar eenmaal te stemmen. Uw lijstje van voorkeur is dan "
+"hetzelfde."
 
 #: templates/CRM/Elections/Form/VoteCandidates.tpl
 msgid "If you have already voted, your existing votes will be replaced."
 msgstr ""
+"Als u al eerder gestemd heeft, vervalt door het opnieuw stemmen uw eerdere "
+"stemming.   "
 
 #: templates/CRM/Elections/Page/AddElectionPositionBtn.tpl
 msgid "Add Position"
@@ -404,37 +435,39 @@ msgstr "Verkiezingen bekijken"
 
 #: templates/CRM/Elections/Page/ElectionActions.tpl
 msgid "Accept Nomination"
-msgstr ""
+msgstr "Nominatie accepteren"
 
 #: templates/CRM/Elections/Page/ElectionActions.tpl
 msgid "Withdraw nomination"
-msgstr ""
+msgstr "Nominatie intrekken"
 
 #: templates/CRM/Elections/Page/ElectionActions.tpl
 msgid "Withdraw Nomination"
-msgstr ""
+msgstr "Nominatie intrekken"
 
 #: templates/CRM/Elections/Page/ElectionActions.tpl
 msgid "Submit Nomination"
-msgstr ""
+msgstr "Nominatie verzenden"
 
 #: templates/CRM/Elections/Page/ElectionActions.tpl
 msgid "Vote Now"
-msgstr ""
+msgstr "Nu stemmen"
 
 #: templates/CRM/Elections/Page/ElectionActions.tpl
 msgid "Check Results"
-msgstr ""
+msgstr "Resultaten bekijken"
 
 #: templates/CRM/Elections/Page/ElectionHelpText.tpl
 msgid ""
 "Nominations have not yet started for this election. The positions that will "
 "be open for nomination are listed below."
 msgstr ""
+"Voor deze verkiezing is het nomineren nog niet gestart. De posities waarvoor"
+" later kan worden genomineerd staan hieronder vermeld."
 
 #: templates/CRM/Elections/Page/ElectionHelpText.tpl
 msgid "This Election is currently in the Nominations phase."
-msgstr ""
+msgstr "De verkiezing is nu in de fase van het nomineren."
 
 #: templates/CRM/Elections/Page/ElectionHelpText.tpl
 msgid ""
@@ -444,52 +477,67 @@ msgid ""
 "Nominations that require one or persons to second them will also be marked "
 "as such – press the \"Need second\" button to add your nominations"
 msgstr ""
+"U kunt nu met de onderstaande knop nominaties doen voor deze verkiezing. U "
+"ziet de al bestaande nominaties voor elke functie. Als uzelf genomineerd "
+"bent, dan kunt u deze nominatie intrekken. Nominaties waarvoor een tweede "
+"persoon nodig is om de nominatie te doen zijn als zodanig aangegeven met een"
+" knop \"Tweede nodig\", waarmee u een nominatie kunt doen"
 
 #: templates/CRM/Elections/Page/ElectionHelpText.tpl
 msgid ""
 "The Nominations period for this Election is now closed. Eligible nominations"
 " are listed below."
 msgstr ""
+"Het nomineren voor deze verkiezing is beëindigd. Hieronder staan de "
+"geschikte nominaties."
 
 #: templates/CRM/Elections/Page/ElectionHelpText.tpl
 msgid ""
 "The Nominations period for this Election is now closed. The nominated "
 "candidates for each position are listed below."
 msgstr ""
+"Het nomineren voor deze verkiezing is beëindigd. Hieronder staan per functie"
+" de kandidaten."
 
 #: templates/CRM/Elections/Page/ElectionHelpText.tpl
 msgid ""
 "Voting is now open for this Election. Use the \"Vote now\" button to submit "
 "your preferences from the candidates listed below."
 msgstr ""
+"Er kan nu gestemd worden. Gebruik de knop \"Nu stemmen\" om uw stem uit te "
+"brengen."
 
 #: templates/CRM/Elections/Page/ElectionHelpText.tpl
 msgid "Voting has closed for this election. The candidates are shown below."
-msgstr ""
+msgstr "De stemming is beëindigd. De kandidaten worden hieronder genoemd."
 
 #: templates/CRM/Elections/Page/ElectionHelpText.tpl
 msgid ""
 "The votes have been counted for this election. The winners are shown below."
 msgstr ""
+"Het resultaat van de verkiezing is bekend. De gekozen personen staan "
+"hieronder vermeld."
 
 #: templates/CRM/Elections/Page/ElectionSummary.tpl
 msgid ""
 "The votes have been counted for this election.  A breakdown of the "
 "nominations and results for each position is shown below."
 msgstr ""
+"De stemmen zijn geteld. Per functie worden de nominaties en de uitslag "
+"hieronder vermeld."
 
 #: templates/CRM/Elections/Page/Elections.tpl
 msgid "Create Election"
-msgstr ""
+msgstr "Verkiezing aanmaken"
 
 #: templates/CRM/Elections/Page/ViewElection.tpl
 msgid "Edit Election"
-msgstr ""
+msgstr "Verkiezing wijzigen"
 
 #: templates/CRM/Elections/Page/ViewElection.tpl
 msgid "Delete Election"
-msgstr ""
+msgstr "Verkiezing verwijderen"
 
 #: templates/CRM/Elections/Page/ViewElectionBlocks/nominations.tpl
 msgid "Need Second"
-msgstr ""
+msgstr "Tweede nodig"
