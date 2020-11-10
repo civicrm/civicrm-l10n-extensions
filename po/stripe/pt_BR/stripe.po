@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2020-09-29 05:01+0000\n"
-"PO-Revision-Date: 2020-09-29 05:01+0000\n"
+"POT-Creation-Date: 2020-11-10 05:01+0000\n"
+"PO-Revision-Date: 2020-11-10 05:01+0000\n"
 "Last-Translator: CiviCRM Maintenance\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/civicrm/civicrm_extensions/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -46,11 +46,11 @@ msgid ""
 "automatically notified and the subscription will be cancelled."
 msgstr ""
 
-#: CRM/Stripe/AJAX.php
+#: CRM/Stripe/AJAX.php api/v3/StripePaymentintent.php
 msgid "Payment failed: %1"
 msgstr ""
 
-#: CRM/Stripe/AJAX.php
+#: CRM/Stripe/AJAX.php api/v3/StripePaymentintent.php
 msgid "Payment failed."
 msgstr ""
 
@@ -476,6 +476,16 @@ msgid ""
 "Disable the fixed billing address fields block. Historically this was "
 "required by CiviCRM but since Stripe 6.x the stripe element collects "
 "everything it requires to make payment."
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid "Country where your account is registered"
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid ""
+"If this is empty the <a href=\"%2\" target=\"_blank\">paymentRequest</a> button will not be enabled. If set, the <a href=\"%2\" target=\"_blank\">paymentRequest</a> button will be shown instead of the card element if supported by the client browser.\n"
+"Required by the paymentRequest button. 2-character code (eg. \"US\") that can be found <a href=\"%1\" target=\"_blank\">here</a>."
 msgstr ""
 
 #: settings/stripe.setting.php
