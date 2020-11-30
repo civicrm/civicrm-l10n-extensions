@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2020-08-26 05:01+0000\n"
-"PO-Revision-Date: 2020-08-26 05:01+0000\n"
+"POT-Creation-Date: 2020-11-30 05:01+0000\n"
+"PO-Revision-Date: 2020-11-30 05:01+0000\n"
 "Last-Translator: CiviCRM Maintenance\n"
 "Language-Team: Hungarian (http://www.transifex.com/civicrm/civicrm_extensions/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -48,20 +48,12 @@ msgstr ""
 msgid "View contribution"
 msgstr ""
 
-#: CRM/Giftaidonline/Form/giftAidSubmissionSettings.php
-msgid "Save"
-msgstr ""
-
-#: CRM/Giftaidonline/Form/giftAidSubmissionSettings.php
-msgid "Cancel"
+#: CRM/Giftaidonline/Page/OnlineSubmission.php
+msgid "Not yet submitted"
 msgstr ""
 
 #: CRM/Giftaidonline/Page/OnlineSubmission.php
-msgid "Not submitted"
-msgstr ""
-
-#: CRM/Giftaidonline/Page/OnlineSubmission.php
-msgid "Validate"
+msgid "<a href='%1' class='action-item'>Validate</a>"
 msgstr ""
 
 #: CRM/Giftaidonline/Page/OnlineSubmission.php
@@ -69,7 +61,23 @@ msgid "Submitted"
 msgstr ""
 
 #: CRM/Giftaidonline/Page/OnlineSubmission.php
-msgid "Re-Submit now"
+msgid "Re-submit"
+msgstr ""
+
+#: CRM/Giftaidonline/Page/OnlineSubmission.php
+msgid "Submitted - error"
+msgstr ""
+
+#: CRM/Giftaidonline/Page/OnlineSubmission.php
+msgid "View Failure Message"
+msgstr ""
+
+#: CRM/Giftaidonline/Page/OnlineSubmission.php
+msgid "Submitted - success"
+msgstr ""
+
+#: CRM/Giftaidonline/Page/OnlineSubmission.php
+msgid "Submitted - pending"
 msgstr ""
 
 #: CRM/Giftaidonline/Page/OnlineSubmission.php
@@ -77,11 +85,23 @@ msgid "Get new status"
 msgstr ""
 
 #: CRM/Giftaidonline/Page/OnlineSubmission.php
+msgid "Submitted - unknown"
+msgstr ""
+
+#: CRM/Giftaidonline/Page/OnlineSubmission.php
+msgid "<a href='%1' class='action-item'>%2</a>"
+msgstr ""
+
+#: CRM/Giftaidonline/Page/OnlineSubmission.php
 msgid "Online Submission"
 msgstr ""
 
+#: CRM/Giftaidonline/Page/OnlineSubmission.php
+msgid "The batch %1 has already been submitted and cannot be submitted again"
+msgstr ""
+
 #: CRM/Giftaidonline/Page/giftAidSubmissionSettings.php
-msgid "Gift Aid Submission Settings"
+msgid "Gift Aid Legacy Submission Settings"
 msgstr ""
 
 #: CRM/Giftaidonline/Upgrader/Base.php
@@ -102,4 +122,136 @@ msgstr ""
 
 #: giftaidonline.php
 msgid "allow giftaid submission"
+msgstr ""
+
+#: giftaidonline.php
+msgid ""
+"Configure settings for GiftAid online submission to HMRC as provided through"
+" your <a href=\"%1\" target=\"_blank\">Charities Online account</a>. Also "
+"please read the setup <a href=\"%2\" target=\"_blank\">documentation</a>."
+msgstr ""
+
+#: giftaidonline.php
+msgid ""
+"As you upgraded from a previous version you should view the <a href=\"%1\" "
+"target=\"_blank\">legacy settings</a> to check they were converted properly"
+msgstr ""
+
+#: settings/ukgiftaidonline.setting.php
+msgid "HMRC User ID (SDS Sender ID)"
+msgstr ""
+
+#: settings/ukgiftaidonline.setting.php
+msgid "Your HMRC User ID (SDS Reference is Sender ID)"
+msgstr ""
+
+#: settings/ukgiftaidonline.setting.php
+msgid "HMRC User Password (SDS Sender Value)"
+msgstr ""
+
+#: settings/ukgiftaidonline.setting.php
+msgid "Your HMRC User Password (SDS Reference is Sender Value)"
+msgstr ""
+
+#: settings/ukgiftaidonline.setting.php
+msgid "Charity ID"
+msgstr ""
+
+#: settings/ukgiftaidonline.setting.php
+msgid ""
+"The Charity Id credential for communicating with HMRC Gateway. This is a "
+"normally in the format XR12345 and is supplied by the HMRC when you register"
+" for Charities Online."
+msgstr ""
+
+#: settings/ukgiftaidonline.setting.php
+msgid "Are we in Live or Dev Mode"
+msgstr ""
+
+#: settings/ukgiftaidonline.setting.php
+msgid "Charity Regulator - Name"
+msgstr ""
+
+#: settings/ukgiftaidonline.setting.php
+msgid "The Charity Commission where your charity is registered."
+msgstr ""
+
+#: settings/ukgiftaidonline.setting.php
+msgid "Charity Regulator - Number"
+msgstr ""
+
+#: settings/ukgiftaidonline.setting.php
+msgid ""
+"The Charity Commission number of your charity. Find the charity on the "
+"relevant Charity Commission web page to identify the number."
+msgstr ""
+
+#: settings/ukgiftaidonline.setting.php
+msgid "Organisation name"
+msgstr ""
+
+#: settings/ukgiftaidonline.setting.php
+msgid "Name of the Organisation that is submitting the claim."
+msgstr ""
+
+#: settings/ukgiftaidonline.setting.php
+msgid "Authorised Official - Surname"
+msgstr ""
+
+#: settings/ukgiftaidonline.setting.php
+msgid ""
+"Enter the surname of the person whose details were entered in the HMRC "
+"account."
+msgstr ""
+
+#: settings/ukgiftaidonline.setting.php
+msgid "Authorised Official - First name"
+msgstr ""
+
+#: settings/ukgiftaidonline.setting.php
+msgid ""
+"Enter the first name of the person whose details were entered in the HMRC "
+"account."
+msgstr ""
+
+#: settings/ukgiftaidonline.setting.php
+msgid "Authorised Official - Phone Number"
+msgstr ""
+
+#: settings/ukgiftaidonline.setting.php
+msgid ""
+"Enter the phone number of the person whose details were entered in the HMRC "
+"account."
+msgstr ""
+
+#: settings/ukgiftaidonline.setting.php
+msgid "Authorised Official - Postcode"
+msgstr ""
+
+#: settings/ukgiftaidonline.setting.php
+msgid ""
+"Enter the post code of the person whose details were entered in the HMRC "
+"account."
+msgstr ""
+
+#: settings/ukgiftaidonline.setting.php
+msgid "The Vendor ID credential for communicating with HMRC Gateway"
+msgstr ""
+
+#: settings/ukgiftaidonline.setting.php
+msgid "Period end"
+msgstr ""
+
+#: settings/ukgiftaidonline.setting.php
+msgid ""
+"Data not used for Charities Online submissions but element must contain a "
+"schema valid date."
+msgstr ""
+
+#: settings/ukgiftaidonline.setting.php
+msgid "Sender"
+msgstr ""
+
+#: settings/ukgiftaidonline.setting.php
+msgid "Should be either Individual or Organisation"
 msgstr ""
