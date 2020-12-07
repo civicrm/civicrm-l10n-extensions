@@ -1457,6 +1457,8 @@ msgstr "Ne contient pas"
 #: Civi/DataProcessor/FilterHandler/SimpleSqlFilter.php
 msgid "Filter %1 requires a field to filter on. None given."
 msgstr ""
+"Le filtre %1 nécessite un champ sur lequel filtrer. Aucun filtre "
+"sélectionné."
 
 #: Civi/DataProcessor/FilterHandler/ActivityFilter.php
 msgid "Limit to Contacts of activity types"
@@ -1576,7 +1578,7 @@ msgstr "- Sélectionner -"
 
 #: Civi/DataProcessor/Source/Activity/ActivitySource.php
 msgid "Activity Contact :: "
-msgstr ""
+msgstr "Contact de l'activité :: "
 
 #: Civi/DataProcessor/Source/Activity/ActivitySource.php
 msgid "Case :: "
@@ -1584,7 +1586,7 @@ msgstr "Dossier ::"
 
 #: Civi/DataProcessor/Source/Activity/ActivitySource.php
 msgid "Activity contact :: "
-msgstr ""
+msgstr "Contact de l'activité :: "
 
 #: Civi/DataProcessor/Source/CSV.php
 msgid "URI"
@@ -1600,7 +1602,7 @@ msgstr ""
 
 #: Civi/DataProcessor/Source/CSV.php
 msgid "Escape character"
-msgstr ""
+msgstr "Caractère d'échappement"
 
 #: Civi/DataProcessor/Source/CSV.php
 msgid "First row contains column names"
@@ -1668,6 +1670,8 @@ msgid ""
 "You can change the title and description of your dataprocessor.\n"
 "You can also disable or enable the dataprocessor. "
 msgstr ""
+"Vous pouvez modifier le titre et la description de votre processeur de données.\n"
+"Vous pouvez également désactiver ou activer le processeur de données."
 
 #: crm-tutorials/civicrm-dataprocessor-form-edit-action-update-Overview_of_the_configuration_screen_of_DataProcessor.js
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Sources.tpl
@@ -1679,6 +1683,9 @@ msgid ""
 "A data processor has at least one data source.\n"
 "A data source could be CiviCRM entity, such as Individual, Household, Activity, Relationship etc. "
 msgstr ""
+"Un processeur de données possède au moins une source de données. Une source "
+"de données peut être une entité CiviCRM, telle qu'un Individu, un Foyer, une"
+" Activité, une Relation, etc."
 
 #: crm-tutorials/civicrm-dataprocessor-form-edit-action-update-Overview_of_the_configuration_screen_of_DataProcessor.js
 msgid "Configuration of Data Sources"
@@ -1704,7 +1711,7 @@ msgstr "Modifier l'ordre des champs"
 msgid ""
 "You can use the arrows to change the order of the fields, the result will be"
 " shown in up to down order."
-msgstr ""
+msgstr "Vous pouvez utiliser les flèches pour changer l'ordre des champs."
 
 #: crm-tutorials/civicrm-dataprocessor-form-edit-action-update-Overview_of_the_configuration_screen_of_DataProcessor.js
 msgid "<span style=\"font-size: 13.376px;\">Configuration of Fields</span>"
@@ -1715,6 +1722,8 @@ msgid ""
 "Similarly to the conifguration of data sources. You can change the "
 "configuration of fields or remove them."
 msgstr ""
+"Similaire à la configuration des sources de données. Vous pouvez modifier la"
+" configuration des champs ou les supprimer."
 
 #: crm-tutorials/civicrm-dataprocessor-form-edit-action-update-Overview_of_the_configuration_screen_of_DataProcessor.js
 msgid "Aggregation Fields"
@@ -1723,6 +1732,7 @@ msgstr "Champs d'aggrégation"
 #: crm-tutorials/civicrm-dataprocessor-form-edit-action-update-Overview_of_the_configuration_screen_of_DataProcessor.js
 msgid "Allows to group results by defining the aggregation field."
 msgstr ""
+"Permet de regrouper les résultats en définissant le champ d'agrégation."
 
 #: crm-tutorials/civicrm-dataprocessor-form-edit-action-update-Overview_of_the_configuration_screen_of_DataProcessor.js
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Filters.tpl
@@ -1735,10 +1745,14 @@ msgid ""
 "exposed to user on the output page. Filters can be defined so that user can "
 "narrow down the results according to his needs. "
 msgstr ""
+"Définissez les filtres qui peuvent ou non (selon la configuration) être "
+"exposés à l'utilisateur sur la page de sortie. Des filtres peuvent être "
+"définis afin que l'utilisateur puisse affiner les résultats en fonction de "
+"ses besoins."
 
 #: crm-tutorials/civicrm-dataprocessor-form-edit-action-update-Overview_of_the_configuration_screen_of_DataProcessor.js
 msgid "Output result of Data Processor"
-msgstr ""
+msgstr "Résultat en sortie du processeur de données"
 
 #: crm-tutorials/civicrm-dataprocessor-form-edit-action-update-Overview_of_the_configuration_screen_of_DataProcessor.js
 msgid ""
@@ -1831,6 +1845,9 @@ msgid ""
 "Leave empty to let the system generate a name. The name should consist of "
 "lowercase letters, numbers and underscore. E.g team_captains."
 msgstr ""
+"Laissez vide pour permettre au système de générer un nom. Le nom doit être "
+"composé de lettres minuscules, de chiffres et d'underscores. Par exemple, "
+"equipe_capitaines."
 
 #: templates/CRM/Dataprocessor/Form/DataProcessor.tpl
 #: templates/CRM/Dataprocessor/Form/ManageDataProcessors.tpl
@@ -1920,7 +1937,7 @@ msgstr "Laisser vide si aucun formatage"
 
 #: templates/CRM/Dataprocessor/Form/Field/Configuration/DateFieldOutputHandler.tpl
 msgid "See <a href=\"%1\">DateTime format on php.net</a> for help."
-msgstr ""
+msgstr "Voir l'aide <a href=\"%1\">Format DateTime sur php.net</a>."
 
 #: templates/CRM/Dataprocessor/Form/Field/Configuration/ManageCaseLinkFieldOutputHandler.tpl
 msgid "Leave empty to use default."
@@ -2078,6 +2095,8 @@ msgid ""
 "<p>On this form you can configure the SQL Table data source.</p>\n"
 "            "
 msgstr ""
+"<p>Sur ce formulaire vous pouvez configurer la source de données de la Table"
+" SQL.</p>"
 
 #: templates/CRM/Dataprocessor/Form/Source.tpl
 msgid "Delete Data Source"
@@ -2101,6 +2120,8 @@ msgid ""
 "You can manage PDF Formats at <a href=\"%1\">Administer --> Communications "
 "--> PDF Formats</a>"
 msgstr ""
+"Vous pouvez gérer les formats PDF ici : <a href=\"%1\">Administrer --> "
+"Communications --> Formats PDF</a>"
 
 #: templates/CRM/DataprocessorOutputExport/Form/Configuration/PDF.tpl
 msgid "E.g. 2 cm"
