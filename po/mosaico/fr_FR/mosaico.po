@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mosaico\n"
-"POT-Creation-Date: 2020-08-20 05:01+0000\n"
+"POT-Creation-Date: 2021-01-08 05:01+0000\n"
 "Last-Translator: Usha Matisson <matisson@makoa.fr>, 2020\n"
 "Language-Team: French (https://www.transifex.com/civicrm/teams/1905/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -18,6 +18,70 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: CRM/Mosaico/DAO/MessageTemplate.php
+msgid "Unique Settings ID"
+msgstr ""
+
+#: CRM/Mosaico/DAO/MessageTemplate.php CRM/Mosaico/DAO/MosaicoTemplate.php
+msgid "message template ID"
+msgstr ""
+
+#: CRM/Mosaico/DAO/MessageTemplate.php CRM/Mosaico/DAO/MosaicoTemplate.php
+msgid "FK to civicrm_msg_template."
+msgstr ""
+
+#: CRM/Mosaico/DAO/MessageTemplate.php
+msgid "hash_key"
+msgstr ""
+
+#: CRM/Mosaico/DAO/MessageTemplate.php
+msgid "name"
+msgstr ""
+
+#: CRM/Mosaico/DAO/MessageTemplate.php CRM/Mosaico/DAO/MosaicoTemplate.php
+msgid "HTML"
+msgstr ""
+
+#: CRM/Mosaico/DAO/MessageTemplate.php CRM/Mosaico/DAO/MosaicoTemplate.php
+msgid "metadata"
+msgstr ""
+
+#: CRM/Mosaico/DAO/MessageTemplate.php
+msgid "template"
+msgstr ""
+
+#: CRM/Mosaico/DAO/MosaicoTemplate.php
+msgid "Unique Template ID"
+msgstr ""
+
+#: CRM/Mosaico/DAO/MosaicoTemplate.php api/v3/MosaicoBaseTemplate.php
+msgid "Title"
+msgstr "Titre"
+
+#: CRM/Mosaico/DAO/MosaicoTemplate.php
+msgid "Base Template"
+msgstr ""
+
+#: CRM/Mosaico/DAO/MosaicoTemplate.php
+msgid "Name of the Mosaico base template (e.g. versafix-1)"
+msgstr ""
+
+#: CRM/Mosaico/DAO/MosaicoTemplate.php
+msgid "Fully renderd HTML"
+msgstr ""
+
+#: CRM/Mosaico/DAO/MosaicoTemplate.php
+msgid "Mosaico metadata (JSON)"
+msgstr ""
+
+#: CRM/Mosaico/DAO/MosaicoTemplate.php
+msgid "Content"
+msgstr ""
+
+#: CRM/Mosaico/DAO/MosaicoTemplate.php
+msgid "Mosaico content (JSON)"
+msgstr ""
 
 #: CRM/Mosaico/Form/Migrate.php
 msgid "Are you sure want to copy data from Mosaico 1.x to 2.x?"
@@ -184,9 +248,13 @@ msgstr "Adresse de courriel"
 msgid "Recipients"
 msgstr "Destinataires"
 
-#: ang/crmMosaico/BlockMailing.html
+#: ang/crmMosaico/BlockMailing.html ang/crmMosaico.bootstrap/SubjectList.html
 msgid "Subject"
 msgstr "Sujet"
+
+#: ang/crmMosaico/BlockMailing.html
+msgid "Distribution"
+msgstr ""
 
 #: ang/crmMosaico/BlockMailing.html
 msgid "Unsubscribe Group"
@@ -427,6 +495,16 @@ msgstr "Nouveau à partir du modèle de base :"
 msgid "Configured templates:"
 msgstr "Modèles configurés :"
 
+#: ang/crmMosaico.bootstrap/SubjectList.html
+#: ang/crmMosaico.crmstar/SubjectList.html
+msgid "Add subject"
+msgstr ""
+
+#: ang/crmMosaico.bootstrap/SubjectList.html
+#: ang/crmMosaico.crmstar/SubjectList.html
+msgid "Remove subject"
+msgstr ""
+
 #: ang/crmMosaico.bootstrap/TemplateItem.html
 #: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
 #: ang/crmMosaico.crmstar/TemplateItem.html
@@ -476,10 +554,6 @@ msgstr "Planifier"
 #: api/v3/MosaicoBaseTemplate.php templates/CRM/Mosaico/Form/Migrate.tpl
 msgid "Name"
 msgstr "Nom"
-
-#: api/v3/MosaicoBaseTemplate.php
-msgid "Title"
-msgstr "Titre"
 
 #: api/v3/MosaicoBaseTemplate.php
 msgid "Thumbnail URL"
