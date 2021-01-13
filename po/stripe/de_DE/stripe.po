@@ -3,12 +3,13 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
+# J K, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
 "POT-Creation-Date: 2020-12-08 05:01+0000\n"
-"PO-Revision-Date: 2020-12-08 05:01+0000\n"
-"Last-Translator: CiviCRM Maintenance\n"
+"PO-Revision-Date: 2021-01-12 16:15+0000\n"
+"Last-Translator: J K\n"
 "Language-Team: German (http://www.transifex.com/civicrm/civicrm_extensions/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,66 +19,66 @@ msgstr ""
 
 #: CRM/Core/Payment/Stripe.php
 msgid "Successfully cancelled the subscription in CiviCRM ONLY."
-msgstr ""
+msgstr "Das Abo wurde NUR IN CIVICRM erfolgreich beendet."
 
 #: CRM/Core/Payment/Stripe.php
 msgid ""
 "The recurring contribution cannot be cancelled (No reference (trxn_id) "
 "found)."
-msgstr ""
+msgstr "Die wiederkehrende Zahlung kann nicht beendet werden (Keine Referenz (trxn_id) gefunden)."
 
 #: CRM/Core/Payment/Stripe.php
 msgid "Could not delete Stripe subscription: %1"
-msgstr ""
+msgstr "Das Stripe Abo konnte nicht gelöscht werden: %1"
 
 #: CRM/Core/Payment/Stripe.php
 msgid "Successfully cancelled the subscription at Stripe."
-msgstr ""
+msgstr "Das Abo wurde erfolgreich bei Stripe beendet."
 
 #: CRM/Core/Payment/Stripe.php
 msgid ""
 "Stripe will be automatically notified and the subscription will be "
 "cancelled."
-msgstr ""
+msgstr "Stripe wird automatisch benachrichtigt und das Abo beendet."
 
 #: CRM/Core/Payment/Stripe.php
 msgid ""
 "If you select 'Send cancellation request..' then Stripe will be "
 "automatically notified and the subscription will be cancelled."
-msgstr ""
+msgstr "Falls Sie 'Sende Beendigungs-Anfrage..' drücken, wird Stripe automatisch benachrichtigt und das Abo beendet."
 
 #: CRM/Stripe/AJAX.php api/v3/StripePaymentintent.php
 msgid "Payment failed: %1"
-msgstr ""
+msgstr "Zahlung nicht erfolgreich: %1"
 
 #: CRM/Stripe/AJAX.php api/v3/StripePaymentintent.php
 msgid "Payment failed."
-msgstr ""
+msgstr "Zahlung nicht erfolgreich."
 
 #: CRM/Stripe/Check.php
 msgid ""
 "The <em>%1</em> extension requires the <em>Payment Shared</em> extension "
 "which is not installed. See <a href=\"%2\" target=\"_blank\">details</a> for"
 " more information."
-msgstr ""
+msgstr "Die Erweiterung <em>%1</em> benötigt die <em>Payment Shared</em> Erweiterung, die nicht installiert ist. Siehe <a href=\"%2\" target=\"_blank\">DETAILS</a> für weitere Informationen."
 
 #: CRM/Stripe/Check.php
 msgid "%1: Missing Requirements"
-msgstr ""
+msgstr "%1: Fehlende Anforderungen"
 
 #: CRM/Stripe/Check.php
 msgid "Install now"
-msgstr ""
+msgstr "Jetzt installieren"
 
 #: CRM/Stripe/Check.php
 msgid ""
 "If you are using Stripe to accept payments on public forms (eg. contribution/event registration forms) it is recommended that you install the <strong><a href=\"https://lab.civicrm.org/extensions/firewall\">firewall</a></strong> extension.\n"
 "        Some sites have become targets for spammers who use the payment endpoint to try and test credit cards by submitting invalid payments to your Stripe account."
-msgstr ""
+msgstr "Falls Sie mit Stripe Zahlungen über öffentliche Webseiten ermöglichen (z.B. Zuwendungsformulare oder Anmeldungen zu Veranstaltungen), wird empfohlen, die Erweiterung <strong><a href=\"https://lab.civicrm.org/extensions/firewall\">firewall</a></strong> zu installieren.\n        Einige Webseiten wurden das Ziel von Angreifern, die die Eingabeformulare zum Test von Kreditkartendaten verwendet haben, was zur massenhaften Übermittlung ungültiger Zahlungsanforderungen an Stripe geführt hat."
 
 #: CRM/Stripe/Check.php
 msgid "Recommended Extension: firewall"
-msgstr ""
+msgstr "Empfohlene Erweiterung: firewall"
 
 #: CRM/Stripe/Check.php
 msgid ""
@@ -85,139 +86,139 @@ msgid ""
 "        This allows the stripe extension to show useful messages to the user when processing payment.\n"
 "        If this is not installed it will fallback to the browser \"alert\" message but you will\n"
 "        not see some messages (such as <em>we are pre-authorizing your card</em> and <em>please wait</em>) and the feedback to the user will not be as helpful."
-msgstr ""
+msgstr "Es wird empfohlen, die Erweiterung <strong><a href=\"https://civicrm.org/extensions/sweetalert\">sweetalert</a></strong> zu installieren. Damit ist es möglich, dem Nutzer hilfreiche Informationen während des Bezahlvorgangs anzuzeigen. Falls die Erweiterung nicht installiert ist, werden als Rückfalllösung kritische Warnmeldungen über den Browser angezeigt und die Anzeige einiger Zusatzinformationen (z.B. <em>we are pre-authorizing your card</em> and <em>please wait</em>) entfällt."
 
 #: CRM/Stripe/Check.php
 msgid "Recommended Extension: sweetalert"
-msgstr ""
+msgstr "Empfohlene Erweiterung: sweetalert"
 
 #: CRM/Stripe/Check.php
 msgid ""
 "The %1 extension requires the %2 extension version %3 or greater but your "
 "system has version %4."
-msgstr ""
+msgstr "Die Erweiterung %1 erfordert die Erweiterung %2 in Version %3 oder höher, aber installiert ist Version %4."
 
 #: CRM/Stripe/Check.php
 msgid "Upgrade now"
-msgstr ""
+msgstr "Upgrade jetzt durchführen"
 
 #: CRM/Stripe/Check.php
 msgid ""
 "Stripe does not support \"Separate Membership Payment\" on contribution pages but you have one or more contribution pages with\n"
 "                that setting enabled and Stripe as the payment processor (found on contribution page ID: %1)."
-msgstr ""
+msgstr "Stripe unterstützt keine \"separaten Zahlungen für Mitgliedschaften\" auf Zuwendungsseiten, aber auf einer oder mehreren Zuwendungsseiten ist diese Einstellung\n                vorgenommen und Stripe als Zahlungsdienstleister ausgewählt (festgestellt auf der Zuwendungsseite mit ID: %1)."
 
 #: CRM/Stripe/Check.php
 msgid "Stripe: Invalid configuration"
-msgstr ""
+msgstr "Stripe: Ungültige Konfiguration"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "Stripe Paymentintents"
-msgstr ""
+msgstr "Stripe Paymentintents"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "Unique ID"
-msgstr ""
+msgstr "Unique ID"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "PaymentIntent ID"
-msgstr ""
+msgstr "PaymentIntent ID"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "The PaymentIntent ID"
-msgstr ""
+msgstr "Die PaymentIntent ID"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php api/v3/StripeSubscription.php
 msgid "Contribution ID"
-msgstr ""
+msgstr "Contribution ID"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "FK ID from civicrm_contribution"
-msgstr ""
+msgstr "FK ID der civicrm_contribution"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "Payment Processor"
-msgstr ""
+msgstr "Zahlungsdienstleister"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "Foreign key to civicrm_payment_processor.id"
-msgstr ""
+msgstr "Foreign key zur civicrm_payment_processor.id"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "Description"
-msgstr ""
+msgstr "Beschreibung"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "Description of this paymentIntent"
-msgstr ""
+msgstr "Beschreibung dieses PaymentIntent"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "The status of the paymentIntent"
-msgstr ""
+msgstr "Der Status des paymentIntent"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "Identifier"
-msgstr ""
+msgstr "Bezeichner"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid ""
 "An identifier that we can use in CiviCRM to find the paymentIntent if we do "
 "not have the ID (eg. session key)"
-msgstr ""
+msgstr "Ein Bezeichner, den wir in CiviCRM nutzen können, um den paymentIntent zu finden, wenn wir nicht über dessen ID verfügen(z.B. Session Key)"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "FK to Contact"
-msgstr ""
+msgstr "FK zum Contact"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "Created Date"
-msgstr ""
+msgstr "Erstellungsdatum"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "When was paymentIntent created"
-msgstr ""
+msgstr "Wann wurde der paymentIntent erstellt"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "Flags"
-msgstr ""
+msgstr "Flags"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid ""
 "Flags associated with this PaymentIntent (NC=no contributionID when "
 "doPayment called)"
-msgstr ""
+msgstr "Flags, die mit diesem paymentIntent in Verbindung stehen  (NC=no contributionID wenn doPayment aufgerufen wird)"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "Referrer"
-msgstr ""
+msgstr "Referrer"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "HTTP referrer of this paymentIntent"
-msgstr ""
+msgstr "HTTP referrer dieses paymentIntent"
 
 #: CRM/Stripe/Form/UpdateWebhook.php
 msgid "Update / Create webhook"
-msgstr ""
+msgstr "Webhook erstellen/aktualisieren"
 
 #: CRM/Stripe/Form/UpdateWebhook.php
 msgid "All webhooks update successfully."
-msgstr ""
+msgstr "Alle Webhooks wurden erfolgreich aktualisiert"
 
 #: CRM/Stripe/Recur.php
 msgid "Now"
-msgstr ""
+msgstr "Jetzt"
 
 #: CRM/Stripe/Recur.php
 msgid "Start date"
-msgstr ""
+msgstr "Anfangsdatum"
 
 #: CRM/Stripe/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
-msgstr ""
+msgstr "Upgrade %1 auf Version %2"
 
 #: CRM/Stripe/Webhook.php
 msgid ""
@@ -225,287 +226,287 @@ msgid ""
 "please delete the webhook at Stripe and then revisit this page which will "
 "recreate it correctly. <em>Webhook path is: <a href=\"%1\" "
 "target=\"_blank\">%1</a>.</em>"
-msgstr ""
+msgstr "Die Webhook API version ist als %2 eingestellt, aber CiviCRM benötigt %3. Um dies zu beheben, bitte den Webhook bei Stripe löschen und dann diese Seite erneut aufrufen. Dadurch wird der Webhook korrekt neu angelegt. <em>Der Webhook-Pfad lautet: <a href=\"%1\" target=\"_blank\">%1</a>.</em>"
 
 #: CRM/Stripe/Webhook.php
 msgid ""
 "Unable to update the webhook %1. To correct this please delete the webhook "
 "at Stripe and then revisit this page which will recreate it correctly."
-msgstr ""
+msgstr "Die Aktualisierung des Webhook %1 ist fehlgeschlagen. Zur Korrektur bitte den Webhook bei Stripe löschen und dann diese Seite erneut aufrufen, um den Webhook korrekt neu anzulegen."
 
 #: CRM/Stripe/Webhook.php
 msgid ""
 "Problems detected with Stripe webhook! <em>Webhook path is: <a href=\"%1\" "
 "target=\"_blank\">%1</a>.</em>"
-msgstr ""
+msgstr "Beim Stripe Webhook ist ein Problem aufgetreten! <em>Der Webhook-Pfad lautet: <a href=\"%1\" target=\"_blank\">%1</a>.</em>"
 
 #: CRM/Stripe/Webhook.php
 msgid "View and fix problems"
-msgstr ""
+msgstr "Probleme ansehen und beheben"
 
 #: CRM/Stripe/Webhook.php
 msgid ""
 "Could not check/update existing webhooks, got error from stripe <em>%1</em>"
-msgstr ""
+msgstr "Prüfen/aktualisieren des bestehenden Webhooks ist fehlgeschlagen, Stripe meldet den Fehler <em>%1</em>"
 
 #: CRM/Stripe/Webhook.php
 msgid "Could not create webhook, got error from stripe <em>%1</em>"
-msgstr ""
+msgstr "Webhook kann nicht erstellt werden, Stripe melden den Fehler <em>%1</em>"
 
 #: CRM/Stripe/Webhook.php
 msgid ""
 "Stripe Webhook missing or needs update! <em>Expected webhook path is: <a "
 "href=\"%1\" target=\"_blank\">%1</a></em>"
-msgstr ""
+msgstr "Ein Stripe Webhook fehlt oder muss aktualisiert werden! <em>Erwarteter Webhook-Pfad: <a href=\"%1\" target=\"_blank\">%1</a></em>"
 
 #: CRM/Stripe/Webhook.php
 msgid "Stripe Payment Processor: %1 (%2)"
-msgstr ""
+msgstr "Stripe Zahlungsdienstleister: %1 (%2)"
 
 #: api/v3/Stripe/Importallcustomers.php
 #: api/v3/Stripe/Importallsubscriptions.php api/v3/Stripe/Importcustomers.php
 #: api/v3/Stripe/Importsubscriptions.php api/v3/Stripe/Listevents.php
 msgid "Use the given Payment Processor ID"
-msgstr ""
+msgstr "Die vorgegebene Payment Processor ID nutzen"
 
 #: api/v3/Stripe/Importcustomers.php api/v3/Stripe/Importsubscriptions.php
 msgid "Limit number of Customers/Subscriptions to be imported"
-msgstr ""
+msgstr "Anzahl der zu importierenden Kunden/Abos begrenzen"
 
 #: api/v3/Stripe/Importcustomers.php
 msgid "Start importing customers after this one"
-msgstr ""
+msgstr "Beginne Import von Kundendaten nach diesem"
 
 #: api/v3/Stripe/Importcustomers.php
 msgid "Import a specific customer"
-msgstr ""
+msgstr "Ausgewählten Kunden importieren"
 
 #: api/v3/Stripe/Importsubscriptions.php
 msgid "Start importing subscriptions after this one"
-msgstr ""
+msgstr "Beginne den Import von Abos nach diesem"
 
 #: api/v3/Stripe/Ipn.php
 msgid "CiviCRM System Log id to replay from system log."
-msgstr ""
+msgstr "CiviCRM System Log Id, um die Transaktionen aus dem System Log erneut abzuarbeiten.."
 
 #: api/v3/Stripe/Ipn.php
 msgid "An event id as generated by Stripe."
-msgstr ""
+msgstr "Evend-Id, wie von Stripe erzeugt"
 
 #: api/v3/Stripe/Ipn.php
 msgid "The payment processor to use (required if using evtid)"
-msgstr ""
+msgstr "Zu verwendender Zahlungsdienstleister (erforderlich bei evtId)"
 
 #: api/v3/Stripe/Ipn.php
 msgid ""
 "Set to 1 to override contribution page settings and do not send a receipt "
 "(default is to use contribution page settings). )"
-msgstr ""
+msgstr "Auf 1 setzen, um die Einstellungen auf der Zuwendungsseite zu überstimmen und keinen Zahlungsbeleg zu senden (Standard ist, die Einstellung auf der Zuwendungsseite auszuwerten)."
 
 #: api/v3/Stripe/Listevents.php
 msgid ""
 "Limit to the given Stripe events type, defaults to "
 "invoice.payment_succeeded."
-msgstr ""
+msgstr "Limit für den gegebenen Stripe Event-Typ, Standard ist invoice.payment_succeeded."
 
 #: api/v3/Stripe/Listevents.php
 msgid "Limit number of results returned (100 is max)"
-msgstr ""
+msgstr "Begrenze die Anzahl an Ergebnissen (max. 100)"
 
 #: api/v3/Stripe/Listevents.php
 msgid "Only return results after this event id."
-msgstr ""
+msgstr "Nur Ergebnisse nach dieser Event-Id zurückliefen."
 
 #: api/v3/Stripe/Listevents.php
 msgid "How to format the output, brief or raw. Defaults to brief."
-msgstr ""
+msgstr "Formatierung des Ergebnisses, kurz oder Rohdaten. Standard ist kurz. "
 
 #: api/v3/Stripe/Populatelog.php
 msgid "The id of the payment processor."
-msgstr ""
+msgstr "Die Id des Zahlungsdienstleisters"
 
 #: api/v3/StripeCustomer.php api/v3/StripeSubscription.php
 msgid "Stripe Customer ID"
-msgstr ""
+msgstr "Stripe Customer ID"
 
 #: api/v3/StripeCustomer.php
 msgid "CiviCRM Contact ID"
-msgstr ""
+msgstr "CiviCRM Contact ID"
 
 #: api/v3/StripeCustomer.php api/v3/StripeSubscription.php
 msgid "Payment Processor ID"
-msgstr ""
+msgstr "Payment Processor ID"
 
 #: api/v3/StripeCustomer.php
 msgid ""
 "If set only this customer will be updated, otherwise we try and update ALL "
 "customers"
-msgstr ""
+msgstr "Falls gesetzt, wird nur dieser Kunde aktualisiert, ansonsten wird versucht ALLE Kunden zu aktualisieren."
 
 #: api/v3/StripePaymentintent.php
 msgid "Stripe generated code used to create a payment intent."
-msgstr ""
+msgstr "Von Stripe erzeugter Code um ein payment intent zu erzeugen."
 
 #: api/v3/StripePaymentintent.php
 msgid "The payment intent id itself, if available."
-msgstr ""
+msgstr "Die Payment-ID, sofern verfügbar."
 
 #: api/v3/StripePaymentintent.php
 msgid "The payment amount."
-msgstr ""
+msgstr "Der zu zahlende Betrag."
 
 #: api/v3/StripePaymentintent.php
 msgid "Whether we should try to capture the amount, not just confirm it."
-msgstr ""
+msgstr "Den Betrag abbuchen, nicht nur bestätigen."
 
 #: api/v3/StripePaymentintent.php
 msgid "Describe the payment."
-msgstr ""
+msgstr "Beschreibung der Zahlung"
 
 #: api/v3/StripePaymentintent.php
 msgid "The stripe payment processor id."
-msgstr ""
+msgstr "Die Stripe Zahlungsdienstleister-ID"
 
 #: api/v3/StripeSubscription.php
 msgid "Stripe Subscription ID"
-msgstr ""
+msgstr "Stripe Subscription ID"
 
 #: api/v3/StripeSubscription.php
 msgid "Contribution Recur ID"
-msgstr ""
+msgstr "Contribution Recur ID"
 
 #: api/v3/StripeSubscription.php
 msgid "End Time"
-msgstr ""
+msgstr "Beendigung"
 
 #: api/v3/StripeSubscription.php
 msgid "Contact ID"
-msgstr ""
+msgstr "Contact ID"
 
 #: api/v3/StripeSubscription.php
 msgid "Membership ID"
-msgstr ""
+msgstr "Membership ID"
 
 #: api/v3/StripeSubscription.php
 msgid "Link to existing membership automatically"
-msgstr ""
+msgstr "Automatische Verbindung zu bestehender Mitgliedschaft"
 
 #: js/civicrmStripeConfirm.js
 msgid "Payment successful"
-msgstr ""
+msgstr "Zahlung erfolgreich"
 
 #: js/civicrmStripeConfirm.js
 msgid "Please wait..."
-msgstr ""
+msgstr "Bitte warten..."
 
 #: js/civicrmStripeConfirm.js js/civicrm_stripe.js js/recur_start.js
 msgid "com.drastikbydesign.stripe"
-msgstr ""
+msgstr "com.drastikbydesign.stripe"
 
 #: js/civicrm_stripe.js
 msgid "Please wait"
-msgstr ""
+msgstr "Bitte warten"
 
 #: js/civicrm_stripe.js
 msgid " while we pre-authorize your card..."
-msgstr ""
+msgstr " während die Zahlungsdaten überprüft werden..."
 
 #: js/civicrm_stripe.js
 msgid "Please check and fill in all required fields!"
-msgstr ""
+msgstr "Bitte füllen Sie alle erforderlichen Eingabefelder aus!"
 
 #: js/civicrm_stripe.js
 msgid "Please enter your card details"
-msgstr ""
+msgstr "Bitte geben Sie die Kreditkartendaten ein"
 
 #: js/civicrm_stripe.js
 msgid "Please check your card details!"
-msgstr ""
+msgstr "Bitte überprüfen Sie die Kreditkartendaten!"
 
 #: js/civicrm_stripe.js
 msgid "Please complete the reCaptcha"
-msgstr ""
+msgstr "Bitte füllen Sie das reCaptcha aus"
 
 #: js/civicrm_stripe.js
 msgid ""
 "Could not load payment element - Is there a problem with your network "
 "connection?"
-msgstr ""
+msgstr "Eingabefeld für Zahlungen konnte nicht geladen werden - besteht ein Problem mit der Internetverbindung?"
 
 #: js/recur_start.js
 msgid "Your membership payment will start on %1"
-msgstr ""
+msgstr "Die Zahlungen werden am %1 starten"
 
 #: js/recur_start.js
 msgid "Your recurring contribution will start on %1"
-msgstr ""
+msgstr "Die wiederkehrenden Zahlungen werden am %1 starten"
 
 #: settings/stripe.setting.php
 msgid "Allow Stripe to send a receipt for one-off payments?"
-msgstr ""
+msgstr "Soll Stripe Quittungsbelege für Einmalzahlungen versenden?"
 
 #: settings/stripe.setting.php
 msgid ""
 "Sets the \"email_receipt\" parameter on a Stripe Charge so that Stripe can "
 "send an email receipt."
-msgstr ""
+msgstr "Übermittelt den \"email_receipt\"-Parameter bei der Stripe Zahlung, so dass Stripe einen Zahlungsbeleg per E-Mail senden kann."
 
 #: settings/stripe.setting.php
 msgid "Enable Stripe Javascript debugging?"
-msgstr ""
+msgstr "Stripe JavaScript-Debugging zur Fehlersuche einschalten?"
 
 #: settings/stripe.setting.php
 msgid ""
 "Enables debug logging to browser console for stripe payment processors."
-msgstr ""
+msgstr "Gibt Logging-Informationen zur Fehlersuche für den Stripe-Zahlungsdienstleister in der Konsole (Console) des Browsers aus."
 
 #: settings/stripe.setting.php
 msgid "Enable Stripe IPN (Webhook) debugging?"
-msgstr ""
+msgstr "Stripe IPN (Webhook) Debugging einschalten?"
 
 #: settings/stripe.setting.php
 msgid "Enables debugging to CiviCRM log for IPN / webhook issues."
-msgstr ""
+msgstr "Schreibt Debugging-Informationen in das CiviCRM-Logfile für IPN/Webhook Ereignisse."
 
 #: settings/stripe.setting.php
 msgid "Disable billing address fields (Experimental)"
-msgstr ""
+msgstr "Felder für die Rechnungsadresse deaktivieren (experimentell)"
 
 #: settings/stripe.setting.php
 msgid ""
 "Disable the fixed billing address fields block. Historically this was "
 "required by CiviCRM but since Stripe 6.x the stripe element collects "
 "everything it requires to make payment."
-msgstr ""
+msgstr "Deaktivierung der Eingabefelder für eine Rechnungsadresse. In der Vergangenheit war diese für CiviCRM erforderlich. Seit 6.x werden alle erforderlichen Daten für die Zahlung im Stripe Element-Eingabefeld abgefragt."
 
 #: settings/stripe.setting.php
 msgid "Country where your account is registered"
-msgstr ""
+msgstr "Land, in dem das Konto registriert ist"
 
 #: settings/stripe.setting.php
 msgid ""
 "If this is empty the <a href=\"%2\" target=\"_blank\">paymentRequest</a> button will not be enabled. If set, the <a href=\"%2\" target=\"_blank\">paymentRequest</a> button will be shown instead of the card element if supported by the client browser.\n"
 "Required by the paymentRequest button. 2-character code (eg. \"US\") that can be found <a href=\"%1\" target=\"_blank\">here</a>."
-msgstr ""
+msgstr "Falls dies leer ist, wird der <a href=\"%2\" target=\"_blank\">paymentRequest</a> Button nicht angezeigt. Falls dies gesetzt ist, wird der <a href=\"%2\" target=\"_blank\">paymentRequest</a> Button anstelle des \"card element\"-Eingabefeldes angezeigt, sofern dies vom Browser des Nutzers unterstützt wird.\nErforderlich für den paymentRequest Button. Zweistelliger Code (z.B. \"US\")kann <a href=\"%1\" target=\"_blank\">hier</a> ermittelt werden."
 
 #: settings/stripe.setting.php
 msgid "Enable public selection of future recurring start dates for intervals"
-msgstr ""
+msgstr "Auswahl zukünftiger Anfangsdaten für wiederkehrende Zahlungsintervalle ermöglichen"
 
 #: settings/stripe.setting.php
 msgid ""
 "Allow public selection of start date for a recurring contribution for "
 "intervals"
-msgstr ""
+msgstr "Auswahl des Anfangsdatums für die Intervalle wiederkehrender Zahlungen ermöglichen"
 
 #: settings/stripe.setting.php
 msgid "Restrict allowable days of the month for Recurring Contributions"
-msgstr ""
+msgstr "Beschränkung der zulässigen Tage im Monat für wiederkehrende Zahlungen"
 
 #: settings/stripe.setting.php
 msgid "Restrict allowable days of the month"
-msgstr ""
+msgstr "Beschränkung der zulässigen Tage im Monat"
 
 #: stripe.php
 msgid "Stripe Settings"
-msgstr ""
+msgstr "Stripe Einstellungen"
