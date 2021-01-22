@@ -4,12 +4,12 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # lbl_knts <git@rlkd.de>, 2020
-# Torben Bertram, 2020
+# Torben Bertram, 2020-2021
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
 "POT-Creation-Date: 2019-08-24 05:01+0000\n"
-"PO-Revision-Date: 2020-12-30 10:54+0000\n"
+"PO-Revision-Date: 2021-01-21 11:39+0000\n"
 "Last-Translator: Torben Bertram\n"
 "Language-Team: German (http://www.transifex.com/civicrm/civicrm_extensions/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -28,21 +28,21 @@ msgstr ""
 
 #: CRM/Civirules/BAO/Rule.php
 msgid "You are passing a trigger id as a parameter into "
-msgstr ""
+msgstr "Sie tragen eine Trigger ID als Parameter ein in"
 
 #: CRM/Civirules/BAO/Rule.php
 msgid ""
 " which does not pass the PHP is_numeric test. An integer is required (only "
 "numbers allowed)! Contact your system administrator"
-msgstr ""
+msgstr " was nicht den PHP is_numeric Test besteht. Interger wird benötigt (nur Zahlen erlaubt)! Kontaktieren Sie Ihren Administrator"
 
 #: CRM/Civirules/Delay/DayOfMonthBasedOnContribution.php
 msgid "Delay by the xth day of the month of the contribution"
-msgstr ""
+msgstr "Verzögerung um den x-ten Tag des Monats der Zuwendung"
 
 #: CRM/Civirules/Delay/DayOfMonthBasedOnContribution.php
 msgid "Delay by the %1 day of the month of the contribution"
-msgstr ""
+msgstr "Verzögerung um den %1 Tag des Monats der Zuwendung"
 
 #: CRM/Civirules/Delay/DayOfMonthBasedOnContribution.php
 msgid "Day of month (1-31)"
@@ -54,11 +54,11 @@ msgstr "Du musst einen Tag angeben (1-31)"
 
 #: CRM/Civirules/Delay/DayOfMonthBasedOnContribution.php
 msgid "This delay is not available with trigger %1"
-msgstr ""
+msgstr "Diese Verzögerung ist nicht verfügbar mit Trigger %1"
 
 #: CRM/Civirules/Delay/DelayBasedOnDateField.php
 msgid "Base delay on date field in trigger"
-msgstr ""
+msgstr "Grundverzögerung im Datumsfeld als Auslöser"
 
 #: CRM/Civirules/Delay/DelayBasedOnDateField.php
 msgid "%1 of %2.%3"
@@ -83,7 +83,7 @@ msgstr "Nach"
 #: CRM/Civirules/Delay/DelayBasedOnDateField.php
 #: CRM/CivirulesConditions/Form/Contribution/SpecificAmount.php
 msgid "Amount"
-msgstr "Amount"
+msgstr "Betrag"
 
 #: CRM/Civirules/Delay/DelayBasedOnDateField.php
 msgid "Unit"
@@ -177,7 +177,7 @@ msgstr "Wochentag"
 
 #: CRM/Civirules/Delay/XWeekDay.php
 msgid "Delay to %1 of %2 at %3:%4"
-msgstr ""
+msgstr "Verzögere auf %1 von %2 um %3:%4"
 
 #: CRM/Civirules/Delay/XWeekDay.php CRM/Civirules/Delay/XWeekDayOfMonth.php
 #: CRM/CivirulesCronTrigger/Form/EventDate.php
@@ -481,7 +481,7 @@ msgstr ""
 #: CRM/Civirules/Form/RuleAction.php
 msgid ""
 "Action has to be selected, press CANCEL if you do not want to add an action"
-msgstr ""
+msgstr "Aktion muss ausgewählt werden, klicke ABBRECHEN wenn keine Aktion hinzugefügt werden soll"
 
 #: CRM/Civirules/Form/RuleAction.php
 msgid "Not a valid action, action class is missing"
@@ -505,7 +505,7 @@ msgstr ""
 
 #: CRM/Civirules/Form/RuleCondition.php
 msgid "This condition is not available with trigger %1"
-msgstr ""
+msgstr "Diese Bedingung ist nicht verfügbar mit Trigger %1"
 
 #: CRM/Civirules/Form/RuleCondition.php
 msgid "Link Operator can only be AND or OR"
@@ -528,11 +528,11 @@ msgstr "Regel erfolgreich aus der Datenbank gelöscht"
 
 #: CRM/Civirules/Form/RuleDelete.php
 msgid "Rule deleted"
-msgstr ""
+msgstr "Regel gelöscht"
 
 #: CRM/Civirules/Form/RuleDelete.php
 msgid "Delete Rule (CiviRules)"
-msgstr ""
+msgstr "Regel löschen (CiviRules)"
 
 #: CRM/Civirules/Form/RuleView.php
 msgid "Filter Tag(s)"
@@ -645,7 +645,7 @@ msgstr "Zugewiesen an"
 
 #: CRM/CivirulesActions/Activity/Form/Activity.php
 msgid " - Use system date (default) - "
-msgstr ""
+msgstr "- Benutze Systemdatum (Standard) -"
 
 #: CRM/CivirulesActions/Activity/Form/Activity.php
 msgid "Set activity date"
@@ -653,7 +653,7 @@ msgstr "Datum der Aktivität einstellen"
 
 #: CRM/CivirulesActions/Case/Form/SetDateField.php
 msgid " - Set date to time of processing of action - "
-msgstr ""
+msgstr "- Setze Datum auf den Zeitpunkt der Aktionsausführung -"
 
 #: CRM/CivirulesActions/Case/Form/SetDateField.php
 msgid "Set date"
@@ -670,7 +670,7 @@ msgstr "Setze Fallstatus auf: %1"
 #: CRM/CivirulesActions/Contact/Form/CommPref.php
 #: CRM/CivirulesActions/Contact/Form/PrivacyOptions.php
 msgid "Switch On or Off"
-msgstr ""
+msgstr "An- oder Ausschalten"
 
 #: CRM/CivirulesActions/Contact/Form/CommPref.php
 msgid "Communication Preference(s)"
@@ -678,25 +678,25 @@ msgstr "Kontakteinstellunge(n)"
 
 #: CRM/CivirulesActions/Contact/Form/Jobtitle.php
 msgid "Job title"
-msgstr ""
+msgstr "Funktion"
 
 #: CRM/CivirulesActions/Contact/Form/PrivacyOptions.php
 msgid "Privacy Option(s)"
-msgstr ""
+msgstr "Datenschutzeinstellung(en)"
 
 #: CRM/CivirulesActions/Contact/Form/Subtype.php
 #: CRM/CivirulesActions/GroupContact/Form/GroupId.php
 #: CRM/CivirulesActions/Tag/Form/TagId.php
 msgid "Single/Multiple"
-msgstr ""
+msgstr "Einzel/Mehrfach"
 
 #: CRM/CivirulesActions/Contact/Form/Subtype.php
 msgid "Set one subtype"
-msgstr ""
+msgstr "Setze eine Unterart"
 
 #: CRM/CivirulesActions/Contact/Form/Subtype.php
 msgid "Set multiple subtypes"
-msgstr ""
+msgstr "Setze mehrere Unterarten"
 
 #: CRM/CivirulesActions/Contact/Form/Subtype.php
 msgid "Contact sub type"
@@ -734,19 +734,19 @@ msgstr ""
 #: CRM/CivirulesActions/Contact/SetCommPref.php
 #: CRM/CivirulesActions/Contact/SetPrivacyOptions.php
 msgid "ON"
-msgstr ""
+msgstr "AN"
 
 #: CRM/CivirulesActions/Contact/SetJobTitle.php
 msgid "Set job title to %1"
-msgstr ""
+msgstr "Setze Funktion auf %1"
 
 #: CRM/CivirulesActions/Contact/SetPrivacyOptions.php
 msgid "Privacy option(s) "
-msgstr ""
+msgstr "Datenschutzeinstellung(en)"
 
 #: CRM/CivirulesActions/Contact/Subtype.php
 msgid "Set contact subtype to: "
-msgstr ""
+msgstr "Setze Kontaktunterart auf: "
 
 #: CRM/CivirulesActions/Contribution/Form/ThankYouDate.php
 msgid "Thank You Date will be set to : "
@@ -754,7 +754,7 @@ msgstr "Dankesschreiben Datum wird gesetzt auf :"
 
 #: CRM/CivirulesActions/Contribution/Form/ThankYouDate.php
 msgid "Number of Days after Action Execution"
-msgstr ""
+msgstr "Anzahl Tage nach Ausführung der Aktion"
 
 #: CRM/CivirulesActions/Contribution/Form/ThankYouDate.php
 msgid "Thank You Date"
@@ -886,19 +886,19 @@ msgstr ""
 
 #: CRM/CivirulesConditions/Contact/HasPhone.php
 msgid "Any phone type"
-msgstr ""
+msgstr "Beliebiger Telefontyp"
 
 #: CRM/CivirulesConditions/Contact/HasPhone.php
 msgid "Phone type is %1"
-msgstr ""
+msgstr "Telefontyp ist %1"
 
 #: CRM/CivirulesConditions/Contact/HasPhone.php
 msgid "Any location"
-msgstr ""
+msgstr "Beliebige Adresskategorie"
 
 #: CRM/CivirulesConditions/Contact/HasPhone.php
 msgid "Location is %1"
-msgstr ""
+msgstr "Adresskategorie ist %1"
 
 #: CRM/CivirulesConditions/Contact/HasSubtype.php
 #: CRM/CivirulesConditions/Contact/HasTag.php
@@ -996,7 +996,7 @@ msgstr "Tag des Kontakts ist einer der gewählten:"
 #: templates/CRM/CivirulesConditions/Form/Contribution/Campaign.tpl
 #: templates/CRM/CivirulesConditions/Form/ContributionRecur/Campaign.tpl
 msgid "Campaign(s)"
-msgstr ""
+msgstr "Kampagne(n)"
 
 #: CRM/CivirulesConditions/Form/Activity/Campaign.php
 #: CRM/CivirulesConditions/Form/Activity/Date.php
@@ -1091,7 +1091,7 @@ msgstr "Datum zum Vergleichen darf nicht leer sein"
 
 #: CRM/CivirulesConditions/Form/Activity/Details.php
 msgid "Text to match"
-msgstr ""
+msgstr "Zu suchender Text"
 
 #: CRM/CivirulesConditions/Form/Activity/Status.php
 msgid "Activity status(es)"
@@ -1131,19 +1131,19 @@ msgstr "Gruppe(n)"
 
 #: CRM/CivirulesConditions/Form/Contact/HasPhone.php
 msgid " - Any phone type -"
-msgstr ""
+msgstr "- beliebiger Telefontyp -"
 
 #: CRM/CivirulesConditions/Form/Contact/HasPhone.php
 msgid "- Any location -"
-msgstr ""
+msgstr "- beliebige Adresskategorie -"
 
 #: CRM/CivirulesConditions/Form/Contact/HasPhone.php
 msgid "Location type"
-msgstr ""
+msgstr "Adresskategorie"
 
 #: CRM/CivirulesConditions/Form/Contact/HasPhone.php
 msgid "Phone type"
-msgstr ""
+msgstr "Telefontyp"
 
 #: CRM/CivirulesConditions/Form/Contact/HasSubtype.php
 msgid "Subtypes"
@@ -1163,7 +1163,7 @@ msgstr "Land"
 
 #: CRM/CivirulesConditions/Form/Contact/LivesInCountry.php
 msgid "Location Type of the Address to Test"
-msgstr ""
+msgstr "Adresskategorie der zu testenden Adresse"
 
 #: CRM/CivirulesConditions/Form/Contact/LivesInCountry.php
 msgid "Use CiviCRM Default Country if Contact has no Address"
@@ -1188,11 +1188,11 @@ msgstr "Zahlungsmethode"
 
 #: CRM/CivirulesConditions/Form/Contribution/SpecificAmount.php
 msgid " - any -"
-msgstr ""
+msgstr "- beliebig -"
 
 #: CRM/CivirulesConditions/Form/Contribution/SpecificAmount.php
 msgid "Count What?"
-msgstr ""
+msgstr "Zähle was?"
 
 #: CRM/CivirulesConditions/Form/Contribution/SpecificAmount.php
 msgid "where Operator"
@@ -1206,7 +1206,7 @@ msgstr ""
 #: CRM/CivirulesConditions/Form/Contribution/SpecificAmount.php
 #: CRM/CivirulesConditions/Form/Contribution/xthContribution.php
 msgid "Number of Contributions"
-msgstr ""
+msgstr "Anzahl der Zuwendungen"
 
 #: CRM/CivirulesConditions/Form/Contribution/TotalContributedAmount.php
 msgid "Financial type"
@@ -1226,7 +1226,7 @@ msgstr ""
 
 #: CRM/CivirulesConditions/Form/ContributionRecur/DonorIsRecurring.php
 msgid "Donor has recurring contributions?"
-msgstr ""
+msgstr "Hat der Spender wiederkehrende Zuwendungen?"
 
 #: CRM/CivirulesConditions/Form/ContributionRecur/EndDate.php
 msgid "End Date is"
@@ -1534,7 +1534,7 @@ msgstr "Intervall"
 
 #: CRM/CivirulesCronTrigger/Form/MembershipEndDate.php
 msgid "Interval should be a numeric value"
-msgstr ""
+msgstr "Intervall muss ein Zahlenwert sein"
 
 #: CRM/CivirulesCronTrigger/GroupMembership.php
 #: CRM/CivirulesCronTrigger/HasTag.php
@@ -1614,7 +1614,7 @@ msgstr "CiviRules Tags"
 
 #: templates/CRM/Civirules/Delay/XWeekDay.tpl
 msgid "on"
-msgstr ""
+msgstr "an"
 
 #: templates/CRM/Civirules/Form/Rule.tpl
 msgid "Delete rule"
