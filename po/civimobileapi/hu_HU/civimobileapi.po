@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
-"POT-Creation-Date: 2020-09-03 05:01+0000\n"
+"POT-Creation-Date: 2021-01-26 05:01+0000\n"
 "Last-Translator: Zoltán Reizinger <zreizinger@hdsnet.hu>, 2019\n"
 "Language-Team: Hungarian (https://www.transifex.com/civicrm/teams/1905/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -125,6 +125,27 @@ msgstr ""
 msgid "Can not update Contact. Error: "
 msgstr ""
 
+#: CRM/CiviMobileAPI/Api/CiviMobileSurvey/GetSignedValues.php
+#: CRM/CiviMobileAPI/Api/CiviMobileSurvey/GetStructure.php
+#: CRM/CiviMobileAPI/Api/CiviMobileSurvey/Sign.php
+#: CRM/CiviMobileAPI/Api/CiviMobileSurveyInterviewer/Get.php
+#: CRM/CiviMobileAPI/Api/CiviMobileSurveyRespondent/Get.php
+#: CRM/CiviMobileAPI/Api/CiviMobileSurveyRespondent/Gotv.php
+#: CRM/CiviMobileAPI/Api/CiviMobileSurveyRespondent/Release.php
+#: CRM/CiviMobileAPI/Api/CiviMobileSurveyRespondent/Reserve.php
+#: api/v3/CiviMobileMyTicket.php
+msgid "Permission is required."
+msgstr "Engedély szükséges."
+
+#: CRM/CiviMobileAPI/Api/CiviMobileSurvey/GetStructure.php
+#: CRM/CiviMobileAPI/Api/CiviMobileSurvey/Sign.php
+msgid "Not authorized."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Api/CiviMobileSurvey/Sign.php
+msgid "contact_id is required."
+msgstr ""
+
 #: CRM/CiviMobileAPI/ApiWrapper/Participant/Create.php
 msgid "Empty participant status field(status_id). Please fill it."
 msgstr "Résztvevő állapot mező (status_id) üres. Kérem töltse ki."
@@ -228,6 +249,7 @@ msgstr ""
 
 #: CRM/CiviMobileAPI/DAO/EventSession.php CRM/CiviMobileAPI/Form/Session.php
 #: CRM/CiviMobileAPI/Form/Venue.php api/v3/CiviMobileEventSession.php
+#: api/v3/CiviMobileSurvey.php
 msgid "Title"
 msgstr ""
 
@@ -795,6 +817,10 @@ msgstr "QR kép url"
 msgid "Public key"
 msgstr ""
 
+#: CRM/CiviMobileAPI/Install/Entity/CustomField.php
+msgid "Is GOTV?"
+msgstr ""
+
 #: CRM/CiviMobileAPI/Install/Entity/CustomGroup.php
 msgid "Qr options"
 msgstr "QR opciók"
@@ -809,6 +835,10 @@ msgstr "QR kódok"
 
 #: CRM/CiviMobileAPI/Install/Entity/CustomGroup.php
 msgid "Public Info"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Install/Entity/CustomGroup.php
+msgid "Survey`s additional info"
 msgstr ""
 
 #: CRM/CiviMobileAPI/Install/Entity/UpdateMessageTemplate.php
@@ -973,6 +1003,23 @@ msgstr ""
 msgid "December"
 msgstr ""
 
+#: CRM/CiviMobileAPI/Utils/Checklist.php
+msgid "Is <strong>\"%1\"</strong> plugin active?"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Utils/Checklist.php
+msgid ""
+"CiviMobile may not work properly if <strong>\"%1\"</strong> plugin is "
+"installed."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Utils/Checklist.php
+msgid ""
+"If you have a problems with authorization on CiviMobile application please "
+"try to deactivate plugins one by one to detect which plugin blocks "
+"CiviMobile."
+msgstr ""
+
 #: CRM/CiviMobileAPI/Utils/Contact.php
 msgid "Your Api key has removed and all device disconnected from account."
 msgstr "Az API key eltávolítva és az összes eszköz szétkapcsolva a fiókjától."
@@ -994,8 +1041,9 @@ msgstr ""
 #: api/v3/CiviMobileAllowedRelationshipTypes.php
 #: api/v3/CiviMobileAvailableContactGroup.php api/v3/CiviMobileCalendar.php
 #: api/v3/CiviMobileCaseRole.php api/v3/CiviMobileContact.php
-#: api/v3/CiviMobileContributionStatistic.php api/v3/ContactSettings.php
-#: api/v3/PushNotification.php api/v3/PushNotificationMessages.php
+#: api/v3/CiviMobileContributionStatistic.php api/v3/CiviMobileSurvey.php
+#: api/v3/ContactSettings.php api/v3/PushNotification.php
+#: api/v3/PushNotificationMessages.php
 msgid "Contact ID"
 msgstr "Kapcsolat azonosító"
 
@@ -1071,11 +1119,7 @@ msgstr ""
 msgid "Is favourite?"
 msgstr ""
 
-#: api/v3/CiviMobileMyTicket.php
-msgid "Permission is required."
-msgstr "Engedély szükséges."
-
-#: api/v3/CiviMobileParticipant.php
+#: api/v3/CiviMobileParticipant.php api/v3/CiviMobileSurveyRespondent.php
 msgid "Display name"
 msgstr ""
 
@@ -1133,6 +1177,72 @@ msgstr ""
 msgid "Participant ID"
 msgstr ""
 
+#: api/v3/CiviMobileSurvey.php api/v3/CiviMobileSurveyInterviewer.php
+#: api/v3/CiviMobileSurveyRespondent.php
+msgid "Survey ID"
+msgstr ""
+
+#: api/v3/CiviMobileSurvey.php
+msgid "Activity type ID"
+msgstr ""
+
+#: api/v3/CiviMobileSurvey.php
+msgid "Is signed?"
+msgstr ""
+
+#: api/v3/CiviMobileSurvey.php
+msgid "Values"
+msgstr ""
+
+#: api/v3/CiviMobileSurvey.php
+msgid "Note"
+msgstr ""
+
+#: api/v3/CiviMobileSurvey.php
+msgid "Result"
+msgstr ""
+
+#: api/v3/CiviMobileSurveyRespondent.php
+msgid "Contact IDs"
+msgstr ""
+
+#: api/v3/CiviMobileSurveyRespondent.php
+msgid "Interviewer ID"
+msgstr ""
+
+#: api/v3/CiviMobileSurveyRespondent.php
+#: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
+msgid "Status"
+msgstr ""
+
+#: api/v3/CiviMobileSurveyRespondent.php
+msgid "Reserved"
+msgstr ""
+
+#: api/v3/CiviMobileSurveyRespondent.php
+msgid "Interviewed"
+msgstr ""
+
+#: api/v3/CiviMobileSurveyRespondent.php
+msgid "GOTV"
+msgstr ""
+
+#: api/v3/CiviMobileSurveyRespondent.php
+msgid "Group"
+msgstr ""
+
+#: api/v3/CiviMobileSurveyRespondent.php
+msgid "Contact type"
+msgstr ""
+
+#: api/v3/CiviMobileSurveyRespondent.php
+msgid "Primary Address City"
+msgstr ""
+
+#: api/v3/CiviMobileSurveyRespondent.php
+msgid "Primary Address Street Address"
+msgstr ""
+
 #: api/v3/CiviMobileVenue.php
 msgid "Location Id"
 msgstr ""
@@ -1183,6 +1293,10 @@ msgstr ""
 
 #: civimobileapi.php
 msgid "CiviMobile Event Locations"
+msgstr ""
+
+#: civimobileapi.php
+msgid "CiviMobile Checklist"
 msgstr ""
 
 #: civimobileapi.php
@@ -1254,10 +1368,6 @@ msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
 msgid "Time"
-msgstr ""
-
-#: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
-msgid "Status"
 msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/EventLocations.tpl
