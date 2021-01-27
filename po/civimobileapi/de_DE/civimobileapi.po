@@ -50,11 +50,13 @@ msgstr "Zugehörige Preis-Set ist nicht verfügbar."
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPayment/Create.php
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid "Can not get price set fields assigned to event."
-msgstr ""
+msgstr "Zugehörige Preis-Set-Felder sind nicht verfügbar."
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid "Previous Payment cannot be deleted (hash=%1). Please complete payment"
 msgstr ""
+"Vorherige Zahlung kann nicht gelöscht werden (hash=%1). Bitte Zahlung erst "
+"abschliessen."
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid "Joomla does not support that functionality"
@@ -64,6 +66,8 @@ msgstr "Joomla unterstützt diese Funktionalität nicht"
 msgid ""
 "Event(id = %1) User can not be registered because event does not exist."
 msgstr ""
+"Veranstaltung(id = %1) Benutzer kann nicht angemeldet werden, weil die "
+"Veranstaltung nicht existiert."
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid "Contact(id = %1) is already registered on the Event(id = %2)."
@@ -97,7 +101,7 @@ msgstr ""
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid "Price Field (id = %1) does not exist for Event's"
-msgstr ""
+msgstr "Preisfeld (id = %1) existiert nicht für Veranstaltungen"
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid ""
@@ -144,11 +148,11 @@ msgstr "Berechtigung erforderlich"
 #: CRM/CiviMobileAPI/Api/CiviMobileSurvey/GetStructure.php
 #: CRM/CiviMobileAPI/Api/CiviMobileSurvey/Sign.php
 msgid "Not authorized."
-msgstr ""
+msgstr "Nicht berechtigt."
 
 #: CRM/CiviMobileAPI/Api/CiviMobileSurvey/Sign.php
 msgid "contact_id is required."
-msgstr ""
+msgstr "'contact_id' ist ein Pflichtfeld."
 
 #: CRM/CiviMobileAPI/ApiWrapper/Participant/Create.php
 msgid "Empty participant status field(status_id). Please fill it."
@@ -226,7 +230,7 @@ msgstr "CMB Hash"
 #: CRM/CiviMobileAPI/DAO/CivimobileEventPaymentInfo.php
 #: api/v3/CiviMobileParticipantPaymentLink.php
 msgid "Price Set"
-msgstr ""
+msgstr "Preis-Set"
 
 #: CRM/CiviMobileAPI/DAO/CivimobileEventPaymentInfo.php
 msgid "Contact Id"
@@ -277,12 +281,12 @@ msgstr "Uhrzeit Ende"
 
 #: CRM/CiviMobileAPI/DAO/EventSession.php
 msgid "Venue id"
-msgstr ""
+msgstr "Veranstaltungsort ID"
 
 #: CRM/CiviMobileAPI/DAO/EventSessionSpeaker.php
 #: CRM/CiviMobileAPI/DAO/EventSessionVenue.php
 msgid "EventSessionId"
-msgstr ""
+msgstr "EventSessionID"
 
 #: CRM/CiviMobileAPI/DAO/EventSessionSpeaker.php
 msgid "SpeakerID"
@@ -316,7 +320,7 @@ msgstr "Veranstaltungsort"
 
 #: CRM/CiviMobileAPI/DAO/LocationVenue.php
 msgid "Location id"
-msgstr ""
+msgstr "Ort ID"
 
 #: CRM/CiviMobileAPI/DAO/LocationVenue.php
 msgid "Latitude"
@@ -364,7 +368,7 @@ msgstr "Aktualisierungsdatum"
 
 #: CRM/CiviMobileAPI/DAO/PushNotificationMessages.php
 msgid "Data"
-msgstr ""
+msgstr "Data"
 
 #: CRM/CiviMobileAPI/DAO/PushNotificationMessages.php
 msgid "Message"
@@ -372,12 +376,12 @@ msgstr "Nachricht"
 
 #: CRM/CiviMobileAPI/DAO/PushNotificationMessages.php
 msgid "Entity table"
-msgstr ""
+msgstr "Entitätstabelle"
 
 #: CRM/CiviMobileAPI/DAO/PushNotificationMessages.php
 #: api/v3/CiviMobileCustomFields.php
 msgid "Entity id"
-msgstr ""
+msgstr "Entität ID"
 
 #: CRM/CiviMobileAPI/DAO/PushNotificationMessages.php
 msgid "Send date"
@@ -385,7 +389,7 @@ msgstr "Sendedatum"
 
 #: CRM/CiviMobileAPI/DAO/PushNotificationMessages.php
 msgid "Is read"
-msgstr ""
+msgstr "Ist gelesen"
 
 #: CRM/CiviMobileAPI/DAO/PushNotificationMessages.php
 msgid "Invoke Contact Id"
@@ -408,7 +412,7 @@ msgstr "Referent"
 
 #: CRM/CiviMobileAPI/Form/Agenda.php
 msgid "- any -"
-msgstr ""
+msgstr "- beliebig -"
 
 #: CRM/CiviMobileAPI/Form/Agenda.php CRM/CiviMobileAPI/Form/Session.php
 #: api/v3/CiviMobileEventSession.php
@@ -573,16 +577,22 @@ msgid ""
 "href=\"https://civimobile.org/partner\"  "
 "target=\"_blank\">civimobile.org</a> and generate your own Server Key"
 msgstr ""
+"Um Push Benachrichtungen zu nutzen, bitte auf <a "
+"href=\"https://civimobile.org/partner\"  "
+"target=\"_blank\">civimobile.org</a> registrieren und einen eigenen Server "
+"Key erstellen"
 
 #: CRM/CiviMobileAPI/Form/Settings.php CRM/CiviMobileAPI/Utils/Checklist.php
 msgid ""
 "You are using CiviMobileAPI <strong>%1</strong>. The latest version is "
 "CiviMobileAPI <strong>%2</strong>"
 msgstr ""
+"Du benutzt CiviMobileAPI <strong>%1</strong>. Die neueste Version ist "
+"CiviMobileAPI <strong>%2</strong>"
 
 #: CRM/CiviMobileAPI/Form/Settings.php CRM/CiviMobileAPI/Utils/Checklist.php
 msgid "Your extension version is up to date - CiviMobile <strong>%1</strong>"
-msgstr ""
+msgstr "Die Erweiterung ist aktuell - CiviMobile <strong>%1</strong>"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid ""
@@ -594,6 +604,7 @@ msgstr ""
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Your Server Key is valid and you can use Push Notifications."
 msgstr ""
+"Ihr Server Key ist gültig und Sie können Push-Benachrichtigungen benutzen."
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Your Server Key is invalid. Please enter valid Server Key."
@@ -658,7 +669,7 @@ msgstr "Firebase key"
 #: CRM/CiviMobileAPI/Form/Settings.php
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "Do you have custom application?"
-msgstr ""
+msgstr "Haben Sie eine angepasste App?"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Save settings"
@@ -822,11 +833,11 @@ msgstr "QR Hash Code"
 
 #: CRM/CiviMobileAPI/Install/Entity/CustomField.php
 msgid "QR image url"
-msgstr ""
+msgstr "QR Bild URL"
 
 #: CRM/CiviMobileAPI/Install/Entity/CustomField.php
 msgid "Public key"
-msgstr ""
+msgstr "Public Key"
 
 #: CRM/CiviMobileAPI/Install/Entity/CustomField.php
 msgid "Is GOTV?"
@@ -850,7 +861,7 @@ msgstr "Öffentliche Info"
 
 #: CRM/CiviMobileAPI/Install/Entity/CustomGroup.php
 msgid "Survey`s additional info"
-msgstr ""
+msgstr "Zusatzinfo Befragung"
 
 #: CRM/CiviMobileAPI/Install/Entity/UpdateMessageTemplate.php
 msgid ""
@@ -870,7 +881,7 @@ msgstr "Pflichtfeld"
 
 #: CRM/CiviMobileAPI/Page/DeletePushToken.php
 msgid "Wrong contact_id"
-msgstr ""
+msgstr "Falsche contact_id"
 
 #: CRM/CiviMobileAPI/Page/DeletePushToken.php
 msgid "Wrong token"
@@ -890,11 +901,11 @@ msgstr "API Error."
 
 #: CRM/CiviMobileAPI/Page/PublicApi/ApiBase.php
 msgid "The 'entityName' field is required field."
-msgstr ""
+msgstr "Das 'entityName' Feld ist ein Pflichtfeld."
 
 #: CRM/CiviMobileAPI/Page/PublicApi/ApiBase.php
 msgid "The 'entityData' field is required field."
-msgstr ""
+msgstr "Das 'entityData' Feld ist ein Pflichtfeld."
 
 #: CRM/CiviMobileAPI/Page/PublicApi/ApiBase.php
 msgid "The 'entityData' has not valid json."
@@ -902,7 +913,7 @@ msgstr ""
 
 #: CRM/CiviMobileAPI/Page/PublicApi/ApiBase.php
 msgid "The 'actionName' field is required field."
-msgstr ""
+msgstr "Das 'actionName' Feld ist ein Pflichtfeld."
 
 #: CRM/CiviMobileAPI/Page/PublicApi/ApiBase.php
 msgid "Value '%1' is not allow entity name."
@@ -918,7 +929,7 @@ msgstr "'1%' Zugriff nicht erlaubt."
 
 #: CRM/CiviMobileAPI/Page/PublicApi/Middleware.php
 msgid "'option_group_id' is required field."
-msgstr ""
+msgstr "'option_group_id' ist ein Pflichtfeld."
 
 #: CRM/CiviMobileAPI/Page/PublicApi/Middleware.php
 msgid "Not allow value field for 'option_group_id' field."
@@ -926,7 +937,7 @@ msgstr ""
 
 #: CRM/CiviMobileAPI/Page/PublicApi/Middleware.php
 msgid "'event_id' is required field."
-msgstr ""
+msgstr "'event_id' ist ein Pflichtfeld."
 
 #: CRM/CiviMobileAPI/Page/PublicApi/Middleware.php
 msgid "Event(id = %1) does not exist or is not public."
@@ -1012,13 +1023,15 @@ msgstr "Dezember"
 
 #: CRM/CiviMobileAPI/Utils/Checklist.php
 msgid "Is <strong>\"%1\"</strong> plugin active?"
-msgstr ""
+msgstr "Ist das <strong>\"%1\"</strong> Plugin aktiv?"
 
 #: CRM/CiviMobileAPI/Utils/Checklist.php
 msgid ""
 "CiviMobile may not work properly if <strong>\"%1\"</strong> plugin is "
 "installed."
 msgstr ""
+"CiviMobile funktioniert vielleicht nicht richtig, wenn das "
+"<strong>\"%1\"</strong> Plugin nicht installiert ist."
 
 #: CRM/CiviMobileAPI/Utils/Checklist.php
 msgid ""
@@ -1060,19 +1073,19 @@ msgstr ""
 
 #: api/v3/CiviMobileAllowedActivityTypes.php
 msgid "Limit (default unlimited)"
-msgstr ""
+msgstr "Limit (Standard unbeschränkt)"
 
 #: api/v3/CiviMobileAvailableContactGroup.php
 msgid "Is group hidden?"
-msgstr ""
+msgstr "Ist die Gruppe ausgeblendet?"
 
 #: api/v3/CiviMobileCalendar.php
 msgid "Start date for searching (Y-m-d H:i:s)"
-msgstr ""
+msgstr "Startdatum für die Suche (Y-m-d H:i:s)"
 
 #: api/v3/CiviMobileCalendar.php
 msgid "End date for searching (Y-m-d H:i:s)"
-msgstr ""
+msgstr "Enddatum für die Suche (Y-m-d H:i:s)"
 
 #: api/v3/CiviMobileCalendar.php
 msgid "Event type"
@@ -1197,15 +1210,15 @@ msgstr ""
 
 #: api/v3/CiviMobileSurvey.php
 msgid "Values"
-msgstr ""
+msgstr "Werte"
 
 #: api/v3/CiviMobileSurvey.php
 msgid "Note"
-msgstr ""
+msgstr "Notiz"
 
 #: api/v3/CiviMobileSurvey.php
 msgid "Result"
-msgstr ""
+msgstr "Ergebnis"
 
 #: api/v3/CiviMobileSurveyRespondent.php
 msgid "Contact IDs"
@@ -1226,7 +1239,7 @@ msgstr ""
 
 #: api/v3/CiviMobileSurveyRespondent.php
 msgid "Interviewed"
-msgstr ""
+msgstr "Befragt"
 
 #: api/v3/CiviMobileSurveyRespondent.php
 msgid "GOTV"
@@ -1234,31 +1247,31 @@ msgstr ""
 
 #: api/v3/CiviMobileSurveyRespondent.php
 msgid "Group"
-msgstr ""
+msgstr "Gruppe"
 
 #: api/v3/CiviMobileSurveyRespondent.php
 msgid "Contact type"
-msgstr ""
+msgstr "Kontaktart"
 
 #: api/v3/CiviMobileSurveyRespondent.php
 msgid "Primary Address City"
-msgstr ""
+msgstr "Hauptadresse Ort"
 
 #: api/v3/CiviMobileSurveyRespondent.php
 msgid "Primary Address Street Address"
-msgstr ""
+msgstr "Hauptadresse Straße"
 
 #: api/v3/CiviMobileVenue.php
 msgid "Location Id"
-msgstr ""
+msgstr "Ort ID"
 
 #: api/v3/CiviMobileVenue.php
 msgid "Venue Id"
-msgstr ""
+msgstr "Veranstaltungsort ID"
 
 #: api/v3/CiviMobileVenue.php
 msgid "Address_description"
-msgstr ""
+msgstr "Address_description"
 
 #: api/v3/CiviMobileVenue.php
 msgid "Address description"
@@ -1505,7 +1518,7 @@ msgstr "Link vom RSS Feed eingeben."
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "Access to public information in the application"
-msgstr ""
+msgstr "Zugang zu öffentlichen Informationen in der App"
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid ""
@@ -1540,15 +1553,15 @@ msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "Public Area Settings"
-msgstr ""
+msgstr "Einstellungen öffentlicher Bereich"
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "News"
-msgstr ""
+msgstr "Nachrichten"
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "Set default RSS feed on CMS"
-msgstr ""
+msgstr "Standard-RSS-Feed im CMS einstellen"
 
 #: templates/CRM/CiviMobileAPI/Form/Venue.hlp
 msgid ""
@@ -1560,7 +1573,7 @@ msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Venue.hlp
 msgid "Scheme"
-msgstr ""
+msgstr "Schema"
 
 #: templates/CRM/CiviMobileAPI/Form/Venue.hlp
 msgid ""
