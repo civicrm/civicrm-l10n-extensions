@@ -3,13 +3,13 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# HanV <han.velthuis@home.nl>, 2020
+# HanV <han.velthuis@home.nl>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
 "POT-Creation-Date: 2021-01-26 05:01+0000\n"
-"Last-Translator: HanV <han.velthuis@home.nl>, 2020\n"
+"Last-Translator: HanV <han.velthuis@home.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -148,11 +148,11 @@ msgstr "Er is toestemming nodig."
 #: CRM/CiviMobileAPI/Api/CiviMobileSurvey/GetStructure.php
 #: CRM/CiviMobileAPI/Api/CiviMobileSurvey/Sign.php
 msgid "Not authorized."
-msgstr ""
+msgstr "Niet geautoriseerd. "
 
 #: CRM/CiviMobileAPI/Api/CiviMobileSurvey/Sign.php
 msgid "contact_id is required."
-msgstr ""
+msgstr "contact-id is verplicht."
 
 #: CRM/CiviMobileAPI/ApiWrapper/Participant/Create.php
 msgid "Empty participant status field(status_id). Please fill it."
@@ -839,7 +839,7 @@ msgstr "Public-key"
 
 #: CRM/CiviMobileAPI/Install/Entity/CustomField.php
 msgid "Is GOTV?"
-msgstr ""
+msgstr "Is GOTV?"
 
 #: CRM/CiviMobileAPI/Install/Entity/CustomGroup.php
 msgid "Qr options"
@@ -859,7 +859,7 @@ msgstr "Openbare Informatie"
 
 #: CRM/CiviMobileAPI/Install/Entity/CustomGroup.php
 msgid "Survey`s additional info"
-msgstr ""
+msgstr "Aanvullende informatie van enquête"
 
 #: CRM/CiviMobileAPI/Install/Entity/UpdateMessageTemplate.php
 msgid ""
@@ -1025,13 +1025,15 @@ msgstr "December"
 
 #: CRM/CiviMobileAPI/Utils/Checklist.php
 msgid "Is <strong>\"%1\"</strong> plugin active?"
-msgstr ""
+msgstr "Is de <strong>\"%1\"</strong> plugin actief?"
 
 #: CRM/CiviMobileAPI/Utils/Checklist.php
 msgid ""
 "CiviMobile may not work properly if <strong>\"%1\"</strong> plugin is "
 "installed."
 msgstr ""
+"CiviMobile werkt mogelijk niet goed als de <strong>\"%1\"</strong> plugin is"
+" geïnstalleerd."
 
 #: CRM/CiviMobileAPI/Utils/Checklist.php
 msgid ""
@@ -1039,6 +1041,9 @@ msgid ""
 "try to deactivate plugins one by one to detect which plugin blocks "
 "CiviMobile."
 msgstr ""
+"Als het niet lukt om CiviMobile te autoriseren probeer dan een voor een een "
+"plugin even uit te schakelen voordat je CiviMobile opnieuw probeert te "
+"autoriseren, mogelijk voorkomt een plugin het autoriseren."
 
 #: CRM/CiviMobileAPI/Utils/Contact.php
 msgid "Your Api key has removed and all device disconnected from account."
@@ -1200,35 +1205,35 @@ msgstr "Deelnemer-id"
 #: api/v3/CiviMobileSurvey.php api/v3/CiviMobileSurveyInterviewer.php
 #: api/v3/CiviMobileSurveyRespondent.php
 msgid "Survey ID"
-msgstr ""
+msgstr "Enquête-id"
 
 #: api/v3/CiviMobileSurvey.php
 msgid "Activity type ID"
-msgstr ""
+msgstr "Activiteitstype-id"
 
 #: api/v3/CiviMobileSurvey.php
 msgid "Is signed?"
-msgstr ""
+msgstr "Ondertekend?"
 
 #: api/v3/CiviMobileSurvey.php
 msgid "Values"
-msgstr ""
+msgstr "Waarden"
 
 #: api/v3/CiviMobileSurvey.php
 msgid "Note"
-msgstr ""
+msgstr "Notitie"
 
 #: api/v3/CiviMobileSurvey.php
 msgid "Result"
-msgstr ""
+msgstr "Resultaat"
 
 #: api/v3/CiviMobileSurveyRespondent.php
 msgid "Contact IDs"
-msgstr ""
+msgstr "Contact-id's"
 
 #: api/v3/CiviMobileSurveyRespondent.php
 msgid "Interviewer ID"
-msgstr ""
+msgstr "Interviewer-id"
 
 #: api/v3/CiviMobileSurveyRespondent.php
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
@@ -1237,31 +1242,31 @@ msgstr "Status"
 
 #: api/v3/CiviMobileSurveyRespondent.php
 msgid "Reserved"
-msgstr ""
+msgstr "Gereserveerd"
 
 #: api/v3/CiviMobileSurveyRespondent.php
 msgid "Interviewed"
-msgstr ""
+msgstr "Geïnterviewd"
 
 #: api/v3/CiviMobileSurveyRespondent.php
 msgid "GOTV"
-msgstr ""
+msgstr "GOTV"
 
 #: api/v3/CiviMobileSurveyRespondent.php
 msgid "Group"
-msgstr ""
+msgstr "Groep"
 
 #: api/v3/CiviMobileSurveyRespondent.php
 msgid "Contact type"
-msgstr ""
+msgstr "Contacttype"
 
 #: api/v3/CiviMobileSurveyRespondent.php
 msgid "Primary Address City"
-msgstr ""
+msgstr "Primair Adres Plaats"
 
 #: api/v3/CiviMobileSurveyRespondent.php
 msgid "Primary Address Street Address"
-msgstr ""
+msgstr "Primair Adres Straat Adres"
 
 #: api/v3/CiviMobileVenue.php
 msgid "Location Id"
@@ -1317,7 +1322,7 @@ msgstr "CiviMobile Evenement Locaties"
 
 #: civimobileapi.php
 msgid "CiviMobile Checklist"
-msgstr ""
+msgstr "CiviMobile Controlelijst"
 
 #: civimobileapi.php
 msgid "When generating QR Code tokens, use this Event"
