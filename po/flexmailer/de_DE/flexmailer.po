@@ -2,10 +2,14 @@
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# Torben Bertram, 2021
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: flexmailer\n"
 "POT-Creation-Date: 2019-06-02 05:01+0000\n"
+"Last-Translator: Torben Bertram, 2021\n"
 "Language-Team: German (https://www.transifex.com/civicrm/teams/1905/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,41 +19,45 @@ msgstr ""
 
 #: flexmailer.php
 msgid "Flexmailer Settings"
-msgstr ""
+msgstr "Flexmailer Einstellungen"
 
 #: flexmailer.php
 msgid "Automatic"
-msgstr ""
+msgstr "automatisch"
 
 #: flexmailer.php
 msgid "CiviMail BAO"
-msgstr ""
+msgstr "CiviMail BAO"
 
 #: flexmailer.php
 msgid "Flexmailer Pipeline"
-msgstr ""
+msgstr "Flexmailer Warteschlange"
 
 #: src/Listener/RequiredFields.php
 msgid "Field %1 is required."
-msgstr ""
+msgstr "Feld %1 ist ein Pflichtfeld."
 
 #: src/Listener/RequiredTokens.php
 msgid "This message is missing a required token - {%1}: %2"
-msgstr ""
+msgstr "Diese Nachricht benötigt einen Pflicht-Token - (%1): %2"
 
 #: src/Listener/TestPrefix.php
 msgid "[CiviMail Draft]"
-msgstr ""
+msgstr "[CiviMail Entwurf]"
 
 #: src/Services.php
 msgid "Domain address - displays your organization's postal address."
 msgstr ""
+"Standardadresse der Organisation - zeigt die Postanschrift Ihrer "
+"Organisation"
 
 #: src/Services.php
 msgid ""
 "'Opt out via email' - displays an email address for recipients to opt out of"
 " receiving emails from your organization."
 msgstr ""
+"'Opt out via E-Mail' - zeigt eine E-Mail-Adresse für die Empfänger, um dort "
+"E-Mails Ihrer Organisation abzubestellen."
 
 #: src/Services.php
 msgid ""
@@ -57,12 +65,18 @@ msgid ""
 " to opt out of receiving emails from your organization. Alternatively, you "
 "can include the 'Opt out via email' token."
 msgstr ""
+"'Opt out via Webseite' - zeigt einen Link für den Empfänger, um dort E-Mails"
+" Ihrer Organisation mit einem Klick abzubestellen. Alternativ kann der 'Opt "
+"out via E-Mail'-Token benutzt werden."
 
 #: src/Services.php
 msgid ""
 "'Unsubscribe via email' - displays an email address for recipients to "
 "unsubscribe from the specific mailing list used to send this message."
 msgstr ""
+"'Abbestellen via E-Mail' - zeigt eine E-Mail-Adresse für die Empfänger, um "
+"sich dort von der konkret benutzten Verteilergruppe Ihrer Organisation "
+"abzumelden."
 
 #: src/Services.php
 msgid ""
@@ -70,19 +84,29 @@ msgid ""
 "from the specific mailing list used to send this message. Alternatively, you"
 " can include the 'Unsubscribe via email' token or one of the Opt-out tokens."
 msgstr ""
+"'Abbestellen via Webseite' - erstellt einen Link für den Empfänger, um sich "
+"dort von der konkret benutzten Verteilergruppe abzumelden. Alternativ kann "
+"der 'Abbestellen via E-Mail'-Token oder einer der Opt-out-Token benutzt "
+"werden."
 
 #: templates/CRM/Flexmailer/Form/FlexmailerAdmin.tpl
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: templates/CRM/Flexmailer/Form/FlexmailerAdmin.tpl
 msgid ""
 "For greater backward-compatibility, process \"<code>traditional</code>\" "
 "mailings with the CiviMail's hard-coded BAO."
 msgstr ""
+"Für bessere Rückwärtskompatibilität, verarbeite "
+"\"<code>traditionelle</code>\" Rundschreiben mit der CiviMail's hard-coded "
+"BAO."
 
 #: templates/CRM/Flexmailer/Form/FlexmailerAdmin.tpl
 msgid ""
 "For greater forward-compatibility, process \"<code>traditional</code>\" "
 "mailings with Flexmailer's extensible pipeline."
 msgstr ""
+"Für bessere Vorwärtskompatibilität, verarbeite "
+"\"<code>traditionelle</code>\" Rundschreiben mit Flexmailers erweiterbaren "
+"Warteschlange."
