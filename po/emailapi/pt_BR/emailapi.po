@@ -6,9 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2019-02-06 05:01+0000\n"
-"PO-Revision-Date: 2020-05-01 12:52+0000\n"
-"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
+"POT-Creation-Date: 2021-02-07 05:01+0000\n"
+"PO-Revision-Date: 2021-02-07 05:01+0000\n"
+"Last-Translator: CiviCRM Maintenance\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/civicrm/civicrm_extensions/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,16 +22,19 @@ msgstr ""
 
 #: CRM/Emailapi/CivirulesAction/Send.php
 #: CRM/Emailapi/CivirulesAction/SendToRelatedContact.php
+#: CRM/Emailapi/CivirulesAction/SendToRolesOnCase.php
 msgid " and cc to %1"
 msgstr ""
 
 #: CRM/Emailapi/CivirulesAction/Send.php
 #: CRM/Emailapi/CivirulesAction/SendToRelatedContact.php
+#: CRM/Emailapi/CivirulesAction/SendToRolesOnCase.php
 msgid " and bcc to %1"
 msgstr ""
 
 #: CRM/Emailapi/CivirulesAction/Send.php
 #: CRM/Emailapi/CivirulesAction/SendToRelatedContact.php
+#: CRM/Emailapi/CivirulesAction/SendToRolesOnCase.php
 msgid "Send e-mail from \"%1 (%2 using %3)\" with Template \"%4\" to %5 %6 %7"
 msgstr ""
 
@@ -49,21 +52,25 @@ msgstr ""
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
 #: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
+#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "-- please select --"
 msgstr ""
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
 #: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
+#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "From Name"
 msgstr ""
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
 #: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
+#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "From Email"
 msgstr ""
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
 #: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
+#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "Email is not valid."
 msgstr ""
 
@@ -77,21 +84,37 @@ msgstr ""
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
 #: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
+#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "Cc to"
 msgstr ""
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
 #: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
+#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "Bcc to"
 msgstr ""
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
 #: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
+#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "Message Template"
 msgstr ""
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
 #: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
+#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
+msgid " - select - "
+msgstr ""
+
+#: CRM/Emailapi/Form/CivirulesAction/Send.php
+#: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
+#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
+msgid "Disable Smarty"
+msgstr ""
+
+#: CRM/Emailapi/Form/CivirulesAction/Send.php
+#: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
+#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "Location Type (if you do not want primary e-mail address)"
 msgstr ""
 
@@ -102,11 +125,13 @@ msgstr ""
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
 #: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
+#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "Save"
 msgstr ""
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
 #: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
+#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "Cancel"
 msgstr ""
 
@@ -118,14 +143,78 @@ msgstr ""
 msgid "Send e-mail to"
 msgstr ""
 
+#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
+msgid "All people with a role on the case"
+msgstr ""
+
+#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
+msgid "Restrict to Roles"
+msgstr ""
+
 #: CRM/Emailapi/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
+msgstr ""
+
+#: Civi/Emailapi/Actions/SendEmailByEmailApi.php
+msgid "Contact ID"
+msgstr ""
+
+#: Civi/Emailapi/Actions/SendEmailByEmailApi.php
+msgid "File Email Activity on Case ID"
+msgstr ""
+
+#: Civi/Emailapi/Actions/SendEmailByEmailApi.php
+msgid "Contribution ID for contribution tokens"
+msgstr ""
+
+#: Civi/Emailapi/Actions/SendEmailByEmailApi.php
+msgid "Template to use for the Email"
+msgstr ""
+
+#: Civi/Emailapi/Actions/SendEmailByEmailApi.php
+msgid "Send copy to email address (cc) "
+msgstr ""
+
+#: Civi/Emailapi/Actions/SendEmailByEmailApi.php
+msgid "Send blind copy to email address (bcc) "
+msgstr ""
+
+#: Civi/Emailapi/Actions/SendEmailByEmailApi.php
+msgid "Email Subject"
+msgstr ""
+
+#: Civi/Emailapi/Actions/SendEmailByEmailApi.php
+msgid "Send to THIS Email Address (and not the primary one of the contact)"
+msgstr ""
+
+#: Civi/Emailapi/Actions/SendEmailByEmailApi.php
+msgid "Did Email Get Sent?"
+msgstr ""
+
+#: Civi/Emailapi/Actions/SendEmailByEmailApi.php
+msgid "Status Message"
+msgstr ""
+
+#: Civi/Emailapi/Actions/SendEmailByEmailApi.php
+msgid "Could not send email in "
+msgstr ""
+
+#: Civi/Emailapi/Actions/SendEmailByEmailApi.php
+msgid ", error from API Email Send: "
+msgstr ""
+
+#: Civi/Emailapi/Actions/SendEmailByEmailApi.php
+msgid "Could not find mandatory parameter contact_id"
+msgstr ""
+
+#: Civi/Emailapi/CompilerPass.php
+msgid "Send Email using Email API"
 msgstr ""
 
 #: templates/CRM/Emailapi/Form/CivirulesAction/Send.tpl
 msgid ""
 "<p>This is the form where you can set what is going to happen with the email.</p>\n"
-"    <p>The first few fields are relatively straightforward: the <strong>From Name</strong> is the name the email will be sent from and the <strong>From Email</strong> is the email address the email will be sent from.</p>\n"
+"    <p>The first few fields are relatively straightforward: the <strong>From Name</strong> is the name the email will be sent from and the <strong>From Email</strong> is the email address the email will be sent from. Leave these blank to use the configured defaults.</p>\n"
 "    <p>The <strong>Message Template</strong> is where you select which CiviCRM message template will be used to compose the mail. You can create and edit them in <strong>Administer>Communications>Message Templates</strong></p>\n"
 "    <p>The next section allows you to manipulate where the email will be sent to.<br/>\n"
 "    By <strong>default</strong> the email will be sent to the <strong>primary email address of the contact</strong> in question.<br/>\n"
@@ -142,15 +231,16 @@ msgstr ""
 
 #: templates/CRM/Emailapi/Form/CivirulesAction/Send.tpl
 #: templates/CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.tpl
+#: templates/CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.tpl
 msgid ""
-"Note: primary e-mailaddress will be used if location type e-mailaddress not "
-"found"
+"Note: primary e-mail address will be used if location type e-mail address "
+"not found"
 msgstr ""
 
 #: templates/CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.tpl
 msgid ""
 "<p>This is the form where you can set what is going to happen with the email.</p>\n"
-"    <p>The first few fields are relatively straightforward: the <strong>From Name</strong> is the name the email will be sent from and the <strong>From Email</strong> is the email address the email will be sent from.</p>\n"
+"    <p>The first few fields are relatively straightforward: the <strong>From Name</strong> is the name the email will be sent from and the <strong>From Email</strong> is the email address the email will be sent from. Leave these blank to use the configured defaults.</p>\n"
 "    <p>The <strong>Message Template</strong> is where you select which CiviCRM message template will be used to compose the mail. You can create and edit them in <strong>Administer>Communications>Message Templates</strong></p>\n"
 "    <p>The next section allows you to manipulate where the email will be sent to.<br/>\n"
 "    By <strong>default</strong> the email will be sent to the <strong>primary email address of the related contact</strong> in question.<br/>\n"
@@ -160,6 +250,19 @@ msgid ""
 "      <li><strong>The most recent active related contact</strong>, this will select the contact with the newest start date of the relationship,</li>\n"
 "      <li>or <strong>The most recent inactive related contact</strong>, this will select the contact with the latest end date of the relationship</li>\n"
 "    </ul>\n"
+"    </p>\n"
+"      <p>Finally you can specify an emailaddress for the <strong>CC to</strong> (a copy of the email will be sent to this email address and the email address will be visible to the recipient of the email too) or the <strong>BCC to</strong> (a copy of the email will be sent to this email address and the email address will NOT be visible to the recipient of the email too).</p>\n"
+"      <p>The sending of the email will also lead to an activity (type <em>Email</em>) being recorded for the contact in question, whatever email address will be used.</p>\n"
+"    "
+msgstr ""
+
+#: templates/CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.tpl
+msgid ""
+"<p>This is the form where you can set what is going to happen with the email.</p>\n"
+"    <p>The first few fields are relatively straightforward: the <strong>From Name</strong> is the name the email will be sent from and the <strong>From Email</strong> is the email address the email will be sent from. Leave these blank to use the configured defaults.</p>\n"
+"    <p>The <strong>Message Template</strong> is where you select which CiviCRM message template will be used to compose the mail. You can create and edit them in <strong>Administer>Communications>Message Templates</strong></p>\n"
+"    <p>The next section allows you to manipulate where the email will be sent to. By default it will be sent to all people with a role on the case. But you can restrict it by certain roles.<br/>\n"
+"    By <strong>default</strong> the email will be sent to the <strong>primary email address of the contact</strong> in question.<br/>\n"
 "    </p>\n"
 "      <p>Finally you can specify an emailaddress for the <strong>CC to</strong> (a copy of the email will be sent to this email address and the email address will be visible to the recipient of the email too) or the <strong>BCC to</strong> (a copy of the email will be sent to this email address and the email address will NOT be visible to the recipient of the email too).</p>\n"
 "      <p>The sending of the email will also lead to an activity (type <em>Email</em>) being recorded for the contact in question, whatever email address will be used.</p>\n"
