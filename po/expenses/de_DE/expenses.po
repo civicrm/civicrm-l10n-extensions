@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: expenses\n"
-"POT-Creation-Date: 2020-12-03 05:02+0000\n"
+"POT-Creation-Date: 2021-02-10 05:01+0000\n"
 "Last-Translator: Torben Bertram, 2021\n"
 "Language-Team: German (https://www.transifex.com/civicrm/teams/1905/de/)\n"
 "MIME-Version: 1.0\n"
@@ -56,12 +56,13 @@ msgstr "Fall"
 msgid "Currency"
 msgstr "Währung"
 
-#: CRM/Expenses/Form/Expense.php
+#: CRM/Expenses/Form/Expense.php CRM/Expenses/Form/Search.php
+#: CRM/Expenses/Utils/Search.php templates/CRM/Expenses/Page/CaseExpenses.tpl
 msgid "Type"
 msgstr "Art"
 
 #: CRM/Expenses/Form/Expense.php CRM/Expenses/Form/Search.php
-#: CRM/Expenses/Utils/Search.php
+#: CRM/Expenses/Utils/Search.php templates/CRM/Expenses/Page/CaseExpenses.tpl
 msgid "Status"
 msgstr "Status"
 
@@ -260,6 +261,8 @@ msgstr ""
 
 #: Civi/ActionProvider/Action/Expenses/CreateUpdateExpense.php
 #: Civi/ActionProvider/Action/Expenses/CreateUpdateExpenseLine.php
+#: Civi/ActionProvider/Action/Expenses/DeleteExpense.php
+#: Civi/ActionProvider/Action/Expenses/DeleteExpenseAttachment.php
 #: Civi/ActionProvider/Action/Expenses/GetExpenseById.php
 #: Civi/ActionProvider/Action/Expenses/UpdateExpenseStatus.php
 #: Civi/ActionProvider/Action/Expenses/UploadAttachment.php
@@ -287,9 +290,14 @@ msgid "Case ID"
 msgstr "Fall-ID"
 
 #: Civi/ActionProvider/Action/Expenses/CreateUpdateExpenseLine.php
+#: Civi/ActionProvider/Action/Expenses/DeleteExpenseLine.php
 #: Civi/ActionProvider/Action/Expenses/GetExpenseLineById.php
 msgid "Expense Line ID"
 msgstr "Ausgabenzeile ID"
+
+#: Civi/ActionProvider/Action/Expenses/DeleteExpenseAttachment.php
+msgid "Attachment ID (File ID)"
+msgstr ""
 
 #: Civi/ActionProvider/Action/Expenses/GetExpenseByType.php
 msgid "Expense type ID"
@@ -351,6 +359,18 @@ msgstr "Ausgabe: Ausgaben nach Art"
 msgid "Expense: Get expense line by ID"
 msgstr "Ausgabe: Ausgabenzeile nach ID"
 
+#: Civi/CompilerPass/Expenses.php
+msgid "Expense: Delete"
+msgstr ""
+
+#: Civi/CompilerPass/Expenses.php
+msgid "Expense: Delete expense line"
+msgstr ""
+
+#: Civi/CompilerPass/Expenses.php
+msgid "Expense: Delete Attachment"
+msgstr ""
+
 #: Civi/DataProcessor/FieldOutputHandler/Expenses/EditExpenseLineFieldOutputHandler.php
 #: templates/CRM/Expenses/result.tpl
 msgid "Edit Expense"
@@ -363,6 +383,18 @@ msgstr "Ausgaben ID Feld"
 #: expenses.php
 msgid "CiviCRM Expenses: Manage expenses"
 msgstr "CiviCRM Expenses: Ausgaben verwalten"
+
+#: expenses.php
+msgid "Expense Settings"
+msgstr ""
+
+#: settings/expenses.setting.php
+msgid "Create activity"
+msgstr ""
+
+#: settings/expenses.setting.php
+msgid "If enabled, an activity will be created when a new expenses is added."
+msgstr ""
 
 #: templates/CRM/Expenses/Form/Expense.tpl templates/CRM/Expenses/result.tpl
 msgid "Delete Expense"
