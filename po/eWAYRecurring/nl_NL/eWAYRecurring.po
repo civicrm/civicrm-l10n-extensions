@@ -2,10 +2,14 @@
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# HanV <han.velthuis@home.nl>, 2021
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: eWAYRecurring\n"
 "POT-Creation-Date: 2021-02-21 05:01+0000\n"
+"Last-Translator: HanV <han.velthuis@home.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,111 +19,117 @@ msgstr ""
 
 #: CRM/eWAYRecurring/DAO/EwayContributionTransactions.php
 msgid "Unique EwayContributionTransactions ID"
-msgstr ""
+msgstr "Uniek EwayContributionTransactions-id"
 
 #: CRM/eWAYRecurring/DAO/EwayContributionTransactions.php
 msgid "FK to Contribution"
-msgstr ""
+msgstr "FK naar Contribution"
 
 #: CRM/eWAYRecurring/DAO/EwayContributionTransactions.php
 msgid "FK to PaymentProcessor"
-msgstr ""
+msgstr "FK naar PaymentProcessor"
 
 #: CRM/eWAYRecurring/DAO/EwayContributionTransactions.php
 msgid "Access Code"
-msgstr ""
+msgstr "Toegangscode"
 
 #: CRM/eWAYRecurring/DAO/EwayContributionTransactions.php
 msgid "Failed Message"
-msgstr ""
+msgstr "Foutbericht"
 
 #: CRM/eWAYRecurring/DAO/EwayContributionTransactions.php
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: CRM/eWAYRecurring/DAO/EwayContributionTransactions.php
 msgid "Tries"
-msgstr ""
+msgstr "Pogingen"
 
 #: CRM/eWAYRecurring/DAO/EwayContributionTransactions.php
 msgid "Send email?"
-msgstr ""
+msgstr "E-mail verzenden?"
 
 #: CRM/eWAYRecurring/Form/Settings.php
 msgid "Submit"
-msgstr ""
+msgstr "Verzenden"
 
 #: CRM/eWAYRecurring/Page/VerifyUpdateToken.php
 msgid "Update Billing Details"
-msgstr ""
+msgstr "Betaalgegevens wijzigen"
 
 #: CRM/eWAYRecurring/Page/VerifyUpdateToken.php
 msgid "Billing details has been updated successfully."
-msgstr ""
+msgstr "De betaalgegevens zijn gewijzigd."
 
 #: CRM/eWAYRecurring/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
-msgstr ""
+msgstr "Upgrade %1 naar revisie %2"
 
 #: au_com_agileware_ewayrecurring.class.php
 msgid "eWay Recurring"
-msgstr ""
+msgstr "eWay Periodiek"
 
 #: au_com_agileware_ewayrecurring.class.php
 msgid "Error"
-msgstr ""
+msgstr "Fout"
 
 #: au_com_agileware_ewayrecurring.class.php
 msgid "Stored Credit Card"
-msgstr ""
+msgstr "Opgeslagen creditcard"
 
 #: au_com_agileware_ewayrecurring.class.php
 msgid ""
 "Credit card details are entered directly into eWAY and not stored in "
 "CiviCRM. %1"
 msgstr ""
+"Creditcard details worden vastgelegd in eWAY en niet opgeslagen in CiviCRM. "
+"%1"
 
 #: au_com_agileware_ewayrecurring.class.php
 msgid "Learn more on eWAY's PCI DSS page"
-msgstr ""
+msgstr "Meer informatie over de eWAY-pagina PCI-DSS"
 
 #: au_com_agileware_ewayrecurring.class.php
 msgid "Add Credit Card"
-msgstr ""
+msgstr "Creditcard toevoegen"
 
 #: au_com_agileware_ewayrecurring.class.php
 msgid ""
 "Please be sure to click <b>RETURN TO MERCHANT</b> after adding a credit "
 "card."
 msgstr ""
+"Klik na het toevoegen van een creditcard op <b>de link om terug te gaan naar"
+" de handelaar</b>."
 
 #: au_com_agileware_ewayrecurring.class.php
 msgid "eWay - Gateway requires curl with SSL support"
-msgstr ""
+msgstr "eWay - Bij de gateway is curl met SSL-ondersteuning verplicht"
 
 #: au_com_agileware_ewayrecurring.class.php
 msgid "Please update the credit card manually."
-msgstr ""
+msgstr "Wijzig a.u.b. handmatig de creditcard."
 
 #: au_com_agileware_ewayrecurring.class.php
 msgid "eWay warning"
-msgstr ""
+msgstr "eWay waarschuwing"
 
 #: au_com_agileware_ewayrecurring.class.php
 msgid "eWay API Key is not set for this payment processor"
-msgstr ""
+msgstr "eWAY API-Key is niet ingevuld voor deze betaalmethode"
 
 #: au_com_agileware_ewayrecurring.class.php
 msgid "eWay API Password is not set for this payment processor"
-msgstr ""
+msgstr "eWAY API-Password is niet ingevuld voor deze betaalmethode"
 
 #: au_com_agileware_ewayrecurring.class.php
 msgid "Attempted to update billing details for a completed contribution."
 msgstr ""
+"Poging om de betaalgegevens te wijzigen van een al afgeronde contributie."
 
 #: au_com_agileware_ewayrecurring.class.php
 msgid "Attempted to update billing details for a cancelled contribution."
 msgstr ""
+"Poging om de betaalgegevens te wijzigen van een geannuleerde contributie."
 
 #: eWAYRecurring.php
 msgid ""
@@ -128,73 +138,81 @@ msgid ""
 "the eWay API credentials with the new API Key and API Password. For more "
 "details see the <a href=\"%1\">upgrade notes</a>."
 msgstr ""
+"Versie 2.x van de extensie eWay betaalmethode gebruikt de nieuwe eWay Rapid-"
+"API. Wijzig op de <a href=\"%2\">pagina met de betaalmethoden</a> de eWay "
+"API-credentials met de nieuwe API-Key en API-Password. Meer details: <a "
+"href=\"%1\">notities upgrade</a>."
 
 #: eWAYRecurring.php
 msgid "eWay Payment Processor Update"
-msgstr ""
+msgstr "eWay betaalmethode update"
 
 #: eWAYRecurring.php
 msgid ""
 "Please edit and save (without any changes) your existing eWay payment "
 "processor after updating."
 msgstr ""
+"Wijzig a.u.b. na het updaten uw bestaande eWay betaalmethode (zonder daarbij"
+" iets te wijzigen)."
 
 #: eWAYRecurring.php
 msgid "Next Scheduled Date"
-msgstr ""
+msgstr "Volgende geplande datum"
 
 #: eWAYRecurring.php
 msgid "API Key is a required field."
-msgstr ""
+msgstr "API-Key is een verplicht veld."
 
 #: eWAYRecurring.php
 msgid "API Password is a required field."
-msgstr ""
+msgstr "API-Password is een verplicht veld."
 
 #: eWAYRecurring.php
 msgid "Cannot schedule next contribution date before latest received date"
 msgstr ""
+"De geplande volgende contributie kan niet voor de laatste ontvangen "
+"contributie zijn"
 
 #: eWAYRecurring.php
 msgid "Cannot schedule next contribution in the past"
-msgstr ""
+msgstr "De geplande volgende contributie kan niet in het verleden zijn"
 
 #: eWAYRecurring.php
 msgid "eWay Recurring Settings"
-msgstr ""
+msgstr "eWay Periodiek Instellingen"
 
 #: eWAYRecurring.process.inc
 msgid "No eWAY token found for Recurring Contribution %1"
-msgstr ""
+msgstr "Geen eWAY-token gevonden voor periodieke contributie %1"
 
 #: eWAYRecurring.process.inc
 msgid "Transaction Error"
-msgstr ""
+msgstr "Transactie Fout"
 
 #: eWAYRecurring.process.inc
 msgid "Contribution Error"
-msgstr ""
+msgstr "Contributie Fout"
 
 #: js/eway.js
 msgid "The credit card list has been updated."
-msgstr ""
+msgstr "De lijst creditcards is bijgewerkt."
 
 #: js/eway.js
 msgid "eWay"
-msgstr ""
+msgstr "eWay"
 
 #: js/eway.js
 msgid "processing"
-msgstr ""
+msgstr "verwerking"
 
 #: js/eway.js
 msgid "done"
-msgstr ""
+msgstr "klaar"
 
 #: js/eway.js
 msgid "The credit card was not saved. Please try again."
-msgstr ""
+msgstr "De creditcard is niet opgeslagen. Probeer het opnieuw."
 
 #: js/eway.js
 msgid "eWAY Error"
-msgstr ""
+msgstr "eWAY Fout"
