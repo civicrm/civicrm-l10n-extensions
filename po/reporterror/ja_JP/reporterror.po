@@ -7,9 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2018-11-15 19:42+0000\n"
-"PO-Revision-Date: 2020-05-01 12:52+0000\n"
-"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
+"POT-Creation-Date: 2021-03-01 05:01+0000\n"
+"PO-Revision-Date: 2021-03-01 05:01+0000\n"
+"Last-Translator: CiviCRM Maintenance\n"
 "Language-Team: Japanese (http://www.transifex.com/civicrm/civicrm_extensions/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,6 +20,10 @@ msgstr ""
 #: CRM/ReportError/Admin/Form/Settings.php
 msgid "Error Report Recipient"
 msgstr "エラーレポートの受信者"
+
+#: CRM/ReportError/Admin/Form/Settings.php
+msgid "Error Report From Email"
+msgstr ""
 
 #: CRM/ReportError/Admin/Form/Settings.php
 msgid "Display a full backtrace in e-mails?"
@@ -106,6 +110,14 @@ msgid "Cancel"
 msgstr "キャンセル"
 
 #: CRM/ReportError/Admin/Form/Settings.php
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: CRM/ReportError/Admin/Form/Settings.php
+msgid "Please follow the proper format for From Email Address"
+msgstr ""
+
+#: CRM/ReportError/Admin/Form/Settings.php
 msgid "Settings saved."
 msgstr "設定を保存しました。"
 
@@ -144,6 +156,10 @@ msgid "CiviCRM Error Report was uninstalled"
 msgstr "CiviCRM エラーレポートをアンインストール"
 
 #: reporterror.php
+msgid "Report Error Settings"
+msgstr ""
+
+#: reporterror.php
 msgid "There was a CiviCRM error at %1."
 msgstr "%1 で CiviCRM エラーが発生しました。"
 
@@ -164,6 +180,14 @@ msgid ""
 "This usually is your domain administrator's email. Separate multiple email "
 "addresses with a comma (','). If left empty, no e-mails will be sent."
 msgstr "これは通常、ドメイン管理者のメールです。メールアドレスが複数の場合は、カンマ ( ' , ' ) 区切りにしてください。空のままにした場合、メールは送信されません。"
+
+#: templates/CRM/ReportError/Admin/Form/Settings.tpl
+msgid ""
+"From email address to be used when sending the report. If left empty, the "
+"system will use the default site email. <br />Include double-quotes (\") "
+"around the name and angle-brackets (< >) around the email address. EXAMPLE: "
+"<em>\"Error Email\" &lt;error-no-reply@example.org&gt;</em>."
+msgstr ""
 
 #: templates/CRM/ReportError/Admin/Form/Settings.tpl
 msgid ""
