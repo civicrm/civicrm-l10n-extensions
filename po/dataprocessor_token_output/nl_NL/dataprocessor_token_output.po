@@ -2,10 +2,14 @@
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# HanV <han.velthuis@home.nl>, 2021
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: dataprocessor_token_output\n"
-"POT-Creation-Date: 2021-03-03 05:01+0000\n"
+"POT-Creation-Date: 2021-03-06 05:01+0000\n"
+"Last-Translator: HanV <han.velthuis@home.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,11 +19,11 @@ msgstr ""
 
 #: CRM/DataprocessorTokenOutput/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
-msgstr ""
+msgstr "Upgrade %1 naar revisie %2"
 
 #: CRM/DataprocessorTokenOutput/Upgrader.php
 msgid "Prerequisite check failed."
-msgstr ""
+msgstr "Controle op vereisten is mislukt."
 
 #: CRM/DataprocessorTokenOutput/Upgrader.php
 msgid ""
@@ -27,104 +31,113 @@ msgid ""
 "install and enable the <a href=\"%1\">dataprocessor Extension</a> version %2"
 " or newer."
 msgstr ""
+"De DataProcessor Token Output is geïnstalleerd, maar u moet ook de extensie "
+"<a href=\"%1\">dataprocessor</a> versie %2 of nieuwer installeren en "
+"inschakelen."
 
 #: CRM/DataprocessorTokenOutput/Upgrader.php
 msgid "Unknown error key: %1"
-msgstr ""
+msgstr "Onbekende fout, code: %1"
 
 #: Civi/DataProcessorTokenOutput/CompilerPass.php
 msgid "Tokens"
-msgstr ""
+msgstr "Tokens"
 
 #: Civi/DataProcessorTokenOutput/CompilerPass.php
 msgid "Household Tokens"
-msgstr ""
+msgstr "Tokens huishouden"
 
 #: Civi/DataProcessorTokenOutput/CompilerPass.php
 msgid "Participants Tokens"
-msgstr ""
+msgstr "Tokens deelnemers"
 
 #: Civi/DataProcessorTokenOutput/CompilerPass.php
 msgid "Event Tokens"
-msgstr ""
+msgstr "Tokens evenement"
 
 #: Civi/DataProcessorTokenOutput/Output/AbstractToken.php
 msgid "Render table with all data"
-msgstr ""
+msgstr "Tabel opbouwen met alle gegevens"
 
 #: Civi/DataProcessorTokenOutput/Output/AbstractToken.php
 msgid "Render list with all data"
-msgstr ""
+msgstr "Lijst opbouwen met alle gegevens"
 
 #: Civi/DataProcessorTokenOutput/Output/AbstractToken.php
 msgid "Ascending sort %1"
-msgstr ""
+msgstr "Oplopend sorteren %1"
 
 #: Civi/DataProcessorTokenOutput/Output/AbstractToken.php
 msgid "Descending sort %1"
-msgstr ""
+msgstr "Aflopend sorteren %1"
 
 #: Civi/DataProcessorTokenOutput/Output/AbstractToken.php
 msgid "- select -"
-msgstr ""
+msgstr "- selecteer -"
 
 #: Civi/DataProcessorTokenOutput/Output/AbstractToken.php
 msgid "Hidden fields"
-msgstr ""
+msgstr "Verborgen velden"
 
 #: Civi/DataProcessorTokenOutput/Output/AbstractToken.php
 msgid "Sort"
-msgstr ""
+msgstr "Sorteren"
 
 #: Civi/DataProcessorTokenOutput/Output/AbstractToken.php
 msgid "Process all records"
-msgstr ""
+msgstr "Alle records verwerken"
 
 #: Civi/DataProcessorTokenOutput/Output/AbstractToken.php
 msgid "Pre text"
-msgstr ""
+msgstr "Tekst vooraf"
 
 #: Civi/DataProcessorTokenOutput/Output/AbstractToken.php
 msgid "Post text"
-msgstr ""
+msgstr "Tekst achteraf"
 
 #: Civi/DataProcessorTokenOutput/Output/AbstractToken.php
 msgid ""
 "Requires data source '%1' which could not be found. Did you rename or "
 "deleted the data source?"
 msgstr ""
+"Verwacht brondata '%1' die niet gevonden is. Heeft u de naam gewijzigd of de"
+" bron verwijderd?"
 
 #: Civi/DataProcessorTokenOutput/Output/AbstractToken.php
 msgid ""
 "Requires a field with the name '%1' in the data source '%2'. Did you change "
 "the data source type?"
 msgstr ""
+"Vereist een veld met de naam '%1' in de databron '%2'. Heeft u het type van "
+"de databron gewijzigd?"
 
 #: Civi/DataProcessorTokenOutput/Output/ContactToken.php
 #: Civi/DataProcessorTokenOutput/Output/HouseholdToken.php
 msgid "Contact ID Field"
-msgstr ""
+msgstr "Contact-id veld"
 
 #: Civi/DataProcessorTokenOutput/Output/EventToken.php
 msgid "Event ID Field"
-msgstr ""
+msgstr "Evenement-id Veld"
 
 #: Civi/DataProcessorTokenOutput/Output/HouseholdToken.php
 msgid "Household relationship"
-msgstr ""
+msgstr "Huidhouden-relatie"
 
 #: Civi/DataProcessorTokenOutput/Output/HouseholdToken.php
 msgid "- Show all roles -"
-msgstr ""
+msgstr "- Toon alle rollen -"
 
 #: Civi/DataProcessorTokenOutput/Output/ParticipantToken.php
 msgid "Participant ID Field"
-msgstr ""
+msgstr "Deelnemer-id veld"
 
 #: templates/CRM/DataprocessorTokenOutput/Form/TokenConfiguration.tpl
 msgid "The pre text is shown just before the rendered value of the token."
 msgstr ""
+"De 'tekst vooraf' wordt getoond voor de opgebouwde waarde van het token."
 
 #: templates/CRM/DataprocessorTokenOutput/Form/TokenConfiguration.tpl
 msgid "The post text is shown just after the rendered value of the token."
 msgstr ""
+"De 'tekst achteraf' wordt getoond na de opgebouwde waarde van het token."
