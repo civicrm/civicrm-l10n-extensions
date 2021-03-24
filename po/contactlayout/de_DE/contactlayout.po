@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: contactlayout\n"
-"POT-Creation-Date: 2020-12-19 05:01+0000\n"
+"POT-Creation-Date: 2021-03-24 05:01+0000\n"
 "Last-Translator: Torben Bertram, 2021\n"
 "Language-Team: German (https://www.transifex.com/civicrm/teams/1905/de/)\n"
 "MIME-Version: 1.0\n"
@@ -262,12 +262,12 @@ msgid "Contains json encoded layout tabs."
 msgstr ""
 
 #: CRM/Contactlayout/Form/Inline/ProfileBlock.php
-#: ang/contactlayout/contactlayout.js
+#: ang/contactlayout/contactLayoutEditor.component.js
 msgid "Save"
 msgstr "Speichern"
 
 #: CRM/Contactlayout/Form/Inline/ProfileBlock.php
-#: ang/contactlayout/contactlayout.js
+#: ang/contactlayout/contactLayoutEditor.component.js
 msgid "Cancel"
 msgstr "Abbrechen"
 
@@ -299,6 +299,57 @@ msgstr[1] ""
 msgid "Upgrade %1 to revision %2"
 msgstr "Aktualisiere %1 auf Revision %2"
 
+#: ang/contactlayout/contactLayoutEditor.component.js
+#: ang/contactlayout/contactlayoutEditable.directive.js
+msgid "contactlayout"
+msgstr "Kontaktlayout"
+
+#: ang/contactlayout/contactLayoutEditor.component.js
+msgid "All contact types"
+msgstr "Alle Kontaktarten"
+
+#: ang/contactlayout/contactLayoutEditor.component.js
+msgid "All users"
+msgstr "Alle Benutzer"
+
+#: ang/contactlayout/contactLayoutEditor.component.js
+msgid ""
+"You are editing global settings, which will affect more than just this "
+"layout."
+msgstr ""
+
+#: ang/contactlayout/contactLayoutEditor.component.js
+msgid "Relationship Selection"
+msgstr ""
+
+#: ang/contactlayout/contactLayoutEditor.component.js
+msgid "Delete the block \"%1\"?"
+msgstr ""
+
+#: ang/contactlayout/contactLayoutEditor.component.js
+msgid "It is currently part of the \"%1\" layout."
+msgstr ""
+
+#: ang/contactlayout/contactLayoutEditor.component.js
+msgid "No"
+msgstr "Nein"
+
+#: ang/contactlayout/contactLayoutEditor.component.js
+msgid "Yes"
+msgstr "Ja"
+
+#: ang/contactlayout/contactLayoutEditor.component.js
+msgid "Untitled %1"
+msgstr "Unbenannt %1"
+
+#: ang/contactlayout/contactLayoutEditor.component.js
+msgid "Please give the layout a name."
+msgstr "Bitte gebe dem Layout einen Namen."
+
+#: ang/contactlayout/contactLayoutEditor.component.js
+msgid "The layout %1 is empty. Please add at least one block before saving."
+msgstr ""
+
 #: ang/contactlayout/contactlayout.html
 msgid "Contact Summary Editor"
 msgstr "Kontaktübersicht Editor"
@@ -327,7 +378,8 @@ msgstr "Rückgängig"
 msgid "Delete layout"
 msgstr "Lösche Layout"
 
-#: ang/contactlayout/contactlayout.html ang/contactlayout/contactlayout.js
+#: ang/contactlayout/contactlayout.html
+#: ang/contactlayout/contactlayoutEditable.directive.js
 #: ang/contactlayout/contactlayoutblock.html
 msgid "Untitled"
 msgstr ""
@@ -396,60 +448,6 @@ msgstr ""
 msgid "Block"
 msgstr ""
 
-#: ang/contactlayout/contactlayout.html
-msgid "Choose Icon"
-msgstr "Wähle Icon"
-
-#: ang/contactlayout/contactlayout.js
-msgid "contactlayout"
-msgstr "Kontaktlayout"
-
-#: ang/contactlayout/contactlayout.js
-msgid "All contact types"
-msgstr "Alle Kontaktarten"
-
-#: ang/contactlayout/contactlayout.js
-msgid "All users"
-msgstr "Alle Benutzer"
-
-#: ang/contactlayout/contactlayout.js
-msgid ""
-"You are editing global settings, which will affect more than just this "
-"layout."
-msgstr ""
-
-#: ang/contactlayout/contactlayout.js
-msgid "Relationship Selection"
-msgstr ""
-
-#: ang/contactlayout/contactlayout.js
-msgid "Delete the block \"%1\"?"
-msgstr ""
-
-#: ang/contactlayout/contactlayout.js
-msgid "It is currently part of the \"%1\" layout."
-msgstr ""
-
-#: ang/contactlayout/contactlayout.js
-msgid "No"
-msgstr "Nein"
-
-#: ang/contactlayout/contactlayout.js
-msgid "Yes"
-msgstr "Ja"
-
-#: ang/contactlayout/contactlayout.js
-msgid "Untitled %1"
-msgstr "Unbenannt %1"
-
-#: ang/contactlayout/contactlayout.js
-msgid "Please give the layout a name."
-msgstr "Bitte gebe dem Layout einen Namen."
-
-#: ang/contactlayout/contactlayout.js
-msgid "The layout %1 is empty. Please add at least one block before saving."
-msgstr ""
-
 #: ang/contactlayout/contactlayoutblock.html
 msgid "%1 block"
 msgstr ""
@@ -497,6 +495,14 @@ msgstr "(Keine Felder)"
 #: ang/contactlayout/edit-block-relationship-dialog.html
 msgid "- Select -"
 msgstr "- auswählen -"
+
+#: templates/CRM/Contactlayout/Page/Angular.tpl
+msgid "Choose Icon"
+msgstr "Wähle Icon"
+
+#: templates/CRM/Contactlayout/Page/Angular.tpl
+msgid "Multiple"
+msgstr ""
 
 #: templates/CRM/Contactlayout/Page/Inline/ProfileBlock.tpl
 msgid "Edit"
