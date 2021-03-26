@@ -316,7 +316,7 @@ msgstr "BIC gewijzigd van' %1' in '%2'"
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "Bank details changed"
-msgstr ""
+msgstr "Bankgegevens zijn gewijzigd"
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "The amount has to be positive."
@@ -340,7 +340,7 @@ msgstr "Bedrag verlaagd van %1 naar %2"
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "Invalid financial type ID [%1] supplied."
-msgstr ""
+msgstr "Ongeldig financieel type-id [%1]."
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "Financial type changed"
@@ -352,15 +352,15 @@ msgstr "Financieel type gewijzigd van '%1' in '%2'."
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "Campaign changed"
-msgstr ""
+msgstr "Campagne gewijzigd"
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "Campaign changed from '%1' [%2] to '%3' [%4]."
-msgstr ""
+msgstr "Campagne gewijzigd van '%1' [%2] in '%3' [%4]."
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "%1 pending contributions were adjusted as well."
-msgstr ""
+msgstr "%1 openstaande contributies zijn ook gewijzigd."
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "Multiple changes"
@@ -372,39 +372,40 @@ msgstr "SEPA-mandaat is gewijzigd."
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "The following changes have been applied to SDD mandate %1:"
-msgstr ""
+msgstr "Het SDD-mandaat %1 is op de volgende punten gewijzigd:"
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "Cannot adjust mandate [%s], batching in progress!"
-msgstr ""
+msgstr "Mandaat [%s] kan niet worden gewijzigd, de batch loopt!"
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "You can only adjust the amount of recurring contribution mandates."
 msgstr ""
+"U kunt alleen het bedrag van mandaten van periodieke bijdragen wijzigen."
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "The amount cannot be changed to zero or less."
-msgstr ""
+msgstr "Het bedrag moet meer dan 0 zijn."
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "The requested amount is the same as the current one."
-msgstr ""
+msgstr "Het verlangde bedrag is gelijk aan het huidige bedrag."
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "Cannot update scheduled contribution [%s]. Error was: '%s'"
-msgstr ""
+msgstr "Wijzigen ingeplande bijdrage [%s] is mislukt. Foutmelding: '%s'"
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "Successfully updated %d generated contributions."
-msgstr ""
+msgstr "Er is/zijn %d gegenereerde bijdrage(n) gewijzigd."
 
 #: CRM/Sepa/BAO/SEPATransactionGroup.php
 msgid "Cannot create file! Error was: '%s'"
-msgstr ""
+msgstr "Aanmaken bestand is mislukt. Foutmelding: '%s'"
 
 #: CRM/Sepa/BAO/SEPATransactionGroup.php
 msgid "Cannot update transaction group! Error was: '%s'"
-msgstr ""
+msgstr "Wijzigen transactiegroep is mislukt. Foutmelding: '%s'"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "Creditor Contact ID"
@@ -440,11 +441,11 @@ msgstr "Valuta die de crediteur gebruikt"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "Mandate numbering prefix"
-msgstr ""
+msgstr "Prefix nummering mandaat"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "Category purpose of the collection"
-msgstr ""
+msgstr "Categorie doel van de incasso"
 
 #: CRM/Sepa/DAO/SEPACreditor.php CRM/Sepa/DAO/SEPASddFile.php
 msgid "Tag"
@@ -452,7 +453,7 @@ msgstr "Kenmerk"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "Immediately activate new Mandates"
-msgstr ""
+msgstr "Nieuwe mandaten direct activeren"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "SEPA File Format"
@@ -460,11 +461,11 @@ msgstr "SEPA bestandsformaat"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "Creditor Type: SEPA (default) or PSP"
-msgstr ""
+msgstr "Crediteurtype: SEPA (standaard) of PSP"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "Does this creditor use BICs?"
-msgstr ""
+msgstr "Gebruikt deze crediteur BIC's?"
 
 #: CRM/Sepa/DAO/SEPAMandate.php CRM/Sepa/DAO/SEPASddFile.php
 #: CRM/Sepa/DAO/SEPATransactionGroup.php CRM/Sepa/Form/CreateMandate.php
@@ -496,14 +497,14 @@ msgstr "Entiteit-id"
 
 #: CRM/Sepa/DAO/SEPAMandate.php
 msgid "Mandate signature date"
-msgstr ""
+msgstr "Mandaat datum signatuur"
 
 #: CRM/Sepa/DAO/SEPAMandate.php
 #: Civi/Sepa/ActionProvider/Action/FindMandate.php
 #: templates/CRM/Contribute/Form/ContributionThankYou.sepa.tpl
 #: templates/CRM/Event/Form/RegistrationThankYou.sepa.tpl
 msgid "Creditor ID"
-msgstr ""
+msgstr "Crediteur-id"
 
 #: CRM/Sepa/DAO/SEPAMandate.php CRM/Sepa/Form/Report/SepaMandateGeneric.php
 #: CRM/Sepa/Form/Search/SepaContactSearch.php
@@ -511,7 +512,7 @@ msgstr ""
 #: Civi/Sepa/ActionProvider/Action/CreateRecurringMandate.php
 #: Civi/Sepa/ActionProvider/Action/FindMandate.php
 msgid "Contact ID"
-msgstr ""
+msgstr "Contact-id"
 
 #: CRM/Sepa/DAO/SEPAMandate.php CRM/Sepa/Form/Search/SepaContactSearch.php
 #: Civi/Sepa/ActionProvider/Action/FindMandate.php sepa.php
@@ -522,35 +523,35 @@ msgstr ""
 #: templates/Sepa/Contribute/Form/ContributionView.tpl
 #: templates/Sepa/Contribute/Page/ContributionRecur.tpl
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: CRM/Sepa/DAO/SEPAMandate.php
 msgid "creation date"
-msgstr ""
+msgstr "aanmaakdatum"
 
 #: CRM/Sepa/DAO/SEPAMandate.php
 msgid "First Contribution (to be deprecated)"
-msgstr ""
+msgstr "Eerste bijdrage (dit wordt in de toekomst ontraden)"
 
 #: CRM/Sepa/DAO/SEPAMandate.php
 msgid "validation date"
-msgstr ""
+msgstr "validatiedatum"
 
 #: CRM/Sepa/DAO/SEPASddFile.php
 msgid "Filename"
-msgstr ""
+msgstr "Bestandsnaam"
 
 #: CRM/Sepa/DAO/SEPASddFile.php CRM/Sepa/DAO/SEPATransactionGroup.php
 msgid "Latest Submission Date"
-msgstr ""
+msgstr "Laatste verzenddatum"
 
 #: CRM/Sepa/DAO/SEPASddFile.php CRM/Sepa/DAO/SEPATransactionGroup.php
 msgid "Created Date"
-msgstr ""
+msgstr "Aanmaakdatum"
 
 #: CRM/Sepa/DAO/SEPASddFile.php
 msgid "Comments"
-msgstr ""
+msgstr "Opmerkingen"
 
 #: CRM/Sepa/DAO/SEPATransactionGroup.php CRM/Sepa/Form/CreateMandate.php
 #: CRM/Sepa/Form/RetryCollection.php
@@ -558,16 +559,16 @@ msgstr ""
 #: templates/CRM/Sepa/Page/CreateMandate.tpl
 #: templates/CRM/Sepa/Page/MandateTab.tpl
 msgid "Collection Date"
-msgstr ""
+msgstr "Incasso-datum"
 
 #: CRM/Sepa/DAO/SepaMandateLink.php
 msgid "SepaMandate ID"
-msgstr ""
+msgstr "SepaMandaat-id"
 
 #: CRM/Sepa/DAO/SepaMandateLink.php
 #: CRM/Sepa/Form/Report/SepaMandateGeneric.php
 msgid "Creation Date"
-msgstr ""
+msgstr "Aanmaakdatum"
 
 #: CRM/Sepa/DAO/SepaMandateLink.php CRM/Sepa/Form/CreateMandate.php
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php
@@ -577,7 +578,7 @@ msgstr ""
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 #: templates/CRM/Sepa/Page/MandateTab.tpl
 msgid "Start Date"
-msgstr ""
+msgstr "Startdatum"
 
 #: CRM/Sepa/DAO/SepaMandateLink.php CRM/Sepa/Form/CreateMandate.php
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php
@@ -585,34 +586,34 @@ msgstr ""
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 #: templates/CRM/Sepa/Page/MandateTab.tpl
 msgid "End Date"
-msgstr ""
+msgstr "Einddatum"
 
 #: CRM/Sepa/Form/CreateMandate.php
 msgid "You can only replace RCUR mandates"
-msgstr ""
+msgstr "U kunt alleen RCUR-mandaten vervangen"
 
 #: CRM/Sepa/Form/CreateMandate.php
 msgid "No contact ID (cid) given."
-msgstr ""
+msgstr "Geen contact-id (cid) meegegeven"
 
 #: CRM/Sepa/Form/CreateMandate.php
 msgid "Clone SEPA Mandate for Contact [%1]: %2"
-msgstr ""
+msgstr "Kopieer SEPA-mandaat voor contact [%1]: %2"
 
 #: CRM/Sepa/Form/CreateMandate.php
 msgid "Replace SEPA Mandate for Contact [%1]: %2"
-msgstr ""
+msgstr "Vervang SEPA-mandaat voor contact [%1]: %2"
 
 #: CRM/Sepa/Form/CreateMandate.php
 msgid "Create new SEPA Mandate for Contact [%1]: %2"
-msgstr ""
+msgstr "Aanmaken SEPA-mandaat voor contact [%1]: %2"
 
 #: CRM/Sepa/Form/CreateMandate.php
 #: Civi/Sepa/ActionProvider/Action/FindMandate.php
 #: templates/CRM/Sepa/Page/CreateMandate.tpl
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "Creditor"
-msgstr ""
+msgstr "Crediteur"
 
 #: CRM/Sepa/Form/CreateMandate.php CRM/Sepa/Form/Report/SepaMandateOOFF.php
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php
@@ -620,7 +621,7 @@ msgstr ""
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 #: templates/CRM/Sepa/Page/ListGroup.tpl
 msgid "Financial Type"
-msgstr ""
+msgstr "Financieel type"
 
 #: CRM/Sepa/Form/CreateMandate.php CRM/Sepa/Form/Report/SepaMandateOOFF.php
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php
@@ -628,23 +629,23 @@ msgstr ""
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 #: templates/CRM/Sepa/Page/ListGroup.tpl
 msgid "Campaign"
-msgstr ""
+msgstr "Campagne"
 
 #: CRM/Sepa/Form/CreateMandate.php templates/CRM/Sepa/Page/CreateMandate.tpl
 msgid "not required, will be generated"
-msgstr ""
+msgstr "niet verplicht, wordt gegenereerd"
 
 #: CRM/Sepa/Form/CreateMandate.php templates/CRM/Sepa/Page/CreateMandate.tpl
 msgid "not required"
-msgstr ""
+msgstr "niet verplicht"
 
 #: CRM/Sepa/Form/CreateMandate.php
 msgid "Account"
-msgstr ""
+msgstr "Rekening"
 
 #: CRM/Sepa/Form/CreateMandate.php
 msgid "required"
-msgstr ""
+msgstr "verplicht"
 
 #: CRM/Sepa/Form/CreateMandate.php CRM/Sepa/Form/Report/SepaMandateGeneric.php
 #: CRM/Sepa/Form/Report/SepaMandateOOFF.php CRM/Sepa/Page/CreateMandate.php
@@ -658,87 +659,87 @@ msgstr ""
 #: templates/CRM/Sepa/Page/ListGroup.tpl
 #: templates/CRM/Sepa/Page/MandateTab.tpl
 msgid "Amount"
-msgstr ""
+msgstr "Bedrag"
 
 #: CRM/Sepa/Form/CreateMandate.php templates/CRM/Sepa/Page/CreateMandate.tpl
 msgid "Replacement Date"
-msgstr ""
+msgstr "Vervangingsdatum"
 
 #: CRM/Sepa/Form/CreateMandate.php templates/CRM/Sepa/Page/CreateMandate.tpl
 msgid "Replacement Reason"
-msgstr ""
+msgstr "Vervangingsreden"
 
 #: CRM/Sepa/Form/CreateMandate.php
 msgid "Day of Month"
-msgstr ""
+msgstr "Dag van de maand"
 
 #: CRM/Sepa/Form/CreateMandate.php CRM/Sepa/Form/RetryCollection.php
 #: Civi/Sepa/ActionProvider/Action/CreateRecurringMandate.php
 #: Civi/Sepa/ActionProvider/Action/FindMandate.php
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "Frequency"
-msgstr ""
+msgstr "Frequentie"
 
 #: CRM/Sepa/Form/CreateMandate.php
 msgid "Create"
-msgstr ""
+msgstr "Aanmaken"
 
 #: CRM/Sepa/Form/CreateMandate.php
 msgid "Incompatible frequency unit '%1' in mandate."
-msgstr ""
+msgstr "Incompatibele frequentie-eenheid '%1' in mandaat."
 
 #: CRM/Sepa/Form/CreateMandate.php CRM/Utils/SepaOptionGroupTools.php
 msgid "Warning"
-msgstr ""
+msgstr "Waarschuwing"
 
 #: CRM/Sepa/Form/CreateMandate.php
 msgid "BIC is required"
-msgstr ""
+msgstr "BIC is verplicht"
 
 #: CRM/Sepa/Form/CreateMandate.php
 msgid "Amount has to be positive."
-msgstr ""
+msgstr "Bedrag moet groter dan nul zijn."
 
 #: CRM/Sepa/Form/CreateMandate.php
 msgid "Already in use"
-msgstr ""
+msgstr "Al in gebruik"
 
 #: CRM/Sepa/Form/CreateMandate.php CRM/Sepa/Page/CreateMandate.php
 msgid "'%3' SEPA Mandate <a href=\"%2\">%1</a> created."
-msgstr ""
+msgstr "'%3' SEPA-mandaat <a href=\"%2\">%1</a> aangemaakt."
 
 #: CRM/Sepa/Form/CreateMandate.php CRM/Sepa/Page/CreateMandate.php
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Success"
-msgstr ""
+msgstr "Gelukt"
 
 #: CRM/Sepa/Form/CreateMandate.php
 msgid "Failed to create %1 mandate. Error was: %2"
-msgstr ""
+msgstr "Aanmaken %1 mandaat is mislukt. Foutmelding: %2 "
 
 #: CRM/Sepa/Form/CreateMandate.php
 msgid "- none -"
-msgstr ""
+msgstr "- geen -"
 
 #: CRM/Sepa/Form/CreateMandate.php
 msgid "new account"
-msgstr ""
+msgstr "nieuwe rekening"
 
 #: CRM/Sepa/Form/CreateMandate.php
 msgid "CiviBanking"
-msgstr ""
+msgstr "CiviBanking"
 
 #: CRM/Sepa/Form/CreateMandate.php
 msgid "One-time only (OOFF)"
-msgstr ""
+msgstr "Alleen eenmalig (OOFF)"
 
 #: CRM/Sepa/Form/Report/SepaMandateGeneric.mgd.php
 msgid "SEPA Mandates (generic)"
-msgstr ""
+msgstr "SEPA-mandaten (generiek)"
 
 #: CRM/Sepa/Form/Report/SepaMandateGeneric.mgd.php
 msgid "Generic SEPA Mandate Report (org.project60.sepa)"
-msgstr ""
+msgstr "Generiek rapport SEPA-mandaat (org.project60.sepa)"
 
 #: CRM/Sepa/Form/Report/SepaMandateGeneric.php
 #: CRM/Sepa/Form/Search/SepaContactSearch.php
@@ -749,150 +750,150 @@ msgstr ""
 #: templates/CRM/Event/Form/RegistrationThankYou.sepa.tpl
 #: templates/CRM/Sepa/Page/CreateMandate.tpl
 msgid "Mandate Reference"
-msgstr ""
+msgstr "Referentie mandaat"
 
 #: CRM/Sepa/Form/Report/SepaMandateGeneric.php
 #: Civi/Sepa/ActionProvider/Action/CreateOneOffMandate.php
 #: Civi/Sepa/ActionProvider/Action/CreateRecurringMandate.php
 #: Civi/Sepa/ActionProvider/Action/FindMandate.php
 msgid "Mandate ID"
-msgstr ""
+msgstr "Mandaat-id"
 
 #: CRM/Sepa/Form/Report/SepaMandateGeneric.php
 msgid "Mandate Status"
-msgstr ""
+msgstr "Mandaat status"
 
 #: CRM/Sepa/Form/Report/SepaMandateGeneric.php
 #: Civi/Sepa/ActionProvider/Action/CreateOneOffMandate.php
 #: Civi/Sepa/ActionProvider/Action/CreateRecurringMandate.php
 #: Civi/Sepa/ActionProvider/Action/FindMandate.php sepa.php
 msgid "Signature Date"
-msgstr ""
+msgstr "Datum signatuur"
 
 #: CRM/Sepa/Form/Report/SepaMandateGeneric.php
 #: Civi/Sepa/ActionProvider/Action/CreateOneOffMandate.php
 #: Civi/Sepa/ActionProvider/Action/CreateRecurringMandate.php
 #: Civi/Sepa/ActionProvider/Action/FindMandate.php
 msgid "Validation Date"
-msgstr ""
+msgstr "Validatiedatum"
 
 #: CRM/Sepa/Form/Report/SepaMandateGeneric.php
 #: CRM/Sepa/Form/Report/SepaMandateOOFF.php
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php CRM/Sepa/Form/RetryCollection.php
 msgid "Contribution Status"
-msgstr ""
+msgstr "Bijdrage-status"
 
 #: CRM/Sepa/Form/Report/SepaMandateGeneric.php
 msgid "Any"
-msgstr ""
+msgstr "Alle"
 
 #: CRM/Sepa/Form/Report/SepaMandateGeneric.php
 msgid "One-off"
-msgstr ""
+msgstr "Eenmalig"
 
 #: CRM/Sepa/Form/Report/SepaMandateGeneric.php
 #: Civi/Sepa/ActionProvider/Action/FindMandate.php
 #: templates/CRM/Sepa/Page/CreateMandate.tpl
 msgid "Recurring"
-msgstr ""
+msgstr "Terugkerend"
 
 #: CRM/Sepa/Form/Report/SepaMandateGeneric.php
 msgid "Contact Name"
-msgstr ""
+msgstr "Contactnaam"
 
 #: CRM/Sepa/Form/Report/SepaMandateGeneric.php
 msgid "View Mandate Options."
-msgstr ""
+msgstr "Mandaat opties weergeven."
 
 #: CRM/Sepa/Form/Report/SepaMandateGeneric.php
 msgid "View Contact Summary for this Contact."
-msgstr ""
+msgstr "Contactoverzicht van dit contact weergeven."
 
 #: CRM/Sepa/Form/Report/SepaMandateOOFF.mgd.php
 msgid "SEPA Mandates (One-Off)"
-msgstr ""
+msgstr "SEPA-mandaten (eenmalig)"
 
 #: CRM/Sepa/Form/Report/SepaMandateOOFF.mgd.php
 msgid "SEPA One-Off Mandate Report (org.project60.sepa)"
-msgstr ""
+msgstr "Eenmalig rapport SEPA-mandaat (org.project60.sepa)"
 
 #: CRM/Sepa/Form/Report/SepaMandateOOFF.php
 msgid "Contribution ID"
-msgstr ""
+msgstr "Contributie-id"
 
 #: CRM/Sepa/Form/Report/SepaMandateOOFF.php CRM/Sepa/Form/RetryCollection.php
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "Cancel Reason"
-msgstr ""
+msgstr "Reden afbreken"
 
 #: CRM/Sepa/Form/Report/SepaMandateOOFF.php
 msgid "Contribution Page"
-msgstr ""
+msgstr "Bijdragepagina"
 
 #: CRM/Sepa/Form/Report/SepaMandateOOFF.php
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php
 msgid "Contribution Collection Date"
-msgstr ""
+msgstr "Incassodatum contributies"
 
 #: CRM/Sepa/Form/Report/SepaMandateOOFF.php
 msgid "Fee Amount"
-msgstr ""
+msgstr "Kosten"
 
 #: CRM/Sepa/Form/Report/SepaMandateOOFF.php
 msgid "Net Amount"
-msgstr ""
+msgstr "Netto bedrag"
 
 #: CRM/Sepa/Form/Report/SepaMandateOOFF.php
 msgid "Contribution Amount"
-msgstr ""
+msgstr "Contributie bedrag"
 
 #: CRM/Sepa/Form/Report/SepaMandateOOFF.php
 msgid "Receive Date"
-msgstr ""
+msgstr "Ontvangstdatum"
 
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.mgd.php
 msgid "SEPA Mandates (Recurring)"
-msgstr ""
+msgstr "SEPA-mandaten (terugkerend)"
 
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.mgd.php
 msgid "SEPA Recurring Mandate Report (org.project60.sepa)"
-msgstr ""
+msgstr "Terugkerend rapport SEPA-mandaat (org.project60.sepa)"
 
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php sepa.php
 msgid "Cycle Day"
-msgstr ""
+msgstr "Cyclus dag"
 
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php
 msgid "Recurring Contribution Status"
-msgstr ""
+msgstr "Status periodieke bijdrage"
 
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php
 msgid "Cancel Reason(s)"
-msgstr ""
+msgstr "Reden(en) afbreken"
 
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php
 msgid "Transaction ID"
-msgstr ""
+msgstr "Transactie-id"
 
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php CRM/Sepa/Form/RetryCollection.php
 msgid "Installment Amount"
-msgstr ""
+msgstr "Termijnbedrag"
 
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php
 msgid "Cycle Interval"
-msgstr ""
+msgstr "Cyclus interval"
 
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php
 msgid "Cycle Days"
-msgstr ""
+msgstr "Cyclus dagen"
 
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php
 msgid "Total Amount Collected"
-msgstr ""
+msgstr "Totaal verzameld bedrag"
 
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php
 msgid "Total Count of Collected Contributions"
-msgstr ""
+msgstr "Telling van de verzamelde bijdragen"
 
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php
 msgid "Total Count of Failed/Cancelled Contribution"
