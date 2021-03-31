@@ -177,7 +177,7 @@ msgstr "Grote groepen"
 #: CRM/Admin/Form/Setting/SepaSettings.php
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Only Completed Contributions"
-msgstr "Alleen afgeronde contributies"
+msgstr "Alleen afgeronde bijdragen"
 
 #: CRM/Admin/Form/Setting/SepaSettings.php
 msgid "No XML drafts"
@@ -360,7 +360,7 @@ msgstr "Campagne gewijzigd van '%1' [%2] in '%3' [%4]."
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "%1 pending contributions were adjusted as well."
-msgstr "%1 openstaande contributies zijn ook gewijzigd."
+msgstr "%1 openstaande bijdragen zijn ook gewijzigd."
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "Multiple changes"
@@ -819,7 +819,7 @@ msgstr "Eenmalig rapport SEPA-mandaat (org.project60.sepa)"
 
 #: CRM/Sepa/Form/Report/SepaMandateOOFF.php
 msgid "Contribution ID"
-msgstr "Contributie-id"
+msgstr "Bijdrage-id"
 
 #: CRM/Sepa/Form/Report/SepaMandateOOFF.php CRM/Sepa/Form/RetryCollection.php
 #: templates/CRM/Sepa/Page/EditMandate.tpl
@@ -833,7 +833,7 @@ msgstr "Bijdragepagina"
 #: CRM/Sepa/Form/Report/SepaMandateOOFF.php
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php
 msgid "Contribution Collection Date"
-msgstr "Incassodatum contributies"
+msgstr "Incassodatum bijdragen"
 
 #: CRM/Sepa/Form/Report/SepaMandateOOFF.php
 msgid "Fee Amount"
@@ -845,7 +845,7 @@ msgstr "Netto bedrag"
 
 #: CRM/Sepa/Form/Report/SepaMandateOOFF.php
 msgid "Contribution Amount"
-msgstr "Contributie bedrag"
+msgstr "Bijdrage bedrag"
 
 #: CRM/Sepa/Form/Report/SepaMandateOOFF.php
 msgid "Receive Date"
@@ -1065,7 +1065,7 @@ msgstr "Beëindigde mandaten worden opgeschoond"
 
 #: CRM/Sepa/Logic/Queue/Update.php
 msgid "Lock released"
-msgstr ""
+msgstr "Lock vrijgegeven"
 
 #: CRM/Sepa/Logic/Settings.php
 msgid "Thank you"
@@ -1382,6 +1382,10 @@ msgid ""
 "href=\"https://github.com/Project60/org.project60.sepapp/releases\">CiviSEPA"
 " Payment Processor</a> Extension."
 msgstr ""
+"Uw CiviSEPA betaalmethoden zijn uitgeschakeld omdat de code verplaatst is "
+"naar een nieuwe extensie. Als u toch uw CiviSEPA betaalmethoden wilt blijven"
+" gebruiken, installeer dan de nieuwste versie van de  <a "
+"href=\"https://github.com/Project60/org.project60.sepapp/releases\">extensie</a>."
 
 #: CRM/Sepa/Upgrader.php
 msgid "%1 Payment Processor(s) Disabled!"
@@ -1483,7 +1487,7 @@ msgstr "Nog actief"
 
 #: Civi/Sepa/ActionProvider/Action/FindMandate.php
 msgid "Pick (if multiple results)"
-msgstr ""
+msgstr "Kies (bij meerdere resultaten)"
 
 #: Civi/Sepa/ActionProvider/Action/FindMandate.php
 #: templates/CRM/Sepa/Page/MandateTab.tpl
@@ -1524,7 +1528,7 @@ msgstr "Incasseer %1 op %2"
 
 #: js/CreateMandate.js
 msgid "Collects %1 %2 on the %3., beginning %4.<br/>Annual amount is %5."
-msgstr ""
+msgstr "Incasseert %1 %2 op de %3, beginnend %4.<br/>Jaarbedrag is %5."
 
 #: js/CreateMandate.js
 msgid "Account Name"
@@ -1539,10 +1543,13 @@ msgid ""
 "Will attempt to re-collect <strong>%1</strong> failed debit contributions "
 "from %2 different contacts.<br/>The total amount is <strong>%3</strong>."
 msgstr ""
+"Zal proberen de <strong>%1</strong> mislukte debet bijdragen opnieuw te "
+"incasseren van %2 verschillende contacten.<br/>Het totaalbedrag is "
+"<strong>%3</strong>."
 
 #: js/RetryCollection.js
 msgid "No SEPA collections match your criteria."
-msgstr ""
+msgstr "Er zijn geen SEPA incasso's die aan uw voorwaarden voldoen."
 
 #: sepa.php
 msgid "<i>None</i>"
@@ -1570,83 +1577,85 @@ msgstr "CiviSEPA"
 
 #: sepa.php
 msgid "Create SEPA mandates"
-msgstr ""
+msgstr "SEPA-mandaat aanmaken"
 
 #: sepa.php
 msgid "View SEPA mandates"
-msgstr ""
+msgstr "SEPA-mandaten weergeven"
 
 #: sepa.php
 msgid "Edit SEPA mandates"
-msgstr ""
+msgstr "SEPA-mandaat wijzigen"
 
 #: sepa.php
 msgid "Delete SEPA mandates"
-msgstr ""
+msgstr "SEPA-mandaat verwijderen"
 
 #: sepa.php
 msgid "View SEPA transaction groups"
-msgstr ""
+msgstr "SEPA-transactiegroepen weergeven"
 
 #: sepa.php
 msgid "Batch SEPA transaction groups"
-msgstr ""
+msgstr "Batch SEPA-transactiegroepen"
 
 #: sepa.php
 msgid "Delete SEPA transaction groups"
-msgstr ""
+msgstr "SEPA-transactiegroep verwijderen"
 
 #: sepa.php
 msgid ""
 "This contribution has no mandate and cannot simply be changed to a SEPA "
 "payment instrument."
 msgstr ""
+"Deze bijdrage heeft geen mandaat en kan niet eenvoudig worden gewijzigd in "
+"een SEPA-betaalmethode."
 
 #: sepa.php
 msgid "This contribution has a mandate, its payment instrument has to be '%s'"
-msgstr ""
+msgstr "Deze bijdrage heeft een mandaat, de betaalmethode moet zijn '%s'"
 
 #: sepa.php
 msgid "Most Recent SEPA Mandate"
-msgstr ""
+msgstr "Meest recente SEPA-mandaat"
 
 #: sepa.php
 msgid "Signature Date (raw)"
-msgstr ""
+msgstr "Datum signatuur (ruw)"
 
 #: sepa.php
 msgid "IBAN (anonymised)"
-msgstr ""
+msgstr "IBAN (anoniem gemaakt)"
 
 #: sepa.php
 msgid "Amount (raw)"
-msgstr ""
+msgstr "Bedrag (ruw)"
 
 #: sepa.php
 msgid "First Collection Date (raw)"
-msgstr ""
+msgstr "Eerste incasso-datum (ruw)"
 
 #: sepa.php templates/CRM/Contribute/Form/ContributionThankYou.sepa.tpl
 #: templates/CRM/Event/Form/RegistrationThankYou.sepa.tpl
 msgid "First Collection Date"
-msgstr ""
+msgstr "Eerste incasso-datum"
 
 #: sepa.php
 msgid "Interval Multiplier"
-msgstr ""
+msgstr "Interval vermenigvuldiger"
 
 #: sepa.php
 msgid "Interval Unit"
-msgstr ""
+msgstr "Interval eenheid"
 
 #: sepa.php templates/CRM/Sepa/Page/CreateMandate.tpl
 msgid "Interval"
-msgstr ""
+msgstr "Interval"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "This is the name of the contact to which this creditor is associated to."
-msgstr ""
+msgstr "De naam van het contact waarmee deze crediteur geassocieerd is."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
@@ -1659,16 +1668,20 @@ msgid ""
 "This is the official name of the creditor. This will be used when "
 "communication to the banks."
 msgstr ""
+"De naam van de crediteur. Deze wordt gebruikt in de communicatie met de "
+"banken."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid "Postal address of the creditor."
-msgstr ""
+msgstr "Postadres van de crediteur."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "Home country of the creditor. <strong>Only countries that are enabled under "
 "\"Settings - Localization\" are shown here.</strong>"
 msgstr ""
+"Land van de crediteur. <strong>Alleen bij \"Instellingen - Lokalisatie\" "
+"ingeschakelde landen worden getoond.</strong>"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
@@ -1676,55 +1689,70 @@ msgid ""
 "collect the monthly payments. You can also provide a comma separated list of"
 " such days."
 msgstr ""
+"U dient een dag aan te geven (een dag van de maand) waarop de maandelijkse "
+"betalingen worden geïncasseerd. U kunt een kommagescheiden lijst van dagen "
+"gebruiken."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "This is the Creditor Identifier, an international ID that has to be "
 "requested by the national banks."
 msgstr ""
+"Dit is de 'Creditor Identifier', een internationale identificatie die door "
+"de nationale banken gevraagd wordt."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid "<strong>Be careful when changing this!</strong>"
-msgstr ""
+msgstr "<strong>Wees voorzichtig als u dit wijzigt!</strong>"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid "International Bank Account Number (IBAN) of the creditor."
-msgstr ""
+msgstr "IBAN van de crediteur."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "Business Identifier Code (BIC) of the financial institution of the creditor."
-msgstr ""
+msgstr "Business Identifier Code (BIC) van de crediteur."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "SEPA file format used for the transmission of the payment request file to "
 "the bank."
 msgstr ""
+"SEPA-bestandformaat dat gebruikt wordt voor het verzenden naar de bank van "
+"het bestand met de betalingsverzoeken."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "After changing this, <i>any</i> file downloaded -old or new- for this "
 "creditor will be in the new format."
 msgstr ""
+"Na het wijzigen hiervan zal <i>elke</i> download van een bestand, ook bij "
+"oude bestanden, voor deze crediteur in het nieuwe formaat zijn."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "The payment processor's test mode will only accept creditors that are "
 "defined as a test creditor."
 msgstr ""
+"Bij het testen van de betaalmethode worden alleen crediteuren geaccepteerd "
+"die als test-crediteur zijn gedefinieerd."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "Transaction groups of a test creditor can be downloaded, but <i>NOT</i> "
 "closed."
 msgstr ""
+"Transactiegroepen van een test-crediteur kunnen worden gedownload, maar "
+"<i>NIET</i> worden gesloten."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "The horizon is the \"look ahead\" time frame (in days) that CiviSEPA uses to"
 " determine which single payments (OOFF) should be generated."
 msgstr ""
+"De horizon is de tijd (in dagen) dat CiviSEPA naar voren kijkt om te bepalen"
+" welke enkele betalingen (OOFF) gegenereerd moeten worden."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
@@ -1732,22 +1760,29 @@ msgid ""
 "containing them for the next 30 days will be generated and become visible on"
 " the SEPA dashboard."
 msgstr ""
+"Een waarde van 30 voor de horizon geeft aan dat de betalingen en de groepen "
+"die de betalingen bevat voor de volgende 30 dagen worden gegenereerd en "
+"zichtbaar zijn op het SEPA-dashboard."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid "<strong>Only positive values are allowed!</strong>"
-msgstr ""
+msgstr "<strong>Alle positieve waarde zijn toegestaan!</strong>"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "The horizon is the \"look ahead\" time frame (in days) that CiviSEPA uses to"
 " determine which recurring payments (RCUR) should be generated."
 msgstr ""
+"De horizon is de tijd (in dagen) dat CiviSEPA naar voren kijkt om te bepalen"
+" welke periodieke betalingen (RCUR) gegenereerd moeten worden."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "The RCUR grace period is the time, that the submission of a group could be "
 "delayed before it gets deleted."
 msgstr ""
+"De RCUR-uitstelperiode is de tijd dat het verzenden van de groep uitgesteld "
+"kan worden voordat de groep wordt verwijderd."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
@@ -1756,6 +1791,10 @@ msgid ""
 "still try to submit the group, but it's up to the bank whether it is "
 "accepted or rejected."
 msgstr ""
+"Een waarde van 7 voor de uitstelperiode geeft aan dat als u de groep niet "
+"binnen een week verzend dat de groep dan wordt verwijderd. In de "
+"uitstelperiode kunt u de groep nog verzenden maar de bank bepaalt of de "
+"betalingen worden geaccepteerd of geweigerd."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
@@ -1763,10 +1802,13 @@ msgid ""
 "institution requires the payment file to be submitted <i>before</i> the "
 "collection date."
 msgstr ""
+"Het aantal melddagen geeft de tijd aan dat het financieel onderdeel van de "
+"crediteur vraagt om het bestand met betalingen te verzenden <i>voor </i> de "
+"incasso-datum."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid "<i>Usually, you should not have to adjust this value.</i>"
-msgstr ""
+msgstr "<i>Deze waarde hoeft u normaal gesproken niet te wijzigen.</i>"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
@@ -1775,64 +1817,87 @@ msgid ""
 "are in progress. For security reasons, this lock times out after the "
 "specified time."
 msgstr ""
+"Bij CiviSEPA-operaties, zoals batchverwerking, is er een alleenrecht tot "
+"toegang tot de SEPA-gegevens. De toegang van andere processen tot die "
+"gegevens is daarom dan ook geblokkeerd. Deze blokkade is echter voor een "
+"beperkte tijd."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "The default creditor will be used when no other creditor is exclicitely set."
 " It will also be pre-selected in the back office forms."
 msgstr ""
+"De standaard crediteur zal worden gebruikt als er geen andere crediteur "
+"wordt aangegeven. In de backoffice-formulieren is deze crediteur al "
+"geselecteerd bij een keuze."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "A strict interpretation of the SEPA standards would not allow you to modify "
 "an active mandate. Furthermore, it can potentially cause technial problems."
 msgstr ""
+"Een strikte interpretatie van de SEPA-standaard staat het niet toe dat u een"
+" actief mandaat aanpast.  Bovendien kan dit technische problemen geven."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "If you enable this option, you will get extra actions on the 'edit mandate' "
 "page."
 msgstr ""
+"Indien u deze optie inschakelt, dan heeft u extra mogelijke acties bij het "
+"wijzigen van het mandaat."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "Be aware that you should send out a new prenotification to the debitor every"
 " time you modify a mandate."
 msgstr ""
+"NB: U dient vooraf een nieuwe notificatie te sturen naar de debiteur als u "
+"het mandaat aanpast."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "The transaction message is a text that shows up on your debitors' bank "
 "statement."
 msgstr ""
+"Het transactie-bericht is een tekst die getoond wordt als statement van de "
+"bank van de debiteur."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid "If left empty it defaults to \"Thank you\"."
-msgstr ""
+msgstr "Indien u dit niet vult, dan is de standaardtekst 'Dank u wel'."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "Some banks reject SDD groups with a collection date that doesn't happen to "
 "be a bank day, for example a week end."
 msgstr ""
+"Enkele banken weigeren SDD-groepen met een incassodatum die niet op een "
+"werkdag valt, bijvoorbeeld de zondag."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "If you activate this option, the collection date will be automatically "
 "deferred to the following Monday."
 msgstr ""
+"Indien u deze optie inschakelt dan wordt de incassodatum verplaatst naar de "
+"opeenvolgende maandag."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "Be aware that an active <code>defer_collection_date</code> hook can further "
 "defer the collection date."
 msgstr ""
+"NB: Een actieve <code>uitgestelde incassodatum </code> hook kan de de "
+"incassodatum nog verder uitstellen."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "Also, if your bank has a more complicated set of bank holidays, you might "
 "have to implement that hook."
 msgstr ""
+"Als uw bank meer ingewikkelde dagen heeft dat de bank gesloten is dan kunt u"
+" mogelijk daarvoor iets (een hook) moeten maken."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
@@ -1841,7 +1906,7 @@ msgstr ""
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid "This feature is only available from CiviCRM 4.6.10+"
-msgstr ""
+msgstr "Deze functie is pas vanaf CiviCRM 4.6.10+ beschikbaar"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
@@ -1947,85 +2012,85 @@ msgstr ""
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Creditors"
-msgstr ""
+msgstr "Crediteuren"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 #: templates/CRM/Sepa/Page/ListGroup.tpl
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Actions"
-msgstr ""
+msgstr "Acties"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Copy"
-msgstr ""
+msgstr "Kopiëren"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 #: templates/CRM/Sepa/Page/MandateTab.tpl
 #: templates/Sepa/Contribute/Page/ContributionRecur.tpl
 msgid "Edit"
-msgstr ""
+msgstr "Wijzigen"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 #: templates/CRM/Sepa/Page/DashBoard.tpl
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "Delete"
-msgstr ""
+msgstr "Verwijderen"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "No creditors found"
-msgstr ""
+msgstr "Geen crediteuren gevonden"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Add"
-msgstr ""
+msgstr "Toevoegen"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Add/Edit Creditor"
-msgstr ""
+msgstr "Crediteur toevoegen/wijzigen"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Creditor Information"
-msgstr ""
+msgstr "Crediteur informatie"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Creditor Label"
-msgstr ""
+msgstr "Crediteur label"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "Help"
-msgstr ""
+msgstr "Help"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Creditor Name"
-msgstr ""
+msgstr "Crediteur Naam"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Test Creditor"
-msgstr ""
+msgstr "Test crediteur"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Creditor Address"
-msgstr ""
+msgstr "Crediteur Adres"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Creditor Country"
-msgstr ""
+msgstr "Crediteur Land"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Creditor Identifier"
-msgstr ""
+msgstr "Crediteur Identifier"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Creditor Type"
-msgstr ""
+msgstr "Crediteur Type"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Uses BICs"
-msgstr ""
+msgstr "BIC's gebruiken"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Custom Batching Settings (for this creditor)"
@@ -2033,15 +2098,15 @@ msgstr ""
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Batching Horizon"
-msgstr ""
+msgstr "Horizon batchverwerking"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Batching Notice Days"
-msgstr ""
+msgstr "Melddagen batchverwerking"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Grace Period"
-msgstr ""
+msgstr "Uitstelperiode"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Default Batching Settings"
@@ -2049,95 +2114,97 @@ msgstr ""
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "System Settings"
-msgstr ""
+msgstr "Systeeminstellingen"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Recurring Buffer Days"
-msgstr ""
+msgstr "Terugkerende bufferdagen"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "No XML Draft Files"
-msgstr ""
+msgstr "Geen XML-drafts"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Support Large Groups"
-msgstr ""
+msgstr "Grote groepen ondersteunen"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Creditor deleted"
-msgstr ""
+msgstr "Crediteur verwijderd"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Are you sure you want to delete this creditor?"
-msgstr ""
+msgstr "Weet u zeker dat u deze crediteur wilt verwijderen?"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "You must provide a valid contact to save this creditor"
-msgstr ""
+msgstr "U moet een geldig contact aangeven"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Creditor updated"
-msgstr ""
+msgstr "Crediteur gewijzigd"
 
 #: templates/CRM/Contact/Page/View/Summary.sepa.tpl
 msgid "SEPA Mandate"
-msgstr ""
+msgstr "SEPA Mandaat"
 
 #: templates/CRM/Contact/Page/View/Summary.sepa.tpl
 #: templates/CRM/Sepa/Page/DashBoard.tpl templates/CRM/Sepa/Page/ListGroup.tpl
 msgid "Contributions"
-msgstr ""
+msgstr "Bijdragen"
 
 #: templates/CRM/Contribute/Form/ContributionConfirm.sepa.tpl
 #: templates/CRM/Contribute/Form/ContributionThankYou.sepa.tpl
 msgid "Total Amount"
-msgstr ""
+msgstr "Totaalbedrag"
 
 #: templates/CRM/Contribute/Form/ContributionConfirm.sepa.tpl
 msgid "I want to contribute this amount %1."
-msgstr ""
+msgstr "Ik wil een bijdrage doen van %1."
 
 #: templates/CRM/Contribute/Form/ContributionConfirm.sepa.tpl
 #: templates/CRM/Event/Form/RegistrationConfirm.sepa.tpl
 msgid "This payment will be debited from the following account:"
-msgstr ""
+msgstr "Deze betaling wordt gedebiteerd van de volgende rekening:"
 
 #: templates/CRM/Contribute/Form/ContributionConfirm.sepa.tpl
 msgid "Account Holder"
-msgstr ""
+msgstr "Rekeninghouder"
 
 #: templates/CRM/Contribute/Form/ContributionConfirm.sepa.tpl
 msgid "Bank Name"
-msgstr ""
+msgstr "Banknaam"
 
 #: templates/CRM/Contribute/Form/ContributionMain.sepa.tpl
 msgid ""
 "THIS PAGE PAGE DOES NOT WORK PROPERLY WITHOUT JAVASCRIPT. PLEASE ENABLE "
 "JAVASCRIPT IN YOUR BROWSER"
 msgstr ""
+"Deze pagina werkt alleen goed als JavaScript wordt toegestaan! Sta het "
+"uitvoeren van JavaScript voor deze applicatie toe in uw browser"
 
 #: templates/CRM/Contribute/Form/ContributionMain.sepa.tpl
 msgid "yearly"
-msgstr ""
+msgstr "per jaar"
 
 #: templates/CRM/Contribute/Form/ContributionThankYou.sepa.tpl
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "Date"
-msgstr ""
+msgstr "Datum"
 
 #: templates/CRM/Contribute/Form/ContributionThankYou.sepa.tpl
 msgid "Payment Reference"
-msgstr ""
+msgstr "Referentie betaling"
 
 #: templates/CRM/Contribute/Form/ContributionThankYou.sepa.tpl
 msgid "The amount will be debited %1."
-msgstr ""
+msgstr "Het bedrag wordt gedebiteerd %1."
 
 #: templates/CRM/Contribute/Form/ContributionThankYou.sepa.tpl
 #: templates/CRM/Event/Form/RegistrationConfirm.sepa.tpl
 #: templates/CRM/Event/Form/RegistrationThankYou.sepa.tpl
 msgid "Direct Debit Payment"
-msgstr ""
+msgstr "Direct Debit Betaling"
 
 #: templates/CRM/Contribute/Form/ContributionThankYou.sepa.tpl
 msgid "The following will be debited from your account."
