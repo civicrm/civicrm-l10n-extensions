@@ -2317,6 +2317,9 @@ msgid ""
 " the generated format on the <a href=\"%1\">settings page</a>. Then dowload "
 "the file again."
 msgstr ""
+"Controleer of uw bank het formaat XML-PAIN ondersteund. Indien dit niet zo "
+"is, wijzig dan <a href=\"%1\">het gegenereerde formaat</a>. Download daarna "
+"het bestand opnieuw."
 
 #: templates/CRM/Sepa/Page/CloseGroup.tpl
 msgid ""
@@ -2550,7 +2553,7 @@ msgstr "Beschrijving"
 
 #: templates/CRM/Sepa/Page/DashBoard.tpl
 msgid "Missed"
-msgstr ""
+msgstr "Gemist"
 
 #: templates/CRM/Sepa/Page/DashBoard.tpl
 msgid "Submission date has passed!"
@@ -2574,7 +2577,7 @@ msgstr "Snel"
 
 #: templates/CRM/Sepa/Page/DashBoard.tpl
 msgid "Submission within 6 days or OOFF (submission not enforced)"
-msgstr ""
+msgstr "Verzending binnen 6 dagen of OOFF (verzending niet afgedwongen)"
 
 #: templates/CRM/Sepa/Page/DashBoard.tpl
 msgid "Upcoming"
@@ -2652,23 +2655,24 @@ msgstr "Dit is een niet toegestane status!"
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "Only proceed if you know what you're doing."
-msgstr ""
+msgstr "Ga alleen verder als u weet wat u aan het doen bent."
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "The group has a total of %1 associated %2."
-msgstr ""
+msgstr "De groep heeft een totaal van %1 bijbehorend %2."
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "None of them have been processed yet, so they could be deleted."
 msgstr ""
+"Deze zijn allemaal nog niet verwerkt, ze kunnen dus worden verwijderd."
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "All of them have already been transmitted to the bank."
-msgstr ""
+msgstr "Ze zijn allemaal al verzonden naar de bank."
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "All of them have already been fully processed."
-msgstr ""
+msgstr "Ze zijn allemaal al geheel verwerkt."
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid ""
@@ -2676,22 +2680,24 @@ msgid ""
 " are %2 %4 that have already been sent to the bank for collection, and "
 "another %3 that have been fully processed."
 msgstr ""
+"%1 zijn er nog niet verwerkt en kunnen worden verwijderd. Er zijn er echter "
+"al %2 %4 verzonden naar de bank voor incasso, %3 zijn al geheel verwerkt."
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "What do you want to do with the associated %1?"
-msgstr ""
+msgstr "Wat wilt u doen met de bijbehorende %1?"
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "don't delete any %1"
-msgstr ""
+msgstr "verwijder geen enkele %1"
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "delete all %1"
-msgstr ""
+msgstr "verwijder alle %1"
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "delete pending %1"
-msgstr ""
+msgstr "verwijder lopende %1"
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid ""
@@ -2699,11 +2705,16 @@ msgid ""
 "transaction group is deleted, these payments do not make sense any more. "
 "They will also be generated again, once you hit update."
 msgstr ""
+"U kunt besluiten om de open bijdragen te verwijderen. Als de periodieke "
+"transactiegroep is verwijderd dan zijn deze betalingen niet meer zinvol. Ze "
+"worden opnieuw gegenereerd bij het kiezen om te wijzigen."
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid ""
 "Deleting these contributions will <i>not</i> affect the associated mandates."
 msgstr ""
+"Het verwijderen van deze bijdragen heeft <i>geen</i> gevolgen voor de "
+"bijbehorende mandaten."
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid ""
@@ -2711,6 +2722,9 @@ msgid ""
 " means, that related 'real world activites' (like money transfers) have "
 "already been initiated or even completed."
 msgstr ""
+"Wees voorzichtig met het verwijderen van al verwerkte bijdragen. Dat "
+"betekent meestal dat de echte handeling (geld overmaken) al in gang is gezet"
+" of zelfs al is afgerond."
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid ""
@@ -2720,6 +2734,10 @@ msgid ""
 "they will otherwise remain in the status 'in progress' and not be processed "
 "any more."
 msgstr ""
+"Een gesloten groep wordt normaal gesproken verzonden naar de bank, dus u "
+"zult meestal deze groep niet willen verwijderen. Als u dit toch doet, "
+"overweeg dan om alle bijbehorende bijdragen te verwijderen, anders houden "
+"zij de status 'Lopend' en worden ze niet meer verwerkt."
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid ""
@@ -2728,6 +2746,10 @@ msgid ""
 "do, deleting all associated contributions is a good choice, since they will "
 "otherwise remain in the status 'in progress' and not be processed any more."
 msgstr ""
+"Een gesloten groep wordt normaal gesproken verzonden naar de bank, dus u "
+"zult meestal deze groep niet willen verwijderen. Als u dit toch doet, "
+"overweeg dan om alle bijbehorende bijdragen te verwijderen, anders houden "
+"zij de status 'Lopend' en worden ze niet meer verwerkt."
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid ""
@@ -2736,6 +2758,10 @@ msgid ""
 "delete this group. However if you do, be sure to delete the associated "
 "contributions in case there was no money transferred in the first place."
 msgstr ""
+"Een transactiegroep die als ontvangen wordt gezien is meestal geheel "
+"verwerkt, het geld is overgemaakt op uw rekening. U zou deze groep niet "
+"moeten willen verwijderen. Als u dat toch doet, verwijder dan ook de "
+"bijbehorende bijdragen voor het geval dat er geen geld is overgemaakt."
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid ""
@@ -2744,6 +2770,11 @@ msgid ""
 "delete this group. However if you do, you should consider not deleting the "
 "associated contributions in case money was actually transferred."
 msgstr ""
+"Een transactiegroep die als ontvangen wordt gezien is meestal geheel "
+"verwerkt, het geld is overgemaakt op uw rekening. U zou deze groep niet "
+"moeten willen verwijderen. Als u dat toch doet, overweeg dan om de "
+"bijbehorende bijdragen niet te verwijderen voor het geval dat er geld is "
+"overgemaakt."
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid ""
@@ -2751,10 +2782,14 @@ msgid ""
 "collected any more. Be sure that you know what you're doing before "
 "proceeding."
 msgstr ""
+"Als u de bijbehorende mandaten van de groep verwijdert dan kunnen zij niet "
+"meer geïncasseerd worden. Weet wat u doet voordat u verdergaat."
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "Deleting these mandates will also delete the associated contributions."
 msgstr ""
+"Het verwijderen van deze mandaten betekent ook het verwijderen van de "
+"bijbehorende bijdragen."
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid ""
@@ -2764,6 +2799,10 @@ msgid ""
 "will otherwise remain in the status 'in progress' and not be processed any "
 "more."
 msgstr ""
+"Een gesloten groep wordt normaal gesproken verzonden naar de bank, dus u "
+"zult meestal deze groep niet willen verwijderen. Als u dit toch doet, "
+"overweeg dan om alle bijbehorende mandaten te verwijderen, anders houden zij"
+" de status 'Lopend' en worden ze niet meer verwerkt."
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid ""
@@ -2772,6 +2811,10 @@ msgid ""
 "if there's something wrong with it, be sure not to delete any mandates that "
 "you still want to collect or keep on record."
 msgstr ""
+"Een gesloten groep wordt normaal gesproken verzonden naar de bank, dus u "
+"zult meestal deze groep niet willen verwijderen. Als u dit toch doet omdat "
+"er een fout inzit, zorg er dan voor dat u geen mandaten verwijderd die u nog"
+" wilt gaan incasseren of wilt bewaren."
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid ""
@@ -2779,6 +2822,9 @@ msgid ""
 "i.e. the money actually arrived on your account. You shouldn't want to "
 "delete this group in the first place."
 msgstr ""
+"Een transactiegroep die als ontvangen wordt gezien is meestal geheel "
+"verwerkt, het geld is overgemaakt op uw rekening. U zou deze groep niet "
+"moeten willen verwijderen."
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid ""
@@ -2788,116 +2834,126 @@ msgid ""
 "with it, be sure not to delete any mandates that you still want to collect "
 "or keep a record of."
 msgstr ""
+"Een transactiegroep die als ontvangen wordt gezien is meestal geheel "
+"verwerkt, het geld is overgemaakt op uw rekening. U zou deze groep niet "
+"moeten willen verwijderen. Als u dat toch doet omdat er iets mis mee is, "
+"zorg er dan voor dat u geen mandaat verwijderd dat u nog wilt gaan "
+"incasseren of wilt bewaren."
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "Are you sure this is what you want to do?"
-msgstr ""
+msgstr "Weet u zeker dat u dit wil doen?"
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "No"
-msgstr ""
+msgstr "Nee"
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "SEPA transaction group '%1' could not be deleted succesfully."
-msgstr ""
+msgstr "Transactiegroep '%1' kan niet worden verwijderd."
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "Error was:"
-msgstr ""
+msgstr "Fout:"
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid ""
 "SEPA transaction group '%1' was deleted, but the following problems were "
 "encountered:"
 msgstr ""
+"De transactiegroep '%1' is verwijderd, maar er zijn de volgende problemen:"
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "contribution ID"
-msgstr ""
+msgstr "Bijdrage-id"
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "error message"
-msgstr ""
+msgstr "fouttekst"
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "Contribution"
-msgstr ""
+msgstr "Bijdrage"
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "%1 %2 have been deleted along with the group."
-msgstr ""
+msgstr "%1 %2 zijn verwijderd samen met de groep."
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "SEPA transaction group '%1' has been succesfully deleted."
-msgstr ""
+msgstr "Transactiegroep '%1' is verwijderd."
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "Back"
-msgstr ""
+msgstr "Terug"
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "No group_id given!"
-msgstr ""
+msgstr "De 'group_id' ontbreekt!"
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "Transaction group [%1] couldn't be loaded."
-msgstr ""
+msgstr "Transactiegroep [%1] kan niet worden geladen."
 
 #: templates/CRM/Sepa/Page/EditMandate.hlp
 msgid ""
 "Select the template that should be used to create this prenotification file."
 msgstr ""
+"Selecteer het sjabloon dat gebruikt moet worden voor het aanmaken van het "
+"bestand met de vooraf notificatie."
 
 #: templates/CRM/Sepa/Page/EditMandate.hlp
 msgid ""
 "The default template can be found and edited at \"Communications\" -> "
 "\"Message Templates\" -> \"System Workflow Messages\""
 msgstr ""
+"Het standaardsjabloon kunt u vinden en wijzigen bij \"Communicatie \" -> "
+"\"Berichtsjabloon\" -> \"Workflowberichten\""
 
 #: templates/CRM/Sepa/Page/EditMandate.hlp
 msgid ""
 "The templates listed here are all user templates that begin with the prefix "
 "'SEPA'."
-msgstr ""
+msgstr "Het gaat om de hier getoonde sjablonen die beginnen met 'SEPA'."
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "SEPA Recurring Mandate"
-msgstr ""
+msgstr "SEPA Periodiek Mandaat"
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "SEPA Single Payment Mandate"
-msgstr ""
+msgstr "SEPA Eenmalige betaling mandaat"
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 #: templates/Sepa/Contribute/Form/ContributionView.tpl
 #: templates/Sepa/Contribute/Page/ContributionRecur.tpl
 msgid "Creation date"
-msgstr ""
+msgstr "Aanmaakdatum"
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 #: templates/Sepa/Contribute/Form/ContributionView.tpl
 #: templates/Sepa/Contribute/Page/ContributionRecur.tpl
 msgid "Signature date"
-msgstr ""
+msgstr "Datum signatuur"
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 #: templates/Sepa/Contribute/Form/ContributionView.tpl
 #: templates/Sepa/Contribute/Page/ContributionRecur.tpl
 msgid "Validation date"
-msgstr ""
+msgstr "Validatiedatum"
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "Payment Details"
-msgstr ""
+msgstr "Details betaling"
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "Recurring Contribution"
-msgstr ""
+msgstr "Periodieke Bijdrage"
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "Create Date"
@@ -3042,7 +3098,7 @@ msgstr "SEPA Periodieke Mandaten"
 
 #: templates/CRM/Sepa/Page/MandateTab.tpl
 msgid "Installs"
-msgstr ""
+msgstr "Termijnen"
 
 #: templates/CRM/Sepa/Page/MandateTab.tpl
 msgid "Last Collection"
@@ -3062,7 +3118,7 @@ msgstr "Mandaat wijzigen"
 
 #: templates/CRM/Sepa/Page/MandateTab.tpl
 msgid "This contact has no recorded recurring mandates."
-msgstr ""
+msgstr "Dit contact heeft geen periodieke mandaten."
 
 #: templates/CRM/Sepa/Page/MandateTab.tpl
 msgid "One-Off SEPA Mandates"
@@ -3112,25 +3168,27 @@ msgstr "De hook create_mandate is niet aangeroepen."
 
 #: tests/phpunit/CRM/Sepa/HookTest.php
 msgid "The mandate reference is not the generated one."
-msgstr ""
+msgstr "De mandaat-referentie is niet de gegenereerde."
 
 #: tests/phpunit/CRM/Sepa/HookTest.php
 msgid "The modify_txgroup_reference hook has not been called."
-msgstr ""
+msgstr "De hook modify_txgroup_reference is niet aangeroepen."
 
 #: tests/phpunit/CRM/Sepa/HookTest.php
 msgid "The transaction group reference is not the generated one."
-msgstr ""
+msgstr "De transactiegroep-referentie is niet de gegenereerde."
 
 #: tests/phpunit/CRM/Sepa/HookTest.php
 msgid "The installment_created hook has not been called (correctly)."
-msgstr ""
+msgstr "De hook installment_created is niet (goed) aangeroepen."
 
 #: tests/phpunit/CRM/Sepa/MandateTerminationTest.php
 msgid ""
 "There should be no transaction group be associated with the mandate after "
 "terminating."
 msgstr ""
+"Er moet na het beëindigen van het mandaat geen transactiegroep meer bij "
+"behoren."
 
 #: tests/phpunit/CRM/Sepa/MandateTerminationTest.php
 msgid ""
@@ -3143,30 +3201,35 @@ msgid ""
 "It must not be allowed to terminate the mandate after the group has been "
 "closed."
 msgstr ""
+"Het moet niet toegestaan worden dat het mandaat beëindigd kan worden nadat "
+"de groep is gesloten."
 
 #: tests/phpunit/CRM/Sepa/MandateTerminationTest.php
 msgid "The mandate has been illegally terminated after closing."
-msgstr ""
+msgstr "Het mandaat is illegaal beëindigd na het sluiten."
 
 #: tests/phpunit/CRM/Sepa/MandateTerminationTest.php
 msgid "The mandate status has been illegally touched after closing."
 msgstr ""
+"De status van het mandaat is illegaal mogelijk aangepast na het sluiten."
 
 #: tests/phpunit/CRM/Sepa/MandateTerminationTest.php
 msgid "A new contribution has been created for a terminated mandate."
-msgstr ""
+msgstr "Er is een nieuwe bijdrage aangemaakt voor een beëindigd mandaat."
 
 #: tests/phpunit/CRM/Sepa/MandateTerminationTest.php
 msgid "The mandate has been incorrectly terminated."
-msgstr ""
+msgstr "Het mandaat is onjuist beëindigd."
 
 #: tests/phpunit/CRM/Sepa/MandateTerminationTest.php
 msgid "The mandate is not in the transaction group anymore but should be."
 msgstr ""
+"Het mandaat zit niet meer in de transactiegroep, maar dat zou wel zo moeten "
+"zijn."
 
 #: tests/phpunit/CRM/Sepa/MandateTerminationTest.php
 msgid "The end date is not correct."
-msgstr ""
+msgstr "De einddatum is onjuist."
 
 #: tests/phpunit/CRM/Sepa/MandateTerminationTest.php
 msgid "The mandate has been incorrectly regrouped."
@@ -3174,43 +3237,43 @@ msgstr ""
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "OOFF Mandate after creation is incorrect."
-msgstr ""
+msgstr "OOFF Mandaat na aanmaken is onjuist."
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "OOFF contribution after creation is incorrect."
-msgstr ""
+msgstr "OOFF bijdrage na aanmaken is onjuist."
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "RCUR Mandate after creation is incorrect."
-msgstr ""
+msgstr "RCUR Mandaat na aanmaken is onjuist."
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "RCUR contribution after creation is incorrect."
-msgstr ""
+msgstr "RCUR bijdrage na aanmaken is onjuist."
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "OOFF Mandate status after batching is incorrect."
-msgstr ""
+msgstr "OOFF Mandaatstatus na batch is onjuist."
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "OOFF contribution status after batching is incorrect."
-msgstr ""
+msgstr "OOFF bijdragestatus na batch is onjuist."
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "OOFF transaction group status after batching is incorrect."
-msgstr ""
+msgstr "OOFF transactiegroepstatus na batch is onjuist."
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "RCUR Mandate status after batching is incorrect."
-msgstr ""
+msgstr "RCUR Mandaatstatus na batch is onjuist."
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "RCUR contribution status after batching is incorrect."
-msgstr ""
+msgstr "RCUR bijdragestatus na batch is onjuist."
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "RCUR transaction group status after batching is incorrect."
-msgstr ""
+msgstr "RCUR transactiegroepstatus na batch is onjuist."
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "OOFF Mandate status after closing is incorrect."
