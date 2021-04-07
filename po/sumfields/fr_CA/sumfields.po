@@ -6,9 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2019-02-13 05:01+0000\n"
-"PO-Revision-Date: 2020-05-01 12:52+0000\n"
-"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
+"POT-Creation-Date: 2021-04-07 05:01+0000\n"
+"PO-Revision-Date: 2021-04-07 05:01+0000\n"
+"Last-Translator: CiviCRM Maintenance\n"
 "Language-Team: French (Canada) (http://www.transifex.com/civicrm/civicrm_extensions/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -54,6 +54,10 @@ msgstr ""
 
 #: CRM/Sumfields/Form/SumFields.php
 msgid "Unable to determine status (%1)."
+msgstr ""
+
+#: CRM/Sumfields/Form/SumFields.php
+msgid "Show simplified fields"
 msgstr ""
 
 #: CRM/Sumfields/Form/SumFields.php
@@ -160,7 +164,15 @@ msgid "Total Lifetime Contributions"
 msgstr ""
 
 #: custom.php
+msgid "Total Lifetime Contributions (Simplified)"
+msgstr ""
+
+#: custom.php
 msgid "Total Contributions this Fiscal Year"
+msgstr ""
+
+#: custom.php
+msgid "Total Contributions this Fiscal Year (Simplified)"
 msgstr ""
 
 #: custom.php
@@ -168,7 +180,15 @@ msgid "Total Contributions in the Last 12 Months"
 msgstr ""
 
 #: custom.php
+msgid "Total Contributions in the Last 12 Months (Simplified)"
+msgstr ""
+
+#: custom.php
 msgid "Total Deductible Contributions this Fiscal Year"
+msgstr ""
+
+#: custom.php
+msgid "Total Deductible Contributions this Fiscal Year (Simplified)"
 msgstr ""
 
 #: custom.php
@@ -176,7 +196,15 @@ msgid "Total Contributions last Fiscal Year"
 msgstr ""
 
 #: custom.php
+msgid "Total Contributions last Fiscal Year (Simplified)"
+msgstr ""
+
+#: custom.php
 msgid "Total Deductible Contributions last Fiscal Year"
+msgstr ""
+
+#: custom.php
+msgid "Total Deductible Contributions last Fiscal Year (Simplified)"
 msgstr ""
 
 #: custom.php
@@ -184,7 +212,15 @@ msgid "Total Contributions Fiscal Year Before Last"
 msgstr ""
 
 #: custom.php
+msgid "Total Contributions Fiscal Year Before Last (Simplified)"
+msgstr ""
+
+#: custom.php
 msgid "Total Deductible Contributions Fiscal Year Before Last"
+msgstr ""
+
+#: custom.php
+msgid "Total Deductible Contributions Fiscal Year Before Last (Simplified)"
 msgstr ""
 
 #: custom.php
@@ -192,7 +228,23 @@ msgid "Amount of last contribution"
 msgstr ""
 
 #: custom.php
+msgid "Amount of last contribution (Simplified)"
+msgstr ""
+
+#: custom.php
 msgid "Date of Last Contribution"
+msgstr ""
+
+#: custom.php
+msgid "Date of Last Contribution (Simplified)"
+msgstr ""
+
+#: custom.php
+msgid "Amount of first contribution"
+msgstr ""
+
+#: custom.php
+msgid "Amount of first contribution (Simplified)"
 msgstr ""
 
 #: custom.php
@@ -200,7 +252,15 @@ msgid "Date of First Contribution"
 msgstr ""
 
 #: custom.php
+msgid "Date of First Contribution (Simplified)"
+msgstr ""
+
+#: custom.php
 msgid "Largest Contribution"
+msgstr ""
+
+#: custom.php
+msgid "Largest Contribution (Simplified)"
 msgstr ""
 
 #: custom.php
@@ -208,7 +268,15 @@ msgid "Count of Contributions"
 msgstr ""
 
 #: custom.php
+msgid "Count of Contributions (Simplified)"
+msgstr ""
+
+#: custom.php
 msgid "Average Annual (Calendar Year) Contribution"
+msgstr ""
+
+#: custom.php
+msgid "Average Annual (Calendar Year) Contribution (Simplified)"
 msgstr ""
 
 #: custom.php
@@ -228,7 +296,15 @@ msgid "Date of Last Membership Payment"
 msgstr ""
 
 #: custom.php
+msgid "Date of Last Membership Payment (simplified)"
+msgstr ""
+
+#: custom.php
 msgid "Amount of Last Membership Payment"
+msgstr ""
+
+#: custom.php
+msgid "Amount of Last Membership Payment (simplified)"
 msgstr ""
 
 #: custom.php
@@ -257,26 +333,6 @@ msgstr ""
 
 #: custom.php
 msgid "No-shows as percent of total events"
-msgstr ""
-
-#: custom.php
-msgid "Number of turnout attempts"
-msgstr ""
-
-#: custom.php
-msgid "Number attended from turnout attempts"
-msgstr ""
-
-#: custom.php
-msgid "Number noshow from turnout attempts"
-msgstr ""
-
-#: custom.php
-msgid "Attended as percent of turn out attempts"
-msgstr ""
-
-#: custom.php
-msgid "No-shows as percent of turn out attempts"
 msgstr ""
 
 #: custom.php
@@ -323,6 +379,16 @@ msgstr ""
 
 #: sumfields.php
 msgid "Configure Summary Fields"
+msgstr ""
+
+#: sumfields.php
+msgid ""
+"Failed to properly validate one of your options. Be sure to use integer "
+"values for all options."
+msgstr ""
+
+#: sumfields.php
+msgid "Failed to properly validate the date @date."
 msgstr ""
 
 #: sumfields.php
@@ -393,9 +459,13 @@ msgstr ""
 
 #: templates/CRM/Sumfields/Form/SumFields.tpl
 msgid ""
-"Fiscal Year can be set at <a href=\"/civicrm-"
-"master/civicrm/admin/setting/date?action=reset=1\">Administer &gt; "
-"Localization &gt; Date Formats</a>"
+"Show simplified contribution fields. By default, contribution fields are "
+"calculated using the line items table, which provides the most accurate "
+"accounting if you use price sets with different financial types. Simplified "
+"contribution fields are calculated using the contribution table, which is "
+"more efficient and will work better on large installations but won't "
+"accurately count a single contribution split between two line items (e.g. an"
+" event registration and donation)."
 msgstr ""
 
 #: templates/CRM/Sumfields/Form/SumFields.tpl
@@ -404,6 +474,12 @@ msgid ""
 "some performance issues on large installations. <br/> If 'Whenever the cron "
 "job is run' is selected, Summary Fields will rely on each CiviCRM Cron job "
 "to process all calculations needed for all contacts."
+msgstr ""
+
+#: templates/CRM/Sumfields/Form/SumFields.tpl
+msgid ""
+"When advanced logging is turned on, you can exclude Summary Fields from "
+"being logged to increase performance and reduce clutter."
 msgstr ""
 
 #: templates/CRM/Sumfields/Form/SumFields.tpl
