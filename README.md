@@ -32,25 +32,22 @@ not do pull requests on this repository. If you wish to translate using an
 external tool, you must use the Transifex command line client.
 
 For more information on extension translation:
-http://wiki.civicrm.org/confluence/display/CRMDOC/Extension+translation
-
+https://docs.civicrm.org/dev/en/latest/extensions/translation/
 
 Adding a new extension
 ======================
 
 Each extension is a "resource" in Transifex. New extensions are
 automatically added to Transifex by the civiextensions-update-transifex.php
-script, which runs daily from a cron on biryani.
+script, which runs daily from Jenkins.
 
+Translations must be reviewed for "automatic distribution".
 
 Forums, help, community
 =======================
 
-For questions, please post on the Internationalisation forum:
-http://forum.civicrm.org/index.php/board,10.0.html
+For questions, please post on the translation issue queue:  
+https://lab.civicrm.org/dev/translation/-/issues
 
-Or on the language-specific forums:
-French: http://forum.civicrm.org/index.php/board,58.0.html
-German: http://forum.civicrm.org/index.php/board,62.0.html
-Spanish: http://forum.civicrm.org/index.php/board,69.0.html
-UK: http://forum.civicrm.org/index.php/board,34.0.html
+We also have a translation channel on Mattermost:  
+https://chat.civicrm.org/civicrm/channels/translation
