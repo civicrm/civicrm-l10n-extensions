@@ -19,6 +19,9 @@ name as the myextension.php, or equivalent to the "file" key in the info.xml
 of the extension. For example: the short name for ca.bidon.i18nexample is
 "i18nexample".
 
+For more information, see:  
+lab.civicrm.org/dev/translation/-/wikis/Administrator-Guide
+
 
 Extension translation
 =====================
