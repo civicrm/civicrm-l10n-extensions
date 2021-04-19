@@ -12,7 +12,7 @@ admin section "Manage Extensions") downloads the translations (.mo files
 automatically. Admins managing their extensions manually (FTP, build scripts)
 should also download from download.civicrm.org, using, for example:
 
-https://download.civicrm.org/l10n-extensions/[shortname]/xx_XX/[shortname].mo
+https://download.civicrm.org/civicrm-l10n-extensions/mo/[shortname]/xx_XX/[shortname].mo
 
 ... where xx_XX is the locale (ex: fr_FR, es_ES) and the shortname is the same
 name as the myextension.php, or equivalent to the "file" key in the info.xml
