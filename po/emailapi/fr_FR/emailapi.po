@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2021-02-07 05:01+0000\n"
-"PO-Revision-Date: 2021-02-07 05:01+0000\n"
+"POT-Creation-Date: 2021-04-20 05:01+0000\n"
+"PO-Revision-Date: 2021-04-20 05:01+0000\n"
 "Last-Translator: CiviCRM Maintenance\n"
 "Language-Team: French (http://www.transifex.com/civicrm/civicrm_extensions/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -37,8 +37,8 @@ msgstr "et cci à %1 "
 #: CRM/Emailapi/CivirulesAction/Send.php
 #: CRM/Emailapi/CivirulesAction/SendToRelatedContact.php
 #: CRM/Emailapi/CivirulesAction/SendToRolesOnCase.php
-msgid "Send e-mail from \"%1 (%2 using %3)\" with Template \"%4\" to %5 %6 %7"
-msgstr "Envoyez un courriel de \"%1 (%2 en utilisant %3)\" avec le modèle \"%4\" à %5 %6 %7 "
+msgid "Send email from \"%1 (%2 using %3)\" with Template \"%4\" to %5 %6 %7"
+msgstr ""
 
 #: CRM/Emailapi/CivirulesAction/SendToRelatedContact.php
 msgid "All active related contacts"
@@ -117,8 +117,8 @@ msgstr ""
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
 #: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
 #: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
-msgid "Location Type (if you do not want primary e-mail address)"
-msgstr "Type de lieu (si vous ne voulez pas d'adresse électronique principale)"
+msgid "Location Type (if you do not want primary email address)"
+msgstr ""
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
 #: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
@@ -142,8 +142,8 @@ msgid "Relationship Type"
 msgstr "Type de Relation"
 
 #: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
-msgid "Send e-mail to"
-msgstr "Envoyer un courriel à"
+msgid "Send email to"
+msgstr ""
 
 #: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "All people with a role on the case"
@@ -226,7 +226,7 @@ msgid ""
 "      <li>If you do not select a location type you can <strong>tick</strong> the <strong>Send to Alternative Email Address</strong> box. You will then get the option to enter an alternative email address. Obviously you have to enter a valid email address here.</li>\n"
 "    </ol>\n"
 "    </p>\n"
-"      <p>Finally you can specify an emailaddress for the <strong>CC to</strong> (a copy of the email will be sent to this email address and the email address will be visible to the recipient of the email too) or the <strong>BCC to</strong> (a copy of the email will be sent to this email address and the email address will NOT be visible to the recipient of the email too).</p>\n"
+"      <p>Finally you can specify an email address for the <strong>CC to</strong> (a copy of the email will be sent to this email address and the email address will be visible to the recipient of the email too) or the <strong>BCC to</strong> (a copy of the email will be sent to this email address and the email address will NOT be visible to the recipient of the email too).</p>\n"
 "      <p>The sending of the email will also lead to an activity (type <em>Email</em>) being recorded for the contact in question, whatever email address will be used.</p>\n"
 "    "
 msgstr ""
@@ -235,8 +235,8 @@ msgstr ""
 #: templates/CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.tpl
 #: templates/CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.tpl
 msgid ""
-"Note: primary e-mail address will be used if location type e-mail address "
-"not found"
+"Note: primary email address will be used if location type email address not "
+"found"
 msgstr ""
 
 #: templates/CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.tpl
@@ -246,14 +246,14 @@ msgid ""
 "    <p>The <strong>Message Template</strong> is where you select which CiviCRM message template will be used to compose the mail. You can create and edit them in <strong>Administer>Communications>Message Templates</strong></p>\n"
 "    <p>The next section allows you to manipulate where the email will be sent to.<br/>\n"
 "    By <strong>default</strong> the email will be sent to the <strong>primary email address of the related contact</strong> in question.<br/>\n"
-"    You can select which related contacts should receive the e-mail:\n"
+"    You can select which related contacts should receive the email:\n"
 "    <ul>\n"
 "      <li><strong>All active related contacts</strong>,</li>\n"
 "      <li><strong>The most recent active related contact</strong>, this will select the contact with the newest start date of the relationship,</li>\n"
 "      <li>or <strong>The most recent inactive related contact</strong>, this will select the contact with the latest end date of the relationship</li>\n"
 "    </ul>\n"
 "    </p>\n"
-"      <p>Finally you can specify an emailaddress for the <strong>CC to</strong> (a copy of the email will be sent to this email address and the email address will be visible to the recipient of the email too) or the <strong>BCC to</strong> (a copy of the email will be sent to this email address and the email address will NOT be visible to the recipient of the email too).</p>\n"
+"      <p>Finally you can specify an email address for the <strong>CC to</strong> (a copy of the email will be sent to this email address and the email address will be visible to the recipient of the email too) or the <strong>BCC to</strong> (a copy of the email will be sent to this email address and the email address will NOT be visible to the recipient of the email too).</p>\n"
 "      <p>The sending of the email will also lead to an activity (type <em>Email</em>) being recorded for the contact in question, whatever email address will be used.</p>\n"
 "    "
 msgstr ""
@@ -266,7 +266,7 @@ msgid ""
 "    <p>The next section allows you to manipulate where the email will be sent to. By default it will be sent to all people with a role on the case. But you can restrict it by certain roles.<br/>\n"
 "    By <strong>default</strong> the email will be sent to the <strong>primary email address of the contact</strong> in question.<br/>\n"
 "    </p>\n"
-"      <p>Finally you can specify an emailaddress for the <strong>CC to</strong> (a copy of the email will be sent to this email address and the email address will be visible to the recipient of the email too) or the <strong>BCC to</strong> (a copy of the email will be sent to this email address and the email address will NOT be visible to the recipient of the email too).</p>\n"
+"      <p>Finally you can specify an email address for the <strong>CC to</strong> (a copy of the email will be sent to this email address and the email address will be visible to the recipient of the email too) or the <strong>BCC to</strong> (a copy of the email will be sent to this email address and the email address will NOT be visible to the recipient of the email too).</p>\n"
 "      <p>The sending of the email will also lead to an activity (type <em>Email</em>) being recorded for the contact in question, whatever email address will be used.</p>\n"
 "    "
 msgstr ""
