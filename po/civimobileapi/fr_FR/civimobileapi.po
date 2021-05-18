@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
-"POT-Creation-Date: 2021-02-10 05:01+0000\n"
+"POT-Creation-Date: 2021-05-18 05:01+0000\n"
 "Last-Translator: Guillaume Sorel <serviceclient@all-in-appli.com>, 2021\n"
 "Language-Team: French (https://www.transifex.com/civicrm/teams/1905/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -56,10 +56,6 @@ msgid "Previous Payment cannot be deleted (hash=%1). Please complete payment"
 msgstr ""
 "Le règlement précédent ne peut pas être supprimé (hash=%1). Merci de bien "
 "vouloir finaliser le règlement."
-
-#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
-msgid "Joomla does not support that functionality"
-msgstr "Cette fonctionnalité n'est pas supportée par Joomla"
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid ""
@@ -472,6 +468,10 @@ msgstr "Paramètres du calendrier de CiviMobile"
 msgid "Logout from mobile"
 msgstr "Se déconnecter du mobile"
 
+#: CRM/CiviMobileAPI/Form/Dashboard.php
+msgid "Show a Website URL QR-code for me"
+msgstr ""
+
 #: CRM/CiviMobileAPI/Form/EventLocations.php
 msgid "Back"
 msgstr ""
@@ -622,6 +622,18 @@ msgid "Field can not be empty."
 msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Value must be integer!"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Value cannot be negative!"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Value cannot be greater than 90!"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Fields can not be empty."
 msgstr "Les champs ne peuvent pas être vide"
 
@@ -675,6 +687,10 @@ msgstr ""
 #: CRM/CiviMobileAPI/Form/Settings.php
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "Do you have custom application?"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Life time for push notification messages"
 msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
@@ -1508,6 +1524,16 @@ msgid ""
 "By checking the checkbox you will allow anonymous users access to public information in the mobile application.</p>\n"
 "    <p>Events are displayed in Public Area if all required permissions for Anonymous user are distributed and if CiviEvent component is enabled. Note that if you want a specific event to be made available in the Public Area-please enable 'Public Event' checkbox in Event Info and Settings section.</p>\n"
 "    <p>News may also be present in the Public Area if Show News checkbox is enabled."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid "Push notification Lifetime"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid ""
+"The value specifies the storage time of push notification messages. If the "
+"value is equal to 0, messages are not saved."
 msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
