@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mjwshared\n"
-"POT-Creation-Date: 2020-11-10 05:01+0000\n"
+"POT-Creation-Date: 2021-05-18 05:01+0000\n"
 "Language-Team: Czech (https://www.transifex.com/civicrm/teams/1905/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -57,6 +57,66 @@ msgstr ""
 msgid "Recommended Extension: contributiontransactlegacy"
 msgstr ""
 
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "Paymentprocessor Webhooks"
+msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "Paymentprocessor Webhook"
+msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "Unique PaymentprocessorWebhook ID"
+msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "Payment Processor"
+msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "Payment Processor for this webhook"
+msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "Webhook event ID"
+msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "Trigger"
+msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "Webhook trigger event type"
+msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "Created Date"
+msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "When the webhook was first received by the IPN code"
+msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "Processed Date"
+msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "Has this webhook been processed yet?"
+msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "Status"
+msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "Webhook processing status"
+msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "Identifier"
+msgstr ""
+
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid "You do not have permission to access this page."
 msgstr ""
@@ -79,6 +139,10 @@ msgstr ""
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid "Cancelled %1 participant registration(s)."
+msgstr ""
+
+#: CRM/Mjwshared/Upgrader/Base.php
+msgid "Upgrade %1 to revision %2"
 msgstr ""
 
 #: api/v3/Mjwpayment.php
@@ -109,80 +173,24 @@ msgstr ""
 msgid "The ID of the record in civicrm_financial_trxn"
 msgstr ""
 
-#: api/v3/Mjwpayment.php
-msgid "Total Payment Amount"
-msgstr ""
-
-#: api/v3/Mjwpayment.php
-msgid "Fee Amount"
-msgstr ""
-
-#: api/v3/Mjwpayment.php
-msgid "Payment Processor"
-msgstr ""
-
-#: api/v3/Mjwpayment.php
-msgid "Payment Processor for this payment"
-msgstr ""
-
-#: api/v3/Mjwpayment.php
-msgid "Send out notifications based on contribution status change?"
-msgstr ""
-
-#: api/v3/Mjwpayment.php
-msgid ""
-"Most commonly this equates to emails relating to the contribution, event, "
-"etcwhen a payment completes a contribution"
-msgstr ""
-
-#: api/v3/Mjwpayment.php
-msgid "Payment Method"
-msgstr ""
-
-#: api/v3/Mjwpayment.php
-msgid "FK to payment_instrument option group values"
-msgstr ""
-
-#: api/v3/Mjwpayment.php
-msgid "Card Type ID"
-msgstr ""
-
-#: api/v3/Mjwpayment.php
-msgid "FK to accept_creditcard option group values"
-msgstr ""
-
-#: api/v3/Mjwpayment.php
-msgid "Transaction Result Code"
-msgstr ""
-
-#: api/v3/Mjwpayment.php
-msgid "processor result code"
-msgstr ""
-
-#: api/v3/Mjwpayment.php
-msgid "Check Number"
-msgstr ""
-
-#: api/v3/Mjwpayment.php
-msgid "Check number"
-msgstr ""
-
-#: api/v3/Mjwpayment.php
-msgid "PAN Truncation"
-msgstr ""
-
-#: api/v3/Mjwpayment.php
-msgid "Last 4 digits of credit card"
-msgstr ""
-
 #: settings/mjwshared.setting.php
-msgid "Enable refund payment via UI (experimental)?"
+msgid "Enable refund payment via UI?"
 msgstr ""
 
 #: settings/mjwshared.setting.php
 msgid ""
-"Enables a \"Refund payment\" option next to the edit payment option on "
-"Payments. Find payments by expanding contributions."
+"Enables a \"Refund payment\" option next to the edit payment option on Payments. Find payments by expanding contributions.\n"
+"    For more detail see the <a href=\"%1\">Refund documentation</a>"
+msgstr ""
+
+#: settings/mjwshared.setting.php
+msgid "Enable Javascript debugging?"
+msgstr ""
+
+#: settings/mjwshared.setting.php
+msgid ""
+"Enables debug logging to browser console for javascript based payment "
+"processors."
 msgstr ""
 
 #: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
