@@ -6,8 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2021-02-10 05:01+0000\n"
-"PO-Revision-Date: 2015-01-10 05:32+0000\n"
+"POT-Creation-Date: 2021-05-18 05:01+0000\n"
+"PO-Revision-Date: 2021-05-18 05:01+0000\n"
+"Last-Translator: CiviCRM Maintenance\n"
 "Language-Team: English (United Kingdom) (http://www.transifex.com/civicrm/civicrm_extensions/language/en_GB/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,14 +44,6 @@ msgstr ""
 msgid ""
 "If you select 'Send cancellation request..' then Stripe will be "
 "automatically notified and the subscription will be cancelled."
-msgstr ""
-
-#: CRM/Stripe/AJAX.php api/v3/StripePaymentintent.php
-msgid "Payment failed: %1"
-msgstr ""
-
-#: CRM/Stripe/AJAX.php api/v3/StripePaymentintent.php
-msgid "Payment failed."
 msgstr ""
 
 #: CRM/Stripe/Check.php
@@ -110,8 +103,40 @@ msgstr ""
 msgid "Stripe: Invalid configuration"
 msgstr ""
 
+#: CRM/Stripe/Check.php
+msgid ""
+"Thankyou for upgrading to Stripe 6.6. You MUST check your configuration to make sure it will continue working:\n"
+"        <ul>\n"
+"          <li><strong>Access AJAX API</strong> permission is required for all users that make payments using Stripe (including the anonymous user).\n"
+"          You need to check that all users making Stripe payments have the CiviCRM permission <strong>Access AJAX API</strong> otherwise payments will fail.</li>\n"
+"          <li>Billing address fields are now disabled by default (if you require additional fields collect them via a profile).\n"
+"          If you require the billing address fields you can enable them in <em>Administer->CiviContribute->Stripe Settings->Disable billing address fields</em>.\n"
+"          They will be removed in a future version - if this is a problem please contact <a href=\"https://mjw.pt/support\">MJW</a> and let us know why!</li>\n"
+"          <li><a href=\"https://docs.civicrm.org/mjwshared/en/latest/refunds/\">Refund UI</a> is now enabled by default.</li>\n"
+"        </ul>"
+msgstr ""
+
+#: CRM/Stripe/Check.php
+msgid ""
+"Stripe: You need to check some settings now that you have upgraded to 6.6"
+msgstr ""
+
+#: CRM/Stripe/Check.php
+msgid "I've read this"
+msgstr ""
+
+#: CRM/Stripe/Check.php
+msgid ""
+"I've read this and made any necessary configuration changes - don't show me this upgrade message any\n"
+"      more"
+msgstr ""
+
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "Stripe Paymentintents"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "Stripe Paymentintent"
 msgstr ""
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
@@ -119,14 +144,14 @@ msgid "Unique ID"
 msgstr ""
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
-msgid "PaymentIntent ID"
+msgid "Stripe Intent ID"
 msgstr ""
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
-msgid "The PaymentIntent ID"
+msgid "The Stripe PaymentIntent/SetupIntent/PaymentMethod ID"
 msgstr ""
 
-#: CRM/Stripe/DAO/StripePaymentintent.php api/v3/StripeSubscription.php
+#: CRM/Stripe/DAO/StripePaymentintent.php api/v3/Stripe/Importsubscription.php
 msgid "Contribution ID"
 msgstr ""
 
@@ -198,6 +223,14 @@ msgstr ""
 msgid "HTTP referrer of this paymentIntent"
 msgstr ""
 
+#: CRM/Stripe/DAO/StripePaymentintent.php api/v3/StripePaymentintent.php
+msgid "Extra Data"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "Extra data collected to help with diagnostics (such as email, name)"
+msgstr ""
+
 #: CRM/Stripe/Form/UpdateWebhook.php
 msgid "Update / Create webhook"
 msgstr ""
@@ -262,9 +295,38 @@ msgid "Stripe Payment Processor: %1 (%2)"
 msgstr ""
 
 #: api/v3/Stripe/Importallcustomers.php
-#: api/v3/Stripe/Importallsubscriptions.php api/v3/Stripe/Importcustomers.php
+#: api/v3/Stripe/Importallsubscriptions.php api/v3/Stripe/Importcharge.php
+#: api/v3/Stripe/Importcustomer.php api/v3/Stripe/Importcustomers.php
 #: api/v3/Stripe/Importsubscriptions.php api/v3/Stripe/Listevents.php
 msgid "Use the given Payment Processor ID"
+msgstr ""
+
+#: api/v3/Stripe/Importcharge.php api/v3/Stripe/Importsubscription.php
+msgid "Contact ID"
+msgstr ""
+
+#: api/v3/Stripe/Importcharge.php
+msgid "Import a specific charge"
+msgstr ""
+
+#: api/v3/Stripe/Importcharge.php
+msgid ""
+"Optionally, provide contribution ID of existing contribution you want to "
+"link to."
+msgstr ""
+
+#: api/v3/Stripe/Importcharge.php
+msgid "The charge does not have an invoice, it cannot be imported."
+msgstr ""
+
+#: api/v3/Stripe/Importcharge.php
+msgid ""
+"The charge has a subscription, but the subscription is not in CiviCRM. "
+"Please import the subscription and try again."
+msgstr ""
+
+#: api/v3/Stripe/Importcustomer.php
+msgid "Import a specific customer"
 msgstr ""
 
 #: api/v3/Stripe/Importcustomers.php api/v3/Stripe/Importsubscriptions.php
@@ -275,8 +337,31 @@ msgstr ""
 msgid "Start importing customers after this one"
 msgstr ""
 
-#: api/v3/Stripe/Importcustomers.php
-msgid "Import a specific customer"
+#: api/v3/Stripe/Importsubscription.php
+msgid ""
+"There is a mismatch between the contact id for the customer indicated by the"
+" subscription (%1) and the contact id provided via the API params (%2)."
+msgstr ""
+
+#: api/v3/Stripe/Importsubscription.php
+msgid "Stripe Subscription ID"
+msgstr ""
+
+#: api/v3/Stripe/Importsubscription.php api/v3/StripeCustomer.php
+#: api/v3/StripeInvoice.php
+msgid "Payment Processor ID"
+msgstr ""
+
+#: api/v3/Stripe/Importsubscription.php
+msgid "Contribution Recur ID"
+msgstr ""
+
+#: api/v3/Stripe/Importsubscription.php
+msgid "Membership ID"
+msgstr ""
+
+#: api/v3/Stripe/Importsubscription.php
+msgid "Link to existing membership automatically"
 msgstr ""
 
 #: api/v3/Stripe/Importsubscriptions.php
@@ -312,18 +397,60 @@ msgid "Limit number of results returned (100 is max)"
 msgstr ""
 
 #: api/v3/Stripe/Listevents.php
-msgid "Only return results after this event id."
+msgid "Only return results after this id."
 msgstr ""
 
 #: api/v3/Stripe/Listevents.php
 msgid "How to format the output, brief or raw. Defaults to brief."
 msgstr ""
 
+#: api/v3/Stripe/Listevents.php
+msgid ""
+"List events via the Stripe API (default: stripe) or via the CiviCRM System "
+"Log (systemlog)."
+msgstr ""
+
+#: api/v3/Stripe/Listevents.php
+msgid ""
+"If set to 1, filter out all transactions that have been processed already."
+msgstr ""
+
+#: api/v3/Stripe/Listevents.php
+msgid ""
+"Pass a Stripe subscription id to filter results to charges to that "
+"subscription id."
+msgstr ""
+
+#: api/v3/Stripe/Listevents.php
+msgid "Source can only be set to %1 or %2."
+msgstr ""
+
+#: api/v3/Stripe/Listevents.php
+msgid "Filter processed can only be set to 0 or 1."
+msgstr ""
+
+#: api/v3/Stripe/Listevents.php
+msgid "Subscription should start with sub_."
+msgstr ""
+
+#: api/v3/Stripe/Listevents.php
+msgid ""
+"Subscription and source are incompatible. Please choose one or the other."
+msgstr ""
+
 #: api/v3/Stripe/Populatelog.php
 msgid "The id of the payment processor."
 msgstr ""
 
-#: api/v3/StripeCustomer.php api/v3/StripeSubscription.php
+#: api/v3/Stripe/Retryall.php
+msgid "The payment processor to use."
+msgstr ""
+
+#: api/v3/Stripe/Retryall.php
+msgid "Limit the number of unprocessed events to retry."
+msgstr ""
+
+#: api/v3/StripeCustomer.php
 msgid "Stripe Customer ID"
 msgstr ""
 
@@ -331,14 +458,18 @@ msgstr ""
 msgid "CiviCRM Contact ID"
 msgstr ""
 
-#: api/v3/StripeCustomer.php api/v3/StripeSubscription.php
-msgid "Payment Processor ID"
-msgstr ""
-
 #: api/v3/StripeCustomer.php
 msgid ""
 "If set only this customer will be updated, otherwise we try and update ALL "
 "customers"
+msgstr ""
+
+#: api/v3/StripeInvoice.php
+msgid "Stripe Invoice ID"
+msgstr ""
+
+#: api/v3/StripeInvoice.php
+msgid "Send Email Receipt"
 msgstr ""
 
 #: api/v3/StripePaymentintent.php
@@ -365,32 +496,28 @@ msgstr ""
 msgid "The stripe payment processor id."
 msgstr ""
 
-#: api/v3/StripeSubscription.php
-msgid "Stripe Subscription ID"
+#: api/v3/StripePaymentintent.php
+msgid "Payment failed: %1"
 msgstr ""
 
-#: api/v3/StripeSubscription.php
-msgid "Contribution Recur ID"
+#: api/v3/StripePaymentintent.php
+msgid "Payment failed."
 msgstr ""
 
-#: api/v3/StripeSubscription.php
-msgid "End Time"
-msgstr ""
-
-#: api/v3/StripeSubscription.php
-msgid "Contact ID"
-msgstr ""
-
-#: api/v3/StripeSubscription.php
-msgid "Membership ID"
-msgstr ""
-
-#: api/v3/StripeSubscription.php
-msgid "Link to existing membership automatically"
+#: js/civicrmStripeConfirm.js js/civicrm_stripe.js
+msgid "The payment failed - please try a different payment method."
 msgstr ""
 
 #: js/civicrmStripeConfirm.js
 msgid "Payment successful"
+msgstr ""
+
+#: js/civicrmStripeConfirm.js
+msgid "The payment failed - unknown error."
+msgstr ""
+
+#: js/civicrmStripeConfirm.js js/civicrm_stripe.js
+msgid "Unknown error"
 msgstr ""
 
 #: js/civicrmStripeConfirm.js
@@ -407,6 +534,10 @@ msgstr ""
 
 #: js/civicrm_stripe.js
 msgid " while we pre-authorize your card..."
+msgstr ""
+
+#: js/civicrm_stripe.js
+msgid " preparing your payment..."
 msgstr ""
 
 #: js/civicrm_stripe.js
@@ -450,15 +581,6 @@ msgid ""
 msgstr ""
 
 #: settings/stripe.setting.php
-msgid "Enable Stripe Javascript debugging?"
-msgstr ""
-
-#: settings/stripe.setting.php
-msgid ""
-"Enables debug logging to browser console for stripe payment processors."
-msgstr ""
-
-#: settings/stripe.setting.php
 msgid "Enable Stripe IPN (Webhook) debugging?"
 msgstr ""
 
@@ -467,7 +589,7 @@ msgid "Enables debugging to CiviCRM log for IPN / webhook issues."
 msgstr ""
 
 #: settings/stripe.setting.php
-msgid "Disable billing address fields (Experimental)"
+msgid "Disable billing address fields"
 msgstr ""
 
 #: settings/stripe.setting.php
@@ -503,6 +625,34 @@ msgstr ""
 
 #: settings/stripe.setting.php
 msgid "Restrict allowable days of the month"
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid "Statement Descriptor"
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid ""
+"The text that will be shown on the customer bank/card statement.\n"
+"If this is empty it will be generated by CiviCRM using the information available (Contact/ContributionID + event/contribution title).\n"
+"<br/>If you want to use a fixed descriptor specify one here - make sure you comply with the <a href=\"%1\" target=\"_blank\">Statement descriptor requirements</a>.\n"
+"<br/>Max length 22 characters."
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid "Statement descriptor Suffix (Cards only)"
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid ""
+"For credit cards you can specify a static <a href=\"%2\" target=\"_blank\">\"prefix\"</a> in the Stripe account dashboard.\n"
+"If this is empty the \"suffix\" will be generated by CiviCRM using the information available (Contact/ContributionID + event/contribution title).\n"
+"<br/>If you want to use a fixed descriptor specify the suffix here - make sure you comply with the <a href=\"%1\" target=\"_blank\">Statement descriptor requirements</a>.\n"
+"<br/>Max length 12 characters"
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid "Show 6.6 upgrade message (system check)"
 msgstr ""
 
 #: stripe.php
