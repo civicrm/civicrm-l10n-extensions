@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
-"POT-Creation-Date: 2021-01-26 05:01+0000\n"
+"POT-Creation-Date: 2021-05-18 05:01+0000\n"
 "Last-Translator: Zoltán Reizinger <zreizinger@hdsnet.hu>, 2019\n"
 "Language-Team: Hungarian (https://www.transifex.com/civicrm/teams/1905/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -51,10 +51,6 @@ msgstr "Nem tudom betölteni az eseményhez rendelt árlista mezőt."
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid "Previous Payment cannot be deleted (hash=%1). Please complete payment"
-msgstr ""
-
-#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
-msgid "Joomla does not support that functionality"
 msgstr ""
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
@@ -451,6 +447,10 @@ msgstr ""
 msgid "Logout from mobile"
 msgstr "Kijelentkezés a mobilból"
 
+#: CRM/CiviMobileAPI/Form/Dashboard.php
+msgid "Show a Website URL QR-code for me"
+msgstr ""
+
 #: CRM/CiviMobileAPI/Form/EventLocations.php
 msgid "Back"
 msgstr ""
@@ -597,6 +597,18 @@ msgid "Field can not be empty."
 msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Value must be integer!"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Value cannot be negative!"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Value cannot be greater than 90!"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Fields can not be empty."
 msgstr "A mezők nem lehetnek üresek."
 
@@ -650,6 +662,10 @@ msgstr ""
 #: CRM/CiviMobileAPI/Form/Settings.php
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "Do you have custom application?"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Life time for push notification messages"
 msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
@@ -1032,7 +1048,7 @@ msgstr "Kapcsolat id(a) törölve?"
 msgid "Contact id(b) is deleted?"
 msgstr "Kapcsolat id(b) törölve?"
 
-#: api/v3/CiviMobileAgendaConfig.php
+#: api/v3/CiviMobileAgendaConfig.php api/v3/CiviMobileSurvey.php
 msgid "Is active?"
 msgstr ""
 
@@ -1491,6 +1507,16 @@ msgid ""
 "By checking the checkbox you will allow anonymous users access to public information in the mobile application.</p>\n"
 "    <p>Events are displayed in Public Area if all required permissions for Anonymous user are distributed and if CiviEvent component is enabled. Note that if you want a specific event to be made available in the Public Area-please enable 'Public Event' checkbox in Event Info and Settings section.</p>\n"
 "    <p>News may also be present in the Public Area if Show News checkbox is enabled."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid "Push notification Lifetime"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid ""
+"The value specifies the storage time of push notification messages. If the "
+"value is equal to 0, messages are not saved."
 msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
