@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mjwshared\n"
-"POT-Creation-Date: 2020-12-08 05:01+0000\n"
+"POT-Creation-Date: 2021-05-18 05:01+0000\n"
 "Last-Translator: HanV <han.velthuis@home.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -68,6 +68,66 @@ msgstr ""
 msgid "Recommended Extension: contributiontransactlegacy"
 msgstr "Aanbevolen extensie: contributiontransactlegacy"
 
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "Paymentprocessor Webhooks"
+msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "Paymentprocessor Webhook"
+msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "Unique PaymentprocessorWebhook ID"
+msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "Payment Processor"
+msgstr "Betaalmethode"
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "Payment Processor for this webhook"
+msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "Webhook event ID"
+msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "Trigger"
+msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "Webhook trigger event type"
+msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "Created Date"
+msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "When the webhook was first received by the IPN code"
+msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "Processed Date"
+msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "Has this webhook been processed yet?"
+msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "Status"
+msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "Webhook processing status"
+msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "Identifier"
+msgstr ""
+
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid "You do not have permission to access this page."
 msgstr "U heeft geen toegang tot deze pagina."
@@ -91,6 +151,10 @@ msgstr "De terugbetaling is verwerkt."
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid "Cancelled %1 participant registration(s)."
 msgstr "%1 aanmelding(en) geannuleerd."
+
+#: CRM/Mjwshared/Upgrader/Base.php
+msgid "Upgrade %1 to revision %2"
+msgstr ""
 
 #: api/v3/Mjwpayment.php
 msgid "Transaction ID"
@@ -121,86 +185,25 @@ msgstr "Betalingsnummer"
 msgid "The ID of the record in civicrm_financial_trxn"
 msgstr "Het record-id in civicrm_financial_trxn"
 
-#: api/v3/Mjwpayment.php
-msgid "Total Payment Amount"
-msgstr "Totaal betaald bedrag"
-
-#: api/v3/Mjwpayment.php
-msgid "Fee Amount"
-msgstr "Kosten"
-
-#: api/v3/Mjwpayment.php
-msgid "Payment Processor"
-msgstr "Betaalmethode"
-
-#: api/v3/Mjwpayment.php
-msgid "Payment Processor for this payment"
-msgstr "Betaalmethode van deze betaling"
-
-#: api/v3/Mjwpayment.php
-msgid "Send out notifications based on contribution status change?"
-msgstr ""
-"Moet er een notificatie verzonden worden bij een wijziging van de status?"
-
-#: api/v3/Mjwpayment.php
-msgid ""
-"Most commonly this equates to emails relating to the contribution, event, "
-"etcwhen a payment completes a contribution"
-msgstr ""
-"Meestal betekent dit dat er e-mails zijn bij het voldoen van contributies, "
-"evenementen, enz. met een betaling"
-
-#: api/v3/Mjwpayment.php
-msgid "Payment Method"
-msgstr "Betaalmethode"
-
-#: api/v3/Mjwpayment.php
-msgid "FK to payment_instrument option group values"
-msgstr "FK naar payment_instrument optie-groep waarden"
-
-#: api/v3/Mjwpayment.php
-msgid "Card Type ID"
-msgstr "Kaarttype-id"
-
-#: api/v3/Mjwpayment.php
-msgid "FK to accept_creditcard option group values"
-msgstr "FK naar accept_creditcard optie-groep waarden"
-
-#: api/v3/Mjwpayment.php
-msgid "Transaction Result Code"
-msgstr "Transactie-resultaatcode"
-
-#: api/v3/Mjwpayment.php
-msgid "processor result code"
-msgstr "processor resultaatcode"
-
-#: api/v3/Mjwpayment.php
-msgid "Check Number"
-msgstr "Controlegetal"
-
-#: api/v3/Mjwpayment.php
-msgid "Check number"
-msgstr "Controle getal"
-
-#: api/v3/Mjwpayment.php
-msgid "PAN Truncation"
-msgstr "PAN Afkapping"
-
-#: api/v3/Mjwpayment.php
-msgid "Last 4 digits of credit card"
-msgstr "Laatste 4 cijfers van creditcard"
-
 #: settings/mjwshared.setting.php
-msgid "Enable refund payment via UI (experimental)?"
-msgstr "Terugbetalen via UI inschakelen (in ontwikkeling)?"
+msgid "Enable refund payment via UI?"
+msgstr ""
 
 #: settings/mjwshared.setting.php
 msgid ""
-"Enables a \"Refund payment\" option next to the edit payment option on "
-"Payments. Find payments by expanding contributions."
+"Enables a \"Refund payment\" option next to the edit payment option on Payments. Find payments by expanding contributions.\n"
+"    For more detail see the <a href=\"%1\">Refund documentation</a>"
 msgstr ""
-"Schakelt een optie om een terugbetaling te doen in naast de optie in een "
-"betaling te wijzigen. Zoek naar de betaling via de bijdragen / contributies."
+
+#: settings/mjwshared.setting.php
+msgid "Enable Javascript debugging?"
+msgstr ""
+
+#: settings/mjwshared.setting.php
+msgid ""
+"Enables debug logging to browser console for javascript based payment "
+"processors."
+msgstr ""
 
 #: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
 msgid "Click \"refund\" to refund this payment"
