@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
-"POT-Creation-Date: 2021-02-10 05:01+0000\n"
+"POT-Creation-Date: 2021-05-18 05:01+0000\n"
 "Last-Translator: HanV <han.velthuis@home.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -55,10 +55,6 @@ msgstr "De prijssetvelden van het evenement kunnen niet gelezen worden."
 msgid "Previous Payment cannot be deleted (hash=%1). Please complete payment"
 msgstr ""
 "De vorige betaling kan niet verwijderd worden (hash=%1). Rond de betaling af"
-
-#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
-msgid "Joomla does not support that functionality"
-msgstr "Deze functionaliteit wordt door Joomla niet ondersteund"
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid ""
@@ -467,6 +463,10 @@ msgstr "CiviMobile instellingen kalender"
 msgid "Logout from mobile"
 msgstr "Mobiel uitloggen"
 
+#: CRM/CiviMobileAPI/Form/Dashboard.php
+msgid "Show a Website URL QR-code for me"
+msgstr ""
+
 #: CRM/CiviMobileAPI/Form/EventLocations.php
 msgid "Back"
 msgstr "Terug"
@@ -614,6 +614,18 @@ msgid "Field can not be empty."
 msgstr "Veld moet ingevuld worden."
 
 #: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Value must be integer!"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Value cannot be negative!"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Value cannot be greater than 90!"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Fields can not be empty."
 msgstr "Velden moeten ingevuld worden."
 
@@ -668,6 +680,10 @@ msgstr "Firebase-key"
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "Do you have custom application?"
 msgstr "Heeft u een aangepaste applicatie?"
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Life time for push notification messages"
+msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Save settings"
@@ -1542,6 +1558,16 @@ msgstr ""
 "Door de keuze aan te vinken staat u toe dat anonieme gebruikers toegang hebben tot de openbare informatie van de applicatie.</p>\n"
 "    <p>Evenementen worden in de openbare ruimte getoond als de verplichte toestemmingen voor anonieme gebruikers er zijn en als de component CiviEvent is ingeschakeld. Als u een bepaald evenement in de openbare ruimte beschikbaar wil maken dan dient u de keuze 'Openbaar evenement' in de informatie en de instellingen van het evenement aan te vinken.</p>\n"
 "    <p>Nieuws is ook in de openbare ruimte beschikbaar als de keuze 'Nieuws tonen' is aangevinkt."
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid "Push notification Lifetime"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid ""
+"The value specifies the storage time of push notification messages. If the "
+"value is equal to 0, messages are not saved."
+msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "Extension Info"
