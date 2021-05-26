@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
 "POT-Creation-Date: 2021-05-18 05:01+0000\n"
-"PO-Revision-Date: 2021-05-21 11:55+0000\n"
+"PO-Revision-Date: 2021-05-25 19:56+0000\n"
 "Last-Translator: HanV <han.velthuis@home.nl>\n"
 "Language-Team: Dutch (http://www.transifex.com/civicrm/civicrm_extensions/language/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -115,7 +115,7 @@ msgid ""
 "          They will be removed in a future version - if this is a problem please contact <a href=\"https://mjw.pt/support\">MJW</a> and let us know why!</li>\n"
 "          <li><a href=\"https://docs.civicrm.org/mjwshared/en/latest/refunds/\">Refund UI</a> is now enabled by default.</li>\n"
 "        </ul>"
-msgstr ""
+msgstr "Bedankt voor het upgraden naar Stripe 6.6. U moet uw configuratie controleren om te zorgen dat het na het upgraden blijft werken:\n        <ul>\n          <li><strong>Ajax-API gebruiken</strong> dit recht is verplicht voor alle gebruikers die betalingen via Stripe doen (inclusief een anonieme gebruiker).\n          U moet dus controleren of alle gebruiker dit recht <strong>Ajax-API gebruiken</strong> hebben.</li>\n          <li>De velden van het factuuradres zijn nu standaard uitgeschakeld (U kunt aanvullende velden toevoegen via een profiel).\n          Indien uw het factuuradres nodig heeft dan kunt u dut inschakelen <em>Beheer ->CiviContribute->Stripe instellingen->Factuuradres uitschakelen</em>.\n          In de toekomst worden ze verwijderd, laat het <a href=\"https://mjw.pt/support\">MJW</a> weten als dat een probleem is en waarom!</li>\n          <li><a href=\"https://docs.civicrm.org/mjwshared/en/latest/refunds/\">Terugbetalen</a> is nu standaard ingeschakeld.</li>\n        </ul>"
 
 #: CRM/Stripe/Check.php
 msgid ""
@@ -138,7 +138,7 @@ msgstr "Stripe Betalings-intenties"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "Stripe Paymentintent"
-msgstr ""
+msgstr "Stripe Betaalintentie"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "Unique ID"
@@ -146,11 +146,11 @@ msgstr "Uniek-id"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "Stripe Intent ID"
-msgstr ""
+msgstr "Stripe Intentie-id"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "The Stripe PaymentIntent/SetupIntent/PaymentMethod ID"
-msgstr ""
+msgstr "De Stripe Betaalintentie/SetupIntentie/Betaalmethode-id"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php api/v3/Stripe/Importsubscription.php
 msgid "Contribution ID"
@@ -226,11 +226,11 @@ msgstr "HTTP-referrer van deze betalings-intentie"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php api/v3/StripePaymentintent.php
 msgid "Extra Data"
-msgstr ""
+msgstr "Extra gegevens"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "Extra data collected to help with diagnostics (such as email, name)"
-msgstr ""
+msgstr "Extra verzamelde gegevens voor een betere diagnose (e-mailadres, naam)"
 
 #: CRM/Stripe/Form/UpdateWebhook.php
 msgid "Update / Create webhook"
@@ -308,23 +308,23 @@ msgstr "Contact-id"
 
 #: api/v3/Stripe/Importcharge.php
 msgid "Import a specific charge"
-msgstr ""
+msgstr "Specifieke kosten importeren"
 
 #: api/v3/Stripe/Importcharge.php
 msgid ""
 "Optionally, provide contribution ID of existing contribution you want to "
 "link to."
-msgstr ""
+msgstr "Optioneel een Bijdrage-id toevoegen van een bestaande bijdrage waarnaar u wilt verwijzen."
 
 #: api/v3/Stripe/Importcharge.php
 msgid "The charge does not have an invoice, it cannot be imported."
-msgstr ""
+msgstr "De kosten hebben geen factuur, het kan niet worden geïmporteerd."
 
 #: api/v3/Stripe/Importcharge.php
 msgid ""
 "The charge has a subscription, but the subscription is not in CiviCRM. "
 "Please import the subscription and try again."
-msgstr ""
+msgstr "De kosten hebben een aanmelding, maar die ontbreekt in CiviCRM. Importeer eerst de aanmelding en probeer het dan opnieuw."
 
 #: api/v3/Stripe/Importcustomer.php
 msgid "Import a specific customer"
@@ -342,7 +342,7 @@ msgstr "Na deze starten met het importeren van klanten"
 msgid ""
 "There is a mismatch between the contact id for the customer indicated by the"
 " subscription (%1) and the contact id provided via the API params (%2)."
-msgstr ""
+msgstr "Het contact-id van de klant van de aanmelding (%1) komt niet overeen met het contact-id in de AP-paramaters (%2)."
 
 #: api/v3/Stripe/Importsubscription.php
 msgid "Stripe Subscription ID"
@@ -409,35 +409,35 @@ msgstr "Hoe moet de uitvoer worden geformatteerd. Standaard is kort."
 msgid ""
 "List events via the Stripe API (default: stripe) or via the CiviCRM System "
 "Log (systemlog)."
-msgstr ""
+msgstr "Gebeurtenissen tonen via de Stripe API (standaard: stripe) of via de CiviCRM Systeemlog (systemlog)."
 
 #: api/v3/Stripe/Listevents.php
 msgid ""
 "If set to 1, filter out all transactions that have been processed already."
-msgstr ""
+msgstr "Bij de waarde 1: sla de al verwerkte transacties over."
 
 #: api/v3/Stripe/Listevents.php
 msgid ""
 "Pass a Stripe subscription id to filter results to charges to that "
 "subscription id."
-msgstr ""
+msgstr "Als u wilt filteren op aanmelding-id, geeft dat dan mee."
 
 #: api/v3/Stripe/Listevents.php
 msgid "Source can only be set to %1 or %2."
-msgstr ""
+msgstr "Bron kan alleen op %1 of %2 worden gezet."
 
 #: api/v3/Stripe/Listevents.php
 msgid "Filter processed can only be set to 0 or 1."
-msgstr ""
+msgstr "Filter verwerkt kan alleen op 0 of 1 worden gezet."
 
 #: api/v3/Stripe/Listevents.php
 msgid "Subscription should start with sub_."
-msgstr ""
+msgstr "Aanmelding moet beginnen met sub_."
 
 #: api/v3/Stripe/Listevents.php
 msgid ""
 "Subscription and source are incompatible. Please choose one or the other."
-msgstr ""
+msgstr "Aanmelding en bron komen niet overeen. Kies een van beiden."
 
 #: api/v3/Stripe/Populatelog.php
 msgid "The id of the payment processor."
@@ -445,11 +445,11 @@ msgstr "Het id van de betaalmethode."
 
 #: api/v3/Stripe/Retryall.php
 msgid "The payment processor to use."
-msgstr ""
+msgstr "De te gebruiken betaalmethode."
 
 #: api/v3/Stripe/Retryall.php
 msgid "Limit the number of unprocessed events to retry."
-msgstr ""
+msgstr "Beperk het aantal te opnieuw te proberen onverwerkte gebeurtenissen."
 
 #: api/v3/StripeCustomer.php
 msgid "Stripe Customer ID"
@@ -467,11 +467,11 @@ msgstr "Indien gezet wordt alleen gegevens van deze klant gewijzigd, anders van 
 
 #: api/v3/StripeInvoice.php
 msgid "Stripe Invoice ID"
-msgstr ""
+msgstr "Stripe Factuur-id"
 
 #: api/v3/StripeInvoice.php
 msgid "Send Email Receipt"
-msgstr ""
+msgstr "Factuur per e-mail verzenden"
 
 #: api/v3/StripePaymentintent.php
 msgid "Stripe generated code used to create a payment intent."
@@ -507,7 +507,7 @@ msgstr "Betaling is mislukt."
 
 #: js/civicrmStripeConfirm.js js/civicrm_stripe.js
 msgid "The payment failed - please try a different payment method."
-msgstr ""
+msgstr "De betaling is mislukt, probeer een andere betaalmethode."
 
 #: js/civicrmStripeConfirm.js
 msgid "Payment successful"
@@ -515,11 +515,11 @@ msgstr "Betaling geslaagd"
 
 #: js/civicrmStripeConfirm.js
 msgid "The payment failed - unknown error."
-msgstr ""
+msgstr "De betaling is mislukt, onbekende fout."
 
 #: js/civicrmStripeConfirm.js js/civicrm_stripe.js
 msgid "Unknown error"
-msgstr ""
+msgstr "Onbekende fout"
 
 #: js/civicrmStripeConfirm.js
 msgid "Please wait..."
@@ -539,7 +539,7 @@ msgstr " we doen een eerste controle van uw kaart..."
 
 #: js/civicrm_stripe.js
 msgid " preparing your payment..."
-msgstr ""
+msgstr "voorbereiden van betaling..."
 
 #: js/civicrm_stripe.js
 msgid "Please check and fill in all required fields!"
@@ -591,7 +591,7 @@ msgstr "Schakelt debugging naar CiviCRM-log in voor het oplossen van problemen m
 
 #: settings/stripe.setting.php
 msgid "Disable billing address fields"
-msgstr ""
+msgstr "Factuuradres uitschakelen"
 
 #: settings/stripe.setting.php
 msgid ""
@@ -630,7 +630,7 @@ msgstr "Toegestane maanddagen beperken"
 
 #: settings/stripe.setting.php
 msgid "Statement Descriptor"
-msgstr ""
+msgstr "Rekenafschrift toelichting"
 
 #: settings/stripe.setting.php
 msgid ""
@@ -638,11 +638,11 @@ msgid ""
 "If this is empty it will be generated by CiviCRM using the information available (Contact/ContributionID + event/contribution title).\n"
 "<br/>If you want to use a fixed descriptor specify one here - make sure you comply with the <a href=\"%1\" target=\"_blank\">Statement descriptor requirements</a>.\n"
 "<br/>Max length 22 characters."
-msgstr ""
+msgstr "De tekst die op het rekenafschrift van de klant komt te staan.\nIndien niet ingevuld wordt dit door CiviCRM gevuld (Contact/Bijdrage-id + gebeurtenis/bijdrage).\n<br/>Als u een vaste tekst wilt gebruiken dan kunt u die hier invullen, voldoe dan wel aan de <a href=\"%1\" target=\"_blank\">vereisten</a>.\n<br/>Maximaal 22 tekens."
 
 #: settings/stripe.setting.php
 msgid "Statement descriptor Suffix (Cards only)"
-msgstr ""
+msgstr "Rekenafschrift toelichting achtervoegsel (alleen kaarten)"
 
 #: settings/stripe.setting.php
 msgid ""
@@ -650,11 +650,11 @@ msgid ""
 "If this is empty the \"suffix\" will be generated by CiviCRM using the information available (Contact/ContributionID + event/contribution title).\n"
 "<br/>If you want to use a fixed descriptor specify the suffix here - make sure you comply with the <a href=\"%1\" target=\"_blank\">Statement descriptor requirements</a>.\n"
 "<br/>Max length 12 characters"
-msgstr ""
+msgstr "Bij creditcards kunt u een statisch <a href=\"%2\" target=\"_blank\">voorvoegsel</a> aangeven in het Stripe account dashboard.\nIndien niet ingevuld wordt dit door CiviCRM gevuld (Contact/Bijdrage-id + gebeurtenis/bijdrage).\n<br/>Als u een vaste tekst wilt gebruiken dan kunt u die hier invullen, voldoe dan wel aan de <a href=\"%1\" target=\"_blank\">vereisten</a>.\n<br/>Maximaal 12 tekens"
 
 #: settings/stripe.setting.php
 msgid "Show 6.6 upgrade message (system check)"
-msgstr ""
+msgstr "Bericht upgrade 6.6 tonen (systeemcontrole)"
 
 #: stripe.php
 msgid "Stripe Settings"
