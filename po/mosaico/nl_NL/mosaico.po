@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mosaico\n"
-"POT-Creation-Date: 2021-01-08 05:01+0000\n"
+"POT-Creation-Date: 2021-05-29 05:01+0000\n"
 "Last-Translator: HanV <han.velthuis@home.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -16,6 +16,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: CRM/Mosaico/DAO/MessageTemplate.php
+msgid "Mosaico Message Templates"
+msgstr ""
+
+#: CRM/Mosaico/DAO/MessageTemplate.php
+msgid "Mosaico Message Template"
+msgstr ""
 
 #: CRM/Mosaico/DAO/MessageTemplate.php
 msgid "Unique Settings ID"
@@ -48,6 +56,14 @@ msgstr "metadata"
 #: CRM/Mosaico/DAO/MessageTemplate.php
 msgid "template"
 msgstr "sjabloon"
+
+#: CRM/Mosaico/DAO/MosaicoTemplate.php mosaico.php
+msgid "Mosaico Templates"
+msgstr "Mosaico sjablonen"
+
+#: CRM/Mosaico/DAO/MosaicoTemplate.php
+msgid "Mosaico Template"
+msgstr ""
 
 #: CRM/Mosaico/DAO/MosaicoTemplate.php
 msgid "Unique Template ID"
@@ -562,10 +578,6 @@ msgid "Relative path to the template file"
 msgstr "Relatief pad naar het sjabloonbestand"
 
 #: mosaico.php
-msgid "Mosaico Templates"
-msgstr "Mosaico sjablonen"
-
-#: mosaico.php
 msgid "New Mailing (Traditional)"
 msgstr "Mailing aanmaken (traditioneel)"
 
@@ -695,6 +707,63 @@ msgstr "THUMBNAILS_DIR niet schrijfbaar of niet geconfigureerd"
 #: mosaico.php
 msgid "Email - schedule/send via CiviMail (traditional)"
 msgstr "E-mail - plannen/verzenden via CiviMail (traditioneel)"
+
+#: settings/Mosaico.setting.php
+msgid "Mosaico editor layout"
+msgstr ""
+
+#: settings/Mosaico.setting.php
+msgid "How should the CiviMail composition screen look?"
+msgstr "Hoe moet het uiterlijk van het compositie-scherm van CiviMail zijn?"
+
+#: settings/Mosaico.setting.php
+msgid "Mosaico graphics driver"
+msgstr ""
+
+#: settings/Mosaico.setting.php
+msgid "Which backend should process images?"
+msgstr "Welk backend-proces verwerkt de afbeeldingen?"
+
+#: settings/Mosaico.setting.php
+msgid "Image resize scale factor"
+msgstr ""
+
+#: settings/Mosaico.setting.php
+msgid "for resize of images with width"
+msgstr "voor wijzigen formaat op wijdte"
+
+#: settings/Mosaico.setting.php
+msgid "Image resize scale factor width limit"
+msgstr ""
+
+#: settings/Mosaico.setting.php
+msgid ""
+"When uploading images, the mosaico editor trims it down to very required "
+"size (in pixels). Use scale factor setting to keep some buffer (2x or 3x) so"
+" upscale doesn't look distorted or low resolution. Example"
+msgstr ""
+
+#: settings/Mosaico.setting.php
+msgid "3x => Upto 285 pixels (covers both 2 and 3 column block images)"
+msgstr ""
+"3x => Maximaal 285 pixels (voor afbeeldingen bij zowel 2 als 3 "
+"kolomsblokken)"
+
+#: settings/Mosaico.setting.php
+msgid "2x => All other sizes (single column block images)"
+msgstr "2x => Alle andere afmetingen (voor afbeeldingen bij 1 kolomsblok)"
+
+#: settings/Mosaico.setting.php
+msgid "Mosaico Custom Templates Directory"
+msgstr ""
+
+#: settings/Mosaico.setting.php
+msgid "Mosaico Custom Templates URL"
+msgstr ""
+
+#: settings/Mosaico.setting.php
+msgid "Hide these base templates"
+msgstr ""
 
 #: templates/CRM/Mosaico/Form/Migrate.tpl
 msgid "Your system appears to be current. There are no templates to migrate."
@@ -831,43 +900,6 @@ msgstr ""
 "<u>Opschonen</u>: Gebruik de migratie-assistent om de oude sjablonen van "
 "versie 1 <em>op te schonen</em>. Hierdoor verlies je ook de notities over "
 "het migreren."
-
-#: templates/CRM/Mosaico/Form/MosaicoAdmin.tpl
-msgid "..."
-msgstr "..."
-
-#: templates/CRM/Mosaico/Form/MosaicoAdmin.tpl
-msgid "How should the CiviMail composition screen look?"
-msgstr "Hoe moet het uiterlijk van het compositie-scherm van CiviMail zijn?"
-
-#: templates/CRM/Mosaico/Form/MosaicoAdmin.tpl
-msgid "Which backend should process images?"
-msgstr "Welk backend-proces verwerkt de afbeeldingen?"
-
-#: templates/CRM/Mosaico/Form/MosaicoAdmin.tpl
-msgid "for resize of images with width"
-msgstr "voor wijzigen formaat op wijdte"
-
-#: templates/CRM/Mosaico/Form/MosaicoAdmin.tpl
-msgid ""
-"When uploading images, the mosaico editor trims it down to very required "
-"size (in pixels). Use scale factor setting to keep some buffer (2x or 3x) so"
-" upscale doesn't look distorted or low resolution. Example:"
-msgstr ""
-"Bij het uploaden wordt een afbeelding door de Mosaico-editor verkleint naar "
-"de meest benodigde afmeting (in pixels). Gebruik de schaalfactor om enige "
-"buffer te houden (2x of 3x) zodat de afbeelding bij het vergroten niet "
-"vervormd of met te lage resolutie lijkt. Voorbeeld:"
-
-#: templates/CRM/Mosaico/Form/MosaicoAdmin.tpl
-msgid "3x => Upto 285 pixels (covers both 2 and 3 column block images)"
-msgstr ""
-"3x => Maximaal 285 pixels (voor afbeeldingen bij zowel 2 als 3 "
-"kolomsblokken)"
-
-#: templates/CRM/Mosaico/Form/MosaicoAdmin.tpl
-msgid "2x => All other sizes (single column block images)"
-msgstr "2x => Alle andere afmetingen (voor afbeeldingen bij 1 kolomsblok)"
 
 #: templates/CRM/Mosaico/Page/EditorIframe.tpl
 msgid "Exit email composer without saving?"
