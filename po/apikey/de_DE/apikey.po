@@ -7,9 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2021-02-25 05:01+0000\n"
-"PO-Revision-Date: 2021-02-25 07:57+0000\n"
-"Last-Translator: Torben Bertram\n"
+"POT-Creation-Date: 2021-06-03 05:02+0000\n"
+"PO-Revision-Date: 2021-06-03 05:02+0000\n"
+"Last-Translator: CiviCRM Maintenance\n"
 "Language-Team: German (http://www.transifex.com/civicrm/civicrm_extensions/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,9 +17,12 @@ msgstr ""
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: CRM/Contact/Form/APIKey.php
+msgid "You do not have permission to edit API keys for this contact."
+msgstr ""
+
 #: CRM/Contact/Form/APIKey.php CRM/Contact/Page/View/APIKey.php
 #: templates/CRM/Contact/Form/APIKey.tpl
-#: templates/CRM/Contact/Page/View/APIKey.tpl
 msgid "API Key"
 msgstr "API Key"
 
@@ -32,6 +35,10 @@ msgid "Cancel"
 msgstr "Abbrechen"
 
 #: CRM/Contact/Page/View/APIKey.php
+msgid "The administrator has restricted the ability to view the site key."
+msgstr ""
+
+#: CRM/Contact/Page/View/APIKey.php
 msgid "Add API Key"
 msgstr "API Key hinzufügen"
 
@@ -39,9 +46,62 @@ msgstr "API Key hinzufügen"
 msgid "Edit API Key"
 msgstr "API Key bearbeiten"
 
+#: apikey.php
+msgid "APIKey"
+msgstr ""
+
+#: apikey.php
+msgid "View own API key"
+msgstr ""
+
+#: apikey.php
+msgid ""
+"Allows contacts to view their own API key on their contact summary "
+"screen/record."
+msgstr ""
+
+#: apikey.php
+msgid "Edit own API key"
+msgstr ""
+
+#: apikey.php
+msgid ""
+"Allows contacts to edit their own API key on their contact summary "
+"screen/record"
+msgstr ""
+
+#: apikey.php
+msgid "View site key"
+msgstr ""
+
+#: apikey.php
+msgid ""
+"Allows contacts to view the site key on their contact summary screen/record."
+msgstr ""
+
+#: apikey.php
+msgid "View all API keys"
+msgstr ""
+
+#: apikey.php
+msgid "Allows users to view API keys for all contacts."
+msgstr ""
+
+#: apikey.php
+msgid "Edit all API keys"
+msgstr ""
+
+#: apikey.php
+msgid "Allows users to edit API keys for all contacts."
+msgstr ""
+
 #: templates/CRM/Contact/Form/APIKey.tpl
 msgid "Generate"
 msgstr "Erzeugen"
+
+#: templates/CRM/Contact/Page/View/APIKey.tpl
+msgid "API Keys"
+msgstr ""
 
 #: templates/CRM/Contact/Page/View/APIKey.tpl
 msgid "Your API key is"
@@ -50,3 +110,11 @@ msgstr "Der API Key ist"
 #: templates/CRM/Contact/Page/View/APIKey.tpl
 msgid "You are not authorized to display this API Key."
 msgstr "Fehlende Berechtigung zur Anzeige dieses API Keys."
+
+#: templates/CRM/Contact/Page/View/APIKey.tpl
+msgid "The Site Key is"
+msgstr ""
+
+#: templates/CRM/Contact/Page/View/APIKey.tpl
+msgid "You are not authorized to display the Site Key."
+msgstr ""
