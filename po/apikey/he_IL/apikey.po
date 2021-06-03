@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2021-02-25 05:01+0000\n"
-"PO-Revision-Date: 2021-02-24 05:01+0000\n"
+"POT-Creation-Date: 2021-06-03 05:02+0000\n"
+"PO-Revision-Date: 2021-06-03 05:02+0000\n"
 "Last-Translator: CiviCRM Maintenance\n"
 "Language-Team: Hebrew (http://www.transifex.com/civicrm/civicrm_extensions/language/he/)\n"
 "MIME-Version: 1.0\n"
@@ -16,9 +16,12 @@ msgstr ""
 "Language: he\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
 
+#: CRM/Contact/Form/APIKey.php
+msgid "You do not have permission to edit API keys for this contact."
+msgstr ""
+
 #: CRM/Contact/Form/APIKey.php CRM/Contact/Page/View/APIKey.php
 #: templates/CRM/Contact/Form/APIKey.tpl
-#: templates/CRM/Contact/Page/View/APIKey.tpl
 msgid "API Key"
 msgstr ""
 
@@ -31,6 +34,10 @@ msgid "Cancel"
 msgstr ""
 
 #: CRM/Contact/Page/View/APIKey.php
+msgid "The administrator has restricted the ability to view the site key."
+msgstr ""
+
+#: CRM/Contact/Page/View/APIKey.php
 msgid "Add API Key"
 msgstr ""
 
@@ -38,8 +45,61 @@ msgstr ""
 msgid "Edit API Key"
 msgstr ""
 
+#: apikey.php
+msgid "APIKey"
+msgstr ""
+
+#: apikey.php
+msgid "View own API key"
+msgstr ""
+
+#: apikey.php
+msgid ""
+"Allows contacts to view their own API key on their contact summary "
+"screen/record."
+msgstr ""
+
+#: apikey.php
+msgid "Edit own API key"
+msgstr ""
+
+#: apikey.php
+msgid ""
+"Allows contacts to edit their own API key on their contact summary "
+"screen/record"
+msgstr ""
+
+#: apikey.php
+msgid "View site key"
+msgstr ""
+
+#: apikey.php
+msgid ""
+"Allows contacts to view the site key on their contact summary screen/record."
+msgstr ""
+
+#: apikey.php
+msgid "View all API keys"
+msgstr ""
+
+#: apikey.php
+msgid "Allows users to view API keys for all contacts."
+msgstr ""
+
+#: apikey.php
+msgid "Edit all API keys"
+msgstr ""
+
+#: apikey.php
+msgid "Allows users to edit API keys for all contacts."
+msgstr ""
+
 #: templates/CRM/Contact/Form/APIKey.tpl
 msgid "Generate"
+msgstr ""
+
+#: templates/CRM/Contact/Page/View/APIKey.tpl
+msgid "API Keys"
 msgstr ""
 
 #: templates/CRM/Contact/Page/View/APIKey.tpl
@@ -48,4 +108,12 @@ msgstr ""
 
 #: templates/CRM/Contact/Page/View/APIKey.tpl
 msgid "You are not authorized to display this API Key."
+msgstr ""
+
+#: templates/CRM/Contact/Page/View/APIKey.tpl
+msgid "The Site Key is"
+msgstr ""
+
+#: templates/CRM/Contact/Page/View/APIKey.tpl
+msgid "You are not authorized to display the Site Key."
 msgstr ""
