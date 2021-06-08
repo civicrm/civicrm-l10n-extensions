@@ -3,13 +3,13 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Usha Matisson <matisson@makoa.fr>, 2020
+# Usha Matisson <matisson@makoa.fr>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: deduper\n"
 "POT-Creation-Date: 2021-04-23 05:01+0000\n"
-"Last-Translator: Usha Matisson <matisson@makoa.fr>, 2020\n"
+"Last-Translator: Usha Matisson <matisson@makoa.fr>, 2021\n"
 "Language-Team: French (https://www.transifex.com/civicrm/teams/1905/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -56,16 +56,17 @@ msgstr "Contact avec le plus de contributions"
 
 #: CRM/Deduper/BAO/MergeConflict.php
 msgid "Prefer nick name, discard conflicting name"
-msgstr "Préférer le surnom, supprimer le nom en conflit"
+msgstr "Préférer le surnom/sigle, supprimer le nom en conflit"
 
 #: CRM/Deduper/BAO/MergeConflict.php
 msgid "Prefer non-nick name, discard conflicting name"
-msgstr "Préférer les noms hors surnom, supprimer le nom en conflit"
+msgstr ""
+"Préférer le nom (qui n'est pas un surnom/sigle), supprimer le nom en conflit"
 
 #: CRM/Deduper/BAO/MergeConflict.php
 msgid "Prefer non-nick name, put nick-name in nick name field"
 msgstr ""
-"Préférer les noms hors surnom, placer le surnom dans le le champ surnom"
+"Préférer le nom (qui n'est pas un surnom/sigle), supprimer le nom en conflit"
 
 #: CRM/Deduper/BAO/MergeConflict.php
 msgid ""
@@ -80,16 +81,20 @@ msgid ""
 "Prefer value from preferred contact, put nick name, if exists in nick name "
 "field"
 msgstr ""
+"Préférer la valeur du contacté préféré/principal, mettre le surnom/sigle "
+"s'il existe dans le champ surnom/sigle."
 
 #: CRM/Deduper/BAO/MergeConflict.php
 msgid "Do not resolve"
-msgstr ""
+msgstr "Ne pas résoudre"
 
 #: CRM/Deduper/BAO/MergeConflict.php
 msgid ""
 "If emails/phones/addresses are in conflict for a given location choose the "
 "one from the preferred contact"
 msgstr ""
+"Si les courriels/téléphones/adresses sont en conflit pour un lieu donné "
+"choisir celui du contact préféré"
 
 #: CRM/Deduper/BAO/MergeConflict.php
 msgid ""
@@ -97,14 +102,18 @@ msgid ""
 "one from the preferred contact, assign the other to a new location "
 "(preferred contact primary remains primary"
 msgstr ""
+"Si les courriels/téléphones/adresses sont en conflit pour un lieu/adresse "
+"donné(e) choisir celui du contact préféré, assigner l'autre à un nouveau "
+"lieu/adresse (l'adresse principale du contact préféré reste l'adresse "
+"principale)"
 
 #: CRM/Deduper/DAO/ContactNamePair.php
 msgid "Contact Name Pairs"
-msgstr ""
+msgstr "Paires de noms de contact"
 
 #: CRM/Deduper/DAO/MergeConflict.php
 msgid "Merge Conflicts"
-msgstr ""
+msgstr "Fusionner les conflits"
 
 #: CRM/Deduper/Form/Report/MergeConflict.php
 msgid "Contact 1"
@@ -148,7 +157,7 @@ msgstr ""
 
 #: ang/conflictBasic.aff.html
 msgid "Save Name Pair"
-msgstr ""
+msgstr "Enregistrer la paire de noms"
 
 #: ang/contactBasic.aff.html
 msgid "No contact id provided"
@@ -168,7 +177,7 @@ msgstr "Nom"
 
 #: ang/contactBasic.aff.html
 msgid "Nick Name"
-msgstr ""
+msgstr "Surnom/Sigle"
 
 #: ang/contactBasic.aff.html
 msgid "Email"
@@ -176,11 +185,11 @@ msgstr "Courriel"
 
 #: ang/contactBasic.aff.html
 msgid "Street Address"
-msgstr ""
+msgstr "Rue"
 
 #: ang/contactBasic.aff.html
 msgid "City"
-msgstr ""
+msgstr "Ville"
 
 #: ang/contactBasic.aff.html
 msgid "Contact ID"
@@ -298,7 +307,7 @@ msgstr "Forcer la fusion"
 
 #: ang/deduper/dupefindCntrl.js ang/deduper/mergeActions.js
 msgid "deduper"
-msgstr ""
+msgstr "Dédoublonneur"
 
 #: ang/deduper/mergeActions.html
 msgid "Example directive (merge-actions)"
@@ -397,7 +406,7 @@ msgstr ""
 
 #: settings/Dedupe.setting.php
 msgid "Priority order for locations"
-msgstr ""
+msgstr "Ordre de priorité pour les adresses"
 
 #: settings/Dedupe.setting.php
 msgid "What method should be used to resolve email conflicts"
@@ -431,7 +440,7 @@ msgstr ""
 
 #: settings/Dedupe.setting.php
 msgid "Custom tables to skip"
-msgstr ""
+msgstr "Tables personnalisées à ignorer"
 
 #: templates/CRM/Dedupetools/dupefindCntrl.hlp
 msgid ""
