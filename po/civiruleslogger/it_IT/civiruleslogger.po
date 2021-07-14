@@ -7,9 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2019-06-28 05:01+0000\n"
-"PO-Revision-Date: 2021-03-19 15:20+0000\n"
-"Last-Translator: Francesco Garganese <francesco.garganese@aeromnia.aero>\n"
+"POT-Creation-Date: 2021-07-14 05:01+0000\n"
+"PO-Revision-Date: 2021-07-14 05:01+0000\n"
+"Last-Translator: CiviCRM Maintenance\n"
 "Language-Team: Italian (http://www.transifex.com/civicrm/civicrm_extensions/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,28 +18,61 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: CRM/Civiruleslogger/DAO/CivirulesLog.php
-msgid "System Log ID"
+msgid "Civirules Logs"
 msgstr ""
 
 #: CRM/Civiruleslogger/DAO/CivirulesLog.php
-msgid "System Log Message"
+msgid "Civirules Log"
 msgstr ""
 
 #: CRM/Civiruleslogger/DAO/CivirulesLog.php
-msgid "Detailed Log Data"
+msgid "Unique CivirulesLog ID"
 msgstr ""
 
 #: CRM/Civiruleslogger/DAO/CivirulesLog.php
-msgid "Log Timestamp"
+#: templates/CRM/Civiruleslogger/Page/ViewLog.tpl
+msgid "Message"
+msgstr "Messaggio"
+
+#: CRM/Civiruleslogger/DAO/CivirulesLog.php
+msgid "Standardized message"
 msgstr ""
 
 #: CRM/Civiruleslogger/DAO/CivirulesLog.php
-msgid "Log Contact ID"
+#: templates/CRM/Civiruleslogger/Page/ViewLog.tpl
+msgid "Context"
+msgstr "Contesto"
+
+#: CRM/Civiruleslogger/DAO/CivirulesLog.php
+msgid "JSON encoded data"
 msgstr ""
 
 #: CRM/Civiruleslogger/DAO/CivirulesLog.php
-msgid "Rule ID"
-msgstr "ID Ruolo"
+#: templates/CRM/Civiruleslogger/Page/ViewLog.tpl
+msgid "Level"
+msgstr "Livello"
+
+#: CRM/Civiruleslogger/DAO/CivirulesLog.php
+msgid "error level per PSR3"
+msgstr ""
+
+#: CRM/Civiruleslogger/DAO/CivirulesLog.php
+msgid "Timestamp"
+msgstr ""
+
+#: CRM/Civiruleslogger/DAO/CivirulesLog.php
+msgid "Timestamp of when event occurred."
+msgstr ""
+
+#: CRM/Civiruleslogger/DAO/CivirulesLog.php
+msgid ""
+"Optional Contact ID that created the log. Not an FK as we keep this "
+"regardless"
+msgstr ""
+
+#: CRM/Civiruleslogger/DAO/CivirulesLog.php
+msgid "Optional Rule ID that created the log"
+msgstr ""
 
 #: CRM/Civiruleslogger/Page/ViewLog.php
 msgid "View log for rule: \"%1\""
@@ -68,18 +101,6 @@ msgstr ""
 #: templates/CRM/Civiruleslogger/Page/ViewLog.tpl
 msgid "Time"
 msgstr "Ora"
-
-#: templates/CRM/Civiruleslogger/Page/ViewLog.tpl
-msgid "Level"
-msgstr "Livello"
-
-#: templates/CRM/Civiruleslogger/Page/ViewLog.tpl
-msgid "Message"
-msgstr "Messaggio"
-
-#: templates/CRM/Civiruleslogger/Page/ViewLog.tpl
-msgid "Context"
-msgstr "Contesto"
 
 #: templates/CRM/Civiruleslogger/Page/ViewLog.tpl
 msgid "Contact"
