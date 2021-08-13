@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
-"POT-Creation-Date: 2021-05-18 05:01+0000\n"
+"POT-Creation-Date: 2021-08-13 05:01+0000\n"
 "Last-Translator: Torben Bertram, 2021\n"
 "Language-Team: German (https://www.transifex.com/civicrm/teams/1905/de/)\n"
 "MIME-Version: 1.0\n"
@@ -128,6 +128,10 @@ msgstr "Kann E-Mail zum Kontakt nicht erstellen. Fehler:"
 #: CRM/CiviMobileAPI/Api/CiviMobilePublicParticipant/Create.php
 msgid "Can not update Contact. Error: "
 msgstr "Kann den Kontakt nicht aktualisieren. Fehler:"
+
+#: CRM/CiviMobileAPI/Api/CiviMobilePublicParticipant/Create.php
+msgid "Event Registration"
+msgstr ""
 
 #: CRM/CiviMobileAPI/Api/CiviMobileSurvey/GetSignedValues.php
 #: CRM/CiviMobileAPI/Api/CiviMobileSurvey/GetStructure.php
@@ -861,6 +865,10 @@ msgstr "Public Key"
 msgid "Is GOTV?"
 msgstr "Handelt es sich um GOTV?"
 
+#: CRM/CiviMobileAPI/Install/Entity/CustomField.php
+msgid "Allow Online registration in CiviMobile?"
+msgstr ""
+
 #: CRM/CiviMobileAPI/Install/Entity/CustomGroup.php
 msgid "Qr options"
 msgstr "QR Optionen"
@@ -880,6 +888,62 @@ msgstr "Öffentliche Info"
 #: CRM/CiviMobileAPI/Install/Entity/CustomGroup.php
 msgid "Survey`s additional info"
 msgstr "Zusatzinfo Befragung"
+
+#: CRM/CiviMobileAPI/Install/Entity/CustomGroup.php
+msgid "Allow Online registration in CiviMobile"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Install/Entity/OptionGroup.php civimobileapi.php
+msgid "CiviMobile Tabs"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
+msgid "Calendar"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
+msgid "Events"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
+msgid "Cases"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
+msgid "Activities"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
+msgid "Contacts"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
+msgid "Relationships"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
+msgid "Memberships"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
+msgid "Contributions"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
+msgid "Notes"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
+msgid "Groups"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
+msgid "Tags"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
+msgid "Surveys"
+msgstr ""
 
 #: CRM/CiviMobileAPI/Install/Entity/UpdateMessageTemplate.php
 msgid ""
@@ -1330,12 +1394,24 @@ msgid "View Agenda."
 msgstr "Agenda anzeigen."
 
 #: civimobileapi.php
+msgid "It means the User can see the tags he belongs to."
+msgstr ""
+
+#: civimobileapi.php
+msgid "It means the User can see the groups he belongs to"
+msgstr ""
+
+#: civimobileapi.php
 msgid "CiviMobile Event Locations"
 msgstr "CiviMobile Veranstaltungsorte"
 
 #: civimobileapi.php
 msgid "CiviMobile Checklist"
 msgstr "CiviMobile Checkliste"
+
+#: civimobileapi.php
+msgid "Is allow mobile registration?"
+msgstr ""
 
 #: civimobileapi.php
 msgid "When generating QR Code tokens, use this Event"
@@ -1360,6 +1436,10 @@ msgstr "Blende vergangene Veranstaltungen aus"
 #: settings/civimobileapi.setting.php
 msgid "Synchronize with CiviCalendar"
 msgstr "Synchronisiere mit CiviCalendar"
+
+#: templates/CRM/CiviMobileAPI/Block/IsAllowMobileRegistration.tpl
+msgid "Mobile registration"
+msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
 msgid ""
