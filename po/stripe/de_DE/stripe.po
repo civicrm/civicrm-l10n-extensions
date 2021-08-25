@@ -3,14 +3,14 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# J K, 2021
+# Joachim Kueter, 2021
 # Torben Bertram, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2021-05-18 05:01+0000\n"
-"PO-Revision-Date: 2021-05-26 10:01+0000\n"
-"Last-Translator: Torben Bertram\n"
+"POT-Creation-Date: 2021-08-25 05:01+0000\n"
+"PO-Revision-Date: 2021-08-25 05:01+0000\n"
+"Last-Translator: CiviCRM Maintenance\n"
 "Language-Team: German (http://www.transifex.com/civicrm/civicrm_extensions/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -395,8 +395,8 @@ msgid ""
 msgstr "Limit für den gegebenen Stripe Event-Typ, Standard ist invoice.payment_succeeded."
 
 #: api/v3/Stripe/Listevents.php
-msgid "Limit number of results returned (100 is max)"
-msgstr "Begrenze die Anzahl an Ergebnissen (max. 100)"
+msgid "Limit number of results returned (100 is max, 25 default)"
+msgstr ""
 
 #: api/v3/Stripe/Listevents.php
 msgid "Only return results after this id."
@@ -440,9 +440,13 @@ msgid ""
 "Subscription and source are incompatible. Please choose one or the other."
 msgstr ""
 
-#: api/v3/Stripe/Populatelog.php
+#: api/v3/Stripe/Populatelog.php api/v3/Stripe/Populatewebhookqueue.php
 msgid "The id of the payment processor."
 msgstr "Die Id des Zahlungsdienstleisters"
+
+#: api/v3/Stripe/Populatelog.php api/v3/Stripe/Populatewebhookqueue.php
+msgid "The event type - defaults to invoice.payment_succeeded."
+msgstr ""
 
 #: api/v3/Stripe/Retryall.php
 msgid "The payment processor to use."
@@ -475,16 +479,16 @@ msgid "Send Email Receipt"
 msgstr "Sende E-Mailbestätigung"
 
 #: api/v3/StripePaymentintent.php
-msgid "Stripe generated code used to create a payment intent."
-msgstr "Von Stripe erzeugter Code um ein payment intent zu erzeugen."
+msgid "Payment Method ID"
+msgstr ""
 
 #: api/v3/StripePaymentintent.php
-msgid "The payment intent id itself, if available."
-msgstr "Die Payment-ID, sofern verfügbar."
+msgid "Payment Intent ID."
+msgstr ""
 
 #: api/v3/StripePaymentintent.php
-msgid "The payment amount."
-msgstr "Der zu zahlende Betrag."
+msgid "Payment amount."
+msgstr ""
 
 #: api/v3/StripePaymentintent.php
 msgid "Whether we should try to capture the amount, not just confirm it."
@@ -493,6 +497,10 @@ msgstr "Den Betrag abbuchen, nicht nur bestätigen."
 #: api/v3/StripePaymentintent.php
 msgid "Describe the payment."
 msgstr "Beschreibung der Zahlung"
+
+#: api/v3/StripePaymentintent.php
+msgid "Currency (eg. EUR)"
+msgstr ""
 
 #: api/v3/StripePaymentintent.php
 msgid "The stripe payment processor id."
@@ -522,6 +530,10 @@ msgstr ""
 msgid "Unknown error"
 msgstr "Unbekannter Fehler"
 
+#: js/civicrmStripeConfirm.js js/civicrm_stripe.js
+msgid "Configuration error - unable to process paymentIntent"
+msgstr ""
+
 #: js/civicrmStripeConfirm.js
 msgid "Please wait..."
 msgstr "Bitte warten..."
@@ -540,6 +552,10 @@ msgstr " während die Zahlungsdaten überprüft werden..."
 
 #: js/civicrm_stripe.js
 msgid " preparing your payment..."
+msgstr ""
+
+#: js/civicrm_stripe.js
+msgid "Please apply the Discount Code or clear the Discount Code text-field"
 msgstr ""
 
 #: js/civicrm_stripe.js
@@ -573,6 +589,10 @@ msgid "Your recurring contribution will start on %1"
 msgstr "Die wiederkehrenden Zahlungen werden am %1 starten"
 
 #: settings/stripe.setting.php
+msgid "Show 6.6 upgrade message (system check)"
+msgstr ""
+
+#: settings/stripe.setting.php
 msgid "Allow Stripe to send a receipt for one-off payments?"
 msgstr "Soll Stripe Quittungsbelege für Einmalzahlungen versenden?"
 
@@ -581,14 +601,6 @@ msgid ""
 "Sets the \"email_receipt\" parameter on a Stripe Charge so that Stripe can "
 "send an email receipt."
 msgstr "Übermittelt den \"email_receipt\"-Parameter bei der Stripe Zahlung, so dass Stripe einen Zahlungsbeleg per E-Mail senden kann."
-
-#: settings/stripe.setting.php
-msgid "Enable Stripe IPN (Webhook) debugging?"
-msgstr "Stripe IPN (Webhook) Debugging einschalten?"
-
-#: settings/stripe.setting.php
-msgid "Enables debugging to CiviCRM log for IPN / webhook issues."
-msgstr "Schreibt Debugging-Informationen in das CiviCRM-Logfile für IPN/Webhook Ereignisse."
 
 #: settings/stripe.setting.php
 msgid "Disable billing address fields"
@@ -600,6 +612,30 @@ msgid ""
 "required by CiviCRM but since Stripe 6.x the stripe element collects "
 "everything it requires to make payment."
 msgstr "Deaktivierung der Eingabefelder für eine Rechnungsadresse. In der Vergangenheit war diese für CiviCRM erforderlich. Seit 6.x werden alle erforderlichen Daten für die Zahlung im Stripe Element-Eingabefeld abgefragt."
+
+#: settings/stripe.setting.php
+msgid "Statement Descriptor"
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid ""
+"The text that will be shown on the customer bank/card statement.\n"
+"If this is empty it will be generated by CiviCRM using the information available (Contact/ContributionID + event/contribution title).\n"
+"<br/>If you want to use a fixed descriptor specify one here - make sure you comply with the <a href=\"%1\" target=\"_blank\">Statement descriptor requirements</a>.\n"
+"<br/>Max length 22 characters."
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid "Statement descriptor Suffix (Cards only)"
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid ""
+"For credit cards you can specify a static <a href=\"%2\" target=\"_blank\">\"prefix\"</a> in the Stripe account dashboard.\n"
+"If this is empty the \"suffix\" will be generated by CiviCRM using the information available (Contact/ContributionID + event/contribution title).\n"
+"<br/>If you want to use a fixed descriptor specify the suffix here - make sure you comply with the <a href=\"%1\" target=\"_blank\">Statement descriptor requirements</a>.\n"
+"<br/>Max length 12 characters"
+msgstr ""
 
 #: settings/stripe.setting.php
 msgid "Country where your account is registered"
@@ -630,32 +666,23 @@ msgid "Restrict allowable days of the month"
 msgstr "Beschränkung der zulässigen Tage im Monat"
 
 #: settings/stripe.setting.php
-msgid "Statement Descriptor"
+msgid "Maximum number of webhooks to process simultaneously."
 msgstr ""
 
 #: settings/stripe.setting.php
 msgid ""
-"The text that will be shown on the customer bank/card statement.\n"
-"If this is empty it will be generated by CiviCRM using the information available (Contact/ContributionID + event/contribution title).\n"
-"<br/>If you want to use a fixed descriptor specify one here - make sure you comply with the <a href=\"%1\" target=\"_blank\">Statement descriptor requirements</a>.\n"
-"<br/>Max length 22 characters."
+"Default 50. 0=Unlimited. This helps prevents webhooks from Stripe failing if"
+" a large number are triggered at the same time by delaying processing of any"
+" over this limit."
 msgstr ""
 
 #: settings/stripe.setting.php
-msgid "Statement descriptor Suffix (Cards only)"
-msgstr ""
+msgid "Enable Stripe IPN (Webhook) debugging?"
+msgstr "Stripe IPN (Webhook) Debugging einschalten?"
 
 #: settings/stripe.setting.php
-msgid ""
-"For credit cards you can specify a static <a href=\"%2\" target=\"_blank\">\"prefix\"</a> in the Stripe account dashboard.\n"
-"If this is empty the \"suffix\" will be generated by CiviCRM using the information available (Contact/ContributionID + event/contribution title).\n"
-"<br/>If you want to use a fixed descriptor specify the suffix here - make sure you comply with the <a href=\"%1\" target=\"_blank\">Statement descriptor requirements</a>.\n"
-"<br/>Max length 12 characters"
-msgstr ""
-
-#: settings/stripe.setting.php
-msgid "Show 6.6 upgrade message (system check)"
-msgstr ""
+msgid "Enables debugging to CiviCRM log for IPN / webhook issues."
+msgstr "Schreibt Debugging-Informationen in das CiviCRM-Logfile für IPN/Webhook Ereignisse."
 
 #: stripe.php
 msgid "Stripe Settings"
