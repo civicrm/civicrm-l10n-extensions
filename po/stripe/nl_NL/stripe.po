@@ -7,9 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2021-08-25 05:01+0000\n"
-"PO-Revision-Date: 2021-08-25 05:01+0000\n"
-"Last-Translator: CiviCRM Maintenance\n"
+"POT-Creation-Date: 2021-08-30 05:01+0000\n"
+"PO-Revision-Date: 2021-08-30 18:33+0000\n"
+"Last-Translator: HanV <han.velthuis@home.nl>\n"
 "Language-Team: Dutch (http://www.transifex.com/civicrm/civicrm_extensions/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -395,7 +395,7 @@ msgstr "Tot het gegeven Stripe evenementstype beperken, standaard tot invoice.pa
 
 #: api/v3/Stripe/Listevents.php
 msgid "Limit number of results returned (100 is max, 25 default)"
-msgstr ""
+msgstr "Het aantal resultaten beperken (max. 100, standaard 25)"
 
 #: api/v3/Stripe/Listevents.php
 msgid "Only return results after this id."
@@ -445,7 +445,7 @@ msgstr "Het id van de betaalmethode."
 
 #: api/v3/Stripe/Populatelog.php api/v3/Stripe/Populatewebhookqueue.php
 msgid "The event type - defaults to invoice.payment_succeeded."
-msgstr ""
+msgstr "Het evenementstype, standaard tot invoice.payment_succeeded."
 
 #: api/v3/Stripe/Retryall.php
 msgid "The payment processor to use."
@@ -479,15 +479,15 @@ msgstr "Factuur per e-mail verzenden"
 
 #: api/v3/StripePaymentintent.php
 msgid "Payment Method ID"
-msgstr ""
+msgstr "Betaalmethode ID"
 
 #: api/v3/StripePaymentintent.php
 msgid "Payment Intent ID."
-msgstr ""
+msgstr "Betaal-intentie ID."
 
 #: api/v3/StripePaymentintent.php
 msgid "Payment amount."
-msgstr ""
+msgstr "Bedrag."
 
 #: api/v3/StripePaymentintent.php
 msgid "Whether we should try to capture the amount, not just confirm it."
@@ -499,7 +499,7 @@ msgstr "Beschrijving van betaling."
 
 #: api/v3/StripePaymentintent.php
 msgid "Currency (eg. EUR)"
-msgstr ""
+msgstr "Valuta (bijv. EUR)"
 
 #: api/v3/StripePaymentintent.php
 msgid "The stripe payment processor id."
@@ -531,7 +531,7 @@ msgstr "Onbekende fout"
 
 #: js/civicrmStripeConfirm.js js/civicrm_stripe.js
 msgid "Configuration error - unable to process paymentIntent"
-msgstr ""
+msgstr "Fout in configuratie, betaling kan niet verwerkt worden"
 
 #: js/civicrmStripeConfirm.js
 msgid "Please wait..."
@@ -555,7 +555,7 @@ msgstr "voorbereiden van betaling..."
 
 #: js/civicrm_stripe.js
 msgid "Please apply the Discount Code or clear the Discount Code text-field"
-msgstr ""
+msgstr "Gebruik de kortingscode of wis het bijbehorende tekstveld"
 
 #: js/civicrm_stripe.js
 msgid "Please check and fill in all required fields!"
@@ -666,14 +666,14 @@ msgstr "Toegestane maanddagen beperken"
 
 #: settings/stripe.setting.php
 msgid "Maximum number of webhooks to process simultaneously."
-msgstr ""
+msgstr "Het aantal webhooks dat maximaal gelijktijdig verwerkt kan worden."
 
 #: settings/stripe.setting.php
 msgid ""
 "Default 50. 0=Unlimited. This helps prevents webhooks from Stripe failing if"
 " a large number are triggered at the same time by delaying processing of any"
 " over this limit."
-msgstr ""
+msgstr "Standaard 50, onbeperkt is 0. Hierdoor kan voorkomen worden dat webhooks van Stripe mislukken als er veel gelijktijdig van toepassing zijn, er worden dan wat webhooks wat later verwerkt."
 
 #: settings/stripe.setting.php
 msgid "Enable Stripe IPN (Webhook) debugging?"
