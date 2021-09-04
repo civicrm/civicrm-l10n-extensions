@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: expenses\n"
-"POT-Creation-Date: 2021-02-16 05:01+0000\n"
+"POT-Creation-Date: 2021-09-04 05:02+0000\n"
 "Last-Translator: HanV <han.velthuis@home.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -26,6 +26,14 @@ msgstr "Bestedingen"
 #: CRM/Expenses/DAO/ExpenseLine.php
 msgid "Expense Lines"
 msgstr "Bestedingsregels"
+
+#: CRM/Expenses/Form/Expense.php templates/CRM/Expenses/Form/Search.tpl
+msgid "Add expense"
+msgstr "Besteding aanmaken"
+
+#: CRM/Expenses/Form/Expense.php
+msgid "Edit expense"
+msgstr ""
 
 #: CRM/Expenses/Form/Expense.php CRM/Expenses/Form/Search.php
 #: CRM/Expenses/Utils/Search.php
@@ -93,6 +101,7 @@ msgid "Delete"
 msgstr "Verwijderen"
 
 #: CRM/Expenses/Form/Expense.php CRM/Expenses/Form/ExpenseLine.php
+#: CRM/Expenses/Form/ExpenseTypeIs.php
 msgid "Cancel"
 msgstr "Afbreken"
 
@@ -126,6 +135,19 @@ msgstr "Bestedingsregel"
 msgid "Updated expense line"
 msgstr "Bestedingsregel gewijzigd"
 
+#: CRM/Expenses/Form/ExpenseTypeIs.php CRM/Expenses/Form/Search.php
+msgid "- select -"
+msgstr "- selecteer -"
+
+#: CRM/Expenses/Form/ExpenseTypeIs.php CRM/Expenses/Upgrader.php
+#: Civi/ActionProvider/Action/Expenses/CreateUpdateExpense.php
+msgid "Expense Type"
+msgstr "Bestedingstype"
+
+#: CRM/Expenses/Form/ExpenseTypeIs.php
+msgid "Save"
+msgstr ""
+
 #: CRM/Expenses/Form/Search.php templates/CRM/Expenses/Form/Search.tpl
 msgid "Search Expenses"
 msgstr "Bestedingen zoeken"
@@ -137,10 +159,6 @@ msgstr "%%StatusMessage%%"
 #: CRM/Expenses/Form/Search.php
 msgid "Operator:"
 msgstr "Operator:"
-
-#: CRM/Expenses/Form/Search.php
-msgid "- select -"
-msgstr "- selecteer -"
 
 #: CRM/Expenses/Form/Search.php CRM/Expenses/Utils/Search.php
 msgid "Assignee"
@@ -219,11 +237,6 @@ msgstr "Afgekeurd"
 #: CRM/Expenses/Upgrader.php
 msgid "Draft"
 msgstr "Concept"
-
-#: CRM/Expenses/Upgrader.php
-#: Civi/ActionProvider/Action/Expenses/CreateUpdateExpense.php
-msgid "Expense Type"
-msgstr "Bestedingstype"
 
 #: CRM/Expenses/Upgrader.php
 msgid "General"
@@ -468,10 +481,6 @@ msgstr "Bestedingsregel verwijderen"
 #: templates/CRM/Expenses/Form/ExpenseLine.tpl
 msgid "Are you sure to delete expense line of %1?"
 msgstr "Weet u zeker dat u bestedingsregel van %1 wilt verwijderen?"
-
-#: templates/CRM/Expenses/Form/Search.tpl
-msgid "Add expense"
-msgstr "Besteding aanmaken"
 
 #: templates/CRM/Expenses/Page/CaseExpenses.tpl
 #: templates/CRM/Expenses/Page/ContactExpenses.tpl
