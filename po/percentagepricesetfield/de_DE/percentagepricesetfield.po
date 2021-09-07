@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: percentagepricesetfield\n"
-"POT-Creation-Date: 2020-03-04 05:01+0000\n"
+"POT-Creation-Date: 2021-04-21 05:01+0000\n"
 "Last-Translator: Torben Bertram, 2021\n"
 "Language-Team: German (https://www.transifex.com/civicrm/teams/1905/de/)\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgstr "Abschicken"
 
 #: CRM/Percentagepricesetfield/Form/Settings.php
 msgid "Settings saved."
-msgstr ""
+msgstr "Einstellungen gespeichert."
 
 #: CRM/Percentagepricesetfield/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
@@ -35,10 +35,13 @@ msgid ""
 " these fields has been permanently lost, and the fields will now behave as "
 "normal checkbox fields."
 msgstr ""
+"Es gab bereits prozentuelle Preisfelder; alle prozent-verbundenen Daten für "
+"diese Felder wurden endgültig gelöscht und die Felder verhalten sich jetzt "
+"wie normale Checkbox-Felder."
 
 #: CRM/Percentagepricesetfield/Upgrader.php
 msgid "Abandonded fields remaining"
-msgstr ""
+msgstr "Verlassene Felder sind noch übrig"
 
 #: CRM/Percentagepricesetfield/Upgrader.php
 msgid ""
@@ -46,42 +49,49 @@ msgid ""
 "these fields will be permanently lost if the Percentage Price Set Field "
 "extension is uninstalled."
 msgstr ""
+"Es gibt prozentuelle Preisfelder; alle prozent-verbundenen Daten für diese "
+"Felder werden endgültig gelöscht, wenn die Erweiterung Percentage Price Set "
+"Field deinstalliert wird."
 
 #: js/admin_price_field.js
 msgid ""
 "\"Required\" setting not available while \"Disable for payment methods\" "
 "setting is enabled."
 msgstr ""
+"\"Pflichtfeld\"-Einstellung ist nicht möglich, wenn \"Deaktiviere für "
+"Zahlungsmethode\"-Einstellung aktiv ist."
 
 #: percentagepricesetfield.php
 msgid ""
 "This price set already has a percentage field. Please disable or delete that"
 " field before creating a new one."
 msgstr ""
+"Das Preisschema hat bereits ein Prozentfeld. Bitte dieses Feld deaktivieren "
+"oder löschen bevor ein Neues angelegt wird."
 
 #: percentagepricesetfield.php
 msgid "Financial Type is required."
-msgstr ""
+msgstr "Zuwendungsart ist Pflichtfeld."
 
 #: percentagepricesetfield.php
 msgid "Field calculates \"Automatic Additional Percentage\""
-msgstr ""
+msgstr "Feld kalkuliert \"Automatisch Prozentzuschlag\""
 
 #: percentagepricesetfield.php
 msgid "Short label for line item"
-msgstr ""
+msgstr "Kurzbezeichnung für die Zeile"
 
 #: percentagepricesetfield.php
 msgid "Percentage"
-msgstr ""
+msgstr "Prozent"
 
 #: percentagepricesetfield.php
 msgid "Apply percentage to tax amounts"
-msgstr ""
+msgstr "Berücksichtige Prozentzuschlag bei Steuerbeträgen"
 
 #: percentagepricesetfield.php
 msgid "Hide checkbox and force to \"yes\""
-msgstr ""
+msgstr "Check-Box ausblenden und \"ja\" erzwingen"
 
 #: percentagepricesetfield.php
 msgid ""
@@ -89,34 +99,41 @@ msgid ""
 " check box, in front-end forms. (Additional percentage is always an option "
 "in back-office forms.)"
 msgstr ""
+"Diese Option erzwingt die Anwendung von Prozentzuschlägen und blendet die "
+"Check-Box in Frontend-Formularen aus. (Zusätzliche Zuschläge sind in "
+"Backend-Formularen immer möglich.)"
 
 #: percentagepricesetfield.php
 msgid "Checked by default"
-msgstr ""
+msgstr "Standardmäßig gewählt"
 
 #: percentagepricesetfield.php
 msgid ""
 "Cause the check-box to be checked by default? This option is automatically "
 "selected if the above \"Hide and force\" option is selected."
 msgstr ""
+"Soll die Check-Box standardmäßig angehakt sein? Diese Option ist automatisch"
+" gewählt, wenn die \"Ausblenden und erzwingen\"-Option oben gewählt ist."
 
 #: percentagepricesetfield.php
 msgid ""
 "<strong>This setting overridden by the site-wide configuration at <a "
 "href=\"%1\">%2</a>.</strong> "
 msgstr ""
+"<strong>Die Einstellung wird überschrieben von der systemweiten "
+"Konfiguration in <a href=\"%1\">%2</a>.</strong> "
 
 #: percentagepricesetfield.php
 msgid "Percentage Price Set Field: Settings"
-msgstr ""
+msgstr "Percentage Price Set Field: Einstellungen"
 
 #: percentagepricesetfield.php
 msgid "Pay later (check)"
-msgstr ""
+msgstr "Später zahlen (Scheck)"
 
 #: percentagepricesetfield.php
 msgid "Disable for payment methods"
-msgstr ""
+msgstr "Deaktivieren für Zahlungsmethoden"
 
 #: percentagepricesetfield.php
 msgid ""
@@ -124,23 +141,30 @@ msgid ""
 "submitted with the selected payment method(s). (Additional percentage is "
 "always an option in back-office forms.)"
 msgstr ""
+"Zusätzliche Prozentzuschlagsoption wird auf \"nein\" gesetzt im Frontend-"
+"Formularen mit den gewählten Zahlungsmethoden. (Prozentzuschläge sind als "
+"Option im Backend-Bereich immer vorhanden.)"
 
 #: percentagepricesetfield.php
 msgid ""
 "Percentage Price Set Field: fatal error (on line %1) while rectifying price "
 "options: %2"
 msgstr ""
+"Percentage Price Set Field: schwerer Fehler / fatal error (on line %1) while"
+" rectifying price options: %2"
 
 #: percentagepricesetfield.php
 msgid "Percentage Price Set Field"
-msgstr ""
+msgstr "Percentage Price Set Field"
 
 #: settings/Percentagepricesetfield.setting.php
 msgid ""
 "This option will force the additional percentage to be applied, and hide the"
 " check box, for all percentage price set fields, site-wide."
 msgstr ""
+"Diese Option erzwingt die Anwendung von Prozentzuschlägen und blendet die "
+"Check-Box für alle Preisschematas systemweit aus."
 
 #: settings/Percentagepricesetfield.setting.php
 msgid "Hide and force all"
-msgstr ""
+msgstr "Ausblenden und für alle erzwingen"
