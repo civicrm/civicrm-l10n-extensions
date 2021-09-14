@@ -7,9 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2021-05-04 05:01+0000\n"
-"PO-Revision-Date: 2021-06-10 10:30+0000\n"
-"Last-Translator: Betty Dolfing <betty.dolfing@civicoop.org>\n"
+"POT-Creation-Date: 2021-09-14 05:02+0000\n"
+"PO-Revision-Date: 2021-09-14 05:02+0000\n"
+"Last-Translator: CiviCRM Maintenance\n"
 "Language-Team: Dutch (http://www.transifex.com/civicrm/civicrm_extensions/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -52,26 +52,18 @@ msgid "The most recent inactive related contact"
 msgstr "Het laatst inactieve gerelateerde contact"
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "-- please select --"
 msgstr "-- selecteer --"
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "From Name"
 msgstr "Naam afzender"
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "From Email"
 msgstr "VAN e-mailadres"
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "Email is not valid."
 msgstr "E-mailadres is niet geldig."
 
@@ -84,55 +76,42 @@ msgid "Alternative Email Address"
 msgstr "Alternatief e-mailadres"
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "Cc to"
 msgstr "Cc naar"
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "Bcc to"
 msgstr "Bcc naar"
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "Message Template"
 msgstr "Berichtensjabloon"
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid " - select - "
 msgstr "- selecteer -"
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "Disable Smarty"
 msgstr "Smarty uitschakelen"
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "Location Type (if you do not want primary email address)"
 msgstr "Locatietype (indien u niet het primaire e-mailadres wilt gebruiken)"
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
 msgid "File Email on Case"
 msgstr "E-mail aan dossier toevoegen"
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
+msgid "From Email Address"
+msgstr ""
+
+#: CRM/Emailapi/Form/CivirulesAction/Send.php
 msgid "Save"
 msgstr "Opslaan"
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "Cancel"
 msgstr "Afbreken"
 
@@ -216,6 +195,7 @@ msgstr "E-mail verzenden gebruikt Email-API"
 msgid ""
 "<p>This is the form where you can set what is going to happen with the email.</p>\n"
 "    <p>The first few fields are relatively straightforward: the <strong>From Name</strong> is the name the email will be sent from and the <strong>From Email</strong> is the email address the email will be sent from. Leave these blank to use the configured defaults.</p>\n"
+"    <p><strong>From Email Addressess</strong> is where you select which From Email Address will be used to send an email. You can create and edit them in <strong>Administer>Communications>FROM Email Addresses</strong></p>\n"
 "    <p>The <strong>Message Template</strong> is where you select which CiviCRM message template will be used to compose the mail. You can create and edit them in <strong>Administer>Communications>Message Templates</strong></p>\n"
 "    <p>The next section allows you to manipulate where the email will be sent to.<br/>\n"
 "    By <strong>default</strong> the email will be sent to the <strong>primary email address of the contact</strong> in question.<br/>\n"
@@ -228,7 +208,7 @@ msgid ""
 "      <p>Finally you can specify an email address for the <strong>CC to</strong> (a copy of the email will be sent to this email address and the email address will be visible to the recipient of the email too) or the <strong>BCC to</strong> (a copy of the email will be sent to this email address and the email address will NOT be visible to the recipient of the email too).</p>\n"
 "      <p>The sending of the email will also lead to an activity (type <em>Email</em>) being recorded for the contact in question, whatever email address will be used.</p>\n"
 "    "
-msgstr "<p>Op dit scherm kunt u de verzend-opties van de e-mail invullen.</p>\n    <p>De eerste velden zijn duidelijk, de <strong>Naam afzender</strong>is de naam van de afzender van de e-mail en het <strong>Van e-mailadres</strong> is het e-mailadres dat de e-mail verzend. Laat deze velden leeg om de defaultwaarde te gebruiken.</p>\n    <p>Het <strong>Berichtensjabloon</strong> dat u selecteert is het sjabloon in CiviCRM waarmee de e-mail wordt opgebouwd. U kunt deze aanmaken en wijzigen onder <strong>Beheer > Communicatie > Berichtsjabloon</strong></p>\n    <p>In de volgende sectie kunt u aangeven naar wie de e-mail wordt verzonden.<br/>\n    <strong>Standaard</strong> wordt de e-mail verzonden naar het <strong>primaire e-mailadres van het betreffende contact</strong>.<br/>\n    U kunt dit op 2 manieren aanpassen:\n    <ol>\n      <li>U kunt een e-mailadres selecteren op <strong>locatietype</strong>, Bijvoorbeeld: <em>Werk</em>. De e-mail wordt dan verzonden naar het nieuwste e-mailadres van dat locatietype (als er meer dan een is bij dat contact). Als er geen e-mailadres van dat geselecteerde locatietype is, wordt de e-mail verzonden naar het primaire e-mailadres</li>\n       <li>Zonder locatietype kunt u <strong>de keuze </strong> voor een <strong>alternatief e-mailadres</strong> aanvinken. U kunt dan een alternatief e-mailadres invullen. </li>\n    </ol>\n    </p>\n      <p>Tenslotte kunt u aangeven of de e-mail ook als <strong>CC </strong> (een kopie waarbij de ontvanger getoond wordt aan de andere ontvangers) en/of als <strong>BCC</strong> (een kopie waarbij deze ontvanger niet getoond wordt aan de andere ontvangers). Dit door de e-mailadressen in te vullen.</p>\n      <p>Bij het verzenden van een e-mail wordt er ook een activiteit (met het type <em>E-mail</em>) bij dat contact vastgelegd met welk e-mailadres wordt gebruikt.</p>\n    "
+msgstr ""
 
 #: templates/CRM/Emailapi/Form/CivirulesAction/Send.tpl
 #: templates/CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.tpl
