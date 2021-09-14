@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2021-04-20 05:01+0000\n"
-"PO-Revision-Date: 2021-04-20 05:01+0000\n"
+"POT-Creation-Date: 2021-09-14 05:02+0000\n"
+"PO-Revision-Date: 2021-09-14 05:02+0000\n"
 "Last-Translator: CiviCRM Maintenance\n"
 "Language-Team: Armenian (http://www.transifex.com/civicrm/civicrm_extensions/language/hy/)\n"
 "MIME-Version: 1.0\n"
@@ -51,26 +51,18 @@ msgid "The most recent inactive related contact"
 msgstr ""
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "-- please select --"
 msgstr ""
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "From Name"
 msgstr ""
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "From Email"
 msgstr ""
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "Email is not valid."
 msgstr ""
 
@@ -83,55 +75,42 @@ msgid "Alternative Email Address"
 msgstr ""
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "Cc to"
 msgstr ""
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "Bcc to"
 msgstr ""
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "Message Template"
 msgstr ""
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid " - select - "
 msgstr ""
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "Disable Smarty"
 msgstr ""
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "Location Type (if you do not want primary email address)"
 msgstr ""
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
 msgid "File Email on Case"
 msgstr ""
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
+msgid "From Email Address"
+msgstr ""
+
+#: CRM/Emailapi/Form/CivirulesAction/Send.php
 msgid "Save"
 msgstr ""
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
-#: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "Cancel"
 msgstr ""
 
@@ -215,6 +194,7 @@ msgstr ""
 msgid ""
 "<p>This is the form where you can set what is going to happen with the email.</p>\n"
 "    <p>The first few fields are relatively straightforward: the <strong>From Name</strong> is the name the email will be sent from and the <strong>From Email</strong> is the email address the email will be sent from. Leave these blank to use the configured defaults.</p>\n"
+"    <p><strong>From Email Addressess</strong> is where you select which From Email Address will be used to send an email. You can create and edit them in <strong>Administer>Communications>FROM Email Addresses</strong></p>\n"
 "    <p>The <strong>Message Template</strong> is where you select which CiviCRM message template will be used to compose the mail. You can create and edit them in <strong>Administer>Communications>Message Templates</strong></p>\n"
 "    <p>The next section allows you to manipulate where the email will be sent to.<br/>\n"
 "    By <strong>default</strong> the email will be sent to the <strong>primary email address of the contact</strong> in question.<br/>\n"
