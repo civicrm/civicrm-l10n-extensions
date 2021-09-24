@@ -2,10 +2,14 @@
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# HanV <han.velthuis@home.nl>, 2021
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: geocoder\n"
 "POT-Creation-Date: 2021-09-22 05:02+0000\n"
+"Last-Translator: HanV <han.velthuis@home.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,117 +19,123 @@ msgstr ""
 
 #: CRM/Geocoder/DAO/Geocoder.php
 msgid "Geocoder ID"
-msgstr ""
+msgstr "Geocoder-id"
 
 #: CRM/Geocoder/DAO/Geocoder.php
 msgid "Name"
-msgstr ""
+msgstr "Naam"
 
 #: CRM/Geocoder/DAO/Geocoder.php
 msgid "Title"
-msgstr ""
+msgstr "Titel"
 
 #: CRM/Geocoder/DAO/Geocoder.php
 msgid "Class"
-msgstr ""
+msgstr "Class"
 
 #: CRM/Geocoder/DAO/Geocoder.php
 msgid "Enabled"
-msgstr ""
+msgstr "Ingeschakeld"
 
 #: CRM/Geocoder/DAO/Geocoder.php
 msgid "Weight"
-msgstr ""
+msgstr "Gewicht"
 
 #: CRM/Geocoder/DAO/Geocoder.php
 msgid "Api Key"
-msgstr ""
+msgstr "API-key"
 
 #: CRM/Geocoder/DAO/Geocoder.php
 msgid "Url"
-msgstr ""
+msgstr "URL"
 
 #: CRM/Geocoder/DAO/Geocoder.php
 msgid "Required Fields"
-msgstr ""
+msgstr "Verplicht velden"
 
 #: CRM/Geocoder/DAO/Geocoder.php
 msgid "Retained Response Fields"
-msgstr ""
+msgstr "Bewaarde antwoordvelden"
 
 #: CRM/Geocoder/DAO/Geocoder.php
 msgid "Datafill Response Fields"
-msgstr ""
+msgstr "Antwoordvelden vullen"
 
 #: CRM/Geocoder/DAO/Geocoder.php
 msgid "Threshold standdown"
-msgstr ""
+msgstr "Drempel waarde"
 
 #: CRM/Geocoder/DAO/Geocoder.php
 msgid "Threshold Last Hit"
-msgstr ""
+msgstr "Drempel laatste gevonden"
 
 #: CRM/Geocoder/DAO/Geocoder.php
 msgid "Valid countries"
-msgstr ""
+msgstr "Geldige landen"
 
 #: CRM/Geocoder/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
-msgstr ""
+msgstr "Upgrade %1 naar revisie %2"
 
 #: CRM/Utils/Geocode/Geocoder.php
 msgid "Failed to geocode address, no co-ordinates saved"
-msgstr ""
+msgstr "Bepalen geocode van adres mislukt, geen coördinaten opgeslagen"
 
 #: CRM/Utils/Geocode/Geocoder.php
 msgid ""
 "Geocoder quota exceeded. No further geocoding attempts will be made for %1 "
 "seconds"
 msgstr ""
+"Toegestaan aantal keren gebruik geocoder bereikt. Het gebruik is nu voor %1 "
+"seconden niet mogelijk"
 
 #: CRM/Utils/Geocode/Geocoder.php
 msgid "Unknown geocoding error on :"
-msgstr ""
+msgstr "Onbekende fout bij geocoding voor :"
 
 #: CRM/Utils/Geocode/Geocoder.php
 msgid "Street Address"
-msgstr ""
+msgstr "Straatadres"
 
 #: CRM/Utils/Geocode/Geocoder.php
 msgid "City"
-msgstr ""
+msgstr "Plaats"
 
 #: CRM/Utils/Geocode/Geocoder.php
 msgid "Postal code"
-msgstr ""
+msgstr "Postcode"
 
 #: CRM/Utils/Geocode/Geocoder.php
 msgid "County"
-msgstr ""
+msgstr "Streek"
 
 #: CRM/Utils/Geocode/Geocoder.php
 msgid "State / Province"
-msgstr ""
+msgstr "Staat / Provincie"
 
 #: CRM/Utils/Geocode/Geocoder.php
 msgid "Country"
-msgstr ""
+msgstr "Land"
 
 #: ProviderMetadata/4_Addok.mgd.geo.php
 msgid "France only"
-msgstr ""
+msgstr "Alleen Frankrijk"
 
 #: ProviderMetadata/4_GoogleMaps.mgd.geo.php
 msgid ""
 "Adhering to Terms of service is your responsibility - "
 "https://support.google.com/code/answer/55180?hl=en"
 msgstr ""
+"U dient te verwijzen naar de voorwaarden van deze service: "
+"https://support.google.com/code/answer/55180?hl=en"
 
 #: ProviderMetadata/4_Mapquest.mgd.geo.php
 msgid ""
 "api key required - 15000 for free per month - sign up "
 "https://developer.mapquest.com/plan_purchase/steps/business_edition/business_edition_free/register"
 msgstr ""
+"api-key verplicht,  gratis 15.000 per maand, aanmelden: "
+"https://developer.mapquest.com/plan_purchase/steps/business_edition/business_edition_free/register"
 
 #: ProviderMetadata/5_Here.mgd.geo.php
 msgid ""
@@ -134,6 +144,10 @@ msgid ""
 "      {\"app_id\" : \"xyz\", \"app_code\" : \"klm\"}\n"
 "    "
 msgstr ""
+"app_id en app_code verplicht in de api_key, bijv uw key\n"
+"    dit is iets als:\n"
+"      {\"app_id\" : \"xyz\", \"app_code\" : \"klm\"}\n"
+"    "
 
 #: ProviderMetadata/6_GeoNameDBDownload.mgd.geo.php
 msgid ""
@@ -142,35 +156,39 @@ msgid ""
 "DB. Default table name is civicrm_geonames_lookup. A dataset for NZ ships "
 "with the extension as a sample. You need to load it though"
 msgstr ""
+"Om dit te gebruiken is er een extra configuratie nodig, haal een data-set "
+"van  http://download.geonames.org/export/zip/ op en importeer die in uw "
+"CiviCRM-database. De standaard  tabelnaam is civicrm_geonames_lookup. In de "
+"extensie is er een voorbeeld voor NZ bijgevoegd. U moet deze wel importeren"
 
 #: ang/geocoder/editCtrl.html
 msgid "Gecoders"
-msgstr ""
+msgstr "Gecoders"
 
 #: ang/geocoder/editCtrl.html
 msgid ""
 "To view more debugging information, edit the URL and include "
 "\"?angularDebug=1\"."
-msgstr ""
+msgstr "Om te debuggen: Voeg aan de URL toe \"?angularDebug=1\"."
 
 #: ang/geocoder/editCtrl.html
 msgid "Save"
-msgstr ""
+msgstr "Opslaan"
 
 #: ang/geocoder/editCtrl.js
 msgid "geocoder"
-msgstr ""
+msgstr "geocoder"
 
 #: ang/geocoder/editCtrl.js
 msgid "Saving..."
-msgstr ""
+msgstr "Opslaan..."
 
 #: ang/geocoder/editCtrl.js
 msgid "Saved"
-msgstr ""
+msgstr "Opgeslagen"
 
 #: templates/CRM/geocoder/editCtrl.hlp
 msgid ""
 "The contact name  should be divided in two parts, the first name and last "
 "name."
-msgstr ""
+msgstr "De contactnaam moet gesplitst worden in de voornaam en de achternaam."
