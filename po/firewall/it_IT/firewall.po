@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: firewall\n"
-"POT-Creation-Date: 2021-05-18 05:01+0000\n"
+"POT-Creation-Date: 2021-09-26 05:02+0000\n"
 "Last-Translator: Francesco Garganese <francesco.garganese@aeromnia.aero>, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/civicrm/teams/1905/it/)\n"
 "MIME-Version: 1.0\n"
@@ -65,6 +65,10 @@ msgstr "Origine di questa richiesta di accesso"
 msgid "Upgrade %1 to revision %2"
 msgstr "Aggiorna %1 alla revisione %2"
 
+#: firewall.php
+msgid "Firewall Settings"
+msgstr ""
+
 #: settings/firewall.setting.php
 msgid "Firewall CSRF timeout (seconds)"
 msgstr ""
@@ -73,4 +77,40 @@ msgstr ""
 msgid ""
 "Time after which generated CSRF token expires (default 12 hours: 43200 "
 "seconds)"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid "Is server behind reverse proxy?"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid ""
+"If yes, try to retrieve the IP address of the actual client instead of using"
+" REMOTE_ADDR header"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid "Firewall Reverse Proxy Header"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid "Reverse Proxy Header (default HTTP_X_FORWARDED_FOR)"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid "List of reverse proxy IP addresses"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid ""
+"List of reverse proxy IP addresses that may be seen by your server. Used to "
+"help identify client IP address"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid "List of IP addresses to whitelist"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid "List of IP addresses that will never be blocked"
 msgstr ""
