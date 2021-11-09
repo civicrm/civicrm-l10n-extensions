@@ -2,10 +2,14 @@
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# HanV <han.velthuis@home.nl>, 2021
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: civiquickbooks\n"
 "POT-Creation-Date: 2021-10-25 05:02+0000\n"
+"Last-Translator: HanV <han.velthuis@home.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,64 +22,76 @@ msgid ""
 "Matches QBO Contact %1, which is already synced to %2 (%3). Deduplication is"
 " required."
 msgstr ""
+"Komt overeen met QBO-contact %1, die al is gesynchroniseerd met %2 (%3). "
+"Deduplicatie is verplicht."
 
 #: CRM/Civiquickbooks/Contact.php
 msgid "Failed to store "
-msgstr ""
+msgstr "Opslaan is mislukt"
 
 #: CRM/Civiquickbooks/Contact.php
 msgid " with error "
-msgstr ""
+msgstr " met fout "
 
 #: CRM/Civiquickbooks/Contact.php
 msgid "Contact Pull failed"
-msgstr ""
+msgstr "Ophalen contract is mislukt"
 
 #: CRM/Civiquickbooks/Contact.php
 msgid "Failed to push Contact: %1 (AccountsContact: %2) with error: %3"
-msgstr ""
+msgstr "Opslaan contact is mislukt: %1 (AccountsContact: %2) met fout: %3"
 
 #: CRM/Civiquickbooks/Contact.php
 msgid ""
 "Not all contacts were saved:\n"
 "  "
 msgstr ""
+"Niet alle contacten zijn opgeslagen:\n"
+"  "
 
 #: CRM/Civiquickbooks/Form/Settings.php
 msgid "Submit"
-msgstr ""
+msgstr "Verzenden"
 
 #: CRM/Civiquickbooks/Invoice.php
 msgid "AccountInvoice object for %1 is empty"
-msgstr ""
+msgstr "AccountInvoice object voor %1 is leeg"
 
 #: CRM/Civiquickbooks/Invoice.php
 msgid ""
 "Failed to push Contribution: %1 (AccountInvoice: %3) Invoice: %4 with error:"
 " %2."
 msgstr ""
+"Opslaan bijdrage is mislukt: %1 (AccountFactuur: %3) Factuur: %4 met fout: "
+"%2."
 
 #: CRM/Civiquickbooks/Invoice.php
 msgid "Not all records were saved: "
-msgstr ""
+msgstr "Niet alle contacten zijn opgeslagen: "
 
 #: CRM/Civiquickbooks/Invoice.php
 msgid ""
 "Failed to pull Contribution: %1 (AccountInvoice: %4) for QBOInvoice: %2 with"
 " error: \"%3\".  Invoice pull failed."
 msgstr ""
+"Ophalen bijdrage is mislukt: %1 (AccountInvoice: %4) voor QBOInvoice: %2 met"
+" fout: \"%3\".  Factuur ophalen is mislukt."
 
 #: CRM/Civiquickbooks/Invoice.php
 msgid ""
 "No matching QBOItem for FinancialType %2 \"Income Account is\": Accounting "
 "Code: %1. Error: %3"
 msgstr ""
+"Geen bijbehorend QBOItem voor financieel-type %2 \"inkomstenrekening is\": "
+"Rekeningcode: %1. Fout: %3"
 
 #: CRM/Civiquickbooks/Invoice.php
 msgid ""
 "No matching QBOTaxCode for FinancialType %2 \"Sales Tax Account is\": "
 "Accounting Code: %1. Error: %3"
 msgstr ""
+"Geen bijbehorend QBOTaxCode voor financieel-type %2 "
+"\"Verkoopbelastingrekening is\": Rekeningcode: %1. Fout: %3"
 
 #: CRM/Civiquickbooks/Invoice.php
 msgid "Error getting Invoice generation setting %1"
@@ -91,15 +107,15 @@ msgstr ""
 
 #: civiquickbooks.php settings/civiquickbooks.setting.php
 msgid "QuickBooks"
-msgstr ""
+msgstr "QuickBooks"
 
 #: civiquickbooks.php
 msgid "Quickbooks Settings"
-msgstr ""
+msgstr "Quickbooks instellingen"
 
 #: civiquickbooks.php
 msgid "Synchronize contacts"
-msgstr ""
+msgstr "Contacten synchroniseren"
 
 #: civiquickbooks.php
 msgid ""
@@ -110,31 +126,31 @@ msgstr ""
 
 #: civiquickbooks.php
 msgid "QuickBooks Token Expired"
-msgstr ""
+msgstr "QuickBooks token vervallen"
 
 #: civiquickbooks.php
 msgid "Civi QuickBooks"
-msgstr ""
+msgstr "Civi QuickBooks"
 
 #: civiquickbooks.php
 msgid "Contact Sync Status"
-msgstr ""
+msgstr "Contact sync-status"
 
 #: civiquickbooks.php
 msgid "Contact Sync Errors"
-msgstr ""
+msgstr "Contact sync-fouten"
 
 #: civiquickbooks.php
 msgid "Invoice Sync Errors"
-msgstr ""
+msgstr "Factuur sync-fouten"
 
 #: settings/civiquickbooks.setting.php
 msgid "QuickBooks Online Settings"
-msgstr ""
+msgstr "Quickbooks online instellingen"
 
 #: settings/civiquickbooks.setting.php
 msgid "Client ID"
-msgstr ""
+msgstr "Client-id"
 
 #: settings/civiquickbooks.setting.php
 msgid "Initial client id retrieved from quickbooks website"
@@ -142,7 +158,7 @@ msgstr ""
 
 #: settings/civiquickbooks.setting.php
 msgid "Client Secret"
-msgstr ""
+msgstr "Client Secret"
 
 #: settings/civiquickbooks.setting.php
 msgid "Initial client secret retrieved from quickbooks website"
@@ -190,7 +206,7 @@ msgstr ""
 
 #: settings/civiquickbooks.setting.php
 msgid "Send Email for new Invoices"
-msgstr ""
+msgstr "Voor nieuwe facturen e-mails verzenden"
 
 #: settings/civiquickbooks.setting.php
 msgid ""
@@ -200,19 +216,19 @@ msgstr ""
 
 #: settings/civiquickbooks.setting.php
 msgid "Never"
-msgstr ""
+msgstr "Nooit"
 
 #: settings/civiquickbooks.setting.php
 msgid "Unpaid Invoices Only"
-msgstr ""
+msgstr "Alleen onbetaalde facturen"
 
 #: settings/civiquickbooks.setting.php
 msgid "Always"
-msgstr ""
+msgstr "Altijd"
 
 #: settings/civiquickbooks.setting.php
 msgid "QBO Log Directory"
-msgstr ""
+msgstr "QBO Log-map"
 
 #: settings/civiquickbooks.setting.php
 msgid "Absolute path to writable file system directory for QBO logs."
@@ -220,7 +236,7 @@ msgstr ""
 
 #: settings/civiquickbooks.setting.php
 msgid "Activate QBO logging?"
-msgstr ""
+msgstr "QBO logging inschakelen?"
 
 #: settings/civiquickbooks.setting.php
 msgid ""
@@ -253,7 +269,7 @@ msgstr ""
 
 #: settings/civiquickbooks.setting.php
 msgid "CiviCRM"
-msgstr ""
+msgstr "CiviCRM"
 
 #: settings/civiquickbooks.setting.php
 msgid "Allow ACH Payment?"
@@ -265,15 +281,15 @@ msgstr ""
 
 #: settings/civiquickbooks.setting.php
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #: settings/civiquickbooks.setting.php
 msgid "No"
-msgstr ""
+msgstr "Nee"
 
 #: settings/civiquickbooks.setting.php
 msgid "Allow Online Credit Card Payment?"
-msgstr ""
+msgstr "Online betaling met creditcard toestaan?"
 
 #: settings/civiquickbooks.setting.php
 msgid "Specifies if online credit card payments are allowed for invoices"
