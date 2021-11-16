@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mjwshared\n"
-"POT-Creation-Date: 2021-05-18 05:01+0000\n"
+"POT-Creation-Date: 2021-11-16 05:02+0000\n"
 "Language-Team: Indonesian (https://www.transifex.com/civicrm/teams/1905/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,6 +19,28 @@ msgstr ""
 
 #: CRM/Core/Payment/MJWTrait.php
 msgid "Unable to complete payment! Missing %1."
+msgstr ""
+
+#: CRM/Mjwshared/Check.php
+msgid "You are using a development version of %1 extension."
+msgstr ""
+
+#: CRM/Mjwshared/Check.php
+msgid "%1: Development version"
+msgstr ""
+
+#: CRM/Mjwshared/Check.php
+msgid ""
+"The %1 extension requires the %2 extension version %3 or greater but your "
+"system has version %4."
+msgstr ""
+
+#: CRM/Mjwshared/Check.php
+msgid "%1: Missing Requirements"
+msgstr ""
+
+#: CRM/Mjwshared/Check.php
+msgid "Upgrade now"
 msgstr ""
 
 #: CRM/Mjwshared/Check.php
@@ -55,6 +77,28 @@ msgstr ""
 
 #: CRM/Mjwshared/Check.php
 msgid "Recommended Extension: contributiontransactlegacy"
+msgstr ""
+
+#: CRM/Mjwshared/Check.php
+msgid ""
+"You need to disable \"Separate Membership Payment\" or disable the payment processors: %2 on contribution page %1 because it is not supported and will not work.\n"
+"                See <a href=\"https://lab.civicrm.org/extensions/stripe/-/issues/134\">Stripe#134</a>."
+msgstr ""
+
+#: CRM/Mjwshared/Check.php
+msgid "Payments: Invalid configuration"
+msgstr ""
+
+#: CRM/Mjwshared/Check.php
+msgid ""
+"It is recommended that you install the <strong><a href=\"https://civicrm.org/extensions/sweetalert\">sweetalert</a></strong> extension.\n"
+"        This allows extensions such as Stripe to show useful messages to the user when processing payment.\n"
+"        If this is not installed it will fallback to the browser \"alert\" message but you will\n"
+"        not see some messages (such as <em>we are pre-authorizing your card</em> and <em>please wait</em>) and the feedback to the user will not be as helpful."
+msgstr ""
+
+#: CRM/Mjwshared/Check.php
+msgid "Recommended Extension: sweetalert"
 msgstr ""
 
 #: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
@@ -171,6 +215,18 @@ msgstr ""
 
 #: api/v3/Mjwpayment.php
 msgid "The ID of the record in civicrm_financial_trxn"
+msgstr ""
+
+#: js/crm.payment.js
+msgid "Please complete the reCaptcha"
+msgstr ""
+
+#: js/crm.payment.js
+msgid "Please apply the Discount Code or clear the Discount Code text-field"
+msgstr ""
+
+#: js/crm.payment.js
+msgid "Please check and fill in all required fields!"
 msgstr ""
 
 #: settings/mjwshared.setting.php
