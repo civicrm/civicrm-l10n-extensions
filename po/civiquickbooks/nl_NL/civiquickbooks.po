@@ -95,15 +95,15 @@ msgstr ""
 
 #: CRM/Civiquickbooks/Invoice.php
 msgid "Error getting Invoice generation setting %1"
-msgstr ""
+msgstr "Fout bij het ophalen van de factuurgeneratie instelling %1"
 
 #: CRM/Civiquickbooks/Invoice.php
 msgid "Error creating Invoice for %1: %2"
-msgstr ""
+msgstr "Fout bij het aanmaken van de factuur voor %1: %2"
 
 #: CRM/Civiquickbooks/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
-msgstr ""
+msgstr "Upgrade %1 naar revisie %2"
 
 #: civiquickbooks.php settings/civiquickbooks.setting.php
 msgid "QuickBooks"
@@ -123,6 +123,9 @@ msgid ""
 "QuickBooks application</a> to continue syncing contacts and contributions "
 "updates to QuickBooks."
 msgstr ""
+"QuickBooks verversen  token is vervallen, <a href=\"%1\">Autoriseer "
+"QuickBooks opnieuw</a> om verder te gaan met het synchroniseren van "
+"contacten en bijdragen naar QuickBooks."
 
 #: civiquickbooks.php
 msgid "QuickBooks Token Expired"
@@ -154,7 +157,7 @@ msgstr "Client-id"
 
 #: settings/civiquickbooks.setting.php
 msgid "Initial client id retrieved from quickbooks website"
-msgstr ""
+msgstr "Initiële client-id opgehaald van website quickbooks"
 
 #: settings/civiquickbooks.setting.php
 msgid "Client Secret"
@@ -162,47 +165,47 @@ msgstr "Client Secret"
 
 #: settings/civiquickbooks.setting.php
 msgid "Initial client secret retrieved from quickbooks website"
-msgstr ""
+msgstr "Initiële client-secret opgehaald van website quickbooks"
 
 #: settings/civiquickbooks.setting.php
 msgid "Current Access Token"
-msgstr ""
+msgstr "Huidig toegang-token"
 
 #: settings/civiquickbooks.setting.php
 msgid "Access token retrieved after user authorization"
-msgstr ""
+msgstr "Toegang-token opgehaald na autorisatie van de gebruiker"
 
 #: settings/civiquickbooks.setting.php
 msgid "Current Refresh Token"
-msgstr ""
+msgstr "Huidig ververs-token"
 
 #: settings/civiquickbooks.setting.php
 msgid "Refresh token retrieved after user authorization"
-msgstr ""
+msgstr "Ververs-token opgehaald na autorisatie van de gebruiker"
 
 #: settings/civiquickbooks.setting.php
 msgid "Current State Token"
-msgstr ""
+msgstr "Huidig status-token"
 
 #: settings/civiquickbooks.setting.php
 msgid "State token generated for user authorization"
-msgstr ""
+msgstr "Status-token aangemaakt voor autorisatie van de gebruiker"
 
 #: settings/civiquickbooks.setting.php
 msgid "Access Token Expiry Date"
-msgstr ""
+msgstr "Toegang-token vervaldatum"
 
 #: settings/civiquickbooks.setting.php
 msgid "Expiry date of the current access token"
-msgstr ""
+msgstr "Vervaldatum van het huidige toegang-token"
 
 #: settings/civiquickbooks.setting.php
 msgid "Refresh Token Expiry Date"
-msgstr ""
+msgstr "Ververs-token vervaldatum"
 
 #: settings/civiquickbooks.setting.php
 msgid "Expiry date of the current refresh token"
-msgstr ""
+msgstr "Vervaldatum van het huidige ververs-token"
 
 #: settings/civiquickbooks.setting.php
 msgid "Send Email for new Invoices"
@@ -213,6 +216,8 @@ msgid ""
 "Whether an email should be sent to the Invoicee when a new Invoice is "
 "created in Quickbooks."
 msgstr ""
+"Indicatie of er een e-mail moet worden verzonden naar de gefactureerde "
+"indien er in Quickbooks een factuur wordt aangemaakt."
 
 #: settings/civiquickbooks.setting.php
 msgid "Never"
@@ -232,7 +237,7 @@ msgstr "QBO Log-map"
 
 #: settings/civiquickbooks.setting.php
 msgid "Absolute path to writable file system directory for QBO logs."
-msgstr ""
+msgstr "Absoluut pad naar beschrijfbare systeemmap voor QBO-logs."
 
 #: settings/civiquickbooks.setting.php
 msgid "Activate QBO logging?"
@@ -243,29 +248,34 @@ msgid ""
 "If selected, QBO will log potentially sensitive data to the QBO Log "
 "Directory."
 msgstr ""
+"Indien geselecteerd, QBO schrijft mogelijk gevoelige loggegevens in de map "
+"met de QBO-log."
 
 #: settings/civiquickbooks.setting.php
 msgid "realmId retrieved when got access token"
-msgstr ""
+msgstr "realmId opgehaald na ontvangst token voor toegang"
 
 #: settings/civiquickbooks.setting.php
 msgid "QuickBooks Company Country"
-msgstr ""
+msgstr "QuickBooks Bedrijf Land"
 
 #: settings/civiquickbooks.setting.php
 msgid ""
 "QuickBooks company country code for differentiating US and other countries "
 "during including tax in invoices."
 msgstr ""
+"QuickBooks bedrijfslandcode voor het onderscheid maken in belasting bij "
+"facturen."
 
 #: settings/civiquickbooks.setting.php
 msgid "Where should Invoice Numbers be generated?"
-msgstr ""
+msgstr "Waar moeten de factuurnummers worden aangemaakt?"
 
 #: settings/civiquickbooks.setting.php
 msgid ""
 "Whether the invoice numbers should be generated in CiviCRM or QuickBooks."
 msgstr ""
+"Of de factuurnummers worden aangemaakt door CiviCRM of door QuickBooks."
 
 #: settings/civiquickbooks.setting.php
 msgid "CiviCRM"
@@ -273,11 +283,11 @@ msgstr "CiviCRM"
 
 #: settings/civiquickbooks.setting.php
 msgid "Allow ACH Payment?"
-msgstr ""
+msgstr "ACH-betaling toestaan?"
 
 #: settings/civiquickbooks.setting.php
 msgid "Specifies if invoices can be paid with online bank transfers"
-msgstr ""
+msgstr "Geeft aan of facturen met online via een bank betaald kunnen worden"
 
 #: settings/civiquickbooks.setting.php
 msgid "Yes"
@@ -293,18 +303,20 @@ msgstr "Online betaling met creditcard toestaan?"
 
 #: settings/civiquickbooks.setting.php
 msgid "Specifies if online credit card payments are allowed for invoices"
-msgstr ""
+msgstr "Geeft aan of facturen online per creditcard betaald kunnen worden"
 
 #: settings/civiquickbooks.setting.php
 msgid "Customer Memo Override"
-msgstr ""
+msgstr "Klant-opmerking  overschrijven"
 
 #: settings/civiquickbooks.setting.php
 msgid "Custom Memo text (instead of the contribution source)"
-msgstr ""
+msgstr "Tekst klant-opmerking (i.p.v. bron bijdrage)"
 
 #: settings/civiquickbooks.setting.php
 msgid ""
 "if you enter text into this field it will be displayed on the invoice as the"
 " Memo instead of the source"
 msgstr ""
+"als u hier tekst invult dan kom die als opmerking op de factuur te staan "
+"i.p.v. de brontekst"
