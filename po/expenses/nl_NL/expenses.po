@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: expenses\n"
-"POT-Creation-Date: 2021-11-25 05:02+0000\n"
+"POT-Creation-Date: 2021-12-01 05:02+0000\n"
 "Last-Translator: HanV <han.velthuis@home.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -357,6 +357,10 @@ msgid "Expense total amount per case"
 msgstr "Besteding totaalbedrag per dossier"
 
 #: Civi/CompilerPass/Expenses.php
+msgid "Expense total amount for expense"
+msgstr ""
+
+#: Civi/CompilerPass/Expenses.php
 msgid "Expense: create or update expense"
 msgstr "Expence: besteding aanmaken of wijzigen"
 
@@ -410,6 +414,7 @@ msgid "Edit Expense"
 msgstr "Besteding wijzigen"
 
 #: Civi/DataProcessor/FieldOutputHandler/Expenses/EditExpenseLineFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/Expenses/TotalAmountForExpense.php
 msgid "Expense ID Field"
 msgstr "Besteding-id Veld"
 
@@ -424,26 +429,6 @@ msgstr " - elk type -"
 #: Civi/DataProcessor/FieldOutputHandler/Expenses/TotalAmountPerCase.php
 msgid " - Any status -"
 msgstr " - elke status -"
-
-#: Civi/DataProcessor/FieldOutputHandler/Expenses/TotalAmountPerCase.php
-msgid "Number of decimals"
-msgstr "Aantal decimalen"
-
-#: Civi/DataProcessor/FieldOutputHandler/Expenses/TotalAmountPerCase.php
-msgid "Decimal separator"
-msgstr "Decimaal scheiding"
-
-#: Civi/DataProcessor/FieldOutputHandler/Expenses/TotalAmountPerCase.php
-msgid "Thousand separator"
-msgstr "Duizendtallen scheiding"
-
-#: Civi/DataProcessor/FieldOutputHandler/Expenses/TotalAmountPerCase.php
-msgid "Prefix (e.g. &euro;)"
-msgstr "Voorvoegsel (bijv. &euro;)"
-
-#: Civi/DataProcessor/FieldOutputHandler/Expenses/TotalAmountPerCase.php
-msgid "Suffix (e.g. $)"
-msgstr "Achtervoegsel (bijv. €)"
 
 #: expenses.php
 msgid "CiviCRM Expenses: Manage expenses"
@@ -463,6 +448,7 @@ msgstr ""
 "Indien ingeschakeld wordt er een activiteit aangemaakt bij het toevoegen van"
 " een besteding."
 
+#: templates/CRM/Dataprocessor/Form/Field/Configuration/Expenses/TotalAmountForExpense.tpl
 #: templates/CRM/Dataprocessor/Form/Field/Configuration/Expenses/TotalAmountPerCase.tpl
 msgid "Leave empty for no formatting"
 msgstr "Leeg laten voor geen formattering"
