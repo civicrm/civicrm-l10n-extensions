@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: expenses\n"
-"POT-Creation-Date: 2021-11-25 05:02+0000\n"
+"POT-Creation-Date: 2021-12-01 05:02+0000\n"
 "Last-Translator: Francesco Garganese <francesco.garganese@aeromnia.aero>, 2021\n"
 "Language-Team: Italian (https://www.transifex.com/civicrm/teams/1905/it/)\n"
 "MIME-Version: 1.0\n"
@@ -356,6 +356,10 @@ msgid "Expense total amount per case"
 msgstr ""
 
 #: Civi/CompilerPass/Expenses.php
+msgid "Expense total amount for expense"
+msgstr ""
+
+#: Civi/CompilerPass/Expenses.php
 msgid "Expense: create or update expense"
 msgstr ""
 
@@ -409,6 +413,7 @@ msgid "Edit Expense"
 msgstr ""
 
 #: Civi/DataProcessor/FieldOutputHandler/Expenses/EditExpenseLineFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/Expenses/TotalAmountForExpense.php
 msgid "Expense ID Field"
 msgstr ""
 
@@ -422,26 +427,6 @@ msgstr ""
 
 #: Civi/DataProcessor/FieldOutputHandler/Expenses/TotalAmountPerCase.php
 msgid " - Any status -"
-msgstr ""
-
-#: Civi/DataProcessor/FieldOutputHandler/Expenses/TotalAmountPerCase.php
-msgid "Number of decimals"
-msgstr "Numero di decimali"
-
-#: Civi/DataProcessor/FieldOutputHandler/Expenses/TotalAmountPerCase.php
-msgid "Decimal separator"
-msgstr "Separatore decimale"
-
-#: Civi/DataProcessor/FieldOutputHandler/Expenses/TotalAmountPerCase.php
-msgid "Thousand separator"
-msgstr "Separatore migliaia"
-
-#: Civi/DataProcessor/FieldOutputHandler/Expenses/TotalAmountPerCase.php
-msgid "Prefix (e.g. &euro;)"
-msgstr ""
-
-#: Civi/DataProcessor/FieldOutputHandler/Expenses/TotalAmountPerCase.php
-msgid "Suffix (e.g. $)"
 msgstr ""
 
 #: expenses.php
@@ -460,6 +445,7 @@ msgstr "Crea attività"
 msgid "If enabled, an activity will be created when a new expenses is added."
 msgstr ""
 
+#: templates/CRM/Dataprocessor/Form/Field/Configuration/Expenses/TotalAmountForExpense.tpl
 #: templates/CRM/Dataprocessor/Form/Field/Configuration/Expenses/TotalAmountPerCase.tpl
 msgid "Leave empty for no formatting"
 msgstr ""
