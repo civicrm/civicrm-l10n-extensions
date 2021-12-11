@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mjwshared\n"
-"POT-Creation-Date: 2021-11-16 05:02+0000\n"
+"POT-Creation-Date: 2021-12-11 05:01+0000\n"
 "Last-Translator: HanV <han.velthuis@home.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -167,16 +167,33 @@ msgid "Has this webhook been processed yet?"
 msgstr "Is de webhook al verwerkt?"
 
 #: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+#: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "Status"
 msgstr "Status"
 
 #: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Webhook processing status"
-msgstr "Webhook verwerkingsstatus"
+msgid "Processing status"
+msgstr ""
 
 #: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
 msgid "Identifier"
 msgstr "Identifier"
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "Optional key to group webhooks, as needed by some processors."
+msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "Message"
+msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "Stores data sent that is needed for processing. JSON suggested."
+msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "Data"
+msgstr ""
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid "You do not have permission to access this page."
@@ -206,6 +223,110 @@ msgstr "%1 aanmelding(en) geannuleerd."
 msgid "Upgrade %1 to revision %2"
 msgstr "Upgrade %1 naar revisie %2"
 
+#: ang/mjwshared/PaymentprocessorWebhook.html
+msgid "Payment Processor Webhooks"
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
+msgid "Filters"
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
+msgid "- Any -"
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
+#: ang/mjwshared/PaymentprocessorWebhook.js
+msgid "New"
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
+#: ang/mjwshared/PaymentprocessorWebhook.js
+msgid "Processing"
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
+#: ang/mjwshared/PaymentprocessorWebhook.js
+msgid "Success"
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
+msgid "Error"
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
+msgid "Event ID"
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
+msgid "Previous page"
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
+msgid "Next page"
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
+msgid "Search / Reload"
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.js
+msgid "mjwshared"
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.js
+msgid "This event is awaiting processing"
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.js
+msgid "This event is currently being processed by the Scheduled Job"
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.js
+msgid "This event was successfully processed."
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.js
+msgid "Loading..."
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.js
+msgid "Loaded"
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.js
+msgid ""
+"Deleting a received webhook event is not un-do-able, and you may not be able"
+" to generate it again. Are you sure?"
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.js
+msgid "Deleting..."
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.js
+msgid "Gone"
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.js
+msgid ""
+"Retrying an event could cause bad things to happen, depending on the event "
+"and the processor, so please be confident in your understanding of both. "
+"Schedule retry of this event?"
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.js
+msgid "Updating..."
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.js
+msgid "Updated"
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.js
+msgid "Scheduled for retry"
+msgstr ""
+
 #: api/v3/Mjwpayment.php
 msgid "Transaction ID"
 msgstr "Transactie-id"
@@ -214,26 +335,6 @@ msgstr "Transactie-id"
 msgid "Transaction id supplied by external processor. This may not be unique."
 msgstr ""
 "Transactie-id is bepaald door een extern proces. Mogelijk is het niet uniek."
-
-#: api/v3/Mjwpayment.php
-msgid "Contribution ID"
-msgstr "Contributie-id"
-
-#: api/v3/Mjwpayment.php
-msgid "Entity ID"
-msgstr "Entiteit-id"
-
-#: api/v3/Mjwpayment.php
-msgid "Payment Date"
-msgstr "Betaaldatum"
-
-#: api/v3/Mjwpayment.php
-msgid "Payment ID"
-msgstr "Betalingsnummer"
-
-#: api/v3/Mjwpayment.php
-msgid "The ID of the record in civicrm_financial_trxn"
-msgstr "Het record-id in civicrm_financial_trxn"
 
 #: js/crm.payment.js
 msgid "Please complete the reCaptcha"
@@ -246,6 +347,10 @@ msgstr "Gebruik de kortingscode of wis het bijbehorende tekstveld"
 #: js/crm.payment.js
 msgid "Please check and fill in all required fields!"
 msgstr "Vul a.u.b. alle verplichte velden in!"
+
+#: mjwshared.php
+msgid "Payment processor webhooks"
+msgstr ""
 
 #: settings/mjwshared.setting.php
 msgid "Enable refund payment via UI?"
@@ -281,3 +386,9 @@ msgid ""
 "payment?"
 msgstr ""
 "Wilt u de volgende aanmeldingen annuleren als u de betaling terugbetaald?"
+
+#: templates/CRM/mjwshared/PaymentprocessorWebhook.hlp
+msgid ""
+"The contact name  should be divided in two parts, the first name and last "
+"name."
+msgstr ""
