@@ -7,14 +7,14 @@
 # Thomas Fastermann <thomas.fastermann@sgb.ch>, 2020
 # Ettore Atalan <atalanttore@googlemail.com>, 2020
 # Romy Ebert <romy.ebert@civiservice.de>, 2021
-# Torben Bertram, 2021
 # Andreas Howiller <andreas.howiller@civiservice.de>, 2021
+# Torben Bertram, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: mosaico\n"
 "POT-Creation-Date: 2021-11-18 05:02+0000\n"
-"Last-Translator: Andreas Howiller <andreas.howiller@civiservice.de>, 2021\n"
+"Last-Translator: Torben Bertram, 2022\n"
 "Language-Team: German (https://www.transifex.com/civicrm/teams/1905/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,7 +32,7 @@ msgstr "Mosaico-Nachrichtenvorlage"
 
 #: CRM/Mosaico/DAO/MessageTemplate.php
 msgid "Unique Settings ID"
-msgstr ""
+msgstr "Eindeutige Einstellungs-ID"
 
 #: CRM/Mosaico/DAO/MessageTemplate.php CRM/Mosaico/DAO/MosaicoTemplate.php
 msgid "message template ID"
@@ -40,7 +40,7 @@ msgstr "ID der Nachrichtenvorlage"
 
 #: CRM/Mosaico/DAO/MessageTemplate.php CRM/Mosaico/DAO/MosaicoTemplate.php
 msgid "FK to civicrm_msg_template."
-msgstr ""
+msgstr "FK to civicrm_msg_template."
 
 #: CRM/Mosaico/DAO/MessageTemplate.php
 msgid "hash_key"
@@ -673,19 +673,19 @@ msgstr "%1 nicht beschreibbar oder konfiguriert."
 
 #: mosaico.php
 msgid "UPLOADS_DIR not writable or configured"
-msgstr ""
+msgstr "UPLOADS_DIR nicht beschreibbar oder konfiguriert"
 
 #: mosaico.php
 msgid "STATIC_DIR not writable or configured"
-msgstr ""
+msgstr "STATIC_DIR  nicht beschreibbar oder konfiguriert"
 
 #: mosaico.php
 msgid "THUMBNAILS_DIR not writable or configured"
-msgstr ""
+msgstr "THUMBNAILS_DIR  nicht beschreibbar oder konfiguriert"
 
 #: mosaico.php
 msgid "Email - schedule/send via CiviMail (traditional)"
-msgstr ""
+msgstr "E-Mail - plane/sende mit CiviMail (traditionell)"
 
 #: settings/Mosaico.setting.php
 msgid "Mosaico editor layout"
@@ -693,7 +693,7 @@ msgstr "Mosaico Editor-Layout"
 
 #: settings/Mosaico.setting.php
 msgid "How should the CiviMail composition screen look?"
-msgstr ""
+msgstr "Wie soll die CiviMail Erstellansicht aussehen?"
 
 #: settings/Mosaico.setting.php
 msgid "Mosaico graphics driver"
@@ -713,7 +713,7 @@ msgstr " für die Größenänderung von Bildern mit Breite"
 
 #: settings/Mosaico.setting.php
 msgid "Image resize scale factor width limit"
-msgstr ""
+msgstr " Skalierungsfaktor der Bildgröße Limit Breite"
 
 #: settings/Mosaico.setting.php
 msgid ""
@@ -732,11 +732,11 @@ msgstr ""
 
 #: settings/Mosaico.setting.php
 msgid "Mosaico Custom Templates Directory"
-msgstr ""
+msgstr "Mosaico Custom Templates Verzeichnis"
 
 #: settings/Mosaico.setting.php
 msgid "Mosaico Custom Templates URL"
-msgstr ""
+msgstr "Mosaico Custom Templates URL"
 
 #: settings/Mosaico.setting.php
 msgid "Hide these base templates"
@@ -744,7 +744,7 @@ msgstr "Basisvorlagen ausblenden"
 
 #: settings/Mosaico.setting.php
 msgid "Mosaico hotlist tokens"
-msgstr ""
+msgstr "Mosaico Hotlist Token"
 
 #: templates/CRM/Mosaico/Form/Migrate.tpl
 msgid "Your system appears to be current. There are no templates to migrate."
@@ -773,6 +773,8 @@ msgid ""
 "In CiviCRM-Mosaico v2.x, the Mosaico editor integrates "
 "<strong>directly</strong> with CiviMail."
 msgstr ""
+"Ab CiviCRM-Mosaico v2.x ist der Mosaico-Editor <strong>directly</strong> in "
+"CiviMail integriert."
 
 #: templates/CRM/Mosaico/Form/Migrate.tpl
 msgid ""
@@ -830,10 +832,12 @@ msgid ""
 "<strong>WARNING</strong>: Some <em>Message Templates</em> are mapped to "
 "multiple <em>Mosaico Templates</em>!"
 msgstr ""
+"<strong>WARNUNG</strong>: Einige <em>Nachrichtenvorlagen</em> sind mit "
+"mehreren <em>Mosaico Templates</em> verbunden / gemappt!"
 
 #: templates/CRM/Mosaico/Form/Migrate.tpl
 msgid "If you setup synchronization, this could cause problems."
-msgstr ""
+msgstr "Es kann Probleme verursachen, wenn Synchronisierung eingestellt ist."
 
 #: templates/CRM/Mosaico/Form/Migrate.tpl
 msgid "Suggested Process"
