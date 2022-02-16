@@ -3,14 +3,14 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Torben Bertram, 2022
 # Mathieu Lu <mathieu@bidon.ca>, 2022
+# Torben Bertram, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: sepa\n"
 "POT-Creation-Date: 2021-03-23 05:01+0000\n"
-"Last-Translator: Mathieu Lu <mathieu@bidon.ca>, 2022\n"
+"Last-Translator: Torben Bertram, 2022\n"
 "Language-Team: German (https://www.transifex.com/civicrm/teams/1905/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -327,7 +327,7 @@ msgstr "Bankverbindung geändert"
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "The amount has to be positive."
-msgstr ""
+msgstr "Betrag muss positiv sein."
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "Amount increased"
@@ -425,7 +425,7 @@ msgstr "SEPA Gläubiger-Identifikationsnummer"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "internal label of the creditor"
-msgstr ""
+msgstr "Internes Label des Kreditors"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "name of the creditor"
@@ -445,7 +445,7 @@ msgstr "BIC"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "Currency used by this creditor"
-msgstr ""
+msgstr "Benutze Währung des Kreditors"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "Mandate numbering prefix"
@@ -469,7 +469,7 @@ msgstr "SEPA Dateiformat (PAIN)"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "Creditor Type: SEPA (default) or PSP"
-msgstr ""
+msgstr "Kreditortyp: SEPA (default) oder PSP"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "Does this creditor use BICs?"
@@ -1380,7 +1380,7 @@ msgstr "SEPA Zahlungsinformationen"
 
 #: CRM/Sepa/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
-msgstr ""
+msgstr "Aktualisiere %1 auf Revision %2"
 
 #: CRM/Sepa/Upgrader.php
 msgid ""
@@ -1399,7 +1399,7 @@ msgstr ""
 
 #: CRM/Sepa/Upgrader.php
 msgid "%1 Payment Processor(s) Disabled!"
-msgstr ""
+msgstr "%1 Zahlungsprozessor(en) deaktiviert!"
 
 #: CRM/Utils/SepaOptionGroupTools.php
 #: templates/CRM/Contribute/Form/ContributionConfirm.sepa.tpl
@@ -1468,7 +1468,7 @@ msgstr "sobald wie möglich"
 
 #: Civi/Sepa/ActionProvider/Action/FindMandate.php
 msgid "One-Off"
-msgstr ""
+msgstr "Einmaleinzug"
 
 #: Civi/Sepa/ActionProvider/Action/FindMandate.php
 msgid "Newest (by ID)"
@@ -1984,6 +1984,9 @@ msgid ""
 "submitted, you can set a buffer time. It determines how many days before "
 "submission the mandate has to be created."
 msgstr ""
+"Eine Bufferzeit kann eingestellt werden, um die Mandatserstellung zu "
+"verhindern für ein Datum, welches bereits eingereicht wurde. Es legt fest, "
+"wie viele Tage vor der Einreichung ein Mandat erstellt werden muss."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
@@ -2056,7 +2059,7 @@ msgstr ""
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid "This setting let's you define whether this creditor uses BICs."
-msgstr ""
+msgstr "Diese Einstellung legt fest, ob der Kreditor BICs benutzt."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
@@ -2064,6 +2067,9 @@ msgid ""
 "creditor, you would have to manually make sure that all mandates of this "
 "creditor have BICs."
 msgstr ""
+"<strong>Achtung:</strong> Wenn das auf einem bestehenden Kreditor (wieder) "
+"aktiviert wird, dann muss manuell sichergestellt werden, dass alle Mandate "
+"dieses Kreditors BICs besitzen."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Creditors"
@@ -2287,7 +2293,7 @@ msgstr "Sie ersetzen Mandat %1"
 
 #: templates/CRM/Sepa/Form/RetryCollection.tpl
 msgid "Select the transaction groups you want to re-collect."
-msgstr ""
+msgstr "Wähle die Transaktionsgruppe für den Wiedereinzug."
 
 #: templates/CRM/Sepa/Form/RetryCollection.tpl
 msgid "Add some filters"
@@ -3133,7 +3139,7 @@ msgstr "Wiederkehrende SEPA-Mandate"
 
 #: templates/CRM/Sepa/Page/MandateTab.tpl
 msgid "Installs"
-msgstr ""
+msgstr "Einzüge"
 
 #: templates/CRM/Sepa/Page/MandateTab.tpl
 msgid "Last Collection"
@@ -3199,61 +3205,68 @@ msgstr "Notizen"
 
 #: tests/phpunit/CRM/Sepa/HookTest.php
 msgid "The create_mandate hook has not been called."
-msgstr ""
+msgstr "Der Hook create_mandate hook wurde nicht aufgerufen."
 
 #: tests/phpunit/CRM/Sepa/HookTest.php
 msgid "The mandate reference is not the generated one."
-msgstr ""
+msgstr "Die Mandatsreferenz entspricht nicht der generierten."
 
 #: tests/phpunit/CRM/Sepa/HookTest.php
 msgid "The modify_txgroup_reference hook has not been called."
-msgstr ""
+msgstr "Der Hook modify_txgroup_reference wurde nicht aufgerufen."
 
 #: tests/phpunit/CRM/Sepa/HookTest.php
 msgid "The transaction group reference is not the generated one."
-msgstr ""
+msgstr "Die TRansaktionsgruppen-Referenz entspricht nicht der generierten."
 
 #: tests/phpunit/CRM/Sepa/HookTest.php
 msgid "The installment_created hook has not been called (correctly)."
-msgstr ""
+msgstr "Der Hook installment_created hook wurde nicht (korrekt) aufgerufen."
 
 #: tests/phpunit/CRM/Sepa/MandateTerminationTest.php
 msgid ""
 "There should be no transaction group be associated with the mandate after "
 "terminating."
 msgstr ""
+"Nach der Terminierung sollten keine Transaktionsgruppe mit den Mandaten "
+"assoziiert sein."
 
 #: tests/phpunit/CRM/Sepa/MandateTerminationTest.php
 msgid ""
 "The mandate is probably incorrectly regrouped again after terminating thus "
 "is associated with a transaction group."
 msgstr ""
+"Das Mandat ist nach der Terminierung wahrscheinlich fehlerhaft umgruppiert "
+"worden, obschon es mit einer Transaktionsgruppe verbunden ist."
 
 #: tests/phpunit/CRM/Sepa/MandateTerminationTest.php
 msgid ""
 "It must not be allowed to terminate the mandate after the group has been "
 "closed."
 msgstr ""
+"Es ist nicht erlaubt, Mandate zu terminieren, wenn die Gruppe geschlossen "
+"wurde."
 
 #: tests/phpunit/CRM/Sepa/MandateTerminationTest.php
 msgid "The mandate has been illegally terminated after closing."
-msgstr ""
+msgstr "Das Mandat wurde nach dem Schließen verbotenerweise terminiert."
 
 #: tests/phpunit/CRM/Sepa/MandateTerminationTest.php
 msgid "The mandate status has been illegally touched after closing."
-msgstr ""
+msgstr "Der Mandatsstatus wurde nach dem Schließen verbotenerweise angefasst."
 
 #: tests/phpunit/CRM/Sepa/MandateTerminationTest.php
 msgid "A new contribution has been created for a terminated mandate."
-msgstr ""
+msgstr "Eine neue Zuwendung wurde für ein abgeschlossenes Mandat erstellt."
 
 #: tests/phpunit/CRM/Sepa/MandateTerminationTest.php
 msgid "The mandate has been incorrectly terminated."
-msgstr ""
+msgstr "Das Mandat wurde fehlerhaft abgeschlossen."
 
 #: tests/phpunit/CRM/Sepa/MandateTerminationTest.php
 msgid "The mandate is not in the transaction group anymore but should be."
 msgstr ""
+"Das Mandat ist nicht mehr in der Transaktionsgruppe, sollte es aber sein."
 
 #: tests/phpunit/CRM/Sepa/MandateTerminationTest.php
 msgid "The end date is not correct."
@@ -3261,138 +3274,142 @@ msgstr "Das Enddatum ist nicht korrekt"
 
 #: tests/phpunit/CRM/Sepa/MandateTerminationTest.php
 msgid "The mandate has been incorrectly regrouped."
-msgstr ""
+msgstr "Das Mandat wurde fehlerhaft umgruppiert."
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "OOFF Mandate after creation is incorrect."
-msgstr ""
+msgstr "Einmaleinzugsmandat OOFF nach Erstellung ist inkorrekt."
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "OOFF contribution after creation is incorrect."
-msgstr ""
+msgstr "Einmaleinzugs-Zuwendung ist nach Erstellung nicht korrekt."
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "RCUR Mandate after creation is incorrect."
-msgstr ""
+msgstr "RCUR Mandat ist nach Erstellung fehlerhaft."
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "RCUR contribution after creation is incorrect."
-msgstr ""
+msgstr "RCUR Zuwendung ist nach Erstellung fehlerhaft."
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "OOFF Mandate status after batching is incorrect."
-msgstr ""
+msgstr "OOFF Mandatsstatus ist nach Gruppierung / Batching fehlerhaft."
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "OOFF contribution status after batching is incorrect."
-msgstr ""
+msgstr "OOFF Zuwendungsstatus ist nach Gruppierung / Batching fehlerhaft."
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "OOFF transaction group status after batching is incorrect."
 msgstr ""
+"OOFF Transaktionsgruppenstatus ist nach Gruppierung / Batching fehlerhaft."
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "RCUR Mandate status after batching is incorrect."
-msgstr ""
+msgstr "RCUR Mandatsstatus ist nach Gruppierung / Batching fehlerhaft."
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "RCUR contribution status after batching is incorrect."
-msgstr ""
+msgstr "RCUR Zuwendungsstatus ist nach Gruppierung / Batching fehlerhaft."
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "RCUR transaction group status after batching is incorrect."
 msgstr ""
+"RCUR Transaktionsgruppenstatus ist nach Gruppierung / Batching fehlerhaft."
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "OOFF Mandate status after closing is incorrect."
-msgstr ""
+msgstr "OOFF Mandatsstatus ist nach Schließung fehlerhaft."
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "OOFF contribution status after closing is incorrect."
-msgstr ""
+msgstr "OOFF Zuwendungsstatus ist nach Schließung fehlerhaft."
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "OOFF transaction group status after closing is incorrect."
-msgstr ""
+msgstr "OOFF Transaktionsgruppenstatus ist nach Schließung fehlerhaft."
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "RCUR Mandate status after closing is incorrect."
-msgstr ""
+msgstr "RCUR Mandatsstatus ist nach Schließung fehlerhaft."
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "RCUR contribution status after closing is incorrect."
-msgstr ""
+msgstr "RCUR Zuwendungsstatus ist nach Schließung fehlerhaft."
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "RCUR transaction group status after closing is incorrect."
-msgstr ""
+msgstr "RCUR Transaktionsgruppenstatus ist nach Schließung fehlerhaft."
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "Mandate status of new mandate is incorrect."
-msgstr ""
+msgstr "Mandatsstatus des neuen Mandats ist fehlerhaft."
 
 #: tests/phpunit/CRM/Sepa/ReferenceGenerationTest.php
 msgid "The OOFF mandate reference is invalid."
-msgstr ""
+msgstr "Die OOFF Mandatsreferent ist ungültig."
 
 #: tests/phpunit/CRM/Sepa/ReferenceGenerationTest.php
 msgid "The RCUR mandate reference is invalid."
-msgstr ""
+msgstr "Die RCUR Mandatsreferent ist ungültig."
 
 #: tests/phpunit/CRM/Sepa/ReferenceGenerationTest.php
 msgid "There should be a clashing reference"
-msgstr ""
+msgstr "Es müsste eine clashing Referenz geben"
 
 #: tests/phpunit/CRM/Sepa/SettingsTest.php
 msgid "set/getGenericSetting doesn't work"
-msgstr ""
+msgstr "set/get generische Einstellung funktioniert nicht."
 
 #: tests/phpunit/CRM/Sepa/SettingsTest.php
 msgid "set/getSetting doesn't work"
-msgstr ""
+msgstr "set/get Einstellung funktioniert nicht."
 
 #: tests/phpunit/CRM/Sepa/TestBase.php
 msgid ""
 "The contribution for the mandate is null. That should not be possible at "
 "this point."
 msgstr ""
+"Die Zuwendung für dieses Mandat beträgt null. Das sollte an dieser Stelle "
+"nicht möglich sein."
 
 #: tests/phpunit/CRM/Sepa/VerifyBicTest.php
 msgid "Invalid BIC location detection fails!"
-msgstr ""
+msgstr "Erkennung von ungültigen BIC Lokalisierungen fehlgeschlagen!"
 
 #: tests/phpunit/CRM/Sepa/VerifyBicTest.php
 msgid "Wrong BIC for IBAN detection fails!"
-msgstr ""
+msgstr "Erkennung von nicht falschen BIC für IBAN fehlgeschlagen!"
 
 #: tests/phpunit/CRM/Sepa/VerifyBicTest.php
 msgid "Nonexistent BIC detection fails!"
-msgstr ""
+msgstr "Erkennung von nicht existierenden BIC fehlgeschlagen!"
 
 #: tests/phpunit/CRM/Sepa/VerifyBicTest.php
 msgid "Incorrect BIC detection fails!"
-msgstr ""
+msgstr "Erkennung von fehlerhaften BIC fehlgeschlagen!"
 
 #: tests/phpunit/CRM/Sepa/VerifyIbanTest.php
 msgid "Incorrect IBAN detection fails!"
-msgstr ""
+msgstr "Erkennung von fehlerhaften IBAN fehlgeschlagen!"
 
 #: tests/phpunit/CRM/Sepa/VerifyIbanTest.php
 msgid "Incorrect bank code detection fails!"
-msgstr ""
+msgstr "Erkennung von fehlerhaften Bankleitzahlen fehlgeschlagen!"
 
 #: tests/phpunit/CRM/Sepa/VerifyIbanTest.php
 msgid "Incorrect IBAN checksum detection fails!"
-msgstr ""
+msgstr "Erkennung von fehlerhaften IBAN-Prüfsummen fehlgeschlagen!"
 
 #: tests/phpunit/CRM/Sepa/VerifyIbanTest.php
 msgid "Incorrect IBAN length detection fails!"
-msgstr ""
+msgstr "Erkennung von fehlerhaften IBAN-Längen fehlgeschlagen!"
 
 #: tests/phpunit/CRM/Sepa/VerifyIbanTest.php
 msgid "Incorrect char in IBAN detection fails!"
-msgstr ""
+msgstr "Erkennung von fehlerhaften IBAN-Zeichen fehlgeschlagen!"
 
 #: tests/phpunit/CRM/Sepa/VerifyIbanTest.php
 msgid "Blocklistet IBAN should fail but did not!"
-msgstr ""
+msgstr "Eine IBAN von der Blockliste sollte fehlschlagen, hat aber nicht!"
