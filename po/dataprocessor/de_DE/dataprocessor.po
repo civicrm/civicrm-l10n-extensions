@@ -3,9 +3,10 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Andreas Howiller <andreas.howiller@civiservice.de>, 2020
 # Romy Ebert <romy.ebert@civiservice.de>, 2021
 # mmgit, 2021
+# Mathieu Lu <mathieu@bidon.ca>, 2022
+# Andreas Howiller <andreas.howiller@civiservice.de>, 2022
 # Torben Bertram, 2022
 # 
 msgid ""
@@ -177,12 +178,16 @@ msgid ""
 "Requires data source '%1' which could not be found. Did you rename or "
 "deleted the data source?"
 msgstr ""
+"Benötigt Datenquelle '%1' welche nicht gefunden wurde. Wurde die Datenquelle"
+" umbenannt oder gelöscht?"
 
 #: CRM/Contact/DataProcessorContactSummaryTab.php
 msgid ""
 "Requires a field with the name '%1' in the data source '%2'. Did you change "
 "the data source type?"
 msgstr ""
+"Benötigt ein Feld mit dem Namen '%1' in der Datenquelle '%2'. Wurde der "
+"Datenquellentyp verändert?"
 
 #: CRM/Contact/Form/DataProcessorContactSearch.php
 msgid "View contact"
@@ -429,7 +434,7 @@ msgstr "Es gibt bereits einen Datenquelle mit diesem Namen"
 
 #: CRM/Dataprocessor/Status.php
 msgid "In code"
-msgstr ""
+msgstr "Im Code"
 
 #: CRM/Dataprocessor/Status.php
 msgid "Overridden"
@@ -437,11 +442,11 @@ msgstr ""
 
 #: CRM/Dataprocessor/Status.php
 msgid "In database"
-msgstr ""
+msgstr "In der Datenbank"
 
 #: CRM/Dataprocessor/Status.php
 msgid "Unknown"
-msgstr ""
+msgstr "Unbekannt"
 
 #: CRM/Dataprocessor/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
@@ -539,7 +544,7 @@ msgstr "- Standard PDF Format -"
 
 #: CRM/DataprocessorOutputExport/PDF.php
 msgid "Header"
-msgstr ""
+msgstr "Header / Kopfzeile"
 
 #: CRM/DataprocessorOutputExport/PDF.php
 msgid "Add an additional column"
@@ -595,7 +600,7 @@ msgstr ""
 
 #: CRM/DataprocessorSearch/Form/AbstractSearch.php
 msgid "%%StatusMessage%%"
-msgstr ""
+msgstr "%%StatusNachricht%%"
 
 #: CRM/DataprocessorSearch/Form/ActivitySearch.php
 msgid "View activity"
@@ -1069,7 +1074,7 @@ msgstr ""
 #: Civi/DataProcessor/Output/AbstractApi.php
 #: templates/CRM/Dataprocessor/Form/Field.tpl
 msgid "Field"
-msgstr ""
+msgstr "Feld"
 
 #: Civi/DataProcessor/FieldOutputHandler/AgeFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/DateFieldOutputHandler.php
@@ -1088,7 +1093,7 @@ msgstr ""
 #: Civi/DataProcessor/FieldOutputHandler/Calculations/SubtractFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/NumberFieldOutputHandler.php
 msgid "Number of decimals"
-msgstr ""
+msgstr "Anzahl Nachkommastellen"
 
 #: Civi/DataProcessor/FieldOutputHandler/AggregateFunctionFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/Calculations/CalculationFieldOutputHandler.php
@@ -1109,14 +1114,14 @@ msgstr "Tausendertrennzeichen"
 #: Civi/DataProcessor/FieldOutputHandler/Calculations/SubtractFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/NumberFieldOutputHandler.php
 msgid "Prefix (e.g. &euro;)"
-msgstr ""
+msgstr "Präfix (z.B. &euro;)"
 
 #: Civi/DataProcessor/FieldOutputHandler/AggregateFunctionFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/Calculations/CalculationFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/Calculations/SubtractFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/NumberFieldOutputHandler.php
 msgid "Suffix (e.g. $)"
-msgstr ""
+msgstr "Suffix (z.B. $)"
 
 #: Civi/DataProcessor/FieldOutputHandler/Calculations/CalculationFieldOutputHandler.php
 #: Civi/DataProcessor/FilterHandler/MultipleFieldFilter.php
@@ -1165,7 +1170,7 @@ msgstr ""
 #: Civi/DataProcessor/FilterHandler/InApiFilter.php
 #: Civi/DataProcessor/FilterHandler/PermissionToViewContactFilter.php
 msgid "Contact ID Field"
-msgstr ""
+msgstr "Kontakt-ID-Feld"
 
 #: Civi/DataProcessor/FieldOutputHandler/ContactLinkFieldOutputHandler.php
 msgid "Contact Name Field"
@@ -1512,7 +1517,7 @@ msgstr ""
 
 #: Civi/DataProcessor/FilterHandler/EventFilter.php
 msgid "Event ID Field"
-msgstr ""
+msgstr "Veranstaltungs-ID-Feld"
 
 #: Civi/DataProcessor/FilterHandler/EventFilter.php
 msgid "Select an Event"
@@ -1625,7 +1630,7 @@ msgstr ""
 
 #: Civi/DataProcessor/Source/Member/PrimaryMembershipSource.php
 msgid "Membership ID"
-msgstr ""
+msgstr "Mitgliedschafts-ID"
 
 #: Civi/DataProcessor/Source/Member/PrimaryMembershipSource.php
 msgid "Membership Contact ID"
@@ -1903,7 +1908,7 @@ msgstr ""
 #: templates/CRM/Dataprocessor/Form/Field/Configuration/CalculationSubtractFieldOutputHandler.tpl
 #: templates/CRM/Dataprocessor/Form/Field/Configuration/NumberFieldOutputHandler.tpl
 msgid "Leave empty for no formatting"
-msgstr ""
+msgstr "Leer lassen für keine Formatierung "
 
 #: templates/CRM/Dataprocessor/Form/Field/Configuration/DateFieldOutputHandler.tpl
 msgid "See <a href=\"%1\">DateTime format on php.net</a> for help."
@@ -1990,7 +1995,7 @@ msgstr ""
 
 #: templates/CRM/Dataprocessor/Form/ManageDataProcessors.tpl
 msgid "Actions"
-msgstr ""
+msgstr "Aktionen"
 
 #: templates/CRM/Dataprocessor/Form/ManageDataProcessors.tpl
 msgid "Edit Data Processor"
