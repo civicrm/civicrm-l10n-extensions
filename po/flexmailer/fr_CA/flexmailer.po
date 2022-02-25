@@ -2,10 +2,16 @@
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# Usha Matisson <matisson@makoa.fr>, 2022
+# Guillaume Sorel <serviceclient@all-in-appli.com>, 2022
+# punkyard persist <punkyard@grrlz.net>, 2022
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: flexmailer\n"
 "POT-Creation-Date: 2019-06-02 05:01+0000\n"
+"Last-Translator: punkyard persist <punkyard@grrlz.net>, 2022\n"
 "Language-Team: French (Canada) (https://www.transifex.com/civicrm/teams/1905/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,41 +21,44 @@ msgstr ""
 
 #: flexmailer.php
 msgid "Flexmailer Settings"
-msgstr ""
+msgstr "Paramètres de Flexmailer"
 
 #: flexmailer.php
 msgid "Automatic"
-msgstr ""
+msgstr "Automatique"
 
 #: flexmailer.php
 msgid "CiviMail BAO"
-msgstr ""
+msgstr "CiviMail BAO"
 
 #: flexmailer.php
 msgid "Flexmailer Pipeline"
-msgstr ""
+msgstr "Pipeline Flexmailer"
 
 #: src/Listener/RequiredFields.php
 msgid "Field %1 is required."
-msgstr ""
+msgstr "Le champ %1 est requis."
 
 #: src/Listener/RequiredTokens.php
 msgid "This message is missing a required token - {%1}: %2"
-msgstr ""
+msgstr "Il manque à ce message un jeton obligatoire - {%1} : %2"
 
 #: src/Listener/TestPrefix.php
 msgid "[CiviMail Draft]"
-msgstr ""
+msgstr "[Brouillon CiviMail]"
 
 #: src/Services.php
 msgid "Domain address - displays your organization's postal address."
-msgstr ""
+msgstr "Adresse du domaine = affiche l'adresse postale de votre organisation."
 
 #: src/Services.php
 msgid ""
 "'Opt out via email' - displays an email address for recipients to opt out of"
 " receiving emails from your organization."
 msgstr ""
+"'Désinscription par courriel' affiche une adresse email pour que vos "
+"destinataires puissent se désinscrire des messages d'information envoyés par"
+" votre organisation par courriel.."
 
 #: src/Services.php
 msgid ""
@@ -57,12 +66,17 @@ msgid ""
 " to opt out of receiving emails from your organization. Alternatively, you "
 "can include the 'Opt out via email' token."
 msgstr ""
+"'Désinscription via une page du site' crée un lien que vos destinataires pourront cliquer pour se désinscrire des messages d'information envoyés par votre organisation par courriel. \n"
+"Sinon, un bouton 'Désinscription par courriel' peut être inséré."
 
 #: src/Services.php
 msgid ""
 "'Unsubscribe via email' - displays an email address for recipients to "
 "unsubscribe from the specific mailing list used to send this message."
 msgstr ""
+"'Désabonnement par email' affiche une adresse email pour que vos "
+"destinataires puissent se désabonner uniquement de la liste utilisée pour "
+"envoyer ce message."
 
 #: src/Services.php
 msgid ""
@@ -70,19 +84,27 @@ msgid ""
 "from the specific mailing list used to send this message. Alternatively, you"
 " can include the 'Unsubscribe via email' token or one of the Opt-out tokens."
 msgstr ""
+"'Désabonnement via une page du site' crée un lien que vos destinataires pourront cliquer pour se désabonner désabonner uniquement de la liste utilisée pour envoyer ce message.\n"
+"Sinon, un bouton 'Désabonnement par courriel' ou Désinscription peuvent être insérés."
 
 #: templates/CRM/Flexmailer/Form/FlexmailerAdmin.tpl
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: templates/CRM/Flexmailer/Form/FlexmailerAdmin.tpl
 msgid ""
 "For greater backward-compatibility, process \"<code>traditional</code>\" "
 "mailings with the CiviMail's hard-coded BAO."
 msgstr ""
+"Pour une meilleure capacité de retour en arrière, il vaut mieux procéder à "
+"l'envoi de courriels \"<code>traditionnels</code>\" avec le code dur BAO de "
+"CiviMail."
 
 #: templates/CRM/Flexmailer/Form/FlexmailerAdmin.tpl
 msgid ""
 "For greater forward-compatibility, process \"<code>traditional</code>\" "
 "mailings with Flexmailer's extensible pipeline."
 msgstr ""
+"Pour une meilleure capacité de retour en arrière, il vaut mieux procéder à "
+"l'envoi de courriels \"<code>traditionnels</code>\" avec le tunnel "
+"extensible de Flexmailer."
