@@ -350,7 +350,7 @@ msgstr "Montant diminué de %1 à %2"
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "Invalid financial type ID [%1] supplied."
-msgstr ""
+msgstr "L'ID de type financier [%1] fourni est invalide."
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "Financial type changed"
@@ -428,7 +428,7 @@ msgstr "Identifiant du Créancier SEPA"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "internal label of the creditor"
-msgstr ""
+msgstr "Étiquette interne du créancier"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "name of the creditor"
@@ -452,11 +452,11 @@ msgstr "Devise utilisé par le créancier"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "Mandate numbering prefix"
-msgstr ""
+msgstr "Préfixe de numérotation obligatoire"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "Category purpose of the collection"
-msgstr ""
+msgstr "Catégorie de l'objectif de la collecte"
 
 #: CRM/Sepa/DAO/SEPACreditor.php CRM/Sepa/DAO/SEPASddFile.php
 msgid "Tag"
@@ -464,7 +464,7 @@ msgstr "Étiquette"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "Immediately activate new Mandates"
-msgstr ""
+msgstr "Activer immédiatement les nouveaux mandats"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "SEPA File Format"
@@ -542,7 +542,7 @@ msgstr "date de création"
 
 #: CRM/Sepa/DAO/SEPAMandate.php
 msgid "First Contribution (to be deprecated)"
-msgstr ""
+msgstr "Première contribution (à déprécier)"
 
 #: CRM/Sepa/DAO/SEPAMandate.php
 msgid "validation date"
@@ -717,7 +717,7 @@ msgstr "Déjà utilisé"
 
 #: CRM/Sepa/Form/CreateMandate.php CRM/Sepa/Page/CreateMandate.php
 msgid "'%3' SEPA Mandate <a href=\"%2\">%1</a> created."
-msgstr ""
+msgstr "'%3' Mandat SEPA <a href=\"%2\">%1</a> crée"
 
 #: CRM/Sepa/Form/CreateMandate.php CRM/Sepa/Page/CreateMandate.php
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
@@ -726,7 +726,7 @@ msgstr "Succès"
 
 #: CRM/Sepa/Form/CreateMandate.php
 msgid "Failed to create %1 mandate. Error was: %2"
-msgstr ""
+msgstr "Echec de création du mandat %1. Erreur : %2"
 
 #: CRM/Sepa/Form/CreateMandate.php
 msgid "- none -"
@@ -750,7 +750,7 @@ msgstr "Mandats SEPA (Générique)"
 
 #: CRM/Sepa/Form/Report/SepaMandateGeneric.mgd.php
 msgid "Generic SEPA Mandate Report (org.project60.sepa)"
-msgstr ""
+msgstr "Rapport générique sur le mandat SEPA (org.project60.sepa)"
 
 #: CRM/Sepa/Form/Report/SepaMandateGeneric.php
 #: CRM/Sepa/Form/Search/SepaContactSearch.php
@@ -826,7 +826,7 @@ msgstr "Mandats SEPA (Ponctuel)"
 
 #: CRM/Sepa/Form/Report/SepaMandateOOFF.mgd.php
 msgid "SEPA One-Off Mandate Report (org.project60.sepa)"
-msgstr ""
+msgstr "Rapport sur le mandat unique SEPA (org.project60.sepa)"
 
 #: CRM/Sepa/Form/Report/SepaMandateOOFF.php
 msgid "Contribution ID"
@@ -912,15 +912,15 @@ msgstr "Nombre Total de Contributions Manquées/Annulées"
 
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php
 msgid "Matching Contribution Count"
-msgstr ""
+msgstr " Compte de la contribution de contrepartie"
 
 #: CRM/Sepa/Form/RetryCollection.php
 msgid "Retry Collection of Failed DDs"
-msgstr ""
+msgstr "Réessayer la collecte des DDs échouée"
 
 #: CRM/Sepa/Form/RetryCollection.php
 msgid "Date Range"
-msgstr ""
+msgstr " Plage de dates"
 
 #: CRM/Sepa/Form/RetryCollection.php
 msgid "Creditor(s)"
@@ -1056,7 +1056,7 @@ msgstr "Mise à jour des statuts du groupe '%1'"
 
 #: CRM/Sepa/Logic/Queue/Close.php
 msgid "Compiling XML for group '%1'"
-msgstr ""
+msgstr " Compilation du XML pour le groupe '%1'."
 
 #: CRM/Sepa/Logic/Queue/Update.php
 msgid "Cannot run update, another update is in progress!"
@@ -1072,11 +1072,11 @@ msgstr "Don incomplet"
 
 #: CRM/Sepa/Logic/Queue/Update.php
 msgid "Cleaning up ended mandates"
-msgstr ""
+msgstr " Nettoyage des mandats terminés"
 
 #: CRM/Sepa/Logic/Queue/Update.php
 msgid "Lock released"
-msgstr ""
+msgstr "Serrure débloquée"
 
 #: CRM/Sepa/Logic/Settings.php
 msgid "Thank you"
@@ -1108,7 +1108,7 @@ msgstr "Don incomplet"
 
 #: CRM/Sepa/Logic/Verification.php
 msgid "IBAN is blocklisted"
-msgstr ""
+msgstr "IBAN est bloqué"
 
 #: CRM/Sepa/Logic/Verification.php
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
@@ -1117,7 +1117,7 @@ msgstr "IBAN incorrect"
 
 #: CRM/Sepa/Logic/Verification.php
 msgid "Please remove leading IBAN"
-msgstr ""
+msgstr "Veuillez supprimer l'IBAN principal"
 
 #: CRM/Sepa/Logic/Verification.php
 msgid "Invalid PSP Code"
@@ -1153,11 +1153,11 @@ msgstr "Créer un mandat SEPA"
 
 #: CRM/Sepa/Page/CreateMandate.php
 msgid "This page cannot be called w/o parameters."
-msgstr ""
+msgstr " Cette page ne peut pas être appelée sans paramètres."
 
 #: CRM/Sepa/Page/CreateMandate.php
 msgid "Couldn't create contribution for contact #%s"
-msgstr ""
+msgstr "Impossible de créer une contribution pour le contact #%s"
 
 #: CRM/Sepa/Page/CreateMandate.php
 msgid "Couldn't create contribution"
@@ -1165,7 +1165,7 @@ msgstr "Impossible de créer une contribution."
 
 #: CRM/Sepa/Page/CreateMandate.php
 msgid "Couldn't create %s mandate for contact #%s"
-msgstr ""
+msgstr "Impossible de créer le mandat %s pour le contact %s"
 
 #: CRM/Sepa/Page/CreateMandate.php
 msgid "Couldn't create mandate"
@@ -1197,11 +1197,11 @@ msgstr "Impossible de charger le mandat"
 
 #: CRM/Sepa/Page/CreateMandate.php
 msgid "Mandate #%s seems to be broken!"
-msgstr ""
+msgstr "Le mandat #%s semble être cassé !"
 
 #: CRM/Sepa/Page/CreateMandate.php
 msgid "Couldn't load associated (r)contribution #%s"
-msgstr ""
+msgstr "Impossible de charger la (r)contribution associée #%s"
 
 #: CRM/Sepa/Page/CreateMandate.php
 msgid "'%s' is a required field."
@@ -1209,7 +1209,7 @@ msgstr "'%1' est un champ obligatoire."
 
 #: CRM/Sepa/Page/CreateMandate.php
 msgid "Cannot parse amount"
-msgstr ""
+msgstr "Impossible d'analyser le montant"
 
 #: CRM/Sepa/Page/CreateMandate.php
 msgid "Amount has to be positive"
@@ -1220,6 +1220,8 @@ msgid ""
 "Reference has to be an upper case alphanumeric string between 4 and 35 "
 "characters long."
 msgstr ""
+"La référence doit être une chaîne alphanumérique en majuscule d'une longueur"
+" comprise entre 4 et 35 caractères."
 
 #: CRM/Sepa/Page/CreateMandate.php
 msgid "This reference is already in use."
@@ -1235,7 +1237,7 @@ msgstr "La date de fin ne peut être avant la date de début"
 
 #: CRM/Sepa/Page/CreateMandate.php
 msgid "replace reason"
-msgstr ""
+msgstr "remplacer la raison"
 
 #: CRM/Sepa/Page/DashBoard.php sepa.php
 msgid "CiviSEPA Dashboard"
@@ -1679,12 +1681,17 @@ msgid ""
 "collect the monthly payments. You can also provide a comma separated list of"
 " such days."
 msgstr ""
+"Vous devez indiquer un jour (comme dans \"jour du mois\") auquel vous "
+"prévoyez de collecter les paiements mensuels. Vous pouvez également fournir "
+"une liste de ces jours séparés par des virgules."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "This is the Creditor Identifier, an international ID that has to be "
 "requested by the national banks."
 msgstr ""
+"Ceci est l'identifiant du créancier, un identifiant international qui doit "
+"être demandé par les banques nationales."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid "<strong>Be careful when changing this!</strong>"
@@ -1728,6 +1735,8 @@ msgid ""
 "The horizon is the \"look ahead\" time frame (in days) that CiviSEPA uses to"
 " determine which single payments (OOFF) should be generated."
 msgstr ""
+"L'horizon est le délai d'anticipation (en jours) que CiviSEPA utilise pour "
+"déterminer quels paiements uniques (OOFF) doivent être générés."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
@@ -1735,6 +1744,9 @@ msgid ""
 "containing them for the next 30 days will be generated and become visible on"
 " the SEPA dashboard."
 msgstr ""
+"Par exemple, une valeur d'horizon de 30 signifie que les paiements et les "
+"groupes qui les contiennent pour les 30 prochains jours seront générés et "
+"deviendront visibles sur le tableau de bord SEPA."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid "<strong>Only positive values are allowed!</strong>"
@@ -1759,6 +1771,10 @@ msgid ""
 "still try to submit the group, but it's up to the bank whether it is "
 "accepted or rejected."
 msgstr ""
+"Par exemple, une valeur de grâce de 7 signifie que si vous oubliez de "
+"soumettre le groupe à temps pendant une semaine, il sera supprimé. Pendant "
+"la période de grâce, vous pouvez toujours essayer de soumettre le groupe, "
+"mais c'est la banque qui décide de l'accepter ou de le rejeter."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
@@ -1778,6 +1794,10 @@ msgid ""
 "are in progress. For security reasons, this lock times out after the "
 "specified time."
 msgstr ""
+"Les opérations de CiviSEPA telles que le batching nécessitent un accès "
+"exclusif aux structures de données SEPA. Par conséquent, l'accès des autres "
+"processus est bloqué pendant que celles-ci sont en cours. Pour des raisons "
+"de sécurité, ce verrouillage prend fin après le temps spécifié."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
@@ -1879,6 +1899,9 @@ msgid ""
 "Enabeling this option would will replace the eyesore frequency unit / "
 "interval fields with a nice dropdown."
 msgstr ""
+"Le menu déroulant intégré de CiviCRM pour les contributions récurrentes est "
+"plutôt laid. L'activation de cette option permettra de remplacer les champs "
+"unité de fréquence/intervalle par une belle liste déroulante."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
@@ -1886,6 +1909,9 @@ msgid ""
 "submitted, you can set a buffer time. It determines how many days before "
 "submission the mandate has to be created."
 msgstr ""
+"Pour éviter de créer des mandats récurrents pour une date qui a déjà été "
+"soumise, vous pouvez définir une période tampon. Il détermine combien de "
+"jours avant la soumission le mandat doit être créé."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
@@ -2225,6 +2251,11 @@ msgid ""
 "banks usually would let you know which data exactly they reject. Fix this "
 "then in your mandates, update the groups, and try again."
 msgstr ""
+"Cherchez à savoir pourquoi exactement il a été rejeté. Il arrive souvent que"
+" des BIC et IBAN soient formellement corrects, mais que les comptes "
+"n'existent pas. Dans ce cas, les banques vous font généralement savoir "
+"quelles sont les données exactes qu'elles rejettent. Corrigez alors ce "
+"problème dans vos mandats, mettez à jour les groupes et réessayez."
 
 #: templates/CRM/Sepa/Page/CloseGroup.tpl
 msgid ""
@@ -2384,7 +2415,7 @@ msgstr ""
 
 #: templates/CRM/Sepa/Page/DashBoard.tpl
 msgid "update recurring"
-msgstr ""
+msgstr "Mise à jour récurrente"
 
 #: templates/CRM/Sepa/Page/DashBoard.tpl
 msgid "retry collection"
@@ -2424,7 +2455,7 @@ msgstr "Marquer comme reçu"
 
 #: templates/CRM/Sepa/Page/DashBoard.tpl
 msgid "Legend"
-msgstr ""
+msgstr "Légende"
 
 #: templates/CRM/Sepa/Page/DashBoard.tpl
 msgid "Description"
@@ -2436,7 +2467,7 @@ msgstr "Manqué"
 
 #: templates/CRM/Sepa/Page/DashBoard.tpl
 msgid "Submission date has passed!"
-msgstr ""
+msgstr "La date de soumission est passée !"
 
 #: templates/CRM/Sepa/Page/DashBoard.tpl
 msgid "Urgent"
@@ -2575,6 +2606,10 @@ msgid ""
 "transaction group is deleted, these payments do not make sense any more. "
 "They will also be generated again, once you hit update."
 msgstr ""
+"Vous devriez envisager de supprimer les contributions ouvertes. Si le groupe"
+" de transactions récurrentes est supprimé, ces paiements n'ont plus de sens."
+" Ils seront également générés à nouveau, une fois que vous aurez appuyé sur "
+"la touche de mise à jour."
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid ""
@@ -2587,6 +2622,9 @@ msgid ""
 " means, that related 'real world activites' (like money transfers) have "
 "already been initiated or even completed."
 msgstr ""
+"Vous devez être très prudent lorsque vous supprimez des contributions "
+"traitées. Cela signifie généralement que des \"activités réelles\" connexes "
+"(comme des transferts d'argent) ont déjà été lancées ou même réalisées."
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid ""
@@ -2596,6 +2634,11 @@ msgid ""
 "they will otherwise remain in the status 'in progress' and not be processed "
 "any more."
 msgstr ""
+"Un groupe fermé a généralement été envoyé à une banque pour lancer le "
+"processus de paiement, de sorte que vous ne devriez pas vouloir supprimer ce"
+" groupe de toute façon. Cependant, si vous le faites, vous devriez également"
+" envisager de supprimer toutes les contributions associées, car sinon elles "
+"resteront dans le statut \"en cours\" et ne seront plus traitées."
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid ""
@@ -2604,6 +2647,10 @@ msgid ""
 "do, deleting all associated contributions is a good choice, since they will "
 "otherwise remain in the status 'in progress' and not be processed any more."
 msgstr ""
+"A group of transactions marked as received has usually been fully processed,"
+" i.e. the money has actually arrived on your account. You should not want to"
+" delete this group. However, if you do, be sure to delete the associated "
+"contributions in case there was no money transferred in the first place."
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid ""
@@ -2612,6 +2659,11 @@ msgid ""
 "delete this group. However if you do, be sure to delete the associated "
 "contributions in case there was no money transferred in the first place."
 msgstr ""
+"Un groupe de transactions marqué comme reçu a généralement été entièrement "
+"traité, c'est-à-dire que l'argent est effectivement arrivé sur votre compte."
+" Vous ne devriez pas vouloir supprimer ce groupe. Cependant, si vous le "
+"faites, assurez-vous de supprimer les contributions associées au cas où il "
+"n'y aurait pas eu de transfert d'argent au départ."
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid ""
@@ -2620,6 +2672,11 @@ msgid ""
 "delete this group. However if you do, you should consider not deleting the "
 "associated contributions in case money was actually transferred."
 msgstr ""
+"Un groupe de transactions marqué comme reçu a généralement été entièrement "
+"traité, c'est-à-dire que l'argent est effectivement arrivé sur votre compte."
+" Vous ne devriez pas vouloir supprimer ce groupe. Cependant, si vous le "
+"faites, vous devriez envisager de ne pas supprimer les contributions "
+"associées au cas où l'argent a été réellement transféré."
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid ""
@@ -2640,6 +2697,11 @@ msgid ""
 "will otherwise remain in the status 'in progress' and not be processed any "
 "more."
 msgstr ""
+"Un groupe fermé a généralement été envoyé à une banque pour initier le "
+"processus de paiement, donc vous ne devriez pas vouloir supprimer ce groupe "
+"de toute façon. Cependant, si vous le faites, vous devriez également "
+"envisager de supprimer tous les mandats associés, car sinon ils resteront "
+"dans le statut \"en cours\" et ne seront plus traités."
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid ""
@@ -2648,6 +2710,10 @@ msgid ""
 "if there's something wrong with it, be sure not to delete any mandates that "
 "you still want to collect or keep on record."
 msgstr ""
+"Un groupe fermé a généralement été envoyé à une banque pour initier le "
+"processus de paiement, vous ne devriez donc pas vouloir le supprimer en "
+"premier lieu. Toutefois, s'il y a un problème, veillez à ne pas supprimer "
+"les mandats que vous souhaitez encore collecter ou conserver."
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid ""
@@ -2655,6 +2721,9 @@ msgid ""
 "i.e. the money actually arrived on your account. You shouldn't want to "
 "delete this group in the first place."
 msgstr ""
+"Un groupe de transactions marqué comme reçu a généralement été entièrement "
+"traité, c'est-à-dire que l'argent est effectivement arrivé sur votre compte."
+" Vous ne devriez pas vouloir supprimer ce groupe en premier lieu."
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid ""
@@ -2664,6 +2733,11 @@ msgid ""
 "with it, be sure not to delete any mandates that you still want to collect "
 "or keep a record of."
 msgstr ""
+"Un groupe de transactions marqué comme reçu a généralement été entièrement "
+"traité, c'est-à-dire que l'argent est effectivement arrivé sur votre compte."
+" Vous ne devriez pas vouloir supprimer ce groupe en premier lieu. Toutefois,"
+" s'il y a un problème, veillez à ne pas supprimer les mandats que vous "
+"souhaitez encore collecter ou conserver."
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "Are you sure this is what you want to do?"
@@ -2914,7 +2988,7 @@ msgstr "Mandats SEPA Poctuels"
 
 #: templates/CRM/Sepa/Page/MandateTab.tpl
 msgid "Installs"
-msgstr ""
+msgstr "Installe"
 
 #: templates/CRM/Sepa/Page/MandateTab.tpl
 msgid "Last Collection"
@@ -3164,11 +3238,11 @@ msgstr ""
 
 #: tests/phpunit/CRM/Sepa/VerifyIbanTest.php
 msgid "Incorrect IBAN checksum detection fails!"
-msgstr ""
+msgstr "La détection d'une somme de contrôle IBAN incorrecte échoue !"
 
 #: tests/phpunit/CRM/Sepa/VerifyIbanTest.php
 msgid "Incorrect IBAN length detection fails!"
-msgstr ""
+msgstr "La détection de la longueur incorrecte de l'IBAN échoue !"
 
 #: tests/phpunit/CRM/Sepa/VerifyIbanTest.php
 msgid "Incorrect char in IBAN detection fails!"
