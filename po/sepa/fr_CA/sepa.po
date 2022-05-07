@@ -1338,10 +1338,12 @@ msgid ""
 "Modifying an existing mandate is currently not allowed. You can change this "
 "on the SEPA settings page."
 msgstr ""
+"La modification d'un mandat existant n'est actuellement pas autorisée. Vous "
+"pouvez changer cela sur la page des paramètres SEPA."
 
 #: CRM/Sepa/Page/ListGroup.php
 msgid "SEPA Group Contributions"
-msgstr ""
+msgstr "Contributions du groupe SEPA"
 
 #: CRM/Sepa/Page/ListGroup.php
 msgid "Cannot read SEPA transaction group [%s]. Error was: '%s'"
@@ -1373,7 +1375,7 @@ msgstr "Modèle de PDF SEPA par défaut"
 
 #: CRM/Sepa/Page/SepaMandatePdf.php
 msgid "SEPA Direct Debit Payment Information"
-msgstr ""
+msgstr "Informations sur le paiement par prélèvement SEPA"
 
 #: CRM/Sepa/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
@@ -1387,6 +1389,12 @@ msgid ""
 "href=\"https://github.com/Project60/org.project60.sepapp/releases\">CiviSEPA"
 " Payment Processor</a> Extension."
 msgstr ""
+"Vos processeurs de paiement CiviSEPA ont été désactivés, le code a été "
+"déplacé dans une nouvelle extension. Si vous voulez continuer à utiliser vos"
+" processeurs de paiement CiviSEPA, veuillez installer la dernière version de"
+" l'extension de <a "
+"href=\"https://github.com/Project60/org.project60.sepapp/releases\">processeur"
+" de paiement CiviSEPA</a>. CiviSEPA Payment Processor Extension."
 
 #: CRM/Sepa/Upgrader.php
 msgid "%1 Payment Processor(s) Disabled!"
@@ -1451,7 +1459,7 @@ msgstr "Jour de prélèvement"
 
 #: Civi/Sepa/ActionProvider/Action/CreateRecurringMandate.php
 msgid "bi-monthly"
-msgstr ""
+msgstr "bimensuel"
 
 #: Civi/Sepa/ActionProvider/Action/CreateRecurringMandate.php
 msgid "as soon as possible"
@@ -1488,7 +1496,7 @@ msgstr "Toujours actif"
 
 #: Civi/Sepa/ActionProvider/Action/FindMandate.php
 msgid "Pick (if multiple results)"
-msgstr ""
+msgstr "Choisir (si plusieurs résultats)"
 
 #: Civi/Sepa/ActionProvider/Action/FindMandate.php
 #: templates/CRM/Sepa/Page/MandateTab.tpl
@@ -1509,7 +1517,7 @@ msgstr "Trouver le mandat SEPA"
 
 #: api/v3/SepaTransactionGroup.php
 msgid "SEPA DD Transaction Batch"
-msgstr ""
+msgstr "Lot de transactions SEPA DD"
 
 #: api/v3/SepaTransactionGroup.php
 msgid "This group corresponds to <a href=\"%s\">SEPA transaction group [%s]</a>"
@@ -1606,6 +1614,8 @@ msgid ""
 "This contribution has no mandate and cannot simply be changed to a SEPA "
 "payment instrument."
 msgstr ""
+"Cette contribution n'a pas de mandat et ne peut pas être simplement "
+"transformée en un instrument de paiement SEPA."
 
 #: sepa.php
 msgid "This contribution has a mandate, its payment instrument has to be '%s'"
@@ -1642,7 +1652,7 @@ msgstr ""
 
 #: sepa.php
 msgid "Interval Unit"
-msgstr ""
+msgstr "Unité d'intervalle"
 
 #: sepa.php templates/CRM/Sepa/Page/CreateMandate.tpl
 msgid "Interval"
@@ -1651,19 +1661,23 @@ msgstr "Intervalle"
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "This is the name of the contact to which this creditor is associated to."
-msgstr ""
+msgstr "Il s'agit du nom du contact auquel ce créancier est associé."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "This is the internal name of the creditor.  It can be chosen freely and will"
 " not be used outside of CiviCRM."
 msgstr ""
+"Il s'agit du nom interne du créancier. Il peut être choisi librement et ne "
+"sera pas utilisé en dehors de CiviCRM."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "This is the official name of the creditor. This will be used when "
 "communication to the banks."
 msgstr ""
+"Il s'agit du nom officiel du créancier. Il sera utilisé lors des "
+"communications avec les banques."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid "Postal address of the creditor."
@@ -1705,12 +1719,15 @@ msgstr "International Bank Account Number (IBAN) du créancier."
 msgid ""
 "Business Identifier Code (BIC) of the financial institution of the creditor."
 msgstr ""
+"Business Identifier Code (BIC) de l'institution financière du créancier."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "SEPA file format used for the transmission of the payment request file to "
 "the bank."
 msgstr ""
+"Format de fichier SEPA utilisé pour la transmission du fichier de demande de"
+" paiement à la banque."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
@@ -1723,6 +1740,8 @@ msgid ""
 "The payment processor's test mode will only accept creditors that are "
 "defined as a test creditor."
 msgstr ""
+"Le mode test du processeur de paiement n'accepte que les créanciers qui sont"
+" définis comme créanciers test."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
@@ -1757,12 +1776,16 @@ msgid ""
 "The horizon is the \"look ahead\" time frame (in days) that CiviSEPA uses to"
 " determine which recurring payments (RCUR) should be generated."
 msgstr ""
+"L'horizon est le délai d'anticipation (en jours) que CiviSEPA utilise pour "
+"déterminer quels paiements récurrents (RCUR) doivent être générés."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "The RCUR grace period is the time, that the submission of a group could be "
 "delayed before it gets deleted."
 msgstr ""
+"Le délai de grâce RCUR est le temps pendant lequel la soumission d'un groupe"
+" peut être retardée avant qu'il ne soit supprimé."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
@@ -1804,30 +1827,42 @@ msgid ""
 "The default creditor will be used when no other creditor is exclicitely set."
 " It will also be pre-selected in the back office forms."
 msgstr ""
+"Le créancier par défaut sera utilisé lorsqu'aucun autre créancier n'est "
+"explicitement défini. Il sera également présélectionné dans les formulaires "
+"du back-office."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "A strict interpretation of the SEPA standards would not allow you to modify "
 "an active mandate. Furthermore, it can potentially cause technial problems."
 msgstr ""
+"Une interprétation stricte des normes SEPA ne vous permettrait pas de "
+"modifier un mandat actif. De plus, elle peut potentiellement causer des "
+"problèmes techniques."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "If you enable this option, you will get extra actions on the 'edit mandate' "
 "page."
 msgstr ""
+"Si vous activez cette option, vous obtiendrez des actions supplémentaires "
+"sur la page \"modifier le mandat\"."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "Be aware that you should send out a new prenotification to the debitor every"
 " time you modify a mandate."
 msgstr ""
+"Sachez que vous devez envoyer une nouvelle notification au débiteur chaque "
+"fois que vous modifiez un mandat."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "The transaction message is a text that shows up on your debitors' bank "
 "statement."
 msgstr ""
+"Le message de transaction est un texte qui apparaît sur le relevé bancaire "
+"de vos débiteurs."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid "If left empty it defaults to \"Thank you\"."
@@ -3067,6 +3102,7 @@ msgstr ""
 #: tests/phpunit/CRM/Sepa/HookTest.php
 msgid "The transaction group reference is not the generated one."
 msgstr ""
+"La référence du groupe de transactions n'est pas celle qui a été générée."
 
 #: tests/phpunit/CRM/Sepa/HookTest.php
 msgid "The installment_created hook has not been called (correctly)."
@@ -3196,45 +3232,47 @@ msgstr ""
 
 #: tests/phpunit/CRM/Sepa/ReferenceGenerationTest.php
 msgid "There should be a clashing reference"
-msgstr ""
+msgstr "Il devrait y avoir une référence de collision"
 
 #: tests/phpunit/CRM/Sepa/SettingsTest.php
 msgid "set/getGenericSetting doesn't work"
-msgstr ""
+msgstr "Définir / Obtenir les paramètres généraux ne fonctionnent pas"
 
 #: tests/phpunit/CRM/Sepa/SettingsTest.php
 msgid "set/getSetting doesn't work"
-msgstr ""
+msgstr "Définir / Obtenir les paramètres ne fonctionne pas"
 
 #: tests/phpunit/CRM/Sepa/TestBase.php
 msgid ""
 "The contribution for the mandate is null. That should not be possible at "
 "this point."
 msgstr ""
+"La contribution pour le mandat est nulle. Cela ne devrait pas être possible "
+"à ce stade."
 
 #: tests/phpunit/CRM/Sepa/VerifyBicTest.php
 msgid "Invalid BIC location detection fails!"
-msgstr ""
+msgstr "La détection d'un emplacement BIC invalide échoue !"
 
 #: tests/phpunit/CRM/Sepa/VerifyBicTest.php
 msgid "Wrong BIC for IBAN detection fails!"
-msgstr ""
+msgstr "Détection d'un mauvais BIC pour l'IBAN, échec !"
 
 #: tests/phpunit/CRM/Sepa/VerifyBicTest.php
 msgid "Nonexistent BIC detection fails!"
-msgstr ""
+msgstr "Détection des BIC inexistants, échec"
 
 #: tests/phpunit/CRM/Sepa/VerifyBicTest.php
 msgid "Incorrect BIC detection fails!"
-msgstr ""
+msgstr "La détection d'un BIC incorrect échoue !"
 
 #: tests/phpunit/CRM/Sepa/VerifyIbanTest.php
 msgid "Incorrect IBAN detection fails!"
-msgstr ""
+msgstr "La détection d'un IBAN incorrect échoue !"
 
 #: tests/phpunit/CRM/Sepa/VerifyIbanTest.php
 msgid "Incorrect bank code detection fails!"
-msgstr ""
+msgstr "La détection d'un code bancaire incorrect échoue !"
 
 #: tests/phpunit/CRM/Sepa/VerifyIbanTest.php
 msgid "Incorrect IBAN checksum detection fails!"
@@ -3246,8 +3284,8 @@ msgstr "La détection de la longueur incorrecte de l'IBAN échoue !"
 
 #: tests/phpunit/CRM/Sepa/VerifyIbanTest.php
 msgid "Incorrect char in IBAN detection fails!"
-msgstr ""
+msgstr "La détection d'un caractère incorrect dans l'IBAN échoue !"
 
 #: tests/phpunit/CRM/Sepa/VerifyIbanTest.php
 msgid "Blocklistet IBAN should fail but did not!"
-msgstr ""
+msgstr "Blocklistet IBAN devrait échouer mais ne l'a pas fait !"
