@@ -48,11 +48,11 @@ msgstr "Grâce périodique"
 
 #: CRM/Admin/Form/Setting/SepaSettings.php
 msgid "Recurring&nbsp;notice&nbsp;days (follow-up)"
-msgstr "Jours de préavis périodiques (suivi)"
+msgstr "Jours&nbsp;de&nbsp;préavis&nbsp;périodiques (suivi)"
 
 #: CRM/Admin/Form/Setting/SepaSettings.php
 msgid "Recurring&nbsp;notice&nbsp;days (initial)"
-msgstr "Jours de préavis périodiques (initial)"
+msgstr "Jours&nbsp;de&nbsp;préavis&nbsp;périodiques (initial)"
 
 #: CRM/Admin/Form/Setting/SepaSettings.php
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
@@ -70,7 +70,7 @@ msgstr "Prélèvement SEPA - Paramètres"
 
 #: CRM/Admin/Form/Setting/SepaSettings.php
 msgid "Please enter the %s as number (integers only)."
-msgstr "Veuillez saisir un nombre (entier uniquement) pour %s."
+msgstr "Veuillez saisir le %s comme un nombre (entier uniquement)."
 
 #: CRM/Admin/Form/Setting/SepaSettings.php
 msgid "- select -"
@@ -189,7 +189,7 @@ msgstr "Uniquement les contributions complétées"
 
 #: CRM/Admin/Form/Setting/SepaSettings.php
 msgid "No XML drafts"
-msgstr "Aucun brouillon XML"
+msgstr "Aucun brouillons XML"
 
 #: CRM/Admin/Form/Setting/SepaSettings.php
 #: Civi/Sepa/ActionProvider/Action/CreateRecurringMandate.php
@@ -244,7 +244,7 @@ msgstr "Erreur"
 
 #: CRM/Sepa/BAO/SEPAMandate.php CRM/Sepa/Page/EditMandate.php
 msgid "Cannot read mandate [%s]. Error was: '%s'"
-msgstr "Impossible de lire le mandat [%s]. Erreur : '1%s'"
+msgstr "Impossible de lire le mandat [%s]. Erreur : '%s'"
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "Cannot close mandate [%s], it's alread batched in a non-open group!"
@@ -317,11 +317,11 @@ msgstr "Vous ne pouvez modifier que les mandats RCUR."
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "IBAN changed from '%1' to '%2'"
-msgstr "IBAN modifié de '%1' à '%2'"
+msgstr "IBAN changé de '%1' à '%2'"
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "BIC changed from '%1' to '%2'"
-msgstr "BIC modifié de '%1' à '%2'"
+msgstr "BIC changé de '%1' à '%2'"
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "Bank details changed"
@@ -361,7 +361,7 @@ msgstr "Type d'opération financière modifié de '%1' à '%2'"
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "Campaign changed"
-msgstr "La campagne a été modifiée"
+msgstr "La campagne a changé"
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "Campaign changed from '%1' [%2] to '%3' [%4]."
@@ -381,7 +381,7 @@ msgstr "Mandat SEPA mis à jour"
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "The following changes have been applied to SDD mandate %1:"
-msgstr "Les changements suivants ont été appliqués au mandat SDD"
+msgstr "Les changements suivants ont été appliqués au mandat SDD %1:"
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "Cannot adjust mandate [%s], batching in progress!"
@@ -439,15 +439,15 @@ msgstr "Adresse du créancier"
 
 #: CRM/Sepa/DAO/SEPACreditor.php CRM/Sepa/DAO/SEPAMandate.php
 msgid "Iban"
-msgstr "IBAN"
+msgstr "Iban"
 
 #: CRM/Sepa/DAO/SEPACreditor.php CRM/Sepa/DAO/SEPAMandate.php
 msgid "Bic"
-msgstr "BIC"
+msgstr "Bic"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "Currency used by this creditor"
-msgstr "Devise utilisé par le créancier"
+msgstr "Devise utilisé par ce créancier"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "Mandate numbering prefix"
@@ -608,7 +608,7 @@ msgstr "Aucun ID de contact (cid) donné."
 
 #: CRM/Sepa/Form/CreateMandate.php
 msgid "Clone SEPA Mandate for Contact [%1]: %2"
-msgstr "Cloner le mandat SEPA pour le contact [%1] : %2"
+msgstr "Cloner le mandat SEPA pour le contact [%1] : %2"
 
 #: CRM/Sepa/Form/CreateMandate.php
 msgid "Replace SEPA Mandate for Contact [%1]: %2"
@@ -817,7 +817,7 @@ msgstr "Voir les options du mandat."
 
 #: CRM/Sepa/Form/Report/SepaMandateGeneric.php
 msgid "View Contact Summary for this Contact."
-msgstr "Afficher la synthèse pour ce contact."
+msgstr "Voir la synthèse pour ce contact."
 
 #: CRM/Sepa/Form/Report/SepaMandateOOFF.mgd.php
 msgid "SEPA Mandates (One-Off)"
@@ -843,7 +843,7 @@ msgstr "Page de contribution"
 #: CRM/Sepa/Form/Report/SepaMandateOOFF.php
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php
 msgid "Contribution Collection Date"
-msgstr "Date de collection de la contribution"
+msgstr "Date de prélèvement de la contribution"
 
 #: CRM/Sepa/Form/Report/SepaMandateOOFF.php
 msgid "Fee Amount"
@@ -899,15 +899,15 @@ msgstr "Jours du cycle"
 
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php
 msgid "Total Amount Collected"
-msgstr "Montant Total Collecté"
+msgstr "Montant Total Prélevé"
 
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php
 msgid "Total Count of Collected Contributions"
-msgstr "Nombre Total de Contributions Collectées"
+msgstr "Nombre Total de Contributions prélevées"
 
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php
 msgid "Total Count of Failed/Cancelled Contribution"
-msgstr "Nombre Total de Contributions Manquées/Annulées"
+msgstr "Nombre Total de Contribution Manquée/Annulée"
 
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php
 msgid "Matching Contribution Count"
@@ -1019,7 +1019,7 @@ msgstr "%B %E%f"
 
 #: CRM/Sepa/Logic/Batching.php
 msgid "%1."
-msgstr "%1"
+msgstr "%1."
 
 #: CRM/Sepa/Logic/ContributionProtector.php
 msgid ""
@@ -1075,7 +1075,7 @@ msgstr " Nettoyage des mandats terminés"
 
 #: CRM/Sepa/Logic/Queue/Update.php
 msgid "Lock released"
-msgstr "Serrure débloquée"
+msgstr "Verrou libéré"
 
 #: CRM/Sepa/Logic/Settings.php
 msgid "Thank you"
@@ -1192,7 +1192,7 @@ msgstr "Impossible de trouver d'autres contributeurs"
 
 #: CRM/Sepa/Page/CreateMandate.php
 msgid "Couldn't load mandate #%s"
-msgstr "Impossible de charger le mandat"
+msgstr "Impossible de charger le mandat #%s"
 
 #: CRM/Sepa/Page/CreateMandate.php
 msgid "Mandate #%s seems to be broken!"
@@ -1204,7 +1204,7 @@ msgstr "Impossible de charger la (r)contribution associée #%s"
 
 #: CRM/Sepa/Page/CreateMandate.php
 msgid "'%s' is a required field."
-msgstr "'%1' est un champ obligatoire."
+msgstr "'%s' est un champ obligatoire."
 
 #: CRM/Sepa/Page/CreateMandate.php
 msgid "Cannot parse amount"
@@ -1224,7 +1224,7 @@ msgstr ""
 
 #: CRM/Sepa/Page/CreateMandate.php
 msgid "This reference is already in use."
-msgstr "Cette référence est déjà utilisé."
+msgstr "Cette référence est déjà utilisée."
 
 #: CRM/Sepa/Page/CreateMandate.php
 msgid "Incorrect date format"
@@ -1306,7 +1306,7 @@ msgstr "Erreur lors de la suppression d'une contribution récurrente : '%s'."
 #: CRM/Sepa/Page/EditMandate.php
 msgid "Succesfully deleted mandate [%s] and %s associated contribution(s)"
 msgstr ""
-"Le mandat [%s] et les %s contributions associées ont été supprimés avec "
+"Le mandat [%s] et les %s contribution(s) associée(s) ont été supprimés avec "
 "succès."
 
 #: CRM/Sepa/Page/EditMandate.php
@@ -1396,9 +1396,9 @@ msgstr ""
 "Vos processeurs de paiement CiviSEPA ont été désactivés, le code a été "
 "déplacé dans une nouvelle extension. Si vous voulez continuer à utiliser vos"
 " processeurs de paiement CiviSEPA, veuillez installer la dernière version de"
-" l'extension de <a "
-"href=\"https://github.com/Project60/org.project60.sepapp/releases\">processeur"
-" de paiement CiviSEPA</a>. CiviSEPA Payment Processor Extension."
+" l'extension  <a "
+"href=\"https://github.com/Project60/org.project60.sepapp/releases\">CiviSEPA"
+" Payment Processor</a>. "
 
 #: CRM/Sepa/Upgrader.php
 msgid "%1 Payment Processor(s) Disabled!"
@@ -1451,7 +1451,7 @@ msgstr "Fréquence (Par défaut)"
 
 #: Civi/Sepa/ActionProvider/Action/CreateRecurringMandate.php
 msgid "Collection Day (default)"
-msgstr "Jour de collecte (Par défaut)"
+msgstr "Jour de prélèvement (Par défaut)"
 
 #: Civi/Sepa/ActionProvider/Action/CreateRecurringMandate.php
 #: Civi/Sepa/ActionProvider/Action/FindMandate.php
@@ -1475,19 +1475,19 @@ msgstr "Unique"
 
 #: Civi/Sepa/ActionProvider/Action/FindMandate.php
 msgid "Newest (by ID)"
-msgstr "Les plus récents (par ID)"
+msgstr "Le plus récent (par ID)"
 
 #: Civi/Sepa/ActionProvider/Action/FindMandate.php
 msgid "Oldest (by ID)"
-msgstr "Les plus anciens (par ID)"
+msgstr "Le plus ancien (par ID)"
 
 #: Civi/Sepa/ActionProvider/Action/FindMandate.php
 msgid "Newest (by date)"
-msgstr "Les plus récents (par date)"
+msgstr "Le plus récent (par date)"
 
 #: Civi/Sepa/ActionProvider/Action/FindMandate.php
 msgid "Oldest (by date)"
-msgstr "Les plus anciens (par date)"
+msgstr "Le plus ancien (par date)"
 
 #: Civi/Sepa/ActionProvider/Action/FindMandate.php
 #: templates/CRM/Sepa/Page/CreateMandate.tpl
@@ -1525,8 +1525,7 @@ msgstr "Lot de transactions SEPA DD"
 
 #: api/v3/SepaTransactionGroup.php
 msgid "This group corresponds to <a href=\"%s\">SEPA transaction group [%s]</a>"
-msgstr ""
-"Ce groupe correspond à <a href=\"%s\">Groupe de transactions SEPA [%s]</a>"
+msgstr "Ce groupe correspond à <a href=\"%s\">SEPA transaction group [%s]</a>"
 
 #: js/CreateMandate.js
 msgid "earliest: %1"
@@ -1542,8 +1541,7 @@ msgstr "Collecte %1 sur %2"
 
 #: js/CreateMandate.js
 msgid "Collects %1 %2 on the %3., beginning %4.<br/>Annual amount is %5."
-msgstr ""
-"Collecte %1 %2 sur le %3 débutant %4. <br/>Le montant annuel est de %5."
+msgstr "Collecte %1 %2 sur le %3 débutant %4. <br/>Le montant annuel est %5."
 
 #: js/CreateMandate.js
 msgid "Account Name"
@@ -1559,12 +1557,11 @@ msgid ""
 "from %2 different contacts.<br/>The total amount is <strong>%3</strong>."
 msgstr ""
 "Tentera de recouvrir <strong>%1</strong> contributions débitées sans succès "
-"de %2 contacts différents. <br/> Le montant total est de "
-"<strong>%3</strong>."
+"de %2 contacts différents. <br/> Le montant total est <strong>%3</strong>."
 
 #: js/RetryCollection.js
 msgid "No SEPA collections match your criteria."
-msgstr "Aucune collection SEPA ne correspond à vos critères."
+msgstr "Aucun prélèvement SEPA ne correspond à vos critères."
 
 #: sepa.php
 msgid "<i>None</i>"
@@ -1580,7 +1577,7 @@ msgstr "Le mandat SEPA ne peut être trouvé"
 
 #: sepa.php
 msgid "Record SEPA Contribution"
-msgstr "Nouvelle contribution SEPA"
+msgstr "Enregistrer la contribution SEPA"
 
 #: sepa.php
 msgid "CiviSEPA Settings"
@@ -1629,11 +1626,11 @@ msgstr ""
 #: sepa.php
 msgid "This contribution has a mandate, its payment instrument has to be '%s'"
 msgstr ""
-"Cette contribution a un mandat, son instrument de paiement doit être '%s'"
+"Cette contribution a un mandat, son instrument de paiement doit être '%s'."
 
 #: sepa.php
 msgid "Most Recent SEPA Mandate"
-msgstr "Les mandats SEPA les plus récents"
+msgstr "Le mandat SEPA le plus récent"
 
 #: sepa.php
 msgid "Signature Date (raw)"
@@ -1770,8 +1767,8 @@ msgid ""
 "The horizon is the \"look ahead\" time frame (in days) that CiviSEPA uses to"
 " determine which single payments (OOFF) should be generated."
 msgstr ""
-"L'horizon est le délai d'anticipation (en jours) que CiviSEPA utilise pour "
-"déterminer quels paiements uniques (OOFF) doivent être générés."
+"L'horizon est le \"délai d'anticipation\" (en jours) que CiviSEPA utilise "
+"pour déterminer quels paiements uniques (OOFF) doivent être générés."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
@@ -1792,8 +1789,8 @@ msgid ""
 "The horizon is the \"look ahead\" time frame (in days) that CiviSEPA uses to"
 " determine which recurring payments (RCUR) should be generated."
 msgstr ""
-"L'horizon est le délai d'anticipation (en jours) que CiviSEPA utilise pour "
-"déterminer quels paiements récurrents (RCUR) doivent être générés."
+"L'horizon est le \"délai d'anticipation\" (en jours) que CiviSEPA utilise "
+"pour déterminer quels paiements récurrents (RCUR) doivent être générés."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
@@ -1836,10 +1833,10 @@ msgid ""
 "are in progress. For security reasons, this lock times out after the "
 "specified time."
 msgstr ""
-"Les opérations de CiviSEPA telles que le batching nécessitent un accès "
-"exclusif aux structures de données SEPA. Par conséquent, l'accès des autres "
-"processus est bloqué pendant que celles-ci sont en cours. Pour des raisons "
-"de sécurité, ce verrouillage prend fin après le temps spécifié."
+"Les opérations de CiviSEPA telles que le traitement par lot nécessitent un "
+"accès exclusif aux structures de données SEPA. Par conséquent, l'accès des "
+"autres processus est bloqué pendant que celles-ci sont en cours. Pour des "
+"raisons de sécurité, ce verrouillage prend fin après le temps spécifié."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
@@ -1892,7 +1889,7 @@ msgid ""
 "Some banks reject SDD groups with a collection date that doesn't happen to "
 "be a bank day, for example a week end."
 msgstr ""
-"Certaines banques refusent les groupes de DTS dont la date d'encaissement "
+"Certaines banques refusent les groupes de SDD dont la date d'encaissement "
 "n'est pas un jour bancaire, par exemple un week-end."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
@@ -1900,7 +1897,7 @@ msgid ""
 "If you activate this option, the collection date will be automatically "
 "deferred to the following Monday."
 msgstr ""
-"Si vous activez cette option, la date de collecte sera automatiquement "
+"Si vous activez cette option, la date de prélèvement sera automatiquement "
 "reportée au lundi suivant."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
@@ -1908,6 +1905,8 @@ msgid ""
 "Be aware that an active <code>defer_collection_date</code> hook can further "
 "defer the collection date."
 msgstr ""
+"Prenez garde qu'un hook actif <code>defer_collection_date</code> peut "
+"ensuite repousser la date de collecte."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
@@ -1945,8 +1944,8 @@ msgid ""
 msgstr ""
 "Si vous avez installé l'extension <a "
 "href=\"https://github.com/Project60/org.project60.bic\">Little BIC "
-"Extension</a> installée, le BIC peut être dérivé automatiquement de l'IBAN "
-"dans la plupart des cas."
+"Extension</a>, le BIC peut être dérivé automatiquement de l'IBAN dans la "
+"plupart des cas."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
@@ -2026,7 +2025,7 @@ msgid ""
 "If you have large amounts of mandates or large SDD groups, you might be at "
 "risk of a timeout error during the batching/closing process."
 msgstr ""
-"Si vous avez de grandes quantités de mandats ou de grands groupes de DTS, "
+"Si vous avez de grandes quantités de mandats ou de grands groupes de SDD, "
 "vous risquez d'avoir une erreur de délai d'attente pendant le traitement par"
 " lots/la fermeture."
 
@@ -2104,7 +2103,7 @@ msgstr "Supprimer"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "No creditors found"
-msgstr "Aucun créancier trouvé"
+msgstr "Aucun créanciers trouvés"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Add"
@@ -2405,7 +2404,7 @@ msgstr ""
 
 #: templates/CRM/Sepa/Page/CloseGroup.tpl
 msgid "Download the file via the above link"
-msgstr "Télécharger le fichier via le lien ci dessous"
+msgstr "Télécharger le fichier via le lien ci-dessus"
 
 #: templates/CRM/Sepa/Page/CloseGroup.tpl
 msgid "Submit that file to your bank"
@@ -2547,7 +2546,7 @@ msgstr "Soumission"
 
 #: templates/CRM/Sepa/Page/DashBoard.tpl
 msgid "Collection"
-msgstr "Collecte"
+msgstr "Prélèvement"
 
 #: templates/CRM/Sepa/Page/DashBoard.tpl
 msgid "Transactions"
@@ -2889,7 +2888,7 @@ msgstr ""
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "Error was:"
-msgstr "L'erreur était :"
+msgstr "Erreur :"
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid ""
@@ -2901,11 +2900,11 @@ msgstr ""
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "contribution ID"
-msgstr "Id. de contribution"
+msgstr "Identifiant de contribution"
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "error message"
-msgstr "Message d'erreur"
+msgstr "message d'erreur"
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 #: templates/CRM/Sepa/Page/EditMandate.tpl
@@ -2937,16 +2936,15 @@ msgid ""
 "Select the template that should be used to create this prenotification file."
 msgstr ""
 "Sélectionnez le modèle qui doit être utilisé pour créer ce fichier de "
-"prénotification."
+"notification."
 
 #: templates/CRM/Sepa/Page/EditMandate.hlp
 msgid ""
 "The default template can be found and edited at \"Communications\" -> "
 "\"Message Templates\" -> \"System Workflow Messages\""
 msgstr ""
-"Le modèle par défaut peut être trouvé et modifié à l'adresse "
-"\"Communications\" -> \"Modèles de message\" -> \"Messages de flux de "
-"travail du système\"."
+"Le modèle par défaut peut être trouvé et modifié dans \"Communications\" -> "
+"\"Modèles de message\" -> \"Messages de flux de travail du système\"."
 
 #: templates/CRM/Sepa/Page/EditMandate.hlp
 msgid ""
@@ -2962,7 +2960,7 @@ msgstr "Mandat SEPA récurrent"
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "SEPA Single Payment Mandate"
-msgstr "Mandat SEPA ponctuel"
+msgstr "Mandat de paiement SEPA unique"
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 #: templates/Sepa/Contribute/Form/ContributionView.tpl
@@ -2992,7 +2990,7 @@ msgstr "Contribution périodique"
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "Create Date"
-msgstr "Date de création"
+msgstr "Créer une date"
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "Last Modified"
@@ -3069,7 +3067,7 @@ msgstr "Créer un nouveau mandat identique."
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "PDF Prenotification"
-msgstr "Prenotification PDF "
+msgstr "Préavis PDF"
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "Will generate a Prenotification PDF with this mandate's data."
@@ -3129,7 +3127,7 @@ msgstr "Ajouter un nouveau mandat SEPA"
 
 #: templates/CRM/Sepa/Page/MandateTab.tpl
 msgid "Recurring SEPA Mandates"
-msgstr "Mandats SEPA Poctuels"
+msgstr "Mandats SEPA Ponctuels"
 
 #: templates/CRM/Sepa/Page/MandateTab.tpl
 msgid "Installs"
@@ -3187,7 +3185,7 @@ msgstr "Options du mandat"
 
 #: templates/Sepa/Contribute/Page/ContributionRecur.tpl
 msgid "1st contribution"
-msgstr "1er versement"
+msgstr "1er contribution"
 
 #: templates/Sepa/Contribute/Page/ContributionRecur.tpl
 msgid "Done"
@@ -3199,7 +3197,7 @@ msgstr "Notes"
 
 #: tests/phpunit/CRM/Sepa/HookTest.php
 msgid "The create_mandate hook has not been called."
-msgstr ""
+msgstr "Le hook create_mandate n'a pas été appelé."
 
 #: tests/phpunit/CRM/Sepa/HookTest.php
 msgid "The mandate reference is not the generated one."
@@ -3207,7 +3205,7 @@ msgstr "La référence au mandat n'est pas celle qui a été générée."
 
 #: tests/phpunit/CRM/Sepa/HookTest.php
 msgid "The modify_txgroup_reference hook has not been called."
-msgstr ""
+msgstr "Le hook modify_txgroup_reference n'a pas été appelé."
 
 #: tests/phpunit/CRM/Sepa/HookTest.php
 msgid "The transaction group reference is not the generated one."
@@ -3216,7 +3214,7 @@ msgstr ""
 
 #: tests/phpunit/CRM/Sepa/HookTest.php
 msgid "The installment_created hook has not been called (correctly)."
-msgstr ""
+msgstr "Le hook Installment_created n'a pas été (correctement) appelé."
 
 #: tests/phpunit/CRM/Sepa/MandateTerminationTest.php
 msgid ""
@@ -3289,7 +3287,7 @@ msgstr "La contribution au RCUR après la création est incorrecte."
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "OOFF Mandate status after batching is incorrect."
-msgstr "OOFF Le statut du mandat après la mise en lot est incorrect."
+msgstr "Le statut du mandat OOFF après la mise en lot est incorrect."
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "OOFF contribution status after batching is incorrect."
@@ -3318,7 +3316,7 @@ msgstr ""
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "OOFF Mandate status after closing is incorrect."
-msgstr "OOFF Le statut du mandat après la clôture est incorrect."
+msgstr "Le statut du mandat OOFF après la clôture est incorrect."
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "OOFF contribution status after closing is incorrect."
@@ -3384,31 +3382,31 @@ msgstr "Détection d'un mauvais BIC pour l'IBAN, échec !"
 
 #: tests/phpunit/CRM/Sepa/VerifyBicTest.php
 msgid "Nonexistent BIC detection fails!"
-msgstr "Détection des BIC inexistants, échec"
+msgstr "Détection des BIC inexistants, échec !"
 
 #: tests/phpunit/CRM/Sepa/VerifyBicTest.php
 msgid "Incorrect BIC detection fails!"
-msgstr "La détection d'un BIC incorrect échoue !"
+msgstr "Détection d'un BIC incorrect, échec !"
 
 #: tests/phpunit/CRM/Sepa/VerifyIbanTest.php
 msgid "Incorrect IBAN detection fails!"
-msgstr "La détection d'un IBAN incorrect échoue !"
+msgstr "Détection d'un IBAN incorrect, échec !"
 
 #: tests/phpunit/CRM/Sepa/VerifyIbanTest.php
 msgid "Incorrect bank code detection fails!"
-msgstr "La détection d'un code bancaire incorrect échoue !"
+msgstr "Détection d'un code bancaire incorrect, échec !"
 
 #: tests/phpunit/CRM/Sepa/VerifyIbanTest.php
 msgid "Incorrect IBAN checksum detection fails!"
-msgstr "La détection d'une somme de contrôle IBAN incorrecte échoue !"
+msgstr "Détection d'une somme de contrôle IBAN incorrecte, échec !"
 
 #: tests/phpunit/CRM/Sepa/VerifyIbanTest.php
 msgid "Incorrect IBAN length detection fails!"
-msgstr "La détection de la longueur incorrecte de l'IBAN échoue !"
+msgstr "Détection de la longueur incorrecte de l'IBAN, échec !"
 
 #: tests/phpunit/CRM/Sepa/VerifyIbanTest.php
 msgid "Incorrect char in IBAN detection fails!"
-msgstr "La détection d'un caractère incorrect dans l'IBAN échoue !"
+msgstr "Détection d'un caractère incorrect dans l'IBAN, échec !"
 
 #: tests/phpunit/CRM/Sepa/VerifyIbanTest.php
 msgid "Blocklistet IBAN should fail but did not!"
