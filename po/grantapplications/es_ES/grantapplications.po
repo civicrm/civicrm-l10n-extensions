@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: CRM/Grant/BAO/GrantApplicationPage.php
 msgid "Are you sure you want to delete this Grant application page?"
@@ -367,7 +367,7 @@ msgstr ""
 
 #: CRM/Grant/Form/GrantPage/Settings.php
 msgid "Required"
-msgstr ""
+msgstr "Necesario"
 
 #: CRM/Grant/Form/GrantPage/Settings.php
 msgid "On behalf of Label"
@@ -761,7 +761,7 @@ msgstr ""
 
 #: grantapplications.php
 msgid "Configure"
-msgstr ""
+msgstr "Configurar"
 
 #: grantapplications.php
 msgid "Edit"
