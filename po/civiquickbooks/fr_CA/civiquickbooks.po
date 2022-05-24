@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: CRM/Civiquickbooks/Contact.php
 msgid ""
@@ -25,7 +25,7 @@ msgstr ""
 
 #: CRM/Civiquickbooks/Contact.php
 msgid "Failed to store "
-msgstr ""
+msgstr "Enregistrement impossible"
 
 #: CRM/Civiquickbooks/Contact.php
 msgid " with error "
@@ -33,17 +33,19 @@ msgstr "avec erreur"
 
 #: CRM/Civiquickbooks/Contact.php
 msgid "Contact Pull failed"
-msgstr ""
+msgstr "La synchro entrante du Contact n'a pas fonctionné"
 
 #: CRM/Civiquickbooks/Contact.php
 msgid "Failed to push Contact: %1 (AccountsContact: %2) with error: %3"
 msgstr ""
+"Erreur de synchro (sortante) du Contact : %1 (AccountsContact : %2) avec "
+"l'erreur : %3"
 
 #: CRM/Civiquickbooks/Contact.php
 msgid ""
 "Not all contacts were saved:\n"
 "  "
-msgstr ""
+msgstr "Certains enregistrements n'ont pas été enregistrés :"
 
 #: CRM/Civiquickbooks/Form/Settings.php
 msgid "Submit"
@@ -95,7 +97,7 @@ msgstr "Mise à jour de %1 à la révision %2"
 
 #: civiquickbooks.php settings/civiquickbooks.setting.php
 msgid "QuickBooks"
-msgstr ""
+msgstr "QuickBooks"
 
 #: civiquickbooks.php
 msgid "Quickbooks Settings"
