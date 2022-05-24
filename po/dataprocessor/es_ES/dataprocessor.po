@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: CRM/Contact/DataProcessorContactSearch.php
 #: CRM/Contact/DataProcessorContactSummaryTab.php
@@ -1842,7 +1842,7 @@ msgstr ""
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Outputs.tpl
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Sources.tpl
 msgid "Configure"
-msgstr ""
+msgstr "Configurar"
 
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Fields.tpl
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Outputs.tpl
@@ -1990,7 +1990,7 @@ msgstr ""
 
 #: templates/CRM/Dataprocessor/Form/ManageDataProcessors.tpl
 msgid "Revert"
-msgstr ""
+msgstr "Volver"
 
 #: templates/CRM/Dataprocessor/Form/ManageDataProcessors.tpl
 msgid "Actions"
