@@ -6,39 +6,40 @@
 # sluc23 <sluc23@hotmail.com>, 2022
 # Rubén Pineda <r.pineda@ixiam.com>, 2022
 # ixiam <info@ixiam.com>, 2022
+# Darío Hereñú, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: accountsync\n"
 "POT-Creation-Date: 2020-09-17 05:01+0000\n"
-"Last-Translator: ixiam <info@ixiam.com>, 2022\n"
+"Last-Translator: Darío Hereñú, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/civicrm/teams/1905/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 msgid "Account Contacts"
-msgstr ""
+msgstr "Contactos de la cuenta"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 msgid "Account Contact"
-msgstr ""
+msgstr "Contacto de la cuenta:"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 msgid "Unique AccountContact ID"
-msgstr ""
+msgstr "Unico ID AccountContact"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 msgid "FK to Contact"
-msgstr ""
+msgstr "FK a contacto"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "External Reference"
-msgstr ""
+msgstr "Referencia externa"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 msgid "Display Name"
@@ -46,57 +47,58 @@ msgstr "Mostrar nombre"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 msgid "Name from Accounts Package"
-msgstr ""
+msgstr "Nombre del paquete de cuentas"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Last Sync Date"
-msgstr ""
+msgstr "Fecha de la última sincronización"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "When was the contact last synced."
-msgstr ""
+msgstr "Cuándo se sincronizó el contacto por última vez."
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Accounts Modified Date"
-msgstr ""
+msgstr "Fecha de modificación de las cuentas"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "When was the invoice last Altered in the accounts system."
 msgstr ""
+"Cuándo fue la última modificación de la factura en el sistema de cuentas."
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Account System Data"
-msgstr ""
+msgstr "Datos del sistema de la cuenta"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "json array of data as returned from accounts system"
-msgstr ""
+msgstr "matriz json de datos devueltos por el sistema de cuentas"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Account Error Data"
-msgstr ""
+msgstr "Datos de error de la cuenta"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "json array of error data as returned from accounts system"
-msgstr ""
+msgstr "matriz json de errores de datos devueltos por el sistema de cuentas"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Accounts Needs Update"
-msgstr ""
+msgstr "Cuentas necesitan actualización"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Include in next push to accounts"
-msgstr ""
+msgstr "Incluir en el próximo envío a cuentas"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php
@@ -104,36 +106,38 @@ msgid ""
 "ID of connector. Relevant to connect to more than one account of the same "
 "type"
 msgstr ""
+"ID del conector. Relevante para conectarse a más de una cuenta del mismo "
+"tipo"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Account Plugin"
-msgstr ""
+msgstr "Complemento de la cuenta"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Name of plugin creating the account"
-msgstr ""
+msgstr "Nombre del complemento creador de la cuenta"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 msgid "Do Not Sync"
-msgstr ""
+msgstr "No sincronizar"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 msgid "Do not sync this contact"
-msgstr ""
+msgstr "No sincronizar este contacto"
 
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Account Invoices"
-msgstr ""
+msgstr "Facturas de la cuenta"
 
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Account Invoice"
-msgstr ""
+msgstr "Factura de la cuenta"
 
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Unique AccountInvoice ID"
-msgstr ""
+msgstr "Unico ID AccountInvoice"
 
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Contribution ID"
@@ -141,11 +145,11 @@ msgstr "ID de contribución"
 
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "FK to contribution table."
-msgstr ""
+msgstr "FK a tabla de contribución"
 
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Status in accounts system (mapped to civicrm definition)"
-msgstr ""
+msgstr "Estado en el sistema de cuentas (asignado a la definición de civicrm)"
 
 #: CRM/Accountsync/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
@@ -156,18 +160,25 @@ msgid ""
 "You are deleting a contact that has been synced to your accounts system. It "
 "is recommended you restore the contact & fix this"
 msgstr ""
+"Está eliminando un contacto que se ha sincronizado con su sistema de "
+"cuentas. Se recomienda que restaure el contacto y arregle esto"
 
 #: accountsync.php
 msgid ""
 "You have deleted a contact that has been synced to your accounts system. The"
 " sync tracking record has been deleted. Resolution is unclear"
 msgstr ""
+"Ha eliminado un contacto que se ha sincronizado con su sistema de cuentas. "
+"El registro de seguimiento de sincronización se ha eliminado. La resolución "
+"no está clara"
 
 #: accountsync.php
 msgid ""
 "You have deleted an invoice that has been synced to your accounts system. "
 "You will need to remove it from your accounting package"
 msgstr ""
+"Ha eliminado una factura que se ha sincronizado con su sistema de cuentas. "
+"Deberá eliminarlo de su paquete de contabilidad."
 
 #: ang/accountsync/EditCtrl.html
 msgid "%1"
@@ -175,7 +186,7 @@ msgstr "%1"
 
 #: ang/accountsync/EditCtrl.html
 msgid "Name not provided."
-msgstr ""
+msgstr "Nombre no suministrado"
 
 #: ang/accountsync/EditCtrl.html
 msgid "OK"
@@ -183,19 +194,19 @@ msgstr "OK"
 
 #: ang/accountsync/EditCtrl.html
 msgid "Exclude"
-msgstr ""
+msgstr "Excluir"
 
 #: ang/accountsync/EditCtrl.html
 msgid "Create: "
-msgstr ""
+msgstr "Crear:"
 
 #: ang/accountsync/EditCtrl.html
 msgid "Match"
-msgstr ""
+msgstr "Coincidencia"
 
 #: ang/accountsync/EditCtrl.js
 msgid "accountsync"
-msgstr ""
+msgstr "accountsync"
 
 #: ang/accountsync/EditCtrl.js
 msgid "Saving..."
@@ -207,4 +218,4 @@ msgstr "Guardado"
 
 #: templates/CRM/accountsync/EditCtrl.hlp
 msgid "The name recorded in the accounting package."
-msgstr ""
+msgstr "El nombre grabado en el paquete de la cuenta."
