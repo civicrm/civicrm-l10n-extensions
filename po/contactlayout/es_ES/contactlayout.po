@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: CRM/Contactlayout/BAO/ContactLayout.php
 msgid "Predefined"
@@ -292,12 +292,14 @@ msgid "%count year"
 msgid_plural "%count years"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
 
 #: CRM/Contactlayout/Page/Inline/ProfileBlock.php
 msgid "%count month"
 msgid_plural "%count months"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
 
 #: CRM/Contactlayout/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
@@ -465,7 +467,7 @@ msgstr ""
 
 #: ang/contactlayout/contactlayout-block.html
 msgid "Remove block"
-msgstr ""
+msgstr "Quitar bloque"
 
 #: ang/contactlayout/contactlayout-block.html
 msgid "Delete block"
