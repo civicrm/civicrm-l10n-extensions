@@ -7,12 +7,13 @@
 # Mariusz Piwnik <mariusz.piwnik@gmail.com>, 2022
 # Karolina Pomarańska <karolina@caltha.pl>, 2022
 # Marcin Lewandowski <email.marcina.lewandowskiego@gmail.com>, 2022
+# Patryk Babiński, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: grantapplications\n"
 "POT-Creation-Date: 2020-08-04 05:01+0000\n"
-"Last-Translator: Marcin Lewandowski <email.marcina.lewandowskiego@gmail.com>, 2022\n"
+"Last-Translator: Patryk Babiński, 2022\n"
 "Language-Team: Polish (https://www.transifex.com/civicrm/teams/1905/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +23,7 @@ msgstr ""
 
 #: CRM/Grant/BAO/GrantApplicationPage.php
 msgid "Are you sure you want to delete this Grant application page?"
-msgstr ""
+msgstr "Czy na pewno chcesz usunąć stronę tego wniosku o dotację?"
 
 #: CRM/Grant/BAO/GrantApplicationPage.php CRM/UF/Page/Group.php
 msgid "Enable"
@@ -38,12 +39,12 @@ msgstr "Usuń"
 
 #: CRM/Grant/BAO/GrantApplicationPage.php
 msgid "Info and Settings"
-msgstr ""
+msgstr "Informacje i Ustawienia"
 
 #: CRM/Grant/BAO/GrantApplicationPage.php CRM/Grant/Form/Grant/Main.php
 #: CRM/Grant/Form/GrantPage/Draft.php CRM/Grant/Form/GrantPage/TabHeader.php
 msgid "Save as Draft"
-msgstr ""
+msgstr "zapisz projekt"
 
 #: CRM/Grant/BAO/GrantApplicationPage.php
 msgid "Receipt"
@@ -53,7 +54,7 @@ msgstr ""
 #: CRM/Grant/Form/GrantPage/TabHeader.php
 #: templates/CRM/Grant/Form/GrantPage/Tab.hlp
 msgid "Profiles"
-msgstr ""
+msgstr "Profile"
 
 #: CRM/Grant/BAO/GrantApplicationPage.php grantapplications.php
 msgid "Grant Application (Live)"
@@ -65,7 +66,7 @@ msgstr ""
 
 #: CRM/Grant/BAO/GrantApplicationPage.php
 msgid "Automatically Generated"
-msgstr ""
+msgstr "Wygenerowany Automatycznie"
 
 #: CRM/Grant/BAO/Query.php
 msgid "Grant Money Transfer Date is NULL"
@@ -93,11 +94,11 @@ msgstr ""
 
 #: CRM/Grant/BAO/Query.php
 msgid "Grant Type(s)"
-msgstr ""
+msgstr "Rodzaj(-e) Grantów"
 
 #: CRM/Grant/BAO/Query.php
 msgid "Grant Status(s)"
-msgstr ""
+msgstr "Status Grantu"
 
 #: CRM/Grant/BAO/Query.php
 msgid "%1 %2 %3"
@@ -119,12 +120,12 @@ msgstr ""
 
 #: CRM/Grant/BAO/Query.php templates/CRM/Grant/Page/UserDashboard.tpl
 msgid "Grant Type"
-msgstr ""
+msgstr "Rodzaj Grantu"
 
 #: CRM/Grant/BAO/Query.php
 #: CRM/Grantapplications/BAO/GrantApplicationProfile.php
 msgid "Grant Status"
-msgstr ""
+msgstr "Status Grantu"
 
 #: CRM/Grant/BAO/Query.php
 msgid "Date is not set"
@@ -132,7 +133,7 @@ msgstr ""
 
 #: CRM/Grant/BAO/Query.php
 msgid "Minimum Amount"
-msgstr ""
+msgstr "Stawka minimalna"
 
 #: CRM/Grant/BAO/Query.php CRM/Grant/Form/GrantPage/Settings.php
 msgid "Please enter a valid money value (e.g. %1)."
@@ -148,7 +149,7 @@ msgstr ""
 
 #: CRM/Grant/Form/Grant/Confirm.php
 msgid "Save Now"
-msgstr ""
+msgstr "Zapisz teraz"
 
 #: CRM/Grant/Form/Grant/Confirm.php
 msgid "Processing"
@@ -156,7 +157,7 @@ msgstr ""
 
 #: CRM/Grant/Form/Grant/Confirm.php
 msgid "Go Back"
-msgstr ""
+msgstr "wróć wstecz"
 
 #: CRM/Grant/Form/Grant/Confirm.php grantapplications.php
 msgid "Online Grant Application"
@@ -172,7 +173,7 @@ msgstr ""
 
 #: CRM/Grant/Form/Grant/Main.php
 msgid "Email is not valid."
-msgstr ""
+msgstr "Email jest nieważny "
 
 #: CRM/Grant/Form/Grant/Main.php
 msgid "Please enter a valid amount (numbers and decimal point only)."
@@ -184,11 +185,11 @@ msgstr "Wyślij"
 
 #: CRM/Grant/Form/Grant/Main.php
 msgid "Please enter valid amount."
-msgstr ""
+msgstr "Proszę wprowadzić właściwą kwotę."
 
 #: CRM/Grant/Form/Grant/Main.php
 msgid "Requested amount has to be greater than zero."
-msgstr ""
+msgstr "Żądana kwota musi być większa od zera."
 
 #: CRM/Grant/Form/Grant/OnBehalfOf.php
 msgid ""
@@ -196,6 +197,9 @@ msgid ""
 "behalf of an organization and the selected onbehalf profile is either "
 "disabled or not found."
 msgstr ""
+"Ta strona wniosku o dotację została skonfigurowana do ubiegania się o "
+"dotacje w imieniu organizacji. Dla wybranego profilu opcja została wyłączona"
+" lub jest niedostępna."
 
 #: CRM/Grant/Form/Grant/OnBehalfOf.php
 msgid ""
@@ -203,10 +207,13 @@ msgid ""
 "behalf of an organization and the required fields of the selected onbehalf "
 "profile are disabled."
 msgstr ""
+"Ta strona wniosku o dotację została skonfigurowana do ubiegania się o "
+"dotacje w imieniu organizacji, dlatego wymagane pola do zaznaczenia zostały "
+"wyłączone dla tego profilu."
 
 #: CRM/Grant/Form/Grant/OnBehalfOf.php CRM/Grant/Form/GrantBase.php
 msgid "Organization Details"
-msgstr ""
+msgstr "Szczegoły Organizacji"
 
 #: CRM/Grant/Form/Grant/OnBehalfOf.php
 msgid "Select an existing related Organization OR enter a new one"
@@ -214,23 +221,23 @@ msgstr ""
 
 #: CRM/Grant/Form/Grant/OnBehalfOf.php CRM/Grant/Form/GrantBase.php
 msgid "Select an existing organization"
-msgstr ""
+msgstr "Wybierz istniejącą Organizację"
 
 #: CRM/Grant/Form/Grant/OnBehalfOf.php CRM/Grant/Form/GrantBase.php
 msgid "Enter a new organization"
-msgstr ""
+msgstr "Wprowadź nową Organizację"
 
 #: CRM/Grant/Form/Grant/OnBehalfOf.php CRM/Grant/Form/GrantBase.php
 msgid "options"
-msgstr ""
+msgstr "opcje"
 
 #: CRM/Grant/Form/GrantBase.php
 msgid "The page you requested is currently unavailable."
-msgstr ""
+msgstr "Żądana strona jest obecnie niedostępna."
 
 #: CRM/Grant/Form/GrantBase.php
 msgid "Some of the profile fields cannot be configured for this page."
-msgstr ""
+msgstr "Niektórych pól profilu nie można skonfigurować dla tej strony."
 
 #: CRM/Grant/Form/GrantBase.php
 msgid "Warning"
@@ -246,7 +253,7 @@ msgstr ""
 
 #: CRM/Grant/Form/GrantBase.php
 msgid "Group(s)"
-msgstr ""
+msgstr "Grupa/Grupy"
 
 #: CRM/Grant/Form/GrantBase.php
 msgid "Tag(s)"
@@ -265,11 +272,11 @@ msgstr "Dołącz profil"
 
 #: CRM/Grant/Form/GrantPage/Custom.php
 msgid "(top of page)"
-msgstr ""
+msgstr "(Góra strony)"
 
 #: CRM/Grant/Form/GrantPage/Custom.php
 msgid "(bottom of page)"
-msgstr ""
+msgstr "(Dół strony)"
 
 #: CRM/Grant/Form/GrantPage/Custom.php
 msgid "Include Profiles (%1)"
@@ -281,7 +288,7 @@ msgstr ""
 
 #: CRM/Grant/Form/GrantPage/Delete.php
 msgid "You do not have permission to access this page"
-msgstr ""
+msgstr "Nie masz uprawnień, aby uzyskać dostęp do tej strony"
 
 #: CRM/Grant/Form/GrantPage/Delete.php
 msgid "Delete Grant Application Page"
@@ -318,11 +325,11 @@ msgstr ""
 #: CRM/Grant/Form/GrantPage/Settings.php
 #: templates/CRM/Grant/Form/GrantPage/Tab.hlp
 msgid "Title and Settings"
-msgstr ""
+msgstr "Tytuł i Ustawienia"
 
 #: CRM/Grant/Form/GrantPage/Settings.php
 msgid "I am applying for grant on behalf of an organization."
-msgstr ""
+msgstr "Ubiegam się o dotację w imieniu organizacji."
 
 #: CRM/Grant/Form/GrantPage/Settings.php
 #: CRM/Grant/Form/GrantPage/TabHeader.php
@@ -336,7 +343,7 @@ msgstr ""
 
 #: CRM/Grant/Form/GrantPage/Settings.php
 msgid "Introductory Message"
-msgstr ""
+msgstr "Wiadomość Wprowadzająca"
 
 #: CRM/Grant/Form/GrantPage/Settings.php
 msgid "Footer Message"
@@ -356,7 +363,7 @@ msgstr ""
 
 #: CRM/Grant/Form/GrantPage/Settings.php
 msgid "Organization Profile"
-msgstr ""
+msgstr "Profil Organizacji"
 
 #: CRM/Grant/Form/GrantPage/Settings.php
 msgid "Optional"
@@ -364,7 +371,7 @@ msgstr ""
 
 #: CRM/Grant/Form/GrantPage/Settings.php
 msgid "Required"
-msgstr ""
+msgstr "Wymagane"
 
 #: CRM/Grant/Form/GrantPage/Settings.php
 msgid "On behalf of Label"
@@ -404,7 +411,7 @@ msgstr ""
 
 #: CRM/Grant/Form/GrantPage/Settings.php
 msgid "End date should be after Start date."
-msgstr ""
+msgstr "Data zakończenia powinna przypadać po dacie rozpoczęcia."
 
 #: CRM/Grant/Form/GrantPage/Settings.php CRM/Grant/Form/GrantPage.php
 msgid "'%1' information has been saved."
@@ -526,11 +533,11 @@ msgstr ""
 
 #: CRM/Grant/Info.php
 msgid "View all grants"
-msgstr ""
+msgstr "Wyświetl wszystkie granty"
 
 #: CRM/Grant/Info.php
 msgid "edit grants"
-msgstr ""
+msgstr "Edytuj grant"
 
 #: CRM/Grant/Info.php
 msgid "Create and update grants"
@@ -546,7 +553,7 @@ msgstr ""
 
 #: CRM/Grant/Info.php
 msgid "Delete grants"
-msgstr ""
+msgstr "Usuń grant"
 
 #: CRM/Grant/Info.php CRM/UF/Page/ProfileEditor.php
 msgid "Grant"
@@ -582,15 +589,15 @@ msgstr ""
 
 #: CRM/UF/Page/Group.php
 msgid "Are you sure you want to make a copy of this Profile?"
-msgstr ""
+msgstr "Czy na pewno chcesz zrobić kopię tego profilu?"
 
 #: CRM/UF/Page/Group.php
 msgid "Fields"
-msgstr ""
+msgstr "Pola"
 
 #: CRM/UF/Page/Group.php
 msgid "View and Edit Fields"
-msgstr ""
+msgstr "Wyświetl i edytuj pola"
 
 #: CRM/UF/Page/Group.php
 msgid "Settings"
@@ -678,7 +685,7 @@ msgstr ""
 
 #: CRM/UF/Page/ProfileEditor.php
 msgid "Activity"
-msgstr ""
+msgstr "Działalność"
 
 #: CRM/UF/Page/ProfileEditor.php
 msgid "Contribution"
@@ -690,7 +697,7 @@ msgstr "Członkostwo"
 
 #: CRM/UF/Page/ProfileEditor.php
 msgid "Participant"
-msgstr ""
+msgstr "Uczestnik"
 
 #: CRM/UF/Page/ProfileEditor.php
 msgid "Case"
@@ -702,7 +709,7 @@ msgstr ""
 
 #: CRM/UF/Page/ProfileEditor.php
 msgid "Formatting"
-msgstr ""
+msgstr "Formatowanie"
 
 #: CRM/UF/Page/ProfileEditor.php
 msgid "%1: %2"
@@ -1023,6 +1030,9 @@ msgid ""
 " page title. You can include images, as long as they are already uploaded to"
 " a server - click the \"Image\" button in the button bar."
 msgstr ""
+"Wpisz treść wiadomości wprowadzającej. Będzie to wyświetlane pod tytułem "
+"strony. Możesz dołączyć obrazy, o ile są już przesłane na serwer - kliknij "
+"przycisk \"Obraz\" na pasku przycisków."
 
 #: templates/CRM/Grant/Form/GrantPage/Settings.hlp
 msgid "Footer Content"
