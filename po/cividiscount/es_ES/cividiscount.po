@@ -4,19 +4,19 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # ixiam <info@ixiam.com>, 2017
-# Irene López Meijide, 2021
+# Irene López Meijide, 2021-2022
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
 "POT-Creation-Date: 2021-06-02 05:01+0000\n"
 "PO-Revision-Date: 2014-04-28 23:36+0000\n"
-"Last-Translator: Irene López Meijide, 2021\n"
+"Last-Translator: Irene López Meijide, 2021-2022\n"
 "Language-Team: Spanish (http://www.transifex.com/civicrm/civicrm_extensions/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: CRM/CiviDiscount/DAO/Item.php
 msgid "Discount Codes"
@@ -75,7 +75,7 @@ msgstr ""
 
 #: CRM/CiviDiscount/DAO/Item.php
 msgid "Number of times this code has been used"
-msgstr ""
+msgstr "Número de veces que este código se ha usado"
 
 #: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/Form/Admin.php
 #: templates/CRM/CiviDiscount/Page/View.tpl
@@ -123,7 +123,7 @@ msgstr ""
 
 #: CRM/CiviDiscount/DAO/Item.php
 msgid "Date this discount activated"
-msgstr ""
+msgstr "Fecha de activación del descuento"
 
 #: CRM/CiviDiscount/DAO/Item.php
 msgid "Expire On"
@@ -131,7 +131,7 @@ msgstr ""
 
 #: CRM/CiviDiscount/DAO/Item.php
 msgid "Date this discount expires"
-msgstr ""
+msgstr "Fecha de expiración del descuento"
 
 #: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/Form/Admin.php
 msgid "Is this discount active?"
@@ -155,11 +155,11 @@ msgstr ""
 
 #: CRM/CiviDiscount/DAO/Track.php
 msgid "Discount Trackings"
-msgstr ""
+msgstr "Seguimientos de descuentos"
 
 #: CRM/CiviDiscount/DAO/Track.php
 msgid "Discount Tracking"
-msgstr ""
+msgstr "Seguimiento de descuento"
 
 #: CRM/CiviDiscount/DAO/Track.php
 msgid "FK to Item ID of the discount code"
@@ -175,7 +175,7 @@ msgstr "Fecha de uso"
 
 #: CRM/CiviDiscount/DAO/Track.php
 msgid "Date of use"
-msgstr ""
+msgstr "Fecha de uso"
 
 #: CRM/CiviDiscount/DAO/Track.php
 msgid "Track"
@@ -231,7 +231,7 @@ msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Fixed Amount"
-msgstr ""
+msgstr "Cantidad Fija"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Usage Limit"
@@ -279,7 +279,7 @@ msgstr "Tipos de evento"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Price Field Options"
-msgstr ""
+msgstr "Opciones de Campo de Precio"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "- any -"
@@ -287,7 +287,7 @@ msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Please re-enter %1, a %2 is required."
-msgstr ""
+msgstr "Por favor, vuelva a registrar %1, el %2  es requerido"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Selected Discount has been deleted."
@@ -309,11 +309,11 @@ msgstr "Guardado"
 msgid ""
 "The events you selected will be ignored because you also chose \"any "
 "event.\""
-msgstr ""
+msgstr "Los eventos seleccionados se ignorarán ya que también seleccionó \"cualquier evento\". "
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "The discount \"%1\" has been saved."
-msgstr ""
+msgstr "El descuento \"%1\" se ha guardado"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "You cannot nest apis in the advanced filter"
@@ -457,7 +457,7 @@ msgstr ""
 
 #: cividiscount.php
 msgid "Includes applied discount"
-msgstr ""
+msgstr "Incluye descuento aplicado"
 
 #: cividiscount.php
 msgid "If you have a discount code, enter it here"
@@ -520,7 +520,7 @@ msgstr ""
 
 #: templates/CRM/CiviDiscount/Form/Admin.hlp
 msgid "This discount can be used on any event of the select type(s)."
-msgstr ""
+msgstr "Este descuento puede ser usado en cualquier evento del tipo seleccionado"
 
 #: templates/CRM/CiviDiscount/Form/Admin.hlp
 msgid ""
@@ -592,7 +592,7 @@ msgstr "Descuentos automáticos"
 msgid ""
 "Discount will be applied automatically if all of the following conditions "
 "are met (no code needed)."
-msgstr ""
+msgstr "El descuento se aplicará si se cumplen todas las siguientes condiciones (no se necesita código)"
 
 #: templates/CRM/CiviDiscount/Page/List.tpl
 msgid ""
