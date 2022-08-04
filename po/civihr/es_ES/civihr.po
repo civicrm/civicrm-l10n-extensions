@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: /hrabsence/js/new/views.js /hrabsence/js/filter/views.js
 #: hrabsence/js/new/views.js hrabsence/js/filter/views.js
@@ -525,7 +525,7 @@ msgstr "Actualizar %1 a la revisión %2"
 
 #: hrabsence/hrabsence.php
 msgid "Calendar"
-msgstr ""
+msgstr "Calendario"
 
 #: hrabsence/hrabsence.php
 msgid "New Absence"
@@ -680,7 +680,7 @@ msgstr ""
 
 #: hrjob/CRM/HRJob/BAO/Query.php
 msgid "To"
-msgstr ""
+msgstr "A"
 
 #: hrjob/CRM/HRJob/BAO/Query.php
 msgid "Please enter a valid decimal value (e.g. %1)."
@@ -707,7 +707,7 @@ msgstr ""
 
 #: hrjob/CRM/HRJob/DAO/HRJob.php
 msgid "Job Title"
-msgstr ""
+msgstr "Profesión"
 
 #: hrjob/CRM/HRJob/DAO/HRJob.php
 msgid "Job Department"
@@ -1136,7 +1136,7 @@ msgstr "email del contacto origen"
 #: hrreport/CRM/HRReport/Form/Activity/HRAbsence.php
 #: hrreport/CRM/HRReport/Form/Activity/HRAbsenceCalendar.php
 msgid "Activity ID"
-msgstr ""
+msgstr "ID de la Actividad"
 
 #: hrreport/CRM/HRReport/Form/Activity/HRAbsence.php
 msgid "Subject"
