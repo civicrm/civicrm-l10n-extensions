@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: CRM/Extendedreport/Form/Report/ActivityPivot.php
 #: CRM/Extendedreport/Form/Report/Case/ActivityPivot.php
@@ -91,7 +91,7 @@ msgstr "Caso"
 
 #: CRM/Extendedreport/Form/Report/ColumnDefinitionTrait.php
 msgid "Activity ID"
-msgstr ""
+msgstr "ID de la Actividad"
 
 #: CRM/Extendedreport/Form/Report/ColumnDefinitionTrait.php
 msgid "Activity Type"
@@ -179,7 +179,7 @@ msgstr ""
 
 #: CRM/Extendedreport/Form/Report/ColumnDefinitionTrait.php
 msgid "External ID"
-msgstr ""
+msgstr "Identificador Externo"
 
 #: CRM/Extendedreport/Form/Report/ColumnDefinitionTrait.php
 msgid "Contact Name (in sort format)"
@@ -385,7 +385,7 @@ msgstr ""
 
 #: CRM/Extendedreport/Form/Report/Contact/AddressHistory.php
 msgid "Address ID"
-msgstr ""
+msgstr "ID de la dirección"
 
 #: CRM/Extendedreport/Form/Report/Contact/AddressHistory.php
 msgid "Contact ID"
@@ -1084,7 +1084,7 @@ msgstr "Website"
 
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
 msgid "Website Type"
-msgstr ""
+msgstr "Tipo de Web"
 
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
 msgid "Relationship ID"
