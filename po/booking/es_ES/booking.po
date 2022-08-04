@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: CRM/Admin/Form/AdhocChargesItem.php
 msgid "Settings - Additional Charges Item"
@@ -1503,7 +1503,7 @@ msgstr "Principal"
 
 #: templates/CRM/Booking/Form/DayView.tpl
 msgid "Edit Search"
-msgstr ""
+msgstr "Editar Búsqueda"
 
 #: templates/CRM/Booking/Form/DayView.tpl
 msgid "No matches found."
@@ -1533,7 +1533,7 @@ msgstr ""
 #: templates/CRM/Booking/Form/Search/DayViewResults.tpl
 #: templates/CRM/Booking/tpl/add-sub-resource/add-sub-resource.tpl
 msgid "To"
-msgstr ""
+msgstr "A"
 
 #: templates/CRM/Booking/Form/Search/DayViewResults.tpl
 msgid "Function Title"
