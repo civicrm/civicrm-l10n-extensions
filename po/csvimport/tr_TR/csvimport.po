@@ -1,4 +1,4 @@
-# Copyright CiviCRM LLC (c) 2004-2014
+# Copyright CiviCRM LLC (c) 2004-2015
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
@@ -6,33 +6,30 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2014-06-16 05:30-0700\n"
+"POT-Creation-Date: 2021-08-26 05:01+0000\n"
 "PO-Revision-Date: 2014-06-16 12:30+0000\n"
-"Language-Team: Turkish (Turkey) (http://www.transifex.com/projects/p/civicrm_extensions/language/tr_TR/)\n"
+"Language-Team: Turkish (http://www.transifex.com/civicrm/civicrm_extensions/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: tr_TR\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
 #: CRM/Csvimport/Import/Form/DataSource.php
+msgid "Entity To Import"
+msgstr ""
+
+#: CRM/Csvimport/Import/Form/DataSource.php
+#: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
 msgid "- select -"
+msgstr "- Seçin -"
+
+#: CRM/Csvimport/Import/Form/DataSource.php
+msgid "Which entity are you importing \"Notes\" to"
 msgstr ""
 
-#: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
-#: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
-msgid "Continue >>"
-msgstr ""
-
-#: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
-#: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
-msgid "Cancel"
-msgstr ""
-
-#: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
-#: CRM/Csvimport/Import/Parser/Api.php CRM/Csvimport/Import/Parser.php
-msgid "- do not import -"
+#: CRM/Csvimport/Import/Form/DataSource.php
+msgid "Set this in CSV"
 msgstr ""
 
 #: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
@@ -80,6 +77,28 @@ msgid "Import Field Separator"
 msgstr ""
 
 #: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
+msgid "Number Of Items To Process For Each Queue Item"
+msgstr ""
+
+#: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
+msgid "Allow Updating An Entity Using Unique Fields"
+msgstr ""
+
+#: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
+msgid "Ignore Case For Field Option Values"
+msgstr ""
+
+#: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
+#: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
+msgid "Continue >>"
+msgstr ""
+
+#: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
+#: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
+msgid "Cancel"
+msgstr "İptal"
+
+#: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
 msgid "Individual"
 msgstr ""
 
@@ -99,8 +118,12 @@ msgstr ""
 msgid "Upload Data"
 msgstr ""
 
-#: CRM/Csvimport/Import/Form/DataSource.php
-msgid "Entity To Import"
+#: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
+msgid "Match using"
+msgstr ""
+
+#: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
+msgid "Match using a combination of"
 msgstr ""
 
 #: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
@@ -109,7 +132,7 @@ msgstr ""
 
 #: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
 msgid "Name"
-msgstr ""
+msgstr "Ad"
 
 #: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
 msgid "Description"
@@ -125,6 +148,11 @@ msgstr ""
 
 #: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
 msgid "Mapper for Field %1"
+msgstr ""
+
+#: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
+#: CRM/Csvimport/Import/Parser/Api.php CRM/Csvimport/Import/Parser.php
+msgid "- do not import -"
 msgstr ""
 
 #: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
@@ -146,6 +174,10 @@ msgstr ""
 msgid "Select saved mapping"
 msgstr ""
 
+#: CRM/Csvimport/Import/Form/PreviewBaseClass.php
+msgid "CSVImport Queue Runner - Import"
+msgstr ""
+
 #: CRM/Csvimport/Import/Form/SummaryBaseClass.php
 msgid "These records have been updated with the imported data."
 msgstr ""
@@ -162,8 +194,8 @@ msgstr ""
 msgid "Missing required field(s) :"
 msgstr ""
 
-#: CRM/Csvimport/Import/Parser.php
-msgid "Line Number"
+#: CRM/Csvimport/Import/Parser/Api.php
+msgid "Importing entity"
 msgstr ""
 
 #: CRM/Csvimport/Import/Parser.php
@@ -171,7 +203,19 @@ msgid "Reason"
 msgstr ""
 
 #: CRM/Csvimport/Import/Parser.php
+msgid "Line Number"
+msgstr ""
+
+#: CRM/Csvimport/Import/Parser.php
 msgid "View Activity History URL"
+msgstr ""
+
+#: CRM/Csvimport/Task/Import.php
+msgid "Invalid value for field"
+msgstr ""
+
+#: csvimport.php
+msgid "API csv Import"
 msgstr ""
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.hlp
@@ -207,6 +251,19 @@ msgid ""
 msgstr ""
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
+msgid ""
+"Choose 'Set this in CSV' to use 'entity_table' field in next step. This "
+"allows you to import 'Notes' to multiple entities in same import."
+msgstr ""
+
+#: templates/CRM/Csvimport/Import/Form/DataSource.tpl
+msgid ""
+"Selecting an entity here will allow unique fields of this entity to be used "
+"in place of 'id'. Eg: External id for 'Contact'. (note: this will hide "
+"'entity_table' field in next step)"
+msgstr ""
+
+#: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid "File format must be comma-separated-values (CSV)."
 msgstr ""
 
@@ -221,13 +278,30 @@ msgid ""
 msgstr ""
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
+msgid "This is the number of rows to process in each queue item. (Eg. 10)"
+msgstr ""
+
+#: templates/CRM/Csvimport/Import/Form/DataSource.tpl
+msgid ""
+"Allow updating an existing entity using unique fields to match (Eg. "
+"external_id). By default updating is possible if 'id' is used."
+msgstr ""
+
+#: templates/CRM/Csvimport/Import/Form/DataSource.tpl
+msgid ""
+"Ignore letter-case when mapping values to option fields (Eg. Individual "
+"Prefix). Note that this may produce unexpected results if you have multiple "
+"option names with same name like Ms. and ms."
+msgstr ""
+
+#: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid "Select a Different Field Mapping"
 msgstr ""
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid ""
 "Load Saved Field\n"
-"          Mapping"
+"            Mapping"
 msgstr ""
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
@@ -244,9 +318,8 @@ msgstr ""
 
 #: templates/CRM/Csvimport/Import/Form/MapField.tpl
 msgid ""
-"Click 'Load Saved Field Mapping' if data has been previously imported from "
-"the same source. You can then select the saved import mapping setup and load"
-" it automatically."
+"Click 'Load Saved Field Mapping' if data has been previously imported from the same source. You can then\n"
+"      select the saved import mapping setup and load it automatically."
 msgstr ""
 
 #: templates/CRM/Csvimport/Import/Form/MapField.tpl
@@ -258,7 +331,9 @@ msgid ""
 msgstr ""
 
 #: templates/CRM/Csvimport/Import/Form/MapTable.tpl
-msgid "Saved Field Mapping: %1"
+msgid ""
+"Saved Field Mapping: %1\n"
+"            "
 msgstr ""
 
 #: templates/CRM/Csvimport/Import/Form/MapTable.tpl
@@ -282,20 +357,16 @@ msgstr ""
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 msgid ""
-"CiviCRM has detected invalid data or formatting errors in %1 records. If you"
-" continue, these records will be skipped. OR, you can download a file with "
-"just these problem records - <a href='%2'>Download Errors</a>. Then correct "
-"them in the original import file, cancel this import and begin again at step"
-" 1."
+"CiviCRM has detected invalid data or formatting errors in %1 records. If you continue, these records will be skipped. OR, you can download a file with just these problem records -\n"
+"          <a href='%2'>Download Errors</a>\n"
+"          . Then correct them in the original import file, cancel this import and begin again at step 1."
 msgstr ""
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 msgid ""
-"CiviCRM has detected %1 records with conflicting transaction ids within this"
-" data file. If you continue, these records will be skipped. OR, you can "
-"download a file with just these problem records - <a href='%2'>Download "
-"Conflicts</a>. Then correct them in the original import file, cancel this "
-"import and begin again at step 1."
+"CiviCRM has detected %1 records with conflicting transaction ids within this data file. If you continue, these records will be skipped. OR, you can download a file with just these problem records -\n"
+"          <a href='%2'>Download Conflicts</a>\n"
+"          . Then correct them in the original import file, cancel this import and begin again at step 1."
 msgstr ""
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
@@ -366,11 +437,13 @@ msgid_plural ""
 "CiviCRM has detected mismatched participant IDs. These records have not been"
 " Updated."
 msgstr[0] ""
+msgstr[1] ""
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid ""
-"You can <a href=\"%1\">Download Mismatched Participants</a>. You may then "
-"correct them, and import the new file with the corrected data."
+"You can\n"
+"          <a href=\"%1\">Download Mismatched Participants</a>\n"
+"          . You may then correct them, and import the new file with the corrected data."
 msgstr ""
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
@@ -381,11 +454,13 @@ msgid_plural ""
 "CiviCRM has detected invalid data and/or formatting errors in %count "
 "records. These records have not been imported."
 msgstr[0] ""
+msgstr[1] ""
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid ""
-"You can <a href=\"%1\">Download Errors</a>. You may then correct them, and "
-"import the new file with the corrected data."
+"You can\n"
+"          <a href=\"%1\">Download Errors</a>\n"
+"          . You may then correct them, and import the new file with the corrected data."
 msgstr ""
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
@@ -398,12 +473,13 @@ msgid_plural ""
 "this data file or relative to existing participant records. These records "
 "have not been imported."
 msgstr[0] ""
+msgstr[1] ""
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid ""
-"You can <a href=\"%1\">Download Conflicts</a>. You may then review these "
-"records to determine if they are actually conflicts, and correct the "
-"transaction IDs for those that are not."
+"You can\n"
+"          <a href=\"%1\">Download Conflicts</a>\n"
+"          . You may then review these records to determine if they are actually conflicts, and correct the transaction IDs for those that are not."
 msgstr ""
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
@@ -414,12 +490,13 @@ msgid_plural ""
 "CiviCRM has detected %count records which are duplicates of existing CiviCRM"
 " participant records."
 msgstr[0] ""
+msgstr[1] ""
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid ""
-"You can <a href=\"%1\">Download Duplicates</a>. You may then review these "
-"records to determine if they are actually duplicates, and correct the "
-"transaction IDs for those that are not."
+"You can\n"
+"          <a href=\"%1\">Download Duplicates</a>\n"
+"          . You may then review these records to determine if they are actually duplicates, and correct the transaction IDs for those that are not."
 msgstr ""
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
