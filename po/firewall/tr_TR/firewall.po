@@ -2,21 +2,139 @@
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# Mathieu Lu <mathieu@bidon.ca>, 2022
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: firewall\n"
-"POT-Creation-Date: 2020-06-22 05:01+0000\n"
-"Language-Team: Turkish (Turkey) (https://www.transifex.com/civicrm/teams/1905/tr_TR/)\n"
+"POT-Creation-Date: 2021-12-25 05:02+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>, 2022\n"
+"Language-Team: Turkish (https://www.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: tr_TR\n"
+"Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: CRM/Firewall/DAO/FirewallIpaddress.php
 msgid "Firewall Ipaddresses"
 msgstr ""
 
+#: CRM/Firewall/DAO/FirewallIpaddress.php
+msgid "Firewall Ipaddress"
+msgstr ""
+
+#: CRM/Firewall/DAO/FirewallIpaddress.php
+msgid "Unique FirewallIpaddress ID"
+msgstr ""
+
+#: CRM/Firewall/DAO/FirewallIpaddress.php
+msgid "IP Address"
+msgstr ""
+
+#: CRM/Firewall/DAO/FirewallIpaddress.php
+msgid "IP address used"
+msgstr ""
+
+#: CRM/Firewall/DAO/FirewallIpaddress.php
+msgid "Access Date"
+msgstr ""
+
+#: CRM/Firewall/DAO/FirewallIpaddress.php
+msgid "When the IP address accessed"
+msgstr ""
+
+#: CRM/Firewall/DAO/FirewallIpaddress.php
+msgid "Event Type"
+msgstr ""
+
+#: CRM/Firewall/DAO/FirewallIpaddress.php
+msgid "The type of event that triggered this log"
+msgstr ""
+
+#: CRM/Firewall/DAO/FirewallIpaddress.php
+msgid "Source"
+msgstr ""
+
+#: CRM/Firewall/DAO/FirewallIpaddress.php
+msgid "Origin of this access request"
+msgstr ""
+
 #: CRM/Firewall/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
+msgstr "%1, %2 sürümüne güncelle"
+
+#: Civi/Firewall/Firewall.php
+msgid "Session expired. Please reload and try again."
+msgstr ""
+
+#: Civi/Firewall/Firewall.php
+msgid "Session invalid. Please reload and try again."
+msgstr ""
+
+#: Civi/Firewall/Firewall.php
+msgid "Blocked"
+msgstr ""
+
+#: firewall.php
+msgid "Firewall Settings"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid "Firewall CSRF timeout (seconds)"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid ""
+"Time after which generated CSRF token expires (default 12 hours: 43200 "
+"seconds)"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid "Is server behind reverse proxy?"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid ""
+"If yes, try to retrieve the IP address of the actual client instead of using"
+" REMOTE_ADDR header"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid "Firewall Reverse Proxy Header"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid "Reverse Proxy Header (default HTTP_X_FORWARDED_FOR)"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid "List of reverse proxy IP addresses"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid ""
+"List of reverse proxy IP addresses that may be seen by your server. Used to "
+"help identify client IP address"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid "List of IP addresses to always allow"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid ""
+"List of IP addresses that will never be blocked. For IPv4 can include "
+"wildcards eg. 192.168.*"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid "List of IP addresses to block"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid ""
+"List of IP addresses that will always be blocked. For IPv4 can include "
+"wildcards eg. 192.168.*"
 msgstr ""
