@@ -1,52 +1,85 @@
-# Copyright CiviCRM LLC (c) 2004-2014
+# Copyright CiviCRM LLC (c) 2004-2015
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2022
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2015-03-16 22:33-0700\n"
+"POT-Creation-Date: 2021-11-24 05:03+0000\n"
 "PO-Revision-Date: 2015-03-17 05:36+0000\n"
-"Language-Team: Turkish (Turkey) (http://www.transifex.com/projects/p/civicrm_extensions/language/tr_TR/)\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2022\n"
+"Language-Team: Turkish (http://www.transifex.com/civicrm/civicrm_extensions/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: tr_TR\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: CRM/CiviExportExcel/Form/ExportExcelSettings.php
+msgid "- select -"
+msgstr "- Seçin -"
+
+#: CRM/CiviExportExcel/Form/ExportExcelSettings.php
+msgid "Submit"
+msgstr "Gönder"
+
+#: CRM/CiviExportExcel/Form/Task/Export.php
+#: CRM/CiviExportExcel/Utils/SearchExport.php
+msgid "Export"
+msgstr "Dışa aktar"
 
 #: CRM/CiviExportExcel/Utils/Report.php
-msgid "CiviCRM report"
-msgstr ""
+msgid "Report exported from CiviCRM (%1) by %2 at %3"
+msgstr "CiviCRM (%1) üzerinden %2 tarafından %3 zamanında dışa aktarılan rapor"
 
 #: CRM/CiviExportExcel/Utils/Report.php
 msgid "Report"
-msgstr ""
+msgstr "Rapor"
+
+#: CRM/CiviExportExcel/Utils/Report.php
+msgid "Date prepared: %1"
+msgstr "Hazırlanma tarihi: %1"
+
+#: CRM/CiviExportExcel/Utils/Report.php
+msgid "Statistics"
+msgstr "İstatistikler"
 
 #: CRM/CiviExportExcel/Utils/SearchExport.php
 msgid "CiviCRM export"
-msgstr ""
+msgstr "CiviCRM dışa aktarma"
 
-#: CRM/CiviExportExcel/Utils/SearchExport.php
-msgid "Export"
-msgstr ""
+#: Civi/Report/Civiexportexcel/Excel2007.php
+msgid "See attached."
+msgstr "Ek dosyaya bakın."
 
 #: civiexportexcel.php
 msgid "Export to Excel"
-msgstr ""
+msgstr "Excel olarak dışa aktar"
 
-#: civiexportexcel.php civiexportexcel-core.patch
+#: civiexportexcel.php
 msgid "Preview Excel"
-msgstr ""
+msgstr "Excel ile ön izle"
 
-#: civiexportexcel-core.patch
-msgid "Excel (test)"
-msgstr ""
+#: settings/civiexportexcel.setting.php
+msgid "Show the report title"
+msgstr "Rapor başlığı görüntülensin"
 
-#: civiexportexcel-core.patch
-msgid "Group"
-msgstr ""
+#: settings/civiexportexcel.setting.php
+msgid "Prints the report title as the first row of the report."
+msgstr "Bu seçenek etkinleştirildiğinde, raporun ilk satırı rapor başlığı olarak yazdırılır."
 
-#: civiexportexcel-core.patch
-msgid "- select group -"
-msgstr ""
+#: settings/civiexportexcel.setting.php
+msgid "Show the report export date"
+msgstr "Rapor dışa aktarma tarihi görüntülensin"
+
+#: settings/civiexportexcel.setting.php
+msgid "Prints the export date at the top of the report."
+msgstr "Bu seçenek etkinleştirildiğinde, raporun en üstünde dışa aktarma tarihi yazdırılır."
+
+#: templates/CRM/CiviExportExcel/Form/Task/Export.tpl
+msgid ""
+"Click on the Export button and save the file. When finished, click Cancel to"
+" return to the search results."
+msgstr "\"Dışa aktar\" düğmesine tıklayın ve dosyayı kaydedin. Bitirdiğinizde, arama sonuçlarına dönmek için \"İptal\" üzerine tıklayın."
