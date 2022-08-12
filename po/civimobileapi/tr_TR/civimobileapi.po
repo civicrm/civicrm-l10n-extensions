@@ -2,16 +2,38 @@
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# Mathieu Lu <mathieu@bidon.ca>, 2022
+# Kaya Zeren <kayazeren@gmail.com>, 2022
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
-"POT-Creation-Date: 2019-10-24 05:01+0000\n"
-"Language-Team: Turkish (Turkey) (https://www.transifex.com/civicrm/teams/1460/tr_TR/)\n"
+"POT-Creation-Date: 2021-10-29 05:03+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2022\n"
+"Language-Team: Turkish (https://www.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: tr_TR\n"
+"Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: CRM/CiviMobileAPI/Api/CiviMobileEventSession/Get.php
+msgid "Venue does not exists in session"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Api/CiviMobileEventSession/Get.php
+msgid ""
+"Venue does not exists in session and session is outside of timeframe event"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Api/CiviMobileEventSession/Get.php
+msgid "Session is outside of timeframe event"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Api/CiviMobileEventSession/Get.php
+msgid "Session is ready to use"
+msgstr ""
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPayment/Create.php
 #: CRM/CiviMobileAPI/ApiWrapper/Participant/Create.php
@@ -19,15 +41,110 @@ msgid "This contact has already been assigned to this event."
 msgstr ""
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPayment/Create.php
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid "Can not get price set assigned to event."
 msgstr ""
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPayment/Create.php
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid "Can not get price set fields assigned to event."
 msgstr ""
 
-#: CRM/CiviMobileAPI/ApiWrapper/GroupContact/Get.php
-msgid "Can not get group info."
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
+msgid "Previous Payment cannot be deleted (hash=%1). Please complete payment"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
+msgid ""
+"Event(id = %1) User can not be registered because event does not exist."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
+msgid "Contact(id = %1) is already registered on the Event(id = %2)."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
+msgid "Contact(id = %1) does not exist."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
+msgid "First name '%1' cannot be empty."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
+msgid "Last name '%1' cannot be empty."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
+msgid "Email '%1' have to be valid."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
+msgid "Can not parse selected price set"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
+msgid ""
+"Can not parse selected value for field (id = %1) for price set (id = %2)"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
+msgid "Price Field (id = %1) does not exist for Event's"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
+msgid ""
+"Empty filed values for price set field (id = %1). Please create it in "
+"administer."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
+msgid "\"filed_value_count\" must be filled for field with \"Text\" \"html_type\""
+msgstr ""
+
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
+msgid "Not valid value(id = %1) for price set field (id = %2)."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
+msgid "Price field (id = %1) is required field for price set(id = %2)"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Api/CiviMobilePublicParticipant/Create.php
+msgid "Can not create Contact. Error: "
+msgstr ""
+
+#: CRM/CiviMobileAPI/Api/CiviMobilePublicParticipant/Create.php
+msgid "Can not create Email to Contact. Error: "
+msgstr ""
+
+#: CRM/CiviMobileAPI/Api/CiviMobilePublicParticipant/Create.php
+msgid "Can not update Contact. Error: "
+msgstr ""
+
+#: CRM/CiviMobileAPI/Api/CiviMobilePublicParticipant/Create.php
+msgid "Event Registration"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Api/CiviMobileSurvey/GetSignedValues.php
+#: CRM/CiviMobileAPI/Api/CiviMobileSurvey/GetStructure.php
+#: CRM/CiviMobileAPI/Api/CiviMobileSurvey/Sign.php
+#: CRM/CiviMobileAPI/Api/CiviMobileSurveyInterviewer/Get.php
+#: CRM/CiviMobileAPI/Api/CiviMobileSurveyRespondent/Get.php
+#: CRM/CiviMobileAPI/Api/CiviMobileSurveyRespondent/Gotv.php
+#: CRM/CiviMobileAPI/Api/CiviMobileSurveyRespondent/Release.php
+#: CRM/CiviMobileAPI/Api/CiviMobileSurveyRespondent/Reserve.php
+#: api/v3/CiviMobileMyTicket.php
+msgid "Permission is required."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Api/CiviMobileSurvey/GetStructure.php
+#: CRM/CiviMobileAPI/Api/CiviMobileSurvey/Sign.php
+msgid "Not authorized."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Api/CiviMobileSurvey/Sign.php
+msgid "contact_id is required."
 msgstr ""
 
 #: CRM/CiviMobileAPI/ApiWrapper/Participant/Create.php
@@ -62,14 +179,166 @@ msgstr ""
 msgid "Something went wrong, we can not create the API KEY"
 msgstr ""
 
+#: CRM/CiviMobileAPI/DAO/AgendaConfig.php
+#: CRM/CiviMobileAPI/DAO/EventSession.php
+#: CRM/CiviMobileAPI/DAO/EventSessionSpeaker.php
+#: CRM/CiviMobileAPI/DAO/EventSessionVenue.php
+#: CRM/CiviMobileAPI/DAO/FavouriteEventSession.php
+#: CRM/CiviMobileAPI/DAO/LocationVenue.php
 #: CRM/CiviMobileAPI/DAO/PushNotification.php
 #: CRM/CiviMobileAPI/DAO/PushNotificationMessages.php
 msgid "id"
 msgstr ""
 
+#: CRM/CiviMobileAPI/DAO/AgendaConfig.php
+#: CRM/CiviMobileAPI/DAO/EventSession.php api/v3/CiviMobileAgendaConfig.php
+#: api/v3/CiviMobileEventSession.php api/v3/CiviMobileGetPriceSetByEvent.php
+#: api/v3/CiviMobileParticipant.php api/v3/CiviMobileParticipantPayment.php
+#: api/v3/CiviMobileParticipantPaymentLink.php
+#: api/v3/CiviMobilePublicParticipant.php api/v3/CiviMobileSpeaker.php
+msgid "Event id"
+msgstr ""
+
+#: CRM/CiviMobileAPI/DAO/AgendaConfig.php
+#: CRM/CiviMobileAPI/DAO/LocationVenue.php
+#: CRM/CiviMobileAPI/DAO/PushNotification.php CRM/CiviMobileAPI/Form/Venue.php
+#: api/v3/CiviMobileVenue.php
+msgid "Is active"
+msgstr ""
+
+#: CRM/CiviMobileAPI/DAO/CivimobileEventPaymentInfo.php
+msgid "Id"
+msgstr ""
+
+#: CRM/CiviMobileAPI/DAO/CivimobileEventPaymentInfo.php
+#: api/v3/CiviMobileMyTicket.php
+msgid "Event Id"
+msgstr ""
+
+#: CRM/CiviMobileAPI/DAO/CivimobileEventPaymentInfo.php
+msgid "CMB Hash"
+msgstr ""
+
+#: CRM/CiviMobileAPI/DAO/CivimobileEventPaymentInfo.php
+#: api/v3/CiviMobileParticipantPaymentLink.php
+msgid "Price Set"
+msgstr ""
+
+#: CRM/CiviMobileAPI/DAO/CivimobileEventPaymentInfo.php
+msgid "Contact Id"
+msgstr ""
+
+#: CRM/CiviMobileAPI/DAO/CivimobileEventPaymentInfo.php
+#: api/v3/CiviMobileParticipantPaymentLink.php
+msgid "First Name"
+msgstr ""
+
+#: CRM/CiviMobileAPI/DAO/CivimobileEventPaymentInfo.php
+#: api/v3/CiviMobileParticipantPaymentLink.php
+msgid "Last Name"
+msgstr ""
+
+#: CRM/CiviMobileAPI/DAO/CivimobileEventPaymentInfo.php
+#: api/v3/CiviMobileCmsRegistration.php
+#: api/v3/CiviMobileParticipantPaymentLink.php
+msgid "Email"
+msgstr "E-posta"
+
+#: CRM/CiviMobileAPI/DAO/CivimobileEventPaymentInfo.php
+msgid "Public Key"
+msgstr ""
+
+#: CRM/CiviMobileAPI/DAO/EventSession.php CRM/CiviMobileAPI/Form/Session.php
+#: CRM/CiviMobileAPI/Form/Venue.php api/v3/CiviMobileEventSession.php
+#: api/v3/CiviMobileSurvey.php
+msgid "Title"
+msgstr ""
+
+#: CRM/CiviMobileAPI/DAO/EventSession.php
+#: CRM/CiviMobileAPI/DAO/LocationVenue.php CRM/CiviMobileAPI/Form/Session.php
+#: CRM/CiviMobileAPI/Form/Venue.php api/v3/CiviMobileEventSession.php
+#: api/v3/CiviMobileVenue.php
+msgid "Description"
+msgstr ""
+
+#: CRM/CiviMobileAPI/DAO/EventSession.php CRM/CiviMobileAPI/Form/Session.php
+#: api/v3/CiviMobileEventSession.php
+msgid "Start time"
+msgstr ""
+
+#: CRM/CiviMobileAPI/DAO/EventSession.php CRM/CiviMobileAPI/Form/Session.php
+#: api/v3/CiviMobileEventSession.php
+msgid "End time"
+msgstr ""
+
+#: CRM/CiviMobileAPI/DAO/EventSession.php
+msgid "Venue id"
+msgstr ""
+
+#: CRM/CiviMobileAPI/DAO/EventSessionSpeaker.php
+#: CRM/CiviMobileAPI/DAO/EventSessionVenue.php
+msgid "EventSessionId"
+msgstr ""
+
+#: CRM/CiviMobileAPI/DAO/EventSessionSpeaker.php
+msgid "SpeakerID"
+msgstr ""
+
+#: CRM/CiviMobileAPI/DAO/EventSessionVenue.php
+msgid "VenueID"
+msgstr ""
+
+#: CRM/CiviMobileAPI/DAO/FavouriteEventSession.php
+msgid "ContactID"
+msgstr ""
+
+#: CRM/CiviMobileAPI/DAO/FavouriteEventSession.php
+#: api/v3/CiviMobileFavouriteEventSession.php
+msgid "EventSessionID"
+msgstr ""
+
+#: CRM/CiviMobileAPI/DAO/LocationVenue.php api/v3/CiviMobileVenue.php
+#: templates/CRM/CiviMobileAPI/Page/ManageVenues.tpl
+msgid "Name"
+msgstr "Ad"
+
+#: CRM/CiviMobileAPI/DAO/LocationVenue.php
+msgid "Address Description"
+msgstr ""
+
+#: CRM/CiviMobileAPI/DAO/LocationVenue.php
+msgid "Venue location"
+msgstr ""
+
+#: CRM/CiviMobileAPI/DAO/LocationVenue.php
+msgid "Location id"
+msgstr ""
+
+#: CRM/CiviMobileAPI/DAO/LocationVenue.php
+msgid "Latitude"
+msgstr ""
+
+#: CRM/CiviMobileAPI/DAO/LocationVenue.php
+msgid "Longitude"
+msgstr ""
+
+#: CRM/CiviMobileAPI/DAO/LocationVenue.php
+msgid "Background Color"
+msgstr ""
+
+#: CRM/CiviMobileAPI/DAO/LocationVenue.php api/v3/CiviMobileVenue.php
+msgid "Border color"
+msgstr ""
+
+#: CRM/CiviMobileAPI/DAO/LocationVenue.php api/v3/CiviMobileVenue.php
+msgid "Weight"
+msgstr ""
+
 #: CRM/CiviMobileAPI/DAO/PushNotification.php
 #: CRM/CiviMobileAPI/DAO/PushNotificationMessages.php
-#: api/v3/CiviMobileMyTicket.php api/v3/CiviMobileParticipantPayment.php
+#: api/v3/CiviMobileMyTicket.php api/v3/CiviMobileParticipant.php
+#: api/v3/CiviMobileParticipantPayment.php
+#: api/v3/CiviMobileParticipantPaymentLink.php
 msgid "Contact id"
 msgstr ""
 
@@ -89,8 +358,8 @@ msgstr ""
 msgid "Update date"
 msgstr ""
 
-#: CRM/CiviMobileAPI/DAO/PushNotification.php
-msgid "Is active"
+#: CRM/CiviMobileAPI/DAO/PushNotificationMessages.php
+msgid "Data"
 msgstr ""
 
 #: CRM/CiviMobileAPI/DAO/PushNotificationMessages.php
@@ -118,8 +387,176 @@ msgstr ""
 msgid "Invoke Contact Id"
 msgstr ""
 
+#: CRM/CiviMobileAPI/Form/Agenda.php CRM/CiviMobileAPI/Form/Session.php
+#: CRM/CiviMobileAPI/Form/Speaker.php
+msgid "Not Found"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Agenda.php
+msgid ""
+"If you want to fill Agenda, you need to add the location for the event."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Agenda.php api/v3/CiviMobileEventSession.php
+msgid "Speaker"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Agenda.php
+msgid "- any -"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Agenda.php CRM/CiviMobileAPI/Form/Session.php
+#: api/v3/CiviMobileEventSession.php
+#: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
+#: templates/CRM/CiviMobileAPI/Form/Session.hlp
+msgid "Venue"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Agenda.php
+msgid "Name include"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/CalendarSettings.php
+msgid ""
+"The CiviCRM has a CiviCalendar installed, but its version is not enough to "
+"work with CiviMobileAPI. We recommend updating your calendar to the 3.4.x "
+"version or latest."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/CalendarSettings.php
+msgid ""
+"CiviCalendar and CiviMobile calendar are not synchronized! This may cause "
+"different info is shown on the calendar in CiviMobile app. It is recommended"
+" to set “Synchronize with CiviCalendar” flag to keep both calendars "
+"synchronized."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/CalendarSettings.php
+msgid "Submit"
+msgstr "Gönder"
+
+#: CRM/CiviMobileAPI/Form/CalendarSettings.php
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Cancel"
+msgstr "İptal"
+
+#: CRM/CiviMobileAPI/Form/CalendarSettings.php
+msgid "Configuration Updated"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/CalendarSettings.php civimobileapi.php
+msgid "CiviMobile Calendar Settings"
+msgstr ""
+
 #: CRM/CiviMobileAPI/Form/Dashboard.php
 msgid "Logout from mobile"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Dashboard.php
+msgid "Show a Website URL QR-code for me"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/EventLocations.php
+msgid "Back"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Session.php CRM/CiviMobileAPI/Form/Speaker.php
+#: CRM/CiviMobileAPI/Form/Venue.php
+msgid "Permission Denied"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Session.php
+#: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
+msgid "Date"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Session.php api/v3/CiviMobileEventSession.php
+#: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
+#: templates/CRM/CiviMobileAPI/Form/Session.hlp
+msgid "Speakers"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Session.php
+msgid "This event does not have location"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Session.php CRM/CiviMobileAPI/Form/Speaker.php
+#: CRM/CiviMobileAPI/Form/Venue.php
+msgid "Save"
+msgstr "Kaydet"
+
+#: CRM/CiviMobileAPI/Form/Session.php CRM/CiviMobileAPI/Form/Venue.php
+#: templates/CRM/CiviMobileAPI/Form/Session.tpl
+#: templates/CRM/CiviMobileAPI/Form/Venue.tpl
+msgid "Delete"
+msgstr "Sil"
+
+#: CRM/CiviMobileAPI/Form/Session.php
+msgid "Save and continue"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Session.php
+msgid "The Session was successfully created!"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Session.php
+msgid "Success"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Session.php
+msgid "The Session was successfully updated!"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Session.php
+msgid "The Session was not deleted!"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Session.php CRM/CiviMobileAPI/Form/Speaker.php
+msgid "Error"
+msgstr "Hata"
+
+#: CRM/CiviMobileAPI/Form/Session.php
+msgid "The Session was successfully deleted!"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Session.php
+msgid "Invalid eventId parameter."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Session.php
+msgid "Title can`t be empty!"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Session.php
+msgid "Title length must be less than 255 characters."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Session.php
+msgid "Start time can`t be later than End time."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Session.php
+msgid "Event Session duration can`t be less than 15 min."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Session.php
+msgid "Some speakers does not exists."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Session.php
+msgid "Some speakers are busy on other Event Session at this time."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Session.php
+msgid "Venue does not exists."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Session.php
+msgid "Venue is booked on other Event Session at this time."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Session.php
+msgid "Venue is required."
 msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
@@ -129,20 +566,21 @@ msgid ""
 "target=\"_blank\">civimobile.org</a> and generate your own Server Key"
 msgstr ""
 
-#: CRM/CiviMobileAPI/Form/Settings.php
+#: CRM/CiviMobileAPI/Form/Settings.php CRM/CiviMobileAPI/Utils/Checklist.php
 msgid ""
-"You are using CiviMobile <strong>%1</strong>. The latest version is "
-"CiviMobile <strong>%2</strong>"
+"You are using CiviMobileAPI <strong>%1</strong>. The latest version is "
+"CiviMobileAPI <strong>%2</strong>"
 msgstr ""
 
-#: CRM/CiviMobileAPI/Form/Settings.php
+#: CRM/CiviMobileAPI/Form/Settings.php CRM/CiviMobileAPI/Utils/Checklist.php
 msgid "Your extension version is up to date - CiviMobile <strong>%1</strong>"
 msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid ""
-"Access to extension directory (%1) is denied. Please provide permission to "
-"access the extension directory"
+"Access to extension directory with all files or for directory with "
+"extensions is denied. Please provide permission to access the extension "
+"directory and directory with extensions."
 msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
@@ -151,6 +589,22 @@ msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Your Server Key is invalid. Please enter valid Server Key."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Field can not be empty."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Value must be integer!"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Value cannot be negative!"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Value cannot be greater than 90!"
 msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
@@ -170,11 +624,55 @@ msgid "Automatically keep the extension up to date"
 msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
-msgid "Confirm server key"
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid "Show a Website URL QR-code for Anonymous users"
 msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
-msgid "Cancel"
+msgid "Use CMS site name"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Use custom site name"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Site name"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Show Public area"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid "Show News"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid "News RSS feed URL"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Firebase key"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid "Do you have custom application?"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Life time for push notification messages"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Save settings"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Confirm server key"
 msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
@@ -185,8 +683,133 @@ msgstr ""
 msgid "Server key updated"
 msgstr ""
 
+#: CRM/CiviMobileAPI/Form/Settings.php civimobileapi.php
+msgid "CiviMobile Settings"
+msgstr ""
+
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "CiviMobile updated"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "CiviMobile settings updated"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Speaker.php api/v3/CiviMobileCmsRegistration.php
+#: api/v3/CiviMobilePublicParticipant.php
+msgid "First name"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Speaker.php api/v3/CiviMobileCmsRegistration.php
+#: api/v3/CiviMobilePublicParticipant.php
+msgid "Last name"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Speaker.php
+#: templates/CRM/CiviMobileAPI/Page/Speakers.tpl
+msgid "Position"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Speaker.php
+#: CRM/CiviMobileAPI/Install/Entity/CustomField.php
+msgid "Bio"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Speaker.php
+msgid "Image"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Speaker.php
+msgid "Contact info wasn`t saved!"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Speaker.php
+msgid "Participant bio wasn`t saved!"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Venue.php
+msgid "Empty location id."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Venue.php CRM/CiviMobileAPI/Page/ManageVenues.php
+msgid "Wrong location id"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Venue.php
+msgid "Empty venue id."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Venue.php
+msgid "Venue id does not exist."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Venue.php templates/CRM/CiviMobileAPI/Form/Venue.hlp
+msgid "Details"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Venue.php api/v3/CiviMobileVenue.php
+#: templates/CRM/CiviMobileAPI/Form/Venue.hlp
+msgid "Address"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Venue.php
+#: templates/CRM/CiviMobileAPI/Page/ManageVenues.tpl
+msgid "Order"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Venue.php templates/CRM/CiviMobileAPI/Form/Venue.tpl
+msgid "Color"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Venue.php
+msgid "You can upload only PDF, PNG and JPEG files."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Venue.php
+msgid "Venue Not Found"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Venue.php
+msgid "Venue wasn`t saved"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Venue.php
+msgid ""
+"This Venue is used in the session. To remove it, first remove it from the "
+"session."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Venue.php
+msgid "Venue is used"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Venue.php
+msgid "Name can`t be empty!"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Venue.php
+msgid "Name length must be less than 255 characters."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Venue.php
+msgid "Venue location length must be less than 255 characters."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Venue.php
+msgid "Venue with same name already exists for this location."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Hook/BuildForm/Register.php
+msgid ""
+"Contact (id = %1) User can not be registered because contact do not exist"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Hook/BuildForm/Register.php
+msgid "User was not registered."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Hook/Post/Register.php
+msgid "Failed to update participant public_key in database"
 msgstr ""
 
 #: CRM/CiviMobileAPI/Install/Entity/CustomField.php
@@ -206,11 +829,23 @@ msgid "QR image url"
 msgstr ""
 
 #: CRM/CiviMobileAPI/Install/Entity/CustomField.php
-msgid "Blocked application"
+msgid "Public key"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Install/Entity/CustomField.php
+msgid "Is GOTV?"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Install/Entity/CustomField.php
+msgid "Allow Online registration in CiviMobile?"
 msgstr ""
 
 #: CRM/CiviMobileAPI/Install/Entity/CustomGroup.php
 msgid "Qr options"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Install/Entity/CustomGroup.php civimobileapi.php
+msgid "Agenda"
 msgstr ""
 
 #: CRM/CiviMobileAPI/Install/Entity/CustomGroup.php
@@ -218,7 +853,67 @@ msgid "Qr codes"
 msgstr ""
 
 #: CRM/CiviMobileAPI/Install/Entity/CustomGroup.php
-msgid "Contact Settings"
+msgid "Public Info"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Install/Entity/CustomGroup.php
+msgid "Survey`s additional info"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Install/Entity/CustomGroup.php
+msgid "Allow Online registration in CiviMobile"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Install/Entity/OptionGroup.php civimobileapi.php
+msgid "CiviMobile Tabs"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
+msgid "Calendar"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
+msgid "Events"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
+msgid "Cases"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
+msgid "Activities"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
+msgid "Contacts"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
+msgid "Relationships"
+msgstr "İlişkiler"
+
+#: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
+msgid "Memberships"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
+msgid "Contributions"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
+msgid "Notes"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
+msgid "Groups"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
+msgid "Tags"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
+msgid "Surveys"
 msgstr ""
 
 #: CRM/CiviMobileAPI/Install/Entity/UpdateMessageTemplate.php
@@ -249,12 +944,151 @@ msgstr ""
 msgid "Token doesn't exist"
 msgstr ""
 
+#: CRM/CiviMobileAPI/Page/PublicApi/ApiBase.php
+msgid "Not valid request"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Page/PublicApi/ApiBase.php
+msgid "Api error."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Page/PublicApi/ApiBase.php
+msgid "The 'entityName' field is required field."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Page/PublicApi/ApiBase.php
+msgid "The 'entityData' field is required field."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Page/PublicApi/ApiBase.php
+msgid "The 'entityData' has not valid json."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Page/PublicApi/ApiBase.php
+msgid "The 'actionName' field is required field."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Page/PublicApi/ApiBase.php
+msgid "Value '%1' is not allow entity name."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Page/PublicApi/ApiBase.php
+msgid "Value '%1' is not allow action name."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Page/PublicApi/ApiBase.php
+msgid "'1%' Permission denied."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Page/PublicApi/Middleware.php
+msgid "'option_group_id' is required field."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Page/PublicApi/Middleware.php
+msgid "Not allow value field for 'option_group_id' field."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Page/PublicApi/Middleware.php
+msgid "'event_id' is required field."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Page/PublicApi/Middleware.php
+msgid "Event(id = %1) does not exist or is not public."
+msgstr ""
+
+#: CRM/CiviMobileAPI/PushNotification/Utils/Hook/Post/ActivityPushNotification.php
+#: CRM/CiviMobileAPI/PushNotification/Utils/Hook/PostProcess/ActivityPushNotification.php
+#: CRM/CiviMobileAPI/PushNotification/Utils/Hook/PostProcess/CasePushNotification.php
+#: CRM/CiviMobileAPI/PushNotification/Utils/Hook/Pre/ActivityPushNotification.php
+msgid "Activity"
+msgstr ""
+
+#: CRM/CiviMobileAPI/PushNotification/Utils/Hook/Post/CasePushNotification.php
+#: CRM/CiviMobileAPI/PushNotification/Utils/Hook/Pre/CasePushNotification.php
+msgid "Case"
+msgstr ""
+
+#: CRM/CiviMobileAPI/PushNotification/Utils/Hook/Post/ParticipantPushNotification.php
+#: CRM/CiviMobileAPI/PushNotification/Utils/Hook/PostProcess/ParticipantPushNotification.php
+#: CRM/CiviMobileAPI/PushNotification/Utils/Hook/Pre/ParticipantPushNotification.php
+msgid "Participant"
+msgstr ""
+
+#: CRM/CiviMobileAPI/PushNotification/Utils/Hook/Post/RelationshipPushNotification.php
+msgid "Relationship"
+msgstr ""
+
 #: CRM/CiviMobileAPI/Upgrader/Base.php CRM/CiviMobileAPI/Utils/Extension.php
 msgid "Upgrade %1 to revision %2"
-msgstr ""
+msgstr "%1, %2 sürümüne güncelle"
 
 #: CRM/CiviMobileAPI/Utils/ActivityType.php
 msgid "Send an Email"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Utils/Agenda/SessionSchedule.php
+msgid "January"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Utils/Agenda/SessionSchedule.php
+msgid "February"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Utils/Agenda/SessionSchedule.php
+msgid "March"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Utils/Agenda/SessionSchedule.php
+msgid "April"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Utils/Agenda/SessionSchedule.php
+msgid "May"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Utils/Agenda/SessionSchedule.php
+msgid "June"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Utils/Agenda/SessionSchedule.php
+msgid "July"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Utils/Agenda/SessionSchedule.php
+msgid "August"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Utils/Agenda/SessionSchedule.php
+msgid "September"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Utils/Agenda/SessionSchedule.php
+msgid "October"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Utils/Agenda/SessionSchedule.php
+msgid "November"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Utils/Agenda/SessionSchedule.php
+msgid "December"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Utils/Checklist.php
+msgid "Is <strong>\"%1\"</strong> plugin active?"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Utils/Checklist.php
+msgid ""
+"CiviMobile may not work properly if <strong>\"%1\"</strong> plugin is "
+"installed."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Utils/Checklist.php
+msgid ""
+"If you have a problems with authorization on CiviMobile application please "
+"try to deactivate plugins one by one to detect which plugin blocks "
+"CiviMobile."
 msgstr ""
 
 #: CRM/CiviMobileAPI/Utils/Contact.php
@@ -269,13 +1103,18 @@ msgstr ""
 msgid "Contact id(b) is deleted?"
 msgstr ""
 
+#: api/v3/CiviMobileAgendaConfig.php api/v3/CiviMobileSurvey.php
+msgid "Is active?"
+msgstr ""
+
 #: api/v3/CiviMobileAllowedActivityTypes.php
 #: api/v3/CiviMobileAllowedExtendedRelationshipTypes.php
 #: api/v3/CiviMobileAllowedRelationshipTypes.php
 #: api/v3/CiviMobileAvailableContactGroup.php api/v3/CiviMobileCalendar.php
 #: api/v3/CiviMobileCaseRole.php api/v3/CiviMobileContact.php
-#: api/v3/CiviMobileContributionStatistic.php api/v3/ContactSettings.php
-#: api/v3/PushNotification.php api/v3/PushNotificationMessages.php
+#: api/v3/CiviMobileContributionStatistic.php api/v3/CiviMobileSurvey.php
+#: api/v3/ContactSettings.php api/v3/PushNotification.php
+#: api/v3/PushNotificationMessages.php
 msgid "Contact ID"
 msgstr ""
 
@@ -285,6 +1124,10 @@ msgstr ""
 
 #: api/v3/CiviMobileAllowedActivityTypes.php
 msgid "Limit (default unlimited)"
+msgstr ""
+
+#: api/v3/CiviMobileAvailableContactGroup.php
+msgid "Is group hidden?"
 msgstr ""
 
 #: api/v3/CiviMobileCalendar.php
@@ -301,6 +1144,14 @@ msgstr ""
 
 #: api/v3/CiviMobileCaseRole.php
 msgid "Case ID"
+msgstr ""
+
+#: api/v3/CiviMobileCmsRegistration.php
+msgid "Username"
+msgstr ""
+
+#: api/v3/CiviMobileCmsRegistration.php
+msgid "Password"
 msgstr ""
 
 #: api/v3/CiviMobileConfirmToken.php
@@ -323,21 +1174,50 @@ msgstr ""
 msgid "Something go wrong with your file"
 msgstr ""
 
+#: api/v3/CiviMobileContributionStatistic.php
+#: api/v3/CiviMobileMembershipStatistic.php
+msgid "Receive date"
+msgstr ""
+
 #: api/v3/CiviMobileCustomFields.php
 msgid "Entity"
 msgstr ""
 
-#: api/v3/CiviMobileGetPriceSetByEvent.php api/v3/CiviMobileParticipant.php
-#: api/v3/CiviMobileParticipantPayment.php
-msgid "Event id"
+#: api/v3/CiviMobileEventSession.php
+msgid "EventSession id"
 msgstr ""
 
-#: api/v3/CiviMobileMyTicket.php
-msgid "Permission is required."
+#: api/v3/CiviMobileEventSession.php
+msgid "Is display?"
 msgstr ""
 
-#: api/v3/CiviMobileMyTicket.php
-msgid "Event Id"
+#: api/v3/CiviMobileFavouriteEventSession.php
+msgid "Is favourite?"
+msgstr ""
+
+#: api/v3/CiviMobileMembershipStatistic.php
+msgid "Contact display name"
+msgstr ""
+
+#: api/v3/CiviMobileMembershipStatistic.php
+#: api/v3/CiviMobileSurveyRespondent.php
+msgid "Contact type"
+msgstr ""
+
+#: api/v3/CiviMobileMembershipStatistic.php
+msgid "Contact tags"
+msgstr ""
+
+#: api/v3/CiviMobileMembershipStatistic.php
+msgid "Contact groups"
+msgstr ""
+
+#: api/v3/CiviMobileMembershipStatistic.php
+msgid "Membership type"
+msgstr ""
+
+#: api/v3/CiviMobileParticipant.php api/v3/CiviMobileSurveyRespondent.php
+msgid "Display name"
 msgstr ""
 
 #: api/v3/CiviMobileParticipant.php
@@ -372,12 +1252,118 @@ msgstr ""
 msgid "Price set selected values"
 msgstr ""
 
+#: api/v3/CiviMobilePublicParticipant.php
+msgid "Contact email."
+msgstr ""
+
+#: api/v3/CiviMobilePublicParticipant.php
+msgid "Ticket not found."
+msgstr ""
+
+#: api/v3/CiviMobilePublicParticipant.php
+msgid "Event which is attached to ticket does not exist."
+msgstr ""
+
+#: api/v3/CiviMobilePublicParticipant.php
+msgid "Public key."
+msgstr ""
+
+#: api/v3/CiviMobileSpeaker.php
+msgid "Participant ID"
+msgstr ""
+
+#: api/v3/CiviMobileSurvey.php api/v3/CiviMobileSurveyInterviewer.php
+#: api/v3/CiviMobileSurveyRespondent.php
+msgid "Survey ID"
+msgstr ""
+
+#: api/v3/CiviMobileSurvey.php
+msgid "Activity type ID"
+msgstr ""
+
+#: api/v3/CiviMobileSurvey.php
+msgid "Is signed?"
+msgstr ""
+
+#: api/v3/CiviMobileSurvey.php
+msgid "Values"
+msgstr ""
+
+#: api/v3/CiviMobileSurvey.php
+msgid "Note"
+msgstr ""
+
+#: api/v3/CiviMobileSurvey.php
+msgid "Result"
+msgstr ""
+
+#: api/v3/CiviMobileSurveyRespondent.php
+msgid "Contact IDs"
+msgstr ""
+
+#: api/v3/CiviMobileSurveyRespondent.php
+msgid "Interviewer ID"
+msgstr ""
+
+#: api/v3/CiviMobileSurveyRespondent.php
+#: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
+msgid "Status"
+msgstr "Durum"
+
+#: api/v3/CiviMobileSurveyRespondent.php
+msgid "Reserved"
+msgstr ""
+
+#: api/v3/CiviMobileSurveyRespondent.php
+msgid "Interviewed"
+msgstr ""
+
+#: api/v3/CiviMobileSurveyRespondent.php
+msgid "GOTV"
+msgstr ""
+
+#: api/v3/CiviMobileSurveyRespondent.php
+msgid "Group"
+msgstr ""
+
+#: api/v3/CiviMobileSurveyRespondent.php
+msgid "Primary Address City"
+msgstr ""
+
+#: api/v3/CiviMobileSurveyRespondent.php
+msgid "Primary Address Street Address"
+msgstr ""
+
+#: api/v3/CiviMobileVenue.php
+msgid "Location Id"
+msgstr ""
+
+#: api/v3/CiviMobileVenue.php
+msgid "Venue Id"
+msgstr ""
+
+#: api/v3/CiviMobileVenue.php
+msgid "Address_description"
+msgstr ""
+
+#: api/v3/CiviMobileVenue.php
+msgid "Address description"
+msgstr ""
+
+#: api/v3/CiviMobileVenue.php
+msgid "Background color"
+msgstr ""
+
 #: api/v3/PushNotificationEventReminder.php
 msgid "Event start at"
 msgstr ""
 
 #: api/v3/PushNotificationMessages.php
 msgid "Direction"
+msgstr ""
+
+#: api/v3/PushNotificationMessages.php
+msgid "Deletes \"Push notification messages\" older than this param. Default 90."
 msgstr ""
 
 #: civimobileapi.php
@@ -391,11 +1377,136 @@ msgid ""
 msgstr ""
 
 #: civimobileapi.php
-msgid "CiviMobile Settings"
+msgid "View Agenda."
+msgstr ""
+
+#: civimobileapi.php
+msgid "It means the User can see the tags he belongs to."
+msgstr ""
+
+#: civimobileapi.php
+msgid "It means the User can see the groups he belongs to"
+msgstr ""
+
+#: civimobileapi.php
+msgid "CiviMobile Event Locations"
+msgstr ""
+
+#: civimobileapi.php
+msgid "CiviMobile Checklist"
+msgstr ""
+
+#: civimobileapi.php
+msgid "Is allow mobile registration?"
 msgstr ""
 
 #: civimobileapi.php
 msgid "When generating QR Code tokens, use this Event"
+msgstr ""
+
+#: settings/civimobileapi.setting.php
+msgid "Shows certain activity types on the calendar"
+msgstr ""
+
+#: settings/civimobileapi.setting.php
+msgid "Shows certain event types on the calendar"
+msgstr ""
+
+#: settings/civimobileapi.setting.php
+msgid "Shows certain case types on the calendar"
+msgstr ""
+
+#: settings/civimobileapi.setting.php
+msgid "Hide past events"
+msgstr ""
+
+#: settings/civimobileapi.setting.php
+msgid "Synchronize with CiviCalendar"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Block/IsAllowMobileRegistration.tpl
+msgid "Mobile registration"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
+msgid ""
+"Agenda details the event schedule. It displays the schedule of a single- or "
+"multi-day upcoming event with detailed session information, like session "
+"start/end time, topic, speaker profiles and venue."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
+msgid "Read more"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
+msgid "Show Event Agenda:"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
+msgid "You can fill the Agenda and when you finish it, just turn it on."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
+msgid "Sessions"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
+msgid "Venues"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
+msgid ""
+"The agenda consists of the sessions, which are the basic building blocks for"
+" structuring your events schedule. A typical session is usually something "
+"like a keynote or a workshop. Every session includes a location and "
+"speakers."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
+msgid "Filter by Session"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
+msgid "Session"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
+msgid "Time"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/EventLocations.tpl
+msgid "Locations"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/EventLocations.tpl
+msgid "Manage Venues"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Session.hlp
+msgid ""
+"Event participant who gives speeches, runs discussions on an event session "
+"topic. Any participant could be a speaker."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Session.hlp
+msgid ""
+"You can only select one venue for a specific session. All venues directly "
+"depends on the Event’s location."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Session.tpl
+#: templates/CRM/CiviMobileAPI/Form/Speaker.tpl
+#: templates/CRM/CiviMobileAPI/Form/Venue.tpl
+msgid "Edit"
+msgstr "Düzenle"
+
+#: templates/CRM/CiviMobileAPI/Form/Session.tpl
+msgid "New Speaker"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Session.tpl
+msgid "Manage venues"
 msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
@@ -420,6 +1531,20 @@ msgid "Server Key is used for security purposes for Push Notifications"
 msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid "Firebase Key"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid "Firebase Key is used for Push Notifications"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid ""
+"If the application is custom you can use your own Firebase Key for security "
+"purposes for Push Notifications"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "Software update"
 msgstr ""
@@ -431,8 +1556,53 @@ msgid ""
 "desynchronization between mobile application and extension."
 msgstr ""
 
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid "Site name for CiviMobile"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid "You can use default CMS site name or you can create your custom name."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid ""
+"Show QR code on CiviCRM website for unauthorised users if checkbox is "
+"checked."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid ""
+"News will be displayed in CiviMobile and may be available in Public Area. "
+"You can also configure the default news source directly from the server."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid "Enter the RSS feed link."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid "Access to public information in the application"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid ""
+"By checking the checkbox you will allow anonymous users access to public information in the mobile application.</p>\n"
+"    <p>Events are displayed in Public Area if all required permissions for Anonymous user are distributed and if CiviEvent component is enabled. Note that if you want a specific event to be made available in the Public Area-please enable 'Public Event' checkbox in Event Info and Settings section.</p>\n"
+"    <p>News may also be present in the Public Area if Show News checkbox is enabled."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid "Push notification Lifetime"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid ""
+"The value specifies the storage time of push notification messages. If the "
+"value is equal to 0, messages are not saved."
+msgstr ""
+
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
-msgid "Extension info"
+msgid "Extension Info"
 msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
@@ -455,14 +1625,70 @@ msgstr ""
 msgid "Current extension path:"
 msgstr ""
 
-#: templates/CRM/CiviMobileAPI/popup.tpl
-msgid ""
-"Congratulations, your CiviCRM supports CiviMobile application now. You can "
-"download the mobile application at AppStore or Google PlayMarket."
+#: templates/CRM/CiviMobileAPI/Form/Settings.tpl
+msgid "Public Area Settings"
 msgstr ""
 
-#: templates/CRM/CiviMobileAPI/popup.tpl
-msgid "Ignore"
+#: templates/CRM/CiviMobileAPI/Form/Settings.tpl
+msgid "News"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.tpl
+msgid "Set default RSS feed on CMS"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Venue.hlp
+msgid ""
+"The Venue can be located at a different address than the event. The location"
+" map will be displayed using this field."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Venue.hlp
+msgid "Scheme"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Venue.hlp
+msgid ""
+"Schematic view of the Venue, will be available as a picture (jpg/png) or "
+"link (pdf)."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Venue.hlp
+msgid "Short tips on how to get to the Venue (pin codes, floors, etc.)."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Venue.tpl
+msgid "Location"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Page/ManageVenues.tpl
+msgid ""
+"Venues are used to group sessions by a topic or a theme and can be located "
+"in a different address than the event."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Page/ManageVenues.tpl
+msgid "Is active ?"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Page/ManageVenues.tpl
+msgid ""
+"If you want to create venues, you need to add the location for the event."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Page/Speakers.tpl
+msgid ""
+"The list of speakers is the participants of the event who are involved to "
+"one of the sessions. By editing the speakers you can fill in the detailed "
+"information (bio, photo, ...) about the person who will lead the session."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Page/Speakers.tpl
+msgid "Display Name"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Page/Speakers.tpl
+msgid "Company"
 msgstr ""
 
 #: templates/qrcode-checkin-event-options.tpl
@@ -470,4 +1696,11 @@ msgid ""
 "QR Code generation option accessible is only available when creating an "
 "event. It is not possible to tick the QR Code generation when you edit this "
 "event."
+msgstr ""
+
+#: templates/qrcode-checkin-event-options.tpl
+msgid ""
+"Please check permission \"CiviCRM: access uploaded files\" for ANONYMOUS "
+"USER. If the permission isn`t available ANONYMOUS USER will not be able to "
+"upload QR Code from public event."
 msgstr ""
