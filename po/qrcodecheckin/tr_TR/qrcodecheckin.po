@@ -4,12 +4,13 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Mathieu Lu <mathieu@bidon.ca>, 2022
+# Kaya Zeren <kayazeren@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: qrcodecheckin\n"
 "POT-Creation-Date: 2021-08-04 05:01+0000\n"
-"Last-Translator: Mathieu Lu <mathieu@bidon.ca>, 2022\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2022\n"
 "Language-Team: Turkish (https://www.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,13 +20,15 @@ msgstr ""
 
 #: CRM/Qrcodecheckin/Page/QrcodecheckinLanding.php
 msgid "QR Code Check-in page"
-msgstr ""
+msgstr "QR kodu ile giriş"
 
 #: CRM/Qrcodecheckin/Page/QrcodecheckinLanding.php
 msgid ""
 "Woops! The link you clicked on appears to be broken. Please check again and "
 "ensure it was not split by a line break."
 msgstr ""
+"Tıkladığınız bağlantı bozuk gibi görünüyor. Lütfen yeniden denetleyip "
+"bağlantı adresinin bir satır sonu ile bölünmediğinden emin olun."
 
 #: CRM/Qrcodecheckin/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
@@ -33,11 +36,11 @@ msgstr "%1, %2 sürümüne güncelle"
 
 #: qrcodecheckin.js
 msgid "There was an error updating the status. Sorry."
-msgstr ""
+msgstr "Ne yazık ki, durum güncellenirken bir sorun çıktı."
 
 #: qrcodecheckin.js
 msgid "net.ourpowerbase.qrcodecheckin"
-msgstr ""
+msgstr "net.ourpowerbase.qrcodecheckin"
 
 #: qrcodecheckin.php
 msgid ""
@@ -45,28 +48,33 @@ msgid ""
 "files. I'm not deleting the folder. I am proceeding with uninstalling the "
 "extension."
 msgstr ""
+"qrcodecheckin klasöründe bir alt klasör bulundu. Yalnızca QR kod görüntü "
+"dosyalarının olması bekleniyordu. Klasör silinmeyecek. Eklenti kaldırma "
+"işlemi sürdürülecek."
 
 #: qrcodecheckin.php
 msgid "Enable QR Code tokens for this Event"
-msgstr ""
+msgstr "Bu etkinlik için QR kodları kullanılabilsin"
 
 #: qrcodecheckin.php
 msgid "QR Code Checkin"
-msgstr ""
+msgstr "QR kodu ile giriş"
 
 #: qrcodecheckin.php
 msgid ""
 "Access the page presented by the QR Code and click to change participant "
 "status to attended"
 msgstr ""
+"QR kodu kullanarak ilgili sayfaya erişin ve katılımcı durumunu katıldı "
+"olarak değiştirmek için tıklayın"
 
 #: qrcodecheckin.php
 msgid "QRCode link for event "
-msgstr ""
+msgstr "Etkinliğin QR kodu bağlantısı"
 
 #: qrcodecheckin.php
 msgid "QRCode image and link for event "
-msgstr ""
+msgstr "Etklinliğin R kodu görseli ve bağlantısı"
 
 #: qrcodecheckin.php
 msgid ""
@@ -78,19 +86,30 @@ msgid ""
 "QR Code in case you need to display it when you do not have Internet "
 "access.</div>"
 msgstr ""
+"<div><img alt=\"QR Code with link to checkin page\" "
+"src=\"%1\"></div><div>Yukarıda etkinliğe hızlıca girebilmeniz için "
+"kullanacağınız QR kodunu görüyor olmalısınız. Yukarıda bir kod "
+"görmüyorsanız, lütfen e-posta uygulamanızda görsellerin görüntülenmesi "
+"seçeneğini etkinleştirin ya da koda <a href=\"%1\">doğrudan</a> erişmeyi "
+"deneyin. İnternet erişiminiz yokken görüntülemeniz gerekebilir diye QR "
+"kodunuzun ekran görüntüsünü almak isteyebilirsiniz.</div>"
 
 #: templates/CRM/Qrcodecheckin/Page/QrcodecheckinLanding.tpl
 msgid ""
 "Congratulations! Your QR Code for checkin works. Please present your code to"
 " an event registration worker when you arrive."
 msgstr ""
+"Tebrikler! Giriş için QR kodunuz çalışıyor. Lütfen etkinliğe geldiğinizde "
+"kodunuzu bir etkinlik kayıt görevlisine gösterin."
 
 #: templates/CRM/Qrcodecheckin/Page/QrcodecheckinLanding.tpl
 msgid "Update to Attended"
-msgstr ""
+msgstr "Katıldı olarak güncelle"
 
 #: templates/qrcode-checkin-event-options.tpl
 msgid ""
 "If enabled, when sending email to contacts you can include a QR Checkin Code"
 " token for this event."
 msgstr ""
+"Bu seçenek etkinleştirildiğinde, kişilere e-posta gönderirken bu etkinliğn "
+"QR giriş kodunu ekleyebilirsiniz."
