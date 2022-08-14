@@ -4,12 +4,13 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Mathieu Lu <mathieu@bidon.ca>, 2022
+# Kaya Zeren <kayazeren@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: contacteditor\n"
 "POT-Creation-Date: 2020-02-19 05:01+0000\n"
-"Last-Translator: Mathieu Lu <mathieu@bidon.ca>, 2022\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2022\n"
 "Language-Team: Turkish (https://www.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,35 +20,35 @@ msgstr ""
 
 #: CRM/Contacteditor/ChangeContactType.php
 msgid "Contact type cannot be changed if subtype is not empty"
-msgstr ""
+msgstr "Alt tür boş değilse kişi türü değiştirilemez"
 
 #: CRM/Contacteditor/ChangeContactType.php
 msgid ""
 "Individuals cannot be changed to another type while they have birth or death"
 " data"
-msgstr ""
+msgstr "Doğum ya da ölüm verileri olan bireylerin türü değiştirilemez"
 
 #: CRM/Contacteditor/ChangeContactType.php
 msgid "The contact has custom data that is not valid for the new type."
-msgstr ""
+msgstr "Kişinin yeni türde bulunmayan bir özel verisi var."
 
 #: CRM/Contacteditor/ChangeContactType.php
 msgid ""
 "The contact has one or more relationships that are not valid for the new "
 "type"
-msgstr ""
+msgstr "Kişinin yeni tür için geçerli olmayan bir ya da birkaç ilişkisi var"
 
 #: CRM/Contacteditor/ChangeContactType.php
 msgid "Contact type changed from %1 to %2"
-msgstr ""
+msgstr "Kişinin %1 olan türü %2 olarak değiştirildi"
 
 #: CRM/Contacteditor/ChangeContactType.php
 msgid "Data lost by the change : "
-msgstr ""
+msgstr "Değişiklik ile kaybolan veri: "
 
 #: CRM/Contacteditor/Form/ContactTypeChange.php
 msgid "Change contact type for %1"
-msgstr ""
+msgstr "Kişi türünü %1 olarak değiştir"
 
 #: CRM/Contacteditor/Form/ContactTypeChange.php
 msgid "Save"
@@ -59,21 +60,23 @@ msgstr "İptal"
 
 #: CRM/Contacteditor/Form/ContactTypeChange.php
 msgid "Contact type updated"
-msgstr ""
+msgstr "Kişi türü güncellendi"
 
 #: CRM/Contacteditor/Form/ContactTypeChange.php
 msgid "Contact type not changed"
-msgstr ""
+msgstr "Kişi türü değiştirilmedi"
 
 #: contacteditor.php
 msgid "Change CiviCRM contact type"
-msgstr ""
+msgstr "CiviCRM kişi türünü değiştir"
 
 #: contacteditor.php
 msgid ""
 "Permits changing a contact type. This may result in data loss if the new "
 "type does not support all data of the old type."
 msgstr ""
+"Bir kişi türünün değiştirilmesini sağlar. Yeni tür eski türdeki tüm verileri"
+" desteklemiyorsa, bu işlem veri kaybına neden olabilir."
 
 #: templates/CRM/Contacteditor/Form/ContactTypeChange.tpl
 msgid ""
@@ -81,3 +84,6 @@ msgid ""
 "would be invalidated. Some more trivial data (name prefix & suffix) will be "
 "stored in an activity rather than lost."
 msgstr ""
+"Geçersiz kılınacak herhangi bir veriye sahip olmaması koşuluyla, kişinin "
+"türünü değiştirebilirsiniz. Bazı daha önemsiz veriler (ad ön eki ve son eki "
+"gibi) kaybolmak yerine bir işlemde saklanır."
