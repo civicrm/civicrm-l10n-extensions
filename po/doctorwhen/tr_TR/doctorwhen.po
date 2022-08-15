@@ -4,12 +4,13 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Mathieu Lu <mathieu@bidon.ca>, 2022
+# Kaya Zeren <kayazeren@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: doctorwhen\n"
 "POT-Creation-Date: 2021-03-19 05:01+0000\n"
-"Last-Translator: Mathieu Lu <mathieu@bidon.ca>, 2022\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2022\n"
 "Language-Team: Turkish (https://www.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,36 +23,46 @@ msgid ""
 "\"civicrm_activity.created_date\" - Fill in missing values using "
 "\"civicrm_log\" (CRM-20958)"
 msgstr ""
+"\"civicrm_activity.created_date\" - \"civicrm_log\" (CRM-20958) kullanılarak"
+" eksik değerler doldurulsun"
 
 #: CRM/DoctorWhen/Cleanups/ActivityModified.php
 msgid ""
 "\"civicrm_activity.modified_date\" - Fill in missing values using "
 "\"civicrm_log\" (CRM-20958)"
 msgstr ""
+"\"civicrm_activity.modified_date\" - \"civicrm_log\" (CRM-20958) "
+"kullanılarak eksik değerler doldurulsun"
 
 #: CRM/DoctorWhen/Cleanups/CaseCreated.php
 msgid ""
 "\"civicrm_case.created_date\" - Fill in missing values using the activity "
 "log (CRM-20958)"
 msgstr ""
+"\"civicrm_case.created_date\" - İşlem günlüğü (CRM-20958) kullanılarak eksik"
+" değerler doldurulsun"
 
 #: CRM/DoctorWhen/Cleanups/CaseModified.php
 msgid ""
 "\"civicrm_case.modified_date\" - Fill in missing values using the activity "
 "log (CRM-20958)"
 msgstr ""
+"\"civicrm_case.modified_date\" - İşlem günlüğü (CRM-20958) kullanılarak "
+"eksik değerler doldurulsun"
 
 #: CRM/DoctorWhen/Cleanups/Example.php
 msgid "Example title"
-msgstr ""
+msgstr "Örnek başlık"
 
 #: CRM/DoctorWhen/Cleanups/RestoreTracking.php
 msgid "Restore modification tracking after upgrade (CRM-20958) [required]"
 msgstr ""
+"Yükseltmeden sonra değişiklik izlemesi geri yüklensin (CRM-20958) [zorunlu]"
 
 #: CRM/DoctorWhen/Cleanups/SuspendTracking.php
 msgid "Suspend modification tracking during upgrade (CRM-20958) [required]"
 msgstr ""
+"Yükseltme sırasında değişiklik izlemesi duraklatılsın (CRM-20958) [zorunlu]"
 
 #: CRM/DoctorWhen/Form/Cleanup.php
 msgid "Submit"
@@ -59,46 +70,53 @@ msgstr "Gönder"
 
 #: CRM/DoctorWhen/Form/Cleanup.php
 msgid "Doctor When: Temporal cleanup agent"
-msgstr ""
+msgstr "Doctor When: Çevresel temizleme uygulaması"
 
 #: CRM/DoctorWhen/Form/Cleanup.php
 msgid "Executed DoctorWhen."
-msgstr ""
+msgstr "Yürütülen Doctor When."
 
 #: api/v3/DoctorWhen.php
 msgid "CiviCRM Cleanup Tasks"
-msgstr ""
+msgstr "CiviCRM temizlik görevleri"
 
 #: doctorwhen.php
 msgid "Doctor When"
-msgstr ""
+msgstr "Doctor When"
 
 #: templates/CRM/DoctorWhen/Form/Cleanup.tpl
 msgid "Doctor When is a tool for cleaning up datetime/timestamp data."
 msgstr ""
+"Doctor When tarihsaat ve zaman damgası verilerini temizleyen bir araçtır."
 
 #: templates/CRM/DoctorWhen/Form/Cleanup.tpl
 msgid "Please take precautions:"
-msgstr ""
+msgstr "Lütfen dikkatle kullanın:"
 
 #: templates/CRM/DoctorWhen/Form/Cleanup.tpl
 msgid ""
 "Before executing in production, review the list of <a href=\"%1\">open "
 "issues</a>."
 msgstr ""
+"Üretim ortamında kullanmadan önce <a href=\"%1\">çözülmemiş sorunları</a> "
+"gözden geçirin."
 
 #: templates/CRM/DoctorWhen/Form/Cleanup.tpl
 msgid ""
 "Before executing in production, execute on a staging system with "
 "representative data. Inspect the data."
 msgstr ""
+"Üretim ortamında kullanmadan önce, temsili veriler ile bir ara sistem "
+"üzerinde deneyin. Verileri inceleyin."
 
 #: templates/CRM/DoctorWhen/Form/Cleanup.tpl
 msgid "Before executing in production, take a new backup."
-msgstr ""
+msgstr "Üretim ortamında kullanmadan önce bir yedek alın."
 
 #: templates/CRM/DoctorWhen/Form/Cleanup.tpl
 msgid ""
 "After confirming that DoctorWhen has run successfully, the extension should "
 "be uninstalled."
 msgstr ""
+"Sorunsuz çalıştığını doğruladıktan sonra Doctor When uygulamasını "
+"kaldırmalısınız."
