@@ -2,10 +2,14 @@
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2022
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: contributeprogress\n"
 "POT-Creation-Date: 2021-12-29 05:02+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2022\n"
 "Language-Team: Turkish (https://www.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,57 +19,66 @@ msgstr ""
 
 #: CRM/Contributeprogress/Utils.php
 msgid "Campaign is ongoing"
-msgstr ""
+msgstr "Kampanya sürüyor"
 
 #: CRM/Contributeprogress/Utils.php
 msgid "Campaign starts on %1"
-msgstr ""
+msgstr "Kampanya %1 zamanında başlayacak"
 
 #: CRM/Contributeprogress/Utils.php
 msgid "Campaign ended on %1"
-msgstr ""
+msgstr "Kampanya %1 zamanında sona ermiş"
 
 #: CRM/Contributeprogress/Utils.php
 msgid "Campaign ends on %1"
-msgstr ""
+msgstr "Kampanya %1 zamanında sona erecek"
 
 #: CRM/Contributeprogress/Utils.php
 msgid "Contribute"
-msgstr ""
+msgstr "Katkıda bulun"
 
 #: contributeprogress.php
 msgid "Contribution Page Progress Bar"
-msgstr ""
+msgstr "Katkı sayfası ilerleme çubuğu"
 
 #: settings/contributeprogress.setting.php
 msgid "Custom CSS for Widget Embeds"
-msgstr ""
+msgstr "Sayfa bileşeni gömülürken özel CSS kullanılsın"
 
 #: settings/contributeprogress.setting.php
 msgid ""
 "Allows embedding custom CSS to further customize the widgets when embedded "
 "using an iframe."
 msgstr ""
+"Bu seçenek etkinleştirildiğinde, sayfa bileşenleri bir iFrame kullanılarak "
+"gömüldüğünde daha fazla özelleştirilebilmesi için özel CSS kodları da "
+"gömülür."
 
 #: settings/contributeprogress.setting.php
 msgid "Widget Embed Width"
-msgstr ""
+msgstr "Bileşen gömme genişliği"
 
 #: settings/contributeprogress.setting.php
 msgid ""
 "Override the default width of the embedded widget. By default, the iframe is"
 " 350x200 pixels. You may need to change this if you are using custom CSS."
 msgstr ""
+"Bu seçenek gömülen sayfa bileşenin varsayılan genişliğini değiştirir. "
+"Varsayılan olarak, iFrame 350x200 piksel boyutundadır. Özel CSS "
+"kullanıyorsanız bu değeri değiştirmeniz gerekebilir."
 
 #: settings/contributeprogress.setting.php
 msgid "Widget Embed Height"
-msgstr ""
+msgstr "Bileşen gömme yüksekliği"
 
 #: settings/contributeprogress.setting.php
 msgid ""
 "Override the default height of the embedded widget. By default, the iframe "
 "is 350x200 pixels. You may need to change this if you are using custom CSS."
 msgstr ""
+"Bu seçenek gömülen sayfa bileşenin varsayılan yüksekliğini değiştirir. "
+"Varsayılan olarak, iFrame 350x200 piksel boyutundadır. Özel CSS "
+"kullanıyorsanız bu değeri değiştirmeniz gerekebilir."
 
 #: templates/CRM/Contributeprogress/Contribute/Form/Contribution/widget.tpl
 msgid ""
@@ -73,23 +86,28 @@ msgid ""
 "class=\"crm-contribute-widget-amount-of\"> of</span> <span class=\"crm-"
 "contribute-widget-amount-objective\">%2</span> Raised"
 msgstr ""
+"<span class=\"crm-contribute-widget-amount-raised\">%1</span><span "
+"class=\"crm-contribute-widget-amount-of\"> /</span> <span class=\"crm-"
+"contribute-widget-amount-objective\">%2</span> toplandı"
 
 #: templates/CRM/Contributeprogress/Contribute/Form/Contribution/widget.tpl
 msgid "<span class=\"crm-contribute-widget-stats-metric\">%1</span> Goal Met"
 msgstr ""
+"<span class=\"crm-contribute-widget-stats-metric\">%1</span> hedefine "
+"ulaşıldı"
 
 #: templates/CRM/Contributeprogress/Contribute/Form/Contribution/widget.tpl
 msgid "<span class=\"crm-contribute-widget-stats-metric\">%1</span> Still Needed"
-msgstr ""
+msgstr "<span class=\"crm-contribute-widget-stats-metric\">%1</span> eksik var"
 
 #: templates/CRM/Contributeprogress/Contribute/Form/Contribution/widget.tpl
 msgid "<span class=\"crm-contribute-widget-stats-metric\">1</span> Supporter"
 msgid_plural "<span class="
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "<span class=\"crm-contribute-widget-stats-metric\">1</span> destekçi"
+msgstr[1] "<span class="
 
 #: templates/CRM/Contributeprogress/Contribute/Form/Contribution/widget.tpl
 msgid "<span class=\"crm-contribute-widget-stats-metric\">1</span> Day Left"
 msgid_plural "<span class="
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "<span class=\"crm-contribute-widget-stats-metric\">1</span> gün kaldı"
+msgstr[1] "<span class="
