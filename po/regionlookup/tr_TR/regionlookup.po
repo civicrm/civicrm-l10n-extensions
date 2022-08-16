@@ -3,11 +3,13 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2022
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
 "POT-Creation-Date: 2018-11-15 19:41+0000\n"
 "PO-Revision-Date: 2014-05-30 13:55+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2022\n"
 "Language-Team: Turkish (http://www.transifex.com/civicrm/civicrm_extensions/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,19 +23,19 @@ msgstr "Kaydet"
 
 #: CRM/Admin/Form/Setting/RegionLookup.php
 msgid "Settings saved."
-msgstr ""
+msgstr "Ayarlar kaydedildi."
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "Field selector"
-msgstr ""
+msgstr "Alan seçici"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "District"
-msgstr ""
+msgstr "Bölge"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "Borough"
-msgstr ""
+msgstr "Kasaba"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "City"
@@ -41,7 +43,7 @@ msgstr "İlçe"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "County"
-msgstr ""
+msgstr "Ülke"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "State/Province"
@@ -53,35 +55,35 @@ msgstr "Ülke"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "Postcode"
-msgstr ""
+msgstr "Posta kodu"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "State/Province riding"
-msgstr ""
+msgstr "İl/bölge sürüşü"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "Country riding"
-msgstr ""
+msgstr "Ülke sürüşü"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "Custom callback"
-msgstr ""
+msgstr "Özel geri çağırma"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "Enable prefix-searching?"
-msgstr ""
+msgstr "Ön ek ile arama yapılabilsin"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "Enable wildcard search?"
-msgstr ""
+msgstr "Genel karakter ile arama yapılabilsin"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "Trigger search as the user types?"
-msgstr ""
+msgstr "Kullanıcı yazmaya başladığında arama tetiklensin"
 
 #: CRM/RegionLookup/BAO/RegionLookup.php
 msgid "How many characters to send to the lookup query?"
-msgstr ""
+msgstr "Arama sorgusuna gönderilecek karakter sayısı"
 
 #: CRM/RegionLookup/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
@@ -89,7 +91,7 @@ msgstr "%1, %2 sürümüne güncelle"
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid "Lookup field"
-msgstr ""
+msgstr "Arama alanı"
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid ""
@@ -97,42 +99,42 @@ msgid ""
 "billing block of contribution forms. If empty, it will disable the lookup "
 "function. Use the \"inspect element\" function of your browser to determine "
 "the correct selector."
-msgstr ""
+msgstr "Arama için kullanılacak alan. Bu alan, katkı formlarının CiviCRM fatura bloğundaki posta kodu alanı olmalıdır. Alan boş olduğunda, arama işlevi devre dışı bırakılır. Doğru seçiciyi belirlemek için web tarayıcınızın \"inspect element\" işlevini kullanın."
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid "For example: .billing_name_address-section input#billing_postal_code-5"
-msgstr ""
+msgstr "Örnek: .billing_name_address-section input#billing_postal_code-5"
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid ""
 "This allows to find the closest match. For example, you may have the H1H "
 "postcode mapped to a value, with the exception of H1H 2A2 mapped to another "
 "value."
-msgstr ""
+msgstr "Böylece, en yakın eşleşme bulunur. Örneğin, H1H posta kodunu bir değerle eşleştirmişken H1H 2A2 kodunu başka bir değerle eşleştirmiş olabilirsiniz."
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid ""
 "This allows to search on partial matches. Makes sense mostly if used with "
 "the other options below. <strong>TODO: not implemented yet.</strong>"
-msgstr ""
+msgstr "Böylece, parçalı eşleşmelerle arama yapabilirsiniz. Aşağıdaki diğer seçeneklerle birlikte kullanıldığında çoğunlukla anlamlıdır. <strong>YAPILACAK: Henüz uygulanmadı.</strong>"
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid ""
 "Launches the search after each character typed by the user. Useful for "
 "partial matches with autocomplete. <strong>TODO: not implemented "
 "yet.</strong>"
-msgstr ""
+msgstr "Kullanıcı tarafından yazılan her karakterden sonra aramayı başlatır. Otomatik tamamlama ile parçalı eşleşmeler için kullanışlıdır. <strong>YAPILACAK: Henüz uygulanmadı.</strong>"
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid ""
 "For example, if your lookup only requires the first 3 digits of a postcode "
 "to find a match, enter 3 in this field. <strong>TODO: not implemented "
 "yet.</strong>"
-msgstr ""
+msgstr "Örneğin, aramanızın bir eşleşme bulması için posta kodunun yalnızca ilk 3 hanesi gerekiyorsa bu alana 3 yazın. <strong>YAPILACAK: Henüz uygulanmadı.</strong>"
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid "Destination fields"
-msgstr ""
+msgstr "Hedef alanları"
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid ""
@@ -141,26 +143,26 @@ msgid ""
 "function of your browser to determine the correct selector. For example: the"
 " selector for a custom field ID 1 in a post profile is: "
 ".custom_post_profile-group #custom_1"
-msgstr ""
+msgstr "Alan arama tarafından güncellendi. Örneğin, posta kodu araması bir bölge alanını, bölge/ülke sürüşünü vb. güncelleyebilir. Doğru seçiciyi belirlemek için tarayıcınızın \"inspect element\" işlevini kullanın. Örneğin: bir gönderi profilindeki özel alan kodu 1 için seçici: .custom_post_profile-group #custom_1"
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid "Custom overrides"
-msgstr ""
+msgstr "Özel değişiklikler"
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid ""
 "Custom javascript function to call with the resulting data. This allows you "
 "to write your own custom callbacks and override how the response is handled."
-msgstr ""
+msgstr "Elde edilen verilerle çağrılacak özel JavaScript işlevi. Böylece, kendi özel geri aramalarınızı yazabilir ve yanıtın nasıl işlendiğini değiştirebilirsiniz."
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid ""
 "Region Lookup is a CiviCRM extension openly available under the <a "
 "href=\"%1\">GNU AGPL License</a>."
-msgstr ""
+msgstr "\"Bölge arama\", <a href=\"%1\">GNU AGPL Lisansı</a> koşulları altında açık olarak kullanılabilen bir CiviCRM eklentisidir."
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid ""
 "For new versions, bug reports or support, visit the <a href=\"%1\">project "
 "page on github</a>."
-msgstr ""
+msgstr "Yeni sürümlere bakmak, hataları bildirmek veya destek almak için <a href=\"%1\">github üzerindeki proje sayfasına</a> bakabilirsiniz."
