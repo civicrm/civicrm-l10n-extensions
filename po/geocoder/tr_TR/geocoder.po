@@ -20,7 +20,7 @@ msgstr ""
 
 #: CRM/Geocoder/DAO/Geocoder.php
 msgid "Geocoder ID"
-msgstr ""
+msgstr "Coğrafi kodlayıcı kodu"
 
 #: CRM/Geocoder/DAO/Geocoder.php
 msgid "Name"
@@ -32,7 +32,7 @@ msgstr "Başlık"
 
 #: CRM/Geocoder/DAO/Geocoder.php
 msgid "Class"
-msgstr ""
+msgstr "Sınıf"
 
 #: CRM/Geocoder/DAO/Geocoder.php
 msgid "Enabled"
@@ -40,11 +40,11 @@ msgstr "Etkin"
 
 #: CRM/Geocoder/DAO/Geocoder.php
 msgid "Weight"
-msgstr ""
+msgstr "Ağırlık"
 
 #: CRM/Geocoder/DAO/Geocoder.php
 msgid "Api Key"
-msgstr ""
+msgstr "API anahtarı"
 
 #: CRM/Geocoder/DAO/Geocoder.php
 msgid "Url"
@@ -52,27 +52,27 @@ msgstr "Adres"
 
 #: CRM/Geocoder/DAO/Geocoder.php
 msgid "Required Fields"
-msgstr ""
+msgstr "Zorunlu alanlar"
 
 #: CRM/Geocoder/DAO/Geocoder.php
 msgid "Retained Response Fields"
-msgstr ""
+msgstr "Korunan yanıt alanları"
 
 #: CRM/Geocoder/DAO/Geocoder.php
 msgid "Datafill Response Fields"
-msgstr ""
+msgstr "Veri ile doldurulan yanıt alanları"
 
 #: CRM/Geocoder/DAO/Geocoder.php
 msgid "Threshold standdown"
-msgstr ""
+msgstr "Eşik bekleme"
 
 #: CRM/Geocoder/DAO/Geocoder.php
 msgid "Threshold Last Hit"
-msgstr ""
+msgstr "Eşik son ulaşılan"
 
 #: CRM/Geocoder/DAO/Geocoder.php
 msgid "Valid countries"
-msgstr ""
+msgstr "Geçerli ülkeler"
 
 #: CRM/Geocoder/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
@@ -81,20 +81,23 @@ msgstr "%1, %2 sürümüne güncelle"
 #: CRM/Utils/Geocode/Geocoder.php
 msgid "Failed to geocode address, no co-ordinates saved"
 msgstr ""
+"Adres coğrafi olarak kodlanamadı. Herhangi bir koordinat kaydedilmedi. "
 
 #: CRM/Utils/Geocode/Geocoder.php
 msgid ""
 "Geocoder quota exceeded. No further geocoding attempts will be made for %1 "
 "seconds"
 msgstr ""
+"Coğrafi kodlayıcı kotası aşıldı. %1 saniye süreyle başka bir coğrafi kodlama"
+" isteği yerine getirilmeyecek"
 
 #: CRM/Utils/Geocode/Geocoder.php
 msgid "Unknown geocoding error on :"
-msgstr ""
+msgstr "Şurada bilinmeyen bir coğrafi kodlama sorunu çıktı:"
 
 #: CRM/Utils/Geocode/Geocoder.php
 msgid "Street Address"
-msgstr ""
+msgstr "Sokak adresi"
 
 #: CRM/Utils/Geocode/Geocoder.php
 msgid "City"
@@ -106,11 +109,11 @@ msgstr "Posta kodu"
 
 #: CRM/Utils/Geocode/Geocoder.php
 msgid "County"
-msgstr ""
+msgstr "Ülke"
 
 #: CRM/Utils/Geocode/Geocoder.php
 msgid "State / Province"
-msgstr ""
+msgstr "İl/bölge"
 
 #: CRM/Utils/Geocode/Geocoder.php
 msgid "Country"
@@ -118,19 +121,23 @@ msgstr "Ülke"
 
 #: ProviderMetadata/4_Addok.mgd.geo.php
 msgid "France only"
-msgstr ""
+msgstr "Yalnızca Fransa"
 
 #: ProviderMetadata/4_GoogleMaps.mgd.geo.php
 msgid ""
 "Adhering to Terms of service is your responsibility - "
 "https://support.google.com/code/answer/55180?hl=en"
 msgstr ""
+"Hizmet koşullarına uymak sizin sorumluluğunuzdadır - "
+"https://support.google.com/code/answer/55180?hl=tr"
 
 #: ProviderMetadata/4_Mapquest.mgd.geo.php
 msgid ""
 "api key required - 15000 for free per month - sign up "
 "https://developer.mapquest.com/plan_purchase/steps/business_edition/business_edition_free/register"
 msgstr ""
+"API anahtarı gerekli. Ayda 15000 işlem ücretsiz. Hesap açın "
+"https://developer.mapquest.com/plan_purchase/steps/business_edition/business_edition_free/register"
 
 #: ProviderMetadata/5_Here.mgd.geo.php
 msgid ""
@@ -139,6 +146,10 @@ msgid ""
 "      {\"app_id\" : \"xyz\", \"app_code\" : \"klm\"}\n"
 "    "
 msgstr ""
+"api_key (yani anahtarınız) içinde app_id ve app_code bulunmalıdır\n"
+"    Şu şekilde görünmelidir:\n"
+"      {\"app_id\" : \"xyz\", \"app_code\" : \"klm\"}\n"
+"    "
 
 #: ProviderMetadata/6_GeoNameDBDownload.mgd.geo.php
 msgid ""
@@ -147,16 +158,23 @@ msgid ""
 "DB. Default table name is civicrm_geonames_lookup. A dataset for NZ ships "
 "with the extension as a sample. You need to load it though"
 msgstr ""
+"Bunu ayarlamak için ek yapılandırma gereklidir. "
+"http://download.geonames.org/export/zip/ adresinden bir veri kümesi almanız "
+"ve bunu CiviCRM veritabanınıza aktarmanız gerekir. Varsayılan tablo adı "
+"civicrm_genames_lookup şeklindedir. Örnek olarak, eklenti içinde NZ için bir"
+" veri kümesi bulunur, ama ayrıca yüklemeniz gerekir"
 
 #: ang/geocoder/editCtrl.html
 msgid "Gecoders"
-msgstr ""
+msgstr "Coğrafi kodlayıcılar"
 
 #: ang/geocoder/editCtrl.html
 msgid ""
 "To view more debugging information, edit the URL and include "
 "\"?angularDebug=1\"."
 msgstr ""
+"Daha fazla hata ayıklama bilgisi görüntülemek için adresi düzenleyerek "
+"\"?angularDebug=1\" ekleyin."
 
 #: ang/geocoder/editCtrl.html
 msgid "Save"
@@ -164,7 +182,7 @@ msgstr "Kaydet"
 
 #: ang/geocoder/editCtrl.js
 msgid "geocoder"
-msgstr ""
+msgstr "Coğrafi kodlayıcı"
 
 #: ang/geocoder/editCtrl.js
 msgid "Saving..."
@@ -178,4 +196,4 @@ msgstr "Kaydedildi"
 msgid ""
 "The contact name  should be divided in two parts, the first name and last "
 "name."
-msgstr ""
+msgstr "Kişi adı, ad ve soyad olarak iki bölüme ayrılmalıdır."
