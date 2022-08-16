@@ -4,12 +4,13 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Mathieu Lu <mathieu@bidon.ca>, 2022
+# Kaya Zeren <kayazeren@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: firewall\n"
 "POT-Creation-Date: 2021-12-25 05:02+0000\n"
-"Last-Translator: Mathieu Lu <mathieu@bidon.ca>, 2022\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2022\n"
 "Language-Team: Turkish (https://www.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,47 +20,47 @@ msgstr ""
 
 #: CRM/Firewall/DAO/FirewallIpaddress.php
 msgid "Firewall Ipaddresses"
-msgstr ""
+msgstr "Güvenlik duvarı IP adresleri"
 
 #: CRM/Firewall/DAO/FirewallIpaddress.php
 msgid "Firewall Ipaddress"
-msgstr ""
+msgstr "Güvenlik duvarı IP adresi"
 
 #: CRM/Firewall/DAO/FirewallIpaddress.php
 msgid "Unique FirewallIpaddress ID"
-msgstr ""
+msgstr "Eşsiz güvenlik duvarı IP adresi kodu"
 
 #: CRM/Firewall/DAO/FirewallIpaddress.php
 msgid "IP Address"
-msgstr ""
+msgstr "IP adresi"
 
 #: CRM/Firewall/DAO/FirewallIpaddress.php
 msgid "IP address used"
-msgstr ""
+msgstr "Kullanılan IP adresi"
 
 #: CRM/Firewall/DAO/FirewallIpaddress.php
 msgid "Access Date"
-msgstr ""
+msgstr "Erişilme tarihi"
 
 #: CRM/Firewall/DAO/FirewallIpaddress.php
 msgid "When the IP address accessed"
-msgstr ""
+msgstr "IP adresine ne zaman erişildiği"
 
 #: CRM/Firewall/DAO/FirewallIpaddress.php
 msgid "Event Type"
-msgstr ""
+msgstr "Etkinlik türü"
 
 #: CRM/Firewall/DAO/FirewallIpaddress.php
 msgid "The type of event that triggered this log"
-msgstr ""
+msgstr "Bu günlük kaydını tetikleyen etkinlik türü"
 
 #: CRM/Firewall/DAO/FirewallIpaddress.php
 msgid "Source"
-msgstr ""
+msgstr "Kaynak"
 
 #: CRM/Firewall/DAO/FirewallIpaddress.php
 msgid "Origin of this access request"
-msgstr ""
+msgstr "Bu erişim isteğinin kaynağı"
 
 #: CRM/Firewall/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
@@ -67,74 +68,84 @@ msgstr "%1, %2 sürümüne güncelle"
 
 #: Civi/Firewall/Firewall.php
 msgid "Session expired. Please reload and try again."
-msgstr ""
+msgstr "Oturumun süresi dolmuş. Lütfen yeniden yükleyerek deneyin."
 
 #: Civi/Firewall/Firewall.php
 msgid "Session invalid. Please reload and try again."
-msgstr ""
+msgstr "Oturum geçersiz. Lütfen yeniden yükleyerek deneyin."
 
 #: Civi/Firewall/Firewall.php
 msgid "Blocked"
-msgstr ""
+msgstr "Engellendi"
 
 #: firewall.php
 msgid "Firewall Settings"
-msgstr ""
+msgstr "Güvenlik duvarı ayarları"
 
 #: settings/firewall.setting.php
 msgid "Firewall CSRF timeout (seconds)"
-msgstr ""
+msgstr "Güvenlik duvarı CSRF zaman aşımı (saniye)"
 
 #: settings/firewall.setting.php
 msgid ""
 "Time after which generated CSRF token expires (default 12 hours: 43200 "
 "seconds)"
 msgstr ""
+"Üretilmiş CSRF kodunun süresin ne zaman dolacağı (varsayılan değer 12 saat: "
+"43200 saniye)"
 
 #: settings/firewall.setting.php
 msgid "Is server behind reverse proxy?"
-msgstr ""
+msgstr "Sunucu bir ters vekil sunucu arkasında"
 
 #: settings/firewall.setting.php
 msgid ""
 "If yes, try to retrieve the IP address of the actual client instead of using"
 " REMOTE_ADDR header"
 msgstr ""
+"Bu seçenek etkinleştirildiğinde, REMOTE_ADDR üst bilgisi yerine etkin "
+"istemcinin IP adresi alınmaya çalışılır"
 
 #: settings/firewall.setting.php
 msgid "Firewall Reverse Proxy Header"
-msgstr ""
+msgstr "Güvenlik duvarı ters vekil sunucu üst bilgisi"
 
 #: settings/firewall.setting.php
 msgid "Reverse Proxy Header (default HTTP_X_FORWARDED_FOR)"
-msgstr ""
+msgstr "Ters vekil sunucu üst bilgisi (varsayılan HTTP_X_FORWARDED_FOR)"
 
 #: settings/firewall.setting.php
 msgid "List of reverse proxy IP addresses"
-msgstr ""
+msgstr "Ters vekil sunucu IP adreslerinin listesi"
 
 #: settings/firewall.setting.php
 msgid ""
 "List of reverse proxy IP addresses that may be seen by your server. Used to "
 "help identify client IP address"
 msgstr ""
+"Sunucunuz tarafından görülebilecek ters vekil sunucu IP adreslerinin "
+"listesi. İstemci IP adresini tanımlamaya yardımcı olmak için kullanılır"
 
 #: settings/firewall.setting.php
 msgid "List of IP addresses to always allow"
-msgstr ""
+msgstr "Engellenmeyecek IP adreslerinin listesi"
 
 #: settings/firewall.setting.php
 msgid ""
 "List of IP addresses that will never be blocked. For IPv4 can include "
 "wildcards eg. 192.168.*"
 msgstr ""
+"Asla engellenmeyecek IP adreslerinin listesi. IPv4 için genel arama "
+"karakterleri kullanılabilr. Örnek: 192.168.*"
 
 #: settings/firewall.setting.php
 msgid "List of IP addresses to block"
-msgstr ""
+msgstr "Engellenecek IP adreslerinin listesi"
 
 #: settings/firewall.setting.php
 msgid ""
 "List of IP addresses that will always be blocked. For IPv4 can include "
 "wildcards eg. 192.168.*"
 msgstr ""
+"Her zaman engellenecek IP adreslerinin listesi. IPv4 için genel arama "
+"karakterleri kullanılabilr. Örnek: 192.168.*"
