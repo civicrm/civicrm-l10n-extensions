@@ -4,12 +4,13 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Mathieu Lu <mathieu@bidon.ca>, 2022
+# Kaya Zeren <kayazeren@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: pdfapi\n"
 "POT-Creation-Date: 2020-07-07 05:01+0000\n"
-"Last-Translator: Mathieu Lu <mathieu@bidon.ca>, 2022\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2022\n"
 "Language-Team: Turkish (https://www.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,78 +21,80 @@ msgstr ""
 #: CRM/Pdfapi/CivirulesAction.php
 msgid "Send PDF to e-mail address (printer or mailbox) \"%1\" with template \"%2\""
 msgstr ""
+"PDF dosyasını \"%2\" kalıbı ile \"%1\" e-posta adresine (yazıcı ya da "
+"e-posta kutusu) gönder"
 
 #: CRM/Pdfapi/CivirulesAction.php
 msgid " , email is sent from email address \""
-msgstr ""
+msgstr " , e-posta \"Kimden\" e-posta adresinden gönderildi \""
 
 #: CRM/Pdfapi/CivirulesAction.php
 msgid " , email sender name is \""
-msgstr ""
+msgstr " , e-posta \"Kimden\" adı \""
 
 #: CRM/Pdfapi/CivirulesAction.php
 msgid " , template for e-mail body \""
-msgstr ""
+msgstr " , e-posta içeriğinin kalıbı \""
 
 #: CRM/Pdfapi/CivirulesAction.php
 msgid " and subject of the email: \""
-msgstr ""
+msgstr " ve e-postanın konusu: \""
 
 #: CRM/Pdfapi/CivirulesAction.php
 msgid ", record Print Pdf activity for each contact"
-msgstr ""
+msgstr ", her kişinin PDF yazdırma işlemleri kaydedilir"
 
 #: CRM/Pdfapi/CivirulesAction.php
 msgid ", record Email activity for each contact"
-msgstr ""
+msgstr ", her kişinin e-posta işlemleri kaydedilir"
 
 #: CRM/Pdfapi/CivirulesAction.php
 msgid ", file on case"
-msgstr ""
+msgstr ", olay dosyası"
 
 #: CRM/Pdfapi/Form/CivirulesAction.php
 msgid "-- please select --"
-msgstr ""
+msgstr "-- Lütfen seçin --"
 
 #: CRM/Pdfapi/Form/CivirulesAction.php
 msgid "From e-mail address"
-msgstr ""
+msgstr "\"Kimden\" e-posta adresi"
 
 #: CRM/Pdfapi/Form/CivirulesAction.php
 msgid "Email is not valid."
-msgstr ""
+msgstr "E-posta adresi geçersiz."
 
 #: CRM/Pdfapi/Form/CivirulesAction.php
 msgid "From e-mail name"
-msgstr ""
+msgstr "E-postanın \"Kimden adı\""
 
 #: CRM/Pdfapi/Form/CivirulesAction.php
 msgid "To e-mail address"
-msgstr ""
+msgstr "\"Kime\" e-posta adresi"
 
 #: CRM/Pdfapi/Form/CivirulesAction.php
 msgid "Message template for the PDF"
-msgstr ""
+msgstr "PDF için ileti kalıbı"
 
 #: CRM/Pdfapi/Form/CivirulesAction.php
 msgid "Message template for the e-mail that sends the PDF"
-msgstr ""
+msgstr "PDF gönderimi yapan e-postanın ileti kalıbı"
 
 #: CRM/Pdfapi/Form/CivirulesAction.php
 msgid "Subject for the e-mail that will send the PDF"
-msgstr ""
+msgstr "PDF gönderimi yapan e-postanın konusu"
 
 #: CRM/Pdfapi/Form/CivirulesAction.php
 msgid "Print PDF activity for each contact?"
-msgstr ""
+msgstr "Her kişinin PDF yazdırma işlemleri kaydedilsin"
 
 #: CRM/Pdfapi/Form/CivirulesAction.php
 msgid "Email activity for each contact?"
-msgstr ""
+msgstr "Her kişinin e-posta işlemleri kaydedilsin"
 
 #: CRM/Pdfapi/Form/CivirulesAction.php
 msgid "File activity on case"
-msgstr ""
+msgstr "Olay üzerindeki dosya işlemleri"
 
 #: CRM/Pdfapi/Form/CivirulesAction.php
 msgid "Save"
@@ -103,15 +106,15 @@ msgstr "İptal"
 
 #: CRM/Pdfapi/Pdf.php
 msgid "CiviCRM has generated a PDF letter"
-msgstr ""
+msgstr "CiviCRM bir PDF mektubu oluşturdu"
 
 #: CRM/Pdfapi/Pdf.php
 msgid "PDF Letter from Civicrm"
-msgstr ""
+msgstr "CiviCRM PDF mektubu"
 
 #: CRM/Pdfapi/Pdf.php
 msgid "Email with attached PDF not sent to contact ID "
-msgstr ""
+msgstr "Ekli PDF dosyasının eklendiği e-posta kişi koduna gönderilmedi"
 
 #: CRM/Pdfapi/Pdf.php
 msgid ""
@@ -119,34 +122,41 @@ msgid ""
 "contact are on hold, the contact opted out of mailing or the contact is "
 "deceased in "
 msgstr ""
+" ilişkili kişi için birincil e-posta adresi bulunamadığından, bu kişiye "
+"gönderilen tüm e-postalar bekliyor. İlişkili kişi tüm e-posta "
+"aboneliklerinden ayrılmış ya da durumu vefat etmiş olarak ayarlanmış "
+"olabilir."
 
 #: CRM/Pdfapi/Pdf.php
 msgid "Already found an attachment for activity_id "
-msgstr ""
+msgstr "activity_id için zaten bir ek dosya bulundu "
 
 #: CRM/Pdfapi/Pdf.php
 msgid " and file_id "
-msgstr ""
+msgstr " ve file_id "
 
 #: CRM/Pdfapi/Pdf.php
 msgid " in "
-msgstr ""
+msgstr "şurada"
 
 #: CRM/Pdfapi/Pdf.php
 msgid ", error from API OptionValue getvalue: "
-msgstr ""
+msgstr ", API OptionValue getvalue sorunu: "
 
 #: CRM/Pdfapi/Pdf.php
 msgid "Empty parameter case_id passed to API Create PDF, case_id ignored in "
 msgstr ""
+"API Create PDF işlevine aktarılan case_id parametresi boş. , case_id yok "
+"sayıldı "
 
 #: CRM/Pdfapi/Pdf.php
 msgid "Could not find a case with case ID "
-msgstr ""
+msgstr "Olay kodu ile ilişkili bir olay bulunamadı"
 
 #: CRM/Pdfapi/Pdf.php
 msgid ", activity will be logged to contact(s) instead, fix manually."
 msgstr ""
+", bu nedenle işlem kişilerin günlüğüne kaydedilecek. Sorunu el ile düzeltin."
 
 #: CRM/Pdfapi/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
