@@ -92,14 +92,16 @@ msgid ""
 "This will automatically correct incorrect email addresses attached to the "
 "contacts you've selected."
 msgstr ""
+"Bu eklenti, seçtiğiniz kişilere eklenmiş hatalı e-posta adreslerini otomatik"
+" olarak düzeltir."
 
 #: templates/CRM/Emailamender/Form/Task/Correctemailaddresses.tpl
 msgid "An activity will be added to each contact recording what has changed."
-msgstr ""
+msgstr "Her kişiye, nelerin değiştiği hakkında bir işlem kaydı eklenir."
 
 #: templates/CRM/Emailamender/Form/Task/Correctemailaddresses.tpl
 msgid "contacts are due to be processed."
-msgstr ""
+msgstr "kişi işlenecek."
 
 #: templates/CRM/Emailamender/Page/EmailAmenderSettings.tpl
 msgid ""
@@ -109,14 +111,19 @@ msgid ""
 "    <strong>john@hotmail.com</strong>\n"
 "  "
 msgstr ""
+"Aşağıdaki \"E-posta adreleri otomatik olarak düzeltilsin\" seçeneği etkinleştirildiğinde, e-posta adresleri eklendikçe otomatik olarak düzeltilir. Örneğin\n"
+"    <strong>john@hotmai.cpm</strong>\n"
+"    şu şekilde düzeltilir\n"
+"    <strong>john@hotmail.com</strong>\n"
+"  "
 
 #: templates/CRM/Emailamender/Page/EmailAmenderSettings.tpl
 msgid "Enable automatic email corrections."
-msgstr ""
+msgstr "E-posta adresleri otomatik olarak düzeltilsin."
 
 #: templates/CRM/Emailamender/Page/EmailAmenderSettings.tpl
 msgid "Compound Top Level Domain Names"
-msgstr ""
+msgstr "Bileşik üst düzey etki alanı adları"
 
 #: templates/CRM/Emailamender/Page/EmailAmenderSettings.tpl
 msgid ""
@@ -125,28 +132,32 @@ msgid ""
 "incorrect email address john@gmai.co.uk, we want to repair the 'gmai', not "
 "the 'co'."
 msgstr ""
+"\"Bileşik\" üst düzey etki alanı adları, genellikle birincinin parçası "
+"olarak kabul edilen ikinci düzey etki alanı adlarını belirtir. Örneğin, "
+"john@gmai.co.uk e-posta adresinin yanlış olması durumunda, 'co' bölümünü "
+"değil 'gmai' bölümünü onarmak isteriz."
 
 #: templates/CRM/Emailamender/Page/EmailAmenderSettings.tpl
 msgid "Delete this compound tld"
-msgstr ""
+msgstr "Bu bileşik üst düzey etki alanını sil"
 
 #: templates/CRM/Emailamender/Page/EmailAmenderSettingsTable.tpl
 msgid "Incorrect Domain"
-msgstr ""
+msgstr "Hatalı etki alanı"
 
 #: templates/CRM/Emailamender/Page/EmailAmenderSettingsTable.tpl
 msgid "Replace with"
-msgstr ""
+msgstr "Şununla değiştir"
 
 #: templates/CRM/Emailamender/Page/EmailAmenderSettingsTable.tpl
 #: templates/CRM/Emailamender/Page/EquivalentsTable.tpl
 msgid "Options"
-msgstr ""
+msgstr "Seçenekler"
 
 #: templates/CRM/Emailamender/Page/EmailAmenderSettingsTable.tpl
 #: templates/CRM/Emailamender/Page/EquivalentsTable.tpl
 msgid "Save changes"
-msgstr ""
+msgstr "Değişiklikleri kaydet"
 
 #: templates/CRM/Emailamender/Page/EquivalentsTable.tpl
 msgid ""
@@ -169,11 +180,29 @@ msgid ""
 "  <br/><br/>\n"
 "  It does not change any existing data for a contact."
 msgstr ""
+"Sistemde var olmayan bir kişinin adresinden bir e-posta geldiğinde\n"
+"normalde bu adresle yeni bir kişi kaydı oluşturulur.\n"
+"<br/><br/>\n"
+"Ancak, bazı e-posta etki alanları \n"
+"kullanici@<strong>gmail</strong>.com ve\n"
+"kullanici@<strong>googlemail</strong>.com gibi eşdeğerdir ve\n"
+"aynı hesabın oluşturulmasına yol açar.\n"
+"<br/><br/>\n"
+"Gelen bir e-postanın tam \"Kimden\" adresi ile bir kişi kaydı\n"
+"bulunamazsa kişilerin olası eşdeğerlerine bakıyoruz.\n"
+"<br/><br/>\n"
+"Aşağıdaki tabloda, eşdeğer etki alanlarından gruplar oluşturulabilir.\n"
+"<br/><br/>\n"
+"Bu işlev, eklenen adreslerin düzeltilmesinden ayrı olduğu için, \n"
+"\"E-posta adresleri otomatik olarak düzeltilsin\" seçeneğinin \n"
+"işaretlenmesinden bağımsızdır.\n"
+"<br/><br/>\n"
+"Bir kişnini var olan verilerini değiştirmez."
 
 #: templates/CRM/Emailamender/Page/EquivalentsTable.tpl
 msgid "Group identifier"
-msgstr ""
+msgstr "Grup belirteci"
 
 #: templates/CRM/Emailamender/Page/EquivalentsTable.tpl
 msgid "Equivalent domain"
-msgstr ""
+msgstr "Eşdeğer etki alanı"
