@@ -24,25 +24,27 @@ msgstr "API anahtarı"
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "IP pool"
-msgstr ""
+msgstr "IP adresi havuzu"
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "Use backup mailer"
-msgstr ""
+msgstr "Yedek e-posta işleyici kullanılsın"
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "Custom callback URL"
-msgstr ""
+msgstr "Özel çağrı adresi"
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "Save & Send Test Email"
-msgstr ""
+msgstr "Deneme e-postasını kaydet ve gönder"
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid ""
 "Cannot send a test email because your user record does not have a valid "
 "email address."
 msgstr ""
+"Kullanıcı kaydınızda geçerli bir e-posta adresi bulunamadığından deneme "
+"e-postası gönderilemedi."
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid ""
@@ -51,80 +53,89 @@ msgid ""
 "Addresses</a>. The email address used may need to be a valid mail account "
 "with your email service provider."
 msgstr ""
+"Site yöneticisinin <a href=\"%1\">\"CiviCRM yönetimi\" &raquo; \"İletişim\" "
+"&raquo; \"Kimden e-posta adresleri\"</a> bölümünden geçerli bir \"Kimden "
+"e-posta adresi\" yazması gerekir. Kullanılan e-posta adresinin, e-posta "
+"hizmeti sağlayıcınızda geçerli bir adres olması gerekebilir."
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid ""
 "Domain %1 is not created and not verified in Sparkpost. Please follow "
 "instructions at <a href=\"%2\">%2</a>."
 msgstr ""
+"%1 etki alanı oluşturulmamış ve Sparkpost üzerinde doğrulanamadı. Lütfen <a "
+"href=\"%2\">%2</a> yönergelerini izleyin."
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "SparkPost error"
-msgstr ""
+msgstr "SparkPost sorunu"
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "Could not check status for domain %1 (Exception %2)."
-msgstr ""
+msgstr "%1 etki alanının durumu denetlenemedi (%2 sorunu)."
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid ""
 "The domain '%1' is not verified. Please follow instructions at <a "
 "href=\"%2\">%2</a>."
 msgstr ""
+"%1 etki alanı doğrulanamadı. Lütfen <a href=\"%2\">%2</a> yönergelerini "
+"izleyin."
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "The domain %1 is ready to send."
-msgstr ""
+msgstr "%1 etki alanı gönderime hazır."
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "SparkPost status"
-msgstr ""
+msgstr "SparkPost durumu"
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "Could not list webhooks (%1)."
-msgstr ""
+msgstr "Web bağlantıları listelenemedi (%1)."
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "Could not install webhook (%1)."
-msgstr ""
+msgstr "Web bağlantısı kurulamadı (%1)."
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "Could not install/refresh webhook."
-msgstr ""
+msgstr "Web bağlantısı kurulamadı ya da yenilenemedi."
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "Webhook has been installed or refreshed."
-msgstr ""
+msgstr "Web bağlantısı kuruldu ya da yenilendi."
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "Sending test email. FROM: %1 TO: %2.<br />"
-msgstr ""
+msgstr "Deneme e-postası gönderiliyor. Kimden: %1 Kime: %2.<br />"
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "Test for SparkPost settings"
-msgstr ""
+msgstr "SparkPost ayarları için deneme"
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "Your SparkPost settings are correct"
-msgstr ""
+msgstr "SparkPost ayarlarınız doğru"
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid ""
 "Your %1 settings are correct. A test email has been sent to your email "
 "address."
 msgstr ""
+"%1 ayarlarınız doğru. E-posta adresinize bir deneme e-postası gönderildi."
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "Mail Sent"
-msgstr ""
+msgstr "E-posta gönderildi"
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "Oops. Your %1 settings are incorrect. No test mail has been sent."
-msgstr ""
+msgstr "%1 ayarlarınız hatalı. Herhangi bir deneme e-postası gönderilmedi."
 
 #: CRM/Admin/Form/Setting/Sparkpost.php
 msgid "Mail Not Sent"
-msgstr ""
+msgstr "E-posta gönderilmedi"
 
 #: CRM/Sparkpost/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
@@ -132,50 +143,61 @@ msgstr "%1, %2 sürümüne güncelle"
 
 #: sparkpost.php
 msgid "Outbound Email (SparkPost)"
-msgstr ""
+msgstr "Giden e-posta (SparkPost)"
 
 #: sparkpost.php
 msgid ""
 "This requirement is not met in your current configuration, the extension "
 "will not work."
 msgstr ""
+"Geçerli yapılandırmanız gereksinimleri karşılamadığından eklenti "
+"çalışmayacak."
 
 #: sparkpost.php
 msgid "The SparkPost extension requires PHP version 5.4 or higher."
 msgstr ""
+"SparkPost eklentisi için PHP 5.4 ya da üzerindeki bir sürümün kullanılması "
+"gereklidir."
 
 #: sparkpost.php
 msgid "SparkPost requirements not met"
-msgstr ""
+msgstr "SparkPost gereksinimleri karşılanmıyor"
 
 #: sparkpost.php
 msgid "The SparkPost extension requires the PHP curl library."
-msgstr ""
+msgstr "SparkPost eklentisi için PHP cURL kitaplığı gereklidir."
 
 #: templates/CRM/Admin/Form/Setting/Sparkpost.tpl
 msgid "SparkPost Configuration"
-msgstr ""
+msgstr "SparkPost yapılandırması"
 
 #: templates/CRM/Admin/Form/Setting/Sparkpost.tpl
 msgid "You can create API keys at:"
-msgstr ""
+msgstr "API anahtarlarını şuradan oluşturabilirsiniz:"
 
 #: templates/CRM/Admin/Form/Setting/Sparkpost.tpl
 msgid "Only used if you have one or more dedicated IP addresses at SparkPost."
 msgstr ""
+"Yalnızca SparkPost üzerinde bir ya da birkaç sabit IP adresiniz varsa "
+"kullanılır."
 
 #: templates/CRM/Admin/Form/Setting/Sparkpost.tpl
 msgid "You can define a backup mailer <a href='%1'>here</a>."
-msgstr ""
+msgstr "Yedek e-posta işleyiciyi <a href='%1'>buradan</a> ayarlayabilirsiniz."
 
 #: templates/CRM/Admin/Form/Setting/Sparkpost.tpl
 msgid ""
 "It will be used if Sparkpost cannot send emails (unverified sending domain, "
 "sending limits exceeded, ...)."
 msgstr ""
+"Yedek e-posta işleyici, SparkPost herhangi bir nedenle e-posta "
+"gönderemediğinde kullanılır (gönderen etki alanının doğrulanamaması, "
+"gönderim sınırlarının aşılması gibi sorunlar)"
 
 #: templates/CRM/Admin/Form/Setting/Sparkpost.tpl
 msgid ""
 "A custom callback URL is useful when your site is behind a proxy (like "
 "CiviProxy). Leave this blank to use the default URL."
 msgstr ""
+"Özel çağrı adresi siteniz bir vekil sunucu arkasında ise (CiviProxy gib) "
+"yararlıdır. Varsayılan adresin kullanılması için bu alanı boş bırakın."
