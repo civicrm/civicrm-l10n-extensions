@@ -208,7 +208,7 @@ msgid ""
 "      <p>Finally you can specify an email address for the <strong>CC to</strong> (a copy of the email will be sent to this email address and the email address will be visible to the recipient of the email too) or the <strong>BCC to</strong> (a copy of the email will be sent to this email address and the email address will NOT be visible to the recipient of the email too).</p>\n"
 "      <p>The sending of the email will also lead to an activity (type <em>Email</em>) being recorded for the contact in question, whatever email address will be used.</p>\n"
 "    "
-msgstr ""
+msgstr "<p>Bu formda e-postayla ne yapılacağını ayarlayabilirsiniz.</p>\n    <p>İlk birkaç alan nispeten basittir: the <strong>Kimden adı</strong> e-postanın göndericisinin adı ve <strong>Kimden e-posta adresi</strong> e-postanın göndericisinin e-posta adresidir. Yapılandırılmış varsayılan değerlerin kullanılması için bu alanları boş bırakın.</p>\n    <p><strong>Kimden e-posta adresleri</strong> bölümünden bir e-postanın gönderilmesi için hangi Kimden e-posta adresinin kullanılacağını seçebilirsiniz. Bu adresleri <strong>\"Yönetim\">\"İletişim\">\"Kimden e-posta adresleri\"</strong> bölümünden ekleyip düzenleyebilirsiniz.</p>\n    <p><strong>İleti kalıbı</strong> bölümünden e-postanın hazırlanması için kullanılacak CiviCRM ileti kalıbını seçebilirsiniz. Bu ileti kalıplarını <strong>\"Yönetim\">\"İletişim\">\"İleti kalıpları\"</strong> bölümünden ekleyip düzenleyebilirsiniz.</p>\n    <p>Sonraki bölümden e-postanın nereye gönderileceğini ayarlayabilirsiniz.<br/>\n    <strong>Varsayılan</strong> olarak e-posta ilgili <strong>kişinin birincil e-posta adresine</strong> gönderilir.<br/>\n    Bu davranışı 2 şekilde değiştirebilirsiniz:\n    <ol>\n      <li><em>İş</em> gibi <strong>belirli bir konum türündeki</strong> bir e-posta adresini kullanabilirsiniz. Bunun için konum türünü seçmelisiniz. E-posta (kişi için birden çok e-posta adresi varsa) o konum türünün en yeni e-posta adresine gönderilir. Belirtilen konum türünde bir e-posta adresi bulunamazsa, e-posta kişinin birincil e-posta adresine gönderilir.</li>\n      <li>Bir konum türü seçmezseniz, <strong>Alternatif e-posta adresine gönderilsin</strong> seçeneğini <strong>işaretleyebilirsiniz</strong>. Böylece alternatif bir e-posta adresi yazma seçeneğiniz olur. Açık olduğu üzere buraya geçerli bir e-posta adresi yazmalısınız.</li>\n    </ol>\n    </p>\n      <p>Son olarak <strong>Kopya</strong> (e-postanın bir kopyası bu e-posta adresine gönderilir ve e-posta adresi diğer e-posta alıcıları tarafından görülebilir) veya <strong>Gizli kopya</strong> (e-postanın bir kopyası bu e-posta adresine gönderilir ve e-posta adresi diğer e-postanın alıcıları tarafından görülemez) alıcılarını belirtebilirsiniz.</p>\n      <p>Bir e-posta gönderilmesi, hangi e-posta adresinin kullanıldığından bağımsız olarak, ilgili kişi için bir işlem (<em>E-posta</em> türünde) kaydının yapılmasına neden olur.</p>\n    "
 
 #: templates/CRM/Emailapi/Form/CivirulesAction/Send.tpl
 #: templates/CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.tpl
@@ -216,7 +216,7 @@ msgstr ""
 msgid ""
 "Note: primary email address will be used if location type email address not "
 "found"
-msgstr ""
+msgstr "Not: Konum türü e-posta adresi bulunamazsa birincil e-posta adresi kullanılır."
 
 #: templates/CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.tpl
 msgid ""
