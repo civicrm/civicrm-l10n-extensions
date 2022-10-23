@@ -7,20 +7,20 @@
 # H. Bond <bonduaeux.h@gmail.com>, 2017
 # Mathieu Lu <mathieu@bidon.ca>, 2018
 # Thomas Octaid <contact@octaid.com>, 2019
-# Usha Matisson <matisson@makoa.fr>, 2020
+# Usha Matisson <matisson@makoa.fr>, 2020,2022
 # Xynn <xynn.anhnguyen@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
 "POT-Creation-Date: 2019-08-24 05:01+0000\n"
-"PO-Revision-Date: 2021-07-21 08:15+0000\n"
-"Last-Translator: Guillaume Sorel <serviceclient@all-in-appli.com>\n"
+"PO-Revision-Date: 2015-10-15 05:34+0000\n"
+"Last-Translator: Usha Matisson <matisson@makoa.fr>, 2020,2022\n"
 "Language-Team: French (http://www.transifex.com/civicrm/civicrm_extensions/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: CRM/Civirules/BAO/Rule.php
 msgid "Params can not be empty when adding or updating a civirule rule"
@@ -309,7 +309,7 @@ msgstr "Texte d'aide avec le but de la règle"
 
 #: CRM/Civirules/Form/Rule.php
 msgid "Civirule Tag(s)"
-msgstr "Étiquette(s) CiviRules"
+msgstr "Tags/Étiquette(s) CiviRules"
 
 #: CRM/Civirules/Form/Rule.php
 msgid "Enabled"
@@ -540,15 +540,15 @@ msgstr "Supprimer une règle (CiviRules)"
 
 #: CRM/Civirules/Form/RuleView.php
 msgid "Filter Tag(s)"
-msgstr "Filtrer les Étiquette(s)"
+msgstr "Filtrer par Tags/Étiquette(s)"
 
 #: CRM/Civirules/Form/RuleView.php
 msgid "- Select Tag -"
-msgstr "- Sélectionner une étiquette -"
+msgstr "- Sélectionner un tag/étiquette -"
 
 #: CRM/Civirules/Form/RuleView.php
 msgid "Filter Trigger(s)"
-msgstr "Filtrer les Déclencheur(s)"
+msgstr "Déclencheur(s) de filtre(s)"
 
 #: CRM/Civirules/Form/RuleView.php
 msgid "- Select Trigger -"
@@ -806,32 +806,32 @@ msgstr "Supprimer contact du (des) groupe(s) : %1"
 
 #: CRM/CivirulesActions/Tag/Form/TagId.php
 msgid "Select one tag"
-msgstr "Sélectionner une étiquette"
+msgstr "Sélectionner un tag/étiquette"
 
 #: CRM/CivirulesActions/Tag/Form/TagId.php
 msgid "Select multiple tags"
-msgstr "Sélectionner plusieurs étiquettes"
+msgstr "Sélectionner plusieurs tags/étiquettes"
 
 #: CRM/CivirulesActions/Tag/Form/TagId.php
 msgid "Tag"
-msgstr "Étiquette"
+msgstr "Tag/Étiquette"
 
 #: CRM/CivirulesActions/Tag/Form/TagId.php
 #: CRM/CivirulesConditions/Form/Contact/HasTag.php
 msgid "Tags"
-msgstr "Étiquettes"
+msgstr "Tags/Étiquettes"
 
 #: CRM/CivirulesActions/Tag/Form/TagId.php
 msgid "You have to select at least one tag"
-msgstr "Vous devez sélectionner au moins une étiquette"
+msgstr "Vous devez sélectionner au moins un tag/étiquette"
 
 #: CRM/CivirulesActions/Tag/Tag.php
 msgid "Add tag (%1) to contact"
-msgstr "Ajouter l'étiquette (%1) au contact"
+msgstr "Ajouter le tag/étiquette (%1) au contact"
 
 #: CRM/CivirulesActions/Tag/Tag.php
 msgid "Remove tag (%1) from contact"
-msgstr "Supprimer l'étiquette (%1) du contact"
+msgstr "Supprimer le tag/étiquette (%1) du contact"
 
 #: CRM/CivirulesActions/User/Form/DisplayMessage.php
 msgid "Message title: "
@@ -886,7 +886,7 @@ msgstr "a des activités de type(s)"
 
 #: CRM/CivirulesConditions/Contact/HasActivityInCampaign.php
 msgid " in campaign(s)"
-msgstr "  dans le(s) campagne(s)"
+msgstr "dans le(s) campagne(s)"
 
 #: CRM/CivirulesConditions/Contact/HasPhone.php
 msgid "Any phone type"
@@ -991,7 +991,7 @@ msgstr "Nombre de contributions de type de financement "
 
 #: CRM/CivirulesConditions/EntityTag/TagId.php
 msgid "Tag for Contact is one of selected: "
-msgstr "L'étiquette de contact est l'une des étiquettes sélectionnées : "
+msgstr "Le tag/étiquette de contact est l'un des tags/étiquettes sélectionnés : "
 
 #: CRM/CivirulesConditions/Form/Activity/Campaign.php
 #: CRM/CivirulesConditions/Form/Contact/HasActivityInCampaign.php
@@ -1239,7 +1239,7 @@ msgstr "La date de fin est"
 #: CRM/CivirulesConditions/Form/EntityTag/TagId.php
 #: templates/CRM/Civirules/Page/RuleViewList.tpl
 msgid "Tag(s)"
-msgstr "Étiquette(s)"
+msgstr "Tags/Étiquette(s)"
 
 #: CRM/CivirulesConditions/Form/Event/EventType.php
 #: templates/CRM/CivirulesConditions/Form/Event/EventType.tpl
@@ -1610,11 +1610,11 @@ msgstr "Nouvelle règle"
 
 #: civirules.php
 msgid "CiviRule Tags"
-msgstr "Étiquettes CiviRule"
+msgstr "Tags/étiquettes CiviRule"
 
 #: civirules.php
 msgid "CiviRules Tags"
-msgstr "Étiquettes CiviRules"
+msgstr "Tags/Étiquettes CiviRules"
 
 #: templates/CRM/Civirules/Delay/XWeekDay.tpl
 msgid "on"
