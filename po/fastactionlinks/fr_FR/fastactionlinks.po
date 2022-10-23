@@ -3,7 +3,6 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Alain Rihs <alainrihs@sunrise.ch>, 2022
 # Thomas Octaid <contact@octaid.com>, 2022
 # Mathieu Lu <mathieu@bidon.ca>, 2022
 # Guillaume Sorel <serviceclient@all-in-appli.com>, 2022
@@ -20,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: CRM/Fastactionlinks/Action.php
 msgid "Add to Group"
@@ -64,7 +63,7 @@ msgstr ""
 
 #: CRM/Fastactionlinks/DAO/FastActionLink.php
 msgid "Label"
-msgstr "Étiquette"
+msgstr "Libellé"
 
 #: CRM/Fastactionlinks/DAO/FastActionLink.php
 #: CRM/Fastactionlinks/Form/FastActionLink.php
