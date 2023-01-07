@@ -5,13 +5,13 @@
 # Translators:
 # lbl_knts <git@rlkd.de>, 2020
 # Maria <maria.vogel@civiservice.de>, 2022
-# Torben Bertram, 2022
+# Torben Bertram, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
 "POT-Creation-Date: 2021-10-29 05:03+0000\n"
-"Last-Translator: Torben Bertram, 2022\n"
+"Last-Translator: Torben Bertram, 2023\n"
 "Language-Team: German (https://www.transifex.com/civicrm/teams/1905/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -89,12 +89,14 @@ msgstr "E-Mailadresse '%1' muss gültig sein."
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid "Can not parse selected price set"
-msgstr ""
+msgstr "Ausgewählter Preisset kann nicht geparst werden"
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid ""
 "Can not parse selected value for field (id = %1) for price set (id = %2)"
 msgstr ""
+"Ausgewählter Wert kann nicht geparst werden für Feld (id = %1) zum Preis-Set"
+" (id = %2)"
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid "Price Field (id = %1) does not exist for Event's"
@@ -105,18 +107,20 @@ msgid ""
 "Empty filed values for price set field (id = %1). Please create it in "
 "administer."
 msgstr ""
+"Leer ausgefüllte Werte für das Preissatzfeld (id = %1). Bitte erstellen "
+"unter Administration erstellen."
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid "\"filed_value_count\" must be filled for field with \"Text\" \"html_type\""
-msgstr ""
+msgstr "\"filed_value_count\" muss gefüllt sein für Feld mit \"Text\" \"html_type\""
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid "Not valid value(id = %1) for price set field (id = %2)."
-msgstr ""
+msgstr "Kein gültiger Wert (id = %1) für Preisset-Feld (id = %2)."
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
 msgid "Price field (id = %1) is required field for price set(id = %2)"
-msgstr ""
+msgstr "Preisfeld (id = %1) ist Pflichtfeld für Preis-Set (id = %2)"
 
 #: CRM/CiviMobileAPI/Api/CiviMobilePublicParticipant/Create.php
 msgid "Can not create Contact. Error: "
@@ -394,7 +398,7 @@ msgstr "Ist gelesen"
 
 #: CRM/CiviMobileAPI/DAO/PushNotificationMessages.php
 msgid "Invoke Contact Id"
-msgstr ""
+msgstr "Aufruf Kontakt ID"
 
 #: CRM/CiviMobileAPI/Form/Agenda.php CRM/CiviMobileAPI/Form/Session.php
 #: CRM/CiviMobileAPI/Form/Speaker.php
@@ -443,6 +447,10 @@ msgid ""
 " to set “Synchronize with CiviCalendar” flag to keep both calendars "
 "synchronized."
 msgstr ""
+"CiviCalendar und CiviMobile Kalender sind nicht synchronisiert! Dies kann "
+"dazu führen, dass der Kalender in der CiviMobile-App unterschiedliche "
+"Informationen anzeigt. Es wird empfohlen, das Flag \"Mit CiviCalendar "
+"synchronisieren\" zu setzen, um beide Kalender synchron zu halten."
 
 #: CRM/CiviMobileAPI/Form/CalendarSettings.php
 msgid "Submit"
@@ -605,6 +613,10 @@ msgid ""
 "extensions is denied. Please provide permission to access the extension "
 "directory and directory with extensions."
 msgstr ""
+"Der Zugriff auf das Erweiterungsverzeichnis mit allen Dateien oder auf das "
+"Verzeichnis mit Erweiterungen wird verweigert. Bitte erteilen Sie die "
+"Erlaubnis zum Zugriff auf das Erweiterungsverzeichnis und das Verzeichnis "
+"mit Erweiterungen."
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Your Server Key is valid and you can use Push Notifications."
@@ -841,6 +853,7 @@ msgstr "Benutzer war nicht angemeldet."
 #: CRM/CiviMobileAPI/Hook/Post/Register.php
 msgid "Failed to update participant public_key in database"
 msgstr ""
+"participant public_key konnte nicht in der Datenbank aktualisiert werden"
 
 #: CRM/CiviMobileAPI/Install/Entity/CustomField.php
 msgid "Is qr code used for this Event?"
@@ -940,7 +953,7 @@ msgstr "Gruppen"
 
 #: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
 msgid "Tags"
-msgstr "Schlagworte (Tags)"
+msgstr "Tags"
 
 #: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
 msgid "Surveys"
@@ -951,12 +964,16 @@ msgid ""
 "Can not find template with these parameters: valueName "
 "'event_online_receipt' and groupName 'msg_tpl_workflow_event'"
 msgstr ""
+"Kann keine Vorlage mit diesen Parametern finden: valueName "
+"'event_online_receipt' und groupName 'msg_tpl_workflow_event'"
 
 #: CRM/CiviMobileAPI/Install/Entity/UpdateMessageTemplate.php
 msgid ""
 "Can not find template with these parameters: valueName "
 "'event_offline_receipt' and groupName 'msg_tpl_workflow_event'"
 msgstr ""
+"Can not find template with these parameters: valueName "
+"'event_offline_receipt' und groupName 'msg_tpl_workflow_event'"
 
 #: CRM/CiviMobileAPI/Page/Auth.php CRM/CiviMobileAPI/Page/DisablePushToken.php
 msgid "Required field"
@@ -992,7 +1009,7 @@ msgstr "Das 'entityData' Feld ist ein Pflichtfeld."
 
 #: CRM/CiviMobileAPI/Page/PublicApi/ApiBase.php
 msgid "The 'entityData' has not valid json."
-msgstr ""
+msgstr "'entityData' hat kein gültiges json."
 
 #: CRM/CiviMobileAPI/Page/PublicApi/ApiBase.php
 msgid "The 'actionName' field is required field."
@@ -1122,6 +1139,9 @@ msgid ""
 "try to deactivate plugins one by one to detect which plugin blocks "
 "CiviMobile."
 msgstr ""
+"Bei Problemen mit der Autorisierung der CiviMobile-Anwendung, bitte die "
+"Plugins nacheinander deaktivieren, um festzustellen, welches Plugin "
+"CiviMobile blockiert."
 
 #: CRM/CiviMobileAPI/Utils/Contact.php
 msgid "Your Api key has removed and all device disconnected from account."
@@ -1152,7 +1172,7 @@ msgstr "Kontakt-ID"
 
 #: api/v3/CiviMobileAllowedActivityTypes.php
 msgid "Sort filed (default \"label\")"
-msgstr ""
+msgstr "Sortierfeld (Standard \"label\")"
 
 #: api/v3/CiviMobileAllowedActivityTypes.php
 msgid "Limit (default unlimited)"
@@ -1217,7 +1237,7 @@ msgstr "Entität"
 
 #: api/v3/CiviMobileEventSession.php
 msgid "EventSession id"
-msgstr ""
+msgstr "EventSession ID"
 
 #: api/v3/CiviMobileEventSession.php
 msgid "Is display?"
@@ -1601,6 +1621,8 @@ msgid ""
 "If the application is custom you can use your own Firebase Key for security "
 "purposes for Push Notifications"
 msgstr ""
+"Wenn die Anwendung benutzerindividuell ist, kann der eigene Firebase-"
+"Schlüssel zu Sicherheitszwecken für Push-Benachrichtigungen verwenden."
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
@@ -1613,6 +1635,10 @@ msgid ""
 " using the most secure and powerful extension version and avoid "
 "desynchronization between mobile application and extension."
 msgstr ""
+"Wir empfehlen, die automatische Aktualisierung der Erweiterung zu "
+"aktivieren, um sicherzustellen, dass Sie die sicherste und leistungsfähigste"
+" Version der Erweiterung verwenden und eine Desynchronisation zwischen der "
+"mobilen Anwendung und der Erweiterung vermeiden."
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "Site name for CiviMobile"
@@ -1655,6 +1681,9 @@ msgid ""
 "    <p>Events are displayed in Public Area if all required permissions for Anonymous user are distributed and if CiviEvent component is enabled. Note that if you want a specific event to be made available in the Public Area-please enable 'Public Event' checkbox in Event Info and Settings section.</p>\n"
 "    <p>News may also be present in the Public Area if Show News checkbox is enabled."
 msgstr ""
+"Bei aktiviertem Kontrollkästchen, haben anonyme Benutzer Zugriff auf öffentliche Informationen in der mobilen Anwendung.</p>\n"
+"    <p>Veranstaltungen werden im öffentlichen Bereich angezeigt, wenn alle erforderlichen Berechtigungen für anonyme Benutzer verteilt sind und die CiviEvent-Komponente aktiviert ist. Wenn Sie möchten, dass ein bestimmtes Ereignis im öffentlichen Bereich verfügbar gemacht wird, aktivieren Sie bitte das Kontrollkästchen \"Öffentliches Veranstaltung\" im Abschnitt Veranstaltungsinformationen und -einstellungen.</p>\n"
+"    <p>Nachrichten können auch im öffentlichen Bereich angezeigt werden, wenn das Kontrollkästchen Nachrichten anzeigen aktiviert ist."
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "Push notification Lifetime"
