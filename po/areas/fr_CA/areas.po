@@ -6,36 +6,42 @@
 # Guillaume Sorel <serviceclient@all-in-appli.com>, 2022
 # Thomas Octaid <contact@octaid.com>, 2022
 # Alain Rihs <alainrihs@sunrise.ch>, 2022
-# Usha Matisson <matisson@makoa.fr>, 2022
+# Usha Matisson <matisson@makoa.fr>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: areas\n"
-"POT-Creation-Date: 2021-05-06 05:01+0000\n"
-"Last-Translator: Usha Matisson <matisson@makoa.fr>, 2022\n"
+"POT-Creation-Date: 2023-01-27 19:23+0000\n"
+"Last-Translator: Usha Matisson <matisson@makoa.fr>, 2023\n"
 "Language-Team: French (Canada) (https://www.transifex.com/civicrm/teams/1905/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: CRM/Areas/DAO/Area.php CRM/Areas/DAO/AreaDefinition.php
+#: Civi/Areas/DataProcessor/Source/AreaDataSource.php
+#: Civi/Areas/DataProcessor/Source/AreaDefinitionDataSource.php
 #: api/v3/Area/Create.php api/v3/Area/Delete.php
 #: api/v3/AreaDefinition/Delete.php
 msgid "ID"
 msgstr "Identifiant"
 
-#: CRM/Areas/DAO/Area.php ang/areas/AreaEditCtrl.html
-#: ang/areas/AreasListCtrl.html api/v3/Area/Create.php
+#: CRM/Areas/DAO/Area.php Civi/Areas/DataProcessor/Source/AreaDataSource.php
+#: ang/areas/AreaEditCtrl.html ang/areas/AreasListCtrl.html
+#: api/v3/Area/Create.php
 msgid "Title"
 msgstr "Titre"
 
 #: CRM/Areas/DAO/AreaDefinition.php
+#: Civi/Areas/DataProcessor/Source/AreaDefinitionDataSource.php
 msgid "Area ID"
 msgstr "Id. de la Zone"
 
-#: CRM/Areas/DAO/AreaDefinition.php ang/areas/AreaEditCtrl.html
+#: CRM/Areas/DAO/AreaDefinition.php
+#: Civi/Areas/DataProcessor/Source/AreaDefinitionDataSource.php
+#: ang/areas/AreaEditCtrl.html
 msgid "Type"
 msgstr "Type"
 
@@ -43,10 +49,31 @@ msgstr "Type"
 msgid "Upgrade %1 to revision %2"
 msgstr "Mise à jour de %1 à la révision %2"
 
+#: Civi/Areas/DataProcessor/CompilerPass.php
+msgid "Area"
+msgstr ""
+
+#: Civi/Areas/DataProcessor/CompilerPass.php
+msgid "Area Definition"
+msgstr ""
+
+#: Civi/Areas/DataProcessor/Source/AreaDefinitionDataSource.php areas.php
+msgid "Country ID"
+msgstr "ID de pays"
+
+#: Civi/Areas/DataProcessor/Source/AreaDefinitionDataSource.php areas.php
+msgid "State/Province ID"
+msgstr "ID de État/Province"
+
+#: Civi/Areas/DataProcessor/Source/AreaDefinitionDataSource.php
 #: Civi/Areas/DefinitionType/City.php ang/areas/areaDefinition/CityCtl.html
 #: ang/areas/areaDefinition/CityStateProvinceCtl.html areas.php
 msgid "City"
 msgstr "Ville"
+
+#: Civi/Areas/DataProcessor/Source/AreaDefinitionDataSource.php
+msgid "Postal Code"
+msgstr "Code postal"
 
 #: Civi/Areas/DefinitionType/City.php Civi/Areas/DefinitionType/PostalCode.php
 #: Civi/Areas/DefinitionType/StateProvince.php
@@ -169,14 +196,6 @@ msgstr "Enregistrer et Fermer"
 #: api/v3/Contact/UpdateAreas.php
 msgid "Updated %1 contacts"
 msgstr "%1 contacts mis à jour"
-
-#: areas.php
-msgid "Country ID"
-msgstr "ID de pays"
-
-#: areas.php
-msgid "State/Province ID"
-msgstr "ID de État/Province"
 
 #: areas.php
 msgid "Manage Areas"
