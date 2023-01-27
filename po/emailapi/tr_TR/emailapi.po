@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2021-12-08 05:02+0000\n"
+"POT-Creation-Date: 2023-01-27 19:22+0000\n"
 "PO-Revision-Date: 2015-08-21 05:33+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2022\n"
 "Language-Team: Turkish (http://www.transifex.com/civicrm/civicrm_extensions/language/tr/)\n"
@@ -18,26 +18,38 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: CRM/Emailapi/CivirulesAction/Send.php
-msgid "the contact"
-msgstr "kişi"
+msgid "ERROR - missing from email"
+msgstr ""
 
 #: CRM/Emailapi/CivirulesAction/Send.php
+msgid "Default domain from email address"
+msgstr ""
+
+#: CRM/Emailapi/CivirulesAction/Send.php
+msgid "the contact (using %1)"
+msgstr ""
+
+#: CRM/Emailapi/CivirulesAction/Send.php
+#: CRM/Emailapi/CivirulesAction/SendToContactReference.php
 #: CRM/Emailapi/CivirulesAction/SendToRelatedContact.php
 #: CRM/Emailapi/CivirulesAction/SendToRolesOnCase.php
 msgid " and cc to %1"
 msgstr "ve %1 alıcısına kopya olarak"
 
 #: CRM/Emailapi/CivirulesAction/Send.php
+#: CRM/Emailapi/CivirulesAction/SendToContactReference.php
 #: CRM/Emailapi/CivirulesAction/SendToRelatedContact.php
 #: CRM/Emailapi/CivirulesAction/SendToRolesOnCase.php
 msgid " and bcc to %1"
 msgstr "ve %1 alıcısına gizli kopya olarak"
 
 #: CRM/Emailapi/CivirulesAction/Send.php
-#: CRM/Emailapi/CivirulesAction/SendToRelatedContact.php
-#: CRM/Emailapi/CivirulesAction/SendToRolesOnCase.php
-msgid "Send email from \"%1 (%2 using %3)\" with Template \"%4\" to %5 %6 %7"
-msgstr "E-posta \"%1 adresinden (%2, %3 kullanarak)\" \"%4\" kalıbı ile %5 alıcısına %6 %7 gönderilsin"
+msgid "Send email from '%1' with Template '%2' to %3 %4 %5"
+msgstr ""
+
+#: CRM/Emailapi/CivirulesAction/SendToContactReference.php
+msgid "Send e-mail from \"%1 (%2 using %3)\" with Template \"%4\" to %5 %6 %7"
+msgstr ""
 
 #: CRM/Emailapi/CivirulesAction/SendToRelatedContact.php
 msgid "All active related contacts"
@@ -50,6 +62,11 @@ msgstr "Son etkin ilişkili kişi"
 #: CRM/Emailapi/CivirulesAction/SendToRelatedContact.php
 msgid "The most recent inactive related contact"
 msgstr "Son etkin olmayan ilişkili kişi"
+
+#: CRM/Emailapi/CivirulesAction/SendToRelatedContact.php
+#: CRM/Emailapi/CivirulesAction/SendToRolesOnCase.php
+msgid "Send email from \"%1 (%2 using %3)\" with Template \"%4\" to %5 %6 %7"
+msgstr "E-posta \"%1 adresinden (%2, %3 kullanarak)\" \"%4\" kalıbı ile %5 alıcısına %6 %7 gönderilsin"
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
 msgid "-- please select --"
@@ -114,6 +131,18 @@ msgstr "Kaydet"
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
 msgid "Cancel"
 msgstr "İptal"
+
+#: CRM/Emailapi/Form/CivirulesAction/SendToContactReference.php
+msgid "Type of Entity"
+msgstr ""
+
+#: CRM/Emailapi/Form/CivirulesAction/SendToContactReference.php
+msgid "Contact Reference Field"
+msgstr ""
+
+#: CRM/Emailapi/Form/CivirulesAction/SendToContactReference.php
+msgid "-- select --"
+msgstr ""
 
 #: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
 msgid "Relationship Type"
@@ -217,6 +246,23 @@ msgid ""
 "Note: primary email address will be used if location type email address not "
 "found"
 msgstr "Not: Konum türü e-posta adresi bulunamazsa birincil e-posta adresi kullanılır."
+
+#: templates/CRM/Emailapi/Form/CivirulesAction/SendToContactReference.tpl
+msgid ""
+"<p>This is the form where you can set what is going to happen with the email.</p>\n"
+"    <p>The first few fields are relatively straightforward: the <strong>From Name</strong> is the name the email will be sent from and the <strong>From Email</strong> is the email address the email will be sent from.</p>\n"
+"    <p>The <strong>Message Template</strong> is where you select which CiviCRM message template will be used to compose the mail. You can create and edit them in <strong>Administer>Communications>Message Templates</strong></p>\n"
+"    <p>The next section allows you to manipulate where the email will be sent to.<br/>\n"
+"    <p>Finally you can specify an emailaddress for the <strong>CC to</strong> (a copy of the email will be sent to this email address and the email address will be visible to the recipient of the email too) or the <strong>BCC to</strong> (a copy of the email will be sent to this email address and the email address will NOT be visible to the recipient of the email too).</p>\n"
+"    <p>The sending of the email will also lead to an activity (type <em>Email</em>) being recorded for the contact in question, whatever email address will be used.</p>\n"
+"    "
+msgstr ""
+
+#: templates/CRM/Emailapi/Form/CivirulesAction/SendToContactReference.tpl
+msgid ""
+"Note: primary e-mailaddress will be used if location type e-mailaddress not "
+"found"
+msgstr ""
 
 #: templates/CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.tpl
 msgid ""
