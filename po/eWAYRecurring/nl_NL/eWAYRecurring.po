@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: eWAYRecurring\n"
-"POT-Creation-Date: 2021-02-21 05:01+0000\n"
+"POT-Creation-Date: 2023-01-27 19:22+0000\n"
 "Last-Translator: HanV <han.velthuis@home.nl>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -61,9 +61,17 @@ msgstr "Betaalgegevens wijzigen"
 msgid "Billing details has been updated successfully."
 msgstr "De betaalgegevens zijn gewijzigd."
 
-#: CRM/eWAYRecurring/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Upgrade %1 naar revisie %2"
+#: CRM/eWAYRecurring/Upgrader.php
+msgid ""
+"Version 2.x of the eWay Payment Processor extension uses the new eWay Rapid "
+"API. Please go to the <a href=\"%2\">Payment Processor page</a> and update "
+"the eWay API credentials with the new API Key and API Password. For more "
+"details see the <a href=\"%1\">upgrade notes</a>."
+msgstr ""
+"Versie 2.x van de extensie eWay betaalmethode gebruikt de nieuwe eWay Rapid-"
+"API. Wijzig op de <a href=\"%2\">pagina met de betaalmethoden</a> de eWay "
+"API-credentials met de nieuwe API-Key en API-Password. Meer details: <a "
+"href=\"%1\">notities upgrade</a>."
 
 #: au_com_agileware_ewayrecurring.class.php
 msgid "eWay Recurring"
@@ -132,30 +140,6 @@ msgstr ""
 "Poging om de betaalgegevens te wijzigen van een geannuleerde contributie."
 
 #: eWAYRecurring.php
-msgid ""
-"Version 2.x of the eWay Payment Processor extension uses the new eWay Rapid "
-"API. Please go to the <a href=\"%2\">Payment Processor page</a> and update "
-"the eWay API credentials with the new API Key and API Password. For more "
-"details see the <a href=\"%1\">upgrade notes</a>."
-msgstr ""
-"Versie 2.x van de extensie eWay betaalmethode gebruikt de nieuwe eWay Rapid-"
-"API. Wijzig op de <a href=\"%2\">pagina met de betaalmethoden</a> de eWay "
-"API-credentials met de nieuwe API-Key en API-Password. Meer details: <a "
-"href=\"%1\">notities upgrade</a>."
-
-#: eWAYRecurring.php
-msgid "eWay Payment Processor Update"
-msgstr "eWay betaalmethode update"
-
-#: eWAYRecurring.php
-msgid ""
-"Please edit and save (without any changes) your existing eWay payment "
-"processor after updating."
-msgstr ""
-"Wijzig a.u.b. na het updaten uw bestaande eWay betaalmethode (zonder daarbij"
-" iets te wijzigen)."
-
-#: eWAYRecurring.php
 msgid "Next Scheduled Date"
 msgstr "Volgende geplande datum"
 
@@ -176,6 +160,20 @@ msgstr ""
 #: eWAYRecurring.php
 msgid "Cannot schedule next contribution in the past"
 msgstr "De geplande volgende contributie kan niet in het verleden zijn"
+
+#: eWAYRecurring.php
+msgid ""
+"A transaction has already been submitted, but failed. Continuing will result"
+" in a new transaction."
+msgstr ""
+
+#: eWAYRecurring.php
+msgid "Payment already completed for this Registration"
+msgstr ""
+
+#: eWAYRecurring.php
+msgid "Payment already completed for this Contribution"
+msgstr ""
 
 #: eWAYRecurring.php
 msgid "eWay Recurring Settings"
