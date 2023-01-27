@@ -3,20 +3,28 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# AlainBenbassat <alain@businessandcode.eu>, 2020
+# Alain Benbassat <alain@businessandcode.eu>, 2020
 # HanV <han.velthuis@home.nl>, 2020-2021
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2021-03-14 05:01+0000\n"
-"PO-Revision-Date: 2021-04-05 18:52+0000\n"
-"Last-Translator: HanV <han.velthuis@home.nl>\n"
+"POT-Creation-Date: 2023-01-27 19:20+0000\n"
+"PO-Revision-Date: 2014-04-28 23:36+0000\n"
+"Last-Translator: HanV <han.velthuis@home.nl>, 2020-2021\n"
 "Language-Team: Dutch (http://www.transifex.com/civicrm/civicrm_extensions/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: CRM/CiviDiscount/BAO/Item.php CRM/CiviDiscount/Form/Admin.php
+msgid "Percent"
+msgstr "Procent"
+
+#: CRM/CiviDiscount/BAO/Item.php CRM/CiviDiscount/Form/Admin.php
+msgid "Fixed Amount"
+msgstr "Vast bedrag"
 
 #: CRM/CiviDiscount/DAO/Item.php
 msgid "Discount Codes"
@@ -31,7 +39,12 @@ msgstr "Kortingscode"
 msgid "Discount Item ID"
 msgstr "Korting item-id"
 
-#: CRM/CiviDiscount/DAO/Item.php templates/CRM/CiviDiscount/Page/Usage.tpl
+#: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/DAO/Track.php
+msgid "ID"
+msgstr "ID"
+
+#: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/DAO/Track.php
+#: templates/CRM/CiviDiscount/Page/Usage.tpl
 #: templates/CRM/CiviDiscount/Page/View.tpl
 msgid "Code"
 msgstr "Code"
@@ -62,6 +75,10 @@ msgid "Type of discount, actual or percentage"
 msgstr "Kortingstype, actueel of percentage"
 
 #: CRM/CiviDiscount/DAO/Item.php
+msgid "Type"
+msgstr "Type"
+
+#: CRM/CiviDiscount/DAO/Item.php
 msgid "Count Max"
 msgstr "Maximum aantal"
 
@@ -70,12 +87,20 @@ msgid "Max number of times this code can be used"
 msgstr "Aantal keren dat de korting gebruikt kan worden"
 
 #: CRM/CiviDiscount/DAO/Item.php
+msgid "Max Uses"
+msgstr ""
+
+#: CRM/CiviDiscount/DAO/Item.php
 msgid "Count Use"
 msgstr "Aantal in gebruik"
 
 #: CRM/CiviDiscount/DAO/Item.php
 msgid "Number of times this code has been used"
 msgstr "Aantal keren dat de korting gebruikt is"
+
+#: CRM/CiviDiscount/DAO/Item.php
+msgid "Usage Count"
+msgstr ""
 
 #: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/Form/Admin.php
 #: templates/CRM/CiviDiscount/Page/View.tpl
@@ -117,6 +142,11 @@ msgstr "Lijst van attributen op basis van de entiteit. Een gebruiker met een van
 msgid "FK to Contact ID for the organization that originated this discount"
 msgstr "FK naar Contact-id van de organisatie dat de korting heeft toegekend"
 
+#: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/Form/Admin.php
+#: templates/CRM/CiviDiscount/Page/View.tpl
+msgid "Organization"
+msgstr "Organisatie"
+
 #: CRM/CiviDiscount/DAO/Item.php
 msgid "Active On"
 msgstr "Actief op"
@@ -124,6 +154,11 @@ msgstr "Actief op"
 #: CRM/CiviDiscount/DAO/Item.php
 msgid "Date this discount activated"
 msgstr "Datum waarop de korting is geactiveerd"
+
+#: CRM/CiviDiscount/DAO/Item.php templates/CRM/CiviDiscount/Page/List.tpl
+#: templates/CRM/CiviDiscount/Page/View.tpl
+msgid "Start Date"
+msgstr "Startdatum"
 
 #: CRM/CiviDiscount/DAO/Item.php
 msgid "Expire On"
@@ -133,9 +168,17 @@ msgstr "Vervalt op"
 msgid "Date this discount expires"
 msgstr "Datum waarop de korting vervalt"
 
+#: CRM/CiviDiscount/DAO/Item.php templates/CRM/CiviDiscount/Page/List.tpl
+msgid "End Date"
+msgstr "Einddatum"
+
 #: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/Form/Admin.php
 msgid "Is this discount active?"
 msgstr "Is deze kortingscode actief?"
+
+#: CRM/CiviDiscount/DAO/Item.php
+msgid "Enabled"
+msgstr "Ingeschakeld"
 
 #: CRM/CiviDiscount/DAO/Item.php
 msgid "Discount Msg Enabled"
@@ -144,6 +187,10 @@ msgstr "Kortingsbericht ingeschakeld"
 #: CRM/CiviDiscount/DAO/Item.php
 msgid "Discount Msg"
 msgstr "Kortingsbericht"
+
+#: CRM/CiviDiscount/DAO/Item.php
+msgid "Not Eligible Message"
+msgstr ""
 
 #: CRM/CiviDiscount/DAO/Item.php
 msgid "Discount Filters"
@@ -162,12 +209,21 @@ msgid "Discount Tracking"
 msgstr "Korting tracking"
 
 #: CRM/CiviDiscount/DAO/Track.php
+msgid "Discount Code ID"
+msgstr ""
+
+#: CRM/CiviDiscount/DAO/Track.php
 msgid "FK to Item ID of the discount code"
 msgstr "FK naar Item-id van de kortingscode"
 
 #: CRM/CiviDiscount/DAO/Track.php
 msgid "FK to Contact ID for the contact that used this discount"
 msgstr "FK naar Contact-id van het contact dat de korting heeft gebruikt"
+
+#: CRM/CiviDiscount/DAO/Track.php templates/CRM/CiviDiscount/Page/Report.tpl
+#: templates/CRM/CiviDiscount/Page/Usage.tpl
+msgid "Contact"
+msgstr "Contact"
 
 #: CRM/CiviDiscount/DAO/Track.php
 msgid "Used Date"
@@ -176,6 +232,10 @@ msgstr "Gebruiksdatum"
 #: CRM/CiviDiscount/DAO/Track.php
 msgid "Date of use"
 msgstr "Datum van gebruik"
+
+#: CRM/CiviDiscount/DAO/Track.php
+msgid "Date Used"
+msgstr ""
 
 #: CRM/CiviDiscount/DAO/Track.php
 msgid "Track"
@@ -190,8 +250,17 @@ msgid "FK to contribution table"
 msgstr "FK naar tabel Contribution"
 
 #: CRM/CiviDiscount/DAO/Track.php
+msgid "Contribution"
+msgstr "Bijdrage"
+
+#: CRM/CiviDiscount/DAO/Track.php
 msgid "FK to event table"
 msgstr "FK naar tabel Event"
+
+#: CRM/CiviDiscount/DAO/Track.php templates/CRM/CiviDiscount/Page/Report.tpl
+#: templates/CRM/CiviDiscount/Page/Usage.tpl
+msgid "Event"
+msgstr "Evenement"
 
 #: CRM/CiviDiscount/DAO/Track.php
 msgid "Entity Table"
@@ -204,6 +273,10 @@ msgstr "Tabel waarin het betreffende item is opgeslagen"
 #: CRM/CiviDiscount/DAO/Track.php
 msgid "Foreign key to the referenced item"
 msgstr "FK naar het betreffende item"
+
+#: CRM/CiviDiscount/DAO/Track.php
+msgid "Entity"
+msgstr "Entiteit"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Discounts"
@@ -226,14 +299,6 @@ msgid "Discount Amount"
 msgstr "Kortingsbedrag"
 
 #: CRM/CiviDiscount/Form/Admin.php
-msgid "Percent"
-msgstr "Procent"
-
-#: CRM/CiviDiscount/Form/Admin.php
-msgid "Fixed Amount"
-msgstr "Vast bedrag"
-
-#: CRM/CiviDiscount/Form/Admin.php
 msgid "Usage Limit"
 msgstr "Gebruiksbeperking"
 
@@ -248,10 +313,6 @@ msgstr "Activatiedatum"
 #: CRM/CiviDiscount/Form/Admin.php templates/CRM/CiviDiscount/Page/View.tpl
 msgid "Expiration Date"
 msgstr "Vervaldatum"
-
-#: CRM/CiviDiscount/Form/Admin.php templates/CRM/CiviDiscount/Page/View.tpl
-msgid "Organization"
-msgstr "Organisatie"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Display a message to users not eligible for this discount?"
@@ -475,6 +536,10 @@ msgstr "CiviDiscount"
 msgid "administer CiviDiscount"
 msgstr "beheer CiviDiscount"
 
+#: cividiscount.php
+msgid "Administer the CiviDiscount extension"
+msgstr ""
+
 #: templates/CRM/CiviDiscount/Form/Admin.hlp
 msgid ""
 "The maximum number of times this discount code can be used. Leave blank for "
@@ -610,15 +675,6 @@ msgstr "Gebruik"
 
 #: templates/CRM/CiviDiscount/Page/List.tpl
 #: templates/CRM/CiviDiscount/Page/View.tpl
-msgid "Start Date"
-msgstr "Startdatum"
-
-#: templates/CRM/CiviDiscount/Page/List.tpl
-msgid "End Date"
-msgstr "Einddatum"
-
-#: templates/CRM/CiviDiscount/Page/List.tpl
-#: templates/CRM/CiviDiscount/Page/View.tpl
 msgid "Enabled?"
 msgstr "Geactiveerd?"
 
@@ -634,16 +690,6 @@ msgstr "Er zijn geen kortingscodes."
 #: templates/CRM/CiviDiscount/Page/List.tpl
 msgid "New Discount Code"
 msgstr "Nieuwe kortingscode"
-
-#: templates/CRM/CiviDiscount/Page/Report.tpl
-#: templates/CRM/CiviDiscount/Page/Usage.tpl
-msgid "Contact"
-msgstr "Contact"
-
-#: templates/CRM/CiviDiscount/Page/Report.tpl
-#: templates/CRM/CiviDiscount/Page/Usage.tpl
-msgid "Event"
-msgstr "Evenement"
 
 #: templates/CRM/CiviDiscount/Page/Report.tpl
 #: templates/CRM/CiviDiscount/Page/Usage.tpl
