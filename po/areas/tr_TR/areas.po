@@ -4,13 +4,13 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Mathieu Lu <mathieu@bidon.ca>, 2022
-# Kaya Zeren <kayazeren@gmail.com>, 2022
+# Kaya Zeren <kayazeren@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: areas\n"
-"POT-Creation-Date: 2021-05-06 05:01+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2022\n"
+"POT-Creation-Date: 2023-01-27 19:23+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2023\n"
 "Language-Team: Turkish (https://www.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,21 +19,27 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: CRM/Areas/DAO/Area.php CRM/Areas/DAO/AreaDefinition.php
+#: Civi/Areas/DataProcessor/Source/AreaDataSource.php
+#: Civi/Areas/DataProcessor/Source/AreaDefinitionDataSource.php
 #: api/v3/Area/Create.php api/v3/Area/Delete.php
 #: api/v3/AreaDefinition/Delete.php
 msgid "ID"
 msgstr "Kod"
 
-#: CRM/Areas/DAO/Area.php ang/areas/AreaEditCtrl.html
-#: ang/areas/AreasListCtrl.html api/v3/Area/Create.php
+#: CRM/Areas/DAO/Area.php Civi/Areas/DataProcessor/Source/AreaDataSource.php
+#: ang/areas/AreaEditCtrl.html ang/areas/AreasListCtrl.html
+#: api/v3/Area/Create.php
 msgid "Title"
 msgstr "Başlık"
 
 #: CRM/Areas/DAO/AreaDefinition.php
+#: Civi/Areas/DataProcessor/Source/AreaDefinitionDataSource.php
 msgid "Area ID"
 msgstr "Alan kodu"
 
-#: CRM/Areas/DAO/AreaDefinition.php ang/areas/AreaEditCtrl.html
+#: CRM/Areas/DAO/AreaDefinition.php
+#: Civi/Areas/DataProcessor/Source/AreaDefinitionDataSource.php
+#: ang/areas/AreaEditCtrl.html
 msgid "Type"
 msgstr "Tür"
 
@@ -41,10 +47,31 @@ msgstr "Tür"
 msgid "Upgrade %1 to revision %2"
 msgstr "%1, %2 sürümüne güncelle"
 
+#: Civi/Areas/DataProcessor/CompilerPass.php
+msgid "Area"
+msgstr ""
+
+#: Civi/Areas/DataProcessor/CompilerPass.php
+msgid "Area Definition"
+msgstr ""
+
+#: Civi/Areas/DataProcessor/Source/AreaDefinitionDataSource.php areas.php
+msgid "Country ID"
+msgstr "Ülke kodu"
+
+#: Civi/Areas/DataProcessor/Source/AreaDefinitionDataSource.php areas.php
+msgid "State/Province ID"
+msgstr "İl/bölge kodu"
+
+#: Civi/Areas/DataProcessor/Source/AreaDefinitionDataSource.php
 #: Civi/Areas/DefinitionType/City.php ang/areas/areaDefinition/CityCtl.html
 #: ang/areas/areaDefinition/CityStateProvinceCtl.html areas.php
 msgid "City"
 msgstr "İlçe"
+
+#: Civi/Areas/DataProcessor/Source/AreaDefinitionDataSource.php
+msgid "Postal Code"
+msgstr "Posta kodu"
 
 #: Civi/Areas/DefinitionType/City.php Civi/Areas/DefinitionType/PostalCode.php
 #: Civi/Areas/DefinitionType/StateProvince.php
@@ -167,14 +194,6 @@ msgstr "Kaydedip kapat"
 #: api/v3/Contact/UpdateAreas.php
 msgid "Updated %1 contacts"
 msgstr "%1 kişi güncellendi"
-
-#: areas.php
-msgid "Country ID"
-msgstr "Ülke kodu"
-
-#: areas.php
-msgid "State/Province ID"
-msgstr "İl/bölge kodu"
 
 #: areas.php
 msgid "Manage Areas"
