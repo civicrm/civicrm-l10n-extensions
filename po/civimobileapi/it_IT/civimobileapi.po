@@ -3,14 +3,14 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Francesco Garganese <francesco.garganese@aeromnia.aero>, 2021
 # Alice Montrasio, 2022
+# Francesco Garganese <francesco.garganese@aeromnia.aero>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
-"POT-Creation-Date: 2021-10-29 05:03+0000\n"
-"Last-Translator: Alice Montrasio, 2022\n"
+"POT-Creation-Date: 2023-01-27 19:23+0000\n"
+"Last-Translator: Francesco Garganese <francesco.garganese@aeromnia.aero>, 2023\n"
 "Language-Team: Italian (https://www.transifex.com/civicrm/teams/1905/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -361,10 +361,6 @@ msgstr "Data aggiornamento"
 #: CRM/CiviMobileAPI/DAO/PushNotificationMessages.php
 msgid "Data"
 msgstr "Data"
-
-#: CRM/CiviMobileAPI/DAO/PushNotificationMessages.php
-msgid "Message"
-msgstr "Messaggio"
 
 #: CRM/CiviMobileAPI/DAO/PushNotificationMessages.php
 msgid "Entity table"
@@ -748,7 +744,8 @@ msgstr ""
 msgid "Venue id does not exist."
 msgstr ""
 
-#: CRM/CiviMobileAPI/Form/Venue.php templates/CRM/CiviMobileAPI/Form/Venue.hlp
+#: CRM/CiviMobileAPI/Form/Venue.php api/v3/CiviMobileCase.php
+#: templates/CRM/CiviMobileAPI/Form/Venue.hlp
 msgid "Details"
 msgstr "Dettagli"
 
@@ -1001,28 +998,6 @@ msgstr "'event_id' è un campo necessario."
 msgid "Event(id = %1) does not exist or is not public."
 msgstr ""
 
-#: CRM/CiviMobileAPI/PushNotification/Utils/Hook/Post/ActivityPushNotification.php
-#: CRM/CiviMobileAPI/PushNotification/Utils/Hook/PostProcess/ActivityPushNotification.php
-#: CRM/CiviMobileAPI/PushNotification/Utils/Hook/PostProcess/CasePushNotification.php
-#: CRM/CiviMobileAPI/PushNotification/Utils/Hook/Pre/ActivityPushNotification.php
-msgid "Activity"
-msgstr "Attività"
-
-#: CRM/CiviMobileAPI/PushNotification/Utils/Hook/Post/CasePushNotification.php
-#: CRM/CiviMobileAPI/PushNotification/Utils/Hook/Pre/CasePushNotification.php
-msgid "Case"
-msgstr "Caso"
-
-#: CRM/CiviMobileAPI/PushNotification/Utils/Hook/Post/ParticipantPushNotification.php
-#: CRM/CiviMobileAPI/PushNotification/Utils/Hook/PostProcess/ParticipantPushNotification.php
-#: CRM/CiviMobileAPI/PushNotification/Utils/Hook/Pre/ParticipantPushNotification.php
-msgid "Participant"
-msgstr "Partecipante"
-
-#: CRM/CiviMobileAPI/PushNotification/Utils/Hook/Post/RelationshipPushNotification.php
-msgid "Relationship"
-msgstr "Relazione"
-
 #: CRM/CiviMobileAPI/Upgrader/Base.php CRM/CiviMobileAPI/Utils/Extension.php
 msgid "Upgrade %1 to revision %2"
 msgstr "Aggiorna %1 alla revisione %2"
@@ -1147,6 +1122,58 @@ msgstr ""
 msgid "Event type"
 msgstr "Tipo evento"
 
+#: api/v3/CiviMobileCase.php
+msgid "Case Id"
+msgstr ""
+
+#: api/v3/CiviMobileCase.php
+msgid "Reassign Contact Id"
+msgstr ""
+
+#: api/v3/CiviMobileCase.php
+msgid "Case status"
+msgstr ""
+
+#: api/v3/CiviMobileCase.php
+msgid "Case type"
+msgstr ""
+
+#: api/v3/CiviMobileCase.php
+msgid "Case client"
+msgstr ""
+
+#: api/v3/CiviMobileCase.php
+msgid "Case subject"
+msgstr ""
+
+#: api/v3/CiviMobileCase.php
+msgid "Start date"
+msgstr "Data inizio"
+
+#: api/v3/CiviMobileCase.php
+msgid "End date"
+msgstr "Data fine"
+
+#: api/v3/CiviMobileCase.php
+msgid "Duration"
+msgstr "Durata"
+
+#: api/v3/CiviMobileCase.php
+msgid "Activity medium"
+msgstr ""
+
+#: api/v3/CiviMobileCase.php
+msgid "Creator"
+msgstr "Creatore"
+
+#: api/v3/CiviMobileCase.php
+msgid "Activity type"
+msgstr "Tipo attività"
+
+#: api/v3/CiviMobileCase.php api/v3/CiviMobileMembershipStatistic.php
+msgid "Contact display name"
+msgstr ""
+
 #: api/v3/CiviMobileCaseRole.php
 msgid "Case ID"
 msgstr "ID Caso"
@@ -1198,10 +1225,6 @@ msgstr ""
 
 #: api/v3/CiviMobileFavouriteEventSession.php
 msgid "Is favourite?"
-msgstr ""
-
-#: api/v3/CiviMobileMembershipStatistic.php
-msgid "Contact display name"
 msgstr ""
 
 #: api/v3/CiviMobileMembershipStatistic.php
