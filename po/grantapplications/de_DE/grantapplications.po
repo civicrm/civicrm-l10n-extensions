@@ -4,15 +4,14 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Ettore Atalan <atalanttore@googlemail.com>, 2020
-# Torben Bertram, 2022
 # Mathieu Lu <mathieu@bidon.ca>, 2022
-# Maria <maria.vogel@civiservice.de>, 2022
+# Torben Bertram, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: grantapplications\n"
-"POT-Creation-Date: 2020-08-04 05:01+0000\n"
-"Last-Translator: Maria <maria.vogel@civiservice.de>, 2022\n"
+"POT-Creation-Date: 2023-01-27 19:21+0000\n"
+"Last-Translator: Torben Bertram, 2023\n"
 "Language-Team: German (https://www.transifex.com/civicrm/teams/1905/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -66,81 +65,6 @@ msgstr ""
 #: CRM/Grant/BAO/GrantApplicationPage.php
 msgid "Automatically Generated"
 msgstr "Automatisch erstellt"
-
-#: CRM/Grant/BAO/Query.php
-msgid "Grant Money Transfer Date is NULL"
-msgstr ""
-
-#: CRM/Grant/BAO/Query.php
-msgid "Grant Application Received Date is NULL"
-msgstr ""
-
-#: CRM/Grant/BAO/Query.php
-msgid "Grant Due Date"
-msgstr ""
-
-#: CRM/Grant/BAO/Query.php
-msgid "Grant Due Date is NULL"
-msgstr ""
-
-#: CRM/Grant/BAO/Query.php
-msgid "Grant Decision Date"
-msgstr ""
-
-#: CRM/Grant/BAO/Query.php
-msgid "Grant Decision Date is NULL"
-msgstr ""
-
-#: CRM/Grant/BAO/Query.php
-msgid "Grant Type(s)"
-msgstr ""
-
-#: CRM/Grant/BAO/Query.php
-msgid "Grant Status(s)"
-msgstr ""
-
-#: CRM/Grant/BAO/Query.php
-msgid "%1 %2 %3"
-msgstr "%1 %2 %3"
-
-#: CRM/Grant/BAO/Query.php
-#: templates/CRM/Grant/Page/GrantApplicationDashboard.tpl
-msgid "Yes"
-msgstr "Ja"
-
-#: CRM/Grant/BAO/Query.php
-#: templates/CRM/Grant/Page/GrantApplicationDashboard.tpl
-msgid "No"
-msgstr "Nein"
-
-#: CRM/Grant/BAO/Query.php
-msgid "Grant Report Received = %1"
-msgstr ""
-
-#: CRM/Grant/BAO/Query.php templates/CRM/Grant/Page/UserDashboard.tpl
-msgid "Grant Type"
-msgstr ""
-
-#: CRM/Grant/BAO/Query.php
-#: CRM/Grantapplications/BAO/GrantApplicationProfile.php
-msgid "Grant Status"
-msgstr ""
-
-#: CRM/Grant/BAO/Query.php
-msgid "Date is not set"
-msgstr ""
-
-#: CRM/Grant/BAO/Query.php
-msgid "Minimum Amount"
-msgstr "Minimalbetrag"
-
-#: CRM/Grant/BAO/Query.php CRM/Grant/Form/GrantPage/Settings.php
-msgid "Please enter a valid money value (e.g. %1)."
-msgstr "Bitte einen gültigen Geldbetrag eingeben (z.B. %1)."
-
-#: CRM/Grant/BAO/Query.php
-msgid "Maximum Amount"
-msgstr "Maximalbetrag"
 
 #: CRM/Grant/DAO/GrantApplicationPage.php
 msgid "Grant Application Pages"
@@ -235,6 +159,14 @@ msgstr ""
 #: CRM/Grant/Form/GrantBase.php
 msgid "Warning"
 msgstr "Warnung"
+
+#: CRM/Grant/Form/GrantBase.php
+msgid "File size should be less than %1 MByte(s)"
+msgstr ""
+
+#: CRM/Grant/Form/GrantBase.php
+msgid "%1 is a required field."
+msgstr "%1 ist ein Pflichtfeld"
 
 #: CRM/Grant/Form/GrantBase.php
 msgid ""
@@ -349,6 +281,10 @@ msgstr ""
 #: CRM/Grant/Form/GrantPage/Settings.php
 msgid "Default Amount"
 msgstr "Standardbetrag"
+
+#: CRM/Grant/Form/GrantPage/Settings.php
+msgid "Please enter a valid money value (e.g. %1)."
+msgstr "Bitte einen gültigen Geldbetrag eingeben (z.B. %1)."
 
 #: CRM/Grant/Form/GrantPage/Settings.php
 msgid "Is this Grant Aplication Page Active?"
@@ -516,48 +452,12 @@ msgstr "Fortfahren"
 msgid "Done"
 msgstr "Fertig"
 
-#: CRM/Grant/Info.php grantapplications.php
-msgid "CiviGrant"
-msgstr "CiviGrant"
-
-#: CRM/Grant/Info.php
-msgid "access CiviGrant"
-msgstr "access CiviGrant"
-
-#: CRM/Grant/Info.php
-msgid "View all grants"
-msgstr ""
-
-#: CRM/Grant/Info.php
-msgid "edit grants"
-msgstr ""
-
-#: CRM/Grant/Info.php
-msgid "Create and update grants"
-msgstr ""
-
-#: CRM/Grant/Info.php
-msgid "submit online grant application"
-msgstr ""
-
-#: CRM/Grant/Info.php
-msgid "delete in CiviGrant"
-msgstr ""
-
-#: CRM/Grant/Info.php
-msgid "Delete grants"
-msgstr ""
-
-#: CRM/Grant/Info.php CRM/UF/Page/ProfileEditor.php
-msgid "Grant"
-msgstr ""
-
-#: CRM/Grant/Info.php grantapplications.php
-msgid "Your Grant(s)"
-msgstr ""
-
-#: CRM/Grant/Info.php CRM/Grant/Page/UserDashboard.php
+#: CRM/Grant/Page/UserDashboard.php
 msgid "Grants"
+msgstr ""
+
+#: CRM/Grantapplications/BAO/GrantApplicationProfile.php
+msgid "Grant Status"
 msgstr ""
 
 #: CRM/Grantapplications/BAO/GrantApplicationProfile.php
@@ -664,50 +564,6 @@ msgstr "mehr"
 msgid "CiviCRM Profile Group Preview"
 msgstr ""
 
-#: CRM/UF/Page/ProfileEditor.php
-msgid "Individual"
-msgstr "Individuell"
-
-#: CRM/UF/Page/ProfileEditor.php
-msgid "Organization"
-msgstr "Organisation"
-
-#: CRM/UF/Page/ProfileEditor.php
-msgid "Household"
-msgstr "Haushalt"
-
-#: CRM/UF/Page/ProfileEditor.php
-msgid "Activity"
-msgstr "Aktivität"
-
-#: CRM/UF/Page/ProfileEditor.php
-msgid "Contribution"
-msgstr "Zuwendung"
-
-#: CRM/UF/Page/ProfileEditor.php
-msgid "Membership"
-msgstr "Mitgliedschaft"
-
-#: CRM/UF/Page/ProfileEditor.php
-msgid "Participant"
-msgstr "Teilnehmer*in"
-
-#: CRM/UF/Page/ProfileEditor.php
-msgid "Case"
-msgstr "Fall"
-
-#: CRM/UF/Page/ProfileEditor.php
-msgid "Free HTML"
-msgstr ""
-
-#: CRM/UF/Page/ProfileEditor.php
-msgid "Formatting"
-msgstr "Formatierung"
-
-#: CRM/UF/Page/ProfileEditor.php
-msgid "%1: %2"
-msgstr "%1: %2"
-
 #: grantapplications.php
 msgid "Grants on dashboard"
 msgstr ""
@@ -715,6 +571,10 @@ msgstr ""
 #: grantapplications.php
 msgid "New Grant Application Page"
 msgstr ""
+
+#: grantapplications.php
+msgid "CiviGrant"
+msgstr "CiviGrant"
 
 #: grantapplications.php
 msgid "apply for Grant Application"
@@ -759,6 +619,14 @@ msgstr ""
 #: grantapplications.php
 msgid "Configure"
 msgstr "Konfigurieren"
+
+#: grantapplications.php
+msgid "Grant"
+msgstr ""
+
+#: grantapplications.php
+msgid "Your Grant(s)"
+msgstr ""
 
 #: grantapplications.php
 msgid "Edit"
@@ -1282,9 +1150,21 @@ msgstr "ID"
 msgid "Enabled?"
 msgstr "Aktiviert?"
 
+#: templates/CRM/Grant/Page/GrantApplicationDashboard.tpl
+msgid "Yes"
+msgstr "Ja"
+
+#: templates/CRM/Grant/Page/GrantApplicationDashboard.tpl
+msgid "No"
+msgstr "Nein"
+
 #: templates/CRM/Grant/Page/UserDashboard.tpl
 msgid "Name"
 msgstr "Name"
+
+#: templates/CRM/Grant/Page/UserDashboard.tpl
+msgid "Grant Type"
+msgstr ""
 
 #: templates/CRM/Grant/Page/UserDashboard.tpl
 msgid "Program Name"
