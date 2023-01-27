@@ -3,14 +3,15 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Torben Bertram, 2022
 # Maria <maria.vogel@civiservice.de>, 2022
+# Torben Bertram, 2023
+# Mathieu Lu <mathieu@bidon.ca>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: mjwshared\n"
-"POT-Creation-Date: 2021-12-25 05:02+0000\n"
-"Last-Translator: Maria <maria.vogel@civiservice.de>, 2022\n"
+"POT-Creation-Date: 2023-01-27 19:24+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>, 2023\n"
 "Language-Team: German (https://www.transifex.com/civicrm/teams/1905/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -131,6 +132,7 @@ msgid "Unique PaymentprocessorWebhook ID"
 msgstr ""
 
 #: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
 msgid "Payment Processor"
 msgstr "Zahlungsdienstleister"
 
@@ -200,8 +202,16 @@ msgid "You do not have permission to access this page."
 msgstr "Sie haben nicht die Berechtigung, um auf diese Seite zuzugreifen."
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
-msgid "Cancel Participants"
-msgstr "Teilnehmende stornieren"
+msgid "Do you want to cancel these registrations when you refund the payment?"
+msgstr ""
+
+#: CRM/Mjwshared/Form/PaymentRefund.php
+msgid "Do you want to cancel these memberships when you refund the payment?"
+msgstr ""
+
+#: CRM/Mjwshared/Form/PaymentRefund.php
+msgid "Refund Amount"
+msgstr ""
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid "Refund"
@@ -218,6 +228,10 @@ msgstr "Rückzahlung wurde erfolgreich verarbeitet."
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid "Cancelled %1 participant registration(s)."
 msgstr "%1 Teilnahmeregistrierung(en) storniert."
+
+#: CRM/Mjwshared/Form/PaymentRefund.php
+msgid "Cancelled %1 membership(s)."
+msgstr ""
 
 #: CRM/Mjwshared/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
@@ -254,6 +268,22 @@ msgstr "Erfolg"
 #: ang/mjwshared/PaymentprocessorWebhook.js
 msgid "Error"
 msgstr "Fehler"
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
+msgid "Processor"
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
+msgid "Test"
+msgstr "Test"
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
+msgid "Live"
+msgstr "Live"
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
+msgid "%count webhooks"
+msgstr ""
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "Event ID"
@@ -335,6 +365,10 @@ msgid "Scheduled for retry"
 msgstr ""
 
 #: api/v3/Mjwpayment.php
+msgid "Contribution ID"
+msgstr "Zuwendungs-ID"
+
+#: api/v3/Mjwpayment.php templates/CRM/Mjwshared/Form/PaymentRefund.tpl
 msgid "Transaction ID"
 msgstr "Transaktions-ID"
 
@@ -379,19 +413,25 @@ msgid ""
 msgstr ""
 
 #: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
-msgid "Click \"refund\" to refund this payment"
-msgstr "Klicke \"Rückzahlung\", um diese Zahlung rückabzuwickeln"
+msgid "Amount"
+msgstr "Betrag"
 
 #: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
-msgid ""
-"Do you want to cancel the following event registrations when you refund the "
-"payment?"
+msgid "Payment date"
 msgstr ""
 
-#: templates/CRM/mjwshared/PaymentprocessorWebhook.hlp
-msgid ""
-"The contact name  should be divided in two parts, the first name and last "
-"name."
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
+msgid "Order Reference"
 msgstr ""
-"Der Name des Kontakts sollte in zwei Teile getrennt sein, den Vornamen und "
-"den Familiennamen."
+
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
+msgid "This payment was used to register the following participants:"
+msgstr ""
+
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
+msgid "This payment was used for the following memberships:"
+msgstr ""
+
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
+msgid "Click \"refund\" to refund this payment"
+msgstr "Klicke \"Rückzahlung\", um diese Zahlung rückabzuwickeln"
