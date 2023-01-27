@@ -3,13 +3,13 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# HanV <han.velthuis@home.nl>, 2021
+# HanV <han.velthuis@home.nl>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: mjwshared\n"
-"POT-Creation-Date: 2021-12-25 05:02+0000\n"
-"Last-Translator: HanV <han.velthuis@home.nl>, 2021\n"
+"POT-Creation-Date: 2023-01-27 19:24+0000\n"
+"Last-Translator: HanV <han.velthuis@home.nl>, 2023\n"
 "Language-Team: Dutch (https://www.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -143,6 +143,7 @@ msgid "Unique PaymentprocessorWebhook ID"
 msgstr "Uniek BetaalmethodeWebhook-id"
 
 #: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
 msgid "Payment Processor"
 msgstr "Betaalmethode"
 
@@ -214,8 +215,16 @@ msgid "You do not have permission to access this page."
 msgstr "U heeft geen toegang tot deze pagina."
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
-msgid "Cancel Participants"
-msgstr "Deelnemers annuleren"
+msgid "Do you want to cancel these registrations when you refund the payment?"
+msgstr ""
+
+#: CRM/Mjwshared/Form/PaymentRefund.php
+msgid "Do you want to cancel these memberships when you refund the payment?"
+msgstr ""
+
+#: CRM/Mjwshared/Form/PaymentRefund.php
+msgid "Refund Amount"
+msgstr ""
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid "Refund"
@@ -232,6 +241,10 @@ msgstr "De terugbetaling is verwerkt."
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid "Cancelled %1 participant registration(s)."
 msgstr "%1 aanmelding(en) geannuleerd."
+
+#: CRM/Mjwshared/Form/PaymentRefund.php
+msgid "Cancelled %1 membership(s)."
+msgstr ""
 
 #: CRM/Mjwshared/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
@@ -268,6 +281,22 @@ msgstr "Gelukt"
 #: ang/mjwshared/PaymentprocessorWebhook.js
 msgid "Error"
 msgstr "Fout"
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
+msgid "Processor"
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
+msgid "Test"
+msgstr "Test"
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
+msgid "Live"
+msgstr "Productie"
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
+msgid "%count webhooks"
+msgstr ""
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "Event ID"
@@ -353,6 +382,10 @@ msgid "Scheduled for retry"
 msgstr "Taak opnieuw ingepland"
 
 #: api/v3/Mjwpayment.php
+msgid "Contribution ID"
+msgstr "Bijdrage-id"
+
+#: api/v3/Mjwpayment.php templates/CRM/Mjwshared/Form/PaymentRefund.tpl
 msgid "Transaction ID"
 msgstr "Transactie-id"
 
@@ -402,18 +435,25 @@ msgstr ""
 "met JavaScript werken."
 
 #: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
-msgid "Click \"refund\" to refund this payment"
-msgstr "Klik op \"Terugbetalen\" om de betaling terug te betalen"
+msgid "Amount"
+msgstr "Bedrag"
 
 #: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
-msgid ""
-"Do you want to cancel the following event registrations when you refund the "
-"payment?"
+msgid "Payment date"
 msgstr ""
-"Wilt u de volgende aanmeldingen annuleren als u de betaling terugbetaald?"
 
-#: templates/CRM/mjwshared/PaymentprocessorWebhook.hlp
-msgid ""
-"The contact name  should be divided in two parts, the first name and last "
-"name."
-msgstr "De contactnaam moet gesplitst worden in de voornaam en de achternaam."
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
+msgid "Order Reference"
+msgstr ""
+
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
+msgid "This payment was used to register the following participants:"
+msgstr ""
+
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
+msgid "This payment was used for the following memberships:"
+msgstr ""
+
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
+msgid "Click \"refund\" to refund this payment"
+msgstr "Klik op \"Terugbetalen\" om de betaling terug te betalen"
