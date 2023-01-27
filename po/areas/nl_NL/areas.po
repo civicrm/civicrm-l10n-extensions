@@ -3,13 +3,13 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# HanV <han.velthuis@home.nl>, 2020
+# HanV <han.velthuis@home.nl>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: areas\n"
-"POT-Creation-Date: 2018-11-15 19:51+0000\n"
-"Last-Translator: HanV <han.velthuis@home.nl>, 2020\n"
+"POT-Creation-Date: 2023-01-27 19:23+0000\n"
+"Last-Translator: HanV <han.velthuis@home.nl>, 2023\n"
 "Language-Team: Dutch (https://www.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,21 +18,27 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: CRM/Areas/DAO/Area.php CRM/Areas/DAO/AreaDefinition.php
+#: Civi/Areas/DataProcessor/Source/AreaDataSource.php
+#: Civi/Areas/DataProcessor/Source/AreaDefinitionDataSource.php
 #: api/v3/Area/Create.php api/v3/Area/Delete.php
 #: api/v3/AreaDefinition/Delete.php
 msgid "ID"
 msgstr "ID"
 
-#: CRM/Areas/DAO/Area.php ang/areas/AreaEditCtrl.html
-#: ang/areas/AreasListCtrl.html api/v3/Area/Create.php
+#: CRM/Areas/DAO/Area.php Civi/Areas/DataProcessor/Source/AreaDataSource.php
+#: ang/areas/AreaEditCtrl.html ang/areas/AreasListCtrl.html
+#: api/v3/Area/Create.php
 msgid "Title"
 msgstr "Titel"
 
 #: CRM/Areas/DAO/AreaDefinition.php
+#: Civi/Areas/DataProcessor/Source/AreaDefinitionDataSource.php
 msgid "Area ID"
 msgstr "Area-id"
 
-#: CRM/Areas/DAO/AreaDefinition.php ang/areas/AreaEditCtrl.html
+#: CRM/Areas/DAO/AreaDefinition.php
+#: Civi/Areas/DataProcessor/Source/AreaDefinitionDataSource.php
+#: ang/areas/AreaEditCtrl.html
 msgid "Type"
 msgstr "Type"
 
@@ -40,10 +46,31 @@ msgstr "Type"
 msgid "Upgrade %1 to revision %2"
 msgstr "Upgrade %1 naar versie %2"
 
+#: Civi/Areas/DataProcessor/CompilerPass.php
+msgid "Area"
+msgstr ""
+
+#: Civi/Areas/DataProcessor/CompilerPass.php
+msgid "Area Definition"
+msgstr ""
+
+#: Civi/Areas/DataProcessor/Source/AreaDefinitionDataSource.php areas.php
+msgid "Country ID"
+msgstr "Land-id"
+
+#: Civi/Areas/DataProcessor/Source/AreaDefinitionDataSource.php areas.php
+msgid "State/Province ID"
+msgstr "Staat/Provincie-id"
+
+#: Civi/Areas/DataProcessor/Source/AreaDefinitionDataSource.php
 #: Civi/Areas/DefinitionType/City.php ang/areas/areaDefinition/CityCtl.html
 #: ang/areas/areaDefinition/CityStateProvinceCtl.html areas.php
 msgid "City"
 msgstr "Plaats"
+
+#: Civi/Areas/DataProcessor/Source/AreaDefinitionDataSource.php
+msgid "Postal Code"
+msgstr "Postcode"
 
 #: Civi/Areas/DefinitionType/City.php Civi/Areas/DefinitionType/PostalCode.php
 #: Civi/Areas/DefinitionType/StateProvince.php
@@ -166,14 +193,6 @@ msgstr "Opslaan en sluiten"
 #: api/v3/Contact/UpdateAreas.php
 msgid "Updated %1 contacts"
 msgstr "%1 contacten gewijzigd"
-
-#: areas.php
-msgid "Country ID"
-msgstr "Land-id"
-
-#: areas.php
-msgid "State/Province ID"
-msgstr "Staat/Provincie-id"
 
 #: areas.php
 msgid "Manage Areas"
