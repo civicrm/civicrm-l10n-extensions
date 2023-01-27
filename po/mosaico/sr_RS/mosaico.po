@@ -3,13 +3,13 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Đorđe Kolaković <djordje@catalystbalkans.org>, 2022
+# Đorđe Kolaković <djordje@catalystbalkans.org>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: mosaico\n"
-"POT-Creation-Date: 2021-11-18 05:02+0000\n"
-"Last-Translator: Đorđe Kolaković <djordje@catalystbalkans.org>, 2022\n"
+"POT-Creation-Date: 2023-01-27 19:23+0000\n"
+"Last-Translator: Đorđe Kolaković <djordje@catalystbalkans.org>, 2023\n"
 "Language-Team: Serbian (Serbia) (https://www.transifex.com/civicrm/teams/1905/sr_RS/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -69,11 +69,14 @@ msgstr ""
 msgid "Unique Template ID"
 msgstr ""
 
-#: CRM/Mosaico/DAO/MosaicoTemplate.php api/v3/MosaicoBaseTemplate.php
+#: CRM/Mosaico/DAO/MosaicoTemplate.php
+#: ang/crmMosaico/CreateFromBaseTemplate.html api/v3/MosaicoBaseTemplate.php
 msgid "Title"
 msgstr "Naslov"
 
 #: CRM/Mosaico/DAO/MosaicoTemplate.php
+#: ang/crmMosaico/CreateFromBaseTemplate.html ang/crmMosaico/MixinCtrl.js
+#: ang/crmMosaico/Templates.js
 msgid "Base Template"
 msgstr ""
 
@@ -97,6 +100,21 @@ msgstr ""
 msgid "Mosaico content (JSON)"
 msgstr ""
 
+#: CRM/Mosaico/DAO/MosaicoTemplate.php
+msgid "Category ID"
+msgstr ""
+
+#: CRM/Mosaico/DAO/MosaicoTemplate.php
+msgid ""
+"ID of the category this mailing template is currently belongs. Foreign key "
+"to civicrm_option_value."
+msgstr ""
+
+#: CRM/Mosaico/DAO/MosaicoTemplate.php
+#: ang/crmMosaico/CreateFromBaseTemplate.html
+msgid "Category"
+msgstr ""
+
 #: CRM/Mosaico/Form/Migrate.php
 msgid "Are you sure want to copy data from Mosaico 1.x to 2.x?"
 msgstr ""
@@ -113,7 +131,8 @@ msgstr ""
 msgid "This action cannot be undone."
 msgstr ""
 
-#: CRM/Mosaico/Form/Migrate.php ang/crmMosaico.bootstrap/TemplateItem.html
+#: CRM/Mosaico/Form/Migrate.php ang/crmMosaico/SearchTemplateListButtons.html
+#: ang/crmMosaico.bootstrap/TemplateItem.html
 #: ang/crmMosaico.crmstar/TemplateItem.html
 msgid "Copy"
 msgstr ""
@@ -196,6 +215,14 @@ msgstr ""
 
 #: CRM/Mosaico/Utils.php
 msgid "All (other) sizes"
+msgstr ""
+
+#: ang/afsearchMosaicoTemplateList.aff.html
+msgid "New Template"
+msgstr ""
+
+#: ang/afsearchMosaicoTemplateList.aff.html
+msgid "Configure template categories"
 msgstr ""
 
 #: ang/crmMosaico/AdvancedDialogCtrl.html
@@ -290,64 +317,23 @@ msgstr ""
 msgid "Send on.."
 msgstr ""
 
-#: ang/crmMosaico/ListCtrl.js ang/crmMosaico/TemplateItem.js
+#: ang/crmMosaico/CreateFromBaseTemplate.ctrl.js
+#: ang/crmMosaico/SearchTemplateCreateButton.component.js
+#: ang/crmMosaico/SearchTemplateListButtons.component.js
+#: ang/crmMosaico/TemplateItem.js
 msgid "mosaico"
 msgstr ""
 
-#: ang/crmMosaico/ListCtrl.js
-msgid "Create new template"
+#: ang/crmMosaico/CreateFromBaseTemplate.html
+msgid "Select"
 msgstr ""
 
-#: ang/crmMosaico/ListCtrl.js
-msgid "New Template (%1)"
+#: ang/crmMosaico/CreateFromBaseTemplate.html
+msgid "Create Template"
 msgstr ""
 
-#: ang/crmMosaico/ListCtrl.js
-msgid "Creating..."
-msgstr ""
-
-#: ang/crmMosaico/ListCtrl.js
-msgid "Created"
-msgstr ""
-
-#: ang/crmMosaico/ListCtrl.js
-msgid "Copy of %1"
-msgstr ""
-
-#: ang/crmMosaico/ListCtrl.js
-msgid "Copying..."
-msgstr ""
-
-#: ang/crmMosaico/ListCtrl.js
-msgid "Copied"
-msgstr "Kopirano"
-
-#: ang/crmMosaico/ListCtrl.js
-msgid "Edit template name"
-msgstr ""
-
-#: ang/crmMosaico/ListCtrl.js ang/crmMosaico/PreviewDialogCtrl.js
-msgid "Saving..."
-msgstr ""
-
-#: ang/crmMosaico/ListCtrl.js
-msgid "Saved"
-msgstr "Sačuvano"
-
-#: ang/crmMosaico/ListCtrl.js
-msgid "Saving"
-msgstr ""
-
-#: ang/crmMosaico/ListCtrl.js ang/crmMosaico/MixinCtrl.js
+#: ang/crmMosaico/MixinCtrl.js ang/crmMosaico/Templates.js
 msgid "Loading..."
-msgstr ""
-
-#: ang/crmMosaico/ListCtrl.js
-msgid "Deleting..."
-msgstr ""
-
-#: ang/crmMosaico/ListCtrl.js
-msgid "Deleted"
 msgstr ""
 
 #: ang/crmMosaico/MixinCtrl.js
@@ -358,13 +344,65 @@ msgstr ""
 msgid "Advanced Settings"
 msgstr ""
 
+#: ang/crmMosaico/PreviewDialogCtrl.js
+msgid "Saving..."
+msgstr ""
+
+#: ang/crmMosaico/SearchTemplateCreateButton.component.js
+#: ang/crmMosaico/SearchTemplateListButtons.component.js
+msgid "Copying..."
+msgstr ""
+
+#: ang/crmMosaico/SearchTemplateCreateButton.component.js
+#: ang/crmMosaico/SearchTemplateListButtons.component.js
+msgid "Copied"
+msgstr "Kopirano"
+
+#: ang/crmMosaico/SearchTemplateCreateButton.component.js
+#: ang/crmMosaico/SearchTemplateListButtons.component.js
+msgid "(copy)"
+msgstr ""
+
+#: ang/crmMosaico/SearchTemplateCreateButton.component.js
+#: ang/crmMosaico/SearchTemplateListButtons.component.js
+msgid "Deleting..."
+msgstr ""
+
+#: ang/crmMosaico/SearchTemplateCreateButton.component.js
+#: ang/crmMosaico/SearchTemplateListButtons.component.js
+msgid "Deleted"
+msgstr ""
+
+#: ang/crmMosaico/SearchTemplateListButtons.html
+msgid "Edit"
+msgstr "Uredi"
+
+#: ang/crmMosaico/SearchTemplateListButtons.html
+#: ang/crmMosaico.bootstrap/TemplateItem.html
+#: ang/crmMosaico.crmstar/TemplateItem.html
+msgid "Delete"
+msgstr "Obriši"
+
 #: ang/crmMosaico/Templates.js
 msgid "Empty Template"
 msgstr ""
 
+#: ang/crmMosaico/Templates.js
+msgid "Saving"
+msgstr ""
+
+#: ang/crmMosaico/Templates.js
+msgid "Saved"
+msgstr "Sačuvano"
+
 #: ang/crmMosaico.bootstrap/BlockDesign.html
 #: ang/crmMosaico.crmstar/BlockDesign.html
 msgid "My Design"
+msgstr ""
+
+#: ang/crmMosaico.bootstrap/BlockDesign.html
+#: ang/crmMosaico.crmstar/BlockDesign.html
+msgid "All Categories"
 msgstr ""
 
 #: ang/crmMosaico.bootstrap/BlockPreview.html
@@ -485,14 +523,6 @@ msgstr ""
 msgid "Continue"
 msgstr ""
 
-#: ang/crmMosaico.bootstrap/ListCtrl.html ang/crmMosaico.crmstar/ListCtrl.html
-msgid "New from base template:"
-msgstr ""
-
-#: ang/crmMosaico.bootstrap/ListCtrl.html ang/crmMosaico.crmstar/ListCtrl.html
-msgid "Configured templates:"
-msgstr ""
-
 #: ang/crmMosaico.bootstrap/SubjectList.html
 #: ang/crmMosaico.crmstar/SubjectList.html
 msgid "Add subject"
@@ -513,11 +543,6 @@ msgstr ""
 #: ang/crmMosaico.crmstar/TemplateItem.html
 msgid "Settings"
 msgstr ""
-
-#: ang/crmMosaico.bootstrap/TemplateItem.html
-#: ang/crmMosaico.crmstar/TemplateItem.html
-msgid "Delete"
-msgstr "Obriši"
 
 #: ang/crmMosaico.bootstrap/TemplateItem.html
 #: ang/crmMosaico.crmstar/TemplateItem.html
@@ -846,10 +871,4 @@ msgstr ""
 
 #: templates/CRM/Mosaico/Page/EditorIframe.tpl
 msgid "Exit email composer without saving?"
-msgstr ""
-
-#: templates/CRM/crmMosaico/ListCtrl.hlp
-msgid ""
-"The contact name  should be divided in two parts, the first name and last "
-"name."
 msgstr ""
