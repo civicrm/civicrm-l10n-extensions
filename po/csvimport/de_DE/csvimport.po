@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2021-08-26 05:01+0000\n"
+"POT-Creation-Date: 2023-01-27 19:21+0000\n"
 "PO-Revision-Date: 2014-06-16 12:30+0000\n"
 "Last-Translator: Maria <maria.vogel@civiservice.de>, 2022\n"
 "Language-Team: German (http://www.transifex.com/civicrm/civicrm_extensions/language/de/)\n"
@@ -23,7 +23,6 @@ msgid "Entity To Import"
 msgstr "Enitiät für Import"
 
 #: CRM/Csvimport/Import/Form/DataSource.php
-#: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
 msgid "- select -"
 msgstr "- auswählen -"
 
@@ -35,187 +34,135 @@ msgstr "Zu welcher Entität \"Notizen\" importiert werden sollen"
 msgid "Set this in CSV"
 msgstr ""
 
-#: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
+#: CRM/Csvimport/Import/Form/DataSource.php
 msgid "Import Data File"
 msgstr "Datei importieren"
 
-#: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
+#: CRM/Csvimport/Import/Form/DataSource.php
 msgid "A valid file must be uploaded."
 msgstr "Es muss eine gültige Datei hochgeladen werden."
 
-#: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
+#: CRM/Csvimport/Import/Form/DataSource.php
 msgid "File size should be less than %1 MBytes (%2 bytes)"
 msgstr "Dateigröße sollte weniger sein als %1 MBytes (%2 bytes)"
 
-#: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
+#: CRM/Csvimport/Import/Form/DataSource.php
 msgid "Input file must be in CSV format"
 msgstr "Eingabedatei muss im CSV-Format sein"
 
-#: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
+#: CRM/Csvimport/Import/Form/DataSource.php
 msgid "First row contains column headers"
 msgstr "Erste Zeile enthält Überschriften"
 
-#: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
+#: CRM/Csvimport/Import/Form/DataSource.php
 msgid "Skip"
 msgstr "Überspringen"
 
-#: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
+#: CRM/Csvimport/Import/Form/DataSource.php
 msgid "Update"
 msgstr "Aktualisieren"
 
-#: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
+#: CRM/Csvimport/Import/Form/DataSource.php
 msgid "No Duplicate Checking"
 msgstr "Keine Duplikatsprüfung"
 
-#: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
+#: CRM/Csvimport/Import/Form/DataSource.php
 msgid "On Duplicate Entries"
 msgstr "bei Dulikatseinträgen"
 
-#: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
+#: CRM/Csvimport/Import/Form/DataSource.php
 msgid "Mapping Option"
 msgstr "Zuordnungsoptionen"
 
-#: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
+#: CRM/Csvimport/Import/Form/DataSource.php
 msgid "Import Field Separator"
 msgstr "Import Feldtrennzeichen"
 
-#: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
-msgid "Number Of Items To Process For Each Queue Item"
-msgstr ""
-
-#: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
+#: CRM/Csvimport/Import/Form/DataSource.php
 msgid "Allow Updating An Entity Using Unique Fields"
 msgstr ""
 
-#: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
+#: CRM/Csvimport/Import/Form/DataSource.php
 msgid "Ignore Case For Field Option Values"
 msgstr ""
 
-#: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
-#: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
+#: CRM/Csvimport/Import/Form/DataSource.php
+#: CRM/Csvimport/Import/Form/MapField.php
 msgid "Continue >>"
 msgstr "Weiter >>"
 
-#: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
-#: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
+#: CRM/Csvimport/Import/Form/DataSource.php
+#: CRM/Csvimport/Import/Form/MapField.php
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
+#: CRM/Csvimport/Import/Form/DataSource.php
 msgid "Individual"
 msgstr "Individuum"
 
-#: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
+#: CRM/Csvimport/Import/Form/DataSource.php
 msgid "Household"
 msgstr "Haushalt"
 
-#: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
+#: CRM/Csvimport/Import/Form/DataSource.php
 msgid "Organization"
 msgstr "Organisation"
 
-#: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
+#: CRM/Csvimport/Import/Form/DataSource.php
 msgid "Contact Type"
 msgstr "Kontaktart"
 
-#: CRM/Csvimport/Import/Form/DataSourceBaseClass.php
+#: CRM/Csvimport/Import/Form/DataSource.php
 msgid "Upload Data"
 msgstr "Daten hochladen"
 
-#: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
+#: CRM/Csvimport/Import/Form/MapField.php
 msgid "Match using"
 msgstr "Zuordnung über"
 
-#: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
+#: CRM/Csvimport/Import/Form/MapField.php
 msgid "Match using a combination of"
 msgstr ""
 
-#: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
+#: CRM/Csvimport/Import/Form/MapField.php
 msgid "Save this field mapping"
 msgstr "Speichere diese Feldzuordnung"
 
-#: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
+#: CRM/Csvimport/Import/Form/MapField.php
 msgid "Name"
 msgstr "Name"
 
-#: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
+#: CRM/Csvimport/Import/Form/MapField.php
 msgid "Description"
 msgstr "Beschreibung"
 
-#: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
+#: CRM/Csvimport/Import/Form/MapField.php
 msgid "Update this field mapping"
 msgstr "Aktualisiere diese Feldzuordnung"
 
-#: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
+#: CRM/Csvimport/Import/Form/MapField.php
 msgid "Save as a new field mapping"
 msgstr "Speichere als neue Feldzuordnung"
 
-#: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
+#: CRM/Csvimport/Import/Form/MapField.php
 msgid "Mapper for Field %1"
 msgstr "Mapper für Feld %1"
 
-#: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
-#: CRM/Csvimport/Import/Parser/Api.php CRM/Csvimport/Import/Parser.php
+#: CRM/Csvimport/Import/Form/MapField.php CRM/Csvimport/Import/Parser/Api.php
 msgid "- do not import -"
 msgstr "- nicht importieren -"
 
-#: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
-msgid ""
-"The data columns in this import file appear to be different from the saved "
-"mapping. Please verify that you have selected the correct saved mapping "
-"before continuing."
-msgstr ""
-
-#: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
+#: CRM/Csvimport/Import/Form/MapField.php
 msgid "<< Previous"
 msgstr "<< Vorherige"
 
-#: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
+#: CRM/Csvimport/Import/Form/MapField.php
 msgid "Name is required to save Import Mapping"
 msgstr "Name wird für's Speichern der Feldzuordnung benötigt"
 
-#: CRM/Csvimport/Import/Form/MapFieldBaseClass.php
+#: CRM/Csvimport/Import/Form/MapField.php
 msgid "Select saved mapping"
 msgstr "Wähle gespeicherte Zuordnung"
-
-#: CRM/Csvimport/Import/Form/PreviewBaseClass.php
-msgid "CSVImport Queue Runner - Import"
-msgstr "CSVImport Warteschlange - Import"
-
-#: CRM/Csvimport/Import/Form/SummaryBaseClass.php
-msgid "These records have been updated with the imported data."
-msgstr ""
-
-#: CRM/Csvimport/Import/Form/SummaryBaseClass.php
-msgid "These records have been filled in with the imported data."
-msgstr ""
-
-#: CRM/Csvimport/Import/Form/SummaryBaseClass.php
-msgid "These records have not been imported."
-msgstr "Diese Datensätze wurden nicht importiert."
-
-#: CRM/Csvimport/Import/Parser/Api.php
-msgid "Missing required field(s) :"
-msgstr "Fehlendes Pflichtfeld:"
-
-#: CRM/Csvimport/Import/Parser/Api.php
-msgid "Importing entity"
-msgstr ""
-
-#: CRM/Csvimport/Import/Parser.php
-msgid "Reason"
-msgstr "Grund"
-
-#: CRM/Csvimport/Import/Parser.php
-msgid "Line Number"
-msgstr "Zeilennummer"
-
-#: CRM/Csvimport/Import/Parser.php
-msgid "View Activity History URL"
-msgstr ""
-
-#: CRM/Csvimport/Task/Import.php
-msgid "Invalid value for field"
-msgstr "Ungültiger Wert für das Feld"
 
 #: csvimport.php
 msgid "API csv Import"
@@ -281,10 +228,6 @@ msgid ""
 msgstr "Hier ankreuzen, wenn die erste Reihe der Datei Feldnamen enthält (z.B. \"Kontakt ID\", \"Teilnahmerolle\")."
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
-msgid "This is the number of rows to process in each queue item. (Eg. 10)"
-msgstr ""
-
-#: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid ""
 "Allow updating an existing entity using unique fields to match (Eg. "
 "external_id). By default updating is possible if 'id' is used."
@@ -331,24 +274,6 @@ msgid ""
 " check 'Save this field mapping' at the bottom of the page before "
 "continuing. The saved mapping can then be easily reused the next time data "
 "is imported."
-msgstr ""
-
-#: templates/CRM/Csvimport/Import/Form/MapTable.tpl
-msgid ""
-"Saved Field Mapping: %1\n"
-"            "
-msgstr ""
-
-#: templates/CRM/Csvimport/Import/Form/MapTable.tpl
-msgid "Column Headers"
-msgstr ""
-
-#: templates/CRM/Csvimport/Import/Form/MapTable.tpl
-msgid "Import Data (row %1)"
-msgstr ""
-
-#: templates/CRM/Csvimport/Import/Form/MapTable.tpl
-msgid "Matching CiviCRM Field"
 msgstr ""
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
