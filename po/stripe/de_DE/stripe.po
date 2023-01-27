@@ -8,15 +8,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2021-10-18 05:02+0000\n"
-"PO-Revision-Date: 2022-01-19 13:39+0000\n"
-"Last-Translator: Torben Bertram\n"
+"POT-Creation-Date: 2023-01-27 19:21+0000\n"
+"PO-Revision-Date: 2015-01-10 05:32+0000\n"
+"Last-Translator: Torben Bertram, 2021-2022\n"
 "Language-Team: German (http://www.transifex.com/civicrm/civicrm_extensions/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: CRM/Core/Payment/Stripe.php
+msgid "Stripe"
+msgstr ""
 
 #: CRM/Core/Payment/Stripe.php
 msgid "Successfully cancelled the subscription in CiviCRM ONLY."
@@ -49,15 +53,33 @@ msgid ""
 msgstr "Falls Sie 'Sende Beendigungs-Anfrage..' drücken, wird Stripe automatisch benachrichtigt und das Abo beendet."
 
 #: CRM/Stripe/Check.php
+msgid "You are using a development version of %1 extension."
+msgstr "Sie benutzen eine Entwicklungsversion der Erweiterung %1."
+
+#: CRM/Stripe/Check.php
+msgid "%1: Development version"
+msgstr "%1: Entwicklungsversion"
+
+#: CRM/Stripe/Check.php
+msgid ""
+"The %1 extension requires the %2 extension version %3 or greater but your "
+"system has version %4."
+msgstr "Die Erweiterung %1 erfordert die Erweiterung %2 in Version %3 oder höher, aber installiert ist Version %4."
+
+#: CRM/Stripe/Check.php
+msgid "%1: Missing Requirements"
+msgstr "%1: Fehlende Anforderungen"
+
+#: CRM/Stripe/Check.php
+msgid "Upgrade now"
+msgstr "Upgrade jetzt durchführen"
+
+#: CRM/Stripe/Check.php
 msgid ""
 "The <em>%1</em> extension requires the <em>Payment Shared</em> extension "
 "which is not installed. See <a href=\"%2\" target=\"_blank\">details</a> for"
 " more information."
 msgstr "Die Erweiterung <em>%1</em> benötigt die <em>Payment Shared</em> Erweiterung, die nicht installiert ist. Siehe <a href=\"%2\" target=\"_blank\">DETAILS</a> für weitere Informationen."
-
-#: CRM/Stripe/Check.php
-msgid "%1: Missing Requirements"
-msgstr "%1: Fehlende Anforderungen"
 
 #: CRM/Stripe/Check.php
 msgid "Install now"
@@ -72,38 +94,6 @@ msgstr "Falls Sie mit Stripe Zahlungen über öffentliche Webseiten ermöglichen
 #: CRM/Stripe/Check.php
 msgid "Recommended Extension: firewall"
 msgstr "Empfohlene Erweiterung: firewall"
-
-#: CRM/Stripe/Check.php
-msgid ""
-"It is recommended that you install the <strong><a href=\"https://civicrm.org/extensions/sweetalert\">sweetalert</a></strong> extension.\n"
-"        This allows the stripe extension to show useful messages to the user when processing payment.\n"
-"        If this is not installed it will fallback to the browser \"alert\" message but you will\n"
-"        not see some messages (such as <em>we are pre-authorizing your card</em> and <em>please wait</em>) and the feedback to the user will not be as helpful."
-msgstr "Es wird empfohlen, die Erweiterung <strong><a href=\"https://civicrm.org/extensions/sweetalert\">sweetalert</a></strong> zu installieren. Damit ist es möglich, dem Nutzer hilfreiche Informationen während des Bezahlvorgangs anzuzeigen. Falls die Erweiterung nicht installiert ist, werden als Rückfalllösung kritische Warnmeldungen über den Browser angezeigt und die Anzeige einiger Zusatzinformationen (z.B. <em>we are pre-authorizing your card</em> and <em>please wait</em>) entfällt."
-
-#: CRM/Stripe/Check.php
-msgid "Recommended Extension: sweetalert"
-msgstr "Empfohlene Erweiterung: sweetalert"
-
-#: CRM/Stripe/Check.php
-msgid ""
-"The %1 extension requires the %2 extension version %3 or greater but your "
-"system has version %4."
-msgstr "Die Erweiterung %1 erfordert die Erweiterung %2 in Version %3 oder höher, aber installiert ist Version %4."
-
-#: CRM/Stripe/Check.php
-msgid "Upgrade now"
-msgstr "Upgrade jetzt durchführen"
-
-#: CRM/Stripe/Check.php
-msgid ""
-"Stripe does not support \"Separate Membership Payment\" on contribution pages but you have one or more contribution pages with\n"
-"                that setting enabled and Stripe as the payment processor (found on contribution page ID: %1)."
-msgstr "Stripe unterstützt keine \"separaten Zahlungen für Mitgliedschaften\" auf Zuwendungsseiten, aber auf einer oder mehreren Zuwendungsseiten ist diese Einstellung\n                vorgenommen und Stripe als Zahlungsdienstleister ausgewählt (festgestellt auf der Zuwendungsseite mit ID: %1)."
-
-#: CRM/Stripe/Check.php
-msgid "Stripe: Invalid configuration"
-msgstr "Stripe: Ungültige Konfiguration"
 
 #: CRM/Stripe/Check.php
 msgid ""
@@ -241,6 +231,14 @@ msgstr "Webhook erstellen/aktualisieren"
 msgid "All webhooks update successfully."
 msgstr "Alle Webhooks wurden erfolgreich aktualisiert"
 
+#: CRM/Stripe/PaymentIntent.php
+msgid "Payment failed: %1"
+msgstr "Zahlung nicht erfolgreich: %1"
+
+#: CRM/Stripe/PaymentIntent.php
+msgid "Payment failed."
+msgstr "Zahlung nicht erfolgreich."
+
 #: CRM/Stripe/Recur.php
 msgid "Now"
 msgstr "Jetzt"
@@ -264,8 +262,9 @@ msgstr "Die Webhook API version ist als %2 eingestellt, aber CiviCRM benötigt %
 #: CRM/Stripe/Webhook.php
 msgid ""
 "Unable to update the webhook %1. To correct this please delete the webhook "
-"at Stripe and then revisit this page which will recreate it correctly."
-msgstr "Die Aktualisierung des Webhook %1 ist fehlgeschlagen. Zur Korrektur bitte den Webhook bei Stripe löschen und dann diese Seite erneut aufrufen, um den Webhook korrekt neu anzulegen."
+"at Stripe and then revisit this page which will recreate it correctly. Error"
+" was: %2"
+msgstr ""
 
 #: CRM/Stripe/Webhook.php
 msgid ""
@@ -295,6 +294,10 @@ msgstr "Ein Stripe Webhook fehlt oder muss aktualisiert werden! <em>Erwarteter W
 #: CRM/Stripe/Webhook.php
 msgid "Stripe Payment Processor: %1 (%2)"
 msgstr "Stripe Zahlungsdienstleister: %1 (%2)"
+
+#: api/v3/Stripe/Cleanup.php
+msgid "Set this to TRUE to execute this API function"
+msgstr ""
 
 #: api/v3/Stripe/Importallcustomers.php
 #: api/v3/Stripe/Importallsubscriptions.php api/v3/Stripe/Importcharge.php
@@ -483,36 +486,32 @@ msgid "Payment Method ID"
 msgstr "Zahlungsmethoden-ID"
 
 #: api/v3/StripePaymentintent.php
-msgid "Payment Intent ID."
+msgid "Payment Intent ID"
 msgstr ""
 
 #: api/v3/StripePaymentintent.php
-msgid "Payment amount."
-msgstr "Zahlungsbetrag."
+msgid "Payment amount"
+msgstr ""
 
 #: api/v3/StripePaymentintent.php
-msgid "Whether we should try to capture the amount, not just confirm it."
-msgstr "Den Betrag abbuchen, nicht nur bestätigen."
+msgid "Whether we should try to capture the amount, not just confirm it"
+msgstr ""
 
 #: api/v3/StripePaymentintent.php
-msgid "Describe the payment."
-msgstr "Beschreibung der Zahlung"
+msgid "Describe the payment"
+msgstr ""
 
 #: api/v3/StripePaymentintent.php
 msgid "Currency (eg. EUR)"
 msgstr "Währung (z.B. EUR)"
 
 #: api/v3/StripePaymentintent.php
-msgid "The stripe payment processor id."
-msgstr "Die Stripe Zahlungsdienstleister-ID"
+msgid "The stripe payment processor id"
+msgstr ""
 
 #: api/v3/StripePaymentintent.php
-msgid "Payment failed: %1"
-msgstr "Zahlung nicht erfolgreich: %1"
-
-#: api/v3/StripePaymentintent.php
-msgid "Payment failed."
-msgstr "Zahlung nicht erfolgreich."
+msgid "Bad Request"
+msgstr ""
 
 #: js/civicrmStripeConfirm.js js/civicrm_stripe.js
 msgid "The payment failed - please try a different payment method."
@@ -555,24 +554,12 @@ msgid " preparing your payment..."
 msgstr "bearbeite die Zahlung..."
 
 #: js/civicrm_stripe.js
-msgid "Please apply the Discount Code or clear the Discount Code text-field"
-msgstr ""
-
-#: js/civicrm_stripe.js
-msgid "Please check and fill in all required fields!"
-msgstr "Bitte füllen Sie alle erforderlichen Eingabefelder aus!"
-
-#: js/civicrm_stripe.js
 msgid "Please enter your card details"
 msgstr "Bitte geben Sie die Kreditkartendaten ein"
 
 #: js/civicrm_stripe.js
 msgid "Please check your card details!"
 msgstr "Bitte überprüfen Sie die Kreditkartendaten!"
-
-#: js/civicrm_stripe.js
-msgid "Please complete the reCaptcha"
-msgstr "Bitte füllen Sie das reCaptcha aus"
 
 #: js/civicrm_stripe.js
 msgid ""
@@ -671,10 +658,10 @@ msgstr "Maximale Anzahl von Webhooks, die simultan ausgeführt werden."
 
 #: settings/stripe.setting.php
 msgid ""
-"Default 50. 0=Unlimited. This helps prevents webhooks from Stripe failing if"
-" a large number are triggered at the same time by delaying processing of any"
-" over this limit."
-msgstr "Standard 50. 0=kein Limit. Die Einstellung hilft bei Fehlern, wenn eine große Anzahl Webhooks von Stripe zur gleichen Zeit getriggert werden, indem die Verarbeitung über dieses Limit verzögert wird."
+"Default 50. This helps prevents webhooks from Stripe failing if a large "
+"number are triggered at the same time by delaying processing of any over "
+"this limit."
+msgstr ""
 
 #: settings/stripe.setting.php
 msgid "Enable Stripe IPN (Webhook) debugging?"
