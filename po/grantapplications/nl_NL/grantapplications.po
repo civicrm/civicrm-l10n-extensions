@@ -3,13 +3,13 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# HanV <han.velthuis@home.nl>, 2021
+# HanV <han.velthuis@home.nl>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: grantapplications\n"
-"POT-Creation-Date: 2020-08-04 05:01+0000\n"
-"Last-Translator: HanV <han.velthuis@home.nl>, 2021\n"
+"POT-Creation-Date: 2023-01-27 19:21+0000\n"
+"Last-Translator: HanV <han.velthuis@home.nl>, 2023\n"
 "Language-Team: Dutch (https://www.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -63,81 +63,6 @@ msgstr "De toelage-applicatiepagina '%1' is verwijderd."
 #: CRM/Grant/BAO/GrantApplicationPage.php
 msgid "Automatically Generated"
 msgstr "Automatisch aangemaakt"
-
-#: CRM/Grant/BAO/Query.php
-msgid "Grant Money Transfer Date is NULL"
-msgstr "Overmakingsdatum toelage is niet gevuld"
-
-#: CRM/Grant/BAO/Query.php
-msgid "Grant Application Received Date is NULL"
-msgstr "Ontvangstdatum toelage is niet gevuld"
-
-#: CRM/Grant/BAO/Query.php
-msgid "Grant Due Date"
-msgstr "Vervaldatum toelage"
-
-#: CRM/Grant/BAO/Query.php
-msgid "Grant Due Date is NULL"
-msgstr "Vervaldatum toelage is niet gevuld"
-
-#: CRM/Grant/BAO/Query.php
-msgid "Grant Decision Date"
-msgstr "Beslisdatum toelage"
-
-#: CRM/Grant/BAO/Query.php
-msgid "Grant Decision Date is NULL"
-msgstr "Beslisdatum toelage is niet gevuld"
-
-#: CRM/Grant/BAO/Query.php
-msgid "Grant Type(s)"
-msgstr "Toelagetype(s)"
-
-#: CRM/Grant/BAO/Query.php
-msgid "Grant Status(s)"
-msgstr "Toelagestatus(sen)"
-
-#: CRM/Grant/BAO/Query.php
-msgid "%1 %2 %3"
-msgstr "%1 %2 %3"
-
-#: CRM/Grant/BAO/Query.php
-#: templates/CRM/Grant/Page/GrantApplicationDashboard.tpl
-msgid "Yes"
-msgstr "Ja"
-
-#: CRM/Grant/BAO/Query.php
-#: templates/CRM/Grant/Page/GrantApplicationDashboard.tpl
-msgid "No"
-msgstr "Nee"
-
-#: CRM/Grant/BAO/Query.php
-msgid "Grant Report Received = %1"
-msgstr "Verantwoordingsrapport ontvangen = %1"
-
-#: CRM/Grant/BAO/Query.php templates/CRM/Grant/Page/UserDashboard.tpl
-msgid "Grant Type"
-msgstr "Toelagetype"
-
-#: CRM/Grant/BAO/Query.php
-#: CRM/Grantapplications/BAO/GrantApplicationProfile.php
-msgid "Grant Status"
-msgstr "Toelagestatus"
-
-#: CRM/Grant/BAO/Query.php
-msgid "Date is not set"
-msgstr "Datum is niet ingevuld"
-
-#: CRM/Grant/BAO/Query.php
-msgid "Minimum Amount"
-msgstr "Minimumbedrag"
-
-#: CRM/Grant/BAO/Query.php CRM/Grant/Form/GrantPage/Settings.php
-msgid "Please enter a valid money value (e.g. %1)."
-msgstr "Voer a.u.b. een geldig bedrag in (bijv. %1)."
-
-#: CRM/Grant/BAO/Query.php
-msgid "Maximum Amount"
-msgstr "Maximumbedrag"
 
 #: CRM/Grant/DAO/GrantApplicationPage.php
 msgid "Grant Application Pages"
@@ -239,6 +164,14 @@ msgstr ""
 #: CRM/Grant/Form/GrantBase.php
 msgid "Warning"
 msgstr "Waarschuwing"
+
+#: CRM/Grant/Form/GrantBase.php
+msgid "File size should be less than %1 MByte(s)"
+msgstr ""
+
+#: CRM/Grant/Form/GrantBase.php
+msgid "%1 is a required field."
+msgstr "%1 is een verplicht veld."
 
 #: CRM/Grant/Form/GrantBase.php
 msgid ""
@@ -360,6 +293,10 @@ msgstr "Toestaan dat personen namens een organisatie een toelage aanvragen?"
 #: CRM/Grant/Form/GrantPage/Settings.php
 msgid "Default Amount"
 msgstr "Standaardbedrag"
+
+#: CRM/Grant/Form/GrantPage/Settings.php
+msgid "Please enter a valid money value (e.g. %1)."
+msgstr "Voer a.u.b. een geldig bedrag in (bijv. %1)."
 
 #: CRM/Grant/Form/GrantPage/Settings.php
 msgid "Is this Grant Aplication Page Active?"
@@ -533,49 +470,13 @@ msgstr "Doorgaan"
 msgid "Done"
 msgstr "Klaar"
 
-#: CRM/Grant/Info.php grantapplications.php
-msgid "CiviGrant"
-msgstr "CiviGrant"
-
-#: CRM/Grant/Info.php
-msgid "access CiviGrant"
-msgstr "toegang tot CiviGrant"
-
-#: CRM/Grant/Info.php
-msgid "View all grants"
-msgstr "Alle toelagen bekijken"
-
-#: CRM/Grant/Info.php
-msgid "edit grants"
-msgstr "toelagen wijzigen"
-
-#: CRM/Grant/Info.php
-msgid "Create and update grants"
-msgstr "Toelagen aanmaken en wijzigen"
-
-#: CRM/Grant/Info.php
-msgid "submit online grant application"
-msgstr "online toelage-applicatie verzenden"
-
-#: CRM/Grant/Info.php
-msgid "delete in CiviGrant"
-msgstr "verwijderen in CiviGrant"
-
-#: CRM/Grant/Info.php
-msgid "Delete grants"
-msgstr "Toelagen verwijderen"
-
-#: CRM/Grant/Info.php CRM/UF/Page/ProfileEditor.php
-msgid "Grant"
-msgstr "Toelage"
-
-#: CRM/Grant/Info.php grantapplications.php
-msgid "Your Grant(s)"
-msgstr "Uw toelage(n)"
-
-#: CRM/Grant/Info.php CRM/Grant/Page/UserDashboard.php
+#: CRM/Grant/Page/UserDashboard.php
 msgid "Grants"
 msgstr "Toelagen"
+
+#: CRM/Grantapplications/BAO/GrantApplicationProfile.php
+msgid "Grant Status"
+msgstr "Toelagestatus"
 
 #: CRM/Grantapplications/BAO/GrantApplicationProfile.php
 msgid "Grant Amount Requested"
@@ -681,50 +582,6 @@ msgstr "meer"
 msgid "CiviCRM Profile Group Preview"
 msgstr "CiviCRM Profielgroep voorvertonen"
 
-#: CRM/UF/Page/ProfileEditor.php
-msgid "Individual"
-msgstr "Persoon"
-
-#: CRM/UF/Page/ProfileEditor.php
-msgid "Organization"
-msgstr "Organisatie"
-
-#: CRM/UF/Page/ProfileEditor.php
-msgid "Household"
-msgstr "Huishouden"
-
-#: CRM/UF/Page/ProfileEditor.php
-msgid "Activity"
-msgstr "Activiteit"
-
-#: CRM/UF/Page/ProfileEditor.php
-msgid "Contribution"
-msgstr "Bijdrage"
-
-#: CRM/UF/Page/ProfileEditor.php
-msgid "Membership"
-msgstr "Lidmaatschap"
-
-#: CRM/UF/Page/ProfileEditor.php
-msgid "Participant"
-msgstr "Deelnemer"
-
-#: CRM/UF/Page/ProfileEditor.php
-msgid "Case"
-msgstr "Dossier"
-
-#: CRM/UF/Page/ProfileEditor.php
-msgid "Free HTML"
-msgstr "Vrije HTML"
-
-#: CRM/UF/Page/ProfileEditor.php
-msgid "Formatting"
-msgstr "Opmaak"
-
-#: CRM/UF/Page/ProfileEditor.php
-msgid "%1: %2"
-msgstr "%1: %2"
-
 #: grantapplications.php
 msgid "Grants on dashboard"
 msgstr "Toelagen op dashboard"
@@ -732,6 +589,10 @@ msgstr "Toelagen op dashboard"
 #: grantapplications.php
 msgid "New Grant Application Page"
 msgstr "Toelage-applicatiepagina aanmaken"
+
+#: grantapplications.php
+msgid "CiviGrant"
+msgstr "CiviGrant"
 
 #: grantapplications.php
 msgid "apply for Grant Application"
@@ -780,6 +641,14 @@ msgstr ""
 #: grantapplications.php
 msgid "Configure"
 msgstr "Configuratie"
+
+#: grantapplications.php
+msgid "Grant"
+msgstr "Toelage"
+
+#: grantapplications.php
+msgid "Your Grant(s)"
+msgstr "Uw toelage(n)"
 
 #: grantapplications.php
 msgid "Edit"
@@ -1420,9 +1289,21 @@ msgstr "ID"
 msgid "Enabled?"
 msgstr "Ingeschakeld?"
 
+#: templates/CRM/Grant/Page/GrantApplicationDashboard.tpl
+msgid "Yes"
+msgstr "Ja"
+
+#: templates/CRM/Grant/Page/GrantApplicationDashboard.tpl
+msgid "No"
+msgstr "Nee"
+
 #: templates/CRM/Grant/Page/UserDashboard.tpl
 msgid "Name"
 msgstr "Naam"
+
+#: templates/CRM/Grant/Page/UserDashboard.tpl
+msgid "Grant Type"
+msgstr "Toelagetype"
 
 #: templates/CRM/Grant/Page/UserDashboard.tpl
 msgid "Program Name"
