@@ -4,19 +4,19 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Samuele Masetto <samuele.masetto@perora.it>, 2022
-# Francesco Garganese <francesco.garganese@aeromnia.aero>, 2022
+# Francesco Garganese <francesco.garganese@aeromnia.aero>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: mjwshared\n"
-"POT-Creation-Date: 2021-12-25 05:02+0000\n"
-"Last-Translator: Francesco Garganese <francesco.garganese@aeromnia.aero>, 2022\n"
+"POT-Creation-Date: 2023-01-27 19:24+0000\n"
+"Last-Translator: Francesco Garganese <francesco.garganese@aeromnia.aero>, 2023\n"
 "Language-Team: Italian (https://www.transifex.com/civicrm/teams/1905/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: CRM/Core/Payment/MJWTrait.php
 msgid "Contribution: %1"
@@ -131,6 +131,7 @@ msgid "Unique PaymentprocessorWebhook ID"
 msgstr ""
 
 #: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
 msgid "Payment Processor"
 msgstr "Processore di Pagamento"
 
@@ -200,7 +201,15 @@ msgid "You do not have permission to access this page."
 msgstr "Non hai il permesso di accedere a questa pagina"
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
-msgid "Cancel Participants"
+msgid "Do you want to cancel these registrations when you refund the payment?"
+msgstr ""
+
+#: CRM/Mjwshared/Form/PaymentRefund.php
+msgid "Do you want to cancel these memberships when you refund the payment?"
+msgstr ""
+
+#: CRM/Mjwshared/Form/PaymentRefund.php
+msgid "Refund Amount"
 msgstr ""
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
@@ -217,6 +226,10 @@ msgstr ""
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid "Cancelled %1 participant registration(s)."
+msgstr ""
+
+#: CRM/Mjwshared/Form/PaymentRefund.php
+msgid "Cancelled %1 membership(s)."
 msgstr ""
 
 #: CRM/Mjwshared/Upgrader/Base.php
@@ -254,6 +267,22 @@ msgstr "Successo"
 #: ang/mjwshared/PaymentprocessorWebhook.js
 msgid "Error"
 msgstr "Errore"
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
+msgid "Processor"
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
+msgid "Test"
+msgstr "Test"
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
+msgid "Live"
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
+msgid "%count webhooks"
+msgstr ""
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "Event ID"
@@ -333,6 +362,10 @@ msgid "Scheduled for retry"
 msgstr ""
 
 #: api/v3/Mjwpayment.php
+msgid "Contribution ID"
+msgstr "ID Contributo"
+
+#: api/v3/Mjwpayment.php templates/CRM/Mjwshared/Form/PaymentRefund.tpl
 msgid "Transaction ID"
 msgstr "ID Transazione"
 
@@ -377,17 +410,25 @@ msgid ""
 msgstr ""
 
 #: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
-msgid "Click \"refund\" to refund this payment"
+msgid "Amount"
+msgstr "Importo"
+
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
+msgid "Payment date"
 msgstr ""
 
 #: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
-msgid ""
-"Do you want to cancel the following event registrations when you refund the "
-"payment?"
+msgid "Order Reference"
 msgstr ""
 
-#: templates/CRM/mjwshared/PaymentprocessorWebhook.hlp
-msgid ""
-"The contact name  should be divided in two parts, the first name and last "
-"name."
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
+msgid "This payment was used to register the following participants:"
+msgstr ""
+
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
+msgid "This payment was used for the following memberships:"
+msgstr ""
+
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
+msgid "Click \"refund\" to refund this payment"
 msgstr ""
