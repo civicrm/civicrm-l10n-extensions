@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: eWAYRecurring\n"
-"POT-Creation-Date: 2021-04-21 05:01+0000\n"
+"POT-Creation-Date: 2023-01-27 19:22+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2022\n"
 "Language-Team: Turkish (https://www.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -62,9 +62,18 @@ msgstr "Fatura bilgilerini güncelle"
 msgid "Billing details has been updated successfully."
 msgstr "Fatura bilgileri güncellendi."
 
-#: CRM/eWAYRecurring/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "%1, %2 sürümüne güncelle"
+#: CRM/eWAYRecurring/Upgrader.php
+msgid ""
+"Version 2.x of the eWay Payment Processor extension uses the new eWay Rapid "
+"API. Please go to the <a href=\"%2\">Payment Processor page</a> and update "
+"the eWay API credentials with the new API Key and API Password. For more "
+"details see the <a href=\"%1\">upgrade notes</a>."
+msgstr ""
+"eWay ödeme aracısı eklentisinin 2.x sürümü, yeni eWay Rapid API uygulamasını"
+" kullanır. Lütfen <a href=\"%2\">Ödeme aracıları bölümüne</a> giderek eWay "
+"API kimlik doğrulama bilgilerini yeni API Anahtarı ve API parolası ile "
+"güncelleyin. Ayrıntılı bilgi almak için <a href=\"%1\">yükseltme "
+"notlarına</a> bakabilirsiniz."
 
 #: au_com_agileware_ewayrecurring.class.php
 msgid "eWay Recurring"
@@ -132,31 +141,6 @@ msgstr ""
 "İptal edilmiş bir katkının fatura ayrıntıları güncellenmeye çalışıldı."
 
 #: eWAYRecurring.php
-msgid ""
-"Version 2.x of the eWay Payment Processor extension uses the new eWay Rapid "
-"API. Please go to the <a href=\"%2\">Payment Processor page</a> and update "
-"the eWay API credentials with the new API Key and API Password. For more "
-"details see the <a href=\"%1\">upgrade notes</a>."
-msgstr ""
-"eWay ödeme aracısı eklentisinin 2.x sürümü, yeni eWay Rapid API uygulamasını"
-" kullanır. Lütfen <a href=\"%2\">Ödeme aracıları bölümüne</a> giderek eWay "
-"API kimlik doğrulama bilgilerini yeni API Anahtarı ve API parolası ile "
-"güncelleyin. Ayrıntılı bilgi almak için <a href=\"%1\">yükseltme "
-"notlarına</a> bakabilirsiniz."
-
-#: eWAYRecurring.php
-msgid "eWay Payment Processor Update"
-msgstr "eWay ödeme aracısı güncellemesi"
-
-#: eWAYRecurring.php
-msgid ""
-"Please edit and save (without any changes) your existing eWay payment "
-"processor after updating."
-msgstr ""
-"Lütfen güncellemeden sonra var olan eWay ödeme aracınızı düzenleyip kaydedin"
-" (herhangi bir değişiklik yapmadan)."
-
-#: eWAYRecurring.php
 msgid "Next Scheduled Date"
 msgstr "Sonraki zamanlanmış tarih"
 
@@ -177,6 +161,20 @@ msgstr ""
 #: eWAYRecurring.php
 msgid "Cannot schedule next contribution in the past"
 msgstr "Sonraki katkı tarihi geçmişte olacak şekilde zamanlanamaz"
+
+#: eWAYRecurring.php
+msgid ""
+"A transaction has already been submitted, but failed. Continuing will result"
+" in a new transaction."
+msgstr ""
+
+#: eWAYRecurring.php
+msgid "Payment already completed for this Registration"
+msgstr ""
+
+#: eWAYRecurring.php
+msgid "Payment already completed for this Contribution"
+msgstr ""
 
 #: eWAYRecurring.php
 msgid "eWay Recurring Settings"
