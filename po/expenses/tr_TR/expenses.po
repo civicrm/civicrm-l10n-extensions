@@ -4,13 +4,13 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Mathieu Lu <mathieu@bidon.ca>, 2022
-# Kaya Zeren <kayazeren@gmail.com>, 2022
+# Kaya Zeren <kayazeren@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: expenses\n"
-"POT-Creation-Date: 2021-12-01 05:02+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2022\n"
+"POT-Creation-Date: 2023-01-27 19:24+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2023\n"
 "Language-Team: Turkish (https://www.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,9 +23,109 @@ msgstr ""
 msgid "Expenses"
 msgstr "Masraflar"
 
+#: CRM/Expenses/DAO/Expense.php CRM/Expenses/DAO/ExpenseLine.php
+#: CRM/Expenses/Form/Expense.php CRM/Expenses/Upgrader.php
+#: Civi/CompilerPass/Expenses.php
+msgid "Expense"
+msgstr "Masraf"
+
+#: CRM/Expenses/DAO/Expense.php CRM/Expenses/DAO/ExpenseLine.php
+#: CRM/Expenses/Utils/Search.php
+msgid "ID"
+msgstr "Kod"
+
+#: CRM/Expenses/DAO/Expense.php
+msgid "Unique Expense ID"
+msgstr ""
+
+#: CRM/Expenses/DAO/Expense.php CRM/Expenses/Form/Expense.php
+#: CRM/Expenses/Form/Search.php CRM/Expenses/Utils/Search.php
+#: Civi/DataProcessor/FieldOutputHandler/Expenses/TotalAmountPerCase.php
+#: templates/CRM/Expenses/Page/CaseExpenses.tpl
+msgid "Type"
+msgstr "Tür"
+
+#: CRM/Expenses/DAO/Expense.php CRM/Expenses/Form/Expense.php
+#: CRM/Expenses/Form/Search.php CRM/Expenses/Utils/Search.php
+#: Civi/DataProcessor/FieldOutputHandler/Expenses/TotalAmountPerCase.php
+#: templates/CRM/Expenses/Page/CaseExpenses.tpl
+msgid "Status"
+msgstr "Durum"
+
+#: CRM/Expenses/DAO/Expense.php CRM/Expenses/Form/Expense.php
+#: CRM/Expenses/Form/Search.php CRM/Expenses/Utils/Search.php
+msgid "Contact"
+msgstr "Kişi"
+
+#: CRM/Expenses/DAO/Expense.php
+msgid "FK to Contact"
+msgstr "Kişi dış anahtarı"
+
+#: CRM/Expenses/DAO/Expense.php CRM/Expenses/Form/Expense.php
+msgid "Source Contact"
+msgstr "Kaynak kişi"
+
+#: CRM/Expenses/DAO/Expense.php CRM/Expenses/Form/Expense.php
+msgid "Assignee Contact"
+msgstr "Atanmış kişi"
+
+#: CRM/Expenses/DAO/Expense.php CRM/Expenses/Form/Expense.php
+#: CRM/Expenses/Form/Search.php CRM/Expenses/Utils/Search.php
+msgid "Case"
+msgstr "Olay"
+
+#: CRM/Expenses/DAO/Expense.php
+msgid "FK to Case"
+msgstr ""
+
+#: CRM/Expenses/DAO/Expense.php CRM/Expenses/Form/Expense.php
+#: CRM/Expenses/Form/Search.php CRM/Expenses/Utils/Search.php
+#: Civi/ActionProvider/Action/Expenses/CreateUpdateExpense.php
+msgid "Date"
+msgstr "Tarih"
+
+#: CRM/Expenses/DAO/Expense.php CRM/Expenses/Form/Expense.php
+#: Civi/ActionProvider/Action/Expenses/CalculateTotalAmount.php
+#: Civi/ActionProvider/Action/Expenses/CreateUpdateExpense.php
+msgid "Currency"
+msgstr "Para birimi"
+
+#: CRM/Expenses/DAO/Expense.php
+msgid "3 character string, value from config setting or input via user."
+msgstr ""
+
 #: CRM/Expenses/DAO/ExpenseLine.php
 msgid "Expense Lines"
 msgstr "Masraf satırları"
+
+#: CRM/Expenses/DAO/ExpenseLine.php CRM/Expenses/Form/ExpenseLine.php
+#: CRM/Expenses/Upgrader.php Civi/CompilerPass/Expenses.php
+#: templates/CRM/Expenses/Form/Expense.tpl
+msgid "Expense Line"
+msgstr "Masraf satırı"
+
+#: CRM/Expenses/DAO/ExpenseLine.php
+msgid "Unique ExpenseLine ID"
+msgstr ""
+
+#: CRM/Expenses/DAO/ExpenseLine.php
+msgid "FK to Expense"
+msgstr ""
+
+#: CRM/Expenses/DAO/ExpenseLine.php CRM/Expenses/Form/Expense.php
+#: CRM/Expenses/Form/ExpenseLine.php CRM/Expenses/Form/Search.php
+#: Civi/ActionProvider/Action/Expenses/CreateUpdateExpenseLine.php
+#: Civi/ActionProvider/Action/Expenses/UploadAttachment.php
+#: templates/CRM/Expenses/Form/Expense.tpl
+msgid "Description"
+msgstr "Açıklama"
+
+#: CRM/Expenses/DAO/ExpenseLine.php CRM/Expenses/Form/Expense.php
+#: CRM/Expenses/Form/ExpenseLine.php
+#: Civi/ActionProvider/Action/Expenses/CreateUpdateExpenseLine.php
+#: templates/CRM/Expenses/Form/Expense.tpl
+msgid "Amount"
+msgstr "Tutar"
 
 #: CRM/Expenses/Form/Expense.php templates/CRM/Expenses/Form/Search.tpl
 msgid "Add expense"
@@ -34,64 +134,6 @@ msgstr "Masraf ekle"
 #: CRM/Expenses/Form/Expense.php
 msgid "Edit expense"
 msgstr "Masrafı düzenle"
-
-#: CRM/Expenses/Form/Expense.php CRM/Expenses/Form/Search.php
-#: CRM/Expenses/Utils/Search.php
-#: Civi/ActionProvider/Action/Expenses/CreateUpdateExpense.php
-msgid "Date"
-msgstr "Tarih"
-
-#: CRM/Expenses/Form/Expense.php CRM/Expenses/Form/Search.php
-#: CRM/Expenses/Utils/Search.php
-msgid "Contact"
-msgstr "Kişi"
-
-#: CRM/Expenses/Form/Expense.php
-msgid "Source Contact"
-msgstr "Kaynak kişi"
-
-#: CRM/Expenses/Form/Expense.php
-msgid "Assignee Contact"
-msgstr "Atanmış kişi"
-
-#: CRM/Expenses/Form/Expense.php CRM/Expenses/Form/Search.php
-#: CRM/Expenses/Utils/Search.php
-msgid "Case"
-msgstr "Olay"
-
-#: CRM/Expenses/Form/Expense.php
-#: Civi/ActionProvider/Action/Expenses/CalculateTotalAmount.php
-#: Civi/ActionProvider/Action/Expenses/CreateUpdateExpense.php
-msgid "Currency"
-msgstr "Para birimi"
-
-#: CRM/Expenses/Form/Expense.php CRM/Expenses/Form/Search.php
-#: CRM/Expenses/Utils/Search.php
-#: Civi/DataProcessor/FieldOutputHandler/Expenses/TotalAmountPerCase.php
-#: templates/CRM/Expenses/Page/CaseExpenses.tpl
-msgid "Type"
-msgstr "Tür"
-
-#: CRM/Expenses/Form/Expense.php CRM/Expenses/Form/Search.php
-#: CRM/Expenses/Utils/Search.php
-#: Civi/DataProcessor/FieldOutputHandler/Expenses/TotalAmountPerCase.php
-#: templates/CRM/Expenses/Page/CaseExpenses.tpl
-msgid "Status"
-msgstr "Durum"
-
-#: CRM/Expenses/Form/Expense.php CRM/Expenses/Form/ExpenseLine.php
-#: Civi/ActionProvider/Action/Expenses/CreateUpdateExpenseLine.php
-#: templates/CRM/Expenses/Form/Expense.tpl
-msgid "Amount"
-msgstr "Tutar"
-
-#: CRM/Expenses/Form/Expense.php CRM/Expenses/Form/ExpenseLine.php
-#: CRM/Expenses/Form/Search.php
-#: Civi/ActionProvider/Action/Expenses/CreateUpdateExpenseLine.php
-#: Civi/ActionProvider/Action/Expenses/UploadAttachment.php
-#: templates/CRM/Expenses/Form/Expense.tpl
-msgid "Description"
-msgstr "Açıklama"
 
 #: CRM/Expenses/Form/Expense.php CRM/Expenses/Form/ExpenseLine.php
 msgid "Submit"
@@ -110,11 +152,6 @@ msgstr "İptal"
 msgid "Removed expense"
 msgstr "Masraf silindi"
 
-#: CRM/Expenses/Form/Expense.php CRM/Expenses/Upgrader.php
-#: Civi/CompilerPass/Expenses.php
-msgid "Expense"
-msgstr "Masraf"
-
 #: CRM/Expenses/Form/ExpenseLine.php
 msgid "Removed expense line"
 msgstr "Masraf satırı silindi"
@@ -126,11 +163,6 @@ msgstr "Masraf satırı"
 #: CRM/Expenses/Form/ExpenseLine.php
 msgid "Added expense line"
 msgstr "Masraf satırı eklendi"
-
-#: CRM/Expenses/Form/ExpenseLine.php CRM/Expenses/Upgrader.php
-#: Civi/CompilerPass/Expenses.php templates/CRM/Expenses/Form/Expense.tpl
-msgid "Expense Line"
-msgstr "Masraf satırı"
 
 #: CRM/Expenses/Form/ExpenseLine.php
 msgid "Updated expense line"
@@ -256,10 +288,6 @@ msgstr "Dosya yükleyebilmek için MIME türü parametresi zorunludur"
 #: CRM/Expenses/Utils/File.php
 msgid "Could not move custom file to custom upload directory"
 msgstr "Özel dosya özel yüklemeler klasörüne taşınamadı"
-
-#: CRM/Expenses/Utils/Search.php
-msgid "ID"
-msgstr "Kod"
 
 #: CRM/Expenses/Utils/Search.php api/v3/Expense.php
 #: templates/CRM/Expenses/Form/Expense.tpl
