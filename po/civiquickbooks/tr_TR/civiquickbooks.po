@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: civiquickbooks\n"
-"POT-Creation-Date: 2021-10-25 05:02+0000\n"
+"POT-Creation-Date: 2023-01-27 19:23+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2022\n"
 "Language-Team: Turkish (https://www.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -90,10 +90,6 @@ msgstr ""
 msgid "Error creating Invoice for %1: %2"
 msgstr ""
 
-#: CRM/Civiquickbooks/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "%1, %2 sürümüne güncelle"
-
 #: civiquickbooks.php settings/civiquickbooks.setting.php
 msgid "QuickBooks"
 msgstr ""
@@ -151,6 +147,26 @@ msgstr "Müşteri parolası"
 
 #: settings/civiquickbooks.setting.php
 msgid "Initial client secret retrieved from quickbooks website"
+msgstr ""
+
+#: settings/civiquickbooks.setting.php
+msgid "Environment"
+msgstr ""
+
+#: settings/civiquickbooks.setting.php
+msgid "Development or Production mode."
+msgstr ""
+
+#: settings/civiquickbooks.setting.php
+msgid "Use Development to test with your sandbox."
+msgstr ""
+
+#: settings/civiquickbooks.setting.php
+msgid "Production"
+msgstr ""
+
+#: settings/civiquickbooks.setting.php
+msgid "Development"
 msgstr ""
 
 #: settings/civiquickbooks.setting.php
@@ -259,6 +275,18 @@ msgstr ""
 #: settings/civiquickbooks.setting.php
 msgid "CiviCRM"
 msgstr "CiviCRM"
+
+#: settings/civiquickbooks.setting.php
+msgid "Invoice Prefix"
+msgstr ""
+
+#: settings/civiquickbooks.setting.php
+msgid ""
+"Will be prefixed to Transaction ID when CiviCRM generates an Invoice number "
+"for QBO. You can optionally include a format specifier <a href=\"%1\">for "
+"printf</a> e.g. %2 will enforce 7 digits with 0 as padding (123 => "
+"Civi-0000123)"
+msgstr ""
 
 #: settings/civiquickbooks.setting.php
 msgid "Allow ACH Payment?"
