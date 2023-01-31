@@ -4,14 +4,14 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Betty Dolfing <betty.dolfing@civicoop.org>, 2021
-# HanV <han.velthuis@home.nl>, 2023
 # brouwser <brouwer@ee-atwork.nl>, 2023
+# HanV <han.velthuis@home.nl>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
-"POT-Creation-Date: 2023-01-27 19:23+0000\n"
-"Last-Translator: brouwser <brouwer@ee-atwork.nl>, 2023\n"
+"POT-Creation-Date: 2023-01-31 05:01+0000\n"
+"Last-Translator: HanV <han.velthuis@home.nl>, 2023\n"
 "Language-Team: Dutch (https://www.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -448,7 +448,8 @@ msgid "Submit"
 msgstr "Verzenden"
 
 #: CRM/CiviMobileAPI/Form/CalendarSettings.php
-#: CRM/CiviMobileAPI/Form/Settings.php
+#: CRM/CiviMobileAPI/Form/Session.php CRM/CiviMobileAPI/Form/Settings.php
+#: CRM/CiviMobileAPI/Form/Venue.php
 msgid "Cancel"
 msgstr "Afbreken"
 
@@ -472,10 +473,30 @@ msgstr "Toon voor mijzelf een QR-code met de website-URL"
 msgid "Back"
 msgstr "Terug"
 
+#: CRM/CiviMobileAPI/Form/Session.php CRM/CiviMobileAPI/Form/Venue.php
+msgid "You do not have all the permissions needed for this page."
+msgstr ""
+
 #: CRM/CiviMobileAPI/Form/Session.php CRM/CiviMobileAPI/Form/Speaker.php
 #: CRM/CiviMobileAPI/Form/Venue.php
 msgid "Permission Denied"
 msgstr "Actie geweigerd"
+
+#: CRM/CiviMobileAPI/Form/Session.php
+msgid "Invalid eventId parameter."
+msgstr "Ongeldige event-id parameter."
+
+#: CRM/CiviMobileAPI/Form/Session.php
+msgid " - Add Session"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Session.php
+msgid "Invalid sessionId parameter."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Session.php
+msgid "Event does not exists."
+msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Session.php
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
@@ -487,6 +508,14 @@ msgstr "Datum"
 #: templates/CRM/CiviMobileAPI/Form/Session.hlp
 msgid "Speakers"
 msgstr "Sprekers"
+
+#: CRM/CiviMobileAPI/Form/Session.php
+msgid "- select speakers -"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Session.php
+msgid "- select venue -"
+msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Session.php
 msgid "This event does not have location"
@@ -506,6 +535,10 @@ msgstr "Verwijderen"
 #: CRM/CiviMobileAPI/Form/Session.php
 msgid "Save and continue"
 msgstr "Opslaan en verder gaan"
+
+#: CRM/CiviMobileAPI/Form/Session.php CRM/CiviMobileAPI/Form/Venue.php
+msgid "Done"
+msgstr "Klaar"
 
 #: CRM/CiviMobileAPI/Form/Session.php
 msgid "The Session was successfully created!"
@@ -530,10 +563,6 @@ msgstr "Fout"
 #: CRM/CiviMobileAPI/Form/Session.php
 msgid "The Session was successfully deleted!"
 msgstr "De sessie is verwijderd!"
-
-#: CRM/CiviMobileAPI/Form/Session.php
-msgid "Invalid eventId parameter."
-msgstr "Ongeldige event-id parameter."
 
 #: CRM/CiviMobileAPI/Form/Session.php
 msgid "Title can`t be empty!"
@@ -687,6 +716,10 @@ msgid "Life time for push notification messages"
 msgstr "Levensduur van push-meldingen"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Allow registration"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Save settings"
 msgstr "Instellingen opslaan"
 
@@ -762,6 +795,26 @@ msgstr "Lege zaal-id."
 msgid "Venue id does not exist."
 msgstr "Zaal-id bestaat niet."
 
+#: CRM/CiviMobileAPI/Form/Venue.php CRM/CiviMobileAPI/Page/ManageVenues.php
+msgid "Yes"
+msgstr "Ja"
+
+#: CRM/CiviMobileAPI/Form/Venue.php CRM/CiviMobileAPI/Page/ManageVenues.php
+msgid "No"
+msgstr "Nee"
+
+#: CRM/CiviMobileAPI/Form/Venue.php
+msgid "View venue"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Venue.php
+msgid "Edit venue"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Venue.php
+msgid "Add venue"
+msgstr ""
+
 #: CRM/CiviMobileAPI/Form/Venue.php api/v3/CiviMobileCase.php
 #: templates/CRM/CiviMobileAPI/Form/Venue.hlp
 msgid "Details"
@@ -784,6 +837,10 @@ msgstr "Kleur"
 #: CRM/CiviMobileAPI/Form/Venue.php
 msgid "You can upload only PDF, PNG and JPEG files."
 msgstr "U kunt alleen bestanden van de types PDF, PNG en JPEG uploaden."
+
+#: CRM/CiviMobileAPI/Form/Venue.php
+msgid "Invalid venueId parameter."
+msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Venue.php
 msgid "Venue Not Found"
@@ -1510,6 +1567,10 @@ msgid "Show Event Agenda:"
 msgstr "Evenementen agenda tonen:"
 
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
+msgid "Event Agenda enabled?"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
 msgid "You can fill the Agenda and when you finish it, just turn it on."
 msgstr ""
 "U kunt de agenda invullen en als u daarmee klaar bent kunt u de agenda "
@@ -1533,6 +1594,10 @@ msgstr ""
 "De agenda bestaat uit sessies, dat zijn de bouwstenen van het schema van uw "
 "evenement. Een sessie is bijvoorbeeld een lezing of een workshop. Bij elke "
 "sessie is er een locatie en een of meer sprekers."
+
+#: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
+msgid "Add session"
+msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
 msgid "Filter by Session"
@@ -1579,6 +1644,12 @@ msgstr "Wijzigen"
 #: templates/CRM/CiviMobileAPI/Form/Session.tpl
 msgid "New Speaker"
 msgstr "Spreker toevoegen"
+
+#: templates/CRM/CiviMobileAPI/Form/Session.tpl
+msgid ""
+"If you can’t find the participant you want in the list, you can always "
+"create a new one by tapping \"+\"."
+msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Session.tpl
 msgid "Manage venues"
@@ -1726,6 +1797,15 @@ msgid "Public Area Settings"
 msgstr "Instellingen openbare ruimte"
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
+msgid "Public Area will show pages:"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.tpl
+msgid ""
+"Note that the all required permissions for Anonymous user should be enabled."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "News"
 msgstr "Nieuws"
 
@@ -1797,6 +1877,18 @@ msgstr "Weergavenaam"
 #: templates/CRM/CiviMobileAPI/Page/Speakers.tpl
 msgid "Company"
 msgstr "Bedrijf"
+
+#: templates/CRM/CiviMobileAPI/popup.tpl
+msgid "Open Qr Code"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/popup.tpl
+msgid "MORE"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/popup.tpl
+msgid "Scan QR code for login into app"
+msgstr ""
 
 #: templates/qrcode-checkin-event-options.tpl
 msgid ""
