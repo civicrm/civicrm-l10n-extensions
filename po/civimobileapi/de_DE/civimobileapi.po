@@ -7,12 +7,13 @@
 # Maria <maria.vogel@civiservice.de>, 2022
 # Reinhard Kopp <reinhard@magiclight.de>, 2023
 # Torben Bertram, 2023
+# Mathieu Lu <mathieu@bidon.ca>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
-"POT-Creation-Date: 2023-01-27 19:23+0000\n"
-"Last-Translator: Torben Bertram, 2023\n"
+"POT-Creation-Date: 2023-01-31 05:01+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>, 2023\n"
 "Language-Team: German (https://www.transifex.com/civicrm/teams/1905/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -454,7 +455,8 @@ msgid "Submit"
 msgstr "Abschicken"
 
 #: CRM/CiviMobileAPI/Form/CalendarSettings.php
-#: CRM/CiviMobileAPI/Form/Settings.php
+#: CRM/CiviMobileAPI/Form/Session.php CRM/CiviMobileAPI/Form/Settings.php
+#: CRM/CiviMobileAPI/Form/Venue.php
 msgid "Cancel"
 msgstr "Abbrechen"
 
@@ -478,10 +480,30 @@ msgstr "Zeigt eine Webseiten-URL als QR-Code für mich"
 msgid "Back"
 msgstr "Zurück"
 
+#: CRM/CiviMobileAPI/Form/Session.php CRM/CiviMobileAPI/Form/Venue.php
+msgid "You do not have all the permissions needed for this page."
+msgstr ""
+
 #: CRM/CiviMobileAPI/Form/Session.php CRM/CiviMobileAPI/Form/Speaker.php
 #: CRM/CiviMobileAPI/Form/Venue.php
 msgid "Permission Denied"
 msgstr "Zugriff nicht erlaubt"
+
+#: CRM/CiviMobileAPI/Form/Session.php
+msgid "Invalid eventId parameter."
+msgstr "Ungültiger eventId Parameter"
+
+#: CRM/CiviMobileAPI/Form/Session.php
+msgid " - Add Session"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Session.php
+msgid "Invalid sessionId parameter."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Session.php
+msgid "Event does not exists."
+msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Session.php
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
@@ -493,6 +515,14 @@ msgstr "Datum"
 #: templates/CRM/CiviMobileAPI/Form/Session.hlp
 msgid "Speakers"
 msgstr "Referenten"
+
+#: CRM/CiviMobileAPI/Form/Session.php
+msgid "- select speakers -"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Session.php
+msgid "- select venue -"
+msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Session.php
 msgid "This event does not have location"
@@ -512,6 +542,10 @@ msgstr "Löschen"
 #: CRM/CiviMobileAPI/Form/Session.php
 msgid "Save and continue"
 msgstr "Speichern und weiter"
+
+#: CRM/CiviMobileAPI/Form/Session.php CRM/CiviMobileAPI/Form/Venue.php
+msgid "Done"
+msgstr "Fertig"
 
 #: CRM/CiviMobileAPI/Form/Session.php
 msgid "The Session was successfully created!"
@@ -536,10 +570,6 @@ msgstr "Fehler"
 #: CRM/CiviMobileAPI/Form/Session.php
 msgid "The Session was successfully deleted!"
 msgstr "Einzelveranstaltung wurde erfolgreich gelöscht!"
-
-#: CRM/CiviMobileAPI/Form/Session.php
-msgid "Invalid eventId parameter."
-msgstr "Ungültiger eventId Parameter"
 
 #: CRM/CiviMobileAPI/Form/Session.php
 msgid "Title can`t be empty!"
@@ -702,6 +732,10 @@ msgid "Life time for push notification messages"
 msgstr "Gültigkeitszeitraum für Push Nachrichten"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Allow registration"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Save settings"
 msgstr "Einstellungen speichern"
 
@@ -777,6 +811,26 @@ msgstr "Leere Veranstaltungsort ID."
 msgid "Venue id does not exist."
 msgstr "Veranstaltungsort ID existiert nicht."
 
+#: CRM/CiviMobileAPI/Form/Venue.php CRM/CiviMobileAPI/Page/ManageVenues.php
+msgid "Yes"
+msgstr "Ja"
+
+#: CRM/CiviMobileAPI/Form/Venue.php CRM/CiviMobileAPI/Page/ManageVenues.php
+msgid "No"
+msgstr "Nein"
+
+#: CRM/CiviMobileAPI/Form/Venue.php
+msgid "View venue"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Venue.php
+msgid "Edit venue"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Venue.php
+msgid "Add venue"
+msgstr ""
+
 #: CRM/CiviMobileAPI/Form/Venue.php api/v3/CiviMobileCase.php
 #: templates/CRM/CiviMobileAPI/Form/Venue.hlp
 msgid "Details"
@@ -799,6 +853,10 @@ msgstr "Farbe"
 #: CRM/CiviMobileAPI/Form/Venue.php
 msgid "You can upload only PDF, PNG and JPEG files."
 msgstr "Sie können nur PDF, PNG und JPEG Dateien uploaden."
+
+#: CRM/CiviMobileAPI/Form/Venue.php
+msgid "Invalid venueId parameter."
+msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Venue.php
 msgid "Venue Not Found"
@@ -1172,27 +1230,27 @@ msgstr "Veranstaltungsart"
 
 #: api/v3/CiviMobileCase.php
 msgid "Case Id"
-msgstr ""
+msgstr "Fall ID"
 
 #: api/v3/CiviMobileCase.php
 msgid "Reassign Contact Id"
-msgstr ""
+msgstr "Konatkt ID neu zuweisen"
 
 #: api/v3/CiviMobileCase.php
 msgid "Case status"
-msgstr ""
+msgstr "Fallstatus"
 
 #: api/v3/CiviMobileCase.php
 msgid "Case type"
-msgstr ""
+msgstr "Falltyp"
 
 #: api/v3/CiviMobileCase.php
 msgid "Case client"
-msgstr ""
+msgstr "Fallklient:in"
 
 #: api/v3/CiviMobileCase.php
 msgid "Case subject"
-msgstr ""
+msgstr "Betreff Fall"
 
 #: api/v3/CiviMobileCase.php
 msgid "Start date"
@@ -1208,11 +1266,11 @@ msgstr "Dauer"
 
 #: api/v3/CiviMobileCase.php
 msgid "Activity medium"
-msgstr ""
+msgstr "Medium der Aktivität"
 
 #: api/v3/CiviMobileCase.php
 msgid "Creator"
-msgstr ""
+msgstr "Erstellt von"
 
 #: api/v3/CiviMobileCase.php
 msgid "Activity type"
@@ -1532,6 +1590,10 @@ msgid "Show Event Agenda:"
 msgstr "Zeige Agenda:"
 
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
+msgid "Event Agenda enabled?"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
 msgid "You can fill the Agenda and when you finish it, just turn it on."
 msgstr "Du kannst die Agenda füllen und am Ende einfach aktivieren."
 
@@ -1554,6 +1616,10 @@ msgstr ""
 "den Veranstaltungsplan darstellen. Eine typische Einzelveranstaltung ist "
 "üblicherweise eine Keynote oder ein Workshop. Jede Einzelveranstaltung "
 "umfasst einen Veranstaltungsort und einen Referenten."
+
+#: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
+msgid "Add session"
+msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
 msgid "Filter by Session"
@@ -1601,6 +1667,12 @@ msgstr "Bearbeiten"
 #: templates/CRM/CiviMobileAPI/Form/Session.tpl
 msgid "New Speaker"
 msgstr "Neuer Referent"
+
+#: templates/CRM/CiviMobileAPI/Form/Session.tpl
+msgid ""
+"If you can’t find the participant you want in the list, you can always "
+"create a new one by tapping \"+\"."
+msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Session.tpl
 msgid "Manage venues"
@@ -1750,6 +1822,15 @@ msgid "Public Area Settings"
 msgstr "Einstellungen öffentlicher Bereich"
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
+msgid "Public Area will show pages:"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.tpl
+msgid ""
+"Note that the all required permissions for Anonymous user should be enabled."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "News"
 msgstr "Nachrichten"
 
@@ -1824,6 +1905,18 @@ msgstr "Anzeigename"
 #: templates/CRM/CiviMobileAPI/Page/Speakers.tpl
 msgid "Company"
 msgstr "Institution"
+
+#: templates/CRM/CiviMobileAPI/popup.tpl
+msgid "Open Qr Code"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/popup.tpl
+msgid "MORE"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/popup.tpl
+msgid "Scan QR code for login into app"
+msgstr ""
 
 #: templates/qrcode-checkin-event-options.tpl
 msgid ""
