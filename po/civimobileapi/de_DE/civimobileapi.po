@@ -6,14 +6,14 @@
 # lbl_knts <git@rlkd.de>, 2020
 # Maria <maria.vogel@civiservice.de>, 2022
 # Reinhard Kopp <reinhard@magiclight.de>, 2023
-# Torben Bertram, 2023
 # Mathieu Lu <mathieu@bidon.ca>, 2023
+# Torben Bertram, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
 "POT-Creation-Date: 2023-01-31 05:01+0000\n"
-"Last-Translator: Mathieu Lu <mathieu@bidon.ca>, 2023\n"
+"Last-Translator: Torben Bertram, 2023\n"
 "Language-Team: German (https://www.transifex.com/civicrm/teams/1905/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -323,7 +323,7 @@ msgstr "Adressbeschreibung"
 
 #: CRM/CiviMobileAPI/DAO/LocationVenue.php
 msgid "Venue location"
-msgstr "Veranstaltungsort"
+msgstr "Veranstaltungsort Räumlichkeit"
 
 #: CRM/CiviMobileAPI/DAO/LocationVenue.php
 msgid "Location id"
@@ -482,7 +482,7 @@ msgstr "Zurück"
 
 #: CRM/CiviMobileAPI/Form/Session.php CRM/CiviMobileAPI/Form/Venue.php
 msgid "You do not have all the permissions needed for this page."
-msgstr ""
+msgstr "Sie haben nicht alle benötigten Berechtigung für diese Seite."
 
 #: CRM/CiviMobileAPI/Form/Session.php CRM/CiviMobileAPI/Form/Speaker.php
 #: CRM/CiviMobileAPI/Form/Venue.php
@@ -495,15 +495,15 @@ msgstr "Ungültiger eventId Parameter"
 
 #: CRM/CiviMobileAPI/Form/Session.php
 msgid " - Add Session"
-msgstr ""
+msgstr " - Einzelveranstaltung hinzufügen"
 
 #: CRM/CiviMobileAPI/Form/Session.php
 msgid "Invalid sessionId parameter."
-msgstr ""
+msgstr "Ungültiger sessionId Parameter"
 
 #: CRM/CiviMobileAPI/Form/Session.php
 msgid "Event does not exists."
-msgstr ""
+msgstr "Veranstaltung existiert nicht"
 
 #: CRM/CiviMobileAPI/Form/Session.php
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
@@ -518,11 +518,11 @@ msgstr "Referenten"
 
 #: CRM/CiviMobileAPI/Form/Session.php
 msgid "- select speakers -"
-msgstr ""
+msgstr "- Referenten wählen -"
 
 #: CRM/CiviMobileAPI/Form/Session.php
 msgid "- select venue -"
-msgstr ""
+msgstr "- Veranstaltungsort wählen -"
 
 #: CRM/CiviMobileAPI/Form/Session.php
 msgid "This event does not have location"
@@ -733,7 +733,7 @@ msgstr "Gültigkeitszeitraum für Push Nachrichten"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Allow registration"
-msgstr ""
+msgstr "Registrierungen erlauben"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Save settings"
@@ -821,15 +821,15 @@ msgstr "Nein"
 
 #: CRM/CiviMobileAPI/Form/Venue.php
 msgid "View venue"
-msgstr ""
+msgstr "Veranstaltungsort anzeigen"
 
 #: CRM/CiviMobileAPI/Form/Venue.php
 msgid "Edit venue"
-msgstr ""
+msgstr "Veranstaltungsort bearbeiten"
 
 #: CRM/CiviMobileAPI/Form/Venue.php
 msgid "Add venue"
-msgstr ""
+msgstr "Veranstaltungsort hinzufügen"
 
 #: CRM/CiviMobileAPI/Form/Venue.php api/v3/CiviMobileCase.php
 #: templates/CRM/CiviMobileAPI/Form/Venue.hlp
@@ -856,7 +856,7 @@ msgstr "Sie können nur PDF, PNG und JPEG Dateien uploaden."
 
 #: CRM/CiviMobileAPI/Form/Venue.php
 msgid "Invalid venueId parameter."
-msgstr ""
+msgstr "Ungültiger venueId Parameter"
 
 #: CRM/CiviMobileAPI/Form/Venue.php
 msgid "Venue Not Found"
@@ -1579,7 +1579,7 @@ msgstr ""
 "Agenda Veranstaltungsdetails. Es zeigt den Zeitplan einer ein- oder "
 "mehrtägigen, zukünftigen Veranstaltung mit detaillierten Informationen wie "
 "Einzelveranstaltungen, Start/End-Zeiten, Themen, Referentenprofilen und "
-"Veranstaltungsorten."
+"Veranstaltungsorten und -räumen."
 
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
 msgid "Read more"
@@ -1591,7 +1591,7 @@ msgstr "Zeige Agenda:"
 
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
 msgid "Event Agenda enabled?"
-msgstr ""
+msgstr "Agenda für Veranstaltung aktivieren?"
 
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
 msgid "You can fill the Agenda and when you finish it, just turn it on."
@@ -1619,7 +1619,7 @@ msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
 msgid "Add session"
-msgstr ""
+msgstr "Einzelveranstaltung hinzufügen"
 
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
 msgid "Filter by Session"
@@ -1673,6 +1673,8 @@ msgid ""
 "If you can’t find the participant you want in the list, you can always "
 "create a new one by tapping \"+\"."
 msgstr ""
+"Falls der gesuchte Teilnehmende nicht in der Liste ist, dann kann ein Neuer "
+"mit dem \"+\" hinzugefügt werden."
 
 #: templates/CRM/CiviMobileAPI/Form/Session.tpl
 msgid "Manage venues"
@@ -1823,12 +1825,14 @@ msgstr "Einstellungen öffentlicher Bereich"
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "Public Area will show pages:"
-msgstr ""
+msgstr "Öffentlicher Bereich zeigt Seiten:"
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid ""
 "Note that the all required permissions for Anonymous user should be enabled."
 msgstr ""
+"Bitte beachten, dass alle notwendigen Berechtigungen für den Anonymen "
+"Webseitenbesucher aktiviert sind."
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "News"
@@ -1908,15 +1912,15 @@ msgstr "Institution"
 
 #: templates/CRM/CiviMobileAPI/popup.tpl
 msgid "Open Qr Code"
-msgstr ""
+msgstr "QR-Code öffnen"
 
 #: templates/CRM/CiviMobileAPI/popup.tpl
 msgid "MORE"
-msgstr ""
+msgstr "MEHR"
 
 #: templates/CRM/CiviMobileAPI/popup.tpl
 msgid "Scan QR code for login into app"
-msgstr ""
+msgstr "QR-Code scannen für App-Login"
 
 #: templates/qrcode-checkin-event-options.tpl
 msgid ""
