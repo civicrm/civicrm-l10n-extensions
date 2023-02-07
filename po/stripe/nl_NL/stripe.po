@@ -3,13 +3,13 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# HanV <han.velthuis@home.nl>, 2020-2021
+# HanV <han.velthuis@home.nl>, 2020-2021,2023
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
 "POT-Creation-Date: 2023-01-27 19:21+0000\n"
 "PO-Revision-Date: 2015-01-10 05:32+0000\n"
-"Last-Translator: HanV <han.velthuis@home.nl>, 2020-2021\n"
+"Last-Translator: HanV <han.velthuis@home.nl>, 2020-2021,2023\n"
 "Language-Team: Dutch (http://www.transifex.com/civicrm/civicrm_extensions/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: CRM/Core/Payment/Stripe.php
 msgid "Stripe"
-msgstr ""
+msgstr "Stripe"
 
 #: CRM/Core/Payment/Stripe.php
 msgid "Successfully cancelled the subscription in CiviCRM ONLY."
@@ -263,7 +263,7 @@ msgid ""
 "Unable to update the webhook %1. To correct this please delete the webhook "
 "at Stripe and then revisit this page which will recreate it correctly. Error"
 " was: %2"
-msgstr ""
+msgstr "Het updaten van webhook %1 is niet mogelijk. Om dit herstellen, dient u de webhook in Stripe te verwijderen en daarna terug te gaan naar deze pagina waar het dan automatisch opnieuw wordt aangemaakt. Foutboodschap: %2"
 
 #: CRM/Stripe/Webhook.php
 msgid ""
@@ -296,7 +296,7 @@ msgstr "Stripe Betaalmethode: %1 (%2)"
 
 #: api/v3/Stripe/Cleanup.php
 msgid "Set this to TRUE to execute this API function"
-msgstr ""
+msgstr "Zet dit op TRUE om deze API-functie uit te voeren"
 
 #: api/v3/Stripe/Importallcustomers.php
 #: api/v3/Stripe/Importallsubscriptions.php api/v3/Stripe/Importcharge.php
@@ -486,19 +486,19 @@ msgstr "Betaalmethode ID"
 
 #: api/v3/StripePaymentintent.php
 msgid "Payment Intent ID"
-msgstr ""
+msgstr "Bedoelde betaling-id"
 
 #: api/v3/StripePaymentintent.php
 msgid "Payment amount"
-msgstr ""
+msgstr "Bedrag betaling"
 
 #: api/v3/StripePaymentintent.php
 msgid "Whether we should try to capture the amount, not just confirm it"
-msgstr ""
+msgstr "Of we het bedrag moeten ophalen, het niet alleen maar bevestigen"
 
 #: api/v3/StripePaymentintent.php
 msgid "Describe the payment"
-msgstr ""
+msgstr "Beschrijf de betaling"
 
 #: api/v3/StripePaymentintent.php
 msgid "Currency (eg. EUR)"
@@ -506,11 +506,11 @@ msgstr "Valuta (bijv. EUR)"
 
 #: api/v3/StripePaymentintent.php
 msgid "The stripe payment processor id"
-msgstr ""
+msgstr "Stripe betaalmethode-id"
 
 #: api/v3/StripePaymentintent.php
 msgid "Bad Request"
-msgstr ""
+msgstr "Foutief verzoek"
 
 #: js/civicrmStripeConfirm.js js/civicrm_stripe.js
 msgid "The payment failed - please try a different payment method."
@@ -660,7 +660,7 @@ msgid ""
 "Default 50. This helps prevents webhooks from Stripe failing if a large "
 "number are triggered at the same time by delaying processing of any over "
 "this limit."
-msgstr ""
+msgstr "Standaard 50. Dit voorkomt dat webhooks in Stripe mislukken omdat er teveel aanvragen tegelijkertijd verwerkt worden door het uitstellen van verwerking als het boven de limiet komt."
 
 #: settings/stripe.setting.php
 msgid "Enable Stripe IPN (Webhook) debugging?"
