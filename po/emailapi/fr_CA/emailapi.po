@@ -17,15 +17,15 @@ msgstr ""
 
 #: CRM/Emailapi/CivirulesAction/Send.php
 msgid "ERROR - missing from email"
-msgstr ""
+msgstr "ERREUR - le courriel FROM manque"
 
 #: CRM/Emailapi/CivirulesAction/Send.php
 msgid "Default domain from email address"
-msgstr ""
+msgstr "Domaine par défaut pour les courriels FROM"
 
 #: CRM/Emailapi/CivirulesAction/Send.php
 msgid "the contact (using %1)"
-msgstr ""
+msgstr "le contact (utilisant %1)"
 
 #: CRM/Emailapi/CivirulesAction/Send.php
 #: CRM/Emailapi/CivirulesAction/SendToContactReference.php
@@ -43,7 +43,7 @@ msgstr "et cci à %1 "
 
 #: CRM/Emailapi/CivirulesAction/Send.php
 msgid "Send email from '%1' with Template '%2' to %3 %4 %5"
-msgstr ""
+msgstr "Envoyer un courriel de \"%1 (avec le Modèle \"%2\" à %3 %4 %5 %6"
 
 #: CRM/Emailapi/CivirulesAction/SendToContactReference.php
 msgid "Send e-mail from \"%1 (%2 using %3)\" with Template \"%4\" to %5 %6 %7"
@@ -64,7 +64,7 @@ msgstr "Le dernier contact inactif lié"
 #: CRM/Emailapi/CivirulesAction/SendToRelatedContact.php
 #: CRM/Emailapi/CivirulesAction/SendToRolesOnCase.php
 msgid "Send email from \"%1 (%2 using %3)\" with Template \"%4\" to %5 %6 %7"
-msgstr ""
+msgstr "Envoyez un courriel de \"%1 (%2 en utilisant %3)\" avec le modèle \"%4\" à %5 %6 %7 "
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
 msgid "-- please select --"
@@ -104,15 +104,15 @@ msgstr "Modèle de message"
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
 msgid " - select - "
-msgstr ""
+msgstr "- Sélectionner -"
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
 msgid "Disable Smarty"
-msgstr ""
+msgstr "Désactiver Smarty"
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
 msgid "Location Type (if you do not want primary email address)"
-msgstr ""
+msgstr "Type d'adresse (si vous ne voulez pas utiliser le courriel principal)"
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
 msgid "File Email on Case"
@@ -132,15 +132,15 @@ msgstr "Annuler"
 
 #: CRM/Emailapi/Form/CivirulesAction/SendToContactReference.php
 msgid "Type of Entity"
-msgstr ""
+msgstr "Type d'Entité"
 
 #: CRM/Emailapi/Form/CivirulesAction/SendToContactReference.php
 msgid "Contact Reference Field"
-msgstr ""
+msgstr "Champ de référence à un contact"
 
 #: CRM/Emailapi/Form/CivirulesAction/SendToContactReference.php
 msgid "-- select --"
-msgstr ""
+msgstr "--Sélectionner--"
 
 #: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
 msgid "Relationship Type"
@@ -148,15 +148,15 @@ msgstr "Type de relation"
 
 #: CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.php
 msgid "Send email to"
-msgstr ""
+msgstr "Envoyer un courriel à"
 
 #: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "All people with a role on the case"
-msgstr ""
+msgstr "Tous les contacts avec un rôle sur le dossier"
 
 #: CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.php
 msgid "Restrict to Roles"
-msgstr ""
+msgstr "Restreindre aux rôles"
 
 #: CRM/Emailapi/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
@@ -168,23 +168,23 @@ msgstr "Id. du contact"
 
 #: Civi/Emailapi/Actions/SendEmailByEmailApi.php
 msgid "File Email Activity on Case ID"
-msgstr ""
+msgstr "Fichier joint au courriel pour l'activité sur le dossier (Id.)"
 
 #: Civi/Emailapi/Actions/SendEmailByEmailApi.php
 msgid "Contribution ID for contribution tokens"
-msgstr ""
+msgstr "Id. de contribution pour les jetons/tokens de contribution"
 
 #: Civi/Emailapi/Actions/SendEmailByEmailApi.php
 msgid "Template to use for the Email"
-msgstr ""
+msgstr "Modèle à utiliser pour le Courriel"
 
 #: Civi/Emailapi/Actions/SendEmailByEmailApi.php
 msgid "Send copy to email address (cc) "
-msgstr ""
+msgstr "Envoyer une copy aux courriels (cc)"
 
 #: Civi/Emailapi/Actions/SendEmailByEmailApi.php
 msgid "Send blind copy to email address (bcc) "
-msgstr ""
+msgstr "Envoyer une copie cachée aux courriels (bcc)"
 
 #: Civi/Emailapi/Actions/SendEmailByEmailApi.php
 msgid "Email Subject"
@@ -192,31 +192,31 @@ msgstr "Objet du courriel"
 
 #: Civi/Emailapi/Actions/SendEmailByEmailApi.php
 msgid "Send to THIS Email Address (and not the primary one of the contact)"
-msgstr ""
+msgstr "Envoyer à CE courriel (et pas au courriel principal du contact)"
 
 #: Civi/Emailapi/Actions/SendEmailByEmailApi.php
 msgid "Did Email Get Sent?"
-msgstr ""
+msgstr "Le courriel a-t-il été envoyé ?"
 
 #: Civi/Emailapi/Actions/SendEmailByEmailApi.php
 msgid "Status Message"
-msgstr ""
+msgstr "Message d'état"
 
 #: Civi/Emailapi/Actions/SendEmailByEmailApi.php
 msgid "Could not send email in "
-msgstr ""
+msgstr "Ne pas envoyer le courriel en"
 
 #: Civi/Emailapi/Actions/SendEmailByEmailApi.php
 msgid ", error from API Email Send: "
-msgstr ""
+msgstr ", erreur de l'API Email Send : "
 
 #: Civi/Emailapi/Actions/SendEmailByEmailApi.php
 msgid "Could not find mandatory parameter contact_id"
-msgstr ""
+msgstr "Impossible de trouver le paramètre contact_id obligatoire."
 
 #: Civi/Emailapi/CompilerPass.php
 msgid "Send Email using Email API"
-msgstr ""
+msgstr "Envoyer le Courriel via l'API Email"
 
 #: templates/CRM/Emailapi/Form/CivirulesAction/Send.tpl
 msgid ""
@@ -235,7 +235,7 @@ msgid ""
 "      <p>Finally you can specify an email address for the <strong>CC to</strong> (a copy of the email will be sent to this email address and the email address will be visible to the recipient of the email too) or the <strong>BCC to</strong> (a copy of the email will be sent to this email address and the email address will NOT be visible to the recipient of the email too).</p>\n"
 "      <p>The sending of the email will also lead to an activity (type <em>Email</em>) being recorded for the contact in question, whatever email address will be used.</p>\n"
 "    "
-msgstr ""
+msgstr "<p>Voici le formulaire où vous pouvez définir ce qui va se passer avec le courriel.</p>\n<p>Les premiers champs sont relativement simples : le <strong>Nom de l'expéditeur</strong> est le nom à partir duquel le courriel sera envoyé et <strong>Adresse électronique de l'expéditeur</strong> est l'adresse électronique à partir de laquelle le courriel sera envoyé. </p>\n<p>Le <strong>Modèle de message</strong> est l'endroit où vous sélectionnez le modèle de message CiviCRM qui sera utilisé pour composer le courriel. Vous pouvez les créer et les modifier dans <strong>Administrer>Communications>Modèles de message</strong></p>.\n<p>La section suivante vous permet de définir à qui sera envoyé le courriel.<br/>\nPar <strong>défaut</strong> le courriel sera envoyé à l'adresse électronique principale du contact</strong> en question.<br/> \nVous avez la possibilité de vous écarter de ce comportement de 2 façons :\n<ol> \n<li> Vous pouvez choisir d'utiliser une adresse électronique de type <strong>spécifique à un lieu </strong>, par exemple <em>Travail</em>. Pour ce faire, vous devez sélectionner le type d'emplacement. Le courriel sera envoyé à l'adresse électronique la plus récente de ce type de lieu (s'il y en a plusieurs pour le contact). Si aucune adresse électronique n'est trouvée pour le type d'emplacement spécifié, le courriel sera alors envoyé à l'adresse électronique principale du contact</li>.\n<li>Si vous ne sélectionnez pas de type d'emplacement, vous pouvez <strong>cocher</strong> la case <strong>Envoyer à une autre adresse électronique</strong>. Vous aurez alors la possibilité de saisir une autre adresse électronique. Vous devez évidemment saisir ici une adresse électronique valide. </li>\n</ol>\n </p>\n <p>Enfin, vous pouvez spécifier une adresse électronique pour le <strong>Cc à</strong> (une copie du courriel sera envoyée à cette adresse électronique et celle-ci sera visible pour le destinataire du courriel) ou le <strong>Cci à</strong> (une copie du courriel sera envoyée à cette adresse électronique et celle-ci ne sera PAS visible pour le destinataire du courriel).</p>\n<p>L'envoi du courriel entraînera également l'enregistrement d'une activité (type <em>Courriel</em>) pour le contact en question, quelle que soit l'adresse électronique utilisée.</p> "
 
 #: templates/CRM/Emailapi/Form/CivirulesAction/Send.tpl
 #: templates/CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.tpl
@@ -243,7 +243,7 @@ msgstr ""
 msgid ""
 "Note: primary email address will be used if location type email address not "
 "found"
-msgstr ""
+msgstr "Note : le courriel principal sera utilisé si le courriel lié au type d'adresse souhaité n'est pas trouvé."
 
 #: templates/CRM/Emailapi/Form/CivirulesAction/SendToContactReference.tpl
 msgid ""
