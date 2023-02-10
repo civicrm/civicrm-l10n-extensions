@@ -3,13 +3,13 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Satomi Sato <puritira2015@gmail.com>, 2022
+# Satomi Sato <puritira2015@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: deduper\n"
-"POT-Creation-Date: 2021-04-23 05:01+0000\n"
-"Last-Translator: Satomi Sato <puritira2015@gmail.com>, 2022\n"
+"POT-Creation-Date: 2023-02-10 05:02+0000\n"
+"Last-Translator: Satomi Sato <puritira2015@gmail.com>, 2023\n"
 "Language-Team: Japanese (https://www.transifex.com/civicrm/teams/1905/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -96,31 +96,116 @@ msgstr ""
 msgid "Contact Name Pairs"
 msgstr ""
 
+#: CRM/Deduper/DAO/ContactNamePair.php
+msgid "Contact Name Pair"
+msgstr ""
+
+#: CRM/Deduper/DAO/ContactNamePair.php
+#: CRM/Deduper/DAO/ContactNamePairFamily.php
+msgid "Unique ContactNamePair ID"
+msgstr ""
+
+#: CRM/Deduper/DAO/ContactNamePair.php
+#: CRM/Deduper/DAO/ContactNamePairFamily.php
+msgid "Name A"
+msgstr ""
+
+#: CRM/Deduper/DAO/ContactNamePair.php
+msgid "First name (this is the master, if that matters)"
+msgstr ""
+
+#: CRM/Deduper/DAO/ContactNamePair.php
+#: CRM/Deduper/DAO/ContactNamePairFamily.php
+msgid "Name B"
+msgstr ""
+
+#: CRM/Deduper/DAO/ContactNamePair.php
+msgid ""
+"Second name (if one name is a nickname or a mis-spelling it will be this "
+"one)"
+msgstr ""
+
+#: CRM/Deduper/DAO/ContactNamePair.php
+msgid "Is Name B a Nickname of Name A?"
+msgstr ""
+
+#: CRM/Deduper/DAO/ContactNamePair.php
+msgid "Is Name B Inferior to Name A?"
+msgstr ""
+
+#: CRM/Deduper/DAO/ContactNamePairFamily.php
+msgid "Contact Name Pair Families"
+msgstr ""
+
+#: CRM/Deduper/DAO/ContactNamePairFamily.php
+msgid "Contact Name Pair Family"
+msgstr ""
+
+#: CRM/Deduper/DAO/ContactNamePairFamily.php
+msgid "Family name (generally the anglicised options)"
+msgstr ""
+
+#: CRM/Deduper/DAO/ContactNamePairFamily.php
+msgid "Alternate name"
+msgstr ""
+
+#: CRM/Deduper/DAO/ContactNamePairFamily.php
+msgid "Most common form?"
+msgstr ""
+
+#: CRM/Deduper/DAO/ContactNamePairFamily.php
+msgid "Is this the most common way to write this name?"
+msgstr ""
+
+#: CRM/Deduper/DAO/ContactNamePairFamily.php
+msgid "Is active?"
+msgstr ""
+
+#: CRM/Deduper/DAO/ContactNamePairFamily.php
+msgid "Is this variant active?"
+msgstr ""
+
 #: CRM/Deduper/DAO/MergeConflict.php
 msgid "Merge Conflicts"
 msgstr ""
 
-#: CRM/Deduper/Form/Report/MergeConflict.php
+#: CRM/Deduper/DAO/MergeConflict.php
+msgid "Merge Conflict"
+msgstr ""
+
+#: CRM/Deduper/DAO/MergeConflict.php
+msgid "Unique MergeConflict ID"
+msgstr ""
+
+#: CRM/Deduper/DAO/MergeConflict.php CRM/Deduper/Form/Report/MergeConflict.php
 msgid "Contact 1"
 msgstr ""
 
-#: CRM/Deduper/Form/Report/MergeConflict.php
+#: CRM/Deduper/DAO/MergeConflict.php
+msgid "FK to Contact"
+msgstr ""
+
+#: CRM/Deduper/DAO/MergeConflict.php CRM/Deduper/Form/Report/MergeConflict.php
 msgid "Contact 2"
 msgstr ""
 
-#: CRM/Deduper/Form/Report/MergeConflict.php
-msgid "Value 1"
+#: CRM/Deduper/DAO/MergeConflict.php
+msgid "FK to Group"
 msgstr ""
 
-#: CRM/Deduper/Form/Report/MergeConflict.php
-msgid "Value 2"
-msgstr ""
-
-#: CRM/Deduper/Form/Report/MergeConflict.php
+#: CRM/Deduper/DAO/MergeConflict.php CRM/Deduper/Form/Report/MergeConflict.php
 msgid "Conflicted Field"
 msgstr ""
 
-#: CRM/Deduper/Form/Report/MergeConflict.php
+#: CRM/Deduper/DAO/MergeConflict.php CRM/Deduper/Form/Report/MergeConflict.php
+msgid "Value 1"
+msgstr ""
+
+#: CRM/Deduper/DAO/MergeConflict.php CRM/Deduper/Form/Report/MergeConflict.php
+msgid "Value 2"
+msgstr ""
+
+#: CRM/Deduper/DAO/MergeConflict.php CRM/Deduper/Form/Report/MergeConflict.php
 msgid "Analysis"
 msgstr ""
 
@@ -169,6 +254,10 @@ msgid "Email"
 msgstr "メール"
 
 #: ang/contactBasic.aff.html
+msgid "On hold"
+msgstr ""
+
+#: ang/contactBasic.aff.html
 msgid "Street Address"
 msgstr ""
 
@@ -186,6 +275,43 @@ msgstr "保存"
 
 #: ang/contactBasic.aff.html
 msgid "Last Contributed on"
+msgstr ""
+
+#: ang/dedupeSearchTasks/dedupeSearchTaskFlip.ctrl.js
+#: ang/deduper/dupefindCntrl.js ang/deduper/mergeActions.js
+msgid "deduper"
+msgstr ""
+
+#: ang/dedupeSearchTasks/dedupeSearchTaskFlip.ctrl.js
+msgid "Successfully updated %1 %2."
+msgstr ""
+
+#: ang/dedupeSearchTasks/dedupeSearchTaskFlip.ctrl.js
+msgid "Names flipped"
+msgstr ""
+
+#: ang/dedupeSearchTasks/dedupeSearchTaskFlip.ctrl.js
+msgid "An error occurred while attempting to update %1 %2."
+msgstr ""
+
+#: ang/dedupeSearchTasks/dedupeSearchTaskFlip.ctrl.js
+msgid "Error"
+msgstr "エラー"
+
+#: ang/dedupeSearchTasks/dedupeSearchTaskFlip.html
+msgid "Flip the first/last names of %1 %2?"
+msgstr ""
+
+#: ang/dedupeSearchTasks/dedupeSearchTaskFlip.html
+msgid "Updating %1 %2..."
+msgstr ""
+
+#: ang/dedupeSearchTasks/dedupeSearchTaskFlip.html
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: ang/dedupeSearchTasks/dedupeSearchTaskFlip.html
+msgid "Flip %1"
 msgstr ""
 
 #: ang/deduper/crmSearchSelector.js
@@ -234,6 +360,10 @@ msgstr ""
 
 #: ang/deduper/dupefindCntrl.html
 msgid "Find duplicates"
+msgstr ""
+
+#: ang/deduper/dupefindCntrl.html
+msgid "Are you sure you want to batch merge these contacts?"
 msgstr ""
 
 #: ang/deduper/dupefindCntrl.html
@@ -290,10 +420,6 @@ msgstr ""
 msgid "Force Merge"
 msgstr ""
 
-#: ang/deduper/dupefindCntrl.js ang/deduper/mergeActions.js
-msgid "deduper"
-msgstr ""
-
 #: ang/deduper/mergeActions.html
 msgid "Example directive (merge-actions)"
 msgstr ""
@@ -312,6 +438,10 @@ msgstr ""
 
 #: api/v3/Merge/Redo.php
 msgid "Contact not re-mergeable"
+msgstr ""
+
+#: deduper.php
+msgid "Flip first/last name"
 msgstr ""
 
 #: deduper.php
