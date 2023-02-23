@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sepa\n"
-"POT-Creation-Date: 2023-01-27 19:22+0000\n"
+"POT-Creation-Date: 2023-02-23 05:01+0000\n"
 "Language-Team: CiviCRM Translators <civicrm-translators@lists.civicrm.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -376,6 +376,14 @@ msgstr ""
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "Campaign changed from '%1' [%2] to '%3' [%4]."
+msgstr ""
+
+#: CRM/Sepa/BAO/SEPAMandate.php
+msgid "Cycle day changed"
+msgstr ""
+
+#: CRM/Sepa/BAO/SEPAMandate.php
+msgid "Cycle day changed from '%1' to '%2'."
 msgstr ""
 
 #: CRM/Sepa/BAO/SEPAMandate.php
@@ -3121,6 +3129,12 @@ msgid ""
 "'SEPA'."
 msgstr ""
 
+#: templates/CRM/Sepa/Page/EditMandate.hlp
+msgid ""
+"When you change the cycle day be aware that you might end up collecting "
+"twice in the same month, or miss a collection altogether."
+msgstr ""
+
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "SEPA Recurring Mandate"
 msgstr ""
@@ -3212,6 +3226,18 @@ msgstr ""
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "Replace for the following reason:"
+msgstr ""
+
+#: templates/CRM/Sepa/Page/EditMandate.tpl
+msgid "Change Cycle Day"
+msgstr ""
+
+#: templates/CRM/Sepa/Page/EditMandate.tpl
+msgid "New cycle day:"
+msgstr ""
+
+#: templates/CRM/Sepa/Page/EditMandate.tpl
+msgid "Cyle Day"
 msgstr ""
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
@@ -3513,10 +3539,6 @@ msgstr ""
 
 #: tests/phpunit/CRM/Sepa/ReferenceGenerationTest.php
 msgid "The RCUR mandate reference is invalid."
-msgstr ""
-
-#: tests/phpunit/CRM/Sepa/ReferenceGenerationTest.php
-msgid "There should be a clashing reference"
 msgstr ""
 
 #: tests/phpunit/CRM/Sepa/SettingsTest.php
