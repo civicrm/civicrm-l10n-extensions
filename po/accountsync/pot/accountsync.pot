@@ -5,11 +5,41 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: accountsync\n"
-"POT-Creation-Date: 2020-09-17 05:01+0000\n"
+"POT-Creation-Date: 2023-02-27 05:01+0000\n"
 "Language-Team: CiviCRM Translators <civicrm-translators@lists.civicrm.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: CRM/Accountsync/BAO/AccountInvoice.php
+msgid "Completed"
+msgstr ""
+
+#: CRM/Accountsync/BAO/AccountInvoice.php
+msgid "Pending"
+msgstr ""
+
+#: CRM/Accountsync/BAO/AccountInvoice.php
+msgid "Cancelled"
+msgstr ""
+
+#: CRM/Accountsync/Check.php
+msgid ""
+"There are %1 records in the `civicrm_account_contact` table which have a "
+"NULL connector_id. These need updating manually to 0 or the connector ID if "
+"using the connectors extension."
+msgstr ""
+
+#: CRM/Accountsync/Check.php
+msgid "AccountSync: Database issues"
+msgstr ""
+
+#: CRM/Accountsync/Check.php
+msgid ""
+"There are %1 records in the `civicrm_account_invoice` table which have a "
+"NULL connector_id. These need updating manually to 0 or the connector ID if "
+"using the connectors extension."
+msgstr ""
 
 #: CRM/Accountsync/DAO/AccountContact.php
 msgid "Account Contacts"
@@ -20,11 +50,28 @@ msgid "Account Contact"
 msgstr ""
 
 #: CRM/Accountsync/DAO/AccountContact.php
+#: CRM/Accountsync/DAO/AccountInvoice.php
+msgid "ID"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php
 msgid "Unique AccountContact ID"
 msgstr ""
 
 #: CRM/Accountsync/DAO/AccountContact.php
+msgid "Contact ID"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php
 msgid "FK to Contact"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php
+msgid "CiviCRM Contact ID"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php
+msgid "Accounts Contact ID"
 msgstr ""
 
 #: CRM/Accountsync/DAO/AccountContact.php
@@ -92,6 +139,11 @@ msgstr ""
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php
+msgid "Connector ID"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php
+#: CRM/Accountsync/DAO/AccountInvoice.php
 msgid ""
 "ID of connector. Relevant to connect to more than one account of the same "
 "type"
@@ -115,6 +167,16 @@ msgstr ""
 msgid "Do not sync this contact"
 msgstr ""
 
+#: CRM/Accountsync/DAO/AccountContact.php
+#: CRM/Accountsync/DAO/AccountInvoice.php
+msgid "Error Resolved"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php
+#: CRM/Accountsync/DAO/AccountInvoice.php
+msgid "Filter out if resolved"
+msgstr ""
+
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Account Invoices"
 msgstr ""
@@ -136,11 +198,63 @@ msgid "FK to contribution table."
 msgstr ""
 
 #: CRM/Accountsync/DAO/AccountInvoice.php
+msgid "Accounts Invoice ID"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountInvoice.php
+msgid "Accounts Status ID"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Status in accounts system (mapped to civicrm definition)"
 msgstr ""
 
-#: CRM/Accountsync/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
+#: CRM/Accountsync/DAO/AccountInvoice.php
+msgid "Accounting system status"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountInvoice.php
+msgid "Connection"
+msgstr ""
+
+#: Civi/Hooks/SearchKitTasks.php
+msgid "Retry sync"
+msgstr ""
+
+#: Civi/Hooks/SearchKitTasks.php
+msgid "Processing ..."
+msgstr ""
+
+#: Civi/Hooks/SearchKitTasks.php
+msgid "Successfully marked %1 records to retry next time the sync job runs."
+msgstr ""
+
+#: Civi/Hooks/SearchKitTasks.php
+msgid "An error occurred while attempting to mark %1 records for retry."
+msgstr ""
+
+#: Civi/Hooks/SearchKitTasks.php
+msgid "Mark as resolved"
+msgstr ""
+
+#: Civi/Hooks/SearchKitTasks.php
+msgid "Successfully marked %1 records as resolved."
+msgstr ""
+
+#: Civi/Hooks/SearchKitTasks.php
+msgid "An error occurred while marking errors as resolved."
+msgstr ""
+
+#: Civi/Hooks/SearchKitTasks.php
+msgid "Do not sync"
+msgstr ""
+
+#: Civi/Hooks/SearchKitTasks.php
+msgid "Successfully marked %1 records as \"Do not Sync\"."
+msgstr ""
+
+#: Civi/Hooks/SearchKitTasks.php
+msgid "An error occurred while marking errors as \"Do not Sync\"."
 msgstr ""
 
 #: accountsync.php
@@ -170,10 +284,6 @@ msgid "Name not provided."
 msgstr ""
 
 #: ang/accountsync/EditCtrl.html
-msgid "OK"
-msgstr ""
-
-#: ang/accountsync/EditCtrl.html
 msgid "Exclude"
 msgstr ""
 
@@ -183,6 +293,10 @@ msgstr ""
 
 #: ang/accountsync/EditCtrl.html
 msgid "Match"
+msgstr ""
+
+#: ang/accountsync/EditCtrl.html
+msgid "Save"
 msgstr ""
 
 #: ang/accountsync/EditCtrl.js
@@ -195,6 +309,26 @@ msgstr ""
 
 #: ang/accountsync/EditCtrl.js
 msgid "Saved"
+msgstr ""
+
+#: managed/navigation.mgd.php
+msgid "Errors"
+msgstr ""
+
+#: managed/navigation.mgd.php
+msgid "Invoice Errors"
+msgstr ""
+
+#: managed/navigation.mgd.php
+msgid "Contact Errors"
+msgstr ""
+
+#: managed/navigation.mgd.php
+msgid "Match Contacts (legacy)"
+msgstr ""
+
+#: managed/navigation.mgd.php
+msgid "Match Contacts"
 msgstr ""
 
 #: templates/CRM/accountsync/EditCtrl.hlp
