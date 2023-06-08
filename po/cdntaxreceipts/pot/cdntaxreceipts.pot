@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: cdntaxreceipts\n"
-"POT-Creation-Date: 2023-01-27 19:22+0000\n"
+"POT-Creation-Date: 2023-06-08 05:01+0000\n"
 "Language-Team: CiviCRM Translators <civicrm-translators@lists.civicrm.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -266,6 +266,14 @@ msgid "Watermark Image"
 msgstr ""
 
 #: CRM/Cdntaxreceipts/Form/Settings.php
+msgid "Source Field Value"
+msgstr ""
+
+#: CRM/Cdntaxreceipts/Form/Settings.php
+msgid "Source Field Label (%1)"
+msgstr ""
+
+#: CRM/Cdntaxreceipts/Form/Settings.php
 msgid "Could not upload the file"
 msgstr ""
 
@@ -426,8 +434,8 @@ msgid ""
 "contributions will be marked 'duplicate'."
 msgstr ""
 
-#: CRM/Cdntaxreceipts/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
+#: CRM/Cdntaxreceipts/Upgrader.php
+msgid "Source: "
 msgstr ""
 
 #: cdntaxreceipts.functions.inc
@@ -479,14 +487,6 @@ msgid "Thank you for giving in %1!"
 msgstr ""
 
 #: cdntaxreceipts.functions.inc
-msgid "Receipt No: %1"
-msgstr ""
-
-#: cdntaxreceipts.functions.inc
-msgid "Received from: "
-msgstr ""
-
-#: cdntaxreceipts.functions.inc
 msgid "Donation in-kind: %1"
 msgstr ""
 
@@ -496,6 +496,14 @@ msgstr ""
 
 #: cdntaxreceipts.functions.inc
 msgid "Appraiser: %1"
+msgstr ""
+
+#: cdntaxreceipts.functions.inc
+msgid "Receipt No: %1"
+msgstr ""
+
+#: cdntaxreceipts.functions.inc
+msgid "Received from: "
 msgstr ""
 
 #: cdntaxreceipts.functions.inc
@@ -514,6 +522,12 @@ msgstr ""
 msgid ""
 "Location Issued is not set. Please set it under Administer - CiviContribute "
 "- CDN Tax Receipts."
+msgstr ""
+
+#: cdntaxreceipts.functions.inc
+msgid ""
+"The total for contribution id <a %1>%2</a> does not match the line items. "
+"Please correct the contribution first."
 msgstr ""
 
 #: cdntaxreceipts.php
@@ -600,6 +614,16 @@ msgstr ""
 
 #: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
 msgid "Upload your own PDF template: .pdf"
+msgstr ""
+
+#: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
+msgid "Either replace with a token string or blank out to hide the field."
+msgstr ""
+
+#: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
+msgid ""
+"Label to use for the Source field. Include a space at the end to provide "
+"spacing between the label and the value."
 msgstr ""
 
 #: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
@@ -711,6 +735,10 @@ msgstr ""
 #: templates/CRM/Cdntaxreceipts/Form/ViewTaxReceipt.tpl
 msgid ""
 "The receipt will be sent <strong>by email</strong> to the contributor (%1)."
+msgstr ""
+
+#: templates/CRM/Cdntaxreceipts/Form/ViewTaxReceipt.tpl
+msgid "Download PDF instead."
 msgstr ""
 
 #: templates/CRM/Cdntaxreceipts/Form/ViewTaxReceipt.tpl
