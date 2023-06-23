@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sepa\n"
-"POT-Creation-Date: 2023-02-23 05:01+0000\n"
+"POT-Creation-Date: 2023-06-23 05:01+0000\n"
 "Language-Team: CiviCRM Translators <civicrm-translators@lists.civicrm.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -145,6 +145,10 @@ msgstr ""
 #: templates/Sepa/Contribute/Form/ContributionView.tpl
 #: templates/Sepa/Contribute/Page/ContributionRecur.tpl
 msgid "IBAN"
+msgstr ""
+
+#: CRM/Admin/Form/Setting/SepaSettings.php
+msgid "CUC (only from CBIBdySDDReq)"
 msgstr ""
 
 #: CRM/Admin/Form/Setting/SepaSettings.php CRM/Sepa/DAO/SEPACreditor.php
@@ -620,6 +624,15 @@ msgstr ""
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "If true, BICs are not used for this creditor"
+msgstr ""
+
+#: CRM/Sepa/DAO/SEPACreditor.php
+#: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
+msgid "CUC"
+msgstr ""
+
+#: CRM/Sepa/DAO/SEPACreditor.php
+msgid "CUC of the creditor"
 msgstr ""
 
 #: CRM/Sepa/DAO/SEPAMandate.php
@@ -1865,6 +1878,31 @@ msgstr ""
 msgid "Find SEPA Mandate"
 msgstr ""
 
+#: Civi/Sepa/ContainerSpecs.php
+#: templates/CRM/Contact/Page/View/Summary.sepa.tpl
+msgid "SEPA Mandate"
+msgstr ""
+
+#: Civi/Sepa/ContainerSpecs.php
+msgid "SEPA Creditor"
+msgstr ""
+
+#: Civi/Sepa/ContainerSpecs.php
+msgid "SEPA Transaction Group"
+msgstr ""
+
+#: Civi/Sepa/ContainerSpecs.php
+msgid "SEPA SDD File"
+msgstr ""
+
+#: Civi/Sepa/ContainerSpecs.php
+msgid "SEPA Contribution Group"
+msgstr ""
+
+#: Civi/Sepa/ContainerSpecs.php
+msgid "SEPA Mandate Link"
+msgstr ""
+
 #: api/v3/SepaTransactionGroup.php
 msgid "SEPA DD Transaction Batch"
 msgstr ""
@@ -2355,6 +2393,12 @@ msgid ""
 "If you leave this empty, no (new) one-off mandates can be created any more."
 msgstr ""
 
+#: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
+msgid ""
+"CUC-code (\"Codice Univoco CBI\") of the financial institution of the "
+"creditor. It is only required for CBIBdySDDReq SEPA file format."
+msgstr ""
+
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Creditors"
 msgstr ""
@@ -2454,10 +2498,6 @@ msgstr ""
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Support Large Groups"
-msgstr ""
-
-#: templates/CRM/Contact/Page/View/Summary.sepa.tpl
-msgid "SEPA Mandate"
 msgstr ""
 
 #: templates/CRM/Contact/Page/View/Summary.sepa.tpl
