@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: stripe\n"
-"POT-Creation-Date: 2023-04-10 05:01+0000\n"
+"POT-Creation-Date: 2023-06-30 05:01+0000\n"
 "Language-Team: CiviCRM Translators <civicrm-translators@lists.civicrm.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,6 +17,10 @@ msgstr ""
 
 #: CRM/Core/Payment/Stripe.php
 msgid "An error occurred"
+msgstr ""
+
+#: CRM/Core/Payment/Stripe.php
+msgid "An error occurred while processing the payment"
 msgstr ""
 
 #: CRM/Core/Payment/Stripe.php
@@ -46,6 +50,22 @@ msgstr ""
 msgid ""
 "If you select 'Send cancellation request..' then Stripe will be "
 "automatically notified and the subscription will be cancelled."
+msgstr ""
+
+#: CRM/Core/Payment/StripeCheckout.php
+msgid "Stripe Checkout"
+msgstr ""
+
+#: CRM/Stripe/Api.php
+msgid "Card"
+msgstr ""
+
+#: CRM/Stripe/Api.php
+msgid "SEPA Direct Debit"
+msgstr ""
+
+#: CRM/Stripe/Api.php
+msgid "ACH Direct Debit"
 msgstr ""
 
 #: CRM/Stripe/Check.php
@@ -309,6 +329,18 @@ msgstr ""
 msgid "Stripe Payment Processor: %1 (%2)"
 msgstr ""
 
+#: Civi/Stripe/Webhook/Events.php
+msgid "No contributionRecur record found in CiviCRM. Ignored."
+msgstr ""
+
+#: Civi/Stripe/Webhook/Events.php
+msgid "No contribution or recur record found in CiviCRM. Ignored."
+msgstr ""
+
+#: Civi/Stripe/Webhook/Events.php
+msgid "Payment already recorded"
+msgstr ""
+
 #: api/v3/Stripe/Cleanup.php
 msgid "Set this to TRUE to execute this API function"
 msgstr ""
@@ -507,6 +539,10 @@ msgid "Whether we should try to capture the amount, not just confirm it"
 msgstr ""
 
 #: api/v3/StripePaymentintent.php
+msgid "Whether we should create a setupIntent instead of a paymentIntent"
+msgstr ""
+
+#: api/v3/StripePaymentintent.php
 msgid "Describe the payment"
 msgstr ""
 
@@ -544,6 +580,10 @@ msgstr ""
 
 #: js/civicrmStripe.js js/civicrmStripeConfirm.js
 msgid "Configuration error - unable to process paymentIntent"
+msgstr ""
+
+#: js/civicrmStripe.js
+msgid "Invalid payment configuration!"
 msgstr ""
 
 #: js/civicrmStripe.js
@@ -592,8 +632,19 @@ msgstr ""
 msgid "Your recurring contribution will start on %1"
 msgstr ""
 
-#: settings/stripe.setting.php
-msgid "Show 6.6 upgrade message (system check)"
+#: managed/stripecustomdata.mgd.php
+msgid "Available On"
+msgstr ""
+
+#: managed/stripecustomdata.mgd.php
+msgid ""
+"If there is a delay between your payment provider receiving the payment and "
+"it arriving in your bank account this is the date that it should be "
+"available in your account."
+msgstr ""
+
+#: managed/stripecustomdata.mgd.php
+msgid "Exchange Rate"
 msgstr ""
 
 #: settings/stripe.setting.php
@@ -649,7 +700,9 @@ msgid ""
 msgstr ""
 
 #: settings/stripe.setting.php
-msgid "Country where your account is registered"
+msgid ""
+"Country where your account is registered (ONLY set if you want to enable "
+"Google/Apple pay)"
 msgstr ""
 
 #: settings/stripe.setting.php
@@ -722,6 +775,17 @@ msgid ""
 "tend to use low amounts eg. $1. If you know that your will never take "
 "payments under eg. $10 you can set that here and the request will fail for "
 "anything below that amount."
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid "Supported payment methods for Stripe Checkout"
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid ""
+"Link and Google/Apple Pay are controlled via your Stripe Dashboard. Payment "
+"method will only appear if all criteria are met (eg. for SEPA currency must "
+"be EUR)"
 msgstr ""
 
 #: stripe.php
