@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: iats\n"
-"POT-Creation-Date: 2023-03-09 05:01+0000\n"
+"POT-Creation-Date: 2023-10-21 05:01+0000\n"
 "Language-Team: CiviCRM Translators <civicrm-translators@lists.civicrm.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -82,7 +82,11 @@ msgid "Account type"
 msgstr ""
 
 #: CRM/Core/Payment/iATSServiceACHEFT.php
-msgid "Bank Number (3 digits)"
+msgid "Account No."
+msgstr ""
+
+#: CRM/Core/Payment/iATSServiceACHEFT.php
+msgid "Bank No. (3 digits)"
 msgstr ""
 
 #: CRM/Core/Payment/iATSServiceACHEFT.php
@@ -90,7 +94,7 @@ msgid "%1 is a required field."
 msgstr ""
 
 #: CRM/Core/Payment/iATSServiceACHEFT.php
-msgid "Bank Number"
+msgid "Bank No."
 msgstr ""
 
 #: CRM/Core/Payment/iATSServiceACHEFT.php
@@ -106,7 +110,7 @@ msgid "Transit Number (5 digits)"
 msgstr ""
 
 #: CRM/Core/Payment/iATSServiceACHEFT.php
-msgid "Transit Number"
+msgid "Transit No."
 msgstr ""
 
 #: CRM/Core/Payment/iATSServiceACHEFT.php
@@ -678,10 +682,6 @@ msgstr ""
 msgid "Now"
 msgstr ""
 
-#: CRM/Iats/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr ""
-
 #: CRM/Iats/iATSServiceRequest.php
 msgid "Invalid currency selection: %1 for domain %2"
 msgstr ""
@@ -699,11 +699,27 @@ msgid "Failed to acquire lock. No contribution records were processed."
 msgstr ""
 
 #: api/v3/Job/Iatsrecurringcontributions.php
+msgid ""
+"Stale recurring contribution schedule for contact id %1, recurring schedule "
+"id %2, %3"
+msgstr ""
+
+#: api/v3/Job/Iatsrecurringcontributions.php
 msgid "iATS Payments (%1) Recurring Contribution ( id = %2 )"
 msgstr ""
 
 #: api/v3/Job/Iatsrecurringcontributions.php
 msgid "Unexpected error, no payment token for recurring schedule id %1"
+msgstr ""
+
+#: api/v3/Job/Iatsrecurringcontributions.php
+msgid "Admin"
+msgstr ""
+
+#: api/v3/Job/Iatsrecurringcontributions.php
+msgid ""
+"It seems something is not quite right with your recurring contribution "
+"payment. Please see details below."
 msgstr ""
 
 #: api/v3/Job/Iatsrecurringcontributions.php
@@ -720,16 +736,6 @@ msgstr ""
 
 #: api/v3/Job/Iatsrecurringcontributions.php
 msgid "System Administrator"
-msgstr ""
-
-#: api/v3/Job/Iatsrecurringcontributions.php
-msgid "Admin"
-msgstr ""
-
-#: api/v3/Job/Iatsrecurringcontributions.php
-msgid ""
-"It seems something is not quite right with your recurring contribution "
-"payment. Please see details below."
 msgstr ""
 
 #: api/v3/Job/Iatsrecurringcontributions.php
@@ -790,12 +796,11 @@ msgid "Status"
 msgstr ""
 
 #: js/dd_cad.js
-msgid ""
-"Your Bank Number requires three digits, use a leading \"0\" if necessary"
+msgid "Your Bank No. requires three digits, use a leading \"0\" if necessary"
 msgstr ""
 
 #: js/dd_cad.js
-msgid "Your Bank Transit Number requires exactly five digits"
+msgid "Your Transit No. requires exactly five digits"
 msgstr ""
 
 #: js/swipe.js
