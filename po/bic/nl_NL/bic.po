@@ -3,14 +3,15 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# HanV <han.velthuis@home.nl>, 2020-2021
+# HanV <han.velthuis@kpnmail.nl>, 2020-2021
+# HanV <han.velthuis@kpnmail.nl>, 2023
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
 "POT-Creation-Date: 2023-01-27 19:22+0000\n"
 "PO-Revision-Date: 2015-02-17 14:34+0000\n"
-"Last-Translator: HanV <han.velthuis@home.nl>, 2020-2021\n"
-"Language-Team: Dutch (http://www.transifex.com/civicrm/civicrm_extensions/language/nl/)\n"
+"Last-Translator: HanV <han.velthuis@kpnmail.nl>, 2023\n"
+"Language-Team: Dutch (http://app.transifex.com/civicrm/civicrm_extensions/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,36 +24,36 @@ msgstr "Bank zoeken"
 
 #: CRM/Bic/Page/Config.php
 msgid "Available Banks"
-msgstr ""
+msgstr "Beschikbare banken"
 
 #: CRM/Bic/Parser/AT.php
 msgid "Couldn't download source "
-msgstr ""
+msgstr "Downloaden is mislukt van bron "
 
 #: CRM/Bic/Parser/AT.php
 msgid "Source file doesn't contain Identnummer/Bankleitzahl/SWIFT-Code"
-msgstr ""
+msgstr "Bronbestand bevat geen Identnummer/Bankleitzahl/SWIFT-Code"
 
 #: CRM/Bic/Parser/BE.php CRM/Bic/Parser/DE.php CRM/Bic/Parser/LU.php
 #: CRM/Bic/Parser/NL.php
 msgid "Couldn't download data file"
-msgstr ""
+msgstr "Downloaden gegevensbestand is mislukt"
 
 #: CRM/Bic/Parser/CH.php
 msgid "Couldn't download data set"
-msgstr ""
+msgstr "Downloaden gegevensset is mislukt"
 
 #: CRM/Bic/Parser/ES.php
 msgid "Couldn't download basic page"
-msgstr ""
+msgstr "Downloaden basispagina is mislukt"
 
 #: CRM/Bic/Parser/PL.php
 msgid "Couldn't download CSV file"
-msgstr ""
+msgstr "Downloaden csv-bestand is mislukt"
 
 #: CRM/Bic/Parser/PL.php
 msgid "Couldn't find any bank information in the data source"
-msgstr ""
+msgstr "Er is geen bankinformatie gevonden in de gegevens"
 
 #: CRM/Bic/Parser/Parser.php
 msgid ""
@@ -60,22 +61,22 @@ msgid ""
 "<code>%1</code>. It is possible that the source is outdated. If you can rule"
 " out network issues, please report this here: "
 "https://github.com/Project60/org.project60.bic/issues."
-msgstr ""
+msgstr "Er zijn geen banken gevonden in de gegevens voor land <code>%1</code>. Mogelijk is de bron verouderd. Als het geen netwerkprobleem is, dan kunt u het melden op: https://github.com/Project60/org.project60.bic/issues."
 
 #: CRM/Bic/Parser/Parser.php
 msgid "Problem with %1 Data Source"
-msgstr ""
+msgstr "Probleem met %1 gegevensbron"
 
 #: CRM/Bic/Parser/Parser.php
 msgid ""
 "<p>An error occurred while updating the bank information:<pre>%1</pre></p>"
-msgstr ""
+msgstr "<p>Er is een fout opgetreden bij het bijwerken van de bankinformatie:<pre>%1</pre></p>"
 
 #: CRM/Bic/Parser/Parser.php
 msgid ""
 "<p>Please make sure your server is connected to the internet and try "
 "again.</p>"
-msgstr ""
+msgstr "<p>Controleer of er netwerkverbinding is en probeer het opnieuw.</p>"
 
 #: CRM/Bic/Parser/Parser.php
 msgid ""
@@ -84,7 +85,7 @@ msgid ""
 "updated. Please check <a "
 "href=\"https://github.com/Project60/org.project60.bic/releases\">here</a> "
 "for a newer release.</p>"
-msgstr ""
+msgstr "<p>Als het probleem blijft optreden,dan kan het door de bank aangeleverde bestand zijn gewijzigd. In dat geval moet de extensie 'Little BIC' bijgewerkt worden. Kijk <a href=\"https://github.com/Project60/org.project60.bic/releases\">hier</a> of er een nieuwe versie is.</p>"
 
 #: CRM/Bic/Parser/Parser.php
 msgid ""
@@ -92,7 +93,7 @@ msgid ""
 "via <a href=\"mailto:endres@systopia.de\">email</a> or on <a "
 "href=\"https://github.com/Project60/org.project60.bic/issues/new\">GitHub</a>."
 " The sooner we know about this problem, the sooner it'll be fixed.</p>"
-msgstr ""
+msgstr "<p>Als u al de meest recente versie gebruikt, neem dan a.u.b. contact op met ons via <a href=\"mailto:endres@systopia.de\">e-mail</a> of via <a href=\"https://github.com/Project60/org.project60.bic/issues/new\">GitHub</a>. Hoe eerder wij van dit probleem weten, hoe eerder kunnen wij het oplossen.</p>"
 
 #: CRM/Bic/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
@@ -112,7 +113,7 @@ msgstr "Ja"
 
 #: Civi/Bic/ActionProvider/Action/LookupBic.php
 msgid "Normalise IBAN"
-msgstr ""
+msgstr "IBAN normaliseren"
 
 #: Civi/Bic/ActionProvider/Action/LookupBic.php
 #: templates/CRM/Bic/Page/BicList.tpl
@@ -121,7 +122,7 @@ msgstr "IBAN"
 
 #: Civi/Bic/ActionProvider/Action/LookupBic.php
 msgid "BIC (pass-trough if not found)"
-msgstr ""
+msgstr "BIC (doorgaan indien niet gevonden)"
 
 #: Civi/Bic/ActionProvider/Action/LookupBic.php
 #: Civi/Bic/ActionProvider/Action/VerifyBic.php
@@ -140,58 +141,58 @@ msgstr "Fout"
 
 #: Civi/Bic/ActionProvider/Action/LookupBic.php
 msgid "BIC not found/verified"
-msgstr ""
+msgstr "BIC not gevonden/geverifieerd"
 
 #: Civi/Bic/ActionProvider/Action/VerifyBic.php
 msgid "leave as is"
-msgstr ""
+msgstr "niet wijzigen"
 
 #: Civi/Bic/ActionProvider/Action/VerifyBic.php
 msgid "normalise to upper case, no spaces"
-msgstr ""
+msgstr "omzetten naar hoofdletters, zonder spaties"
 
 #: Civi/Bic/ActionProvider/Action/VerifyBic.php
 msgid "pass through as is"
-msgstr ""
+msgstr "invoer doorgeven"
 
 #: Civi/Bic/ActionProvider/Action/VerifyBic.php
 msgid "set to empty"
-msgstr ""
+msgstr "leegmaken"
 
 #: Civi/Bic/ActionProvider/Action/VerifyBic.php
 msgid "Normalisation"
-msgstr ""
+msgstr "Normaliseren"
 
 #: Civi/Bic/ActionProvider/Action/VerifyBic.php
 msgid "If BIC invalid"
-msgstr ""
+msgstr "Als BIC ongeldig is"
 
 #: Civi/Bic/ActionProvider/Action/VerifyBic.php
 msgid "BIC (to check)"
-msgstr ""
+msgstr "BIC (te controleren)"
 
 #: Civi/Bic/ActionProvider/Action/VerifyBic.php
 msgid "BIC '%1' invalid"
-msgstr ""
+msgstr "BIC '%1' ongeldig"
 
 #: Civi/Bic/ContainerSpecs.php
 msgid "Look up BIC for IBAN"
-msgstr ""
+msgstr "BIC bij IBAN opzoeken"
 
 #: Civi/Bic/ContainerSpecs.php
 msgid "Verify BIC"
-msgstr ""
+msgstr "BIC controleren"
 
 #: templates/CRM/Bic/Page/BicList.tpl
 msgid ""
 "This page allows you to find banks and additional information. If you can't "
 "find the bank you're looking for, you may want to <a href='bicImport'>update"
 " your bank list</a>."
-msgstr ""
+msgstr "Op deze pagina vindt u banken en aanvullende informatie. Als u de bank die u zoekt niet kunt vinden, kunt u de <a href='bicImport'>lijst met banken bijwerken</a>."
 
 #: templates/CRM/Bic/Page/BicList.tpl
 msgid "Find Bank by IBAN"
-msgstr ""
+msgstr "Bank zoeken op IBAN"
 
 #: templates/CRM/Bic/Page/BicList.tpl
 msgid "Name"
@@ -211,7 +212,7 @@ msgstr "National-Bank-id"
 
 #: templates/CRM/Bic/Page/BicList.tpl
 msgid "Find Bank by National ID"
-msgstr ""
+msgstr "Bank zoek op National-id"
 
 #: templates/CRM/Bic/Page/Config.tpl
 msgid ""
@@ -244,10 +245,10 @@ msgstr "Alles bijwerken"
 
 #: templates/CRM/Bic/Page/Config.tpl
 msgid "Update Problem"
-msgstr ""
+msgstr "Probleem wijzigen"
 
 #: templates/CRM/Bic/Page/Config.tpl
 msgid ""
 "The update timed out, but maybe it was partially succesful. You might want "
 "to try again."
-msgstr ""
+msgstr "De tijd voor de update is verlopen, mogelijk is de update gedeeltelijk verwerkt. U kunt het opnieuw proberen."
