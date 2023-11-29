@@ -2,11 +2,15 @@
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# Thomas Nilefalk <thomas.nilefalk@responsive.se>, 2023
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: form_processor\n"
-"POT-Creation-Date: 2018-11-15 19:52+0000\n"
-"Language-Team: Swedish (Sweden) (https://www.transifex.com/civicrm/teams/1460/sv_SE/)\n"
+"POT-Creation-Date: 2020-08-08 05:01+0000\n"
+"Last-Translator: Thomas Nilefalk <thomas.nilefalk@responsive.se>, 2023\n"
+"Language-Team: Swedish (Sweden) (https://app.transifex.com/civicrm/teams/1905/sv_SE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,6 +23,7 @@ msgstr ""
 #: CRM/FormProcessor/DAO/FormProcessorInput.php
 #: CRM/FormProcessor/DAO/FormProcessorInstance.php
 #: CRM/FormProcessor/DAO/FormProcessorValidation.php
+#: Civi/FormProcessor/Type/CampaignType.php
 #: api/v3/FormProcessorAction/Create.php api/v3/FormProcessorAction/Delete.php
 #: api/v3/FormProcessorAction/Validatename.php
 #: api/v3/FormProcessorDefaultDataAction/Create.php
@@ -26,7 +31,9 @@ msgstr ""
 #: api/v3/FormProcessorDefaultDataAction/Validatename.php
 #: api/v3/FormProcessorDefaultDataInput/Create.php
 #: api/v3/FormProcessorDefaultDataInput/Delete.php
+#: api/v3/FormProcessorDefaultDataInput/Validatename.php
 #: api/v3/FormProcessorInput/Create.php api/v3/FormProcessorInput/Delete.php
+#: api/v3/FormProcessorInput/Validatename.php
 #: api/v3/FormProcessorInstance/Create.php
 #: api/v3/FormProcessorInstance/Delete.php
 #: api/v3/FormProcessorInstance/Export.php
@@ -39,6 +46,10 @@ msgstr ""
 
 #: CRM/FormProcessor/DAO/FormProcessorAction.php
 #: CRM/FormProcessor/DAO/FormProcessorDefaultDataAction.php
+#: api/v3/FormProcessorAction/Validatename.php
+#: api/v3/FormProcessorDefaultDataAction/Validatename.php
+#: api/v3/FormProcessorDefaultDataInput/Validatename.php
+#: api/v3/FormProcessorInput/Validatename.php
 msgid "Form Processor ID"
 msgstr ""
 
@@ -64,26 +75,36 @@ msgstr ""
 #: api/v3/FormProcessorDefaultDataAction/Create.php
 #: api/v3/FormProcessorDefaultDataAction/Validatename.php
 #: api/v3/FormProcessorDefaultDataInput/Create.php
+#: api/v3/FormProcessorDefaultDataInput/Validatename.php
 #: api/v3/FormProcessorInput/Create.php
+#: api/v3/FormProcessorInput/Validatename.php
 #: api/v3/FormProcessorInstance/Create.php
 #: api/v3/FormProcessorInstance/Validatename.php
 msgid "Name"
-msgstr ""
+msgstr "Namn"
 
 #: CRM/FormProcessor/DAO/FormProcessorAction.php
 #: CRM/FormProcessor/DAO/FormProcessorDefaultDataAction.php
+#: CRM/FormProcessor/DAO/FormProcessorDefaultDataInput.php
+#: CRM/FormProcessor/DAO/FormProcessorInput.php
 #: CRM/FormProcessor/DAO/FormProcessorInstance.php
 #: ang/form_processor/FormProcessorEditCtrl/Details.html
 #: ang/form_processor/FormProcessorListCtrl.html
 #: ang/form_processor/actions/ActionDialogCtrl.html
 #: ang/form_processor/actions/crmFormProcessorActions.html
+#: ang/form_processor/inputs/InputDialogCtrl.html
+#: ang/form_processor/inputs/crmFormProcessorInputs.html
 #: api/v3/FormProcessorAction/Converttitletoname.php
 #: api/v3/FormProcessorAction/Create.php
 #: api/v3/FormProcessorDefaultDataAction/Converttitletoname.php
 #: api/v3/FormProcessorDefaultDataAction/Create.php
+#: api/v3/FormProcessorDefaultDataInput/Converttitletoname.php
+#: api/v3/FormProcessorDefaultDataInput/Create.php
+#: api/v3/FormProcessorInput/Converttitletoname.php
+#: api/v3/FormProcessorInput/Create.php
 #: api/v3/FormProcessorInstance/Create.php
 msgid "Title"
-msgstr ""
+msgstr "Rubrik"
 
 #: CRM/FormProcessor/DAO/FormProcessorAction.php
 #: CRM/FormProcessor/DAO/FormProcessorDefaultDataAction.php
@@ -105,6 +126,7 @@ msgstr ""
 #: CRM/FormProcessor/DAO/FormProcessorDefaultDataInput.php
 #: CRM/FormProcessor/DAO/FormProcessorInput.php
 #: CRM/FormProcessor/DAO/FormProcessorValidation.php
+#: ang/form_processor/DelayedActionHandlerDialogCtrl.html
 #: api/v3/FormProcessorAction/Create.php
 #: api/v3/FormProcessorDefaultDataAction/Create.php
 #: api/v3/FormProcessorDefaultDataInput/Create.php
@@ -124,6 +146,17 @@ msgstr ""
 #: CRM/FormProcessor/DAO/FormProcessorDefaultDataAction.php
 #: api/v3/FormProcessorAction/Create.php
 msgid "Condition configuration"
+msgstr ""
+
+#: CRM/FormProcessor/DAO/FormProcessorAction.php
+#: ang/form_processor/actions/crmFormProcessorActions.html
+#: api/v3/FormProcessorAction/Create.php
+msgid "Delay"
+msgstr ""
+
+#: CRM/FormProcessor/DAO/FormProcessorAction.php
+#: api/v3/FormProcessorAction/Create.php
+msgid "Delay configuration"
 msgstr ""
 
 #: CRM/FormProcessor/DAO/FormProcessorDefaultDataInput.php
@@ -160,7 +193,7 @@ msgstr ""
 #: ang/form_processor/FormProcessorListCtrl.html
 #: api/v3/FormProcessorInstance/Create.php
 msgid "Description"
-msgstr ""
+msgstr "Beskrivning"
 
 #: CRM/FormProcessor/DAO/FormProcessorInstance.php
 #: ang/form_processor/OutputHandlerDialogCtrl.html
@@ -207,6 +240,18 @@ msgstr ""
 msgid "Validator"
 msgstr ""
 
+#: CRM/FormProcessor/Form/RunFormProcessor.php
+msgid "- select -"
+msgstr "- välj -"
+
+#: CRM/FormProcessor/Form/RunFormProcessor.php
+msgid "Load"
+msgstr ""
+
+#: CRM/FormProcessor/Form/RunFormProcessor.php
+msgid "Submit"
+msgstr "Skicka in"
+
 #: CRM/FormProcessor/Status.php
 msgid "In database"
 msgstr ""
@@ -221,7 +266,7 @@ msgstr ""
 
 #: CRM/FormProcessor/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
-msgstr ""
+msgstr "Uppgradera %1 till revision %2"
 
 #: CRM/FormProcessor/Upgrader.php
 msgid "Prerequisite check failed."
@@ -229,12 +274,24 @@ msgstr ""
 
 #: CRM/FormProcessor/Upgrader.php
 msgid ""
-"CiviVolunteer was installed successfully, but you must also install and "
-"enable the <a href=\"%1\">action-provider Extension</a>."
+"Form Processor was installed successfully, but you must also install and "
+"enable the <a href=\"%1\">action-provider Extension</a> version %2 or newer."
 msgstr ""
 
 #: CRM/FormProcessor/Upgrader.php
 msgid "Unknown error key: %1"
+msgstr ""
+
+#: Civi/FormProcessor/API/FormProcessor.php
+msgid "Process delayed form processor actions"
+msgstr ""
+
+#: Civi/FormProcessor/DelayedAction/DelayByXMinutes.php
+msgid "Delay by X minutes"
+msgstr ""
+
+#: Civi/FormProcessor/DelayedAction/DelayByXMinutes.php
+msgid "Minutes"
 msgstr ""
 
 #: Civi/FormProcessor/OutputHandler/FormatOutput.php
@@ -253,12 +310,71 @@ msgid "Output name"
 msgstr ""
 
 #: Civi/FormProcessor/OutputHandler/FormatOutput.php
-msgid "Formatted output"
+msgid "Decide what to send"
 msgstr ""
 
 #: Civi/FormProcessor/OutputHandler/OutputAllActionOutput.php
-msgid "Output all the output from all the actions"
+msgid "Send everything"
 msgstr ""
+
+#: Civi/FormProcessor/Type/CampaignType.php
+msgid "Value field"
+msgstr ""
+
+#: Civi/FormProcessor/Type/CampaignType.php
+msgid "Name of the campaign"
+msgstr ""
+
+#: Civi/FormProcessor/Type/CustomOptionListType.php
+#: Civi/FormProcessor/Validation/DateValidator.php
+#: ang/form_processor/FormProcessorEditCtrl/DefaultDataOutputTable.html
+msgid "Value"
+msgstr ""
+
+#: Civi/FormProcessor/Type/CustomOptionListType.php
+msgid "Label"
+msgstr ""
+
+#: Civi/FormProcessor/Type/CustomOptionListType.php
+msgid "Options"
+msgstr ""
+
+#: Civi/FormProcessor/Type/DateType.php Civi/FormProcessor/Type/TimeType.php
+msgid "Format"
+msgstr ""
+
+#: Civi/FormProcessor/Type/DateType.php
+msgid ""
+"The format is the input format of the date. The following modifiers are availble: <br />\n"
+"\t\t\t\t\tY: year four digit (e.g. 2018) <br />\n"
+"\t\t\t\t\tm: month two digit (eg 03) <br />\n"
+"\t\t\t\t\td: day two digit (eg 04) <br />\n"
+"\t\t\t\t\tH: hours in 24 format with a preceding 0 (eg 08) <br />\n"
+"\t\t\t\t\ti: minute with a preceding 0 (eg 06) <br />\n"
+"\t\t\t\t\t<br />\n"
+"\t\t\t\t\t<a href=\"http://nl1.php.net/manual/en/datetime.createfromformat.php#refsect1-datetime.createfromformat-parameters\">More information at php.net</a>\n"
+"\t\t\t\t\t"
+msgstr ""
+
+#: Civi/FormProcessor/Type/DateType.php
+msgid "Include time"
+msgstr ""
+
+#: Civi/FormProcessor/Type/DateType.php
+#: Civi/FormProcessor/Type/OptionGroupType.php
+#: Civi/FormProcessor/Type/YesNoOptionListType.php
+#: ang/form_processor/FormProcessorListCtrl.html
+#: ang/form_processor/inputs/crmFormProcessorInputs.html
+msgid "No"
+msgstr "Nej"
+
+#: Civi/FormProcessor/Type/DateType.php
+#: Civi/FormProcessor/Type/OptionGroupType.php
+#: Civi/FormProcessor/Type/YesNoOptionListType.php
+#: ang/form_processor/FormProcessorListCtrl.html
+#: ang/form_processor/inputs/crmFormProcessorInputs.html
+msgid "Yes"
+msgstr "Ja"
 
 #: Civi/FormProcessor/Type/Factory.php
 msgid "Numeric (no-decimal)"
@@ -266,6 +382,10 @@ msgstr ""
 
 #: Civi/FormProcessor/Type/Factory.php
 msgid "Numeric (with-decimal)"
+msgstr ""
+
+#: Civi/FormProcessor/Type/Factory.php
+msgid "Formatted decimal number"
 msgstr ""
 
 #: Civi/FormProcessor/Type/Factory.php
@@ -278,6 +398,10 @@ msgstr ""
 
 #: Civi/FormProcessor/Type/Factory.php
 msgid "Date"
+msgstr "Datum"
+
+#: Civi/FormProcessor/Type/Factory.php
+msgid "Time"
 msgstr ""
 
 #: Civi/FormProcessor/Type/Factory.php
@@ -285,11 +409,97 @@ msgid "Yes/No"
 msgstr ""
 
 #: Civi/FormProcessor/Type/Factory.php
+msgid "Yes/No as Option List"
+msgstr ""
+
+#: Civi/FormProcessor/Type/Factory.php
 msgid "Option Group"
 msgstr ""
 
 #: Civi/FormProcessor/Type/Factory.php
+msgid "Custom Options"
+msgstr ""
+
+#: Civi/FormProcessor/Type/Factory.php
 msgid "Country"
+msgstr ""
+
+#: Civi/FormProcessor/Type/Factory.php
+msgid "Country ISO Code"
+msgstr ""
+
+#: Civi/FormProcessor/Type/Factory.php
+msgid "State/Province"
+msgstr ""
+
+#: Civi/FormProcessor/Type/Factory.php
+msgid "Mailing Group"
+msgstr ""
+
+#: Civi/FormProcessor/Type/Factory.php
+#: Civi/FormProcessor/Type/ParentMailingGroupType.php
+msgid "Parent Mailing Group"
+msgstr ""
+
+#: Civi/FormProcessor/Type/Factory.php
+msgid "Participant Status"
+msgstr ""
+
+#: Civi/FormProcessor/Type/Factory.php
+msgid "Campaign"
+msgstr ""
+
+#: Civi/FormProcessor/Type/Factory.php
+msgid "Financial Type"
+msgstr ""
+
+#: Civi/FormProcessor/Type/Factory.php
+msgid "Membership Type"
+msgstr ""
+
+#: Civi/FormProcessor/Type/Factory.php
+msgid "File"
+msgstr ""
+
+#: Civi/FormProcessor/Type/Factory.php
+msgid "File Upload with URL"
+msgstr ""
+
+#: Civi/FormProcessor/Type/Factory.php
+msgid "Week Days"
+msgstr ""
+
+#: Civi/FormProcessor/Type/FormattedDecimalType.php
+msgid "Decimal point"
+msgstr ""
+
+#: Civi/FormProcessor/Type/FormattedDecimalType.php
+msgid "Thousand separator"
+msgstr ""
+
+#: Civi/FormProcessor/Type/FormattedDecimalType.php
+msgid "Decimals"
+msgstr ""
+
+#: Civi/FormProcessor/Type/MailingGroupType.php
+#: Civi/FormProcessor/Type/OptionGroupType.php
+#: Civi/FormProcessor/Type/ParticipantStatusType.php
+#: Civi/FormProcessor/Type/WeekDays.php
+msgid "Multiple"
+msgstr ""
+
+#: Civi/FormProcessor/Type/MailingGroupType.php
+#: Civi/FormProcessor/Type/OptionGroupType.php
+#: Civi/FormProcessor/Type/ParticipantStatusType.php
+#: Civi/FormProcessor/Type/WeekDays.php
+msgid "Single value"
+msgstr ""
+
+#: Civi/FormProcessor/Type/MailingGroupType.php
+#: Civi/FormProcessor/Type/OptionGroupType.php
+#: Civi/FormProcessor/Type/ParticipantStatusType.php
+#: Civi/FormProcessor/Type/WeekDays.php
+msgid "Multiple values"
 msgstr ""
 
 #: Civi/FormProcessor/Type/OptionGroupType.php
@@ -297,47 +507,211 @@ msgid "Use label as value"
 msgstr ""
 
 #: Civi/FormProcessor/Type/OptionGroupType.php
-#: ang/form_processor/FormProcessorListCtrl.html
-#: ang/form_processor/inputs/crmFormProcessorInputs.html
-msgid "No"
-msgstr ""
-
-#: Civi/FormProcessor/Type/OptionGroupType.php
-#: ang/form_processor/FormProcessorListCtrl.html
-#: ang/form_processor/inputs/crmFormProcessorInputs.html
-msgid "Yes"
-msgstr ""
-
-#: Civi/FormProcessor/Type/OptionGroupType.php
 msgid "Option group"
+msgstr ""
+
+#: Civi/FormProcessor/Type/TimeType.php
+msgid ""
+"The format is the input format of the date. The following modifiers are availble: <br />\n"
+"\t\t\t\t\tH: hours in 24 format with a preceding 0 (eg 08) <br />\n"
+"\t\t\t\t\ti: minute with a preceding 0 (eg 06) <br />\n"
+"\t\t\t\t\t<br />\n"
+"\t\t\t\t\t<a href=\"http://nl1.php.net/manual/en/datetime.createfromformat.php#refsect1-datetime.createfromformat-parameters\">More information at php.net</a>\n"
+"\t\t\t\t\t"
+msgstr ""
+
+#: Civi/FormProcessor/Type/WeekDays.php
+msgid "Sunday"
+msgstr ""
+
+#: Civi/FormProcessor/Type/WeekDays.php
+msgid "Monday"
+msgstr ""
+
+#: Civi/FormProcessor/Type/WeekDays.php
+msgid "Tuesday"
+msgstr ""
+
+#: Civi/FormProcessor/Type/WeekDays.php
+msgid "Wednesday"
+msgstr ""
+
+#: Civi/FormProcessor/Type/WeekDays.php
+msgid "Thursday"
+msgstr ""
+
+#: Civi/FormProcessor/Type/WeekDays.php
+msgid "Friday"
+msgstr ""
+
+#: Civi/FormProcessor/Type/WeekDays.php
+msgid "Saturday"
+msgstr ""
+
+#: Civi/FormProcessor/Type/YesNoOptionListType.php
+msgid "Yes label"
+msgstr ""
+
+#: Civi/FormProcessor/Type/YesNoOptionListType.php
+msgid "No label"
 msgstr ""
 
 #: Civi/FormProcessor/Validation/AbstractValidator.php
 msgid "Invalid %1"
 msgstr ""
 
+#: Civi/FormProcessor/Validation/DateValidator.php
+msgid "Date validation"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/DateValidator.php
+msgid "Operator"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/DateValidator.php
+msgid "Less than or equal"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/DateValidator.php
+msgid "Less than"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/DateValidator.php
+msgid "Greater than or equal"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/DateValidator.php
+msgid "Greater than"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/DateValidator.php
+msgid "Equal"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/DateValidator.php
+msgid "Not equal"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/DateValidator.php
+msgid "Between"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/DateValidator.php
+msgid "Between (including lower value)"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/DateValidator.php
+msgid "Between (including higher value)"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/DateValidator.php
+msgid "Between (including both values)"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/DateValidator.php
+msgid "Value 2"
+msgstr ""
+
 #: Civi/FormProcessor/Validation/EmailValidator.php
 msgid "E-mail"
 msgstr ""
+
+#: Civi/FormProcessor/Validation/MaxValidator.php
+msgid "Is less than or equal to"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/MaxValidator.php
+msgid "Value can not be greater than %1"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/MaxValidator.php
+msgid "Maximum value"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/MinLengthValidator.php
+msgid "Has a minimum length"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/MinLengthValidator.php
+msgid "Minimum length"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/MinValidator.php
+msgid "Is greater than or equal to"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/MinValidator.php
+msgid "Value can not be less than %1"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/MinValidator.php
+msgid "Minimum value"
+msgstr ""
+
+#: ang/form_processor/DelayedActionHandlerDialogCtrl.html
+msgid "Delayed action"
+msgstr ""
+
+#: ang/form_processor/DelayedActionHandlerDialogCtrl.html
+msgid "- Select delay handler -"
+msgstr ""
+
+#: ang/form_processor/DelayedActionHandlerDialogCtrl.html
+#: ang/form_processor/FormProcessorEditCtrl.html
+#: ang/form_processor/OutputHandlerDialogCtrl.html
+#: ang/form_processor/actions/ActionDialogCtrl.html
+#: ang/form_processor/actions/ConditionDialogCtrl.html
+msgid "Save and close"
+msgstr ""
+
+#: ang/form_processor/DelayedActionHandlerDialogCtrl.html
+#: ang/form_processor/FormProcessorEditCtrl.html
+#: ang/form_processor/FormProcessorExportCtrl.html
+#: ang/form_processor/OutputHandlerDialogCtrl.html
+#: ang/form_processor/actions/ActionDialogCtrl.html
+#: ang/form_processor/actions/ConditionDialogCtrl.html
+#: ang/form_processor/inputs/InputDialogCtrl.html
+msgid "Cancel"
+msgstr "Avbryt"
 
 #: ang/form_processor/FormProcessorEditCtrl/ActionTable.html
 msgid "Actions"
 msgstr ""
 
 #: ang/form_processor/FormProcessorEditCtrl/DefaultDataActionTable.html
-msgid "Actions to retrieve data"
+msgid "Retrieval methods of default data"
+msgstr ""
+
+#: ang/form_processor/FormProcessorEditCtrl/DefaultDataActionTable.html
+msgid "Add retrieval method"
+msgstr ""
+
+#: ang/form_processor/FormProcessorEditCtrl/DefaultDataActionTable.html
+msgid "- Select retrieval method -"
+msgstr ""
+
+#: ang/form_processor/FormProcessorEditCtrl/DefaultDataActionTable.html
+msgid "Edit retrieval method of default data"
 msgstr ""
 
 #: ang/form_processor/FormProcessorEditCtrl/DefaultDataInputTable.html
-msgid "Inputs for default data"
+msgid "Retrieval criteria for default data"
+msgstr ""
+
+#: ang/form_processor/FormProcessorEditCtrl/DefaultDataInputTable.html
+msgid "Add retrieval criteria"
+msgstr ""
+
+#: ang/form_processor/FormProcessorEditCtrl/DefaultDataInputTable.html
+msgid "- Select criteria type -"
+msgstr ""
+
+#: ang/form_processor/FormProcessorEditCtrl/DefaultDataInputTable.html
+msgid "Edit retrieval criteria for default data"
 msgstr ""
 
 #: ang/form_processor/FormProcessorEditCtrl/DefaultDataOutputTable.html
-msgid "Default data"
-msgstr ""
-
-#: ang/form_processor/FormProcessorEditCtrl/DefaultDataOutputTable.html
-msgid "Value"
+msgid "Set defaults"
 msgstr ""
 
 #: ang/form_processor/FormProcessorEditCtrl/DefaultDataOutputTable.html
@@ -360,7 +734,7 @@ msgstr ""
 #: ang/form_processor/FormProcessorEditCtrl/Details.html
 #: ang/form_processor/FormProcessorListCtrl.html
 msgid "Enabled?"
-msgstr ""
+msgstr "Aktiverad?"
 
 #: ang/form_processor/FormProcessorEditCtrl/Details.html
 msgid "- No permission -"
@@ -396,36 +770,28 @@ msgid "Form processor is not saved"
 msgstr ""
 
 #: ang/form_processor/FormProcessorEditCtrl.html
-msgid "Define form processeror"
+msgid "Define form processor"
 msgstr ""
 
 #: ang/form_processor/FormProcessorEditCtrl.html
-msgid "Define default data"
+msgid "Retrieval of defaults"
 msgstr ""
 
 #: ang/form_processor/FormProcessorEditCtrl.html
-msgid "Enable default data?"
+msgid "Enable default data retrieval?"
+msgstr ""
+
+#: ang/form_processor/FormProcessorEditCtrl.html
+msgid ""
+"You can use retrieval of default data to create a form which already filled "
+"with existing data. For example if you have a form for updating mailing "
+"preference you want to the form to display the current preferences. To "
+"achieve this use the retrieval of default data."
 msgstr ""
 
 #: ang/form_processor/FormProcessorEditCtrl.html
 msgid "Save"
-msgstr ""
-
-#: ang/form_processor/FormProcessorEditCtrl.html
-#: ang/form_processor/OutputHandlerDialogCtrl.html
-#: ang/form_processor/actions/ActionDialogCtrl.html
-#: ang/form_processor/actions/ConditionDialogCtrl.html
-msgid "Save and close"
-msgstr ""
-
-#: ang/form_processor/FormProcessorEditCtrl.html
-#: ang/form_processor/FormProcessorExportCtrl.html
-#: ang/form_processor/OutputHandlerDialogCtrl.html
-#: ang/form_processor/actions/ActionDialogCtrl.html
-#: ang/form_processor/actions/ConditionDialogCtrl.html
-#: ang/form_processor/inputs/InputDialogCtrl.html
-msgid "Cancel"
-msgstr ""
+msgstr "Spara"
 
 #: ang/form_processor/FormProcessorEditCtrl.js
 msgid "Edit output handler"
@@ -447,10 +813,14 @@ msgstr ""
 
 #: ang/form_processor/FormProcessorListCtrl.html
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: ang/form_processor/FormProcessorListCtrl.html
 msgid "Revert to code"
+msgstr ""
+
+#: ang/form_processor/FormProcessorListCtrl.html
+msgid "Try out"
 msgstr ""
 
 #: ang/form_processor/FormProcessorListCtrl.html
@@ -461,7 +831,7 @@ msgstr ""
 
 #: ang/form_processor/FormProcessorListCtrl.html
 msgid "Enable"
-msgstr ""
+msgstr "Aktivera"
 
 #: ang/form_processor/FormProcessorListCtrl.html
 msgid "Disable"
@@ -503,6 +873,10 @@ msgid "Change and configure condition"
 msgstr ""
 
 #: ang/form_processor/actions/crmFormProcessorActions.html
+msgid "Change and configure delay"
+msgstr ""
+
+#: ang/form_processor/actions/crmFormProcessorActions.html
 #: ang/form_processor/config/crmFormProcessorSpecification.html
 #: ang/form_processor/inputs/InputDialogCtrl.html
 #: ang/form_processor/inputs/crmFormProcessorInputs.html
@@ -519,6 +893,10 @@ msgstr ""
 
 #: ang/form_processor/actions/crmFormProcessorActions.js
 msgid "Edit condition"
+msgstr ""
+
+#: ang/form_processor/actions/crmFormProcessorActions.js
+msgid "Edit delay"
 msgstr ""
 
 #: ang/form_processor/actions/crmFormProcessorActions.js
@@ -539,12 +917,8 @@ msgstr ""
 
 #: ang/form_processor/inputs/InputDialogCtrl.html
 msgid ""
-"WARNING: The name of the input is invalid (Only lowercase characters and _ "
-"are allowed)."
-msgstr ""
-
-#: ang/form_processor/inputs/InputDialogCtrl.html
-msgid "WARNING: The name of the input already exists."
+"WARNING: The name includes invalid characters or is already in use by "
+"another input."
 msgstr ""
 
 #: ang/form_processor/inputs/InputDialogCtrl.html
@@ -589,10 +963,47 @@ msgstr ""
 msgid "Output handler configuration"
 msgstr ""
 
+#: api/v3/FormProcessorInstance/Export.php
+msgid "To File"
+msgstr ""
+
+#: api/v3/FormProcessorInstance/Export.php
+msgid "If a file path is given, the JSON configuration will be written there."
+msgstr ""
+
+#: api/v3/FormProcessorInstance/Import.php
+msgid "Specification File"
+msgstr ""
+
+#: api/v3/FormProcessorInstance/Import.php
+msgid ""
+"If a file path is given, the JSON configuration will be imported from there"
+msgstr ""
+
 #: form_processor.php
 msgid "Automation"
 msgstr ""
 
 #: form_processor.php
 msgid "Form processors"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/RunFormProcessor.tpl
+msgid "Retrieve default data"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/RunFormProcessor.tpl
+msgid ""
+"With the retrieval of default data you can lookup existing data and then "
+"change it."
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/RunFormProcessor.tpl
+msgid ""
+"<strong>Danger!</strong> Using the form below might change actual data. Use "
+"it with care."
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/RunFormProcessor.tpl
+msgid "Result"
 msgstr ""
