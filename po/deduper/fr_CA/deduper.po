@@ -5,14 +5,14 @@
 # Translators:
 # Alain Rihs <alainrihs@sunrise.ch>, 2023
 # Guillaume Sorel <serviceclient@all-in-appli.com>, 2023
-# Usha Matisson <matisson@makoa.fr>, 2023
+# Usha Matisson, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: deduper\n"
 "POT-Creation-Date: 2023-02-10 05:02+0000\n"
-"Last-Translator: Usha Matisson <matisson@makoa.fr>, 2023\n"
-"Language-Team: French (Canada) (https://www.transifex.com/civicrm/teams/1905/fr_CA/)\n"
+"Last-Translator: Usha Matisson, 2023\n"
+"Language-Team: French (Canada) (https://app.transifex.com/civicrm/teams/1905/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -115,64 +115,64 @@ msgstr "Paires de noms de contact"
 
 #: CRM/Deduper/DAO/ContactNamePair.php
 msgid "Contact Name Pair"
-msgstr ""
+msgstr "Paire de nom de contact"
 
 #: CRM/Deduper/DAO/ContactNamePair.php
 #: CRM/Deduper/DAO/ContactNamePairFamily.php
 msgid "Unique ContactNamePair ID"
-msgstr ""
+msgstr "Id. unique ContactNamePair"
 
 #: CRM/Deduper/DAO/ContactNamePair.php
 #: CRM/Deduper/DAO/ContactNamePairFamily.php
 msgid "Name A"
-msgstr ""
+msgstr "Nom A"
 
 #: CRM/Deduper/DAO/ContactNamePair.php
 msgid "First name (this is the master, if that matters)"
-msgstr ""
+msgstr "Premier Nom (prioritaire)"
 
 #: CRM/Deduper/DAO/ContactNamePair.php
 #: CRM/Deduper/DAO/ContactNamePairFamily.php
 msgid "Name B"
-msgstr ""
+msgstr "Nom B"
 
 #: CRM/Deduper/DAO/ContactNamePair.php
 msgid ""
 "Second name (if one name is a nickname or a mis-spelling it will be this "
 "one)"
-msgstr ""
+msgstr "Deuxième nom (si c'est un surnom ou s'il est mal orthographié)"
 
 #: CRM/Deduper/DAO/ContactNamePair.php
 msgid "Is Name B a Nickname of Name A?"
-msgstr ""
+msgstr "Le Nom B est-il un surnom du Nom A ?"
 
 #: CRM/Deduper/DAO/ContactNamePair.php
 msgid "Is Name B Inferior to Name A?"
-msgstr ""
+msgstr "Le Nom B est-il la forme en minuscules du Nom A ?"
 
 #: CRM/Deduper/DAO/ContactNamePairFamily.php
 msgid "Contact Name Pair Families"
-msgstr ""
+msgstr "Famille de Nom de contacts (paires)"
 
 #: CRM/Deduper/DAO/ContactNamePairFamily.php
 msgid "Contact Name Pair Family"
-msgstr ""
+msgstr "Famille de Nom de contacts (paire)"
 
 #: CRM/Deduper/DAO/ContactNamePairFamily.php
 msgid "Family name (generally the anglicised options)"
-msgstr ""
+msgstr "Nom de famille"
 
 #: CRM/Deduper/DAO/ContactNamePairFamily.php
 msgid "Alternate name"
-msgstr ""
+msgstr "Nom alternatif"
 
 #: CRM/Deduper/DAO/ContactNamePairFamily.php
 msgid "Most common form?"
-msgstr ""
+msgstr "Forme la plus usitée ?"
 
 #: CRM/Deduper/DAO/ContactNamePairFamily.php
 msgid "Is this the most common way to write this name?"
-msgstr ""
+msgstr "Est-ce la façon la plus commune d'écrire le nom ?"
 
 #: CRM/Deduper/DAO/ContactNamePairFamily.php
 msgid "Is active?"
@@ -180,7 +180,7 @@ msgstr "Est actif ?"
 
 #: CRM/Deduper/DAO/ContactNamePairFamily.php
 msgid "Is this variant active?"
-msgstr ""
+msgstr "Cette variante est elle activée ?"
 
 #: CRM/Deduper/DAO/MergeConflict.php
 msgid "Merge Conflicts"
@@ -188,11 +188,11 @@ msgstr "Fusionner les conflits"
 
 #: CRM/Deduper/DAO/MergeConflict.php
 msgid "Merge Conflict"
-msgstr ""
+msgstr "Fusionner le conflit"
 
 #: CRM/Deduper/DAO/MergeConflict.php
 msgid "Unique MergeConflict ID"
-msgstr ""
+msgstr "Id. unique du MergeConflict"
 
 #: CRM/Deduper/DAO/MergeConflict.php CRM/Deduper/Form/Report/MergeConflict.php
 msgid "Contact 1"
@@ -200,7 +200,7 @@ msgstr "Contact 1"
 
 #: CRM/Deduper/DAO/MergeConflict.php
 msgid "FK to Contact"
-msgstr ""
+msgstr "FK vers Contact"
 
 #: CRM/Deduper/DAO/MergeConflict.php CRM/Deduper/Form/Report/MergeConflict.php
 msgid "Contact 2"
@@ -208,7 +208,7 @@ msgstr "Contact 2"
 
 #: CRM/Deduper/DAO/MergeConflict.php
 msgid "FK to Group"
-msgstr ""
+msgstr "FK vers Groupe"
 
 #: CRM/Deduper/DAO/MergeConflict.php CRM/Deduper/Form/Report/MergeConflict.php
 msgid "Conflicted Field"
@@ -241,6 +241,8 @@ msgstr "Mise à jour de %1 à la révision %2"
 #: ang/conflictBasic.aff.html
 msgid "Only resolve inferior names - e.g misspellings"
 msgstr ""
+"Résoudre uniquement les noms en minuscules - par exemple avec fautes "
+"d'orthographe"
 
 #: ang/conflictBasic.aff.html
 msgid "Save Name Pair"
@@ -272,7 +274,7 @@ msgstr "Courriel"
 
 #: ang/contactBasic.aff.html
 msgid "On hold"
-msgstr ""
+msgstr "Invalide"
 
 #: ang/contactBasic.aff.html
 msgid "Street Address"
@@ -305,7 +307,7 @@ msgstr "Mise à jour %1 %2 réussie"
 
 #: ang/dedupeSearchTasks/dedupeSearchTaskFlip.ctrl.js
 msgid "Names flipped"
-msgstr ""
+msgstr "Noms intervertis"
 
 #: ang/dedupeSearchTasks/dedupeSearchTaskFlip.ctrl.js
 msgid "An error occurred while attempting to update %1 %2."
@@ -317,7 +319,7 @@ msgstr "Erreur"
 
 #: ang/dedupeSearchTasks/dedupeSearchTaskFlip.html
 msgid "Flip the first/last names of %1 %2?"
-msgstr ""
+msgstr "Intervertir le premier / dernier noms de %1 %2 ?"
 
 #: ang/dedupeSearchTasks/dedupeSearchTaskFlip.html
 msgid "Updating %1 %2..."
@@ -329,7 +331,7 @@ msgstr "Annuler"
 
 #: ang/dedupeSearchTasks/dedupeSearchTaskFlip.html
 msgid "Flip %1"
-msgstr ""
+msgstr "Intervertir %1"
 
 #: ang/deduper/crmSearchSelector.js
 msgid "crm-search-selector"
@@ -381,7 +383,7 @@ msgstr "Trouver les doublons"
 
 #: ang/deduper/dupefindCntrl.html
 msgid "Are you sure you want to batch merge these contacts?"
-msgstr ""
+msgstr "Etes-vous sûrs de vouloir lancer la fusion en lot de ces contacts ?"
 
 #: ang/deduper/dupefindCntrl.html
 msgid "Batch Merge"
@@ -396,6 +398,8 @@ msgid ""
 "Bulk operation in progress - this could take a while.... enough time for you"
 " to stand up & do some stretches...."
 msgstr ""
+"L'opération en lot est en cours - cela peut prendre un bon moment... assez "
+"pour que vous fassiez un petit tour pour vous détendre..."
 
 #: ang/deduper/dupefindCntrl.html
 msgid "Go To Merge screen"
@@ -403,7 +407,7 @@ msgstr "Aller à l'écran de Fusion"
 
 #: ang/deduper/dupefindCntrl.html
 msgid "Duplicate pairs matching criteria"
-msgstr ""
+msgstr "Paires de doublons qui correspondent aux critères"
 
 #: ang/deduper/dupefindCntrl.html
 msgid "Contacts merged"
@@ -411,7 +415,7 @@ msgstr "Contacts fusionnés"
 
 #: ang/deduper/dupefindCntrl.html
 msgid "Skipped in automated merge attempt"
-msgstr ""
+msgstr "Ignoré lors de la tentative de fusion automatique"
 
 #: ang/deduper/dupefindCntrl.html
 msgid "Contacts marked as exceptions"
@@ -439,7 +443,7 @@ msgstr "Forcer la fusion"
 
 #: ang/deduper/mergeActions.html
 msgid "Example directive (merge-actions)"
-msgstr ""
+msgstr "exemple de directive (actions de fusion)"
 
 #: api/v3/Merge/Getcount.php api/v3/Merge/MarkDuplicateException.php
 msgid "CiviCRM Group"
@@ -459,11 +463,11 @@ msgstr "Contact non fusionnable"
 
 #: deduper.php
 msgid "Flip first/last name"
-msgstr ""
+msgstr "Intervertir le premier et le second nom"
 
 #: deduper.php
 msgid "Find matches using Rule : %1"
-msgstr ""
+msgstr "Correspondances trouvées utilisant la règle : %1"
 
 #: deduper.php
 msgid "Find duplicates for these contacts"
@@ -479,7 +483,7 @@ msgstr "Résolution de conflits de dédoublonnage"
 
 #: deduper.php
 msgid "Deduper Equivalent Names"
-msgstr ""
+msgstr "Equivalence de noms pour la fusion"
 
 #: settings/Dedupe.setting.php
 msgid "Yes/No fields where yes always wins"
@@ -487,11 +491,11 @@ msgstr "Champs Oui/Non dans lesquels oui gagne toujours"
 
 #: settings/Dedupe.setting.php
 msgid "Fields to resolve preferring YES"
-msgstr ""
+msgstr "Champ à résoudre (préférence) OUI"
 
 #: settings/Dedupe.setting.php
 msgid "Fields to resolve as values from preferred contact"
-msgstr ""
+msgstr "Champs à résoudre en tant que valeurs du contact préféré"
 
 #: settings/Dedupe.setting.php
 msgid "Fields to take from preferred contact"
@@ -502,6 +506,8 @@ msgid ""
 "When a conflict is to be resolved by taking the 'preferred contact's value' "
 "what criteria do we use."
 msgstr ""
+"Les critères utilisés quand un conflit est résolu par l'application des "
+"valeurs du contact préféré."
 
 #: settings/Dedupe.setting.php
 msgid "Criteria to determine which contact's data should be preferred?"
@@ -512,22 +518,28 @@ msgid ""
 "Fall back for preferred contact (e.g if criteria is most recent contributor "
 "& neither have)"
 msgstr ""
+"Critères à utiliser pour me contact préféré (par ex. critère si le "
+"contributeur est plus récent...)"
 
 #: settings/Dedupe.setting.php
 msgid ""
 "Criteria to fall back on to determine which contact's data should be "
 "preferred?"
 msgstr ""
+"Critères à utiliser pour déterminer quelles données de contact devraient "
+"être préférées ?"
 
 #: settings/Dedupe.setting.php
 msgid ""
 "If an option is selected then 2 contacts with equivalent names will be "
 "merged. (e.g Robert & Bob)"
 msgstr ""
+"Si une option est choisie 2 contacts au nom équivalent seront fusionnés (par"
+" ex. Alexandre & Alex)"
 
 #: settings/Dedupe.setting.php
 msgid "Resolution for contacts with known alternative names"
-msgstr ""
+msgstr "Résolution pour les contacts avec des noms alternatifs connus"
 
 #: settings/Dedupe.setting.php
 msgid ""
@@ -535,6 +547,10 @@ msgid ""
 "has, for example, 2 home emails. One would be moved to the highest priority "
 "available location"
 msgstr ""
+"Ordre de priorité de l'adresse. Ceci est utilisé pour résoudre les problèmes"
+" de données si un contact a, par exemple, deux courriels de type "
+"\"Travail\". L'un serait déplacé vers le type d'adresse disponible le plus "
+"prioritaire."
 
 #: settings/Dedupe.setting.php
 msgid "Priority order for locations"
@@ -543,32 +559,37 @@ msgstr "Ordre de priorité pour les adresses"
 #: settings/Dedupe.setting.php
 msgid "What method should be used to resolve email conflicts"
 msgstr ""
+"Quelle méthode devrait on utiliser pour résoudre les conflits d'adresse de "
+"courriel"
 
 #: settings/Dedupe.setting.php
 msgid "Method to resolve email conflicts?"
-msgstr ""
+msgstr "Méthode pour résoudre les conflits de courriel ?"
 
 #: settings/Dedupe.setting.php
 msgid "What method should be used to resolve phone conflicts"
 msgstr ""
+"Quelle méthode devrait on utiliser pour résoudre les conflits de téléphone"
 
 #: settings/Dedupe.setting.php
 msgid "Method to resolve phone conflicts?"
-msgstr ""
+msgstr "Méthode pour résoudre les conflits de téléphone ?"
 
 #: settings/Dedupe.setting.php
 msgid "What method should be used to resolve address conflicts"
-msgstr ""
+msgstr "Quelle méthode utiliser pour résoudre les conflits d'adresse"
 
 #: settings/Dedupe.setting.php
 msgid "Method to resolve address conflicts?"
-msgstr ""
+msgstr "Méthode pour résoudre les conflits d'adresse ?"
 
 #: settings/Dedupe.setting.php
 msgid ""
 "Custom tables that should be completely ignored (generally calculated fields"
 " such as summary fields)"
 msgstr ""
+"Tables de données personnalisées qui doivent être ignorées (en général les "
+"champs calculés comme \"summary fields\")"
 
 #: settings/Dedupe.setting.php
 msgid "Custom tables to skip"
