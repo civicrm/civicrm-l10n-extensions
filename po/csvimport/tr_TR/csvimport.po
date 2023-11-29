@@ -10,7 +10,7 @@ msgstr ""
 "POT-Creation-Date: 2023-01-27 19:21+0000\n"
 "PO-Revision-Date: 2014-06-16 12:30+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2023\n"
-"Language-Team: Turkish (http://www.transifex.com/civicrm/civicrm_extensions/language/tr/)\n"
+"Language-Team: Turkish (http://app.transifex.com/civicrm/civicrm_extensions/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -125,7 +125,7 @@ msgstr "Şunun birleşimi ile eşleştir"
 
 #: CRM/Csvimport/Import/Form/MapField.php
 msgid "Save this field mapping"
-msgstr "Bu alan eşleşmesini kaydet"
+msgstr "Bu alan eşleşmesi kaydedilsin"
 
 #: CRM/Csvimport/Import/Form/MapField.php
 msgid "Name"
@@ -137,7 +137,7 @@ msgstr "Açıklama"
 
 #: CRM/Csvimport/Import/Form/MapField.php
 msgid "Update this field mapping"
-msgstr "Bu alan eşleşmesini güncelle"
+msgstr "Bu alan eşleşmesi güncellensin"
 
 #: CRM/Csvimport/Import/Form/MapField.php
 msgid "Save as a new field mapping"
@@ -184,74 +184,74 @@ msgid ""
 "Enter the character used to separate data columns in your import file. By default, the field\n"
 "  will populate with the separator defined in your global settings. Common values include a comma, semicolon,\n"
 "  or pipe character. To import a tab separated file, enter \"tab\" (without quotes) in the field."
-msgstr ""
+msgstr "İçe aktarma dosyanızda veri sütunlarını ayırmak için kullanılan karakteri yazın. Varsayılan olarak \n  alanda, genel ayarlarınızda tanımlanmış ayraç görüntülenir. Genellikle virgül, noktalı virgül ya da dikey çizgi karakteri kullanılır.\n   Sekmeyle ayrılmış bir dosyayı içe aktarmak için alana \"tab\" (tırnak işaretleri olmadan) yazın."
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid ""
 "The API Import Wizard allows you to easily upload data against any API "
 "create method from other applications into CiviCRM."
-msgstr ""
+msgstr "API içe aktarma yardımcısı, diğer uygulamalardan herhangi bir API oluşturma yöntemine karşıllık gelen verileri CiviCRM üzerine kolayca yüklemenizi sağlar."
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid ""
 "Files to be imported must be in the 'comma-separated-values' format (CSV) "
 "and must contain data needed to match the data to an existing record in your"
 " CiviCRM database."
-msgstr ""
+msgstr "İçe aktarılacak dosyalar 'virgül ile ayrılmış değerler' biçiminde (CSV) olmalı ve verileri CiviCRM veri tabanınızda bulunan bir kayıtla eşleştirmek için gerekli verileri içermelidir."
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid ""
 "Choose 'Set this in CSV' to use 'entity_table' field in next step. This "
 "allows you to import 'Notes' to multiple entities in same import."
-msgstr ""
+msgstr "Bir sonraki adımda 'entity_table' alanını kullanmak için 'Bunu CSV içinde ayarla' seçeneğini seçin. Bu seçenek, 'Notları' tek içe aktarma işleminde birden çok varlığa aktarmanızı sağlar."
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid ""
 "Selecting an entity here will allow unique fields of this entity to be used "
 "in place of 'id'. Eg: External id for 'Contact'. (note: this will hide "
 "'entity_table' field in next step)"
-msgstr ""
+msgstr "Burada bir varlığın seçilmesi, bu varlığın benzersiz alanlarının 'id' yerine kullanılmasını sağlar. Örneğin: 'Kişi' için dış kimlik. Not: bu seçenek, sonraki adımda 'entity_table' alanını gizler."
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid "File format must be comma-separated-values (CSV)."
-msgstr ""
+msgstr "Dosya biçimi virgül ile ayrılmış değerler (CSV) olmalıdır."
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid "Maximum Upload File Size: %1 MB"
-msgstr ""
+msgstr "Yüklenebilecek en büyük dosya boyutu: %1 MB"
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid ""
 "Check this box if the first row of your file consists of field names "
 "(Example: \"Contact ID\", \"Participant Role\")."
-msgstr ""
+msgstr "Dosyanızın ilk satırında alan adları varsa (\"İlgili kişi\", \"Katılımcı rolü\" gibi) bu kutuyu işaretleyin."
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid ""
 "Allow updating an existing entity using unique fields to match (Eg. "
 "external_id). By default updating is possible if 'id' is used."
-msgstr ""
+msgstr "Eşleşecek eşsiz alanlar (external_id gibi) kullanarak var olan bir varlığın güncelleyebilirsiniz. 'id' kullanılırsa, varsayılan olarak güncellenebilir."
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid ""
 "Ignore letter-case when mapping values to option fields (Eg. Individual "
 "Prefix). Note that this may produce unexpected results if you have multiple "
 "option names with same name like Ms. and ms."
-msgstr ""
+msgstr "Değerleri seçenek alanları ile eşleştirirken büyük/küçük harf uyumu dikkate alınmaz (Bireysel ön ek gibi). Aynı ad için bayan ve hanım gibi birden fazla seçenek adınız varsa, bu durumun beklenmeyen sonuçlara yol açabileceğini unutmayın."
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid "Select a Different Field Mapping"
-msgstr ""
+msgstr "Farklı bir alan eşleşmesi seçin"
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid ""
 "Load Saved Field\n"
 "            Mapping"
-msgstr ""
+msgstr "Kaydedilmiş alan \n            eşlemesi yüklensin"
 
 #: templates/CRM/Csvimport/Import/Form/DataSource.tpl
 msgid "Select Saved Mapping, or leave blank to create a new mapping."
-msgstr ""
+msgstr "Kaydedilmiş alan eşleşmesini seçin ya da yeni bir eşleşme oluşturmak için boş bırakın."
 
 #: templates/CRM/Csvimport/Import/Form/MapField.tpl
 msgid ""
@@ -259,13 +259,13 @@ msgid ""
 "select the matching CiviCRM database fields from the drop-down lists in the "
 "right-hand column. Select '- do not import -' for any columns in the import "
 "file that you want ignored."
-msgstr ""
+msgstr "İçe aktarma dosyanızın aşağıda görüntülenen ilk 2 satırının değerlerini inceleyin ve sağ sütundaki açılır listelerden eşleşecek CiviCRM veri tabanı alanlarını seçin. İçe aktarma dosyasında yok sayılmasını istediğiniz tüm sütunlar için '- İçe aktarılmasın -' seçeneğini kullanın."
 
 #: templates/CRM/Csvimport/Import/Form/MapField.tpl
 msgid ""
 "Click 'Load Saved Field Mapping' if data has been previously imported from the same source. You can then\n"
 "      select the saved import mapping setup and load it automatically."
-msgstr ""
+msgstr "Veriler daha önce aynı kaynaktan içe aktarıldıysa, \"Kaydedilmiş alan eşleşmesi yüklensin\" seçeneğini tıklayın. \n      Ardından kaydedilmiş eşleşmeyi seçebilir ve otomatik olarak yükleyebilirsiniz."
 
 #: templates/CRM/Csvimport/Import/Form/MapField.tpl
 msgid ""
@@ -273,88 +273,88 @@ msgid ""
 " check 'Save this field mapping' at the bottom of the page before "
 "continuing. The saved mapping can then be easily reused the next time data "
 "is imported."
-msgstr ""
+msgstr "Aynı veri kaynağından ek veriler aktarıyor olabileceğinizi düşünüyorsanız, ilerlemeden önce sayfanın altındaki 'Bu alan eşlemesi kaydedilsin' seçeneğini işaretleyin. Kaydedilen eşleşme, gelecekteki veri içe aktarma işlemlerinde kolayca yeniden kullanılabilir."
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 msgid ""
 "The information below previews the results of importing your data in "
 "CiviCRM. Review the totals to ensure that they represent your expected "
 "results."
-msgstr ""
+msgstr "Aşağıda, verilerinizi CiviCRM üzerine içe aktarmanın sonuçlarının ön izleyebilirsiniz. Gözden geçirerek, toplamların beklediğiniz sonuçları verdiğinden emin olun."
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 msgid ""
 "CiviCRM has detected invalid data or formatting errors in %1 records. If you continue, these records will be skipped. OR, you can download a file with just these problem records -\n"
 "          <a href='%2'>Download Errors</a>\n"
 "          . Then correct them in the original import file, cancel this import and begin again at step 1."
-msgstr ""
+msgstr "CiviCRM, %1 kayıtta geçersiz veri veya biçimlendirme sorunları buldu. İlerlerseniz bu kayıtlar atlayabilirsiniz YA DA yalnızca bu sorunlu kayıtların bulunduğu bir dosyayı indirebilirsiniz.\n          <a href='%2'>Sorunlu kayıtları indirin</a>\n          . Ardından bu kayıtları özgün içe aktarma dosyasında düzeltin. Bu içe aktarma işlemini iptal edin ve 1. adımdan yeniden başlayın."
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 msgid ""
 "CiviCRM has detected %1 records with conflicting transaction ids within this data file. If you continue, these records will be skipped. OR, you can download a file with just these problem records -\n"
 "          <a href='%2'>Download Conflicts</a>\n"
 "          . Then correct them in the original import file, cancel this import and begin again at step 1."
-msgstr ""
+msgstr "CiviCRM, bu veri dosyasında %1 kayıtta çakışan hesap hareketi kimliği buldu. İlerleyerek bu kayıtları atlayabilirsiniz YA DA yalnızca bu sorunlu kayıtların bulunduğu bir dosyayı indirebilirsiniz.\n          <a href='%2'>Çakışan kayıtları indirin</a>\n          . Ardından bu kayıtları özgün içe aktarma dosyasında düzeltin. Bu içe aktarma işlemini iptal edin ve 1. adımdan yeniden başlayın."
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 msgid "Click 'Import Now' if you are ready to proceed."
-msgstr ""
+msgstr "İlerlemeye hazır olduğunuzda 'İçe aktar' üzerine tıklayın."
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Total Rows"
-msgstr ""
+msgstr "Toplam satır sayısı"
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 msgid "Total rows (records) in uploaded file."
-msgstr ""
+msgstr "Yüklenen dosyadaki toplam satır (kayıt) sayısı."
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 msgid "Rows with Errors"
-msgstr ""
+msgstr "Sorunlu satırlar"
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid ""
 "Rows with invalid data in one or more fields. These rows will be skipped "
 "(not imported)."
-msgstr ""
+msgstr "Bir ya da birkaç alanda geçersiz veri bulunan satırlar. Bu satırlar atlanacak (içe aktarılmayacak)."
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Download Errors"
-msgstr ""
+msgstr "Sorunlu kayıtları indir"
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 msgid "Conflicting Rows"
-msgstr ""
+msgstr "Çakışan satırlar"
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 msgid ""
 "Rows with conflicting transaction ids within this file. These rows will be "
 "skipped (not imported)."
-msgstr ""
+msgstr "Bu dosyada çakışan hesap hareketi kimliği bulunan satırlar. Bu satırlar atlanacak (içe aktarılmayacak)."
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Download Conflicts"
-msgstr ""
+msgstr "Çakışan kayıtları indir"
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 msgid "Valid Rows"
-msgstr ""
+msgstr "Geçerli satır sayısı"
 
 #: templates/CRM/Csvimport/Import/Form/Preview.tpl
 msgid "Total rows to be imported."
-msgstr ""
+msgstr "İçe aktarılacak toplam satır sayısı"
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Import has completed successfully."
-msgstr ""
+msgstr "İçe aktarma işlemi tamamlandı."
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "The information below summarizes the results."
-msgstr ""
+msgstr "Sonuç bilgilerini aşağıda görebilirsiniz."
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid ""
@@ -363,15 +363,15 @@ msgid ""
 msgid_plural ""
 "CiviCRM has detected mismatched participant IDs. These records have not been"
 " Updated."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "CiviCRM, eşleşmeyen bir katılımcı kimliği buldu. Bu kayıtlar güncellenmedi."
+msgstr[1] "CiviCRM, eşleşmeyen katılımcı kimlikleri buldu. Bu kayıtlar güncellenmedi."
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid ""
 "You can\n"
 "          <a href=\"%1\">Download Mismatched Participants</a>\n"
 "          . You may then correct them, and import the new file with the corrected data."
-msgstr ""
+msgstr "Önce\n          <a href=\"%1\">Eşleşmeyen katılımcıları indirin</a>\n          . Ardından bunları özgün dosyada düzeltin ve yeniden içe aktarın."
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid ""
@@ -380,15 +380,15 @@ msgid ""
 msgid_plural ""
 "CiviCRM has detected invalid data and/or formatting errors in %count "
 "records. These records have not been imported."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "CiviCRM, bir kayıtta geçersiz veri ve/veya biçimlendirme sorunları buldu. Bu kayıtlar içe aktarılmadı."
+msgstr[1] "CiviCRM, %1count kayıtta geçersiz veri ve/veya biçimlendirme sorunları buldu. Bu kayıtlar içe aktarılmadı."
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid ""
 "You can\n"
 "          <a href=\"%1\">Download Errors</a>\n"
 "          . You may then correct them, and import the new file with the corrected data."
-msgstr ""
+msgstr "Önce\n          <a href=\"%1\">Sorunlu kayıtları indirin</a>\n          . Ardından bunları özgün dosyada düzeltin ve yeniden içe aktarın."
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid ""
@@ -399,15 +399,15 @@ msgid_plural ""
 "CiviCRM has detected %count records with conflicting transaction IDs within "
 "this data file or relative to existing participant records. These records "
 "have not been imported."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "CiviCRM, bu veri dosyasında ya da var olan ilişkili katılımcı kayıtlarında bir kayıtta çakışan hesap hareketi kimlikleri buldu. Bu kayıtlar içe aktarılmadı."
+msgstr[1] "CiviCRM, bu veri dosyasında ya da var olan ilişkili katılımcı kayıtlarında %1count kayıtta çakışan hesap hareketi kimlikleri buldu. Bu kayıtlar içe aktarılmadı."
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid ""
 "You can\n"
 "          <a href=\"%1\">Download Conflicts</a>\n"
 "          . You may then review these records to determine if they are actually conflicts, and correct the transaction IDs for those that are not."
-msgstr ""
+msgstr "Şimdi\n          <a href=\"%1\">Çakışmaları indirebilir</a>\n          ve bu kayıtları inceleyerek gerçekten çakışıyor mu diye bakabilir, çakışmıyorlarsa hesap hareketi kimliklerini düzeltebilirsiniz."
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid ""
@@ -416,60 +416,60 @@ msgid ""
 msgid_plural ""
 "CiviCRM has detected %count records which are duplicates of existing CiviCRM"
 " participant records."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "CiviCRM, var olan CiviCRM katılımcı kayıtlarının kopyası olan bir kayıt buldu."
+msgstr[1] "CiviCRM, var olan CiviCRM katılımcı kayıtlarının kopyası olan %count kayıt buldu."
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid ""
 "You can\n"
 "          <a href=\"%1\">Download Duplicates</a>\n"
 "          . You may then review these records to determine if they are actually duplicates, and correct the transaction IDs for those that are not."
-msgstr ""
+msgstr "Şimdi\n          <a href=\"%1\">Çift kayıtları indirebilir</a>\n          ve bu kayıtları inceleyerek gerçekten çift mi diye bakabilir, çift değilse hesap hareketi kimliklerini düzeltebilirsiniz."
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Total rows (participant records) in uploaded file."
-msgstr ""
+msgstr "Yüklenen dosyadaki toplam satır (katılımcı kaydı) sayısı."
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Invalid Rows (skipped)"
-msgstr ""
+msgstr "Geçersiz satır sayısı (atlandı)"
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Mismatched Rows (skipped)"
-msgstr ""
+msgstr "Eşleşmeyen satır sayısı (atlandı)"
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Rows with mismatched participant IDs... (NOT updated)."
-msgstr ""
+msgstr "Eşleşmeyen katılımcı kimlikleri bulunan satırlar... (güncellenMEdi)."
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Download Mismatched participants"
-msgstr ""
+msgstr "Eşleşmeyen katılımcıları indir"
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Conflicting Rows (skipped)"
-msgstr ""
+msgstr "Çakışan satırlar (atlandı)"
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Rows with conflicting transaction IDs (NOT imported)."
-msgstr ""
+msgstr "Çakışan hesap hareketi kimlikleri bulunan satırlar (içe aktarılMAdı)."
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Duplicate Rows"
-msgstr ""
+msgstr "Çift satırlar"
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Rows which are duplicates of existing CiviCRM records."
-msgstr ""
+msgstr "Var olan CiviCRM kayıtları ile çift oluşturan satırlar."
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Download Duplicates"
-msgstr ""
+msgstr "Çift kayıtları indir"
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Records Imported"
-msgstr ""
+msgstr "İçe aktarılan kayıtlar"
 
 #: templates/CRM/Csvimport/Import/Form/Summary.tpl
 msgid "Rows imported successfully."
-msgstr ""
+msgstr "Satırlar içe aktarıldı."
