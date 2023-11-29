@@ -1,4 +1,4 @@
-# Copyright CiviCRM LLC (c) 2004-2014
+# Copyright CiviCRM LLC (c) 2004-2015
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
@@ -6,31 +6,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2014-08-05 05:30-0700\n"
+"POT-Creation-Date: 2018-11-15 19:44+0000\n"
 "PO-Revision-Date: 2013-10-08 17:09+0000\n"
-"Language-Team: Portuguese (Portugal) (http://www.transifex.com/projects/p/civicrm_extensions/language/pt_PT/)\n"
+"Language-Team: Portuguese (Portugal) (http://app.transifex.com/civicrm/civicrm_extensions/language/pt_PT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt_PT\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: api/v3/VolunteerNeed.php CRM/Volunteer/DAO/Need.php
-msgid "Flexible"
-msgstr ""
-
-#: CRM/Volunteer/DAO/Need.php CRM/Volunteer/DAO/Project.php
-msgid "Enabled"
-msgstr ""
-
-#: CRM/Volunteer/Form/Volunteer.php volunteer.php
-msgid "Volunteers"
-msgstr ""
-
-#: CRM/Volunteer/Form/VolunteerReport.php
-#: CRM/Volunteer/Form/VolunteerSignUp.php
-msgid "Volunteer Role"
-msgstr ""
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: CRM/Volunteer/BAO/Need.php
 msgid "I'm Flexible"
@@ -48,6 +31,10 @@ msgstr ""
 msgid "Duration"
 msgstr ""
 
+#: CRM/Volunteer/DAO/Need.php api/v3/VolunteerNeed.php
+msgid "Flexible"
+msgstr ""
+
 #: CRM/Volunteer/DAO/Need.php
 msgid "Quantity"
 msgstr ""
@@ -59,6 +46,10 @@ msgstr ""
 #: CRM/Volunteer/DAO/Need.php templates/CRM/Volunteer/Form/Log.tpl
 #: templates/CRM/Volunteer/Form/Manage/Define.tpl
 msgid "Role"
+msgstr ""
+
+#: CRM/Volunteer/DAO/Need.php CRM/Volunteer/DAO/Project.php
+msgid "Enabled"
 msgstr ""
 
 #: CRM/Volunteer/DAO/Project.php
@@ -75,11 +66,11 @@ msgstr ""
 
 #: CRM/Volunteer/Form/Log.php
 msgid "Save"
-msgstr ""
+msgstr "Gravar"
 
 #: CRM/Volunteer/Form/Log.php
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: CRM/Volunteer/Form/Log.php
 msgid "-select-"
@@ -93,8 +84,7 @@ msgstr ""
 msgid "Volunteer hours have been logged."
 msgstr ""
 
-#: CRM/Volunteer/Form/Log.php /js/apps/define/define_views.js
-#: /js/apps/volunteer_app.js js/apps/define/define_views.js
+#: CRM/Volunteer/Form/Log.php js/apps/define/define_views.js
 #: js/apps/volunteer_app.js
 msgid "Saved"
 msgstr ""
@@ -105,6 +95,10 @@ msgstr ""
 
 #: CRM/Volunteer/Form/Volunteer.php
 msgid "Select Beneficiary"
+msgstr ""
+
+#: CRM/Volunteer/Form/Volunteer.php volunteer.php
+msgid "Volunteers"
 msgstr ""
 
 #: CRM/Volunteer/Form/VolunteerReport.php
@@ -180,6 +174,11 @@ msgid "Activity Subject"
 msgstr ""
 
 #: CRM/Volunteer/Form/VolunteerReport.php
+#: CRM/Volunteer/Form/VolunteerSignUp.php
+msgid "Volunteer Role"
+msgstr ""
+
+#: CRM/Volunteer/Form/VolunteerReport.php
 msgid "Time Scheduled in Minutes"
 msgstr ""
 
@@ -217,10 +216,14 @@ msgstr ""
 
 #: CRM/Volunteer/Form/VolunteerSignUp.php
 msgid "Submit"
-msgstr ""
+msgstr "Submeter"
 
 #: CRM/Volunteer/Form/VolunteerSignUp.php
 msgid "You are scheduled to volunteer. Thank you!"
+msgstr ""
+
+#: CRM/Volunteer/Upgrader/Base.php
+msgid "Upgrade %1 to revision %2"
 msgstr ""
 
 #: CRM/Volunteer/Upgrader.php
@@ -235,141 +238,76 @@ msgstr ""
 msgid "No-show"
 msgstr ""
 
-#: volunteer.php
-msgid "Getting Started:"
+#: js/apps/assign/assign_views.js
+#: templates/CRM/Volunteer/Form/Manage/Assign.tpl
+msgid "Available Volunteers"
 msgstr ""
 
-#: volunteer.php
-msgid "Read <a href=\"%1\" target=\"_blank\">documentation</a>"
+#: js/apps/assign/assign_views.js
+msgid "Copied"
 msgstr ""
 
-#: volunteer.php
-msgid "Ask questions on the <a href=\"%1\" target=\"_blank\">forum</a>"
+#: js/apps/assign/assign_views.js
+msgid "%1 More Needed"
 msgstr ""
 
-#: volunteer.php
-msgid "Configure <a href=\"%1\" target=\"_blank\">volunteer roles</a>"
+#: js/apps/assign/assign_views.js
+msgid "%1 Needed"
 msgstr ""
 
-#: volunteer.php
-msgid ""
-"Enable volunteer management for one or more <a href=\"%1\" "
-"target=\"_blank\">events</a>"
+#: js/apps/assign/assign_views.js
+msgid "None"
 msgstr ""
 
-#: volunteer.php
-msgid "CiviVolunteer Installed"
+#: js/apps/assign/assign_views.js js/apps/volunteer_app.js
+#: templates/CRM/Volunteer/Form/Manage/Assign.tpl
+#: templates/CRM/Volunteer/Form/Manage/Define.tpl
+msgid "Loading"
 msgstr ""
 
-#: volunteer.php
-msgid "Volunteer Now"
+#: js/apps/assign/assign_views.js
+msgid "%1 has been created."
 msgstr ""
 
-#: volunteer.php
-msgid "CiviVolunteer"
+#: js/apps/assign/assign_views.js
+msgid "Contact Saved"
 msgstr ""
 
-#: volunteer.php
-msgid ""
-"Your extension resource url is not configured correctly. CiviVolunteer "
-"cannot work without this setting."
+#: js/apps/assign/assign_views.js
+msgid "Delete Volunteer"
 msgstr ""
 
-#: volunteer.php
-msgid "Correct the problem at <a href=\"%1\">Settings - Resource URLs</a>."
+#: js/apps/assign/assign_views.js
+msgid "Remove %1 from %2?"
 msgstr ""
 
-#: volunteer.php
-msgid "Error"
-msgstr ""
-
-#: /js/apps/define/define_views.js js/apps/define/define_views.js
+#: js/apps/define/define_views.js
 msgid ""
 "There is currently %count volunteer assigned to this need. The volunteer's "
 "activity history will be preserved, but they will be disconnected from this "
 "shift."
 msgstr ""
 
-#: /js/apps/define/define_views.js js/apps/define/define_views.js
+#: js/apps/define/define_views.js
 msgid ""
 "There is currently %1 volunteer assigned to this need. The volunteer's "
 "activity history will be preserved, but they will be disconnected from this "
 "shift."
 msgstr ""
 
-#: /js/apps/define/define_views.js js/apps/define/define_views.js
+#: js/apps/define/define_views.js
 msgid "There are currently %1 volunteers assigned to this need."
 msgstr ""
 
-#: /js/apps/define/define_views.js js/apps/define/define_views.js
+#: js/apps/define/define_views.js
 msgid ""
 "There are currently %1 volunteers assigned to this need. The volunteers' "
 "activity histories will be preserved, but they will be disconnected from "
 "this shift."
 msgstr ""
 
-#: /js/apps/define/define_views.js js/apps/define/define_views.js
+#: js/apps/define/define_views.js
 msgid "Delete %1"
-msgstr ""
-
-#: /js/apps/volunteer_app.js /js/apps/assign/assign_views.js
-#: js/apps/volunteer_app.js js/apps/assign/assign_views.js
-#: templates/CRM/Volunteer/Form/Manage/Assign.tpl
-#: templates/CRM/Volunteer/Form/Manage/Define.tpl
-msgid "Loading"
-msgstr ""
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-#: templates/CRM/Volunteer/Form/Manage/Assign.tpl
-msgid "Available Volunteers"
-msgstr ""
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-msgid "Copied"
-msgstr ""
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-msgid "%1 More Needed"
-msgstr ""
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-msgid "%1 Needed"
-msgstr ""
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-msgid "None"
-msgstr ""
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-msgid "%1 has been created."
-msgstr ""
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-msgid "Contact Saved"
-msgstr ""
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-msgid "Delete Volunteer"
-msgstr ""
-
-#: /js/apps/assign/assign_views.js js/apps/assign/assign_views.js
-msgid "Remove %1 from %2?"
-msgstr ""
-
-#: CRM/Volunteer/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr ""
-
-#: CRM/Volunteer/Upgrader.php
-msgid "Process first step"
-msgstr ""
-
-#: CRM/Volunteer/Upgrader.php
-msgid "Process second step"
-msgstr ""
-
-#: CRM/Volunteer/Upgrader.php
-msgid "Upgrade Batch (%1 => %2)"
 msgstr ""
 
 #: templates/CRM/Volunteer/Form/Log.tpl
@@ -435,7 +373,7 @@ msgstr ""
 
 #: templates/CRM/Volunteer/Form/Manage/Assign.tpl
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 #: templates/CRM/Volunteer/Form/Manage/Assign.tpl
 msgid "Email"
@@ -586,4 +524,52 @@ msgstr ""
 
 #: templates/CRM/Volunteer/Form/Volunteer.tpl
 msgid "Enable or disable volunteer management for this event."
+msgstr ""
+
+#: volunteer.php
+msgid "Getting Started:"
+msgstr ""
+
+#: volunteer.php
+msgid "Read <a href=\"%1\" target=\"_blank\">documentation</a>"
+msgstr ""
+
+#: volunteer.php
+msgid "Ask questions on the <a href=\"%1\" target=\"_blank\">forum</a>"
+msgstr ""
+
+#: volunteer.php
+msgid "Configure <a href=\"%1\" target=\"_blank\">volunteer roles</a>"
+msgstr ""
+
+#: volunteer.php
+msgid ""
+"Enable volunteer management for one or more <a href=\"%1\" "
+"target=\"_blank\">events</a>"
+msgstr ""
+
+#: volunteer.php
+msgid "CiviVolunteer Installed"
+msgstr ""
+
+#: volunteer.php
+msgid "Volunteer Now"
+msgstr ""
+
+#: volunteer.php
+msgid "CiviVolunteer"
+msgstr ""
+
+#: volunteer.php
+msgid ""
+"Your extension resource url is not configured correctly. CiviVolunteer "
+"cannot work without this setting."
+msgstr ""
+
+#: volunteer.php
+msgid "Correct the problem at <a href=\"%1\">Settings - Resource URLs</a>."
+msgstr ""
+
+#: volunteer.php
+msgid "Error"
 msgstr ""
