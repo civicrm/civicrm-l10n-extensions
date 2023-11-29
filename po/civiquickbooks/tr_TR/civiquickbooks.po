@@ -4,14 +4,14 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Mathieu Lu <mathieu@bidon.ca>, 2022
-# Kaya Zeren <kayazeren@gmail.com>, 2022
+# Kaya Zeren <kayazeren@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: civiquickbooks\n"
 "POT-Creation-Date: 2023-01-27 19:23+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2022\n"
-"Language-Team: Turkish (https://www.transifex.com/civicrm/teams/1905/tr/)\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2023\n"
+"Language-Team: Turkish (https://app.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,28 +23,32 @@ msgid ""
 "Matches QBO Contact %1, which is already synced to %2 (%3). Deduplication is"
 " required."
 msgstr ""
+"Zaten %2 (%3) ile eşitlenmiş olan QBO kişisi %1 ile eşleşiyor. Çift kaydın "
+"teke indirilmesi gerekli."
 
 #: CRM/Civiquickbooks/Contact.php
 msgid "Failed to store "
-msgstr ""
+msgstr "Kaydedilemedi"
 
 #: CRM/Civiquickbooks/Contact.php
 msgid " with error "
-msgstr ""
+msgstr "Hata:"
 
 #: CRM/Civiquickbooks/Contact.php
 msgid "Contact Pull failed"
-msgstr ""
+msgstr "Kişi alınamadı"
 
 #: CRM/Civiquickbooks/Contact.php
 msgid "Failed to push Contact: %1 (AccountsContact: %2) with error: %3"
-msgstr ""
+msgstr "Kişi gönderilemedi: %1 (Hesap kişisi: %2). Hata: %3"
 
 #: CRM/Civiquickbooks/Contact.php
 msgid ""
 "Not all contacts were saved:\n"
 "  "
 msgstr ""
+"Tüm kişiler kaydedilemedi:\n"
+"  "
 
 #: CRM/Civiquickbooks/Form/Settings.php
 msgid "Submit"
@@ -52,55 +56,59 @@ msgstr "Gönder"
 
 #: CRM/Civiquickbooks/Invoice.php
 msgid "AccountInvoice object for %1 is empty"
-msgstr ""
+msgstr "%1 için AccountInvoice nesnesi boş"
 
 #: CRM/Civiquickbooks/Invoice.php
 msgid ""
 "Failed to push Contribution: %1 (AccountInvoice: %3) Invoice: %4 with error:"
 " %2."
-msgstr ""
+msgstr "Katkı gönderilemedi: %1 (AccountInvoice: %3) Fatura: %4. Hata: %2."
 
 #: CRM/Civiquickbooks/Invoice.php
 msgid "Not all records were saved: "
-msgstr ""
+msgstr "Tüm kayıtlar kaydedilemedi: "
 
 #: CRM/Civiquickbooks/Invoice.php
 msgid ""
 "Failed to pull Contribution: %1 (AccountInvoice: %4) for QBOInvoice: %2 with"
 " error: \"%3\".  Invoice pull failed."
-msgstr ""
+msgstr "Katkı alınamadı: %1 (AccountInvoice: %4) QBOInvoice: %2. Hata: %3."
 
 #: CRM/Civiquickbooks/Invoice.php
 msgid ""
 "No matching QBOItem for FinancialType %2 \"Income Account is\": Accounting "
 "Code: %1. Error: %3"
 msgstr ""
+"%2 mali türü ile eşleşen QBOItem bulunamadı \"Gelir hesabı\": Muhasebe kodu:"
+" %1. Hata: %3"
 
 #: CRM/Civiquickbooks/Invoice.php
 msgid ""
 "No matching QBOTaxCode for FinancialType %2 \"Sales Tax Account is\": "
 "Accounting Code: %1. Error: %3"
 msgstr ""
+"%2 mali türü ile eşleşen QBOTaxCode bulunamadı \"Satış vergisi hesabı\": "
+"Muhasebe kodu: %1. Hata: %3"
 
 #: CRM/Civiquickbooks/Invoice.php
 msgid "Error getting Invoice generation setting %1"
-msgstr ""
+msgstr "%1 fatura oluşturma ayarı alınırken sorun çıktı"
 
 #: CRM/Civiquickbooks/Invoice.php
 msgid "Error creating Invoice for %1: %2"
-msgstr ""
+msgstr "%1 için fatura oluşturulurken sorun çıktı: %2"
 
 #: civiquickbooks.php settings/civiquickbooks.setting.php
 msgid "QuickBooks"
-msgstr ""
+msgstr "QuickBooks"
 
 #: civiquickbooks.php
 msgid "Quickbooks Settings"
-msgstr ""
+msgstr "Quickbooks ayarları"
 
 #: civiquickbooks.php
 msgid "Synchronize contacts"
-msgstr ""
+msgstr "Kişileri eşitle"
 
 #: civiquickbooks.php
 msgid ""
@@ -108,30 +116,33 @@ msgid ""
 "QuickBooks application</a> to continue syncing contacts and contributions "
 "updates to QuickBooks."
 msgstr ""
+"QuickBooks yenileme kodunun süresi dolmuş. Kişileri ve katkı "
+"güncellemelerini QuickBooks ile eşitlemeyi sürdürmek için <a "
+"href=\"%1\">QuickBooks uygulamasına erişiminizi yeniden doğrulayın</a>."
 
 #: civiquickbooks.php
 msgid "QuickBooks Token Expired"
-msgstr ""
+msgstr "QuickBooks kodunun süresi dolmuş"
 
 #: civiquickbooks.php
 msgid "Civi QuickBooks"
-msgstr ""
+msgstr "Civi QuickBooks"
 
 #: civiquickbooks.php
 msgid "Contact Sync Status"
-msgstr ""
+msgstr "Kişi eşitleme durumu"
 
 #: civiquickbooks.php
 msgid "Contact Sync Errors"
-msgstr ""
+msgstr "Kişi eşitleme sorunları"
 
 #: civiquickbooks.php
 msgid "Invoice Sync Errors"
-msgstr ""
+msgstr "Fatura eşitleme sorunları"
 
 #: settings/civiquickbooks.setting.php
 msgid "QuickBooks Online Settings"
-msgstr ""
+msgstr "QuickBooks çevrim içi ayarları"
 
 #: settings/civiquickbooks.setting.php
 msgid "Client ID"
@@ -139,7 +150,7 @@ msgstr "Müşteri kimliği"
 
 #: settings/civiquickbooks.setting.php
 msgid "Initial client id retrieved from quickbooks website"
-msgstr ""
+msgstr "QuickBooks sitesinden alabileceğiniz ilk müşteri kodu"
 
 #: settings/civiquickbooks.setting.php
 msgid "Client Secret"
@@ -147,85 +158,87 @@ msgstr "Müşteri parolası"
 
 #: settings/civiquickbooks.setting.php
 msgid "Initial client secret retrieved from quickbooks website"
-msgstr ""
+msgstr "QuickBooks sitesinden alabileceğiniz ilk müşteri parolası"
 
 #: settings/civiquickbooks.setting.php
 msgid "Environment"
-msgstr ""
+msgstr "Ortam"
 
 #: settings/civiquickbooks.setting.php
 msgid "Development or Production mode."
-msgstr ""
+msgstr "Çalışma ortamını geliştirme ya da üretim olarak seçin."
 
 #: settings/civiquickbooks.setting.php
 msgid "Use Development to test with your sandbox."
-msgstr ""
+msgstr "Kum havuzunda denemeler yapmak için geliştirme kipini seçin."
 
 #: settings/civiquickbooks.setting.php
 msgid "Production"
-msgstr ""
+msgstr "Üretim"
 
 #: settings/civiquickbooks.setting.php
 msgid "Development"
-msgstr ""
+msgstr "Geliştirme"
 
 #: settings/civiquickbooks.setting.php
 msgid "Current Access Token"
-msgstr ""
+msgstr "Güncel erişim kodu"
 
 #: settings/civiquickbooks.setting.php
 msgid "Access token retrieved after user authorization"
-msgstr ""
+msgstr "Kullanıcı doğrulandıktan sonra alınan erişim kodu"
 
 #: settings/civiquickbooks.setting.php
 msgid "Current Refresh Token"
-msgstr ""
+msgstr "Güncel yenileme kodu"
 
 #: settings/civiquickbooks.setting.php
 msgid "Refresh token retrieved after user authorization"
-msgstr ""
+msgstr "Kullanıcı doğrulandıktan sonra alınan yenileme kodu"
 
 #: settings/civiquickbooks.setting.php
 msgid "Current State Token"
-msgstr ""
+msgstr "Güncel durum kodu"
 
 #: settings/civiquickbooks.setting.php
 msgid "State token generated for user authorization"
-msgstr ""
+msgstr "Kullanıcı doğrulandıktan sonra alınan durum kodu"
 
 #: settings/civiquickbooks.setting.php
 msgid "Access Token Expiry Date"
-msgstr ""
+msgstr "Erişim kodunun geçerlilik sonu"
 
 #: settings/civiquickbooks.setting.php
 msgid "Expiry date of the current access token"
-msgstr ""
+msgstr "Güncel erişim kodunun son geçerlilik tarihi"
 
 #: settings/civiquickbooks.setting.php
 msgid "Refresh Token Expiry Date"
-msgstr ""
+msgstr "Yenileme kodunun geçerlilik sonu"
 
 #: settings/civiquickbooks.setting.php
 msgid "Expiry date of the current refresh token"
-msgstr ""
+msgstr "Güncel yenileme kodunun son geçerlilik tarihi"
 
 #: settings/civiquickbooks.setting.php
 msgid "Send Email for new Invoices"
-msgstr ""
+msgstr "Yeni faturalar e-posta ile gönderilsin"
 
 #: settings/civiquickbooks.setting.php
 msgid ""
 "Whether an email should be sent to the Invoicee when a new Invoice is "
 "created in Quickbooks."
 msgstr ""
+"Quickbooks üzerinde yeni bir fatura oluşturulduğunda fatura alıcısına "
+"e-posta gönderilip gönderilmeyeceğini seçin."
 
 #: settings/civiquickbooks.setting.php
 msgid "Never"
-msgstr ""
+msgstr "Hiçbir zaman"
 
 #: settings/civiquickbooks.setting.php
 msgid "Unpaid Invoices Only"
-msgstr ""
+msgstr "Yalnızca ödenmemiş faturalar"
 
 #: settings/civiquickbooks.setting.php
 msgid "Always"
@@ -233,44 +246,51 @@ msgstr "Her zaman"
 
 #: settings/civiquickbooks.setting.php
 msgid "QBO Log Directory"
-msgstr ""
+msgstr "QBO günlük kayıtları klasörü"
 
 #: settings/civiquickbooks.setting.php
 msgid "Absolute path to writable file system directory for QBO logs."
 msgstr ""
+"QBO günlük kayıtları için yazılabilir dosya sistemi klasörünün mutlak yolu."
 
 #: settings/civiquickbooks.setting.php
 msgid "Activate QBO logging?"
-msgstr ""
+msgstr "QBO günlük kayıtları tutulsun"
 
 #: settings/civiquickbooks.setting.php
 msgid ""
 "If selected, QBO will log potentially sensitive data to the QBO Log "
 "Directory."
 msgstr ""
+"Bu seçenek etkinleştirildiğinde, QBO önemli olabilecek verileri QBO günlüğü "
+"klasörüne kaydeder."
 
 #: settings/civiquickbooks.setting.php
 msgid "realmId retrieved when got access token"
-msgstr ""
+msgstr "erişim kodu alındığında alınan realmId"
 
 #: settings/civiquickbooks.setting.php
 msgid "QuickBooks Company Country"
-msgstr ""
+msgstr "QuickBooks kuruluşunun ülkesi"
 
 #: settings/civiquickbooks.setting.php
 msgid ""
 "QuickBooks company country code for differentiating US and other countries "
 "during including tax in invoices."
 msgstr ""
+"Faturalara vergi eklenirken Birleşik Develetler ve diğer ülkeleri ayırt "
+"etmek için kullanılan QuickBooks kuruluşunun ülke kodu."
 
 #: settings/civiquickbooks.setting.php
 msgid "Where should Invoice Numbers be generated?"
-msgstr ""
+msgstr "Fatura numaralarının üretileceği yer"
 
 #: settings/civiquickbooks.setting.php
 msgid ""
 "Whether the invoice numbers should be generated in CiviCRM or QuickBooks."
 msgstr ""
+"Fatura numaralarını CiviCRM ya da QuickBooks üzerinde oluşturulacak şekilde "
+"seçin."
 
 #: settings/civiquickbooks.setting.php
 msgid "CiviCRM"
@@ -278,7 +298,7 @@ msgstr "CiviCRM"
 
 #: settings/civiquickbooks.setting.php
 msgid "Invoice Prefix"
-msgstr ""
+msgstr "Fatura ön eki"
 
 #: settings/civiquickbooks.setting.php
 msgid ""
@@ -287,14 +307,19 @@ msgid ""
 "printf</a> e.g. %2 will enforce 7 digits with 0 as padding (123 => "
 "Civi-0000123)"
 msgstr ""
+"Bu ek, CiviCRM QBO için bir fatura numarası oluşturduğunda, işlem kimliğinin"
+" önüne eklenir. İsteğe bağlı olarak <a href=\"%1\">printf</a> için bir biçim"
+" belirtici ekleyebilirsiniz. Örneğin %2, dolgu olarak 0 ile 7 haneyi zorunlu"
+" kılar (123 => Civi-0000123)"
 
 #: settings/civiquickbooks.setting.php
 msgid "Allow ACH Payment?"
-msgstr ""
+msgstr "ACH ödemeleri yapılabilsin"
 
 #: settings/civiquickbooks.setting.php
 msgid "Specifies if invoices can be paid with online bank transfers"
 msgstr ""
+"Faturaların çevrim içi banka havaleleriyle ödenip ödenemeyeceğini seçin"
 
 #: settings/civiquickbooks.setting.php
 msgid "Yes"
@@ -306,22 +331,26 @@ msgstr "Hayır"
 
 #: settings/civiquickbooks.setting.php
 msgid "Allow Online Credit Card Payment?"
-msgstr ""
+msgstr "Çevrim içi kredi kartı ödemeleri yapılabilsin"
 
 #: settings/civiquickbooks.setting.php
 msgid "Specifies if online credit card payments are allowed for invoices"
 msgstr ""
+"Faturalar için çevrim içi kredi kartı ödemelerine izin verilip "
+"verilmeyeceğini seçin"
 
 #: settings/civiquickbooks.setting.php
 msgid "Customer Memo Override"
-msgstr ""
+msgstr "Müşteri notu değişikliği"
 
 #: settings/civiquickbooks.setting.php
 msgid "Custom Memo text (instead of the contribution source)"
-msgstr ""
+msgstr "Özel not metni (katkı kaynağı yerine geçer)"
 
 #: settings/civiquickbooks.setting.php
 msgid ""
 "if you enter text into this field it will be displayed on the invoice as the"
 " Memo instead of the source"
 msgstr ""
+"Bu alana bir metin yazarsanız, faturada kaynak yerine not olarak "
+"görüntülenir"
