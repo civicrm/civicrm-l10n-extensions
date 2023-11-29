@@ -4,14 +4,14 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # brouwser <brouwer@ee-atwork.nl>, 2023
-# HanV <han.velthuis@home.nl>, 2023
+# HanV <han.velthuis@kpnmail.nl>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: tsys\n"
 "POT-Creation-Date: 2023-01-27 19:24+0000\n"
-"Last-Translator: HanV <han.velthuis@home.nl>, 2023\n"
-"Language-Team: Dutch (https://www.transifex.com/civicrm/teams/1905/nl/)\n"
+"Last-Translator: HanV <han.velthuis@kpnmail.nl>, 2023\n"
+"Language-Team: Dutch (https://app.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,11 +20,12 @@ msgstr ""
 
 #: CRM/Core/Payment/Tsys.php
 msgid "Genius"
-msgstr ""
+msgstr "Genius"
 
 #: CRM/Core/Payment/Tsys.php
 msgid "The '%1' is not set in the Genius Payment Processor settings."
 msgstr ""
+"In de instellingen van de Genius betaalmethode is '%1' niet ingesteld."
 
 #: CRM/Core/Payment/Tsys.php CRM/Tsys/Form/Device.php CRM/Tsys/Form/Refund.php
 #: CRM/Tsys/Form/Settings/Device.php CRM/Tsys/Form/Tsysdevicepayment.php
@@ -36,7 +37,7 @@ msgstr "API Fout: %1"
 
 #: CRM/Core/Payment/Tsys.php
 msgid "Could not find valid Genius Payment Processor credentials"
-msgstr ""
+msgstr "De credentials van de Genius betaalmethode zijn niet gevonden"
 
 #: CRM/Core/Payment/Tsys.php
 msgid "Error retrieving %1 from XML"
@@ -60,7 +61,7 @@ msgstr "Financieel type"
 
 #: CRM/Tsys/Form/Device.php
 msgid "- Select Financial Type -"
-msgstr ""
+msgstr "-  Financieel type selecteren -"
 
 #: CRM/Tsys/Form/Device.php
 msgid "Total Amount"
@@ -68,7 +69,7 @@ msgstr "Totaalbedrag"
 
 #: CRM/Tsys/Form/Device.php CRM/Tsys/Form/Tsysdevicepayment.php
 msgid "Test transaction?"
-msgstr ""
+msgstr "Transactie testen?"
 
 #: CRM/Tsys/Form/Device.php CRM/Tsys/Form/Tsysdevicepayment.php
 msgid "Cancel"
@@ -83,50 +84,57 @@ msgstr "Verzenden"
 msgid ""
 "error: %1, Transport Key: %2, Authorization Code: %3, Token: %4, Status: %5"
 msgstr ""
+"fout: %1, Transportsleutel: %2, Autorisatie-code: %3, Token: %4, Status: %5"
 
 #: CRM/Tsys/Form/Device.php CRM/Tsys/Form/Tsysdevicepayment.php
 msgid "User Cancelled this transaction."
-msgstr ""
+msgstr "De gebruiker heeft deze transactie geannuleerd."
 
 #: CRM/Tsys/Form/Device.php CRM/Tsys/Form/Tsysdevicepayment.php
 msgid "You Cancelled this transaction."
-msgstr ""
+msgstr "U heeft deze transactie geannuleerd."
 
 #: CRM/Tsys/Form/Device.php CRM/Tsys/Form/Tsysdevicepayment.php
 msgid "error code: %1, Message: %3, Transport Key: %2"
-msgstr ""
+msgstr "fout: %1, Bericht: %3, Transportsleutel: %2"
 
 #: CRM/Tsys/Form/Device.php CRM/Tsys/Form/Tsysdevicepayment.php
 msgid "Perhaps you have Invalid credentials or the wrong TransportKey"
 msgstr ""
+"Misschien heeft u ongeldige referenties of de verkeerde transportsleutel"
 
 #: CRM/Tsys/Form/Refund.php
 msgid ""
 "You cannot update this payment as it is not tied to a Genius payment "
 "processor"
 msgstr ""
+"U kunt deze betaling niet bijwerken omdat deze niet is gekoppeld aan een "
+"Genius-betalingmethode"
 
 #: CRM/Tsys/Form/Refund.php
 msgid "Amount to Refund"
-msgstr ""
+msgstr "Terug te betalen bedrag"
 
 #: CRM/Tsys/Form/Refund.php
 msgid "Issue Refund"
-msgstr ""
+msgstr "Terugbetaling"
 
 #: CRM/Tsys/Form/Refund.php
 msgid ""
 "Amount Available to Refund for this payment is $%1. Submitting this form "
 "will result in a refund being issued from your Genius payment processor."
 msgstr ""
+"Het bedrag dat beschikbaar is voor terugbetaling voor deze betaling is $%1. "
+"Als u dit formulier indient, wordt er een terugbetaling uitgevoerd door uw "
+"Genius-betalingmethode."
 
 #: CRM/Tsys/Form/Refund.php
 msgid "Amount to be Voided"
-msgstr ""
+msgstr "Ongeldig te verklaren bedrag"
 
 #: CRM/Tsys/Form/Refund.php
 msgid "Void Payment"
-msgstr ""
+msgstr "Betaling ongeldig verklaren"
 
 #: CRM/Tsys/Form/Refund.php
 msgid ""
@@ -134,42 +142,47 @@ msgid ""
 " the full amount $%1 instead of refunding it. Submitting this form will "
 "result in this transaction being voided via your Genius Payment processor."
 msgstr ""
+"Deze transactie is niet verrekend en daarom wordt aanbevolen dat u het "
+"volledige bedrag $%1 ongeldig maakt in plaats van het terug te betalen. Als "
+"u dit formulier indient, wordt deze transactie ongeldig verklaard via uw "
+"Genius-betalingsmethode."
 
 #: CRM/Tsys/Form/Refund.php
 msgid "No Credit Card Actions are available for this payment at this time."
 msgstr ""
+"Er zijn op dit moment geen creditcardacties beschikbaar voor deze betaling."
 
 #: CRM/Tsys/Form/Refund.php
 msgid "%1 of payment approved"
-msgstr ""
+msgstr "%1 van betaling goedgekeurd"
 
 #: CRM/Tsys/Form/Refund.php
 msgid "%1 Approved"
-msgstr ""
+msgstr "%1 goedgekeurd"
 
 #: CRM/Tsys/Form/Refund.php
 msgid "Error Code %1, %2"
-msgstr ""
+msgstr "Foutcode %1, %2"
 
 #: CRM/Tsys/Form/Refund.php
 msgid "%1 Failed"
-msgstr ""
+msgstr "%1 mislukt"
 
 #: CRM/Tsys/Form/Refund.php
 msgid "%1 Response could not be found see logs for more details."
-msgstr ""
+msgstr "%1 Respons niet gevonden, meer details staan in de log."
 
 #: CRM/Tsys/Form/Settings/Device.php templates/CRM/Tsys/Form/Settings.tpl
 msgid "Device Name"
-msgstr ""
+msgstr "Devicenaam"
 
 #: CRM/Tsys/Form/Settings/Device.php
 msgid "IP address of Device"
-msgstr ""
+msgstr "IP-adres van device"
 
 #: CRM/Tsys/Form/Settings/Device.php
 msgid "Terminal ID for Device"
-msgstr ""
+msgstr "Terminal-id van device"
 
 #: CRM/Tsys/Form/Settings/Device.php templates/CRM/Tsys/Form/Settings.tpl
 msgid "Payment Processor"
@@ -177,7 +190,7 @@ msgstr "Betaalmethode"
 
 #: CRM/Tsys/Form/Settings/Device.php
 msgid "- Select Payment Processor -"
-msgstr ""
+msgstr "- Betaalmethode selecteren -"
 
 #: CRM/Tsys/Form/Settings/Device.php
 msgid "Save"
@@ -185,23 +198,23 @@ msgstr "Opslaan"
 
 #: CRM/Tsys/Form/Settings/Device.php
 msgid "Is enabled"
-msgstr ""
+msgstr "Is ingeschakeld"
 
 #: CRM/Tsys/Form/Settings/Device.php
 msgid "Device %2 (%1) created successfully"
-msgstr ""
+msgstr "Device %2 (%1) is toegevoegd"
 
 #: CRM/Tsys/Form/Settings/Device.php
 msgid "Device Created"
-msgstr ""
+msgstr "Device toegevoegd"
 
 #: CRM/Tsys/Form/Settings/Device.php
 msgid "Device not created: %1"
-msgstr ""
+msgstr "Device niet toegevoegd: %1"
 
 #: CRM/Tsys/Form/Settings/Device.php
 msgid "Not saved because no valid device id was found."
-msgstr ""
+msgstr "Niet opgeslagen, er is geen geldig device-id."
 
 #: CRM/Tsys/Form/Settings.php
 msgid "more"
@@ -213,7 +226,7 @@ msgstr "Wijzigen"
 
 #: CRM/Tsys/Form/Settings.php
 msgid "Edit Genius Device"
-msgstr ""
+msgstr "Genius-device wijzigen"
 
 #: CRM/Tsys/Form/Settings.php
 msgid "Delete"
@@ -221,7 +234,7 @@ msgstr "Verwijderen"
 
 #: CRM/Tsys/Form/Settings.php
 msgid "Delete Genius Device"
-msgstr ""
+msgstr "Genius-device verwijderen"
 
 #: CRM/Tsys/Form/Settings.php
 msgid "Test"
@@ -229,7 +242,7 @@ msgstr "Test"
 
 #: CRM/Tsys/Form/Settings.php
 msgid "Test Genius Device"
-msgstr ""
+msgstr "Genius-device testen"
 
 #: CRM/Tsys/Form/Settings.php
 msgid "Enable"
@@ -237,7 +250,7 @@ msgstr "Inschakelen"
 
 #: CRM/Tsys/Form/Settings.php
 msgid "Enable this Device"
-msgstr ""
+msgstr "Dit device inschakelen"
 
 #: CRM/Tsys/Form/Settings.php
 msgid "Disable"
@@ -245,11 +258,11 @@ msgstr "Deactiveren"
 
 #: CRM/Tsys/Form/Settings.php
 msgid "Disable this Device"
-msgstr ""
+msgstr "Dit device uitschakelen"
 
 #: CRM/Tsys/Form/Tsysdevicepayment.php
 msgid "Payment Amount"
-msgstr ""
+msgstr "Bedrag betaling"
 
 #: CRM/Tsys/Recur.php
 msgid "no payment token found for recurring contribution in series id %1: "
@@ -262,7 +275,7 @@ msgstr "Er is geen geldige credentials bij de betaalmethode"
 
 #: CRM/Tsys/Recur.php
 msgid "no Genius Credentials found for payment processor id: %1 "
-msgstr ""
+msgstr "geen Genius Credentials gevonden bij betaalmethode-id: %1 "
 
 #: CRM/Tsys/Recur.php
 #: tests/phpunit/CRM/Tsys/RecurringContributionsTsysTest.php
@@ -304,15 +317,15 @@ msgstr "Er zijn geen bijdragen verwerkt."
 
 #: js/deviceTransact.js
 msgid "is a required field"
-msgstr ""
+msgstr "is een verplicht veld"
 
 #: js/deviceTransact.js
 msgid "must be numeric"
-msgstr ""
+msgstr "moet numeriek zijn"
 
 #: templates/CRM/Contribute/Form/swipedevices.tpl
 msgid "Submit payment via "
-msgstr ""
+msgstr "Betalen via "
 
 #: templates/CRM/Tsys/Form/Settings/Device.hlp
 msgid ""
@@ -320,6 +333,9 @@ msgid ""
 "href='https://docs.tsysmerchant.com/knowledge-base/faqs'>TSYS Knowledge Base"
 " FAQs</a>"
 msgstr ""
+"Om het IP-adres van het device te vinden, <a "
+"href='https://docs.tsysmerchant.com/knowledge-base/faqs'>TSYS Kennisbank "
+"veelgestelde vragen</a>"
 
 #: templates/CRM/Tsys/Form/Settings/Device.hlp
 msgid ""
@@ -330,10 +346,18 @@ msgid ""
 "practices/mastercard-terminal-id-handling-best-practices\">MasterCard "
 "Terminal ID Handling Best Practices.</a>"
 msgstr ""
+"Terminal-id wordt gebruikt om de terminal bij de processor te identificeren."
+" Het terminal-id bevat alleen cijfers.Meer informatte over het gebruik van "
+"de te gebruiken TID-waarde: <a "
+"href=\"https://docs.tsysmerchant.com/knowledge-base/best-"
+"practices/mastercard-terminal-id-handling-best-practices\">MasterCard "
+"Terminal ID Handling Best Practices.</a>"
 
 #: templates/CRM/Tsys/Form/Settings/Device.tpl
 msgid "This form is to enter information about a specific TSYS Device."
 msgstr ""
+"Dit formulier is voor het invoeren van gegevens over een specifiek TSYS-"
+"device."
 
 #: templates/CRM/Tsys/Form/Settings.tpl
 msgid ""
@@ -341,6 +365,9 @@ msgid ""
 "accept credit card payments for more information visit: "
 "https://www.tsys.com/solutions/products-services/merchant/genius/ "
 msgstr ""
+"In deze sectie Devices instellen. Genius biedt een aantal Devices aan die "
+"betalingen via creditcard accepteren. Meer informatie: "
+"https://www.tsys.com/solutions/products-services/merchant/genius/ "
 
 #: templates/CRM/Tsys/Form/Settings.tpl
 msgid "ID"
@@ -352,11 +379,11 @@ msgstr "IP-Adres"
 
 #: templates/CRM/Tsys/Form/Settings.tpl
 msgid "Terminal ID"
-msgstr ""
+msgstr "Terminal-id"
 
 #: templates/CRM/Tsys/Form/Settings.tpl
 msgid "Add Device"
-msgstr ""
+msgstr "Device toevoegen"
 
 #: tsys.php
 msgid ""
@@ -366,40 +393,47 @@ msgid ""
 "      credit card action button OR submit this form and then login to Genius to process\n"
 "      the refund."
 msgstr ""
+"Door dit formulier voor terugstorten wordt er GEEN geld teruggestort naar de"
+" gebruiker, de terugstorting wordt in CiviCRM vastgelegd. Als het een "
+"betaling gedaan is via een Genius dan wordt de terugstorting gedaan met de "
+"actie-knop van de creditcard OF stuur dit formulier in log in op Genius om "
+"de terugstorting te verwerken."
 
 #: tsys.php
 msgid "Total Amount must be a positive number"
-msgstr ""
+msgstr "Totaalbedrag moet een positief bedrag zijn"
 
 #: tsys.php
 msgid "Please enter a valid IP address"
-msgstr ""
+msgstr "Vul een geldig IP-adres in"
 
 #: tsys.php
 msgid "%1 must be unique."
-msgstr ""
+msgstr "%1 moet uniek zijn."
 
 #: tsys.php
 msgid "Terminal ID must be unique."
-msgstr ""
+msgstr "Terminal-id moet uniek zijn."
 
 #: tsys.php
 msgid "This Terminal ID must be a number."
-msgstr ""
+msgstr "Dit Terminal-id moet een getal zijn."
 
 #: tsys.php
 msgid "This Terminal ID must be between 1 and 16 characters long."
-msgstr ""
+msgstr "Het Terminal-id moet tussen de 1 en de 16 tekens lang zijn."
 
 #: tsys.php
 msgid ""
 "The Genius Credentials for Payment Processor ID %1 are incorrect please "
 "update them <a href=%2>here</a>."
 msgstr ""
+"De Genius Credentials voor Betaalmethode-id %1 zijn niet goed, <a "
+"href=%2>verbeter dit a.u.b.</a>."
 
 #: tsys.php
 msgid "Invalid Genius Credentials for Payment Processor ID: %1"
-msgstr ""
+msgstr "Ongeldige Genius Credentials van Betaalmethode-id: %1"
 
 #: tsys.php
 msgid ""
@@ -414,12 +448,12 @@ msgstr ""
 
 #: tsys.php
 msgid "Uncompleted Recurring Genius Contributions Found"
-msgstr ""
+msgstr "Er zijn onafgeronde periodieke Genius bijdragen"
 
 #: tsys.php
 msgid "Genius Settings"
-msgstr ""
+msgstr "Genius Instellingen"
 
 #: tsys.php
 msgid "Submit Credit Card Contribution Via Device"
-msgstr ""
+msgstr "Creditcard bijdrage via device verzenden"
