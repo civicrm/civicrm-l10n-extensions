@@ -1,21 +1,27 @@
 # 
 # Translators:
-# HanV <han.velthuis@home.nl>, 2022
+# Jan Hovenkamp <hovenkamp.jan@gmail.com>, 2023
+# Betty Dolfing <betty.dolfing@civicoop.org>, 2023
+# HanV <han.velthuis@kpnmail.nl>, 2023
 # 
 msgid ""
 msgstr ""
-"Last-Translator: HanV <han.velthuis@home.nl>, 2022\n"
-"Language-Team: Dutch (https://www.transifex.com/civicrm/teams/1905/nl/)\n"
+"Last-Translator: HanV <han.velthuis@kpnmail.nl>, 2023\n"
+"Language-Team: Dutch (https://app.transifex.com/civicrm/teams/1905/nl/)\n"
 "Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ./CRM/Afform/DAO/AfformSubmission.php
-msgid "Form Builder Submissions"
-msgstr "Form Builder Verzendingen"
+msgid "FormBuilder Submissions"
+msgstr "FormBuilder Verzendingen"
 
 #: ./CRM/Afform/DAO/AfformSubmission.php
-msgid "Form Builder Submission"
-msgstr "Form Builder Verzending"
+msgid "FormBuilder Submission"
+msgstr "FormBuilder Verzending"
+
+#: ./CRM/Afform/DAO/AfformSubmission.php
+msgid "Form Submission ID"
+msgstr "Form Verzend-id"
 
 #: ./CRM/Afform/DAO/AfformSubmission.php
 msgid "Unique Submission ID"
@@ -50,32 +56,64 @@ msgid "CiviCRM"
 msgstr "CiviCRM"
 
 #: ./CRM/Afform/Page/AfformBase.php
-msgid "Admin"
-msgstr "Beheerder"
+msgid "Administer"
+msgstr "Beheren"
 
 #: ./CRM/Afform/Page/AfformBase.php ./afform.php
-msgid "Form Builder"
-msgstr "Form Builder"
+msgid "FormBuilder"
+msgstr "FormBuilder"
 
 #: ./CRM/Afform/Page/AfformBase.php
 msgid "Edit Form"
 msgstr "Form bewerken"
 
-#: ./CRM/Afform/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Upgrade %1 naar revisie %2"
-
 #: ./Civi/Afform/AfformMetadataInjector.php
 msgid "Select"
 msgstr "Selecteer"
 
-#: ./Civi/Afform/AfformMetadataInjector.php
+#: ./Civi/Afform/AfformMetadataInjector.php ./Civi/Afform/FormDataModel.php
 msgid "Select %1"
 msgstr "Selecteer %1"
 
 #: ./Civi/Afform/AfformMetadataInjector.php
 msgid "Choose Date Range"
 msgstr "Kies periode"
+
+#: ./Civi/Afform/Behavior/ContactAutofill.php
+msgid "Autofill"
+msgstr "Automatisch vullen"
+
+#: ./Civi/Afform/Behavior/ContactAutofill.php
+msgid ""
+"Automatically identify this contact based on logged-in status or "
+"relationship to another contact on the form."
+msgstr ""
+"Identificeer dit contact automatisch op basis van de ingelogde status of "
+"relatie met een ander contact op het formulier."
+
+#: ./Civi/Afform/Behavior/ContactAutofill.php
+msgid "Current User"
+msgstr "Huidige gebruiker"
+
+#: ./Civi/Afform/Behavior/ContactAutofill.php
+msgid "Auto-select logged-in user"
+msgstr "Ingelogde gebruiker automatisch selecteren"
+
+#: ./Civi/Afform/Behavior/ContactDedupe.php
+msgid "Duplicate Matching"
+msgstr "Duplicaat Koppeling"
+
+#: ./Civi/Afform/Behavior/ContactDedupe.php
+msgid ""
+"Update existing contact instead of creating a new one based on a dedupe "
+"rule."
+msgstr ""
+"Werk een bestaand contact bij in plaats van een nieuwe te maken op basis van"
+" een overeenkomstregel."
+
+#: ./Civi/Afform/FormDataModel.php
+msgid "Existing %1"
+msgstr "Bestaand %1"
 
 #: ./Civi/Afform/StatusChecks.php
 msgid ""
@@ -125,9 +163,55 @@ msgstr "%1 (URL)"
 msgid "%1 (Full Hyperlink)"
 msgstr "%1 (Volledige hyperlink)"
 
+#: ./Civi/Afform/Utils.php
+msgid "Contains"
+msgstr "Bevat"
+
+#: ./Civi/Afform/Utils.php
+msgid "Doesn't Contain"
+msgstr "Bevat geen"
+
+#: ./Civi/Afform/Utils.php
+msgid "Is One Of"
+msgstr "Is één van"
+
+#: ./Civi/Afform/Utils.php
+msgid "Not One Of"
+msgstr "Is niet één van"
+
+#: ./Civi/Afform/Utils.php
+msgid "Is Like"
+msgstr "Is zoals"
+
+#: ./Civi/Afform/Utils.php
+msgid "Not Like"
+msgstr "Niet als"
+
+#: ./Civi/Afform/Utils.php
+msgid "Matches Pattern"
+msgstr "Overeenkomend patroon"
+
+#: ./Civi/Afform/Utils.php
+msgid "Doesn't Match Pattern"
+msgstr "Niet overeenkomend patroon"
+
 #: ./Civi/Api4/Action/Afform/Get.php
 msgid "%1 block"
 msgstr "%1 blok"
+
+#: ./Civi/Api4/Action/Afform/Submit.php
+msgid "Validation Error"
+msgid_plural "%1 Validation Errors"
+msgstr[0] "Validatiefout"
+msgstr[1] "%1 validatiefouten"
+
+#: ./Civi/Api4/Action/Afform/Submit.php
+msgid "%1 is a required field."
+msgstr "%1 is een verplicht veld."
+
+#: ./Civi/Api4/Action/Afform/Submit.php
+msgid "Illegal value for %1."
+msgstr "Illegale waarde voor %1."
 
 #: ./Civi/Api4/Afform.php
 msgid "Contact Summary Block"
@@ -140,6 +224,15 @@ msgstr "Tab Contactsamenvatting"
 #: ./afform.php
 msgid "(Untitled)"
 msgstr "(Naamloos)"
+
+#: ./afform.php
+msgid "FormBuilder: edit and delete forms"
+msgstr "FormBuilder: formulieren bewerken en verwijderen"
+
+#: ./afform.php
+msgid "Allows non-admin users to create, update and delete forms"
+msgstr ""
+"Hiermee kunnen niet-beheerders formulieren maken, bijwerken en verwijderen"
 
 #: ./afform.php
 msgid "Afform: Inherit permission of %1"
@@ -157,10 +250,50 @@ msgstr "Ja"
 msgid "No"
 msgstr "Nee"
 
+#: ./ang/af/afField.html
+msgid "Required"
+msgstr "Verplicht"
+
 #: ./ang/af/afForm.component.js
 msgid "Uploading %1"
 msgstr "Uploading %1"
 
+#: ./ang/af/afForm.component.js
+msgid "Please fill all required fields."
+msgstr "Vul a.u.b. alle verplichte velden in."
+
+#: ./ang/af/afForm.component.js
+msgid "Form Error"
+msgstr "Formulierfout"
+
+#: ./ang/af/fields/File.html
+msgid "Replace"
+msgstr "Vervangen"
+
+#: ./ang/af/fields/Radio.html
+msgid "Clear"
+msgstr "Wissen"
+
 #: ./ang/afCore/Api4Action.js
 msgid "Submitting..."
 msgstr "Verzenden..."
+
+#: ./managed/AfformType.mgd.php
+msgid "Afform Type"
+msgstr "Afform-type"
+
+#: ./managed/AfformType.mgd.php
+msgid "Submission Form"
+msgstr "Verzendformulier"
+
+#: ./managed/AfformType.mgd.php
+msgid "Search Form"
+msgstr "Zoekformulier"
+
+#: ./managed/AfformType.mgd.php
+msgid "Field Block"
+msgstr "Veldblok"
+
+#: ./managed/AfformType.mgd.php
+msgid "System Form"
+msgstr "Systeemformulier"
