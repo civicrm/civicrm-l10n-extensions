@@ -10,13 +10,13 @@
 # Pierre Mathieu <pierrem7@gmail.com>, 2022
 # H. Bond <bonduaeux.h@gmail.com>, 2022
 # Mathieu Lu <mathieu@bidon.ca>, 2022
-# Usha Matisson <matisson@makoa.fr>, 2022
 # Guillaume Sorel <serviceclient@all-in-appli.com>, 2023
+# Usha Matisson, 2023
 # 
 msgid ""
 msgstr ""
-"Last-Translator: Guillaume Sorel <serviceclient@all-in-appli.com>, 2023\n"
-"Language-Team: French (https://www.transifex.com/civicrm/teams/1905/fr/)\n"
+"Last-Translator: Usha Matisson, 2023\n"
+"Language-Team: French (https://app.transifex.com/civicrm/teams/1905/fr/)\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
@@ -46,20 +46,19 @@ msgstr "Nom unique pour identifier l'affichage de recherche"
 
 #: ./CRM/Search/DAO/SearchDisplay.php
 msgid "Search Display Label"
-msgstr "Libellé de l'affichage de recherche"
+msgstr "Nom de l'affichage"
 
 #: ./CRM/Search/DAO/SearchDisplay.php
 msgid "Label for identifying search display to administrators"
-msgstr ""
-"Libellé pour les administrateurs pour identifier l'affichage de recherche"
+msgstr "Noms pour les administrateurs pour identifier l'affichage"
 
 #: ./CRM/Search/DAO/SearchDisplay.php
 msgid "Saved Search ID"
-msgstr "Id. de la recherche enregistrée"
+msgstr "Id. de la recherche"
 
 #: ./CRM/Search/DAO/SearchDisplay.php
 msgid "FK to saved search table."
-msgstr "Clé étrangère vers la table de la recherche enregistrée."
+msgstr "Clé étrangère vers la table des recherches."
 
 #: ./CRM/Search/DAO/SearchDisplay.php ./managed/SearchDisplayType.mgd.php
 msgid "Search Display Type"
@@ -185,11 +184,11 @@ msgstr "Index de chaque ligne, à partir de 1 sur la première page"
 
 #: ./Civi/Api4/Action/SearchDisplay/AbstractRunAction.php
 msgid "Current User ID"
-msgstr "Identifiant de l'utilisateur actuel"
+msgstr "Id. de l'utilisateur actuel"
 
 #: ./Civi/Api4/Action/SearchDisplay/AbstractRunAction.php
 msgid "Contact ID of the current user if logged in"
-msgstr "Identifiant de contact de l'utilisateur actuel s'il est connecté"
+msgstr "Id. de l'utilisateur actuel s'il est connecté"
 
 #: ./Civi/Api4/Action/SearchDisplay/AbstractRunAction.php
 msgid "Current Date"
@@ -218,7 +217,7 @@ msgstr "Exporter %1"
 
 #: ./Civi/Api4/Action/SearchDisplay/GetSearchTasks.php
 msgid "Download Spreadsheet"
-msgstr "Télécharger une feuille de calcul"
+msgstr "Télécharger (xlsx, pdf, csv...)"
 
 #: ./Civi/Api4/Action/SearchDisplay/GetSearchTasks.php
 #: ./ang/crmSearchTasks/crmSearchTaskUpdate.html
@@ -264,7 +263,7 @@ msgstr ""
 
 #: ./Civi/Api4/Action/SearchDisplay/GetSearchTasks.php
 msgid "Tag - Add/Remove Tags"
-msgstr "Étiquette - Ajouter/Retirer des tags/étiquettes"
+msgstr "Étiquette/Tag - Ajouter/Retirer"
 
 #: ./Civi/Api4/Action/SearchDisplay/GetSearchTasks.php
 #: ./Civi/Search/Display.php
@@ -387,7 +386,7 @@ msgstr "Adresse (facturation) %1"
 
 #: ./Civi/Search/Admin.php
 msgid "Multiple %1 per %2"
-msgstr "Multiplier %1 par %2"
+msgstr "%1 multiples par %2"
 
 #: ./Civi/Search/Admin.php
 msgid "Arithmetic"
@@ -863,7 +862,7 @@ msgstr "Vérification de l'entrée..."
 
 #: ./ang/crmSearchAdmin/crmSearchAdminImport.html
 msgid "Importing Saved Search..."
-msgstr "Importation de la recherche enregistrée..."
+msgstr "Importation de la recherche..."
 
 #: ./ang/crmSearchAdmin/crmSearchAdminImport.html
 #: ./ang/crmSearchAdmin/searchListing/searchList.html
@@ -918,7 +917,7 @@ msgstr "Texte"
 
 #: ./ang/crmSearchAdmin/crmSearchAdminLinkGroup.html
 msgid "Show if"
-msgstr "Montrer si"
+msgstr "Afficher si"
 
 #: ./ang/crmSearchAdmin/crmSearchAdminLinkGroup.html
 #: ./ang/crmSearchAdmin/displays/colType/field.html
@@ -982,7 +981,7 @@ msgstr "Créer le tag/étiquette"
 #: ./ang/crmSearchAdmin/crmSearchAdminTokenSelect.component.js
 #: ./ang/crmSearchAdmin/crmSearchAdminTokenSelect.html
 msgid "Insert Token"
-msgstr "Insérer un token/jeton"
+msgstr "Insérer un champ de fusion"
 
 #: ./ang/crmSearchAdmin/crmSearchClause.component.js
 msgid "And"
@@ -1344,7 +1343,7 @@ msgid ""
 "fields using rewrite + tokens)."
 msgstr ""
 "La ligne la plus haute sera affichée comme titre de recherche (combinez "
-"plusieurs champs avec l'option de réecriture + tokens)."
+"plusieurs champs avec l'option de réecriture et des champs de fusion)."
 
 #: ./ang/crmSearchAdmin/displays/searchAdminDisplayAutocomplete.html
 msgid ""
@@ -1405,7 +1404,7 @@ msgstr "Nouvelle ligne"
 #: ./ang/crmSearchAdmin/displays/searchAdminDisplayGrid.html
 #: ./ang/crmSearchAdmin/displays/searchAdminDisplayList.html
 msgid "Show label even when field is blank"
-msgstr "Montrer le libellé quand le champ est vide"
+msgstr "Afficher le libellé même quand le champ est vide"
 
 #: ./ang/crmSearchAdmin/displays/searchAdminDisplayList.component.js
 msgid "Circles"
@@ -1586,7 +1585,7 @@ msgstr "Dupliquer..."
 
 #: ./ang/crmSearchAdmin/searchListing/buttons.html
 msgid "Export this saved search to a file"
-msgstr "Exporter cette recherche enregistrée vers un fichier"
+msgstr "Exporter cette recherche vers un fichier"
 
 #: ./ang/crmSearchAdmin/searchListing/buttons.html
 msgid "Export..."
@@ -1619,7 +1618,7 @@ msgstr ""
 
 #: ./ang/crmSearchAdmin/searchListing/crmSearchAdminSearchListing.component.js
 msgid "No Saved Searches match filter criteria."
-msgstr "Aucune recherche enregistrée ne correspond aux critères."
+msgstr "Aucune recherche ne correspond aux critères."
 
 #: ./ang/crmSearchAdmin/searchListing/crmSearchAdminSearchListing.component.js
 msgid "Revert this search to its packaged settings?"
@@ -1629,7 +1628,7 @@ msgstr ""
 
 #: ./ang/crmSearchAdmin/searchListing/crmSearchAdminSearchListing.component.js
 msgid "Permanently delete this saved search?"
-msgstr "Supprimer définitivement cette recherche enregistrée ?"
+msgstr "Supprimer définitivement cette recherche ?"
 
 #: ./ang/crmSearchAdmin/searchListing/crmSearchAdminSearchListing.component.js
 msgid "Includes 1 display which will also be reverted."
@@ -2045,7 +2044,7 @@ msgstr "Format"
 
 #: ./ang/crmSearchTasks/crmSearchTaskDownload.html
 msgid "Generic Spreadsheet (.csv)"
-msgstr "Feuille de calcul générique (.csv)"
+msgstr "Générique (.csv)"
 
 #: ./ang/crmSearchTasks/crmSearchTaskDownload.html
 msgid "Microsoft Excel (.xlsx)"
@@ -2053,7 +2052,7 @@ msgstr "Microsoft Excel (.xlsx)"
 
 #: ./ang/crmSearchTasks/crmSearchTaskDownload.html
 msgid "OpenDocument Spreadsheet (.ods)"
-msgstr "OpenDocument Spreadsheet (.ods)"
+msgstr "OpenDocument (.ods)"
 
 #: ./ang/crmSearchTasks/crmSearchTaskDownload.html
 msgid "PDF Document (.pdf)"
@@ -2070,17 +2069,17 @@ msgstr "Télécharger"
 #: ./ang/crmSearchTasks/crmSearchTaskMailing.ctrl.js
 msgid "An error occurred while attempting to create mailing."
 msgstr ""
-"Une erreur est survenue pendant la tentative de création de l'envoi de "
-"courriels en masse."
+"Une erreur est survenue pendant la tentative de création de l'envoi du "
+"mailing."
 
 #: ./ang/crmSearchTasks/crmSearchTaskMailing.html
 msgid ""
 "Compose and send a mass-mailing to the %1 selected contacts (you will be "
 "able to add or exclude additional groups of contacts in the next step)."
 msgstr ""
-"Composez et envoyez un envoi en masse aux %1 contacts sélectionnés (vous "
-"pourrez ajouter ou exclure des groupes de contacts supplémentaires à l'étape"
-" suivante)."
+"Créez et envoyez un mailing aux %1 contacts sélectionnés (vous pourrez "
+"ajouter ou exclure des groupes de contacts supplémentaires à l'étape "
+"suivante)."
 
 #: ./ang/crmSearchTasks/crmSearchTaskMailing.html
 msgid "Mailing Name"
@@ -2114,7 +2113,7 @@ msgstr ""
 
 #: ./ang/crmSearchTasks/crmSearchTaskMailing.html
 msgid "Creating mailing..."
-msgstr "Création de la campagne d'envoi en masse..."
+msgstr "Création de la campagne de mailing en cours..."
 
 #: ./ang/crmSearchTasks/crmSearchTaskMailing.html
 msgid "Adding contacts..."
@@ -2122,7 +2121,7 @@ msgstr "Ajoute les contacts..."
 
 #: ./ang/crmSearchTasks/crmSearchTaskMailing.html
 msgid "Create Mailing"
-msgstr "Créer une campagne d'envoi en masse"
+msgstr "Créer un mailing"
 
 #: ./ang/crmSearchTasks/crmSearchTaskTag.ctrl.js
 msgid "Removed tags from %1 %2."
