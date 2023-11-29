@@ -1,4 +1,4 @@
-# Copyright CiviCRM LLC (c) 2004-2014
+# Copyright CiviCRM LLC (c) 2004-2015
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
@@ -6,45 +6,77 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2015-01-30 21:32-0800\n"
+"POT-Creation-Date: 2023-01-27 19:22+0000\n"
 "PO-Revision-Date: 2015-01-31 05:32+0000\n"
-"Language-Team: Portuguese (Portugal) (http://www.transifex.com/projects/p/civicrm_extensions/language/pt_PT/)\n"
+"Language-Team: Portuguese (Portugal) (http://app.transifex.com/civicrm/civicrm_extensions/language/pt_PT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt_PT\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: CRM/Postcodenl/Form/UpdateAddresses.php
+msgid "- any group -"
+msgstr ""
+
+#: CRM/Postcodenl/Form/UpdateAddresses.php
+msgid "Group"
+msgstr ""
+
+#: CRM/Postcodenl/Form/UpdateAddresses.php
+msgid "Submit"
+msgstr "Submeter"
+
+#: CRM/Postcodenl/Form/UpdateAddresses.php CRM/Postcodenl/Task/Update.php
+msgid "Updating addresses %1/%2"
+msgstr ""
+
+#: CRM/Postcodenl/Form/UpdateAddresses.php CRM/Postcodenl/Task/Update.php
+msgid "Updating addresses"
+msgstr ""
 
 #: CRM/Postcodenl/Page/ImportPro6pp.php
 msgid "Import postcode data from Pro6pp"
 msgstr ""
 
-#: api/v3/Pro6pp/Import.php
-msgid "Authkey is required"
+#: CRM/Postcodenl/Pro6pp/BatchImport.php
+msgid "Finishing CBS Buurten import"
 msgstr ""
 
-#: postcodenl.php
-msgid "Import postcode from pro6pp"
+#: CRM/Postcodenl/Pro6pp/BatchImport.php
+msgid "Importing postcodes"
 msgstr ""
 
-#: CRM/Postcodenl/Upgrader.php
-msgid "Process first step"
+#: CRM/Postcodenl/Pro6pp/BatchImport.php
+msgid "Finished Postcode Import"
 msgstr ""
 
-#: CRM/Postcodenl/Upgrader.php
-msgid "Process second step"
+#: CRM/Postcodenl/Pro6pp/BatchImport.php
+msgid "Import Postcodes"
 msgstr ""
 
-#: CRM/Postcodenl/Upgrader.php
-msgid "Upgrade Batch (%1 => %2)"
+#: CRM/Postcodenl/Task/Update.php postcodenl.php
+msgid "Update addresses"
 msgstr ""
 
 #: CRM/Postcodenl/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
 msgstr ""
 
+#: postcodenl.php
+msgid "Import postcode from pro6pp"
+msgstr ""
+
+#: postcodenl.php
+msgid "Update addresses from Dutch postcode database"
+msgstr ""
+
 #: templates/CRM/Postcodenl/Page/ImportPro6pp.tpl
 msgid "Pro6pp api authkey"
+msgstr ""
+
+#: templates/CRM/Postcodenl/Page/ImportPro6pp.tpl
+msgid "Skip CBS Buurten"
 msgstr ""
 
 #: templates/CRM/Postcodenl/Page/ImportPro6pp.tpl
