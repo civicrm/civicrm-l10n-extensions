@@ -10,7 +10,7 @@ msgstr ""
 "POT-Creation-Date: 2023-01-27 19:22+0000\n"
 "PO-Revision-Date: 2015-08-21 05:33+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2022-2023\n"
-"Language-Team: Turkish (http://www.transifex.com/civicrm/civicrm_extensions/language/tr/)\n"
+"Language-Team: Turkish (http://app.transifex.com/civicrm/civicrm_extensions/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -45,7 +45,7 @@ msgstr "ve %1 alıcısına gizli kopya olarak"
 
 #: CRM/Emailapi/CivirulesAction/Send.php
 msgid "Send email from '%1' with Template '%2' to %3 %4 %5"
-msgstr "'%1' adresinden '%2' kalıbı ile %3 %4 %5 alıcısına e*posta gönder"
+msgstr "'%1' adresinden '%2' kalıbı ile %3 %4 %5 alıcısına e-posta gönder"
 
 #: CRM/Emailapi/CivirulesAction/SendToContactReference.php
 msgid "Send e-mail from \"%1 (%2 using %3)\" with Template \"%4\" to %5 %6 %7"
@@ -74,11 +74,11 @@ msgstr "-- Lütfen seçin --"
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
 msgid "From Name"
-msgstr "Kimden adı"
+msgstr "\"Kimden\" adı"
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
 msgid "From Email"
-msgstr "Kimden e-posta adresi"
+msgstr "\"Kimden\" e-posta adresi"
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
 msgid "Email is not valid."
@@ -122,7 +122,7 @@ msgstr "E-posta olay üzerinde dosyalansın"
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
 msgid "From Email Address"
-msgstr "Kimden e-posta adresi"
+msgstr "\"Kimden\" e-posta adresi"
 
 #: CRM/Emailapi/Form/CivirulesAction/Send.php
 msgid "Save"
@@ -166,15 +166,15 @@ msgstr "%1, %2 sürümüne güncelle"
 
 #: Civi/Emailapi/Actions/SendEmailByEmailApi.php
 msgid "Contact ID"
-msgstr "Kişi kodu"
+msgstr "Kişi kimliği"
 
 #: Civi/Emailapi/Actions/SendEmailByEmailApi.php
 msgid "File Email Activity on Case ID"
-msgstr "E-posta işlemleri olay kodu ile dosyalansın"
+msgstr "E-posta işlemleri olay kimliği ile dosyalansın"
 
 #: Civi/Emailapi/Actions/SendEmailByEmailApi.php
 msgid "Contribution ID for contribution tokens"
-msgstr "Katkı belirteçleri için katkı kodu"
+msgstr "Katkı kodları için katkı kimliği"
 
 #: Civi/Emailapi/Actions/SendEmailByEmailApi.php
 msgid "Template to use for the Email"
@@ -237,7 +237,7 @@ msgid ""
 "      <p>Finally you can specify an email address for the <strong>CC to</strong> (a copy of the email will be sent to this email address and the email address will be visible to the recipient of the email too) or the <strong>BCC to</strong> (a copy of the email will be sent to this email address and the email address will NOT be visible to the recipient of the email too).</p>\n"
 "      <p>The sending of the email will also lead to an activity (type <em>Email</em>) being recorded for the contact in question, whatever email address will be used.</p>\n"
 "    "
-msgstr "<p>Bu formda e-postayla ne yapılacağını ayarlayabilirsiniz.</p>\n    <p>İlk birkaç alan nispeten basittir: the <strong>Kimden adı</strong> e-postanın göndericisinin adı ve <strong>Kimden e-posta adresi</strong> e-postanın göndericisinin e-posta adresidir. Yapılandırılmış varsayılan değerlerin kullanılması için bu alanları boş bırakın.</p>\n    <p><strong>Kimden e-posta adresleri</strong> bölümünden bir e-postanın gönderilmesi için hangi Kimden e-posta adresinin kullanılacağını seçebilirsiniz. Bu adresleri <strong>\"Yönetim\">\"İletişim\">\"Kimden e-posta adresleri\"</strong> bölümünden ekleyip düzenleyebilirsiniz.</p>\n    <p><strong>İleti kalıbı</strong> bölümünden e-postanın hazırlanması için kullanılacak CiviCRM ileti kalıbını seçebilirsiniz. Bu ileti kalıplarını <strong>\"Yönetim\">\"İletişim\">\"İleti kalıpları\"</strong> bölümünden ekleyip düzenleyebilirsiniz.</p>\n    <p>Sonraki bölümden e-postanın nereye gönderileceğini ayarlayabilirsiniz.<br/>\n    <strong>Varsayılan</strong> olarak e-posta ilgili <strong>kişinin birincil e-posta adresine</strong> gönderilir.<br/>\n    Bu davranışı 2 şekilde değiştirebilirsiniz:\n    <ol>\n      <li><em>İş</em> gibi <strong>belirli bir konum türündeki</strong> bir e-posta adresini kullanabilirsiniz. Bunun için konum türünü seçmelisiniz. E-posta (kişi için birden çok e-posta adresi varsa) o konum türünün en yeni e-posta adresine gönderilir. Belirtilen konum türünde bir e-posta adresi bulunamazsa, e-posta kişinin birincil e-posta adresine gönderilir.</li>\n      <li>Bir konum türü seçmezseniz, <strong>Alternatif e-posta adresine gönderilsin</strong> seçeneğini <strong>işaretleyebilirsiniz</strong>. Böylece alternatif bir e-posta adresi yazma seçeneğiniz olur. Açık olduğu üzere buraya geçerli bir e-posta adresi yazmalısınız.</li>\n    </ol>\n    </p>\n      <p>Son olarak <strong>Kopya</strong> (e-postanın bir kopyası bu e-posta adresine gönderilir ve e-posta adresi diğer e-posta alıcıları tarafından görülebilir) veya <strong>Gizli kopya</strong> (e-postanın bir kopyası bu e-posta adresine gönderilir ve e-posta adresi diğer e-postanın alıcıları tarafından görülemez) alıcılarını belirtebilirsiniz.</p>\n      <p>Bir e-posta gönderilmesi, hangi e-posta adresinin kullanıldığından bağımsız olarak, ilgili kişi için bir işlem (<em>E-posta</em> türünde) kaydının yapılmasına neden olur.</p>\n    "
+msgstr "<p>Bu formda e-postayla ne yapılacağını ayarlayabilirsiniz.</p>\n    <p>İlk birkaç alan nispeten basittir: the <strong>\"Kimden\" adı</strong> e-postanın göndericisinin adı ve <strong>\"Kimden\" e-posta adresi</strong> e-postanın göndericisinin e-posta adresidir. Yapılandırılmış varsayılan değerlerin kullanılması için bu alanları boş bırakın.</p>\n    <p><strong>\"Kimden\" e-posta adresleri</strong> bölümünden bir e-postanın gönderilmesi için hangi \"Kimden\" e-posta adresinin kullanılacağını seçebilirsiniz. Bu adresleri <strong>\"Yönetim\">\"İletişim\">\"Kimden e-posta adresleri\"</strong> bölümünden ekleyip düzenleyebilirsiniz.</p>\n    <p><strong>İleti kalıbı</strong> bölümünden e-postanın hazırlanması için kullanılacak CiviCRM ileti kalıbını seçebilirsiniz. Bu ileti kalıplarını <strong>\"Yönetim\">\"İletişim\">\"İleti kalıpları\"</strong> bölümünden ekleyip düzenleyebilirsiniz.</p>\n    <p>Sonraki bölümden e-postanın nereye gönderileceğini ayarlayabilirsiniz.<br/>\n    <strong>Varsayılan</strong> olarak e-posta ilgili <strong>kişinin birincil e-posta adresine</strong> gönderilir.<br/>\n    Bu davranışı 2 şekilde değiştirebilirsiniz:\n    <ol>\n      <li><em>İş</em> gibi <strong>belirli bir konum türündeki</strong> bir e-posta adresini kullanabilirsiniz. Bunun için konum türünü seçmelisiniz. E-posta (kişi için birden çok e-posta adresi varsa) o konum türünün en yeni e-posta adresine gönderilir. Belirtilen konum türünde bir e-posta adresi bulunamazsa, e-posta kişinin birincil e-posta adresine gönderilir.</li>\n      <li>Bir konum türü seçmezseniz, <strong>Alternatif e-posta adresine gönderilsin</strong> seçeneğini <strong>işaretleyebilirsiniz</strong>. Böylece alternatif bir e-posta adresi yazma seçeneğiniz olur. Açık olduğu üzere buraya geçerli bir e-posta adresi yazmalısınız.</li>\n    </ol>\n    </p>\n      <p>Son olarak <strong>Kopya</strong> (e-postanın bir kopyası bu e-posta adresine gönderilir ve e-posta adresi diğer e-posta alıcıları tarafından görülebilir) veya <strong>Gizli kopya</strong> (e-postanın bir kopyası bu e-posta adresine gönderilir ve e-posta adresi diğer e-postanın alıcıları tarafından görülemez) alıcılarını belirtebilirsiniz.</p>\n      <p>Bir e-posta gönderilmesi, hangi e-posta adresinin kullanıldığından bağımsız olarak, ilgili kişi için bir işlem (<em>E-posta</em> türünde) kaydının yapılmasına neden olur.</p>\n    "
 
 #: templates/CRM/Emailapi/Form/CivirulesAction/Send.tpl
 #: templates/CRM/Emailapi/Form/CivirulesAction/SendToRelatedContact.tpl
@@ -256,7 +256,7 @@ msgid ""
 "    <p>Finally you can specify an emailaddress for the <strong>CC to</strong> (a copy of the email will be sent to this email address and the email address will be visible to the recipient of the email too) or the <strong>BCC to</strong> (a copy of the email will be sent to this email address and the email address will NOT be visible to the recipient of the email too).</p>\n"
 "    <p>The sending of the email will also lead to an activity (type <em>Email</em>) being recorded for the contact in question, whatever email address will be used.</p>\n"
 "    "
-msgstr "<p>Bu formda e-postayla ne yapılacağını ayarlayabilirsiniz.</p>\n    <p>İlk birkaç alan nispeten basittir: <strong>Kimden adı</strong> e-postanın göndericisinin adı ve <strong>Kimden e-posta adresi</strong> e-postanın göndericisinin e-posta adresidir.</p>\n    <p><strong>İleti kalıbı</strong> bölümünden e-postanın hazırlanması için kullanılacak CiviCRM ileti kalıbını seçebilirsiniz. Bu ileti kalıplarını <strong>\"Yönetim\">\"İletişim\">\"İleti kalıpları\"</strong> bölümünden ekleyip düzenleyebilirsiniz.</p>\n    <p>Sonraki bölümden e-postanın nereye gönderileceğini ayarlayabilirsiniz.<br/>\n      <p>Son olarak <strong>Kopya</strong> (e-postanın bir kopyası bu e-posta adresine gönderilir ve e-posta adresi diğer e-posta alıcıları tarafından görülebilir) veya <strong>Gizli kopya</strong> (e-postanın bir kopyası bu e-posta adresine gönderilir ve e-posta adresi diğer e-postanın alıcıları tarafından görülemez) alıcılarını belirtebilirsiniz.</p>\n      <p>Bir e-posta gönderilmesi, hangi e-posta adresinin kullanıldığından bağımsız olarak, ilgili kişi için bir işlem (<em>E-posta</em> türünde) kaydının yapılmasına neden olur.</p>\n    "
+msgstr "<p>Bu formda e-postayla ne yapılacağını ayarlayabilirsiniz.</p>\n    <p>İlk birkaç alan nispeten basittir: <strong>\"Kimden\" adı</strong> e-postanın göndericisinin adı ve <strong>\"Kimden\" e-posta adresi</strong> e-postanın göndericisinin e-posta adresidir.</p>\n    <p><strong>İleti kalıbı</strong> bölümünden e-postanın hazırlanması için kullanılacak CiviCRM ileti kalıbını seçebilirsiniz. Bu ileti kalıplarını <strong>\"Yönetim\">\"İletişim\">\"İleti kalıpları\"</strong> bölümünden ekleyip düzenleyebilirsiniz.</p>\n    <p>Sonraki bölümden e-postanın nereye gönderileceğini ayarlayabilirsiniz.<br/>\n      <p>Son olarak <strong>Kopya</strong> (e-postanın bir kopyası bu e-posta adresine gönderilir ve e-posta adresi diğer e-posta alıcıları tarafından görülebilir) veya <strong>Gizli kopya</strong> (e-postanın bir kopyası bu e-posta adresine gönderilir ve e-posta adresi diğer e-postanın alıcıları tarafından görülemez) alıcılarını belirtebilirsiniz.</p>\n      <p>Bir e-posta gönderilmesi, hangi e-posta adresinin kullanıldığından bağımsız olarak, ilgili kişi için bir işlem (<em>E-posta</em> türünde) kaydının yapılmasına neden olur.</p>\n    "
 
 #: templates/CRM/Emailapi/Form/CivirulesAction/SendToContactReference.tpl
 msgid ""
@@ -281,7 +281,7 @@ msgid ""
 "      <p>Finally you can specify an email address for the <strong>CC to</strong> (a copy of the email will be sent to this email address and the email address will be visible to the recipient of the email too) or the <strong>BCC to</strong> (a copy of the email will be sent to this email address and the email address will NOT be visible to the recipient of the email too).</p>\n"
 "      <p>The sending of the email will also lead to an activity (type <em>Email</em>) being recorded for the contact in question, whatever email address will be used.</p>\n"
 "    "
-msgstr "<p>Bu formda e-postayla ne yapılacağını ayarlayabilirsiniz.</p>\n    <p>İlk birkaç alan nispeten basittir: the <strong>Kimden adı</strong> e-postanın göndericisinin adı ve <strong>Kimden e-posta adresi</strong> e-postanın göndericisinin e-posta adresidir. Yapılandırılmış varsayılan değerlerin kullanılması için bu alanları boş bırakın.</p>\n    <p><strong>İleti kalıbı</strong> bölümünden e-postanın hazırlanması için kullanılacak CiviCRM ileti kalıbını seçebilirsiniz. Bu ileti kalıplarını <strong>\"Yönetim\">\"İletişim\">\"İleti kalıpları\"</strong> bölümünden ekleyip düzenleyebilirsiniz.</p>\n    <p>Sonraki bölümden e-postanın nereye gönderileceğini ayarlayabilirsiniz.<br/>\n    <strong>Varsayılan</strong> olarak e-posta ilgili <strong>ilişkili kişinin birincil e-posta adresine</strong> gönderilir.<br/>\n    Hangi ilişkili kişinin e-postayı alacağını seçebilirsiniz:\n    <ul>\n      <li><strong>Tüm etkin ilişkili kişiler</strong>,</li> \n      <li><strong>Son etkin ilişkili kişi</strong>, ilişki başlangıç tarihi en yakın olan kişiyi seçer</li>\n      <li>ya da <strong>Son etkin olmayan ilişkili kişi</strong>, ilişki bitiş tarihi en yakın olan kişiyi seçer.\n    </ul>\n    </p>\n      <p>Son olarak <strong>Kopya</strong> (e-postanın bir kopyası bu e-posta adresine gönderilir ve e-posta adresi diğer e-posta alıcıları tarafından görülebilir) veya <strong>Gizli kopya</strong> (e-postanın bir kopyası bu e-posta adresine gönderilir ve e-posta adresi diğer e-postanın alıcıları tarafından görülemez) alıcılarını belirtebilirsiniz.</p>\n      <p>Bir e-posta gönderilmesi, hangi e-posta adresinin kullanıldığından bağımsız olarak, ilgili kişi için bir işlem (<em>E-posta</em> türünde) kaydının yapılmasına neden olur.</p>\n    "
+msgstr "<p>Bu formda e-postayla ne yapılacağını ayarlayabilirsiniz.</p>\n    <p>İlk birkaç alan nispeten basittir: the <strong>\"Kimden\" adı</strong> e-postanın göndericisinin adı ve <strong>\"Kimden\" e-posta adresi</strong> e-postanın göndericisinin e-posta adresidir. Yapılandırılmış varsayılan değerlerin kullanılması için bu alanları boş bırakın.</p>\n    <p><strong>İleti kalıbı</strong> bölümünden e-postanın hazırlanması için kullanılacak CiviCRM ileti kalıbını seçebilirsiniz. Bu ileti kalıplarını <strong>\"Yönetim\">\"İletişim\">\"İleti kalıpları\"</strong> bölümünden ekleyip düzenleyebilirsiniz.</p>\n    <p>Sonraki bölümden e-postanın nereye gönderileceğini ayarlayabilirsiniz.<br/>\n    <strong>Varsayılan</strong> olarak e-posta ilgili <strong>ilişkili kişinin birincil e-posta adresine</strong> gönderilir.<br/>\n    Hangi ilişkili kişinin e-postayı alacağını seçebilirsiniz:\n    <ul>\n      <li><strong>Tüm etkin ilişkili kişiler</strong>,</li> \n      <li><strong>Son etkin ilişkili kişi</strong>, ilişki başlangıç tarihi en yakın olan kişiyi seçer</li>\n      <li>ya da <strong>Son etkin olmayan ilişkili kişi</strong>, ilişki bitiş tarihi en yakın olan kişiyi seçer.\n    </ul>\n    </p>\n      <p>Son olarak <strong>Kopya</strong> (e-postanın bir kopyası bu e-posta adresine gönderilir ve e-posta adresi diğer e-posta alıcıları tarafından görülebilir) veya <strong>Gizli kopya</strong> (e-postanın bir kopyası bu e-posta adresine gönderilir ve e-posta adresi diğer e-postanın alıcıları tarafından görülemez) alıcılarını belirtebilirsiniz.</p>\n      <p>Bir e-posta gönderilmesi, hangi e-posta adresinin kullanıldığından bağımsız olarak, ilgili kişi için bir işlem (<em>E-posta</em> türünde) kaydının yapılmasına neden olur.</p>\n    "
 
 #: templates/CRM/Emailapi/Form/CivirulesAction/SendToRolesOnCase.tpl
 msgid ""
@@ -294,4 +294,4 @@ msgid ""
 "      <p>Finally you can specify an email address for the <strong>CC to</strong> (a copy of the email will be sent to this email address and the email address will be visible to the recipient of the email too) or the <strong>BCC to</strong> (a copy of the email will be sent to this email address and the email address will NOT be visible to the recipient of the email too).</p>\n"
 "      <p>The sending of the email will also lead to an activity (type <em>Email</em>) being recorded for the contact in question, whatever email address will be used.</p>\n"
 "    "
-msgstr "<p>Bu formda e-postayla ne yapılacağını ayarlayabilirsiniz.</p>\n    <p>İlk birkaç alan nispeten basittir: the <strong>Kimden adı</strong> e-postanın göndericisinin adı ve <strong>Kimden e-posta adresi</strong> e-postanın göndericisinin e-posta adresidir. Yapılandırılmış varsayılan değerlerin kullanılması için bu alanları boş bırakın.</p>\n    <p><strong>İleti kalıbı</strong> bölümünden e-postanın hazırlanması için kullanılacak CiviCRM ileti kalıbını seçebilirsiniz. Bu ileti kalıplarını <strong>\"Yönetim\">\"İletişim\">\"İleti kalıpları\"</strong> bölümünden ekleyip düzenleyebilirsiniz.</p>\n    <p>Sonraki bölümden e-postanın nereye gönderileceğini ayarlayabilirsiniz.<br/>\n    <strong>Varsayılan</strong> olarak e-posta ilgili <strong>kişinin birincil e-posta adresine</strong> gönderilir.<br/>\n    </p>\n      <p>Son olarak <strong>Kopya</strong> (e-postanın bir kopyası bu e-posta adresine gönderilir ve e-posta adresi diğer e-posta alıcıları tarafından görülebilir) veya <strong>Gizli kopya</strong> (e-postanın bir kopyası bu e-posta adresine gönderilir ve e-posta adresi diğer e-postanın alıcıları tarafından görülemez) alıcılarını belirtebilirsiniz.</p>\n      <p>Bir e-posta gönderilmesi, hangi e-posta adresinin kullanıldığından bağımsız olarak, ilgili kişi için bir işlem (<em>E-posta</em> türünde) kaydının yapılmasına neden olur.</p>\n    "
+msgstr "<p>Bu formda e-postayla ne yapılacağını ayarlayabilirsiniz.</p>\n    <p>İlk birkaç alan nispeten basittir: the <strong>\"Kimden\" adı</strong> e-postanın göndericisinin adı ve <strong>\"Kimden\" e-posta adresi</strong> e-postanın göndericisinin e-posta adresidir. Yapılandırılmış varsayılan değerlerin kullanılması için bu alanları boş bırakın.</p>\n    <p><strong>İleti kalıbı</strong> bölümünden e-postanın hazırlanması için kullanılacak CiviCRM ileti kalıbını seçebilirsiniz. Bu ileti kalıplarını <strong>\"Yönetim\">\"İletişim\">\"İleti kalıpları\"</strong> bölümünden ekleyip düzenleyebilirsiniz.</p>\n    <p>Sonraki bölümden e-postanın nereye gönderileceğini ayarlayabilirsiniz.<br/>\n    <strong>Varsayılan</strong> olarak e-posta ilgili <strong>kişinin birincil e-posta adresine</strong> gönderilir.<br/>\n    </p>\n      <p>Son olarak <strong>Kopya</strong> (e-postanın bir kopyası bu e-posta adresine gönderilir ve e-posta adresi diğer e-posta alıcıları tarafından görülebilir) veya <strong>Gizli kopya</strong> (e-postanın bir kopyası bu e-posta adresine gönderilir ve e-posta adresi diğer e-postanın alıcıları tarafından görülemez) alıcılarını belirtebilirsiniz.</p>\n      <p>Bir e-posta gönderilmesi, hangi e-posta adresinin kullanıldığından bağımsız olarak, ilgili kişi için bir işlem (<em>E-posta</em> türünde) kaydının yapılmasına neden olur.</p>\n    "
