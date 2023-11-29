@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
 "POT-Creation-Date: 2023-01-27 19:21+0000\n"
 "PO-Revision-Date: 2015-01-10 05:32+0000\n"
-"Language-Team: French (Canada) (http://www.transifex.com/civicrm/civicrm_extensions/language/fr_CA/)\n"
+"Language-Team: French (Canada) (http://app.transifex.com/civicrm/civicrm_extensions/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -130,11 +130,11 @@ msgstr ""
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "Unique ID"
-msgstr ""
+msgstr "Id. unique"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "Stripe Intent ID"
-msgstr ""
+msgstr "Id. de Intent Stripe"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "The Stripe PaymentIntent/SetupIntent/PaymentMethod ID"
@@ -154,7 +154,7 @@ msgstr "Passerelle de paiement"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "Foreign key to civicrm_payment_processor.id"
-msgstr ""
+msgstr "Clé étrangère vers le civicrm_payment_processor.id"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "Description"
@@ -184,7 +184,7 @@ msgstr ""
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "FK to Contact"
-msgstr ""
+msgstr "FK vers Contact"
 
 #: CRM/Stripe/DAO/StripePaymentintent.php
 msgid "Created Date"
@@ -319,7 +319,7 @@ msgstr ""
 
 #: api/v3/Stripe/Importcharge.php
 msgid "The charge does not have an invoice, it cannot be imported."
-msgstr ""
+msgstr "La charge n'a pas de facture, elle ne peut pas être importée."
 
 #: api/v3/Stripe/Importcharge.php
 msgid ""
@@ -333,17 +333,17 @@ msgstr "Importer un client spécifique"
 
 #: api/v3/Stripe/Importcustomers.php api/v3/Stripe/Importsubscriptions.php
 msgid "Limit number of Customers/Subscriptions to be imported"
-msgstr ""
+msgstr "Limiter le nombre de Clients/Souscriptions à importer"
 
 #: api/v3/Stripe/Importcustomers.php
 msgid "Start importing customers after this one"
-msgstr ""
+msgstr "Comment l'import de clients après celui-ci"
 
 #: api/v3/Stripe/Importsubscription.php
 msgid ""
 "There is a mismatch between the contact id for the customer indicated by the"
 " subscription (%1) and the contact id provided via the API params (%2)."
-msgstr ""
+msgstr "Incohérence entre l'Id. de contact du client indiqué par la souscription (%1) et l'Id. de contact fourni via les paramètres de l'API (%2)."
 
 #: api/v3/Stripe/Importsubscription.php
 msgid "Stripe Subscription ID"
@@ -368,7 +368,7 @@ msgstr "Lien automatique vers l'adhésion existante"
 
 #: api/v3/Stripe/Importsubscriptions.php
 msgid "Start importing subscriptions after this one"
-msgstr ""
+msgstr "Commencer l'import de souscriptions après celle-ci"
 
 #: api/v3/Stripe/Ipn.php
 msgid "CiviCRM System Log id to replay from system log."
@@ -446,11 +446,11 @@ msgstr "L'identifiant du processeur de paiement. "
 
 #: api/v3/Stripe/Populatelog.php api/v3/Stripe/Populatewebhookqueue.php
 msgid "The event type - defaults to invoice.payment_succeeded."
-msgstr ""
+msgstr "Type de l'événement (réglage par défaut : invoice.payment_succeeded)"
 
 #: api/v3/Stripe/Retryall.php
 msgid "The payment processor to use."
-msgstr ""
+msgstr "La passerelle de paiement à utiliser"
 
 #: api/v3/Stripe/Retryall.php
 msgid "Limit the number of unprocessed events to retry."
@@ -472,23 +472,23 @@ msgstr "Si cette option est activée, seul ce client sera mis à jour, sinon nou
 
 #: api/v3/StripeInvoice.php
 msgid "Stripe Invoice ID"
-msgstr ""
+msgstr "Id. de la facture Stripe"
 
 #: api/v3/StripeInvoice.php
 msgid "Send Email Receipt"
-msgstr ""
+msgstr "Envoyer un reçu par courriel"
 
 #: api/v3/StripePaymentintent.php
 msgid "Payment Method ID"
-msgstr ""
+msgstr "Id. du moyen de paiement"
 
 #: api/v3/StripePaymentintent.php
 msgid "Payment Intent ID"
-msgstr ""
+msgstr "Id. du Intent du paiement"
 
 #: api/v3/StripePaymentintent.php
 msgid "Payment amount"
-msgstr ""
+msgstr "Montant du paiement"
 
 #: api/v3/StripePaymentintent.php
 msgid "Whether we should try to capture the amount, not just confirm it"
@@ -496,31 +496,31 @@ msgstr ""
 
 #: api/v3/StripePaymentintent.php
 msgid "Describe the payment"
-msgstr ""
+msgstr "Description du paiement"
 
 #: api/v3/StripePaymentintent.php
 msgid "Currency (eg. EUR)"
-msgstr ""
+msgstr "Devise (ex : EUR)"
 
 #: api/v3/StripePaymentintent.php
 msgid "The stripe payment processor id"
-msgstr ""
+msgstr "L'Id. de la passerelle de paiement Stripe"
 
 #: api/v3/StripePaymentintent.php
 msgid "Bad Request"
-msgstr ""
+msgstr "Requête erronée."
 
 #: js/civicrmStripeConfirm.js js/civicrm_stripe.js
 msgid "The payment failed - please try a different payment method."
-msgstr ""
+msgstr "Le règlement a échoué - veuillez essayer avec un autre moyen de paiement."
 
 #: js/civicrmStripeConfirm.js
 msgid "Payment successful"
-msgstr ""
+msgstr "Le règlement a bien été effectué."
 
 #: js/civicrmStripeConfirm.js
 msgid "The payment failed - unknown error."
-msgstr ""
+msgstr "Le paiement a échoué - erreur inconnue."
 
 #: js/civicrmStripeConfirm.js js/civicrm_stripe.js
 msgid "Unknown error"
@@ -528,7 +528,7 @@ msgstr "Erreur inconnue"
 
 #: js/civicrmStripeConfirm.js js/civicrm_stripe.js
 msgid "Configuration error - unable to process paymentIntent"
-msgstr ""
+msgstr "Erreur de paramétrage - impossible de traiter le paiement (paymentIntent)"
 
 #: js/civicrmStripeConfirm.js
 msgid "Please wait..."
@@ -536,7 +536,7 @@ msgstr "Veuillez patienter..."
 
 #: js/civicrmStripeConfirm.js js/civicrm_stripe.js js/recur_start.js
 msgid "com.drastikbydesign.stripe"
-msgstr ""
+msgstr "com.drastikbydesign.stripe"
 
 #: js/civicrm_stripe.js
 msgid "Please wait"
