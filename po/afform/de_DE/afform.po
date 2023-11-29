@@ -1,22 +1,27 @@
 # 
 # Translators:
-# Mathieu Lu <mathieu@bidon.ca>, 2022
-# Torben Bertram, 2022
+# Ettore Atalan <atalanttore@googlemail.com>, 2023
+# Mathieu Lu <mathieu@bidon.ca>, 2023
+# Torben Bertram, 2023
 # 
 msgid ""
 msgstr ""
-"Last-Translator: Torben Bertram, 2022\n"
-"Language-Team: German (https://www.transifex.com/civicrm/teams/1905/de/)\n"
+"Last-Translator: Torben Bertram, 2023\n"
+"Language-Team: German (https://app.transifex.com/civicrm/teams/1905/de/)\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ./CRM/Afform/DAO/AfformSubmission.php
-msgid "Form Builder Submissions"
-msgstr "Form Builder Einreichungen"
+msgid "FormBuilder Submissions"
+msgstr ""
 
 #: ./CRM/Afform/DAO/AfformSubmission.php
-msgid "Form Builder Submission"
-msgstr "Form Builder Einreichung"
+msgid "FormBuilder Submission"
+msgstr ""
+
+#: ./CRM/Afform/DAO/AfformSubmission.php
+msgid "Form Submission ID"
+msgstr ""
 
 #: ./CRM/Afform/DAO/AfformSubmission.php
 msgid "Unique Submission ID"
@@ -51,32 +56,60 @@ msgid "CiviCRM"
 msgstr "CiviCRM"
 
 #: ./CRM/Afform/Page/AfformBase.php
-msgid "Admin"
-msgstr "Admin"
+msgid "Administer"
+msgstr ""
 
 #: ./CRM/Afform/Page/AfformBase.php ./afform.php
-msgid "Form Builder"
-msgstr "Form Builder"
+msgid "FormBuilder"
+msgstr ""
 
 #: ./CRM/Afform/Page/AfformBase.php
 msgid "Edit Form"
 msgstr "Bearbeite Formular"
 
-#: ./CRM/Afform/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Aktualisiere %1 auf Revision %2"
-
 #: ./Civi/Afform/AfformMetadataInjector.php
 msgid "Select"
 msgstr "Wähle"
 
-#: ./Civi/Afform/AfformMetadataInjector.php
+#: ./Civi/Afform/AfformMetadataInjector.php ./Civi/Afform/FormDataModel.php
 msgid "Select %1"
 msgstr "Wähle %1"
 
 #: ./Civi/Afform/AfformMetadataInjector.php
 msgid "Choose Date Range"
 msgstr "Wähle Datumsbereich"
+
+#: ./Civi/Afform/Behavior/ContactAutofill.php
+msgid "Autofill"
+msgstr ""
+
+#: ./Civi/Afform/Behavior/ContactAutofill.php
+msgid ""
+"Automatically identify this contact based on logged-in status or "
+"relationship to another contact on the form."
+msgstr ""
+
+#: ./Civi/Afform/Behavior/ContactAutofill.php
+msgid "Current User"
+msgstr ""
+
+#: ./Civi/Afform/Behavior/ContactAutofill.php
+msgid "Auto-select logged-in user"
+msgstr ""
+
+#: ./Civi/Afform/Behavior/ContactDedupe.php
+msgid "Duplicate Matching"
+msgstr ""
+
+#: ./Civi/Afform/Behavior/ContactDedupe.php
+msgid ""
+"Update existing contact instead of creating a new one based on a dedupe "
+"rule."
+msgstr ""
+
+#: ./Civi/Afform/FormDataModel.php
+msgid "Existing %1"
+msgstr ""
 
 #: ./Civi/Afform/StatusChecks.php
 msgid ""
@@ -126,9 +159,55 @@ msgstr "%1 (URL)"
 msgid "%1 (Full Hyperlink)"
 msgstr "%1 (voller Hyperlink)"
 
+#: ./Civi/Afform/Utils.php
+msgid "Contains"
+msgstr "Enthält"
+
+#: ./Civi/Afform/Utils.php
+msgid "Doesn't Contain"
+msgstr ""
+
+#: ./Civi/Afform/Utils.php
+msgid "Is One Of"
+msgstr "ist einer von"
+
+#: ./Civi/Afform/Utils.php
+msgid "Not One Of"
+msgstr "ist keiner von"
+
+#: ./Civi/Afform/Utils.php
+msgid "Is Like"
+msgstr "Ist wie"
+
+#: ./Civi/Afform/Utils.php
+msgid "Not Like"
+msgstr "Nicht wie"
+
+#: ./Civi/Afform/Utils.php
+msgid "Matches Pattern"
+msgstr "Entspricht Muster"
+
+#: ./Civi/Afform/Utils.php
+msgid "Doesn't Match Pattern"
+msgstr "Entspricht nicht Muster"
+
 #: ./Civi/Api4/Action/Afform/Get.php
 msgid "%1 block"
 msgstr "%1 Block"
+
+#: ./Civi/Api4/Action/Afform/Submit.php
+msgid "Validation Error"
+msgid_plural "%1 Validation Errors"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ./Civi/Api4/Action/Afform/Submit.php
+msgid "%1 is a required field."
+msgstr "%1 ist ein Pflichtfeld"
+
+#: ./Civi/Api4/Action/Afform/Submit.php
+msgid "Illegal value for %1."
+msgstr ""
 
 #: ./Civi/Api4/Afform.php
 msgid "Contact Summary Block"
@@ -141,6 +220,14 @@ msgstr "Kontaktübersicht Tab"
 #: ./afform.php
 msgid "(Untitled)"
 msgstr "(Unbenannt)"
+
+#: ./afform.php
+msgid "FormBuilder: edit and delete forms"
+msgstr ""
+
+#: ./afform.php
+msgid "Allows non-admin users to create, update and delete forms"
+msgstr ""
 
 #: ./afform.php
 msgid "Afform: Inherit permission of %1"
@@ -158,10 +245,50 @@ msgstr "Ja"
 msgid "No"
 msgstr "Nein"
 
+#: ./ang/af/afField.html
+msgid "Required"
+msgstr "Erforderlich"
+
 #: ./ang/af/afForm.component.js
 msgid "Uploading %1"
 msgstr "Lade %1 hoch"
 
+#: ./ang/af/afForm.component.js
+msgid "Please fill all required fields."
+msgstr ""
+
+#: ./ang/af/afForm.component.js
+msgid "Form Error"
+msgstr ""
+
+#: ./ang/af/fields/File.html
+msgid "Replace"
+msgstr "Ändern"
+
+#: ./ang/af/fields/Radio.html
+msgid "Clear"
+msgstr "Zurücksetzen"
+
 #: ./ang/afCore/Api4Action.js
 msgid "Submitting..."
 msgstr "Übermittle..."
+
+#: ./managed/AfformType.mgd.php
+msgid "Afform Type"
+msgstr ""
+
+#: ./managed/AfformType.mgd.php
+msgid "Submission Form"
+msgstr ""
+
+#: ./managed/AfformType.mgd.php
+msgid "Search Form"
+msgstr ""
+
+#: ./managed/AfformType.mgd.php
+msgid "Field Block"
+msgstr ""
+
+#: ./managed/AfformType.mgd.php
+msgid "System Form"
+msgstr ""
