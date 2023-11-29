@@ -1,22 +1,26 @@
 # 
 # Translators:
-# Rinat Sadykov <sark@bk.ru>, 2022
 # Mathieu Lu <mathieu@bidon.ca>, 2022
-# Виктор, 2022
+# Victor, 2022
+# Alexander artamonov <aartamonov@yandex.ru>, 2023
 # 
 msgid ""
 msgstr ""
-"Last-Translator: Виктор, 2022\n"
-"Language-Team: Russian (https://www.transifex.com/civicrm/teams/1905/ru/)\n"
+"Last-Translator: Alexander artamonov <aartamonov@yandex.ru>, 2023\n"
+"Language-Team: Russian (https://app.transifex.com/civicrm/teams/1905/ru/)\n"
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #: ./CRM/Afform/DAO/AfformSubmission.php
-msgid "Form Builder Submissions"
+msgid "FormBuilder Submissions"
 msgstr ""
 
 #: ./CRM/Afform/DAO/AfformSubmission.php
-msgid "Form Builder Submission"
+msgid "FormBuilder Submission"
+msgstr ""
+
+#: ./CRM/Afform/DAO/AfformSubmission.php
+msgid "Form Submission ID"
 msgstr ""
 
 #: ./CRM/Afform/DAO/AfformSubmission.php
@@ -52,32 +56,60 @@ msgid "CiviCRM"
 msgstr "CiviCRM"
 
 #: ./CRM/Afform/Page/AfformBase.php
-msgid "Admin"
-msgstr "Админ"
+msgid "Administer"
+msgstr ""
 
 #: ./CRM/Afform/Page/AfformBase.php ./afform.php
-msgid "Form Builder"
+msgid "FormBuilder"
 msgstr ""
 
 #: ./CRM/Afform/Page/AfformBase.php
 msgid "Edit Form"
 msgstr ""
 
-#: ./CRM/Afform/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Обновить %1 до версии %2"
-
 #: ./Civi/Afform/AfformMetadataInjector.php
 msgid "Select"
 msgstr "Выбрать"
 
-#: ./Civi/Afform/AfformMetadataInjector.php
+#: ./Civi/Afform/AfformMetadataInjector.php ./Civi/Afform/FormDataModel.php
 msgid "Select %1"
 msgstr "Выбрать %1"
 
 #: ./Civi/Afform/AfformMetadataInjector.php
 msgid "Choose Date Range"
 msgstr "Выберите диапазон дат"
+
+#: ./Civi/Afform/Behavior/ContactAutofill.php
+msgid "Autofill"
+msgstr ""
+
+#: ./Civi/Afform/Behavior/ContactAutofill.php
+msgid ""
+"Automatically identify this contact based on logged-in status or "
+"relationship to another contact on the form."
+msgstr ""
+
+#: ./Civi/Afform/Behavior/ContactAutofill.php
+msgid "Current User"
+msgstr ""
+
+#: ./Civi/Afform/Behavior/ContactAutofill.php
+msgid "Auto-select logged-in user"
+msgstr ""
+
+#: ./Civi/Afform/Behavior/ContactDedupe.php
+msgid "Duplicate Matching"
+msgstr ""
+
+#: ./Civi/Afform/Behavior/ContactDedupe.php
+msgid ""
+"Update existing contact instead of creating a new one based on a dedupe "
+"rule."
+msgstr ""
+
+#: ./Civi/Afform/FormDataModel.php
+msgid "Existing %1"
+msgstr ""
 
 #: ./Civi/Afform/StatusChecks.php
 msgid ""
@@ -118,8 +150,56 @@ msgstr "%1 (URL)"
 msgid "%1 (Full Hyperlink)"
 msgstr "%1 (полная гиперссылка)"
 
+#: ./Civi/Afform/Utils.php
+msgid "Contains"
+msgstr "Содержит"
+
+#: ./Civi/Afform/Utils.php
+msgid "Doesn't Contain"
+msgstr ""
+
+#: ./Civi/Afform/Utils.php
+msgid "Is One Of"
+msgstr "Один из"
+
+#: ./Civi/Afform/Utils.php
+msgid "Not One Of"
+msgstr "Не один из"
+
+#: ./Civi/Afform/Utils.php
+msgid "Is Like"
+msgstr "Содержит"
+
+#: ./Civi/Afform/Utils.php
+msgid "Not Like"
+msgstr "Не содержит"
+
+#: ./Civi/Afform/Utils.php
+msgid "Matches Pattern"
+msgstr "Соответствует шаблону"
+
+#: ./Civi/Afform/Utils.php
+msgid "Doesn't Match Pattern"
+msgstr "Не соответствует шаблону"
+
 #: ./Civi/Api4/Action/Afform/Get.php
 msgid "%1 block"
+msgstr ""
+
+#: ./Civi/Api4/Action/Afform/Submit.php
+msgid "Validation Error"
+msgid_plural "%1 Validation Errors"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: ./Civi/Api4/Action/Afform/Submit.php
+msgid "%1 is a required field."
+msgstr "%1 - обязательное поле."
+
+#: ./Civi/Api4/Action/Afform/Submit.php
+msgid "Illegal value for %1."
 msgstr ""
 
 #: ./Civi/Api4/Afform.php
@@ -133,6 +213,14 @@ msgstr ""
 #: ./afform.php
 msgid "(Untitled)"
 msgstr "(Без названия)"
+
+#: ./afform.php
+msgid "FormBuilder: edit and delete forms"
+msgstr ""
+
+#: ./afform.php
+msgid "Allows non-admin users to create, update and delete forms"
+msgstr ""
 
 #: ./afform.php
 msgid "Afform: Inherit permission of %1"
@@ -150,10 +238,50 @@ msgstr "Да"
 msgid "No"
 msgstr "Нет"
 
+#: ./ang/af/afField.html
+msgid "Required"
+msgstr ""
+
 #: ./ang/af/afForm.component.js
 msgid "Uploading %1"
 msgstr "Загрузка %1"
 
+#: ./ang/af/afForm.component.js
+msgid "Please fill all required fields."
+msgstr ""
+
+#: ./ang/af/afForm.component.js
+msgid "Form Error"
+msgstr ""
+
+#: ./ang/af/fields/File.html
+msgid "Replace"
+msgstr ""
+
+#: ./ang/af/fields/Radio.html
+msgid "Clear"
+msgstr ""
+
 #: ./ang/afCore/Api4Action.js
 msgid "Submitting..."
 msgstr "Отправка..."
+
+#: ./managed/AfformType.mgd.php
+msgid "Afform Type"
+msgstr ""
+
+#: ./managed/AfformType.mgd.php
+msgid "Submission Form"
+msgstr ""
+
+#: ./managed/AfformType.mgd.php
+msgid "Search Form"
+msgstr ""
+
+#: ./managed/AfformType.mgd.php
+msgid "Field Block"
+msgstr ""
+
+#: ./managed/AfformType.mgd.php
+msgid "System Form"
+msgstr ""
