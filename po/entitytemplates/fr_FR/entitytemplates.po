@@ -4,20 +4,20 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # punkyard persist <punkyard@grrlz.net>, 2022
-# Usha Matisson <matisson@makoa.fr>, 2022
 # Guillaume Sorel <serviceclient@all-in-appli.com>, 2022
+# Usha Matisson, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: entitytemplates\n"
 "POT-Creation-Date: 2021-06-02 05:01+0000\n"
-"Last-Translator: Guillaume Sorel <serviceclient@all-in-appli.com>, 2022\n"
-"Language-Team: French (https://www.transifex.com/civicrm/teams/1905/fr/)\n"
+"Last-Translator: Usha Matisson, 2023\n"
+"Language-Team: French (https://app.transifex.com/civicrm/teams/1905/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: CRM/Core/DAO/EntityTemplates.php
 msgid "Entity Table"
@@ -30,15 +30,15 @@ msgstr "Titre"
 
 #: CRM/Core/DAO/EntityTemplates.php
 msgid "Submitted Form Values"
-msgstr ""
+msgstr "Valeurs soumises dans le formulaire"
 
 #: CRM/EntityTemplates/BAO/EntityTemplates.php
 msgid "Entity Table is mandatory."
-msgstr ""
+msgstr "L'Entité est obligatoire."
 
 #: CRM/EntityTemplates/BAO/EntityTemplates.php
 msgid "Invalid Entity Type."
-msgstr ""
+msgstr "Type d'entité invalide."
 
 #: CRM/EntityTemplates/Page/EntityTemplates.php
 msgid "Edit"
@@ -46,7 +46,7 @@ msgstr "Modifier"
 
 #: CRM/EntityTemplates/Page/EntityTemplates.php
 msgid "Edit template"
-msgstr ""
+msgstr "Modifier le modèle"
 
 #: CRM/EntityTemplates/Page/EntityTemplates.php
 #: templates/CRM/EntityTemplates/Page/EntityTemplates.tpl
@@ -55,11 +55,11 @@ msgstr "Supprimer"
 
 #: CRM/EntityTemplates/Page/EntityTemplates.php
 msgid "Delete template"
-msgstr ""
+msgstr "Supprimer le modèle"
 
 #: CRM/EntityTemplates/Page/EntityTemplates.php
 msgid "Invalid Entity type."
-msgstr ""
+msgstr "Type d'entité invalide."
 
 #: CRM/EntityTemplates/Page/EntityTemplates.php
 msgid "more"
@@ -67,7 +67,7 @@ msgstr "plus"
 
 #: CRM/EntityTemplates/Page/EntityTemplates.php entitytemplates.php
 msgid "Entity Templates"
-msgstr ""
+msgstr "Modèles d'Entités"
 
 #: CRM/EntityTemplates/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
@@ -75,11 +75,11 @@ msgstr "Mettre à jour %1 vers la révision %2"
 
 #: CRM/EntityTemplates/Utils.php CRM/EntityTemplates/Utils.php.orig
 msgid "Template Title"
-msgstr ""
+msgstr "Titre du Modèle"
 
 #: CRM/EntityTemplates/Utils.php CRM/EntityTemplates/Utils.php.orig
 msgid "Templates"
-msgstr ""
+msgstr "Modèles"
 
 #: CRM/EntityTemplates/Utils.php CRM/EntityTemplates/Utils.php.orig
 msgid "- select -"
@@ -87,15 +87,15 @@ msgstr "- sélectionner -"
 
 #: CRM/EntityTemplates/Utils.php CRM/EntityTemplates/Utils.php.orig
 msgid "Entity template saved successfully"
-msgstr ""
+msgstr "Le modèle d'Entité a été enregistré."
 
 #: CRM/EntityTemplates/Utils.php CRM/EntityTemplates/Utils.php.orig
 msgid "Entity template"
-msgstr ""
+msgstr "Modèle d'Entité"
 
 #: entitytemplates.php
 msgid "Entity Template for"
-msgstr ""
+msgstr "Modèle d'Entité pour"
 
 #: entitytemplates.php
 msgid "Url"
@@ -103,25 +103,26 @@ msgstr "URL"
 
 #: entitytemplates.php
 msgid "Title already exists."
-msgstr ""
+msgstr "Le titre existe déjà."
 
 #: entitytemplates.php
 msgid ""
 "First Name and Last Name OR an email OR an OpenID in the Primary Location "
 "should be set."
 msgstr ""
+"Prénom et Nom OU un courriel OU un OpenID de type Principal doit être saisi."
 
 #: entitytemplates.php
 msgid "Organization Name should be set."
-msgstr ""
+msgstr "Le nom de l'Organisation doit être saisi."
 
 #: entitytemplates.php
 msgid "Household Name should be set."
-msgstr ""
+msgstr "Le nom du Foyer doit être saisi."
 
 #: templates/CRM/EntityTemplates/Page/EntityTemplates.tpl
 msgid "Entity Type: "
-msgstr ""
+msgstr "Type d'Entité :"
 
 #: templates/CRM/EntityTemplates/Page/EntityTemplates.tpl
 msgid "None found."
@@ -129,7 +130,7 @@ msgstr "Aucun trouvé."
 
 #: templates/CRM/EntityTemplates/Page/EntityTemplates.tpl
 msgid "Add Template"
-msgstr ""
+msgstr "Ajouter un modèle"
 
 #: templates/CRM/EntityTemplates/Page/EntityTemplates.tpl
 msgid "Done"
