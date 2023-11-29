@@ -3,14 +3,14 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# HanV <han.velthuis@home.nl>, 2023
+# HanV <han.velthuis@kpnmail.nl>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: sepa\n"
 "POT-Creation-Date: 2023-01-27 19:22+0000\n"
-"Last-Translator: HanV <han.velthuis@home.nl>, 2023\n"
-"Language-Team: Dutch (https://www.transifex.com/civicrm/teams/1905/nl/)\n"
+"Last-Translator: HanV <han.velthuis@kpnmail.nl>, 2023\n"
+"Language-Team: Dutch (https://app.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -176,12 +176,12 @@ msgstr "PAIN-versie"
 #: CRM/Admin/Form/Setting/SepaSettings.php
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "One-Off Payment Instruments"
-msgstr ""
+msgstr "Eenmalige betaalmethoden"
 
 #: CRM/Admin/Form/Setting/SepaSettings.php
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Recurring Payment Instruments"
-msgstr ""
+msgstr "Periodieke betaalmethoden"
 
 #: CRM/Admin/Form/Setting/SepaSettings.php
 msgid "Use BICs"
@@ -245,7 +245,7 @@ msgstr "Annuleren"
 
 #: CRM/Admin/Form/Setting/SepaSettings.php
 msgid "Settings successfully updated."
-msgstr ""
+msgstr "De instellingen zijn gewijzigd."
 
 #: CRM/Admin/Form/Setting/SepaSettings.php
 msgid "Saved"
@@ -337,7 +337,7 @@ msgstr "U kunt alleen RCUR-mandaten wijzigen."
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "Account Holder changed from '%1' to '%2'"
-msgstr ""
+msgstr "Rekeninghouder gewijzigd van  '%1' in '%2'"
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "IBAN changed from '%1' to '%2'"
@@ -442,31 +442,31 @@ msgstr "Wijzigen transactiegroep is mislukt. Foutmelding: '%s'"
 
 #: CRM/Sepa/DAO/SEPAContributionGroup.php
 msgid "SEPAContribution Groups"
-msgstr ""
+msgstr "SEPAContribution groepen"
 
 #: CRM/Sepa/DAO/SEPAContributionGroup.php
 msgid "SEPAContribution Group"
-msgstr ""
+msgstr "SEPAContribution groep"
 
 #: CRM/Sepa/DAO/SEPAContributionGroup.php
 msgid "primary key"
-msgstr ""
+msgstr "primaire key"
 
 #: CRM/Sepa/DAO/SEPAContributionGroup.php
 msgid "FK to Contribution ID"
-msgstr ""
+msgstr "FK naar Contributie-id"
 
 #: CRM/Sepa/DAO/SEPAContributionGroup.php
 msgid "FK to civicrm_sdd_txgroup"
-msgstr ""
+msgstr "FK naar civicrm_sdd_txgroup"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "SEPACreditors"
-msgstr ""
+msgstr "SEPACreditors"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "SEPACreditor"
-msgstr ""
+msgstr "SEPACreditor"
 
 #: CRM/Sepa/DAO/SEPACreditor.php CRM/Sepa/DAO/SEPAMandate.php
 #: CRM/Sepa/DAO/SEPASddFile.php CRM/Sepa/DAO/SEPATransactionGroup.php
@@ -481,7 +481,7 @@ msgstr "Crediteur Contact-id"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "FK to Contact ID that owns that account"
-msgstr ""
+msgstr "FK naar het Contact-id dat de eigenaar van de rekening is"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "SEPA Creditor identifier"
@@ -492,6 +492,8 @@ msgid ""
 "Provided by the bank. ISO country code+check digit+ZZZ+country specific "
 "identifier"
 msgstr ""
+"Aangeleverd door de bank. ISO landcode+controlegetal+ZZZ+landspecifieke "
+"identifier"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
@@ -500,7 +502,7 @@ msgstr "Crediteur Naam"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "official creditor name, passed to exported files"
-msgstr ""
+msgstr "officiële naam crediteur, doorgegeven aan geëxporteerde bestanden"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
@@ -509,7 +511,7 @@ msgstr "Crediteur label"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "internally used label for the creditor"
-msgstr ""
+msgstr "intern gebruikt label voor de crediteur"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "Address of the creditor"
@@ -517,11 +519,11 @@ msgstr "Adres van de crediteur"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "by default creditor_id.address (billing) at creation"
-msgstr ""
+msgstr "op default creditor_id.address (betalen) bij aanmaak"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "Which Country does this address belong to."
-msgstr ""
+msgstr "Het land bij dit adres."
 
 #: CRM/Sepa/DAO/SEPACreditor.php CRM/Sepa/DAO/SEPAMandate.php
 msgid "Iban"
@@ -529,7 +531,7 @@ msgstr "IBAN"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "Iban of the creditor"
-msgstr ""
+msgstr "IBAN van de crediteur"
 
 #: CRM/Sepa/DAO/SEPACreditor.php CRM/Sepa/DAO/SEPAMandate.php
 msgid "Bic"
@@ -537,23 +539,23 @@ msgstr "BIC"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "BIC of the creditor"
-msgstr ""
+msgstr "BIC van de crediteur"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "Mandate numering prefix"
-msgstr ""
+msgstr "Mandaat nummering prefix"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "prefix for mandate identifiers"
-msgstr ""
+msgstr "prefix van mandaat identifiers "
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "currency used by this creditor"
-msgstr ""
+msgstr "valuta die deze crediteur gebruikt"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "Payment processor link (to be deprecated)"
-msgstr ""
+msgstr "Betaalmethode link (wordt ontraden)"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "Category purpose of the collection"
@@ -572,6 +574,8 @@ msgid ""
 "Place this creditor's transaction groups in an XML file tagged with this "
 "value."
 msgstr ""
+"Plaats deze transactiegroepen van de crediteur in een XML-bestand met deze "
+"waarde als tag."
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "Immediately activate new Mandates"
@@ -583,6 +587,9 @@ msgid ""
 "            to be activated explicitly later on.\n"
 "        "
 msgstr ""
+"Indien waar, worden nieuwe mandaten voor deze crediteur direct na aanmaak actief; in het andere \n"
+"            geval moeten ze worden geactiveerd.\n"
+"        "
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "SEPA File Format"
@@ -594,6 +601,9 @@ msgid ""
 "            Formats in civicrm_option_value.\n"
 "        "
 msgstr ""
+"Variant van het pain.008 formaat voor het genereren van SEPA XML-bestanden. FK naar SEPA bestand\n"
+"            Formaten in civicrm_option_value.\n"
+"        "
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
@@ -602,37 +612,41 @@ msgstr "Crediteur Type"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "Type of the creditor, values are SEPA (default) and PSP"
-msgstr ""
+msgstr "Type crediteur, waarden zijn SEPA (standaard) en PSP"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "OOFF Payment Instruments"
-msgstr ""
+msgstr "OOFF Betaalmethoden"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid ""
 "Payment instruments, comma separated, to be used for one-off collections"
 msgstr ""
+"Betaalmethoden, komma gescheiden, zal worden gebruikt voor eenmalige "
+"verzamelingen"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "RCUR Payment Instruments"
-msgstr ""
+msgstr "RCUR Betaalmethoden"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid ""
 "Payment instruments, comma separated, to be used for recurring collections"
 msgstr ""
+"Betaalmethoden, komma gescheiden, zal worden gebruikt voor periodieke "
+"verzamelingen"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "If true, BICs are not used for this creditor"
-msgstr ""
+msgstr "Indien waar, deze crediteur gebruikt geen BIC's"
 
 #: CRM/Sepa/DAO/SEPAMandate.php
 msgid "SEPAMandates"
-msgstr ""
+msgstr "SEPAMandaten"
 
 #: CRM/Sepa/DAO/SEPAMandate.php
 msgid "SEPAMandate"
-msgstr ""
+msgstr "SEPAMandaat"
 
 #: CRM/Sepa/DAO/SEPAMandate.php CRM/Sepa/DAO/SEPASddFile.php
 #: CRM/Sepa/DAO/SEPATransactionGroup.php CRM/Sepa/Form/CreateMandate.php
@@ -646,7 +660,7 @@ msgstr "Referentie"
 
 #: CRM/Sepa/DAO/SEPAMandate.php
 msgid "A unique mandate reference"
-msgstr ""
+msgstr "Een unieke mandaat referentie"
 
 #: CRM/Sepa/DAO/SEPAMandate.php CRM/Sepa/Form/CreateMandate.php
 #: CRM/Sepa/Form/Report/SepaMandateGeneric.php
@@ -660,7 +674,7 @@ msgstr "Bron"
 
 #: CRM/Sepa/DAO/SEPAMandate.php
 msgid "Information about the source of registration of the mandate"
-msgstr ""
+msgstr "Informatie over de registratie van het mandaat"
 
 #: CRM/Sepa/DAO/SEPAMandate.php CRM/Sepa/DAO/SepaMandateLink.php
 msgid "Entity Table"
@@ -671,6 +685,8 @@ msgid ""
 "Physical tablename for the contract entity being joined, eg "
 "contributionRecur or Membership"
 msgstr ""
+"Fysieke tabelnaam van de contract entiteit die wordt 'joined', bijvoorbeeld "
+"contributionRecur of Membership"
 
 #: CRM/Sepa/DAO/SEPAMandate.php CRM/Sepa/DAO/SepaMandateLink.php
 msgid "Entity ID"
@@ -678,15 +694,15 @@ msgstr "Entiteit-id"
 
 #: CRM/Sepa/DAO/SEPAMandate.php
 msgid "FK to contract entity table specified in entity_table column."
-msgstr ""
+msgstr "FK naar contract entiteit tabel aangegeven in entity_table kolom."
 
 #: CRM/Sepa/DAO/SEPAMandate.php
 msgid "Mandate signature date"
-msgstr "Mandaat datum signatuur"
+msgstr "Mandaat datum ondertekening"
 
 #: CRM/Sepa/DAO/SEPAMandate.php
 msgid "by default now()"
-msgstr ""
+msgstr "standaard is now()"
 
 #: CRM/Sepa/DAO/SEPAMandate.php
 #: Civi/Sepa/ActionProvider/Action/FindMandate.php
@@ -697,7 +713,7 @@ msgstr "Crediteur-id"
 
 #: CRM/Sepa/DAO/SEPAMandate.php
 msgid "FK to ssd_creditor"
-msgstr ""
+msgstr "FK naar ssd_creditor"
 
 #: CRM/Sepa/DAO/SEPAMandate.php CRM/Sepa/Form/Report/SepaMandateGeneric.php
 #: CRM/Sepa/Form/Search/SepaContactSearch.php
@@ -709,23 +725,23 @@ msgstr "Contact-id"
 
 #: CRM/Sepa/DAO/SEPAMandate.php
 msgid "FK to Contact ID of the debtor"
-msgstr ""
+msgstr "FK naar Contact-id van de debiteur"
 
 #: CRM/Sepa/DAO/SEPAMandate.php
 msgid "Name of the account holder"
-msgstr ""
+msgstr "Naam van de rekeninghouder"
 
 #: CRM/Sepa/DAO/SEPAMandate.php
 msgid "Iban of the debtor"
-msgstr ""
+msgstr "IBAN van de debiteur"
 
 #: CRM/Sepa/DAO/SEPAMandate.php
 msgid "BIC of the debtor"
-msgstr ""
+msgstr "BIC van de debiteur"
 
 #: CRM/Sepa/DAO/SEPAMandate.php
 msgid "RCUR for recurrent (default), OOFF for one-shot"
-msgstr ""
+msgstr "RCUR voor periodiek (standaard), OOFF bij eenmalig"
 
 #: CRM/Sepa/DAO/SEPAMandate.php CRM/Sepa/Form/Search/SepaContactSearch.php
 #: Civi/Sepa/ActionProvider/Action/FindMandate.php sepa.php
@@ -743,6 +759,8 @@ msgid ""
 "Status of the mandate (INIT, OOFF, FRST, RCUR, SENT, INVALID, COMPLETE, "
 "ONHOLD)"
 msgstr ""
+"Status van het mandaat (INIT, OOFF, FRST, RCUR, SENT, INVALID, COMPLETE, "
+"ONHOLD)"
 
 #: CRM/Sepa/DAO/SEPAMandate.php
 msgid "creation date"
@@ -754,7 +772,7 @@ msgstr "Eerste bijdrage (dit wordt in de toekomst ontraden)"
 
 #: CRM/Sepa/DAO/SEPAMandate.php
 msgid "FK to civicrm_contribution"
-msgstr ""
+msgstr "FK naar civicrm_contribution"
 
 #: CRM/Sepa/DAO/SEPAMandate.php
 msgid "validation date"
@@ -762,15 +780,15 @@ msgstr "validatiedatum"
 
 #: CRM/Sepa/DAO/SEPASddFile.php
 msgid "SEPASdd Files"
-msgstr ""
+msgstr "SEPASdd Bestanden"
 
 #: CRM/Sepa/DAO/SEPASddFile.php
 msgid "SEPASdd File"
-msgstr ""
+msgstr "SEPASdd Bestand"
 
 #: CRM/Sepa/DAO/SEPASddFile.php
 msgid "End-to-end reference for this sdd file."
-msgstr ""
+msgstr "Eind-tot-eind referentie voor dit sdd-bestand."
 
 #: CRM/Sepa/DAO/SEPASddFile.php
 msgid "Filename"
@@ -778,7 +796,7 @@ msgstr "Bestandsnaam"
 
 #: CRM/Sepa/DAO/SEPASddFile.php
 msgid "Name of the generated file"
-msgstr ""
+msgstr "Naam van het aangemaakte bestand"
 
 #: CRM/Sepa/DAO/SEPASddFile.php CRM/Sepa/DAO/SEPATransactionGroup.php
 msgid "Latest Submission Date"
@@ -786,7 +804,7 @@ msgstr "Laatste verzenddatum"
 
 #: CRM/Sepa/DAO/SEPASddFile.php CRM/Sepa/DAO/SEPATransactionGroup.php
 msgid "Latest submission date"
-msgstr ""
+msgstr "Laatste verzenddatum"
 
 #: CRM/Sepa/DAO/SEPASddFile.php CRM/Sepa/DAO/SEPATransactionGroup.php
 msgid "Created Date"
@@ -794,15 +812,15 @@ msgstr "Aanmaakdatum"
 
 #: CRM/Sepa/DAO/SEPASddFile.php CRM/Sepa/DAO/SEPATransactionGroup.php
 msgid "When was this item created"
-msgstr ""
+msgstr "Aanmaaktijd van het item"
 
 #: CRM/Sepa/DAO/SEPASddFile.php
 msgid "FK to Contact ID of creator"
-msgstr ""
+msgstr "FK naar Contact-id van de aanmaker"
 
 #: CRM/Sepa/DAO/SEPASddFile.php
 msgid "fk to Batch Status options in civicrm_option_values"
-msgstr ""
+msgstr "FK naar opties Batchstatus incivicrm_option_values"
 
 #: CRM/Sepa/DAO/SEPASddFile.php
 msgid "Comments"
@@ -810,27 +828,29 @@ msgstr "Opmerkingen"
 
 #: CRM/Sepa/DAO/SEPASddFile.php
 msgid "Comments about processing of this file"
-msgstr ""
+msgstr "Commentaar over het verwerken van dit bestand"
 
 #: CRM/Sepa/DAO/SEPASddFile.php
 msgid "Tag used to group multiple creditors in this XML file."
 msgstr ""
+"Tag die gebruikt is bij het groeperen van meerdere crediteuren in dit XML-"
+"bestand."
 
 #: CRM/Sepa/DAO/SEPATransactionGroup.php
 msgid "SEPATransaction Groups"
-msgstr ""
+msgstr "SEPATransactiegroepen"
 
 #: CRM/Sepa/DAO/SEPATransactionGroup.php
 msgid "SEPATransaction Group"
-msgstr ""
+msgstr "SEPATransactiegroep"
 
 #: CRM/Sepa/DAO/SEPATransactionGroup.php
 msgid "End-to-end reference for this tx group."
-msgstr ""
+msgstr "Eind-tot-eind referentie van deze transactiegroep."
 
 #: CRM/Sepa/DAO/SEPATransactionGroup.php
 msgid "FRST, RCUR or OOFF"
-msgstr ""
+msgstr "FRST, RCUR en OOFF"
 
 #: CRM/Sepa/DAO/SEPATransactionGroup.php CRM/Sepa/Form/CreateMandate.php
 #: CRM/Sepa/Form/RetryCollection.php
@@ -842,19 +862,19 @@ msgstr "Incasso-datum"
 
 #: CRM/Sepa/DAO/SEPATransactionGroup.php
 msgid "Target collection date"
-msgstr ""
+msgstr "Doel verzamelingsdatum"
 
 #: CRM/Sepa/DAO/SEPATransactionGroup.php
 msgid "fk sepa group Status options in civicrm_option_values"
-msgstr ""
+msgstr "FK sepa groep status-opties in civicrm_option_values"
 
 #: CRM/Sepa/DAO/SEPATransactionGroup.php
 msgid "fk to SDD Creditor Id"
-msgstr ""
+msgstr "FK naar SDD Creditor-id"
 
 #: CRM/Sepa/DAO/SEPATransactionGroup.php
 msgid "fk to SDD File Id"
-msgstr ""
+msgstr "FK naar SDD File-id"
 
 #: CRM/Sepa/DAO/SepaMandateLink.php
 msgid "SepaMandate ID"
@@ -944,7 +964,7 @@ msgstr "Rekening"
 
 #: CRM/Sepa/Form/CreateMandate.php
 msgid "not required if same as contact"
-msgstr ""
+msgstr "niet verplicht als het overeenkomt met het contact"
 
 #: CRM/Sepa/Form/CreateMandate.php
 msgid "required"
@@ -1071,7 +1091,7 @@ msgstr "Mandaat status"
 #: Civi/Sepa/ActionProvider/Action/CreateRecurringMandate.php
 #: Civi/Sepa/ActionProvider/Action/FindMandate.php sepa.php
 msgid "Signature Date"
-msgstr "Datum signatuur"
+msgstr "Datum ondertekening"
 
 #: CRM/Sepa/Form/Report/SepaMandateGeneric.php
 #: Civi/Sepa/ActionProvider/Action/CreateOneOffMandate.php
@@ -1102,7 +1122,7 @@ msgstr "Terugkerend"
 
 #: CRM/Sepa/Form/Report/SepaMandateGeneric.php
 msgid "account_holder"
-msgstr ""
+msgstr "account_holder"
 
 #: CRM/Sepa/Form/Report/SepaMandateGeneric.php
 msgid "Contact Name"
@@ -1228,7 +1248,7 @@ msgstr "SDD-Groepen"
 
 #: CRM/Sepa/Form/RetryCollection.php
 msgid "Custom Transaction Message"
-msgstr ""
+msgstr "Aangepast transactie-bericht"
 
 #: CRM/Sepa/Form/RetryCollection.php templates/CRM/Sepa/Page/CreateMandate.tpl
 msgid "Note"
@@ -1353,6 +1373,10 @@ msgid ""
 "any more. You should delete them by searching for contributions in status "
 "'Pending' with payment instruments RCUR and FRST."
 msgstr ""
+"%1 verweesde open (openstaande) SEPA-bijdragen zijn in het systeem gevonden,"
+" zij zijn dus geen deel van een SEPA transactiegroep en worden niet meer "
+"verzameld. U zou ze moeten verwijderen door te zoeken om op bijdragen met de"
+" status 'Openstaand' met betaalmethoden RCUR en FRST."
 
 #: CRM/Sepa/Logic/MandateRepairs.php
 msgid ""
@@ -1363,29 +1387,38 @@ msgid ""
 "Progress' with the SEPA payment instruments (e.g. RCUR and FRST), and then "
 "export (to be safe) and delete them."
 msgstr ""
+"Waarschuwing: %1 verweesde actieve (lopende) SEPA-bijdragen gevonden. Dit "
+"kan onregelmatigheden veroorzaken bij het aanmaken van SEPA verzamelgroepen,"
+" het kan veroorzaken dat dezelfde termijn meerdere keren wordt verzameld. U "
+"moet zoeken naar bijdragen met de status 'Lopende' met de SEPA "
+"betaalmethoden (bijv. RCUR en FRST), ze dan exporteren (om veilig te doen) "
+"en ze dan te verwijderen."
 
 #: CRM/Sepa/Logic/MandateRepairs.php
 msgid ""
 "Warning: had to adjusted the status of %1 contribution(s) to 'Pending', as "
 "they are part of an open transaction group."
 msgstr ""
+"Waarschuwing: de status van %1 bijdrage(n) is gewijzigd naar 'Pending', "
+"omdat ze deel uitmaken van een open transactiegroep."
 
 #: CRM/Sepa/Logic/MandateRepairs.php
 msgid "Adjusted the payment instruments of %1 recurring mandate(s)."
-msgstr ""
+msgstr "De betaalmethoden van %1 periodieke  mandaten is aangepast."
 
 #: CRM/Sepa/Logic/MandateRepairs.php
 msgid ""
 "The following irregularities have been detected and fixed in your database:"
 msgstr ""
+"De volgende onregelmatigheden zijn in uw database ontdekt en aangepast."
 
 #: CRM/Sepa/Logic/MandateRepairs.php
 msgid "You can find a detailed log of the changes here: <code>%1</code>"
-msgstr ""
+msgstr "De details: <code>%1</code>"
 
 #: CRM/Sepa/Logic/MandateRepairs.php
 msgid "CiviSEPA Health Check"
-msgstr ""
+msgstr "CiviSEPA Databasecontrole"
 
 #: CRM/Sepa/Logic/Queue/Close.php
 msgid "Closing SDD Group(s) [%1]"
@@ -1429,7 +1462,7 @@ msgstr "Dank u wel"
 
 #: CRM/Sepa/Logic/Settings.php
 msgid "In Progress"
-msgstr ""
+msgstr "Lopend"
 
 #: CRM/Sepa/Logic/Status.php
 msgid "Not activated"
@@ -1635,7 +1668,7 @@ msgstr "Geen"
 
 #: CRM/Sepa/Page/EditMandate.php
 msgid "Mandate [%1] was validated/activated."
-msgstr ""
+msgstr "Mandaat [%1] is gevalideerd/geactiveerd."
 
 #: CRM/Sepa/Page/EditMandate.php
 msgid "Mandate [%s] is already in use! It cannot be deleted."
@@ -1759,10 +1792,12 @@ msgid ""
 "Couldn't find the classic CiviSEPA payment instruments [OOFF,RCUR,FRST]. "
 "Please review the payment instruments assigned to your creditors."
 msgstr ""
+"De klassieke CiviSEPA betaalmethoden [OOFF,RCUR,FRST] lijken te ontbreken. "
+"Controleer de voor uw crediteuren beschikbare betaalmethoden."
 
 #: CRM/Sepa/Upgrader.php
 msgid "Missing payment instruments!"
-msgstr ""
+msgstr "Ontbrekende betaalmethoden!"
 
 #: CRM/Utils/SepaOptionGroupTools.php
 #: templates/CRM/Contribute/Form/ContributionConfirm.sepa.tpl
@@ -1781,7 +1816,7 @@ msgstr "op onregelmatige basis"
 
 #: CRM/Utils/SepaOptionGroupTools.php
 msgid "SEPA Standard (FRST/RCUR)"
-msgstr ""
+msgstr "SEPA Standaard (FRST/RCUR)"
 
 #: Civi/Sepa/ActionProvider/Action/CreateOneOffMandate.php
 #: Civi/Sepa/ActionProvider/Action/CreateRecurringMandate.php
@@ -1946,7 +1981,7 @@ msgstr "U moet een geldig contact aangeven"
 
 #: js/SepaSettings.js
 msgid "You need to set at least one payment instrument"
-msgstr ""
+msgstr "U moet minimaal een betaalmethode instellen"
 
 #: js/SepaSettings.js
 msgid "Creditor updated"
@@ -1962,7 +1997,7 @@ msgstr "<i>Fout</i>"
 
 #: sepa.php
 msgid "Record SEPA Mandate"
-msgstr ""
+msgstr "SEPA Mandaat vastleggen"
 
 #: sepa.php
 msgid "CiviSEPA Settings"
@@ -2014,7 +2049,7 @@ msgstr "Meest recente SEPA-mandaat"
 
 #: sepa.php
 msgid "Signature Date (raw)"
-msgstr "Datum signatuur (ruw)"
+msgstr "Datum ondertekening (ruw)"
 
 #: sepa.php
 msgid "IBAN (anonymised)"
@@ -2449,24 +2484,34 @@ msgid ""
 "mandates. The payment instrument selected on creation will define the "
 "payment instrument of all installments."
 msgstr ""
+"Deze instelling laat u kiezen uit de beschikbare betaalmethoden bij het "
+"maken van een mandaat. De betaalmethode die bij de aanmaak wordt gekozen "
+"bepaalt de betaalmethode bij alle termijnen."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "If you select more than one payment instrument you will <i>have</i> to "
 "select one at mandate creation - in the UI <i>and</i> the API."
 msgstr ""
+"Indien u hier meer dan een betaalmethode selecteert, dan dient er bij het "
+"aanmaken van het mandaat  er een <i>te selecteren</i> in de "
+"gebruikersinterface <i>en</i> de API."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "If you leave this empty, no (new) mandates can be created for recurring "
 "collection"
 msgstr ""
+"Indien u dit niet invult, dan kunnen er geen (nieuwe) mandaten worden "
+"aangemaakt voor periodieke verzameling"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "<strong>Caution:</strong> Be sure you know what you're doing before changing"
 " these settings."
 msgstr ""
+"<strong>Voorzichtig:</strong> Weet wat u doet als u deze instellingen "
+"aanpast."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
@@ -2474,11 +2519,16 @@ msgid ""
 " collection mandate. It will therfore define the payment instrument of the "
 "collected contribution."
 msgstr ""
+"Deze instelling laat u kiezen uit de beschikbare betaalmethoden voor het "
+"aanmaken van het verzamel mandaat. Het zal daarom de betaalmethode "
+"definiëren voor de verzamelbijdrage."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
 "If you leave this empty, no (new) one-off mandates can be created any more."
 msgstr ""
+"Indien u dit niet invult, dan kunnen er geen (nieuwe) eenmalige mandaten "
+"worden aangemaakt."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Creditors"
@@ -2666,18 +2716,25 @@ msgid ""
 "Allows you to add a customised transaction message, i.e. the message the "
 "donor will find on their bank statement."
 msgstr ""
+"Maakt het mogelijk om een aangepast transactie-bericht toe te voegen, dit "
+"bericht zal de donateur zien op diens bankafschrift."
 
 #: templates/CRM/Sepa/Form/RetryCollection.hlp
 msgid ""
 "You can add a note about the precise nature of this re-submitted collection."
 " It is only visible to users of this CiviCRM, not the donors."
 msgstr ""
+"U kunt een toelichting toevoegen over het opnieuw verzenden van deze "
+"verzameling. Dit is alleen zichtbaar voor gebruikers van deze CiviCRM, niet "
+"voor de donateurs."
 
 #: templates/CRM/Sepa/Form/RetryCollection.tpl
 msgid ""
 "Select the transaction groups of which you want to re-collect failed "
 "transactions"
 msgstr ""
+"Selecteer de transactiegroepen waarvan u de mislukte transacties opnieuw "
+"wilt verzamelen"
 
 #: templates/CRM/Sepa/Form/RetryCollection.tpl
 msgid "Add some filters"
@@ -2939,11 +2996,11 @@ msgstr "Totaal"
 
 #: templates/CRM/Sepa/Page/DashBoard.tpl
 msgid "Custom Transaction Message:"
-msgstr ""
+msgstr "Aangepast transactie-bericht:"
 
 #: templates/CRM/Sepa/Page/DashBoard.tpl
 msgid "Note:"
-msgstr ""
+msgstr "NB:"
 
 #: templates/CRM/Sepa/Page/DashBoard.tpl
 msgid "Close and Submit"
@@ -3115,7 +3172,7 @@ msgstr "verwijder lopende %1"
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "recommended"
-msgstr ""
+msgstr "aanbevolen"
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid ""
@@ -3357,7 +3414,7 @@ msgstr "Aanmaakdatum"
 #: templates/Sepa/Contribute/Form/ContributionView.tpl
 #: templates/Sepa/Contribute/Page/ContributionRecur.tpl
 msgid "Signature date"
-msgstr "Datum signatuur"
+msgstr "Datum ondertekening"
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 #: templates/Sepa/Contribute/Form/ContributionView.tpl
@@ -3392,11 +3449,13 @@ msgstr "Opties"
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "Validate/Activate"
-msgstr ""
+msgstr "Valideren/Activeren"
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "Activate the mandate when all requirements for collection are met."
 msgstr ""
+"Activeer het mandaat wanneer aan alle vereisen voor het verzamelen is "
+"voldaan."
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid ""
@@ -3488,7 +3547,7 @@ msgstr "Bijdragen voor transactiegroep"
 
 #: templates/CRM/Sepa/Page/ListGroup.tpl
 msgid "#"
-msgstr ""
+msgstr "#"
 
 #: templates/CRM/Sepa/Page/ListGroup.tpl
 msgid "%2&nbsp;%1"
@@ -3594,6 +3653,8 @@ msgid ""
 "OOFF contribution status after closing is incorrect, probably related to "
 "SEPA-629"
 msgstr ""
+"OOFF bijdragestatus is na het afsluiten niet goed, waarschijnlijk "
+"gerelateerd aan SEPA-629"
 
 #: tests/phpunit/CRM/Sepa/HookTest.php
 msgid "The create_mandate hook has not been called."
@@ -3736,7 +3797,7 @@ msgstr "Mandaatstatus van nieuw mandaat is onjuist."
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "Mandate account holder after creation is incorrect."
-msgstr ""
+msgstr "Mandaat rekeninghouder na aanmaak is niet goed."
 
 #: tests/phpunit/CRM/Sepa/ReferenceGenerationTest.php
 msgid "The OOFF mandate reference is invalid."
@@ -3760,7 +3821,7 @@ msgstr "set/getSetting werkt niet"
 
 #: tests/phpunit/CRM/Sepa/TestBase.php
 msgid "This mandate has no contribution, even though there should be one."
-msgstr ""
+msgstr "Het mandaat heeft geen bijdrage."
 
 #: tests/phpunit/CRM/Sepa/VerifyBicTest.php
 msgid "Invalid BIC location detection fails!"
