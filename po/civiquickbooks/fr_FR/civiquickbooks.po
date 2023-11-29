@@ -3,14 +3,15 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Usha Matisson <matisson@makoa.fr>, 2022
+# Usha Matisson, 2022
+# Valentin Louis ROCHE, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: civiquickbooks\n"
 "POT-Creation-Date: 2023-01-27 19:23+0000\n"
-"Last-Translator: Usha Matisson <matisson@makoa.fr>, 2022\n"
-"Language-Team: French (https://www.transifex.com/civicrm/teams/1905/fr/)\n"
+"Last-Translator: Valentin Louis ROCHE, 2023\n"
+"Language-Team: French (https://app.transifex.com/civicrm/teams/1905/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -267,6 +268,7 @@ msgstr ""
 #: settings/civiquickbooks.setting.php
 msgid "Where should Invoice Numbers be generated?"
 msgstr ""
+"Quand voulez-vous que s'effectue la génération des numéros de vos factures ?"
 
 #: settings/civiquickbooks.setting.php
 msgid ""
@@ -279,7 +281,7 @@ msgstr "CiviCRM"
 
 #: settings/civiquickbooks.setting.php
 msgid "Invoice Prefix"
-msgstr ""
+msgstr "Préfixe de la facture"
 
 #: settings/civiquickbooks.setting.php
 msgid ""
@@ -288,6 +290,10 @@ msgid ""
 "printf</a> e.g. %2 will enforce 7 digits with 0 as padding (123 => "
 "Civi-0000123)"
 msgstr ""
+"Il sera préfixé à l'Identifiant de transaction lorsque CiviCRM générera un numéro de facture pour QBO.\n"
+"\n"
+"Vous pouvez optionnellement inclure un spécificateur de format pour la commande d'affichage <a href=\"%1\">for printf</a>.\n"
+"Par exemple, le spécificateur %2 programme un affichage à 7 chiffres avec 0 pour valeur de remplissage, tel que 123 serait formaté comme suit : Civi-0000123. "
 
 #: settings/civiquickbooks.setting.php
 msgid "Allow ACH Payment?"
@@ -296,6 +302,7 @@ msgstr ""
 #: settings/civiquickbooks.setting.php
 msgid "Specifies if invoices can be paid with online bank transfers"
 msgstr ""
+"Indique si les factures peuvent être payées par virement bancaire en ligne"
 
 #: settings/civiquickbooks.setting.php
 msgid "Yes"
@@ -307,11 +314,13 @@ msgstr "Non"
 
 #: settings/civiquickbooks.setting.php
 msgid "Allow Online Credit Card Payment?"
-msgstr ""
+msgstr "Autoriser le paiement en ligne par carte bancaire ?"
 
 #: settings/civiquickbooks.setting.php
 msgid "Specifies if online credit card payments are allowed for invoices"
 msgstr ""
+"Indique si le paiement en ligne par carte bancaire est accepté pour le "
+"règlement des factures"
 
 #: settings/civiquickbooks.setting.php
 msgid "Customer Memo Override"
@@ -326,3 +335,5 @@ msgid ""
 "if you enter text into this field it will be displayed on the invoice as the"
 " Memo instead of the source"
 msgstr ""
+"Si vous saisissez du texte dans ce champ, il s'affichera en tant que mémo à "
+"la place de la source."
