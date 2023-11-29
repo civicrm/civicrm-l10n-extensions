@@ -3,39 +3,41 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Usha Matisson <matisson@makoa.fr>, 2022
+# Usha Matisson, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: collapsecommsanddemographics\n"
 "POT-Creation-Date: 2020-08-12 05:01+0000\n"
-"Last-Translator: Usha Matisson <matisson@makoa.fr>, 2022\n"
-"Language-Team: French (https://www.transifex.com/civicrm/teams/1905/fr/)\n"
+"Last-Translator: Usha Matisson, 2023\n"
+"Language-Team: French (https://app.transifex.com/civicrm/teams/1905/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: CRM/Collapsecommsanddemographics/Core/Smarty/Plugins/function.privacyFlag.php
 msgid "Email on hold - generally due to bouncing."
-msgstr ""
+msgstr "Courriel invalidé - généralement à cause des rebonds (erreurs)."
 
 #: CRM/Collapsecommsanddemographics/Core/Smarty/Plugins/function.privacyFlag.php
 msgid "Privacy flag: %1"
-msgstr ""
+msgstr "Indicateur de Protection de la vie privée : %1"
 
 #: CRM/Collapsecommsanddemographics/Smarty/Plugins/function.demographyIcon.php
 msgid "%count year"
 msgid_plural "%count years"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%count année"
+msgstr[1] "%count années"
+msgstr[2] "%count années"
 
 #: CRM/Collapsecommsanddemographics/Smarty/Plugins/function.demographyIcon.php
 msgid " and %count month"
 msgid_plural "and %count months"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "et %count mois"
+msgstr[1] "et %count mois"
+msgstr[2] "et %count mois"
 
 #: collapsecommsanddemographics.php
 msgid "Icon"
