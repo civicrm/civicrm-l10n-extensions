@@ -2,16 +2,20 @@
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# Patrick Ilceu Reis de Carvalho <carpatrick@gmail.com>, 2022
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: eWAYRecurring\n"
-"POT-Creation-Date: 2021-02-21 05:01+0000\n"
-"Language-Team: Portuguese (Portugal) (https://www.transifex.com/civicrm/teams/1905/pt_PT/)\n"
+"POT-Creation-Date: 2023-01-27 19:22+0000\n"
+"Last-Translator: Patrick Ilceu Reis de Carvalho <carpatrick@gmail.com>, 2022\n"
+"Language-Team: Portuguese (Portugal) (https://app.transifex.com/civicrm/teams/1905/pt_PT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt_PT\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: CRM/eWAYRecurring/DAO/EwayContributionTransactions.php
 msgid "Unique EwayContributionTransactions ID"
@@ -47,7 +51,7 @@ msgstr ""
 
 #: CRM/eWAYRecurring/Form/Settings.php
 msgid "Submit"
-msgstr ""
+msgstr "Submeter"
 
 #: CRM/eWAYRecurring/Page/VerifyUpdateToken.php
 msgid "Update Billing Details"
@@ -57,8 +61,12 @@ msgstr ""
 msgid "Billing details has been updated successfully."
 msgstr ""
 
-#: CRM/eWAYRecurring/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
+#: CRM/eWAYRecurring/Upgrader.php
+msgid ""
+"Version 2.x of the eWay Payment Processor extension uses the new eWay Rapid "
+"API. Please go to the <a href=\"%2\">Payment Processor page</a> and update "
+"the eWay API credentials with the new API Key and API Password. For more "
+"details see the <a href=\"%1\">upgrade notes</a>."
 msgstr ""
 
 #: au_com_agileware_ewayrecurring.class.php
@@ -122,24 +130,6 @@ msgid "Attempted to update billing details for a cancelled contribution."
 msgstr ""
 
 #: eWAYRecurring.php
-msgid ""
-"Version 2.x of the eWay Payment Processor extension uses the new eWay Rapid "
-"API. Please go to the <a href=\"%2\">Payment Processor page</a> and update "
-"the eWay API credentials with the new API Key and API Password. For more "
-"details see the <a href=\"%1\">upgrade notes</a>."
-msgstr ""
-
-#: eWAYRecurring.php
-msgid "eWay Payment Processor Update"
-msgstr ""
-
-#: eWAYRecurring.php
-msgid ""
-"Please edit and save (without any changes) your existing eWay payment "
-"processor after updating."
-msgstr ""
-
-#: eWAYRecurring.php
 msgid "Next Scheduled Date"
 msgstr ""
 
@@ -157,6 +147,20 @@ msgstr ""
 
 #: eWAYRecurring.php
 msgid "Cannot schedule next contribution in the past"
+msgstr ""
+
+#: eWAYRecurring.php
+msgid ""
+"A transaction has already been submitted, but failed. Continuing will result"
+" in a new transaction."
+msgstr ""
+
+#: eWAYRecurring.php
+msgid "Payment already completed for this Registration"
+msgstr ""
+
+#: eWAYRecurring.php
+msgid "Payment already completed for this Contribution"
 msgstr ""
 
 #: eWAYRecurring.php
