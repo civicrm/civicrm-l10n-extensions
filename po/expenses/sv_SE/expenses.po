@@ -2,11 +2,15 @@
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+# Thomas Nilefalk <thomas.nilefalk@responsive.se>, 2022
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: expenses\n"
-"POT-Creation-Date: 2020-12-03 05:02+0000\n"
-"Language-Team: Swedish (Sweden) (https://www.transifex.com/civicrm/teams/1905/sv_SE/)\n"
+"POT-Creation-Date: 2023-01-27 19:24+0000\n"
+"Last-Translator: Thomas Nilefalk <thomas.nilefalk@responsive.se>, 2022\n"
+"Language-Team: Swedish (Sweden) (https://app.transifex.com/civicrm/teams/1905/sv_SE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,81 +22,133 @@ msgstr ""
 msgid "Expenses"
 msgstr ""
 
-#: CRM/Expenses/DAO/ExpenseLine.php
-msgid "Expense Lines"
+#: CRM/Expenses/DAO/Expense.php CRM/Expenses/DAO/ExpenseLine.php
+#: CRM/Expenses/Form/Expense.php CRM/Expenses/Upgrader.php
+#: Civi/CompilerPass/Expenses.php
+msgid "Expense"
 msgstr ""
 
-#: CRM/Expenses/Form/Expense.php CRM/Expenses/Form/Search.php
+#: CRM/Expenses/DAO/Expense.php CRM/Expenses/DAO/ExpenseLine.php
 #: CRM/Expenses/Utils/Search.php
-#: Civi/ActionProvider/Action/Expenses/CreateUpdateExpense.php
-msgid "Date"
+msgid "ID"
 msgstr ""
 
-#: CRM/Expenses/Form/Expense.php CRM/Expenses/Form/Search.php
-#: CRM/Expenses/Utils/Search.php
+#: CRM/Expenses/DAO/Expense.php
+msgid "Unique Expense ID"
+msgstr ""
+
+#: CRM/Expenses/DAO/Expense.php CRM/Expenses/Form/Expense.php
+#: CRM/Expenses/Form/Search.php CRM/Expenses/Utils/Search.php
+#: Civi/DataProcessor/FieldOutputHandler/Expenses/TotalAmountPerCase.php
+#: templates/CRM/Expenses/Page/CaseExpenses.tpl
+msgid "Type"
+msgstr ""
+
+#: CRM/Expenses/DAO/Expense.php CRM/Expenses/Form/Expense.php
+#: CRM/Expenses/Form/Search.php CRM/Expenses/Utils/Search.php
+#: Civi/DataProcessor/FieldOutputHandler/Expenses/TotalAmountPerCase.php
+#: templates/CRM/Expenses/Page/CaseExpenses.tpl
+msgid "Status"
+msgstr "Status"
+
+#: CRM/Expenses/DAO/Expense.php CRM/Expenses/Form/Expense.php
+#: CRM/Expenses/Form/Search.php CRM/Expenses/Utils/Search.php
 msgid "Contact"
 msgstr ""
 
-#: CRM/Expenses/Form/Expense.php
+#: CRM/Expenses/DAO/Expense.php
+msgid "FK to Contact"
+msgstr ""
+
+#: CRM/Expenses/DAO/Expense.php CRM/Expenses/Form/Expense.php
 msgid "Source Contact"
 msgstr ""
 
-#: CRM/Expenses/Form/Expense.php
+#: CRM/Expenses/DAO/Expense.php CRM/Expenses/Form/Expense.php
 msgid "Assignee Contact"
 msgstr ""
 
-#: CRM/Expenses/Form/Expense.php CRM/Expenses/Form/Search.php
-#: CRM/Expenses/Utils/Search.php
+#: CRM/Expenses/DAO/Expense.php CRM/Expenses/Form/Expense.php
+#: CRM/Expenses/Form/Search.php CRM/Expenses/Utils/Search.php
 msgid "Case"
 msgstr ""
 
-#: CRM/Expenses/Form/Expense.php
+#: CRM/Expenses/DAO/Expense.php
+msgid "FK to Case"
+msgstr ""
+
+#: CRM/Expenses/DAO/Expense.php CRM/Expenses/Form/Expense.php
+#: CRM/Expenses/Form/Search.php CRM/Expenses/Utils/Search.php
+#: Civi/ActionProvider/Action/Expenses/CreateUpdateExpense.php
+msgid "Date"
+msgstr "Datum"
+
+#: CRM/Expenses/DAO/Expense.php CRM/Expenses/Form/Expense.php
+#: Civi/ActionProvider/Action/Expenses/CalculateTotalAmount.php
 #: Civi/ActionProvider/Action/Expenses/CreateUpdateExpense.php
 msgid "Currency"
 msgstr ""
 
-#: CRM/Expenses/Form/Expense.php
-msgid "Type"
+#: CRM/Expenses/DAO/Expense.php
+msgid "3 character string, value from config setting or input via user."
 msgstr ""
 
-#: CRM/Expenses/Form/Expense.php CRM/Expenses/Form/Search.php
-#: CRM/Expenses/Utils/Search.php
-msgid "Status"
+#: CRM/Expenses/DAO/ExpenseLine.php
+msgid "Expense Lines"
 msgstr ""
 
-#: CRM/Expenses/Form/Expense.php CRM/Expenses/Form/ExpenseLine.php
-#: Civi/ActionProvider/Action/Expenses/CreateUpdateExpenseLine.php
+#: CRM/Expenses/DAO/ExpenseLine.php CRM/Expenses/Form/ExpenseLine.php
+#: CRM/Expenses/Upgrader.php Civi/CompilerPass/Expenses.php
 #: templates/CRM/Expenses/Form/Expense.tpl
-msgid "Amount"
+msgid "Expense Line"
 msgstr ""
 
-#: CRM/Expenses/Form/Expense.php CRM/Expenses/Form/ExpenseLine.php
-#: CRM/Expenses/Form/Search.php
+#: CRM/Expenses/DAO/ExpenseLine.php
+msgid "Unique ExpenseLine ID"
+msgstr ""
+
+#: CRM/Expenses/DAO/ExpenseLine.php
+msgid "FK to Expense"
+msgstr ""
+
+#: CRM/Expenses/DAO/ExpenseLine.php CRM/Expenses/Form/Expense.php
+#: CRM/Expenses/Form/ExpenseLine.php CRM/Expenses/Form/Search.php
 #: Civi/ActionProvider/Action/Expenses/CreateUpdateExpenseLine.php
 #: Civi/ActionProvider/Action/Expenses/UploadAttachment.php
 #: templates/CRM/Expenses/Form/Expense.tpl
 msgid "Description"
+msgstr "Beskrivning"
+
+#: CRM/Expenses/DAO/ExpenseLine.php CRM/Expenses/Form/Expense.php
+#: CRM/Expenses/Form/ExpenseLine.php
+#: Civi/ActionProvider/Action/Expenses/CreateUpdateExpenseLine.php
+#: templates/CRM/Expenses/Form/Expense.tpl
+msgid "Amount"
+msgstr "Belopp"
+
+#: CRM/Expenses/Form/Expense.php templates/CRM/Expenses/Form/Search.tpl
+msgid "Add expense"
+msgstr ""
+
+#: CRM/Expenses/Form/Expense.php
+msgid "Edit expense"
 msgstr ""
 
 #: CRM/Expenses/Form/Expense.php CRM/Expenses/Form/ExpenseLine.php
 msgid "Submit"
-msgstr ""
+msgstr "Skicka in"
 
 #: CRM/Expenses/Form/Expense.php CRM/Expenses/Form/ExpenseLine.php
 msgid "Delete"
 msgstr ""
 
 #: CRM/Expenses/Form/Expense.php CRM/Expenses/Form/ExpenseLine.php
+#: CRM/Expenses/Form/ExpenseTypeIs.php
 msgid "Cancel"
-msgstr ""
+msgstr "Avbryt"
 
 #: CRM/Expenses/Form/Expense.php
 msgid "Removed expense"
-msgstr ""
-
-#: CRM/Expenses/Form/Expense.php CRM/Expenses/Upgrader.php
-#: Civi/CompilerPass/Expenses.php
-msgid "Expense"
 msgstr ""
 
 #: CRM/Expenses/Form/ExpenseLine.php
@@ -107,14 +163,23 @@ msgstr ""
 msgid "Added expense line"
 msgstr ""
 
-#: CRM/Expenses/Form/ExpenseLine.php CRM/Expenses/Upgrader.php
-#: Civi/CompilerPass/Expenses.php templates/CRM/Expenses/Form/Expense.tpl
-msgid "Expense Line"
-msgstr ""
-
 #: CRM/Expenses/Form/ExpenseLine.php
 msgid "Updated expense line"
 msgstr ""
+
+#: CRM/Expenses/Form/ExpenseTypeIs.php CRM/Expenses/Form/Search.php
+msgid "- select -"
+msgstr "- välj -"
+
+#: CRM/Expenses/Form/ExpenseTypeIs.php CRM/Expenses/Upgrader.php
+#: Civi/ActionProvider/Action/Expenses/CalculateTotalAmount.php
+#: Civi/ActionProvider/Action/Expenses/CreateUpdateExpense.php
+msgid "Expense Type"
+msgstr ""
+
+#: CRM/Expenses/Form/ExpenseTypeIs.php
+msgid "Save"
+msgstr "Spara"
 
 #: CRM/Expenses/Form/Search.php templates/CRM/Expenses/Form/Search.tpl
 msgid "Search Expenses"
@@ -128,17 +193,13 @@ msgstr ""
 msgid "Operator:"
 msgstr ""
 
-#: CRM/Expenses/Form/Search.php
-msgid "- select -"
-msgstr ""
-
 #: CRM/Expenses/Form/Search.php CRM/Expenses/Utils/Search.php
 msgid "Assignee"
 msgstr ""
 
 #: CRM/Expenses/Form/Search.php
 msgid "Search"
-msgstr ""
+msgstr "Sök"
 
 #: CRM/Expenses/Form/Search.php
 msgid "Is equal to"
@@ -186,9 +247,10 @@ msgstr ""
 
 #: CRM/Expenses/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
-msgstr ""
+msgstr "Uppgradera %1 till revision %2"
 
 #: CRM/Expenses/Upgrader.php
+#: Civi/ActionProvider/Action/Expenses/CalculateTotalAmount.php
 #: Civi/ActionProvider/Action/Expenses/CreateUpdateExpense.php
 #: Civi/ActionProvider/Action/Expenses/UpdateExpenseStatus.php
 msgid "Expense Status"
@@ -211,11 +273,6 @@ msgid "Draft"
 msgstr ""
 
 #: CRM/Expenses/Upgrader.php
-#: Civi/ActionProvider/Action/Expenses/CreateUpdateExpense.php
-msgid "Expense Type"
-msgstr ""
-
-#: CRM/Expenses/Upgrader.php
 msgid "General"
 msgstr ""
 
@@ -231,13 +288,30 @@ msgstr ""
 msgid "Could not move custom file to custom upload directory"
 msgstr ""
 
-#: CRM/Expenses/Utils/Search.php
-msgid "ID"
-msgstr ""
-
 #: CRM/Expenses/Utils/Search.php api/v3/Expense.php
 #: templates/CRM/Expenses/Form/Expense.tpl
 msgid "Total amount"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Expenses/CalculateTotalAmount.php
+#: Civi/ActionProvider/Action/Expenses/CreateUpdateExpense.php
+#: Civi/ActionProvider/Action/Expenses/GetExpenseByType.php
+msgid "Contact ID"
+msgstr "Kontakt-ID"
+
+#: Civi/ActionProvider/Action/Expenses/CalculateTotalAmount.php
+#: Civi/ActionProvider/Action/Expenses/CreateUpdateExpense.php
+#: Civi/ActionProvider/Action/Expenses/GetExpenseByType.php
+#: Civi/ActionProvider/Action/Expenses/ValidateExpenseIdByCaseId.php
+msgid "Case ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Expenses/CalculateTotalAmount.php
+msgid "Total amount (number)"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Expenses/CalculateTotalAmount.php
+msgid "Total amount (formatted with currency symbol)"
 msgstr ""
 
 #: Civi/ActionProvider/Action/Expenses/CreateUpdateExpense.php
@@ -250,16 +324,13 @@ msgstr ""
 
 #: Civi/ActionProvider/Action/Expenses/CreateUpdateExpense.php
 #: Civi/ActionProvider/Action/Expenses/CreateUpdateExpenseLine.php
+#: Civi/ActionProvider/Action/Expenses/DeleteExpense.php
+#: Civi/ActionProvider/Action/Expenses/DeleteExpenseAttachment.php
 #: Civi/ActionProvider/Action/Expenses/GetExpenseById.php
 #: Civi/ActionProvider/Action/Expenses/UpdateExpenseStatus.php
 #: Civi/ActionProvider/Action/Expenses/UploadAttachment.php
 #: Civi/ActionProvider/Action/Expenses/ValidateExpenseIdByCaseId.php
 msgid "Expense ID"
-msgstr ""
-
-#: Civi/ActionProvider/Action/Expenses/CreateUpdateExpense.php
-#: Civi/ActionProvider/Action/Expenses/GetExpenseByType.php
-msgid "Contact ID"
 msgstr ""
 
 #: Civi/ActionProvider/Action/Expenses/CreateUpdateExpense.php
@@ -270,15 +341,14 @@ msgstr ""
 msgid "Assignee Contact ID"
 msgstr ""
 
-#: Civi/ActionProvider/Action/Expenses/CreateUpdateExpense.php
-#: Civi/ActionProvider/Action/Expenses/GetExpenseByType.php
-#: Civi/ActionProvider/Action/Expenses/ValidateExpenseIdByCaseId.php
-msgid "Case ID"
-msgstr ""
-
 #: Civi/ActionProvider/Action/Expenses/CreateUpdateExpenseLine.php
+#: Civi/ActionProvider/Action/Expenses/DeleteExpenseLine.php
 #: Civi/ActionProvider/Action/Expenses/GetExpenseLineById.php
 msgid "Expense Line ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Expenses/DeleteExpenseAttachment.php
+msgid "Attachment ID (File ID)"
 msgstr ""
 
 #: Civi/ActionProvider/Action/Expenses/GetExpenseByType.php
@@ -307,6 +377,14 @@ msgstr ""
 
 #: Civi/CompilerPass/Expenses.php
 msgid "Edit Expense Link"
+msgstr ""
+
+#: Civi/CompilerPass/Expenses.php
+msgid "Expense total amount per case"
+msgstr ""
+
+#: Civi/CompilerPass/Expenses.php
+msgid "Expense total amount for expense"
 msgstr ""
 
 #: Civi/CompilerPass/Expenses.php
@@ -341,17 +419,63 @@ msgstr ""
 msgid "Expense: Get expense line by ID"
 msgstr ""
 
+#: Civi/CompilerPass/Expenses.php
+msgid "Expense: Delete"
+msgstr ""
+
+#: Civi/CompilerPass/Expenses.php
+msgid "Expense: Delete expense line"
+msgstr ""
+
+#: Civi/CompilerPass/Expenses.php
+msgid "Expense: Delete Attachment"
+msgstr ""
+
+#: Civi/CompilerPass/Expenses.php
+msgid "Expense: Calculate Total"
+msgstr ""
+
 #: Civi/DataProcessor/FieldOutputHandler/Expenses/EditExpenseLineFieldOutputHandler.php
 #: templates/CRM/Expenses/result.tpl
 msgid "Edit Expense"
 msgstr ""
 
 #: Civi/DataProcessor/FieldOutputHandler/Expenses/EditExpenseLineFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/Expenses/TotalAmountForExpense.php
 msgid "Expense ID Field"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/Expenses/TotalAmountPerCase.php
+msgid "Case ID Field"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/Expenses/TotalAmountPerCase.php
+msgid " - Any type -"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/Expenses/TotalAmountPerCase.php
+msgid " - Any status -"
 msgstr ""
 
 #: expenses.php
 msgid "CiviCRM Expenses: Manage expenses"
+msgstr ""
+
+#: expenses.php
+msgid "Expense Settings"
+msgstr ""
+
+#: settings/expenses.setting.php
+msgid "Create activity"
+msgstr ""
+
+#: settings/expenses.setting.php
+msgid "If enabled, an activity will be created when a new expenses is added."
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Field/Configuration/Expenses/TotalAmountForExpense.tpl
+#: templates/CRM/Dataprocessor/Form/Field/Configuration/Expenses/TotalAmountPerCase.tpl
+msgid "Leave empty for no formatting"
 msgstr ""
 
 #: templates/CRM/Expenses/Form/Expense.tpl templates/CRM/Expenses/result.tpl
@@ -384,10 +508,6 @@ msgstr ""
 
 #: templates/CRM/Expenses/Form/ExpenseLine.tpl
 msgid "Are you sure to delete expense line of %1?"
-msgstr ""
-
-#: templates/CRM/Expenses/Form/Search.tpl
-msgid "Add expense"
 msgstr ""
 
 #: templates/CRM/Expenses/Page/CaseExpenses.tpl
