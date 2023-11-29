@@ -1,4 +1,4 @@
-# Copyright CiviCRM LLC (c) 2004-2014
+# Copyright CiviCRM LLC (c) 2004-2015
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
@@ -6,47 +6,78 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2015-03-16 22:33-0700\n"
+"POT-Creation-Date: 2023-01-27 19:22+0000\n"
 "PO-Revision-Date: 2015-03-17 05:36+0000\n"
-"Language-Team: Portuguese (Portugal) (http://www.transifex.com/projects/p/civicrm_extensions/language/pt_PT/)\n"
+"Language-Team: Portuguese (Portugal) (http://app.transifex.com/civicrm/civicrm_extensions/language/pt_PT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt_PT\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: CRM/CiviExportExcel/Form/ExportExcelSettings.php
+msgid "- select -"
+msgstr "- Selecionar -"
+
+#: CRM/CiviExportExcel/Form/ExportExcelSettings.php
+msgid "Submit"
+msgstr "Submeter"
+
+#: CRM/CiviExportExcel/Form/Task/Export.php
+#: CRM/CiviExportExcel/Utils/SearchExport.php
+msgid "Export"
+msgstr ""
 
 #: CRM/CiviExportExcel/Utils/Report.php
-msgid "CiviCRM report"
+msgid "Report exported from CiviCRM (%1) by %2 at %3"
 msgstr ""
 
 #: CRM/CiviExportExcel/Utils/Report.php
 msgid "Report"
 msgstr ""
 
+#: CRM/CiviExportExcel/Utils/Report.php
+msgid "Date prepared: %1"
+msgstr ""
+
+#: CRM/CiviExportExcel/Utils/Report.php
+msgid "Statistics"
+msgstr ""
+
 #: CRM/CiviExportExcel/Utils/SearchExport.php
 msgid "CiviCRM export"
 msgstr ""
 
-#: CRM/CiviExportExcel/Utils/SearchExport.php
-msgid "Export"
+#: Civi/Report/Civiexportexcel/Excel2007.php
+msgid "See attached."
 msgstr ""
 
 #: civiexportexcel.php
 msgid "Export to Excel"
 msgstr ""
 
-#: civiexportexcel.php civiexportexcel-core.patch
+#: civiexportexcel.php
 msgid "Preview Excel"
 msgstr ""
 
-#: civiexportexcel-core.patch
-msgid "Excel (test)"
+#: settings/civiexportexcel.setting.php
+msgid "Show the report title"
 msgstr ""
 
-#: civiexportexcel-core.patch
-msgid "Group"
+#: settings/civiexportexcel.setting.php
+msgid "Prints the report title as the first row of the report."
 msgstr ""
 
-#: civiexportexcel-core.patch
-msgid "- select group -"
+#: settings/civiexportexcel.setting.php
+msgid "Show the report export date"
+msgstr ""
+
+#: settings/civiexportexcel.setting.php
+msgid "Prints the export date at the top of the report."
+msgstr ""
+
+#: templates/CRM/CiviExportExcel/Form/Task/Export.tpl
+msgid ""
+"Click on the Export button and save the file. When finished, click Cancel to"
+" return to the search results."
 msgstr ""
