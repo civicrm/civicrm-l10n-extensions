@@ -3,19 +3,19 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Usha Matisson <matisson@makoa.fr>, 2020
+# Usha Matisson, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: form_processor\n"
 "POT-Creation-Date: 2020-08-08 05:01+0000\n"
-"Last-Translator: Usha Matisson <matisson@makoa.fr>, 2020\n"
-"Language-Team: French (https://www.transifex.com/civicrm/teams/1905/fr/)\n"
+"Last-Translator: Usha Matisson, 2023\n"
+"Language-Team: French (https://app.transifex.com/civicrm/teams/1905/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: CRM/FormProcessor/DAO/FormProcessorAction.php
 #: CRM/FormProcessor/DAO/FormProcessorDefaultDataAction.php
@@ -426,7 +426,7 @@ msgstr "Oui/Non comme liste de choix"
 
 #: Civi/FormProcessor/Type/Factory.php
 msgid "Option Group"
-msgstr "Groupe d'options"
+msgstr "Liste de choix"
 
 #: Civi/FormProcessor/Type/Factory.php
 msgid "Custom Options"
@@ -446,12 +446,12 @@ msgstr "Subdivision de pays"
 
 #: Civi/FormProcessor/Type/Factory.php
 msgid "Mailing Group"
-msgstr "Groupe pour l'envoi en masse"
+msgstr "Liste de diffusion"
 
 #: Civi/FormProcessor/Type/Factory.php
 #: Civi/FormProcessor/Type/ParentMailingGroupType.php
 msgid "Parent Mailing Group"
-msgstr "Groupe parent pour l'envoi en masse"
+msgstr "Parent de la liste de diffusion"
 
 #: Civi/FormProcessor/Type/Factory.php
 msgid "Participant Status"
@@ -463,7 +463,7 @@ msgstr "Campagne"
 
 #: Civi/FormProcessor/Type/Factory.php
 msgid "Financial Type"
-msgstr "Type d'opération (financière)"
+msgstr "Type d'opération comptable"
 
 #: Civi/FormProcessor/Type/Factory.php
 msgid "Membership Type"
@@ -520,7 +520,7 @@ msgstr "Utiliser le label comme valeur"
 
 #: Civi/FormProcessor/Type/OptionGroupType.php
 msgid "Option group"
-msgstr "Groupe d'options"
+msgstr "Liste de choix"
 
 #: Civi/FormProcessor/Type/TimeType.php
 msgid ""
