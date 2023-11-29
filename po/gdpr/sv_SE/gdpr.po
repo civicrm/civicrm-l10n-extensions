@@ -1,714 +1,1024 @@
-# Copyright CiviCRM LLC (c) 2004-2015
-# This file is distributed under the same license as the CiviCRM package.
-# If you contribute heavily to a translation and deem your work copyrightable,
-# make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# 
+# Translators:
+# Thomas Nilefalk <thomas.nilefalk@responsive.se>, 2023
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: gdpr\n"
-"POT-Creation-Date: 2018-11-15 19:51+0000\n"
-"Language-Team: Swedish (Sweden) (https://www.transifex.com/civicrm/teams/1460/sv_SE/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Thomas Nilefalk <thomas.nilefalk@responsive.se>, 2023\n"
+"Language-Team: Swedish (Sweden) (https://app.transifex.com/civicrm/teams/1905/sv_SE/)\n"
 "Language: sv_SE\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: CRM/Gdpr/CommunicationsPreferences/Utils.php
-#: CRM/Gdpr/Form/UpdatePreference.php gdpr.php
+#: ./CRM/Gdpr/CommunicationsPreferences/Utils.php
+#: ./CRM/Gdpr/Form/UpdatePreference.php ./gdpr.php
 msgid "Communication Preferences"
-msgstr ""
+msgstr "Kommunikationspreferenser"
 
-#: CRM/Gdpr/CommunicationsPreferences/Utils.php
+#: ./CRM/Gdpr/CommunicationsPreferences/Utils.php
 msgid ""
 "We want to ensure we are only sending you information that is of interest to"
 " you, in a way you are happy to receive."
 msgstr ""
+"Vi vill vara säkra på att vi bara skickar information som är intressant för "
+"dig på det sätt som du vill ha den."
 
-#: CRM/Gdpr/CommunicationsPreferences/Utils.php
+#: ./CRM/Gdpr/CommunicationsPreferences/Utils.php
 msgid "Please tell us how you would like us to keep in touch."
-msgstr ""
+msgstr "Berätta hur du vill att vi håller kontakten."
 
-#: CRM/Gdpr/CommunicationsPreferences/Utils.php
+#: ./CRM/Gdpr/CommunicationsPreferences/Utils.php
 msgid "Interest groups"
-msgstr ""
+msgstr "Intressegrupper"
 
-#: CRM/Gdpr/CommunicationsPreferences/Utils.php
+#: ./CRM/Gdpr/CommunicationsPreferences/Utils.php
 msgid ""
 "We want to continue to keep you informed about our work. Opt-in to the "
 "groups that interest you."
 msgstr ""
+"Vi vill fortsätta att uppdatera dig på var vi arbetar med och tänker på. "
+"Välj de grupper som intresserar dig."
 
-#: CRM/Gdpr/CommunicationsPreferences/Utils.php
+#: ./CRM/Gdpr/CommunicationsPreferences/Utils.php
 msgid "Your communications preferences have been updated. Thank you."
-msgstr ""
+msgstr "Dina kommunikationspreferenser har uppdaterats. Tack."
 
-#: CRM/Gdpr/CommunicationsPreferences/Utils.php
+#: ./CRM/Gdpr/CommunicationsPreferences/Utils.php
 msgid "Email"
-msgstr ""
+msgstr "Epost"
 
-#: CRM/Gdpr/CommunicationsPreferences/Utils.php
+#: ./CRM/Gdpr/CommunicationsPreferences/Utils.php
 msgid "Phone"
-msgstr ""
+msgstr "Telefon"
 
-#: CRM/Gdpr/CommunicationsPreferences/Utils.php
-msgid "Post"
-msgstr ""
+#: ./CRM/Gdpr/CommunicationsPreferences/Utils.php
+msgid "Postal Mail"
+msgstr "Brev"
 
-#: CRM/Gdpr/CommunicationsPreferences/Utils.php
+#: ./CRM/Gdpr/CommunicationsPreferences/Utils.php
 msgid "SMS"
-msgstr ""
+msgstr "SMS"
 
-#: CRM/Gdpr/Form/Activitycontact.php CRM/Gdpr/Form/Search/ActivityContact.php
-#: templates/CRM/Gdpr/Form/Activitycontact.tpl
+#: ./CRM/Gdpr/CommunicationsPreferences/Utils.php
+msgid "--Select--"
+msgstr "-- Välj --"
+
+#: ./CRM/Gdpr/CommunicationsPreferences/Utils.php
+msgid "Communication Preferences updated"
+msgstr "Kommunikationspreferenserna har uppdaterats"
+
+#: ./CRM/Gdpr/Form/Activitycontact.php
+#: ./CRM/Gdpr/Form/Search/ActivityContact.php
+#: ./templates/CRM/Gdpr/Form/Activitycontact.tpl
 msgid "Contact Name"
-msgstr ""
+msgstr "Namn"
 
-#: CRM/Gdpr/Form/Activitycontact.php templates/CRM/Gdpr/Page/Dashboard.tpl
+#: ./CRM/Gdpr/Form/Activitycontact.php ./templates/CRM/Gdpr/Page/Dashboard.tpl
 msgid "Search"
-msgstr ""
+msgstr "Sök"
 
-#: CRM/Gdpr/Form/CommunicationsPreferences.php CRM/Gdpr/Page/Tab.php
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php ./CRM/Gdpr/Page/Tab.php
 msgid "Communications Preferences"
-msgstr ""
+msgstr "Kommunikationspreferenser"
 
-#: CRM/Gdpr/Form/CommunicationsPreferences.php CRM/Gdpr/Form/Settings.php
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php ./CRM/Gdpr/Form/Settings.php
 msgid "Page title"
-msgstr ""
+msgstr "Sidrubrik"
 
-#: CRM/Gdpr/Form/CommunicationsPreferences.php CRM/Gdpr/Form/Settings.php
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php ./CRM/Gdpr/Form/Settings.php
 msgid "Introduction"
-msgstr ""
+msgstr "Inledning"
 
-#: CRM/Gdpr/Form/CommunicationsPreferences.php
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Include Profile"
-msgstr ""
+msgstr "Inkludera profil"
 
-#: CRM/Gdpr/Form/CommunicationsPreferences.php
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid ""
 "Include a profile so the user can identify and check their details are up-"
 "to-date. It should  include a primary email address field."
 msgstr ""
+"Inkludera en profil så att användaren kan identifiera och kontrollera att "
+"deras uppgifter är aktuella. Den bör innehålla fältet för primär "
+"epostadress."
 
-#: CRM/Gdpr/Form/CommunicationsPreferences.php
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Use as the mailing subscribe page"
-msgstr ""
+msgstr "Använd som sida för prenumeration på mailutskick"
 
-#: CRM/Gdpr/Form/CommunicationsPreferences.php
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid ""
 "Check to use the Communications Preferences page instead of the default "
 "Mailing Subscribe page."
 msgstr ""
+"Markera för att använda sidan med kommunikationspreferenser istället för "
+"standardsidan för prenumeration på mailutskick."
 
-#: CRM/Gdpr/Form/CommunicationsPreferences.php
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Include reCAPTCHA?"
-msgstr ""
+msgstr "Använd reCAPTCHA?"
 
-#: CRM/Gdpr/Form/CommunicationsPreferences.php
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Enable Channels"
+msgstr "Aktivera kanaler"
+
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
+msgid "Heading for the channels section"
 msgstr ""
 
-#: CRM/Gdpr/Form/CommunicationsPreferences.php
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Users can opt-in to these channels"
-msgstr ""
+msgstr "Användare kan välja att ansluta till dessa kanaler"
 
-#: CRM/Gdpr/Form/CommunicationsPreferences.php
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Allow users to opt-in to mailing groups."
-msgstr ""
+msgstr "Tillåt användare att välja att prenumerera på mailutskick."
 
-#: CRM/Gdpr/Form/CommunicationsPreferences.php
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Heading for the groups section"
-msgstr ""
+msgstr "Rubrik för avsnittet med grupper"
 
-#: CRM/Gdpr/Form/CommunicationsPreferences.php
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Introduction or description for this section."
-msgstr ""
+msgstr "Inledning eller beskrivning av detta avsnitt."
 
-#: CRM/Gdpr/Form/CommunicationsPreferences.php
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Enable"
-msgstr ""
+msgstr "Aktivera"
 
-#: CRM/Gdpr/Form/CommunicationsPreferences.php
-#: templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
+#: ./templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
 msgid "Weight"
 msgstr ""
 
-#: CRM/Gdpr/Form/CommunicationsPreferences.php
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "On completion"
 msgstr ""
 
-#: CRM/Gdpr/Form/CommunicationsPreferences.php
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Redirect to another page"
-msgstr ""
+msgstr "Skicka vidare till annan sida"
 
-#: CRM/Gdpr/Form/CommunicationsPreferences.php
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Display a message on the form page."
-msgstr ""
+msgstr "Visa ett meddelande på  formulärssidan."
 
-#: CRM/Gdpr/Form/CommunicationsPreferences.php
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Completion page"
-msgstr ""
+msgstr "Sida vid avslut"
 
-#: CRM/Gdpr/Form/CommunicationsPreferences.php
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid ""
 "Add the a URL for a page to redirect the user after they complete the form. "
-"The page should already exist. The URL may be absolute (http://example.com"
-"/thank-you) or relative (thank-you), with no leading forward slash. Leave "
-"blank to redirect to the front page."
+"The page should already exist. The URL may be absolute "
+"(http://example.com/thank-you) or relative (thank-you), with no leading "
+"forward slash. Leave blank to redirect to the front page."
 msgstr ""
+"Lägg till URL:en för sidan som användare skall skickas vidare till när de är"
+" klara med formuläret. Sidan måste finnas. URL:en kan vara absolut "
+"(https://example.com/thank-you) eller relativ (thank-you). Om du lämnar "
+"blankt kommer användarna att skickas vidare till förstasidan."
 
-#: CRM/Gdpr/Form/CommunicationsPreferences.php
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Completion message"
-msgstr ""
+msgstr "Avslutningsmeddelande"
 
-#: CRM/Gdpr/Form/CommunicationsPreferences.php
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "A message to display to the user after the form is submitted. "
 msgstr ""
+"Detta meddelande visas för användaren efter att fomuläret skickats in."
 
-#: CRM/Gdpr/Form/CommunicationsPreferences.php
-msgid "Add link to the thank you page"
-msgstr ""
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
+msgid "Add to Event and Contribution Thank-you pages"
+msgstr "Lägg till på tack-sidorna för arrangemang och bidrag"
 
-#: CRM/Gdpr/Form/CommunicationsPreferences.php
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
+msgid "Embed the Communication Preferences form"
+msgstr "Bädda in formuläret för kommunikationspreferenser"
+
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
+msgid "Add a link to the form"
+msgstr "Lägg till en länk till formuläret"
+
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
+msgid "Do Nothing"
+msgstr "Gör ingenting"
+
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php ./CRM/Gdpr/Form/Settings.php
+msgid "Introductory text"
+msgstr "Inledande text"
+
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
+msgid "Completion text"
+msgstr "Avslutande text"
+
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Link label"
-msgstr ""
+msgstr "Ledtext för länk"
 
-#: CRM/Gdpr/Form/CommunicationsPreferences.php
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Text above the link"
-msgstr ""
+msgstr "Text ovanför länken"
 
-#: CRM/Gdpr/Form/CommunicationsPreferences.php CRM/Gdpr/Form/Settings.php
-#: CRM/Gdpr/Form/UpdatePreference.php
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php ./CRM/Gdpr/Form/Settings.php
+#: ./CRM/Gdpr/Form/UpdatePreference.php
 msgid "Save"
-msgstr ""
+msgstr "Spara"
 
-#: CRM/Gdpr/Form/CommunicationsPreferences.php
-msgid "Invalid URL."
-msgstr ""
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
+msgid "Send Confirmation Email?"
+msgstr "Skicka bekräftelsemail?"
 
-#: CRM/Gdpr/Form/CommunicationsPreferences.php
-msgid ""
-"The completion URL does not belong to a valid page. Please check that an "
-"anonymous in user can access it."
-msgstr ""
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
+msgid "Text"
+msgstr "Text"
 
-#: CRM/Gdpr/Form/ContributionPage/TermsAndConditions.php
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
+msgid "CC Confirmation To"
+msgstr "Skicka en kopia på bekräftelsen till"
+
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
+msgid "Please enter a valid list of comma delimited email addresses"
+msgstr "Ange en lista med komma-separerade epostadresser"
+
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
+msgid "BCC Confirmation To"
+msgstr "Skicka blindkopia på bekräftelsen till"
+
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
+msgid "Confirm From Name"
+msgstr "Bekräfta namn för avsändare"
+
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
+msgid "Confirm From Email"
+msgstr "Bekräfta avsändarens epost"
+
+#: ./CRM/Gdpr/Form/CommunicationsPreferences.php
+msgid "Email is not valid."
+msgstr "Epostadressen är inte giltig."
+
+#: ./CRM/Gdpr/Form/ContributionPage/TermsAndConditions.php
 msgid "Terms & Conditions information has been saved."
-msgstr ""
+msgstr "Informationen om villkoren har sparats."
 
-#: CRM/Gdpr/Form/ContributionPage/TermsAndConditions.php
+#: ./CRM/Gdpr/Form/ContributionPage/TermsAndConditions.php
 msgid "Saved"
-msgstr ""
+msgstr "Sparat"
 
-#: CRM/Gdpr/Form/Forgetme.php templates/CRM/Gdpr/Form/Settings.tpl
-msgid "Forget me"
-msgstr ""
-
-#: CRM/Gdpr/Form/Forgetme.php
-msgid "Cancel"
-msgstr ""
-
-#: CRM/Gdpr/Form/Forgetme.php
+#: ./CRM/Gdpr/Form/Export.php ./CRM/Gdpr/Form/Forgetme.php
 msgid "Something went wrong. Please contact Admin."
+msgstr "Något gick fel. Kontakta administratören."
+
+#: ./CRM/Gdpr/Form/Export.php
+msgid "Export Data - "
 msgstr ""
 
-#: CRM/Gdpr/Form/Forgetme.php
+#: ./CRM/Gdpr/Form/Export.php
+msgid "Select data to export *"
+msgstr ""
+
+#: ./CRM/Gdpr/Form/Export.php
+msgid "Format"
+msgstr ""
+
+#: ./CRM/Gdpr/Form/Export.php
+msgid "CSV"
+msgstr ""
+
+#: ./CRM/Gdpr/Form/Export.php
+msgid "PDF"
+msgstr ""
+
+#: ./CRM/Gdpr/Form/Export.php ./templates/CRM/Gdpr/Page/Tab.tpl
+msgid "Export"
+msgstr ""
+
+#: ./CRM/Gdpr/Form/Export.php ./CRM/Gdpr/Form/Forgetme.php
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: ./CRM/Gdpr/Form/Export.php
+msgid "Select entities to export."
+msgstr ""
+
+#: ./CRM/Gdpr/Form/Export.php
+msgid "No data available to export."
+msgstr ""
+
+#: ./CRM/Gdpr/Form/Export.php
+msgid "Export Data"
+msgstr ""
+
+#: ./CRM/Gdpr/Form/Export.php
+msgid "Contact"
+msgstr ""
+
+#: ./CRM/Gdpr/Form/Export.php
+msgid "Activity"
+msgstr ""
+
+#: ./CRM/Gdpr/Form/Export.php
+msgid "Relationship"
+msgstr ""
+
+#: ./CRM/Gdpr/Form/Export.php
+msgid "Contribution"
+msgstr ""
+
+#: ./CRM/Gdpr/Form/Export.php
+msgid "Membership"
+msgstr "Medlemsskap"
+
+#: ./CRM/Gdpr/Form/Export.php
+msgid "Participant"
+msgstr ""
+
+#: ./CRM/Gdpr/Form/Export.php
+msgid "Case"
+msgstr ""
+
+#: ./CRM/Gdpr/Form/Export.php
+msgid "Gift Aid Declaration"
+msgstr ""
+
+#: ./CRM/Gdpr/Form/Export.php ./gdpr.php
+msgid "GDPR"
+msgstr "GDPR"
+
+#: ./CRM/Gdpr/Form/Forgetme.php ./templates/CRM/Gdpr/Form/Settings.tpl
+msgid "Forget me"
+msgstr "Glöm mig"
+
+#: ./CRM/Gdpr/Form/Forgetme.php
 msgid "Record not Deleted cleanly"
-msgstr ""
+msgstr "Posten kunde inte tas bort ordentligt."
 
-#: CRM/Gdpr/Form/Forgetme.php
+#: ./CRM/Gdpr/Form/Forgetme.php
 msgid "Contact has been made anonymous."
-msgstr ""
+msgstr "Kontakten har anonymiserats."
 
-#: CRM/Gdpr/Form/Forgetme.php
+#: ./CRM/Gdpr/Form/Forgetme.php
 msgid "Forget successful"
-msgstr ""
+msgstr "Bortglömningen lyckades"
 
-#: CRM/Gdpr/Form/Forgetme.php
+#: ./CRM/Gdpr/Form/Forgetme.php
 msgid "Records has not been cleared."
-msgstr ""
+msgstr "Posten har inte städats."
 
-#: CRM/Gdpr/Form/Forgetme.php
+#: ./CRM/Gdpr/Form/Forgetme.php
 msgid "Record not Deleted cleanly. Please contact admin!"
-msgstr ""
+msgstr "Posten har inte tagits bort ordentligt. Kontakta administratören."
 
-#: CRM/Gdpr/Form/Forgetme.php
+#: ./CRM/Gdpr/Form/Forgetme.php
 msgid "GDPR - Contact has been made anonymous"
-msgstr ""
+msgstr "GDPR - kontakten har anonymiserats"
 
-#: CRM/Gdpr/Form/SLAAccept.php
+#: ./CRM/Gdpr/Form/SLAAccept.php
 msgid "Submit"
-msgstr ""
+msgstr "Skicka in"
 
-#: CRM/Gdpr/Form/SLAAccept.php
+#: ./CRM/Gdpr/Form/SLAAccept.php
 msgid "This field is required."
+msgstr "Detta fält är obligatoriskt."
+
+#: ./CRM/Gdpr/Form/Search/ActivityContact.mgd.php
+msgid "Contacts without Activity for a period (GDPR)"
 msgstr ""
 
-#: CRM/Gdpr/Form/Search/ActivityContact.php
+#: ./CRM/Gdpr/Form/Search/ActivityContact.php
 msgid "GDPR - Contacts without Activities"
-msgstr ""
+msgstr "GDPR - Kontakter utan kopplade åtgärder"
 
-#: CRM/Gdpr/Form/Search/ActivityContact.php
-#: CRM/Gdpr/Form/Search/GroupcontactDetails.php
+#: ./CRM/Gdpr/Form/Search/ActivityContact.php
+#: ./CRM/Gdpr/Form/Search/GroupcontactDetails.php
 msgid "Contact Id"
-msgstr ""
+msgstr "Kontakt-ID"
 
-#: CRM/Gdpr/Form/Search/ActivityContact.php
-#: CRM/Gdpr/Form/Search/GroupcontactDetails.php
+#: ./CRM/Gdpr/Form/Search/ActivityContact.php
+#: ./CRM/Gdpr/Form/Search/GroupcontactDetails.php
 msgid "Contact Type"
-msgstr ""
+msgstr "Kontakttyp"
 
-#: CRM/Gdpr/Form/Search/GroupcontactDetails.mgd.php
-#: CRM/Gdpr/Form/Search/GroupcontactDetails.php
+#: ./CRM/Gdpr/Form/Search/GroupcontactDetails.mgd.php
+#: ./CRM/Gdpr/Form/Search/GroupcontactDetails.php
 msgid "Search Group Subscription by Date Range"
-msgstr ""
+msgstr "Sök grupp-prenumeration utifrån datumintervall"
 
-#: CRM/Gdpr/Form/Search/GroupcontactDetails.php
+#: ./CRM/Gdpr/Form/Search/GroupcontactDetails.php
 msgid "Name"
-msgstr ""
+msgstr "Namn"
 
-#: CRM/Gdpr/Form/Search/GroupcontactDetails.php
+#: ./CRM/Gdpr/Form/Search/GroupcontactDetails.php
 msgid "- any contact type -"
-msgstr ""
+msgstr "- alla kontakttyper -"
 
-#: CRM/Gdpr/Form/Search/GroupcontactDetails.php
+#: ./CRM/Gdpr/Form/Search/GroupcontactDetails.php
 msgid "is..."
-msgstr ""
+msgstr "är..."
 
-#: CRM/Gdpr/Form/Search/GroupcontactDetails.php
+#: ./CRM/Gdpr/Form/Search/GroupcontactDetails.php
 msgid "- select group -"
-msgstr ""
+msgstr "- välj grupp -"
 
-#: CRM/Gdpr/Form/Search/GroupcontactDetails.php
+#: ./CRM/Gdpr/Form/Search/GroupcontactDetails.php
 msgid "in..."
-msgstr ""
+msgstr "i..."
 
-#: CRM/Gdpr/Form/Search/GroupcontactDetails.php
+#: ./CRM/Gdpr/Form/Search/GroupcontactDetails.php
 msgid "Group Status"
-msgstr ""
+msgstr "Gruppstatus"
 
-#: CRM/Gdpr/Form/Search/GroupcontactDetails.php
+#: ./CRM/Gdpr/Form/Search/GroupcontactDetails.php
 msgid "From"
-msgstr ""
+msgstr "Från "
 
-#: CRM/Gdpr/Form/Search/GroupcontactDetails.php
-#: templates/CRM/Gdpr/Page/Tab.tpl
+#: ./CRM/Gdpr/Form/Search/GroupcontactDetails.php
+#: ./templates/CRM/Gdpr/Page/Tab.tpl
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
-#: CRM/Gdpr/Form/Search/GroupcontactDetails.php
+#: ./CRM/Gdpr/Form/Search/GroupcontactDetails.php
 msgid "Subscription Date"
-msgstr ""
+msgstr "Prenumerationsdatum"
 
-#: CRM/Gdpr/Form/Settings.php
+#: ./CRM/Gdpr/Form/Settings.php
 msgid "GDPR - Settings"
-msgstr ""
+msgstr "GDPR - Inställningar"
 
-#: CRM/Gdpr/Form/Settings.php templates/CRM/Gdpr/Form/Settings.tpl
+#: ./CRM/Gdpr/Form/Settings.php ./templates/CRM/Gdpr/Form/Settings.tpl
 msgid "Point of Contact"
-msgstr ""
+msgstr "Kontaktperson"
 
-#: CRM/Gdpr/Form/Settings.php templates/CRM/Gdpr/Page/Dashboard.tpl
+#: ./CRM/Gdpr/Form/Settings.php ./templates/CRM/Gdpr/Page/Dashboard.tpl
 msgid "Activity Types"
-msgstr ""
+msgstr "Åtgärdstyper"
 
-#: CRM/Gdpr/Form/Settings.php
+#: ./CRM/Gdpr/Form/Settings.php
 msgid "- select -"
+msgstr "- välj -"
+
+#: ./CRM/Gdpr/Form/Settings.php
+msgid "Do you Want to track Exports?"
 msgstr ""
 
-#: CRM/Gdpr/Form/Settings.php
+#: ./CRM/Gdpr/Form/Settings.php
 msgid "Contact Types"
-msgstr ""
+msgstr "Kontakttyper"
 
-#: CRM/Gdpr/Form/Settings.php
+#: ./CRM/Gdpr/Form/Settings.php
 msgid "Forgetme contact name"
 msgstr ""
 
-#: CRM/Gdpr/Form/Settings.php
+#: ./CRM/Gdpr/Form/Settings.php
+msgid "Forgetme e-mail"
+msgstr ""
+
+#: ./CRM/Gdpr/Form/Settings.php
 msgid "Delete Activities of Types"
-msgstr ""
+msgstr "Radera åtgärder av typ"
 
-#: CRM/Gdpr/Form/Settings.php
+#: ./CRM/Gdpr/Form/Settings.php
+msgid "Custom groups"
+msgstr "Anpassade grupper"
+
+#: ./CRM/Gdpr/Form/Settings.php
 msgid "Email the Point of Contact / DPO?"
-msgstr ""
+msgstr "Skicka mail till kontaktperson/dataskyddsombud?"
 
-#: CRM/Gdpr/Form/Settings.php
+#: ./CRM/Gdpr/Form/Settings.php
 msgid "Email Subject"
-msgstr ""
+msgstr "Epostrubrik"
 
-#: CRM/Gdpr/Form/Settings.php
+#: ./CRM/Gdpr/Form/Settings.php
 msgid "Period"
-msgstr ""
+msgstr "Period"
 
-#: CRM/Gdpr/Form/Settings.php
+#: ./CRM/Gdpr/Form/Settings.php
 msgid "Acceptance period (months)"
 msgstr ""
 
-#: CRM/Gdpr/Form/Settings.php
+#: ./CRM/Gdpr/Form/Settings.php
+msgid "File Upload"
+msgstr "Filuppladdning"
+
+#: ./CRM/Gdpr/Form/Settings.php
+msgid "Web page link"
+msgstr "Länk till webbsida"
+
+#: ./CRM/Gdpr/Form/Settings.php
+msgid "Data Policy options"
+msgstr "Alternativ för datapolicy"
+
+#: ./CRM/Gdpr/Form/Settings.php
 msgid "Data Policy file"
-msgstr ""
+msgstr "Fil för datapolicy"
 
-#: CRM/Gdpr/Form/Settings.php
+#: ./CRM/Gdpr/Form/Settings.php
+msgid "Data Policy link"
+msgstr "Länk för datapolicy"
+
+#: ./CRM/Gdpr/Form/Settings.php
 msgid "This is a new version of the document."
-msgstr ""
+msgstr "Detta är en ny version av dokumentet."
 
-#: CRM/Gdpr/Form/Settings.php
+#: ./CRM/Gdpr/Form/Settings.php
 msgid "Link Label"
-msgstr ""
+msgstr "Ledtext för länken"
 
-#: CRM/Gdpr/Form/Settings.php
+#: ./CRM/Gdpr/Form/Settings.php
 msgid "Checkbox text"
-msgstr ""
+msgstr "Text för kryssrutan"
 
-#: CRM/Gdpr/Form/Settings.php
-msgid "Introductory text"
-msgstr ""
-
-#: CRM/Gdpr/Form/Settings.php
+#: ./CRM/Gdpr/Form/Settings.php
 msgid "Enable Terms and Conditions for every event"
-msgstr ""
+msgstr "Aktivera villkor för varje arrangemang"
 
-#: CRM/Gdpr/Form/Settings.php
+#: ./CRM/Gdpr/Form/Settings.php
 msgid "Enable Terms and Conditions for every Contribution Page"
-msgstr ""
+msgstr "Aktivera villkor för varje bidragssida"
 
-#: CRM/Gdpr/Form/Settings.php
+#: ./CRM/Gdpr/Form/Settings.php
 msgid "Checkbox Position"
-msgstr ""
+msgstr "Position för kryssruta"
 
-#: CRM/Gdpr/Form/Settings.php
+#: ./CRM/Gdpr/Form/Settings.php
 msgid "Top profile"
-msgstr ""
+msgstr "Överst i profilen"
 
-#: CRM/Gdpr/Form/Settings.php
+#: ./CRM/Gdpr/Form/Settings.php
 msgid "Bottom profile"
-msgstr ""
+msgstr "Nederst i profilen"
 
-#: CRM/Gdpr/Form/Settings.php
+#: ./CRM/Gdpr/Form/Settings.php
 msgid "Top of form"
-msgstr ""
+msgstr "Överst i formuläret"
 
-#: CRM/Gdpr/Form/Settings.php
+#: ./CRM/Gdpr/Form/Settings.php
 msgid "Bottom of form"
-msgstr ""
+msgstr "Nederst i formuläret"
 
-#: CRM/Gdpr/Form/Settings.php
-msgid "Default Terms and Conditions"
-msgstr ""
+#: ./CRM/Gdpr/Form/Settings.php
+msgid "Terms and Conditions options"
+msgstr "Alternativ för villkor"
 
-#: CRM/Gdpr/Form/Settings.php templates/CRM/Gdpr/Form/Settings.tpl
+#: ./CRM/Gdpr/Form/Settings.php
+msgid "Default Terms and Conditions file"
+msgstr "Fil med standardvillkor"
+
+#: ./CRM/Gdpr/Form/Settings.php
+msgid "Default Terms and Conditions link"
+msgstr "Länk till standardvillkor"
+
+#: ./CRM/Gdpr/Form/Settings.php ./templates/CRM/Gdpr/Form/Settings.tpl
 msgid "Data Policy"
-msgstr ""
+msgstr "Datapolicy"
 
-#: CRM/Gdpr/Form/Settings.php
+#: ./CRM/Gdpr/Form/Settings.php
 msgid "I accept the Data Policy."
-msgstr ""
+msgstr "Jag samtycker till datapolicyn."
 
-#: CRM/Gdpr/Form/Settings.php gdpr.php
+#: ./CRM/Gdpr/Form/Settings.php ./gdpr.php
+#: ./templates/CRM/Gdpr/TermsConditionsField.tpl
 msgid "Terms &amp; Conditions"
-msgstr ""
+msgstr "Villkor"
 
-#: CRM/Gdpr/Form/Settings.php
-msgid "I accept the Terms &amp; Conditions for this event."
-msgstr ""
+#: ./CRM/Gdpr/Form/Settings.php
+msgid "I accept the Terms &amp; Conditions"
+msgstr "Jag samtycker till villkoren."
 
-#: CRM/Gdpr/Form/Settings.php
+#: ./CRM/Gdpr/Form/Settings.php
 msgid "Please read and accept the Terms &amp; Conditions and Data Policy."
+msgstr "Var vänlig läs och samtyck till villkoren och datapolicyn."
+
+#: ./CRM/Gdpr/Form/Task/Contact.php
+msgid "GDPR forget me"
 msgstr ""
 
-#: CRM/Gdpr/Form/UpdatePreference.php
-msgid "--Select--"
+#: ./CRM/Gdpr/Form/Task/Contact.php
+msgid "These contact records will be anonymized"
 msgstr ""
 
-#: CRM/Gdpr/Form/UpdatePreference.php
+#: ./CRM/Gdpr/Form/Task/Contact.php
+msgid "Selected contacts: %1"
+msgstr ""
+
+#: ./CRM/Gdpr/Form/Task/Contact.php
+#: ./templates/CRM/Gdpr/Form/Activitycontact.tpl
+msgid "Next"
+msgstr "Nästa"
+
+#: ./CRM/Gdpr/Form/UpdatePreference.php
 msgid "<a href='%1' target='_blank'>%2</a>"
-msgstr ""
+msgstr "<a href='%1' target='_blank'>%2</a>"
 
-#: CRM/Gdpr/Form/UpdatePreference.php
+#: ./CRM/Gdpr/Form/UpdatePreference.php
 msgid ""
 "Here is our <a href='%1' target='_blank'>%2</a>, which you agreed to on %3."
 msgstr ""
+"Här är vår <a href='%1' target='_blank'>%2</a>, som du samtyckte till %3."
 
-#: CRM/Gdpr/Form/UpdatePreference.php
+#: ./CRM/Gdpr/Form/UpdatePreference.php
 msgid "Source of Communication Preferences"
+msgstr "Källa för kommunikationspreferenserna"
+
+#: ./CRM/Gdpr/Form/UpdatePreference.php
+msgid "GDPR Communication Preferences Form"
 msgstr ""
 
-#: CRM/Gdpr/Form/UpdatePreference.php
-msgid "Communication Preferences updated"
+#: ./CRM/Gdpr/Page/AJAX.php
+msgid "Event/Contribution ThankYou Page"
 msgstr ""
 
-#: CRM/Gdpr/Page/Dashboard.php
+#: ./CRM/Gdpr/Page/Dashboard.php
 msgid "Please add GDPR settings"
-msgstr ""
+msgstr "Ange inställningar för GDPR"
 
-#: CRM/Gdpr/Page/Tab.php
+#: ./CRM/Gdpr/Page/Tab.php
 msgid "Data Policy acceptance."
-msgstr ""
+msgstr "Samtycke till datapolicy."
 
-#: CRM/Gdpr/Page/Tab.php
+#: ./CRM/Gdpr/Page/Tab.php
 msgid "Not yet accepted by the contact."
-msgstr ""
+msgstr "Kontakten har ännu inte samtyckt."
 
-#: CRM/Gdpr/Page/Tab.php
+#: ./CRM/Gdpr/Page/Tab.php
 msgid "Not yet updated by the contact."
+msgstr "Kontakten har ännu inte uppdaterat."
+
+#: ./CRM/Gdpr/SLA/Entity.php
+msgid " Terms and Conditions accepted"
 msgstr ""
 
-#: CRM/Gdpr/SLA/Utils.php
+#: ./CRM/Gdpr/SLA/Utils.php
 msgid "Data Policy accepted"
-msgstr ""
+msgstr "Kontakten har samtyckt till datapolicyn."
 
-#: CRM/Gdpr/Upgrader/Base.php
+#: ./CRM/Gdpr/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
+msgstr "Uppgradera %1 till revision %2"
+
+#: ./CRM/Gdpr/Upgrader.php
+msgid "Contacts without any activity for a period"
 msgstr ""
 
-#: gdpr.php
+#: ./CRM/Gdpr/Upgrader.php
+msgid "GDPR Cancelled"
+msgstr ""
+
+#: ./CRM/Gdpr/Upgrader.php
+msgid "Message Template Workflow for GDPR"
+msgstr ""
+
+#: ./CRM/Gdpr/Upgrader.php
+msgid "Update Communication Preferences"
+msgstr ""
+
+#: ./gdpr.php
 msgid "Contribution Page"
+msgstr "Inbetalningssida"
+
+#: ./gdpr.php
+msgid "GDPR Dashboard"
 msgstr ""
 
-#: gdpr.php
-msgid "GDPR"
+#: ./gdpr.php ./templates/CRM/Gdpr/Page/Dashboard.tpl
+msgid "GDPR Settings"
+msgstr "Inställningar för GDPR"
+
+#: ./gdpr.php
+msgid "Communication Preferences Settings"
 msgstr ""
 
-#: gdpr.php
+#: ./gdpr.php
 msgid "Communication Preferences URL"
-msgstr ""
+msgstr "URL för kommunikationspreferenser"
 
-#: gdpr.php
+#: ./gdpr.php
 msgid "Communication Preferences Link"
-msgstr ""
+msgstr "Länk till kommunikationspreferenser"
 
-#: gdpr.php
+#: ./gdpr.php
 msgid "Communication Preferences URL (Bulk Mailing)"
-msgstr ""
+msgstr "URL för kommunikationspreferenser (för massutskick)"
 
-#: gdpr.php
+#: ./gdpr.php
 msgid "Communication Preferences Link (Bulk Mailing)"
-msgstr ""
+msgstr "Länk till kommunikationspreferenser (för massutskick)"
 
-#: gdpr.php
+#: ./gdpr.php
+msgid "CiviGDPR"
+msgstr "CiviGDPR"
+
+#: ./gdpr.php
 msgid "access GDPR"
 msgstr ""
 
-#: gdpr.php
+#: ./gdpr.php
 msgid "View GDPR related information"
 msgstr ""
 
-#: gdpr.php
+#: ./gdpr.php
 msgid "forget contact"
-msgstr ""
+msgstr "glöm kontakt"
 
-#: gdpr.php
+#: ./gdpr.php
 msgid "Anonymize contacts"
-msgstr ""
+msgstr "Anonymisera kontakter"
 
-#: gdpr.php
+#: ./gdpr.php
 msgid "administer GDPR"
-msgstr ""
+msgstr "administrera GDPR"
 
-#: gdpr.php
+#: ./gdpr.php
 msgid "Manage GDPR settings"
+msgstr "Hantera inställningar för GDPR"
+
+#: ./gdpr.php
+msgid "GDPR forget"
 msgstr ""
 
-#: templates/CRM/Gdpr/Form/Activitycontact.tpl
+#: ./templates/CRM/Gdpr/Form/Activitycontact.tpl
 msgid "Complete OR partial contact name."
-msgstr ""
+msgstr "Fullständigt eller ofullständigt namn på kontakt"
 
-#: templates/CRM/Gdpr/Form/Activitycontact.tpl
+#: ./templates/CRM/Gdpr/Form/Activitycontact.tpl
 msgid "Contact ID"
-msgstr ""
+msgstr "Kontakt-ID"
 
-#: templates/CRM/Gdpr/Form/Activitycontact.tpl
+#: ./templates/CRM/Gdpr/Form/Activitycontact.tpl
 msgid "Last Activity Date"
-msgstr ""
+msgstr "Datum för senaste åtgärd"
 
-#: templates/CRM/Gdpr/Form/Activitycontact.tpl
+#: ./templates/CRM/Gdpr/Form/Activitycontact.tpl
 msgid "No matching data found for your search criteria."
-msgstr ""
+msgstr "Inga data matchade sökkriterierna."
 
-#: templates/CRM/Gdpr/Form/Activitycontact.tpl
+#: ./templates/CRM/Gdpr/Form/Activitycontact.tpl
 msgid "You do not have any Open Data Entry Batches."
 msgstr ""
 
-#: templates/CRM/Gdpr/Form/Activitycontact.tpl
+#: ./templates/CRM/Gdpr/Form/Activitycontact.tpl
 msgid "No Data Entry Batches have been created for this site."
 msgstr ""
 
-#: templates/CRM/Gdpr/Form/Activitycontact.tpl
+#: ./templates/CRM/Gdpr/Form/Activitycontact.tpl
 msgid "Processing..."
-msgstr ""
+msgstr "Bearbetar..."
 
-#: templates/CRM/Gdpr/Form/Activitycontact.tpl
+#: ./templates/CRM/Gdpr/Form/Activitycontact.tpl
 msgid "Show _MENU_ entries"
 msgstr ""
 
-#: templates/CRM/Gdpr/Form/Activitycontact.tpl
+#: ./templates/CRM/Gdpr/Form/Activitycontact.tpl
 msgid "Showing _START_ to _END_ of _TOTAL_ entries"
 msgstr ""
 
-#: templates/CRM/Gdpr/Form/Activitycontact.tpl
+#: ./templates/CRM/Gdpr/Form/Activitycontact.tpl
 msgid "Showing 0 to 0 of 0 entries"
 msgstr ""
 
-#: templates/CRM/Gdpr/Form/Activitycontact.tpl
+#: ./templates/CRM/Gdpr/Form/Activitycontact.tpl
 msgid "(filtered from _MAX_ total entries)"
 msgstr ""
 
-#: templates/CRM/Gdpr/Form/Activitycontact.tpl
+#: ./templates/CRM/Gdpr/Form/Activitycontact.tpl
 msgid "Search:"
-msgstr ""
+msgstr "Sök:"
 
-#: templates/CRM/Gdpr/Form/Activitycontact.tpl
+#: ./templates/CRM/Gdpr/Form/Activitycontact.tpl
 msgid "First"
-msgstr ""
+msgstr "Första"
 
-#: templates/CRM/Gdpr/Form/Activitycontact.tpl
+#: ./templates/CRM/Gdpr/Form/Activitycontact.tpl
 msgid "Previous"
-msgstr ""
+msgstr "Föregående"
 
-#: templates/CRM/Gdpr/Form/Activitycontact.tpl
-msgid "Next"
-msgstr ""
-
-#: templates/CRM/Gdpr/Form/Activitycontact.tpl
+#: ./templates/CRM/Gdpr/Form/Activitycontact.tpl
 msgid "Last"
-msgstr ""
+msgstr "Sista"
 
-#: templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
+#: ./templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
 msgid "Channels"
-msgstr ""
+msgstr "Kanaler"
 
-#: templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
+#: ./templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
 msgid "Configure which channels to show on the page."
-msgstr ""
+msgstr "Konfigurera vilka kanaler som skall visas på sidan."
 
-#: templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
+#: ./templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
 msgid "Subscriptions to Groups"
-msgstr ""
+msgstr "Prenumeration på grupper"
 
-#: templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
+#: ./templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
 msgid ""
 "Configure which public groups the user can join on the page. You can "
 "optionally alter the group title and description. (For example to add more "
 "details on the content, message frequency etc.)."
 msgstr ""
+"Konfigurera vilka grupper som användaren kan välja att gå med i på sidan. Du"
+" kan välja att ändra gruppnamn och beskrivning. (T.ex för att lägga till med"
+" detaljer om innehåll, frekvens mm.)"
 
-#: templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
-#: templates/CRM/Gdpr/Page/Tab.tpl
+#: ./templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
+#: ./templates/CRM/Gdpr/Page/Tab.tpl
 msgid "Group"
-msgstr ""
+msgstr "Grupp"
 
-#: templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
+#: ./templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
 msgid "Add"
 msgstr ""
 
-#: templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
+#: ./templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
 msgid "Title"
-msgstr ""
+msgstr "Rubrik"
 
-#: templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
+#: ./templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
 msgid "Description"
-msgstr ""
+msgstr "Beskrivning"
 
-#: templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
+#: ./templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
 msgid "Channel"
-msgstr ""
+msgstr "Kanal"
 
-#: templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
+#: ./templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
 msgid "Completion"
 msgstr ""
 
-#: templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
+#: ./templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
 msgid "Event & Contribution thank you page"
 msgstr ""
 
-#: templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
+#: ./templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
 msgid ""
-"To display communication preference link in Event and Contribution thank you"
-" pages"
+"<p>Allows supporters set their preferences after registering for an event or"
+" making a contribution.</p><p>Note, to embed the Communcation Preferences "
+"form in thank-you pages, you need to give anonymous users the permission: "
+"<em>CiviCRM: access AJAX API</em>.</p>"
 msgstr ""
+"<p>Ge supporters möjlighet att ändra sina preferenser efter att de har "
+"anmält sig till ett arrangemang eller gjort en inbetalning.</p><p>Observera:"
+" för att kunna bädda in kommunikationspreferenserna på en tack-sida måste "
+"anonyma använare ha behörigheten: <em>CiviCRM: access AJAX API</em>.</p>"
 
-#: templates/CRM/Gdpr/Form/Forgetme.tpl
+#: ./templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
+msgid "Confirmation Email"
+msgstr "Bekräftelsemail"
+
+#: ./templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
+msgid "Do you want a confirmation email sent automatically to the user?"
+msgstr ""
+"Vill du att ett bekräftelsemail skall skickas till användaren automatiskt?"
+
+#: ./templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
+msgid "Additional message or instructions to include in confirmation email."
+msgstr ""
+"Ytterligare meddelande eller instruktioner som ska finnas i "
+"bekräftelsemailet."
+
+#: ./templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
+msgid "FROM name for email."
+msgstr "Avsändarnamn för epost."
+
+#: ./templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
+msgid ""
+"FROM email address (this must be a valid email account with your SMTP email "
+"service provider)."
+msgstr ""
+"Epostadress för avsändaren (detta måste vara en giltig epostadress kopplat "
+"till din SMTP-tjänst)."
+
+#: ./templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
+msgid ""
+"You may specify one or more email addresses to receive a carbon copy (cc). "
+"Multiple email addresses should be separated by a comma (e.g. "
+"jane@example.org, paula@example.org)."
+msgstr ""
+"Du kan ange en eller flera epostadresser som skall få en kopia (CC). "
+"Separarera adresserna med ett kommatecken (t.ex \"jane@example.org, "
+"paula@example.org\")."
+
+#: ./templates/CRM/Gdpr/Form/CommunicationsPreferences.tpl
+msgid ""
+"You may specify one or more email addresses to receive a blind carbon copy "
+"(bcc) of the confirmation email. Multiple email addresses should be "
+"separated by a comma (e.g. jane@example.org, paula@example.org)."
+msgstr ""
+"Du kan ange en eller flera epostadresser som skall få en blindkopia (BCC) på"
+" bekräftelsemailet. Separera adresserna med kommatecken (t.ex "
+"\"jane@example.org, paula@example.org\")."
+
+#: ./templates/CRM/Gdpr/Form/Forgetme.tpl
 msgid ""
 "WARNING: 'Forget me' process will make the contact record totally "
 "unidentified by removing any related data and entity links."
 msgstr ""
+"VARNING: Processen för 'glöm mig' kommer att göra kontaktposten helt "
+"oidentifierbar genom att radera all relaterat data och länkar."
 
-#: templates/CRM/Gdpr/Form/Forgetme.tpl
+#: ./templates/CRM/Gdpr/Form/Forgetme.tpl
 msgid "This action cannot be undone."
-msgstr ""
+msgstr "Detta går inte att ångra."
 
-#: templates/CRM/Gdpr/Form/Forgetme.tpl
+#: ./templates/CRM/Gdpr/Form/Forgetme.tpl
 msgid ""
 " Please Note, this action will not remove Instant Messenger details for the "
 "contact. if any Instant Messenger details remains in the contact record, "
 "Please delete them manually.. "
 msgstr ""
+"Notera: detta tar inte bort direktmeddelande som kontakten tagit emot eller "
+"skickat. Om det finns sådana måste dessa tas bort manuellt."
 
-#: templates/CRM/Gdpr/Form/Forgetme.tpl
+#: ./templates/CRM/Gdpr/Form/Forgetme.tpl
 msgid "Please make sure you are on the right contact record to perform this."
 msgstr ""
+"Kontrollera en extra gång att du är på rätt kontaktpost innan du genomför "
+"denna operation."
 
-#: templates/CRM/Gdpr/Form/Forgetme.tpl
+#: ./templates/CRM/Gdpr/Form/Forgetme.tpl
 msgid "Click 'Forget me' if you want to continue."
-msgstr ""
+msgstr "Klicka på \"Glöm mig\" om du är säker på att du vill fortsätta."
 
-#: templates/CRM/Gdpr/Form/Search/GroupcontactDetails.tpl
+#: ./templates/CRM/Gdpr/Form/Search/GroupcontactDetails.tpl
 msgid "Edit Search Criteria"
-msgstr ""
+msgstr "Ändra sökkriteria"
 
-#: templates/CRM/Gdpr/Form/Search/GroupcontactDetails.tpl
+#: ./templates/CRM/Gdpr/Form/Search/GroupcontactDetails.tpl
 msgid "Subscription Date "
-msgstr ""
+msgstr "Prenumerationsdatum"
 
-#: templates/CRM/Gdpr/Form/Search/GroupcontactDetails.tpl
+#: ./templates/CRM/Gdpr/Form/Search/GroupcontactDetails.tpl
 msgid "Search results listings."
 msgstr ""
 
-#: templates/CRM/Gdpr/Form/Settings.tpl
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
+msgid "Some of the installation data for this extension is missing."
+msgstr "En del installationsdata för detta tillägg saknas."
+
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
 msgid ""
 "Set your organisation's point of contact for data protection compliance."
 msgstr ""
 
-#: templates/CRM/Gdpr/Form/Settings.tpl
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
 msgid ""
 "Add the person designated to be responsible for data protection compliance, "
 "such as the data protection officer (DPO)."
 msgstr ""
 
-#: templates/CRM/Gdpr/Form/Settings.tpl
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
 msgid "More info"
-msgstr ""
+msgstr "Mer information"
 
-#: templates/CRM/Gdpr/Form/Settings.tpl
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
 msgid "Activity types"
-msgstr ""
+msgstr "Åtgärdstyper"
 
-#: templates/CRM/Gdpr/Form/Settings.tpl
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
 msgid ""
 "Set activity types to check for contacts that have not had any activity for "
 "a set period."
 msgstr ""
 
-#: templates/CRM/Gdpr/Form/Settings.tpl
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
 msgid "Check only these contact types who have not had any activity."
 msgstr ""
 
-#: templates/CRM/Gdpr/Form/Settings.tpl
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
 msgid "Check for contacts who have not had any activity of these types."
 msgstr ""
 
-#: templates/CRM/Gdpr/Form/Settings.tpl
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
 msgid "(days)"
+msgstr "(dagar)"
+
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
+msgid "Data Export"
 msgstr ""
 
-#: templates/CRM/Gdpr/Form/Settings.tpl
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
+msgid ""
+"Tick this checkbox if you need an activity to be created when data "
+"(contacts, activities, contributions) is exported from CiviCRM."
+msgstr ""
+
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
 msgid "Settings related to 'Forget me' process."
-msgstr ""
+msgstr "Inställningar som påverkar processen 'Glöm mig'."
 
-#: templates/CRM/Gdpr/Form/Settings.tpl
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
 msgid "Name to be used for contacts that have been made anonymous."
+msgstr "Namn som skall användas för anonymiserade kontakter."
+
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
+msgid ""
+"When field is empty, then each email will be deleted. When field is not "
+"empty, then each email will be updated with this value."
 msgstr ""
 
-#: templates/CRM/Gdpr/Form/Settings.tpl
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
+msgid "You can include %RANDOM% in order to have randomized email."
+msgstr ""
+
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
 msgid ""
 "Activities of these types to be deleted during 'Forget me' process, as some "
 "activity types (eg. Inbound email) allow you to easily identify the contact "
@@ -716,128 +1026,152 @@ msgid ""
 "to be deleted."
 msgstr ""
 
-#: templates/CRM/Gdpr/Form/Settings.tpl
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
+msgid ""
+"Data from selected custom groups to be deleted during 'Forget me' process. "
+"Leave empty if you do not want any custom groups to be deleted."
+msgstr ""
+
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
 msgid "Send Email notification to Data protection officer"
 msgstr ""
 
-#: templates/CRM/Gdpr/Form/Settings.tpl
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
 msgid ""
 "Optionally, you can specify the Email subject here. Default subject is "
 "'%Contact Id% has been Anonmized'"
 msgstr ""
 
-#: templates/CRM/Gdpr/Form/Settings.tpl
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
 msgid ""
 "Settings related to sitewise agreements such as Data Policy or Terms and Conditions.\n"
 "     These settings will apply in the Communications Preferences page and when Terms and Conditions are used with Events.\n"
 "    "
 msgstr ""
 
-#: templates/CRM/Gdpr/Form/Settings.tpl
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
 msgid "Number of months since contact accepted until they are due to renew."
 msgstr ""
 
-#: templates/CRM/Gdpr/Form/Settings.tpl
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
+msgid ""
+"Choose if you need to upload a file or specify a web page link for privacy "
+"policy."
+msgstr ""
+
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
 msgid "Pdf document with the Policy/Terms."
 msgstr ""
 
-#: templates/CRM/Gdpr/Form/Settings.tpl
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
+msgid "Policy/Terms web page link."
+msgstr ""
+
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
 msgid ""
 "Check this if the document has changed substantially and contacts need to "
 "renew their agreement."
 msgstr ""
 
-#: templates/CRM/Gdpr/Form/Settings.tpl
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
 msgid " Text to use for the link. Usually the document title."
 msgstr ""
 
-#: templates/CRM/Gdpr/Form/Settings.tpl
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
 msgid " Text for the checkbox. An acceptance statement."
 msgstr ""
 
-#: templates/CRM/Gdpr/Form/Settings.tpl
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
 msgid "The title for the user-facing page with the acceptance form."
 msgstr ""
 
-#: templates/CRM/Gdpr/Form/Settings.tpl
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
 msgid "Terms &amp; Conditions: Events and Contribution Pages"
 msgstr ""
 
-#: templates/CRM/Gdpr/Form/Settings.tpl
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
 msgid ""
 "Set defaults for Terms &amp Conditions. You can override these in the "
 "settings for individual Events and Contribution Pages."
 msgstr ""
 
-#: templates/CRM/Gdpr/Form/Settings.tpl
-msgid "Current:"
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
+msgid ""
+"Choose if you need to upload a file or specify a web page link for  Default "
+"Terms and Conditions."
 msgstr ""
 
-#: templates/CRM/Gdpr/Form/Settings.tpl
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
 msgid ""
 "A default terms and conditions file for use in Event registrations etc. This"
 " can be overridden on the settings for the particular event."
 msgstr ""
 
-#: templates/CRM/Gdpr/Page/ContactSummary.tpl
+#: ./templates/CRM/Gdpr/Form/Settings.tpl
+msgid ""
+"A default terms and conditions link for use in Event registrations etc. This"
+" can be overridden on the settings for the particular event.."
+msgstr ""
+
+#: ./templates/CRM/Gdpr/Form/UpdatePreference.tpl
+msgid "Group Channels"
+msgstr ""
+
+#: ./templates/CRM/Gdpr/Page/ContactSummary.tpl
 msgid "GDPR Status"
-msgstr ""
+msgstr "GDPR-status"
 
-#: templates/CRM/Gdpr/Page/Dashboard.tpl
+#: ./templates/CRM/Gdpr/Page/Dashboard.tpl
 msgid "Contacts who have not had any activity for %1 days"
-msgstr ""
+msgstr "Kontakter som inte haft någon aktivitet sedan %1 dagar"
 
-#: templates/CRM/Gdpr/Page/Dashboard.tpl
+#: ./templates/CRM/Gdpr/Page/Dashboard.tpl
 msgid "No. of Contacts"
-msgstr ""
+msgstr "Antal kontakter"
 
-#: templates/CRM/Gdpr/Page/Dashboard.tpl
+#: ./templates/CRM/Gdpr/Page/Dashboard.tpl
 msgid "(Excluding contacts who clicked through links in emails)"
 msgstr ""
 
-#: templates/CRM/Gdpr/Page/Dashboard.tpl
+#: ./templates/CRM/Gdpr/Page/Dashboard.tpl
 msgid "Click-throughs"
 msgstr ""
 
-#: templates/CRM/Gdpr/Page/Dashboard.tpl
+#: ./templates/CRM/Gdpr/Page/Dashboard.tpl
 msgid ""
 "(Contacts who have not had any activity, but clicked through links in "
 "emails)"
 msgstr ""
 
-#: templates/CRM/Gdpr/Page/Dashboard.tpl
-msgid "GDPR Settings"
-msgstr ""
-
-#: templates/CRM/Gdpr/Page/Dashboard.tpl
+#: ./templates/CRM/Gdpr/Page/Dashboard.tpl
 msgid "Click <a href=\"%1\">here</a> to update GDPR settings."
 msgstr ""
 
-#: templates/CRM/Gdpr/Page/Dashboard.tpl
+#: ./templates/CRM/Gdpr/Page/Dashboard.tpl
 msgid ""
 "Click <a href=\"%1\">here</a> to update Communications Preferences settings."
 msgstr ""
 
-#: templates/CRM/Gdpr/Page/Tab.tpl
+#: ./templates/CRM/Gdpr/Page/Tab.tpl
 msgid "Forget Me"
-msgstr ""
+msgstr "Glöm mig"
 
-#: templates/CRM/Gdpr/Page/Tab.tpl
+#: ./templates/CRM/Gdpr/Page/Tab.tpl
 msgid "Summary"
-msgstr ""
+msgstr "Sammanfattning"
 
-#: templates/CRM/Gdpr/Page/Tab.tpl
+#: ./templates/CRM/Gdpr/Page/Tab.tpl
 msgid "Subject"
-msgstr ""
+msgstr "Rubrik"
 
-#: templates/CRM/Gdpr/Page/Tab.tpl
+#: ./templates/CRM/Gdpr/Page/Tab.tpl
 msgid "Date"
-msgstr ""
+msgstr "Datum"
 
-#: templates/CRM/Gdpr/Page/Tab.tpl
+#: ./templates/CRM/Gdpr/Page/Tab.tpl
 msgid "Group Subscription Log"
-msgstr ""
+msgstr "Prenumerationslog"
 
-#: templates/CRM/Gdpr/Page/Tab.tpl
+#: ./templates/CRM/Gdpr/Page/Tab.tpl
 msgid "No group subscription have been recorded for this contact."
-msgstr ""
+msgstr "Den här kontakten har inga prenumerationer."
