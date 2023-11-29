@@ -3,12 +3,14 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
+# Calbasi <joan@calbasi.net>, 2023
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2021-10-18 05:02+0000\n"
+"POT-Creation-Date: 2023-01-27 19:21+0000\n"
 "PO-Revision-Date: 2015-01-10 05:32+0000\n"
-"Language-Team: Catalan (http://www.transifex.com/civicrm/civicrm_extensions/language/ca/)\n"
+"Last-Translator: Calbasi <joan@calbasi.net>, 2023\n"
+"Language-Team: Catalan (http://app.transifex.com/civicrm/civicrm_extensions/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,14 +18,18 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: CRM/Core/Payment/Stripe.php
+msgid "Stripe"
+msgstr "Stripe"
+
+#: CRM/Core/Payment/Stripe.php
 msgid "Successfully cancelled the subscription in CiviCRM ONLY."
-msgstr ""
+msgstr "La subscripció ha sigut correctament cancel·lada NOMÉS a CiviCRM."
 
 #: CRM/Core/Payment/Stripe.php
 msgid ""
 "The recurring contribution cannot be cancelled (No reference (trxn_id) "
 "found)."
-msgstr ""
+msgstr "La contribució recurrent no pot ser cancel·lada (No s'ha trobat la referència (trxn_id) )."
 
 #: CRM/Core/Payment/Stripe.php
 msgid "Could not delete Stripe subscription: %1"
@@ -46,40 +52,11 @@ msgid ""
 msgstr ""
 
 #: CRM/Stripe/Check.php
-msgid ""
-"The <em>%1</em> extension requires the <em>Payment Shared</em> extension "
-"which is not installed. See <a href=\"%2\" target=\"_blank\">details</a> for"
-" more information."
+msgid "You are using a development version of %1 extension."
 msgstr ""
 
 #: CRM/Stripe/Check.php
-msgid "%1: Missing Requirements"
-msgstr ""
-
-#: CRM/Stripe/Check.php
-msgid "Install now"
-msgstr ""
-
-#: CRM/Stripe/Check.php
-msgid ""
-"If you are using Stripe to accept payments on public forms (eg. contribution/event registration forms) it is recommended that you install the <strong><a href=\"https://lab.civicrm.org/extensions/firewall\">firewall</a></strong> extension.\n"
-"        Some sites have become targets for spammers who use the payment endpoint to try and test credit cards by submitting invalid payments to your Stripe account."
-msgstr ""
-
-#: CRM/Stripe/Check.php
-msgid "Recommended Extension: firewall"
-msgstr ""
-
-#: CRM/Stripe/Check.php
-msgid ""
-"It is recommended that you install the <strong><a href=\"https://civicrm.org/extensions/sweetalert\">sweetalert</a></strong> extension.\n"
-"        This allows the stripe extension to show useful messages to the user when processing payment.\n"
-"        If this is not installed it will fallback to the browser \"alert\" message but you will\n"
-"        not see some messages (such as <em>we are pre-authorizing your card</em> and <em>please wait</em>) and the feedback to the user will not be as helpful."
-msgstr ""
-
-#: CRM/Stripe/Check.php
-msgid "Recommended Extension: sweetalert"
+msgid "%1: Development version"
 msgstr ""
 
 #: CRM/Stripe/Check.php
@@ -89,17 +66,32 @@ msgid ""
 msgstr ""
 
 #: CRM/Stripe/Check.php
-msgid "Upgrade now"
+msgid "%1: Missing Requirements"
 msgstr ""
+
+#: CRM/Stripe/Check.php
+msgid "Upgrade now"
+msgstr "Actualitza'l ara"
 
 #: CRM/Stripe/Check.php
 msgid ""
-"Stripe does not support \"Separate Membership Payment\" on contribution pages but you have one or more contribution pages with\n"
-"                that setting enabled and Stripe as the payment processor (found on contribution page ID: %1)."
+"The <em>%1</em> extension requires the <em>Payment Shared</em> extension "
+"which is not installed. See <a href=\"%2\" target=\"_blank\">details</a> for"
+" more information."
 msgstr ""
 
 #: CRM/Stripe/Check.php
-msgid "Stripe: Invalid configuration"
+msgid "Install now"
+msgstr "Instal·la'l ara"
+
+#: CRM/Stripe/Check.php
+msgid ""
+"If you are using Stripe to accept payments on public forms (eg. contribution/event registration forms) it is recommended that you install the <strong><a href=\"https://lab.civicrm.org/extensions/firewall\">firewall</a></strong> extension.\n"
+"        Some sites have become targets for spammers who use the payment endpoint to try and test credit cards by submitting invalid payments to your Stripe account."
+msgstr ""
+
+#: CRM/Stripe/Check.php
+msgid "Recommended Extension: firewall"
 msgstr ""
 
 #: CRM/Stripe/Check.php
@@ -238,6 +230,14 @@ msgstr ""
 msgid "All webhooks update successfully."
 msgstr ""
 
+#: CRM/Stripe/PaymentIntent.php
+msgid "Payment failed: %1"
+msgstr ""
+
+#: CRM/Stripe/PaymentIntent.php
+msgid "Payment failed."
+msgstr ""
+
 #: CRM/Stripe/Recur.php
 msgid "Now"
 msgstr "Ara"
@@ -248,7 +248,7 @@ msgstr ""
 
 #: CRM/Stripe/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
-msgstr "Actualitzar %1 a la revisió %2"
+msgstr "Actualitza %1 a la revisió %2"
 
 #: CRM/Stripe/Webhook.php
 msgid ""
@@ -261,7 +261,8 @@ msgstr ""
 #: CRM/Stripe/Webhook.php
 msgid ""
 "Unable to update the webhook %1. To correct this please delete the webhook "
-"at Stripe and then revisit this page which will recreate it correctly."
+"at Stripe and then revisit this page which will recreate it correctly. Error"
+" was: %2"
 msgstr ""
 
 #: CRM/Stripe/Webhook.php
@@ -291,6 +292,10 @@ msgstr ""
 
 #: CRM/Stripe/Webhook.php
 msgid "Stripe Payment Processor: %1 (%2)"
+msgstr ""
+
+#: api/v3/Stripe/Cleanup.php
+msgid "Set this to TRUE to execute this API function"
 msgstr ""
 
 #: api/v3/Stripe/Importallcustomers.php
@@ -480,19 +485,19 @@ msgid "Payment Method ID"
 msgstr ""
 
 #: api/v3/StripePaymentintent.php
-msgid "Payment Intent ID."
+msgid "Payment Intent ID"
 msgstr ""
 
 #: api/v3/StripePaymentintent.php
-msgid "Payment amount."
+msgid "Payment amount"
 msgstr ""
 
 #: api/v3/StripePaymentintent.php
-msgid "Whether we should try to capture the amount, not just confirm it."
+msgid "Whether we should try to capture the amount, not just confirm it"
 msgstr ""
 
 #: api/v3/StripePaymentintent.php
-msgid "Describe the payment."
+msgid "Describe the payment"
 msgstr ""
 
 #: api/v3/StripePaymentintent.php
@@ -500,15 +505,11 @@ msgid "Currency (eg. EUR)"
 msgstr ""
 
 #: api/v3/StripePaymentintent.php
-msgid "The stripe payment processor id."
+msgid "The stripe payment processor id"
 msgstr ""
 
 #: api/v3/StripePaymentintent.php
-msgid "Payment failed: %1"
-msgstr ""
-
-#: api/v3/StripePaymentintent.php
-msgid "Payment failed."
+msgid "Bad Request"
 msgstr ""
 
 #: js/civicrmStripeConfirm.js js/civicrm_stripe.js
@@ -552,23 +553,11 @@ msgid " preparing your payment..."
 msgstr ""
 
 #: js/civicrm_stripe.js
-msgid "Please apply the Discount Code or clear the Discount Code text-field"
-msgstr ""
-
-#: js/civicrm_stripe.js
-msgid "Please check and fill in all required fields!"
-msgstr ""
-
-#: js/civicrm_stripe.js
 msgid "Please enter your card details"
 msgstr ""
 
 #: js/civicrm_stripe.js
 msgid "Please check your card details!"
-msgstr ""
-
-#: js/civicrm_stripe.js
-msgid "Please complete the reCaptcha"
 msgstr ""
 
 #: js/civicrm_stripe.js
@@ -668,9 +657,9 @@ msgstr ""
 
 #: settings/stripe.setting.php
 msgid ""
-"Default 50. 0=Unlimited. This helps prevents webhooks from Stripe failing if"
-" a large number are triggered at the same time by delaying processing of any"
-" over this limit."
+"Default 50. This helps prevents webhooks from Stripe failing if a large "
+"number are triggered at the same time by delaying processing of any over "
+"this limit."
 msgstr ""
 
 #: settings/stripe.setting.php
