@@ -3,25 +3,21 @@
 # lbl_knts <git@rlkd.de>, 2022
 # Ettore Atalan <atalanttore@googlemail.com>, 2022
 # Andreas Howiller <andreas.howiller@civiservice.de>, 2022
-# Mathieu Lu <mathieu@bidon.ca>, 2022
 # Romy Ebert <romy.ebert@civiservice.de>, 2022
-# Torben Bertram, 2022
+# Mathieu Lu <mathieu@bidon.ca>, 2023
+# Torben Bertram, 2023
 # 
 msgid ""
 msgstr ""
-"Last-Translator: Torben Bertram, 2022\n"
-"Language-Team: German (https://www.transifex.com/civicrm/teams/1905/de/)\n"
+"Last-Translator: Torben Bertram, 2023\n"
+"Language-Team: German (https://app.transifex.com/civicrm/teams/1905/de/)\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ./CRM/AfformAdmin/Page/Base.php ./CRM/AfformAdmin/Upgrader.php
-#: ./ang/afAdmin/afAdminList.html
-msgid "Form Builder"
-msgstr "Form Builder"
-
-#: ./CRM/AfformAdmin/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Aktualisiere %1 auf Revision %2"
+#: ./CRM/AfformAdmin/Page/Base.php ./ang/afAdmin/afAdminList.html
+#: ./managed/Navigation_afform_admin.mgd.php
+msgid "FormBuilder"
+msgstr ""
 
 #: ./Civi/AfformAdmin/AfformAdminMeta.php
 msgid "Submission Forms"
@@ -29,7 +25,7 @@ msgstr ""
 
 #: ./Civi/AfformAdmin/AfformAdminMeta.php
 msgid "Search Forms"
-msgstr ""
+msgstr "Such Forms"
 
 #: ./Civi/AfformAdmin/AfformAdminMeta.php
 msgid "Field Blocks"
@@ -37,11 +33,15 @@ msgstr "Feldblöcke"
 
 #: ./Civi/AfformAdmin/AfformAdminMeta.php
 msgid "System Forms"
+msgstr "System Forms"
+
+#: ./Civi/AfformAdmin/AfformAdminMeta.php
+msgid "Existing %1"
 msgstr ""
 
 #: ./Civi/AfformAdmin/AfformAdminMeta.php
 msgid "Content Block"
-msgstr ""
+msgstr "Content Block"
 
 #: ./Civi/AfformAdmin/AfformAdminMeta.php
 #: ./ang/afGuiEditor/elements/afGuiContainer.component.js
@@ -126,9 +126,12 @@ msgstr "Wähle Datumsbereich"
 #: ./ang/afGuiEditor/afGuiMenuItemStyle.component.js
 #: ./ang/afGuiEditor/afGuiSaveBlock.controller.js
 #: ./ang/afGuiEditor/afGuiSearch.component.js
+#: ./ang/afGuiEditor/afGuiTokenSelect.js
+#: ./ang/afGuiEditor/behaviors/autofillRelationshipBehaviorForm.component.js
 #: ./ang/afGuiEditor/elements/afGuiButton.component.js
 #: ./ang/afGuiEditor/elements/afGuiContainer.component.js
 #: ./ang/afGuiEditor/elements/afGuiField.component.js
+#: ./ang/afGuiEditor/elements/afGuiGenericElement.js
 #: ./ang/afGuiEditor/elements/afGuiMarkup.component.js
 #: ./ang/afGuiEditor/elements/afGuiSearchDisplay.component.js
 #: ./ang/afGuiEditor/elements/afGuiText.component.js
@@ -153,11 +156,11 @@ msgstr "Gelöscht"
 
 #: ./ang/afAdmin/afAdminList.html
 msgid "Filter:"
-msgstr ""
+msgstr "Filter:"
 
 #: ./ang/afAdmin/afAdminList.html
 msgid "New %1"
-msgstr ""
+msgstr "Neu %1"
 
 #: ./ang/afAdmin/afAdminList.html ./ang/afGuiEditor/afGuiEditorPalette.html
 msgid "None Found"
@@ -165,7 +168,7 @@ msgstr "Nichts gefunden"
 
 #: ./ang/afAdmin/afAdminList.html
 msgid "Click to sort"
-msgstr ""
+msgstr "Klicken zum Sortieren"
 
 #: ./ang/afAdmin/afAdminList.html ./ang/afGuiEditor/config-form.html
 msgid "Title"
@@ -175,13 +178,13 @@ msgstr "Titel"
 msgid "Name"
 msgstr "Name"
 
-#: ./ang/afAdmin/afAdminList.html ./ang/afGuiEditor/config-form.html
+#: ./ang/afAdmin/afAdminList.html
 msgid "Page"
-msgstr ""
+msgstr "Seite"
 
 #: ./ang/afAdmin/afAdminList.html ./ang/afGuiEditor/config-form.html
 msgid "Placement"
-msgstr ""
+msgstr "Platzierung"
 
 #: ./ang/afAdmin/afAdminList.html
 msgid "Submissions"
@@ -260,12 +263,32 @@ msgid "Restore option"
 msgstr ""
 
 #: ./ang/afGuiEditor/afGuiEditor.component.js
-#: ./ang/afGuiEditor/afGuiSaveBlock.controller.js
-msgid "(copy)"
+msgid "User-Based"
 msgstr ""
 
+#: ./ang/afGuiEditor/afGuiEditor.component.js
+msgid "Inherit permissions based on the current user or role"
+msgstr ""
+
+#: ./ang/afGuiEditor/afGuiEditor.component.js
+msgid "Form-Based"
+msgstr ""
+
+#: ./ang/afGuiEditor/afGuiEditor.component.js
+msgid "Allow access to any fields listed on the form"
+msgstr ""
+
+#: ./ang/afGuiEditor/afGuiEditor.component.js
+msgid "Form has not been saved."
+msgstr ""
+
+#: ./ang/afGuiEditor/afGuiEditor.component.js
+#: ./ang/afGuiEditor/afGuiSaveBlock.controller.js
+msgid "(copy)"
+msgstr "(kopie)"
+
 #: ./ang/afGuiEditor/afGuiEditor.html
-msgid "Form Builder: %1"
+msgid "FormBuilder: %1"
 msgstr ""
 
 #: ./ang/afGuiEditor/afGuiEditor.html
@@ -274,8 +297,16 @@ msgid "Untitled"
 msgstr "Unbenannt"
 
 #: ./ang/afGuiEditor/afGuiEditorCanvas.html
-msgid "View Page"
+msgid "Undo (Ctrl-Z)"
 msgstr ""
+
+#: ./ang/afGuiEditor/afGuiEditorCanvas.html
+msgid "Redo (Ctrl-Shift-Z)"
+msgstr ""
+
+#: ./ang/afGuiEditor/afGuiEditorCanvas.html
+msgid "View Page"
+msgstr "Zeige Seite"
 
 #: ./ang/afGuiEditor/afGuiEditorCanvas.html
 msgid "Saved"
@@ -291,7 +322,7 @@ msgstr "Wird gespeichert ..."
 
 #: ./ang/afGuiEditor/afGuiEditorCanvas.html
 msgid "Form Layout"
-msgstr ""
+msgstr "Form Layout"
 
 #: ./ang/afGuiEditor/afGuiEditorCanvas.html
 msgid "Markup"
@@ -324,6 +355,11 @@ msgid "Add"
 msgstr "Hinzufügen"
 
 #: ./ang/afGuiEditor/afGuiEntity.component.js
+#: ./ang/afGuiEditor/elements/afGuiContainer.component.js
+msgid "Copy"
+msgstr "Kopieren"
+
+#: ./ang/afGuiEditor/afGuiEntity.component.js
 msgid "Fieldset for %1"
 msgstr ""
 
@@ -352,6 +388,7 @@ msgid "Blocks"
 msgstr "Blöcke"
 
 #: ./ang/afGuiEditor/afGuiEntity.html
+#: ./ang/afGuiEditor/elements/afGuiGenericElement-menu.html
 msgid "Remove %1"
 msgstr "entferne %1"
 
@@ -383,19 +420,19 @@ msgstr "Kein Rahmen"
 
 #: ./ang/afGuiEditor/afGuiMenuItemBorder.html
 msgid "Solid"
-msgstr ""
+msgstr "Fett"
 
 #: ./ang/afGuiEditor/afGuiMenuItemBorder.html
 msgid "Dotted"
-msgstr ""
+msgstr "Gepunktet"
 
 #: ./ang/afGuiEditor/afGuiMenuItemBorder.html
 msgid "Dashed"
-msgstr ""
+msgstr "Gestrichelt"
 
 #: ./ang/afGuiEditor/afGuiMenuItemBorder.html
 msgid "Double"
-msgstr ""
+msgstr "Doppel"
 
 #: ./ang/afGuiEditor/afGuiMenuItemBorder.html
 msgid "Groove"
@@ -415,15 +452,15 @@ msgstr ""
 
 #: ./ang/afGuiEditor/afGuiMenuItemCollapsible.html
 msgid "Allow user to collapse this to only show title"
-msgstr ""
+msgstr "Dies kann eingeklappt werden und nur der Titel ist dann sichtbar"
 
 #: ./ang/afGuiEditor/afGuiMenuItemCollapsible.html
 msgid "Must have a title to be collapsible"
-msgstr ""
+msgstr "Muss einen Titel haben um einklappbar zu sein"
 
 #: ./ang/afGuiEditor/afGuiMenuItemCollapsible.html
 msgid "Collapsible"
-msgstr ""
+msgstr "Einklappbar"
 
 #: ./ang/afGuiEditor/afGuiMenuItemCollapsible.html
 msgid "Closed"
@@ -442,14 +479,15 @@ msgid "Style:"
 msgstr "Style:"
 
 #: ./ang/afGuiEditor/afGuiMenuItemStyle.html
-#: ./ang/afGuiEditor/entityConfig/Contact.html
+#: ./ang/afGuiEditor/behaviors/afGuiDefaultBehaviorTemplate.html
+#: ./ang/afGuiEditor/behaviors/autofillRelationshipBehavior.html
 msgid "None"
 msgstr "keine"
 
 #: ./ang/afGuiEditor/afGuiSearch.component.js
 #: ./ang/afGuiEditor/afGuiSearch.html
 msgid "Calculated Fields"
-msgstr ""
+msgstr "Berechnete Felder"
 
 #: ./ang/afGuiEditor/afGuiSearch.html
 msgid "Filters:"
@@ -465,7 +503,7 @@ msgstr "Wert"
 
 #: ./ang/afGuiEditor/afGuiSearch.html
 msgid "Current Contact"
-msgstr ""
+msgstr "Aktueller Kontakt"
 
 #: ./ang/afGuiEditor/afGuiSearch.html
 msgid "Url variable"
@@ -478,6 +516,24 @@ msgstr ""
 #: ./ang/afGuiEditor/afGuiSearch.html
 msgid "Add filter"
 msgstr "Filter hinzufügen"
+
+#: ./ang/afGuiEditor/afGuiTokenSelect.html
+#: ./ang/afGuiEditor/afGuiTokenSelect.js
+msgid "Insert Token"
+msgstr "Token einfügen"
+
+#: ./ang/afGuiEditor/afGuiTokenSelect.js
+msgid "ID"
+msgstr "ID"
+
+#: ./ang/afGuiEditor/afGuiTokenSelect.js
+msgid "Submission JWT"
+msgstr ""
+
+#: ./ang/afGuiEditor/behaviors/autofillRelationshipBehaviorForm.component.js
+#: ./ang/afGuiEditor/inputType/EntityRef.html
+msgid "Select %1"
+msgstr "Wähle %1"
 
 #: ./ang/afGuiEditor/config-form.html
 msgid "Public title (usually displayed at the top of the form)."
@@ -505,8 +561,12 @@ msgid "What permission is required to use this form?"
 msgstr "Welche Berechtigungen sind notwendig, um das Formular zu benutzen?"
 
 #: ./ang/afGuiEditor/config-form.html
-msgid "Path must begin with &quot;civicrm/&quot;"
+msgid "Page Route"
 msgstr ""
+
+#: ./ang/afGuiEditor/config-form.html
+msgid "Path must begin with &quot;civicrm/&quot;"
+msgstr "Pfad muss beginnen mit &quot;civicrm/&quot;"
 
 #: ./ang/afGuiEditor/config-form.html
 msgid "Expose the form as a standalone webpage. (Example: \"civicrm/my-form\")"
@@ -525,28 +585,63 @@ msgid "Allows CiviMail authors to easily link to this page"
 msgstr ""
 
 #: ./ang/afGuiEditor/config-form.html
-msgid "Add to Dashboard"
+msgid "Add to Navigation Menu"
 msgstr ""
 
 #: ./ang/afGuiEditor/config-form.html
-msgid "Allow CiviCRM users to add the form to their home dashboard."
+msgid "Loading menu items"
 msgstr ""
+
+#: ./ang/afGuiEditor/config-form.html
+msgid "Top Level"
+msgstr ""
+
+#: ./ang/afGuiEditor/config-form.html
+msgid "Order"
+msgstr "Reihenfolge"
+
+#: ./ang/afGuiEditor/config-form.html
+msgid "Requires a page route"
+msgstr ""
+
+#: ./ang/afGuiEditor/config-form.html
+msgid "Icon"
+msgstr "Icon"
 
 #: ./ang/afGuiEditor/config-form.html
 msgid "Add to Contact Summary Page"
-msgstr ""
+msgstr "Zur Kontaktübersicht hinzufügen"
 
 #: ./ang/afGuiEditor/config-form.html
 msgid "As Block"
-msgstr ""
+msgstr "Als Block"
 
 #: ./ang/afGuiEditor/config-form.html
 msgid "As Tab"
+msgstr "Als Tab"
+
+#: ./ang/afGuiEditor/config-form.html
+msgid "For"
+msgstr "für"
+
+#: ./ang/afGuiEditor/config-form.html
+msgid "Any contact type"
 msgstr ""
 
 #: ./ang/afGuiEditor/config-form.html
 msgid "Placement can be configured using the Contact Layout Editor."
 msgstr ""
+"Die Platzierung kann mit dem Contact Layout Editor eingestellt werden."
+
+#: ./ang/afGuiEditor/config-form.html
+msgid "Add to Dashboard"
+msgstr "Zum Dashboard / Übersichtsseite hinzufügen"
+
+#: ./ang/afGuiEditor/config-form.html
+msgid "Allow CiviCRM users to add the form to their home dashboard."
+msgstr ""
+"Erlaubt es CiviCRM Usern, dieses Form auf ihrem Dashboard (der "
+"Übersichtsseite) anzuzeigen."
 
 #: ./ang/afGuiEditor/config-form.html
 msgid "Submit Actions"
@@ -602,6 +697,7 @@ msgstr ""
 #: ./ang/afGuiEditor/elements/afGuiButton.html
 #: ./ang/afGuiEditor/elements/afGuiContainer.html
 #: ./ang/afGuiEditor/elements/afGuiField.html
+#: ./ang/afGuiEditor/elements/afGuiGenericElement.html
 #: ./ang/afGuiEditor/elements/afGuiMarkup.html
 #: ./ang/afGuiEditor/elements/afGuiSearchDisplay.html
 #: ./ang/afGuiEditor/elements/afGuiText.html
@@ -610,7 +706,7 @@ msgstr "Konfigurieren"
 
 #: ./ang/afGuiEditor/elements/afGuiContainer-menu.html
 msgid "Save as block"
-msgstr ""
+msgstr "Speichern als Block"
 
 #: ./ang/afGuiEditor/elements/afGuiContainer-menu.html
 #: ./ang/afGuiEditor/elements/afGuiSearchContainer-menu.html
@@ -625,7 +721,7 @@ msgstr "Containertyp"
 
 #: ./ang/afGuiEditor/elements/afGuiContainer-menu.html
 msgid "Repeat"
-msgstr ""
+msgstr "Wiederholen"
 
 #: ./ang/afGuiEditor/elements/afGuiContainer-menu.html
 msgid "min"
@@ -641,7 +737,7 @@ msgstr "Layout:"
 
 #: ./ang/afGuiEditor/elements/afGuiContainer-menu.html
 msgid "Remove container"
-msgstr ""
+msgstr "Container entfernen"
 
 #: ./ang/afGuiEditor/elements/afGuiContainer-menu.html
 msgid "Remove block"
@@ -701,6 +797,38 @@ msgid "Field type"
 msgstr "Feldtyp"
 
 #: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Decimal places:"
+msgstr ""
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Decimal places"
+msgstr ""
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Use a saved search to filter the autocomplete results"
+msgstr ""
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Saved Search"
+msgstr "Gespeicherte Suche"
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Default Display"
+msgstr ""
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Should permissions be checked when autocompleting existing entities"
+msgstr ""
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Show autocomplete results without typing"
+msgstr ""
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Auto Open"
+msgstr ""
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
 msgid "Require this field"
 msgstr ""
 
@@ -722,7 +850,7 @@ msgstr "Bezeichnung"
 
 #: ./ang/afGuiEditor/elements/afGuiField-menu.html
 msgid "Show help text above this field"
-msgstr ""
+msgstr "Zeigt Hilfstext über diesem Feld"
 
 #: ./ang/afGuiEditor/elements/afGuiField-menu.html
 msgid "Pre help text"
@@ -730,7 +858,7 @@ msgstr ""
 
 #: ./ang/afGuiEditor/elements/afGuiField-menu.html
 msgid "Show help text below this field"
-msgstr ""
+msgstr "Zeigt Hilfstext unter diesem Feld"
 
 #: ./ang/afGuiEditor/elements/afGuiField-menu.html
 msgid "Post help text"
@@ -738,7 +866,7 @@ msgstr ""
 
 #: ./ang/afGuiEditor/elements/afGuiField-menu.html
 msgid "Search multiple values"
-msgstr ""
+msgstr "Mehrere Werte suchen"
 
 #: ./ang/afGuiEditor/elements/afGuiField-menu.html
 msgid "Multi-Select"
@@ -750,6 +878,32 @@ msgstr ""
 
 #: ./ang/afGuiEditor/elements/afGuiField-menu.html
 msgid "Search by range"
+msgstr ""
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Operator:"
+msgstr "Operator:"
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid ""
+"Set the search operator for this field or allow the user to select it on the"
+" form"
+msgstr ""
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Auto"
+msgstr ""
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "User Select"
+msgstr ""
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Default:"
+msgstr ""
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Default search operator for the user to select"
 msgstr ""
 
 #: ./ang/afGuiEditor/elements/afGuiField-menu.html
@@ -782,19 +936,19 @@ msgstr "%1 ID"
 
 #: ./ang/afGuiEditor/elements/afGuiField.component.js
 msgid "Select Form %1"
-msgstr ""
+msgstr "Wähle Form %1"
 
 #: ./ang/afGuiEditor/elements/afGuiMarkup-menu.html
 msgid "Edit content"
-msgstr ""
+msgstr "Content bearbeiten"
 
 #: ./ang/afGuiEditor/elements/afGuiMarkup-menu.html
 msgid "Delete this content"
-msgstr ""
+msgstr "Diesen Content löschen"
 
 #: ./ang/afGuiEditor/elements/afGuiMarkup.html
 msgid "Editing content"
-msgstr ""
+msgstr "Content bearbeiten"
 
 #: ./ang/afGuiEditor/elements/afGuiSearchContainer-menu.html
 msgid "Remove display"
@@ -860,49 +1014,33 @@ msgstr "Align rechts"
 msgid "Justify"
 msgstr ""
 
-#: ./ang/afGuiEditor/entityConfig/Contact.html
-msgid "Auto-Update"
-msgstr "Auto-Update"
-
-#: ./ang/afGuiEditor/entityConfig/Contact.html
-msgid "Current User"
-msgstr ""
-
-#: ./ang/afGuiEditor/entityConfig/Generic.html
+#: ./ang/afGuiEditor/entityConfig/Options.html
 msgid "Security"
 msgstr "Sicherheit"
 
-#: ./ang/afGuiEditor/entityConfig/Generic.html
-msgid "Role-Based"
-msgstr ""
-
-#: ./ang/afGuiEditor/entityConfig/Generic.html
-msgid "Form-Based"
-msgstr ""
-
-#: ./ang/afGuiEditor/entityConfig/Generic.html
+#: ./ang/afGuiEditor/entityConfig/Options.html
 msgid "Allowed Actions"
 msgstr "Erlaubte Aktionen"
 
-#: ./ang/afGuiEditor/entityConfig/Generic.html
+#: ./ang/afGuiEditor/entityConfig/Options.html
 msgid "Create"
 msgstr "Erstellen"
 
-#: ./ang/afGuiEditor/entityConfig/Generic.html
+#: ./ang/afGuiEditor/entityConfig/Options.html
 msgid "Update"
 msgstr "Aktualisieren"
 
-#: ./ang/afGuiEditor/entityConfig/Generic.html
+#: ./ang/afGuiEditor/entityConfig/Options.html
 msgid "Accept ID from URL"
 msgstr ""
 
-#: ./ang/afGuiEditor/entityConfig/Generic.html
+#: ./ang/afGuiEditor/entityConfig/Options.html
 msgid ""
 "Without Role-Based access, users of the form will be able to view and update"
 " any %1 by changing the id in the URL."
 msgstr ""
 
-#: ./ang/afGuiEditor/entityConfig/Generic.html
+#: ./ang/afGuiEditor/entityConfig/Options.html
 msgid "Update %1 by including the id in the link to this form:"
 msgstr ""
 
@@ -913,12 +1051,13 @@ msgstr "Wähle"
 
 #: ./ang/afGuiEditor/inputType/ChainSelect.html
 #: ./ang/afGuiEditor/inputType/Date.html
+#: ./ang/afGuiEditor/inputType/Email.html
 #: ./ang/afGuiEditor/inputType/EntityRef.html
 #: ./ang/afGuiEditor/inputType/Number.html
 #: ./ang/afGuiEditor/inputType/Select.html
 #: ./ang/afGuiEditor/inputType/Text.html
 msgid "Click to add placeholder text"
-msgstr ""
+msgstr "Klicken, um Platzhaltertext einzufügen"
 
 #: ./ang/afGuiEditor/inputType/CheckBox.html
 #: ./ang/afGuiEditor/inputType/Radio.html
@@ -926,9 +1065,13 @@ msgstr ""
 msgid "Set default value"
 msgstr "Standardwert einstellen"
 
-#: ./ang/afGuiEditor/inputType/EntityRef.html
-msgid "Select %1"
-msgstr "Wähle %1"
+#: ./ang/afGuiEditor/inputType/DisplayOnly.html
+msgid "Field value will be shown on the form"
+msgstr ""
+
+#: ./ang/afGuiEditor/inputType/Radio.html
+msgid "Clear Default"
+msgstr ""
 
 #: ./ang/afGuiEditor/inputType/Select.html
 msgid "Default Value:"
