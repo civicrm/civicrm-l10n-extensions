@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: tsys\n"
 "POT-Creation-Date: 2023-01-27 19:24+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2023\n"
-"Language-Team: Turkish (https://www.transifex.com/civicrm/teams/1905/tr/)\n"
+"Language-Team: Turkish (https://app.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -68,7 +68,7 @@ msgstr "Toplam tutar"
 
 #: CRM/Tsys/Form/Device.php CRM/Tsys/Form/Tsysdevicepayment.php
 msgid "Test transaction?"
-msgstr ""
+msgstr "Deneme hesap hareketi "
 
 #: CRM/Tsys/Form/Device.php CRM/Tsys/Form/Tsysdevicepayment.php
 msgid "Cancel"
@@ -83,50 +83,56 @@ msgstr "Gönder"
 msgid ""
 "error: %1, Transport Key: %2, Authorization Code: %3, Token: %4, Status: %5"
 msgstr ""
+"Hata: %1, Aktarım anajtarı: %2, Doğrulama kodu: %3, Kod: %4, Durum: %5"
 
 #: CRM/Tsys/Form/Device.php CRM/Tsys/Form/Tsysdevicepayment.php
 msgid "User Cancelled this transaction."
-msgstr ""
+msgstr "Kullanıcı bu hesap hareketini iptal etti."
 
 #: CRM/Tsys/Form/Device.php CRM/Tsys/Form/Tsysdevicepayment.php
 msgid "You Cancelled this transaction."
-msgstr ""
+msgstr "Bu hesap hareketini iptal ettiniz."
 
 #: CRM/Tsys/Form/Device.php CRM/Tsys/Form/Tsysdevicepayment.php
 msgid "error code: %1, Message: %3, Transport Key: %2"
-msgstr ""
+msgstr "Hata kodu: %1, İleti: %3, Aktarım anahtarı: %2"
 
 #: CRM/Tsys/Form/Device.php CRM/Tsys/Form/Tsysdevicepayment.php
 msgid "Perhaps you have Invalid credentials or the wrong TransportKey"
 msgstr ""
+"Kimlik doğrulama bilgileriniz geçersiz veya aktarım anahtarınız yanlış "
+"olabilir"
 
 #: CRM/Tsys/Form/Refund.php
 msgid ""
 "You cannot update this payment as it is not tied to a Genius payment "
 "processor"
 msgstr ""
+"Bir Genius ödeme aracısına bağlı olmadığından bu ödemeyi güncelleyemezsiniz"
 
 #: CRM/Tsys/Form/Refund.php
 msgid "Amount to Refund"
-msgstr ""
+msgstr "Geri ödenecek tutar"
 
 #: CRM/Tsys/Form/Refund.php
 msgid "Issue Refund"
-msgstr ""
+msgstr "Geri ödeme yap"
 
 #: CRM/Tsys/Form/Refund.php
 msgid ""
 "Amount Available to Refund for this payment is $%1. Submitting this form "
 "will result in a refund being issued from your Genius payment processor."
 msgstr ""
+"Bu ödeme için geri ödenebilecek tutar $%1. Bu form gönderildiğinde, Genius "
+"ödeme aracınızdan bir geri ödeme yapılacak."
 
 #: CRM/Tsys/Form/Refund.php
 msgid "Amount to be Voided"
-msgstr ""
+msgstr "İptal edilecek tutar"
 
 #: CRM/Tsys/Form/Refund.php
 msgid "Void Payment"
-msgstr ""
+msgstr "Ödemeyi iptal et"
 
 #: CRM/Tsys/Form/Refund.php
 msgid ""
@@ -134,30 +140,34 @@ msgid ""
 " the full amount $%1 instead of refunding it. Submitting this form will "
 "result in this transaction being voided via your Genius Payment processor."
 msgstr ""
+"Bu işlem sonuçlandırılmadığından $%1 tutarını geri ödemek yerine iptal "
+"etmeniz önerilir. Bu form gönderildiğinde bu işlemin Genius ödeme "
+"aracınızdan iptal edilecek."
 
 #: CRM/Tsys/Form/Refund.php
 msgid "No Credit Card Actions are available for this payment at this time."
-msgstr ""
+msgstr "Şu anda bu ödeme için herhangi bir kredi kartı İşlemi bulunmuyor."
 
 #: CRM/Tsys/Form/Refund.php
 msgid "%1 of payment approved"
-msgstr ""
+msgstr "%1 ödeme onaylandı"
 
 #: CRM/Tsys/Form/Refund.php
 msgid "%1 Approved"
-msgstr ""
+msgstr "%1 onaylandı"
 
 #: CRM/Tsys/Form/Refund.php
 msgid "Error Code %1, %2"
-msgstr ""
+msgstr "Hata kodu %1, %2"
 
 #: CRM/Tsys/Form/Refund.php
 msgid "%1 Failed"
-msgstr ""
+msgstr "%1 başarısız oldu"
 
 #: CRM/Tsys/Form/Refund.php
 msgid "%1 Response could not be found see logs for more details."
 msgstr ""
+"%1 yanıtı bulunamadı. Ayrıntılı bilgi almak için günlük kayıtlarına bakın."
 
 #: CRM/Tsys/Form/Settings/Device.php templates/CRM/Tsys/Form/Settings.tpl
 msgid "Device Name"
@@ -169,7 +179,7 @@ msgstr "Aygıtın IP adresi"
 
 #: CRM/Tsys/Form/Settings/Device.php
 msgid "Terminal ID for Device"
-msgstr "Aygıtın uçbirim kodu"
+msgstr "Aygıtın uçbirim kimliği"
 
 #: CRM/Tsys/Form/Settings/Device.php templates/CRM/Tsys/Form/Settings.tpl
 msgid "Payment Processor"
@@ -189,7 +199,7 @@ msgstr "Etkin"
 
 #: CRM/Tsys/Form/Settings/Device.php
 msgid "Device %2 (%1) created successfully"
-msgstr ""
+msgstr "%2 (%1) aygıtı oluşturuldu"
 
 #: CRM/Tsys/Form/Settings/Device.php
 msgid "Device Created"
@@ -201,7 +211,7 @@ msgstr "Aygıt oluşturulamadı: %1"
 
 #: CRM/Tsys/Form/Settings/Device.php
 msgid "Not saved because no valid device id was found."
-msgstr ""
+msgstr "Geçerli bir aygıt kimliği bulunamadığından kaydedilmedi."
 
 #: CRM/Tsys/Form/Settings.php
 msgid "more"
@@ -254,7 +264,8 @@ msgstr "Ödeme tutarı"
 #: CRM/Tsys/Recur.php
 msgid "no payment token found for recurring contribution in series id %1: "
 msgstr ""
-"%1 kodlu dizinin yinelenen katkısı için herhangi bir ödeme kodu bulunamadı:"
+"%1 kimlikli dizinin yinelenen katkısı için herhangi bir ödeme kodu "
+"bulunamadı:"
 
 #: CRM/Tsys/Recur.php
 msgid "No valid payment processor credentials found"
@@ -264,20 +275,22 @@ msgstr ""
 #: CRM/Tsys/Recur.php
 msgid "no Genius Credentials found for payment processor id: %1 "
 msgstr ""
+"Şu kimlikli ödeme aracısı için bir Genius kimlik doğrulama bilgisi "
+"bulunamadı: %1"
 
 #: CRM/Tsys/Recur.php
 #: tests/phpunit/CRM/Tsys/RecurringContributionsTsysTest.php
 msgid "Successfully processed recurring contribution in series id %1: "
-msgstr "%1 kodlu dizinin yinelenen katkısı sorunsuz alındı:"
+msgstr "%1 kimlikli dizinin yinelenen katkısı alındı:"
 
 #: CRM/Tsys/Recur.php
 #: tests/phpunit/CRM/Tsys/RecurringContributionsTsysTest.php
 msgid "Failed to process recurring contribution id %1: "
-msgstr "%1 kodlu dizinin yinelenen katkı alınamadı:"
+msgstr "%1 kimlikli dizinin yinelenen katkısı alınamadı:"
 
 #: CRM/Tsys/Recur.php
 msgid "Error saving payment token to database"
-msgstr "Ödeme kodu veritabanına kaydedilirken sorun çıktı"
+msgstr "Ödeme kodu veri tabanına kaydedilirken sorun çıktı"
 
 #: api/v3/Job/Tsysrecurringcontributions.php
 msgid "Failed to acquire lock. No contribution records were processed."
@@ -285,11 +298,11 @@ msgstr "Kilit açılamadı. Herhangi bir katkı kaydı yapılmadı."
 
 #: api/v3/Job/Tsysrecurringcontributions.php
 msgid "An error occurred while creating activity record for contact id %1: %2"
-msgstr "%1 kodlu kişi için işlem kaydı eklenirken bir sorun çıktı: %2"
+msgstr "%1 kimlikli kişi için işlem kaydı eklenirken bir sorun çıktı: %2"
 
 #: api/v3/Job/Tsysrecurringcontributions.php
 msgid "Created activity record for contact id %1"
-msgstr "%1 kodlu kişi için işlem kaydı eklendi"
+msgstr "%1 kimlikli kişi için işlem kaydı eklendi"
 
 #: api/v3/Job/Tsysrecurringcontributions.php
 msgid "Completed, but with %1 errors. %2 records processed."
@@ -313,7 +326,7 @@ msgstr "sayısal bir değer olmalıdır"
 
 #: templates/CRM/Contribute/Form/swipedevices.tpl
 msgid "Submit payment via "
-msgstr ""
+msgstr "Ödeme şununla yapılsın:"
 
 #: templates/CRM/Tsys/Form/Settings/Device.hlp
 msgid ""
@@ -321,6 +334,9 @@ msgid ""
 "href='https://docs.tsysmerchant.com/knowledge-base/faqs'>TSYS Knowledge Base"
 " FAQs</a>"
 msgstr ""
+"Aygıtın IP adresini bulmak için <a "
+"href='https://docs.tsysmerchant.com/knowledge-base/faqs'>TSYS bilgi bankası "
+"SSS</a> bölümüne bakın."
 
 #: templates/CRM/Tsys/Form/Settings/Device.hlp
 msgid ""
@@ -331,10 +347,16 @@ msgid ""
 "practices/mastercard-terminal-id-handling-best-practices\">MasterCard "
 "Terminal ID Handling Best Practices.</a>"
 msgstr ""
+"Terminal kimliği, terminali ödeme aracısına eşsiz bir şekilde tanımlamak "
+"için kullanılır. Terminal kimliğinde tüm sayısal karakterler bulunmalıdır. "
+"Kullanılması gereken TID değeri hakkında ayrıntılı bilgi almak için <a "
+"href=\"https://docs.tsysmerchant.com/knowledge-base/best-"
+"practices/mastercard-terminal-id-handling-best-practices\">MasterCard "
+"terminal kimliği kullanımında iyi örnekler</a> yazısına bakın"
 
 #: templates/CRM/Tsys/Form/Settings/Device.tpl
 msgid "This form is to enter information about a specific TSYS Device."
-msgstr ""
+msgstr "Bu form, belirli bir TSYS aygıtı hakkında bilgi eklemek içindir."
 
 #: templates/CRM/Tsys/Form/Settings.tpl
 msgid ""
@@ -342,10 +364,14 @@ msgid ""
 "accept credit card payments for more information visit: "
 "https://www.tsys.com/solutions/products-services/merchant/genius/ "
 msgstr ""
+"Aygıtları bu bölümden yapılandırın. Genius, kredi kartı ödemelerini almak "
+"için çeşitli aygıtlar sunar. Ayrıntılı bilgi almak için şuraya "
+"bakabilirsiniz: https://www.tsys.com/solutions/products-"
+"services/merchant/genius/"
 
 #: templates/CRM/Tsys/Form/Settings.tpl
 msgid "ID"
-msgstr "Kod"
+msgstr "Kimlik"
 
 #: templates/CRM/Tsys/Form/Settings.tpl
 msgid "IP Address"
@@ -353,7 +379,7 @@ msgstr "IP adresi"
 
 #: templates/CRM/Tsys/Form/Settings.tpl
 msgid "Terminal ID"
-msgstr "Uçbirim kodu"
+msgstr "Uçbirim kimliği"
 
 #: templates/CRM/Tsys/Form/Settings.tpl
 msgid "Add Device"
@@ -367,40 +393,48 @@ msgid ""
 "      credit card action button OR submit this form and then login to Genius to process\n"
 "      the refund."
 msgstr ""
+"Bu geri ödeme formunun gönderilmesi,\n"
+"      kullanıcıya geri ödeme yapılmasıyla SONUÇLANMAZ. Geri ödeme CiviCRM üzerinde kaydedilr.\n"
+"      Bu, bir Genius ödeme aracısı ile yapılan bir ödemeyse: kredi kartı işlemi düğmesini kullanarak \n"
+"      ödemeyi geri ödeyin YA DA bu formu gönderin ve ardından geri ödemeyi işlemek için Genius\n"
+"      üzerinde oturum açın."
 
 #: tsys.php
 msgid "Total Amount must be a positive number"
-msgstr ""
+msgstr "Toplam tutar pozitif bir sayı olmalı"
 
 #: tsys.php
 msgid "Please enter a valid IP address"
-msgstr ""
+msgstr "Lütfen geçerli bir IP adresi yazın."
 
 #: tsys.php
 msgid "%1 must be unique."
-msgstr ""
+msgstr "%1 eşsiz olmalıdır."
 
 #: tsys.php
 msgid "Terminal ID must be unique."
-msgstr ""
+msgstr "Terminal kimliği eşsiz olmalıdır."
 
 #: tsys.php
 msgid "This Terminal ID must be a number."
-msgstr ""
+msgstr "Bu terminal kimliği bir sayı olmalıdır."
 
 #: tsys.php
 msgid "This Terminal ID must be between 1 and 16 characters long."
-msgstr ""
+msgstr "Bu terminal kimliğinin uzunluğu 1 ile 16 karakter arasında olmalıdır."
 
 #: tsys.php
 msgid ""
 "The Genius Credentials for Payment Processor ID %1 are incorrect please "
 "update them <a href=%2>here</a>."
 msgstr ""
+"%1 kimlikli ödeme aracısı için Genius kimlik doğrulama bilgileri yanlış. "
+"Lütfen <a href=%2>buradan</a> güncelleyin."
 
 #: tsys.php
 msgid "Invalid Genius Credentials for Payment Processor ID: %1"
 msgstr ""
+"Ödeme aracısı kimliği için Genius kimlik doğrulama bilgileri geçersiz: %1"
 
 #: tsys.php
 msgid ""
@@ -415,7 +449,7 @@ msgstr ""
 
 #: tsys.php
 msgid "Uncompleted Recurring Genius Contributions Found"
-msgstr ""
+msgstr "Tamamlanmamış Genius katkıları bulundu"
 
 #: tsys.php
 msgid "Genius Settings"
@@ -423,4 +457,4 @@ msgstr "Genius ayarları"
 
 #: tsys.php
 msgid "Submit Credit Card Contribution Via Device"
-msgstr ""
+msgstr "Aygıt ile kredi kartı katkısı gönderme"
