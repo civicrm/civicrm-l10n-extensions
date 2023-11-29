@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: flexiblejobs\n"
 "POT-Creation-Date: 2018-02-06 17:42+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2023\n"
-"Language-Team: Turkish (https://www.transifex.com/civicrm/teams/1905/tr/)\n"
+"Language-Team: Turkish (https://app.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: CRM/Admin/Form/Job.php
 msgid "Manage - Scheduled Jobs"
-msgstr ""
+msgstr "Yönetim - Zamanlanmış görevler"
 
 #: CRM/Admin/Form/Job.php
 msgid "Name"
@@ -28,7 +28,7 @@ msgstr "Ad"
 
 #: CRM/Admin/Form/Job.php
 msgid "Name already exists in Database."
-msgstr ""
+msgstr "Ad veri tabanında zaten var."
 
 #: CRM/Admin/Form/Job.php
 msgid "Description"
@@ -36,31 +36,31 @@ msgstr "Açıklama"
 
 #: CRM/Admin/Form/Job.php
 msgid "API Call Entity"
-msgstr ""
+msgstr "API çağrı varlığı"
 
 #: CRM/Admin/Form/Job.php
 msgid "API Call Action"
-msgstr ""
+msgstr "API çağrı işlemi"
 
 #: CRM/Admin/Form/Job.php
 msgid "Run frequency"
-msgstr ""
+msgstr "Yürütülme sıklığı"
 
 #: CRM/Admin/Form/Job.php
 msgid "Command parameters"
-msgstr ""
+msgstr "Komut parametreleri"
 
 #: CRM/Admin/Form/Job.php
 msgid "Is this Scheduled Job active?"
-msgstr ""
+msgstr "Bu zamanlanmış görev etkin mi?"
 
 #: CRM/Admin/Form/Job.php
 msgid "Given API command is not defined."
-msgstr ""
+msgstr "Belirtilen API komutu tanımlanmamış."
 
 #: CRM/Admin/Form/Job.php
 msgid "Scheduled Job Deleted."
-msgstr ""
+msgstr "Zamanlanmış görev silindi."
 
 #: CRM/Admin/Form/Job.php
 msgid ""
@@ -69,6 +69,10 @@ msgid ""
 "              For example, if a job is scheduled to run on August 31st, the following invocation will occur on October 1st, and then the 1st of every month thereafter.\n"
 "              To avoid this issue, please schedule Monthly and Quarterly jobs to run within the first 28 days of the month."
 msgstr ""
+"Göreli ay değerleri, geçtikleri ayların uzunluğuna göre hesaplanır.\n"
+"              Sonuç, hedef ayın bir önceki aya göre daha az gün içerdiği 29-31. günleri dışında, ayın aynı gününde gelir.\n"
+"              Örneğin, bir görev 31 Ağustos gününde yürütülecek şekilde zamanlanmışsa, aşağıdaki çağrı 1 Ekim tarihinde ve ardından her ayın 1. gününde yapılır.\n"
+"              Bu sorunu önlemek için lütfen Aylık ve Üç Aylık işleri ayın ilk 28 günü içinde çalışacak şekilde zamanlayın."
 
 #: CRM/Admin/Form/Job.php
 msgid "Warning"
@@ -83,10 +87,16 @@ msgid ""
 "force=0, will only rebuild greetings for contacts that do not currently have"
 " a value stored. %1"
 msgstr ""
+"Karşılama güncelleme görevi çok kaynak gerektirebilir ve genellikle düzenli "
+"olarak yürütülmesi gerekli değildir. Görevi etkinleştirmeyi seçerseniz, tüm "
+"kayıtlarda karşılamaları yeniden oluşturacak olan force=1 seçeneğiyle "
+"yürütmemenizi öneririz. Bu seçeneğin boş bırakılması veya force=0 olarak "
+"ayarlanması, yalnızca şu anda kaydedilmiş bir değeri olmayan kişiler için "
+"karşılamaları yeniden oluşturur. %1"
 
 #: CRM/Admin/Form/Job.php
 msgid "Warning: Update Greeting job enabled"
-msgstr ""
+msgstr "Uyarı: Karşılama güncelleme görevi etkin"
 
 #: CRM/Core/SelectValues.php
 msgid "Yes"
@@ -98,11 +108,11 @@ msgstr "Hayır"
 
 #: CRM/Core/SelectValues.php
 msgid "Both"
-msgstr ""
+msgstr "İkisi de"
 
 #: CRM/Core/SelectValues.php
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 #: CRM/Core/SelectValues.php
 msgid "Text"
@@ -110,51 +120,51 @@ msgstr "Metin"
 
 #: CRM/Core/SelectValues.php
 msgid "Do not phone"
-msgstr ""
+msgstr "Telefon edilmesin"
 
 #: CRM/Core/SelectValues.php
 msgid "Do not email"
-msgstr ""
+msgstr "E-posta gönderilmesin"
 
 #: CRM/Core/SelectValues.php
 msgid "Do not mail"
-msgstr ""
+msgstr "Posta gönderilmesin"
 
 #: CRM/Core/SelectValues.php
 msgid "Do not sms"
-msgstr ""
+msgstr "SMS gönderilmesin"
 
 #: CRM/Core/SelectValues.php
 msgid "Do not trade"
-msgstr ""
+msgstr "Bilgileri paylaşılmayacak"
 
 #: CRM/Core/SelectValues.php
 msgid "No bulk emails (User Opt Out)"
-msgstr ""
+msgstr "Toplu e-posta gönderilmeyecek (kullanıcı abonelikten ayrıldı)"
 
 #: CRM/Core/SelectValues.php
 msgid "day"
-msgstr ""
+msgstr "gün"
 
 #: CRM/Core/SelectValues.php
 msgid "month"
-msgstr ""
+msgstr "ay"
 
 #: CRM/Core/SelectValues.php
 msgid "year"
-msgstr ""
+msgstr "yıl"
 
 #: CRM/Core/SelectValues.php
 msgid "lifetime"
-msgstr ""
+msgstr "ömür boyu"
 
 #: CRM/Core/SelectValues.php
 msgid "Rolling"
-msgstr ""
+msgstr "Serbest"
 
 #: CRM/Core/SelectValues.php
 msgid "Fixed"
-msgstr ""
+msgstr "Sabit"
 
 #: CRM/Core/SelectValues.php
 msgid "Automatic"
@@ -162,19 +172,19 @@ msgstr "Otomatik"
 
 #: CRM/Core/SelectValues.php
 msgid "Only send to email addresses assigned to the specified location"
-msgstr ""
+msgstr "Yalnızca belirtilmiş konuma atanmış e-posta adreslerine gönderilsin"
 
 #: CRM/Core/SelectValues.php
 msgid "Prefer email addresses assigned to the specified location"
-msgstr ""
+msgstr "Belirtilmiş konuma atanmış e-posta adreslerine gönderilmesi yeğlensin"
 
 #: CRM/Core/SelectValues.php
 msgid "Exclude email addresses assigned to the specified location"
-msgstr ""
+msgstr "Belirtilmiş konuma atanmış e-posta adresleri katılmasın"
 
 #: CRM/Core/SelectValues.php
 msgid "Public"
-msgstr ""
+msgstr "Herkese açık"
 
 #: CRM/Core/SelectValues.php
 msgid "Admin"
@@ -182,51 +192,51 @@ msgstr "Yönetim"
 
 #: CRM/Core/SelectValues.php
 msgid "No auto-renew option"
-msgstr ""
+msgstr "Otomatik yenileme seçeneği yok"
 
 #: CRM/Core/SelectValues.php
 msgid "Give option, but not required"
-msgstr ""
+msgstr "Seçenek sunulsun, ancak zorunlu olmasın"
 
 #: CRM/Core/SelectValues.php
 msgid "Auto-renew required"
-msgstr ""
+msgstr "Otomatik yenileme zorunlu olsun"
 
 #: CRM/Core/SelectValues.php
 msgid "start date"
-msgstr ""
+msgstr "Başlangıç tarihi"
 
 #: CRM/Core/SelectValues.php
 msgid "end date"
-msgstr ""
+msgstr "Bitiş tarihi"
 
 #: CRM/Core/SelectValues.php
 msgid "member since"
-msgstr ""
+msgstr "Üyelik başlangıcı"
 
 #: CRM/Core/SelectValues.php
 msgid "Single-line input field (text or numeric)"
-msgstr ""
+msgstr "Tek satırlı giriş alanı (metin ya da sayısal)"
 
 #: CRM/Core/SelectValues.php
 msgid "Multi-line text box (textarea)"
-msgstr ""
+msgstr "Çok satırlı metin alanı (metin alanı)"
 
 #: CRM/Core/SelectValues.php
 msgid "Drop-down (select list)"
-msgstr ""
+msgstr "Açılan kutu (seçim listesi)"
 
 #: CRM/Core/SelectValues.php
 msgid "Radio buttons"
-msgstr ""
+msgstr "Radyo düğmeleri"
 
 #: CRM/Core/SelectValues.php
 msgid "Checkbox(es)"
-msgstr ""
+msgstr "İşaret kutuları"
 
 #: CRM/Core/SelectValues.php
 msgid "Select Date"
-msgstr ""
+msgstr "Tarih seçin"
 
 #: CRM/Core/SelectValues.php
 msgid "File"
@@ -234,35 +244,35 @@ msgstr "Dosya"
 
 #: CRM/Core/SelectValues.php
 msgid "Select State/Province"
-msgstr ""
+msgstr "İl ya da bölge seçin"
 
 #: CRM/Core/SelectValues.php
 msgid "Multi-Select State/Province"
-msgstr ""
+msgstr "Birkaç il ya da bölge seçimi"
 
 #: CRM/Core/SelectValues.php
 msgid "Select Country"
-msgstr ""
+msgstr "Ülke seçin"
 
 #: CRM/Core/SelectValues.php
 msgid "Multi-Select Country"
-msgstr ""
+msgstr "Birkaç ülke seçin"
 
 #: CRM/Core/SelectValues.php
 msgid "Rich Text Editor"
-msgstr ""
+msgstr "Zengin metin düzenleyici"
 
 #: CRM/Core/SelectValues.php
 msgid "Autocomplete-Select"
-msgstr ""
+msgstr "Otomatik tamamlamalı seçim"
 
 #: CRM/Core/SelectValues.php
 msgid "Multi-Select"
-msgstr ""
+msgstr "Birkaç seçim"
 
 #: CRM/Core/SelectValues.php
 msgid "AdvMulti-Select"
-msgstr ""
+msgstr "Gelişmiş birkaç seçim"
 
 #: CRM/Core/SelectValues.php
 msgid "Link"
@@ -270,7 +280,7 @@ msgstr "Bağlantı"
 
 #: CRM/Core/SelectValues.php
 msgid "Activities"
-msgstr ""
+msgstr "İşlemler"
 
 #: CRM/Core/SelectValues.php
 msgid "Relationships"
@@ -278,7 +288,7 @@ msgstr "İlişkiler"
 
 #: CRM/Core/SelectValues.php
 msgid "Contributions"
-msgstr ""
+msgstr "Katkılar"
 
 #: CRM/Core/SelectValues.php
 msgid "Groups"
@@ -286,75 +296,75 @@ msgstr "Gruplar"
 
 #: CRM/Core/SelectValues.php
 msgid "Memberships"
-msgstr ""
+msgstr "Üyelikler"
 
 #: CRM/Core/SelectValues.php
 msgid "Events"
-msgstr ""
+msgstr "Etkinlikler"
 
 #: CRM/Core/SelectValues.php
 msgid "Participants"
-msgstr ""
+msgstr "Katılımcılar"
 
 #: CRM/Core/SelectValues.php
 msgid "Participants (Role)"
-msgstr ""
+msgstr "Katılımcılar (rol)"
 
 #: CRM/Core/SelectValues.php
 msgid "Participants (Event Name)"
-msgstr ""
+msgstr "Katılımcılar (etkinlik adı)"
 
 #: CRM/Core/SelectValues.php
 msgid "Participants (Event Type)"
-msgstr ""
+msgstr "Katılımcılar (etkinlik türü)"
 
 #: CRM/Core/SelectValues.php
 msgid "Pledges"
-msgstr ""
+msgstr "Söz verilmiş ödemeler"
 
 #: CRM/Core/SelectValues.php
 msgid "Grants"
-msgstr ""
+msgstr "Bağışlar"
 
 #: CRM/Core/SelectValues.php
 msgid "Addresses"
-msgstr ""
+msgstr "Adresler"
 
 #: CRM/Core/SelectValues.php
 msgid "Campaigns"
-msgstr ""
+msgstr "Kampanyalar"
 
 #: CRM/Core/SelectValues.php
 msgid "Tab"
-msgstr ""
+msgstr "Sekme"
 
 #: CRM/Core/SelectValues.php
 msgid "Inline"
-msgstr ""
+msgstr "Satır arası"
 
 #: CRM/Core/SelectValues.php
 msgid "Tab with table"
-msgstr ""
+msgstr "Tablo ile sekme"
 
 #: CRM/Core/SelectValues.php
 msgid "Standalone Form or Directory"
-msgstr ""
+msgstr "Bağımsız form ya da dizin"
 
 #: CRM/Core/SelectValues.php
 msgid "Search Views"
-msgstr ""
+msgstr "Arama görünümleri"
 
 #: CRM/Core/SelectValues.php
 msgid "Drupal User Registration"
-msgstr ""
+msgstr "Drupal kullanıcı kaydı"
 
 #: CRM/Core/SelectValues.php
 msgid "View/Edit Drupal User Account"
-msgstr ""
+msgstr "Drupal kullanıcı hesabını görüntüle ya da düzenle"
 
 #: CRM/Core/SelectValues.php
 msgid "Added"
-msgstr ""
+msgstr "Eklendi"
 
 #: CRM/Core/SelectValues.php
 msgid "Removed"
@@ -366,11 +376,11 @@ msgstr "Bekliyor"
 
 #: CRM/Core/SelectValues.php
 msgid "Dynamic"
-msgstr ""
+msgstr "Devingen"
 
 #: CRM/Core/SelectValues.php
 msgid "Static"
-msgstr ""
+msgstr "Durağan"
 
 #: CRM/Core/SelectValues.php
 msgid "- select -"
@@ -378,15 +388,15 @@ msgstr "- Seçin -"
 
 #: CRM/Core/SelectValues.php
 msgid "User and User Admin Only"
-msgstr ""
+msgstr "Yalnızca kullanıcı ve kullanıcı yöneticisi"
 
 #: CRM/Core/SelectValues.php
 msgid "Public Pages"
-msgstr ""
+msgstr "Herkese açık sayfalar"
 
 #: CRM/Core/SelectValues.php
 msgid "Public Pages and Listings"
-msgstr ""
+msgstr "Herkese açık sayfalar ve listeler"
 
 #: CRM/Core/SelectValues.php
 msgid "Header"
@@ -394,115 +404,115 @@ msgstr "Üst bilgi"
 
 #: CRM/Core/SelectValues.php
 msgid "Footer"
-msgstr ""
+msgstr "Alt bilgi"
 
 #: CRM/Core/SelectValues.php
 msgid "Reply Auto-responder"
-msgstr ""
+msgstr "Yanıt otomatik yanıtlayıcı"
 
 #: CRM/Core/SelectValues.php
 msgid "Opt-out Message"
-msgstr ""
+msgstr "Tüm aboneliklerden ayrılma iletisi"
 
 #: CRM/Core/SelectValues.php
 msgid "Subscription Confirmation Request"
-msgstr ""
+msgstr "Abonelik onayı isteği"
 
 #: CRM/Core/SelectValues.php
 msgid "Welcome Message"
-msgstr ""
+msgstr "Karşılama iletisi"
 
 #: CRM/Core/SelectValues.php
 msgid "Unsubscribe Message"
-msgstr ""
+msgstr "Abonelikten ayrılma iletisi"
 
 #: CRM/Core/SelectValues.php
 msgid "Resubscribe Message"
-msgstr ""
+msgstr "Yeniden abone olma iletisi"
 
 #: CRM/Core/SelectValues.php
 msgid "Unsubscribe via email"
-msgstr ""
+msgstr "E-posta ile abonelik ayrılma"
 
 #: CRM/Core/SelectValues.php
 msgid "Unsubscribe via web page"
-msgstr ""
+msgstr "Site sayfası ile abonelikten ayrılma"
 
 #: CRM/Core/SelectValues.php
 msgid "Resubscribe via email"
-msgstr ""
+msgstr "E-posta ile yeniden abone olma"
 
 #: CRM/Core/SelectValues.php
 msgid "Resubscribe via web page"
-msgstr ""
+msgstr "Site sayfası ile yeniden abone olma"
 
 #: CRM/Core/SelectValues.php
 msgid "Opt out via email"
-msgstr ""
+msgstr "E-posta ile tüm aboneliklerden ayrılma"
 
 #: CRM/Core/SelectValues.php
 msgid "Opt out via web page"
-msgstr ""
+msgstr "Site sayfası ile tüm aboneliklerden ayrılma"
 
 #: CRM/Core/SelectValues.php
 msgid "Forward this email (link)"
-msgstr ""
+msgstr "Bu e-postayı iletme (bağlantı)"
 
 #: CRM/Core/SelectValues.php
 msgid "Reply to this email (link)"
-msgstr ""
+msgstr "Bu e-postayı yanıtlama (bağlantı)"
 
 #: CRM/Core/SelectValues.php
 msgid "Subscribe via web page"
-msgstr ""
+msgstr "Site sayfası ile abone olma"
 
 #: CRM/Core/SelectValues.php
 msgid "Domain name"
-msgstr ""
+msgstr "Etki alanı adı"
 
 #: CRM/Core/SelectValues.php
 msgid "Domain (organization) address"
-msgstr ""
+msgstr "Etki alanı (kuruluş) adresi"
 
 #: CRM/Core/SelectValues.php
 msgid "Domain (organization) phone"
-msgstr ""
+msgstr "Etki alanı (kuruluş) telefonu"
 
 #: CRM/Core/SelectValues.php
 msgid "Domain (organization) email"
-msgstr ""
+msgstr "Etki alanı (kuruluş) e-posta adresi"
 
 #: CRM/Core/SelectValues.php
 msgid "Mailing name"
-msgstr ""
+msgstr "Postalama adı"
 
 #: CRM/Core/SelectValues.php
 msgid "Mailing group"
-msgstr ""
+msgstr "Postalama grubu"
 
 #: CRM/Core/SelectValues.php
 msgid "Mailing permalink"
-msgstr ""
+msgstr "Postalama kalıcı bağlantısı"
 
 #: CRM/Core/SelectValues.php
 msgid "Activity ID"
-msgstr ""
+msgstr "İşlem kimliği"
 
 #: CRM/Core/SelectValues.php
 msgid "Activity Subject"
-msgstr "İşlem Konusu"
+msgstr "İşlem konusu"
 
 #: CRM/Core/SelectValues.php
 msgid "Activity Details"
-msgstr ""
+msgstr "İşlem ayrıntıları"
 
 #: CRM/Core/SelectValues.php
 msgid "Activity Date Time"
-msgstr ""
+msgstr "İşlem tarihi ve saati"
 
 #: CRM/Core/SelectValues.php
 msgid "Membership ID"
-msgstr ""
+msgstr "Üyelik kimliği"
 
 #: CRM/Core/SelectValues.php
 msgid "Membership Status"
@@ -514,23 +524,23 @@ msgstr "Üyelik türü"
 
 #: CRM/Core/SelectValues.php
 msgid "Membership Start Date"
-msgstr ""
+msgstr "Üyelik başlangıç tarihi"
 
 #: CRM/Core/SelectValues.php
 msgid "Membership Join Date"
-msgstr ""
+msgstr "Üye olma tarihi"
 
 #: CRM/Core/SelectValues.php
 msgid "Membership End Date"
-msgstr ""
+msgstr "Üyelik bitiş tarihi"
 
 #: CRM/Core/SelectValues.php
 msgid "Membership Fee"
-msgstr ""
+msgstr "Üyelik ücreti"
 
 #: CRM/Core/SelectValues.php
 msgid "Event ID"
-msgstr ""
+msgstr "Etkinlik kimliği"
 
 #: CRM/Core/SelectValues.php
 msgid "Event Title"
@@ -542,7 +552,7 @@ msgstr "Etkinlik başlangıç tarihi"
 
 #: CRM/Core/SelectValues.php
 msgid "Event End Date"
-msgstr ""
+msgstr "Etkinlik bitiş tarihi"
 
 #: CRM/Core/SelectValues.php
 msgid "Event Type"
@@ -550,15 +560,15 @@ msgstr "Etkinlik türü"
 
 #: CRM/Core/SelectValues.php
 msgid "Event Summary"
-msgstr ""
+msgstr "Etkinlik özeti"
 
 #: CRM/Core/SelectValues.php
 msgid "Event Contact Email"
-msgstr ""
+msgstr "Etkinlik sorumlusu e-posta adresi"
 
 #: CRM/Core/SelectValues.php
 msgid "Event Contact Phone"
-msgstr ""
+msgstr "Etkinlik sorumlusu telefon numarası"
 
 #: CRM/Core/SelectValues.php
 msgid "Event Description"
@@ -570,23 +580,23 @@ msgstr "Etkinlik konumu"
 
 #: CRM/Core/SelectValues.php
 msgid "Event Fees"
-msgstr ""
+msgstr "Etkinlik ücretleri"
 
 #: CRM/Core/SelectValues.php
 msgid "Event Info URL"
-msgstr ""
+msgstr "Etkinlik bilgileri adresi"
 
 #: CRM/Core/SelectValues.php
 msgid "Event Registration URL"
-msgstr ""
+msgstr "Etkinlik kaydı adresi"
 
 #: CRM/Core/SelectValues.php
 msgid "Event Balance"
-msgstr ""
+msgstr "Etkinlik bakiyesi"
 
 #: CRM/Core/SelectValues.php
 msgid "Contribution ID"
-msgstr "Katkı kodu"
+msgstr "Katkı kimliği"
 
 #: CRM/Core/SelectValues.php
 msgid "Total Amount"
@@ -594,31 +604,31 @@ msgstr "Toplam tutar"
 
 #: CRM/Core/SelectValues.php
 msgid "Fee Amount"
-msgstr ""
+msgstr "Ücret tutarı"
 
 #: CRM/Core/SelectValues.php
 msgid "Net Amount"
-msgstr ""
+msgstr "Net tutar"
 
 #: CRM/Core/SelectValues.php
 msgid "Non-deductible Amount"
-msgstr ""
+msgstr "Vergiden düşülemeyecek tutar"
 
 #: CRM/Core/SelectValues.php
 msgid "Contribution Receive Date"
-msgstr ""
+msgstr "Katkının alındığı tarih"
 
 #: CRM/Core/SelectValues.php
 msgid "Payment Instrument"
-msgstr ""
+msgstr "Ödeme aracı"
 
 #: CRM/Core/SelectValues.php
 msgid "Transaction ID"
-msgstr ""
+msgstr "Hesap hareketi kimliği"
 
 #: CRM/Core/SelectValues.php
 msgid "Invoice ID"
-msgstr ""
+msgstr "Fatura kimliği"
 
 #: CRM/Core/SelectValues.php
 msgid "Currency"
@@ -626,131 +636,131 @@ msgstr "Para birimi"
 
 #: CRM/Core/SelectValues.php
 msgid "Contribution Cancel Date"
-msgstr ""
+msgstr "Katkı iptal tarihi"
 
 #: CRM/Core/SelectValues.php
 msgid "Contribution Cancel Reason"
-msgstr ""
+msgstr "Katkı iptal nedeni"
 
 #: CRM/Core/SelectValues.php
 msgid "Receipt Date"
-msgstr ""
+msgstr "Alındı tarihi"
 
 #: CRM/Core/SelectValues.php
 msgid "Thank You Date"
-msgstr ""
+msgstr "Teşekkür tarihi"
 
 #: CRM/Core/SelectValues.php
 msgid "Contribution Source"
-msgstr ""
+msgstr "Katkı kaynağı"
 
 #: CRM/Core/SelectValues.php
 msgid "Amount Level"
-msgstr ""
+msgstr "Tutar düzeyi"
 
 #: CRM/Core/SelectValues.php
 msgid "Contribution Status"
-msgstr ""
+msgstr "Katkı durumu"
 
 #: CRM/Core/SelectValues.php
 msgid "Check Number"
-msgstr ""
+msgstr "Çek numarası"
 
 #: CRM/Core/SelectValues.php
 msgid "Contribution Campaign"
-msgstr ""
+msgstr "Katkı kampanyası"
 
 #: CRM/Core/SelectValues.php
 msgid "Checksum"
-msgstr ""
+msgstr "Sağlama"
 
 #: CRM/Core/SelectValues.php
 msgid "Internal Contact ID"
-msgstr ""
+msgstr "İç kişi kimliği"
 
 #: CRM/Core/SelectValues.php
 msgid "mm/dd/yyyy (12/31/2009)"
-msgstr ""
+msgstr "mm/dd/yyyy (12/31/2009)"
 
 #: CRM/Core/SelectValues.php
 msgid "dd/mm/yyyy (31/12/2009)"
-msgstr ""
+msgstr "dd/mm/yyyy (31/12/2009)"
 
 #: CRM/Core/SelectValues.php
 msgid "yyyy-mm-dd (2009-12-31)"
-msgstr ""
+msgstr "yyyy-mm-dd (2009-12-31)"
 
 #: CRM/Core/SelectValues.php
 msgid "dd-mm-yyyy (31-12-2009)"
-msgstr ""
+msgstr "dd-mm-yyyy (31-12-2009)"
 
 #: CRM/Core/SelectValues.php
 msgid "dd.mm.yyyy (31.12.2009)"
-msgstr ""
+msgstr "dd.mm.yyyy (31.12.2009)"
 
 #: CRM/Core/SelectValues.php
 msgid "M d, yyyy (Dec 31, 2009)"
-msgstr ""
+msgstr "M d, yyyy (Ara 31, 2009)"
 
 #: CRM/Core/SelectValues.php
 msgid "d M yyyy (31 Dec 2009)"
-msgstr ""
+msgstr "d M yyyy (31 Ara 2009)"
 
 #: CRM/Core/SelectValues.php
 msgid "MM d, yyyy (December 31, 2009)"
-msgstr ""
+msgstr "MM d, yyyy (Aralık 31, 2009)"
 
 #: CRM/Core/SelectValues.php
 msgid "d MM yyyy (31 December 2009)"
-msgstr ""
+msgstr "d MM yyyy (31 Aralık 2009)"
 
 #: CRM/Core/SelectValues.php
 msgid "DD, d MM yyyy (Thursday, 31 December 2009)"
-msgstr ""
+msgstr "DD, d MM yyyy (Perşembe, 31 Aralık 2009)"
 
 #: CRM/Core/SelectValues.php
 msgid "mm/dd (12/31)"
-msgstr ""
+msgstr "mm/dd (12/31)"
 
 #: CRM/Core/SelectValues.php
 msgid "dd-mm (31-12)"
-msgstr ""
+msgstr "dd-mm (31-12)"
 
 #: CRM/Core/SelectValues.php
 msgid "yyyy-mm (2009-12)"
-msgstr ""
+msgstr "yyyy-mm (2009-12)"
 
 #: CRM/Core/SelectValues.php
 msgid "M yyyy (Dec 2009)"
-msgstr ""
+msgstr "M yyyy (Ara 2009)"
 
 #: CRM/Core/SelectValues.php
 msgid "yyyy (2009)"
-msgstr ""
+msgstr "yyyy (2009)"
 
 #: CRM/Core/SelectValues.php
 msgid "12 Hours"
-msgstr ""
+msgstr "12 saat"
 
 #: CRM/Core/SelectValues.php
 msgid "24 Hours"
-msgstr ""
+msgstr "24 saat"
 
 #: CRM/Core/SelectValues.php
 msgid "Linear (1D)"
-msgstr ""
+msgstr "Doğrusal (1B)"
 
 #: CRM/Core/SelectValues.php
 msgid "QR code"
-msgstr ""
+msgstr "QR kodu"
 
 #: CRM/Core/SelectValues.php
 msgid "Unsupervised"
-msgstr ""
+msgstr "Yönetilmeyen"
 
 #: CRM/Core/SelectValues.php
 msgid "Supervised"
-msgstr ""
+msgstr "Yönetilen"
 
 #: CRM/Core/SelectValues.php
 msgid "General"
@@ -758,7 +768,7 @@ msgstr "Genel"
 
 #: CRM/Core/SelectValues.php
 msgid "Include"
-msgstr ""
+msgstr "Katılsın"
 
 #: CRM/Core/SelectValues.php
 msgid "Exclude"
@@ -770,7 +780,7 @@ msgstr "E-posta"
 
 #: CRM/Core/SelectValues.php
 msgid "Web"
-msgstr ""
+msgstr "Site"
 
 #: CRM/Core/SelectValues.php
 msgid "API"
@@ -794,7 +804,7 @@ msgstr "Yıl"
 
 #: CRM/Core/SelectValues.php
 msgid "Payment"
-msgstr ""
+msgstr "Ödeme"
 
 #: CRM/Core/SelectValues.php
 msgid "Search"
@@ -806,11 +816,11 @@ msgstr "Rapor"
 
 #: CRM/Core/SelectValues.php
 msgid "Module"
-msgstr ""
+msgstr "Modül"
 
 #: CRM/Core/SelectValues.php
 msgid "SMS"
-msgstr ""
+msgstr "SMS"
 
 #: CRM/Core/SelectValues.php
 msgid "Yearly"
@@ -818,7 +828,7 @@ msgstr "Yıllık"
 
 #: CRM/Core/SelectValues.php
 msgid "Quarterly"
-msgstr ""
+msgstr "3 aylık"
 
 #: CRM/Core/SelectValues.php
 msgid "Monthly"
@@ -834,23 +844,23 @@ msgstr "Günlük"
 
 #: CRM/Core/SelectValues.php
 msgid "Hourly"
-msgstr ""
+msgstr "Saatlik"
 
 #: CRM/Core/SelectValues.php
 msgid "Every time cron job is run"
-msgstr ""
+msgstr "Zamanlanmış görev her yürütüldüğünde"
 
 #: CRM/Core/SelectValues.php
 msgid "In"
-msgstr ""
+msgstr "İçinde şu olan"
 
 #: CRM/Core/SelectValues.php
 msgid "Not In"
-msgstr ""
+msgstr "İçinde şu olmayan"
 
 #: CRM/Core/SelectValues.php
 msgid "Like"
-msgstr ""
+msgstr "Şuna benzeyen"
 
 #: CRM/Core/SelectValues.php
 msgid "Not Like"
@@ -858,7 +868,7 @@ msgstr "Şuna benzemeyen"
 
 #: CRM/Core/SelectValues.php
 msgid "Regex"
-msgstr ""
+msgstr "Kurallı ifade"
 
 #: CRM/Core/SelectValues.php
 msgid "Is Empty"
@@ -870,106 +880,112 @@ msgstr "Boş olmayan"
 
 #: CRM/Core/SelectValues.php
 msgid "Is Null"
-msgstr ""
+msgstr "Null olan"
 
 #: CRM/Core/SelectValues.php
 msgid "Not Null"
-msgstr ""
+msgstr "Null olmayan"
 
 #: CRM/Core/SelectValues.php
 msgid "Exact Match"
-msgstr ""
+msgstr "Tam eşleşme"
 
 #: CRM/Core/SelectValues.php
 msgid "Wildcard Match"
-msgstr ""
+msgstr "Arama karakteri ile eşleşme"
 
 #: CRM/Core/SelectValues.php
 msgid "Base"
-msgstr ""
+msgstr "Temel"
 
 #: CRM/Core/SelectValues.php
 msgid "Scheduled"
-msgstr ""
+msgstr "Zamanlanmış"
 
 #: CRM/Core/SelectValues.php
 msgid "Running"
-msgstr ""
+msgstr "Yürütülüyor"
 
 #: CRM/Core/SelectValues.php
 msgid "Complete"
-msgstr ""
+msgstr "Tamamlandı"
 
 #: CRM/Core/SelectValues.php
 msgid "Paused"
-msgstr ""
+msgstr "Duraklatılmış"
 
 #: CRM/Core/SelectValues.php
 msgid "Canceled"
-msgstr ""
+msgstr "İptal edilmiş"
 
 #: CRM/Core/SelectValues.php
 msgid "hour"
 msgid_plural "hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "saat"
+msgstr[1] "saat"
 
 #: CRM/Core/SelectValues.php
 msgid "week"
 msgid_plural "weeks"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "hafta"
+msgstr[1] "hafta"
 
 #: templates/CRM/Admin/Form/Job.tpl
 msgid "New Scheduled Job"
-msgstr ""
+msgstr "Yeni zamanlanmış görev"
 
 #: templates/CRM/Admin/Form/Job.tpl
 msgid "Edit Scheduled Job"
-msgstr ""
+msgstr "Zamanlanmış görevi düzenle"
 
 #: templates/CRM/Admin/Form/Job.tpl
 msgid "Execute Scheduled Job"
-msgstr ""
+msgstr "Zamanlanmış görevi yürüt"
 
 #: templates/CRM/Admin/Form/Job.tpl
 msgid "Delete Scheduled Job"
-msgstr ""
+msgstr "Zamanlanmış görevi sil"
 
 #: templates/CRM/Admin/Form/Job.tpl
 msgid ""
 "WARNING: Deleting this Scheduled Job will cause some important site "
 "functionality to stop working."
 msgstr ""
+"UYARI: Bu zamanlanmış görevin silinmesi, bazı önemli site işlevlerinin "
+"çalışmamasına neden olur."
 
 #: templates/CRM/Admin/Form/Job.tpl
 msgid "Do you want to continue?"
-msgstr ""
+msgstr "İlerlemek ister misiniz?"
 
 #: templates/CRM/Admin/Form/Job.tpl
 msgid "Are you sure you would like to execute this job?"
-msgstr ""
+msgstr "Bu görevi yürütmek istediğinize emin misiniz?"
 
 #: templates/CRM/Admin/Form/Job.tpl
 msgid "API call:"
-msgstr ""
+msgstr "API çağrısı:"
 
 #: templates/CRM/Admin/Form/Job.tpl
 msgid ""
 "Put in the API method name. You need to enter pieces of full API function "
 "name as described in the documentation."
 msgstr ""
+"API yönteminin adını yazın. Belgelerde açıklandığı gibi tam API işlevi "
+"adının parçalarını yazmanız gerekir."
 
 #: templates/CRM/Admin/Form/Job.tpl
 msgid ""
 "Do not run this job before this date / time. The run frequency selected "
 "above will apply thereafter."
 msgstr ""
+"Bu görev bu tarih ve saatten önce çalıştırmasın. Bundan sonra yukarıda "
+"belirtilen çalıştırma sıklığı geçerli olur."
 
 #: templates/CRM/Admin/Form/Job.tpl
 msgid "Leave blank to run as soon as possible."
-msgstr ""
+msgstr "En kısa sürede yürütülmesi için boş bırakın."
 
 #: templates/CRM/Admin/Form/Job.tpl
 msgid "Leave blank to run at next run frequency."
-msgstr ""
+msgstr "Sonraki çalışma sıklığında yürütülmesi için boş bırakın."
