@@ -6,15 +6,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2021-05-11 05:01+0000\n"
-"PO-Revision-Date: 2022-02-24 12:38+0000\n"
-"Last-Translator: Mathieu Lu <mathieu@bidon.ca>\n"
-"Language-Team: French (Canada) (http://www.transifex.com/civicrm/civicrm_extensions/language/fr_CA/)\n"
+"POT-Creation-Date: 2023-02-08 05:01+0000\n"
+"PO-Revision-Date: 2015-02-05 15:17+0000\n"
+"Language-Team: French (Canada) (http://app.transifex.com/civicrm/civicrm_extensions/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: CRM/Sumfields/Form/SumFields.php
 msgid ""
@@ -68,13 +67,13 @@ msgstr "Types d'opération"
 msgid ""
 "Financial types to include when calculating contribution related summary "
 "fields."
-msgstr ""
+msgstr "Types d'opérations comptables à inclure quand on calcule les champs de synthèse (summary fields) liées aux contributions"
 
 #: CRM/Sumfields/Form/SumFields.php
 msgid ""
 "Financial types to include when calculating membership related summary "
 "fields."
-msgstr ""
+msgstr "Types d'opérations comptables à inclure quand on calcule les champs de synthèse (summary fields) liés aux adhésions."
 
 #: CRM/Sumfields/Form/SumFields.php
 msgid "Event Types"
@@ -90,7 +89,7 @@ msgstr "Statuts des participants (n'étaient pas présents)"
 
 #: CRM/Sumfields/Form/SumFields.php
 msgid "How often should summary data be updated?"
-msgstr ""
+msgstr "À quelle fréquence les données doivent-elles être mises à jour ?"
 
 #: CRM/Sumfields/Form/SumFields.php
 msgid "Instantly"
@@ -224,6 +223,30 @@ msgid "Total Deductible Contributions Fiscal Year Before Last (Simplified)"
 msgstr ""
 
 #: custom.php
+msgid "Count of Contributions this Fiscal Year"
+msgstr ""
+
+#: custom.php
+msgid "Count of Contributions this Fiscal Year (Simplified)"
+msgstr ""
+
+#: custom.php
+msgid "Count of Contributions last Fiscal Year"
+msgstr ""
+
+#: custom.php
+msgid "Count of Contributions last Fiscal Year (Simplified)"
+msgstr ""
+
+#: custom.php
+msgid "Count of Contributions Fiscal Year Before Last"
+msgstr ""
+
+#: custom.php
+msgid "Count of Contributions Fiscal Year Before Last (Simplified)"
+msgstr ""
+
+#: custom.php
 msgid "Amount of last contribution"
 msgstr "Montant de la dernière contribution"
 
@@ -253,6 +276,14 @@ msgstr "Date de la première contribution"
 
 #: custom.php
 msgid "Date of First Contribution (Simplified)"
+msgstr ""
+
+#: custom.php
+msgid "Date of Largest Contribution"
+msgstr ""
+
+#: custom.php
+msgid "Date of Largest Contribution (Simplified)"
 msgstr ""
 
 #: custom.php
@@ -305,6 +336,14 @@ msgstr ""
 
 #: custom.php
 msgid "Amount of Last Membership Payment (simplified)"
+msgstr ""
+
+#: custom.php
+msgid "First membership join date"
+msgstr ""
+
+#: custom.php
+msgid "Latest membership end date"
 msgstr ""
 
 #: custom.php
@@ -369,7 +408,7 @@ msgstr ""
 
 #: sumfields.php
 msgid "Failed to create custom fields and table. Maybe they already exist?"
-msgstr ""
+msgstr "Impossible de créer les champs personnalisés et la table. Peut-être qu'ils existent déjà ?"
 
 #: sumfields.php
 msgid ""
@@ -385,11 +424,11 @@ msgstr ""
 msgid ""
 "Failed to properly validate one of your options. Be sure to use integer "
 "values for all options."
-msgstr ""
+msgstr "Impossible de valider l'un de vos éléments. Assurez vous d'utiliser des chiffres entiers pour chaque élément de la liste de choix."
 
 #: sumfields.php
 msgid "Failed to properly validate the date @date."
-msgstr ""
+msgstr "Impossible de valider la date @date."
 
 #: sumfields.php
 msgid "Failed to rewrite sql for %s field."
@@ -423,7 +462,7 @@ msgstr ""
 
 #: sumfields.php
 msgid "Failed to get the custom group parameters. Can't add new fields."
-msgstr ""
+msgstr "Impossible d'obtenir les paramètres de l'ensemble de champs personnalisés. Impossible d'ajouter de nouveaux champs."
 
 #: sumfields.php
 msgid "Error adding custom field '%1': %2"
