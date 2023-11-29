@@ -10,16 +10,16 @@
 # Mathieu Lu <mathieu@bidon.ca>, 2022
 # FXsan, 2022
 # Philippe SAMPONT <PhilippeS@cncd.be>, 2022
-# Guillaume Sorel <serviceclient@all-in-appli.com>, 2022
 # Gilles LE POITTEVIN <gilles@radiomaria.fr>, 2023
-# Usha Matisson <matisson@makoa.fr>, 2023
+# Usha Matisson, 2023
+# Guillaume Sorel <serviceclient@all-in-appli.com>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: sepa\n"
 "POT-Creation-Date: 2023-01-27 19:22+0000\n"
-"Last-Translator: Usha Matisson <matisson@makoa.fr>, 2023\n"
-"Language-Team: French (https://www.transifex.com/civicrm/teams/1905/fr/)\n"
+"Last-Translator: Guillaume Sorel <serviceclient@all-in-appli.com>, 2023\n"
+"Language-Team: French (https://app.transifex.com/civicrm/teams/1905/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -383,23 +383,23 @@ msgstr "Montant diminué de %1 à %2"
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "Invalid financial type ID [%1] supplied."
-msgstr "L'ID de type financier [%1] fourni est invalide."
+msgstr "L'Id. du type d'opération comptable [%1] fourni est invalide."
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "Financial type changed"
-msgstr "Type d'opération financière modifié"
+msgstr "Le type d'opération comptable a été modifié"
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "Financial type changed from '%1' to '%2'."
-msgstr "Type d'opération financière modifié de '%1' à '%2'"
+msgstr "Le type d'opération comptable '%1' a été modifié en '%2'"
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "Campaign changed"
-msgstr "La campagne a changé"
+msgstr "La campagne a été modifiée"
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "Campaign changed from '%1' [%2] to '%3' [%4]."
-msgstr "La campagne a été modifiée de '%1' [%2] à '%3' [%4]."
+msgstr "La campagne '%1' [%2] a été modifiée en '%3' [%4]."
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "%1 pending contributions were adjusted as well."
@@ -407,7 +407,7 @@ msgstr "%1 cotisations en attente ont également été ajustées."
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "Multiple changes"
-msgstr "Changements multiples"
+msgstr "Modifications multiples"
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "SEPA Mandate Updated"
@@ -484,11 +484,11 @@ msgstr ""
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 #: templates/CRM/Sepa/Page/ListGroup.tpl
 msgid "ID"
-msgstr "Identifiant"
+msgstr "Id."
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "Creditor Contact ID"
-msgstr "ID du contact du créancier"
+msgstr "Id. du contact créancier"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "FK to Contact ID that owns that account"
@@ -496,7 +496,7 @@ msgstr ""
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "SEPA Creditor identifier"
-msgstr "Identifiant du Créancier SEPA"
+msgstr "Id. du Créancier SEPA"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid ""
@@ -540,7 +540,7 @@ msgstr "Iban"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "Iban of the creditor"
-msgstr ""
+msgstr "IBAN du créancier"
 
 #: CRM/Sepa/DAO/SEPACreditor.php CRM/Sepa/DAO/SEPAMandate.php
 msgid "Bic"
@@ -923,7 +923,7 @@ msgstr "Créancier"
 
 #: CRM/Sepa/Form/CreateMandate.php
 msgid "Payment Method"
-msgstr "Méthode de règlement"
+msgstr "Moyen de paiement"
 
 #: CRM/Sepa/Form/CreateMandate.php CRM/Sepa/Form/Report/SepaMandateOOFF.php
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php
@@ -931,7 +931,7 @@ msgstr "Méthode de règlement"
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 #: templates/CRM/Sepa/Page/ListGroup.tpl
 msgid "Financial Type"
-msgstr "Type d'opération financière"
+msgstr "Type d'opération comptable"
 
 #: CRM/Sepa/Form/CreateMandate.php CRM/Sepa/Form/Report/SepaMandateOOFF.php
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php
@@ -1191,7 +1191,7 @@ msgstr "Raison(s) de l'annulation"
 
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php
 msgid "Transaction ID"
-msgstr "Identifiant de transaction"
+msgstr "Id. de transaction"
 
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php CRM/Sepa/Form/RetryCollection.php
 msgid "Installment Amount"
@@ -1665,7 +1665,7 @@ msgstr "Erreur lors de la suppression de la contribution [%s] : '%s'."
 
 #: CRM/Sepa/Page/EditMandate.php
 msgid "Error deleting recurring contribution: '%s'"
-msgstr "Erreur lors de la suppression d'une contribution récurrente : '%s'."
+msgstr "Erreur lors de la suppression d'une contribution périodique : '%s'."
 
 #: CRM/Sepa/Page/EditMandate.php
 msgid "Succesfully deleted mandate [%s] and %s associated contribution(s)"
@@ -1766,7 +1766,7 @@ msgstr ""
 
 #: CRM/Sepa/Upgrader.php
 msgid "%1 Payment Processor(s) Disabled!"
-msgstr "%1 Processeur(s) de paiement désactivé(s) !"
+msgstr "%1 Passerelle(s) de paiement désactivée(s) !"
 
 #: CRM/Sepa/Upgrader.php
 msgid ""
@@ -2144,8 +2144,8 @@ msgid ""
 "The payment processor's test mode will only accept creditors that are "
 "defined as a test creditor."
 msgstr ""
-"Le mode test du processeur de paiement n'accepte que les créanciers qui sont"
-" définis comme créanciers test."
+"Le mode test de la passerelle de paiement n'accepte que les créanciers qui "
+"sont définis comme créanciers test."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
@@ -2183,7 +2183,7 @@ msgid ""
 " determine which recurring payments (RCUR) should be generated."
 msgstr ""
 "L'horizon est le \"délai d'anticipation\" (en jours) que CiviSEPA utilise "
-"pour déterminer quels paiements récurrents (RCUR) doivent être générés."
+"pour déterminer quels paiements périodiques (RCUR) doivent être générés."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
@@ -2313,8 +2313,8 @@ msgstr ""
 msgid ""
 "Hides the otherwise mandatory billing block from the payment processor page."
 msgstr ""
-"Masque le bloc de facturation, par ailleurs obligatoire, sur la page du "
-"processeur de paiement."
+"Masque le bloc de facturation, par ailleurs obligatoire, sur la page de la "
+"passerelle de paiement."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid "This feature is only available from CiviCRM 4.6.10+"
@@ -2364,7 +2364,7 @@ msgid ""
 "Enabeling this option would will replace the eyesore frequency unit / "
 "interval fields with a nice dropdown."
 msgstr ""
-"Le menu déroulant intégré de CiviCRM pour les contributions récurrentes est "
+"Le menu déroulant intégré de CiviCRM pour les contributions périodiques est "
 "plutôt laid. L'activation de cette option permettra de remplacer les champs "
 "unité de fréquence/intervalle par une belle liste déroulante."
 
@@ -2374,7 +2374,7 @@ msgid ""
 "submitted, you can set a buffer time. It determines how many days before "
 "submission the mandate has to be created."
 msgstr ""
-"Pour éviter de créer des mandats récurrents pour une date qui a déjà été "
+"Pour éviter de créer des mandats périodiques pour une date qui a déjà été "
 "soumise, vous pouvez définir une période tampon. Il détermine combien de "
 "jours avant la soumission le mandat doit être créé."
 
@@ -2561,7 +2561,7 @@ msgstr "Pays créancier"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Creditor Identifier"
-msgstr "Identifiant créancier"
+msgstr "Identifiant du créancier"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Uses BICs"
@@ -2593,7 +2593,7 @@ msgstr "Paramètres du système "
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Recurring Buffer Days"
-msgstr "Jours tampons récurrents"
+msgstr "Jours tampon périodique"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "No XML Draft Files"
@@ -2933,7 +2933,7 @@ msgstr "mise à jour ponctuelle"
 
 #: templates/CRM/Sepa/Page/DashBoard.tpl
 msgid "update recurring"
-msgstr "Mise à jour récurrente"
+msgstr "Mise à jour périodique"
 
 #: templates/CRM/Sepa/Page/DashBoard.tpl
 msgid "retry collection"
@@ -3037,7 +3037,7 @@ msgstr ""
 
 #: templates/CRM/Sepa/Page/DashBoard.tpl
 msgid "Do you really want to mark this groups as 'payment received'?"
-msgstr "Voulez vous vraiment marquer ces groupes comme \"règlement reçu\" ?"
+msgstr "Voulez vous vraiment marquer ces groupes comme 'règlement reçu' ?"
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "one-off direct debit payment"
@@ -3129,11 +3129,11 @@ msgstr "n'effacer aucun %1"
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "delete all %1"
-msgstr "effacer tous les %1"
+msgstr "supprimer tous les %1"
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "delete pending %1"
-msgstr "effacer les %1 en attente"
+msgstr "supprimer les %1 en attente"
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "recommended"
@@ -3146,7 +3146,7 @@ msgid ""
 "They will also be generated again, once you hit update."
 msgstr ""
 "Vous devriez envisager de supprimer les contributions ouvertes. Si le groupe"
-" de transactions récurrentes est supprimé, ces paiements n'ont plus de sens."
+" de transactions périodiques est supprimé, ces paiements n'ont plus de sens."
 " Ils seront également générés à nouveau, une fois que vous aurez appuyé sur "
 "la touche de mise à jour."
 
@@ -3315,7 +3315,7 @@ msgstr ""
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "contribution ID"
-msgstr "Identifiant de contribution"
+msgstr "Id. de contribution"
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "error message"
@@ -3371,7 +3371,7 @@ msgstr ""
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "SEPA Recurring Mandate"
-msgstr "Mandat SEPA récurrent"
+msgstr "Mandat SEPA périodique"
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "SEPA Single Payment Mandate"
@@ -3570,7 +3570,7 @@ msgstr "Modifier le mandat"
 
 #: templates/CRM/Sepa/Page/MandateTab.tpl
 msgid "This contact has no recorded recurring mandates."
-msgstr "Ce contact n'a pas de mandats récurrents enregistrés."
+msgstr "Ce contact n'a pas de mandats périodiques enregistrés."
 
 #: templates/CRM/Sepa/Page/MandateTab.tpl
 msgid "One-Off SEPA Mandates"
