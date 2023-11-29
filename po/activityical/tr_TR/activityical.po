@@ -4,14 +4,14 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Mathieu Lu <mathieu@bidon.ca>, 2022
-# Kaya Zeren <kayazeren@gmail.com>, 2022
+# Kaya Zeren <kayazeren@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: activityical\n"
-"POT-Creation-Date: 2021-04-28 05:01+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2022\n"
-"Language-Team: Turkish (https://www.transifex.com/civicrm/teams/1905/tr/)\n"
+"POT-Creation-Date: 2023-01-27 19:23+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2023\n"
+"Language-Team: Turkish (https://app.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,11 +20,11 @@ msgstr ""
 
 #: CRM/Activityical/DAO/ActivityicalCache.php
 msgid "Cache"
-msgstr ""
+msgstr "Ön bellek"
 
 #: CRM/Activityical/DAO/ActivityicalCache.php
 msgid "Cached"
-msgstr ""
+msgstr "Ön bellekte"
 
 #: CRM/Activityical/DAO/ActivityicalContact.php
 msgid "Hash"
@@ -32,43 +32,47 @@ msgstr "Karma"
 
 #: CRM/Activityical/Form/Details.php
 msgid "The given contact does not have an activities iCalendar feed."
-msgstr ""
+msgstr "Belirtilen kişinin iCalendar akışında herhangi bir etkinliği yok."
 
 #: CRM/Activityical/Form/Details.php
 msgid "Could not find the given contact."
-msgstr ""
+msgstr "Belirtilen kişi bulunamadı."
 
 #: CRM/Activityical/Form/Details.php
 msgid "[contact ID %1]"
-msgstr ""
+msgstr "[%1 kimlikli kişi]"
 
 #: CRM/Activityical/Form/Details.php
 msgid "Rebuild feed URL now, for %1"
-msgstr ""
+msgstr "%1 için akış adresini yeniden oluştur"
 
 #: CRM/Activityical/Form/Details.php
 msgid "Rebuild feed URL now"
-msgstr ""
+msgstr "Akış adresini yeniden oluştur"
 
 #: CRM/Activityical/Form/Details.php
 msgid "URL rebuilt"
-msgstr ""
+msgstr "Adres yeniden oluşturuldu"
 
 #: CRM/Activityical/Form/Details.php
 msgid ""
 "Limit the feed to activities within N days before the current date, instead "
 "of the default of %1 days."
 msgstr ""
+"Akışı, varsayılan %1 gün yerine güncel tarihten önceki N günün "
+"etkinlikleriyle sınırlar."
 
 #: CRM/Activityical/Form/Details.php
 msgid ""
 "Limit the feed to activities within N days after the current date, instead "
 "of the default of %1 days."
 msgstr ""
+"Akışı, varsayılan %1 gün yerine güncel tarihten sonraki N günün "
+"etkinlikleriyle sınırlar."
 
 #: CRM/Activityical/Form/Details.php
 msgid "Get the latest feed data, completely bypassing the feed cache."
-msgstr ""
+msgstr "Akış ön belleğini tümüyle atlayarak güncel akış verilerini alır."
 
 #: CRM/Activityical/Form/Settings.php
 msgid "Submit"
@@ -80,7 +84,7 @@ msgstr "Ayarlar kaydedildi."
 
 #: CRM/Activityical/Form/Settings.php
 msgid "none"
-msgstr ""
+msgstr "yok"
 
 #: CRM/Activityical/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
@@ -88,64 +92,71 @@ msgstr "%1, %2 sürümüne güncelle"
 
 #: activityical.php
 msgid "Activity iCalendar Feed"
-msgstr ""
+msgstr "Etkinlik iCalendar akışı"
 
 #: activityical.php
 msgid "Assigned activities are accessible as an iCalendar feed."
 msgstr ""
+"İlişkilendirilmiş etkinliklere bir iCalendar akışı olarak erişilebilir."
 
 #: activityical.php
 msgid "Feed details..."
-msgstr ""
+msgstr "Akış ayrıntıları..."
 
 #: settings/Activityical.setting.php
 msgid ""
 "Only members of this CiviCRM group will have an activity iCalendar feed."
 msgstr ""
+"Yalnızca bu CiviCRM grubunun üyeleri etkinlik iCalendar akışını "
+"kullanabilir."
 
 #: settings/Activityical.setting.php
 msgid "Activity iCalendar Feed Group"
-msgstr ""
+msgstr "Etkinlik iCalendar akışı grubu"
 
 #: settings/Activityical.setting.php
 msgid ""
 "Select one more more options to limit the feed to the selected activity "
 "type(s); or select none to skip this limitation."
 msgstr ""
+"Akışın yalnızca seçilmiş etkinlik türleri ile sınırlandırılması için bir ya "
+"da birkaç seçenek belirleyin. Hiçbiri seçildiğinde sınırlama uygulanmaz"
 
 #: settings/Activityical.setting.php
 msgid "Use Ctrl+click to select or unselect multiple options."
-msgstr ""
+msgstr "Birkaç seçenek seçmek ya da bırakmak için Ctrl ile tıklayın."
 
 #: settings/Activityical.setting.php
 msgid "Limit by Activity Type"
-msgstr ""
+msgstr "Etkinlik türüne göre sınırlama"
 
 #: settings/Activityical.setting.php
 msgid ""
 "Select one more more options to limit the feed to the selected activity "
 "status(es); or select none to skip this limitation."
 msgstr ""
+"Akışın yalnızca seçilmiş etkinlik durumları ile sınırlandırılması için bir "
+"ya da birkaç seçenek belirleyin. Hiçbiri seçildiğinde sınırlama uygulanmaz"
 
 #: settings/Activityical.setting.php
 msgid "Limit by Activity Status"
-msgstr ""
+msgstr "Etkinlik durumuna göre sınırlama"
 
 #: settings/Activityical.setting.php
 msgid "Append \"with\" contacts to Description?"
-msgstr ""
+msgstr "Açıklamaya \"ile\" kişiler eklenir"
 
 #: settings/Activityical.setting.php
 msgid "Description Includes \"With\""
-msgstr ""
+msgstr "Açıklamaya \"ile\" eklensin"
 
 #: settings/Activityical.setting.php
 msgid "Append other assigned contacts to Description?"
-msgstr ""
+msgstr "Açıklamaya atanmış diğer kişiler eklenir"
 
 #: settings/Activityical.setting.php
 msgid "Description Includes Assignees"
-msgstr ""
+msgstr "Açıklama atanmışlar eklensin"
 
 #: settings/Activityical.setting.php
 msgid ""
@@ -153,86 +164,95 @@ msgid ""
 "is older than this number of minutes. Set to 0 to disable caching "
 "completely."
 msgstr ""
+"Dakika cinsinden en uzun ön bellek ömrü. Ön belleğe alınan içerik, bu kadar "
+"dakika sonunda yenilenir. Ön belleğe almayı tümüyle devre dışı bırakmak için"
+" 0 olarak ayarlayın."
 
 #: settings/Activityical.setting.php
 msgid ""
 "See any Feed Details page for possible ways to bypass this on a per-request "
 "basis."
 msgstr ""
+"Bu seçeneği isteğe göre atlama yöntemlerini görmek için herhangi bir akışın "
+"ayrıntılarına bakın."
 
 #: settings/Activityical.setting.php
 msgid "Max Cache Lifetime"
-msgstr ""
+msgstr "En uzun ön bellek ömrü"
 
 #: settings/Activityical.setting.php
 msgid "The field \"Max cache lifetime\" is required"
-msgstr ""
+msgstr "\"En uzun ön bellek ömrü\" alanının doldurulması zorunludur"
 
 #: settings/Activityical.setting.php
 msgid "The field \"Max cache lifetime\" must be an integer"
-msgstr ""
+msgstr "\"En uzun ön bellek ömrü\" değeri bir tamsayı olmalıdır"
 
 #: settings/Activityical.setting.php
 msgid ""
 "Maximum number of days in the past, before which no activities will be "
 "included in the feed."
-msgstr ""
+msgstr "Etkinliklerin akışa katılması için en fazla kaç gün geçmişte olacağı."
 
 #: settings/Activityical.setting.php
 msgid "Past Days Limit"
-msgstr ""
+msgstr "Geçmişteki gün sayısı"
 
 #: settings/Activityical.setting.php
 msgid "The field \"Past days limit\" is required."
-msgstr ""
+msgstr "\"Geçmişteki gün sayısı\" alanının doldurulması zorunludur."
 
 #: settings/Activityical.setting.php
 msgid "The field \"Past days limit\" must be an integer."
-msgstr ""
+msgstr "\"Geçmişteki gün sayısı\" değeri bir tamsayı olmalıdır"
 
 #: settings/Activityical.setting.php
 msgid ""
 "Maximum number of days in the future, after which no activities will be "
 "included in the feed."
 msgstr ""
+"Etkinliklerin akışa katılması için en fazla kaç gün gelecekte olacağı."
 
 #: settings/Activityical.setting.php
 msgid "Future Days Limit"
-msgstr ""
+msgstr "Gelecekteki gün sayısı"
 
 #: settings/Activityical.setting.php
 msgid "The field \"Future days limit\" is required."
-msgstr ""
+msgstr "\"Gelecekteki gün sayısı\" alanının doldurulması zorunludur."
 
 #: settings/Activityical.setting.php
 msgid "The field \"Future days limit\" must be an integer."
-msgstr ""
+msgstr "\"Gelecekteki gün sayısı\" değeri bir tamsayı olmalıdır"
 
 #: templates/CRM/Activityical/Form/Details.tpl
 msgid "Details for contact"
-msgstr ""
+msgstr "İletişim bilgileri"
 
 #: templates/CRM/Activityical/Form/Details.tpl
 msgid "The CiviCRM assigned activities feed for %1 is available at this URL"
 msgstr ""
+"%1 için CiviCRM tarafından atanmış etkinlik akışı bu adreste bulunabilir"
 
 #: templates/CRM/Activityical/Form/Details.tpl
 msgid "Your CiviCRM assigned activities feed is available at this URL"
-msgstr ""
+msgstr "CiviCRM tarafından atanmış etkinlik akışınız bu adreste bulunabilir"
 
 #: templates/CRM/Activityical/Form/Details.tpl
 msgid "Advanced Options"
-msgstr ""
+msgstr "Gelişmiş ayarlar"
 
 #: templates/CRM/Activityical/Form/Details.tpl
 msgid ""
 "Add any of the following to the above URL to affect the behavior of your "
 "feed"
 msgstr ""
+"Akışınızın davranışını değiştirmek için aşağıdakilerden herhangi birini "
+"yukarıdaki adrese ekleyin"
 
 #: templates/CRM/Activityical/Form/Details.tpl
 msgid "Rebuild Feed URL"
-msgstr ""
+msgstr "Akış adresini yeniden oluştur"
 
 #: templates/CRM/Activityical/Form/Details.tpl
 msgid ""
@@ -240,6 +260,9 @@ msgid ""
 "think this URL is known by people who should not have that access, you can "
 "rebuild a new URL, so that any existing URL no longer works."
 msgstr ""
+"Akış adresinizi bilen herkes etkinliklerinizi görüntüleyebilir. Bu adresin "
+"erişmemesi gereken kişiler tarafından bilindiğini düşünüyorsanız, yeni bir "
+"adres oluşturarak eski adresin kapanmasını sağlayabilirsiniz."
 
 #: templates/CRM/Activityical/Form/Details.tpl
 msgid ""
@@ -247,15 +270,18 @@ msgid ""
 " using the URL in your calendar software (Google Calendar, etc.), you'll "
 "need to update that software with the new URL."
 msgstr ""
+"Not: Bu işlem, var olan adresi kapatır. Bu nedenle bu adresi takvim "
+"uygulamanızda (Google Takvim vb.) kullanıyorsanız, uygulamanızdaki adresi "
+"güncellemeniz gerekir."
 
 #: templates/CRM/Activityical/snippet/ActivitiesTabExtra.tpl
 msgid "iCalendar"
-msgstr ""
+msgstr "iCalendar"
 
 #: templates/CRM/Activityical/snippet/ActivitiesTabExtra.tpl
 msgid "Feed"
-msgstr ""
+msgstr "Akış"
 
 #: templates/CRM/Activityical/snippet/ActivitiesTabExtra.tpl
 msgid "Details"
-msgstr ""
+msgstr "Ayrıntılar"
