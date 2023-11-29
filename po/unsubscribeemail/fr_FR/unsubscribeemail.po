@@ -3,23 +3,25 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Usha Matisson <matisson@makoa.fr>, 2022
+# Usha Matisson, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: unsubscribeemail\n"
 "POT-Creation-Date: 2021-10-30 05:02+0000\n"
-"Last-Translator: Usha Matisson <matisson@makoa.fr>, 2022\n"
-"Language-Team: French (https://www.transifex.com/civicrm/teams/1905/fr/)\n"
+"Last-Translator: Usha Matisson, 2023\n"
+"Language-Team: French (https://app.transifex.com/civicrm/teams/1905/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ang/unsubscribeemail/UnsubCntrl.html
 msgid "Enter the email address you wish to unsubscribe."
-msgstr "Saisissez l'adresse de courriel que vous souhaitez désinscrire."
+msgstr ""
+"Saisissez l'adresse de courriel que vous souhaitez désabonner / exclure des "
+"mailings."
 
 #: ang/unsubscribeemail/UnsubCntrl.html
 msgid ""
@@ -27,16 +29,16 @@ msgid ""
 "        removing any bulk email flag from non-primaries. Once you have found potential matches, check the actions you\n"
 "        wish to take and click Unsubscribe"
 msgstr ""
-"La désinscription est définie par dévalider l'option \"opt out\" sur le contact si c'est l'adresse principale et\n"
-"à enlever toutes les options \"courriels de masse\" dans les adresses non-principales. Une fois que vous avez trouvé de potentielles correspondances, vérifier les actions que vous souhaitez prendre et cliquer sur \"Désinscription\"."
+"\"Désabonner\" l'adresse consiste à l'exclure de tous les mailings envoyés en masse. Cette action 1) coche la case \"Pas de mailing - opposition (opt out)\" sur la fiche du contact (Préférences de Communication) lorsqu'il s'agit du courriel principal et\n"
+"2) décoche la case \"mailing\" en face de toutes les adresses de courriel alternatives (non-principales). Si des correspondances avec l'adresse mail saisie s'affichent ci dessous, choisissez les options puis cliquez sur le bouton \"Désabonner\"."
 
 #: ang/unsubscribeemail/UnsubCntrl.html
 msgid "Email to Unsubscribe"
-msgstr "Courriel à désinscrire"
+msgstr "Courriel à désabonner"
 
 #: ang/unsubscribeemail/UnsubCntrl.html
 msgid "Email"
-msgstr "Courriel"
+msgstr "Adresse de courriel"
 
 #: ang/unsubscribeemail/UnsubCntrl.html
 msgid "email"
@@ -44,11 +46,11 @@ msgstr "courriel"
 
 #: ang/unsubscribeemail/UnsubCntrl.html
 msgid "Find contact(s)"
-msgstr "Trouver des contacts"
+msgstr "Trouver les contacts"
 
 #: ang/unsubscribeemail/UnsubCntrl.html
 msgid "Unsubscribe"
-msgstr "Se désinscrire"
+msgstr "Désabonner"
 
 #: ang/unsubscribeemail/UnsubCntrl.html
 msgid "Actions"
@@ -56,15 +58,15 @@ msgstr "Actions"
 
 #: ang/unsubscribeemail/UnsubCntrl.html
 msgid "Contacts to opt out"
-msgstr "Contacts à retirer (opt out)"
+msgstr "Contacts à exclure de tous les mailings en masse (opt out)"
 
 #: ang/unsubscribeemail/UnsubCntrl.html
 msgid ""
 "These contacts use %1 as their primary address. Leave them checked and click\n"
 "          Unsubscribe to set their communication preference to NO BULK Emails (User Opt Out)"
 msgstr ""
-"Ces contacts utilisent %1 en tant que courriel principal. Laissez les cochés et cliquez\n"
-"Les désinscrire pour paramétrer leur préférence de communication à \"Pas de courriels de masse (User Opt Out)\"."
+"Ces contacts utilisent %1 en tant que courriel principal. Pour cocher la case \"Pas de mailing - opposition (opt out)\" dans leurs Préférences de communication laissez les cochés ici et cliquez sur\n"
+"\"Désabonner\"."
 
 #: ang/unsubscribeemail/UnsubCntrl.html
 msgid "Contact"
@@ -72,65 +74,69 @@ msgstr "Contact"
 
 #: ang/unsubscribeemail/UnsubCntrl.html
 msgid "Set opt out communication preference?"
-msgstr "Definir la préférence de communication opt out ?"
+msgstr "Cocher \"Pas de mailing - opposition (opt out)\" ?"
 
 #: ang/unsubscribeemail/UnsubCntrl.html
 msgid "Contact is already opted out"
-msgstr "Le contact est déjà retiré (opt out)"
+msgstr "Le contact s'est déjà opposé à tous les mailings en masse (opt out)"
 
 #: ang/unsubscribeemail/UnsubCntrl.html
 msgid "Contact has been set to opted out"
-msgstr "Le contact a été retiré (opt out)"
+msgstr "Le contact est maintenant exclu de tous mailings en masse (Opt Out)"
 
 #: ang/unsubscribeemail/UnsubCntrl.html
 msgid "Emails to remove bulk email flag from (non primary)"
 msgstr ""
-"Courriels pour lesquels il faut décocher la case \"Courriel de masse\" (non "
-"principaux)."
+"Adresses de courriel (non principales) pour lesquelles l'envoi de "
+"\"mailings\" peut être désactivé."
 
 #: ang/unsubscribeemail/UnsubCntrl.html
 msgid ""
 "These contacts have %1 as as a non-primary email. Leave them checked and click\n"
 "          unsubscribe to unset the bulk email flag on them."
 msgstr ""
-"Ces contacts ont %1 comme courriel non-principal. Laissez les cochés et cliquez\n"
-"Les désinscrire pour désactiver le paramétrage \"courriel de masse\""
+"Ces contacts ont %1 comme courriel non-principal. Laissez les cochés et cliquez sur\n"
+"\"Désabonner\" pour les exclure des mailings."
 
 #: ang/unsubscribeemail/UnsubCntrl.html
 msgid "Unset bulk email flag on email address?"
-msgstr "Indiquer que l'adresse de courriel n'est pas un courriel de masse ?"
+msgstr ""
+"Désactiver l'envoi de tous mailings en masse pour cette adresse de courriel "
+"?"
 
 #: ang/unsubscribeemail/UnsubCntrl.html
 msgid "Email is not set as bulk email"
-msgstr "Le courriel n'est pas configuré comme courriel de masse"
+msgstr "L'adresse n'est pas configurée pour recevoir des mailings en masse"
 
 #: ang/unsubscribeemail/UnsubCntrl.html
 msgid "Bulk email flag has been removed from this email"
-msgstr "Ce courriel n'est plus marqué comme courriel de masse."
+msgstr ""
+"La réception de mailings a été désactivée pour cette adresse de courriel."
 
 #: ang/unsubscribeemail/UnsubCntrl.html
 msgid ""
 "The email %1 is not used as a the primary email for any contact in your "
 "database and it is not subscribed to any bulk emails"
 msgstr ""
-"Le courriel %1 n'est utilisé comme courriel principal pour aucun contact de "
-"votre base et n'est pas non plus inscrit dans aucun courriel de masse"
+"L'adresse %1 n'est utilisée comme courriel principal pour aucun contact de "
+"votre base et n'est pas non plus inscrite comme adresse alternative de "
+"réception des mailings."
 
 #: ang/unsubscribeemail/UnsubCntrl.js
 msgid "unsubscribeemail"
-msgstr "Courriel de désinscription"
+msgstr "Désabonner Courriels"
 
 #: ang/unsubscribeemail/UnsubCntrl.js
 msgid "Refreshing results ..."
-msgstr "Réactualisation des résultats en cours..."
+msgstr "Actualisation des résultats en cours..."
 
 #: ang/unsubscribeemail/UnsubCntrl.js
 msgid "Refresh complete"
-msgstr "Réactualisation terminée"
+msgstr "Actualisation terminée"
 
 #: ang/unsubscribeemail/UnsubCntrl.js
 msgid "Finding matches..."
-msgstr "En cours de rechercher des correspondances..."
+msgstr "En cours de recherche..."
 
 #: ang/unsubscribeemail/UnsubCntrl.js
 msgid "Search complete"
@@ -138,7 +144,7 @@ msgstr "Recherche terminée"
 
 #: ang/unsubscribeemail/UnsubCntrl.js
 msgid "Unsubscribed"
-msgstr "Désinscrit"
+msgstr "Désabonné"
 
 #: templates/CRM/unsubscribeemail/UnsubCntrl.hlp
 msgid ""
@@ -150,9 +156,9 @@ msgstr ""
 #: unsubscribeemail.php
 msgid "Access the form to unsubscribe any contact by entering email address."
 msgstr ""
-"Accéder au formulaire pour désinscrire un contact en saisissant son adresse "
+"Accéder au formulaire pour désabonner un contact en saisissant son adresse "
 "courriel."
 
 #: unsubscribeemail.php
 msgid "Unsubscribe email"
-msgstr "Courriel de désinscription"
+msgstr "Courriel de désabonnement"
