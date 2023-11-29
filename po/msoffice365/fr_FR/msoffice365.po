@@ -3,19 +3,19 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Usha Matisson <matisson@makoa.fr>, 2022
+# Usha Matisson, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: msoffice365\n"
 "POT-Creation-Date: 2021-09-22 05:03+0000\n"
-"Last-Translator: Usha Matisson <matisson@makoa.fr>, 2022\n"
-"Language-Team: French (https://www.transifex.com/civicrm/teams/1905/fr/)\n"
+"Last-Translator: Usha Matisson, 2023\n"
+"Language-Team: French (https://app.transifex.com/civicrm/teams/1905/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: Civi/Msoffice365/ActionProvider/Action/CreatePlannerTask.php
 msgid "View activity"
@@ -23,7 +23,7 @@ msgstr "Voir la fiche d'activité"
 
 #: Civi/Msoffice365/ActionProvider/Action/CreatePlannerTask.php
 msgid "View activity with subject: %1"
-msgstr ""
+msgstr "Voir l'activité avec le sujet : %1"
 
 #: Civi/Msoffice365/ActionProvider/Action/CreatePlannerTask.php
 msgid "Bucket ID"
@@ -39,35 +39,40 @@ msgstr "Description"
 
 #: Civi/Msoffice365/ActionProvider/Action/CreatePlannerTask.php
 msgid "Contact ID(s)"
-msgstr ""
+msgstr "Id(s). de contact"
 
 #: Civi/Msoffice365/ActionProvider/Action/CreatePlannerTask.php
 msgid "Activity ID(s)"
-msgstr ""
+msgstr "Id(s). d'Activité"
 
 #: Civi/Msoffice365/ActionProvider/CompilerPass.php
 msgid "MS Office 365: Create task in plan board"
-msgstr ""
+msgstr "MS Office 365 : Créer une tâche dans le tableau de planification"
 
 #: msoffice365.php
 msgid ""
 "Invalid credentials, client id or client secret. Did you set the app "
 "correctly in Azure AD App including the API permissions?"
 msgstr ""
+"Identifiants non valides (id. de client ou phrase secrète de client). Avez "
+"vous configuré correctement l'app dans Azure AD y compris les autorisations "
+"?"
 
 #: msoffice365.php
 msgid "Could not connect to MS Office 365"
-msgstr ""
+msgstr "Impossible de se connecter à MS Office 365"
 
 #: msoffice365.php
 msgid ""
 "See the readme of this extension on how to setup the app Azure AD. This app "
 "requires the following API Permissions in Azure AD: %1."
 msgstr ""
+"Voir le fichier README de cette extension pour configurer l'app dans Azure "
+"AD. Cette app nécessite les autorisations API suivantes dans Azure AD : %1."
 
 #: msoffice365.php
 msgid "MS Office 365 settings"
-msgstr ""
+msgstr "Paramètres MS Office 365"
 
 #: settings/msoffice365.setting.php
 msgid "Tenant"
