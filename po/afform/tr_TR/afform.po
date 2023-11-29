@@ -1,30 +1,34 @@
 # 
 # Translators:
 # Mathieu Lu <mathieu@bidon.ca>, 2022
-# Kaya Zeren <kayazeren@gmail.com>, 2022
+# Kaya Zeren <kayazeren@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2022\n"
-"Language-Team: Turkish (https://www.transifex.com/civicrm/teams/1905/tr/)\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2023\n"
+"Language-Team: Turkish (https://app.transifex.com/civicrm/teams/1905/tr/)\n"
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ./CRM/Afform/DAO/AfformSubmission.php
-msgid "Form Builder Submissions"
-msgstr "Form oluşturucu gönderimleri"
+msgid "FormBuilder Submissions"
+msgstr "FormBuilder gönderimleri"
 
 #: ./CRM/Afform/DAO/AfformSubmission.php
-msgid "Form Builder Submission"
-msgstr "Forum oluşturucu gönderimi"
+msgid "FormBuilder Submission"
+msgstr "FormBuilder gönderimi"
+
+#: ./CRM/Afform/DAO/AfformSubmission.php
+msgid "Form Submission ID"
+msgstr "Form gönderimi kimliği"
 
 #: ./CRM/Afform/DAO/AfformSubmission.php
 msgid "Unique Submission ID"
-msgstr "Eşsiz gönderim kodu"
+msgstr "Eşsiz gönderim kimliği"
 
 #: ./CRM/Afform/DAO/AfformSubmission.php
 msgid "User Contact ID"
-msgstr "Kullanıcı kişi kodu"
+msgstr "Kullanıcı kişi kimliği"
 
 #: ./CRM/Afform/DAO/AfformSubmission.php
 msgid "Afform Name"
@@ -51,32 +55,64 @@ msgid "CiviCRM"
 msgstr "CiviCRM"
 
 #: ./CRM/Afform/Page/AfformBase.php
-msgid "Admin"
-msgstr "Yönetici"
+msgid "Administer"
+msgstr "Yönetim"
 
 #: ./CRM/Afform/Page/AfformBase.php ./afform.php
-msgid "Form Builder"
-msgstr "Form oluşturucu"
+msgid "FormBuilder"
+msgstr "FormBuilder"
 
 #: ./CRM/Afform/Page/AfformBase.php
 msgid "Edit Form"
 msgstr "Formu düzenle"
 
-#: ./CRM/Afform/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "%1, %2 sürümüne güncelle"
-
 #: ./Civi/Afform/AfformMetadataInjector.php
 msgid "Select"
 msgstr "Seçin"
 
-#: ./Civi/Afform/AfformMetadataInjector.php
+#: ./Civi/Afform/AfformMetadataInjector.php ./Civi/Afform/FormDataModel.php
 msgid "Select %1"
 msgstr "%1 seçin"
 
 #: ./Civi/Afform/AfformMetadataInjector.php
 msgid "Choose Date Range"
 msgstr "Tarih aralığı seçin"
+
+#: ./Civi/Afform/Behavior/ContactAutofill.php
+msgid "Autofill"
+msgstr "Otomatik doldurma"
+
+#: ./Civi/Afform/Behavior/ContactAutofill.php
+msgid ""
+"Automatically identify this contact based on logged-in status or "
+"relationship to another contact on the form."
+msgstr ""
+"Oturum açma durumuna ya da formdaki başka bir kişiyle ilişkisine göre bu "
+"kişiyi otomatik olarak tanımlar."
+
+#: ./Civi/Afform/Behavior/ContactAutofill.php
+msgid "Current User"
+msgstr "Geçerli kullanıcı"
+
+#: ./Civi/Afform/Behavior/ContactAutofill.php
+msgid "Auto-select logged-in user"
+msgstr "Otomatik olarak oturum açmış kullanıcı seçilsin"
+
+#: ./Civi/Afform/Behavior/ContactDedupe.php
+msgid "Duplicate Matching"
+msgstr "Çift kayıt eşleştirme"
+
+#: ./Civi/Afform/Behavior/ContactDedupe.php
+msgid ""
+"Update existing contact instead of creating a new one based on a dedupe "
+"rule."
+msgstr ""
+"Yinelenenleri kaldırma kuralına göre yeni bir kişi oluşturmak yerine var "
+"olan kişiyi günceller."
+
+#: ./Civi/Afform/FormDataModel.php
+msgid "Existing %1"
+msgstr "Var olan %1"
 
 #: ./Civi/Afform/StatusChecks.php
 msgid ""
@@ -126,9 +162,55 @@ msgstr "%1 (adres)"
 msgid "%1 (Full Hyperlink)"
 msgstr "%1 (tam bağlantı)"
 
+#: ./Civi/Afform/Utils.php
+msgid "Contains"
+msgstr "Şunu içeren"
+
+#: ./Civi/Afform/Utils.php
+msgid "Doesn't Contain"
+msgstr "Şunu içermeyen"
+
+#: ./Civi/Afform/Utils.php
+msgid "Is One Of"
+msgstr "Şunlardan biri olan"
+
+#: ./Civi/Afform/Utils.php
+msgid "Not One Of"
+msgstr "Şunlardan biri olmayan"
+
+#: ./Civi/Afform/Utils.php
+msgid "Is Like"
+msgstr "Şuna benzeyen"
+
+#: ./Civi/Afform/Utils.php
+msgid "Not Like"
+msgstr "Şuna benzemeyen"
+
+#: ./Civi/Afform/Utils.php
+msgid "Matches Pattern"
+msgstr "Şu modele uyan"
+
+#: ./Civi/Afform/Utils.php
+msgid "Doesn't Match Pattern"
+msgstr "Şu modele uymayan"
+
 #: ./Civi/Api4/Action/Afform/Get.php
 msgid "%1 block"
 msgstr "%1 blok"
+
+#: ./Civi/Api4/Action/Afform/Submit.php
+msgid "Validation Error"
+msgid_plural "%1 Validation Errors"
+msgstr[0] "Doğrulama sorunu"
+msgstr[1] "%1 doğrulama sorunu"
+
+#: ./Civi/Api4/Action/Afform/Submit.php
+msgid "%1 is a required field."
+msgstr "%1 alanının doldurulması zorunludur"
+
+#: ./Civi/Api4/Action/Afform/Submit.php
+msgid "Illegal value for %1."
+msgstr "Değer %1 için uygun değil"
 
 #: ./Civi/Api4/Afform.php
 msgid "Contact Summary Block"
@@ -141,6 +223,16 @@ msgstr "Kişi özeti sekmesi"
 #: ./afform.php
 msgid "(Untitled)"
 msgstr "(Adlandırılmamış)"
+
+#: ./afform.php
+msgid "FormBuilder: edit and delete forms"
+msgstr "FormBuilder: Form düzenleme ve silme"
+
+#: ./afform.php
+msgid "Allows non-admin users to create, update and delete forms"
+msgstr ""
+"Yönetici olmayan kullanıcıların form ekleme, güncelleme ve silme işlemlerini"
+" yapmasına izin verir"
 
 #: ./afform.php
 msgid "Afform: Inherit permission of %1"
@@ -158,10 +250,50 @@ msgstr "Evet"
 msgid "No"
 msgstr "Hayır"
 
+#: ./ang/af/afField.html
+msgid "Required"
+msgstr "Zorunlu"
+
 #: ./ang/af/afForm.component.js
 msgid "Uploading %1"
 msgstr "%1 yükleniyor"
 
+#: ./ang/af/afForm.component.js
+msgid "Please fill all required fields."
+msgstr "Lütfen tüm zorunlu alanları doldurun."
+
+#: ./ang/af/afForm.component.js
+msgid "Form Error"
+msgstr "Form sorunu"
+
+#: ./ang/af/fields/File.html
+msgid "Replace"
+msgstr "Değiştir"
+
+#: ./ang/af/fields/Radio.html
+msgid "Clear"
+msgstr "Temizle"
+
 #: ./ang/afCore/Api4Action.js
 msgid "Submitting..."
 msgstr "Gönderiliyor..."
+
+#: ./managed/AfformType.mgd.php
+msgid "Afform Type"
+msgstr "Afform türü"
+
+#: ./managed/AfformType.mgd.php
+msgid "Submission Form"
+msgstr "Gönderim formu"
+
+#: ./managed/AfformType.mgd.php
+msgid "Search Form"
+msgstr "Arama formu"
+
+#: ./managed/AfformType.mgd.php
+msgid "Field Block"
+msgstr "Alan bloğu"
+
+#: ./managed/AfformType.mgd.php
+msgid "System Form"
+msgstr "Sistem formu"
