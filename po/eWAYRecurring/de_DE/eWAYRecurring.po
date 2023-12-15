@@ -3,20 +3,76 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Torben Bertram, 2022
+# Torben Bertram, 2021
 # Mathieu Lu <mathieu@bidon.ca>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: eWAYRecurring\n"
-"POT-Creation-Date: 2023-01-27 19:22+0000\n"
+"POT-Creation-Date: 2023-12-15 05:01+0000\n"
 "Last-Translator: Mathieu Lu <mathieu@bidon.ca>, 2022\n"
-"Language-Team: German (https://www.transifex.com/civicrm/teams/1905/de/)\n"
+"Language-Team: German (https://app.transifex.com/civicrm/teams/1905/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: CRM/Core/Payment/eWAYRecurring.php
+msgid "Error"
+msgstr "Fehler"
+
+#: CRM/Core/Payment/eWAYRecurring.php
+msgid "Stored Credit Card"
+msgstr ""
+
+#: CRM/Core/Payment/eWAYRecurring.php
+msgid ""
+"Credit card details are entered directly into eWAY and not stored in "
+"CiviCRM. %1"
+msgstr ""
+
+#: CRM/Core/Payment/eWAYRecurring.php
+msgid "Learn more on eWAY's PCI DSS page"
+msgstr ""
+
+#: CRM/Core/Payment/eWAYRecurring.php
+msgid "Add Credit Card"
+msgstr ""
+
+#: CRM/Core/Payment/eWAYRecurring.php
+msgid ""
+"Please be sure to click <b>RETURN TO MERCHANT</b> after adding a credit "
+"card."
+msgstr ""
+
+#: CRM/Core/Payment/eWAYRecurring.php
+msgid "eWay - Gateway requires curl with SSL support"
+msgstr ""
+
+#: CRM/Core/Payment/eWAYRecurring.php
+msgid "Please update the credit card manually."
+msgstr ""
+
+#: CRM/Core/Payment/eWAYRecurring.php
+msgid "eWay warning"
+msgstr ""
+
+#: CRM/Core/Payment/eWAYRecurring.php
+msgid "eWay API Key is not set for this payment processor"
+msgstr ""
+
+#: CRM/Core/Payment/eWAYRecurring.php
+msgid "eWay API Password is not set for this payment processor"
+msgstr ""
+
+#: CRM/Core/Payment/eWAYRecurring.php
+msgid "Attempted to update billing details for a completed contribution."
+msgstr ""
+
+#: CRM/Core/Payment/eWAYRecurring.php
+msgid "Attempted to update billing details for a cancelled contribution."
+msgstr ""
 
 #: CRM/eWAYRecurring/DAO/EwayContributionTransactions.php
 msgid "Unique EwayContributionTransactions ID"
@@ -62,72 +118,24 @@ msgstr ""
 msgid "Billing details has been updated successfully."
 msgstr ""
 
+#: CRM/eWAYRecurring/PaymentToken.php
+msgid "Error retrieving data for token id %1: %2"
+msgstr ""
+
+#: CRM/eWAYRecurring/ProcessTrait.php
+msgid "Transaction Error"
+msgstr ""
+
+#: CRM/eWAYRecurring/ProcessTrait.php
+msgid "Contribution Error"
+msgstr ""
+
 #: CRM/eWAYRecurring/Upgrader.php
 msgid ""
 "Version 2.x of the eWay Payment Processor extension uses the new eWay Rapid "
 "API. Please go to the <a href=\"%2\">Payment Processor page</a> and update "
 "the eWay API credentials with the new API Key and API Password. For more "
 "details see the <a href=\"%1\">upgrade notes</a>."
-msgstr ""
-
-#: au_com_agileware_ewayrecurring.class.php
-msgid "eWay Recurring"
-msgstr "eWay Wiederkehrend"
-
-#: au_com_agileware_ewayrecurring.class.php
-msgid "Error"
-msgstr "Fehler"
-
-#: au_com_agileware_ewayrecurring.class.php
-msgid "Stored Credit Card"
-msgstr ""
-
-#: au_com_agileware_ewayrecurring.class.php
-msgid ""
-"Credit card details are entered directly into eWAY and not stored in "
-"CiviCRM. %1"
-msgstr ""
-
-#: au_com_agileware_ewayrecurring.class.php
-msgid "Learn more on eWAY's PCI DSS page"
-msgstr ""
-
-#: au_com_agileware_ewayrecurring.class.php
-msgid "Add Credit Card"
-msgstr ""
-
-#: au_com_agileware_ewayrecurring.class.php
-msgid ""
-"Please be sure to click <b>RETURN TO MERCHANT</b> after adding a credit "
-"card."
-msgstr ""
-
-#: au_com_agileware_ewayrecurring.class.php
-msgid "eWay - Gateway requires curl with SSL support"
-msgstr ""
-
-#: au_com_agileware_ewayrecurring.class.php
-msgid "Please update the credit card manually."
-msgstr ""
-
-#: au_com_agileware_ewayrecurring.class.php
-msgid "eWay warning"
-msgstr ""
-
-#: au_com_agileware_ewayrecurring.class.php
-msgid "eWay API Key is not set for this payment processor"
-msgstr ""
-
-#: au_com_agileware_ewayrecurring.class.php
-msgid "eWay API Password is not set for this payment processor"
-msgstr ""
-
-#: au_com_agileware_ewayrecurring.class.php
-msgid "Attempted to update billing details for a completed contribution."
-msgstr ""
-
-#: au_com_agileware_ewayrecurring.class.php
-msgid "Attempted to update billing details for a cancelled contribution."
 msgstr ""
 
 #: eWAYRecurring.php
@@ -168,16 +176,12 @@ msgstr ""
 msgid "eWay Recurring Settings"
 msgstr ""
 
-#: eWAYRecurring.process.inc
-msgid "No eWAY token found for Recurring Contribution %1"
+#: eWAYRecurring.php
+msgid "CiviContribute: view payment tokens"
 msgstr ""
 
-#: eWAYRecurring.process.inc
-msgid "Transaction Error"
-msgstr ""
-
-#: eWAYRecurring.process.inc
-msgid "Contribution Error"
+#: eWAYRecurring.php
+msgid "CiviContribute: edit payment tokens"
 msgstr ""
 
 #: js/eway.js
