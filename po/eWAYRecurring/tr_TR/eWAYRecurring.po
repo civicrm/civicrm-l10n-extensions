@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: eWAYRecurring\n"
-"POT-Creation-Date: 2023-01-27 19:22+0000\n"
+"POT-Creation-Date: 2023-12-15 05:01+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2023\n"
 "Language-Team: Turkish (https://app.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -17,6 +17,67 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: CRM/Core/Payment/eWAYRecurring.php
+msgid "Error"
+msgstr "Hata"
+
+#: CRM/Core/Payment/eWAYRecurring.php
+msgid "Stored Credit Card"
+msgstr "Kayıtlı kredi kartı"
+
+#: CRM/Core/Payment/eWAYRecurring.php
+msgid ""
+"Credit card details are entered directly into eWAY and not stored in "
+"CiviCRM. %1"
+msgstr ""
+"Kredi kartı bilgileri CiviCRM üzerinde değil doğrudan eWAY üzerinde tutulur."
+" %1"
+
+#: CRM/Core/Payment/eWAYRecurring.php
+msgid "Learn more on eWAY's PCI DSS page"
+msgstr "eWAY PCI DSS sayfası hakkında ayrıntılı bilgi alın"
+
+#: CRM/Core/Payment/eWAYRecurring.php
+msgid "Add Credit Card"
+msgstr "Kredi kartı ekle"
+
+#: CRM/Core/Payment/eWAYRecurring.php
+msgid ""
+"Please be sure to click <b>RETURN TO MERCHANT</b> after adding a credit "
+"card."
+msgstr ""
+"Lütfen bir kredi kartı ekledikten sonra <b>SATICIYA DÖN</b> üzerine "
+"tıklayın."
+
+#: CRM/Core/Payment/eWAYRecurring.php
+msgid "eWay - Gateway requires curl with SSL support"
+msgstr "eWay - Ödeme aracısı için SSL desteği ile cURL gerekli"
+
+#: CRM/Core/Payment/eWAYRecurring.php
+msgid "Please update the credit card manually."
+msgstr "Lütfen kredi kartınızı el ile güncelleyin."
+
+#: CRM/Core/Payment/eWAYRecurring.php
+msgid "eWay warning"
+msgstr "eWay uyarısı"
+
+#: CRM/Core/Payment/eWAYRecurring.php
+msgid "eWay API Key is not set for this payment processor"
+msgstr "Bu ödeme aracısı için eWAY API anahtarı ayarlanmamış"
+
+#: CRM/Core/Payment/eWAYRecurring.php
+msgid "eWay API Password is not set for this payment processor"
+msgstr "Bu ödeme aracısı için eWAY API parolası ayarlanmamış"
+
+#: CRM/Core/Payment/eWAYRecurring.php
+msgid "Attempted to update billing details for a completed contribution."
+msgstr "Tamamlanmış bir katkının fatura ayrıntıları güncellenmeye çalışıldı."
+
+#: CRM/Core/Payment/eWAYRecurring.php
+msgid "Attempted to update billing details for a cancelled contribution."
+msgstr ""
+"İptal edilmiş bir katkının fatura ayrıntıları güncellenmeye çalışıldı."
 
 #: CRM/eWAYRecurring/DAO/EwayContributionTransactions.php
 msgid "Unique EwayContributionTransactions ID"
@@ -62,6 +123,18 @@ msgstr "Fatura bilgilerini güncelle"
 msgid "Billing details has been updated successfully."
 msgstr "Fatura bilgileri güncellendi."
 
+#: CRM/eWAYRecurring/PaymentToken.php
+msgid "Error retrieving data for token id %1: %2"
+msgstr ""
+
+#: CRM/eWAYRecurring/ProcessTrait.php
+msgid "Transaction Error"
+msgstr "Hesap hareketi sorunu"
+
+#: CRM/eWAYRecurring/ProcessTrait.php
+msgid "Contribution Error"
+msgstr "Katkı sorunu"
+
 #: CRM/eWAYRecurring/Upgrader.php
 msgid ""
 "Version 2.x of the eWay Payment Processor extension uses the new eWay Rapid "
@@ -74,71 +147,6 @@ msgstr ""
 "API kimlik doğrulama bilgilerini yeni API Anahtarı ve API parolası ile "
 "güncelleyin. Ayrıntılı bilgi almak için <a href=\"%1\">yükseltme "
 "notlarına</a> bakabilirsiniz."
-
-#: au_com_agileware_ewayrecurring.class.php
-msgid "eWay Recurring"
-msgstr "eWay yinelenen"
-
-#: au_com_agileware_ewayrecurring.class.php
-msgid "Error"
-msgstr "Hata"
-
-#: au_com_agileware_ewayrecurring.class.php
-msgid "Stored Credit Card"
-msgstr "Kayıtlı kredi kartı"
-
-#: au_com_agileware_ewayrecurring.class.php
-msgid ""
-"Credit card details are entered directly into eWAY and not stored in "
-"CiviCRM. %1"
-msgstr ""
-"Kredi kartı bilgileri CiviCRM üzerinde değil doğrudan eWAY üzerinde tutulur."
-" %1"
-
-#: au_com_agileware_ewayrecurring.class.php
-msgid "Learn more on eWAY's PCI DSS page"
-msgstr "eWAY PCI DSS sayfası hakkında ayrıntılı bilgi alın"
-
-#: au_com_agileware_ewayrecurring.class.php
-msgid "Add Credit Card"
-msgstr "Kredi kartı ekle"
-
-#: au_com_agileware_ewayrecurring.class.php
-msgid ""
-"Please be sure to click <b>RETURN TO MERCHANT</b> after adding a credit "
-"card."
-msgstr ""
-"Lütfen bir kredi kartı ekledikten sonra <b>SATICIYA DÖN</b> üzerine "
-"tıklayın."
-
-#: au_com_agileware_ewayrecurring.class.php
-msgid "eWay - Gateway requires curl with SSL support"
-msgstr "eWay - Ödeme aracısı için SSL desteği ile cURL gerekli"
-
-#: au_com_agileware_ewayrecurring.class.php
-msgid "Please update the credit card manually."
-msgstr "Lütfen kredi kartınızı el ile güncelleyin."
-
-#: au_com_agileware_ewayrecurring.class.php
-msgid "eWay warning"
-msgstr "eWay uyarısı"
-
-#: au_com_agileware_ewayrecurring.class.php
-msgid "eWay API Key is not set for this payment processor"
-msgstr "Bu ödeme aracısı için eWAY API anahtarı ayarlanmamış"
-
-#: au_com_agileware_ewayrecurring.class.php
-msgid "eWay API Password is not set for this payment processor"
-msgstr "Bu ödeme aracısı için eWAY API parolası ayarlanmamış"
-
-#: au_com_agileware_ewayrecurring.class.php
-msgid "Attempted to update billing details for a completed contribution."
-msgstr "Tamamlanmış bir katkının fatura ayrıntıları güncellenmeye çalışıldı."
-
-#: au_com_agileware_ewayrecurring.class.php
-msgid "Attempted to update billing details for a cancelled contribution."
-msgstr ""
-"İptal edilmiş bir katkının fatura ayrıntıları güncellenmeye çalışıldı."
 
 #: eWAYRecurring.php
 msgid "Next Scheduled Date"
@@ -182,17 +190,13 @@ msgstr "Bu katkının ödemesi zaten yapılmış"
 msgid "eWay Recurring Settings"
 msgstr "eWay yineleme ayarları"
 
-#: eWAYRecurring.process.inc
-msgid "No eWAY token found for Recurring Contribution %1"
-msgstr "%1 yinelenen katkısı için herhangi bir eWay kodu bulunamadı"
+#: eWAYRecurring.php
+msgid "CiviContribute: view payment tokens"
+msgstr ""
 
-#: eWAYRecurring.process.inc
-msgid "Transaction Error"
-msgstr "Hesap hareketi sorunu"
-
-#: eWAYRecurring.process.inc
-msgid "Contribution Error"
-msgstr "Katkı sorunu"
+#: eWAYRecurring.php
+msgid "CiviContribute: edit payment tokens"
+msgstr ""
 
 #: js/eway.js
 msgid "The credit card list has been updated."
