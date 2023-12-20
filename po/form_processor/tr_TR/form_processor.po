@@ -3,13 +3,13 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Mathieu Lu <mathieu@bidon.ca>, 2022
+# Mathieu Lu <mathieu@bidon.ca>, 2023
 # Kaya Zeren <kayazeren@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: form_processor\n"
-"POT-Creation-Date: 2020-08-08 05:01+0000\n"
+"POT-Creation-Date: 2023-12-20 05:01+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2023\n"
 "Language-Team: Turkish (https://app.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -18,213 +18,446 @@ msgstr ""
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
+#: CRM/FormProcessor/BAO/FormProcessorAction.php
+#: CRM/FormProcessor/BAO/FormProcessorCalculateAction.php
+#: CRM/FormProcessor/BAO/FormProcessorDefaultDataAction.php
+#: CRM/FormProcessor/BAO/FormProcessorValidateAction.php
+msgid "Input :: "
+msgstr ""
+
+#: CRM/FormProcessor/BAO/FormProcessorAction.php
+#: CRM/FormProcessor/BAO/FormProcessorCalculateAction.php
+#: CRM/FormProcessor/BAO/FormProcessorDefaultDataAction.php
+#: CRM/FormProcessor/BAO/FormProcessorValidateAction.php
+msgid "Action"
+msgstr "İşlem"
+
 #: CRM/FormProcessor/DAO/FormProcessorAction.php
+msgid "Form Processor Actions"
+msgstr ""
+
+#: CRM/FormProcessor/DAO/FormProcessorAction.php
+msgid "Form Processor Action"
+msgstr ""
+
+#: CRM/FormProcessor/DAO/FormProcessorAction.php
+#: CRM/FormProcessor/DAO/FormProcessorCalculateAction.php
 #: CRM/FormProcessor/DAO/FormProcessorDefaultDataAction.php
 #: CRM/FormProcessor/DAO/FormProcessorDefaultDataInput.php
 #: CRM/FormProcessor/DAO/FormProcessorInput.php
 #: CRM/FormProcessor/DAO/FormProcessorInstance.php
+#: CRM/FormProcessor/DAO/FormProcessorValidateAction.php
+#: CRM/FormProcessor/DAO/FormProcessorValidateValidator.php
 #: CRM/FormProcessor/DAO/FormProcessorValidation.php
 #: Civi/FormProcessor/Type/CampaignType.php
+#: api/v3/FormProcessorAction/CheckName.php
 #: api/v3/FormProcessorAction/Create.php api/v3/FormProcessorAction/Delete.php
-#: api/v3/FormProcessorAction/Validatename.php
+#: api/v3/FormProcessorCalculateAction/CheckName.php
+#: api/v3/FormProcessorCalculateAction/Create.php
+#: api/v3/FormProcessorCalculateAction/Delete.php
+#: api/v3/FormProcessorDefaultDataAction/CheckName.php
 #: api/v3/FormProcessorDefaultDataAction/Create.php
 #: api/v3/FormProcessorDefaultDataAction/Delete.php
-#: api/v3/FormProcessorDefaultDataAction/Validatename.php
+#: api/v3/FormProcessorDefaultDataInput/CheckName.php
 #: api/v3/FormProcessorDefaultDataInput/Create.php
 #: api/v3/FormProcessorDefaultDataInput/Delete.php
-#: api/v3/FormProcessorDefaultDataInput/Validatename.php
+#: api/v3/FormProcessorInput/CheckName.php
 #: api/v3/FormProcessorInput/Create.php api/v3/FormProcessorInput/Delete.php
-#: api/v3/FormProcessorInput/Validatename.php
+#: api/v3/FormProcessorInstance/CheckName.php
 #: api/v3/FormProcessorInstance/Create.php
 #: api/v3/FormProcessorInstance/Delete.php
 #: api/v3/FormProcessorInstance/Export.php
 #: api/v3/FormProcessorInstance/Revert.php
-#: api/v3/FormProcessorInstance/Validatename.php
+#: api/v3/FormProcessorValidateAction/CheckName.php
+#: api/v3/FormProcessorValidateAction/Create.php
+#: api/v3/FormProcessorValidateAction/Delete.php
+#: api/v3/FormProcessorValidateValidator/CheckName.php
+#: api/v3/FormProcessorValidateValidator/Create.php
+#: api/v3/FormProcessorValidateValidator/Delete.php
 #: api/v3/FormProcessorValidation/Create.php
 #: api/v3/FormProcessorValidation/Delete.php
 msgid "ID"
 msgstr "Kimlik"
 
 #: CRM/FormProcessor/DAO/FormProcessorAction.php
+#: CRM/FormProcessor/DAO/FormProcessorCalculateAction.php
 #: CRM/FormProcessor/DAO/FormProcessorDefaultDataAction.php
-#: api/v3/FormProcessorAction/Validatename.php
-#: api/v3/FormProcessorDefaultDataAction/Validatename.php
-#: api/v3/FormProcessorDefaultDataInput/Validatename.php
-#: api/v3/FormProcessorInput/Validatename.php
+#: CRM/FormProcessor/DAO/FormProcessorDefaultDataInput.php
+#: CRM/FormProcessor/DAO/FormProcessorInput.php
+#: CRM/FormProcessor/DAO/FormProcessorValidateAction.php
+#: CRM/FormProcessor/DAO/FormProcessorValidateValidator.php
+msgid "Unique FormProcessorInput ID"
+msgstr ""
+
+#: CRM/FormProcessor/DAO/FormProcessorAction.php
+#: CRM/FormProcessor/DAO/FormProcessorCalculateAction.php
+#: CRM/FormProcessor/DAO/FormProcessorDefaultDataAction.php
+#: CRM/FormProcessor/DAO/FormProcessorDefaultDataInput.php
+#: CRM/FormProcessor/DAO/FormProcessorInput.php
+#: CRM/FormProcessor/DAO/FormProcessorValidateAction.php
+#: CRM/FormProcessor/DAO/FormProcessorValidateValidator.php
+#: Civi/FormProcessor/Runner.php
 msgid "Form Processor ID"
 msgstr "Form işleyici kimliği"
 
 #: CRM/FormProcessor/DAO/FormProcessorAction.php
+#: CRM/FormProcessor/DAO/FormProcessorCalculateAction.php
 #: CRM/FormProcessor/DAO/FormProcessorDefaultDataAction.php
+#: CRM/FormProcessor/DAO/FormProcessorDefaultDataInput.php
+#: CRM/FormProcessor/DAO/FormProcessorInput.php
+#: CRM/FormProcessor/DAO/FormProcessorValidateAction.php
+#: CRM/FormProcessor/DAO/FormProcessorValidateValidator.php
+msgid "FK to Form Processor"
+msgstr ""
+
+#: CRM/FormProcessor/DAO/FormProcessorAction.php
+#: CRM/FormProcessor/DAO/FormProcessorCalculateAction.php
+#: CRM/FormProcessor/DAO/FormProcessorDefaultDataAction.php
+#: CRM/FormProcessor/DAO/FormProcessorDefaultDataInput.php
+#: CRM/FormProcessor/DAO/FormProcessorInput.php
+#: CRM/FormProcessor/DAO/FormProcessorValidateAction.php
+#: CRM/FormProcessor/DAO/FormProcessorValidateValidator.php
 #: api/v3/FormProcessorAction/Create.php
+#: api/v3/FormProcessorCalculateAction/Create.php
 #: api/v3/FormProcessorDefaultDataAction/Create.php
+#: api/v3/FormProcessorDefaultDataInput/Create.php
+#: api/v3/FormProcessorInput/Create.php
+#: api/v3/FormProcessorValidateAction/Create.php
+#: api/v3/FormProcessorValidateValidator/Create.php
 msgid "Weight"
 msgstr "Ağırlık"
 
 #: CRM/FormProcessor/DAO/FormProcessorAction.php
+#: CRM/FormProcessor/DAO/FormProcessorCalculateAction.php
 #: CRM/FormProcessor/DAO/FormProcessorDefaultDataAction.php
 #: CRM/FormProcessor/DAO/FormProcessorDefaultDataInput.php
 #: CRM/FormProcessor/DAO/FormProcessorInput.php
 #: CRM/FormProcessor/DAO/FormProcessorInstance.php
-#: ang/form_processor/FormProcessorEditCtrl/Details.html
-#: ang/form_processor/FormProcessorListCtrl.html
-#: ang/form_processor/actions/ActionDialogCtrl.html
-#: ang/form_processor/inputs/InputDialogCtrl.html
-#: ang/form_processor/inputs/crmFormProcessorInputs.html
+#: CRM/FormProcessor/DAO/FormProcessorValidateAction.php
+#: CRM/FormProcessor/DAO/FormProcessorValidateValidator.php
+#: CRM/FormProcessor/Form/AbstractConfigurationAction.php
+#: CRM/FormProcessor/Form/AbstractConfigurationInput.php
+#: CRM/FormProcessor/Form/Configuration.php
+#: CRM/FormProcessor/Form/ValidationConfigurationValidator.php
+#: api/v3/FormProcessorAction/CheckName.php
 #: api/v3/FormProcessorAction/Create.php
-#: api/v3/FormProcessorAction/Validatename.php
+#: api/v3/FormProcessorCalculateAction/CheckName.php
+#: api/v3/FormProcessorCalculateAction/Create.php
+#: api/v3/FormProcessorDefaultDataAction/CheckName.php
 #: api/v3/FormProcessorDefaultDataAction/Create.php
-#: api/v3/FormProcessorDefaultDataAction/Validatename.php
+#: api/v3/FormProcessorDefaultDataInput/CheckName.php
 #: api/v3/FormProcessorDefaultDataInput/Create.php
-#: api/v3/FormProcessorDefaultDataInput/Validatename.php
+#: api/v3/FormProcessorInput/CheckName.php
 #: api/v3/FormProcessorInput/Create.php
-#: api/v3/FormProcessorInput/Validatename.php
+#: api/v3/FormProcessorInstance/CheckName.php
 #: api/v3/FormProcessorInstance/Create.php
-#: api/v3/FormProcessorInstance/Validatename.php
-msgid "Name"
-msgstr "Ad"
-
-#: CRM/FormProcessor/DAO/FormProcessorAction.php
-#: CRM/FormProcessor/DAO/FormProcessorDefaultDataAction.php
-#: CRM/FormProcessor/DAO/FormProcessorDefaultDataInput.php
-#: CRM/FormProcessor/DAO/FormProcessorInput.php
-#: CRM/FormProcessor/DAO/FormProcessorInstance.php
-#: ang/form_processor/FormProcessorEditCtrl/Details.html
-#: ang/form_processor/FormProcessorListCtrl.html
-#: ang/form_processor/actions/ActionDialogCtrl.html
-#: ang/form_processor/actions/crmFormProcessorActions.html
-#: ang/form_processor/inputs/InputDialogCtrl.html
-#: ang/form_processor/inputs/crmFormProcessorInputs.html
-#: api/v3/FormProcessorAction/Converttitletoname.php
-#: api/v3/FormProcessorAction/Create.php
-#: api/v3/FormProcessorDefaultDataAction/Converttitletoname.php
-#: api/v3/FormProcessorDefaultDataAction/Create.php
-#: api/v3/FormProcessorDefaultDataInput/Converttitletoname.php
-#: api/v3/FormProcessorDefaultDataInput/Create.php
-#: api/v3/FormProcessorInput/Converttitletoname.php
-#: api/v3/FormProcessorInput/Create.php
-#: api/v3/FormProcessorInstance/Create.php
+#: api/v3/FormProcessorValidateAction/CheckName.php
+#: api/v3/FormProcessorValidateAction/Create.php
+#: api/v3/FormProcessorValidateValidator/CheckName.php
+#: api/v3/FormProcessorValidateValidator/Create.php
+#: managed/SavedSearch_Form_Processors.mgd.php
+#: templates/CRM/FormProcessor/Form/Blocks/Actions.tpl
+#: templates/CRM/FormProcessor/Form/Blocks/CalculationActions.tpl
+#: templates/CRM/FormProcessor/Form/Blocks/Inputs.tpl
+#: templates/CRM/FormProcessor/Form/Blocks/ValidatorValidators.tpl
 msgid "Title"
 msgstr "Başlık"
 
 #: CRM/FormProcessor/DAO/FormProcessorAction.php
+#: CRM/FormProcessor/DAO/FormProcessorCalculateAction.php
 #: CRM/FormProcessor/DAO/FormProcessorDefaultDataAction.php
 #: CRM/FormProcessor/DAO/FormProcessorDefaultDataInput.php
 #: CRM/FormProcessor/DAO/FormProcessorInput.php
-#: ang/form_processor/actions/ActionDialogCtrl.html
-#: ang/form_processor/actions/crmFormProcessorActions.html
-#: ang/form_processor/inputs/InputDialogCtrl.html
-#: ang/form_processor/inputs/crmFormProcessorInputs.html
+#: CRM/FormProcessor/DAO/FormProcessorInstance.php
+#: CRM/FormProcessor/DAO/FormProcessorValidateAction.php
+#: CRM/FormProcessor/DAO/FormProcessorValidateValidator.php
+#: CRM/FormProcessor/Form/AbstractConfigurationAction.php
+#: CRM/FormProcessor/Form/AbstractConfigurationInput.php
+#: CRM/FormProcessor/Form/Configuration.php
+#: CRM/FormProcessor/Form/ValidationConfigurationValidator.php
+#: api/v3/FormProcessorAction/CheckName.php
 #: api/v3/FormProcessorAction/Create.php
+#: api/v3/FormProcessorCalculateAction/CheckName.php
+#: api/v3/FormProcessorCalculateAction/Create.php
+#: api/v3/FormProcessorDefaultDataAction/CheckName.php
+#: api/v3/FormProcessorDefaultDataAction/Create.php
+#: api/v3/FormProcessorDefaultDataInput/CheckName.php
+#: api/v3/FormProcessorDefaultDataInput/Create.php
+#: api/v3/FormProcessorInput/CheckName.php
+#: api/v3/FormProcessorInput/Create.php
+#: api/v3/FormProcessorInstance/CheckName.php
+#: api/v3/FormProcessorInstance/Create.php
+#: api/v3/FormProcessorValidateAction/CheckName.php
+#: api/v3/FormProcessorValidateAction/Create.php
+#: api/v3/FormProcessorValidateValidator/CheckName.php
+#: api/v3/FormProcessorValidateValidator/Create.php
+msgid "Name"
+msgstr "Ad"
+
+#: CRM/FormProcessor/DAO/FormProcessorAction.php
+#: CRM/FormProcessor/DAO/FormProcessorCalculateAction.php
+#: CRM/FormProcessor/DAO/FormProcessorDefaultDataAction.php
+#: CRM/FormProcessor/DAO/FormProcessorDefaultDataInput.php
+#: CRM/FormProcessor/DAO/FormProcessorInput.php
+#: CRM/FormProcessor/DAO/FormProcessorValidateAction.php
+#: CRM/FormProcessor/DAO/FormProcessorValidateValidator.php
+#: CRM/FormProcessor/Form/AbstractConfigurationAction.php
+#: CRM/FormProcessor/Form/AbstractConfigurationCondition.php
+#: CRM/FormProcessor/Form/AbstractConfigurationDelay.php
+#: CRM/FormProcessor/Form/AbstractConfigurationInput.php
+#: CRM/FormProcessor/Form/AbstractConfigurationInputValidation.php
+#: CRM/FormProcessor/Form/ValidationConfigurationValidator.php
+#: api/v3/FormProcessorAction/Create.php
+#: api/v3/FormProcessorCalculateAction/Create.php
 #: api/v3/FormProcessorDefaultDataAction/Create.php
 #: api/v3/FormProcessorDefaultDataInput/Create.php
 #: api/v3/FormProcessorInput/Create.php
+#: api/v3/FormProcessorValidateAction/Create.php
+#: api/v3/FormProcessorValidateValidator/Create.php
+#: templates/CRM/FormProcessor/Form/Blocks/Actions.tpl
+#: templates/CRM/FormProcessor/Form/Blocks/CalculationActions.tpl
+#: templates/CRM/FormProcessor/Form/Blocks/Inputs.tpl
+#: templates/CRM/FormProcessor/Form/Blocks/ValidatorValidators.tpl
 msgid "Type"
 msgstr "Tür"
 
 #: CRM/FormProcessor/DAO/FormProcessorAction.php
+#: CRM/FormProcessor/DAO/FormProcessorCalculateAction.php
 #: CRM/FormProcessor/DAO/FormProcessorDefaultDataAction.php
 #: CRM/FormProcessor/DAO/FormProcessorDefaultDataInput.php
 #: CRM/FormProcessor/DAO/FormProcessorInput.php
+#: CRM/FormProcessor/DAO/FormProcessorValidateAction.php
+#: CRM/FormProcessor/DAO/FormProcessorValidateValidator.php
 #: CRM/FormProcessor/DAO/FormProcessorValidation.php
-#: ang/form_processor/DelayedActionHandlerDialogCtrl.html
+#: CRM/FormProcessor/Form/AbstractConfigurationInput.php
 #: api/v3/FormProcessorAction/Create.php
+#: api/v3/FormProcessorCalculateAction/Create.php
 #: api/v3/FormProcessorDefaultDataAction/Create.php
 #: api/v3/FormProcessorDefaultDataInput/Create.php
 #: api/v3/FormProcessorInput/Create.php
+#: api/v3/FormProcessorValidateAction/Create.php
+#: api/v3/FormProcessorValidateValidator/Create.php
 #: api/v3/FormProcessorValidation/Create.php
+#: templates/CRM/FormProcessor/Form/Blocks/ActionConfiguration.tpl
+#: templates/CRM/FormProcessor/Form/Blocks/ConditionConfiguration.tpl
+#: templates/CRM/FormProcessor/Form/Blocks/DelayConfiguration.tpl
+#: templates/CRM/FormProcessor/Form/Blocks/InputValidationConfiguration.tpl
+#: templates/CRM/FormProcessor/Form/Blocks/ValidatorConfiguration.tpl
 msgid "Configuration"
 msgstr "Yapılandırma"
 
 #: CRM/FormProcessor/DAO/FormProcessorAction.php
+#: CRM/FormProcessor/DAO/FormProcessorCalculateAction.php
 #: CRM/FormProcessor/DAO/FormProcessorDefaultDataAction.php
+#: CRM/FormProcessor/DAO/FormProcessorValidateAction.php
+#: CRM/FormProcessor/DAO/FormProcessorValidateValidator.php
 #: api/v3/FormProcessorAction/Create.php
+#: api/v3/FormProcessorCalculateAction/Create.php
 #: api/v3/FormProcessorDefaultDataAction/Create.php
+#: api/v3/FormProcessorValidateAction/Create.php
+#: api/v3/FormProcessorValidateValidator/Create.php
 msgid "Mapping"
 msgstr "Eşleşme"
 
 #: CRM/FormProcessor/DAO/FormProcessorAction.php
+#: CRM/FormProcessor/DAO/FormProcessorCalculateAction.php
 #: CRM/FormProcessor/DAO/FormProcessorDefaultDataAction.php
-#: api/v3/FormProcessorAction/Create.php
-msgid "Condition configuration"
-msgstr "Koşul yapılandırması"
+#: CRM/FormProcessor/DAO/FormProcessorValidateAction.php
+msgid "Condition Configuration"
+msgstr ""
 
 #: CRM/FormProcessor/DAO/FormProcessorAction.php
-#: ang/form_processor/actions/crmFormProcessorActions.html
 #: api/v3/FormProcessorAction/Create.php
+#: templates/CRM/FormProcessor/Form/Blocks/Actions.tpl
 msgid "Delay"
 msgstr "Gecikme"
 
 #: CRM/FormProcessor/DAO/FormProcessorAction.php
-#: api/v3/FormProcessorAction/Create.php
-msgid "Delay configuration"
-msgstr "Gecikme yapılandırması"
+msgid "Delay Configuration"
+msgstr ""
+
+#: CRM/FormProcessor/DAO/FormProcessorCalculateAction.php
+msgid "Form Processor Calculate Actions"
+msgstr ""
+
+#: CRM/FormProcessor/DAO/FormProcessorCalculateAction.php
+msgid "Form Processor Calculate Action"
+msgstr ""
+
+#: CRM/FormProcessor/DAO/FormProcessorDefaultDataAction.php
+msgid "Form Processor Default Data Actions"
+msgstr ""
+
+#: CRM/FormProcessor/DAO/FormProcessorDefaultDataAction.php
+msgid "Form Processor Default Data Action"
+msgstr ""
+
+#: CRM/FormProcessor/DAO/FormProcessorDefaultDataInput.php
+msgid "Form Processor Default Data Inputs"
+msgstr ""
+
+#: CRM/FormProcessor/DAO/FormProcessorDefaultDataInput.php
+msgid "Form Processor Default Data Input"
+msgstr ""
 
 #: CRM/FormProcessor/DAO/FormProcessorDefaultDataInput.php
 #: CRM/FormProcessor/DAO/FormProcessorInput.php
-#: api/v3/FormProcessorAction/Create.php
-#: api/v3/FormProcessorDefaultDataAction/Create.php
-#: api/v3/FormProcessorDefaultDataInput/Create.php
-#: api/v3/FormProcessorInput/Create.php
-msgid "Form Processor Instance ID"
-msgstr "Form işleyici kopyası kimliği"
+msgid "Include in formatted params"
+msgstr ""
 
 #: CRM/FormProcessor/DAO/FormProcessorDefaultDataInput.php
 #: CRM/FormProcessor/DAO/FormProcessorInput.php
-#: ang/form_processor/inputs/crmFormProcessorInputs.html
+#: CRM/FormProcessor/Form/AbstractConfigurationInput.php
 #: api/v3/FormProcessorDefaultDataInput/Create.php
 #: api/v3/FormProcessorInput/Create.php
+#: templates/CRM/FormProcessor/Form/Blocks/Inputs.tpl
 msgid "Is required"
 msgstr "Zorunlu"
 
 #: CRM/FormProcessor/DAO/FormProcessorDefaultDataInput.php
 #: CRM/FormProcessor/DAO/FormProcessorInput.php
+#: CRM/FormProcessor/Form/AbstractConfigurationInput.php
 #: api/v3/FormProcessorDefaultDataInput/Create.php
 #: api/v3/FormProcessorInput/Create.php
 msgid "Default Value"
 msgstr "Varsayılan değer"
 
+#: CRM/FormProcessor/DAO/FormProcessorDefaultDataInput.php
+#: CRM/FormProcessor/DAO/FormProcessorInput.php
+#: templates/CRM/FormProcessor/Form/Blocks/ActionConfiguration.tpl
+#: templates/CRM/FormProcessor/Form/Blocks/ConditionConfiguration.tpl
+#: templates/CRM/FormProcessor/Form/Blocks/ValidatorConfiguration.tpl
+msgid "Parameter Mapping"
+msgstr "Parametre eşleştirme"
+
+#: CRM/FormProcessor/DAO/FormProcessorDefaultDataInput.php
+#: CRM/FormProcessor/DAO/FormProcessorInput.php
+msgid "Default Data Parameter Mapping"
+msgstr ""
+
+#: CRM/FormProcessor/DAO/FormProcessorInput.php
+msgid "Form Processor Inputs"
+msgstr ""
+
+#: CRM/FormProcessor/DAO/FormProcessorInput.php
+msgid "Form Processor Input"
+msgstr ""
+
+#: CRM/FormProcessor/DAO/FormProcessorInstance.php
+msgid "Form Processor Instances"
+msgstr ""
+
+#: CRM/FormProcessor/DAO/FormProcessorInstance.php
+msgid "Form Processor Instance"
+msgstr ""
+
 #: CRM/FormProcessor/DAO/FormProcessorInstance.php
 #: api/v3/FormProcessorInstance/Create.php
+#: managed/SavedSearch_Form_Processors.mgd.php
 msgid "Is active"
 msgstr "Etkin"
 
 #: CRM/FormProcessor/DAO/FormProcessorInstance.php
-#: ang/form_processor/FormProcessorEditCtrl/Details.html
-#: ang/form_processor/FormProcessorListCtrl.html
+msgid "Enabled"
+msgstr "Etkin"
+
+#: CRM/FormProcessor/DAO/FormProcessorInstance.php
+#: CRM/FormProcessor/Form/Configuration.php
 #: api/v3/FormProcessorInstance/Create.php
+#: managed/SavedSearch_Form_Processors.mgd.php
 msgid "Description"
 msgstr "Açıklama"
 
 #: CRM/FormProcessor/DAO/FormProcessorInstance.php
-#: ang/form_processor/OutputHandlerDialogCtrl.html
-#: api/v3/FormProcessorInstance/Create.php
-msgid "Output handler"
+#: CRM/FormProcessor/Form/Configuration.php
+msgid "Output Handler"
 msgstr "Çıktı işleyici"
 
 #: CRM/FormProcessor/DAO/FormProcessorInstance.php
-msgid "Output handler Configuration"
-msgstr "Çıktı işleyici yapılandırması"
+msgid "Output Handler Configuration"
+msgstr ""
 
 #: CRM/FormProcessor/DAO/FormProcessorInstance.php
-#: api/v3/FormProcessorInstance/Create.php
-msgid "Enable default data"
-msgstr "Varsayılan veriler kullanılsın"
+msgid "Enable Default Data Retrieval"
+msgstr ""
 
 #: CRM/FormProcessor/DAO/FormProcessorInstance.php
-#: api/v3/FormProcessorInstance/Create.php
-msgid "Default data output configuration"
-msgstr "Varsayılan veriler çıktı yapılandırması"
+msgid "Default Data Output Configuration"
+msgstr ""
 
 #: CRM/FormProcessor/DAO/FormProcessorInstance.php
-#: ang/form_processor/FormProcessorEditCtrl/Details.html
+msgid "Calculation Output Configuration"
+msgstr ""
+
+#: CRM/FormProcessor/DAO/FormProcessorInstance.php
+msgid "Created Date"
+msgstr "Oluşturulma tarihi"
+
+#: CRM/FormProcessor/DAO/FormProcessorInstance.php
+msgid "created_user_id By"
+msgstr ""
+
+#: CRM/FormProcessor/DAO/FormProcessorInstance.php
+msgid "FK to Contact"
+msgstr "Kişi dış anahtarı"
+
+#: CRM/FormProcessor/DAO/FormProcessorInstance.php
+msgid "Modified Date"
+msgstr "Değiştirilme tarihi"
+
+#: CRM/FormProcessor/DAO/FormProcessorInstance.php
+msgid "modified_user_id By"
+msgstr ""
+
+#: CRM/FormProcessor/DAO/FormProcessorInstance.php
+#: CRM/FormProcessor/Form/Configuration.php
 #: api/v3/FormProcessorInstance/Create.php
 msgid "Permission"
 msgstr "İzin"
 
 #: CRM/FormProcessor/DAO/FormProcessorInstance.php
-msgid "Source file"
-msgstr "Kaynak dosya"
+#: managed/SavedSearch_Form_Processors.mgd.php
+msgid "Status"
+msgstr "Durum"
+
+#: CRM/FormProcessor/DAO/FormProcessorInstance.php
+msgid "Source File"
+msgstr ""
+
+#: CRM/FormProcessor/DAO/FormProcessorValidateAction.php
+msgid "Form Processor Validate Actions"
+msgstr ""
+
+#: CRM/FormProcessor/DAO/FormProcessorValidateAction.php
+msgid "Form Processor Validate Action"
+msgstr ""
+
+#: CRM/FormProcessor/DAO/FormProcessorValidateValidator.php
+msgid "Form Processor Validate Validators"
+msgstr ""
+
+#: CRM/FormProcessor/DAO/FormProcessorValidateValidator.php
+msgid "Form Processor Validate Validator"
+msgstr ""
+
+#: CRM/FormProcessor/DAO/FormProcessorValidateValidator.php
+#: api/v3/FormProcessorValidateValidator/Create.php
+#: templates/CRM/FormProcessor/Form/Configuration.tpl
+msgid "Inputs"
+msgstr "Girişler"
+
+#: CRM/FormProcessor/DAO/FormProcessorValidation.php
+msgid "Form Processor Validations"
+msgstr ""
+
+#: CRM/FormProcessor/DAO/FormProcessorValidation.php
+#: templates/CRM/FormProcessor/Form/ValidationConfiguration.tpl
+msgid "Form Processor Validation"
+msgstr ""
+
+#: CRM/FormProcessor/DAO/FormProcessorValidation.php
+msgid "Unique FormProcessorValidation ID"
+msgstr ""
 
 #: CRM/FormProcessor/DAO/FormProcessorValidation.php
 #: api/v3/FormProcessorValidation/Create.php
@@ -241,9 +474,157 @@ msgstr "Varlık kimliği"
 msgid "Validator"
 msgstr "Doğrulayıcı"
 
+#: CRM/FormProcessor/Form/AbstractConfiguration.php
+#: CRM/FormProcessor/Form/AbstractConfigurationAction.php
+#: CRM/FormProcessor/Form/AbstractConfigurationCondition.php
+#: CRM/FormProcessor/Form/AbstractConfigurationDelay.php
+#: CRM/FormProcessor/Form/AbstractConfigurationInput.php
+#: CRM/FormProcessor/Form/AbstractConfigurationInputValidation.php
+#: CRM/FormProcessor/Form/CalculationConfiguration.php
+#: CRM/FormProcessor/Form/ValidationConfigurationValidator.php
+msgid "Save"
+msgstr "Kaydet"
+
+#: CRM/FormProcessor/Form/AbstractConfiguration.php
+#: CRM/FormProcessor/Form/AbstractConfigurationAction.php
+#: CRM/FormProcessor/Form/AbstractConfigurationCondition.php
+#: CRM/FormProcessor/Form/AbstractConfigurationDelay.php
+#: CRM/FormProcessor/Form/AbstractConfigurationInput.php
+#: CRM/FormProcessor/Form/AbstractConfigurationInputValidation.php
+#: CRM/FormProcessor/Form/CalculationConfiguration.php
+#: CRM/FormProcessor/Form/Configuration.php CRM/FormProcessor/Form/Import.php
+#: CRM/FormProcessor/Form/ValidationConfigurationValidator.php
+msgid "Cancel"
+msgstr "İptal"
+
+#: CRM/FormProcessor/Form/AbstractConfiguration.php
+msgid "Saved form processor"
+msgstr ""
+
+#: CRM/FormProcessor/Form/AbstractConfiguration.php
+msgid "Saved"
+msgstr "Kaydedildi"
+
+#: CRM/FormProcessor/Form/AbstractConfigurationAction.php
+#: CRM/FormProcessor/Form/AbstractConfigurationCondition.php
+#: CRM/FormProcessor/Form/AbstractConfigurationDelay.php
+#: CRM/FormProcessor/Form/AbstractConfigurationInput.php
+#: CRM/FormProcessor/Form/AbstractConfigurationInputValidation.php
+#: CRM/FormProcessor/Form/Configuration.php
+#: CRM/FormProcessor/Form/ValidationConfigurationValidator.php
+msgid "Delete"
+msgstr "Sil"
+
+#: CRM/FormProcessor/Form/AbstractConfigurationAction.php
+#: CRM/FormProcessor/Form/AbstractConfigurationInput.php
+#: CRM/FormProcessor/Form/AbstractConfigurationInputValidation.php
+#: CRM/FormProcessor/Form/CalculationConfiguration.php
+#: CRM/FormProcessor/Form/Configuration.php
+#: CRM/FormProcessor/Form/DefaultDataConfiguration.php
 #: CRM/FormProcessor/Form/RunFormProcessor.php
+#: CRM/FormProcessor/Form/ValidationConfigurationValidator.php
 msgid "- select -"
 msgstr "- Seçin -"
+
+#: CRM/FormProcessor/Form/AbstractConfigurationAction.php
+msgid "Action removed"
+msgstr ""
+
+#: CRM/FormProcessor/Form/AbstractConfigurationAction.php
+#: CRM/FormProcessor/Form/AbstractConfigurationInput.php
+#: CRM/FormProcessor/Form/AbstractConfigurationInputValidation.php
+#: CRM/FormProcessor/Form/Configuration.php
+#: CRM/FormProcessor/Form/ValidationConfigurationValidator.php
+msgid "Removed"
+msgstr "Silindi"
+
+#: CRM/FormProcessor/Form/AbstractConfigurationCondition.php
+msgid "- no condition -"
+msgstr ""
+
+#: CRM/FormProcessor/Form/AbstractConfigurationDelay.php
+msgid "- no delay -"
+msgstr ""
+
+#: CRM/FormProcessor/Form/AbstractConfigurationDelay.php
+#: CRM/FormProcessor/Form/AbstractConfigurationInput.php
+#: CRM/FormProcessor/Form/AbstractConfigurationInputValidation.php
+#: CRM/FormProcessor/Utils/AddConfigToForm.php
+msgid "- Select -"
+msgstr "- Seçin -"
+
+#: CRM/FormProcessor/Form/AbstractConfigurationDelay.php
+#: CRM/FormProcessor/Form/AbstractConfigurationInput.php
+#: CRM/FormProcessor/Form/AbstractConfigurationInputValidation.php
+msgid "Tokens"
+msgstr "Kodlar"
+
+#: CRM/FormProcessor/Form/AbstractConfigurationInput.php
+msgid "Include in formatted parameters"
+msgstr ""
+
+#: CRM/FormProcessor/Form/AbstractConfigurationInput.php
+msgid "Input removed"
+msgstr ""
+
+#: CRM/FormProcessor/Form/AbstractConfigurationInputValidation.php
+msgid "Validatotion rule removed"
+msgstr ""
+
+#: CRM/FormProcessor/Form/CalculationConfiguration.php
+#: CRM/FormProcessor/Form/DefaultDataConfiguration.php
+#: Civi/FormProcessor/OutputHandler/OutputAllActionOutput.php
+msgid "Input :: %1"
+msgstr ""
+
+#: CRM/FormProcessor/Form/Configuration.php
+msgid "Output configuration"
+msgstr ""
+
+#: CRM/FormProcessor/Form/Configuration.php
+msgid "Restore to imported version"
+msgstr ""
+
+#: CRM/FormProcessor/Form/Configuration.php
+msgid "Enabled?"
+msgstr "Etkin"
+
+#: CRM/FormProcessor/Form/Configuration.php
+msgid "Form Processor removed"
+msgstr ""
+
+#: CRM/FormProcessor/Form/Configuration.php
+msgid "Form Processor set to imported version"
+msgstr ""
+
+#: CRM/FormProcessor/Form/Configuration.php
+msgid "Form Processor Updated"
+msgstr ""
+
+#: CRM/FormProcessor/Form/DefaultDataConfiguration.php
+msgid "Enable default data retrieval?"
+msgstr "Varsayılan veriler alınsın"
+
+#: CRM/FormProcessor/Form/Import.php
+msgid "Import Form Processor File"
+msgstr ""
+
+#: CRM/FormProcessor/Form/Import.php
+#: managed/SavedSearch_Form_Processors.mgd.php
+msgid "Import"
+msgstr "İçe aktar"
+
+#: CRM/FormProcessor/Form/Import.php
+msgid "Imported file should be a json file"
+msgstr "İçe aktarılan dosya bir JSON dosyası olmalıdır"
+
+#: CRM/FormProcessor/Form/Import.php
+msgid "Could not move custom file to custom upload directory"
+msgstr "Özel dosya özel yüklemeler klasörüne taşınamadı"
+
+#: CRM/FormProcessor/Form/Import.php
+msgid "Imported form processor"
+msgstr ""
 
 #: CRM/FormProcessor/Form/RunFormProcessor.php
 msgid "Load"
@@ -253,21 +634,51 @@ msgstr "Yükle"
 msgid "Submit"
 msgstr "Gönder"
 
-#: CRM/FormProcessor/Status.php
-msgid "In database"
-msgstr "Veri tabanında"
+#: CRM/FormProcessor/Form/TabHeader.php
+msgid "Define form processor"
+msgstr "Form işleyiciyi tanımlayın"
+
+#: CRM/FormProcessor/Form/TabHeader.php
+#: templates/CRM/FormProcessor/Form/DefaultDataConfiguration.tpl
+msgid "Retrieval of defaults"
+msgstr "Varsayılan verilerin alınması"
+
+#: CRM/FormProcessor/Form/TabHeader.php
+msgid "Validation"
+msgstr "Doğrulama"
+
+#: CRM/FormProcessor/Form/TabHeader.php
+msgid "Calculation"
+msgstr ""
+
+#: CRM/FormProcessor/Form/TabHeader.php
+#: managed/SavedSearch_Form_Processors.mgd.php
+msgid "Try out"
+msgstr "Dene"
+
+#: CRM/FormProcessor/Form/ValidationConfigurationValidator.php
+msgid "Show message for inputs"
+msgstr ""
+
+#: CRM/FormProcessor/Form/ValidationConfigurationValidator.php
+msgid "- all inputs -"
+msgstr ""
+
+#: CRM/FormProcessor/Form/ValidationConfigurationValidator.php
+msgid "Validator removed"
+msgstr ""
 
 #: CRM/FormProcessor/Status.php
-msgid "In code"
-msgstr "Kod içinde"
+msgid "Created locally"
+msgstr ""
 
 #: CRM/FormProcessor/Status.php
-msgid "Overriden"
-msgstr "Değiştirilmiş"
+msgid "Imported"
+msgstr ""
 
-#: CRM/FormProcessor/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "%1, %2 sürümüne güncelle"
+#: CRM/FormProcessor/Status.php
+msgid "Imported and changed locally"
+msgstr ""
 
 #: CRM/FormProcessor/Upgrader.php
 msgid "Prerequisite check failed."
@@ -298,18 +709,45 @@ msgstr "X dakika geciktir"
 msgid "Minutes"
 msgstr "Dakika"
 
+#: Civi/FormProcessor/EventListener/FormatSubscriber.php
+msgid "Plain Text with submitted data"
+msgstr ""
+
+#: Civi/FormProcessor/EventListener/FormatSubscriber.php
+msgid "HTML Table with submitted data"
+msgstr ""
+
+#: Civi/FormProcessor/EventListener/FormatSubscriber.php
+#: Civi/FormProcessor/Type/CountryIsoCodeType.php
+#: Civi/FormProcessor/Type/CountryType.php
+#: Civi/FormProcessor/Type/DateType.php
+#: Civi/FormProcessor/Type/OptionGroupType.php
+#: Civi/FormProcessor/Type/StateProvinceType.php
+#: Civi/FormProcessor/Type/YesNoOptionListType.php
+#: templates/CRM/FormProcessor/Form/Blocks/Inputs.tpl
+msgid "Yes"
+msgstr "Evet"
+
+#: Civi/FormProcessor/EventListener/FormatSubscriber.php
+#: Civi/FormProcessor/Type/CountryIsoCodeType.php
+#: Civi/FormProcessor/Type/CountryType.php
+#: Civi/FormProcessor/Type/DateType.php
+#: Civi/FormProcessor/Type/OptionGroupType.php
+#: Civi/FormProcessor/Type/StateProvinceType.php
+#: Civi/FormProcessor/Type/YesNoOptionListType.php
+#: templates/CRM/FormProcessor/Form/Blocks/Inputs.tpl
+msgid "No"
+msgstr "Hayır"
+
 #: Civi/FormProcessor/OutputHandler/FormatOutput.php
 msgid "Output fields"
 msgstr "Çıktı alanları"
 
 #: Civi/FormProcessor/OutputHandler/FormatOutput.php
-#: ang/form_processor/FormProcessorEditCtrl/DefaultDataOutputTable.html
-#: ang/form_processor/crmFormProcessorOutputHandler/FormatActionOutput.html
 msgid "Field"
 msgstr "Alan"
 
 #: Civi/FormProcessor/OutputHandler/FormatOutput.php
-#: ang/form_processor/crmFormProcessorOutputHandler/FormatActionOutput.html
 msgid "Output name"
 msgstr "Çıktı adı"
 
@@ -318,8 +756,28 @@ msgid "Decide what to send"
 msgstr "Gönderilecekleri seçin"
 
 #: Civi/FormProcessor/OutputHandler/OutputAllActionOutput.php
+msgid "Action %1 :: %2"
+msgstr ""
+
+#: Civi/FormProcessor/OutputHandler/OutputAllActionOutput.php
 msgid "Send everything"
 msgstr "Her şey gönderilsin"
+
+#: Civi/FormProcessor/Runner.php
+msgid "Form Processor Name"
+msgstr ""
+
+#: Civi/FormProcessor/Type/BooleanType.php
+msgid "Represent data as:"
+msgstr ""
+
+#: Civi/FormProcessor/Type/BooleanType.php
+msgid "TRUE/FALSE"
+msgstr ""
+
+#: Civi/FormProcessor/Type/BooleanType.php
+msgid "1/0"
+msgstr ""
 
 #: Civi/FormProcessor/Type/CampaignType.php
 msgid "Value field"
@@ -329,13 +787,73 @@ msgstr "Değer alanı"
 msgid "Name of the campaign"
 msgstr "Kampanyanın adı"
 
+#: Civi/FormProcessor/Type/CaseTypeType.php
+#: Civi/FormProcessor/Type/ContactSubTypeType.php
+#: Civi/FormProcessor/Type/CustomOptionListType.php
+#: Civi/FormProcessor/Type/MailingGroupType.php
+#: Civi/FormProcessor/Type/OptionGroupType.php
+#: Civi/FormProcessor/Type/ParentMailingGroupType.php
+#: Civi/FormProcessor/Type/ParticipantStatusType.php
+#: Civi/FormProcessor/Type/TagType.php Civi/FormProcessor/Type/WeekDays.php
+msgid "Multiple"
+msgstr "Çoklu"
+
+#: Civi/FormProcessor/Type/CaseTypeType.php
+#: Civi/FormProcessor/Type/ContactSubTypeType.php
+#: Civi/FormProcessor/Type/CustomOptionListType.php
+#: Civi/FormProcessor/Type/MailingGroupType.php
+#: Civi/FormProcessor/Type/OptionGroupType.php
+#: Civi/FormProcessor/Type/ParentMailingGroupType.php
+#: Civi/FormProcessor/Type/ParticipantStatusType.php
+#: Civi/FormProcessor/Type/TagType.php Civi/FormProcessor/Type/WeekDays.php
+msgid "Single value"
+msgstr "Tek değer"
+
+#: Civi/FormProcessor/Type/CaseTypeType.php
+#: Civi/FormProcessor/Type/ContactSubTypeType.php
+#: Civi/FormProcessor/Type/CustomOptionListType.php
+#: Civi/FormProcessor/Type/MailingGroupType.php
+#: Civi/FormProcessor/Type/OptionGroupType.php
+#: Civi/FormProcessor/Type/ParentMailingGroupType.php
+#: Civi/FormProcessor/Type/ParticipantStatusType.php
+#: Civi/FormProcessor/Type/TagType.php Civi/FormProcessor/Type/WeekDays.php
+msgid "Multiple values"
+msgstr "Çoklu değer"
+
+#: Civi/FormProcessor/Type/CountryIsoCodeType.php
+#: Civi/FormProcessor/Type/CountryType.php
+msgid "Limit to enabled countries"
+msgstr ""
+
+#: Civi/FormProcessor/Type/CountryIsoCodeType.php
+msgid ""
+"Limit countries in Administer » Localization » Languages, Currency, Locations.\n"
+"<br /><br /><strong>Note</strong> that this input type translates the ISO code into a CiviCRM country ID.\n"
+"<br />So if the initial value is NL, the Form Processor action using the input receives 1152"
+msgstr ""
+
+#: Civi/FormProcessor/Type/CountryType.php
+msgid "Use country name as value"
+msgstr ""
+
+#: Civi/FormProcessor/Type/CountryType.php
+msgid "Select \"Yes\" to pass a country name, \"No\" to pass a numeric ID."
+msgstr ""
+
+#: Civi/FormProcessor/Type/CountryType.php
+msgid ""
+"Limit countries in Administer » Localization » Languages, Currency, "
+"Locations."
+msgstr ""
+
 #: Civi/FormProcessor/Type/CustomOptionListType.php
 #: Civi/FormProcessor/Validation/DateValidator.php
-#: ang/form_processor/FormProcessorEditCtrl/DefaultDataOutputTable.html
+#: templates/CRM/FormProcessor/Form/DefaultDataConfiguration.tpl
 msgid "Value"
 msgstr "Değer"
 
 #: Civi/FormProcessor/Type/CustomOptionListType.php
+#: Civi/FormProcessor/Type/EventPriceListType.php
 msgid "Label"
 msgstr "Etiket"
 
@@ -350,44 +868,44 @@ msgstr "Biçim"
 #: Civi/FormProcessor/Type/DateType.php
 msgid ""
 "The format is the input format of the date. The following modifiers are availble: <br />\n"
-"\t\t\t\t\tY: year four digit (e.g. 2018) <br />\n"
-"\t\t\t\t\tm: month two digit (eg 03) <br />\n"
-"\t\t\t\t\td: day two digit (eg 04) <br />\n"
-"\t\t\t\t\tH: hours in 24 format with a preceding 0 (eg 08) <br />\n"
-"\t\t\t\t\ti: minute with a preceding 0 (eg 06) <br />\n"
-"\t\t\t\t\t<br />\n"
-"\t\t\t\t\t<a href=\"http://nl1.php.net/manual/en/datetime.createfromformat.php#refsect1-datetime.createfromformat-parameters\">More information at php.net</a>\n"
-"\t\t\t\t\t"
+"          Y: year four digit (e.g. 2018) <br />\n"
+"          m: month two digit (eg 03) <br />\n"
+"          d: day two digit (eg 04) <br />\n"
+"          H: hours in 24 format with a preceding 0 (eg 08) <br />\n"
+"          i: minute with a preceding 0 (eg 06) <br />\n"
+"          <br />\n"
+"          <a href=\"http://nl1.php.net/manual/en/datetime.createfromformat.php#refsect1-datetime.createfromformat-parameters\">More information at php.net</a>\n"
+"          "
 msgstr ""
-"Tarihin giriş biçimi. Şu kodlar kullanılabilir: <br />\n"
-"\t\t\t\t\tY: Dört basamaklı yıl (2018 gibi) <br />\n"
-"\t\t\t\t\tm: İki basamaklı ay (03 gibi) <br />\n"
-"\t\t\t\t\td: İki basamaklı gün (04 gibi) <br />\n"
-"\t\t\t\t\tH: Başında 0 ile 24 saat biçiminde saat (08 gibi) <br />\n"
-"\t\t\t\t\ti: Başında 0 olan dakika (06 gibi) <br />\n"
-"\t\t\t\t\t<br />\n"
-"\t\t\t\t\t<a href=\"http://nl1.php.net/manual/en/datetime.createfromformat.php#refsect1-datetime.createfromformat-parameters\">Ayrıntılı bilgi almak için php.net adresine bakabilirsiniz</a>\n"
-"\t\t\t\t\t"
 
 #: Civi/FormProcessor/Type/DateType.php
 msgid "Include time"
 msgstr "Saat katılsın"
 
-#: Civi/FormProcessor/Type/DateType.php
-#: Civi/FormProcessor/Type/OptionGroupType.php
-#: Civi/FormProcessor/Type/YesNoOptionListType.php
-#: ang/form_processor/FormProcessorListCtrl.html
-#: ang/form_processor/inputs/crmFormProcessorInputs.html
-msgid "No"
-msgstr "Hayır"
+#: Civi/FormProcessor/Type/EntityType.php
+msgid "Use CiviCRM Entity"
+msgstr ""
 
-#: Civi/FormProcessor/Type/DateType.php
-#: Civi/FormProcessor/Type/OptionGroupType.php
-#: Civi/FormProcessor/Type/YesNoOptionListType.php
-#: ang/form_processor/FormProcessorListCtrl.html
-#: ang/form_processor/inputs/crmFormProcessorInputs.html
-msgid "Yes"
-msgstr "Evet"
+#: Civi/FormProcessor/Type/EventPriceListType.php
+msgid "ID (Default)"
+msgstr ""
+
+#: Civi/FormProcessor/Type/EventPriceListType.php
+msgid "Amount"
+msgstr "Tutar"
+
+#: Civi/FormProcessor/Type/EventPriceListType.php
+msgid "Use as"
+msgstr ""
+
+#: Civi/FormProcessor/Type/EventPriceListType.php
+msgid ""
+"If unsure chose ID. The value is used in the form processor processing."
+msgstr ""
+
+#: Civi/FormProcessor/Type/EventPriceListType.php
+msgid "Event ID"
+msgstr "Etkinlik kimliği"
 
 #: Civi/FormProcessor/Type/Factory.php
 msgid "Numeric (no-decimal)"
@@ -400,6 +918,10 @@ msgstr "Sayısal (ondalık olan)"
 #: Civi/FormProcessor/Type/Factory.php
 msgid "Formatted decimal number"
 msgstr "Biçimlendirilmiş ondalık sayı"
+
+#: Civi/FormProcessor/Type/Factory.php
+msgid "Contact Entity (Contact ID)"
+msgstr ""
 
 #: Civi/FormProcessor/Type/Factory.php
 msgid "Short text"
@@ -430,6 +952,10 @@ msgid "Option Group"
 msgstr "Seçenek grubu"
 
 #: Civi/FormProcessor/Type/Factory.php
+msgid "Contact Sub Type"
+msgstr ""
+
+#: Civi/FormProcessor/Type/Factory.php
 msgid "Custom Options"
 msgstr "Özel seçenekler"
 
@@ -446,6 +972,10 @@ msgid "State/Province"
 msgstr "İl/Bölge"
 
 #: Civi/FormProcessor/Type/Factory.php
+msgid "Tags"
+msgstr "Etiketler"
+
+#: Civi/FormProcessor/Type/Factory.php
 msgid "Mailing Group"
 msgstr "Postalama grubu"
 
@@ -459,8 +989,16 @@ msgid "Participant Status"
 msgstr "Katılımcı durumu"
 
 #: Civi/FormProcessor/Type/Factory.php
+msgid "Event Price List"
+msgstr ""
+
+#: Civi/FormProcessor/Type/Factory.php
 msgid "Campaign"
 msgstr "Kampanya"
+
+#: Civi/FormProcessor/Type/Factory.php
+msgid "More campaign(s)"
+msgstr ""
 
 #: Civi/FormProcessor/Type/Factory.php
 msgid "Financial Type"
@@ -482,6 +1020,18 @@ msgstr "Adres ile dosya yükleme"
 msgid "Week Days"
 msgstr "Haftanın günleri"
 
+#: Civi/FormProcessor/Type/Factory.php
+msgid "Language"
+msgstr "Dil"
+
+#: Civi/FormProcessor/Type/Factory.php
+msgid "Case Type"
+msgstr "Olay türü"
+
+#: Civi/FormProcessor/Type/Factory.php
+msgid "Any CiviCRM Entity (ID)"
+msgstr ""
+
 #: Civi/FormProcessor/Type/FormattedDecimalType.php
 msgid "Decimal point"
 msgstr "Ondalık ayracı"
@@ -495,25 +1045,23 @@ msgid "Decimals"
 msgstr "Ondalık hane"
 
 #: Civi/FormProcessor/Type/MailingGroupType.php
-#: Civi/FormProcessor/Type/OptionGroupType.php
-#: Civi/FormProcessor/Type/ParticipantStatusType.php
-#: Civi/FormProcessor/Type/WeekDays.php
-msgid "Multiple"
-msgstr "Çoklu"
+#: Civi/FormProcessor/Type/ParentMailingGroupType.php
+msgid "Restrict to"
+msgstr ""
 
 #: Civi/FormProcessor/Type/MailingGroupType.php
-#: Civi/FormProcessor/Type/OptionGroupType.php
-#: Civi/FormProcessor/Type/ParticipantStatusType.php
-#: Civi/FormProcessor/Type/WeekDays.php
-msgid "Single value"
-msgstr "Tek değer"
+#: Civi/FormProcessor/Type/ParentMailingGroupType.php
+msgid "Public Pages"
+msgstr "Herkese açık sayfalar"
 
 #: Civi/FormProcessor/Type/MailingGroupType.php
-#: Civi/FormProcessor/Type/OptionGroupType.php
-#: Civi/FormProcessor/Type/ParticipantStatusType.php
-#: Civi/FormProcessor/Type/WeekDays.php
-msgid "Multiple values"
-msgstr "Çoklu değer"
+#: Civi/FormProcessor/Type/ParentMailingGroupType.php
+msgid "User and User Admin Only"
+msgstr "Yalnızca kullanıcı ve kullanıcı yöneticisi"
+
+#: Civi/FormProcessor/Type/MultiCampaignType.php
+msgid "Campaign(s)"
+msgstr "Kampanyalar"
 
 #: Civi/FormProcessor/Type/OptionGroupType.php
 msgid "Use label as value"
@@ -523,21 +1071,41 @@ msgstr "Değer olarak etiket kullanılsın"
 msgid "Option group"
 msgstr "Seçenek grubu"
 
+#: Civi/FormProcessor/Type/StateProvinceType.php
+msgid "Use state/province name as value"
+msgstr ""
+
+#: Civi/FormProcessor/Type/StateProvinceType.php
+msgid "Select \"Yes\" to pass a state/province name, \"No\" to pass a numeric ID."
+msgstr ""
+
+#: Civi/FormProcessor/Type/StateProvinceType.php
+msgid "Limit to enabled states/provinces"
+msgstr ""
+
+#: Civi/FormProcessor/Type/StateProvinceType.php
+msgid ""
+"Limit states/provinces in Administer » Localization » Languages, Currency, "
+"Locations."
+msgstr ""
+
+#: Civi/FormProcessor/Type/TagType.php
+msgid "Limit to tagset"
+msgstr ""
+
+#: Civi/FormProcessor/Type/TagType.php
+msgid "Limit to tags"
+msgstr ""
+
 #: Civi/FormProcessor/Type/TimeType.php
 msgid ""
 "The format is the input format of the date. The following modifiers are availble: <br />\n"
-"\t\t\t\t\tH: hours in 24 format with a preceding 0 (eg 08) <br />\n"
-"\t\t\t\t\ti: minute with a preceding 0 (eg 06) <br />\n"
-"\t\t\t\t\t<br />\n"
-"\t\t\t\t\t<a href=\"http://nl1.php.net/manual/en/datetime.createfromformat.php#refsect1-datetime.createfromformat-parameters\">More information at php.net</a>\n"
-"\t\t\t\t\t"
+"          H: hours in 24 format with a preceding 0 (eg 08) <br />\n"
+"          i: minute with a preceding 0 (eg 06) <br />\n"
+"          <br />\n"
+"          <a href=\"http://nl1.php.net/manual/en/datetime.createfromformat.php#refsect1-datetime.createfromformat-parameters\">More information at php.net</a>\n"
+"          "
 msgstr ""
-"Tarihin yazılma biçimi. Şu kodlar kullanılabilir: <br />\n"
-"\t\t\t\t\tH: 0 ile başlayan (08 gibi) 24 saat biçiminde saat <br />\n"
-"\t\t\t\t\ti: 0 ile başlayan (06 gibi) dakika <br />\n"
-"\t\t\t\t\t<br />\n"
-"\t\t\t\t\t<a href=\"http://nl1.php.net/manual/en/datetime.createfromformat.php#refsect1-datetime.createfromformat-parameters\">Ayrıntılı bilgi almak için php.net sitesine bakabilirsiniz</a>\n"
-"\t\t\t\t\t"
 
 #: Civi/FormProcessor/Type/WeekDays.php
 msgid "Sunday"
@@ -578,6 +1146,34 @@ msgstr "Hayır etiketi"
 #: Civi/FormProcessor/Validation/AbstractValidator.php
 msgid "Invalid %1"
 msgstr "%1 geçersiz"
+
+#: Civi/FormProcessor/Validation/ActivityContactValidator.php
+msgid "User is a Contact for the Activity"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/ActivityContactValidator.php
+msgid "User is not an Activity Contact Type (%1)."
+msgstr ""
+
+#: Civi/FormProcessor/Validation/ActivityContactValidator.php
+msgid "Compare logged-in user with"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/ActivityContactValidator.php
+msgid "Any Activity Contact"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/ActivityContactValidator.php
+msgid "Activity Targets"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/ActivityContactValidator.php
+msgid "Activity Source"
+msgstr ""
+
+#: Civi/FormProcessor/Validation/ActivityContactValidator.php
+msgid "Activity Assignees"
+msgstr ""
 
 #: Civi/FormProcessor/Validation/DateValidator.php
 msgid "Date validation"
@@ -667,335 +1263,78 @@ msgstr "Değer %1 değerinden küçük olamaz"
 msgid "Minimum value"
 msgstr "En küçük değer"
 
-#: ang/form_processor/DelayedActionHandlerDialogCtrl.html
-msgid "Delayed action"
-msgstr "Geciktirilmiş işlem"
-
-#: ang/form_processor/DelayedActionHandlerDialogCtrl.html
-msgid "- Select delay handler -"
-msgstr "- Geciktirme işleyiciyi seçin -"
-
-#: ang/form_processor/DelayedActionHandlerDialogCtrl.html
-#: ang/form_processor/FormProcessorEditCtrl.html
-#: ang/form_processor/OutputHandlerDialogCtrl.html
-#: ang/form_processor/actions/ActionDialogCtrl.html
-#: ang/form_processor/actions/ConditionDialogCtrl.html
-msgid "Save and close"
-msgstr "Kaydedip kapat"
-
-#: ang/form_processor/DelayedActionHandlerDialogCtrl.html
-#: ang/form_processor/FormProcessorEditCtrl.html
-#: ang/form_processor/FormProcessorExportCtrl.html
-#: ang/form_processor/OutputHandlerDialogCtrl.html
-#: ang/form_processor/actions/ActionDialogCtrl.html
-#: ang/form_processor/actions/ConditionDialogCtrl.html
-#: ang/form_processor/inputs/InputDialogCtrl.html
-msgid "Cancel"
-msgstr "İptal"
-
-#: ang/form_processor/FormProcessorEditCtrl/ActionTable.html
-msgid "Actions"
-msgstr "İşlem"
-
-#: ang/form_processor/FormProcessorEditCtrl/DefaultDataActionTable.html
-msgid "Retrieval methods of default data"
-msgstr "Varsayılan verileri alma yöntemi"
-
-#: ang/form_processor/FormProcessorEditCtrl/DefaultDataActionTable.html
-msgid "Add retrieval method"
-msgstr "Veri alma yöntemi ekle"
-
-#: ang/form_processor/FormProcessorEditCtrl/DefaultDataActionTable.html
-msgid "- Select retrieval method -"
-msgstr "- Veri alma yöntemini seçin -"
-
-#: ang/form_processor/FormProcessorEditCtrl/DefaultDataActionTable.html
-msgid "Edit retrieval method of default data"
-msgstr "Varsayılan verileri alma yöntemini düzenle"
-
-#: ang/form_processor/FormProcessorEditCtrl/DefaultDataInputTable.html
-msgid "Retrieval criteria for default data"
-msgstr "Varsayılan verileri alma ölçütü"
-
-#: ang/form_processor/FormProcessorEditCtrl/DefaultDataInputTable.html
-msgid "Add retrieval criteria"
-msgstr "Alma ölçütü ekle"
-
-#: ang/form_processor/FormProcessorEditCtrl/DefaultDataInputTable.html
-msgid "- Select criteria type -"
-msgstr "- Ölçüt türünü seçin -"
-
-#: ang/form_processor/FormProcessorEditCtrl/DefaultDataInputTable.html
-msgid "Edit retrieval criteria for default data"
-msgstr "Varsayılan verileri alma ölçütünü düzenle"
-
-#: ang/form_processor/FormProcessorEditCtrl/DefaultDataOutputTable.html
-msgid "Set defaults"
-msgstr "Varsayılanları ayarla"
-
-#: ang/form_processor/FormProcessorEditCtrl/DefaultDataOutputTable.html
-#: ang/form_processor/crmFormProcessorOutputHandler/FormatActionOutput.html
-msgid "- Select field to add to the output -"
-msgstr "- Çıktıya eklenecek alanı seçin -"
-
-#: ang/form_processor/FormProcessorEditCtrl/Details.html
-msgid ""
-"WARNING: The form processor name includes invalid characters or is already "
-"in use by another form processor."
+#: ang/afsearchFormProcessors.aff.html
+#: api/v3/FormProcessorInstance/GetCalculationTriggers.php
+#: api/v3/FormProcessorInstance/Getoutput.php
+msgid "Form Processor"
 msgstr ""
-"UYARI: Form işleyici adında geçersiz karakterler var ya da zaten başka bir "
-"form işleyici tarafından kullanılıyor."
 
-#: ang/form_processor/FormProcessorEditCtrl/Details.html
-msgid ""
-"WARNING: If any external files or programs reference the old \"Name\", then "
-"they must be updated manually."
-msgstr ""
-"UYARI: Herhangi bir dış dosya veya program eski \"Ad\" değerini kullanmaya "
-"çalışıyorsa, bunlar el ile güncellenmelidir."
-
-#: ang/form_processor/FormProcessorEditCtrl/Details.html
-#: ang/form_processor/FormProcessorListCtrl.html
-msgid "Enabled?"
-msgstr "Etkin"
-
-#: ang/form_processor/FormProcessorEditCtrl/Details.html
-msgid "- No permission -"
-msgstr "- İzin verilmemiş -"
-
-#: ang/form_processor/FormProcessorEditCtrl/InputTable.html
-msgid "Inputs"
-msgstr "Girişler"
-
-#: ang/form_processor/FormProcessorEditCtrl/OutputHandler.html
-msgid "Output Handler"
-msgstr "Çıktı işleyici"
-
-#: ang/form_processor/FormProcessorEditCtrl/OutputHandler.html
-msgid "Change and configure output handler"
-msgstr "Çıktı işleyiciyi değiştir ve yapılandır"
-
-#: ang/form_processor/FormProcessorEditCtrl/help.html
-msgid "This form processor could be used with the following API"
-msgstr "Bu form işleyici aşağıdaki API ile kullanılabilir"
-
-#: ang/form_processor/FormProcessorEditCtrl.html
-msgid "Edit form processor %1"
-msgstr "%1 form işleyiciyi düzenle"
-
-#: ang/form_processor/FormProcessorEditCtrl.html
-#: ang/form_processor/FormProcessorListCtrl.html
-msgid "New Form Processor"
-msgstr "Yeni form işleyici"
-
-#: ang/form_processor/FormProcessorEditCtrl.html
-msgid "Form processor is not saved"
-msgstr "Form işleyici kaydedilmedi"
-
-#: ang/form_processor/FormProcessorEditCtrl.html
-msgid "Define form processor"
-msgstr "Form işleyiciyi tanımlayın"
-
-#: ang/form_processor/FormProcessorEditCtrl.html
-msgid "Retrieval of defaults"
-msgstr "Varsayılan verilerin alınması"
-
-#: ang/form_processor/FormProcessorEditCtrl.html
-msgid "Enable default data retrieval?"
-msgstr "Varsayılan veriler alınsın"
-
-#: ang/form_processor/FormProcessorEditCtrl.html
-msgid ""
-"You can use retrieval of default data to create a form which already filled "
-"with existing data. For example if you have a form for updating mailing "
-"preference you want to the form to display the current preferences. To "
-"achieve this use the retrieval of default data."
-msgstr ""
-"Zaten var olan verilerle doldurulmuş bir form oluşturmak için varsayılan "
-"verilerin alınmasını kullanabilirsiniz. Örneğin, e-posta tercihini "
-"güncellemek için bir formunuz varsa, formun var olan tercihleri "
-"görüntülemesini isteyebilirsiniz. Bunu başarmak için varsayılan verileri "
-"almayı kullanın."
-
-#: ang/form_processor/FormProcessorEditCtrl.html
-msgid "Save"
-msgstr "Kaydet"
-
-#: ang/form_processor/FormProcessorEditCtrl.js
-msgid "Edit output handler"
-msgstr "Çıktı işleyiciyi düzenle"
-
-#: ang/form_processor/FormProcessorExportCtrl.html
-msgid "Below the data from this form processor"
-msgstr "Bu form işlemcisinden gelen verilerin altında"
-
-#: ang/form_processor/FormProcessorExportCtrl.html
-msgid ""
-"You could copy the data and store it in your extension under "
-"com.your.extension/form-processors/name.json"
-msgstr ""
-"Verileri kopyalayabilir ve eklentinizde com.eklentiniz/form-"
-"processors/ad.json altına kaydedebilirsiniz."
-
-#: ang/form_processor/FormProcessorListCtrl.html
+#: ang/afsearchFormProcessors.aff.php
+#: managed/SavedSearch_Form_Processors.mgd.php
 msgid "Form Processors"
 msgstr "Form işleyiciler"
 
-#: ang/form_processor/FormProcessorListCtrl.html
-msgid "Status"
-msgstr "Durum"
-
-#: ang/form_processor/FormProcessorListCtrl.html
-msgid "Revert to code"
-msgstr "Koda geri dön"
-
-#: ang/form_processor/FormProcessorListCtrl.html
-msgid "Try out"
-msgstr "Dene"
-
-#: ang/form_processor/FormProcessorListCtrl.html
-#: ang/form_processor/actions/crmFormProcessorActions.html
-#: ang/form_processor/inputs/crmFormProcessorInputs.html
-msgid "Edit"
-msgstr "Düzenle"
-
-#: ang/form_processor/FormProcessorListCtrl.html
-msgid "Enable"
-msgstr "Etkinleştir"
-
-#: ang/form_processor/FormProcessorListCtrl.html
-msgid "Disable"
-msgstr "Devre dışı bırak"
-
-#: ang/form_processor/FormProcessorListCtrl.html
-msgid "Delete"
-msgstr "Sil"
-
-#: ang/form_processor/FormProcessorListCtrl.html
-msgid "Export"
-msgstr "Dışa aktar"
-
-#: ang/form_processor/FormProcessorListCtrl.js
-msgid "Error"
-msgstr "Hata"
-
-#: ang/form_processor/OutputHandlerDialogCtrl.html
-msgid "- Select output handler -"
-msgstr "- Çıktı işleyiciyi seçin -"
-
-#: ang/form_processor/actions/ActionDialogCtrl.html
-msgid ""
-"WARNING: The name includes invalid characters or is already in use by "
-"another action."
+#: ang/afsearchFormProcessors.aff.php
+msgid "Administer civicrm"
 msgstr ""
-"UYARI: Ad içinde geçersiz karakterler var ya da zaten başka bir işlem "
-"tarafından kullanılıyor."
 
-#: ang/form_processor/actions/ConditionDialogCtrl.html
-#: ang/form_processor/actions/crmFormProcessorActions.html
-msgid "Condition"
-msgstr "Koşul"
-
-#: ang/form_processor/actions/ConditionDialogCtrl.html
-msgid "- No condition -"
-msgstr "- Koşul yok -"
-
-#: ang/form_processor/actions/crmFormProcessorActions.html
-msgid "Change and configure condition"
-msgstr "Koşulu değiştir ve yapılandır"
-
-#: ang/form_processor/actions/crmFormProcessorActions.html
-msgid "Change and configure delay"
-msgstr "Gecikmeyi değiştir ve yapılandır"
-
-#: ang/form_processor/actions/crmFormProcessorActions.html
-#: ang/form_processor/config/crmFormProcessorSpecification.html
-#: ang/form_processor/inputs/InputDialogCtrl.html
-#: ang/form_processor/inputs/crmFormProcessorInputs.html
-msgid "Remove"
-msgstr "Kaldır"
-
-#: ang/form_processor/actions/crmFormProcessorActions.html
-msgid "- Select action type -"
-msgstr "- İşlem türünü seçin -"
-
-#: ang/form_processor/actions/crmFormProcessorActions.html
-msgid "Add action"
-msgstr "İşlem ekle"
-
-#: ang/form_processor/actions/crmFormProcessorActions.js
-msgid "Edit condition"
-msgstr "Koşulu düzenle"
-
-#: ang/form_processor/actions/crmFormProcessorActions.js
-msgid "Edit delay"
-msgstr "Gecikmeyi düzenle"
-
-#: ang/form_processor/actions/crmFormProcessorActions.js
-msgid "Edit action"
-msgstr "İşlemi düzenle"
-
-#: ang/form_processor/config/crmFormProcessorSpecification.html
-msgid "Add item"
-msgstr "Öge ekle"
-
-#: ang/form_processor/crmFormProcessorOutputHandler/FormatActionOutput.html
-msgid "Output Specification"
-msgstr "Çıktı teknik özellikleri"
-
-#: ang/form_processor/crmFormProcessorOutputHandler/FormatActionOutput.html
-msgid "Add field to output"
-msgstr "Çıktıya alan ekle"
-
-#: ang/form_processor/inputs/InputDialogCtrl.html
-msgid ""
-"WARNING: The name includes invalid characters or is already in use by "
-"another input."
+#: api/v3/FormProcessorAction/CheckName.php
+#: api/v3/FormProcessorCalculateAction/CheckName.php
+#: api/v3/FormProcessorDefaultDataAction/CheckName.php
+#: api/v3/FormProcessorDefaultDataInput/CheckName.php
+#: api/v3/FormProcessorInput/CheckName.php
+#: api/v3/FormProcessorValidateAction/CheckName.php
+#: api/v3/FormProcessorValidateValidator/CheckName.php
+msgid "Form Processor Instance Id"
 msgstr ""
-"UYARI: Ad içinde geçersiz karakterler var ya da zaten başka bir giriş "
-"tarafından kullanılıyor."
 
-#: ang/form_processor/inputs/InputDialogCtrl.html
-msgid "Is required?"
-msgstr "Zorunlu"
+#: api/v3/FormProcessorAction/Create.php
+#: api/v3/FormProcessorCalculateAction/Create.php
+#: api/v3/FormProcessorDefaultDataAction/Create.php
+#: api/v3/FormProcessorDefaultDataInput/Create.php
+#: api/v3/FormProcessorInput/Create.php
+#: api/v3/FormProcessorValidateAction/Create.php
+#: api/v3/FormProcessorValidateValidator/Create.php
+msgid "Form Processor Instance ID"
+msgstr "Form işleyici kopyası kimliği"
 
-#: ang/form_processor/inputs/InputDialogCtrl.html
-#: ang/form_processor/inputs/crmFormProcessorInputs.html
-msgid "Default value"
-msgstr "Varsayılan değer"
+#: api/v3/FormProcessorAction/Create.php
+msgid "Condition configuration"
+msgstr "Koşul yapılandırması"
 
-#: ang/form_processor/inputs/InputDialogCtrl.html
-#: ang/form_processor/inputs/crmFormProcessorInputs.html
-msgid "Validation"
-msgstr "Doğrulama"
+#: api/v3/FormProcessorAction/Create.php
+msgid "Delay configuration"
+msgstr "Gecikme yapılandırması"
 
-#: ang/form_processor/inputs/InputDialogCtrl.html
-msgid "- Select validation -"
-msgstr "- Doğrulamayı seçin -"
+#: api/v3/FormProcessorDefaultDataInput/Create.php
+#: api/v3/FormProcessorInput/Create.php
+msgid "Parameter Mapping on Processing"
+msgstr ""
 
-#: ang/form_processor/inputs/InputDialogCtrl.html
-msgid "Add validation rule"
-msgstr "Doğrulama kuralı ekle"
+#: api/v3/FormProcessorDefaultDataInput/Create.php
+#: api/v3/FormProcessorInput/Create.php
+msgid "Parameter Mapping on Rerieval of Defaults"
+msgstr ""
 
-#: ang/form_processor/inputs/InputDialogCtrl.html
-msgid "Save and Close"
-msgstr "Kaydedip kapat"
-
-#: ang/form_processor/inputs/crmFormProcessorInputs.html
-msgid "- Select input type -"
-msgstr "- Giriş türünü seçin -"
-
-#: ang/form_processor/inputs/crmFormProcessorInputs.html
-msgid "Add input"
-msgstr "Giriş ekle"
-
-#: ang/form_processor/inputs/crmFormProcessorInputs.js
-msgid "Edit input"
-msgstr "Girişi düzenle"
+#: api/v3/FormProcessorInstance/Create.php
+msgid "Output handler"
+msgstr "Çıktı işleyici"
 
 #: api/v3/FormProcessorInstance/Create.php
 msgid "Output handler configuration"
 msgstr "Çıktı işleyici yapılandırması"
+
+#: api/v3/FormProcessorInstance/Create.php
+msgid "Enable default data"
+msgstr "Varsayılan veriler kullanılsın"
+
+#: api/v3/FormProcessorInstance/Create.php
+msgid "Default data output configuration"
+msgstr "Varsayılan veriler çıktı yapılandırması"
+
+#: api/v3/FormProcessorInstance/Create.php
+msgid "Calculation output configuration"
+msgstr ""
 
 #: api/v3/FormProcessorInstance/Export.php
 msgid "To File"
@@ -1015,6 +1354,10 @@ msgid ""
 msgstr ""
 "Bir dosya yolu belirtilirse, JSON yapılandırması buradan içe aktarılır."
 
+#: api/v3/FormProcessorInstance/Import.php
+msgid "Import Locally"
+msgstr ""
+
 #: form_processor.php
 msgid "Automation"
 msgstr "Otomasyon"
@@ -1022,6 +1365,300 @@ msgstr "Otomasyon"
 #: form_processor.php
 msgid "Form processors"
 msgstr "Form işleyiciler"
+
+#: managed/SavedSearch_Form_Processors.mgd.php
+msgid "Edit Form Processor"
+msgstr ""
+
+#: managed/SavedSearch_Form_Processors.mgd.php
+#: templates/CRM/FormProcessor/Form/Configuration.tpl
+msgid "Delete Form Processor"
+msgstr ""
+
+#: managed/SavedSearch_Form_Processors.mgd.php
+msgid "Enable Form Processor"
+msgstr ""
+
+#: managed/SavedSearch_Form_Processors.mgd.php
+msgid "Disable Form Processor"
+msgstr ""
+
+#: managed/SavedSearch_Form_Processors.mgd.php
+msgid "Export"
+msgstr "Dışa aktar"
+
+#: managed/SavedSearch_Form_Processors.mgd.php
+msgid "Back to imported version"
+msgstr ""
+
+#: managed/SavedSearch_Form_Processors.mgd.php
+msgid "Add form processor"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/AbstractConfigurationAction.tpl
+msgid "Delete Action"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/AbstractConfigurationAction.tpl
+msgid "Are you sure to delete action '%1'?"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/AbstractConfigurationAction.tpl
+#: templates/CRM/FormProcessor/Form/Blocks/CalculationActions.tpl
+#: templates/CRM/FormProcessor/Form/CalculationConfiguration.tpl
+#: templates/CRM/FormProcessor/Form/Configuration.tpl
+#: templates/CRM/FormProcessor/Form/DefaultDataConfiguration.tpl
+#: templates/CRM/FormProcessor/Form/ValidationConfiguration.tpl
+msgid "Add Action"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/AbstractConfigurationAction.tpl
+msgid "Edit Action"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/AbstractConfigurationAction.tpl
+#: templates/CRM/FormProcessor/Form/AbstractConfigurationInput.tpl
+#: templates/CRM/FormProcessor/Form/Configuration.tpl
+#: templates/CRM/FormProcessor/Form/ValidationConfigurationValidator.tpl
+msgid "System name:"
+msgstr "Sistem adı:"
+
+#: templates/CRM/FormProcessor/Form/AbstractConfigurationAction.tpl
+#: templates/CRM/FormProcessor/Form/AbstractConfigurationInput.tpl
+#: templates/CRM/FormProcessor/Form/Configuration.tpl
+#: templates/CRM/FormProcessor/Form/ValidationConfigurationValidator.tpl
+msgid "Change"
+msgstr "Değiştir"
+
+#: templates/CRM/FormProcessor/Form/AbstractConfigurationCondition.tpl
+#: templates/CRM/FormProcessor/Form/Blocks/Actions.tpl
+#: templates/CRM/FormProcessor/Form/Blocks/CalculationActions.tpl
+msgid "Condition"
+msgstr "Koşul"
+
+#: templates/CRM/FormProcessor/Form/AbstractConfigurationInput.tpl
+msgid "Are you sure to delete input '%1'?"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/AbstractConfigurationInput.tpl
+msgid ""
+"When you use the formatted parameters for example to send an e-mail with the"
+" submitted data. You can exclude this field by unchecking this box."
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/AbstractConfigurationInputValidation.tpl
+msgid "Are you sure to delete input validation rule '%1'?"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/Blocks/Actions.tpl
+#: templates/CRM/FormProcessor/Form/Blocks/CalculationActions.tpl
+#: templates/CRM/FormProcessor/Form/Blocks/Inputs.tpl
+#: templates/CRM/FormProcessor/Form/Blocks/ValidatorValidators.tpl
+msgid "System name"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/Blocks/Actions.tpl
+msgid "Change Condition"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/Blocks/Actions.tpl
+msgid "Add Condition"
+msgstr "Koşul ekle"
+
+#: templates/CRM/FormProcessor/Form/Blocks/Actions.tpl
+msgid "Change Delay"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/Blocks/Actions.tpl
+msgid "Add Delay"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/Blocks/Actions.tpl
+#: templates/CRM/FormProcessor/Form/Blocks/CalculationActions.tpl
+#: templates/CRM/FormProcessor/Form/Blocks/Inputs.tpl
+#: templates/CRM/FormProcessor/Form/Blocks/ValidatorValidators.tpl
+msgid "Edit"
+msgstr "Düzenle"
+
+#: templates/CRM/FormProcessor/Form/Blocks/Actions.tpl
+#: templates/CRM/FormProcessor/Form/Blocks/CalculationActions.tpl
+#: templates/CRM/FormProcessor/Form/Blocks/Configuration.tpl
+#: templates/CRM/FormProcessor/Form/Blocks/Inputs.tpl
+#: templates/CRM/FormProcessor/Form/Blocks/ValidatorValidators.tpl
+msgid "Remove"
+msgstr "Kaldır"
+
+#: templates/CRM/FormProcessor/Form/Blocks/CalculationActions.tpl
+#: templates/CRM/FormProcessor/Form/CalculationConfiguration.tpl
+#: templates/CRM/FormProcessor/Form/Configuration.tpl
+#: templates/CRM/FormProcessor/Form/ValidationConfiguration.tpl
+msgid "Actions"
+msgstr "İşlem"
+
+#: templates/CRM/FormProcessor/Form/Blocks/ConditionConfiguration.tpl
+msgid "Output mapping (when condition is not valid)"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/Blocks/Configuration.tpl
+msgid "Add item"
+msgstr "Öge ekle"
+
+#: templates/CRM/FormProcessor/Form/Blocks/InputConfiguration.tpl
+msgid "On processing use parameters"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/Blocks/InputConfiguration.tpl
+msgid "On retrieval of defaults use parameters"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/Blocks/Inputs.tpl
+msgid "Default value"
+msgstr "Varsayılan değer"
+
+#: templates/CRM/FormProcessor/Form/Blocks/Inputs.tpl
+msgid "Validation Rules"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/Blocks/Inputs.tpl
+msgid "Add Validation rule"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/Blocks/ValidatorValidators.tpl
+msgid "Validators"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/Blocks/ValidatorValidators.tpl
+#: templates/CRM/FormProcessor/Form/ValidationConfigurationValidator.tpl
+msgid "Add Validator"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/CalculationConfiguration.tpl
+msgid "Form Processor Calculation"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/CalculationConfiguration.tpl
+msgid "Set input to a calculated value(s)"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/CalculationConfiguration.tpl
+#: templates/CRM/FormProcessor/Form/DefaultDataConfiguration.tpl
+msgid "Input"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/CalculationConfiguration.tpl
+msgid "Action Output Parameter"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/Configuration.tpl
+msgid "Are you sure to delete form processor '%1'?"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/Configuration.tpl
+msgid "Restore Form Processor to imported version"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/Configuration.tpl
+msgid "Are you sure to restore form processor '%1' to its imported version?"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/Configuration.tpl
+msgid "Define Form Processor"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/Configuration.tpl
+#: templates/CRM/FormProcessor/Form/ConfigurationInput.tpl
+msgid "Add Input"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/Configuration.tpl
+msgid "Add input"
+msgstr "Giriş ekle"
+
+#: templates/CRM/FormProcessor/Form/Configuration.tpl
+msgid "Add action"
+msgstr "İşlem ekle"
+
+#: templates/CRM/FormProcessor/Form/ConfigurationInput.tpl
+msgid "Delete Input"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/ConfigurationInput.tpl
+msgid "Edit Input"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/ConfigurationInputValidation.tpl
+msgid "Delete Input Validation Rule"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/ConfigurationInputValidation.tpl
+msgid "Add Input Validation Rule"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/ConfigurationInputValidation.tpl
+msgid "Edit Input Validation Rule"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/DefaultDataConfiguration.tpl
+msgid ""
+"You can use retrieval of default data to create a form which already filled "
+"with existing data. For example if you have a form for updating mailing "
+"preference you want to the form to display the current preferences. To "
+"achieve this use the retrieval of default data."
+msgstr ""
+"Zaten var olan verilerle doldurulmuş bir form oluşturmak için varsayılan "
+"verilerin alınmasını kullanabilirsiniz. Örneğin, e-posta tercihini "
+"güncellemek için bir formunuz varsa, formun var olan tercihleri "
+"görüntülemesini isteyebilirsiniz. Bunu başarmak için varsayılan verileri "
+"almayı kullanın."
+
+#: templates/CRM/FormProcessor/Form/DefaultDataConfiguration.tpl
+msgid "Retrieval criteria for default data"
+msgstr "Varsayılan verileri alma ölçütü"
+
+#: templates/CRM/FormProcessor/Form/DefaultDataConfiguration.tpl
+#: templates/CRM/FormProcessor/Form/DefaultDataConfigurationInput.tpl
+msgid "Add Retrieval Criteria"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/DefaultDataConfiguration.tpl
+msgid "Add retrieval criteria"
+msgstr "Alma ölçütü ekle"
+
+#: templates/CRM/FormProcessor/Form/DefaultDataConfiguration.tpl
+msgid "Retrieval methods of default data"
+msgstr "Varsayılan verileri alma yöntemi"
+
+#: templates/CRM/FormProcessor/Form/DefaultDataConfiguration.tpl
+msgid "Add retrieval method"
+msgstr "Veri alma yöntemi ekle"
+
+#: templates/CRM/FormProcessor/Form/DefaultDataConfiguration.tpl
+msgid "Set defaults"
+msgstr "Varsayılanları ayarla"
+
+#: templates/CRM/FormProcessor/Form/DefaultDataConfigurationInput.tpl
+msgid "Delete Retrieval Criteria"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/DefaultDataConfigurationInput.tpl
+msgid "Edit Retrieval Criteria"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/DefaultDataConfigurationInputValidation.tpl
+msgid "Delete Retrieval Criteria Validation Rule"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/DefaultDataConfigurationInputValidation.tpl
+msgid "Add Retrieval Criteria Validation Rule"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/DefaultDataConfigurationInputValidation.tpl
+msgid "Edit Retrieval Criteria Validation Rule"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/Import.tpl
+msgid "Import form processor"
+msgstr ""
 
 #: templates/CRM/FormProcessor/Form/RunFormProcessor.tpl
 msgid "Retrieve default data"
@@ -1046,3 +1683,15 @@ msgstr ""
 #: templates/CRM/FormProcessor/Form/RunFormProcessor.tpl
 msgid "Result"
 msgstr "Sonuç"
+
+#: templates/CRM/FormProcessor/Form/ValidationConfigurationValidator.tpl
+msgid "Delete Validator"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/ValidationConfigurationValidator.tpl
+msgid "Are you sure to delete validator '%1'?"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/ValidationConfigurationValidator.tpl
+msgid "Edit Validator"
+msgstr ""
