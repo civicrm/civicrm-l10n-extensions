@@ -4,12 +4,13 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Usha Matisson, 2023
+# Guillaume Sorel <serviceclient@all-in-appli.com>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: lineitemedit\n"
-"POT-Creation-Date: 2023-01-27 19:23+0000\n"
-"Last-Translator: Usha Matisson, 2023\n"
+"POT-Creation-Date: 2023-12-20 05:01+0000\n"
+"Last-Translator: Guillaume Sorel <serviceclient@all-in-appli.com>, 2023\n"
 "Language-Team: French (https://app.transifex.com/civicrm/teams/1905/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,10 +46,6 @@ msgstr "Soumettre"
 #: CRM/Lineitemedit/Form/Edit.php
 msgid "Please enter a whole number quantity"
 msgstr "Veuillez entrer une quantité (nombre entier)"
-
-#: CRM/Lineitemedit/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Mettre à jour %1 vers la révision %2"
 
 #: CRM/Lineitemedit/Util.php
 msgid "Edit Line item"
@@ -94,33 +91,51 @@ msgstr "Ligne additionnelle"
 msgid "Additional Item"
 msgstr "Element additionnel"
 
-#: templates/CRM/Lineitemedit/Form/AddLineItems.tpl
-msgid "Choose manual contribution amount"
-msgstr "Choisir le montant de la contribution manuellement"
+#: managed/LineItemsSavedSearch.mgd.php
+msgid "Contribution Amount"
+msgstr "Montant de la contribution"
 
+#: managed/LineItemsSavedSearch.mgd.php
 #: templates/CRM/Lineitemedit/Form/AddLineItems.tpl
 msgid "Item"
 msgstr "Element"
 
+#: managed/LineItemsSavedSearch.mgd.php
 #: templates/CRM/Lineitemedit/Form/AddLineItems.tpl
 msgid "Financial Type"
 msgstr "Type d'opération comptable"
 
+#: managed/LineItemsSavedSearch.mgd.php
 #: templates/CRM/Lineitemedit/Form/AddLineItems.tpl
 msgid "Qty"
 msgstr "Quantité"
 
+#: managed/LineItemsSavedSearch.mgd.php
 #: templates/CRM/Lineitemedit/Form/AddLineItems.tpl
 msgid "Unit Price"
 msgstr "Tarif Unitaire"
 
+#: managed/LineItemsSavedSearch.mgd.php
 #: templates/CRM/Lineitemedit/Form/AddLineItems.tpl
 msgid "Total Price"
 msgstr "Prix total"
 
+#: managed/LineItemsSavedSearch.mgd.php
 #: templates/CRM/Lineitemedit/Form/AddLineItems.tpl
 msgid "Tax Amount"
 msgstr "Montant des impôts"
+
+#: settings/lineitemedit.setting.php
+msgid "Maximum additional line items"
+msgstr ""
+
+#: settings/lineitemedit.setting.php
+msgid "Limits the number of lines shown"
+msgstr ""
+
+#: templates/CRM/Lineitemedit/Form/AddLineItems.tpl
+msgid "Choose manual contribution amount"
+msgstr "Choisir le montant de la contribution manuellement"
 
 #: templates/CRM/Lineitemedit/Form/AddLineItems.tpl
 msgid "Add another item"
