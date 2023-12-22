@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2023-01-27 19:20+0000\n"
+"POT-Creation-Date: 2023-12-22 05:01+0000\n"
 "PO-Revision-Date: 2014-04-28 23:36+0000\n"
 "Last-Translator: Francesc Bassas i Bullich <francesc@babu.cat>, 2023\n"
 "Language-Team: Catalan (http://app.transifex.com/civicrm/civicrm_extensions/language/ca/)\n"
@@ -25,17 +25,25 @@ msgstr ""
 msgid "Fixed Amount"
 msgstr ""
 
+#: CRM/CiviDiscount/BAO/Track.php CRM/CiviDiscount/DAO/Track.php
+msgid "Contribution"
+msgstr "Contribució"
+
+#: CRM/CiviDiscount/BAO/Track.php
+msgid "Participant"
+msgstr ""
+
+#: CRM/CiviDiscount/BAO/Track.php managed/SavedSearch_Discount_Uses.mgd.php
+msgid "Membership"
+msgstr ""
+
 #: CRM/CiviDiscount/DAO/Item.php
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
 msgid "Discount Codes"
 msgstr ""
 
 #: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/Form/Admin.php
-#: CRM/CiviDiscount/Page/List.php
 msgid "Discount Code"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/DAO/Track.php
-msgid "Discount Item ID"
 msgstr ""
 
 #: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/DAO/Track.php
@@ -43,12 +51,20 @@ msgid "ID"
 msgstr "Identificador"
 
 #: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/DAO/Track.php
-#: templates/CRM/CiviDiscount/Page/Usage.tpl
+msgid "Discount Item ID"
+msgstr ""
+
+#: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/DAO/Track.php
+#: ang/afsearchDiscounts.aff.html
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
+#: managed/SavedSearch_Discount_Uses.mgd.php
 #: templates/CRM/CiviDiscount/Page/View.tpl
 msgid "Code"
 msgstr ""
 
 #: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/Form/Admin.php
+#: ang/afsearchDiscounts.aff.html
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
 #: templates/CRM/CiviDiscount/Page/View.tpl
 msgid "Description"
 msgstr "Descripció"
@@ -57,7 +73,8 @@ msgstr "Descripció"
 msgid "Discount Description"
 msgstr ""
 
-#: CRM/CiviDiscount/DAO/Item.php templates/CRM/CiviDiscount/Page/List.tpl
+#: CRM/CiviDiscount/DAO/Item.php
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
 msgid "Amount"
 msgstr ""
 
@@ -98,6 +115,7 @@ msgid "Number of times this code has been used"
 msgstr ""
 
 #: CRM/CiviDiscount/DAO/Item.php
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
 msgid "Usage Count"
 msgstr ""
 
@@ -138,10 +156,16 @@ msgid ""
 msgstr ""
 
 #: CRM/CiviDiscount/DAO/Item.php
+msgid "Organization ID"
+msgstr ""
+
+#: CRM/CiviDiscount/DAO/Item.php
 msgid "FK to Contact ID for the organization that originated this discount"
 msgstr ""
 
 #: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/Form/Admin.php
+#: ang/afsearchDiscounts.aff.html
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
 #: templates/CRM/CiviDiscount/Page/View.tpl
 msgid "Organization"
 msgstr ""
@@ -154,7 +178,8 @@ msgstr ""
 msgid "Date this discount activated"
 msgstr ""
 
-#: CRM/CiviDiscount/DAO/Item.php templates/CRM/CiviDiscount/Page/List.tpl
+#: CRM/CiviDiscount/DAO/Item.php
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
 #: templates/CRM/CiviDiscount/Page/View.tpl
 msgid "Start Date"
 msgstr "Data d'inici"
@@ -167,17 +192,19 @@ msgstr ""
 msgid "Date this discount expires"
 msgstr ""
 
-#: CRM/CiviDiscount/DAO/Item.php templates/CRM/CiviDiscount/Page/List.tpl
+#: CRM/CiviDiscount/DAO/Item.php
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
 msgid "End Date"
 msgstr "Data de finalització"
+
+#: CRM/CiviDiscount/DAO/Item.php
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
+msgid "Enabled"
+msgstr "Habilitat"
 
 #: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/Form/Admin.php
 msgid "Is this discount active?"
 msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Enabled"
-msgstr "Habilitat"
 
 #: CRM/CiviDiscount/DAO/Item.php
 msgid "Discount Msg Enabled"
@@ -216,11 +243,14 @@ msgid "FK to Item ID of the discount code"
 msgstr ""
 
 #: CRM/CiviDiscount/DAO/Track.php
+msgid "Contact ID"
+msgstr "Identificador del contacte"
+
+#: CRM/CiviDiscount/DAO/Track.php
 msgid "FK to Contact ID for the contact that used this discount"
 msgstr ""
 
-#: CRM/CiviDiscount/DAO/Track.php templates/CRM/CiviDiscount/Page/Report.tpl
-#: templates/CRM/CiviDiscount/Page/Usage.tpl
+#: CRM/CiviDiscount/DAO/Track.php
 msgid "Contact"
 msgstr "Contacte"
 
@@ -232,33 +262,16 @@ msgstr ""
 msgid "Date of use"
 msgstr ""
 
-#: CRM/CiviDiscount/DAO/Track.php
+#: CRM/CiviDiscount/DAO/Track.php managed/SavedSearch_Discount_Uses.mgd.php
 msgid "Date Used"
 msgstr ""
 
 #: CRM/CiviDiscount/DAO/Track.php
-msgid "Track"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "Tracking code information"
+msgid "Contribution ID"
 msgstr ""
 
 #: CRM/CiviDiscount/DAO/Track.php
 msgid "FK to contribution table"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "Contribution"
-msgstr "Contribució"
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "FK to event table"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php templates/CRM/CiviDiscount/Page/Report.tpl
-#: templates/CRM/CiviDiscount/Page/Usage.tpl
-msgid "Event"
 msgstr ""
 
 #: CRM/CiviDiscount/DAO/Track.php
@@ -270,6 +283,10 @@ msgid "Table where referenced item is stored"
 msgstr ""
 
 #: CRM/CiviDiscount/DAO/Track.php
+msgid "Entity ID"
+msgstr "ID Entitat"
+
+#: CRM/CiviDiscount/DAO/Track.php
 msgid "Foreign key to the referenced item"
 msgstr ""
 
@@ -277,7 +294,7 @@ msgstr ""
 msgid "Entity"
 msgstr "Entitat"
 
-#: CRM/CiviDiscount/Form/Admin.php
+#: CRM/CiviDiscount/Form/Admin.php ang/afsearchDiscounts.aff.php
 msgid "Discounts"
 msgstr ""
 
@@ -417,73 +434,39 @@ msgstr ""
 msgid "Country"
 msgstr "País"
 
-#: CRM/CiviDiscount/Page/List.php
-msgid "View"
-msgstr ""
-
-#: CRM/CiviDiscount/Page/List.php
-msgid "View Discount Code"
-msgstr ""
-
-#: CRM/CiviDiscount/Page/List.php CRM/CiviDiscount/Page/Report.php
-#: CRM/CiviDiscount/Page/View.php templates/CRM/CiviDiscount/Page/View.tpl
+#: CRM/CiviDiscount/Page/View.php
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
+#: templates/CRM/CiviDiscount/Page/View.tpl
 msgid "Edit"
 msgstr "Edita"
 
-#: CRM/CiviDiscount/Page/List.php
-msgid "Edit Discount Code"
+#: CRM/CiviDiscount/Page/View.php templates/CRM/CiviDiscount/Form/Admin.tpl
+msgid "Edit Discount"
 msgstr ""
 
-#: CRM/CiviDiscount/Page/List.php
-msgid "Copy"
-msgstr "Còpia"
-
-#: CRM/CiviDiscount/Page/List.php
-msgid "Clone Discount Code"
-msgstr ""
-
-#: CRM/CiviDiscount/Page/List.php CRM/CiviDiscount/Page/Report.php
 #: CRM/CiviDiscount/Page/View.php
 msgid "Disable"
 msgstr ""
 
-#: CRM/CiviDiscount/Page/List.php
-msgid "Disable Discount Code"
+#: CRM/CiviDiscount/Page/View.php
+msgid "Disable Discount"
 msgstr ""
 
-#: CRM/CiviDiscount/Page/List.php CRM/CiviDiscount/Page/Report.php
 #: CRM/CiviDiscount/Page/View.php
 msgid "Enable"
 msgstr "Habilita"
 
-#: CRM/CiviDiscount/Page/List.php
-msgid "Enable Discount Code"
-msgstr ""
-
-#: CRM/CiviDiscount/Page/List.php CRM/CiviDiscount/Page/Report.php
-#: CRM/CiviDiscount/Page/View.php templates/CRM/CiviDiscount/Page/View.tpl
-msgid "Delete"
-msgstr "Eliminar"
-
-#: CRM/CiviDiscount/Page/List.php
-msgid "Delete Discount Code"
-msgstr ""
-
-#: CRM/CiviDiscount/Page/Report.php CRM/CiviDiscount/Page/View.php
-#: templates/CRM/CiviDiscount/Form/Admin.tpl
-msgid "Edit Discount"
-msgstr ""
-
-#: CRM/CiviDiscount/Page/Report.php CRM/CiviDiscount/Page/View.php
-msgid "Disable Discount"
-msgstr ""
-
-#: CRM/CiviDiscount/Page/Report.php CRM/CiviDiscount/Page/View.php
+#: CRM/CiviDiscount/Page/View.php
 msgid "Enable Discount"
 msgstr ""
 
-#: CRM/CiviDiscount/Page/Report.php CRM/CiviDiscount/Page/View.php
-#: templates/CRM/CiviDiscount/Form/Admin.tpl
+#: CRM/CiviDiscount/Page/View.php
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
+#: templates/CRM/CiviDiscount/Page/View.tpl
+msgid "Delete"
+msgstr "Eliminar"
+
+#: CRM/CiviDiscount/Page/View.php templates/CRM/CiviDiscount/Form/Admin.tpl
 msgid "Delete Discount"
 msgstr ""
 
@@ -491,16 +474,21 @@ msgstr ""
 msgid "We need a valid discount ID for view"
 msgstr ""
 
-#: CRM/CiviDiscount/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Actualitzar %1 a la revisió %2"
-
-#: cividiscount.php
-msgid "Codes Assigned"
+#: ang/afsearchDiscountUsesReport.aff.php
+msgid "Discount Code Usage"
 msgstr ""
 
-#: cividiscount.php
+#: ang/afsearchDiscounts.aff.html
+msgid ""
+"Discount codes can be applied against events, memberships and price sets."
+msgstr ""
+
+#: ang/afsearchTabDiscounts.aff.php
 msgid "Codes Redeemed"
+msgstr ""
+
+#: ang/afsearchTabDiscountsAssigned.aff.php
+msgid "Codes Assigned"
 msgstr ""
 
 #: cividiscount.php
@@ -528,15 +516,60 @@ msgid "Apply"
 msgstr ""
 
 #: cividiscount.php
-msgid "CiviDiscount"
-msgstr ""
-
-#: cividiscount.php
 msgid "administer CiviDiscount"
 msgstr ""
 
 #: cividiscount.php
 msgid "Administer the CiviDiscount extension"
+msgstr ""
+
+#: managed/Navigation_afsearchDiscounts.mgd.php
+msgid "CiviDiscount"
+msgstr ""
+
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
+msgid "Administer Discount Codes"
+msgstr ""
+
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
+msgid "View Discount Code"
+msgstr ""
+
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
+#: templates/CRM/CiviDiscount/Page/View.tpl
+msgid "Unlimited"
+msgstr ""
+
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
+msgid "Copy"
+msgstr "Còpia"
+
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
+msgid "Add Discount Code"
+msgstr ""
+
+#: managed/SavedSearch_Discount_Uses.mgd.php
+msgid "Discount Uses"
+msgstr ""
+
+#: managed/SavedSearch_Discount_Uses.mgd.php
+msgid "Used By"
+msgstr ""
+
+#: managed/SavedSearch_Discount_Uses.mgd.php
+msgid "Event"
+msgstr ""
+
+#: managed/SavedSearch_Discount_Uses.mgd.php
+msgid "Discount Uses Report"
+msgstr ""
+
+#: managed/SavedSearch_Discount_Uses.mgd.php
+msgid "Discount Uses Redeemded"
+msgstr ""
+
+#: managed/SavedSearch_Discount_Uses.mgd.php
+msgid "Discount Uses Assigned"
 msgstr ""
 
 #: templates/CRM/CiviDiscount/Form/Admin.hlp
@@ -658,54 +691,16 @@ msgid ""
 "are met (no code needed)."
 msgstr ""
 
-#: templates/CRM/CiviDiscount/Page/List.tpl
-msgid ""
-"Discount codes can be applied against events, memberships and price sets."
-msgstr ""
-
-#: templates/CRM/CiviDiscount/Page/List.tpl
-msgid "Name / Description"
-msgstr ""
-
-#: templates/CRM/CiviDiscount/Page/List.tpl
-#: templates/CRM/CiviDiscount/Page/View.tpl
-msgid "Usage"
-msgstr ""
-
-#: templates/CRM/CiviDiscount/Page/List.tpl
-#: templates/CRM/CiviDiscount/Page/View.tpl
-msgid "Enabled?"
-msgstr "Habilitat?"
-
-#: templates/CRM/CiviDiscount/Page/List.tpl
-#: templates/CRM/CiviDiscount/Page/View.tpl
-msgid "Unlimited"
-msgstr ""
-
-#: templates/CRM/CiviDiscount/Page/List.tpl
-msgid "There are no discount codes."
-msgstr ""
-
-#: templates/CRM/CiviDiscount/Page/List.tpl
-msgid "New Discount Code"
-msgstr ""
-
-#: templates/CRM/CiviDiscount/Page/Report.tpl
-#: templates/CRM/CiviDiscount/Page/Usage.tpl
-msgid "Membership"
-msgstr ""
-
-#: templates/CRM/CiviDiscount/Page/Report.tpl
-#: templates/CRM/CiviDiscount/Page/Usage.tpl
-msgid "Date"
-msgstr "Data"
-
 #: templates/CRM/CiviDiscount/Page/View.tpl
 msgid "View Discount"
 msgstr ""
 
 #: templates/CRM/CiviDiscount/Page/View.tpl
 msgid "Discount"
+msgstr ""
+
+#: templates/CRM/CiviDiscount/Page/View.tpl
+msgid "Usage"
 msgstr ""
 
 #: templates/CRM/CiviDiscount/Page/View.tpl
@@ -719,6 +714,10 @@ msgstr ""
 #: templates/CRM/CiviDiscount/Page/View.tpl
 msgid "Price Sets"
 msgstr ""
+
+#: templates/CRM/CiviDiscount/Page/View.tpl
+msgid "Enabled?"
+msgstr "Habilitat?"
 
 #: templates/CRM/CiviDiscount/Page/View.tpl
 msgid "Yes"
