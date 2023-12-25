@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: btrmsgtpl\n"
-"POT-Creation-Date: 2023-09-20 05:01+0000\n"
+"POT-Creation-Date: 2023-12-25 05:01+0000\n"
 "Language-Team: CiviCRM Translators <civicrm-translators@lists.civicrm.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -59,6 +59,10 @@ msgstr ""
 msgid "When the client was created."
 msgstr ""
 
+#: CRM/Btrmsgtpl/Form/MessageTemplates.php js/btrmsgtpl.js
+msgid "Standard"
+msgstr ""
+
 #: CRM/Btrmsgtpl/Form/MessageTemplates.php
 msgid "Message Templates"
 msgstr ""
@@ -70,6 +74,12 @@ msgstr ""
 #: CRM/Btrmsgtpl/Upgrader.php
 msgid ""
 "btrmsgtpl: adding revision support for system workflow message templates."
+msgstr ""
+
+#: CRM/Btrmsgtpl/Upgrader.php
+msgid ""
+"btrmsgtpl: adding language support for system workflow message templates "
+"revisions."
 msgstr ""
 
 #: ang/crmBtrmsgtpl/Btrmsgtpl.js
@@ -85,7 +95,15 @@ msgid "Unknown revision action"
 msgstr ""
 
 #: btrmsgtpl.php
+msgid "Modified"
+msgstr ""
+
+#: btrmsgtpl.php js/btrmsgtpl.js
 msgid "System Default"
+msgstr ""
+
+#: btrmsgtpl.php
+msgid ", %1 Samples"
 msgstr ""
 
 #: btrmsgtpl.php
@@ -112,6 +130,38 @@ msgstr ""
 msgid "btrmsgtpl: failed saving revision: "
 msgstr ""
 
+#: js/btrmsgtpl.js
+msgid "No translations or drafts yet."
+msgstr ""
+
+#: js/btrmsgtpl.js
+msgid "Add"
+msgstr ""
+
+#: js/btrmsgtpl.js
+msgid "Cancel"
+msgstr ""
+
+#: js/btrmsgtpl.js
+msgid "The token {%1} has been replaced by {%2}"
+msgstr ""
+
+#: js/btrmsgtpl.js
+msgid "Outdated Token Warning"
+msgstr ""
+
+#: js/btrmsgtpl.js
+msgid "Variables"
+msgstr ""
+
+#: js/btrmsgtpl.js templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+msgid "Tokens"
+msgstr ""
+
+#: js/btrmsgtpl.js
+msgid "Properties"
+msgstr ""
+
 #: js/btrmsgtpl.js templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
 msgid "- select -"
 msgstr ""
@@ -125,7 +175,15 @@ msgid "Sample has changed"
 msgstr ""
 
 #: js/btrmsgtpl.js
-msgid "Goto line number..."
+msgid "Are you sure?"
+msgstr ""
+
+#: js/btrmsgtpl.js
+msgid "The following variation(s) have been modified:<br /><br />%1"
+msgstr ""
+
+#: js/btrmsgtpl.js
+msgid "Message template has changed"
 msgstr ""
 
 #: js/btrmsgtpl.js
@@ -137,22 +195,35 @@ msgid "Select or create a sample to preview."
 msgstr ""
 
 #: js/btrmsgtpl.js
-msgid "Save revision as..."
+msgid "Save Revision"
 msgstr ""
 
 #: js/btrmsgtpl.js
-msgid ""
-"Delete this revision?\n"
-"\n"
-"%1"
+msgid "Enter a new name for this revision"
 msgstr ""
 
 #: js/btrmsgtpl.js
-msgid "Send to email address..."
+msgid "You are about to delete revision:<br /><br />%1"
 msgstr ""
 
 #: js/btrmsgtpl.js
-msgid "Rename variable..."
+msgid "You are about to delete %1:<br /><br />%2"
+msgstr ""
+
+#: js/btrmsgtpl.js templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+msgid "Send Email"
+msgstr ""
+
+#: js/btrmsgtpl.js
+msgid "Enter recipient email address"
+msgstr ""
+
+#: js/btrmsgtpl.js templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+msgid "Rename Variable"
+msgstr ""
+
+#: js/btrmsgtpl.js
+msgid "Enter the new variable name"
 msgstr ""
 
 #: js/btrmsgtpl.js
@@ -163,19 +234,24 @@ msgstr ""
 msgid "Hooray!"
 msgstr ""
 
-#: js/btrmsgtpl.js
-msgid "New sample name?"
+#: js/btrmsgtpl.js templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+msgid "New Sample"
 msgstr ""
 
 #: js/btrmsgtpl.js
-msgid "Save sample as..."
+msgid "Enter a name for the sample"
+msgstr ""
+
+#: js/btrmsgtpl.js templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+msgid "Save Sample"
 msgstr ""
 
 #: js/btrmsgtpl.js
-msgid ""
-"Delete this sample?\n"
-"\n"
-"%1"
+msgid "Enter a new name for the sample"
+msgstr ""
+
+#: js/btrmsgtpl.js
+msgid "You are about to delele sample:<br /><br />%1"
 msgstr ""
 
 #: js/btrmsgtpl.js js/tab.js
@@ -183,7 +259,7 @@ msgid "Danger, Will Robinson!"
 msgstr ""
 
 #: js/btrmsgtpl.js
-msgid "Message template has changed"
+msgid "Okay"
 msgstr ""
 
 #: js/btrmsgtpl.js
@@ -196,14 +272,6 @@ msgstr ""
 
 #: js/btrmsgtpl.js
 msgid "addition"
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "The token {%1} has been replaced by {%2}"
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "Outdated Token Warning"
 msgstr ""
 
 #: js/btrmsgtpl.js
@@ -220,18 +288,6 @@ msgstr ""
 
 #: js/tab.js templates/CRM/Btrmsgtpl/Tab.tpl
 msgid "User-driven"
-msgstr ""
-
-#: js/tab.js
-msgid "Searching"
-msgstr ""
-
-#: js/tab.js
-msgid "Found"
-msgstr ""
-
-#: js/tab.js
-msgid "Failed"
 msgstr ""
 
 #: js/tab.js
@@ -268,6 +324,22 @@ msgid "Close"
 msgstr ""
 
 #: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+msgid "Add Translation"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+msgid "Locale"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+msgid "Title Goes Here"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+msgid "Label Goes Here"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
 msgid "Sample"
 msgstr ""
 
@@ -288,14 +360,6 @@ msgid "Action"
 msgstr ""
 
 #: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "New Sample"
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Save Sample"
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
 msgid "Save Sample As"
 msgstr ""
 
@@ -308,23 +372,11 @@ msgid "Refresh Samples"
 msgstr ""
 
 #: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Rename Variable"
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
 msgid "Clear Selection"
 msgstr ""
 
 #: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
 msgid "Refresh Variables"
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Variables"
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Tokens"
 msgstr ""
 
 #: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
@@ -417,11 +469,23 @@ msgid "Subject"
 msgstr ""
 
 #: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+msgid "Create Draft"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
 msgid "Save Template"
 msgstr ""
 
 #: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Goto Line"
+msgid "Activate Draft"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+msgid "Delete Draft"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+msgid "Delete Translation"
 msgstr ""
 
 #: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
@@ -446,10 +510,6 @@ msgstr ""
 
 #: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
 msgid "Collapse All"
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Send Email"
 msgstr ""
 
 #: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
@@ -518,23 +578,11 @@ msgid "search message content for..."
 msgstr ""
 
 #: templates/CRM/Btrmsgtpl/Tab.tpl
-msgid "Clear Results"
+msgid "Clear Search"
 msgstr ""
 
 #: templates/CRM/Btrmsgtpl/Tab.tpl
-msgid "Press"
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Tab.tpl
-msgid "ENTER"
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Tab.tpl
-msgid "to execute search."
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Tab.tpl
-msgid "* modified template, (#) number of samples available."
+msgid "Press %1 to execute search, %2 to clear."
 msgstr ""
 
 #: templates/CRM/Btrmsgtpl/Tab.tpl
@@ -563,6 +611,10 @@ msgstr ""
 
 #: templates/CRM/Btrmsgtpl/Tab.tpl
 msgid "Make this the default tab"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Tab.tpl
+msgid "Only list important templates"
 msgstr ""
 
 #: templates/CRM/Btrmsgtpl/Tab.tpl
