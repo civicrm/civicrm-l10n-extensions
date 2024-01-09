@@ -3,15 +3,15 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Betty Dolfing <betty.dolfing@civicoop.org>, 2023
 # brouwser <brouwer@ee-atwork.nl>, 2023
 # HanV <han.velthuis@kpnmail.nl>, 2023
+# Betty Dolfing <betty.dolfing@civicoop.org>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: btrmsgtpl\n"
-"POT-Creation-Date: 2023-12-26 05:01+0000\n"
-"Last-Translator: HanV <han.velthuis@kpnmail.nl>, 2023\n"
+"POT-Creation-Date: 2024-01-09 05:02+0000\n"
+"Last-Translator: Betty Dolfing <betty.dolfing@civicoop.org>, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -90,29 +90,69 @@ msgid ""
 "revisions."
 msgstr ""
 
+#: CRM/Btrmsgtpl/Upgrader.php
+msgid ""
+"btrmsgtpl: adding revision support for default system workflow message "
+"templates."
+msgstr ""
+
+#: CRM/Btrmsgtpl/Upgrader.php
+msgid "btrmsgtpl: remove errant system default revisions."
+msgstr ""
+
 #: ang/crmBtrmsgtpl/Btrmsgtpl.js
 msgid "crmMsgadm"
 msgstr ""
 
 #: api/v3/Btrmsgtpl.php
-msgid "Revision not found."
+msgid "btrmsgtpl: Error deleting translation/draft: "
 msgstr ""
 
 #: api/v3/Btrmsgtpl.php
-msgid "Unknown revision action"
+msgid "Revision not found. "
+msgstr ""
+
+#: api/v3/Btrmsgtpl.php
+msgid "Unknown revision action. "
+msgstr ""
+
+#: api/v3/Btrmsgtpl.php
+msgid "btrmsgtpl: Error saving translation: "
+msgstr ""
+
+#: api/v3/Btrmsgtpl.php btrmsgtpl.php
+msgid "System Default "
+msgstr ""
+
+#: api/v3/Btrmsgtpl.php
+msgid ""
+"Access to system default history currently restricted. Try again in %1 "
+"minutes(s)."
+msgstr ""
+
+#: api/v3/Btrmsgtpl.php
+msgid "Error %1 while reading /rate_limit."
+msgstr ""
+
+#: api/v3/Btrmsgtpl.php
+msgid "Template ID (msg_template_id) is required."
 msgstr ""
 
 #: btrmsgtpl.php
 msgid "Modified"
 msgstr "Gewijzigd"
 
-#: btrmsgtpl.php js/btrmsgtpl.js
+#: btrmsgtpl.php
 msgid "System Default"
 msgstr "Systeemstandaard"
 
 #: btrmsgtpl.php
 msgid ", %1 Samples"
 msgstr ""
+
+#: btrmsgtpl.php
+msgid "%1 by %2"
+msgstr "%1 door %2"
 
 #: btrmsgtpl.php
 msgid "Deleted Contact"
@@ -292,6 +332,14 @@ msgstr ""
 
 #: js/btrmsgtpl.js
 msgid "Reveal In Outline & Select"
+msgstr ""
+
+#: js/btrmsgtpl.js
+msgid "System Defaults"
+msgstr ""
+
+#: js/btrmsgtpl.js
+msgid "System defaults loaded."
 msgstr ""
 
 #: js/tab.js templates/CRM/Btrmsgtpl/Tab.tpl
