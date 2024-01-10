@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2018-11-15 19:41+0000\n"
+"POT-Creation-Date: 2024-01-10 05:01+0000\n"
 "PO-Revision-Date: 2014-05-30 13:55+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2022-2023\n"
 "Language-Team: Turkish (http://app.transifex.com/civicrm/civicrm_extensions/language/tr/)\n"
@@ -16,6 +16,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: CRM/Admin/Form/Setting/RegionLookup.php
+#: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
+msgid "Lookup method"
+msgstr ""
 
 #: CRM/Admin/Form/Setting/RegionLookup.php
 msgid "Save"
@@ -85,9 +90,9 @@ msgstr "Kullanıcı yazmaya başladığında arama tetiklensin"
 msgid "How many characters to send to the lookup query?"
 msgstr "Arama sorgusuna gönderilecek karakter sayısı"
 
-#: CRM/RegionLookup/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "%1, %2 sürümüne güncelle"
+#: CRM/RegionLookup/BAO/RegionLookup.php
+msgid "Database"
+msgstr ""
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid "Lookup field"
@@ -131,6 +136,13 @@ msgid ""
 "to find a match, enter 3 in this field. <strong>TODO: not implemented "
 "yet.</strong>"
 msgstr "Örneğin, aramanızın bir eşleşme bulması için posta kodunun yalnızca ilk 3 hanesi gerekiyorsa bu alana 3 yazın. <strong>YAPILACAK: Henüz uygulanmadı.</strong>"
+
+#: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
+msgid ""
+"The default lookup method uses values in the 'civicrm_regionlookup' database"
+" table. You can configure external lookup sources with the help of third-"
+"party extensions. See the extension's README file for more information."
+msgstr ""
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid "Destination fields"
