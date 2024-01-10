@@ -3,19 +3,24 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# HanV <han.velthuis@home.nl>, 2020
+# HanV <han.velthuis@kpnmail.nl>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2018-11-15 19:41+0000\n"
-"PO-Revision-Date: 2020-11-02 13:23+0000\n"
-"Last-Translator: Betty Dolfing <betty.dolfing@civicoop.org>\n"
-"Language-Team: Dutch (http://www.transifex.com/civicrm/civicrm_extensions/language/nl/)\n"
+"POT-Creation-Date: 2024-01-10 05:01+0000\n"
+"PO-Revision-Date: 2014-05-30 13:55+0000\n"
+"Last-Translator: HanV <han.velthuis@kpnmail.nl>, 2020\n"
+"Language-Team: Dutch (http://app.transifex.com/civicrm/civicrm_extensions/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: CRM/Admin/Form/Setting/RegionLookup.php
+#: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
+msgid "Lookup method"
+msgstr ""
 
 #: CRM/Admin/Form/Setting/RegionLookup.php
 msgid "Save"
@@ -85,9 +90,9 @@ msgstr "Trigger zoeken als de gebruikerstypes?"
 msgid "How many characters to send to the lookup query?"
 msgstr "Hoeveel tekens doorgeven bij het opzoeken?"
 
-#: CRM/RegionLookup/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Upgrade %1 naar versie %2"
+#: CRM/RegionLookup/BAO/RegionLookup.php
+msgid "Database"
+msgstr ""
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid "Lookup field"
@@ -131,6 +136,13 @@ msgid ""
 "to find a match, enter 3 in this field. <strong>TODO: not implemented "
 "yet.</strong>"
 msgstr "Voorbeeld: Als u al wilt zoeken met slechts de eerste drie cijfers van de postcode, vul hier dan een 3 in. <strong>Dit moet nog uitgewerkt worden!</strong>"
+
+#: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
+msgid ""
+"The default lookup method uses values in the 'civicrm_regionlookup' database"
+" table. You can configure external lookup sources with the help of third-"
+"party extensions. See the extension's README file for more information."
+msgstr ""
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
 msgid "Destination fields"
