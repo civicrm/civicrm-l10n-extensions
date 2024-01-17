@@ -6,15 +6,15 @@
 # lbl_knts <git@rlkd.de>, 2020
 # Maria <maria.vogel@civiservice.de>, 2022
 # Reinhard Kopp <reinhard@magiclight.de>, 2023
-# Mathieu Lu <mathieu@bidon.ca>, 2023
-# Torben Bertram, 2023
+# Mathieu Lu <mathieu@bidon.ca>, 2024
+# Torben Bertram, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
-"POT-Creation-Date: 2023-01-31 05:01+0000\n"
-"Last-Translator: Torben Bertram, 2023\n"
-"Language-Team: German (https://www.transifex.com/civicrm/teams/1905/de/)\n"
+"POT-Creation-Date: 2024-01-17 05:01+0000\n"
+"Last-Translator: Torben Bertram, 2024\n"
+"Language-Team: German (https://app.transifex.com/civicrm/teams/1905/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -44,6 +44,11 @@ msgstr "Einzelveranstaltung ist bereits in Verwendung."
 #: CRM/CiviMobileAPI/ApiWrapper/Participant/Create.php
 msgid "This contact has already been assigned to this event."
 msgstr "Dieser Kontakt ist bereits zur Veranstaltung verknüpft."
+
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPayment/Create.php
+#: CRM/CiviMobileAPI/ApiWrapper/Participant/Create.php
+msgid "This contact has already been assigned to event with same date."
+msgstr ""
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPayment/Create.php
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
@@ -455,8 +460,10 @@ msgid "Submit"
 msgstr "Abschicken"
 
 #: CRM/CiviMobileAPI/Form/CalendarSettings.php
+#: CRM/CiviMobileAPI/Form/CiviAiSettings.php
 #: CRM/CiviMobileAPI/Form/Session.php CRM/CiviMobileAPI/Form/Settings.php
 #: CRM/CiviMobileAPI/Form/Venue.php
+#: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
 msgid "Cancel"
 msgstr "Abbrechen"
 
@@ -467,6 +474,35 @@ msgstr "Konfiguration aktualisiert"
 #: CRM/CiviMobileAPI/Form/CalendarSettings.php civimobileapi.php
 msgid "CiviMobile Calendar Settings"
 msgstr "CiviMobile Kalendereinstellungen"
+
+#: CRM/CiviMobileAPI/Form/CiviAiSettings.php
+msgid ""
+"To use ChatGPT you must register at <a "
+"href=\"https://platform.openai.com/account/api-keys\"  "
+"target=\"_blank\">openai.com</a> and create your own Secret Key"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/CiviAiSettings.php
+msgid "Fields cannot be empty."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/CiviAiSettings.php
+msgid "Secret key"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/CiviAiSettings.php
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Save settings"
+msgstr "Einstellungen speichern"
+
+#: CRM/CiviMobileAPI/Form/CiviAiSettings.php
+msgid "Secret key updated"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/CiviAiSettings.php
+#: CRM/CiviMobileAPI/Form/Settings.php civimobileapi.php
+msgid "CiviMobile Settings"
+msgstr "CiviMobile Einstellungen"
 
 #: CRM/CiviMobileAPI/Form/Dashboard.php
 msgid "Logout from mobile"
@@ -564,6 +600,7 @@ msgid "The Session was not deleted!"
 msgstr "Einzelveranstaltung wurde nicht gelöscht!"
 
 #: CRM/CiviMobileAPI/Form/Session.php CRM/CiviMobileAPI/Form/Speaker.php
+#: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
 msgid "Error"
 msgstr "Fehler"
 
@@ -728,16 +765,16 @@ msgid "Do you have custom application?"
 msgstr "Haben Sie eine angepasste App?"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Do you want disallow registration on events at same date?"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Life time for push notification messages"
 msgstr "Gültigkeitszeitraum für Push Nachrichten"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Allow registration"
 msgstr "Registrierungen erlauben"
-
-#: CRM/CiviMobileAPI/Form/Settings.php
-msgid "Save settings"
-msgstr "Einstellungen speichern"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Confirm server key"
@@ -750,10 +787,6 @@ msgstr "Update CiviMobile Erweiterung"
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Server key updated"
 msgstr "Server Key aktualisiert"
-
-#: CRM/CiviMobileAPI/Form/Settings.php civimobileapi.php
-msgid "CiviMobile Settings"
-msgstr "CiviMobile Einstellungen"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "CiviMobile updated"
@@ -972,6 +1005,7 @@ msgid "Calendar"
 msgstr "Kalender"
 
 #: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
+#: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "Events"
 msgstr "Veranstaltungen"
 
@@ -1014,6 +1048,10 @@ msgstr "Tags"
 #: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
 msgid "Surveys"
 msgstr "Umfragen"
+
+#: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
+msgid "TimeTracker"
+msgstr ""
 
 #: CRM/CiviMobileAPI/Install/Entity/UpdateMessageTemplate.php
 msgid ""
@@ -1181,6 +1219,19 @@ msgstr ""
 msgid "Your Api key has removed and all device disconnected from account."
 msgstr "Ihr API Key wurde entfernt und alle Geräte von diesem Konto getrennt."
 
+#: Civi/Api4/CiviMobileGenerateEventDescription.php
+msgid "Event title"
+msgstr ""
+
+#: Civi/Api4/CiviMobileGenerateEventDescription.php
+#: api/v3/CiviMobileCalendar.php
+msgid "Event type"
+msgstr "Veranstaltungsart"
+
+#: Civi/Api4/CiviMobileGenerateEventDescription.php
+msgid "User input"
+msgstr ""
+
 #: api/v3/CiviMobileActiveRelationship.php
 msgid "Contact id(a) is deleted?"
 msgstr "Ist Kontakt-ID(a) gelöscht?"
@@ -1223,10 +1274,6 @@ msgstr "Startdatum für die Suche (Y-m-d H:i:s)"
 #: api/v3/CiviMobileCalendar.php
 msgid "End date for searching (Y-m-d H:i:s)"
 msgstr "Enddatum für die Suche (Y-m-d H:i:s)"
-
-#: api/v3/CiviMobileCalendar.php
-msgid "Event type"
-msgstr "Veranstaltungsart"
 
 #: api/v3/CiviMobileCase.php
 msgid "Case Id"
@@ -1320,6 +1367,10 @@ msgstr "Eingangsdatum"
 #: api/v3/CiviMobileCustomFields.php
 msgid "Entity"
 msgstr "Entität"
+
+#: api/v3/CiviMobileCustomFields.php
+msgid "Is searchable"
+msgstr ""
 
 #: api/v3/CiviMobileEventSession.php
 msgid "EventSession id"
@@ -1531,12 +1582,20 @@ msgstr ""
 "sind."
 
 #: civimobileapi.php
+msgid "test"
+msgstr ""
+
+#: civimobileapi.php
 msgid "CiviMobile Event Locations"
 msgstr "CiviMobile Veranstaltungsorte"
 
 #: civimobileapi.php
 msgid "CiviMobile Checklist"
 msgstr "CiviMobile Checkliste"
+
+#: civimobileapi.php
+msgid "CiviAI Settings"
+msgstr ""
 
 #: civimobileapi.php
 msgid "Is allow mobile registration?"
@@ -1632,6 +1691,14 @@ msgstr "Einzelveranstaltung"
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
 msgid "Time"
 msgstr "Zeit"
+
+#: templates/CRM/CiviMobileAPI/Form/CiviAiSettings.hlp
+msgid "Secret Key"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/CiviAiSettings.hlp
+msgid "The key is used to give access to the ChatGPT functionality"
+msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/EventLocations.tpl
 msgid "Locations"
@@ -1776,12 +1843,11 @@ msgstr "Zugang zu öffentlichen Informationen in der App"
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid ""
 "By checking the checkbox you will allow anonymous users access to public information in the mobile application.</p>\n"
-"    <p>Events are displayed in Public Area if all required permissions for Anonymous user are distributed and if CiviEvent component is enabled. Note that if you want a specific event to be made available in the Public Area-please enable 'Public Event' checkbox in Event Info and Settings section.</p>\n"
-"    <p>News may also be present in the Public Area if Show News checkbox is enabled."
+"  <p>Events are displayed in Public Area if all required permissions for Anonymous user are distributed and if CiviEvent\n"
+"    component is enabled. Note that if you want a specific event to be made available in the Public Area-please enable\n"
+"    'Public Event' checkbox in Event Info and Settings section.</p>\n"
+"  <p>News may also be present in the Public Area if Show News checkbox is enabled."
 msgstr ""
-"Bei aktiviertem Kontrollkästchen, haben anonyme Benutzer Zugriff auf öffentliche Informationen in der mobilen Anwendung.</p>\n"
-"    <p>Veranstaltungen werden im öffentlichen Bereich angezeigt, wenn alle erforderlichen Berechtigungen für anonyme Benutzer verteilt sind und die CiviEvent-Komponente aktiviert ist. Wenn Sie möchten, dass ein bestimmtes Ereignis im öffentlichen Bereich verfügbar gemacht wird, aktivieren Sie bitte das Kontrollkästchen \"Öffentliches Veranstaltung\" im Abschnitt Veranstaltungsinformationen und -einstellungen.</p>\n"
-"    <p>Nachrichten können auch im öffentlichen Bereich angezeigt werden, wenn das Kontrollkästchen Nachrichten anzeigen aktiviert ist."
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "Push notification Lifetime"
@@ -1794,6 +1860,16 @@ msgid ""
 msgstr ""
 "Dieser Wert bezeichnet die Speicherdauer von Push Nachrichten. Bei einem "
 "Wert gleich 0 werden keine Nachrichten gespeichert."
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid "Registration Overlap"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid ""
+"By checking the checkbox you will disallow user registration for events that"
+" overlap with other events"
+msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "Extension Info"
@@ -1909,6 +1985,47 @@ msgstr "Anzeigename"
 #: templates/CRM/CiviMobileAPI/Page/Speakers.tpl
 msgid "Company"
 msgstr "Institution"
+
+#: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
+msgid "Generate description"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
+msgid "Close"
+msgstr "Schließen"
+
+#: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
+msgid ""
+"Here you can add some editions. E.g: 'Add new date to the generated text'"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
+msgid "Generate"
+msgstr "Erzeugen"
+
+#: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
+msgid "Save description"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
+msgid "Please wait while your description is being generated"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
+msgid "Generated description"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
+msgid "Invalid API key. Please check your key."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
+msgid "Please, enter title and type for the event"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
+msgid "Warning"
+msgstr "Warnung"
 
 #: templates/CRM/CiviMobileAPI/popup.tpl
 msgid "Open Qr Code"
