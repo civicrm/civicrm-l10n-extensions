@@ -4,13 +4,13 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Mathieu Lu <mathieu@bidon.ca>, 2023
-# Kaya Zeren <kayazeren@gmail.com>, 2023
+# Kaya Zeren <kayazeren@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
-"POT-Creation-Date: 2023-01-31 05:01+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2023\n"
+"POT-Creation-Date: 2024-01-17 05:01+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (https://app.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,6 +40,11 @@ msgstr "Oturum kullanılmaya hazır"
 #: CRM/CiviMobileAPI/ApiWrapper/Participant/Create.php
 msgid "This contact has already been assigned to this event."
 msgstr "Bu kişi zaten bu etkinlikle ilişkilendirilmiş."
+
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPayment/Create.php
+#: CRM/CiviMobileAPI/ApiWrapper/Participant/Create.php
+msgid "This contact has already been assigned to event with same date."
+msgstr ""
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPayment/Create.php
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
@@ -448,8 +453,10 @@ msgid "Submit"
 msgstr "Gönder"
 
 #: CRM/CiviMobileAPI/Form/CalendarSettings.php
+#: CRM/CiviMobileAPI/Form/CiviAiSettings.php
 #: CRM/CiviMobileAPI/Form/Session.php CRM/CiviMobileAPI/Form/Settings.php
 #: CRM/CiviMobileAPI/Form/Venue.php
+#: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
 msgid "Cancel"
 msgstr "İptal"
 
@@ -460,6 +467,35 @@ msgstr "Yapılandırma güncellendi"
 #: CRM/CiviMobileAPI/Form/CalendarSettings.php civimobileapi.php
 msgid "CiviMobile Calendar Settings"
 msgstr "CiviMobile takvim ayarları"
+
+#: CRM/CiviMobileAPI/Form/CiviAiSettings.php
+msgid ""
+"To use ChatGPT you must register at <a "
+"href=\"https://platform.openai.com/account/api-keys\"  "
+"target=\"_blank\">openai.com</a> and create your own Secret Key"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/CiviAiSettings.php
+msgid "Fields cannot be empty."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/CiviAiSettings.php
+msgid "Secret key"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/CiviAiSettings.php
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Save settings"
+msgstr "Ayarları kaydet"
+
+#: CRM/CiviMobileAPI/Form/CiviAiSettings.php
+msgid "Secret key updated"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/CiviAiSettings.php
+#: CRM/CiviMobileAPI/Form/Settings.php civimobileapi.php
+msgid "CiviMobile Settings"
+msgstr "CiviMobile ayarları"
 
 #: CRM/CiviMobileAPI/Form/Dashboard.php
 msgid "Logout from mobile"
@@ -557,6 +593,7 @@ msgid "The Session was not deleted!"
 msgstr "Oturum silinmedi!"
 
 #: CRM/CiviMobileAPI/Form/Session.php CRM/CiviMobileAPI/Form/Speaker.php
+#: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
 msgid "Error"
 msgstr "Hata"
 
@@ -715,16 +752,16 @@ msgid "Do you have custom application?"
 msgstr "Özel uygulamanız var mı?"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Do you want disallow registration on events at same date?"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Life time for push notification messages"
 msgstr "Anında bildirim iletilerinin geçerlilik süresi"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Allow registration"
 msgstr "Kayıt olunabilsin"
-
-#: CRM/CiviMobileAPI/Form/Settings.php
-msgid "Save settings"
-msgstr "Ayarları kaydet"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Confirm server key"
@@ -737,10 +774,6 @@ msgstr "CiviMobile eklentisini güncelle"
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Server key updated"
 msgstr "Sunucu anahtarı güncellendi"
-
-#: CRM/CiviMobileAPI/Form/Settings.php civimobileapi.php
-msgid "CiviMobile Settings"
-msgstr "CiviMobile ayarları"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "CiviMobile updated"
@@ -954,6 +987,7 @@ msgid "Calendar"
 msgstr "Takvim"
 
 #: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
+#: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "Events"
 msgstr "Etkinlikler"
 
@@ -996,6 +1030,10 @@ msgstr "Etiketler"
 #: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
 msgid "Surveys"
 msgstr "Anketler"
+
+#: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
+msgid "TimeTracker"
+msgstr ""
 
 #: CRM/CiviMobileAPI/Install/Entity/UpdateMessageTemplate.php
 msgid ""
@@ -1164,6 +1202,19 @@ msgid "Your Api key has removed and all device disconnected from account."
 msgstr ""
 "API anahtarınız kaldırıldı ve tüm aygıtların hesapla bağlantısı kesildi."
 
+#: Civi/Api4/CiviMobileGenerateEventDescription.php
+msgid "Event title"
+msgstr ""
+
+#: Civi/Api4/CiviMobileGenerateEventDescription.php
+#: api/v3/CiviMobileCalendar.php
+msgid "Event type"
+msgstr "Etkinlik türü"
+
+#: Civi/Api4/CiviMobileGenerateEventDescription.php
+msgid "User input"
+msgstr ""
+
 #: api/v3/CiviMobileActiveRelationship.php
 msgid "Contact id(a) is deleted?"
 msgstr "Kişi kimliği(a) silindi mi?"
@@ -1206,10 +1257,6 @@ msgstr "Arama için başlangıç tarihi (Y-m-d H:i:s)"
 #: api/v3/CiviMobileCalendar.php
 msgid "End date for searching (Y-m-d H:i:s)"
 msgstr "Arama için bitiş tarihi (Y-m-d H:i:s)"
-
-#: api/v3/CiviMobileCalendar.php
-msgid "Event type"
-msgstr "Etkinlik türü"
 
 #: api/v3/CiviMobileCase.php
 msgid "Case Id"
@@ -1303,6 +1350,10 @@ msgstr "Alınma tarihi"
 #: api/v3/CiviMobileCustomFields.php
 msgid "Entity"
 msgstr "Varlık"
+
+#: api/v3/CiviMobileCustomFields.php
+msgid "Is searchable"
+msgstr ""
 
 #: api/v3/CiviMobileEventSession.php
 msgid "EventSession id"
@@ -1512,12 +1563,20 @@ msgid "It means the User can see the groups he belongs to"
 msgstr "Bu seçenek, kullanıcının ait olduğu grupları görebilmesini sağlar."
 
 #: civimobileapi.php
+msgid "test"
+msgstr ""
+
+#: civimobileapi.php
 msgid "CiviMobile Event Locations"
 msgstr "CiviMobile etkinlik konumları"
 
 #: civimobileapi.php
 msgid "CiviMobile Checklist"
 msgstr "CiviMobile kontrol listesi"
+
+#: civimobileapi.php
+msgid "CiviAI Settings"
+msgstr ""
 
 #: civimobileapi.php
 msgid "Is allow mobile registration?"
@@ -1612,6 +1671,14 @@ msgstr "Oturum"
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
 msgid "Time"
 msgstr "Zaman"
+
+#: templates/CRM/CiviMobileAPI/Form/CiviAiSettings.hlp
+msgid "Secret Key"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/CiviAiSettings.hlp
+msgid "The key is used to give access to the ChatGPT functionality"
+msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/EventLocations.tpl
 msgid "Locations"
@@ -1755,12 +1822,11 @@ msgstr "Uygulama içinden herkese açık bilgilere erişmek"
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid ""
 "By checking the checkbox you will allow anonymous users access to public information in the mobile application.</p>\n"
-"    <p>Events are displayed in Public Area if all required permissions for Anonymous user are distributed and if CiviEvent component is enabled. Note that if you want a specific event to be made available in the Public Area-please enable 'Public Event' checkbox in Event Info and Settings section.</p>\n"
-"    <p>News may also be present in the Public Area if Show News checkbox is enabled."
+"  <p>Events are displayed in Public Area if all required permissions for Anonymous user are distributed and if CiviEvent\n"
+"    component is enabled. Note that if you want a specific event to be made available in the Public Area-please enable\n"
+"    'Public Event' checkbox in Event Info and Settings section.</p>\n"
+"  <p>News may also be present in the Public Area if Show News checkbox is enabled."
 msgstr ""
-"Kutuyu işaretleyerek, anonim kullanıcıların mobil uygulamadaki herkese açık bilgilere erişmesine izin verirsiniz.</p>\n"
-"    <p>Anonim kullanıcı için gerekli tüm izinler verilmişse ve CiviEvent bileşeni etkinleştirilmişse, etkinlikler herkese açık alanda görüntülenir. Belirli bir etkinliğin herkese açık alanda sunulmasını istiyorsanız, lütfen etkinlik bilgileri ve ayarlar bölümünde 'Herkese açık etkinlik' kutusunu işaretleyin.</p>\n"
-"    <p>Haberleri görüntüle kutusu işaretlenmişse haberler herkese açık alanda görüntülenir."
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "Push notification Lifetime"
@@ -1773,6 +1839,16 @@ msgid ""
 msgstr ""
 "Bu değer, anında bildirimlerin saklanacağı süreyi belirtir. 0 olarak "
 "ayarlandığında iletiler kaydedilmez."
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid "Registration Overlap"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid ""
+"By checking the checkbox you will disallow user registration for events that"
+" overlap with other events"
+msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "Extension Info"
@@ -1884,6 +1960,47 @@ msgstr "Görüntülenecek ad"
 #: templates/CRM/CiviMobileAPI/Page/Speakers.tpl
 msgid "Company"
 msgstr "Kuruluş"
+
+#: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
+msgid "Generate description"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
+msgid "Close"
+msgstr "Kapat"
+
+#: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
+msgid ""
+"Here you can add some editions. E.g: 'Add new date to the generated text'"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
+msgid "Generate"
+msgstr "Üret"
+
+#: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
+msgid "Save description"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
+msgid "Please wait while your description is being generated"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
+msgid "Generated description"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
+msgid "Invalid API key. Please check your key."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
+msgid "Please, enter title and type for the event"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
+msgid "Warning"
+msgstr "Uyarı"
 
 #: templates/CRM/CiviMobileAPI/popup.tpl
 msgid "Open Qr Code"
