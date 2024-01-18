@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = bg: bg_BG, hu: hu_HU, sk: sk_SK, pl: pl_PL, ro: ro_RO, lt: lt_LT, tr: tr_TR, fi: fi_FI, ca: ca_ES, km: km_KH, sq: sq_AL, af: af_ZA, ru: ru_RU, vi: vi_VN, id: id_ID, sv: sv_SE, he: he_IL, nb: nb_NO, el: el_GR, it: it_IT, da: da_DK, nl: nl_NL, lv: lv_LV, cs: cs_CZ, et: et_EE, es: es_ES, de: de_DE, fr: fr_FR, ja: ja_JP, pt: pt_PT, sl: sl_SI, hi: hi_IN
+lang_map = ro: ro_RO, id: id_ID, sv: sv_SE, da: da_DK, el: el_GR, sk: sk_SK, pl: pl_PL, km: km_KH, sq: sq_AL, af: af_ZA, ru: ru_RU, nb: nb_NO, vi: vi_VN, et: et_EE, ja: ja_JP, lv: lv_LV, sl: sl_SI, he: he_IL, nl: nl_NL, cs: cs_CZ, es: es_ES, pt: pt_PT, hi: hi_IN, hu: hu_HU, lt: lt_LT, it: it_IT, fr: fr_FR, bg: bg_BG, fi: fi_FI, tr: tr_TR, ca: ca_ES, de: de_DE
 
 [o:civicrm:p:civicrm_extensions:r:Civixero]
 file_filter = po/Civixero/<lang>/Civixero.po
@@ -855,6 +855,13 @@ source_lang = en
 file_filter = po/templateattachments/<lang>/templateattachments.po
 source_file = po/templateattachments/pot/templateattachments.pot
 source_lang = en
+
+[o:civicrm:p:civicrm_extensions:r:theisland]
+file_filter   = po/theisland/<lang>/theisland.po
+source_file   = po/theisland/pot/theisland.pot
+type          = POT
+minimum_perc  = 0
+resource_name = theisland
 
 [o:civicrm:p:civicrm_extensions:r:thethe]
 file_filter = po/thethe/<lang>/thethe.po
