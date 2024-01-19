@@ -4,13 +4,13 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Mathieu Lu <mathieu@bidon.ca>, 2022
-# Kaya Zeren <kayazeren@gmail.com>, 2023
+# Kaya Zeren <kayazeren@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: dataprocessor\n"
-"POT-Creation-Date: 2020-10-01 05:01+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2023\n"
+"POT-Creation-Date: 2024-01-19 05:02+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (https://app.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,6 +20,7 @@ msgstr ""
 
 #: CRM/Contact/DataProcessorContactSearch.php
 #: CRM/Contact/DataProcessorContactSummaryTab.php
+#: CRM/Dataprocessor/DAO/DataProcessorOutput.php
 #: CRM/DataprocessorDashlet/Dashlet.php
 #: CRM/DataprocessorSearch/ActivitySearch.php
 #: CRM/DataprocessorSearch/CaseSearch.php
@@ -33,6 +34,7 @@ msgstr "İzin"
 #: CRM/Contact/DataProcessorContactSearch.php
 #: CRM/Contact/DataProcessorContactSummaryTab.php
 #: CRM/Dataprocessor/Form/Field.php CRM/Dataprocessor/Form/Filter.php
+#: CRM/Dataprocessor/Form/FilterCollection.php
 #: CRM/Dataprocessor/Form/Output.php CRM/Dataprocessor/Form/Source.php
 #: CRM/DataprocessorDashlet/Dashlet.php CRM/DataprocessorOutputExport/PDF.php
 #: CRM/DataprocessorSearch/ActivitySearch.php
@@ -44,31 +46,59 @@ msgstr "İzin"
 #: Civi/DataProcessor/DataFlow/MultipleDataFlows/SimpleJoin.php
 #: Civi/DataProcessor/FieldOutputHandler/AbstractSimpleFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/AggregateFunctionFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/Calculations/ArithmeticOperationsFieldOutputhandler.php
 #: Civi/DataProcessor/FieldOutputHandler/Calculations/CalculationFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/Calculations/SubtractFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/CaseRolesFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ContactHasRelationshipFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/ContactLinkFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ContributionCountFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ContributionRecurCountFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ContributionRecurSumFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/CustomLinkFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/CustomLinkThreeFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/CustomLinkTwoFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/DateFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/EditActivityLinkFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/EventAvailabilityInfoFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/EventParticipantsCountFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/FileFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/GroupsOfContactFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ImageFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/IsActiveFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/ManageCaseLinkFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/MembershipsFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/RelationshipsFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/TagsOfContactFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/TextFromFieldsOutputHandler.php
+#: Civi/DataProcessor/FilterHandler/AbstractFieldFilterHandler.php
+#: Civi/DataProcessor/FilterHandler/AbstractFieldInPeriodFilter.php
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
 #: Civi/DataProcessor/FilterHandler/ActivityFilter.php
+#: Civi/DataProcessor/FilterHandler/CampaignFilter.php
 #: Civi/DataProcessor/FilterHandler/CaseRoleFilter.php
+#: Civi/DataProcessor/FilterHandler/ChecksumFilter.php
+#: Civi/DataProcessor/FilterHandler/CompareFieldFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactHasActiveRecurringContributions.php
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionWithStatus.php
+#: Civi/DataProcessor/FilterHandler/ContactHasEventRegistrationOfType.php
 #: Civi/DataProcessor/FilterHandler/ContactHasMembershipFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactHasRelationship.php
 #: Civi/DataProcessor/FilterHandler/ContactInGroupFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactTypeFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactWithTagFilter.php
 #: Civi/DataProcessor/FilterHandler/DateFilter.php
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+#: Civi/DataProcessor/FilterHandler/DateWeekDayFilter.php
 #: Civi/DataProcessor/FilterHandler/EventFilter.php
 #: Civi/DataProcessor/FilterHandler/InApiFilter.php
+#: Civi/DataProcessor/FilterHandler/LastEventDateFilter.php
 #: Civi/DataProcessor/FilterHandler/MultipleFieldFilter.php
 #: Civi/DataProcessor/FilterHandler/PermissionToViewContactFilter.php
-#: Civi/DataProcessor/FilterHandler/SimpleSqlFilter.php
+#: Civi/DataProcessor/FilterHandler/WorldRegionFilter.php
 #: Civi/DataProcessor/Output/Api.php
+#: Civi/DataProcessor/Source/AbstractCivicrmEntitySource.php
 #: Civi/DataProcessor/Source/AbstractSource.php
 msgid "- select -"
 msgstr "- Seçin -"
@@ -117,15 +147,32 @@ msgid "No result text"
 msgstr "Herhangi bir sonuç bulunamadı metni"
 
 #: CRM/Contact/DataProcessorContactSearch.php
-#: CRM/DataprocessorDashlet/Dashlet.php
+msgid "Expand criteria form initially?"
+msgstr ""
+
+#: CRM/Contact/DataProcessorContactSearch.php
 #: CRM/DataprocessorSearch/ActivitySearch.php
 #: CRM/DataprocessorSearch/CaseSearch.php
 #: CRM/DataprocessorSearch/ContributionSearch.php
 #: CRM/DataprocessorSearch/MembershipSearch.php
 #: CRM/DataprocessorSearch/ParticipantSearch.php
 #: CRM/DataprocessorSearch/Search.php
-msgid "Expand criteria form initially"
-msgstr "Ölçüt formu başlangıçta genişletilsin"
+msgid "Enable Hard Limit?"
+msgstr ""
+
+#: CRM/Contact/DataProcessorContactSearch.php
+#: CRM/DataprocessorSearch/ActivitySearch.php
+#: CRM/DataprocessorSearch/CaseSearch.php
+#: CRM/DataprocessorSearch/ContributionSearch.php
+#: CRM/DataprocessorSearch/MembershipSearch.php
+#: CRM/DataprocessorSearch/ParticipantSearch.php
+#: CRM/DataprocessorSearch/Search.php
+msgid "Default Hard Limit"
+msgstr ""
+
+#: CRM/Contact/DataProcessorContactSearch.php
+msgid "Add link to view contact?"
+msgstr ""
 
 #: CRM/Contact/DataProcessorContactSearch.php
 #: CRM/DataprocessorSearch/ActivitySearch.php
@@ -136,6 +183,21 @@ msgstr "Ölçüt formu başlangıçta genişletilsin"
 #: CRM/DataprocessorSearch/Search.php
 msgid "Parent Menu"
 msgstr "Üst menü ögesi"
+
+#: CRM/Contact/DataProcessorContactSearch.php
+#: CRM/Contact/DataProcessorContactSummaryTab.php
+#: CRM/Dataprocessor/DAO/DataProcessorField.php
+#: CRM/Dataprocessor/DAO/DataProcessorFilter.php
+#: CRM/Dataprocessor/DAO/DataProcessorFilterCollection.php
+#: CRM/Dataprocessor/DAO/DataProcessorSource.php
+#: CRM/DataprocessorSearch/ActivitySearch.php
+#: CRM/DataprocessorSearch/CaseSearch.php
+#: CRM/DataprocessorSearch/ContributionSearch.php
+#: CRM/DataprocessorSearch/MembershipSearch.php
+#: CRM/DataprocessorSearch/ParticipantSearch.php
+#: CRM/DataprocessorSearch/Search.php
+msgid "Weight"
+msgstr "Ağırlık"
 
 #: CRM/Contact/DataProcessorContactSearch.php
 #: CRM/DataprocessorDashlet/Dashlet.php
@@ -158,10 +220,6 @@ msgid "No Result Text"
 msgstr "Herhangi bir sonuç bulunamadı metni"
 
 #: CRM/Contact/DataProcessorContactSummaryTab.php
-msgid "Weight"
-msgstr "Ağırlık"
-
-#: CRM/Contact/DataProcessorContactSummaryTab.php
 #: CRM/DataprocessorDashlet/Dashlet.php
 msgid "Default Limit"
 msgstr "Varsayılan sınır"
@@ -172,11 +230,9 @@ msgstr "Herhangi bir kayıt bulunamadı"
 
 #: CRM/Contact/DataProcessorContactSummaryTab.php
 msgid ""
-"Requires data source '%1' which could not be found. Did you rename or "
-"deleted the data source?"
+"Requires data source '%1' which could not be found. Did you rename or delete"
+" the data source?"
 msgstr ""
-"Bulunamayan '%1' veri kaynağı gerekli. Veri kaynağının adını değiştirmiş ya "
-"da silmiş olabilir misiniz?"
 
 #: CRM/Contact/DataProcessorContactSummaryTab.php
 msgid ""
@@ -202,36 +258,259 @@ msgstr "Süzgeç geçersiz"
 msgid "Invalid field"
 msgstr "Alan geçersiz"
 
-#: CRM/Dataprocessor/Form/CloneDataProcessor.php
-msgid "Clone data processor: %1"
-msgstr "Veri işleyiciyi kopyala: %1"
+#: CRM/Dataprocessor/DAO/DataProcessor.php
+msgid "Data Processors"
+msgstr ""
 
+#: CRM/Dataprocessor/DAO/DataProcessor.php dataprocessor.php
+#: templates/CRM/Dataprocessor/Form/DataProcessor.tpl
+#: templates/CRM/Dataprocessor/Form/ManageDataProcessors.tpl
+msgid "Data Processor"
+msgstr "Veri işleyici"
+
+#: CRM/Dataprocessor/DAO/DataProcessor.php
+#: CRM/Dataprocessor/DAO/DataProcessorField.php
+#: CRM/Dataprocessor/DAO/DataProcessorFilter.php
+#: CRM/Dataprocessor/DAO/DataProcessorFilterCollection.php
+#: CRM/Dataprocessor/DAO/DataProcessorOutput.php
+#: CRM/Dataprocessor/DAO/DataProcessorSource.php
+#: CRM/DataprocessorSearch/Task.php api/v3/DataProcessor.php
+#: api/v3/DataProcessorField.php api/v3/DataProcessorFilter.php
+#: api/v3/DataProcessorFilterCollection.php api/v3/DataProcessorSource.php
+msgid "ID"
+msgstr "Kimlik"
+
+#: CRM/Dataprocessor/DAO/DataProcessor.php
+msgid "Unique DataProcessor ID"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessor.php
+#: CRM/Dataprocessor/DAO/DataProcessorField.php
+#: CRM/Dataprocessor/DAO/DataProcessorFilter.php
+#: CRM/Dataprocessor/DAO/DataProcessorFilterCollection.php
+#: CRM/Dataprocessor/DAO/DataProcessorSource.php
 #: CRM/Dataprocessor/Form/CloneDataProcessor.php
 #: CRM/Dataprocessor/Form/DataProcessor.php CRM/Dataprocessor/Form/Field.php
-#: CRM/Dataprocessor/Form/Filter.php CRM/Dataprocessor/Form/Source.php
-#: api/v3/DataProcessor.php api/v3/DataProcessorField.php
-#: api/v3/DataProcessorFilter.php api/v3/DataProcessorSource.php
+#: CRM/Dataprocessor/Form/Filter.php
+#: CRM/Dataprocessor/Form/FilterCollection.php
+#: CRM/Dataprocessor/Form/Source.php api/v3/DataProcessor.php
+#: api/v3/DataProcessorField.php api/v3/DataProcessorFilter.php
+#: api/v3/DataProcessorFilterCollection.php api/v3/DataProcessorSource.php
 #: templates/CRM/Dataprocessor/Form/FilterValue.tpl
 #: templates/CRM/Dataprocessor/Form/Output/UIOutput/CriteriaForm.tpl
 msgid "Name"
 msgstr "Ad"
 
+#: CRM/Dataprocessor/DAO/DataProcessor.php
+#: CRM/Dataprocessor/DAO/DataProcessorField.php
+#: CRM/Dataprocessor/DAO/DataProcessorFilter.php
+#: CRM/Dataprocessor/DAO/DataProcessorFilterCollection.php
+#: CRM/Dataprocessor/DAO/DataProcessorSource.php
 #: CRM/Dataprocessor/Form/CloneDataProcessor.php
 #: CRM/Dataprocessor/Form/DataProcessor.php CRM/Dataprocessor/Form/Field.php
-#: CRM/Dataprocessor/Form/Filter.php CRM/Dataprocessor/Form/Source.php
-#: api/v3/DataProcessor.php api/v3/DataProcessorField.php
-#: api/v3/DataProcessorFilter.php api/v3/DataProcessorSource.php
+#: CRM/Dataprocessor/Form/Filter.php
+#: CRM/Dataprocessor/Form/FilterCollection.php
+#: CRM/Dataprocessor/Form/Source.php api/v3/DataProcessor.php
+#: api/v3/DataProcessorField.php api/v3/DataProcessorFilter.php
+#: api/v3/DataProcessorFilterCollection.php api/v3/DataProcessorSource.php
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Fields.tpl
+#: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/FilterCollections.tpl
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Filters.tpl
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Sources.tpl
 msgid "Title"
 msgstr "Başlık"
 
+#: CRM/Dataprocessor/DAO/DataProcessor.php
+#: CRM/Dataprocessor/DAO/DataProcessorField.php
+#: CRM/Dataprocessor/DAO/DataProcessorFilter.php
+#: CRM/Dataprocessor/DAO/DataProcessorOutput.php
+#: CRM/Dataprocessor/DAO/DataProcessorSource.php
+msgid "Type"
+msgstr "Tür"
+
+#: CRM/Dataprocessor/DAO/DataProcessor.php
+#: CRM/Dataprocessor/DAO/DataProcessorField.php
+#: CRM/Dataprocessor/DAO/DataProcessorFilter.php
+#: CRM/Dataprocessor/DAO/DataProcessorOutput.php
+#: CRM/Dataprocessor/DAO/DataProcessorSource.php
+#: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/FilterCollections.tpl
+#: templates/CRM/Dataprocessor/Form/Source/Csv.tpl
+#: templates/CRM/Dataprocessor/Form/Source/Sqltable.tpl
+msgid "Configuration"
+msgstr "Yapılandırma"
+
+#: CRM/Dataprocessor/DAO/DataProcessor.php
+#: CRM/Dataprocessor/Form/ManageDataProcessors.php
+#: templates/CRM/Dataprocessor/Form/ManageDataProcessors.tpl
+msgid "Is active"
+msgstr "Etkin"
+
+#: CRM/Dataprocessor/DAO/DataProcessor.php
+#: CRM/Dataprocessor/DAO/DataProcessorFilterCollection.php
 #: CRM/Dataprocessor/Form/CloneDataProcessor.php
 #: CRM/Dataprocessor/Form/DataProcessor.php
+#: CRM/Dataprocessor/Form/FilterCollection.php
 #: templates/CRM/Dataprocessor/Form/ManageDataProcessors.tpl
 msgid "Description"
 msgstr "Açıklama"
+
+#: CRM/Dataprocessor/DAO/DataProcessor.php
+msgid "Storage Type"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessor.php
+msgid "Storage Configuration"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessor.php
+#: templates/CRM/Dataprocessor/Form/ManageDataProcessors.tpl
+msgid "Status"
+msgstr "Durum"
+
+#: CRM/Dataprocessor/DAO/DataProcessor.php
+msgid "Source File"
+msgstr "Kaynak dosya"
+
+#: CRM/Dataprocessor/DAO/DataProcessorField.php
+msgid "Data Processor Fields"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorField.php
+#: CRM/Dataprocessor/Form/Field.php
+msgid "Data Processor Field"
+msgstr "Veri işleyici alanı"
+
+#: CRM/Dataprocessor/DAO/DataProcessorField.php
+msgid "Unique DataProcessorField ID"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorField.php
+#: CRM/Dataprocessor/DAO/DataProcessorFilter.php
+#: CRM/Dataprocessor/DAO/DataProcessorFilterCollection.php
+#: CRM/Dataprocessor/DAO/DataProcessorOutput.php
+#: CRM/Dataprocessor/DAO/DataProcessorSource.php
+msgid "Data Processor ID"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorField.php
+#: CRM/Dataprocessor/DAO/DataProcessorFilter.php
+#: CRM/Dataprocessor/DAO/DataProcessorFilterCollection.php
+#: CRM/Dataprocessor/DAO/DataProcessorOutput.php
+#: CRM/Dataprocessor/DAO/DataProcessorSource.php
+msgid "FK to Data Processor"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorFilter.php
+msgid "Data Processor Filters"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorFilter.php
+#: CRM/Dataprocessor/Form/Filter.php
+msgid "Data Processor Filter"
+msgstr "Veri işleyici süzgeci"
+
+#: CRM/Dataprocessor/DAO/DataProcessorFilter.php
+msgid "Unique DataProcessorFilter ID"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorFilter.php
+#: CRM/Dataprocessor/Form/Filter.php
+msgid "Is required"
+msgstr "Zorunlu"
+
+#: CRM/Dataprocessor/DAO/DataProcessorFilter.php
+msgid "Is exposed"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorFilter.php
+#: templates/CRM/Dataprocessor/Form/FilterValue.tpl
+msgid "Default Filter Value"
+msgstr "Varsayılan süzgeç değeri"
+
+#: CRM/Dataprocessor/DAO/DataProcessorFilter.php
+msgid "Filter Collection Id"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorFilterCollection.php
+msgid "Data Processor Filter Collections"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorFilterCollection.php
+#: CRM/Dataprocessor/Form/FilterCollection.php
+msgid "Data Processor Filter Collection"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorFilterCollection.php
+msgid "Unique DataProcessorFilterCollection ID"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorFilterCollection.php
+#: CRM/Dataprocessor/Form/FilterCollection.php
+msgid "Condition"
+msgstr "Koşul"
+
+#: CRM/Dataprocessor/DAO/DataProcessorFilterCollection.php
+msgid "Condition for linking this collection to the previous collection"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorFilterCollection.php
+msgid "Show Collapsed"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorOutput.php
+msgid "Data Processor Outputs"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorOutput.php
+#: CRM/Dataprocessor/Form/Output.php
+#: templates/CRM/Dataprocessor/Form/Output.tpl
+msgid "Data Processor Output"
+msgstr "Veri işleyici çıkışı"
+
+#: CRM/Dataprocessor/DAO/DataProcessorOutput.php
+msgid "Unique DataProcessorOutput ID"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorOutput.php
+#: Civi/DataProcessor/FilterHandler/InApiFilter.php
+#: Civi/DataProcessor/Output/Api.php
+msgid "API Entity"
+msgstr "API varlığı"
+
+#: CRM/Dataprocessor/DAO/DataProcessorOutput.php
+#: Civi/DataProcessor/FilterHandler/InApiFilter.php
+msgid "API Action"
+msgstr "API işlemi"
+
+#: CRM/Dataprocessor/DAO/DataProcessorOutput.php
+msgid "API Getcount action"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorSource.php
+msgid "Data Processor Sources"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorSource.php
+#: CRM/Dataprocessor/Form/Source.php
+#: templates/CRM/Dataprocessor/Form/Source.tpl
+msgid "Data Processor Source"
+msgstr "Veri işleyici kaynağı"
+
+#: CRM/Dataprocessor/DAO/DataProcessorSource.php
+msgid "Unique DataProcessorSource ID"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorSource.php
+msgid "Join Type"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorSource.php
+msgid "Join Configuration"
+msgstr ""
+
+#: CRM/Dataprocessor/Form/CloneDataProcessor.php
+msgid "Clone data processor: %1"
+msgstr "Veri işleyiciyi kopyala: %1"
 
 #: CRM/Dataprocessor/Form/CloneDataProcessor.php
 #: CRM/Dataprocessor/Form/DataProcessor.php
@@ -241,7 +520,9 @@ msgstr "Etkin"
 
 #: CRM/Dataprocessor/Form/CloneDataProcessor.php
 #: CRM/Dataprocessor/Form/DataProcessor.php CRM/Dataprocessor/Form/Field.php
-#: CRM/Dataprocessor/Form/Filter.php CRM/Dataprocessor/Form/FilterValue.php
+#: CRM/Dataprocessor/Form/Filter.php
+#: CRM/Dataprocessor/Form/FilterCollection.php
+#: CRM/Dataprocessor/Form/FilterValue.php
 #: CRM/Dataprocessor/Form/Output/AbstractOutputForm.php
 #: CRM/Dataprocessor/Form/Output.php CRM/Dataprocessor/Form/Source.php
 msgid "Save"
@@ -249,8 +530,9 @@ msgstr "Kaydet"
 
 #: CRM/Dataprocessor/Form/CloneDataProcessor.php
 #: CRM/Dataprocessor/Form/DataProcessor.php CRM/Dataprocessor/Form/Field.php
-#: CRM/Dataprocessor/Form/Filter.php CRM/Dataprocessor/Form/FilterValue.php
-#: CRM/Dataprocessor/Form/Import.php
+#: CRM/Dataprocessor/Form/Filter.php
+#: CRM/Dataprocessor/Form/FilterCollection.php
+#: CRM/Dataprocessor/Form/FilterValue.php CRM/Dataprocessor/Form/Import.php
 #: CRM/Dataprocessor/Form/Output/AbstractOutputForm.php
 #: CRM/Dataprocessor/Form/Output.php CRM/Dataprocessor/Form/Source.php
 msgid "Cancel"
@@ -290,8 +572,9 @@ msgid "Delete data processor: %1"
 msgstr "Veri işleyiciyi sil: %1"
 
 #: CRM/Dataprocessor/Form/DataProcessor.php CRM/Dataprocessor/Form/Field.php
-#: CRM/Dataprocessor/Form/Filter.php CRM/Dataprocessor/Form/Output.php
-#: CRM/Dataprocessor/Form/Source.php
+#: CRM/Dataprocessor/Form/Filter.php
+#: CRM/Dataprocessor/Form/FilterCollection.php
+#: CRM/Dataprocessor/Form/Output.php CRM/Dataprocessor/Form/Source.php
 #: templates/CRM/Dataprocessor/Form/ManageDataProcessors.tpl
 msgid "Delete"
 msgstr "Sil"
@@ -313,14 +596,11 @@ msgid "Data Processor removed"
 msgstr "Veri işleyici silindi"
 
 #: CRM/Dataprocessor/Form/DataProcessor.php CRM/Dataprocessor/Form/Field.php
-#: CRM/Dataprocessor/Form/Filter.php CRM/Dataprocessor/Form/Output.php
-#: CRM/Dataprocessor/Form/Source.php
+#: CRM/Dataprocessor/Form/Filter.php
+#: CRM/Dataprocessor/Form/FilterCollection.php
+#: CRM/Dataprocessor/Form/Output.php CRM/Dataprocessor/Form/Source.php
 msgid "Removed"
 msgstr "Silindi"
-
-#: CRM/Dataprocessor/Form/Field.php
-msgid "Data Processor Field"
-msgstr "Veri işleyici alanı"
 
 #: CRM/Dataprocessor/Form/Field.php
 msgid "Select Field"
@@ -331,10 +611,6 @@ msgid "Field removed"
 msgstr "Alan silindi"
 
 #: CRM/Dataprocessor/Form/Filter.php
-msgid "Data Processor Filter"
-msgstr "Veri işleyici süzgeci"
-
-#: CRM/Dataprocessor/Form/Filter.php
 msgid "Filter is exposed to the user"
 msgstr "Kullanıcıya sunulacak süzgeç"
 
@@ -343,12 +619,48 @@ msgid "Select Filter"
 msgstr "Süzgeci seçin"
 
 #: CRM/Dataprocessor/Form/Filter.php
-msgid "Is required"
-msgstr "Zorunlu"
+#: templates/CRM/Dataprocessor/Form/FilterCollection.tpl
+msgid "Filter Collection"
+msgstr ""
+
+#: CRM/Dataprocessor/Form/Filter.php
+msgid "Default Filter Collection"
+msgstr ""
 
 #: CRM/Dataprocessor/Form/Filter.php
 msgid "Filter removed"
 msgstr "Süzgeç silindi"
+
+#: CRM/Dataprocessor/Form/FilterCollection.php
+msgid "Or: one of the condition criteria in this collection should be met"
+msgstr ""
+
+#: CRM/Dataprocessor/Form/FilterCollection.php
+msgid "And: all of the condition criteria in this collection should be met"
+msgstr ""
+
+#: CRM/Dataprocessor/Form/FilterCollection.php
+msgid ""
+"Or: either this filter collection or the previous filter collection should "
+"be met"
+msgstr ""
+
+#: CRM/Dataprocessor/Form/FilterCollection.php
+msgid ""
+"And: this filter collection and the previous filter collection should be met"
+msgstr ""
+
+#: CRM/Dataprocessor/Form/FilterCollection.php
+msgid "Link condition"
+msgstr ""
+
+#: CRM/Dataprocessor/Form/FilterCollection.php
+msgid "Collapse in search form"
+msgstr ""
+
+#: CRM/Dataprocessor/Form/FilterCollection.php
+msgid "Filter Collection removed"
+msgstr ""
 
 #: CRM/Dataprocessor/Form/FilterValue.php
 msgid "Data Processor Default Filter Value"
@@ -383,11 +695,6 @@ msgid "Description contains"
 msgstr "Açıklamada şu olan"
 
 #: CRM/Dataprocessor/Form/ManageDataProcessors.php
-#: templates/CRM/Dataprocessor/Form/ManageDataProcessors.tpl
-msgid "Is active"
-msgstr "Etkin"
-
-#: CRM/Dataprocessor/Form/ManageDataProcessors.php
 msgid "Search"
 msgstr "Arama"
 
@@ -396,22 +703,12 @@ msgid "Data Processor  Output  Configuration"
 msgstr "Veri işleyici çıkış yapılandırması"
 
 #: CRM/Dataprocessor/Form/Output.php
-#: templates/CRM/Dataprocessor/Form/Output.tpl
-msgid "Data Processor Output"
-msgstr "Veri işleyici çıkışı"
-
-#: CRM/Dataprocessor/Form/Output.php
 msgid "Select output"
 msgstr "Çıkışı seç"
 
 #: CRM/Dataprocessor/Form/Output.php
 msgid "Data Processor Output removed"
 msgstr "Veri işleyici çıkışı kaldırıldı"
-
-#: CRM/Dataprocessor/Form/Source.php
-#: templates/CRM/Dataprocessor/Form/Source.tpl
-msgid "Data Processor Source"
-msgstr "Veri işleyici kaynağı"
 
 #: CRM/Dataprocessor/Form/Source.php
 msgid "Select source"
@@ -465,6 +762,20 @@ msgstr ""
 msgid "Update data processor configuration"
 msgstr "Veri işleyici yapılandırmasını güncelle"
 
+#: CRM/Dataprocessor/Upgrader.php
+msgid "Prerequisite check failed."
+msgstr "Gereksinimler denetlenemedi."
+
+#: CRM/Dataprocessor/Upgrader.php
+msgid ""
+"Dataprocessor was installed successfully, but you must also install and "
+"enable the <strong>legacycustomsearches</strong> extension."
+msgstr ""
+
+#: CRM/Dataprocessor/Upgrader.php
+msgid "Unknown error key: %1"
+msgstr "Bilinmeyen hata anahtarı: %1"
+
 #: CRM/Dataprocessor/Utils/Extensions.php
 msgid "Kept data processors because you made changes to it."
 msgstr "Üzerinde değişiklik yaptığınız için tutulan veri işleyicileri."
@@ -473,45 +784,65 @@ msgstr "Üzerinde değişiklik yaptığınız için tutulan veri işleyicileri."
 msgid "Kept data processors"
 msgstr "Tutulan veri işleyicileri"
 
+#: CRM/Dataprocessor/Utils/Form.php
+msgid "- any -"
+msgstr "- Tümü -"
+
+#: CRM/Dataprocessor/Utils/Form.php
+msgid "Choose Date Range"
+msgstr "Tarih aralığı seçin"
+
 #: CRM/DataprocessorDashlet/Dashlet.php
 msgid "Help text for this dashlet"
 msgstr "Bu pano bileşeninin yardım metni"
 
-#: CRM/DataprocessorOutputExport/CSV.php
-msgid "Delimiter"
-msgstr "Sınırlayıcı"
+#: CRM/DataprocessorDashlet/Dashlet.php
+#: CRM/DataprocessorSearch/ActivitySearch.php
+#: CRM/DataprocessorSearch/CaseSearch.php
+#: CRM/DataprocessorSearch/ContributionSearch.php
+#: CRM/DataprocessorSearch/MembershipSearch.php
+#: CRM/DataprocessorSearch/ParticipantSearch.php
+#: CRM/DataprocessorSearch/Search.php
+msgid "Expand criteria form initially"
+msgstr "Ölçüt formu başlangıçta genişletilsin"
 
-#: CRM/DataprocessorOutputExport/CSV.php
-msgid "Enclosure"
-msgstr "Kapama"
+#: CRM/DataprocessorOutputExport/AbstractOutputExport.php
+msgid "Is public"
+msgstr "Herkese açık"
 
-#: CRM/DataprocessorOutputExport/CSV.php
-msgid "Escape char"
-msgstr "Kaçış karakteri"
+#: CRM/DataprocessorOutputExport/AbstractOutputExport.php
+msgid "Download <a class=\"dataprocessor-export-download-link\" href=\"%1\">%2</a>"
+msgstr ""
 
-#: CRM/DataprocessorOutputExport/CSV.php CRM/DataprocessorOutputExport/PDF.php
-msgid "Available for anonymous users"
-msgstr "Anonim kullanıcılar için kullanılabilir"
+#: CRM/DataprocessorOutputExport/AbstractOutputExport.php
+msgid "Exported data"
+msgstr "Dışa aktarılan veriler"
 
-#: CRM/DataprocessorOutputExport/CSV.php
-msgid "Download as CSV"
-msgstr "CSV olarak indir"
+#: CRM/DataprocessorOutputExport/AbstractOutputExport.php
+msgid "Create header"
+msgstr ""
 
-#: CRM/DataprocessorOutputExport/CSV.php CRM/DataprocessorOutputExport/PDF.php
+#: CRM/DataprocessorOutputExport/AbstractOutputExport.php
+#: CRM/DataprocessorOutputExport/Page/Export.php
 msgid "Exporting records %1/%2"
 msgstr "Kayıtlar dışa aktarılıyor %1/%2"
 
-#: CRM/DataprocessorOutputExport/CSV.php CRM/DataprocessorOutputExport/PDF.php
+#: CRM/DataprocessorOutputExport/AbstractOutputExport.php
+msgid "Create footer"
+msgstr ""
+
+#: CRM/DataprocessorOutputExport/AbstractOutputExport.php
+#: CRM/DataprocessorOutputExport/Page/Export.php
 msgid "Exporting data"
 msgstr "Veriler dışa aktarılıyor"
 
-#: CRM/DataprocessorOutputExport/CSV.php
-msgid "<a href=\"%1\">Download CSV file</a>"
-msgstr "<a href=\"%1\">CSV dosyasını indir</a>"
+#: CRM/DataprocessorOutputExport/AbstractSpreadsheet.php
+msgid "Alternate File Name"
+msgstr ""
 
-#: CRM/DataprocessorOutputExport/CSV.php CRM/DataprocessorOutputExport/PDF.php
-msgid "Exported data"
-msgstr "Dışa aktarılan veriler"
+#: CRM/DataprocessorOutputExport/AbstractSpreadsheet.php
+msgid "Download as Spreadsheet"
+msgstr ""
 
 #: CRM/DataprocessorOutputExport/PDF.php
 msgid "Template"
@@ -565,10 +896,6 @@ msgstr "Ek sütun yüksekliği"
 msgid "Download as PDF"
 msgstr "PDF olarak indir"
 
-#: CRM/DataprocessorOutputExport/PDF.php
-msgid "<a href=\"%1\">Download PDF file</a>"
-msgstr "<a href=\"%1\">PDF dosyasını indir</a>"
-
 #: CRM/DataprocessorSearch/ActivitySearch.php
 msgid "Activity ID field"
 msgstr "İşlem kimliği alanı"
@@ -598,8 +925,25 @@ msgid "Show Contribution ID field"
 msgstr "Katkı kimliği alanı görüntülensin"
 
 #: CRM/DataprocessorSearch/Form/AbstractSearch.php
+msgid "Error in data processor"
+msgstr ""
+
+#: CRM/DataprocessorSearch/Form/AbstractSearch.php
+msgid "Error"
+msgstr "Sorun"
+
+#: CRM/DataprocessorSearch/Form/AbstractSearch.php
 msgid "%%StatusMessage%%"
 msgstr "%%StatusMessage%%"
+
+#: CRM/DataprocessorSearch/Form/AbstractSearch.php
+#: templates/CRM/Dataprocessor/Form/ManageDataProcessors.tpl
+msgid "Export"
+msgstr "Dışa aktar"
+
+#: CRM/DataprocessorSearch/Form/AbstractSearch.php
+msgid "Hard Limit"
+msgstr ""
 
 #: CRM/DataprocessorSearch/Form/ActivitySearch.php
 msgid "View activity"
@@ -624,8 +968,18 @@ msgstr "Katılımcıyı görüntüle"
 
 #: CRM/DataprocessorSearch/Form/Search.php
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
+#: Civi/DataProcessor/FilterHandler/CampaignFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactTypeFilter.php
 msgid "- Select -"
 msgstr "- Seçin -"
+
+#: CRM/DataprocessorSearch/Form/Task/SearchActionDesigner.php
+msgid "Invalid search task"
+msgstr ""
+
+#: CRM/DataprocessorSearch/Form/Task/SearchActionDesigner.php
+msgid "Number of selected records: %1"
+msgstr ""
 
 #: CRM/DataprocessorSearch/MembershipSearch.php
 msgid "Membership ID field"
@@ -655,15 +1009,13 @@ msgstr "Kimlik alanı görüntülensin"
 msgid "Expose aggregate options"
 msgstr "Toplama seçeneklerini görüntüle"
 
+#: CRM/DataprocessorSearch/Search.php
+msgid "Expose hidden field options"
+msgstr ""
+
 #: CRM/DataprocessorSearch/Task.php
 msgid "Data processor %1"
 msgstr "%1 veri işleyicisi"
-
-#: CRM/DataprocessorSearch/Task.php api/v3/DataProcessor.php
-#: api/v3/DataProcessorField.php api/v3/DataProcessorFilter.php
-#: api/v3/DataProcessorSource.php
-msgid "ID"
-msgstr "Kimlik"
 
 #: Civi/DataProcessor/DataFlow/CsvDataFlow.php
 msgid "Column %1"
@@ -702,6 +1054,7 @@ msgid "Standard variance"
 msgstr "Standart varyans"
 
 #: Civi/DataProcessor/DataSpecification/AggregateFunctionFieldSpecification.php
+#: Civi/DataProcessor/Source/Contribution/AggregatedContributionSource.php
 msgid "Count"
 msgstr "Sayı"
 
@@ -750,8 +1103,16 @@ msgid "Contacts in a smart group"
 msgstr "Bir akıllı gruptaki kişiler"
 
 #: Civi/DataProcessor/Factory.php
-msgid "E-mail"
-msgstr "E-posta"
+msgid "Tag"
+msgstr "Etiket"
+
+#: Civi/DataProcessor/Factory.php
+msgid "Entity Tag (Link between an entity and a tag)"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Email"
+msgstr "E-posta adresi"
 
 #: Civi/DataProcessor/Factory.php
 msgid "Address"
@@ -766,12 +1127,27 @@ msgid "Website"
 msgstr "Site"
 
 #: Civi/DataProcessor/Factory.php
+#: Civi/DataProcessor/FilterHandler/ContactHasActivityInPeriodFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionInPeriod.php
+#: Civi/DataProcessor/FilterHandler/TotalContributionAmountInPeriod.php
 msgid "Campaign"
 msgstr "Kampanya"
 
 #: Civi/DataProcessor/Factory.php
-msgid "Contribution"
-msgstr "Katkı"
+msgid "Contribution (with Soft Contribution)"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Financial Transaction"
+msgstr "Mali hesap hareketi"
+
+#: Civi/DataProcessor/Factory.php
+msgid "Contribution (without Soft Contribution)"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Contribution (Aggregated)"
+msgstr ""
 
 #: Civi/DataProcessor/Factory.php
 msgid "Recurring Contribution"
@@ -838,6 +1214,10 @@ msgid "Note"
 msgstr "Not"
 
 #: Civi/DataProcessor/Factory.php
+msgid "File"
+msgstr "Dosya"
+
+#: Civi/DataProcessor/Factory.php
 msgid "CSV File"
 msgstr "CSV dosyası"
 
@@ -902,8 +1282,28 @@ msgid "Date filter"
 msgstr "Tarih süzgeci"
 
 #: Civi/DataProcessor/Factory.php
+msgid "Age filter"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Month filter"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Week Day filter"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
 msgid "Text in multiple fields Filter"
 msgstr "Çoklu alan metin süzgeci"
+
+#: Civi/DataProcessor/Factory.php
+msgid "Compare two fields"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Campaign filter"
+msgstr ""
 
 #: Civi/DataProcessor/Factory.php
 msgid "Activity filter"
@@ -912,6 +1312,10 @@ msgstr "İşlem süzgeci"
 #: Civi/DataProcessor/Factory.php
 msgid "Event filter"
 msgstr "Etkinlik süzgeci"
+
+#: Civi/DataProcessor/Factory.php
+msgid "Checksum filter"
+msgstr ""
 
 #: Civi/DataProcessor/Factory.php
 msgid "Contact filter"
@@ -930,6 +1334,42 @@ msgid "Contact has Membership filter"
 msgstr "Kişinin üyelik süzgeci var"
 
 #: Civi/DataProcessor/Factory.php
+msgid "Contact has event registration of type"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Contact has contribution with status"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Contact has a contribution in period"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Total contribution amount in period"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Contact has active recurring contributions"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Contact has a relationship"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Contact has activity in period"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Contact has number of activities in period"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "World Region Filter"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
 msgid "Contact Type filter"
 msgstr "Kişi türü süzgeci"
 
@@ -938,12 +1378,16 @@ msgid "Permission to view contact"
 msgstr "Kişiyi görüntüleme izni"
 
 #: Civi/DataProcessor/Factory.php
-msgid "Case Role filter"
-msgstr "Olay rolü süzgeci"
+msgid "Contact has role on case filter"
+msgstr ""
 
 #: Civi/DataProcessor/Factory.php
 msgid "API filter"
 msgstr "API süzgeci"
+
+#: Civi/DataProcessor/Factory.php
+msgid "Most recent event date"
+msgstr ""
 
 #: Civi/DataProcessor/Factory.php
 msgid "Select fields to join on"
@@ -958,12 +1402,20 @@ msgid "Raw field value"
 msgstr "Ham alan değeri"
 
 #: Civi/DataProcessor/Factory.php
+msgid "Clean File Name"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
 msgid "Markup/Html field value"
 msgstr "Markup/HTML alanı değeri"
 
 #: Civi/DataProcessor/Factory.php
 msgid "Formatted Address"
 msgstr "Biçimlendirilmiş adres"
+
+#: Civi/DataProcessor/Factory.php
+msgid "Worldregion"
+msgstr ""
 
 #: Civi/DataProcessor/Factory.php
 msgid "Formatted Number field value"
@@ -974,16 +1426,44 @@ msgid "Date field value"
 msgstr "Tarih alanı değeri"
 
 #: Civi/DataProcessor/Factory.php
+msgid "Segment text based on a date field (Per Month)"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
 msgid "Age field value"
 msgstr "Yaş alanı değeri"
+
+#: Civi/DataProcessor/Factory.php
+msgid "Contact has relationship"
+msgstr ""
 
 #: Civi/DataProcessor/Factory.php
 msgid "Link to view contact"
 msgstr "Kişi görüntüleme bağlantısı"
 
 #: Civi/DataProcessor/Factory.php
+msgid "Custom Link"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Custom Link (using 2 fields)"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Custom Link (using 3 fields)"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Text from template using up to 9 fields"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
 msgid "Contact Checksum"
 msgstr "Kişi sağlaması"
+
+#: Civi/DataProcessor/Factory.php
+msgid "Link to edit an activity"
+msgstr ""
 
 #: Civi/DataProcessor/Factory.php
 msgid "Is Active (based on dates)"
@@ -998,8 +1478,12 @@ msgid "Option label"
 msgstr "Seçenek etiketi"
 
 #: Civi/DataProcessor/Factory.php
-msgid "Relationships"
-msgstr "İlişkiler"
+msgid "List active Memberships of a contact"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "List Relationships of a contact"
+msgstr ""
 
 #: Civi/DataProcessor/Factory.php
 msgid "Case Roles"
@@ -1014,12 +1498,45 @@ msgid "Display the groups of a contact"
 msgstr "Bir kişinin grupları görüntülensin"
 
 #: Civi/DataProcessor/Factory.php
+msgid "Display the tags of a contact"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
 msgid "Display info about repeating event"
 msgstr "Yinelenen etkinlik bilgileri görüntülensin"
 
 #: Civi/DataProcessor/Factory.php
+msgid "List event registrations"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
 msgid "List participants"
 msgstr "Katılımcı listesi"
+
+#: Civi/DataProcessor/Factory.php
+msgid "Participant Count"
+msgstr "Katılımcı sayısı"
+
+#: Civi/DataProcessor/Factory.php
+msgid "Event Availability Information"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Contribution Count"
+msgstr "Katkı sayısı"
+
+#: Civi/DataProcessor/Factory.php
+msgid "Recurring Contribution Count"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Recurring Contribution Sum"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+#: Civi/DataProcessor/FieldOutputHandler/Calculations/ArithmeticOperationsFieldOutputhandler.php
+msgid "Arithmetic Operation"
+msgstr ""
 
 #: Civi/DataProcessor/Factory.php
 msgid "Calculations (on multiple fields): Subtract"
@@ -1030,38 +1547,46 @@ msgid "Calculations (on multiple fields): Adding up"
 msgstr "Hesaplamalar (birkaç alan): Toplama"
 
 #: Civi/DataProcessor/Factory.php
+msgid "Calculations (on multiple fields): Percentage Change"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
 msgid "Aggregation function"
 msgstr "Toplama işlevi"
 
-#: Civi/DataProcessor/FieldOutputHandler/AbstractSimpleFieldOutputHandler.php
+#: Civi/DataProcessor/Factory.php
+msgid "Image"
+msgstr "Görsel"
+
+#: Civi/DataProcessor/Factory.php
+msgid "Multivalue Field as Array"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Replaces special characters by their HTML code and newlines by \\n."
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Compare the input with up to 5 strings and map the output accordingly."
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "CSV"
+msgstr "CSV"
+
+#: Civi/DataProcessor/Factory.php
+msgid "Output %1 not found"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/AbstractFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/AggregateFunctionFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/Calculations/CalculationFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/Calculations/SubtractFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/CaseRolesFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/ContactLinkFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/FileFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/GroupsOfContactFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/IsActiveFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/ManageCaseLinkFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/RelationshipsFieldOutputHandler.php
 msgid ""
 "Field %1 requires data source '%2' which could not be found. Did you rename "
-"or deleted the data source?"
+"or delete the data source?"
 msgstr ""
-"%1 alanı için bulunamayan '%2' veri kaynağı gerekli. Veri kaynağının adını "
-"değiştirmiş ya da silmiş olabilir misiniz?"
 
-#: Civi/DataProcessor/FieldOutputHandler/AbstractSimpleFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/AbstractFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/AggregateFunctionFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/Calculations/CalculationFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/Calculations/SubtractFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/CaseRolesFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/ContactLinkFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/FileFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/GroupsOfContactFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/IsActiveFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/ManageCaseLinkFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/RelationshipsFieldOutputHandler.php
 msgid ""
 "Field %1 requires a field with the name '%2' in the data source '%3'. Did "
 "you change the data source type?"
@@ -1069,11 +1594,33 @@ msgstr ""
 "%1 alanı için, '%3' veri kaynağındaki '%2' adındaki alan gerekli. Veri "
 "kaynağı türünü mü değiştirdiniz?"
 
+#: Civi/DataProcessor/FieldOutputHandler/AbstractFormattedNumberOutputHandler.php
+msgid "Number of decimals"
+msgstr "Ondalık basamak"
+
+#: Civi/DataProcessor/FieldOutputHandler/AbstractFormattedNumberOutputHandler.php
+msgid "Decimal separator"
+msgstr "Ondalık ayracı"
+
+#: Civi/DataProcessor/FieldOutputHandler/AbstractFormattedNumberOutputHandler.php
+msgid "Thousand separator"
+msgstr "Binlik ayracı"
+
+#: Civi/DataProcessor/FieldOutputHandler/AbstractFormattedNumberOutputHandler.php
+msgid "Prefix (e.g. $)"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/AbstractFormattedNumberOutputHandler.php
+msgid "Suffix (e.g. &euro;)"
+msgstr ""
+
 #: Civi/DataProcessor/FieldOutputHandler/AbstractSimpleFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/AggregateFunctionFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/FileFieldOutputHandler.php
+#: Civi/DataProcessor/FilterHandler/AbstractFieldFilterHandler.php
 #: Civi/DataProcessor/FilterHandler/DateFilter.php
-#: Civi/DataProcessor/FilterHandler/SimpleSqlFilter.php
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+#: Civi/DataProcessor/FilterHandler/DateWeekDayFilter.php
 #: Civi/DataProcessor/Output/AbstractApi.php
 #: templates/CRM/Dataprocessor/Form/Field.tpl
 msgid "Field"
@@ -1092,39 +1639,26 @@ msgid "Function"
 msgstr "İşlev"
 
 #: Civi/DataProcessor/FieldOutputHandler/AggregateFunctionFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/Calculations/CalculationFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/Calculations/SubtractFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/NumberFieldOutputHandler.php
-msgid "Number of decimals"
-msgstr "Ondalık basamak"
+msgid "Multiplier"
+msgstr ""
 
 #: Civi/DataProcessor/FieldOutputHandler/AggregateFunctionFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/Calculations/CalculationFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/Calculations/SubtractFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/NumberFieldOutputHandler.php
-msgid "Decimal separator"
-msgstr "Ondalık ayracı"
+msgid "Round to nearest whole number"
+msgstr ""
 
-#: Civi/DataProcessor/FieldOutputHandler/AggregateFunctionFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/Calculations/CalculationFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/Calculations/SubtractFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/NumberFieldOutputHandler.php
-msgid "Thousand separator"
-msgstr "Binlik ayracı"
+#: Civi/DataProcessor/FieldOutputHandler/ArrayFieldOutputHandler.php
+msgid "Return option labels"
+msgstr ""
 
-#: Civi/DataProcessor/FieldOutputHandler/AggregateFunctionFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/Calculations/CalculationFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/Calculations/SubtractFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/NumberFieldOutputHandler.php
-msgid "Prefix (e.g. &euro;)"
-msgstr "Ön ek (&euro: gibi)"
+#: Civi/DataProcessor/FieldOutputHandler/Calculations/ArithmeticOperationsFieldOutputhandler.php
+#: templates/CRM/Dataprocessor/Form/FilterValue.tpl
+#: templates/CRM/Dataprocessor/Form/Output/UIOutput/CriteriaForm.tpl
+msgid "Value"
+msgstr "Değer"
 
-#: Civi/DataProcessor/FieldOutputHandler/AggregateFunctionFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/Calculations/CalculationFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/Calculations/SubtractFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/NumberFieldOutputHandler.php
-msgid "Suffix (e.g. $)"
-msgstr "Son ek ($ gibi)"
+#: Civi/DataProcessor/FieldOutputHandler/Calculations/ArithmeticOperationsFieldOutputhandler.php
+msgid "Enter a valid number"
+msgstr ""
 
 #: Civi/DataProcessor/FieldOutputHandler/Calculations/CalculationFieldOutputHandler.php
 #: Civi/DataProcessor/FilterHandler/MultipleFieldFilter.php
@@ -1132,6 +1666,14 @@ msgstr "Son ek ($ gibi)"
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Fields.tpl
 msgid "Fields"
 msgstr "Alanlar"
+
+#: Civi/DataProcessor/FieldOutputHandler/Calculations/PercentageChangeFieldOutputHandler.php
+msgid "Base Field (100% value)"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/Calculations/PercentageChangeFieldOutputHandler.php
+msgid "New value Field"
+msgstr ""
 
 #: Civi/DataProcessor/FieldOutputHandler/Calculations/SubtractFieldOutputHandler.php
 msgid "Field 1"
@@ -1160,24 +1702,119 @@ msgstr "- Tüm roller görüntülensin -"
 msgid "Show role title"
 msgstr "Rol başlığı görüntülensin"
 
+#: Civi/DataProcessor/FieldOutputHandler/CleanFileNameFieldOutputHandler.php
+msgid "Filename/Path/Uri Field"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/ConditionallyMapStrings.php
+msgid "Default fallback, if no condition matches."
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/ConditionallyMapStrings.php
+#: Civi/DataProcessor/FieldOutputHandler/SanitizeString.php
+msgid "Input field"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/ContactHasRelationshipFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/ContactLinkFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ContributionCountFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/EditActivityLinkFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/GroupsOfContactFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/ManageCaseLinkFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/MembershipsFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ParticipantsFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/RelationshipsFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/TagsOfContactFieldOutputHandler.php
 #: Civi/DataProcessor/FilterHandler/ActivityFilter.php
+#: Civi/DataProcessor/FilterHandler/ChecksumFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactHasActiveRecurringContributions.php
+#: Civi/DataProcessor/FilterHandler/ContactHasActivityInPeriodFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionInPeriod.php
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionWithStatus.php
+#: Civi/DataProcessor/FilterHandler/ContactHasEventRegistrationOfType.php
 #: Civi/DataProcessor/FilterHandler/ContactHasMembershipFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactHasRelationship.php
 #: Civi/DataProcessor/FilterHandler/ContactInGroupFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactTypeFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactWithTagFilter.php
 #: Civi/DataProcessor/FilterHandler/InApiFilter.php
+#: Civi/DataProcessor/FilterHandler/LastEventDateFilter.php
 #: Civi/DataProcessor/FilterHandler/PermissionToViewContactFilter.php
+#: Civi/DataProcessor/FilterHandler/TotalContributionAmountInPeriod.php
 msgid "Contact ID Field"
 msgstr "Kişi kimliği alanı"
+
+#: Civi/DataProcessor/FieldOutputHandler/ContactHasRelationshipFieldOutputHandler.php
+#: Civi/DataProcessor/Source/Contact/RelationshipSource.php
+msgid "Relationship type"
+msgstr "İlişki türü"
+
+#: Civi/DataProcessor/FieldOutputHandler/ContactHasRelationshipFieldOutputHandler.php
+msgid "- Select relationship type -"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/ContactHasRelationshipFieldOutputHandler.php
+msgid "Active text"
+msgstr ""
 
 #: Civi/DataProcessor/FieldOutputHandler/ContactLinkFieldOutputHandler.php
 msgid "Contact Name Field"
 msgstr "Kişi adı alanı"
+
+#: Civi/DataProcessor/FieldOutputHandler/ContributionCountFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ContributionRecurCountFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ContributionRecurSumFieldOutputHandler.php
+msgid "Financial Type"
+msgstr "Mali tür"
+
+#: Civi/DataProcessor/FieldOutputHandler/ContributionCountFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ContributionRecurCountFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ContributionRecurSumFieldOutputHandler.php
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionInPeriod.php
+#: Civi/DataProcessor/FilterHandler/TotalContributionAmountInPeriod.php
+msgid "Contribution Status"
+msgstr "Katkı durumu"
+
+#: Civi/DataProcessor/FieldOutputHandler/ContributionRecurCountFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ContributionRecurSumFieldOutputHandler.php
+msgid "Contribution Recur ID Field"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/CustomLinkFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ImageFieldOutputHandler.php
+msgid "Field to link to"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/CustomLinkFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/CustomLinkThreeFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/CustomLinkTwoFieldOutputHandler.php
+msgid "Link Template"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/CustomLinkFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/CustomLinkThreeFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/CustomLinkTwoFieldOutputHandler.php
+msgid "Link Text"
+msgstr "Bağlantı metni"
+
+#: Civi/DataProcessor/FieldOutputHandler/CustomLinkThreeFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/CustomLinkTwoFieldOutputHandler.php
+msgid "Field 1 to link to"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/CustomLinkThreeFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/CustomLinkTwoFieldOutputHandler.php
+msgid "Field 2 to link to"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/CustomLinkThreeFieldOutputHandler.php
+msgid "Field 3 to link to"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/CustomLinkTwoFieldOutputHandler.php
+msgid "Open link in new tab"
+msgstr ""
 
 #: Civi/DataProcessor/FieldOutputHandler/DateFieldOutputHandler.php
 msgid "Format"
@@ -1211,25 +1848,95 @@ msgstr "Ay"
 msgid "Year"
 msgstr "Yıl"
 
+#: Civi/DataProcessor/FieldOutputHandler/DateFieldOutputHandler.php
+msgid "Datetime"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/DateMonthSegmentFieldOutputHandler.php
+msgid "Start of Date Range (months ago)"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/DateMonthSegmentFieldOutputHandler.php
+msgid "End of Date Range (months ago)"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/DateMonthSegmentFieldOutputHandler.php
+msgid "Text before date range"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/DateMonthSegmentFieldOutputHandler.php
+msgid "Text after date range"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/DateMonthSegmentFieldOutputHandler.php
+msgid "Text within date range"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/EditActivityLinkFieldOutputHandler.php
+msgid "Edit activity"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/EditActivityLinkFieldOutputHandler.php
+msgid "Activity ID Field"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/EventAvailabilityInfoFieldOutputHandler.php
+msgid "Show"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/EventAvailabilityInfoFieldOutputHandler.php
+msgid "Full text or wait list message when event is full"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/EventAvailabilityInfoFieldOutputHandler.php
+msgid "The number of available places"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/EventParticipantsCountFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/EventParticipantsFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ParticipantsFieldOutputHandler.php
 msgid "Roles"
 msgstr "Roller"
 
+#: Civi/DataProcessor/FieldOutputHandler/EventParticipantsCountFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/EventParticipantsFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ParticipantsFieldOutputHandler.php
 msgid "- all roles -"
 msgstr "- tüm roller -"
 
+#: Civi/DataProcessor/FieldOutputHandler/EventParticipantsCountFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/EventParticipantsFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ParticipantsFieldOutputHandler.php
 msgid "Participant Status"
 msgstr "Katılımcı durumu"
 
+#: Civi/DataProcessor/FieldOutputHandler/EventParticipantsCountFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/EventParticipantsFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ParticipantsFieldOutputHandler.php
 msgid "- all statuses -"
 msgstr "- tüm durumlar -"
+
+#: Civi/DataProcessor/FieldOutputHandler/EventParticipantsCountFieldOutputHandler.php
+msgid "Show link to manage participant"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/EventParticipantsCountFieldOutputHandler.php
+#: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Filters.tpl
+msgid "No"
+msgstr "Hayır"
+
+#: Civi/DataProcessor/FieldOutputHandler/EventParticipantsCountFieldOutputHandler.php
+#: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Filters.tpl
+msgid "Yes"
+msgstr "Evet"
 
 #: Civi/DataProcessor/FieldOutputHandler/EventRepeatingInfoFieldOutputHandler.php
 msgid "Repeating (%1 of %2)"
 msgstr "Yineleniyor (%1 / %2)"
+
+#: Civi/DataProcessor/FieldOutputHandler/FileFieldOutputHandler.php
+msgid "Only return URL"
+msgstr ""
 
 #: Civi/DataProcessor/FieldOutputHandler/FormattedAddressFieldOutputHandler.php
 msgid "Address ID Field"
@@ -1246,6 +1953,10 @@ msgstr "Yalnızca şunun alt gruplarını görüntüle"
 msgid "- Show all groups -"
 msgstr "- Tüm gruplar görüntülensin -"
 
+#: Civi/DataProcessor/FieldOutputHandler/ImageFieldOutputHandler.php
+msgid "Alt Image Text"
+msgstr ""
+
 #: Civi/DataProcessor/FieldOutputHandler/IsActiveFieldOutputHandler.php
 msgid "Is Active Field"
 msgstr "Etkin alan"
@@ -1261,6 +1972,31 @@ msgstr "Bitiş tarihi alanı"
 #: Civi/DataProcessor/FieldOutputHandler/ManageCaseLinkFieldOutputHandler.php
 msgid "Link text"
 msgstr "Bağlantı metni"
+
+#: Civi/DataProcessor/FieldOutputHandler/MembershipsFieldOutputHandler.php
+msgid "Restrict to membership types"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/MembershipsFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/RelationshipsFieldOutputHandler.php
+msgid "Separator"
+msgstr "Ayraç"
+
+#: Civi/DataProcessor/FieldOutputHandler/ParticipantsFieldOutputHandler.php
+msgid "Event Type"
+msgstr "Etkinlik türü"
+
+#: Civi/DataProcessor/FieldOutputHandler/ParticipantsFieldOutputHandler.php
+msgid "- any event type -"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/RelationshipsFieldOutputHandler.php
+msgid "(A - B)"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/RelationshipsFieldOutputHandler.php
+msgid "(B - A)"
+msgstr ""
 
 #: Civi/DataProcessor/FieldOutputHandler/RelationshipsFieldOutputHandler.php
 msgid "Relationship type, display name"
@@ -1287,27 +2023,84 @@ msgid "Show relationship type"
 msgstr "İlişki türü görüntülensin"
 
 #: Civi/DataProcessor/FieldOutputHandler/RelationshipsFieldOutputHandler.php
-msgid "Include deceased"
-msgstr "Vefat edenler katılsın"
+msgid "Return as array"
+msgstr ""
 
 #: Civi/DataProcessor/FieldOutputHandler/RelationshipsFieldOutputHandler.php
-msgid "Separator"
-msgstr "Ayraç"
+msgid "Include deceased"
+msgstr "Vefat edenler katılsın"
 
 #: Civi/DataProcessor/FieldOutputHandler/RelationshipsFieldOutputHandler.php
 msgid "Sort"
 msgstr "Sırala"
 
+#: Civi/DataProcessor/FieldOutputHandler/TextFromFieldsOutputHandler.php
+msgid "Data Source Field:"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/TextFromFieldsOutputHandler.php
+msgid "Text Template"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/TextFromFieldsOutputHandler.php
+msgid "Fallback Template"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/WorldRegionFieldOutputHandler.php
+#: Civi/DataProcessor/FilterHandler/WorldRegionFilter.php
+msgid "Country Field"
+msgstr ""
+
+#: Civi/DataProcessor/FileFormat/CSVFileFormat.php
+msgid "Delimiter"
+msgstr "Sınırlayıcı"
+
+#: Civi/DataProcessor/FileFormat/CSVFileFormat.php
+msgid "Enclosure"
+msgstr "Kapama"
+
+#: Civi/DataProcessor/FileFormat/CSVFileFormat.php
+msgid "Escape Character"
+msgstr ""
+
 #: Civi/DataProcessor/FilterHandler/AbstractFieldFilterHandler.php
+#: Civi/DataProcessor/FilterHandler/ActivityFilter.php
+#: Civi/DataProcessor/FilterHandler/CaseRoleFilter.php
+#: Civi/DataProcessor/FilterHandler/ChecksumFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactHasActiveRecurringContributions.php
+#: Civi/DataProcessor/FilterHandler/ContactHasActivityInPeriodFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionWithStatus.php
+#: Civi/DataProcessor/FilterHandler/ContactHasEventRegistrationOfType.php
+#: Civi/DataProcessor/FilterHandler/ContactHasMembershipFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactHasRelationship.php
+#: Civi/DataProcessor/FilterHandler/ContactInGroupFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactTypeFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactWithTagFilter.php
+#: Civi/DataProcessor/FilterHandler/DateFilter.php
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+#: Civi/DataProcessor/FilterHandler/DateWeekDayFilter.php
+#: Civi/DataProcessor/FilterHandler/EventFilter.php
+#: Civi/DataProcessor/FilterHandler/InApiFilter.php
+#: Civi/DataProcessor/FilterHandler/LastEventDateFilter.php
+#: Civi/DataProcessor/FilterHandler/PermissionToViewContactFilter.php
+#: Civi/DataProcessor/FilterHandler/WorldRegionFilter.php
+msgid "Filter %1 requires a field to filter on. None given."
+msgstr ""
+"%1 süzgeci için süzülecek bir alan gerekli. Herhangi bir alan belirtilmemiş."
+
+#: Civi/DataProcessor/FilterHandler/AbstractFieldFilterHandler.php
+#: Civi/DataProcessor/FilterHandler/ChecksumFilter.php
+#: Civi/DataProcessor/FilterHandler/CompareFieldFilter.php
 #: Civi/DataProcessor/FilterHandler/MultipleFieldFilter.php
 msgid ""
 "Filter %1 requires data source '%2' which could not be found. Did you rename"
-" or deleted the data source?"
+" or delete the data source?"
 msgstr ""
-"%1 süzgeci için bulunamayan '%2' veri kaynağı gerekli. Veri kaynağının adını"
-" değiştirmiş ya da silmiş olabilir misiniz?"
 
 #: Civi/DataProcessor/FilterHandler/AbstractFieldFilterHandler.php
+#: Civi/DataProcessor/FilterHandler/ChecksumFilter.php
+#: Civi/DataProcessor/FilterHandler/CompareFieldFilter.php
 #: Civi/DataProcessor/FilterHandler/MultipleFieldFilter.php
 msgid ""
 "Filter %1 requires a field with the name '%2' in the data source '%3'. Did "
@@ -1316,46 +2109,70 @@ msgstr ""
 "%1 süzgeci için, '%3' veri kaynağındaki '%2' adındaki alan gerekli. Veri "
 "kaynağı türünü mü değiştirdiniz?"
 
-#: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
-msgid "Field %1 is required"
-msgstr "%1 alanının doldurulması zorunludur"
-
+#: Civi/DataProcessor/FilterHandler/AbstractFieldInPeriodFilter.php
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
 #: Civi/DataProcessor/FilterHandler/ActivityFilter.php
+#: Civi/DataProcessor/FilterHandler/CampaignFilter.php
 #: Civi/DataProcessor/FilterHandler/CaseRoleFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionWithStatus.php
+#: Civi/DataProcessor/FilterHandler/ContactHasEventRegistrationOfType.php
 #: Civi/DataProcessor/FilterHandler/ContactHasMembershipFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactHasRelationship.php
 #: Civi/DataProcessor/FilterHandler/ContactInGroupFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactTypeFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactWithTagFilter.php
 #: Civi/DataProcessor/FilterHandler/EventFilter.php
+#: Civi/DataProcessor/FilterHandler/LastEventDateFilter.php
+#: Civi/DataProcessor/FilterHandler/WorldRegionFilter.php
 #: Civi/DataProcessor/Source/AbstractSource.php
 msgid "Operator:"
 msgstr "İşlem:"
+
+#: Civi/DataProcessor/FilterHandler/AbstractFieldInPeriodFilter.php
+#: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
+#: Civi/DataProcessor/Source/AbstractSource.php
+msgid "From"
+msgstr "Başlangıç"
+
+#: Civi/DataProcessor/FilterHandler/AbstractFieldInPeriodFilter.php
+#: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
+#: Civi/DataProcessor/Source/AbstractSource.php
+msgid "To"
+msgstr "Bitiş"
+
+#: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
+msgid "Field %1 is required"
+msgstr "%1 alanının doldurulması zorunludur"
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
 msgid "Not set"
 msgstr "Ayarlanmamış"
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
-msgid "From:"
-msgstr "Nereden:"
-
-#: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
+#: Civi/DataProcessor/FilterHandler/ContactHasNumberOfActivitiesInPeriodFilter.php
+#: Civi/DataProcessor/FilterHandler/LastEventDateFilter.php
+#: Civi/DataProcessor/FilterHandler/TotalContributionAmountInPeriod.php
 msgid "Min"
 msgstr "En küçük"
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
+#: Civi/DataProcessor/FilterHandler/ContactHasNumberOfActivitiesInPeriodFilter.php
+#: Civi/DataProcessor/FilterHandler/LastEventDateFilter.php
+#: Civi/DataProcessor/FilterHandler/TotalContributionAmountInPeriod.php
 msgid "Max"
 msgstr "En büyük"
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
 #: Civi/DataProcessor/FilterHandler/ActivityFilter.php
+#: Civi/DataProcessor/FilterHandler/CampaignFilter.php
 #: Civi/DataProcessor/FilterHandler/CaseRoleFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactInGroupFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactTypeFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactWithTagFilter.php
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+#: Civi/DataProcessor/FilterHandler/DateWeekDayFilter.php
 #: Civi/DataProcessor/FilterHandler/EventFilter.php
 #: Civi/DataProcessor/Source/AbstractSource.php
 msgid "Is one of"
@@ -1363,11 +2180,14 @@ msgstr "Şunlardan biri olan"
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
 #: Civi/DataProcessor/FilterHandler/ActivityFilter.php
+#: Civi/DataProcessor/FilterHandler/CampaignFilter.php
 #: Civi/DataProcessor/FilterHandler/CaseRoleFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactInGroupFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactTypeFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactWithTagFilter.php
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+#: Civi/DataProcessor/FilterHandler/DateWeekDayFilter.php
 #: Civi/DataProcessor/FilterHandler/EventFilter.php
 #: Civi/DataProcessor/Source/AbstractSource.php
 msgid "Is not one of"
@@ -1375,6 +2195,8 @@ msgstr "Şunlardan bir olmayan"
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
 #: Civi/DataProcessor/FilterHandler/ActivityFilter.php
+#: Civi/DataProcessor/FilterHandler/CampaignFilter.php
+#: Civi/DataProcessor/FilterHandler/CaseRoleFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactFilter.php
 #: Civi/DataProcessor/FilterHandler/DateFilter.php
 #: Civi/DataProcessor/FilterHandler/EventFilter.php
@@ -1383,34 +2205,48 @@ msgid "Is empty"
 msgstr "Boş olan"
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
+#: Civi/DataProcessor/FilterHandler/CampaignFilter.php
+#: Civi/DataProcessor/FilterHandler/CaseRoleFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactFilter.php
 #: Civi/DataProcessor/FilterHandler/DateFilter.php
 #: Civi/DataProcessor/Source/AbstractSource.php
 msgid "Is not empty"
 msgstr "Boş olmayan"
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
+#: Civi/DataProcessor/FilterHandler/ChecksumFilter.php
 #: Civi/DataProcessor/FilterHandler/DateFilter.php
+#: Civi/DataProcessor/FilterHandler/TotalContributionAmountInPeriod.php
 #: Civi/DataProcessor/Source/AbstractSource.php
 msgid "Is equal to"
 msgstr "Şuna eşit olan"
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
+#: Civi/DataProcessor/FilterHandler/CompareFieldFilter.php
 #: Civi/DataProcessor/FilterHandler/DateFilter.php
+#: Civi/DataProcessor/FilterHandler/TotalContributionAmountInPeriod.php
 msgid "Is less than or equal to"
 msgstr "Şundan küçük ya da eşit olan"
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
+#: Civi/DataProcessor/FilterHandler/CompareFieldFilter.php
 #: Civi/DataProcessor/FilterHandler/DateFilter.php
+#: Civi/DataProcessor/FilterHandler/TotalContributionAmountInPeriod.php
 msgid "Is greater than or equal to"
 msgstr "Şundan büyük ya da eşit olan"
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
+#: Civi/DataProcessor/FilterHandler/CompareFieldFilter.php
 #: Civi/DataProcessor/FilterHandler/DateFilter.php
+#: Civi/DataProcessor/FilterHandler/LastEventDateFilter.php
+#: Civi/DataProcessor/FilterHandler/TotalContributionAmountInPeriod.php
 msgid "Is less than"
 msgstr "Şundan küçük olan"
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
+#: Civi/DataProcessor/FilterHandler/CompareFieldFilter.php
 #: Civi/DataProcessor/FilterHandler/DateFilter.php
+#: Civi/DataProcessor/FilterHandler/TotalContributionAmountInPeriod.php
 msgid "Is greater than"
 msgstr "Şundan büyük olan"
 
@@ -1422,11 +2258,14 @@ msgstr "Şuna eşit olmayan"
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
 #: Civi/DataProcessor/FilterHandler/DateFilter.php
+#: Civi/DataProcessor/FilterHandler/LastEventDateFilter.php
+#: Civi/DataProcessor/FilterHandler/TotalContributionAmountInPeriod.php
 msgid "Is between"
 msgstr "Şunların arasında olan"
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
 #: Civi/DataProcessor/FilterHandler/DateFilter.php
+#: Civi/DataProcessor/FilterHandler/LastEventDateFilter.php
 msgid "Is not between"
 msgstr "Şunların arasında olmayan"
 
@@ -1447,22 +2286,6 @@ msgid "Does not contain"
 msgstr "Şunu içermeyen"
 
 #: Civi/DataProcessor/FilterHandler/ActivityFilter.php
-#: Civi/DataProcessor/FilterHandler/CaseRoleFilter.php
-#: Civi/DataProcessor/FilterHandler/ContactFilter.php
-#: Civi/DataProcessor/FilterHandler/ContactHasMembershipFilter.php
-#: Civi/DataProcessor/FilterHandler/ContactInGroupFilter.php
-#: Civi/DataProcessor/FilterHandler/ContactTypeFilter.php
-#: Civi/DataProcessor/FilterHandler/ContactWithTagFilter.php
-#: Civi/DataProcessor/FilterHandler/DateFilter.php
-#: Civi/DataProcessor/FilterHandler/EventFilter.php
-#: Civi/DataProcessor/FilterHandler/InApiFilter.php
-#: Civi/DataProcessor/FilterHandler/PermissionToViewContactFilter.php
-#: Civi/DataProcessor/FilterHandler/SimpleSqlFilter.php
-msgid "Filter %1 requires a field to filter on. None given."
-msgstr ""
-"%1 süzgeci için süzülecek bir alan gerekli. Herhangi bir alan belirtilmemiş."
-
-#: Civi/DataProcessor/FilterHandler/ActivityFilter.php
 msgid "Limit to Contacts of activity types"
 msgstr "Etkinlik türlerinin Kişileriyle sınırlansın"
 
@@ -1474,6 +2297,14 @@ msgstr "- Tüm etkinlik türleri görüntülensin -"
 msgid "Select a Contact"
 msgstr "Bir kişi seçin"
 
+#: Civi/DataProcessor/FilterHandler/AgeFilterHandler.php
+msgid "Date Field"
+msgstr "Tarih alanı"
+
+#: Civi/DataProcessor/FilterHandler/CampaignFilter.php
+msgid "Campaign ID Field"
+msgstr ""
+
 #: Civi/DataProcessor/FilterHandler/CaseRoleFilter.php
 msgid "- Filter on all roles -"
 msgstr "- Tüm rollere göre süzülsün -"
@@ -1482,6 +2313,38 @@ msgstr "- Tüm rollere göre süzülsün -"
 #: Civi/DataProcessor/FilterHandler/ContactFilter.php
 msgid "Select a contact"
 msgstr "Bir kişi seçin"
+
+#: Civi/DataProcessor/FilterHandler/CaseRoleFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactFilter.php
+msgid "Is current user"
+msgstr "Geçerli kullanıcı"
+
+#: Civi/DataProcessor/FilterHandler/ChecksumFilter.php
+msgid "Hash Field"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/CompareFieldFilter.php
+msgid "Left Hand Field"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/CompareFieldFilter.php
+msgid "Right Hand Field"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/CompareFieldFilter.php
+#: templates/CRM/Dataprocessor/Form/FilterValue.tpl
+#: templates/CRM/Dataprocessor/Form/Output/UIOutput/CriteriaForm.tpl
+msgid "Operator"
+msgstr "İşlem"
+
+#: Civi/DataProcessor/FilterHandler/CompareFieldFilter.php
+#: Civi/DataProcessor/FilterHandler/PermissionToViewContactFilter.php
+msgid "Is equal"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/CompareFieldFilter.php
+msgid "Is not equal"
+msgstr ""
 
 #: Civi/DataProcessor/FilterHandler/ContactFilter.php
 msgid "Limit to Contacts in group(s)"
@@ -1495,9 +2358,98 @@ msgstr "Kişi türleri ile sınırlansın"
 msgid "- All contact types -"
 msgstr "- Tim kişi türleri -"
 
-#: Civi/DataProcessor/FilterHandler/ContactFilter.php
-msgid "Is current user"
-msgstr "Geçerli kullanıcı"
+#: Civi/DataProcessor/FilterHandler/ContactHasActiveRecurringContributions.php
+msgid "Has at least X active recurring contributions"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasActiveRecurringContributions.php
+msgid "Does not have more than X active recurring contributions"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasActivityInPeriodFilter.php
+msgid "Has activity in period"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasActivityInPeriodFilter.php
+msgid "Does not have an activity in period"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasActivityInPeriodFilter.php
+msgid "Activity Status"
+msgstr "İşlem durumu"
+
+#: Civi/DataProcessor/FilterHandler/ContactHasActivityInPeriodFilter.php
+msgid "Activity Types"
+msgstr "Etkinlik türleri"
+
+#: Civi/DataProcessor/FilterHandler/ContactHasActivityInPeriodFilter.php
+msgid "Activity Contact Record Type"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasActivityInPeriodFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionInPeriod.php
+#: Civi/DataProcessor/FilterHandler/TotalContributionAmountInPeriod.php
+msgid "Campaign IDs"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasActivityInPeriodFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionInPeriod.php
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionWithStatus.php
+#: Civi/DataProcessor/FilterHandler/TotalContributionAmountInPeriod.php
+msgid "- Any status -"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasActivityInPeriodFilter.php
+msgid "- Any type -"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasActivityInPeriodFilter.php
+msgid "- Any contact record -"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasActivityInPeriodFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionInPeriod.php
+#: Civi/DataProcessor/FilterHandler/TotalContributionAmountInPeriod.php
+msgid "- Any campaign -"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionInPeriod.php
+msgid "Has contribution in period"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionInPeriod.php
+msgid "Does not have contribution in period"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionInPeriod.php
+#: Civi/DataProcessor/FilterHandler/TotalContributionAmountInPeriod.php
+msgid "Financial Types"
+msgstr "Mali türler"
+
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionInPeriod.php
+#: Civi/DataProcessor/FilterHandler/TotalContributionAmountInPeriod.php
+msgid "- Any financial type -"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionWithStatus.php
+msgid "Has contribution with status"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionWithStatus.php
+msgid "Does not have contribution with status"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasEventRegistrationOfType.php
+msgid "Is registered for event of type(s)"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasEventRegistrationOfType.php
+msgid "Is not registered for event of type(s)"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasEventRegistrationOfType.php
+msgid "- Any Event Type -"
+msgstr ""
 
 #: Civi/DataProcessor/FilterHandler/ContactHasMembershipFilter.php
 msgid "Select a membership type"
@@ -1511,17 +2463,125 @@ msgstr "Şunun etkin üyesi"
 msgid "Does not have an active membership of"
 msgstr "Şunun etkin üyesi değil"
 
+#: Civi/DataProcessor/FilterHandler/ContactHasNumberOfActivitiesInPeriodFilter.php
+msgid "Has number of activities in period"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasNumberOfActivitiesInPeriodFilter.php
+msgid "Does not have this number of activities in period"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasNumberOfActivitiesInPeriodFilter.php
+msgid "Min number of activities"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasNumberOfActivitiesInPeriodFilter.php
+msgid "Max number of activities"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasRelationship.php
+msgid "Contact A - %1"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasRelationship.php
+msgid "Contact B - %1"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasRelationship.php
+msgid "Does have a relationship"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasRelationship.php
+msgid "Does not have a relationship"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasRelationship.php
+msgid "- Any relationship -"
+msgstr ""
+
 #: Civi/DataProcessor/FilterHandler/ContactInGroupFilter.php
 msgid "Select a group"
 msgstr "Bir grup seçin"
 
-#: Civi/DataProcessor/FilterHandler/ContactTypeFilter.php
-msgid "Select a contact type"
-msgstr "Bir kişi türü seçin"
-
 #: Civi/DataProcessor/FilterHandler/ContactWithTagFilter.php
 msgid "Select a tag"
 msgstr "Bir etiket seçin"
+
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+msgid "January"
+msgstr "Ocak"
+
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+msgid "February"
+msgstr "Şubat"
+
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+msgid "March"
+msgstr "Mart"
+
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+msgid "April"
+msgstr "Nisan"
+
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+msgid "May"
+msgstr "Mayıs"
+
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+msgid "June"
+msgstr "Haziran"
+
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+msgid "July"
+msgstr "Temmuz"
+
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+msgid "August"
+msgstr "Ağustos"
+
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+msgid "September"
+msgstr "Eylül"
+
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+msgid "October"
+msgstr "Ekim"
+
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+msgid "November"
+msgstr "Kasım"
+
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+msgid "December"
+msgstr "Aralık"
+
+#: Civi/DataProcessor/FilterHandler/DateWeekDayFilter.php
+msgid "Monday"
+msgstr "Pazartesi"
+
+#: Civi/DataProcessor/FilterHandler/DateWeekDayFilter.php
+msgid "Tuesday"
+msgstr "Salı"
+
+#: Civi/DataProcessor/FilterHandler/DateWeekDayFilter.php
+msgid "Wednesday"
+msgstr "Çarşamba"
+
+#: Civi/DataProcessor/FilterHandler/DateWeekDayFilter.php
+msgid "Thursday"
+msgstr "Perşembe"
+
+#: Civi/DataProcessor/FilterHandler/DateWeekDayFilter.php
+msgid "Friday"
+msgstr "Cuma"
+
+#: Civi/DataProcessor/FilterHandler/DateWeekDayFilter.php
+msgid "Saturday"
+msgstr "Cumartesi"
+
+#: Civi/DataProcessor/FilterHandler/DateWeekDayFilter.php
+msgid "Sunday"
+msgstr "Pazar"
 
 #: Civi/DataProcessor/FilterHandler/EventFilter.php
 msgid "Event ID Field"
@@ -1530,15 +2590,6 @@ msgstr "Etkinlik kimliği alanı"
 #: Civi/DataProcessor/FilterHandler/EventFilter.php
 msgid "Select an Event"
 msgstr "Bir etkinlik seçin"
-
-#: Civi/DataProcessor/FilterHandler/InApiFilter.php
-#: Civi/DataProcessor/Output/Api.php
-msgid "API Entity"
-msgstr "API varlığı"
-
-#: Civi/DataProcessor/FilterHandler/InApiFilter.php
-msgid "API Action"
-msgstr "API işlemi"
 
 #: Civi/DataProcessor/FilterHandler/InApiFilter.php
 msgid "Value Field"
@@ -1552,11 +2603,35 @@ msgstr "Etiket alanı"
 msgid "API Params"
 msgstr "API parametreleri"
 
+#: Civi/DataProcessor/FilterHandler/LastEventDateFilter.php
+msgid "Event Types"
+msgstr "Etkinlik türleri"
+
+#: Civi/DataProcessor/FilterHandler/LastEventDateFilter.php
+msgid "- All Events -"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/LastEventDateFilter.php
+msgid "Is more than"
+msgstr ""
+
 #: Civi/DataProcessor/FilterHandler/MultipleFieldFilter.php
 msgid "Filter %1 requires at least one field to filter on. None given."
 msgstr ""
 "%1 süzgeci için süzülecek en az bir alan gerekli. Herhangi bir alan "
 "belirtilmemiş."
+
+#: Civi/DataProcessor/FilterHandler/WorldRegionFilter.php
+msgid "World Regions:"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/WorldRegionFilter.php
+msgid "Address is inside"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/WorldRegionFilter.php
+msgid "Address is outside"
+msgstr ""
 
 #: Civi/DataProcessor/Output/AbstractApi.php
 msgid "Context"
@@ -1574,6 +2649,22 @@ msgstr "API işlemi adı"
 msgid "API GetCount Action Name"
 msgstr "API GetCount işlemi adı"
 
+#: Civi/DataProcessor/Source/AbstractCivicrmEntitySource.php
+msgid "Aggregate function"
+msgstr ""
+
+#: Civi/DataProcessor/Source/AbstractCivicrmEntitySource.php
+msgid "No aggregation"
+msgstr ""
+
+#: Civi/DataProcessor/Source/AbstractCivicrmEntitySource.php
+msgid "Aggregate by"
+msgstr ""
+
+#: Civi/DataProcessor/Source/AbstractCivicrmEntitySource.php
+msgid "Select at least one field at aggregate by"
+msgstr ""
+
 #: Civi/DataProcessor/Source/AbstractSource.php
 msgid " - Select - "
 msgstr " - Seçin - "
@@ -1585,6 +2676,38 @@ msgstr "İşlem kişisi :: "
 #: Civi/DataProcessor/Source/Activity/ActivitySource.php
 msgid "Case :: "
 msgstr "Olay :: "
+
+#: Civi/DataProcessor/Source/Activity/ActivitySource.php
+msgid "Last one by activity date"
+msgstr ""
+
+#: Civi/DataProcessor/Source/Activity/ActivitySource.php
+msgid "First one by activity date"
+msgstr ""
+
+#: Civi/DataProcessor/Source/Activity/ActivitySource.php
+msgid "Last one by created date"
+msgstr ""
+
+#: Civi/DataProcessor/Source/Activity/ActivitySource.php
+msgid "First one by created date"
+msgstr ""
+
+#: Civi/DataProcessor/Source/Activity/ActivitySource.php
+msgid "Last one by modified date"
+msgstr ""
+
+#: Civi/DataProcessor/Source/Activity/ActivitySource.php
+msgid "First one by modified date"
+msgstr ""
+
+#: Civi/DataProcessor/Source/Activity/ActivitySource.php
+msgid "Last one by activity id"
+msgstr ""
+
+#: Civi/DataProcessor/Source/Activity/ActivitySource.php
+msgid "First one by activity id"
+msgstr ""
 
 #: Civi/DataProcessor/Source/Activity/ActivitySource.php
 msgid "Activity contact :: "
@@ -1619,16 +2742,69 @@ msgid "Custom group: %1"
 msgstr "Özel grup: %1"
 
 #: Civi/DataProcessor/Source/Contact/MultipleCustomGroupSource.php
+#: Civi/DataProcessor/Source/Contribution/AggregatedContributionSource.php
 msgid "Contact ID"
 msgstr "Kişi kimliği"
 
-#: Civi/DataProcessor/Source/Contact/RelationshipSource.php
-msgid "Relationship type"
-msgstr "İlişki türü"
+#: Civi/DataProcessor/Source/Contribution/AggregatedContributionSource.php
+msgid "Sum Total Amount"
+msgstr ""
+
+#: Civi/DataProcessor/Source/Contribution/AggregatedContributionSource.php
+msgid "Last one by receive date"
+msgstr ""
+
+#: Civi/DataProcessor/Source/Contribution/AggregatedContributionSource.php
+msgid "First one by receive date"
+msgstr ""
+
+#: Civi/DataProcessor/Source/Contribution/AggregatedContributionSource.php
+msgid "Last one by contribution id"
+msgstr ""
+
+#: Civi/DataProcessor/Source/Contribution/AggregatedContributionSource.php
+msgid "First one by contribution id"
+msgstr ""
+
+#: Civi/DataProcessor/Source/Contribution/AggregatedContributionSource.php
+msgid "Contribution ID"
+msgstr "Katkı kimliği"
+
+#: Civi/DataProcessor/Source/Contribution/AggregatedContributionSource.php
+msgid "Total amount"
+msgstr "Toplam tutar"
+
+#: Civi/DataProcessor/Source/Contribution/AggregatedContributionSource.php
+msgid "Receive Date"
+msgstr "Alınma tarihi"
+
+#: Civi/DataProcessor/Source/Contribution/AggregatedContributionSource.php
+msgid "Contribution Id"
+msgstr "Katkı kimliği"
 
 #: Civi/DataProcessor/Source/Contribution/ContributionSource.php
 msgid "Soft :: "
 msgstr "Sanal :: "
+
+#: Civi/DataProcessor/Source/Event/ParticipantSource.php
+msgid "Participant Payment :: "
+msgstr ""
+
+#: Civi/DataProcessor/Source/Member/MembershipSource.php
+msgid "Last one by start date"
+msgstr ""
+
+#: Civi/DataProcessor/Source/Member/MembershipSource.php
+msgid "First one by start date"
+msgstr ""
+
+#: Civi/DataProcessor/Source/Member/MembershipSource.php
+msgid "Last one by membership id"
+msgstr ""
+
+#: Civi/DataProcessor/Source/Member/MembershipSource.php
+msgid "Fist one by membership id"
+msgstr ""
 
 #: Civi/DataProcessor/Source/Member/PrimaryMembershipSource.php
 msgid "Primary Membership ID"
@@ -1650,12 +2826,16 @@ msgstr "Üyelik kişi kimliği"
 msgid "SQL Table Name"
 msgstr "SQL tablo adı"
 
+#: Civi/DataProcessor/Source/SQLTable.php
+msgid "Additional filter SQL"
+msgstr ""
+
 #: api/v3/DataProcessor.php
 msgid "Extension"
 msgstr "Uzantı"
 
 #: api/v3/DataProcessorField.php api/v3/DataProcessorFilter.php
-#: api/v3/DataProcessorSource.php
+#: api/v3/DataProcessorFilterCollection.php api/v3/DataProcessorSource.php
 msgid "Data Processor Id"
 msgstr "Veri işleyici kimliği"
 
@@ -1737,7 +2917,6 @@ msgid "Allows to group results by defining the aggregation field."
 msgstr "Toplama alanını tanımlayarak sonuçların gruplanmasını sağlar. "
 
 #: crm-tutorials/civicrm-dataprocessor-form-edit-action-update-Overview_of_the_configuration_screen_of_DataProcessor.js
-#: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Filters.tpl
 msgid "Filters"
 msgstr "Süzgeçler"
 
@@ -1800,10 +2979,9 @@ msgstr ""
 "Veri işlemcisi yapılandırmasının bulunduğu kaydedilmiş bir JSON yapılandırma"
 " dosyanız varsa, buraya tıklayarak içe aktarabilirsiniz."
 
-#: dataprocessor.php templates/CRM/Dataprocessor/Form/DataProcessor.tpl
-#: templates/CRM/Dataprocessor/Form/ManageDataProcessors.tpl
-msgid "Data Processor"
-msgstr "Veri işleyici"
+#: dataprocessor.php
+msgid "Dataprocessor: access definitions"
+msgstr ""
 
 #: dataprocessor.php
 msgid "Add Data Processor"
@@ -1818,6 +2996,18 @@ msgstr "Tüm seçimleri sıfırla"
 #: templates/CRM/Dataprocessor/Form/Filter.tpl
 msgid "Filter"
 msgstr "Süzgeç"
+
+#: templates/CRM/Contact/Form/OutputConfiguration/DataProcessorContactSearch.tpl
+#: templates/CRM/DataprocessorSearch/Form/OutputConfiguration/ActivitySearch.tpl
+#: templates/CRM/DataprocessorSearch/Form/OutputConfiguration/CaseSearch.tpl
+#: templates/CRM/DataprocessorSearch/Form/OutputConfiguration/ContributionSearch.tpl
+#: templates/CRM/DataprocessorSearch/Form/OutputConfiguration/MembershipSearch.tpl
+#: templates/CRM/DataprocessorSearch/Form/OutputConfiguration/ParticipantSearch.tpl
+msgid ""
+"This will define the order in the navigation menu. A lower value means more at the top.  <br />\n"
+"            Up to CiviCRM 5.36 this seems to be broken in CiviCRM Core. See this <a href=\"%1\">bug report</a>\n"
+"          "
+msgstr ""
 
 #: templates/CRM/Contact/Form/OutputConfiguration/DataProcessorContactSummaryTab.tpl
 msgid ""
@@ -1835,6 +3025,7 @@ msgstr "'%1' veri işleyiciyi kopyala"
 #: templates/CRM/Dataprocessor/Form/DataProcessor.tpl
 #: templates/CRM/Dataprocessor/Form/Field.tpl
 #: templates/CRM/Dataprocessor/Form/Filter.tpl
+#: templates/CRM/Dataprocessor/Form/FilterCollection.tpl
 #: templates/CRM/Dataprocessor/Form/Source.tpl
 msgid "System name:"
 msgstr "Sistem adı:"
@@ -1843,6 +3034,7 @@ msgstr "Sistem adı:"
 #: templates/CRM/Dataprocessor/Form/DataProcessor.tpl
 #: templates/CRM/Dataprocessor/Form/Field.tpl
 #: templates/CRM/Dataprocessor/Form/Filter.tpl
+#: templates/CRM/Dataprocessor/Form/FilterCollection.tpl
 #: templates/CRM/Dataprocessor/Form/FilterValue.tpl
 #: templates/CRM/Dataprocessor/Form/Output/UIOutput/CriteriaForm.tpl
 #: templates/CRM/Dataprocessor/Form/Source.tpl
@@ -1873,6 +3065,7 @@ msgid "Default Sort"
 msgstr "Varsayılan sıralama"
 
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Fields.tpl
+#: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/FilterCollections.tpl
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Filters.tpl
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Outputs.tpl
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Sources.tpl
@@ -1887,6 +3080,7 @@ msgid "Edit"
 msgstr "Düzenle"
 
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Fields.tpl
+#: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/FilterCollections.tpl
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Filters.tpl
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Outputs.tpl
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Sources.tpl
@@ -1897,17 +3091,25 @@ msgstr "Sil"
 msgid "Add Field"
 msgstr "Alan ekle"
 
+#: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/FilterCollections.tpl
+msgid "Filter Collections"
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/FilterCollections.tpl
+msgid "Link to previous filter collection"
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/FilterCollections.tpl
+msgid "Condition within this filter collection"
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Filters.tpl
+msgid "Default filter collection"
+msgstr ""
+
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Filters.tpl
 msgid "Exposed"
 msgstr "Açığa çıkarılmış"
-
-#: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Filters.tpl
-msgid "Yes"
-msgstr "Evet"
-
-#: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Filters.tpl
-msgid "No"
-msgstr "Hayır"
 
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Filters.tpl
 msgid "Type &amp; configuration"
@@ -1918,8 +3120,16 @@ msgid "Filter setting"
 msgstr "Süzgeç ayarı"
 
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Filters.tpl
+msgid "Filter collection: %1"
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Filters.tpl
 msgid "Add Filter"
 msgstr "Süzgeç ekle"
+
+#: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Filters.tpl
+msgid "Add Filter Collection"
+msgstr ""
 
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Outputs.tpl
 msgid "Output"
@@ -1938,11 +3148,51 @@ msgid "Add Data Source"
 msgstr "Veri kaynağı ekle"
 
 #: templates/CRM/Dataprocessor/Form/Field/Configuration/AggregateFunctionFieldOutputHandler.tpl
+#: templates/CRM/Dataprocessor/Form/Field/Configuration/ArithmeticOperationsFieldOutputHandler.tpl
 #: templates/CRM/Dataprocessor/Form/Field/Configuration/CalculationFieldOutputHandler.tpl
 #: templates/CRM/Dataprocessor/Form/Field/Configuration/CalculationSubtractFieldOutputHandler.tpl
 #: templates/CRM/Dataprocessor/Form/Field/Configuration/NumberFieldOutputHandler.tpl
 msgid "Leave empty for no formatting"
 msgstr "Biçimlendirme olmaması için boş bırakın"
+
+#: templates/CRM/Dataprocessor/Form/Field/Configuration/ArrayFieldOutputHandler.tpl
+msgid "If checked, return option labels.  If unchecked, return option values."
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Field/Configuration/ConditionallyMapStringsOutputHandler.tpl
+msgid ""
+"Compare the input field with up to 5 values. Replace the input value with "
+"the replacement of the first value that matches."
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Field/Configuration/ConditionallyMapStringsOutputHandler.tpl
+msgid ""
+"If no default value is provided, the original input is returned, if none of "
+"the comparison values matches."
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Field/Configuration/ContactHasRelationshipFieldOutputHandler.tpl
+msgid ""
+"With this output you can display a text when a contact has one or more "
+"active relationships of a given type."
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Field/Configuration/CustomLinkFieldOutputHandler.tpl
+msgid ""
+"Use %1 as placeholder, it will be replaced by the value of the link field"
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Field/Configuration/CustomLinkThreeFieldOutputHandler.tpl
+msgid ""
+"Use %1, %2 and %3 as placeholders in template and/or link text, they will be"
+" replaced by the value of the corresponding link field"
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Field/Configuration/CustomLinkTwoFieldOutputHandler.tpl
+msgid ""
+"Use %1 and %2 as placeholders in template and/or link text, they will be "
+"replaced by the value of the corresponding link field"
+msgstr ""
 
 #: templates/CRM/Dataprocessor/Form/Field/Configuration/DateFieldOutputHandler.tpl
 msgid "See <a href=\"%1\">DateTime format on php.net</a> for help."
@@ -1950,9 +3200,35 @@ msgstr ""
 "Yardım almak için <a href=\"%1\">php.net üzerinde DateTime biçimi</a> "
 "bölümüne bakabilirsiniz."
 
+#: templates/CRM/Dataprocessor/Form/Field/Configuration/EventParticipantsCountFieldOutputHandler.tpl
+msgid ""
+"When you have selected show link to manage participant you also might need "
+"to install <a href=\"%1\">SNJ Fix for Participant Search Extension</a>"
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Field/Configuration/ImageFieldOutputHandler.tpl
+msgid "Alt image text to be used in HTML"
+msgstr ""
+
 #: templates/CRM/Dataprocessor/Form/Field/Configuration/ManageCaseLinkFieldOutputHandler.tpl
 msgid "Leave empty to use default."
 msgstr "Varsayılan değerin kullanılması için boş bırakın."
+
+#: templates/CRM/Dataprocessor/Form/Field/Configuration/TextFromFieldsOutputHandler.tpl
+msgid ""
+"Use %1, %2 … %9 as placeholders in the text template, they will be replaced "
+"by the value of the corresponding data field. Add an exclamation mark to the"
+" placeholders (%!1 etc.) to make the corresponding data field mandatory: If "
+"all data fields used in the template are empty or if one mandatory data "
+"field is empty, the whole result will be empty. You can use braces for "
+"clarity: %&#x7B;1&#x7D; or %&#x7B;!1&#x7D;."
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Field/Configuration/TextFromFieldsOutputHandler.tpl
+msgid ""
+"Fallback template, to be used if the first template produces an empty "
+"string. Same placeholder logic as before."
+msgstr ""
 
 #: templates/CRM/Dataprocessor/Form/Field.tpl
 #: templates/CRM/Dataprocessor/Form/Filter.tpl
@@ -1962,6 +3238,43 @@ msgstr "Alanı sil"
 #: templates/CRM/Dataprocessor/Form/Field.tpl
 msgid "Are you sure to delete field '%1'?"
 msgstr "'%1' alanını silmek istediğinize emin misiniz?"
+
+#: templates/CRM/Dataprocessor/Form/Filter/CompareFieldFilter.tpl
+msgid "Compare Expression"
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Filter/ContactHasActivityInPeriodFilter.tpl
+#: templates/CRM/Dataprocessor/Form/Filter/ContactHasContributionInPeriodFilter.tpl
+#: templates/CRM/Dataprocessor/Form/Filter/ContactHasNumberOfActivitiesInPeriodFilter.tpl
+#: templates/CRM/Dataprocessor/Form/Filter/TotalContributionAmountInPeriodFilter.tpl
+msgid "With status: "
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Filter/ContactHasActivityInPeriodFilter.tpl
+#: templates/CRM/Dataprocessor/Form/Filter/ContactHasNumberOfActivitiesInPeriodFilter.tpl
+msgid "With activity type: "
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Filter/ContactHasActivityInPeriodFilter.tpl
+#: templates/CRM/Dataprocessor/Form/Filter/ContactHasNumberOfActivitiesInPeriodFilter.tpl
+msgid "With contact record type: "
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Filter/ContactHasActivityInPeriodFilter.tpl
+#: templates/CRM/Dataprocessor/Form/Filter/ContactHasContributionInPeriodFilter.tpl
+#: templates/CRM/Dataprocessor/Form/Filter/ContactHasNumberOfActivitiesInPeriodFilter.tpl
+#: templates/CRM/Dataprocessor/Form/Filter/TotalContributionAmountInPeriodFilter.tpl
+msgid "With campaign: "
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Filter/ContactHasContributionInPeriodFilter.tpl
+#: templates/CRM/Dataprocessor/Form/Filter/TotalContributionAmountInPeriodFilter.tpl
+msgid "With financial type: "
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Filter/ContactHasNumberOfActivitiesInPeriodFilter.tpl
+msgid "Number of activities: "
+msgstr ""
 
 #: templates/CRM/Dataprocessor/Form/Filter/DateFilter.tpl
 msgid ""
@@ -1973,23 +3286,28 @@ msgstr ""
 "                Örneğin '2020-12-31' ya da '2 years ago'. <br />\n"
 "                <a href=\"%1\"php.net</a> adresinden ayrıntılı bilgi alabilirsiniz."
 
+#: templates/CRM/Dataprocessor/Form/Filter/LastEventDateFilter.tpl
+msgid ""
+"Enter a date according to PHP Date Function. <br />\n"
+"              E.g. '2020-12-31' or '2 years ago'. <br />\n"
+"              See <a href=\"%1\"php.net</a> for more information."
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Filter/TotalContributionAmountInPeriodFilter.tpl
+msgid "In period"
+msgstr ""
+
 #: templates/CRM/Dataprocessor/Form/Filter.tpl
 msgid "Are you sure to delete filter '%1'?"
 msgstr "'%1' süzgecini silmek istediğinize emin misiniz?"
 
-#: templates/CRM/Dataprocessor/Form/FilterValue.tpl
-msgid "Default Filter Value"
-msgstr "Varsayılan süzgeç değeri"
+#: templates/CRM/Dataprocessor/Form/FilterCollection.tpl
+msgid "Delete Filter Collection"
+msgstr ""
 
-#: templates/CRM/Dataprocessor/Form/FilterValue.tpl
-#: templates/CRM/Dataprocessor/Form/Output/UIOutput/CriteriaForm.tpl
-msgid "Operator"
-msgstr "İşlem"
-
-#: templates/CRM/Dataprocessor/Form/FilterValue.tpl
-#: templates/CRM/Dataprocessor/Form/Output/UIOutput/CriteriaForm.tpl
-msgid "Value"
-msgstr "Değer"
+#: templates/CRM/Dataprocessor/Form/FilterCollection.tpl
+msgid "Are you sure to delete filter collection '%1'?"
+msgstr ""
 
 #: templates/CRM/Dataprocessor/Form/Import.tpl
 #: templates/CRM/Dataprocessor/Form/ManageDataProcessors.tpl
@@ -2003,10 +3321,6 @@ msgstr "Veri işleyici ara"
 #: templates/CRM/Dataprocessor/Form/ManageDataProcessors.tpl
 msgid "Add dataprocessor"
 msgstr "Veri işleyici ekle"
-
-#: templates/CRM/Dataprocessor/Form/ManageDataProcessors.tpl
-msgid "Status"
-msgstr "Durum"
 
 #: templates/CRM/Dataprocessor/Form/ManageDataProcessors.tpl
 msgid "Outputs"
@@ -2052,10 +3366,6 @@ msgstr "Kopyala"
 msgid "Export Data Processor"
 msgstr "Veri işleyiciyi dışa aktar"
 
-#: templates/CRM/Dataprocessor/Form/ManageDataProcessors.tpl
-msgid "Export"
-msgstr "Dışa aktar"
-
 #: templates/CRM/Dataprocessor/Form/MultipleDataFlows/SimpleJoin.tpl
 msgid "Join on field"
 msgstr "Birleştirilecek alan"
@@ -2072,9 +3382,21 @@ msgstr "Belge kaynağı"
 msgid "Edit Search Criteria"
 msgstr "Arama ölçütünü düzenle"
 
+#: templates/CRM/Dataprocessor/Form/Output/UIOutput/CriteriaForm.tpl
+msgid "Limit results to a maximum number of records."
+msgstr ""
+
 #: templates/CRM/Dataprocessor/Form/Output.tpl
 msgid "Are you sure to delete data processor output?"
 msgstr "Veri işleyici çıkışını silmek istediğinize emin misiniz?"
+
+#: templates/CRM/Dataprocessor/Form/Source/CiviCRMEntitySourceConfiguration.tpl
+msgid "Aggregation"
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Source/CiviCRMEntitySourceConfiguration.tpl
+msgid "Usually you want to aggregate by something like contact id."
+msgstr ""
 
 #: templates/CRM/Dataprocessor/Form/Source/Configuration.tpl
 msgid "Filter criteria"
@@ -2083,11 +3405,6 @@ msgstr "Süzgeç ölçütü"
 #: templates/CRM/Dataprocessor/Form/Source/Configuration.tpl
 msgid "Additional filter criteria"
 msgstr "Ek süzgeç ölçütü"
-
-#: templates/CRM/Dataprocessor/Form/Source/Csv.tpl
-#: templates/CRM/Dataprocessor/Form/Source/Sqltable.tpl
-msgid "Configuration"
-msgstr "Yapılandırma"
 
 #: templates/CRM/Dataprocessor/Form/Source/Csv.tpl
 msgid ""
@@ -2117,6 +3434,12 @@ msgstr ""
 "<p>Bu formdan SQL tablo verileri kaynağını yapılandırabilirsiniz.</p>\n"
 "            "
 
+#: templates/CRM/Dataprocessor/Form/Source/Sqltable.tpl
+msgid ""
+"Add an additional condition for in the where statement. For example: "
+"`is_deleted` = 0 AND `is_deceased` = 0"
+msgstr ""
+
 #: templates/CRM/Dataprocessor/Form/Source.tpl
 msgid "Delete Data Source"
 msgstr "Veri kaynağını sil"
@@ -2125,17 +3448,14 @@ msgstr "Veri kaynağını sil"
 msgid "Are you sure to delete data processor source '%1'?"
 msgstr "'%1' veri işleyiciyi kaynağını silmek istediğinize emin misiniz?"
 
-#: templates/CRM/DataprocessorOutputExport/Form/Configuration/CSV.tpl
+#: templates/CRM/DataprocessorOutputExport/Form/Configuration/GenericOutputExport.tpl
+#: templates/CRM/DataprocessorOutputExport/Form/Configuration/PDF.tpl
 msgid ""
-"Tick this box when you want to make the CSV available for non-logged in users. <br>\n"
-"        This could be necessary when another system is importing this csv file on a regular basis. E.g. a website with\n"
-"        a public agenda of the upcoming events.\n"
-"        <br><strong>Caution:</strong> when you check this box the data becomes available without logging so this might lead to a data breach."
+"Tick this box when you want to make the PDF available for non-logged in users. <br>\n"
+"        <strong>Caution:</strong> when you check this box the data becomes available without logging so this might lead to a data breach."
 msgstr ""
-"Oturum açmamış kullanıcıların CSV kullanabilmesi için bu kutuyu işaretleyin. <br>\n"
-"        Bu seçenek, başka bir sistem bu CSV dosyasını düzenli olarak içe aktarıyorsa gerekli olabilir. Örneğin yaklaşan \n"
-"        etkinliklerin herkese açık programının olduğu bir site.\n"
-"        <br><strong>Uyarı:</strong> Bu kutuyu işaretlediğinizde, veriler günlüğe kaydedilmeden kullanılabilir olur ve bu durum verilerin sızmasına neden olabilir."
+"Oturum açmamış kullanıcıların PDF kullanabilmesi için bu kutuyu işaretleyin. <br>\n"
+"        <strong>Uyarı:</strong> Bu kutuyu işaretlediğinizde, veriler günlüğe kaydedilmeden kullanılabilir olur ve bu durum verilerin sızmasına neden olabilir."
 
 #: templates/CRM/DataprocessorOutputExport/Form/Configuration/PDF.tpl
 msgid ""
@@ -2149,14 +3469,31 @@ msgstr ""
 msgid "E.g. 2 cm"
 msgstr "Örneğin 2 cm"
 
-#: templates/CRM/DataprocessorOutputExport/Form/Configuration/PDF.tpl
+#: templates/CRM/DataprocessorOutputExport/Form/Configuration/Spreadsheet.tpl
 msgid ""
-"Tick this box when you want to make the PDF available for non-logged in users. <br>\n"
-"        <strong>Caution:</strong> when you check this box the data becomes available without logging so this might lead to a data breach."
+"Tick this box when you want to make the file available for non-logged in users. <br>\n"
+"        This could be necessary when another system is importing this file on a regular basis. E.g. a website with\n"
+"        a public agenda of the upcoming events.\n"
+"        <br><strong>Caution:</strong> when you check this box the data becomes available without logging so this might lead to a data breach."
 msgstr ""
-"Oturum açmamış kullanıcıların PDF kullanabilmesi için bu kutuyu işaretleyin. <br>\n"
-"        <strong>Uyarı:</strong> Bu kutuyu işaretlediğinizde, veriler günlüğe kaydedilmeden kullanılabilir olur ve bu durum verilerin sızmasına neden olabilir."
 
 #: templates/CRM/DataprocessorSearch/Form/Criteria/AggregateCriteria.tpl
 msgid "Aggregate"
 msgstr "Topla"
+
+#: templates/CRM/DataprocessorSearch/Form/Criteria/HiddenFieldsCriteria.tpl
+msgid "Hide Field(s)"
+msgstr ""
+
+#: templates/CRM/DataprocessorSearch/Form/OutputConfiguration/Search.tpl
+msgid ""
+"This will define the order in the navigation menu. A lower value means more at the top.  <br />\n"
+"           Up to CiviCRM 5.36 this seems to be broken in CiviCRM Core. See this <a href=\"%1\">bug report</a>\n"
+"          "
+msgstr ""
+
+#: templates/CRM/DataprocessorSearch/Form/Search.tpl
+msgid "%count Result"
+msgid_plural "%count Results"
+msgstr[0] ""
+msgstr[1] ""
