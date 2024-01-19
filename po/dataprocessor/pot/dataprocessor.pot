@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: dataprocessor\n"
-"POT-Creation-Date: 2023-11-17 05:01+0000\n"
+"POT-Creation-Date: 2024-01-19 05:02+0000\n"
 "Language-Team: CiviCRM Translators <civicrm-translators@lists.civicrm.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -53,6 +53,7 @@ msgstr ""
 #: Civi/DataProcessor/FieldOutputHandler/CustomLinkTwoFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/DateFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/EditActivityLinkFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/EventAvailabilityInfoFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/EventParticipantsCountFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/FileFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/GroupsOfContactFieldOutputHandler.php
@@ -67,6 +68,7 @@ msgstr ""
 #: Civi/DataProcessor/FilterHandler/AbstractFieldInPeriodFilter.php
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
 #: Civi/DataProcessor/FilterHandler/ActivityFilter.php
+#: Civi/DataProcessor/FilterHandler/CampaignFilter.php
 #: Civi/DataProcessor/FilterHandler/CaseRoleFilter.php
 #: Civi/DataProcessor/FilterHandler/ChecksumFilter.php
 #: Civi/DataProcessor/FilterHandler/CompareFieldFilter.php
@@ -956,6 +958,7 @@ msgstr ""
 
 #: CRM/DataprocessorSearch/Form/Search.php
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
+#: Civi/DataProcessor/FilterHandler/CampaignFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactTypeFilter.php
 msgid "- Select -"
 msgstr ""
@@ -1289,6 +1292,10 @@ msgid "Compare two fields"
 msgstr ""
 
 #: Civi/DataProcessor/Factory.php
+msgid "Campaign filter"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
 msgid "Activity filter"
 msgstr ""
 
@@ -1498,6 +1505,10 @@ msgstr ""
 
 #: Civi/DataProcessor/Factory.php
 msgid "Participant Count"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Event Availability Information"
 msgstr ""
 
 #: Civi/DataProcessor/Factory.php
@@ -1857,6 +1868,18 @@ msgstr ""
 msgid "Activity ID Field"
 msgstr ""
 
+#: Civi/DataProcessor/FieldOutputHandler/EventAvailabilityInfoFieldOutputHandler.php
+msgid "Show"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/EventAvailabilityInfoFieldOutputHandler.php
+msgid "Full text or wait list message when event is full"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/EventAvailabilityInfoFieldOutputHandler.php
+msgid "The number of available places"
+msgstr ""
+
 #: Civi/DataProcessor/FieldOutputHandler/EventParticipantsCountFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/EventParticipantsFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/ParticipantsFieldOutputHandler.php
@@ -2074,6 +2097,7 @@ msgstr ""
 #: Civi/DataProcessor/FilterHandler/AbstractFieldInPeriodFilter.php
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
 #: Civi/DataProcessor/FilterHandler/ActivityFilter.php
+#: Civi/DataProcessor/FilterHandler/CampaignFilter.php
 #: Civi/DataProcessor/FilterHandler/CaseRoleFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactHasContributionWithStatus.php
@@ -2126,6 +2150,7 @@ msgstr ""
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
 #: Civi/DataProcessor/FilterHandler/ActivityFilter.php
+#: Civi/DataProcessor/FilterHandler/CampaignFilter.php
 #: Civi/DataProcessor/FilterHandler/CaseRoleFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactInGroupFilter.php
@@ -2140,6 +2165,7 @@ msgstr ""
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
 #: Civi/DataProcessor/FilterHandler/ActivityFilter.php
+#: Civi/DataProcessor/FilterHandler/CampaignFilter.php
 #: Civi/DataProcessor/FilterHandler/CaseRoleFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactInGroupFilter.php
@@ -2154,6 +2180,7 @@ msgstr ""
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
 #: Civi/DataProcessor/FilterHandler/ActivityFilter.php
+#: Civi/DataProcessor/FilterHandler/CampaignFilter.php
 #: Civi/DataProcessor/FilterHandler/CaseRoleFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactFilter.php
 #: Civi/DataProcessor/FilterHandler/DateFilter.php
@@ -2163,6 +2190,7 @@ msgid "Is empty"
 msgstr ""
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
+#: Civi/DataProcessor/FilterHandler/CampaignFilter.php
 #: Civi/DataProcessor/FilterHandler/CaseRoleFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactFilter.php
 #: Civi/DataProcessor/FilterHandler/DateFilter.php
@@ -2256,6 +2284,10 @@ msgstr ""
 
 #: Civi/DataProcessor/FilterHandler/AgeFilterHandler.php
 msgid "Date Field"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/CampaignFilter.php
+msgid "Campaign ID Field"
 msgstr ""
 
 #: Civi/DataProcessor/FilterHandler/CaseRoleFilter.php
