@@ -3,14 +3,14 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Satomi Sato <puritira2015@gmail.com>, 2022
+# Satomi Sato <puritira2015@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: dataprocessor\n"
-"POT-Creation-Date: 2020-10-01 05:01+0000\n"
-"Last-Translator: Satomi Sato <puritira2015@gmail.com>, 2022\n"
-"Language-Team: Japanese (https://www.transifex.com/civicrm/teams/1905/ja/)\n"
+"POT-Creation-Date: 2024-01-19 05:02+0000\n"
+"Last-Translator: Satomi Sato <puritira2015@gmail.com>, 2024\n"
+"Language-Team: Japanese (https://app.transifex.com/civicrm/teams/1905/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,6 +19,7 @@ msgstr ""
 
 #: CRM/Contact/DataProcessorContactSearch.php
 #: CRM/Contact/DataProcessorContactSummaryTab.php
+#: CRM/Dataprocessor/DAO/DataProcessorOutput.php
 #: CRM/DataprocessorDashlet/Dashlet.php
 #: CRM/DataprocessorSearch/ActivitySearch.php
 #: CRM/DataprocessorSearch/CaseSearch.php
@@ -32,6 +33,7 @@ msgstr "アクセス権"
 #: CRM/Contact/DataProcessorContactSearch.php
 #: CRM/Contact/DataProcessorContactSummaryTab.php
 #: CRM/Dataprocessor/Form/Field.php CRM/Dataprocessor/Form/Filter.php
+#: CRM/Dataprocessor/Form/FilterCollection.php
 #: CRM/Dataprocessor/Form/Output.php CRM/Dataprocessor/Form/Source.php
 #: CRM/DataprocessorDashlet/Dashlet.php CRM/DataprocessorOutputExport/PDF.php
 #: CRM/DataprocessorSearch/ActivitySearch.php
@@ -43,31 +45,59 @@ msgstr "アクセス権"
 #: Civi/DataProcessor/DataFlow/MultipleDataFlows/SimpleJoin.php
 #: Civi/DataProcessor/FieldOutputHandler/AbstractSimpleFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/AggregateFunctionFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/Calculations/ArithmeticOperationsFieldOutputhandler.php
 #: Civi/DataProcessor/FieldOutputHandler/Calculations/CalculationFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/Calculations/SubtractFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/CaseRolesFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ContactHasRelationshipFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/ContactLinkFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ContributionCountFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ContributionRecurCountFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ContributionRecurSumFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/CustomLinkFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/CustomLinkThreeFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/CustomLinkTwoFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/DateFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/EditActivityLinkFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/EventAvailabilityInfoFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/EventParticipantsCountFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/FileFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/GroupsOfContactFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ImageFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/IsActiveFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/ManageCaseLinkFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/MembershipsFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/RelationshipsFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/TagsOfContactFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/TextFromFieldsOutputHandler.php
+#: Civi/DataProcessor/FilterHandler/AbstractFieldFilterHandler.php
+#: Civi/DataProcessor/FilterHandler/AbstractFieldInPeriodFilter.php
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
 #: Civi/DataProcessor/FilterHandler/ActivityFilter.php
+#: Civi/DataProcessor/FilterHandler/CampaignFilter.php
 #: Civi/DataProcessor/FilterHandler/CaseRoleFilter.php
+#: Civi/DataProcessor/FilterHandler/ChecksumFilter.php
+#: Civi/DataProcessor/FilterHandler/CompareFieldFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactHasActiveRecurringContributions.php
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionWithStatus.php
+#: Civi/DataProcessor/FilterHandler/ContactHasEventRegistrationOfType.php
 #: Civi/DataProcessor/FilterHandler/ContactHasMembershipFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactHasRelationship.php
 #: Civi/DataProcessor/FilterHandler/ContactInGroupFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactTypeFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactWithTagFilter.php
 #: Civi/DataProcessor/FilterHandler/DateFilter.php
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+#: Civi/DataProcessor/FilterHandler/DateWeekDayFilter.php
 #: Civi/DataProcessor/FilterHandler/EventFilter.php
 #: Civi/DataProcessor/FilterHandler/InApiFilter.php
+#: Civi/DataProcessor/FilterHandler/LastEventDateFilter.php
 #: Civi/DataProcessor/FilterHandler/MultipleFieldFilter.php
 #: Civi/DataProcessor/FilterHandler/PermissionToViewContactFilter.php
-#: Civi/DataProcessor/FilterHandler/SimpleSqlFilter.php
+#: Civi/DataProcessor/FilterHandler/WorldRegionFilter.php
 #: Civi/DataProcessor/Output/Api.php
+#: Civi/DataProcessor/Source/AbstractCivicrmEntitySource.php
 #: Civi/DataProcessor/Source/AbstractSource.php
 msgid "- select -"
 msgstr "- 選択 -"
@@ -116,14 +146,31 @@ msgid "No result text"
 msgstr ""
 
 #: CRM/Contact/DataProcessorContactSearch.php
-#: CRM/DataprocessorDashlet/Dashlet.php
+msgid "Expand criteria form initially?"
+msgstr ""
+
+#: CRM/Contact/DataProcessorContactSearch.php
 #: CRM/DataprocessorSearch/ActivitySearch.php
 #: CRM/DataprocessorSearch/CaseSearch.php
 #: CRM/DataprocessorSearch/ContributionSearch.php
 #: CRM/DataprocessorSearch/MembershipSearch.php
 #: CRM/DataprocessorSearch/ParticipantSearch.php
 #: CRM/DataprocessorSearch/Search.php
-msgid "Expand criteria form initially"
+msgid "Enable Hard Limit?"
+msgstr ""
+
+#: CRM/Contact/DataProcessorContactSearch.php
+#: CRM/DataprocessorSearch/ActivitySearch.php
+#: CRM/DataprocessorSearch/CaseSearch.php
+#: CRM/DataprocessorSearch/ContributionSearch.php
+#: CRM/DataprocessorSearch/MembershipSearch.php
+#: CRM/DataprocessorSearch/ParticipantSearch.php
+#: CRM/DataprocessorSearch/Search.php
+msgid "Default Hard Limit"
+msgstr ""
+
+#: CRM/Contact/DataProcessorContactSearch.php
+msgid "Add link to view contact?"
 msgstr ""
 
 #: CRM/Contact/DataProcessorContactSearch.php
@@ -135,6 +182,21 @@ msgstr ""
 #: CRM/DataprocessorSearch/Search.php
 msgid "Parent Menu"
 msgstr ""
+
+#: CRM/Contact/DataProcessorContactSearch.php
+#: CRM/Contact/DataProcessorContactSummaryTab.php
+#: CRM/Dataprocessor/DAO/DataProcessorField.php
+#: CRM/Dataprocessor/DAO/DataProcessorFilter.php
+#: CRM/Dataprocessor/DAO/DataProcessorFilterCollection.php
+#: CRM/Dataprocessor/DAO/DataProcessorSource.php
+#: CRM/DataprocessorSearch/ActivitySearch.php
+#: CRM/DataprocessorSearch/CaseSearch.php
+#: CRM/DataprocessorSearch/ContributionSearch.php
+#: CRM/DataprocessorSearch/MembershipSearch.php
+#: CRM/DataprocessorSearch/ParticipantSearch.php
+#: CRM/DataprocessorSearch/Search.php
+msgid "Weight"
+msgstr "優先度"
 
 #: CRM/Contact/DataProcessorContactSearch.php
 #: CRM/DataprocessorDashlet/Dashlet.php
@@ -157,10 +219,6 @@ msgid "No Result Text"
 msgstr ""
 
 #: CRM/Contact/DataProcessorContactSummaryTab.php
-msgid "Weight"
-msgstr "優先度"
-
-#: CRM/Contact/DataProcessorContactSummaryTab.php
 #: CRM/DataprocessorDashlet/Dashlet.php
 msgid "Default Limit"
 msgstr ""
@@ -171,8 +229,8 @@ msgstr ""
 
 #: CRM/Contact/DataProcessorContactSummaryTab.php
 msgid ""
-"Requires data source '%1' which could not be found. Did you rename or "
-"deleted the data source?"
+"Requires data source '%1' which could not be found. Did you rename or delete"
+" the data source?"
 msgstr ""
 
 #: CRM/Contact/DataProcessorContactSummaryTab.php
@@ -197,36 +255,259 @@ msgstr ""
 msgid "Invalid field"
 msgstr ""
 
-#: CRM/Dataprocessor/Form/CloneDataProcessor.php
-msgid "Clone data processor: %1"
+#: CRM/Dataprocessor/DAO/DataProcessor.php
+msgid "Data Processors"
 msgstr ""
 
+#: CRM/Dataprocessor/DAO/DataProcessor.php dataprocessor.php
+#: templates/CRM/Dataprocessor/Form/DataProcessor.tpl
+#: templates/CRM/Dataprocessor/Form/ManageDataProcessors.tpl
+msgid "Data Processor"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessor.php
+#: CRM/Dataprocessor/DAO/DataProcessorField.php
+#: CRM/Dataprocessor/DAO/DataProcessorFilter.php
+#: CRM/Dataprocessor/DAO/DataProcessorFilterCollection.php
+#: CRM/Dataprocessor/DAO/DataProcessorOutput.php
+#: CRM/Dataprocessor/DAO/DataProcessorSource.php
+#: CRM/DataprocessorSearch/Task.php api/v3/DataProcessor.php
+#: api/v3/DataProcessorField.php api/v3/DataProcessorFilter.php
+#: api/v3/DataProcessorFilterCollection.php api/v3/DataProcessorSource.php
+msgid "ID"
+msgstr "ID"
+
+#: CRM/Dataprocessor/DAO/DataProcessor.php
+msgid "Unique DataProcessor ID"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessor.php
+#: CRM/Dataprocessor/DAO/DataProcessorField.php
+#: CRM/Dataprocessor/DAO/DataProcessorFilter.php
+#: CRM/Dataprocessor/DAO/DataProcessorFilterCollection.php
+#: CRM/Dataprocessor/DAO/DataProcessorSource.php
 #: CRM/Dataprocessor/Form/CloneDataProcessor.php
 #: CRM/Dataprocessor/Form/DataProcessor.php CRM/Dataprocessor/Form/Field.php
-#: CRM/Dataprocessor/Form/Filter.php CRM/Dataprocessor/Form/Source.php
-#: api/v3/DataProcessor.php api/v3/DataProcessorField.php
-#: api/v3/DataProcessorFilter.php api/v3/DataProcessorSource.php
+#: CRM/Dataprocessor/Form/Filter.php
+#: CRM/Dataprocessor/Form/FilterCollection.php
+#: CRM/Dataprocessor/Form/Source.php api/v3/DataProcessor.php
+#: api/v3/DataProcessorField.php api/v3/DataProcessorFilter.php
+#: api/v3/DataProcessorFilterCollection.php api/v3/DataProcessorSource.php
 #: templates/CRM/Dataprocessor/Form/FilterValue.tpl
 #: templates/CRM/Dataprocessor/Form/Output/UIOutput/CriteriaForm.tpl
 msgid "Name"
 msgstr "甘え"
 
+#: CRM/Dataprocessor/DAO/DataProcessor.php
+#: CRM/Dataprocessor/DAO/DataProcessorField.php
+#: CRM/Dataprocessor/DAO/DataProcessorFilter.php
+#: CRM/Dataprocessor/DAO/DataProcessorFilterCollection.php
+#: CRM/Dataprocessor/DAO/DataProcessorSource.php
 #: CRM/Dataprocessor/Form/CloneDataProcessor.php
 #: CRM/Dataprocessor/Form/DataProcessor.php CRM/Dataprocessor/Form/Field.php
-#: CRM/Dataprocessor/Form/Filter.php CRM/Dataprocessor/Form/Source.php
-#: api/v3/DataProcessor.php api/v3/DataProcessorField.php
-#: api/v3/DataProcessorFilter.php api/v3/DataProcessorSource.php
+#: CRM/Dataprocessor/Form/Filter.php
+#: CRM/Dataprocessor/Form/FilterCollection.php
+#: CRM/Dataprocessor/Form/Source.php api/v3/DataProcessor.php
+#: api/v3/DataProcessorField.php api/v3/DataProcessorFilter.php
+#: api/v3/DataProcessorFilterCollection.php api/v3/DataProcessorSource.php
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Fields.tpl
+#: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/FilterCollections.tpl
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Filters.tpl
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Sources.tpl
 msgid "Title"
 msgstr "タイトル"
 
+#: CRM/Dataprocessor/DAO/DataProcessor.php
+#: CRM/Dataprocessor/DAO/DataProcessorField.php
+#: CRM/Dataprocessor/DAO/DataProcessorFilter.php
+#: CRM/Dataprocessor/DAO/DataProcessorOutput.php
+#: CRM/Dataprocessor/DAO/DataProcessorSource.php
+msgid "Type"
+msgstr "タイプ"
+
+#: CRM/Dataprocessor/DAO/DataProcessor.php
+#: CRM/Dataprocessor/DAO/DataProcessorField.php
+#: CRM/Dataprocessor/DAO/DataProcessorFilter.php
+#: CRM/Dataprocessor/DAO/DataProcessorOutput.php
+#: CRM/Dataprocessor/DAO/DataProcessorSource.php
+#: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/FilterCollections.tpl
+#: templates/CRM/Dataprocessor/Form/Source/Csv.tpl
+#: templates/CRM/Dataprocessor/Form/Source/Sqltable.tpl
+msgid "Configuration"
+msgstr "設定"
+
+#: CRM/Dataprocessor/DAO/DataProcessor.php
+#: CRM/Dataprocessor/Form/ManageDataProcessors.php
+#: templates/CRM/Dataprocessor/Form/ManageDataProcessors.tpl
+msgid "Is active"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessor.php
+#: CRM/Dataprocessor/DAO/DataProcessorFilterCollection.php
 #: CRM/Dataprocessor/Form/CloneDataProcessor.php
 #: CRM/Dataprocessor/Form/DataProcessor.php
+#: CRM/Dataprocessor/Form/FilterCollection.php
 #: templates/CRM/Dataprocessor/Form/ManageDataProcessors.tpl
 msgid "Description"
 msgstr "説明"
+
+#: CRM/Dataprocessor/DAO/DataProcessor.php
+msgid "Storage Type"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessor.php
+msgid "Storage Configuration"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessor.php
+#: templates/CRM/Dataprocessor/Form/ManageDataProcessors.tpl
+msgid "Status"
+msgstr "ステータス"
+
+#: CRM/Dataprocessor/DAO/DataProcessor.php
+msgid "Source File"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorField.php
+msgid "Data Processor Fields"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorField.php
+#: CRM/Dataprocessor/Form/Field.php
+msgid "Data Processor Field"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorField.php
+msgid "Unique DataProcessorField ID"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorField.php
+#: CRM/Dataprocessor/DAO/DataProcessorFilter.php
+#: CRM/Dataprocessor/DAO/DataProcessorFilterCollection.php
+#: CRM/Dataprocessor/DAO/DataProcessorOutput.php
+#: CRM/Dataprocessor/DAO/DataProcessorSource.php
+msgid "Data Processor ID"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorField.php
+#: CRM/Dataprocessor/DAO/DataProcessorFilter.php
+#: CRM/Dataprocessor/DAO/DataProcessorFilterCollection.php
+#: CRM/Dataprocessor/DAO/DataProcessorOutput.php
+#: CRM/Dataprocessor/DAO/DataProcessorSource.php
+msgid "FK to Data Processor"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorFilter.php
+msgid "Data Processor Filters"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorFilter.php
+#: CRM/Dataprocessor/Form/Filter.php
+msgid "Data Processor Filter"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorFilter.php
+msgid "Unique DataProcessorFilter ID"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorFilter.php
+#: CRM/Dataprocessor/Form/Filter.php
+msgid "Is required"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorFilter.php
+msgid "Is exposed"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorFilter.php
+#: templates/CRM/Dataprocessor/Form/FilterValue.tpl
+msgid "Default Filter Value"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorFilter.php
+msgid "Filter Collection Id"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorFilterCollection.php
+msgid "Data Processor Filter Collections"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorFilterCollection.php
+#: CRM/Dataprocessor/Form/FilterCollection.php
+msgid "Data Processor Filter Collection"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorFilterCollection.php
+msgid "Unique DataProcessorFilterCollection ID"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorFilterCollection.php
+#: CRM/Dataprocessor/Form/FilterCollection.php
+msgid "Condition"
+msgstr "条件"
+
+#: CRM/Dataprocessor/DAO/DataProcessorFilterCollection.php
+msgid "Condition for linking this collection to the previous collection"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorFilterCollection.php
+msgid "Show Collapsed"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorOutput.php
+msgid "Data Processor Outputs"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorOutput.php
+#: CRM/Dataprocessor/Form/Output.php
+#: templates/CRM/Dataprocessor/Form/Output.tpl
+msgid "Data Processor Output"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorOutput.php
+msgid "Unique DataProcessorOutput ID"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorOutput.php
+#: Civi/DataProcessor/FilterHandler/InApiFilter.php
+#: Civi/DataProcessor/Output/Api.php
+msgid "API Entity"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorOutput.php
+#: Civi/DataProcessor/FilterHandler/InApiFilter.php
+msgid "API Action"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorOutput.php
+msgid "API Getcount action"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorSource.php
+msgid "Data Processor Sources"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorSource.php
+#: CRM/Dataprocessor/Form/Source.php
+#: templates/CRM/Dataprocessor/Form/Source.tpl
+msgid "Data Processor Source"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorSource.php
+msgid "Unique DataProcessorSource ID"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorSource.php
+msgid "Join Type"
+msgstr ""
+
+#: CRM/Dataprocessor/DAO/DataProcessorSource.php
+msgid "Join Configuration"
+msgstr ""
+
+#: CRM/Dataprocessor/Form/CloneDataProcessor.php
+msgid "Clone data processor: %1"
+msgstr ""
 
 #: CRM/Dataprocessor/Form/CloneDataProcessor.php
 #: CRM/Dataprocessor/Form/DataProcessor.php
@@ -236,7 +517,9 @@ msgstr "有効"
 
 #: CRM/Dataprocessor/Form/CloneDataProcessor.php
 #: CRM/Dataprocessor/Form/DataProcessor.php CRM/Dataprocessor/Form/Field.php
-#: CRM/Dataprocessor/Form/Filter.php CRM/Dataprocessor/Form/FilterValue.php
+#: CRM/Dataprocessor/Form/Filter.php
+#: CRM/Dataprocessor/Form/FilterCollection.php
+#: CRM/Dataprocessor/Form/FilterValue.php
 #: CRM/Dataprocessor/Form/Output/AbstractOutputForm.php
 #: CRM/Dataprocessor/Form/Output.php CRM/Dataprocessor/Form/Source.php
 msgid "Save"
@@ -244,8 +527,9 @@ msgstr "保存"
 
 #: CRM/Dataprocessor/Form/CloneDataProcessor.php
 #: CRM/Dataprocessor/Form/DataProcessor.php CRM/Dataprocessor/Form/Field.php
-#: CRM/Dataprocessor/Form/Filter.php CRM/Dataprocessor/Form/FilterValue.php
-#: CRM/Dataprocessor/Form/Import.php
+#: CRM/Dataprocessor/Form/Filter.php
+#: CRM/Dataprocessor/Form/FilterCollection.php
+#: CRM/Dataprocessor/Form/FilterValue.php CRM/Dataprocessor/Form/Import.php
 #: CRM/Dataprocessor/Form/Output/AbstractOutputForm.php
 #: CRM/Dataprocessor/Form/Output.php CRM/Dataprocessor/Form/Source.php
 msgid "Cancel"
@@ -285,8 +569,9 @@ msgid "Delete data processor: %1"
 msgstr ""
 
 #: CRM/Dataprocessor/Form/DataProcessor.php CRM/Dataprocessor/Form/Field.php
-#: CRM/Dataprocessor/Form/Filter.php CRM/Dataprocessor/Form/Output.php
-#: CRM/Dataprocessor/Form/Source.php
+#: CRM/Dataprocessor/Form/Filter.php
+#: CRM/Dataprocessor/Form/FilterCollection.php
+#: CRM/Dataprocessor/Form/Output.php CRM/Dataprocessor/Form/Source.php
 #: templates/CRM/Dataprocessor/Form/ManageDataProcessors.tpl
 msgid "Delete"
 msgstr "削除"
@@ -308,14 +593,11 @@ msgid "Data Processor removed"
 msgstr ""
 
 #: CRM/Dataprocessor/Form/DataProcessor.php CRM/Dataprocessor/Form/Field.php
-#: CRM/Dataprocessor/Form/Filter.php CRM/Dataprocessor/Form/Output.php
-#: CRM/Dataprocessor/Form/Source.php
+#: CRM/Dataprocessor/Form/Filter.php
+#: CRM/Dataprocessor/Form/FilterCollection.php
+#: CRM/Dataprocessor/Form/Output.php CRM/Dataprocessor/Form/Source.php
 msgid "Removed"
 msgstr "削除"
-
-#: CRM/Dataprocessor/Form/Field.php
-msgid "Data Processor Field"
-msgstr ""
 
 #: CRM/Dataprocessor/Form/Field.php
 msgid "Select Field"
@@ -323,10 +605,6 @@ msgstr ""
 
 #: CRM/Dataprocessor/Form/Field.php
 msgid "Field removed"
-msgstr ""
-
-#: CRM/Dataprocessor/Form/Filter.php
-msgid "Data Processor Filter"
 msgstr ""
 
 #: CRM/Dataprocessor/Form/Filter.php
@@ -338,11 +616,47 @@ msgid "Select Filter"
 msgstr ""
 
 #: CRM/Dataprocessor/Form/Filter.php
-msgid "Is required"
+#: templates/CRM/Dataprocessor/Form/FilterCollection.tpl
+msgid "Filter Collection"
+msgstr ""
+
+#: CRM/Dataprocessor/Form/Filter.php
+msgid "Default Filter Collection"
 msgstr ""
 
 #: CRM/Dataprocessor/Form/Filter.php
 msgid "Filter removed"
+msgstr ""
+
+#: CRM/Dataprocessor/Form/FilterCollection.php
+msgid "Or: one of the condition criteria in this collection should be met"
+msgstr ""
+
+#: CRM/Dataprocessor/Form/FilterCollection.php
+msgid "And: all of the condition criteria in this collection should be met"
+msgstr ""
+
+#: CRM/Dataprocessor/Form/FilterCollection.php
+msgid ""
+"Or: either this filter collection or the previous filter collection should "
+"be met"
+msgstr ""
+
+#: CRM/Dataprocessor/Form/FilterCollection.php
+msgid ""
+"And: this filter collection and the previous filter collection should be met"
+msgstr ""
+
+#: CRM/Dataprocessor/Form/FilterCollection.php
+msgid "Link condition"
+msgstr ""
+
+#: CRM/Dataprocessor/Form/FilterCollection.php
+msgid "Collapse in search form"
+msgstr ""
+
+#: CRM/Dataprocessor/Form/FilterCollection.php
+msgid "Filter Collection removed"
 msgstr ""
 
 #: CRM/Dataprocessor/Form/FilterValue.php
@@ -378,11 +692,6 @@ msgid "Description contains"
 msgstr ""
 
 #: CRM/Dataprocessor/Form/ManageDataProcessors.php
-#: templates/CRM/Dataprocessor/Form/ManageDataProcessors.tpl
-msgid "Is active"
-msgstr ""
-
-#: CRM/Dataprocessor/Form/ManageDataProcessors.php
 msgid "Search"
 msgstr "検索"
 
@@ -391,21 +700,11 @@ msgid "Data Processor  Output  Configuration"
 msgstr ""
 
 #: CRM/Dataprocessor/Form/Output.php
-#: templates/CRM/Dataprocessor/Form/Output.tpl
-msgid "Data Processor Output"
-msgstr ""
-
-#: CRM/Dataprocessor/Form/Output.php
 msgid "Select output"
 msgstr ""
 
 #: CRM/Dataprocessor/Form/Output.php
 msgid "Data Processor Output removed"
-msgstr ""
-
-#: CRM/Dataprocessor/Form/Source.php
-#: templates/CRM/Dataprocessor/Form/Source.tpl
-msgid "Data Processor Source"
 msgstr ""
 
 #: CRM/Dataprocessor/Form/Source.php
@@ -458,6 +757,20 @@ msgstr ""
 msgid "Update data processor configuration"
 msgstr ""
 
+#: CRM/Dataprocessor/Upgrader.php
+msgid "Prerequisite check failed."
+msgstr ""
+
+#: CRM/Dataprocessor/Upgrader.php
+msgid ""
+"Dataprocessor was installed successfully, but you must also install and "
+"enable the <strong>legacycustomsearches</strong> extension."
+msgstr ""
+
+#: CRM/Dataprocessor/Upgrader.php
+msgid "Unknown error key: %1"
+msgstr ""
+
 #: CRM/Dataprocessor/Utils/Extensions.php
 msgid "Kept data processors because you made changes to it."
 msgstr ""
@@ -466,44 +779,64 @@ msgstr ""
 msgid "Kept data processors"
 msgstr ""
 
+#: CRM/Dataprocessor/Utils/Form.php
+msgid "- any -"
+msgstr ""
+
+#: CRM/Dataprocessor/Utils/Form.php
+msgid "Choose Date Range"
+msgstr ""
+
 #: CRM/DataprocessorDashlet/Dashlet.php
 msgid "Help text for this dashlet"
 msgstr ""
 
-#: CRM/DataprocessorOutputExport/CSV.php
-msgid "Delimiter"
+#: CRM/DataprocessorDashlet/Dashlet.php
+#: CRM/DataprocessorSearch/ActivitySearch.php
+#: CRM/DataprocessorSearch/CaseSearch.php
+#: CRM/DataprocessorSearch/ContributionSearch.php
+#: CRM/DataprocessorSearch/MembershipSearch.php
+#: CRM/DataprocessorSearch/ParticipantSearch.php
+#: CRM/DataprocessorSearch/Search.php
+msgid "Expand criteria form initially"
 msgstr ""
 
-#: CRM/DataprocessorOutputExport/CSV.php
-msgid "Enclosure"
+#: CRM/DataprocessorOutputExport/AbstractOutputExport.php
+msgid "Is public"
 msgstr ""
 
-#: CRM/DataprocessorOutputExport/CSV.php
-msgid "Escape char"
+#: CRM/DataprocessorOutputExport/AbstractOutputExport.php
+msgid "Download <a class=\"dataprocessor-export-download-link\" href=\"%1\">%2</a>"
 msgstr ""
 
-#: CRM/DataprocessorOutputExport/CSV.php CRM/DataprocessorOutputExport/PDF.php
-msgid "Available for anonymous users"
+#: CRM/DataprocessorOutputExport/AbstractOutputExport.php
+msgid "Exported data"
 msgstr ""
 
-#: CRM/DataprocessorOutputExport/CSV.php
-msgid "Download as CSV"
+#: CRM/DataprocessorOutputExport/AbstractOutputExport.php
+msgid "Create header"
 msgstr ""
 
-#: CRM/DataprocessorOutputExport/CSV.php CRM/DataprocessorOutputExport/PDF.php
+#: CRM/DataprocessorOutputExport/AbstractOutputExport.php
+#: CRM/DataprocessorOutputExport/Page/Export.php
 msgid "Exporting records %1/%2"
 msgstr ""
 
-#: CRM/DataprocessorOutputExport/CSV.php CRM/DataprocessorOutputExport/PDF.php
+#: CRM/DataprocessorOutputExport/AbstractOutputExport.php
+msgid "Create footer"
+msgstr ""
+
+#: CRM/DataprocessorOutputExport/AbstractOutputExport.php
+#: CRM/DataprocessorOutputExport/Page/Export.php
 msgid "Exporting data"
 msgstr ""
 
-#: CRM/DataprocessorOutputExport/CSV.php
-msgid "<a href=\"%1\">Download CSV file</a>"
+#: CRM/DataprocessorOutputExport/AbstractSpreadsheet.php
+msgid "Alternate File Name"
 msgstr ""
 
-#: CRM/DataprocessorOutputExport/CSV.php CRM/DataprocessorOutputExport/PDF.php
-msgid "Exported data"
+#: CRM/DataprocessorOutputExport/AbstractSpreadsheet.php
+msgid "Download as Spreadsheet"
 msgstr ""
 
 #: CRM/DataprocessorOutputExport/PDF.php
@@ -558,10 +891,6 @@ msgstr ""
 msgid "Download as PDF"
 msgstr ""
 
-#: CRM/DataprocessorOutputExport/PDF.php
-msgid "<a href=\"%1\">Download PDF file</a>"
-msgstr ""
-
 #: CRM/DataprocessorSearch/ActivitySearch.php
 msgid "Activity ID field"
 msgstr ""
@@ -591,7 +920,24 @@ msgid "Show Contribution ID field"
 msgstr ""
 
 #: CRM/DataprocessorSearch/Form/AbstractSearch.php
+msgid "Error in data processor"
+msgstr ""
+
+#: CRM/DataprocessorSearch/Form/AbstractSearch.php
+msgid "Error"
+msgstr "エラー"
+
+#: CRM/DataprocessorSearch/Form/AbstractSearch.php
 msgid "%%StatusMessage%%"
+msgstr ""
+
+#: CRM/DataprocessorSearch/Form/AbstractSearch.php
+#: templates/CRM/Dataprocessor/Form/ManageDataProcessors.tpl
+msgid "Export"
+msgstr "エクスポート"
+
+#: CRM/DataprocessorSearch/Form/AbstractSearch.php
+msgid "Hard Limit"
 msgstr ""
 
 #: CRM/DataprocessorSearch/Form/ActivitySearch.php
@@ -617,8 +963,18 @@ msgstr ""
 
 #: CRM/DataprocessorSearch/Form/Search.php
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
+#: Civi/DataProcessor/FilterHandler/CampaignFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactTypeFilter.php
 msgid "- Select -"
 msgstr "- 選択 -"
+
+#: CRM/DataprocessorSearch/Form/Task/SearchActionDesigner.php
+msgid "Invalid search task"
+msgstr ""
+
+#: CRM/DataprocessorSearch/Form/Task/SearchActionDesigner.php
+msgid "Number of selected records: %1"
+msgstr ""
 
 #: CRM/DataprocessorSearch/MembershipSearch.php
 msgid "Membership ID field"
@@ -648,15 +1004,13 @@ msgstr ""
 msgid "Expose aggregate options"
 msgstr ""
 
+#: CRM/DataprocessorSearch/Search.php
+msgid "Expose hidden field options"
+msgstr ""
+
 #: CRM/DataprocessorSearch/Task.php
 msgid "Data processor %1"
 msgstr ""
-
-#: CRM/DataprocessorSearch/Task.php api/v3/DataProcessor.php
-#: api/v3/DataProcessorField.php api/v3/DataProcessorFilter.php
-#: api/v3/DataProcessorSource.php
-msgid "ID"
-msgstr "ID"
 
 #: Civi/DataProcessor/DataFlow/CsvDataFlow.php
 msgid "Column %1"
@@ -695,6 +1049,7 @@ msgid "Standard variance"
 msgstr ""
 
 #: Civi/DataProcessor/DataSpecification/AggregateFunctionFieldSpecification.php
+#: Civi/DataProcessor/Source/Contribution/AggregatedContributionSource.php
 msgid "Count"
 msgstr "カウント"
 
@@ -743,8 +1098,16 @@ msgid "Contacts in a smart group"
 msgstr ""
 
 #: Civi/DataProcessor/Factory.php
-msgid "E-mail"
+msgid "Tag"
+msgstr "タグ"
+
+#: Civi/DataProcessor/Factory.php
+msgid "Entity Tag (Link between an entity and a tag)"
 msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Email"
+msgstr "メール"
 
 #: Civi/DataProcessor/Factory.php
 msgid "Address"
@@ -759,12 +1122,27 @@ msgid "Website"
 msgstr "ウェブサイト"
 
 #: Civi/DataProcessor/Factory.php
+#: Civi/DataProcessor/FilterHandler/ContactHasActivityInPeriodFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionInPeriod.php
+#: Civi/DataProcessor/FilterHandler/TotalContributionAmountInPeriod.php
 msgid "Campaign"
 msgstr "キャンペーン"
 
 #: Civi/DataProcessor/Factory.php
-msgid "Contribution"
-msgstr "支援"
+msgid "Contribution (with Soft Contribution)"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Financial Transaction"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Contribution (without Soft Contribution)"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Contribution (Aggregated)"
+msgstr ""
 
 #: Civi/DataProcessor/Factory.php
 msgid "Recurring Contribution"
@@ -831,6 +1209,10 @@ msgid "Note"
 msgstr "注意"
 
 #: Civi/DataProcessor/Factory.php
+msgid "File"
+msgstr "ファイル"
+
+#: Civi/DataProcessor/Factory.php
 msgid "CSV File"
 msgstr ""
 
@@ -895,7 +1277,27 @@ msgid "Date filter"
 msgstr ""
 
 #: Civi/DataProcessor/Factory.php
+msgid "Age filter"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Month filter"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Week Day filter"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
 msgid "Text in multiple fields Filter"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Compare two fields"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Campaign filter"
 msgstr ""
 
 #: Civi/DataProcessor/Factory.php
@@ -904,6 +1306,10 @@ msgstr ""
 
 #: Civi/DataProcessor/Factory.php
 msgid "Event filter"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Checksum filter"
 msgstr ""
 
 #: Civi/DataProcessor/Factory.php
@@ -923,6 +1329,42 @@ msgid "Contact has Membership filter"
 msgstr ""
 
 #: Civi/DataProcessor/Factory.php
+msgid "Contact has event registration of type"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Contact has contribution with status"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Contact has a contribution in period"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Total contribution amount in period"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Contact has active recurring contributions"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Contact has a relationship"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Contact has activity in period"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Contact has number of activities in period"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "World Region Filter"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
 msgid "Contact Type filter"
 msgstr ""
 
@@ -931,11 +1373,15 @@ msgid "Permission to view contact"
 msgstr ""
 
 #: Civi/DataProcessor/Factory.php
-msgid "Case Role filter"
+msgid "Contact has role on case filter"
 msgstr ""
 
 #: Civi/DataProcessor/Factory.php
 msgid "API filter"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Most recent event date"
 msgstr ""
 
 #: Civi/DataProcessor/Factory.php
@@ -951,11 +1397,19 @@ msgid "Raw field value"
 msgstr ""
 
 #: Civi/DataProcessor/Factory.php
+msgid "Clean File Name"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
 msgid "Markup/Html field value"
 msgstr ""
 
 #: Civi/DataProcessor/Factory.php
 msgid "Formatted Address"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Worldregion"
 msgstr ""
 
 #: Civi/DataProcessor/Factory.php
@@ -967,7 +1421,15 @@ msgid "Date field value"
 msgstr ""
 
 #: Civi/DataProcessor/Factory.php
+msgid "Segment text based on a date field (Per Month)"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
 msgid "Age field value"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Contact has relationship"
 msgstr ""
 
 #: Civi/DataProcessor/Factory.php
@@ -975,7 +1437,27 @@ msgid "Link to view contact"
 msgstr ""
 
 #: Civi/DataProcessor/Factory.php
+msgid "Custom Link"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Custom Link (using 2 fields)"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Custom Link (using 3 fields)"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Text from template using up to 9 fields"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
 msgid "Contact Checksum"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Link to edit an activity"
 msgstr ""
 
 #: Civi/DataProcessor/Factory.php
@@ -991,8 +1473,12 @@ msgid "Option label"
 msgstr ""
 
 #: Civi/DataProcessor/Factory.php
-msgid "Relationships"
-msgstr "関係"
+msgid "List active Memberships of a contact"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "List Relationships of a contact"
+msgstr ""
 
 #: Civi/DataProcessor/Factory.php
 msgid "Case Roles"
@@ -1007,11 +1493,44 @@ msgid "Display the groups of a contact"
 msgstr ""
 
 #: Civi/DataProcessor/Factory.php
+msgid "Display the tags of a contact"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
 msgid "Display info about repeating event"
 msgstr ""
 
 #: Civi/DataProcessor/Factory.php
+msgid "List event registrations"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
 msgid "List participants"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Participant Count"
+msgstr "参加者数"
+
+#: Civi/DataProcessor/Factory.php
+msgid "Event Availability Information"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Contribution Count"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Recurring Contribution Count"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Recurring Contribution Sum"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+#: Civi/DataProcessor/FieldOutputHandler/Calculations/ArithmeticOperationsFieldOutputhandler.php
+msgid "Arithmetic Operation"
 msgstr ""
 
 #: Civi/DataProcessor/Factory.php
@@ -1023,46 +1542,78 @@ msgid "Calculations (on multiple fields): Adding up"
 msgstr ""
 
 #: Civi/DataProcessor/Factory.php
+msgid "Calculations (on multiple fields): Percentage Change"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
 msgid "Aggregation function"
 msgstr ""
 
-#: Civi/DataProcessor/FieldOutputHandler/AbstractSimpleFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/AggregateFunctionFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/Calculations/CalculationFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/Calculations/SubtractFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/CaseRolesFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/ContactLinkFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/FileFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/GroupsOfContactFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/IsActiveFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/ManageCaseLinkFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/RelationshipsFieldOutputHandler.php
-msgid ""
-"Field %1 requires data source '%2' which could not be found. Did you rename "
-"or deleted the data source?"
+#: Civi/DataProcessor/Factory.php
+msgid "Image"
 msgstr ""
 
-#: Civi/DataProcessor/FieldOutputHandler/AbstractSimpleFieldOutputHandler.php
+#: Civi/DataProcessor/Factory.php
+msgid "Multivalue Field as Array"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Replaces special characters by their HTML code and newlines by \\n."
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Compare the input with up to 5 strings and map the output accordingly."
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "CSV"
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
+msgid "Output %1 not found"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/AbstractFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/AggregateFunctionFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/Calculations/CalculationFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/Calculations/SubtractFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/CaseRolesFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/ContactLinkFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/FileFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/GroupsOfContactFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/IsActiveFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/ManageCaseLinkFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/RelationshipsFieldOutputHandler.php
+msgid ""
+"Field %1 requires data source '%2' which could not be found. Did you rename "
+"or delete the data source?"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/AbstractFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/AggregateFunctionFieldOutputHandler.php
 msgid ""
 "Field %1 requires a field with the name '%2' in the data source '%3'. Did "
 "you change the data source type?"
 msgstr ""
 
+#: Civi/DataProcessor/FieldOutputHandler/AbstractFormattedNumberOutputHandler.php
+msgid "Number of decimals"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/AbstractFormattedNumberOutputHandler.php
+msgid "Decimal separator"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/AbstractFormattedNumberOutputHandler.php
+msgid "Thousand separator"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/AbstractFormattedNumberOutputHandler.php
+msgid "Prefix (e.g. $)"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/AbstractFormattedNumberOutputHandler.php
+msgid "Suffix (e.g. &euro;)"
+msgstr ""
+
 #: Civi/DataProcessor/FieldOutputHandler/AbstractSimpleFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/AggregateFunctionFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/FileFieldOutputHandler.php
+#: Civi/DataProcessor/FilterHandler/AbstractFieldFilterHandler.php
 #: Civi/DataProcessor/FilterHandler/DateFilter.php
-#: Civi/DataProcessor/FilterHandler/SimpleSqlFilter.php
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+#: Civi/DataProcessor/FilterHandler/DateWeekDayFilter.php
 #: Civi/DataProcessor/Output/AbstractApi.php
 #: templates/CRM/Dataprocessor/Form/Field.tpl
 msgid "Field"
@@ -1081,38 +1632,25 @@ msgid "Function"
 msgstr ""
 
 #: Civi/DataProcessor/FieldOutputHandler/AggregateFunctionFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/Calculations/CalculationFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/Calculations/SubtractFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/NumberFieldOutputHandler.php
-msgid "Number of decimals"
+msgid "Multiplier"
 msgstr ""
 
 #: Civi/DataProcessor/FieldOutputHandler/AggregateFunctionFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/Calculations/CalculationFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/Calculations/SubtractFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/NumberFieldOutputHandler.php
-msgid "Decimal separator"
+msgid "Round to nearest whole number"
 msgstr ""
 
-#: Civi/DataProcessor/FieldOutputHandler/AggregateFunctionFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/Calculations/CalculationFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/Calculations/SubtractFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/NumberFieldOutputHandler.php
-msgid "Thousand separator"
+#: Civi/DataProcessor/FieldOutputHandler/ArrayFieldOutputHandler.php
+msgid "Return option labels"
 msgstr ""
 
-#: Civi/DataProcessor/FieldOutputHandler/AggregateFunctionFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/Calculations/CalculationFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/Calculations/SubtractFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/NumberFieldOutputHandler.php
-msgid "Prefix (e.g. &euro;)"
-msgstr ""
+#: Civi/DataProcessor/FieldOutputHandler/Calculations/ArithmeticOperationsFieldOutputhandler.php
+#: templates/CRM/Dataprocessor/Form/FilterValue.tpl
+#: templates/CRM/Dataprocessor/Form/Output/UIOutput/CriteriaForm.tpl
+msgid "Value"
+msgstr "値"
 
-#: Civi/DataProcessor/FieldOutputHandler/AggregateFunctionFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/Calculations/CalculationFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/Calculations/SubtractFieldOutputHandler.php
-#: Civi/DataProcessor/FieldOutputHandler/NumberFieldOutputHandler.php
-msgid "Suffix (e.g. $)"
+#: Civi/DataProcessor/FieldOutputHandler/Calculations/ArithmeticOperationsFieldOutputhandler.php
+msgid "Enter a valid number"
 msgstr ""
 
 #: Civi/DataProcessor/FieldOutputHandler/Calculations/CalculationFieldOutputHandler.php
@@ -1121,6 +1659,14 @@ msgstr ""
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Fields.tpl
 msgid "Fields"
 msgstr "フィールド"
+
+#: Civi/DataProcessor/FieldOutputHandler/Calculations/PercentageChangeFieldOutputHandler.php
+msgid "Base Field (100% value)"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/Calculations/PercentageChangeFieldOutputHandler.php
+msgid "New value Field"
+msgstr ""
 
 #: Civi/DataProcessor/FieldOutputHandler/Calculations/SubtractFieldOutputHandler.php
 msgid "Field 1"
@@ -1149,23 +1695,118 @@ msgstr ""
 msgid "Show role title"
 msgstr ""
 
+#: Civi/DataProcessor/FieldOutputHandler/CleanFileNameFieldOutputHandler.php
+msgid "Filename/Path/Uri Field"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/ConditionallyMapStrings.php
+msgid "Default fallback, if no condition matches."
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/ConditionallyMapStrings.php
+#: Civi/DataProcessor/FieldOutputHandler/SanitizeString.php
+msgid "Input field"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/ContactHasRelationshipFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/ContactLinkFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ContributionCountFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/EditActivityLinkFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/GroupsOfContactFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/ManageCaseLinkFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/MembershipsFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ParticipantsFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/RelationshipsFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/TagsOfContactFieldOutputHandler.php
 #: Civi/DataProcessor/FilterHandler/ActivityFilter.php
+#: Civi/DataProcessor/FilterHandler/ChecksumFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactHasActiveRecurringContributions.php
+#: Civi/DataProcessor/FilterHandler/ContactHasActivityInPeriodFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionInPeriod.php
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionWithStatus.php
+#: Civi/DataProcessor/FilterHandler/ContactHasEventRegistrationOfType.php
 #: Civi/DataProcessor/FilterHandler/ContactHasMembershipFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactHasRelationship.php
 #: Civi/DataProcessor/FilterHandler/ContactInGroupFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactTypeFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactWithTagFilter.php
 #: Civi/DataProcessor/FilterHandler/InApiFilter.php
+#: Civi/DataProcessor/FilterHandler/LastEventDateFilter.php
 #: Civi/DataProcessor/FilterHandler/PermissionToViewContactFilter.php
+#: Civi/DataProcessor/FilterHandler/TotalContributionAmountInPeriod.php
 msgid "Contact ID Field"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/ContactHasRelationshipFieldOutputHandler.php
+#: Civi/DataProcessor/Source/Contact/RelationshipSource.php
+msgid "Relationship type"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/ContactHasRelationshipFieldOutputHandler.php
+msgid "- Select relationship type -"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/ContactHasRelationshipFieldOutputHandler.php
+msgid "Active text"
 msgstr ""
 
 #: Civi/DataProcessor/FieldOutputHandler/ContactLinkFieldOutputHandler.php
 msgid "Contact Name Field"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/ContributionCountFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ContributionRecurCountFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ContributionRecurSumFieldOutputHandler.php
+msgid "Financial Type"
+msgstr "金融タイプ"
+
+#: Civi/DataProcessor/FieldOutputHandler/ContributionCountFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ContributionRecurCountFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ContributionRecurSumFieldOutputHandler.php
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionInPeriod.php
+#: Civi/DataProcessor/FilterHandler/TotalContributionAmountInPeriod.php
+msgid "Contribution Status"
+msgstr "支援ステータス"
+
+#: Civi/DataProcessor/FieldOutputHandler/ContributionRecurCountFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ContributionRecurSumFieldOutputHandler.php
+msgid "Contribution Recur ID Field"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/CustomLinkFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ImageFieldOutputHandler.php
+msgid "Field to link to"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/CustomLinkFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/CustomLinkThreeFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/CustomLinkTwoFieldOutputHandler.php
+msgid "Link Template"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/CustomLinkFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/CustomLinkThreeFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/CustomLinkTwoFieldOutputHandler.php
+msgid "Link Text"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/CustomLinkThreeFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/CustomLinkTwoFieldOutputHandler.php
+msgid "Field 1 to link to"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/CustomLinkThreeFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/CustomLinkTwoFieldOutputHandler.php
+msgid "Field 2 to link to"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/CustomLinkThreeFieldOutputHandler.php
+msgid "Field 3 to link to"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/CustomLinkTwoFieldOutputHandler.php
+msgid "Open link in new tab"
 msgstr ""
 
 #: Civi/DataProcessor/FieldOutputHandler/DateFieldOutputHandler.php
@@ -1200,24 +1841,94 @@ msgstr "月"
 msgid "Year"
 msgstr "年"
 
+#: Civi/DataProcessor/FieldOutputHandler/DateFieldOutputHandler.php
+msgid "Datetime"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/DateMonthSegmentFieldOutputHandler.php
+msgid "Start of Date Range (months ago)"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/DateMonthSegmentFieldOutputHandler.php
+msgid "End of Date Range (months ago)"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/DateMonthSegmentFieldOutputHandler.php
+msgid "Text before date range"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/DateMonthSegmentFieldOutputHandler.php
+msgid "Text after date range"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/DateMonthSegmentFieldOutputHandler.php
+msgid "Text within date range"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/EditActivityLinkFieldOutputHandler.php
+msgid "Edit activity"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/EditActivityLinkFieldOutputHandler.php
+msgid "Activity ID Field"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/EventAvailabilityInfoFieldOutputHandler.php
+msgid "Show"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/EventAvailabilityInfoFieldOutputHandler.php
+msgid "Full text or wait list message when event is full"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/EventAvailabilityInfoFieldOutputHandler.php
+msgid "The number of available places"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/EventParticipantsCountFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/EventParticipantsFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ParticipantsFieldOutputHandler.php
 msgid "Roles"
 msgstr ""
 
+#: Civi/DataProcessor/FieldOutputHandler/EventParticipantsCountFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/EventParticipantsFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ParticipantsFieldOutputHandler.php
 msgid "- all roles -"
 msgstr ""
 
+#: Civi/DataProcessor/FieldOutputHandler/EventParticipantsCountFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/EventParticipantsFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ParticipantsFieldOutputHandler.php
 msgid "Participant Status"
 msgstr "参加者のステータス"
 
+#: Civi/DataProcessor/FieldOutputHandler/EventParticipantsCountFieldOutputHandler.php
 #: Civi/DataProcessor/FieldOutputHandler/EventParticipantsFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/ParticipantsFieldOutputHandler.php
 msgid "- all statuses -"
 msgstr ""
 
+#: Civi/DataProcessor/FieldOutputHandler/EventParticipantsCountFieldOutputHandler.php
+msgid "Show link to manage participant"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/EventParticipantsCountFieldOutputHandler.php
+#: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Filters.tpl
+msgid "No"
+msgstr "いいえ"
+
+#: Civi/DataProcessor/FieldOutputHandler/EventParticipantsCountFieldOutputHandler.php
+#: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Filters.tpl
+msgid "Yes"
+msgstr "はい"
+
 #: Civi/DataProcessor/FieldOutputHandler/EventRepeatingInfoFieldOutputHandler.php
 msgid "Repeating (%1 of %2)"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/FileFieldOutputHandler.php
+msgid "Only return URL"
 msgstr ""
 
 #: Civi/DataProcessor/FieldOutputHandler/FormattedAddressFieldOutputHandler.php
@@ -1235,6 +1946,10 @@ msgstr ""
 msgid "- Show all groups -"
 msgstr ""
 
+#: Civi/DataProcessor/FieldOutputHandler/ImageFieldOutputHandler.php
+msgid "Alt Image Text"
+msgstr ""
+
 #: Civi/DataProcessor/FieldOutputHandler/IsActiveFieldOutputHandler.php
 msgid "Is Active Field"
 msgstr ""
@@ -1249,6 +1964,31 @@ msgstr ""
 
 #: Civi/DataProcessor/FieldOutputHandler/ManageCaseLinkFieldOutputHandler.php
 msgid "Link text"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/MembershipsFieldOutputHandler.php
+msgid "Restrict to membership types"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/MembershipsFieldOutputHandler.php
+#: Civi/DataProcessor/FieldOutputHandler/RelationshipsFieldOutputHandler.php
+msgid "Separator"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/ParticipantsFieldOutputHandler.php
+msgid "Event Type"
+msgstr "イベントタイプ"
+
+#: Civi/DataProcessor/FieldOutputHandler/ParticipantsFieldOutputHandler.php
+msgid "- any event type -"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/RelationshipsFieldOutputHandler.php
+msgid "(A - B)"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/RelationshipsFieldOutputHandler.php
+msgid "(B - A)"
 msgstr ""
 
 #: Civi/DataProcessor/FieldOutputHandler/RelationshipsFieldOutputHandler.php
@@ -1276,71 +2016,153 @@ msgid "Show relationship type"
 msgstr ""
 
 #: Civi/DataProcessor/FieldOutputHandler/RelationshipsFieldOutputHandler.php
-msgid "Include deceased"
+msgid "Return as array"
 msgstr ""
 
 #: Civi/DataProcessor/FieldOutputHandler/RelationshipsFieldOutputHandler.php
-msgid "Separator"
+msgid "Include deceased"
 msgstr ""
 
 #: Civi/DataProcessor/FieldOutputHandler/RelationshipsFieldOutputHandler.php
 msgid "Sort"
 msgstr ""
 
-#: Civi/DataProcessor/FilterHandler/AbstractFieldFilterHandler.php
-#: Civi/DataProcessor/FilterHandler/MultipleFieldFilter.php
-msgid ""
-"Filter %1 requires data source '%2' which could not be found. Did you rename"
-" or deleted the data source?"
+#: Civi/DataProcessor/FieldOutputHandler/TextFromFieldsOutputHandler.php
+msgid "Data Source Field:"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/TextFromFieldsOutputHandler.php
+msgid "Text Template"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/TextFromFieldsOutputHandler.php
+msgid "Fallback Template"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/WorldRegionFieldOutputHandler.php
+#: Civi/DataProcessor/FilterHandler/WorldRegionFilter.php
+msgid "Country Field"
+msgstr ""
+
+#: Civi/DataProcessor/FileFormat/CSVFileFormat.php
+msgid "Delimiter"
+msgstr ""
+
+#: Civi/DataProcessor/FileFormat/CSVFileFormat.php
+msgid "Enclosure"
+msgstr ""
+
+#: Civi/DataProcessor/FileFormat/CSVFileFormat.php
+msgid "Escape Character"
 msgstr ""
 
 #: Civi/DataProcessor/FilterHandler/AbstractFieldFilterHandler.php
+#: Civi/DataProcessor/FilterHandler/ActivityFilter.php
+#: Civi/DataProcessor/FilterHandler/CaseRoleFilter.php
+#: Civi/DataProcessor/FilterHandler/ChecksumFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactHasActiveRecurringContributions.php
+#: Civi/DataProcessor/FilterHandler/ContactHasActivityInPeriodFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionWithStatus.php
+#: Civi/DataProcessor/FilterHandler/ContactHasEventRegistrationOfType.php
+#: Civi/DataProcessor/FilterHandler/ContactHasMembershipFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactHasRelationship.php
+#: Civi/DataProcessor/FilterHandler/ContactInGroupFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactTypeFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactWithTagFilter.php
+#: Civi/DataProcessor/FilterHandler/DateFilter.php
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+#: Civi/DataProcessor/FilterHandler/DateWeekDayFilter.php
+#: Civi/DataProcessor/FilterHandler/EventFilter.php
+#: Civi/DataProcessor/FilterHandler/InApiFilter.php
+#: Civi/DataProcessor/FilterHandler/LastEventDateFilter.php
+#: Civi/DataProcessor/FilterHandler/PermissionToViewContactFilter.php
+#: Civi/DataProcessor/FilterHandler/WorldRegionFilter.php
+msgid "Filter %1 requires a field to filter on. None given."
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/AbstractFieldFilterHandler.php
+#: Civi/DataProcessor/FilterHandler/ChecksumFilter.php
+#: Civi/DataProcessor/FilterHandler/CompareFieldFilter.php
+#: Civi/DataProcessor/FilterHandler/MultipleFieldFilter.php
+msgid ""
+"Filter %1 requires data source '%2' which could not be found. Did you rename"
+" or delete the data source?"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/AbstractFieldFilterHandler.php
+#: Civi/DataProcessor/FilterHandler/ChecksumFilter.php
+#: Civi/DataProcessor/FilterHandler/CompareFieldFilter.php
 #: Civi/DataProcessor/FilterHandler/MultipleFieldFilter.php
 msgid ""
 "Filter %1 requires a field with the name '%2' in the data source '%3'. Did "
 "you change the data source type?"
 msgstr ""
 
-#: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
-msgid "Field %1 is required"
-msgstr ""
-
+#: Civi/DataProcessor/FilterHandler/AbstractFieldInPeriodFilter.php
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
 #: Civi/DataProcessor/FilterHandler/ActivityFilter.php
+#: Civi/DataProcessor/FilterHandler/CampaignFilter.php
 #: Civi/DataProcessor/FilterHandler/CaseRoleFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionWithStatus.php
+#: Civi/DataProcessor/FilterHandler/ContactHasEventRegistrationOfType.php
 #: Civi/DataProcessor/FilterHandler/ContactHasMembershipFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactHasRelationship.php
 #: Civi/DataProcessor/FilterHandler/ContactInGroupFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactTypeFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactWithTagFilter.php
 #: Civi/DataProcessor/FilterHandler/EventFilter.php
+#: Civi/DataProcessor/FilterHandler/LastEventDateFilter.php
+#: Civi/DataProcessor/FilterHandler/WorldRegionFilter.php
 #: Civi/DataProcessor/Source/AbstractSource.php
 msgid "Operator:"
 msgstr "オペレータ : "
+
+#: Civi/DataProcessor/FilterHandler/AbstractFieldInPeriodFilter.php
+#: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
+#: Civi/DataProcessor/Source/AbstractSource.php
+msgid "From"
+msgstr "差出人"
+
+#: Civi/DataProcessor/FilterHandler/AbstractFieldInPeriodFilter.php
+#: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
+#: Civi/DataProcessor/Source/AbstractSource.php
+msgid "To"
+msgstr "- "
+
+#: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
+msgid "Field %1 is required"
+msgstr ""
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
 msgid "Not set"
 msgstr ""
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
-msgid "From:"
-msgstr "差出人 : "
-
-#: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
+#: Civi/DataProcessor/FilterHandler/ContactHasNumberOfActivitiesInPeriodFilter.php
+#: Civi/DataProcessor/FilterHandler/LastEventDateFilter.php
+#: Civi/DataProcessor/FilterHandler/TotalContributionAmountInPeriod.php
 msgid "Min"
 msgstr "最小"
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
+#: Civi/DataProcessor/FilterHandler/ContactHasNumberOfActivitiesInPeriodFilter.php
+#: Civi/DataProcessor/FilterHandler/LastEventDateFilter.php
+#: Civi/DataProcessor/FilterHandler/TotalContributionAmountInPeriod.php
 msgid "Max"
 msgstr "最大"
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
 #: Civi/DataProcessor/FilterHandler/ActivityFilter.php
+#: Civi/DataProcessor/FilterHandler/CampaignFilter.php
 #: Civi/DataProcessor/FilterHandler/CaseRoleFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactInGroupFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactTypeFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactWithTagFilter.php
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+#: Civi/DataProcessor/FilterHandler/DateWeekDayFilter.php
 #: Civi/DataProcessor/FilterHandler/EventFilter.php
 #: Civi/DataProcessor/Source/AbstractSource.php
 msgid "Is one of"
@@ -1348,11 +2170,14 @@ msgstr "一つです"
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
 #: Civi/DataProcessor/FilterHandler/ActivityFilter.php
+#: Civi/DataProcessor/FilterHandler/CampaignFilter.php
 #: Civi/DataProcessor/FilterHandler/CaseRoleFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactInGroupFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactTypeFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactWithTagFilter.php
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+#: Civi/DataProcessor/FilterHandler/DateWeekDayFilter.php
 #: Civi/DataProcessor/FilterHandler/EventFilter.php
 #: Civi/DataProcessor/Source/AbstractSource.php
 msgid "Is not one of"
@@ -1360,6 +2185,8 @@ msgstr "一つではありません"
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
 #: Civi/DataProcessor/FilterHandler/ActivityFilter.php
+#: Civi/DataProcessor/FilterHandler/CampaignFilter.php
+#: Civi/DataProcessor/FilterHandler/CaseRoleFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactFilter.php
 #: Civi/DataProcessor/FilterHandler/DateFilter.php
 #: Civi/DataProcessor/FilterHandler/EventFilter.php
@@ -1368,34 +2195,48 @@ msgid "Is empty"
 msgstr ""
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
+#: Civi/DataProcessor/FilterHandler/CampaignFilter.php
+#: Civi/DataProcessor/FilterHandler/CaseRoleFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactFilter.php
 #: Civi/DataProcessor/FilterHandler/DateFilter.php
 #: Civi/DataProcessor/Source/AbstractSource.php
 msgid "Is not empty"
 msgstr ""
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
+#: Civi/DataProcessor/FilterHandler/ChecksumFilter.php
 #: Civi/DataProcessor/FilterHandler/DateFilter.php
+#: Civi/DataProcessor/FilterHandler/TotalContributionAmountInPeriod.php
 #: Civi/DataProcessor/Source/AbstractSource.php
 msgid "Is equal to"
 msgstr "に等しい"
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
+#: Civi/DataProcessor/FilterHandler/CompareFieldFilter.php
 #: Civi/DataProcessor/FilterHandler/DateFilter.php
+#: Civi/DataProcessor/FilterHandler/TotalContributionAmountInPeriod.php
 msgid "Is less than or equal to"
 msgstr "未満または、に等しく"
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
+#: Civi/DataProcessor/FilterHandler/CompareFieldFilter.php
 #: Civi/DataProcessor/FilterHandler/DateFilter.php
+#: Civi/DataProcessor/FilterHandler/TotalContributionAmountInPeriod.php
 msgid "Is greater than or equal to"
 msgstr "以上または、に等しく"
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
+#: Civi/DataProcessor/FilterHandler/CompareFieldFilter.php
 #: Civi/DataProcessor/FilterHandler/DateFilter.php
+#: Civi/DataProcessor/FilterHandler/LastEventDateFilter.php
+#: Civi/DataProcessor/FilterHandler/TotalContributionAmountInPeriod.php
 msgid "Is less than"
 msgstr "未満"
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
+#: Civi/DataProcessor/FilterHandler/CompareFieldFilter.php
 #: Civi/DataProcessor/FilterHandler/DateFilter.php
+#: Civi/DataProcessor/FilterHandler/TotalContributionAmountInPeriod.php
 msgid "Is greater than"
 msgstr "以上"
 
@@ -1407,11 +2248,14 @@ msgstr "に異なる"
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
 #: Civi/DataProcessor/FilterHandler/DateFilter.php
+#: Civi/DataProcessor/FilterHandler/LastEventDateFilter.php
+#: Civi/DataProcessor/FilterHandler/TotalContributionAmountInPeriod.php
 msgid "Is between"
 msgstr "の間"
 
 #: Civi/DataProcessor/FilterHandler/AbstractFilterHandler.php
 #: Civi/DataProcessor/FilterHandler/DateFilter.php
+#: Civi/DataProcessor/FilterHandler/LastEventDateFilter.php
 msgid "Is not between"
 msgstr "の間ではありません"
 
@@ -1432,21 +2276,6 @@ msgid "Does not contain"
 msgstr "含まれません"
 
 #: Civi/DataProcessor/FilterHandler/ActivityFilter.php
-#: Civi/DataProcessor/FilterHandler/CaseRoleFilter.php
-#: Civi/DataProcessor/FilterHandler/ContactFilter.php
-#: Civi/DataProcessor/FilterHandler/ContactHasMembershipFilter.php
-#: Civi/DataProcessor/FilterHandler/ContactInGroupFilter.php
-#: Civi/DataProcessor/FilterHandler/ContactTypeFilter.php
-#: Civi/DataProcessor/FilterHandler/ContactWithTagFilter.php
-#: Civi/DataProcessor/FilterHandler/DateFilter.php
-#: Civi/DataProcessor/FilterHandler/EventFilter.php
-#: Civi/DataProcessor/FilterHandler/InApiFilter.php
-#: Civi/DataProcessor/FilterHandler/PermissionToViewContactFilter.php
-#: Civi/DataProcessor/FilterHandler/SimpleSqlFilter.php
-msgid "Filter %1 requires a field to filter on. None given."
-msgstr ""
-
-#: Civi/DataProcessor/FilterHandler/ActivityFilter.php
 msgid "Limit to Contacts of activity types"
 msgstr ""
 
@@ -1458,6 +2287,14 @@ msgstr ""
 msgid "Select a Contact"
 msgstr ""
 
+#: Civi/DataProcessor/FilterHandler/AgeFilterHandler.php
+msgid "Date Field"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/CampaignFilter.php
+msgid "Campaign ID Field"
+msgstr ""
+
 #: Civi/DataProcessor/FilterHandler/CaseRoleFilter.php
 msgid "- Filter on all roles -"
 msgstr ""
@@ -1465,6 +2302,38 @@ msgstr ""
 #: Civi/DataProcessor/FilterHandler/CaseRoleFilter.php
 #: Civi/DataProcessor/FilterHandler/ContactFilter.php
 msgid "Select a contact"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/CaseRoleFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactFilter.php
+msgid "Is current user"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ChecksumFilter.php
+msgid "Hash Field"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/CompareFieldFilter.php
+msgid "Left Hand Field"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/CompareFieldFilter.php
+msgid "Right Hand Field"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/CompareFieldFilter.php
+#: templates/CRM/Dataprocessor/Form/FilterValue.tpl
+#: templates/CRM/Dataprocessor/Form/Output/UIOutput/CriteriaForm.tpl
+msgid "Operator"
+msgstr "演算子"
+
+#: Civi/DataProcessor/FilterHandler/CompareFieldFilter.php
+#: Civi/DataProcessor/FilterHandler/PermissionToViewContactFilter.php
+msgid "Is equal"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/CompareFieldFilter.php
+msgid "Is not equal"
 msgstr ""
 
 #: Civi/DataProcessor/FilterHandler/ContactFilter.php
@@ -1479,8 +2348,97 @@ msgstr ""
 msgid "- All contact types -"
 msgstr ""
 
-#: Civi/DataProcessor/FilterHandler/ContactFilter.php
-msgid "Is current user"
+#: Civi/DataProcessor/FilterHandler/ContactHasActiveRecurringContributions.php
+msgid "Has at least X active recurring contributions"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasActiveRecurringContributions.php
+msgid "Does not have more than X active recurring contributions"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasActivityInPeriodFilter.php
+msgid "Has activity in period"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasActivityInPeriodFilter.php
+msgid "Does not have an activity in period"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasActivityInPeriodFilter.php
+msgid "Activity Status"
+msgstr "アクティビティのステータス"
+
+#: Civi/DataProcessor/FilterHandler/ContactHasActivityInPeriodFilter.php
+msgid "Activity Types"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasActivityInPeriodFilter.php
+msgid "Activity Contact Record Type"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasActivityInPeriodFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionInPeriod.php
+#: Civi/DataProcessor/FilterHandler/TotalContributionAmountInPeriod.php
+msgid "Campaign IDs"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasActivityInPeriodFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionInPeriod.php
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionWithStatus.php
+#: Civi/DataProcessor/FilterHandler/TotalContributionAmountInPeriod.php
+msgid "- Any status -"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasActivityInPeriodFilter.php
+msgid "- Any type -"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasActivityInPeriodFilter.php
+msgid "- Any contact record -"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasActivityInPeriodFilter.php
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionInPeriod.php
+#: Civi/DataProcessor/FilterHandler/TotalContributionAmountInPeriod.php
+msgid "- Any campaign -"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionInPeriod.php
+msgid "Has contribution in period"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionInPeriod.php
+msgid "Does not have contribution in period"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionInPeriod.php
+#: Civi/DataProcessor/FilterHandler/TotalContributionAmountInPeriod.php
+msgid "Financial Types"
+msgstr "金融タイプ"
+
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionInPeriod.php
+#: Civi/DataProcessor/FilterHandler/TotalContributionAmountInPeriod.php
+msgid "- Any financial type -"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionWithStatus.php
+msgid "Has contribution with status"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasContributionWithStatus.php
+msgid "Does not have contribution with status"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasEventRegistrationOfType.php
+msgid "Is registered for event of type(s)"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasEventRegistrationOfType.php
+msgid "Is not registered for event of type(s)"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasEventRegistrationOfType.php
+msgid "- Any Event Type -"
 msgstr ""
 
 #: Civi/DataProcessor/FilterHandler/ContactHasMembershipFilter.php
@@ -1495,17 +2453,125 @@ msgstr ""
 msgid "Does not have an active membership of"
 msgstr ""
 
-#: Civi/DataProcessor/FilterHandler/ContactInGroupFilter.php
-msgid "Select a group"
+#: Civi/DataProcessor/FilterHandler/ContactHasNumberOfActivitiesInPeriodFilter.php
+msgid "Has number of activities in period"
 msgstr ""
 
-#: Civi/DataProcessor/FilterHandler/ContactTypeFilter.php
-msgid "Select a contact type"
+#: Civi/DataProcessor/FilterHandler/ContactHasNumberOfActivitiesInPeriodFilter.php
+msgid "Does not have this number of activities in period"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasNumberOfActivitiesInPeriodFilter.php
+msgid "Min number of activities"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasNumberOfActivitiesInPeriodFilter.php
+msgid "Max number of activities"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasRelationship.php
+msgid "Contact A - %1"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasRelationship.php
+msgid "Contact B - %1"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasRelationship.php
+msgid "Does have a relationship"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasRelationship.php
+msgid "Does not have a relationship"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactHasRelationship.php
+msgid "- Any relationship -"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/ContactInGroupFilter.php
+msgid "Select a group"
 msgstr ""
 
 #: Civi/DataProcessor/FilterHandler/ContactWithTagFilter.php
 msgid "Select a tag"
 msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+msgid "January"
+msgstr "1月"
+
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+msgid "February"
+msgstr "2月"
+
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+msgid "March"
+msgstr "3月"
+
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+msgid "April"
+msgstr "4月"
+
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+msgid "May"
+msgstr "5月"
+
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+msgid "June"
+msgstr "6月"
+
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+msgid "July"
+msgstr "7月"
+
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+msgid "August"
+msgstr "8月"
+
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+msgid "September"
+msgstr "9月"
+
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+msgid "October"
+msgstr "10月"
+
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+msgid "November"
+msgstr "11月"
+
+#: Civi/DataProcessor/FilterHandler/DateMonthFilter.php
+msgid "December"
+msgstr "12月"
+
+#: Civi/DataProcessor/FilterHandler/DateWeekDayFilter.php
+msgid "Monday"
+msgstr "月曜日"
+
+#: Civi/DataProcessor/FilterHandler/DateWeekDayFilter.php
+msgid "Tuesday"
+msgstr "火曜日"
+
+#: Civi/DataProcessor/FilterHandler/DateWeekDayFilter.php
+msgid "Wednesday"
+msgstr "水曜日"
+
+#: Civi/DataProcessor/FilterHandler/DateWeekDayFilter.php
+msgid "Thursday"
+msgstr "木曜日"
+
+#: Civi/DataProcessor/FilterHandler/DateWeekDayFilter.php
+msgid "Friday"
+msgstr "金曜日"
+
+#: Civi/DataProcessor/FilterHandler/DateWeekDayFilter.php
+msgid "Saturday"
+msgstr "土曜日"
+
+#: Civi/DataProcessor/FilterHandler/DateWeekDayFilter.php
+msgid "Sunday"
+msgstr "日曜日"
 
 #: Civi/DataProcessor/FilterHandler/EventFilter.php
 msgid "Event ID Field"
@@ -1513,15 +2579,6 @@ msgstr ""
 
 #: Civi/DataProcessor/FilterHandler/EventFilter.php
 msgid "Select an Event"
-msgstr ""
-
-#: Civi/DataProcessor/FilterHandler/InApiFilter.php
-#: Civi/DataProcessor/Output/Api.php
-msgid "API Entity"
-msgstr ""
-
-#: Civi/DataProcessor/FilterHandler/InApiFilter.php
-msgid "API Action"
 msgstr ""
 
 #: Civi/DataProcessor/FilterHandler/InApiFilter.php
@@ -1536,8 +2593,32 @@ msgstr ""
 msgid "API Params"
 msgstr ""
 
+#: Civi/DataProcessor/FilterHandler/LastEventDateFilter.php
+msgid "Event Types"
+msgstr "イベントタイプ"
+
+#: Civi/DataProcessor/FilterHandler/LastEventDateFilter.php
+msgid "- All Events -"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/LastEventDateFilter.php
+msgid "Is more than"
+msgstr ""
+
 #: Civi/DataProcessor/FilterHandler/MultipleFieldFilter.php
 msgid "Filter %1 requires at least one field to filter on. None given."
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/WorldRegionFilter.php
+msgid "World Regions:"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/WorldRegionFilter.php
+msgid "Address is inside"
+msgstr ""
+
+#: Civi/DataProcessor/FilterHandler/WorldRegionFilter.php
+msgid "Address is outside"
 msgstr ""
 
 #: Civi/DataProcessor/Output/AbstractApi.php
@@ -1556,6 +2637,22 @@ msgstr ""
 msgid "API GetCount Action Name"
 msgstr ""
 
+#: Civi/DataProcessor/Source/AbstractCivicrmEntitySource.php
+msgid "Aggregate function"
+msgstr ""
+
+#: Civi/DataProcessor/Source/AbstractCivicrmEntitySource.php
+msgid "No aggregation"
+msgstr ""
+
+#: Civi/DataProcessor/Source/AbstractCivicrmEntitySource.php
+msgid "Aggregate by"
+msgstr ""
+
+#: Civi/DataProcessor/Source/AbstractCivicrmEntitySource.php
+msgid "Select at least one field at aggregate by"
+msgstr ""
+
 #: Civi/DataProcessor/Source/AbstractSource.php
 msgid " - Select - "
 msgstr ""
@@ -1566,6 +2663,38 @@ msgstr ""
 
 #: Civi/DataProcessor/Source/Activity/ActivitySource.php
 msgid "Case :: "
+msgstr ""
+
+#: Civi/DataProcessor/Source/Activity/ActivitySource.php
+msgid "Last one by activity date"
+msgstr ""
+
+#: Civi/DataProcessor/Source/Activity/ActivitySource.php
+msgid "First one by activity date"
+msgstr ""
+
+#: Civi/DataProcessor/Source/Activity/ActivitySource.php
+msgid "Last one by created date"
+msgstr ""
+
+#: Civi/DataProcessor/Source/Activity/ActivitySource.php
+msgid "First one by created date"
+msgstr ""
+
+#: Civi/DataProcessor/Source/Activity/ActivitySource.php
+msgid "Last one by modified date"
+msgstr ""
+
+#: Civi/DataProcessor/Source/Activity/ActivitySource.php
+msgid "First one by modified date"
+msgstr ""
+
+#: Civi/DataProcessor/Source/Activity/ActivitySource.php
+msgid "Last one by activity id"
+msgstr ""
+
+#: Civi/DataProcessor/Source/Activity/ActivitySource.php
+msgid "First one by activity id"
 msgstr ""
 
 #: Civi/DataProcessor/Source/Activity/ActivitySource.php
@@ -1601,15 +2730,68 @@ msgid "Custom group: %1"
 msgstr ""
 
 #: Civi/DataProcessor/Source/Contact/MultipleCustomGroupSource.php
+#: Civi/DataProcessor/Source/Contribution/AggregatedContributionSource.php
 msgid "Contact ID"
 msgstr "連絡先ID"
 
-#: Civi/DataProcessor/Source/Contact/RelationshipSource.php
-msgid "Relationship type"
+#: Civi/DataProcessor/Source/Contribution/AggregatedContributionSource.php
+msgid "Sum Total Amount"
 msgstr ""
+
+#: Civi/DataProcessor/Source/Contribution/AggregatedContributionSource.php
+msgid "Last one by receive date"
+msgstr ""
+
+#: Civi/DataProcessor/Source/Contribution/AggregatedContributionSource.php
+msgid "First one by receive date"
+msgstr ""
+
+#: Civi/DataProcessor/Source/Contribution/AggregatedContributionSource.php
+msgid "Last one by contribution id"
+msgstr ""
+
+#: Civi/DataProcessor/Source/Contribution/AggregatedContributionSource.php
+msgid "First one by contribution id"
+msgstr ""
+
+#: Civi/DataProcessor/Source/Contribution/AggregatedContributionSource.php
+msgid "Contribution ID"
+msgstr "支援ID"
+
+#: Civi/DataProcessor/Source/Contribution/AggregatedContributionSource.php
+msgid "Total amount"
+msgstr "合計金額"
+
+#: Civi/DataProcessor/Source/Contribution/AggregatedContributionSource.php
+msgid "Receive Date"
+msgstr "受入日"
+
+#: Civi/DataProcessor/Source/Contribution/AggregatedContributionSource.php
+msgid "Contribution Id"
+msgstr "支援ID"
 
 #: Civi/DataProcessor/Source/Contribution/ContributionSource.php
 msgid "Soft :: "
+msgstr ""
+
+#: Civi/DataProcessor/Source/Event/ParticipantSource.php
+msgid "Participant Payment :: "
+msgstr ""
+
+#: Civi/DataProcessor/Source/Member/MembershipSource.php
+msgid "Last one by start date"
+msgstr ""
+
+#: Civi/DataProcessor/Source/Member/MembershipSource.php
+msgid "First one by start date"
+msgstr ""
+
+#: Civi/DataProcessor/Source/Member/MembershipSource.php
+msgid "Last one by membership id"
+msgstr ""
+
+#: Civi/DataProcessor/Source/Member/MembershipSource.php
+msgid "Fist one by membership id"
 msgstr ""
 
 #: Civi/DataProcessor/Source/Member/PrimaryMembershipSource.php
@@ -1632,12 +2814,16 @@ msgstr ""
 msgid "SQL Table Name"
 msgstr ""
 
+#: Civi/DataProcessor/Source/SQLTable.php
+msgid "Additional filter SQL"
+msgstr ""
+
 #: api/v3/DataProcessor.php
 msgid "Extension"
 msgstr ""
 
 #: api/v3/DataProcessorField.php api/v3/DataProcessorFilter.php
-#: api/v3/DataProcessorSource.php
+#: api/v3/DataProcessorFilterCollection.php api/v3/DataProcessorSource.php
 msgid "Data Processor Id"
 msgstr ""
 
@@ -1709,7 +2895,6 @@ msgid "Allows to group results by defining the aggregation field."
 msgstr ""
 
 #: crm-tutorials/civicrm-dataprocessor-form-edit-action-update-Overview_of_the_configuration_screen_of_DataProcessor.js
-#: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Filters.tpl
 msgid "Filters"
 msgstr "フィルタ"
 
@@ -1762,9 +2947,8 @@ msgid ""
 "configuration. You can import by clicking here. "
 msgstr ""
 
-#: dataprocessor.php templates/CRM/Dataprocessor/Form/DataProcessor.tpl
-#: templates/CRM/Dataprocessor/Form/ManageDataProcessors.tpl
-msgid "Data Processor"
+#: dataprocessor.php
+msgid "Dataprocessor: access definitions"
 msgstr ""
 
 #: dataprocessor.php
@@ -1781,6 +2965,18 @@ msgstr ""
 msgid "Filter"
 msgstr ""
 
+#: templates/CRM/Contact/Form/OutputConfiguration/DataProcessorContactSearch.tpl
+#: templates/CRM/DataprocessorSearch/Form/OutputConfiguration/ActivitySearch.tpl
+#: templates/CRM/DataprocessorSearch/Form/OutputConfiguration/CaseSearch.tpl
+#: templates/CRM/DataprocessorSearch/Form/OutputConfiguration/ContributionSearch.tpl
+#: templates/CRM/DataprocessorSearch/Form/OutputConfiguration/MembershipSearch.tpl
+#: templates/CRM/DataprocessorSearch/Form/OutputConfiguration/ParticipantSearch.tpl
+msgid ""
+"This will define the order in the navigation menu. A lower value means more at the top.  <br />\n"
+"            Up to CiviCRM 5.36 this seems to be broken in CiviCRM Core. See this <a href=\"%1\">bug report</a>\n"
+"          "
+msgstr ""
+
 #: templates/CRM/Contact/Form/OutputConfiguration/DataProcessorContactSummaryTab.tpl
 msgid ""
 "Use this to order the tab. The lower the weight to more to the left the tab "
@@ -1795,6 +2991,7 @@ msgstr ""
 #: templates/CRM/Dataprocessor/Form/DataProcessor.tpl
 #: templates/CRM/Dataprocessor/Form/Field.tpl
 #: templates/CRM/Dataprocessor/Form/Filter.tpl
+#: templates/CRM/Dataprocessor/Form/FilterCollection.tpl
 #: templates/CRM/Dataprocessor/Form/Source.tpl
 msgid "System name:"
 msgstr ""
@@ -1803,6 +3000,7 @@ msgstr ""
 #: templates/CRM/Dataprocessor/Form/DataProcessor.tpl
 #: templates/CRM/Dataprocessor/Form/Field.tpl
 #: templates/CRM/Dataprocessor/Form/Filter.tpl
+#: templates/CRM/Dataprocessor/Form/FilterCollection.tpl
 #: templates/CRM/Dataprocessor/Form/FilterValue.tpl
 #: templates/CRM/Dataprocessor/Form/Output/UIOutput/CriteriaForm.tpl
 #: templates/CRM/Dataprocessor/Form/Source.tpl
@@ -1831,6 +3029,7 @@ msgid "Default Sort"
 msgstr ""
 
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Fields.tpl
+#: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/FilterCollections.tpl
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Filters.tpl
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Outputs.tpl
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Sources.tpl
@@ -1845,6 +3044,7 @@ msgid "Edit"
 msgstr "編集"
 
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Fields.tpl
+#: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/FilterCollections.tpl
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Filters.tpl
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Outputs.tpl
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Sources.tpl
@@ -1855,17 +3055,25 @@ msgstr "削除"
 msgid "Add Field"
 msgstr ""
 
-#: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Filters.tpl
-msgid "Exposed"
+#: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/FilterCollections.tpl
+msgid "Filter Collections"
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/FilterCollections.tpl
+msgid "Link to previous filter collection"
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/FilterCollections.tpl
+msgid "Condition within this filter collection"
 msgstr ""
 
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Filters.tpl
-msgid "Yes"
-msgstr "はい"
+msgid "Default filter collection"
+msgstr ""
 
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Filters.tpl
-msgid "No"
-msgstr "いいえ"
+msgid "Exposed"
+msgstr ""
 
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Filters.tpl
 msgid "Type &amp; configuration"
@@ -1876,7 +3084,15 @@ msgid "Filter setting"
 msgstr ""
 
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Filters.tpl
+msgid "Filter collection: %1"
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Filters.tpl
 msgid "Add Filter"
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Filters.tpl
+msgid "Add Filter Collection"
 msgstr ""
 
 #: templates/CRM/Dataprocessor/Form/DataProcessorBlocks/Outputs.tpl
@@ -1896,18 +3112,84 @@ msgid "Add Data Source"
 msgstr ""
 
 #: templates/CRM/Dataprocessor/Form/Field/Configuration/AggregateFunctionFieldOutputHandler.tpl
+#: templates/CRM/Dataprocessor/Form/Field/Configuration/ArithmeticOperationsFieldOutputHandler.tpl
 #: templates/CRM/Dataprocessor/Form/Field/Configuration/CalculationFieldOutputHandler.tpl
 #: templates/CRM/Dataprocessor/Form/Field/Configuration/CalculationSubtractFieldOutputHandler.tpl
 #: templates/CRM/Dataprocessor/Form/Field/Configuration/NumberFieldOutputHandler.tpl
 msgid "Leave empty for no formatting"
 msgstr ""
 
+#: templates/CRM/Dataprocessor/Form/Field/Configuration/ArrayFieldOutputHandler.tpl
+msgid "If checked, return option labels.  If unchecked, return option values."
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Field/Configuration/ConditionallyMapStringsOutputHandler.tpl
+msgid ""
+"Compare the input field with up to 5 values. Replace the input value with "
+"the replacement of the first value that matches."
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Field/Configuration/ConditionallyMapStringsOutputHandler.tpl
+msgid ""
+"If no default value is provided, the original input is returned, if none of "
+"the comparison values matches."
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Field/Configuration/ContactHasRelationshipFieldOutputHandler.tpl
+msgid ""
+"With this output you can display a text when a contact has one or more "
+"active relationships of a given type."
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Field/Configuration/CustomLinkFieldOutputHandler.tpl
+msgid ""
+"Use %1 as placeholder, it will be replaced by the value of the link field"
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Field/Configuration/CustomLinkThreeFieldOutputHandler.tpl
+msgid ""
+"Use %1, %2 and %3 as placeholders in template and/or link text, they will be"
+" replaced by the value of the corresponding link field"
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Field/Configuration/CustomLinkTwoFieldOutputHandler.tpl
+msgid ""
+"Use %1 and %2 as placeholders in template and/or link text, they will be "
+"replaced by the value of the corresponding link field"
+msgstr ""
+
 #: templates/CRM/Dataprocessor/Form/Field/Configuration/DateFieldOutputHandler.tpl
 msgid "See <a href=\"%1\">DateTime format on php.net</a> for help."
 msgstr ""
 
+#: templates/CRM/Dataprocessor/Form/Field/Configuration/EventParticipantsCountFieldOutputHandler.tpl
+msgid ""
+"When you have selected show link to manage participant you also might need "
+"to install <a href=\"%1\">SNJ Fix for Participant Search Extension</a>"
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Field/Configuration/ImageFieldOutputHandler.tpl
+msgid "Alt image text to be used in HTML"
+msgstr ""
+
 #: templates/CRM/Dataprocessor/Form/Field/Configuration/ManageCaseLinkFieldOutputHandler.tpl
 msgid "Leave empty to use default."
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Field/Configuration/TextFromFieldsOutputHandler.tpl
+msgid ""
+"Use %1, %2 … %9 as placeholders in the text template, they will be replaced "
+"by the value of the corresponding data field. Add an exclamation mark to the"
+" placeholders (%!1 etc.) to make the corresponding data field mandatory: If "
+"all data fields used in the template are empty or if one mandatory data "
+"field is empty, the whole result will be empty. You can use braces for "
+"clarity: %&#x7B;1&#x7D; or %&#x7B;!1&#x7D;."
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Field/Configuration/TextFromFieldsOutputHandler.tpl
+msgid ""
+"Fallback template, to be used if the first template produces an empty "
+"string. Same placeholder logic as before."
 msgstr ""
 
 #: templates/CRM/Dataprocessor/Form/Field.tpl
@@ -1919,6 +3201,43 @@ msgstr ""
 msgid "Are you sure to delete field '%1'?"
 msgstr ""
 
+#: templates/CRM/Dataprocessor/Form/Filter/CompareFieldFilter.tpl
+msgid "Compare Expression"
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Filter/ContactHasActivityInPeriodFilter.tpl
+#: templates/CRM/Dataprocessor/Form/Filter/ContactHasContributionInPeriodFilter.tpl
+#: templates/CRM/Dataprocessor/Form/Filter/ContactHasNumberOfActivitiesInPeriodFilter.tpl
+#: templates/CRM/Dataprocessor/Form/Filter/TotalContributionAmountInPeriodFilter.tpl
+msgid "With status: "
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Filter/ContactHasActivityInPeriodFilter.tpl
+#: templates/CRM/Dataprocessor/Form/Filter/ContactHasNumberOfActivitiesInPeriodFilter.tpl
+msgid "With activity type: "
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Filter/ContactHasActivityInPeriodFilter.tpl
+#: templates/CRM/Dataprocessor/Form/Filter/ContactHasNumberOfActivitiesInPeriodFilter.tpl
+msgid "With contact record type: "
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Filter/ContactHasActivityInPeriodFilter.tpl
+#: templates/CRM/Dataprocessor/Form/Filter/ContactHasContributionInPeriodFilter.tpl
+#: templates/CRM/Dataprocessor/Form/Filter/ContactHasNumberOfActivitiesInPeriodFilter.tpl
+#: templates/CRM/Dataprocessor/Form/Filter/TotalContributionAmountInPeriodFilter.tpl
+msgid "With campaign: "
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Filter/ContactHasContributionInPeriodFilter.tpl
+#: templates/CRM/Dataprocessor/Form/Filter/TotalContributionAmountInPeriodFilter.tpl
+msgid "With financial type: "
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Filter/ContactHasNumberOfActivitiesInPeriodFilter.tpl
+msgid "Number of activities: "
+msgstr ""
+
 #: templates/CRM/Dataprocessor/Form/Filter/DateFilter.tpl
 msgid ""
 "Enter a date according to PHP Date Function. <br />\n"
@@ -1926,23 +3245,28 @@ msgid ""
 "                See <a href=\"%1\"php.net</a> for more information."
 msgstr ""
 
+#: templates/CRM/Dataprocessor/Form/Filter/LastEventDateFilter.tpl
+msgid ""
+"Enter a date according to PHP Date Function. <br />\n"
+"              E.g. '2020-12-31' or '2 years ago'. <br />\n"
+"              See <a href=\"%1\"php.net</a> for more information."
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Filter/TotalContributionAmountInPeriodFilter.tpl
+msgid "In period"
+msgstr ""
+
 #: templates/CRM/Dataprocessor/Form/Filter.tpl
 msgid "Are you sure to delete filter '%1'?"
 msgstr ""
 
-#: templates/CRM/Dataprocessor/Form/FilterValue.tpl
-msgid "Default Filter Value"
+#: templates/CRM/Dataprocessor/Form/FilterCollection.tpl
+msgid "Delete Filter Collection"
 msgstr ""
 
-#: templates/CRM/Dataprocessor/Form/FilterValue.tpl
-#: templates/CRM/Dataprocessor/Form/Output/UIOutput/CriteriaForm.tpl
-msgid "Operator"
-msgstr "演算子"
-
-#: templates/CRM/Dataprocessor/Form/FilterValue.tpl
-#: templates/CRM/Dataprocessor/Form/Output/UIOutput/CriteriaForm.tpl
-msgid "Value"
-msgstr "値"
+#: templates/CRM/Dataprocessor/Form/FilterCollection.tpl
+msgid "Are you sure to delete filter collection '%1'?"
+msgstr ""
 
 #: templates/CRM/Dataprocessor/Form/Import.tpl
 #: templates/CRM/Dataprocessor/Form/ManageDataProcessors.tpl
@@ -1956,10 +3280,6 @@ msgstr ""
 #: templates/CRM/Dataprocessor/Form/ManageDataProcessors.tpl
 msgid "Add dataprocessor"
 msgstr ""
-
-#: templates/CRM/Dataprocessor/Form/ManageDataProcessors.tpl
-msgid "Status"
-msgstr "ステータス"
 
 #: templates/CRM/Dataprocessor/Form/ManageDataProcessors.tpl
 msgid "Outputs"
@@ -2005,10 +3325,6 @@ msgstr "クローン"
 msgid "Export Data Processor"
 msgstr ""
 
-#: templates/CRM/Dataprocessor/Form/ManageDataProcessors.tpl
-msgid "Export"
-msgstr "エクスポート"
-
 #: templates/CRM/Dataprocessor/Form/MultipleDataFlows/SimpleJoin.tpl
 msgid "Join on field"
 msgstr ""
@@ -2025,8 +3341,20 @@ msgstr ""
 msgid "Edit Search Criteria"
 msgstr "検索条件を編集"
 
+#: templates/CRM/Dataprocessor/Form/Output/UIOutput/CriteriaForm.tpl
+msgid "Limit results to a maximum number of records."
+msgstr ""
+
 #: templates/CRM/Dataprocessor/Form/Output.tpl
 msgid "Are you sure to delete data processor output?"
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Source/CiviCRMEntitySourceConfiguration.tpl
+msgid "Aggregation"
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Source/CiviCRMEntitySourceConfiguration.tpl
+msgid "Usually you want to aggregate by something like contact id."
 msgstr ""
 
 #: templates/CRM/Dataprocessor/Form/Source/Configuration.tpl
@@ -2036,11 +3364,6 @@ msgstr ""
 #: templates/CRM/Dataprocessor/Form/Source/Configuration.tpl
 msgid "Additional filter criteria"
 msgstr ""
-
-#: templates/CRM/Dataprocessor/Form/Source/Csv.tpl
-#: templates/CRM/Dataprocessor/Form/Source/Sqltable.tpl
-msgid "Configuration"
-msgstr "設定"
 
 #: templates/CRM/Dataprocessor/Form/Source/Csv.tpl
 msgid ""
@@ -2062,6 +3385,12 @@ msgid ""
 "            "
 msgstr ""
 
+#: templates/CRM/Dataprocessor/Form/Source/Sqltable.tpl
+msgid ""
+"Add an additional condition for in the where statement. For example: "
+"`is_deleted` = 0 AND `is_deceased` = 0"
+msgstr ""
+
 #: templates/CRM/Dataprocessor/Form/Source.tpl
 msgid "Delete Data Source"
 msgstr ""
@@ -2070,12 +3399,11 @@ msgstr ""
 msgid "Are you sure to delete data processor source '%1'?"
 msgstr ""
 
-#: templates/CRM/DataprocessorOutputExport/Form/Configuration/CSV.tpl
+#: templates/CRM/DataprocessorOutputExport/Form/Configuration/GenericOutputExport.tpl
+#: templates/CRM/DataprocessorOutputExport/Form/Configuration/PDF.tpl
 msgid ""
-"Tick this box when you want to make the CSV available for non-logged in users. <br>\n"
-"        This could be necessary when another system is importing this csv file on a regular basis. E.g. a website with\n"
-"        a public agenda of the upcoming events.\n"
-"        <br><strong>Caution:</strong> when you check this box the data becomes available without logging so this might lead to a data breach."
+"Tick this box when you want to make the PDF available for non-logged in users. <br>\n"
+"        <strong>Caution:</strong> when you check this box the data becomes available without logging so this might lead to a data breach."
 msgstr ""
 
 #: templates/CRM/DataprocessorOutputExport/Form/Configuration/PDF.tpl
@@ -2088,12 +3416,30 @@ msgstr ""
 msgid "E.g. 2 cm"
 msgstr ""
 
-#: templates/CRM/DataprocessorOutputExport/Form/Configuration/PDF.tpl
+#: templates/CRM/DataprocessorOutputExport/Form/Configuration/Spreadsheet.tpl
 msgid ""
-"Tick this box when you want to make the PDF available for non-logged in users. <br>\n"
-"        <strong>Caution:</strong> when you check this box the data becomes available without logging so this might lead to a data breach."
+"Tick this box when you want to make the file available for non-logged in users. <br>\n"
+"        This could be necessary when another system is importing this file on a regular basis. E.g. a website with\n"
+"        a public agenda of the upcoming events.\n"
+"        <br><strong>Caution:</strong> when you check this box the data becomes available without logging so this might lead to a data breach."
 msgstr ""
 
 #: templates/CRM/DataprocessorSearch/Form/Criteria/AggregateCriteria.tpl
 msgid "Aggregate"
 msgstr "集計"
+
+#: templates/CRM/DataprocessorSearch/Form/Criteria/HiddenFieldsCriteria.tpl
+msgid "Hide Field(s)"
+msgstr ""
+
+#: templates/CRM/DataprocessorSearch/Form/OutputConfiguration/Search.tpl
+msgid ""
+"This will define the order in the navigation menu. A lower value means more at the top.  <br />\n"
+"           Up to CiviCRM 5.36 this seems to be broken in CiviCRM Core. See this <a href=\"%1\">bug report</a>\n"
+"          "
+msgstr ""
+
+#: templates/CRM/DataprocessorSearch/Form/Search.tpl
+msgid "%count Result"
+msgid_plural "%count Results"
+msgstr[0] ""
