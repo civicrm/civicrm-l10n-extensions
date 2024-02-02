@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: dataprocessor\n"
-"POT-Creation-Date: 2024-01-19 05:02+0000\n"
+"POT-Creation-Date: 2024-02-02 05:02+0000\n"
 "Last-Translator: HanV <han.velthuis@kpnmail.nl>, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -1571,6 +1571,10 @@ msgid "Compare the input with up to 5 strings and map the output accordingly."
 msgstr ""
 
 #: Civi/DataProcessor/Factory.php
+msgid "Count the number of cases related to the given CiviCRM ID."
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
 msgid "CSV"
 msgstr "CSV"
 
@@ -1713,6 +1717,34 @@ msgstr ""
 #: Civi/DataProcessor/FieldOutputHandler/ConditionallyMapStrings.php
 #: Civi/DataProcessor/FieldOutputHandler/SanitizeString.php
 msgid "Input field"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/ContactCountNumberOfCases.php
+msgid "Case type"
+msgstr "Dossiertype"
+
+#: Civi/DataProcessor/FieldOutputHandler/ContactCountNumberOfCases.php
+msgid "- Show all case types -"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/ContactCountNumberOfCases.php
+msgid "Case status"
+msgstr "Dossierstatus"
+
+#: Civi/DataProcessor/FieldOutputHandler/ContactCountNumberOfCases.php
+msgid "- Show all case statuses -"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/ContactCountNumberOfCases.php
+msgid "Case subject"
+msgstr "Dossier onderwerp"
+
+#: Civi/DataProcessor/FieldOutputHandler/ContactCountNumberOfCases.php
+msgid "Include deleted cases"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/ContactCountNumberOfCases.php
+msgid "CiviCRM ID"
 msgstr ""
 
 #: Civi/DataProcessor/FieldOutputHandler/ContactHasRelationshipFieldOutputHandler.php
@@ -3168,6 +3200,19 @@ msgstr ""
 msgid ""
 "If no default value is provided, the original input is returned, if none of "
 "the comparison values matches."
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Field/Configuration/ContactCountNumberOfCases.tpl
+msgid ""
+"Count the number of cases, where the given CiviCRM has the client role and "
+"the cases fulfill the following criteria:"
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Field/Configuration/ContactCountNumberOfCases.tpl
+msgid ""
+"Next you can define up to three additional criteria, where 'field' "
+"corresponds to a field of an APIv4 call to CaseContact and 'value to match' "
+"to the value it should correspond to."
 msgstr ""
 
 #: templates/CRM/Dataprocessor/Form/Field/Configuration/ContactHasRelationshipFieldOutputHandler.tpl
