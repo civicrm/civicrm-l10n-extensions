@@ -9,12 +9,13 @@
 # Maria <maria.vogel@civiservice.de>, 2024
 # Mathieu Lu <mathieu@bidon.ca>, 2024
 # Andreas Howiller <andreas.howiller@civiservice.de>, 2024
+# Pascal Kemper, 2024
 # Torben Bertram, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: advanced_events\n"
-"POT-Creation-Date: 2024-02-08 05:01+0000\n"
+"POT-Creation-Date: 2024-02-08 23:05+0000\n"
 "Last-Translator: Torben Bertram, 2024\n"
 "Language-Team: German (https://app.transifex.com/civicrm/teams/1905/de/)\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +26,7 @@ msgstr ""
 
 #: CRM/AdvancedEvents/AdditionalParticipant.php advanced_events.mgd.php
 msgid "Participant Visibility"
-msgstr ""
+msgstr "Teilnehmer/in-Sichtbarkeit"
 
 #: CRM/AdvancedEvents/AdditionalParticipant.php advanced_events.mgd.php
 msgid "Always"
@@ -33,20 +34,20 @@ msgstr "Immer"
 
 #: CRM/AdvancedEvents/AdditionalParticipant.php advanced_events.mgd.php
 msgid "Main Participant Only"
-msgstr ""
+msgstr "Nur Hauptteilnehmene"
 
 #: CRM/AdvancedEvents/AdditionalParticipant.php advanced_events.mgd.php
 msgid "Additional Participant Only"
-msgstr ""
+msgstr "Nur zusätzliche Teilnehmende"
 
 #: CRM/AdvancedEvents/DAO/EventTemplate.php
 #: managed/savedsearch_eventtemplates.mgd.php
 msgid "Event Templates"
-msgstr ""
+msgstr "Veranstaltungsvorlagen"
 
 #: CRM/AdvancedEvents/DAO/EventTemplate.php
 msgid "Event Template"
-msgstr ""
+msgstr "Veranstaltungsvorlage"
 
 #: CRM/AdvancedEvents/DAO/EventTemplate.php
 msgid "ID"
@@ -54,7 +55,7 @@ msgstr "ID"
 
 #: CRM/AdvancedEvents/DAO/EventTemplate.php
 msgid "Unique EventTemplate ID"
-msgstr ""
+msgstr "Eindeutige Veranstaltungsvorlage ID"
 
 #: CRM/AdvancedEvents/DAO/EventTemplate.php
 msgid "Event ID"
@@ -62,15 +63,15 @@ msgstr "Event ID"
 
 #: CRM/AdvancedEvents/DAO/EventTemplate.php
 msgid "FK to Event"
-msgstr ""
+msgstr "FK zu Event"
 
 #: CRM/AdvancedEvents/DAO/EventTemplate.php
 msgid "Template ID"
-msgstr ""
+msgstr "Vorlage ID"
 
 #: CRM/AdvancedEvents/DAO/EventTemplate.php
 msgid "Event Template Title"
-msgstr ""
+msgstr "Veranstaltungsvorlage Titel"
 
 #: CRM/AdvancedEvents/Form/ManageEvent/Repeat.php
 #: CRM/AdvancedEvents/Form/Task/CopyParticipants.php
@@ -80,11 +81,11 @@ msgstr "Sie haben nicht die Berechtigung, um auf diese Seite zuzugreifen."
 
 #: CRM/AdvancedEvents/Form/ManageEvent/Repeat.php
 msgid "Could not find Event ID"
-msgstr ""
+msgstr "Konnte keine Veranstaltungs-ID finden"
 
 #: CRM/AdvancedEvents/Form/RecurringEntity.php
 msgid "Repeats every"
-msgstr ""
+msgstr "Wiederholt sich alle"
 
 #: CRM/AdvancedEvents/Form/RecurringEntity.php
 #: managed/savedsearch_eventtemplates.mgd.php
@@ -95,15 +96,15 @@ msgstr "Startdatum"
 #: CRM/AdvancedEvents/Form/RecurringEntity.php
 #: templates/CRM/AdvancedEvents/Form/ManageEvent/RecurringEntity.hlp
 msgid "Repeats on"
-msgstr ""
+msgstr "Wiederholt sich"
 
 #: CRM/AdvancedEvents/Form/RecurringEntity.php
 msgid "day of the month"
-msgstr ""
+msgstr "Tag im Monat"
 
 #: CRM/AdvancedEvents/Form/RecurringEntity.php
 msgid "day of the week"
-msgstr ""
+msgstr "Tag der Woche"
 
 #: CRM/AdvancedEvents/Form/RecurringEntity.php
 msgid "First"
@@ -111,7 +112,7 @@ msgstr "Erste"
 
 #: CRM/AdvancedEvents/Form/RecurringEntity.php
 msgid "Second"
-msgstr "Sekunde"
+msgstr "Zweite"
 
 #: CRM/AdvancedEvents/Form/RecurringEntity.php
 msgid "Third"
@@ -141,7 +142,7 @@ msgstr "endet"
 
 #: CRM/AdvancedEvents/Form/RecurringEntity.php
 msgid "Exclude Dates"
-msgstr ""
+msgstr "Daten ausschliessen"
 
 #: CRM/AdvancedEvents/Form/RecurringEntity.php
 msgid "Create"
@@ -149,7 +150,7 @@ msgstr "Erstellen"
 
 #: CRM/AdvancedEvents/Form/RecurringEntity.php
 msgid "This is a required field"
-msgstr ""
+msgstr "Das ist ein Pflichtfeld"
 
 #: CRM/AdvancedEvents/Form/RecurringEntity.php
 msgid "Occurrences should be less than or equal to 30"
@@ -161,19 +162,19 @@ msgstr ""
 
 #: CRM/AdvancedEvents/Form/RecurringEntity.php
 msgid "Invalid day of the month"
-msgstr ""
+msgstr "Ungültiger Tag im Monat"
 
 #: CRM/AdvancedEvents/Form/RecurringEntity.php
 msgid "Invalid option"
-msgstr ""
+msgstr "Ungültige Option"
 
 #: CRM/AdvancedEvents/Form/RecurringEntity.php
 msgid "Invalid day name"
-msgstr ""
+msgstr "Ungültiger Tagesname"
 
 #: CRM/AdvancedEvents/Form/RecurringEntity.php
 msgid "Repeat Configuration has been saved"
-msgstr ""
+msgstr "Wiederholungseinstellungen wurden gespeichert"
 
 #: CRM/AdvancedEvents/Form/RecurringEntity.php
 msgid "Saved"
@@ -182,27 +183,30 @@ msgstr "Gespeichert"
 #: CRM/AdvancedEvents/Form/RecurringEntity.php
 #: CRM/AdvancedEvents/Form/RecurringEntityPreview.php
 msgid "Repeat Event"
-msgstr ""
+msgstr "Veranstaltung wiederholen"
 
 #: CRM/AdvancedEvents/Form/Task/CopyParticipants.php
 msgid "Source Event to copy participants from: "
 msgstr ""
+"Ursprüngliche Veranstaltung, aus der Teilnehmende übernommen werden sollen:"
 
 #: CRM/AdvancedEvents/Form/Task/CopyParticipants.php
 msgid "Copy Participants"
-msgstr ""
+msgstr "Teilnehmende kopieren"
 
 #: CRM/AdvancedEvents/Form/Task/CopyParticipants.php
 msgid "No source event found to copy participants from"
 msgstr ""
+"Keine ursprüngliche Veranstaltung gefunden, um Teilnehmende zu kopieren"
 
 #: CRM/AdvancedEvents/Form/Task/CopyParticipants.php
 msgid "The source event has no participants"
-msgstr ""
+msgstr "Die ursprüngliche Veranstaltung hat keine Teilnehmende"
 
 #: CRM/AdvancedEvents/Form/Task/CopyParticipants.php
 msgid "%1 participants added (or already existed) to %2 events."
 msgstr ""
+"%1 Teilnehmende zu %2 Veranstaltungen hinzugefügt (oder existierten schon)."
 
 #: CRM/AdvancedEvents/Form/Task/CopyParticipants.php
 msgid "Added"
@@ -210,7 +214,7 @@ msgstr "Hinzugefügt"
 
 #: CRM/AdvancedEvents/Form/Task.php
 msgid "No Contacts Selected"
-msgstr ""
+msgstr "Keine Kontakte ausgewählt"
 
 #: CRM/AdvancedEvents/Form/Task.php
 msgid "Cancel"
@@ -219,80 +223,83 @@ msgstr "Abbrechen"
 #: CRM/AdvancedEvents/Page/CopyEventTemplate.php
 msgid "You do not have edit permissions for event templates."
 msgstr ""
+"Sie haben keine Berechtigungen, um Veranstaltungsvorlagen zu bearbeiten."
 
 #: CRM/AdvancedEvents/Task.php advanced_events.php
 msgid "Copy participants"
-msgstr ""
+msgstr "Kopiere Teilnehmende"
 
 #: advanced_events.mgd.php
 msgid "Advanced Event Settings"
-msgstr ""
+msgstr "Advanced Event Einstellungen"
 
 #: advanced_events.mgd.php
 msgid "Hide \"Skip Participant\" button"
-msgstr ""
+msgstr "Button \"Teilnehmer überspringen\" ausblenden"
 
 #: advanced_events.mgd.php
 msgid "PriceFieldValue"
-msgstr ""
+msgstr "Preisfeldwert"
 
 #: advanced_events.mgd.php
 msgid "PriceField"
-msgstr ""
+msgstr "Preisfeld"
 
 #: advanced_events.mgd.php
 msgid "Event options"
-msgstr ""
+msgstr "Veranstaltungsoptionen"
 
 #: advanced_events.mgd.php
 msgid ""
 "These fields will only be used if the price set is being used on an event "
 "page"
 msgstr ""
+"Diese Felder werden nur benutzt, wenn ein Preisschemata auf der "
+"Veranstaltungsseite benutzt wird"
 
 #: advanced_events.mgd.php
 msgid "Event options :: Participant Visibility"
-msgstr ""
+msgstr "Veranstaltungsoptionen :: Sichtbarkeit Teilnehmende"
 
 #: advanced_events.php
 msgid "Advanced Events Configuration"
-msgstr ""
+msgstr "Advanced Events Einstellung"
 
 #: advanced_events.php
 msgid "You do not have permission to create events."
-msgstr ""
+msgstr "Sie haben keine Berechtigungen, um Veranstaltungen zu erstellen."
 
 #: advanced_events.php
 msgid "CiviEvent: Create Event"
-msgstr ""
+msgstr "CiviEvent: Veranstaltung erstellen"
 
 #: advanced_events.php
 msgid "CiviEvent: View own event templates"
-msgstr ""
+msgstr "CiviEvent: Betrachte eigene Veranstaltungsvorlagen"
 
 #: advanced_events.php
 msgid "CiviEvent: View all event templates"
-msgstr ""
+msgstr "CiviEvent: Betrachte alle Veranstaltungsvorlagen"
 
 #: advanced_events.php
 msgid "CiviEvent: Edit own event templates"
-msgstr ""
+msgstr "CiviEvent: Bearbeite eigene Veranstaltungsvorlagen"
 
 #: advanced_events.php
 msgid "CiviEvent: Edit all event templates"
-msgstr ""
+msgstr "CiviEvent: Bearbeite alle Veranstaltungsvorlagen"
 
 #: advanced_events.php
 msgid "CiviEvent: Delete own event templates"
-msgstr ""
+msgstr "CiviEvent: Lösche eigene Veranstaltungsvorlagen"
 
 #: advanced_events.php
 msgid "CiviEvent: Delete all event templates"
-msgstr ""
+msgstr "CiviEvent: Lösche alle Veranstaltungsvorlagen"
 
 #: managed/savedsearch_eventtemplates.mgd.php
 msgid "Event Templates Table 1"
-msgstr ""
+msgstr "Veranstaltungsvorlage Tabelle 1"
 
 #: managed/savedsearch_eventtemplates.mgd.php
 #: managed/savedsearch_linkedevents.mgd.php
@@ -311,7 +318,7 @@ msgstr "Erstellt von"
 
 #: managed/savedsearch_eventtemplates.mgd.php
 msgid "View Created By"
-msgstr ""
+msgstr "Anzeige erstellt von"
 
 #: managed/savedsearch_eventtemplates.mgd.php
 msgid "Financial Type"
@@ -329,16 +336,16 @@ msgstr "Enddatum"
 #: managed/savedsearch_eventtemplates.mgd.php
 #: managed/savedsearch_linkedevents.mgd.php
 msgid "Public"
-msgstr ""
+msgstr "Öffentlich"
 
 #: managed/savedsearch_eventtemplates.mgd.php
 msgid "Paid Event"
-msgstr ""
+msgstr "Kostenpflichtige Veranstaltung"
 
 #: managed/savedsearch_eventtemplates.mgd.php
 #: managed/savedsearch_linkedevents.mgd.php
 msgid "Online Registration"
-msgstr ""
+msgstr "Online-Anmeldung"
 
 #: managed/savedsearch_eventtemplates.mgd.php
 msgid "Events"
@@ -346,7 +353,7 @@ msgstr "Veranstaltungen"
 
 #: managed/savedsearch_eventtemplates.mgd.php
 msgid "Create Event"
-msgstr ""
+msgstr "Veranstaltung erstellen"
 
 #: managed/savedsearch_eventtemplates.mgd.php
 msgid "Edit"
@@ -370,19 +377,19 @@ msgstr "Kopieren"
 
 #: managed/savedsearch_eventtemplates.mgd.php
 msgid "Add New Template"
-msgstr ""
+msgstr "Neue Vorlage erstellen"
 
 #: managed/savedsearch_linkedevents.mgd.php
 msgid "AdvancedEvents Linked Events"
-msgstr ""
+msgstr "AdvancedEvents Verbundene Veranstaltungen"
 
 #: managed/savedsearch_linkedevents.mgd.php
 msgid "Linked Events"
-msgstr ""
+msgstr "Verknüpfte Veranstaltungen"
 
 #: managed/savedsearch_linkedevents.mgd.php
 msgid "View Event"
-msgstr ""
+msgstr "Veranstaltung ansehen"
 
 #: managed/savedsearch_linkedevents.mgd.php
 msgid "Description"
@@ -396,15 +403,15 @@ msgstr "Teilnehmende"
 #: managed/savedsearch_linkedevents.mgd.php
 #: templates/CRM/Event/Page/ManageEvent.tpl
 msgid "Add Event"
-msgstr ""
+msgstr "Veranstaltung hinzufügen"
 
 #: mixin/setting-admin@1.0.1.mixin.php
 msgid "%1 Settings"
-msgstr ""
+msgstr "%1 Einstellungen"
 
 #: mixin/setting-admin@1.0.1.mixin.php
 msgid "%1: Administer settings"
-msgstr ""
+msgstr "%1: Einstellungen verwalten"
 
 #: settings/advanced_events.setting.php
 msgid "Manage Events Tabs: Enable Location"
@@ -436,7 +443,7 @@ msgstr ""
 
 #: templates/CRM/AdvancedEvents/Form/ManageEvent/RecurringEntity.hlp
 msgid "Repeats"
-msgstr ""
+msgstr "Wiederholungen"
 
 #: templates/CRM/AdvancedEvents/Form/ManageEvent/RecurringEntity.hlp
 msgid ""
@@ -463,7 +470,7 @@ msgstr ""
 
 #: templates/CRM/AdvancedEvents/Form/ManageEvent/RecurringEntity.hlp
 msgid "Repeats by day of the month"
-msgstr ""
+msgstr "Wiederholungen nach Tag im Monat"
 
 #: templates/CRM/AdvancedEvents/Form/ManageEvent/RecurringEntity.hlp
 msgid "Options given here are days of a month from 1 - 31"
@@ -476,7 +483,7 @@ msgstr ""
 
 #: templates/CRM/AdvancedEvents/Form/ManageEvent/RecurringEntity.hlp
 msgid "Repeats by day of the week"
-msgstr ""
+msgstr "Wiederholung nach Wochentag"
 
 #: templates/CRM/AdvancedEvents/Form/ManageEvent/RecurringEntity.hlp
 msgid ""
@@ -501,7 +508,7 @@ msgstr ""
 
 #: templates/CRM/AdvancedEvents/Form/ManageEvent/RecurringEntity.hlp
 msgid "Exclude Date(s)"
-msgstr ""
+msgstr "Datum ausschließen"
 
 #: templates/CRM/AdvancedEvents/Form/ManageEvent/RecurringEntity.hlp
 msgid ""
@@ -511,7 +518,7 @@ msgstr ""
 
 #: templates/CRM/AdvancedEvents/Form/ManageEvent/RecurringEntity.tpl
 msgid "Repeat %1"
-msgstr ""
+msgstr "Wiederhole %1"
 
 #: templates/CRM/AdvancedEvents/Form/ManageEvent/RecurringEntity.tpl
 msgid "occurrences"
@@ -519,11 +526,11 @@ msgstr ""
 
 #: templates/CRM/AdvancedEvents/Form/ManageEvent/RecurringEntity.tpl
 msgid "Already selected"
-msgstr ""
+msgstr "Bereits ausgewählt"
 
 #: templates/CRM/AdvancedEvents/Form/ManageEvent/Repeat.tpl
 msgid "Create events from this template"
-msgstr ""
+msgstr "Erstelle Veranstaltungen nach dieser Vorlage"
 
 #: templates/CRM/AdvancedEvents/Form/RecurringEntityPreview.tpl
 msgid "A new set of Events will be created with the following dates:"
@@ -563,11 +570,11 @@ msgstr ""
 
 #: templates/CRM/AdvancedEvents/Form/Task/CopyParticipants.tpl
 msgid "Duplicates will not be created."
-msgstr ""
+msgstr "Duplikate werden nicht erstellt."
 
 #: templates/CRM/AdvancedEvents/Form/Task/CopyParticipants.tpl
 msgid "Number of selected events: %1"
-msgstr ""
+msgstr "Anzahl gewählter Veranstaltungen: %1"
 
 #: templates/CRM/AdvancedEvents/Page/RecurringEntityPreview.tpl
 msgid "A repeating set will be created with the following dates."
@@ -597,32 +604,32 @@ msgstr ""
 
 #: templates/CRM/Event/Form/ManageEvent/Tab.tpl
 msgid "Event Links"
-msgstr ""
+msgstr "Veranstaltungslinks"
 
 #: templates/CRM/Event/Form/ManageEvent/Tab.tpl
 msgid "Register Participant"
-msgstr ""
+msgstr "Teilnehmer/in anmelden"
 
 #: templates/CRM/Event/Form/ManageEvent/Tab.tpl
 msgid "Event Info"
-msgstr ""
+msgstr "Veranstaltungsinfo"
 
 #: templates/CRM/Event/Form/ManageEvent/Tab.tpl
 msgid "Online Registration (Test-drive)"
-msgstr ""
+msgstr "Online Anmeldung (Test-Drive)"
 
 #: templates/CRM/Event/Form/ManageEvent/Tab.tpl
 msgid "Online Registration (Live)"
-msgstr ""
+msgstr "Online Anmeldung (Live)"
 
 #: templates/CRM/Event/Form/ManageEvent/Tab.tpl
 msgid "Find Participants"
-msgstr ""
+msgstr "Teilnehmende finden"
 
 #: templates/CRM/Event/Form/ManageEvent/Tab.tpl
 #: templates/CRM/Event/Page/ManageEvent.tpl
 msgid "Public Participant Listing"
-msgstr ""
+msgstr "Öffentliche Teilnehmendenliste"
 
 #: templates/CRM/Event/Page/ManageEvent.tpl
 msgid "Event"
@@ -646,7 +653,7 @@ msgstr "Öffentlich?"
 
 #: templates/CRM/Event/Page/ManageEvent.tpl
 msgid "Starts"
-msgstr ""
+msgstr "Beginnt"
 
 #: templates/CRM/Event/Page/ManageEvent.tpl
 msgid "Campaign"
@@ -658,11 +665,11 @@ msgstr "Aktiv?"
 
 #: templates/CRM/Event/Page/ManageEvent.tpl
 msgid "View event info page"
-msgstr ""
+msgstr "Zeige Seite mit Veranstaltungsinfo"
 
 #: templates/CRM/Event/Page/ManageEvent.tpl
 msgid "ID:"
-msgstr ""
+msgstr "ID:"
 
 #: templates/CRM/Event/Page/ManageEvent.tpl
 msgid "Configure"
@@ -670,11 +677,11 @@ msgstr "Konfigurieren"
 
 #: templates/CRM/Event/Page/ManageEvent.tpl
 msgid "Counted Participants"
-msgstr ""
+msgstr "Gezählte Teilnehmende"
 
 #: templates/CRM/Event/Page/ManageEvent.tpl
 msgid "Participants Not Counted"
-msgstr ""
+msgstr "Teilnehmende nicht gezählt"
 
 #: templates/CRM/Event/Page/ManageEvent.tpl
 msgid "No available Events match your search criteria. Suggestions:"
@@ -682,7 +689,7 @@ msgstr ""
 
 #: templates/CRM/Event/Page/ManageEvent.tpl
 msgid "Check your spelling."
-msgstr ""
+msgstr "Schreibweise überprüfen."
 
 #: templates/CRM/Event/Page/ManageEvent.tpl
 msgid "Try \"Search All or by Date Range\"."
@@ -690,7 +697,7 @@ msgstr ""
 
 #: templates/CRM/Event/Page/ManageEvent.tpl
 msgid "Try a different spelling or use fewer letters."
-msgstr ""
+msgstr "Versuche eine andere Schreibweise oder weniger Zeichen."
 
 #: templates/CRM/Event/Page/ManageEvent.tpl
 msgid "Make sure you have enough privileges in the access control system."
@@ -699,9 +706,12 @@ msgstr ""
 #: templates/CRM/Event/Page/ManageEvent.tpl
 msgid "Or you can <a href='%1'>browse all available Current Events</a>."
 msgstr ""
+"Oder <a href='%1'>alle verfügbaren Anstehenden Veranstaltungen</a> ansehen."
 
 #: templates/CRM/Event/Page/ManageEvent.tpl
 msgid ""
 "There are no events scheduled for the date range. You can <a href='%1'>add "
 "one</a>."
 msgstr ""
+"Es gibt keine geplanten Veranstaltungen in diesem Zeitraum. Jetzt <a "
+"href='%1'>eine hinzufügen</a>."
