@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = ro: ro_RO, id: id_ID, sv: sv_SE, da: da_DK, el: el_GR, sk: sk_SK, pl: pl_PL, km: km_KH, sq: sq_AL, af: af_ZA, ru: ru_RU, nb: nb_NO, vi: vi_VN, et: et_EE, ja: ja_JP, lv: lv_LV, sl: sl_SI, he: he_IL, nl: nl_NL, cs: cs_CZ, es: es_ES, pt: pt_PT, hi: hi_IN, hu: hu_HU, lt: lt_LT, it: it_IT, fr: fr_FR, bg: bg_BG, fi: fi_FI, tr: tr_TR, ca: ca_ES, de: de_DE
+lang_map = ja: ja_JP, lt: lt_LT, fr: fr_FR, de: de_DE, ru: ru_RU, sl: sl_SI, nl: nl_NL, sv: sv_SE, lv: lv_LV, pt: pt_PT, fi: fi_FI, ro: ro_RO, nb: nb_NO, et: et_EE, vi: vi_VN, it: it_IT, ca: ca_ES, sk: sk_SK, cs: cs_CZ, es: es_ES, hi: hi_IN, hu: hu_HU, bg: bg_BG, id: id_ID, pl: pl_PL, he: he_IL, sq: sq_AL, af: af_ZA, tr: tr_TR, da: da_DK, el: el_GR, km: km_KH
 
 [o:civicrm:p:civicrm_extensions:r:Civixero]
 file_filter = po/Civixero/<lang>/Civixero.po
@@ -21,6 +21,13 @@ source_lang = en
 file_filter = po/activityical/<lang>/activityical.po
 source_file = po/activityical/pot/activityical.pot
 source_lang = en
+
+[o:civicrm:p:civicrm_extensions:r:advanced_events]
+file_filter   = po/advanced_events/<lang>/advanced_events.po
+source_file   = po/advanced_events/pot/advanced_events.pot
+type          = POT
+minimum_perc  = 0
+resource_name = advanced_events
 
 [o:civicrm:p:civicrm_extensions:r:advancedfundraising]
 file_filter = po/advancedfundraising/<lang>/advancedfundraising.po
