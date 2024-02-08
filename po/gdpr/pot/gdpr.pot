@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gdpr\n"
-"POT-Creation-Date: 2019-12-21 05:01+0000\n"
+"POT-Creation-Date: 2023-09-24 17:43+0000\n"
 "Language-Team: CiviCRM Translators <civicrm-translators@lists.civicrm.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -111,6 +111,10 @@ msgstr ""
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
 msgid "Enable Channels"
+msgstr ""
+
+#: CRM/Gdpr/Form/CommunicationsPreferences.php
+msgid "Heading for the channels section"
 msgstr ""
 
 #: CRM/Gdpr/Form/CommunicationsPreferences.php
@@ -247,16 +251,88 @@ msgstr ""
 msgid "Saved"
 msgstr ""
 
-#: CRM/Gdpr/Form/Forgetme.php templates/CRM/Gdpr/Form/Settings.tpl
-msgid "Forget me"
+#: CRM/Gdpr/Form/Export.php CRM/Gdpr/Form/Forgetme.php
+msgid "Something went wrong. Please contact Admin."
 msgstr ""
 
-#: CRM/Gdpr/Form/Forgetme.php
+#: CRM/Gdpr/Form/Export.php
+msgid "Export Data - "
+msgstr ""
+
+#: CRM/Gdpr/Form/Export.php
+msgid "Select data to export *"
+msgstr ""
+
+#: CRM/Gdpr/Form/Export.php
+msgid "Format"
+msgstr ""
+
+#: CRM/Gdpr/Form/Export.php
+msgid "CSV"
+msgstr ""
+
+#: CRM/Gdpr/Form/Export.php
+msgid "PDF"
+msgstr ""
+
+#: CRM/Gdpr/Form/Export.php templates/CRM/Gdpr/Page/Tab.tpl
+msgid "Export"
+msgstr ""
+
+#: CRM/Gdpr/Form/Export.php CRM/Gdpr/Form/Forgetme.php
 msgid "Cancel"
 msgstr ""
 
-#: CRM/Gdpr/Form/Forgetme.php
-msgid "Something went wrong. Please contact Admin."
+#: CRM/Gdpr/Form/Export.php
+msgid "Select entities to export."
+msgstr ""
+
+#: CRM/Gdpr/Form/Export.php
+msgid "No data available to export."
+msgstr ""
+
+#: CRM/Gdpr/Form/Export.php
+msgid "Export Data"
+msgstr ""
+
+#: CRM/Gdpr/Form/Export.php
+msgid "Contact"
+msgstr ""
+
+#: CRM/Gdpr/Form/Export.php
+msgid "Activity"
+msgstr ""
+
+#: CRM/Gdpr/Form/Export.php
+msgid "Relationship"
+msgstr ""
+
+#: CRM/Gdpr/Form/Export.php
+msgid "Contribution"
+msgstr ""
+
+#: CRM/Gdpr/Form/Export.php
+msgid "Membership"
+msgstr ""
+
+#: CRM/Gdpr/Form/Export.php
+msgid "Participant"
+msgstr ""
+
+#: CRM/Gdpr/Form/Export.php
+msgid "Case"
+msgstr ""
+
+#: CRM/Gdpr/Form/Export.php
+msgid "Gift Aid Declaration"
+msgstr ""
+
+#: CRM/Gdpr/Form/Export.php gdpr.php
+msgid "GDPR"
+msgstr ""
+
+#: CRM/Gdpr/Form/Forgetme.php templates/CRM/Gdpr/Form/Settings.tpl
+msgid "Forget me"
 msgstr ""
 
 #: CRM/Gdpr/Form/Forgetme.php
@@ -289,6 +365,10 @@ msgstr ""
 
 #: CRM/Gdpr/Form/SLAAccept.php
 msgid "This field is required."
+msgstr ""
+
+#: CRM/Gdpr/Form/Search/ActivityContact.mgd.php
+msgid "Contacts without Activity for a period (GDPR)"
 msgstr ""
 
 #: CRM/Gdpr/Form/Search/ActivityContact.php
@@ -360,6 +440,10 @@ msgstr ""
 
 #: CRM/Gdpr/Form/Settings.php
 msgid "- select -"
+msgstr ""
+
+#: CRM/Gdpr/Form/Settings.php
+msgid "Do you Want to track Exports?"
 msgstr ""
 
 #: CRM/Gdpr/Form/Settings.php
@@ -491,6 +575,22 @@ msgstr ""
 msgid "Please read and accept the Terms &amp; Conditions and Data Policy."
 msgstr ""
 
+#: CRM/Gdpr/Form/Task/Contact.php
+msgid "GDPR forget me"
+msgstr ""
+
+#: CRM/Gdpr/Form/Task/Contact.php
+msgid "These contact records will be anonymized"
+msgstr ""
+
+#: CRM/Gdpr/Form/Task/Contact.php
+msgid "Selected contacts: %1"
+msgstr ""
+
+#: CRM/Gdpr/Form/Task/Contact.php templates/CRM/Gdpr/Form/Activitycontact.tpl
+msgid "Next"
+msgstr ""
+
 #: CRM/Gdpr/Form/UpdatePreference.php
 msgid "<a href='%1' target='_blank'>%2</a>"
 msgstr ""
@@ -502,6 +602,14 @@ msgstr ""
 
 #: CRM/Gdpr/Form/UpdatePreference.php
 msgid "Source of Communication Preferences"
+msgstr ""
+
+#: CRM/Gdpr/Form/UpdatePreference.php
+msgid "GDPR Communication Preferences Form"
+msgstr ""
+
+#: CRM/Gdpr/Page/AJAX.php
+msgid "Event/Contribution ThankYou Page"
 msgstr ""
 
 #: CRM/Gdpr/Page/Dashboard.php
@@ -520,6 +628,10 @@ msgstr ""
 msgid "Not yet updated by the contact."
 msgstr ""
 
+#: CRM/Gdpr/SLA/Entity.php
+msgid " Terms and Conditions accepted"
+msgstr ""
+
 #: CRM/Gdpr/SLA/Utils.php
 msgid "Data Policy accepted"
 msgstr ""
@@ -528,12 +640,36 @@ msgstr ""
 msgid "Upgrade %1 to revision %2"
 msgstr ""
 
+#: CRM/Gdpr/Upgrader.php
+msgid "Contacts without any activity for a period"
+msgstr ""
+
+#: CRM/Gdpr/Upgrader.php
+msgid "GDPR Cancelled"
+msgstr ""
+
+#: CRM/Gdpr/Upgrader.php
+msgid "Message Template Workflow for GDPR"
+msgstr ""
+
+#: CRM/Gdpr/Upgrader.php
+msgid "Update Communication Preferences"
+msgstr ""
+
 #: gdpr.php
 msgid "Contribution Page"
 msgstr ""
 
 #: gdpr.php
-msgid "GDPR"
+msgid "GDPR Dashboard"
+msgstr ""
+
+#: gdpr.php templates/CRM/Gdpr/Page/Dashboard.tpl
+msgid "GDPR Settings"
+msgstr ""
+
+#: gdpr.php
+msgid "Communication Preferences Settings"
 msgstr ""
 
 #: gdpr.php
@@ -578,6 +714,10 @@ msgstr ""
 
 #: gdpr.php
 msgid "Manage GDPR settings"
+msgstr ""
+
+#: gdpr.php
+msgid "GDPR forget"
 msgstr ""
 
 #: templates/CRM/Gdpr/Form/Activitycontact.tpl
@@ -634,10 +774,6 @@ msgstr ""
 
 #: templates/CRM/Gdpr/Form/Activitycontact.tpl
 msgid "Previous"
-msgstr ""
-
-#: templates/CRM/Gdpr/Form/Activitycontact.tpl
-msgid "Next"
 msgstr ""
 
 #: templates/CRM/Gdpr/Form/Activitycontact.tpl
@@ -815,6 +951,16 @@ msgid "(days)"
 msgstr ""
 
 #: templates/CRM/Gdpr/Form/Settings.tpl
+msgid "Data Export"
+msgstr ""
+
+#: templates/CRM/Gdpr/Form/Settings.tpl
+msgid ""
+"Tick this checkbox if you need an activity to be created when data "
+"(contacts, activities, contributions) is exported from CiviCRM."
+msgstr ""
+
+#: templates/CRM/Gdpr/Form/Settings.tpl
 msgid "Settings related to 'Forget me' process."
 msgstr ""
 
@@ -929,6 +1075,10 @@ msgid ""
 "can be overridden on the settings for the particular event.."
 msgstr ""
 
+#: templates/CRM/Gdpr/Form/UpdatePreference.tpl
+msgid "Group Channels"
+msgstr ""
+
 #: templates/CRM/Gdpr/Page/ContactSummary.tpl
 msgid "GDPR Status"
 msgstr ""
@@ -952,10 +1102,6 @@ msgstr ""
 #: templates/CRM/Gdpr/Page/Dashboard.tpl
 msgid ""
 "(Contacts who have not had any activity, but clicked through links in emails)"
-msgstr ""
-
-#: templates/CRM/Gdpr/Page/Dashboard.tpl
-msgid "GDPR Settings"
 msgstr ""
 
 #: templates/CRM/Gdpr/Page/Dashboard.tpl
