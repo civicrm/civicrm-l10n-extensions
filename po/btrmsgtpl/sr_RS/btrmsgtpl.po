@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: btrmsgtpl\n"
-"POT-Creation-Date: 2023-12-26 05:01+0000\n"
+"POT-Creation-Date: 2024-02-08 05:02+0000\n"
 "Last-Translator: Đorđe Kolaković <djordje@catalystbalkans.org>, 2023\n"
 "Language-Team: Serbian (Serbia) (https://app.transifex.com/civicrm/teams/1905/sr_RS/)\n"
 "MIME-Version: 1.0\n"
@@ -73,10 +73,6 @@ msgstr ""
 msgid "Message Templates"
 msgstr ""
 
-#: CRM/Btrmsgtpl/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Ažuriraj %1 na reviziju %2"
-
 #: CRM/Btrmsgtpl/Upgrader.php
 msgid ""
 "btrmsgtpl: adding revision support for system workflow message templates."
@@ -88,28 +84,72 @@ msgid ""
 "revisions."
 msgstr ""
 
+#: CRM/Btrmsgtpl/Upgrader.php
+msgid ""
+"btrmsgtpl: adding revision support for default system workflow message "
+"templates."
+msgstr ""
+
+#: CRM/Btrmsgtpl/Upgrader.php
+msgid "btrmsgtpl: remove errant system default revisions."
+msgstr ""
+
+#: CRM/Btrmsgtpl/Upgrader.php
+msgid "btrmsgtpl: checking/fixing broken revisions table."
+msgstr ""
+
 #: ang/crmBtrmsgtpl/Btrmsgtpl.js
 msgid "crmMsgadm"
 msgstr ""
 
 #: api/v3/Btrmsgtpl.php
-msgid "Revision not found."
+msgid "btrmsgtpl: Error deleting translation/draft: "
 msgstr ""
 
 #: api/v3/Btrmsgtpl.php
-msgid "Unknown revision action"
+msgid "Revision not found. "
+msgstr ""
+
+#: api/v3/Btrmsgtpl.php
+msgid "Unknown revision action. "
+msgstr ""
+
+#: api/v3/Btrmsgtpl.php
+msgid "btrmsgtpl: Error saving translation: "
+msgstr ""
+
+#: api/v3/Btrmsgtpl.php btrmsgtpl.php
+msgid "System Default "
+msgstr ""
+
+#: api/v3/Btrmsgtpl.php
+msgid ""
+"Access to system default history currently restricted. Try again in %1 "
+"minutes(s)."
+msgstr ""
+
+#: api/v3/Btrmsgtpl.php
+msgid "Error %1 while reading /rate_limit."
+msgstr ""
+
+#: api/v3/Btrmsgtpl.php
+msgid "Template ID (msg_template_id) is required."
 msgstr ""
 
 #: btrmsgtpl.php
 msgid "Modified"
 msgstr ""
 
-#: btrmsgtpl.php js/btrmsgtpl.js
+#: btrmsgtpl.php
 msgid "System Default"
 msgstr ""
 
 #: btrmsgtpl.php
 msgid ", %1 Samples"
+msgstr ""
+
+#: btrmsgtpl.php
+msgid "%1 by %2"
 msgstr ""
 
 #: btrmsgtpl.php
@@ -290,6 +330,14 @@ msgstr ""
 
 #: js/btrmsgtpl.js
 msgid "Reveal In Outline & Select"
+msgstr ""
+
+#: js/btrmsgtpl.js
+msgid "System Defaults"
+msgstr ""
+
+#: js/btrmsgtpl.js
+msgid "System defaults loaded."
 msgstr ""
 
 #: js/tab.js templates/CRM/Btrmsgtpl/Tab.tpl
