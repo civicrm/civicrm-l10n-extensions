@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2021-02-09 05:01+0000\n"
+"POT-Creation-Date: 2024-02-10 05:01+0000\n"
 "PO-Revision-Date: 2015-04-16 05:33+0000\n"
 "Last-Translator: Usha Matisson, 2020-2023\n"
 "Language-Team: French (http://app.transifex.com/civicrm/civicrm_extensions/language/fr/)\n"
@@ -19,6 +19,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: CRM/Extendedreport/Form/Report/ActivityExtended.php
+msgid "Source Contact"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ActivityExtended.php
+msgid "Target Contact"
+msgstr ""
+
+#: CRM/Extendedreport/Form/Report/ActivityExtended.php
+msgid "Assignee Contact"
+msgstr ""
 
 #: CRM/Extendedreport/Form/Report/ActivityPivot.php
 #: CRM/Extendedreport/Form/Report/Case/ActivityPivot.php
@@ -235,6 +247,10 @@ msgid "Nick Name"
 msgstr "Surnom/Sigle"
 
 #: CRM/Extendedreport/Form/Report/ColumnDefinitionTrait.php
+msgid "Formal Title"
+msgstr "Titre officiel"
+
+#: CRM/Extendedreport/Form/Report/ColumnDefinitionTrait.php
 msgid "Prefix"
 msgstr "Préfixe"
 
@@ -249,6 +265,10 @@ msgstr "Genre"
 #: CRM/Extendedreport/Form/Report/ColumnDefinitionTrait.php
 msgid "Birth Date"
 msgstr "Date de naissance"
+
+#: CRM/Extendedreport/Form/Report/ColumnDefinitionTrait.php
+msgid "Deceased Date"
+msgstr "Date du décés"
 
 #: CRM/Extendedreport/Form/Report/ColumnDefinitionTrait.php
 msgid "Age"
@@ -271,8 +291,8 @@ msgid "Latest Activity Date"
 msgstr "Date de la dernière activité"
 
 #: CRM/Extendedreport/Form/Report/ColumnDefinitionTrait.php
-msgid "Numer of recurring profiles"
-msgstr "Nombre de profils récurrents"
+msgid "Number of recurring profiles"
+msgstr ""
 
 #: CRM/Extendedreport/Form/Report/ColumnDefinitionTrait.php
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
@@ -651,10 +671,6 @@ msgstr "Sélectionner les colonnes"
 #: ang/extendedreport/ReportCntrl.html
 msgid "Columns"
 msgstr "Colonnes"
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "Display Options"
-msgstr "Afficher les options"
 
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
 #: ang/extendedreport/ReportCntrl.html
@@ -1142,16 +1158,8 @@ msgid "View Contact Summary for Contact that registered the participant."
 msgstr "Afficher la synthèse de contact qui a inscrit le participant."
 
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "%1 for this country."
-msgstr "%1 pour ce pays."
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "%1 for this county."
-msgstr "%1 pour ce comté/département."
-
-#: CRM/Extendedreport/Form/Report/ExtendedReport.php
-msgid "%1 for this state."
-msgstr "%1 pour cette subdivision pays (Etat/région/province)"
+msgid "View Contact Summary for Employer."
+msgstr ""
 
 #: CRM/Extendedreport/Form/Report/ExtendedReport.php
 msgid "Pledge payment link not added"
@@ -1348,10 +1356,8 @@ msgid "This page allows editing fields in extended reports."
 msgstr "Cette page permet de modifier les champs dans les rapports étendus."
 
 #: ang/extendedreport/ReportCntrl.html
-msgid ""
-"Click here to view\n"
-"      the output"
-msgstr "Cliquez ici pour voir le résultat."
+msgid "Click here to view the output"
+msgstr ""
 
 #: ang/extendedreport/ReportCntrl.html
 msgid "Extended Report"
