@@ -6,16 +6,16 @@
 # punkyard persist <punkyard@grrlz.net>, 2020
 # Thomas Blein <tblein-transifex@tblein.eu>, 2024
 # samuelsov <samuel@symbiotic.coop>, 2024
-# Alain Rihs <alainrihs@sunrise.ch>, 2024
 # Usha Matisson, 2024
 # Guillaume Sorel <serviceclient@all-in-appli.com>, 2024
 # Mathieu Lu <mathieu@bidon.ca>, 2024
+# Alain Rihs <alainrihs@sunrise.ch>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: dataprocessor\n"
-"POT-Creation-Date: 2024-01-19 05:02+0000\n"
-"Last-Translator: Mathieu Lu <mathieu@bidon.ca>, 2024\n"
+"POT-Creation-Date: 2024-02-17 05:01+0000\n"
+"Last-Translator: Alain Rihs <alainrihs@sunrise.ch>, 2024\n"
 "Language-Team: French (https://app.transifex.com/civicrm/teams/1905/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1127,6 +1127,10 @@ msgid "Address"
 msgstr "Adresse"
 
 #: Civi/DataProcessor/Factory.php
+msgid "Country"
+msgstr "Pays"
+
+#: Civi/DataProcessor/Factory.php
 msgid "Phone"
 msgstr "Téléphone"
 
@@ -1580,6 +1584,10 @@ msgid "Compare the input with up to 5 strings and map the output accordingly."
 msgstr ""
 
 #: Civi/DataProcessor/Factory.php
+msgid "Count the number of cases related to the given CiviCRM ID."
+msgstr ""
+
+#: Civi/DataProcessor/Factory.php
 msgid "CSV"
 msgstr "CSV"
 
@@ -1720,6 +1728,34 @@ msgstr ""
 #: Civi/DataProcessor/FieldOutputHandler/ConditionallyMapStrings.php
 #: Civi/DataProcessor/FieldOutputHandler/SanitizeString.php
 msgid "Input field"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/ContactCountNumberOfCases.php
+msgid "Case type"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/ContactCountNumberOfCases.php
+msgid "- Show all case types -"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/ContactCountNumberOfCases.php
+msgid "Case status"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/ContactCountNumberOfCases.php
+msgid "- Show all case statuses -"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/ContactCountNumberOfCases.php
+msgid "Case subject"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/ContactCountNumberOfCases.php
+msgid "Include deleted cases"
+msgstr ""
+
+#: Civi/DataProcessor/FieldOutputHandler/ContactCountNumberOfCases.php
+msgid "CiviCRM ID"
 msgstr ""
 
 #: Civi/DataProcessor/FieldOutputHandler/ContactHasRelationshipFieldOutputHandler.php
@@ -3170,6 +3206,19 @@ msgstr ""
 msgid ""
 "If no default value is provided, the original input is returned, if none of "
 "the comparison values matches."
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Field/Configuration/ContactCountNumberOfCases.tpl
+msgid ""
+"Count the number of cases, where the given CiviCRM has the client role and "
+"the cases fulfill the following criteria:"
+msgstr ""
+
+#: templates/CRM/Dataprocessor/Form/Field/Configuration/ContactCountNumberOfCases.tpl
+msgid ""
+"Next you can define up to three additional criteria, where 'field' "
+"corresponds to a field of an APIv4 call to CaseContact and 'value to match' "
+"to the value it should correspond to."
 msgstr ""
 
 #: templates/CRM/Dataprocessor/Form/Field/Configuration/ContactHasRelationshipFieldOutputHandler.tpl
