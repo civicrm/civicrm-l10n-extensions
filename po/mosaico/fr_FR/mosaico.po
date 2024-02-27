@@ -5,14 +5,14 @@
 # Translators:
 # Thomas Octaid <contact@octaid.com>, 2019
 # Guillaume Sorel <serviceclient@all-in-appli.com>, 2023
-# Usha Matisson <matisson@makoa.fr>, 2023
+# Usha Matisson, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: mosaico\n"
-"POT-Creation-Date: 2023-01-27 19:23+0000\n"
-"Last-Translator: Usha Matisson <matisson@makoa.fr>, 2023\n"
-"Language-Team: French (https://www.transifex.com/civicrm/teams/1905/fr/)\n"
+"POT-Creation-Date: 2024-02-27 05:01+0000\n"
+"Last-Translator: Usha Matisson, 2024\n"
+"Language-Team: French (https://app.transifex.com/civicrm/teams/1905/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,6 +26,10 @@ msgstr "Modèles de message Mosaico"
 #: CRM/Mosaico/DAO/MessageTemplate.php
 msgid "Mosaico Message Template"
 msgstr "Modèle de message Mosaico"
+
+#: CRM/Mosaico/DAO/MessageTemplate.php CRM/Mosaico/DAO/MosaicoTemplate.php
+msgid "ID"
+msgstr "Id."
 
 #: CRM/Mosaico/DAO/MessageTemplate.php
 msgid "Unique Settings ID"
@@ -59,7 +63,7 @@ msgstr "méta donnée"
 msgid "template"
 msgstr "modèle"
 
-#: CRM/Mosaico/DAO/MosaicoTemplate.php mosaico.php
+#: CRM/Mosaico/DAO/MosaicoTemplate.php managed/Navigation_mosaico.mgd.php
 msgid "Mosaico Templates"
 msgstr "Modèles de Mosaico"
 
@@ -119,6 +123,14 @@ msgstr ""
 msgid "Category"
 msgstr "Catégorie"
 
+#: CRM/Mosaico/DAO/MosaicoTemplate.php
+msgid "Domain ID"
+msgstr ""
+
+#: CRM/Mosaico/DAO/MosaicoTemplate.php
+msgid "Domain ID this message template belongs to."
+msgstr ""
+
 #: CRM/Mosaico/Form/Migrate.php
 msgid "Are you sure want to copy data from Mosaico 1.x to 2.x?"
 msgstr "Êtes vous sûr de vouloir copier les données de Mosaico 1.x à 2.x ?"
@@ -136,8 +148,7 @@ msgid "This action cannot be undone."
 msgstr "Cette action ne peut être annulée."
 
 #: CRM/Mosaico/Form/Migrate.php ang/crmMosaico/SearchTemplateListButtons.html
-#: ang/crmMosaico.bootstrap/TemplateItem.html
-#: ang/crmMosaico.crmstar/TemplateItem.html
+#: ang/crmMosaico/TemplateItem.html
 msgid "Copy"
 msgstr "Copier"
 
@@ -157,17 +168,9 @@ msgstr "Les données invisibles de Mosaico 1.x ont été nettoyées."
 msgid "Unrecognized action"
 msgstr "Action non reconnue"
 
-#: CRM/Mosaico/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Mettre à jour %1 vers la révision %2"
-
 #: CRM/Mosaico/Utils.php
 msgid "Automatically select a layout"
 msgstr "Sélectionner automatiquement une mise en page"
-
-#: CRM/Mosaico/Utils.php
-msgid "Single Page (crm-*)"
-msgstr "Une seule page (crm-*)"
 
 #: CRM/Mosaico/Utils.php
 msgid "Single Page (Bootstrap CSS)"
@@ -230,24 +233,28 @@ msgid "Configure template categories"
 msgstr "Configurer les catégories de modèle"
 
 #: ang/crmMosaico/AdvancedDialogCtrl.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
 msgid "Attachments"
 msgstr "Pièce(s) jointe(s)"
 
 #: ang/crmMosaico/AdvancedDialogCtrl.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
 msgid "Responses"
 msgstr "Réponses"
 
 #: ang/crmMosaico/AdvancedDialogCtrl.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
 msgid "Tracking"
 msgstr "Suivi"
 
 #: ang/crmMosaico/AdvancedDialogCtrl.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
 msgid "Publication"
 msgstr "Publication"
+
+#: ang/crmMosaico/BlockDesign.html
+msgid "My Design"
+msgstr "Mon design"
+
+#: ang/crmMosaico/BlockDesign.html
+msgid "All Categories"
+msgstr "Toutes les catégories"
 
 #: ang/crmMosaico/BlockMailing.html
 msgid "Mailing Name"
@@ -277,7 +284,7 @@ msgstr "Adresse de courriel"
 msgid "Recipients"
 msgstr "Destinataires"
 
-#: ang/crmMosaico/BlockMailing.html ang/crmMosaico.bootstrap/SubjectList.html
+#: ang/crmMosaico/BlockMailing.html ang/crmMosaico/SubjectList.html
 msgid "Subject"
 msgstr "Sujet"
 
@@ -292,6 +299,55 @@ msgstr "Se désinscrire du groupe"
 #: ang/crmMosaico/BlockMailing.html
 msgid "Language"
 msgstr "Langue"
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "Preview:"
+msgstr "Aperçu :"
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "No content to preview"
+msgstr "Pas de contenu à prévisualiser"
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "Preview as HTML"
+msgstr "Aperçu (version HTML)"
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "Preview as Plain Text"
+msgstr "Aperçu (version texte)"
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "Send test email:"
+msgstr "Envoyer un courriel test :"
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "Test Email"
+msgstr "Courriel test"
+
+#: ang/crmMosaico/BlockPreview.html
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Complete all required-mark fields first"
+msgstr "Remplir tous les champs obligatoires d'abord"
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "Not a valid email address"
+msgstr ""
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "Send test message to %1"
+msgstr "Envoyer un courriel test à %1 :"
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "Send test"
+msgstr "Envoyer un test :"
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "Send test email to group:"
+msgstr "Envoyer un courriel test au groupe :"
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "Send test message to group"
+msgstr "Envoyer un courriel test au groupe :"
 
 #: ang/crmMosaico/BlockPreview.js
 msgid "Send to %1"
@@ -335,6 +391,62 @@ msgstr "Sélectionner"
 #: ang/crmMosaico/CreateFromBaseTemplate.html
 msgid "Create Template"
 msgstr "Créer un modèle"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Mailing"
+msgstr "Mailing"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Design"
+msgstr "Conception"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+msgid "Advanced"
+msgstr "Avancé"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Options"
+msgstr "Options"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Advanced Mailing Options"
+msgstr "Options avancées de mailing"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Submit Mailing"
+msgstr "Envoyer le mailing"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Save Draft"
+msgstr "Enregistrer le brouillon"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Delete Draft"
+msgstr "Supprimer le brouillon"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Are you sure you want to permanently delete this mailing?"
+msgstr "Êtes-vous sûr de vouloir supprimer ce mailing de façon permanente ?"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Back"
+msgstr "Retour"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Next step"
+msgstr "Etape suivante"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Continue"
+msgstr "Continuer"
 
 #: ang/crmMosaico/MixinCtrl.js ang/crmMosaico/Templates.js
 msgid "Loading..."
@@ -382,10 +494,33 @@ msgid "Edit"
 msgstr "Modifier"
 
 #: ang/crmMosaico/SearchTemplateListButtons.html
-#: ang/crmMosaico.bootstrap/TemplateItem.html
-#: ang/crmMosaico.crmstar/TemplateItem.html
+#: ang/crmMosaico/TemplateItem.html
 msgid "Delete"
 msgstr "Supprimer"
+
+#: ang/crmMosaico/SubjectList.html
+msgid "Add subject"
+msgstr "Ajouter un sujet"
+
+#: ang/crmMosaico/SubjectList.html
+msgid "Remove subject"
+msgstr "Supprimer le sujet"
+
+#: ang/crmMosaico/TemplateItem.html
+msgid "Preview"
+msgstr "Aperçu"
+
+#: ang/crmMosaico/TemplateItem.html
+msgid "Settings"
+msgstr "Paramètres"
+
+#: ang/crmMosaico/TemplateItem.html
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#: ang/crmMosaico/TemplateItem.html
+msgid "Are you sure you want to reset this?"
+msgstr "Êtes vous sûr de vouloir réinitialiser ?"
 
 #: ang/crmMosaico/Templates.js
 msgid "Empty Template"
@@ -399,185 +534,6 @@ msgstr "En cours d'enregistrement"
 msgid "Saved"
 msgstr "Enregistré"
 
-#: ang/crmMosaico.bootstrap/BlockDesign.html
-#: ang/crmMosaico.crmstar/BlockDesign.html
-msgid "My Design"
-msgstr "Mon design"
-
-#: ang/crmMosaico.bootstrap/BlockDesign.html
-#: ang/crmMosaico.crmstar/BlockDesign.html
-msgid "All Categories"
-msgstr "Toutes les catégories"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Preview:"
-msgstr "Aperçu :"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "No content to preview"
-msgstr "Pas de contenu à prévisualiser"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Preview as HTML"
-msgstr "Aperçu (version HTML)"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Preview as Plain Text"
-msgstr "Aperçu (version texte)"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Send test email:"
-msgstr "Envoyer un courriel test :"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Test Email"
-msgstr "Courriel test"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Complete all required-mark fields first"
-msgstr "Remplir tous les champs obligatoires d'abord"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Send test message to %1"
-msgstr "Envoyer un courriel test à %1 :"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Send test"
-msgstr "Envoyer un test :"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Send test email to group:"
-msgstr "Envoyer un courriel test au groupe :"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Send test message to group"
-msgstr "Envoyer un courriel test au groupe :"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-single.html
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-msgid "Mailing"
-msgstr "Mailing"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-single.html
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-msgid "Design"
-msgstr "Conception"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-single.html
-msgid "Advanced"
-msgstr "Avancé"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-single.html
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-msgid "Options"
-msgstr "Options"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-single.html
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-msgid "Advanced Mailing Options"
-msgstr "Options avancées de mailing"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-single.html
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-msgid "Submit Mailing"
-msgstr "Envoyer le mailing"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-single.html
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-msgid "Save Draft"
-msgstr "Enregistrer le brouillon"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-single.html
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-msgid "Delete Draft"
-msgstr "Supprimer le brouillon"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-single.html
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-msgid "Are you sure you want to permanently delete this mailing?"
-msgstr "Êtes-vous sûr de vouloir supprimer ce mailing de façon permanente ?"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-msgid "Back"
-msgstr "Retour"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-msgid "Next step"
-msgstr "Etape suivante"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-msgid "Continue"
-msgstr "Continuer"
-
-#: ang/crmMosaico.bootstrap/SubjectList.html
-#: ang/crmMosaico.crmstar/SubjectList.html
-msgid "Add subject"
-msgstr "Ajouter un sujet"
-
-#: ang/crmMosaico.bootstrap/SubjectList.html
-#: ang/crmMosaico.crmstar/SubjectList.html
-msgid "Remove subject"
-msgstr "Supprimer le sujet"
-
-#: ang/crmMosaico.bootstrap/TemplateItem.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-#: ang/crmMosaico.crmstar/TemplateItem.html
-msgid "Preview"
-msgstr "Aperçu"
-
-#: ang/crmMosaico.bootstrap/TemplateItem.html
-#: ang/crmMosaico.crmstar/TemplateItem.html
-msgid "Settings"
-msgstr "Paramètres"
-
-#: ang/crmMosaico.bootstrap/TemplateItem.html
-#: ang/crmMosaico.crmstar/TemplateItem.html
-msgid "Reset"
-msgstr "Réinitialiser"
-
-#: ang/crmMosaico.bootstrap/TemplateItem.html
-#: ang/crmMosaico.crmstar/TemplateItem.html
-msgid "Are you sure you want to reset this?"
-msgstr "Êtes vous sûr de vouloir réinitialiser ?"
-
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Select Group"
-msgstr "Sélectionner un groupe"
-
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-msgid "Define Mailing"
-msgstr "Définir le mailing"
-
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-msgid "Review and Schedule"
-msgstr "Revoir et planifier"
-
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-msgid "Review"
-msgstr "Revoir"
-
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-msgid "Schedule"
-msgstr "Planifier"
-
 #: api/v3/MosaicoBaseTemplate.php templates/CRM/Mosaico/Form/Migrate.tpl
 msgid "Name"
 msgstr "Nom"
@@ -590,11 +546,11 @@ msgstr "URL de la vignette"
 msgid "Relative path to the template file"
 msgstr "Chemin relatif vers le fichier du modèle"
 
-#: mosaico.php
+#: managed/Navigation_mosaico.mgd.php
 msgid "New Mailing (Traditional)"
 msgstr "Nouveau mailing (traditionnel)"
 
-#: mosaico.php
+#: managed/Navigation_mosaico.mgd.php
 msgid "Mosaico Settings"
 msgstr "Paramètres de Mosaico"
 
