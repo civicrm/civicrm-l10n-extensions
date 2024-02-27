@@ -3,13 +3,13 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Preediphat Luang-On, 2024
+# Preediphat Luang-on, 2024
 # Pannapat Tammasrisawat, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: mosaico\n"
-"POT-Creation-Date: 2023-01-27 19:23+0000\n"
+"POT-Creation-Date: 2024-02-27 05:01+0000\n"
 "Last-Translator: Pannapat Tammasrisawat, 2024\n"
 "Language-Team: Thai (Thailand) (https://app.transifex.com/civicrm/teams/1905/th_TH/)\n"
 "MIME-Version: 1.0\n"
@@ -25,6 +25,10 @@ msgstr "เทมเพลตข้อความ Mosaico"
 #: CRM/Mosaico/DAO/MessageTemplate.php
 msgid "Mosaico Message Template"
 msgstr "เทมเพลตข้อความ Mosaico"
+
+#: CRM/Mosaico/DAO/MessageTemplate.php CRM/Mosaico/DAO/MosaicoTemplate.php
+msgid "ID"
+msgstr ""
 
 #: CRM/Mosaico/DAO/MessageTemplate.php
 msgid "Unique Settings ID"
@@ -58,7 +62,7 @@ msgstr "metadata"
 msgid "template"
 msgstr "เทมเพลต"
 
-#: CRM/Mosaico/DAO/MosaicoTemplate.php mosaico.php
+#: CRM/Mosaico/DAO/MosaicoTemplate.php managed/Navigation_mosaico.mgd.php
 msgid "Mosaico Templates"
 msgstr "เทมเพลต Mosaico"
 
@@ -117,6 +121,14 @@ msgstr ""
 msgid "Category"
 msgstr "หมวดหมู่"
 
+#: CRM/Mosaico/DAO/MosaicoTemplate.php
+msgid "Domain ID"
+msgstr ""
+
+#: CRM/Mosaico/DAO/MosaicoTemplate.php
+msgid "Domain ID this message template belongs to."
+msgstr ""
+
 #: CRM/Mosaico/Form/Migrate.php
 msgid "Are you sure want to copy data from Mosaico 1.x to 2.x?"
 msgstr "คุณแน่ใจหรือไม่ว่าต้องการคัดลอกข้อมูลจาก Mosaico 1.x ไปยัง 2.x"
@@ -134,8 +146,7 @@ msgid "This action cannot be undone."
 msgstr "การดำเนินการนี้ไม่สามารถยกเลิกได้"
 
 #: CRM/Mosaico/Form/Migrate.php ang/crmMosaico/SearchTemplateListButtons.html
-#: ang/crmMosaico.bootstrap/TemplateItem.html
-#: ang/crmMosaico.crmstar/TemplateItem.html
+#: ang/crmMosaico/TemplateItem.html
 msgid "Copy"
 msgstr "คัดลอก"
 
@@ -155,17 +166,9 @@ msgstr "ล้างข้อมูล Mosaico 1.x ที่มองไม่�
 msgid "Unrecognized action"
 msgstr "การดำเนินการที่ไม่รู้จัก"
 
-#: CRM/Mosaico/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "อัปเกรด %1 เป็นการแก้ไข %2"
-
 #: CRM/Mosaico/Utils.php
 msgid "Automatically select a layout"
 msgstr "เลือกโครงร่างโดยอัตโนมัติ"
-
-#: CRM/Mosaico/Utils.php
-msgid "Single Page (crm-*)"
-msgstr ""
 
 #: CRM/Mosaico/Utils.php
 msgid "Single Page (Bootstrap CSS)"
@@ -228,24 +231,28 @@ msgid "Configure template categories"
 msgstr "กำหนดค่าหมวดหมู่เทมเพลต"
 
 #: ang/crmMosaico/AdvancedDialogCtrl.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
 msgid "Attachments"
 msgstr "เอกสารแนบ"
 
 #: ang/crmMosaico/AdvancedDialogCtrl.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
 msgid "Responses"
 msgstr "คำตอบ"
 
 #: ang/crmMosaico/AdvancedDialogCtrl.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
 msgid "Tracking"
 msgstr "ติดตาม"
 
 #: ang/crmMosaico/AdvancedDialogCtrl.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
 msgid "Publication"
 msgstr "สิ่งตีพิมพ์"
+
+#: ang/crmMosaico/BlockDesign.html
+msgid "My Design"
+msgstr "ดีไซน์ของฉัน"
+
+#: ang/crmMosaico/BlockDesign.html
+msgid "All Categories"
+msgstr "หมวดหมู่ทั้งหมด"
 
 #: ang/crmMosaico/BlockMailing.html
 msgid "Mailing Name"
@@ -275,7 +282,7 @@ msgstr "ที่อยู่อีเมล"
 msgid "Recipients"
 msgstr "ผู้รับ"
 
-#: ang/crmMosaico/BlockMailing.html ang/crmMosaico.bootstrap/SubjectList.html
+#: ang/crmMosaico/BlockMailing.html ang/crmMosaico/SubjectList.html
 msgid "Subject"
 msgstr "หัวข้อ"
 
@@ -290,6 +297,55 @@ msgstr "ยกเลิกการเป็นสมาชิกกลุ่ม
 #: ang/crmMosaico/BlockMailing.html
 msgid "Language"
 msgstr "ภาษา"
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "Preview:"
+msgstr "ดูตัวอย่าง:"
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "No content to preview"
+msgstr "ไม่มีเนื้อหาให้ดูตัวอย่าง"
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "Preview as HTML"
+msgstr "ดูตัวอย่าง HTML"
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "Preview as Plain Text"
+msgstr "ดูตัวอย่างข้อความธรรมดา"
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "Send test email:"
+msgstr "ส่งอีเมลทดสอบ:"
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "Test Email"
+msgstr "อีเมลทดสอบ"
+
+#: ang/crmMosaico/BlockPreview.html
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Complete all required-mark fields first"
+msgstr "ใส่ข้อมูลในช่องที่จำเป็นต้องกรอกเสียก่อน"
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "Not a valid email address"
+msgstr ""
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "Send test message to %1"
+msgstr "ส่งข้อความทดสอบไปยัง %1"
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "Send test"
+msgstr "ส่งการทดสอบ"
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "Send test email to group:"
+msgstr "ส่งอีเมลทดสอบไปถึงกลุ่ม:"
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "Send test message to group"
+msgstr "ส่งข้อความทดสอบไปถึงกลุ่ม"
 
 #: ang/crmMosaico/BlockPreview.js
 msgid "Send to %1"
@@ -333,6 +389,62 @@ msgstr "เลือก"
 #: ang/crmMosaico/CreateFromBaseTemplate.html
 msgid "Create Template"
 msgstr "สร้างเทมเพลต"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Mailing"
+msgstr "การส่งจดหมาย"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Design"
+msgstr "ดีไซน์"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+msgid "Advanced"
+msgstr "ขั้นสูง"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Options"
+msgstr "ตัวเลือก"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Advanced Mailing Options"
+msgstr "ตัวเลือกการส่งจดหมายขั้นสูง"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Submit Mailing"
+msgstr "ส่งจดหมาย"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Save Draft"
+msgstr "บันทึกร่าง"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Delete Draft"
+msgstr "ลบร่าง"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Are you sure you want to permanently delete this mailing?"
+msgstr "คุณแน่ใจหรือว่าต้องการลบการส่งจดหมายนี้อย่างถาวร"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Back"
+msgstr "กลับไป"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Next step"
+msgstr "ขั้นต่อไป"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Continue"
+msgstr "ดำเนินการต่อ"
 
 #: ang/crmMosaico/MixinCtrl.js ang/crmMosaico/Templates.js
 msgid "Loading..."
@@ -380,10 +492,33 @@ msgid "Edit"
 msgstr "แก้ไข"
 
 #: ang/crmMosaico/SearchTemplateListButtons.html
-#: ang/crmMosaico.bootstrap/TemplateItem.html
-#: ang/crmMosaico.crmstar/TemplateItem.html
+#: ang/crmMosaico/TemplateItem.html
 msgid "Delete"
 msgstr "ลบ"
+
+#: ang/crmMosaico/SubjectList.html
+msgid "Add subject"
+msgstr "เพิ่มหัวข้อ"
+
+#: ang/crmMosaico/SubjectList.html
+msgid "Remove subject"
+msgstr "ลบหัวข้อ"
+
+#: ang/crmMosaico/TemplateItem.html
+msgid "Preview"
+msgstr "ดูตัวอย่าง"
+
+#: ang/crmMosaico/TemplateItem.html
+msgid "Settings"
+msgstr "การตั้งค่า"
+
+#: ang/crmMosaico/TemplateItem.html
+msgid "Reset"
+msgstr "รีเซ็ต"
+
+#: ang/crmMosaico/TemplateItem.html
+msgid "Are you sure you want to reset this?"
+msgstr "คุณแน่ใจหรือว่าต้องการรีเซ็ตสิ่งนี้"
 
 #: ang/crmMosaico/Templates.js
 msgid "Empty Template"
@@ -397,185 +532,6 @@ msgstr "กำลังบันทึก"
 msgid "Saved"
 msgstr "บันทึกแล้ว"
 
-#: ang/crmMosaico.bootstrap/BlockDesign.html
-#: ang/crmMosaico.crmstar/BlockDesign.html
-msgid "My Design"
-msgstr "ดีไซน์ของฉัน"
-
-#: ang/crmMosaico.bootstrap/BlockDesign.html
-#: ang/crmMosaico.crmstar/BlockDesign.html
-msgid "All Categories"
-msgstr "หมวดหมู่ทั้งหมด"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Preview:"
-msgstr "ดูตัวอย่าง:"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "No content to preview"
-msgstr "ไม่มีเนื้อหาให้ดูตัวอย่าง"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Preview as HTML"
-msgstr "ดูตัวอย่าง HTML"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Preview as Plain Text"
-msgstr "ดูตัวอย่างข้อความธรรมดา"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Send test email:"
-msgstr "ส่งอีเมลทดสอบ:"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Test Email"
-msgstr "อีเมลทดสอบ"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Complete all required-mark fields first"
-msgstr "ใส่ข้อมูลในช่องที่จำเป็นต้องกรอกเสียก่อน"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Send test message to %1"
-msgstr "ส่งข้อความทดสอบไปยัง %1"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Send test"
-msgstr "ส่งการทดสอบ"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Send test email to group:"
-msgstr "ส่งอีเมลทดสอบไปถึงกลุ่ม:"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Send test message to group"
-msgstr "ส่งข้อความทดสอบไปถึงกลุ่ม"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-single.html
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-msgid "Mailing"
-msgstr "การส่งจดหมาย"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-single.html
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-msgid "Design"
-msgstr "ดีไซน์"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-single.html
-msgid "Advanced"
-msgstr "ขั้นสูง"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-single.html
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-msgid "Options"
-msgstr "ตัวเลือก"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-single.html
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-msgid "Advanced Mailing Options"
-msgstr "ตัวเลือกการส่งจดหมายขั้นสูง"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-single.html
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-msgid "Submit Mailing"
-msgstr "ส่งจดหมาย"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-single.html
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-msgid "Save Draft"
-msgstr "บันทึกร่าง"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-single.html
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-msgid "Delete Draft"
-msgstr "ลบร่าง"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-single.html
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-msgid "Are you sure you want to permanently delete this mailing?"
-msgstr "คุณแน่ใจหรือว่าต้องการลบการส่งจดหมายนี้อย่างถาวร"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-msgid "Back"
-msgstr "กลับไป"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-msgid "Next step"
-msgstr "ขั้นต่อไป"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-msgid "Continue"
-msgstr "ดำเนินการต่อ"
-
-#: ang/crmMosaico.bootstrap/SubjectList.html
-#: ang/crmMosaico.crmstar/SubjectList.html
-msgid "Add subject"
-msgstr "เพิ่มหัวข้อ"
-
-#: ang/crmMosaico.bootstrap/SubjectList.html
-#: ang/crmMosaico.crmstar/SubjectList.html
-msgid "Remove subject"
-msgstr "ลบหัวข้อ"
-
-#: ang/crmMosaico.bootstrap/TemplateItem.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-#: ang/crmMosaico.crmstar/TemplateItem.html
-msgid "Preview"
-msgstr "ดูตัวอย่าง"
-
-#: ang/crmMosaico.bootstrap/TemplateItem.html
-#: ang/crmMosaico.crmstar/TemplateItem.html
-msgid "Settings"
-msgstr "การตั้งค่า"
-
-#: ang/crmMosaico.bootstrap/TemplateItem.html
-#: ang/crmMosaico.crmstar/TemplateItem.html
-msgid "Reset"
-msgstr "รีเซ็ต"
-
-#: ang/crmMosaico.bootstrap/TemplateItem.html
-#: ang/crmMosaico.crmstar/TemplateItem.html
-msgid "Are you sure you want to reset this?"
-msgstr "คุณแน่ใจหรือว่าต้องการรีเซ็ตสิ่งนี้"
-
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Select Group"
-msgstr "เลือกกลุ่ม"
-
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-msgid "Define Mailing"
-msgstr "กำหนดการส่งจดหมาย"
-
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-msgid "Review and Schedule"
-msgstr "ตรวจสอบและกำหนดเวลา"
-
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-msgid "Review"
-msgstr "ตรวจสอบ"
-
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-msgid "Schedule"
-msgstr "กำหนดเวลา"
-
 #: api/v3/MosaicoBaseTemplate.php templates/CRM/Mosaico/Form/Migrate.tpl
 msgid "Name"
 msgstr "ชื่อ"
@@ -588,11 +544,11 @@ msgstr "URL ภาพตัวอย่าง"
 msgid "Relative path to the template file"
 msgstr "เส้นทางไปยังไฟล์เทมเพลต"
 
-#: mosaico.php
+#: managed/Navigation_mosaico.mgd.php
 msgid "New Mailing (Traditional)"
 msgstr "การส่งจดหมายใหม่ (ดั้งเดิม)"
 
-#: mosaico.php
+#: managed/Navigation_mosaico.mgd.php
 msgid "Mosaico Settings"
 msgstr "การตั้งค่า Mosaico"
 
