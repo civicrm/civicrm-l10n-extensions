@@ -4,13 +4,13 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Mathieu Lu <mathieu@bidon.ca>, 2022
-# Kaya Zeren <kayazeren@gmail.com>, 2023
+# Kaya Zeren <kayazeren@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: mosaico\n"
-"POT-Creation-Date: 2023-01-27 19:23+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2023\n"
+"POT-Creation-Date: 2024-02-27 05:01+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (https://app.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,6 +25,10 @@ msgstr "Mosaico ileti kalıpları"
 #: CRM/Mosaico/DAO/MessageTemplate.php
 msgid "Mosaico Message Template"
 msgstr "Mosaico ileti kalıbı"
+
+#: CRM/Mosaico/DAO/MessageTemplate.php CRM/Mosaico/DAO/MosaicoTemplate.php
+msgid "ID"
+msgstr "Kimlik"
 
 #: CRM/Mosaico/DAO/MessageTemplate.php
 msgid "Unique Settings ID"
@@ -58,7 +62,7 @@ msgstr "Üst veriler"
 msgid "template"
 msgstr "Kalıp"
 
-#: CRM/Mosaico/DAO/MosaicoTemplate.php mosaico.php
+#: CRM/Mosaico/DAO/MosaicoTemplate.php managed/Navigation_mosaico.mgd.php
 msgid "Mosaico Templates"
 msgstr "Mosaico kalıpları"
 
@@ -118,6 +122,14 @@ msgstr ""
 msgid "Category"
 msgstr "Kategori"
 
+#: CRM/Mosaico/DAO/MosaicoTemplate.php
+msgid "Domain ID"
+msgstr ""
+
+#: CRM/Mosaico/DAO/MosaicoTemplate.php
+msgid "Domain ID this message template belongs to."
+msgstr ""
+
 #: CRM/Mosaico/Form/Migrate.php
 msgid "Are you sure want to copy data from Mosaico 1.x to 2.x?"
 msgstr ""
@@ -137,8 +149,7 @@ msgid "This action cannot be undone."
 msgstr "Bu işlem geri alınamaz."
 
 #: CRM/Mosaico/Form/Migrate.php ang/crmMosaico/SearchTemplateListButtons.html
-#: ang/crmMosaico.bootstrap/TemplateItem.html
-#: ang/crmMosaico.crmstar/TemplateItem.html
+#: ang/crmMosaico/TemplateItem.html
 msgid "Copy"
 msgstr "Kopyala"
 
@@ -158,17 +169,9 @@ msgstr "Görünmeyen Mosaico 1.x verileri silindi."
 msgid "Unrecognized action"
 msgstr "İşlem anlaşılamadı"
 
-#: CRM/Mosaico/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "%1, %2 sürümüne güncelle"
-
 #: CRM/Mosaico/Utils.php
 msgid "Automatically select a layout"
 msgstr "Düzen otomatik olarak seçilsin"
-
-#: CRM/Mosaico/Utils.php
-msgid "Single Page (crm-*)"
-msgstr "Tek sayfa (crm-*)"
 
 #: CRM/Mosaico/Utils.php
 msgid "Single Page (Bootstrap CSS)"
@@ -231,24 +234,28 @@ msgid "Configure template categories"
 msgstr "Kalıp kategorilerini yapılandır"
 
 #: ang/crmMosaico/AdvancedDialogCtrl.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
 msgid "Attachments"
 msgstr "Ek dosyalar"
 
 #: ang/crmMosaico/AdvancedDialogCtrl.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
 msgid "Responses"
 msgstr "Yanıtlar"
 
 #: ang/crmMosaico/AdvancedDialogCtrl.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
 msgid "Tracking"
 msgstr "İzleme"
 
 #: ang/crmMosaico/AdvancedDialogCtrl.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
 msgid "Publication"
 msgstr "Yayınlanma"
+
+#: ang/crmMosaico/BlockDesign.html
+msgid "My Design"
+msgstr "Tasarımım"
+
+#: ang/crmMosaico/BlockDesign.html
+msgid "All Categories"
+msgstr "Tüm kategoriler"
 
 #: ang/crmMosaico/BlockMailing.html
 msgid "Mailing Name"
@@ -278,7 +285,7 @@ msgstr "E-posta adresi"
 msgid "Recipients"
 msgstr "Alıcılar"
 
-#: ang/crmMosaico/BlockMailing.html ang/crmMosaico.bootstrap/SubjectList.html
+#: ang/crmMosaico/BlockMailing.html ang/crmMosaico/SubjectList.html
 msgid "Subject"
 msgstr "Konu"
 
@@ -293,6 +300,55 @@ msgstr "Grup aboneliğinden ayrıl"
 #: ang/crmMosaico/BlockMailing.html
 msgid "Language"
 msgstr "Dil"
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "Preview:"
+msgstr "Ön izleme:"
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "No content to preview"
+msgstr "Ön izlenebilecek bir içerik yok"
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "Preview as HTML"
+msgstr "HTML ön izlemesi"
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "Preview as Plain Text"
+msgstr "Düz metin ön izlemesi"
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "Send test email:"
+msgstr "Deneme e-postası gönder:"
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "Test Email"
+msgstr "Deneme e-postası"
+
+#: ang/crmMosaico/BlockPreview.html
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Complete all required-mark fields first"
+msgstr "Önce tüm doldurulması zorunlu olanları tamamlayın"
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "Not a valid email address"
+msgstr ""
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "Send test message to %1"
+msgstr "%1 ile deneme iletisi gönder"
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "Send test"
+msgstr "Deneme gönder"
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "Send test email to group:"
+msgstr "Deneme iletisinin gönderileceği grup:"
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "Send test message to group"
+msgstr "Gruba deneme iletisi gönder"
 
 #: ang/crmMosaico/BlockPreview.js
 msgid "Send to %1"
@@ -336,6 +392,62 @@ msgstr "Seçin"
 #: ang/crmMosaico/CreateFromBaseTemplate.html
 msgid "Create Template"
 msgstr "Kalıp oluştur"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Mailing"
+msgstr "Postalama"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Design"
+msgstr "Tasarım"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+msgid "Advanced"
+msgstr "Gelişmiş"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Options"
+msgstr "Ayarlar"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Advanced Mailing Options"
+msgstr "Gelişmiş postalama ayarları"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Submit Mailing"
+msgstr "Postalamayı gönder"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Save Draft"
+msgstr "Taslağı kaydet"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Delete Draft"
+msgstr "Taslağı sil"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Are you sure you want to permanently delete this mailing?"
+msgstr "Bu postalamayı kalıcı olarak silmek istediğinize emin misiniz?"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Back"
+msgstr "Geri"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Next step"
+msgstr "Sonraki adım"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Continue"
+msgstr "İlerle"
 
 #: ang/crmMosaico/MixinCtrl.js ang/crmMosaico/Templates.js
 msgid "Loading..."
@@ -383,10 +495,33 @@ msgid "Edit"
 msgstr "Düzenle"
 
 #: ang/crmMosaico/SearchTemplateListButtons.html
-#: ang/crmMosaico.bootstrap/TemplateItem.html
-#: ang/crmMosaico.crmstar/TemplateItem.html
+#: ang/crmMosaico/TemplateItem.html
 msgid "Delete"
 msgstr "Sil"
+
+#: ang/crmMosaico/SubjectList.html
+msgid "Add subject"
+msgstr "Konu ekle"
+
+#: ang/crmMosaico/SubjectList.html
+msgid "Remove subject"
+msgstr "Konuyu kaldır"
+
+#: ang/crmMosaico/TemplateItem.html
+msgid "Preview"
+msgstr "Ön izleme"
+
+#: ang/crmMosaico/TemplateItem.html
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: ang/crmMosaico/TemplateItem.html
+msgid "Reset"
+msgstr "Sıfırla"
+
+#: ang/crmMosaico/TemplateItem.html
+msgid "Are you sure you want to reset this?"
+msgstr "Bunu sıfırlamak istediğinize emin misiniz?"
 
 #: ang/crmMosaico/Templates.js
 msgid "Empty Template"
@@ -400,185 +535,6 @@ msgstr "Kaydediliyor"
 msgid "Saved"
 msgstr "Kaydedildi"
 
-#: ang/crmMosaico.bootstrap/BlockDesign.html
-#: ang/crmMosaico.crmstar/BlockDesign.html
-msgid "My Design"
-msgstr "Tasarımım"
-
-#: ang/crmMosaico.bootstrap/BlockDesign.html
-#: ang/crmMosaico.crmstar/BlockDesign.html
-msgid "All Categories"
-msgstr "Tüm kategoriler"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Preview:"
-msgstr "Ön izleme:"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "No content to preview"
-msgstr "Ön izlenebilecek bir içerik yok"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Preview as HTML"
-msgstr "HTML ön izlemesi"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Preview as Plain Text"
-msgstr "Düz metin ön izlemesi"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Send test email:"
-msgstr "Deneme e-postası gönder:"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Test Email"
-msgstr "Deneme e-postası"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Complete all required-mark fields first"
-msgstr "Önce tüm doldurulması zorunlu olanları tamamlayın"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Send test message to %1"
-msgstr "%1 ile deneme iletisi gönder"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Send test"
-msgstr "Deneme gönder"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Send test email to group:"
-msgstr "Deneme iletisinin gönderileceği grup:"
-
-#: ang/crmMosaico.bootstrap/BlockPreview.html
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Send test message to group"
-msgstr "Gruba deneme iletisi gönder"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-single.html
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-msgid "Mailing"
-msgstr "Postalama"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-single.html
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-msgid "Design"
-msgstr "Tasarım"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-single.html
-msgid "Advanced"
-msgstr "Gelişmiş"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-single.html
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-msgid "Options"
-msgstr "Ayarlar"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-single.html
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-msgid "Advanced Mailing Options"
-msgstr "Gelişmiş postalama ayarları"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-single.html
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-msgid "Submit Mailing"
-msgstr "Postalamayı gönder"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-single.html
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-msgid "Save Draft"
-msgstr "Taslağı kaydet"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-single.html
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-msgid "Delete Draft"
-msgstr "Taslağı sil"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-single.html
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-msgid "Are you sure you want to permanently delete this mailing?"
-msgstr "Bu postalamayı kalıcı olarak silmek istediğinize emin misiniz?"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-msgid "Back"
-msgstr "Geri"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-msgid "Next step"
-msgstr "Sonraki adım"
-
-#: ang/crmMosaico.bootstrap/EditMailingCtrl/bootstrap-wizard.html
-msgid "Continue"
-msgstr "İlerle"
-
-#: ang/crmMosaico.bootstrap/SubjectList.html
-#: ang/crmMosaico.crmstar/SubjectList.html
-msgid "Add subject"
-msgstr "Konu ekle"
-
-#: ang/crmMosaico.bootstrap/SubjectList.html
-#: ang/crmMosaico.crmstar/SubjectList.html
-msgid "Remove subject"
-msgstr "Konuyu kaldır"
-
-#: ang/crmMosaico.bootstrap/TemplateItem.html
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-#: ang/crmMosaico.crmstar/TemplateItem.html
-msgid "Preview"
-msgstr "Ön izleme"
-
-#: ang/crmMosaico.bootstrap/TemplateItem.html
-#: ang/crmMosaico.crmstar/TemplateItem.html
-msgid "Settings"
-msgstr "Ayarlar"
-
-#: ang/crmMosaico.bootstrap/TemplateItem.html
-#: ang/crmMosaico.crmstar/TemplateItem.html
-msgid "Reset"
-msgstr "Sıfırla"
-
-#: ang/crmMosaico.bootstrap/TemplateItem.html
-#: ang/crmMosaico.crmstar/TemplateItem.html
-msgid "Are you sure you want to reset this?"
-msgstr "Bunu sıfırlamak istediğinize emin misiniz?"
-
-#: ang/crmMosaico.crmstar/BlockPreview.html
-msgid "Select Group"
-msgstr "Grup seçin"
-
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-msgid "Define Mailing"
-msgstr "Postalamayı tanımlayın"
-
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-msgid "Review and Schedule"
-msgstr "Gözden geçirin ve zamanlayın"
-
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-msgid "Review"
-msgstr "Gözden geçir"
-
-#: ang/crmMosaico.crmstar/EditMailingCtrl/crmstar-single.html
-msgid "Schedule"
-msgstr "Zamanla"
-
 #: api/v3/MosaicoBaseTemplate.php templates/CRM/Mosaico/Form/Migrate.tpl
 msgid "Name"
 msgstr "Ad"
@@ -591,11 +547,11 @@ msgstr "Küçük görsel adresi"
 msgid "Relative path to the template file"
 msgstr "Kalıp dosyasının göreli yolu"
 
-#: mosaico.php
+#: managed/Navigation_mosaico.mgd.php
 msgid "New Mailing (Traditional)"
 msgstr "Yeni postalama (geleneksel)"
 
-#: mosaico.php
+#: managed/Navigation_mosaico.mgd.php
 msgid "Mosaico Settings"
 msgstr "Mosaico ayarları"
 
