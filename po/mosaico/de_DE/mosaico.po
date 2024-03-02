@@ -14,7 +14,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mosaico\n"
-"POT-Creation-Date: 2024-02-27 05:01+0000\n"
+"POT-Creation-Date: 2024-03-02 05:01+0000\n"
 "Last-Translator: Mathieu Lu <mathieu@bidon.ca>, 2024\n"
 "Language-Team: German (https://app.transifex.com/civicrm/teams/1905/de/)\n"
 "MIME-Version: 1.0\n"
@@ -84,9 +84,8 @@ msgstr "Eindeutige Vorlagen-ID"
 msgid "Title"
 msgstr "Titel"
 
-#: CRM/Mosaico/DAO/MosaicoTemplate.php
-#: ang/crmMosaico/CreateFromBaseTemplate.html ang/crmMosaico/MixinCtrl.js
-#: ang/crmMosaico/Templates.js
+#: CRM/Mosaico/DAO/MosaicoTemplate.php ang/crmMosaico/BlockDesign.js
+#: ang/crmMosaico/CreateFromBaseTemplate.html ang/crmMosaico/Templates.js
 msgid "Base Template"
 msgstr "Basisvorlage"
 
@@ -259,6 +258,14 @@ msgstr "Mein Design"
 msgid "All Categories"
 msgstr ""
 
+#: ang/crmMosaico/BlockDesign.js ang/crmMosaico/Templates.js
+msgid "Loading..."
+msgstr "Wird geladen ..."
+
+#: ang/crmMosaico/BlockDesign.js
+msgid "Preview / Test"
+msgstr "Vorschau / Test"
+
 #: ang/crmMosaico/BlockMailing.html
 msgid "Mailing Name"
 msgstr "Name des Rundschreibens"
@@ -292,8 +299,10 @@ msgid "Subject"
 msgstr "Betreff"
 
 #: ang/crmMosaico/BlockMailing.html
-msgid "Distribution"
-msgstr "Distribution"
+msgid ""
+"Define two options for the subject. We will use A/B testing to determine "
+"which is better."
+msgstr ""
 
 #: ang/crmMosaico/BlockMailing.html
 msgid "Unsubscribe Group"
@@ -352,6 +361,14 @@ msgstr "Sende Test-Mail an eine Gruppe:"
 msgid "Send test message to group"
 msgstr "Sende Testnachricht an eine Gruppe"
 
+#: ang/crmMosaico/BlockPreview.html
+msgid "The draft mailing allows two variations (A/B)."
+msgstr ""
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "If you send a test now, it will use all available variations."
+msgstr ""
+
 #: ang/crmMosaico/BlockPreview.js
 msgid "Send to %1"
 msgstr "Senden an %1"
@@ -369,6 +386,16 @@ msgid "Group is empty."
 msgstr "Gruppe ist leer."
 
 #: ang/crmMosaico/BlockSchedule.html
+msgid "Testing"
+msgstr ""
+
+#: ang/crmMosaico/BlockSchedule.html
+msgid ""
+"You have enabled A/B testing. We will send each test message to a subset of "
+"your subscribers. Later, you can decide the final mailing."
+msgstr ""
+
+#: ang/crmMosaico/BlockSchedule.html
 msgid "Schedule email to:"
 msgstr "E-Mail planen für:"
 
@@ -380,7 +407,7 @@ msgstr "Sofort versenden"
 msgid "Send on.."
 msgstr "Senden am ..."
 
-#: ang/crmMosaico/CreateFromBaseTemplate.ctrl.js
+#: ang/crmMosaico/CreateFromBaseTemplate.ctrl.js ang/crmMosaico/MixinCtrl.js
 #: ang/crmMosaico/SearchTemplateCreateButton.component.js
 #: ang/crmMosaico/SearchTemplateListButtons.component.js
 #: ang/crmMosaico/TemplateItem.js
@@ -402,8 +429,26 @@ msgstr "Rundschreiben"
 
 #: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
 #: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
-msgid "Design"
-msgstr "Design"
+msgid ""
+"With A/B testing, you can design two alternative versions of the mailing."
+msgstr ""
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+msgid "A/B Test"
+msgstr ""
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid ""
+"Are you sure you want to delete %1? The other design will become primary."
+msgstr ""
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+#: ang/crmMosaico/SearchTemplateListButtons.html
+#: ang/crmMosaico/TemplateItem.html
+msgid "Delete"
+msgstr "Löschen"
 
 #: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
 msgid "Advanced"
@@ -440,6 +485,21 @@ msgid "Are you sure you want to permanently delete this mailing?"
 msgstr "Soll dieses Rundschreiben wirklich endgültig gelöscht werden?"
 
 #: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+#: ang/crmMosaico/MixinCtrl.js
+msgid "Design"
+msgstr "Design"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Add A/B Test"
+msgstr ""
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid ""
+"Define two options for the design. We will use A/B testing to determine "
+"which is better."
+msgstr ""
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
 msgid "Back"
 msgstr "Zurück"
 
@@ -451,13 +511,13 @@ msgstr "Weiter"
 msgid "Continue"
 msgstr "Fortfahren"
 
-#: ang/crmMosaico/MixinCtrl.js ang/crmMosaico/Templates.js
-msgid "Loading..."
-msgstr "Wird geladen ..."
+#: ang/crmMosaico/MixinCtrl.js
+msgid "Design (A)"
+msgstr ""
 
 #: ang/crmMosaico/MixinCtrl.js
-msgid "Preview / Test"
-msgstr "Vorschau / Test"
+msgid "Design (B)"
+msgstr ""
 
 #: ang/crmMosaico/MixinCtrl.js
 msgid "Advanced Settings"
@@ -495,11 +555,6 @@ msgstr "Gelöscht"
 #: ang/crmMosaico/SearchTemplateListButtons.html
 msgid "Edit"
 msgstr "Bearbeiten"
-
-#: ang/crmMosaico/SearchTemplateListButtons.html
-#: ang/crmMosaico/TemplateItem.html
-msgid "Delete"
-msgstr "Löschen"
 
 #: ang/crmMosaico/SubjectList.html
 msgid "Add subject"
