@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mosaico\n"
-"POT-Creation-Date: 2024-02-27 05:01+0000\n"
+"POT-Creation-Date: 2024-03-02 05:01+0000\n"
 "Last-Translator: Pannapat Tammasrisawat, 2024\n"
 "Language-Team: Thai (Thailand) (https://app.transifex.com/civicrm/teams/1905/th_TH/)\n"
 "MIME-Version: 1.0\n"
@@ -79,9 +79,8 @@ msgstr "รหัสเทมเพลตเฉพาะ"
 msgid "Title"
 msgstr "หัวข้อ"
 
-#: CRM/Mosaico/DAO/MosaicoTemplate.php
-#: ang/crmMosaico/CreateFromBaseTemplate.html ang/crmMosaico/MixinCtrl.js
-#: ang/crmMosaico/Templates.js
+#: CRM/Mosaico/DAO/MosaicoTemplate.php ang/crmMosaico/BlockDesign.js
+#: ang/crmMosaico/CreateFromBaseTemplate.html ang/crmMosaico/Templates.js
 msgid "Base Template"
 msgstr "เทมเพลตพื้นฐาน"
 
@@ -254,6 +253,14 @@ msgstr "ดีไซน์ของฉัน"
 msgid "All Categories"
 msgstr "หมวดหมู่ทั้งหมด"
 
+#: ang/crmMosaico/BlockDesign.js ang/crmMosaico/Templates.js
+msgid "Loading..."
+msgstr "กำลังโหลด..."
+
+#: ang/crmMosaico/BlockDesign.js
+msgid "Preview / Test"
+msgstr "ดูตัวอย่าง / ทดสอบ"
+
 #: ang/crmMosaico/BlockMailing.html
 msgid "Mailing Name"
 msgstr "ชื่อการส่งจดหมาย"
@@ -287,8 +294,10 @@ msgid "Subject"
 msgstr "หัวข้อ"
 
 #: ang/crmMosaico/BlockMailing.html
-msgid "Distribution"
-msgstr "การเผยแพร่"
+msgid ""
+"Define two options for the subject. We will use A/B testing to determine "
+"which is better."
+msgstr ""
 
 #: ang/crmMosaico/BlockMailing.html
 msgid "Unsubscribe Group"
@@ -347,6 +356,14 @@ msgstr "ส่งอีเมลทดสอบไปถึงกลุ่ม:"
 msgid "Send test message to group"
 msgstr "ส่งข้อความทดสอบไปถึงกลุ่ม"
 
+#: ang/crmMosaico/BlockPreview.html
+msgid "The draft mailing allows two variations (A/B)."
+msgstr ""
+
+#: ang/crmMosaico/BlockPreview.html
+msgid "If you send a test now, it will use all available variations."
+msgstr ""
+
 #: ang/crmMosaico/BlockPreview.js
 msgid "Send to %1"
 msgstr "ส่งถึง %1"
@@ -364,6 +381,16 @@ msgid "Group is empty."
 msgstr "กลุ่มว่างเปล่า"
 
 #: ang/crmMosaico/BlockSchedule.html
+msgid "Testing"
+msgstr ""
+
+#: ang/crmMosaico/BlockSchedule.html
+msgid ""
+"You have enabled A/B testing. We will send each test message to a subset of "
+"your subscribers. Later, you can decide the final mailing."
+msgstr ""
+
+#: ang/crmMosaico/BlockSchedule.html
 msgid "Schedule email to:"
 msgstr "ตั้งเวลาส่งอีเมลถึง:"
 
@@ -375,7 +402,7 @@ msgstr "ส่งทันที"
 msgid "Send on.."
 msgstr "ส่งเมื่อ..."
 
-#: ang/crmMosaico/CreateFromBaseTemplate.ctrl.js
+#: ang/crmMosaico/CreateFromBaseTemplate.ctrl.js ang/crmMosaico/MixinCtrl.js
 #: ang/crmMosaico/SearchTemplateCreateButton.component.js
 #: ang/crmMosaico/SearchTemplateListButtons.component.js
 #: ang/crmMosaico/TemplateItem.js
@@ -397,8 +424,26 @@ msgstr "การส่งจดหมาย"
 
 #: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
 #: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
-msgid "Design"
-msgstr "ดีไซน์"
+msgid ""
+"With A/B testing, you can design two alternative versions of the mailing."
+msgstr ""
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+msgid "A/B Test"
+msgstr ""
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid ""
+"Are you sure you want to delete %1? The other design will become primary."
+msgstr ""
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+#: ang/crmMosaico/SearchTemplateListButtons.html
+#: ang/crmMosaico/TemplateItem.html
+msgid "Delete"
+msgstr "ลบ"
 
 #: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
 msgid "Advanced"
@@ -435,6 +480,21 @@ msgid "Are you sure you want to permanently delete this mailing?"
 msgstr "คุณแน่ใจหรือว่าต้องการลบการส่งจดหมายนี้อย่างถาวร"
 
 #: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+#: ang/crmMosaico/MixinCtrl.js
+msgid "Design"
+msgstr "ดีไซน์"
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid "Add A/B Test"
+msgstr ""
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
+msgid ""
+"Define two options for the design. We will use A/B testing to determine "
+"which is better."
+msgstr ""
+
+#: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
 msgid "Back"
 msgstr "กลับไป"
 
@@ -446,13 +506,13 @@ msgstr "ขั้นต่อไป"
 msgid "Continue"
 msgstr "ดำเนินการต่อ"
 
-#: ang/crmMosaico/MixinCtrl.js ang/crmMosaico/Templates.js
-msgid "Loading..."
-msgstr "กำลังโหลด..."
+#: ang/crmMosaico/MixinCtrl.js
+msgid "Design (A)"
+msgstr ""
 
 #: ang/crmMosaico/MixinCtrl.js
-msgid "Preview / Test"
-msgstr "ดูตัวอย่าง / ทดสอบ"
+msgid "Design (B)"
+msgstr ""
 
 #: ang/crmMosaico/MixinCtrl.js
 msgid "Advanced Settings"
@@ -490,11 +550,6 @@ msgstr "ลบแล้ว"
 #: ang/crmMosaico/SearchTemplateListButtons.html
 msgid "Edit"
 msgstr "แก้ไข"
-
-#: ang/crmMosaico/SearchTemplateListButtons.html
-#: ang/crmMosaico/TemplateItem.html
-msgid "Delete"
-msgstr "ลบ"
 
 #: ang/crmMosaico/SubjectList.html
 msgid "Add subject"
