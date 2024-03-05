@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = it: it_IT, et: et_EE, nb: nb_NO, km: km_KH, nl: nl_NL, id: id_ID, ja: ja_JP, af: af_ZA, sv: sv_SE, fi: fi_FI, de: de_DE, es: es_ES, pt: pt_PT, sq: sq_AL, lt: lt_LT, lv: lv_LV, hi: hi_IN, ru: ru_RU, sk: sk_SK, el: el_GR, vi: vi_VN, pl: pl_PL, bg: bg_BG, he: he_IL, da: da_DK, fr: fr_FR, ca: ca_ES, ro: ro_RO, sl: sl_SI, cs: cs_CZ, hu: hu_HU, tr: tr_TR
+lang_map = cs: cs_CZ, sv: sv_SE, pt: pt_PT, lv: lv_LV, sl: sl_SI, vi: vi_VN, tr: tr_TR, et: et_EE, ja: ja_JP, af: af_ZA, fi: fi_FI, nl: nl_NL, hi: hi_IN, hu: hu_HU, id: id_ID, fr: fr_FR, ro: ro_RO, sq: sq_AL, ru: ru_RU, pl: pl_PL, he: he_IL, ca: ca_ES, nb: nb_NO, km: km_KH, de: de_DE, es: es_ES, it: it_IT, bg: bg_BG, da: da_DK, lt: lt_LT, sk: sk_SK, el: el_GR
 
 [o:civicrm:p:civicrm_extensions:r:Civixero]
 file_filter = po/Civixero/<lang>/Civixero.po
@@ -513,6 +513,13 @@ source_lang = en
 file_filter = po/imagecrop/<lang>/imagecrop.po
 source_file = po/imagecrop/pot/imagecrop.pot
 source_lang = en
+
+[o:civicrm:p:civicrm_extensions:r:iparl]
+file_filter   = po/iparl/<lang>/iparl.po
+source_file   = po/iparl/pot/iparl.pot
+type          = POT
+minimum_perc  = 0
+resource_name = iparl
 
 [o:civicrm:p:civicrm_extensions:r:jsumfields]
 file_filter = po/jsumfields/<lang>/jsumfields.po
