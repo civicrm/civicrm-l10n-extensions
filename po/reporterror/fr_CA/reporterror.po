@@ -6,15 +6,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2021-03-01 05:01+0000\n"
-"PO-Revision-Date: 2022-02-24 12:37+0000\n"
-"Last-Translator: Usha Matisson <matisson@makoa.fr>\n"
-"Language-Team: French (Canada) (http://www.transifex.com/civicrm/civicrm_extensions/language/fr_CA/)\n"
+"POT-Creation-Date: 2024-03-09 05:01+0000\n"
+"PO-Revision-Date: 2014-04-29 21:10+0000\n"
+"Language-Team: French (Canada) (http://app.transifex.com/civicrm/civicrm_extensions/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: CRM/ReportError/Admin/Form/Settings.php
 msgid "Error Report Recipient"
@@ -35,6 +34,10 @@ msgstr "Afficher les données POST dans les courriels ?"
 #: CRM/ReportError/Admin/Form/Settings.php
 msgid "Display session data in e-mails?"
 msgstr "Afficher les données de session dans les courriels ?"
+
+#: CRM/ReportError/Admin/Form/Settings.php
+msgid "Display GET data in e-mails?"
+msgstr ""
 
 #: CRM/ReportError/Admin/Form/Settings.php
 msgid "- Select -"
@@ -134,10 +137,6 @@ msgid ""
 "the result of a deleted custom field or a bug in a custom search."
 msgstr ""
 
-#: CRM/ReportError/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Mise à jour de %1 à la révision %2"
-
 #: CRM/ReportError/Upgrader.php
 msgid "Rename settings to avoid conflicts with other extensions"
 msgstr ""
@@ -204,6 +203,10 @@ msgstr ""
 msgid ""
 "Session data can provide clues, but should probably be disabled most of the "
 "time, as it can include sensitive information."
+msgstr ""
+
+#: templates/CRM/ReportError/Admin/Form/Settings.tpl
+msgid "GET is the data in the URL request."
 msgstr ""
 
 #: templates/CRM/ReportError/Admin/Form/Settings.tpl
