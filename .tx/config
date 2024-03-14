@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = cs: cs_CZ, sv: sv_SE, pt: pt_PT, lv: lv_LV, sl: sl_SI, vi: vi_VN, tr: tr_TR, et: et_EE, ja: ja_JP, af: af_ZA, fi: fi_FI, nl: nl_NL, hi: hi_IN, hu: hu_HU, id: id_ID, fr: fr_FR, ro: ro_RO, sq: sq_AL, ru: ru_RU, pl: pl_PL, he: he_IL, ca: ca_ES, nb: nb_NO, km: km_KH, de: de_DE, es: es_ES, it: it_IT, bg: bg_BG, da: da_DK, lt: lt_LT, sk: sk_SK, el: el_GR
+lang_map = ja: ja_JP, el: el_GR, vi: vi_VN, ca: ca_ES, km: km_KH, nl: nl_NL, nb: nb_NO, et: et_EE, fi: fi_FI, hi: hi_IN, hu: hu_HU, ru: ru_RU, sk: sk_SK, tr: tr_TR, id: id_ID, fr: fr_FR, ro: ro_RO, it: it_IT, lt: lt_LT, lv: lv_LV, de: de_DE, bg: bg_BG, sv: sv_SE, af: af_ZA, pl: pl_PL, he: he_IL, es: es_ES, cs: cs_CZ, sl: sl_SI, sq: sq_AL, da: da_DK, pt: pt_PT
 
 [o:civicrm:p:civicrm_extensions:r:Civixero]
 file_filter = po/Civixero/<lang>/Civixero.po
@@ -108,6 +108,13 @@ source_lang = en
 file_filter = po/btcpay/<lang>/btcpay.po
 source_file = po/btcpay/pot/btcpay.pot
 source_lang = en
+
+[o:civicrm:p:civicrm_extensions:r:btrmsgtpl]
+file_filter   = po/btrmsgtpl/<lang>/btrmsgtpl.po
+source_file   = po/btrmsgtpl/pot/btrmsgtpl.pot
+type          = POT
+minimum_perc  = 0
+resource_name = btrmsgtpl
 
 [o:civicrm:p:civicrm_extensions:r:bugp]
 file_filter = po/bugp/<lang>/bugp.po
