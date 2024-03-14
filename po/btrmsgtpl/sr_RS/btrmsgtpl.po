@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: btrmsgtpl\n"
-"POT-Creation-Date: 2024-02-08 05:02+0000\n"
+"POT-Creation-Date: 2024-03-14 05:02+0000\n"
 "Last-Translator: Đorđe Kolaković <djordje@catalystbalkans.org>, 2023\n"
 "Language-Team: Serbian (Serbia) (https://app.transifex.com/civicrm/teams/1905/sr_RS/)\n"
 "MIME-Version: 1.0\n"
@@ -65,12 +65,9 @@ msgstr "Datum kreiranja"
 msgid "When the client was created."
 msgstr ""
 
-#: CRM/Btrmsgtpl/Form/MessageTemplates.php js/btrmsgtpl.js
+#: CRM/Btrmsgtpl/Page/MessageTemplates.php js/language.js
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
 msgid "Standard"
-msgstr ""
-
-#: CRM/Btrmsgtpl/Form/MessageTemplates.php
-msgid "Message Templates"
 msgstr ""
 
 #: CRM/Btrmsgtpl/Upgrader.php
@@ -96,10 +93,6 @@ msgstr ""
 
 #: CRM/Btrmsgtpl/Upgrader.php
 msgid "btrmsgtpl: checking/fixing broken revisions table."
-msgstr ""
-
-#: ang/crmBtrmsgtpl/Btrmsgtpl.js
-msgid "crmMsgadm"
 msgstr ""
 
 #: api/v3/Btrmsgtpl.php
@@ -176,529 +169,591 @@ msgstr ""
 msgid "btrmsgtpl: failed saving revision: "
 msgstr ""
 
-#: js/btrmsgtpl.js
-msgid "No translations or drafts yet."
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "Add"
-msgstr "Dodaj"
-
-#: js/btrmsgtpl.js
-msgid "Cancel"
-msgstr "Otkaži"
-
-#: js/btrmsgtpl.js
-msgid "The token {%1} has been replaced by {%2}"
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "Outdated Token Warning"
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "Variables"
-msgstr ""
-
-#: js/btrmsgtpl.js templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Tokens"
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "Properties"
-msgstr ""
-
-#: js/btrmsgtpl.js templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "- select -"
-msgstr "- izaberi -"
-
-#: js/btrmsgtpl.js
-msgid "Loading revision..."
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "Sample has changed"
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "Are you sure?"
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "The following variation(s) have been modified:<br /><br />%1"
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "Message template has changed"
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "Loading..."
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "Select or create a sample to preview."
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "Save Revision"
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "Enter a new name for this revision"
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "You are about to delete revision:<br /><br />%1"
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "You are about to delete %1:<br /><br />%2"
-msgstr ""
-
-#: js/btrmsgtpl.js templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Send Email"
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "Enter recipient email address"
-msgstr ""
-
-#: js/btrmsgtpl.js templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Rename Variable"
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "Enter the new variable name"
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "The Variables and Tokens have been refreshed."
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "Hooray!"
-msgstr ""
-
-#: js/btrmsgtpl.js templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "New Sample"
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "Enter a name for the sample"
-msgstr ""
-
-#: js/btrmsgtpl.js templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Save Sample"
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "Enter a new name for the sample"
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "You are about to delele sample:<br /><br />%1"
-msgstr ""
-
-#: js/btrmsgtpl.js js/tab.js
-msgid "Danger, Will Robinson!"
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "Okay"
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "%1 available"
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "deletion"
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "addition"
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "Refresh Current Tool"
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "Reveal In Outline"
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "Reveal In Outline & Select"
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "System Defaults"
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "System defaults loaded."
-msgstr ""
-
-#: js/tab.js templates/CRM/Btrmsgtpl/Tab.tpl
-msgid "User-driven"
-msgstr ""
-
-#: js/tab.js
-msgid "search results"
-msgstr ""
-
-#: js/tab.js templates/CRM/Btrmsgtpl/Tab.tpl
-msgid "...or just select a message to edit"
-msgstr ""
-
-#: js/tab.js templates/CRM/Btrmsgtpl/Tab.tpl
+#: btrmsgtpl.php
 msgid "Better Message Templates"
 msgstr ""
 
-#: js/tab.js
-msgid " - none -"
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-#: templates/CRM/Btrmsgtpl/Tab.tpl
-msgid "System Workflow"
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Restore Theme"
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Maximize"
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Close"
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Add Translation"
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Locale"
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Title Goes Here"
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Label Goes Here"
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Sample"
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Recent Captures"
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "None Available"
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Reference Samples"
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+#: js/common.js
 msgid "Action"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Save Sample As"
+#: js/common.js templates/CRM/Btrmsgtpl/Page/Standalone.tpl
+msgid "Okay"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Delete Sample"
+#: js/common.js templates/CRM/Btrmsgtpl/Page/Standalone.tpl
+msgid "Cancel"
+msgstr "Otkaži"
+
+#: js/common.js js/index.js
+msgid "Danger, Will Robinson!"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Refresh Samples"
+#: js/common.js
+msgid "Success"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Clear Selection"
+#: js/compare.js
+msgid "Loading system defaults..."
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Refresh Variables"
+#: js/compare.js
+msgid "System Defaults"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Type"
-msgstr "Tip"
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Boolean"
+#: js/compare.js
+msgid "System defaults loaded."
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Known Value"
+#: js/compare.js
+msgid "Delete Revision?"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Ignore"
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Option Value"
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Simple"
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Smarty Generated"
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Structured"
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Value"
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+#: js/compare.js js/language.js js/preview.js
 msgid "Yes"
 msgstr "Da"
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+#: js/compare.js js/language.js js/preview.js
 msgid "No"
 msgstr "Ne"
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "A value will not be assigned for this variable."
+#: js/compare.js
+msgid "Deleting revision..."
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+#: js/compare.js
+msgid "Revision has been deleted."
+msgstr ""
+
+#: js/compare.js
+msgid "Refreshing revisions..."
+msgstr ""
+
+#: js/compare.js
+msgid "Revisions have been updated."
+msgstr ""
+
+#: js/compare.js
+msgid "Revisions are up to date."
+msgstr ""
+
+#: js/compare.js
+msgid "Rename Revision"
+msgstr ""
+
+#: js/compare.js
+msgid "Enter a new name for the revision"
+msgstr ""
+
+#: js/compare.js
+msgid "Renaming revision..."
+msgstr ""
+
+#: js/compare.js
+msgid "Revision has been renamed."
+msgstr ""
+
+#: js/compare.js
+msgid "<code>%1</code> has been modified to match <code>%2</code>."
+msgstr ""
+
+#: js/compare.js
+msgid "Loading revision..."
+msgstr ""
+
+#: js/cymbal.js
+msgid "The token <code>%1</code> has been replaced by <code>%2</code>."
+msgstr ""
+
+#: js/cymbal.js
+msgid "Outdated Token Warning"
+msgstr ""
+
+#: js/cymbal.js
+msgid "Assigned by Smarty"
+msgstr ""
+
+#: js/cymbal.js
+msgid "Not referenced by the template"
+msgstr ""
+
+#: js/cymbal.js
+msgid "Likely deprecated (should not use)"
+msgstr ""
+
+#: js/index.js
+msgid "...or just select a message to edit"
+msgstr ""
+
+#: js/index.js
+msgid "search results (%1)"
+msgstr ""
+
+#: js/index.js
+msgid "Searching..."
+msgstr ""
+
+#: js/language.js
+msgid " (Draft)"
+msgstr ""
+
+#: js/language.js
+msgid "Close Editor?"
+msgstr ""
+
+#: js/language.js
 msgid ""
-"The value for this variable is already known and will automatically be "
-"assigned."
+"The following variation(s) have been modified:<br /><br /><code>%1</code>"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Group"
-msgstr "Grupa"
+#: js/language.js
+msgid "Activating draft..."
+msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+#: js/language.js
+msgid "<code>%1</code> has been activated."
+msgstr ""
+
+#: js/language.js
+msgid "Delete Variation?"
+msgstr ""
+
+#: js/language.js
+msgid "Deleting %1..."
+msgstr ""
+
+#: js/language.js
+msgid "translation"
+msgstr ""
+
+#: js/language.js
+msgid "draft"
+msgstr ""
+
+#: js/language.js
+msgid "%1 has been deleted."
+msgstr ""
+
+#: js/language.js
+msgid "Saving %1..."
+msgstr ""
+
+#: js/language.js
+msgid "%1 has been saved."
+msgstr ""
+
+#: js/monaco.js templates/CRM/Btrmsgtpl/Page/Standalone.tpl
+msgid "Insert Token"
+msgstr ""
+
+#: js/monaco.js
+msgid "Refresh Current Tool"
+msgstr ""
+
+#: js/monaco.js
+msgid "Reveal In Outline"
+msgstr ""
+
+#: js/monaco.js
+msgid "Reveal In Outline & Select"
+msgstr ""
+
+#: js/preview.js
+msgid "%1 available"
+msgstr ""
+
+#: js/preview.js
+msgid "Sample data is not valid JSON."
+msgstr ""
+
+#: js/preview.js
+msgid "Select a sample for preview."
+msgstr ""
+
+#: js/preview.js
+msgid "Loading preview..."
+msgstr ""
+
+#: js/preview.js
+msgid "Send Email"
+msgstr ""
+
+#: js/preview.js
+msgid "Enter recipient email address"
+msgstr ""
+
+#: js/preview.js
+msgid "Email has been sent."
+msgstr ""
+
+#: js/preview.js
+msgid "Delete Sample?"
+msgstr ""
+
+#: js/preview.js
+msgid "Deleting sample..."
+msgstr ""
+
+#: js/preview.js
+msgid "Sample has been deleted."
+msgstr ""
+
+#: js/preview.js
+msgid "%1 samples..."
+msgstr ""
+
+#: js/preview.js
+msgid "Refreshing"
+msgstr ""
+
+#: js/preview.js
+msgid "Fetching"
+msgstr ""
+
+#: js/preview.js
+msgid "Recent Captures"
+msgstr ""
+
+#: js/preview.js
+msgid "Reference Samples"
+msgstr ""
+
+#: js/preview.js
+msgid "Samples have been refreshed."
+msgstr ""
+
+#: js/preview.js
+msgid "Save Sample As"
+msgstr ""
+
+#: js/preview.js
+msgid "Enter a new name for the sample"
+msgstr ""
+
+#: js/preview.js
+msgid "Saving sample..."
+msgstr ""
+
+#: js/preview.js
+msgid "Sample has been saved."
+msgstr ""
+
+#: js/preview.js
+msgid "Loading sample..."
+msgstr ""
+
+#: js/preview.js
+msgid "Close Sample?"
+msgstr ""
+
+#: js/preview.js
+msgid "<code>%1</code> has been modified."
+msgstr ""
+
+#: js/preview.js
+msgid "Switch Sample?"
+msgstr ""
+
+#: js/preview.js
 msgid ""
-"Tokens require an entity ID. In most instances, this will automatically be "
-"deduced from the sample data."
+"<code>%1</code> has been modified.<br /><br />Switch to <code>%2</code>?"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid ""
-"This variable is assigned by Smarty and a value cannot be provided here."
+#: js/preview.js
+msgid "Update Preview"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Enter the data as the right-hand side of a PHP variable assignment."
+#: templates/CRM/Btrmsgtpl/Page/Standalone.tpl
+msgid "Add Translation"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Format"
+#: templates/CRM/Btrmsgtpl/Page/Standalone.tpl
+msgid "Locale"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+#: templates/CRM/Btrmsgtpl/Page/Standalone.tpl
+msgid " - select -"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/Standalone.tpl
+msgid "Tokens"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/Standalone.tpl
+msgid "System Workflow:"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/Standalone.tpl
+msgid "Close Editor"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/Standalone.tpl
+msgid "Return To CiviCRM"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/Standalone.tpl
+msgid "MODIFIED"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Template Variation"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Message Format"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
 msgid "HTML"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
 msgid "Plain-Text"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
 msgid "Subject"
 msgstr "Subjekat"
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Template Actions"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Add Translation..."
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
 msgid "Create Draft"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Save Template"
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
 msgid "Activate Draft"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Delete Draft"
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Save Template"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Delete Translation"
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Delete Template..."
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
 msgid "Tool"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
 msgid "Outline"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
 msgid "Preview"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
 msgid "Compare"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Outline Actions"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
 msgid "Expand All"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
 msgid "Collapse All"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Refresh Symbols"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Symbols"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Previous Reference"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Next Reference"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Preview Actions"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Save Sample"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Save Sample As..."
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Delete Sample..."
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Refresh Samples"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Send Email..."
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Sample"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Compare Actions"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
 msgid "Revert Revision"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Save Revision As"
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Rename Revision..."
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Delete Revision"
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Delete Revision..."
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Refresh"
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Refresh Revisions"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid ""
-"Editor is resizable vertically from the bottom edge, while not maximized."
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Revision"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Goto Next"
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Side-By-Side"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Smarty Documentation"
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Previous Difference"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "HTML Reference"
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Next Difference"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "No differences found."
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Tab.tpl
-msgid ""
-"provides additional tools to help visualize, edit, and troubleshoot message "
-"templates."
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Tab.tpl
-msgid "Smarty not enabled"
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Tab.tpl
-msgid "Smarty is not enabled for user-driven messages. See the"
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Tab.tpl
-msgid "CiviCRM User Guide"
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Tab.tpl
-msgid ""
-"for instructions on how to enable this setting. These messages appear to "
-"contain Smarty code."
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Tab.tpl
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
 msgid "search message content for..."
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
-msgid "Clear Search"
-msgstr ""
-
-#: templates/CRM/Btrmsgtpl/Tab.tpl
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
 msgid "Press %1 to execute search, %2 to clear."
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
+msgid "User-driven"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
+msgid "System Workflow"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
 msgid "Global Settings"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
+msgid "These settings affect general operation for all users."
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
 msgid "Automatically Inject Header"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
+msgid "- none -"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
 msgid "Default Message Header"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
 msgid "Automatically Inject Footer"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
 msgid "Default Message Footer"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
 msgid "Personal Preferences"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
-msgid "Make this the default tab"
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
+msgid "These settings apply to this browser on this device."
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
-msgid "Only list important templates"
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
+msgid "Only list important templates (System Workflow)"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
-msgid "Open editor maximized"
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
+msgid ""
+"Important templates are those that have been modified and/or have a "
+"translation and/or have samples available. In other words, templates being "
+"used by the site."
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
-msgid "Restore theme"
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
+msgid "Font Size"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
-msgid "Goto error"
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
+msgid "Font size to be used by the Monaco code editors and the outline tool."
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
+msgid "Tool Side"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
+msgid "Right"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
+msgid "Left"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
+msgid "Which side of the editor should display the selected tool?"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
 msgid "Wordwrap"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
 msgid "Off"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
 msgid "On"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
 msgid "Indent"
 msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
 msgid "Deep Indent"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
+msgid "Wordwrap mode to be used by the Monaco code editor."
 msgstr ""
