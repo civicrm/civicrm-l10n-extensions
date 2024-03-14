@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: btrmsgtpl\n"
-"POT-Creation-Date: 2024-02-08 05:02+0000\n"
+"POT-Creation-Date: 2024-03-14 05:02+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (https://app.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -66,13 +66,10 @@ msgstr "Oluşturulma tarihi"
 msgid "When the client was created."
 msgstr "İstemcinin oluşturulma zamanı."
 
-#: CRM/Btrmsgtpl/Form/MessageTemplates.php js/btrmsgtpl.js
+#: CRM/Btrmsgtpl/Page/MessageTemplates.php js/language.js
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
 msgid "Standard"
 msgstr "Standart"
-
-#: CRM/Btrmsgtpl/Form/MessageTemplates.php
-msgid "Message Templates"
-msgstr "İleti kalıpları"
 
 #: CRM/Btrmsgtpl/Upgrader.php
 msgid ""
@@ -102,10 +99,6 @@ msgstr ""
 #: CRM/Btrmsgtpl/Upgrader.php
 msgid "btrmsgtpl: checking/fixing broken revisions table."
 msgstr ""
-
-#: ang/crmBtrmsgtpl/Btrmsgtpl.js
-msgid "crmMsgadm"
-msgstr "crmMsgadm"
 
 #: api/v3/Btrmsgtpl.php
 msgid "btrmsgtpl: Error deleting translation/draft: "
@@ -181,538 +174,591 @@ msgstr "btrmsgtpl: örnek oluşturulamadı: "
 msgid "btrmsgtpl: failed saving revision: "
 msgstr "btrmsgtpl: değişiklik kaydedilemedi: "
 
-#: js/btrmsgtpl.js
-msgid "No translations or drafts yet."
-msgstr "Henüz bir çeviri ya da taslak yok."
-
-#: js/btrmsgtpl.js
-msgid "Add"
-msgstr "Ekle"
-
-#: js/btrmsgtpl.js
-msgid "Cancel"
-msgstr "İptal"
-
-#: js/btrmsgtpl.js
-msgid "The token {%1} has been replaced by {%2}"
-msgstr "{%1} kodu {%2} ile değiştirildi"
-
-#: js/btrmsgtpl.js
-msgid "Outdated Token Warning"
-msgstr "Eski kod uyarısı"
-
-#: js/btrmsgtpl.js
-msgid "Variables"
-msgstr "Değişkenler"
-
-#: js/btrmsgtpl.js templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Tokens"
-msgstr "Kodlar"
-
-#: js/btrmsgtpl.js
-msgid "Properties"
-msgstr "Özellikler"
-
-#: js/btrmsgtpl.js templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "- select -"
-msgstr "- Seçin -"
-
-#: js/btrmsgtpl.js
-msgid "Loading revision..."
-msgstr "Sürüm yükleniyor..."
-
-#: js/btrmsgtpl.js
-msgid "Sample has changed"
-msgstr "Örnek değiştirildi"
-
-#: js/btrmsgtpl.js
-msgid "Are you sure?"
-msgstr "Emin misiniz?"
-
-#: js/btrmsgtpl.js
-msgid "The following variation(s) have been modified:<br /><br />%1"
-msgstr "Şu çeşitler değiştirildi:<br /><br />%1"
-
-#: js/btrmsgtpl.js
-msgid "Message template has changed"
-msgstr "İleti kalıbı değiştirildi"
-
-#: js/btrmsgtpl.js
-msgid "Loading..."
-msgstr "Yükleniyor..."
-
-#: js/btrmsgtpl.js
-msgid "Select or create a sample to preview."
-msgstr "Ön izlenecek bir örnek seçin ya da oluşturun."
-
-#: js/btrmsgtpl.js
-msgid "Save Revision"
-msgstr "Değişikliği kaydet"
-
-#: js/btrmsgtpl.js
-msgid "Enter a new name for this revision"
-msgstr "Bu değişikliğe yeni bir ad verin"
-
-#: js/btrmsgtpl.js
-msgid "You are about to delete revision:<br /><br />%1"
-msgstr "Değişikliği silmek üzeresiniz:<br /><br />%1"
-
-#: js/btrmsgtpl.js
-msgid "You are about to delete %1:<br /><br />%2"
-msgstr "%1 ögesini silmek üzeresiniz:<br /><br />%2"
-
-#: js/btrmsgtpl.js templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Send Email"
-msgstr "E-posta gönder"
-
-#: js/btrmsgtpl.js
-msgid "Enter recipient email address"
-msgstr "Alıcı e-posta adresini yazın"
-
-#: js/btrmsgtpl.js templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Rename Variable"
-msgstr "Değişkeni yeniden adlandır"
-
-#: js/btrmsgtpl.js
-msgid "Enter the new variable name"
-msgstr "Yeni değişken adını yazın"
-
-#: js/btrmsgtpl.js
-msgid "The Variables and Tokens have been refreshed."
-msgstr "Değişkenler ve kodlar yenilendi."
-
-#: js/btrmsgtpl.js
-msgid "Hooray!"
-msgstr "Tamamdır!"
-
-#: js/btrmsgtpl.js templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "New Sample"
-msgstr "Yeni örnek"
-
-#: js/btrmsgtpl.js
-msgid "Enter a name for the sample"
-msgstr "Yeni örneğin adını yazın"
-
-#: js/btrmsgtpl.js templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Save Sample"
-msgstr "Örneği kaydet"
-
-#: js/btrmsgtpl.js
-msgid "Enter a new name for the sample"
-msgstr "Örneğin yeni adını yazın"
-
-#: js/btrmsgtpl.js
-msgid "You are about to delele sample:<br /><br />%1"
-msgstr "Örneği silmek üzeresiniz:<br /><br />%1"
-
-#: js/btrmsgtpl.js js/tab.js
-msgid "Danger, Will Robinson!"
-msgstr "Dikkat, Will Robinson!"
-
-#: js/btrmsgtpl.js
-msgid "Okay"
-msgstr "Tamam"
-
-#: js/btrmsgtpl.js
-msgid "%1 available"
-msgstr "%1 kullanılabilir"
-
-#: js/btrmsgtpl.js
-msgid "deletion"
-msgstr "silme"
-
-#: js/btrmsgtpl.js
-msgid "addition"
-msgstr "ekleme"
-
-#: js/btrmsgtpl.js
-msgid "Refresh Current Tool"
-msgstr "Geçerli aracı yenile"
-
-#: js/btrmsgtpl.js
-msgid "Reveal In Outline"
-msgstr "Taslakta görüntüle"
-
-#: js/btrmsgtpl.js
-msgid "Reveal In Outline & Select"
-msgstr "Taslakta görüntüle ve seç"
-
-#: js/btrmsgtpl.js
-msgid "System Defaults"
-msgstr ""
-
-#: js/btrmsgtpl.js
-msgid "System defaults loaded."
-msgstr ""
-
-#: js/tab.js templates/CRM/Btrmsgtpl/Tab.tpl
-msgid "User-driven"
-msgstr "Kullanıcının belirlediği"
-
-#: js/tab.js
-msgid "search results"
-msgstr "arama sonuçları"
-
-#: js/tab.js templates/CRM/Btrmsgtpl/Tab.tpl
-msgid "...or just select a message to edit"
-msgstr "...ya da düzenlemek için bir ileti seçin"
-
-#: js/tab.js templates/CRM/Btrmsgtpl/Tab.tpl
+#: btrmsgtpl.php
 msgid "Better Message Templates"
 msgstr "Daha iyi ileti kalıpları"
 
-#: js/tab.js
-msgid " - none -"
-msgstr "- Yok -"
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-#: templates/CRM/Btrmsgtpl/Tab.tpl
-msgid "System Workflow"
-msgstr "Sistem iş akışı"
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Restore Theme"
-msgstr "Temayı geri yükle"
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Maximize"
-msgstr "Büyüt"
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Close"
-msgstr "Kapat"
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Add Translation"
-msgstr "Çeviri ekle"
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Locale"
-msgstr "Dil"
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Title Goes Here"
-msgstr "Başlık burada bulunur"
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Label Goes Here"
-msgstr "Etiket burada bulunur"
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Sample"
-msgstr "Örnek"
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Recent Captures"
-msgstr "Son yakalamalar"
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "None Available"
-msgstr "Kullanılabilecek bir şey yok"
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Reference Samples"
-msgstr "Referans örnekleri"
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+#: js/common.js
 msgid "Action"
 msgstr "İşlem"
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Save Sample As"
-msgstr "Örneği farklı kaydet"
+#: js/common.js templates/CRM/Btrmsgtpl/Page/Standalone.tpl
+msgid "Okay"
+msgstr "Tamam"
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Delete Sample"
-msgstr "Örneği sil"
+#: js/common.js templates/CRM/Btrmsgtpl/Page/Standalone.tpl
+msgid "Cancel"
+msgstr "İptal"
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Refresh Samples"
-msgstr "Örneği yenile"
+#: js/common.js js/index.js
+msgid "Danger, Will Robinson!"
+msgstr "Dikkat, Will Robinson!"
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Clear Selection"
-msgstr "Seçimi temizle"
+#: js/common.js
+msgid "Success"
+msgstr "Başarılı"
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Refresh Variables"
-msgstr "Değişkenleri yenile"
+#: js/compare.js
+msgid "Loading system defaults..."
+msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Type"
-msgstr "Tür"
+#: js/compare.js
+msgid "System Defaults"
+msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Boolean"
-msgstr "İkili"
+#: js/compare.js
+msgid "System defaults loaded."
+msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Known Value"
-msgstr "Bilinen değer"
+#: js/compare.js
+msgid "Delete Revision?"
+msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Ignore"
-msgstr "Yok say"
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Option Value"
-msgstr "Seçenek değeri"
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Simple"
-msgstr "Basit"
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Smarty Generated"
-msgstr "Smarty ile üretilen"
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Structured"
-msgstr "Yapılandırılmış"
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Value"
-msgstr "Değer"
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+#: js/compare.js js/language.js js/preview.js
 msgid "Yes"
 msgstr "Evet"
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+#: js/compare.js js/language.js js/preview.js
 msgid "No"
 msgstr "Hayır"
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "A value will not be assigned for this variable."
-msgstr "Bu değişkene bir değer atanmayacak."
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid ""
-"The value for this variable is already known and will automatically be "
-"assigned."
-msgstr "Bu değişkenin değeri zaten biliniyor ve otomatik olarak atanacak."
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Group"
-msgstr "Grup"
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid ""
-"Tokens require an entity ID. In most instances, this will automatically be "
-"deduced from the sample data."
+#: js/compare.js
+msgid "Deleting revision..."
 msgstr ""
-"Kodlar için bir varlık kimliği gereklidir. Çoğu durumda örnek verilerden "
-"otomatik olarak çıkarılır."
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid ""
-"This variable is assigned by Smarty and a value cannot be provided here."
+#: js/compare.js
+msgid "Revision has been deleted."
 msgstr ""
-"Bu değişken Smarty tarafından atanmıştır ve burada bir değer belirtilemez."
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Enter the data as the right-hand side of a PHP variable assignment."
-msgstr "Verileri bir PHP değişken atamasının sağ tarafı olarak yazın."
+#: js/compare.js
+msgid "Refreshing revisions..."
+msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Format"
-msgstr "Biçim"
+#: js/compare.js
+msgid "Revisions have been updated."
+msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+#: js/compare.js
+msgid "Revisions are up to date."
+msgstr ""
+
+#: js/compare.js
+msgid "Rename Revision"
+msgstr ""
+
+#: js/compare.js
+msgid "Enter a new name for the revision"
+msgstr ""
+
+#: js/compare.js
+msgid "Renaming revision..."
+msgstr ""
+
+#: js/compare.js
+msgid "Revision has been renamed."
+msgstr ""
+
+#: js/compare.js
+msgid "<code>%1</code> has been modified to match <code>%2</code>."
+msgstr ""
+
+#: js/compare.js
+msgid "Loading revision..."
+msgstr "Sürüm yükleniyor..."
+
+#: js/cymbal.js
+msgid "The token <code>%1</code> has been replaced by <code>%2</code>."
+msgstr ""
+
+#: js/cymbal.js
+msgid "Outdated Token Warning"
+msgstr "Eski kod uyarısı"
+
+#: js/cymbal.js
+msgid "Assigned by Smarty"
+msgstr ""
+
+#: js/cymbal.js
+msgid "Not referenced by the template"
+msgstr ""
+
+#: js/cymbal.js
+msgid "Likely deprecated (should not use)"
+msgstr ""
+
+#: js/index.js
+msgid "...or just select a message to edit"
+msgstr "...ya da düzenlemek için bir ileti seçin"
+
+#: js/index.js
+msgid "search results (%1)"
+msgstr ""
+
+#: js/index.js
+msgid "Searching..."
+msgstr ""
+
+#: js/language.js
+msgid " (Draft)"
+msgstr ""
+
+#: js/language.js
+msgid "Close Editor?"
+msgstr ""
+
+#: js/language.js
+msgid ""
+"The following variation(s) have been modified:<br /><br /><code>%1</code>"
+msgstr ""
+
+#: js/language.js
+msgid "Activating draft..."
+msgstr ""
+
+#: js/language.js
+msgid "<code>%1</code> has been activated."
+msgstr ""
+
+#: js/language.js
+msgid "Delete Variation?"
+msgstr ""
+
+#: js/language.js
+msgid "Deleting %1..."
+msgstr ""
+
+#: js/language.js
+msgid "translation"
+msgstr ""
+
+#: js/language.js
+msgid "draft"
+msgstr ""
+
+#: js/language.js
+msgid "%1 has been deleted."
+msgstr ""
+
+#: js/language.js
+msgid "Saving %1..."
+msgstr ""
+
+#: js/language.js
+msgid "%1 has been saved."
+msgstr ""
+
+#: js/monaco.js templates/CRM/Btrmsgtpl/Page/Standalone.tpl
+msgid "Insert Token"
+msgstr "Kod ekle"
+
+#: js/monaco.js
+msgid "Refresh Current Tool"
+msgstr "Geçerli aracı yenile"
+
+#: js/monaco.js
+msgid "Reveal In Outline"
+msgstr "Taslakta görüntüle"
+
+#: js/monaco.js
+msgid "Reveal In Outline & Select"
+msgstr "Taslakta görüntüle ve seç"
+
+#: js/preview.js
+msgid "%1 available"
+msgstr "%1 kullanılabilir"
+
+#: js/preview.js
+msgid "Sample data is not valid JSON."
+msgstr ""
+
+#: js/preview.js
+msgid "Select a sample for preview."
+msgstr ""
+
+#: js/preview.js
+msgid "Loading preview..."
+msgstr ""
+
+#: js/preview.js
+msgid "Send Email"
+msgstr "E-posta gönder"
+
+#: js/preview.js
+msgid "Enter recipient email address"
+msgstr "Alıcı e-posta adresini yazın"
+
+#: js/preview.js
+msgid "Email has been sent."
+msgstr ""
+
+#: js/preview.js
+msgid "Delete Sample?"
+msgstr ""
+
+#: js/preview.js
+msgid "Deleting sample..."
+msgstr ""
+
+#: js/preview.js
+msgid "Sample has been deleted."
+msgstr ""
+
+#: js/preview.js
+msgid "%1 samples..."
+msgstr ""
+
+#: js/preview.js
+msgid "Refreshing"
+msgstr ""
+
+#: js/preview.js
+msgid "Fetching"
+msgstr ""
+
+#: js/preview.js
+msgid "Recent Captures"
+msgstr "Son yakalamalar"
+
+#: js/preview.js
+msgid "Reference Samples"
+msgstr "Referans örnekleri"
+
+#: js/preview.js
+msgid "Samples have been refreshed."
+msgstr ""
+
+#: js/preview.js
+msgid "Save Sample As"
+msgstr "Örneği farklı kaydet"
+
+#: js/preview.js
+msgid "Enter a new name for the sample"
+msgstr "Örneğin yeni adını yazın"
+
+#: js/preview.js
+msgid "Saving sample..."
+msgstr ""
+
+#: js/preview.js
+msgid "Sample has been saved."
+msgstr ""
+
+#: js/preview.js
+msgid "Loading sample..."
+msgstr ""
+
+#: js/preview.js
+msgid "Close Sample?"
+msgstr ""
+
+#: js/preview.js
+msgid "<code>%1</code> has been modified."
+msgstr ""
+
+#: js/preview.js
+msgid "Switch Sample?"
+msgstr ""
+
+#: js/preview.js
+msgid ""
+"<code>%1</code> has been modified.<br /><br />Switch to <code>%2</code>?"
+msgstr ""
+
+#: js/preview.js
+msgid "Update Preview"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/Standalone.tpl
+msgid "Add Translation"
+msgstr "Çeviri ekle"
+
+#: templates/CRM/Btrmsgtpl/Page/Standalone.tpl
+msgid "Locale"
+msgstr "Dil"
+
+#: templates/CRM/Btrmsgtpl/Page/Standalone.tpl
+msgid " - select -"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/Standalone.tpl
+msgid "Tokens"
+msgstr "Kodlar"
+
+#: templates/CRM/Btrmsgtpl/Page/Standalone.tpl
+msgid "System Workflow:"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/Standalone.tpl
+msgid "Close Editor"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/Standalone.tpl
+msgid "Return To CiviCRM"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/Standalone.tpl
+msgid "MODIFIED"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Template Variation"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Message Format"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
 msgid "HTML"
 msgstr "HTML"
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
 msgid "Plain-Text"
 msgstr "Düz metin"
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
 msgid "Subject"
 msgstr "Konu"
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Template Actions"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Add Translation..."
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
 msgid "Create Draft"
 msgstr "Taslak oluştur"
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Save Template"
-msgstr "Kalıbı kaydet"
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
 msgid "Activate Draft"
 msgstr "Taslağı etkinleştir"
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Delete Draft"
-msgstr "Taslağı sil"
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Save Template"
+msgstr "Kalıbı kaydet"
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Delete Translation"
-msgstr "Çeviriyi sil"
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Delete Template..."
+msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
 msgid "Tool"
 msgstr "Araç"
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
 msgid "Outline"
 msgstr "Taslak"
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
 msgid "Preview"
 msgstr "Ön izleme"
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
 msgid "Compare"
 msgstr "Karşılaştır"
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Outline Actions"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
 msgid "Expand All"
 msgstr "Tümünü genişlet"
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
 msgid "Collapse All"
 msgstr "Tümünü daralt"
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Refresh Symbols"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Symbols"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Previous Reference"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Next Reference"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Preview Actions"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Save Sample"
+msgstr "Örneği kaydet"
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Save Sample As..."
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Delete Sample..."
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Refresh Samples"
+msgstr "Örneği yenile"
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Send Email..."
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Sample"
+msgstr "Örnek"
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Compare Actions"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
 msgid "Revert Revision"
 msgstr "Değişikliği geri al"
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Save Revision As"
-msgstr "Değişikliği farklı kaydet"
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Delete Revision"
-msgstr "Değişikliği sil"
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Refresh"
-msgstr "Yenile"
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid ""
-"Editor is resizable vertically from the bottom edge, while not maximized."
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Rename Revision..."
 msgstr ""
-"Düzenleyici boyutu, büyütülmemişken alt kenardan dikey olarak "
-"değiştirilebilir."
 
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Goto Next"
-msgstr "Sonrakine git"
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "Smarty Documentation"
-msgstr "Smarty belgeleri"
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "HTML Reference"
-msgstr "HTML referansı"
-
-#: templates/CRM/Btrmsgtpl/Form/MessageTemplates.tpl
-msgid "No differences found."
-msgstr "Herhangi bir fark bulunamadı."
-
-#: templates/CRM/Btrmsgtpl/Tab.tpl
-msgid ""
-"provides additional tools to help visualize, edit, and troubleshoot message "
-"templates."
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Delete Revision..."
 msgstr ""
-"ileti kalıplarını görselleştirmek, düzenlemek ve sorunlarını gidermek için "
-"ek araçlar sağlar."
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
-msgid "Smarty not enabled"
-msgstr "Smarty etkinleştirilmemiş"
-
-#: templates/CRM/Btrmsgtpl/Tab.tpl
-msgid "Smarty is not enabled for user-driven messages. See the"
-msgstr "Kullanıcı tarafından belirlenen iletilerde Smarty kullanılmaz. Şuraya"
-
-#: templates/CRM/Btrmsgtpl/Tab.tpl
-msgid "CiviCRM User Guide"
-msgstr "CiviCRM kullanıcı rehberi"
-
-#: templates/CRM/Btrmsgtpl/Tab.tpl
-msgid ""
-"for instructions on how to enable this setting. These messages appear to "
-"contain Smarty code."
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Refresh Revisions"
 msgstr ""
-"bu ayarın nasıl etkinleştirileceği ile ilgili yönergelere bakın. Bu "
-"iletilerde Smarty kodu var."
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Revision"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Side-By-Side"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Previous Difference"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/editor.tpl
+msgid "Next Difference"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
 msgid "search message content for..."
 msgstr "ileti içeriklerinde şu aransın..."
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
-msgid "Clear Search"
-msgstr "Aramayı temizle"
-
-#: templates/CRM/Btrmsgtpl/Tab.tpl
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
 msgid "Press %1 to execute search, %2 to clear."
 msgstr "Aramak için %1, temizlemek için %2 üzerine basın."
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
+msgid "User-driven"
+msgstr "Kullanıcının belirlediği"
+
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
+msgid "System Workflow"
+msgstr "Sistem iş akışı"
+
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
 msgid "Global Settings"
 msgstr "Genel ayarlar"
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
+msgid "These settings affect general operation for all users."
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
 msgid "Automatically Inject Header"
 msgstr "Üst bilgi otomatik olarak eklensin"
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
+msgid "- none -"
+msgstr "- Yok -"
+
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
 msgid "Default Message Header"
 msgstr "Varsayılan ileti üst bilgisi"
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
 msgid "Automatically Inject Footer"
 msgstr "Alt bilgi otomatik olarak eklensin"
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
 msgid "Default Message Footer"
 msgstr "Varsayılan ileti alt bilgisi"
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
 msgid "Personal Preferences"
 msgstr "Kişisel tercihler"
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
-msgid "Make this the default tab"
-msgstr "Bu sekme varsayılan olsun"
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
+msgid "These settings apply to this browser on this device."
+msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
-msgid "Only list important templates"
-msgstr "Yalnızca önemli kalıplar listelensin"
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
+msgid "Only list important templates (System Workflow)"
+msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
-msgid "Open editor maximized"
-msgstr "Düzenleyici büyütülmüş olarak açılsın"
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
+msgid ""
+"Important templates are those that have been modified and/or have a "
+"translation and/or have samples available. In other words, templates being "
+"used by the site."
+msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
-msgid "Restore theme"
-msgstr "Temayı geri yükle"
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
+msgid "Font Size"
+msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
-msgid "Goto error"
-msgstr "Hataya git"
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
+msgid "Font size to be used by the Monaco code editors and the outline tool."
+msgstr ""
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
+msgid "Tool Side"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
+msgid "Right"
+msgstr "Sağda"
+
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
+msgid "Left"
+msgstr "Solda"
+
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
+msgid "Which side of the editor should display the selected tool?"
+msgstr ""
+
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
 msgid "Wordwrap"
 msgstr "Sözcük kaydır"
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
 msgid "Off"
 msgstr "Kapalı"
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
 msgid "On"
 msgstr "Açık"
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
 msgid "Indent"
 msgstr "Girinti"
 
-#: templates/CRM/Btrmsgtpl/Tab.tpl
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
 msgid "Deep Indent"
 msgstr "Derin girinti"
+
+#: templates/CRM/Btrmsgtpl/Page/index.tpl
+msgid "Wordwrap mode to be used by the Monaco code editor."
+msgstr ""
