@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = ja: ja_JP, el: el_GR, vi: vi_VN, ca: ca_ES, km: km_KH, nl: nl_NL, nb: nb_NO, et: et_EE, fi: fi_FI, hi: hi_IN, hu: hu_HU, ru: ru_RU, sk: sk_SK, tr: tr_TR, id: id_ID, fr: fr_FR, ro: ro_RO, it: it_IT, lt: lt_LT, lv: lv_LV, de: de_DE, bg: bg_BG, sv: sv_SE, af: af_ZA, pl: pl_PL, he: he_IL, es: es_ES, cs: cs_CZ, sl: sl_SI, sq: sq_AL, da: da_DK, pt: pt_PT
+lang_map = ja: ja_JP, ca: ca_ES, et: et_EE, hi: hi_IN, id: id_ID, lv: lv_LV, ro: ro_RO, it: it_IT, es: es_ES, cs: cs_CZ, sl: sl_SI, pt: pt_PT, nb: nb_NO, fi: fi_FI, hu: hu_HU, sk: sk_SK, bg: bg_BG, sv: sv_SE, ru: ru_RU, af: af_ZA, fr: fr_FR, el: el_GR, km: km_KH, pl: pl_PL, da: da_DK, vi: vi_VN, nl: nl_NL, tr: tr_TR, lt: lt_LT, de: de_DE, sq: sq_AL, he: he_IL
 
 [o:civicrm:p:civicrm_extensions:r:Civixero]
 file_filter = po/Civixero/<lang>/Civixero.po
@@ -290,6 +290,13 @@ source_lang = en
 file_filter = po/deduper/<lang>/deduper.po
 source_file = po/deduper/pot/deduper.pot
 source_lang = en
+
+[o:civicrm:p:civicrm_extensions:r:docbot]
+file_filter   = po/docbot/<lang>/docbot.po
+source_file   = po/docbot/pot/docbot.pot
+type          = POT
+minimum_perc  = 0
+resource_name = docbot
 
 [o:civicrm:p:civicrm_extensions:r:doctorwhen]
 file_filter = po/doctorwhen/<lang>/doctorwhen.po
