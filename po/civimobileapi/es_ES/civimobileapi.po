@@ -12,7 +12,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
-"POT-Creation-Date: 2024-01-17 05:01+0000\n"
+"POT-Creation-Date: 2024-03-27 05:01+0000\n"
 "Last-Translator: ixiam <info@ixiam.com>, 2024\n"
 "Language-Team: Spanish (https://app.transifex.com/civicrm/teams/1905/es/)\n"
 "MIME-Version: 1.0\n"
@@ -264,7 +264,7 @@ msgid "Last Name"
 msgstr "Apellidos"
 
 #: CRM/CiviMobileAPI/DAO/CivimobileEventPaymentInfo.php
-#: api/v3/CiviMobileCmsRegistration.php
+#: Civi/Api4/CiviMobileResetPassword.php api/v3/CiviMobileCmsRegistration.php
 #: api/v3/CiviMobileParticipantPaymentLink.php
 msgid "Email"
 msgstr "Correo electrónico"
@@ -742,6 +742,10 @@ msgid "Show Public area"
 msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Show Reset password"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "Show News"
 msgstr ""
@@ -1130,10 +1134,6 @@ msgstr "'event_id' es un campo obligatorio."
 msgid "Event(id = %1) does not exist or is not public."
 msgstr "El evento (id = %1) no existe o no es público."
 
-#: CRM/CiviMobileAPI/Upgrader/Base.php CRM/CiviMobileAPI/Utils/Extension.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Actualizar %1 a la revisión %2"
-
 #: CRM/CiviMobileAPI/Utils/ActivityType.php
 msgid "Send an Email"
 msgstr "Enviar un correo electrónico"
@@ -1208,6 +1208,30 @@ msgid "Your Api key has removed and all device disconnected from account."
 msgstr ""
 "Su clave Api se ha eliminado y todos los dispositivos se desconectaron de la"
 " cuenta."
+
+#: CRM/CiviMobileAPI/Utils/Extension.php
+msgid "Upgrade %1 to revision %2"
+msgstr "Actualizar %1 a la revisión %2"
+
+#: Civi/Api4/Action/CiviMobileAddAttachment/Create.php
+msgid "Cannot add more attachments. Maximum limit reached"
+msgstr ""
+
+#: Civi/Api4/Action/CiviMobileAddAttachment/Create.php
+msgid "Files were not uploaded"
+msgstr ""
+
+#: Civi/Api4/CiviMobileAddAttachment.php
+msgid "Entity ID"
+msgstr "ID de la entidad"
+
+#: Civi/Api4/CiviMobileAddAttachment.php
+msgid "Entity Table"
+msgstr "Tabla de la entidad"
+
+#: Civi/Api4/CiviMobileDeleteAccount.php
+msgid "Account id"
+msgstr ""
 
 #: Civi/Api4/CiviMobileGenerateEventDescription.php
 msgid "Event title"
@@ -1818,6 +1842,12 @@ msgid ""
 msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid ""
+"By checking the checkbox you will allow reset password functionality in the "
+"mobile application."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "Push notification Lifetime"
 msgstr ""
 
@@ -1872,6 +1902,10 @@ msgstr ""
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid ""
 "Note that the all required permissions for Anonymous user should be enabled."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.tpl
+msgid "To use the password reset functionality, configure SMTP in CMS."
 msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
