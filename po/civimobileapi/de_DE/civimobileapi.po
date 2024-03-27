@@ -6,14 +6,15 @@
 # lbl_knts <git@rlkd.de>, 2020
 # Maria <maria.vogel@civiservice.de>, 2022
 # Reinhard Kopp <reinhard@magiclight.de>, 2023
-# Mathieu Lu <mathieu@bidon.ca>, 2024
 # Torben Bertram, 2024
+# Mathieu Lu <mathieu@bidon.ca>, 2024
+# Andreas Howiller <andreas.howiller@civiservice.de>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
-"POT-Creation-Date: 2024-01-17 05:01+0000\n"
-"Last-Translator: Torben Bertram, 2024\n"
+"POT-Creation-Date: 2024-03-27 05:01+0000\n"
+"Last-Translator: Andreas Howiller <andreas.howiller@civiservice.de>, 2024\n"
 "Language-Team: German (https://app.transifex.com/civicrm/teams/1905/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -259,7 +260,7 @@ msgid "Last Name"
 msgstr "Nachname"
 
 #: CRM/CiviMobileAPI/DAO/CivimobileEventPaymentInfo.php
-#: api/v3/CiviMobileCmsRegistration.php
+#: Civi/Api4/CiviMobileResetPassword.php api/v3/CiviMobileCmsRegistration.php
 #: api/v3/CiviMobileParticipantPaymentLink.php
 msgid "Email"
 msgstr "E-Mail"
@@ -746,6 +747,10 @@ msgid "Show Public area"
 msgstr "Zeige öffentlichen Bereich"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Show Reset password"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "Show News"
 msgstr "News anzeigen"
@@ -1137,10 +1142,6 @@ msgstr "'event_id' ist ein Pflichtfeld."
 msgid "Event(id = %1) does not exist or is not public."
 msgstr "Veranstaltung(ID = %1) existiert nicht oder ist nicht öffentlich."
 
-#: CRM/CiviMobileAPI/Upgrader/Base.php CRM/CiviMobileAPI/Utils/Extension.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Aktualisiere %1 auf Revision %2"
-
 #: CRM/CiviMobileAPI/Utils/ActivityType.php
 msgid "Send an Email"
 msgstr "E-Mail senden"
@@ -1218,6 +1219,30 @@ msgstr ""
 #: CRM/CiviMobileAPI/Utils/Contact.php
 msgid "Your Api key has removed and all device disconnected from account."
 msgstr "Ihr API Key wurde entfernt und alle Geräte von diesem Konto getrennt."
+
+#: CRM/CiviMobileAPI/Utils/Extension.php
+msgid "Upgrade %1 to revision %2"
+msgstr "Aktualisiere %1 auf Revision %2"
+
+#: Civi/Api4/Action/CiviMobileAddAttachment/Create.php
+msgid "Cannot add more attachments. Maximum limit reached"
+msgstr ""
+
+#: Civi/Api4/Action/CiviMobileAddAttachment/Create.php
+msgid "Files were not uploaded"
+msgstr ""
+
+#: Civi/Api4/CiviMobileAddAttachment.php
+msgid "Entity ID"
+msgstr "Entität ID"
+
+#: Civi/Api4/CiviMobileAddAttachment.php
+msgid "Entity Table"
+msgstr "Entitätstabelle"
+
+#: Civi/Api4/CiviMobileDeleteAccount.php
+msgid "Account id"
+msgstr ""
 
 #: Civi/Api4/CiviMobileGenerateEventDescription.php
 msgid "Event title"
@@ -1850,6 +1875,12 @@ msgid ""
 msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid ""
+"By checking the checkbox you will allow reset password functionality in the "
+"mobile application."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "Push notification Lifetime"
 msgstr "Push Nachrichten Gültigkeit"
 
@@ -1909,6 +1940,10 @@ msgid ""
 msgstr ""
 "Bitte beachten, dass alle notwendigen Berechtigungen für den Anonymen "
 "Webseitenbesucher aktiviert sind."
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.tpl
+msgid "To use the password reset functionality, configure SMTP in CMS."
+msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "News"
