@@ -3,14 +3,15 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# HanV <han.velthuis@home.nl>, 2020
+# brouwser <brouwer@ee-atwork.nl>, 2024
+# HanV <han.velthuis@kpnmail.nl>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: gocardless\n"
-"POT-Creation-Date: 2020-11-18 05:01+0000\n"
-"Last-Translator: HanV <han.velthuis@home.nl>, 2020\n"
-"Language-Team: Dutch (https://www.transifex.com/civicrm/teams/1905/nl/)\n"
+"POT-Creation-Date: 2024-04-06 05:01+0000\n"
+"Last-Translator: HanV <han.velthuis@kpnmail.nl>, 2024\n"
+"Language-Team: Dutch (https://app.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -38,10 +39,6 @@ msgid "Successfully cancelled the subscription at GoCardless."
 msgstr "De aanmelding bij GoCardless is geannuleerd."
 
 #: CRM/Core/Payment/GoCardless.php
-msgid "This function is not implemented"
-msgstr "Deze functie is niet geïmplementeerd"
-
-#: CRM/Core/Payment/GoCardless.php
 msgid "Sorry, there was an error contacting the payment processor GoCardless."
 msgstr "Er kan geen contact gemaakt worden met de betaalmethode GoCardless."
 
@@ -64,59 +61,96 @@ msgstr ""
 "Als u 'Annulering verzoeken...' kiest, dan wordt GoCardless automatisch "
 "ingelicht en wordt de aanmelding geannuleerd."
 
-#: CRM/GoCardless/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Upgrade %1 naar versie %2"
-
 #: CRM/GoCardless/Upgrader.php
 msgid "GoCardless Direct Debit"
 msgstr "GoCardless Direct Debit"
 
-#: CRM/GoCardlessUtils.php
-msgid "Sorry, we were unable to set up your Direct Debit. Please call us."
+#: ang/gocardless/GoCardlessSettings.html settings/gocardless.setting.php
+msgid "GoCardless settings"
 msgstr ""
-"Sorry, we kunnen uw Direct Debit niet instellen. Neem a.u.b. contact op."
 
-#: CRM/GoCardlessUtils.php
-msgid ""
-"Sorry, there was a problem recording the details of your Direct Debit. "
-"Please call us."
+#: ang/gocardless/GoCardlessSettings.html
+msgid "Please see <a %1>reference documentation</a> for these settings"
 msgstr ""
-"Sorry, we kunnen de details van uw Direct Debit niet vastleggen. Neem a.u.b."
-" contact op."
+
+#: ang/gocardless/GoCardlessSettings.html
+msgid ""
+"Force recurring contributions when a GoCardless payment processor is chosen"
+msgstr ""
+
+#: ang/gocardless/GoCardlessSettings.html
+msgid "Receipts"
+msgstr ""
+
+#: ang/gocardless/GoCardlessSettings.html
+msgid "Never send receipts"
+msgstr ""
+
+#: ang/gocardless/GoCardlessSettings.html
+msgid "Always send receipts"
+msgstr ""
+
+#: ang/gocardless/GoCardlessSettings.html
+msgid ""
+"Defer to Contribution Recur record’s <code>is_email_receipt</code> field"
+msgstr ""
+
+#: ang/gocardless/GoCardlessSettings.html
+msgid "Allowed days of month"
+msgstr ""
+
+#: ang/gocardless/GoCardlessSettings.html
+msgid "Save"
+msgstr "Opslaan"
+
+#: ang/gocardless/GoCardlessSettings.js js/gcform.js
+msgid "uk.artfulrobot.civicrm.gocardless"
+msgstr ""
+
+#: ang/gocardless/GoCardlessSettings.js
+msgid "Saving..."
+msgstr "Opslaan..."
+
+#: ang/gocardless/GoCardlessSettings.js
+msgid "Saved"
+msgstr "Opgeslagen"
 
 #: gocardless.php
-msgid "GoCardless Webhooks"
-msgstr "GoCardless Webhooks"
+msgid "GoCardless Settings"
+msgstr ""
 
 #: gocardless.php
 msgid "Webhook secrets MUST be unique between test and live."
 msgstr "Webhook secrets MOET uniek zijn tussen test en productie."
 
 #: gocardless.php
+msgid ""
+"The GoCardlessPro classes are missing. This can happen if you install from "
+"the git repo and don‘t do composer install. This should never happen with an"
+" install from a released .zip/.gz file. Drupal 8+ admins will need to ensure"
+" this project‘s composer libs are installed."
+msgstr ""
+
+#: gocardless.php
+msgid "GoCardless extension incomplete install: will cause crashes!"
+msgstr ""
+
+#: gocardless.php
 msgid "Missing Financial Account for GoCardless"
 msgstr "De financiële rekening ontbreekt bij GoCardless"
 
-#: templates/CRM/GoCardless/Page/WebhookHelper.tpl
-msgid "No GoCardless processors are configured. Please visit:"
-msgstr "GoCardless is nog niet geconfigureerd. Bezoek:"
+#: gocardless.php
+msgid "Legacy webhook URLs used on %1"
+msgstr ""
 
-#: templates/CRM/GoCardless/Page/WebhookHelper.tpl
-msgid "Administer » CiviContribute » Payment Processors"
-msgstr "Beheer » CiviContribute » Betaalmethode"
+#: js/gcform.js
+msgid "Day of month"
+msgstr "Dag van de maand"
 
-#: templates/CRM/GoCardless/Page/WebhookHelper.tpl
-msgid "Active"
-msgstr "Actief"
+#: js/gcform.js
+msgid "Your direct debit will be collected on the %1 day of the month"
+msgstr ""
 
-#: templates/CRM/GoCardless/Page/WebhookHelper.tpl
-msgid "Inactive"
-msgstr "Inactief"
-
-#: templates/CRM/GoCardless/Page/WebhookHelper.tpl
-msgid "Test"
-msgstr "Test"
-
-#: templates/CRM/GoCardless/Page/WebhookHelper.tpl
-msgid "Live"
-msgstr "Productie"
+#: settings/gocardless.setting.php
+msgid "JSON encoded settings."
+msgstr ""
