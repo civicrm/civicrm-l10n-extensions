@@ -4,13 +4,13 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # brouwser <brouwer@ee-atwork.nl>, 2023
-# HanV <han.velthuis@kpnmail.nl>, 2023
+# HanV <han.velthuis@kpnmail.nl>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: reportplus\n"
-"POT-Creation-Date: 2023-02-07 05:02+0000\n"
-"Last-Translator: HanV <han.velthuis@kpnmail.nl>, 2023\n"
+"POT-Creation-Date: 2024-04-13 05:01+0000\n"
+"Last-Translator: HanV <han.velthuis@kpnmail.nl>, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -199,6 +199,7 @@ msgid "Count Target Contacts"
 msgstr "Doelcontacten tellen"
 
 #: CRM/Reportplus/Form/Activity/Matrix.php
+#: CRM/Reportplus/Form/Event/Matrix.php
 #: CRM/Reportplus/Form/Event/ParticipantListing.php
 msgid "Is Test"
 msgstr "Is test"
@@ -238,7 +239,7 @@ msgid "Case Matrix Plus"
 msgstr "Dossier Matrix Plus"
 
 #: CRM/Reportplus/Form/Case/Matrix.php CRM/Reportplus/Form/Contact/Matrix.php
-#: CRM/Reportplus/Form/Member/Matrix.php
+#: CRM/Reportplus/Form/Event/Matrix.php CRM/Reportplus/Form/Member/Matrix.php
 msgid "Count"
 msgstr "Aantal"
 
@@ -276,7 +277,7 @@ msgstr "Verwijderd?"
 
 #: CRM/Reportplus/Form/Case/Matrix.php CRM/Reportplus/Form/Contact/Matrix.php
 #: CRM/Reportplus/Form/Contribute/Matrix.php
-#: CRM/Reportplus/Form/Member/Matrix.php
+#: CRM/Reportplus/Form/Event/Matrix.php CRM/Reportplus/Form/Member/Matrix.php
 msgid "Contacts"
 msgstr "Contacten"
 
@@ -459,7 +460,7 @@ msgstr "Lidmaatschapsbron"
 msgid "Participant"
 msgstr "Deelnemer"
 
-#: CRM/Reportplus/Form/Contact/Detail.php
+#: CRM/Reportplus/Form/Contact/Detail.php CRM/Reportplus/Form/Event/Matrix.php
 #: CRM/Reportplus/Form/Event/ParticipantListing.php
 msgid "Participant Status"
 msgstr "Deelnemersstatus"
@@ -557,6 +558,7 @@ msgstr "Bijdragepagina"
 #: CRM/Reportplus/Form/Contribute/Matrix.php
 #: CRM/Reportplus/Form/Contribute/Summary.php
 #: CRM/Reportplus/Form/Contribute/TopDonor.php
+#: CRM/Reportplus/Form/Event/Matrix.php
 #: CRM/Reportplus/Form/Event/ParticipantListing.php
 #: CRM/Reportplus/Form/Member/Detail.php
 msgid "Source"
@@ -877,6 +879,7 @@ msgid "Contribution Min"
 msgstr "Contributie Min"
 
 #: CRM/Reportplus/Form/Contribute/Matrix.php
+#: CRM/Reportplus/Form/Event/Matrix.php
 msgid "Unique Contacts"
 msgstr "Unieke contacten"
 
@@ -1034,6 +1037,98 @@ msgstr "Selecteer 'Is gelijk aan' of 'kleiner dan of gelijk aan'"
 msgid "Please enter positive number"
 msgstr "Voer a.u.b. een positief getal in"
 
+#: CRM/Reportplus/Form/Event/Matrix.mgd.php
+msgid "Event Matrix Plus"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Min Participant Fee"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Max Participant Fee"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Total Participant Fee"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Avg Participant Fee"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Count Fee Level"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Min Fee Level"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Max Fee Level"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Total Fee Level"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Avg Fee Level"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+#: CRM/Reportplus/Form/Event/ParticipantListing.php CRM/Reportplus/Form.php
+msgid "Event"
+msgstr "Evenement"
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+#: CRM/Reportplus/Form/Event/ParticipantListing.php
+msgid "Participant Role"
+msgstr "Deelnemersrol"
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+#: CRM/Reportplus/Form/Event/ParticipantListing.php
+msgid "Registration Date"
+msgstr "Registratiedatum"
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+#: CRM/Reportplus/Form/Event/ParticipantListing.php
+msgid "Fee Currency"
+msgstr "Kosten valuta "
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+#: CRM/Reportplus/Form/Event/ParticipantListing.php
+msgid "Registered by Participant ID"
+msgstr "Geregistreerd door Deelnemer-id"
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+#: CRM/Reportplus/Form/Event/ParticipantListing.php
+msgid "Event Type"
+msgstr "Evenementstype"
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+#: CRM/Reportplus/Form/Event/ParticipantListing.php
+msgid "Event Start Date"
+msgstr "Begindatum evenement"
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+#: CRM/Reportplus/Form/Event/ParticipantListing.php
+msgid "Event End Date"
+msgstr "Einddatum evenement"
+
+#: CRM/Reportplus/Form/Event/Matrix.php CRM/Reportplus/Form.php
+msgid "Price Set"
+msgstr "Prijsset"
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Fee Price Field Value"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Price Fee Level"
+msgstr ""
+
 #: CRM/Reportplus/Form/Event/ParticipantListing.mgd.php
 msgid "Event Participants List Plus"
 msgstr "Deelnemerslijst Plus"
@@ -1060,10 +1155,6 @@ msgid "Status"
 msgstr "Status"
 
 #: CRM/Reportplus/Form/Event/ParticipantListing.php
-msgid "Registered by Participant ID"
-msgstr "Geregistreerd door Deelnemer-id"
-
-#: CRM/Reportplus/Form/Event/ParticipantListing.php
 msgid "Registered by Participant Name"
 msgstr "Geregistreerd door Deelnemer-naam"
 
@@ -1072,40 +1163,12 @@ msgid "Participant Fee"
 msgstr "Deelnemer kosten"
 
 #: CRM/Reportplus/Form/Event/ParticipantListing.php
-msgid "Registration Date"
-msgstr "Registratiedatum"
-
-#: CRM/Reportplus/Form/Event/ParticipantListing.php
 msgid "Total Paid"
 msgstr "Totaal betaald"
 
 #: CRM/Reportplus/Form/Event/ParticipantListing.php
 msgid "Balance"
 msgstr "Saldo"
-
-#: CRM/Reportplus/Form/Event/ParticipantListing.php
-msgid "Event"
-msgstr "Evenement"
-
-#: CRM/Reportplus/Form/Event/ParticipantListing.php
-msgid "Participant Role"
-msgstr "Deelnemersrol"
-
-#: CRM/Reportplus/Form/Event/ParticipantListing.php
-msgid "Fee Currency"
-msgstr "Kosten valuta "
-
-#: CRM/Reportplus/Form/Event/ParticipantListing.php
-msgid "Event Type"
-msgstr "Evenementstype"
-
-#: CRM/Reportplus/Form/Event/ParticipantListing.php
-msgid "Event Start Date"
-msgstr "Begindatum evenement"
-
-#: CRM/Reportplus/Form/Event/ParticipantListing.php
-msgid "Event End Date"
-msgstr "Einddatum evenement"
 
 #: CRM/Reportplus/Form/Event/ParticipantListing.php
 msgid "Participant Note"
@@ -1242,10 +1305,6 @@ msgstr "Groepering"
 #: CRM/Reportplus/Form/Matrix.php
 msgid "Total Row(s)"
 msgstr "Totaal Rij(en)"
-
-#: CRM/Reportplus/Form/Matrix.php
-msgid "Total Values"
-msgstr "Totaalwaarden"
 
 #: CRM/Reportplus/Form/Matrix.php
 msgid "Statistics"
@@ -1558,10 +1617,6 @@ msgstr "Is leeg of Null"
 #: CRM/Reportplus/Form.php
 msgid "Is not empty and Null"
 msgstr "Is niet leeg en niet Null"
-
-#: CRM/Reportplus/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Upgrade %1 naar versie %2"
 
 #: CRM/Reportplus/Utils/Report.php
 msgid "Save a Copy"
