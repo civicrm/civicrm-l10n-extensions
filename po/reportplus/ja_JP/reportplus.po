@@ -8,9 +8,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: reportplus\n"
-"POT-Creation-Date: 2023-01-27 19:24+0000\n"
+"POT-Creation-Date: 2024-04-13 05:01+0000\n"
 "Last-Translator: Satomi Sato <puritira2015@gmail.com>, 2023\n"
-"Language-Team: Japanese (https://www.transifex.com/civicrm/teams/1905/ja/)\n"
+"Language-Team: Japanese (https://app.transifex.com/civicrm/teams/1905/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -196,6 +196,7 @@ msgid "Count Target Contacts"
 msgstr ""
 
 #: CRM/Reportplus/Form/Activity/Matrix.php
+#: CRM/Reportplus/Form/Event/Matrix.php
 #: CRM/Reportplus/Form/Event/ParticipantListing.php
 msgid "Is Test"
 msgstr ""
@@ -235,7 +236,7 @@ msgid "Case Matrix Plus"
 msgstr ""
 
 #: CRM/Reportplus/Form/Case/Matrix.php CRM/Reportplus/Form/Contact/Matrix.php
-#: CRM/Reportplus/Form/Member/Matrix.php
+#: CRM/Reportplus/Form/Event/Matrix.php CRM/Reportplus/Form/Member/Matrix.php
 msgid "Count"
 msgstr "カウント"
 
@@ -273,7 +274,7 @@ msgstr ""
 
 #: CRM/Reportplus/Form/Case/Matrix.php CRM/Reportplus/Form/Contact/Matrix.php
 #: CRM/Reportplus/Form/Contribute/Matrix.php
-#: CRM/Reportplus/Form/Member/Matrix.php
+#: CRM/Reportplus/Form/Event/Matrix.php CRM/Reportplus/Form/Member/Matrix.php
 msgid "Contacts"
 msgstr "連絡先"
 
@@ -443,7 +444,7 @@ msgid "Join Date"
 msgstr "参加日"
 
 #: CRM/Reportplus/Form/Contact/Detail.php
-#: CRM/Reportplus/Form/Member/Detail.php CRM/Reportplus/Form/Member/Matrix.php
+#: CRM/Reportplus/Form/Member/Matrix.php
 #: CRM/Reportplus/Form/Member/Summary.php CRM/Reportplus/Form.php
 msgid "Membership Status"
 msgstr "会員ステータス"
@@ -456,7 +457,7 @@ msgstr ""
 msgid "Participant"
 msgstr "参加者"
 
-#: CRM/Reportplus/Form/Contact/Detail.php
+#: CRM/Reportplus/Form/Contact/Detail.php CRM/Reportplus/Form/Event/Matrix.php
 #: CRM/Reportplus/Form/Event/ParticipantListing.php
 msgid "Participant Status"
 msgstr "参加者のステータス"
@@ -554,6 +555,7 @@ msgstr "支援ページ"
 #: CRM/Reportplus/Form/Contribute/Matrix.php
 #: CRM/Reportplus/Form/Contribute/Summary.php
 #: CRM/Reportplus/Form/Contribute/TopDonor.php
+#: CRM/Reportplus/Form/Event/Matrix.php
 #: CRM/Reportplus/Form/Event/ParticipantListing.php
 #: CRM/Reportplus/Form/Member/Detail.php
 msgid "Source"
@@ -869,6 +871,7 @@ msgid "Contribution Min"
 msgstr ""
 
 #: CRM/Reportplus/Form/Contribute/Matrix.php
+#: CRM/Reportplus/Form/Event/Matrix.php
 msgid "Unique Contacts"
 msgstr ""
 
@@ -1026,6 +1029,98 @@ msgstr ""
 msgid "Please enter positive number"
 msgstr ""
 
+#: CRM/Reportplus/Form/Event/Matrix.mgd.php
+msgid "Event Matrix Plus"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Min Participant Fee"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Max Participant Fee"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Total Participant Fee"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Avg Participant Fee"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Count Fee Level"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Min Fee Level"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Max Fee Level"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Total Fee Level"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Avg Fee Level"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+#: CRM/Reportplus/Form/Event/ParticipantListing.php CRM/Reportplus/Form.php
+msgid "Event"
+msgstr "イベント"
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+#: CRM/Reportplus/Form/Event/ParticipantListing.php
+msgid "Participant Role"
+msgstr "参加者の役割"
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+#: CRM/Reportplus/Form/Event/ParticipantListing.php
+msgid "Registration Date"
+msgstr "登録日"
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+#: CRM/Reportplus/Form/Event/ParticipantListing.php
+msgid "Fee Currency"
+msgstr "料金通貨"
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+#: CRM/Reportplus/Form/Event/ParticipantListing.php
+msgid "Registered by Participant ID"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+#: CRM/Reportplus/Form/Event/ParticipantListing.php
+msgid "Event Type"
+msgstr "イベントタイプ"
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+#: CRM/Reportplus/Form/Event/ParticipantListing.php
+msgid "Event Start Date"
+msgstr "イベントの開始日"
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+#: CRM/Reportplus/Form/Event/ParticipantListing.php
+msgid "Event End Date"
+msgstr "イベントの終了日"
+
+#: CRM/Reportplus/Form/Event/Matrix.php CRM/Reportplus/Form.php
+msgid "Price Set"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Fee Price Field Value"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Price Fee Level"
+msgstr ""
+
 #: CRM/Reportplus/Form/Event/ParticipantListing.mgd.php
 msgid "Event Participants List Plus"
 msgstr ""
@@ -1052,10 +1147,6 @@ msgid "Status"
 msgstr "ステータス"
 
 #: CRM/Reportplus/Form/Event/ParticipantListing.php
-msgid "Registered by Participant ID"
-msgstr ""
-
-#: CRM/Reportplus/Form/Event/ParticipantListing.php
 msgid "Registered by Participant Name"
 msgstr ""
 
@@ -1064,40 +1155,12 @@ msgid "Participant Fee"
 msgstr ""
 
 #: CRM/Reportplus/Form/Event/ParticipantListing.php
-msgid "Registration Date"
-msgstr "登録日"
-
-#: CRM/Reportplus/Form/Event/ParticipantListing.php
 msgid "Total Paid"
 msgstr ""
 
 #: CRM/Reportplus/Form/Event/ParticipantListing.php
 msgid "Balance"
 msgstr ""
-
-#: CRM/Reportplus/Form/Event/ParticipantListing.php
-msgid "Event"
-msgstr "イベント"
-
-#: CRM/Reportplus/Form/Event/ParticipantListing.php
-msgid "Participant Role"
-msgstr "参加者の役割"
-
-#: CRM/Reportplus/Form/Event/ParticipantListing.php
-msgid "Fee Currency"
-msgstr "料金通貨"
-
-#: CRM/Reportplus/Form/Event/ParticipantListing.php
-msgid "Event Type"
-msgstr "イベントタイプ"
-
-#: CRM/Reportplus/Form/Event/ParticipantListing.php
-msgid "Event Start Date"
-msgstr "イベントの開始日"
-
-#: CRM/Reportplus/Form/Event/ParticipantListing.php
-msgid "Event End Date"
-msgstr "イベントの終了日"
 
 #: CRM/Reportplus/Form/Event/ParticipantListing.php
 msgid "Participant Note"
@@ -1236,10 +1299,6 @@ msgid "Total Row(s)"
 msgstr ""
 
 #: CRM/Reportplus/Form/Matrix.php
-msgid "Total Values"
-msgstr ""
-
-#: CRM/Reportplus/Form/Matrix.php
 msgid "Statistics"
 msgstr "統計"
 
@@ -1309,21 +1368,6 @@ msgstr ""
 msgid "Primary/Inherited?"
 msgstr ""
 
-#: CRM/Reportplus/Form/Member/Detail.php CRM/Reportplus/Form/Member/Matrix.php
-#: CRM/Reportplus/Form/Member/Summary.php
-msgid "Member Since"
-msgstr ""
-
-#: CRM/Reportplus/Form/Member/Detail.php CRM/Reportplus/Form/Member/Matrix.php
-#: CRM/Reportplus/Form/Member/Summary.php
-msgid "Membership Start Date"
-msgstr ""
-
-#: CRM/Reportplus/Form/Member/Detail.php CRM/Reportplus/Form/Member/Matrix.php
-#: CRM/Reportplus/Form/Member/Summary.php
-msgid "Membership End Date"
-msgstr ""
-
 #: CRM/Reportplus/Form/Member/Detail.php
 #: CRM/Reportplus/Form/Member/Summary.php
 msgid "Primary Membership"
@@ -1377,6 +1421,21 @@ msgstr ""
 
 #: CRM/Reportplus/Form/Member/Matrix.mgd.php
 msgid "Member Matrix Plus"
+msgstr ""
+
+#: CRM/Reportplus/Form/Member/Matrix.php
+#: CRM/Reportplus/Form/Member/Summary.php
+msgid "Member Since"
+msgstr ""
+
+#: CRM/Reportplus/Form/Member/Matrix.php
+#: CRM/Reportplus/Form/Member/Summary.php
+msgid "Membership Start Date"
+msgstr ""
+
+#: CRM/Reportplus/Form/Member/Matrix.php
+#: CRM/Reportplus/Form/Member/Summary.php
+msgid "Membership End Date"
 msgstr ""
 
 #: CRM/Reportplus/Form/Member/Matrix.php
@@ -1550,10 +1609,6 @@ msgstr ""
 #: CRM/Reportplus/Form.php
 msgid "Is not empty and Null"
 msgstr ""
-
-#: CRM/Reportplus/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "リビジョン %2 の %1 をアップグレード"
 
 #: CRM/Reportplus/Utils/Report.php
 msgid "Save a Copy"
