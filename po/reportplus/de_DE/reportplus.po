@@ -15,7 +15,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: reportplus\n"
-"POT-Creation-Date: 2023-02-07 05:02+0000\n"
+"POT-Creation-Date: 2024-04-13 05:01+0000\n"
 "Last-Translator: Torben Bertram, 2024\n"
 "Language-Team: German (https://app.transifex.com/civicrm/teams/1905/de/)\n"
 "MIME-Version: 1.0\n"
@@ -203,6 +203,7 @@ msgid "Count Target Contacts"
 msgstr ""
 
 #: CRM/Reportplus/Form/Activity/Matrix.php
+#: CRM/Reportplus/Form/Event/Matrix.php
 #: CRM/Reportplus/Form/Event/ParticipantListing.php
 msgid "Is Test"
 msgstr "Ist Test"
@@ -242,7 +243,7 @@ msgid "Case Matrix Plus"
 msgstr ""
 
 #: CRM/Reportplus/Form/Case/Matrix.php CRM/Reportplus/Form/Contact/Matrix.php
-#: CRM/Reportplus/Form/Member/Matrix.php
+#: CRM/Reportplus/Form/Event/Matrix.php CRM/Reportplus/Form/Member/Matrix.php
 msgid "Count"
 msgstr "Anzahl"
 
@@ -280,7 +281,7 @@ msgstr "Gelöscht?"
 
 #: CRM/Reportplus/Form/Case/Matrix.php CRM/Reportplus/Form/Contact/Matrix.php
 #: CRM/Reportplus/Form/Contribute/Matrix.php
-#: CRM/Reportplus/Form/Member/Matrix.php
+#: CRM/Reportplus/Form/Event/Matrix.php CRM/Reportplus/Form/Member/Matrix.php
 msgid "Contacts"
 msgstr "Kontakte"
 
@@ -463,7 +464,7 @@ msgstr "Quelle der Mitgliedschaft"
 msgid "Participant"
 msgstr "Teilnehmende"
 
-#: CRM/Reportplus/Form/Contact/Detail.php
+#: CRM/Reportplus/Form/Contact/Detail.php CRM/Reportplus/Form/Event/Matrix.php
 #: CRM/Reportplus/Form/Event/ParticipantListing.php
 msgid "Participant Status"
 msgstr "Teilnahmestatus"
@@ -561,6 +562,7 @@ msgstr "Spendenseite"
 #: CRM/Reportplus/Form/Contribute/Matrix.php
 #: CRM/Reportplus/Form/Contribute/Summary.php
 #: CRM/Reportplus/Form/Contribute/TopDonor.php
+#: CRM/Reportplus/Form/Event/Matrix.php
 #: CRM/Reportplus/Form/Event/ParticipantListing.php
 #: CRM/Reportplus/Form/Member/Detail.php
 msgid "Source"
@@ -876,6 +878,7 @@ msgid "Contribution Min"
 msgstr ""
 
 #: CRM/Reportplus/Form/Contribute/Matrix.php
+#: CRM/Reportplus/Form/Event/Matrix.php
 msgid "Unique Contacts"
 msgstr ""
 
@@ -1033,6 +1036,98 @@ msgstr ""
 msgid "Please enter positive number"
 msgstr ""
 
+#: CRM/Reportplus/Form/Event/Matrix.mgd.php
+msgid "Event Matrix Plus"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Min Participant Fee"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Max Participant Fee"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Total Participant Fee"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Avg Participant Fee"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Count Fee Level"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Min Fee Level"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Max Fee Level"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Total Fee Level"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Avg Fee Level"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+#: CRM/Reportplus/Form/Event/ParticipantListing.php CRM/Reportplus/Form.php
+msgid "Event"
+msgstr "Veranstaltung"
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+#: CRM/Reportplus/Form/Event/ParticipantListing.php
+msgid "Participant Role"
+msgstr "Teilnahmerolle"
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+#: CRM/Reportplus/Form/Event/ParticipantListing.php
+msgid "Registration Date"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+#: CRM/Reportplus/Form/Event/ParticipantListing.php
+msgid "Fee Currency"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+#: CRM/Reportplus/Form/Event/ParticipantListing.php
+msgid "Registered by Participant ID"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+#: CRM/Reportplus/Form/Event/ParticipantListing.php
+msgid "Event Type"
+msgstr "Veranstaltungsart"
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+#: CRM/Reportplus/Form/Event/ParticipantListing.php
+msgid "Event Start Date"
+msgstr "Datum Veranstaltungsbeginn"
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+#: CRM/Reportplus/Form/Event/ParticipantListing.php
+msgid "Event End Date"
+msgstr "Datum Veranstaltungsende"
+
+#: CRM/Reportplus/Form/Event/Matrix.php CRM/Reportplus/Form.php
+msgid "Price Set"
+msgstr "Preisschema"
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Fee Price Field Value"
+msgstr ""
+
+#: CRM/Reportplus/Form/Event/Matrix.php
+msgid "Price Fee Level"
+msgstr ""
+
 #: CRM/Reportplus/Form/Event/ParticipantListing.mgd.php
 msgid "Event Participants List Plus"
 msgstr ""
@@ -1059,19 +1154,11 @@ msgid "Status"
 msgstr "Status"
 
 #: CRM/Reportplus/Form/Event/ParticipantListing.php
-msgid "Registered by Participant ID"
-msgstr ""
-
-#: CRM/Reportplus/Form/Event/ParticipantListing.php
 msgid "Registered by Participant Name"
 msgstr ""
 
 #: CRM/Reportplus/Form/Event/ParticipantListing.php
 msgid "Participant Fee"
-msgstr ""
-
-#: CRM/Reportplus/Form/Event/ParticipantListing.php
-msgid "Registration Date"
 msgstr ""
 
 #: CRM/Reportplus/Form/Event/ParticipantListing.php
@@ -1081,30 +1168,6 @@ msgstr ""
 #: CRM/Reportplus/Form/Event/ParticipantListing.php
 msgid "Balance"
 msgstr ""
-
-#: CRM/Reportplus/Form/Event/ParticipantListing.php
-msgid "Event"
-msgstr "Veranstaltung"
-
-#: CRM/Reportplus/Form/Event/ParticipantListing.php
-msgid "Participant Role"
-msgstr "Teilnahmerolle"
-
-#: CRM/Reportplus/Form/Event/ParticipantListing.php
-msgid "Fee Currency"
-msgstr ""
-
-#: CRM/Reportplus/Form/Event/ParticipantListing.php
-msgid "Event Type"
-msgstr "Veranstaltungsart"
-
-#: CRM/Reportplus/Form/Event/ParticipantListing.php
-msgid "Event Start Date"
-msgstr "Datum Veranstaltungsbeginn"
-
-#: CRM/Reportplus/Form/Event/ParticipantListing.php
-msgid "Event End Date"
-msgstr "Datum Veranstaltungsende"
 
 #: CRM/Reportplus/Form/Event/ParticipantListing.php
 msgid "Participant Note"
@@ -1240,10 +1303,6 @@ msgstr ""
 
 #: CRM/Reportplus/Form/Matrix.php
 msgid "Total Row(s)"
-msgstr ""
-
-#: CRM/Reportplus/Form/Matrix.php
-msgid "Total Values"
 msgstr ""
 
 #: CRM/Reportplus/Form/Matrix.php
@@ -1557,10 +1616,6 @@ msgstr "Ist leer oder Null"
 #: CRM/Reportplus/Form.php
 msgid "Is not empty and Null"
 msgstr "Ist nicht leer oder Null"
-
-#: CRM/Reportplus/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Aktualisiere %1 auf Revision %2"
 
 #: CRM/Reportplus/Utils/Report.php
 msgid "Save a Copy"
