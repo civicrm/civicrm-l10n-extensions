@@ -7,87 +7,83 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2021-04-09 05:01+0000\n"
-"PO-Revision-Date: 2022-02-24 12:37+0000\n"
-"Last-Translator: Rubén Pineda <r.pineda@ixiam.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/civicrm/civicrm_extensions/language/es/)\n"
+"POT-Creation-Date: 2024-04-16 05:01+0000\n"
+"PO-Revision-Date: 2013-10-08 17:36+0000\n"
+"Last-Translator: sluc23 <sluc23@hotmail.com>, 2013\n"
+"Language-Team: Spanish (http://app.transifex.com/civicrm/civicrm_extensions/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: CRM/ImageCrop/Form/Settings.php
+#: CRM/Imagecrop/Form/Settings.php
 msgid "Aspect ratio"
 msgstr "Relación de aspecto"
 
-#: CRM/ImageCrop/Form/Settings.php
+#: CRM/Imagecrop/Form/Settings.php
 msgid "Crop area X"
 msgstr "Área de recorte X"
 
-#: CRM/ImageCrop/Form/Settings.php
+#: CRM/Imagecrop/Form/Settings.php
 msgid "Crop area Y"
 msgstr "Área de recorte Y"
 
-#: CRM/ImageCrop/Form/Settings.php
+#: CRM/Imagecrop/Form/Settings.php
 msgid "Output X"
 msgstr "Salida X"
 
-#: CRM/ImageCrop/Form/Settings.php
+#: CRM/Imagecrop/Form/Settings.php
 msgid "Output Y"
 msgstr "Salida Y"
 
-#: CRM/ImageCrop/Form/Settings.php
+#: CRM/Imagecrop/Form/Settings.php
 msgid "Value should be a positive number"
 msgstr "El valor debe ser un número positivo"
 
-#: CRM/ImageCrop/Form/Settings.php
+#: CRM/Imagecrop/Form/Settings.php
 msgid "Minimum width"
 msgstr "Ancho mínimo"
 
-#: CRM/ImageCrop/Form/Settings.php
+#: CRM/Imagecrop/Form/Settings.php
 msgid "Minimum height"
 msgstr "Alto mínimo"
 
-#: CRM/ImageCrop/Form/Settings.php
+#: CRM/Imagecrop/Form/Settings.php
 msgid "Maximum width"
 msgstr "Ancho máximo"
 
-#: CRM/ImageCrop/Form/Settings.php
+#: CRM/Imagecrop/Form/Settings.php
 msgid "Maximum height"
 msgstr "Alto máximo"
 
-#: CRM/ImageCrop/Form/Settings.php
+#: CRM/Imagecrop/Form/Settings.php
 msgid "Change thumbnail size of contact records?"
 msgstr "¿Cambiar el tamaño del thumbnail del contacto?"
 
-#: CRM/ImageCrop/Form/Settings.php
+#: CRM/Imagecrop/Form/Settings.php
 msgid "Automatically resize?"
 msgstr "¿Reescalado automático?"
 
-#: CRM/ImageCrop/Form/Settings.php
+#: CRM/Imagecrop/Form/Settings.php
 msgid "Submit"
 msgstr "Enviar"
 
-#: CRM/ImageCrop/Form/Settings.php
+#: CRM/Imagecrop/Form/Settings.php
 msgid "The aspect ratio is not a valid format."
 msgstr "La relación de aspecto no es un formato válido."
 
-#: CRM/ImageCrop/Form/Settings.php
+#: CRM/Imagecrop/Form/Settings.php
 msgid "The crop area must be greater than zero."
 msgstr "El área de recorte debe ser mayor a cero."
 
-#: CRM/ImageCrop/Form/Settings.php
+#: CRM/Imagecrop/Form/Settings.php
 msgid "Settings saved."
 msgstr "Configuraciones guardadas."
 
-#: CRM/ImageCrop/Page/AJAX.php
+#: CRM/Imagecrop/Page/AJAX.php
 msgid "API Error: %1"
 msgstr "Error de la API: %1"
-
-#: CRM/ImageCrop/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Actualizar %1 a la revisión %2"
 
 #: imagecrop.js
 msgid "Crop image"
@@ -121,19 +117,23 @@ msgid ""
 "pixels high."
 msgstr "El tamaño de la imagen es muy grande (%1 px). Por favor suba una imagen no mayor a %2 pixels de alto."
 
-#: templates/CRM/ImageCrop/Ajax/popup.tpl
+#: imagecrop.php
+msgid "Image Crop URL"
+msgstr ""
+
+#: templates/CRM/Imagecrop/Ajax/popup.tpl
 msgid "Crop"
 msgstr "Recortar"
 
-#: templates/CRM/ImageCrop/Ajax/popup.tpl
+#: templates/CRM/Imagecrop/Ajax/popup.tpl
 msgid "Close"
 msgstr "Cerrar"
 
-#: templates/CRM/ImageCrop/Form/Settings.tpl
+#: templates/CRM/Imagecrop/Form/Settings.tpl
 msgid "Image output"
 msgstr "Salida de imagen"
 
-#: templates/CRM/ImageCrop/Form/Settings.tpl
+#: templates/CRM/Imagecrop/Form/Settings.tpl
 msgid ""
 "Optional: enforce an aspect ratio when selecting a crop area or resizing. "
 "Example formats: 1:1, 3:2, 4:3, 16:9, 16:10, 1.6:1, 1.85:1. This will also "
@@ -141,21 +141,21 @@ msgid ""
 "size if you select one."
 msgstr "Opcional: forzar una relación de aspecto cuando selecciona un área de recorte o reescalado. Formatos de ejemplo: 1:1, 3:2, 4:3, 16:9, 16:10, 1.6:1, 1.85:1. Esto también definirá automáticamente el tamaño mínimo del área de recorte o tamaño de reescalado si selecciona uno."
 
-#: templates/CRM/ImageCrop/Form/Settings.tpl
+#: templates/CRM/Imagecrop/Form/Settings.tpl
 msgid "Thumbnail size"
 msgstr "Tamaño del thumbnail"
 
-#: templates/CRM/ImageCrop/Form/Settings.tpl
+#: templates/CRM/Imagecrop/Form/Settings.tpl
 msgid "pixels (width x height)"
 msgstr "pixels (ancho x alto)"
 
-#: templates/CRM/ImageCrop/Form/Settings.tpl
+#: templates/CRM/Imagecrop/Form/Settings.tpl
 msgid ""
 "Size of the thumbnail images that you are most likely to use. This is also "
 "the minimum size of the cropped area that the user must select."
 msgstr "Tamaño de la imagen thumbnail que mayormente utilizará. Este será también el tamaño mínimo del área recortada que el usuario debe seleciconar."
 
-#: templates/CRM/ImageCrop/Form/Settings.tpl
+#: templates/CRM/Imagecrop/Form/Settings.tpl
 msgid ""
 "By default CiviCRM shows thumbnails of 100 pixels wide in contact records "
 "and profile view. Setting this to \"yes\" will set the thumbnail to the "
@@ -163,36 +163,36 @@ msgid ""
 "too large."
 msgstr "Por defecto CiviCRM muestra thumbnails de 100 pixels de ancho en los registros de contacto y vistas de perfiles. Configurando esto a \"si\", definirá el thumbnail a las dimesiones de arriba. Esto puede romper el diseño de la pantalla si el tamaño es muy grande."
 
-#: templates/CRM/ImageCrop/Form/Settings.tpl
+#: templates/CRM/Imagecrop/Form/Settings.tpl
 msgid ""
 "If the user selects an area greater than the minimum crop area above, the "
 "image will be automatically resized to this size."
 msgstr "Si el usuario selecciona un área mayor que el mínimo del área de recorte de arriba, la imagen se reescalará automáticamente a ese tamaño."
 
-#: templates/CRM/ImageCrop/Form/Settings.tpl
+#: templates/CRM/Imagecrop/Form/Settings.tpl
 msgid "Output image size"
 msgstr "Tamaño de la imagen de salida"
 
-#: templates/CRM/ImageCrop/Form/Settings.tpl
+#: templates/CRM/Imagecrop/Form/Settings.tpl
 msgid ""
 "This should be set to the same size as the thumbnail size above, unless you "
 "use multiple thumbnail sizes and prefer to resize by other means (ex: CSS)."
 msgstr "Este debería ajustarse al mismo tamaño del thumbnail de arriba, a menos que utilice múltiples tamaños de thumbnails y prefiera reescalarlos de otras maneras (Por Ej: CSS)."
 
-#: templates/CRM/ImageCrop/Form/Settings.tpl
+#: templates/CRM/Imagecrop/Form/Settings.tpl
 msgid "Upload guidelines"
 msgstr "Guías de subida"
 
-#: templates/CRM/ImageCrop/Form/Settings.tpl
+#: templates/CRM/Imagecrop/Form/Settings.tpl
 msgid "Minimum upload size"
 msgstr "Mínimo tamaño de subida"
 
-#: templates/CRM/ImageCrop/Form/Settings.tpl
+#: templates/CRM/Imagecrop/Form/Settings.tpl
 msgid ""
 "Enforces a minimum size file upload. If the image the user uploads is too "
 "small, it may be unusable (ex: for event badges)."
 msgstr "Fuerza el tamaño mínimo del archivo de subida. Si la imagen que el usuario sube es muy pequeña, podría ser inutilizable. (Por Ej: para credenciales de eventos)"
 
-#: templates/CRM/ImageCrop/Form/Settings.tpl
+#: templates/CRM/Imagecrop/Form/Settings.tpl
 msgid "Maximum upload size"
 msgstr "Tamaño máximo de subida"
