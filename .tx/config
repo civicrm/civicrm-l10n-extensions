@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = ja: ja_JP, ca: ca_ES, et: et_EE, hi: hi_IN, id: id_ID, lv: lv_LV, ro: ro_RO, it: it_IT, es: es_ES, cs: cs_CZ, sl: sl_SI, pt: pt_PT, nb: nb_NO, fi: fi_FI, hu: hu_HU, sk: sk_SK, bg: bg_BG, sv: sv_SE, ru: ru_RU, af: af_ZA, fr: fr_FR, el: el_GR, km: km_KH, pl: pl_PL, da: da_DK, vi: vi_VN, nl: nl_NL, tr: tr_TR, lt: lt_LT, de: de_DE, sq: sq_AL, he: he_IL
+lang_map = fi: fi_FI, af: af_ZA, fr: fr_FR, pl: pl_PL, tr: tr_TR, hi: hi_IN, id: id_ID, km: km_KH, vi: vi_VN, nl: nl_NL, ja: ja_JP, sv: sv_SE, he: he_IL, lv: lv_LV, ro: ro_RO, sk: sk_SK, el: el_GR, ca: ca_ES, da: da_DK, es: es_ES, sl: sl_SI, pt: pt_PT, hu: hu_HU, bg: bg_BG, it: it_IT, nb: nb_NO, lt: lt_LT, sq: sq_AL, et: et_EE, ru: ru_RU, de: de_DE, cs: cs_CZ
 
 [o:civicrm:p:civicrm_extensions:r:Civixero]
 file_filter = po/Civixero/<lang>/Civixero.po
@@ -841,6 +841,13 @@ source_lang = en
 file_filter = po/simpledonate/<lang>/simpledonate.po
 source_file = po/simpledonate/pot/simpledonate.pot
 source_lang = en
+
+[o:civicrm:p:civicrm_extensions:r:sktokens]
+file_filter   = po/sktokens/<lang>/sktokens.po
+source_file   = po/sktokens/pot/sktokens.pot
+type          = POT
+minimum_perc  = 0
+resource_name = sktokens
 
 [o:civicrm:p:civicrm_extensions:r:slicknav]
 file_filter = po/slicknav/<lang>/slicknav.po
