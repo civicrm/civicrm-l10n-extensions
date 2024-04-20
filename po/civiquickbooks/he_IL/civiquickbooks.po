@@ -2,20 +2,16 @@
 # This file is distributed under the same license as the CiviCRM package.
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
-# Translators:
-# Steve Kessler <skessler@denverdataman.com>, 2022
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: civiquickbooks\n"
-"POT-Creation-Date: 2021-10-25 05:02+0000\n"
-"Last-Translator: Steve Kessler <skessler@denverdataman.com>, 2022\n"
-"Language-Team: Hebrew (https://www.transifex.com/civicrm/teams/1905/he/)\n"
+"POT-Creation-Date: 2024-04-20 05:01+0000\n"
+"Language-Team: Hebrew (https://app.transifex.com/civicrm/teams/1905/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: he\n"
-"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: 2;\n"
 
 #: CRM/Civiquickbooks/Contact.php
 msgid ""
@@ -89,22 +85,6 @@ msgstr ""
 msgid "Error creating Invoice for %1: %2"
 msgstr ""
 
-#: CRM/Civiquickbooks/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr ""
-
-#: civiquickbooks.php settings/civiquickbooks.setting.php
-msgid "QuickBooks"
-msgstr ""
-
-#: civiquickbooks.php
-msgid "Quickbooks Settings"
-msgstr ""
-
-#: civiquickbooks.php
-msgid "Synchronize contacts"
-msgstr ""
-
 #: civiquickbooks.php
 msgid ""
 "QuickBooks refresh is token is expired, <a href=\"%1\">Reauthorize "
@@ -132,6 +112,10 @@ msgstr ""
 msgid "Invoice Sync Errors"
 msgstr ""
 
+#: managed/navigation.mgd.php
+msgid "Quickbooks Settings"
+msgstr ""
+
 #: settings/civiquickbooks.setting.php
 msgid "QuickBooks Online Settings"
 msgstr ""
@@ -150,6 +134,26 @@ msgstr ""
 
 #: settings/civiquickbooks.setting.php
 msgid "Initial client secret retrieved from quickbooks website"
+msgstr ""
+
+#: settings/civiquickbooks.setting.php
+msgid "Environment"
+msgstr ""
+
+#: settings/civiquickbooks.setting.php
+msgid "Development or Production mode."
+msgstr ""
+
+#: settings/civiquickbooks.setting.php
+msgid "Use Development to test with your sandbox."
+msgstr ""
+
+#: settings/civiquickbooks.setting.php
+msgid "Production"
+msgstr ""
+
+#: settings/civiquickbooks.setting.php
+msgid "Development"
 msgstr ""
 
 #: settings/civiquickbooks.setting.php
@@ -215,14 +219,6 @@ msgid "Always"
 msgstr ""
 
 #: settings/civiquickbooks.setting.php
-msgid "QBO Log Directory"
-msgstr ""
-
-#: settings/civiquickbooks.setting.php
-msgid "Absolute path to writable file system directory for QBO logs."
-msgstr ""
-
-#: settings/civiquickbooks.setting.php
 msgid "Activate QBO logging?"
 msgstr ""
 
@@ -260,20 +256,28 @@ msgid "CiviCRM"
 msgstr ""
 
 #: settings/civiquickbooks.setting.php
+msgid "QuickBooks"
+msgstr ""
+
+#: settings/civiquickbooks.setting.php
+msgid "Invoice Prefix"
+msgstr ""
+
+#: settings/civiquickbooks.setting.php
+msgid ""
+"Will be prefixed to Transaction ID when CiviCRM generates an Invoice number "
+"for QBO. You can optionally include a format specifier <a href=\"%1\">for "
+"printf</a> e.g. %2 will enforce 7 digits with 0 as padding (123 => "
+"Civi-0000123)"
+msgstr ""
+
+#: settings/civiquickbooks.setting.php
 msgid "Allow ACH Payment?"
 msgstr ""
 
 #: settings/civiquickbooks.setting.php
 msgid "Specifies if invoices can be paid with online bank transfers"
 msgstr ""
-
-#: settings/civiquickbooks.setting.php
-msgid "Yes"
-msgstr "כן"
-
-#: settings/civiquickbooks.setting.php
-msgid "No"
-msgstr "לא"
 
 #: settings/civiquickbooks.setting.php
 msgid "Allow Online Credit Card Payment?"
