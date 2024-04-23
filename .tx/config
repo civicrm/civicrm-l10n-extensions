@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = id: id_ID, km: km_KH, sv: sv_SE, he: he_IL, ro: ro_RO, el: el_GR, da: da_DK, pl: pl_PL, sq: sq_AL, hi: hi_IN, sk: sk_SK, de: de_DE, tr: tr_TR, bg: bg_BG, et: et_EE, cs: cs_CZ, ca: ca_ES, lv: lv_LV, sl: sl_SI, vi: vi_VN, hu: hu_HU, nb: nb_NO, ja: ja_JP, nl: nl_NL, es: es_ES, pt: pt_PT, it: it_IT, ru: ru_RU, fr: fr_FR, af: af_ZA, lt: lt_LT, fi: fi_FI
+lang_map = sk: sk_SK, bg: bg_BG, sl: sl_SI, ja: ja_JP, km: km_KH, sq: sq_AL, vi: vi_VN, sv: sv_SE, pt: pt_PT, it: it_IT, fi: fi_FI, hu: hu_HU, nl: nl_NL, es: es_ES, ru: ru_RU, id: id_ID, de: de_DE, ca: ca_ES, nb: nb_NO, fr: fr_FR, he: he_IL, da: da_DK, hi: hi_IN, tr: tr_TR, ro: ro_RO, cs: cs_CZ, el: el_GR, pl: pl_PL, et: et_EE, lv: lv_LV, af: af_ZA, lt: lt_LT
 
 [o:civicrm:p:civicrm_extensions:r:Civixero]
 file_filter = po/Civixero/<lang>/Civixero.po
@@ -873,6 +873,13 @@ source_lang = en
 file_filter = po/sumfields/<lang>/sumfields.po
 source_file = po/sumfields/pot/sumfields.pot
 source_lang = en
+
+[o:civicrm:p:civicrm_extensions:r:summernote]
+file_filter   = po/summernote/<lang>/summernote.po
+source_file   = po/summernote/pot/summernote.pot
+type          = POT
+minimum_perc  = 0
+resource_name = summernote
 
 [o:civicrm:p:civicrm_extensions:r:sweetalert]
 file_filter = po/sweetalert/<lang>/sweetalert.po
