@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2023-01-27 19:22+0000\n"
+"POT-Creation-Date: 2024-05-03 05:01+0000\n"
 "PO-Revision-Date: 2014-04-28 21:25+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2023\n"
 "Language-Team: Turkish (http://app.transifex.com/civicrm/civicrm_extensions/language/tr/)\n"
@@ -135,6 +135,7 @@ msgstr "Bu kişinin özetini görüntüle"
 #: CRM/Cdntaxreceipts/Form/Report/ReceiptsIssued.php
 #: templates/CRM/Cdntaxreceipts/Form/ViewTaxReceipt.tpl
 #: templates/CRM/Cdntaxreceipts/Task/IssueAggregateTaxReceipts.tpl
+#: templates/CRM/Cdntaxreceipts/Task/IssueSingleTaxReceipts.tpl
 msgid "Print"
 msgstr "Yazdır"
 
@@ -143,6 +144,7 @@ msgstr "Yazdır"
 #: templates/CRM/Cdntaxreceipts/Form/ViewTaxReceipt.tpl
 #: templates/CRM/Cdntaxreceipts/Task/IssueAggregateTaxReceipts.tpl
 #: templates/CRM/Cdntaxreceipts/Task/IssueAnnualTaxReceipts.tpl
+#: templates/CRM/Cdntaxreceipts/Task/IssueSingleTaxReceipts.tpl
 msgid "Email"
 msgstr "E-posta"
 
@@ -273,12 +275,24 @@ msgid "Watermark Image"
 msgstr "Filigran görseli"
 
 #: CRM/Cdntaxreceipts/Form/Settings.php
+msgid "Source Field Value"
+msgstr ""
+
+#: CRM/Cdntaxreceipts/Form/Settings.php
+msgid "Source Field Label (%1)"
+msgstr ""
+
+#: CRM/Cdntaxreceipts/Form/Settings.php
 msgid "Could not upload the file"
 msgstr "Dosya yüklenemedi"
 
 #: CRM/Cdntaxreceipts/Form/Settings.php
 msgid "Setup in-kind receipts?"
 msgstr "Ayni alındılar ayarlansın mı?"
+
+#: CRM/Cdntaxreceipts/Form/Settings.php
+msgid "In-kind Financial Type"
+msgstr ""
 
 #: CRM/Cdntaxreceipts/Form/Settings.php
 msgid "Delivery Method"
@@ -356,6 +370,12 @@ msgid "File has expired. Please retrieve receipt from the email archive."
 msgstr "Dosyanın süresi geçmiş. Lütfen alındıyı e-posta arşivinden alın."
 
 #: CRM/Cdntaxreceipts/Task/IssueAggregateTaxReceipts.php
+msgid ""
+"No eligible contributions selected. E.g. In-kind must be receipted "
+"individually."
+msgstr ""
+
+#: CRM/Cdntaxreceipts/Task/IssueAggregateTaxReceipts.php
 msgid "Issue Aggregate Tax Receipts"
 msgstr "Birikimli vergi alındılarını düzenle"
 
@@ -416,11 +436,17 @@ msgstr "%1 vergi alındısı için veriler düzenlenen vergi alındıları rapor
 msgid "%1 tax receipt(s) failed to process."
 msgstr "%1 vergi alındısı işlenemedi."
 
+#: CRM/Cdntaxreceipts/Task/IssueAggregateTaxReceipts.php
+#: CRM/Cdntaxreceipts/Task/IssueAnnualTaxReceipts.php
+#: CRM/Cdntaxreceipts/Task/IssueSingleTaxReceipts.php
+msgid "Receipts-To-Print-%1"
+msgstr ""
+
 #: CRM/Cdntaxreceipts/Task/IssueAnnualTaxReceipts.php cdntaxreceipts.php
 msgid "Issue Annual Tax Receipts"
 msgstr "Yıllık vergi alındılarını düzenle"
 
-#: CRM/Cdntaxreceipts/Task/IssueSingleTaxReceipts.php cdntaxreceipts.php
+#: CRM/Cdntaxreceipts/Task/IssueSingleTaxReceipts.php
 msgid "Issue Tax Receipts"
 msgstr "Vergi alındılarını düzenle"
 
@@ -434,9 +460,9 @@ msgid ""
 "contributions will be marked 'duplicate'."
 msgstr "Tüm %1 katkı için vergi alındısı düzenle. Daha önce alınan katkılar 'yinelenen' olarak işaretlenir."
 
-#: CRM/Cdntaxreceipts/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "%1, %2 sürümüne güncelle"
+#: CRM/Cdntaxreceipts/Upgrader.php
+msgid "Source: "
+msgstr ""
 
 #: cdntaxreceipts.functions.inc
 msgid "Failed to acquire lock. No receipts were processed."
@@ -487,14 +513,6 @@ msgid "Thank you for giving in %1!"
 msgstr "%1 bağışınız için teşekkürler!"
 
 #: cdntaxreceipts.functions.inc
-msgid "Receipt No: %1"
-msgstr "Alındı numarası: %1"
-
-#: cdntaxreceipts.functions.inc
-msgid "Received from: "
-msgstr "Kimden alındı:"
-
-#: cdntaxreceipts.functions.inc
 msgid "Donation in-kind: %1"
 msgstr "Ayni bağış: %1"
 
@@ -505,6 +523,14 @@ msgstr "Maliyet: %1"
 #: cdntaxreceipts.functions.inc
 msgid "Appraiser: %1"
 msgstr "Değerlendiren: %1"
+
+#: cdntaxreceipts.functions.inc
+msgid "Receipt No: %1"
+msgstr "Alındı numarası: %1"
+
+#: cdntaxreceipts.functions.inc
+msgid "Received from: "
+msgstr "Kimden alındı:"
 
 #: cdntaxreceipts.functions.inc
 msgid "Canada Revenue Agency: canada.ca/charities-giving"
@@ -524,6 +550,12 @@ msgid ""
 "- CDN Tax Receipts."
 msgstr "Düzenlenme konumu ayarlanmamış. Lütfen Yönetim - CiviContribute - CDN vergi allındıları bölümünden ayarlayın."
 
+#: cdntaxreceipts.functions.inc
+msgid ""
+"The total for contribution id <a %1>%2</a> does not match the line items. "
+"Please correct the contribution first."
+msgstr ""
+
 #: cdntaxreceipts.php
 msgid "Tax Receipt"
 msgstr "Vergi alındısı"
@@ -537,8 +569,8 @@ msgid "Issue Tax Receipts (Combined Receipt with Total Contributed)"
 msgstr "Vergi alındılarını düzenle (toplam katkı için birleştirilmiş alındı)"
 
 #: cdntaxreceipts.php
-msgid "CiviCRM CDN Tax Receipts"
-msgstr "CiviCRM CDN vergi alındısı"
+msgid "CiviCRM CDN Tax Receipts: Issue Tax Receipts"
+msgstr ""
 
 #: cdntaxreceipts.php
 msgid ""
@@ -554,6 +586,18 @@ msgstr "CDN vergi alındıları"
 msgid ""
 "Please upload a valid file. Allowed extensions are (.gif, .png, .jpg, .pdf)"
 msgstr "Lütfen geçerli bir dosya yükleyin. Şu uzantılı dosyalar kullanılabilir (.gif, .png, .jpg, .pdf)"
+
+#: cdntaxreceipts.php
+msgid ""
+"In-kind receipts appear to have been configured, but the financial type may "
+"have changed and it can not be determined automatically. Please visit <a "
+"%1>the settings page</a> and select the financial type being used for In-"
+"kind."
+msgstr ""
+
+#: cdntaxreceipts.php
+msgid "In-kind financial type is unknown"
+msgstr ""
 
 #: templates/CRM/Cdntaxreceipts/Form/ImageDelete.tpl
 msgid "Delete the <em>%1</em> file?"
@@ -612,16 +656,44 @@ msgid "Upload your own PDF template: .pdf"
 msgstr "Kendi PDF kalıbınızı yükleyin: .pdf"
 
 #: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
+msgid "Either replace with a token string or blank out to hide the field."
+msgstr ""
+
+#: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
+msgid ""
+"Label to use for the Source field. Include a space at the end to provide "
+"spacing between the label and the value."
+msgstr ""
+
+#: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
 msgid "System Options"
 msgstr "Sistem seçenekleri"
 
 #: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
 msgid ""
 "Checking this box will set up the fields required to generate in-kind tax "
-"receipts. Unchecking the box will not disable in-kind receipts: you will "
-"need to do that manually, by disabling the In-kind contribution type or "
-"making it non-deductible in the CiviCRM administration pages."
-msgstr "Bu seçenek işaretlendiğinde, para olmayan vergi alındısı oluşturmak için gerekli alanlar ayarlanır. İşareti kaldırmak para olmayan alındıları devre dışı bırakmaz: Bunu CiviCRM yönetim sayfalarında Para olmayan katkı türünü devre dışı bırakarak veya vergiden düşülemeyecek olarak ayarlayarak el ile yapmanız gerekir."
+"receipts."
+msgstr ""
+
+#: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
+msgid ""
+"In-kind appears to have been previously enabled but the financial type for "
+"it may have changed. Please select the type you are using for In-kind."
+msgstr ""
+
+#: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
+msgid "In-kind receipts:"
+msgstr ""
+
+#: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
+msgid "Configured"
+msgstr ""
+
+#: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
+msgid ""
+"To disable in-kind receipts you will need to either disable the In-kind "
+"contribution type or make it non-deductible."
+msgstr ""
 
 #: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
 msgid ""
@@ -721,6 +793,10 @@ msgstr "Bu katkı için bir vergi alındısı düzenlenmemiş."
 msgid ""
 "The receipt will be sent <strong>by email</strong> to the contributor (%1)."
 msgstr "Alındı katkıda bulunan kişiye (%1) <strong>e-posta ile</strong> gönderilecek."
+
+#: templates/CRM/Cdntaxreceipts/Form/ViewTaxReceipt.tpl
+msgid "Download PDF instead."
+msgstr ""
 
 #: templates/CRM/Cdntaxreceipts/Form/ViewTaxReceipt.tpl
 msgid ""
@@ -847,6 +923,14 @@ msgid ""
 "  were recorded after the annual receipt was issued, those contributions must be receipted one at a time. Use the Find\n"
 "  Contributions action to issue those receipts."
 msgstr "Bağışçı başına yılda yalnızca bir tane yıllık vergi alındısı düzenlenebilir. Bağışçının yıllık alındı düzenlendikten\n  sonra kaydedilmiş uygun katkıları varsa, bu katkılar teker teker alınmalıdır. Bu alındıları düzenlemek için katkı bul\n  işlemini kullanın."
+
+#: templates/CRM/Cdntaxreceipts/Task/IssueSingleTaxReceipts.tpl
+msgid "Tax Receipt Status"
+msgstr ""
+
+#: templates/CRM/Cdntaxreceipts/Task/IssueSingleTaxReceipts.tpl
+msgid "Total"
+msgstr "Toplam"
 
 #: templates/CRM/Cdntaxreceipts/Task/IssueSingleTaxReceipts.tpl
 msgid "Not yet receipted"
