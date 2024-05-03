@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2023-01-27 19:22+0000\n"
+"POT-Creation-Date: 2024-05-03 05:01+0000\n"
 "PO-Revision-Date: 2014-04-28 21:25+0000\n"
 "Last-Translator: HanV <han.velthuis@kpnmail.nl>, 2023\n"
 "Language-Team: Dutch (http://app.transifex.com/civicrm/civicrm_extensions/language/nl/)\n"
@@ -137,6 +137,7 @@ msgstr "Contactoverzicht van dit contact weergeven"
 #: CRM/Cdntaxreceipts/Form/Report/ReceiptsIssued.php
 #: templates/CRM/Cdntaxreceipts/Form/ViewTaxReceipt.tpl
 #: templates/CRM/Cdntaxreceipts/Task/IssueAggregateTaxReceipts.tpl
+#: templates/CRM/Cdntaxreceipts/Task/IssueSingleTaxReceipts.tpl
 msgid "Print"
 msgstr "Afdrukken"
 
@@ -145,6 +146,7 @@ msgstr "Afdrukken"
 #: templates/CRM/Cdntaxreceipts/Form/ViewTaxReceipt.tpl
 #: templates/CRM/Cdntaxreceipts/Task/IssueAggregateTaxReceipts.tpl
 #: templates/CRM/Cdntaxreceipts/Task/IssueAnnualTaxReceipts.tpl
+#: templates/CRM/Cdntaxreceipts/Task/IssueSingleTaxReceipts.tpl
 msgid "Email"
 msgstr "E-mail"
 
@@ -275,12 +277,24 @@ msgid "Watermark Image"
 msgstr "Watermerk"
 
 #: CRM/Cdntaxreceipts/Form/Settings.php
+msgid "Source Field Value"
+msgstr ""
+
+#: CRM/Cdntaxreceipts/Form/Settings.php
+msgid "Source Field Label (%1)"
+msgstr ""
+
+#: CRM/Cdntaxreceipts/Form/Settings.php
 msgid "Could not upload the file"
 msgstr "Uploaden bestand is mislukt"
 
 #: CRM/Cdntaxreceipts/Form/Settings.php
 msgid "Setup in-kind receipts?"
 msgstr "In natura ontvangen instellen?"
+
+#: CRM/Cdntaxreceipts/Form/Settings.php
+msgid "In-kind Financial Type"
+msgstr ""
 
 #: CRM/Cdntaxreceipts/Form/Settings.php
 msgid "Delivery Method"
@@ -358,6 +372,12 @@ msgid "File has expired. Please retrieve receipt from the email archive."
 msgstr "Bestand is vervallen. Haal het ontvangstbewijs op uit het e-mailarchief."
 
 #: CRM/Cdntaxreceipts/Task/IssueAggregateTaxReceipts.php
+msgid ""
+"No eligible contributions selected. E.g. In-kind must be receipted "
+"individually."
+msgstr ""
+
+#: CRM/Cdntaxreceipts/Task/IssueAggregateTaxReceipts.php
 msgid "Issue Aggregate Tax Receipts"
 msgstr "Beoordelen Samengestelde belastingontvangstbewijzen"
 
@@ -418,11 +438,17 @@ msgstr "Er zijn voor %1 ontvangsten gegevens beschikbaar in het rapport Te beoor
 msgid "%1 tax receipt(s) failed to process."
 msgstr "%1 belastingontvangstbewijzen zijn niet goed verwerkt."
 
+#: CRM/Cdntaxreceipts/Task/IssueAggregateTaxReceipts.php
+#: CRM/Cdntaxreceipts/Task/IssueAnnualTaxReceipts.php
+#: CRM/Cdntaxreceipts/Task/IssueSingleTaxReceipts.php
+msgid "Receipts-To-Print-%1"
+msgstr ""
+
 #: CRM/Cdntaxreceipts/Task/IssueAnnualTaxReceipts.php cdntaxreceipts.php
 msgid "Issue Annual Tax Receipts"
 msgstr "Beoordelen jaarlijkse belastingontvangstbewijzen"
 
-#: CRM/Cdntaxreceipts/Task/IssueSingleTaxReceipts.php cdntaxreceipts.php
+#: CRM/Cdntaxreceipts/Task/IssueSingleTaxReceipts.php
 msgid "Issue Tax Receipts"
 msgstr "Beoordelen belastingontvangstbewijzen"
 
@@ -436,9 +462,9 @@ msgid ""
 "contributions will be marked 'duplicate'."
 msgstr "Ontvangstbewijzen beoordelen voor alle %1 bijdragen. Al eerder ontvangen bewijzen krijgen de markering 'duplicaat'."
 
-#: CRM/Cdntaxreceipts/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Upgrade %1 naar versie %2"
+#: CRM/Cdntaxreceipts/Upgrader.php
+msgid "Source: "
+msgstr ""
 
 #: cdntaxreceipts.functions.inc
 msgid "Failed to acquire lock. No receipts were processed."
@@ -489,14 +515,6 @@ msgid "Thank you for giving in %1!"
 msgstr "Dank u wel voor het geven aan %1!"
 
 #: cdntaxreceipts.functions.inc
-msgid "Receipt No: %1"
-msgstr "Ontvangstnummer: %1"
-
-#: cdntaxreceipts.functions.inc
-msgid "Received from: "
-msgstr "Ontvangen van: "
-
-#: cdntaxreceipts.functions.inc
 msgid "Donation in-kind: %1"
 msgstr "Bijdrage in natura: %1"
 
@@ -507,6 +525,14 @@ msgstr "Kosten: %1"
 #: cdntaxreceipts.functions.inc
 msgid "Appraiser: %1"
 msgstr "Beoordelaar: %1"
+
+#: cdntaxreceipts.functions.inc
+msgid "Receipt No: %1"
+msgstr "Ontvangstnummer: %1"
+
+#: cdntaxreceipts.functions.inc
+msgid "Received from: "
+msgstr "Ontvangen van: "
 
 #: cdntaxreceipts.functions.inc
 msgid "Canada Revenue Agency: canada.ca/charities-giving"
@@ -526,6 +552,12 @@ msgid ""
 "- CDN Tax Receipts."
 msgstr "Betrokken locatie is niet aangegeven. U kunt dat doen op Beheer - CiviContribute - Belastingontvangstbewijzen"
 
+#: cdntaxreceipts.functions.inc
+msgid ""
+"The total for contribution id <a %1>%2</a> does not match the line items. "
+"Please correct the contribution first."
+msgstr ""
+
 #: cdntaxreceipts.php
 msgid "Tax Receipt"
 msgstr "Fiscaal ontvangst"
@@ -539,8 +571,8 @@ msgid "Issue Tax Receipts (Combined Receipt with Total Contributed)"
 msgstr "Beoordeling ontvangstbewijzen (Gecombineerd ontvangstbewijs met het aantal bijdragen)"
 
 #: cdntaxreceipts.php
-msgid "CiviCRM CDN Tax Receipts"
-msgstr "CiviCRM Belastingontvangstbewijzen"
+msgid "CiviCRM CDN Tax Receipts: Issue Tax Receipts"
+msgstr ""
 
 #: cdntaxreceipts.php
 msgid ""
@@ -556,6 +588,18 @@ msgstr "Belastingontvangstbewijzen"
 msgid ""
 "Please upload a valid file. Allowed extensions are (.gif, .png, .jpg, .pdf)"
 msgstr "Gebruik a.u.b. een geldig bestandstype. (Toegestaan: gif, png, jpg, pdf)"
+
+#: cdntaxreceipts.php
+msgid ""
+"In-kind receipts appear to have been configured, but the financial type may "
+"have changed and it can not be determined automatically. Please visit <a "
+"%1>the settings page</a> and select the financial type being used for In-"
+"kind."
+msgstr ""
+
+#: cdntaxreceipts.php
+msgid "In-kind financial type is unknown"
+msgstr ""
 
 #: templates/CRM/Cdntaxreceipts/Form/ImageDelete.tpl
 msgid "Delete the <em>%1</em> file?"
@@ -614,16 +658,44 @@ msgid "Upload your own PDF template: .pdf"
 msgstr "Uw eigen PDF-sjabloon uploaden: pdf"
 
 #: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
+msgid "Either replace with a token string or blank out to hide the field."
+msgstr ""
+
+#: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
+msgid ""
+"Label to use for the Source field. Include a space at the end to provide "
+"spacing between the label and the value."
+msgstr ""
+
+#: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
 msgid "System Options"
 msgstr "Systeemopties"
 
 #: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
 msgid ""
 "Checking this box will set up the fields required to generate in-kind tax "
-"receipts. Unchecking the box will not disable in-kind receipts: you will "
-"need to do that manually, by disabling the In-kind contribution type or "
-"making it non-deductible in the CiviCRM administration pages."
-msgstr "Door dit veld aan te vinken kunt u de velden instellen om ontvangst in natura mogelijk te maken. Uitvinken schakelt ontvangst in natura niet uit, dat is een handmatige handeling door het bijdragetype in natura uit te schakelen of door het niet aftrekbaar te maken in de administratie-pagina's van CiviCRM."
+"receipts."
+msgstr ""
+
+#: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
+msgid ""
+"In-kind appears to have been previously enabled but the financial type for "
+"it may have changed. Please select the type you are using for In-kind."
+msgstr ""
+
+#: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
+msgid "In-kind receipts:"
+msgstr ""
+
+#: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
+msgid "Configured"
+msgstr ""
+
+#: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
+msgid ""
+"To disable in-kind receipts you will need to either disable the In-kind "
+"contribution type or make it non-deductible."
+msgstr ""
 
 #: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
 msgid ""
@@ -723,6 +795,10 @@ msgstr "Er is geen belastingontvangstbewijs bij deze bijdrage."
 msgid ""
 "The receipt will be sent <strong>by email</strong> to the contributor (%1)."
 msgstr "Het ontvangstbewijs zal per <strong>e-mail</strong> worden verzonden na de donateur (%1)."
+
+#: templates/CRM/Cdntaxreceipts/Form/ViewTaxReceipt.tpl
+msgid "Download PDF instead."
+msgstr ""
 
 #: templates/CRM/Cdntaxreceipts/Form/ViewTaxReceipt.tpl
 msgid ""
@@ -849,6 +925,14 @@ msgid ""
 "  were recorded after the annual receipt was issued, those contributions must be receipted one at a time. Use the Find\n"
 "  Contributions action to issue those receipts."
 msgstr "Per donateur kan jaarlijks maar een belastingontvangstbewijs worden verwerkt. Als de donateur te beoordelen bijdragen heeft die nadat de jaarlijkse ontvangst is verwerkt, zijn vastgelegd, dan moeten die bijdragen later een voor een worden ontvangen. Gebruik Bijdragen zoeken om die ontvangstbewijzen te zoeken."
+
+#: templates/CRM/Cdntaxreceipts/Task/IssueSingleTaxReceipts.tpl
+msgid "Tax Receipt Status"
+msgstr ""
+
+#: templates/CRM/Cdntaxreceipts/Task/IssueSingleTaxReceipts.tpl
+msgid "Total"
+msgstr "Totaal"
 
 #: templates/CRM/Cdntaxreceipts/Task/IssueSingleTaxReceipts.tpl
 msgid "Not yet receipted"
