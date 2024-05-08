@@ -3,32 +3,31 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Usha Matisson <matisson@makoa.fr>, 2020
+# Usha Matisson, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: assignee\n"
-"POT-Creation-Date: 2020-07-18 05:01+0000\n"
-"Last-Translator: Usha Matisson <matisson@makoa.fr>, 2020\n"
-"Language-Team: French (https://www.transifex.com/civicrm/teams/1905/fr/)\n"
+"POT-Creation-Date: 2024-05-08 05:02+0000\n"
+"Last-Translator: Usha Matisson, 2020\n"
+"Language-Team: French (https://app.transifex.com/civicrm/teams/1905/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: assignee.php
 msgid "Activity Assignee Settings"
 msgstr "Paramètres des contacts assignés"
 
 #: settings/assignee.setting.php
-msgid "Activity Assignee Group"
-msgstr "Groupe des contacts assignables"
+msgid "Activity Assignee group"
+msgstr ""
 
 #: settings/assignee.setting.php
-msgid "Limit activity assignees to a specific Group?"
+msgid "Limit Assignees to members of this group."
 msgstr ""
-"Limiter les contacts assignables à une activité à un groupe spécifique ?"
 
 #: settings/assignee.setting.php
 msgid ""
@@ -39,12 +38,14 @@ msgstr ""
 " disponibles à un groupe spécifié."
 
 #: settings/assignee.setting.php
-msgid "Activity Assignee default user"
-msgstr "Contact assigné à l'utilisateur par défaut"
+msgid "Activity Assignee defaults to current user?"
+msgstr ""
 
 #: settings/assignee.setting.php
-msgid "Set the Activity Assignee to the current user?"
-msgstr "Remplir le champ contact assigné avec l'utilisateur courant ?"
+msgid ""
+"Add the current user as an Assignee.  Note: if a group is specified, the "
+"user will only be shown if in the group."
+msgstr ""
 
 #: settings/assignee.setting.php
 msgid ""
@@ -55,3 +56,20 @@ msgstr ""
 "D'habitude, le champ contact assigné est vide. En activant ce paramètre, "
 "l'utilisateur courant sera ajouté automatiquement comme contact assigné. "
 "L'utilisateur peut le supprimer dans chaque activité s'il le souhaite."
+
+#: settings/assignee.setting.php
+msgid "Activity Assignee default users"
+msgstr ""
+
+#: settings/assignee.setting.php
+msgid ""
+"Add these contacts as Assignees. Note: if a group is specified, the users "
+"will only be shown if in the group."
+msgstr ""
+
+#: settings/assignee.setting.php
+msgid ""
+"The assignees box is usually blank. By enabling this setting, the listed "
+"contact will be added automatically as an Assignee.  The user can remove "
+"this if desired."
+msgstr ""
