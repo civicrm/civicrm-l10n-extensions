@@ -3,14 +3,14 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# HanV <han.velthuis@home.nl>, 2020-2021
+# HanV <han.velthuis@kpnmail.nl>, 2020-2021
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2021-05-07 05:01+0000\n"
-"PO-Revision-Date: 2021-06-11 09:36+0000\n"
-"Last-Translator: Betty Dolfing <betty.dolfing@civicoop.org>\n"
-"Language-Team: Dutch (http://www.transifex.com/civicrm/civicrm_extensions/language/nl/)\n"
+"POT-Creation-Date: 2024-05-17 05:01+0000\n"
+"PO-Revision-Date: 2014-12-20 05:32+0000\n"
+"Last-Translator: HanV <han.velthuis@kpnmail.nl>, 2020-2021\n"
+"Language-Team: Dutch (http://app.transifex.com/civicrm/civicrm_extensions/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -88,16 +88,20 @@ msgid "Account type"
 msgstr "Accounttype"
 
 #: CRM/Core/Payment/iATSServiceACHEFT.php
-msgid "Bank Number (3 digits)"
-msgstr "Banknummer (3 cijfers)"
+msgid "Account No."
+msgstr ""
+
+#: CRM/Core/Payment/iATSServiceACHEFT.php
+msgid "Bank No. (3 digits)"
+msgstr ""
 
 #: CRM/Core/Payment/iATSServiceACHEFT.php
 msgid "%1 is a required field."
 msgstr "%1 is een verplicht veld."
 
 #: CRM/Core/Payment/iATSServiceACHEFT.php
-msgid "Bank Number"
-msgstr "Banknummer"
+msgid "Bank No."
+msgstr ""
 
 #: CRM/Core/Payment/iATSServiceACHEFT.php
 msgid "%1 must contain only digits."
@@ -112,8 +116,8 @@ msgid "Transit Number (5 digits)"
 msgstr "Transit-nummer (5 cijfers)"
 
 #: CRM/Core/Payment/iATSServiceACHEFT.php
-msgid "Transit Number"
-msgstr "Transit-nummer"
+msgid "Transit No."
+msgstr ""
 
 #: CRM/Core/Payment/iATSServiceACHEFT.php
 msgid "%1 must be of length 5."
@@ -132,7 +136,7 @@ msgstr "Versleutelde details creditcard"
 msgid "Unable to retrieve card details from iATS.<br />%1"
 msgstr "Ophalen creditcardgegevens van iATS mislukt.<br />%1"
 
-#: CRM/Iats/Form/IATSCustomerLink.php CRM/Iats/Form/Settings.php
+#: CRM/Iats/Form/IATSCustomerLink.php
 msgid "Submit"
 msgstr "Verzenden"
 
@@ -598,61 +602,6 @@ msgstr "Toon dit contact."
 msgid "View details of the verified contribution."
 msgstr "Toon details van deze gecontroleerde bijdrage."
 
-#: CRM/Iats/Form/Settings.php
-msgid "Email Recurring Contribution failure reports to this Email address"
-msgstr "Het mislukken van de terugkerende bijdrage melden op dit e-mailadres"
-
-#: CRM/Iats/Form/Settings.php
-msgid "Email address is not a valid format."
-msgstr "Het e-mailadres is niet in een geldig formaat."
-
-#: CRM/Iats/Form/Settings.php
-msgid ""
-"When failure count is equal to or greater than this number, push the next "
-"scheduled contribution date forward"
-msgstr "Verzet de geplande bijdragedatum naar achteren als er meer fouten optreden dan dit aantal"
-
-#: CRM/Iats/Form/Settings.php
-msgid "Threshhold must be a positive integer."
-msgstr "Drempel moet een geheel getal zijn."
-
-#: CRM/Iats/Form/Settings.php
-msgid "Email receipt for a Contribution in a Recurring Series"
-msgstr "Ontvangstbewijs e-mailen voor een terugkerende bijdrage"
-
-#: CRM/Iats/Form/Settings.php
-msgid "Disable use of cryptogram (only applies to FirstAmerican)."
-msgstr "Gebruik van cryptogram uitschakelen (van toepassing bij FirstAmerican)."
-
-#: CRM/Iats/Form/Settings.php
-msgid "ACH Category Text (only applies to FirstAmerican)."
-msgstr "ACH Categorie-tekst (van toepassing bij FirstAmerican)."
-
-#: CRM/Iats/Form/Settings.php
-msgid "Disable extra edit fields for Recurring Contributions"
-msgstr "Schakel extra wijzigingsvelden uit voor terugkerende bijdragen"
-
-#: CRM/Iats/Form/Settings.php
-msgid ""
-"Enable self-service updates to recurring contribution Contact Billing Info."
-msgstr "Zelf updates laten doen inschakelen voor betaalgegevens contacten periodieke bijdrage."
-
-#: CRM/Iats/Form/Settings.php
-msgid "Allow self-service updates to recurring contribution amount."
-msgstr "Zelf updates laten doen toestaan voor periodieke bijdragen."
-
-#: CRM/Iats/Form/Settings.php
-msgid "Enable self-service cancellation of a recurring contribution."
-msgstr "Zelf laten afbreken van periodieke bijdragen inschakelen."
-
-#: CRM/Iats/Form/Settings.php
-msgid "Enable public selection of future recurring start dates."
-msgstr "Publieke selectie van toekomstige startdatums inschakelen."
-
-#: CRM/Iats/Form/Settings.php
-msgid "Restrict allowable days of the month for Recurring Contributions"
-msgstr "Beperken van toegestane dagen in de maand voor terugkerende bijdragen"
-
 #: CRM/Iats/Transaction.php
 msgid "Failed to process recurring contribution id %1: %2"
 msgstr "Verwerken van terugkerende bijdrage mislukt, id %1: %2"
@@ -678,10 +627,6 @@ msgstr "Niet ondersteunde processor-groep %1"
 msgid "Now"
 msgstr "Nu"
 
-#: CRM/Iats/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Upgrade %1 naar versie %2"
-
 #: CRM/Iats/iATSServiceRequest.php
 msgid "Invalid currency selection: %1 for domain %2"
 msgstr "Ongeldige selectie valuta: %1 bij domein %2"
@@ -699,12 +644,28 @@ msgid "Failed to acquire lock. No contribution records were processed."
 msgstr "Het zetten van een lock is mislukt. Er zijn geen bijdragen verwerkt."
 
 #: api/v3/Job/Iatsrecurringcontributions.php
+msgid ""
+"Stale recurring contribution schedule for contact id %1, recurring schedule "
+"id %2, %3"
+msgstr ""
+
+#: api/v3/Job/Iatsrecurringcontributions.php
 msgid "iATS Payments (%1) Recurring Contribution ( id = %2 )"
 msgstr "iATS Betalingen (%1) Terugkerende bijdrage ( id = %2 )"
 
 #: api/v3/Job/Iatsrecurringcontributions.php
 msgid "Unexpected error, no payment token for recurring schedule id %1"
 msgstr "Onverwachte fout, token betaling ontbreekt voor terugkerende schedule-id %1"
+
+#: api/v3/Job/Iatsrecurringcontributions.php
+msgid "Admin"
+msgstr "Beheerder"
+
+#: api/v3/Job/Iatsrecurringcontributions.php
+msgid ""
+"It seems something is not quite right with your recurring contribution "
+"payment. Please see details below."
+msgstr ""
 
 #: api/v3/Job/Iatsrecurringcontributions.php
 msgid "Attempted iATS Payments (%1) Recurring Contribution for %2"
@@ -717,6 +678,10 @@ msgstr "Het aanmaken van activiteitsrecord voor contact-id %1: %2 is mislukt"
 #: api/v3/Job/Iatsrecurringcontributions.php
 msgid "Created activity record for contact id %1"
 msgstr "Activiteitsrecord voor contact-id %1 is aangemaakt"
+
+#: api/v3/Job/Iatsrecurringcontributions.php
+msgid "System Administrator"
+msgstr ""
 
 #: api/v3/Job/Iatsrecurringcontributions.php
 msgid "Completed, but with %1 errors. %2 records processed."
@@ -766,6 +731,14 @@ msgid "Date of first contribution"
 msgstr "Datum eerste bijdrage"
 
 #: iats.php
+msgid "Email address is not a valid format."
+msgstr "Het e-mailadres is niet in een geldig formaat."
+
+#: iats.php
+msgid "Threshhold must be a positive integer."
+msgstr "Drempel moet een geheel getal zijn."
+
+#: iats.php
 msgid ""
 "Your next scheduled contribution date will automatically be updated to the "
 "next allowable day of the month: %1"
@@ -776,16 +749,82 @@ msgid "Status"
 msgstr "Status"
 
 #: js/dd_cad.js
-msgid "Your Bank Number requires three digits, use a leading \"0\" if necessary"
-msgstr "Het banknummer bestaat uit drie cijfers, gebruik indien nodig een extra 0 vooraan"
+msgid "Your Bank No. requires three digits, use a leading \"0\" if necessary"
+msgstr ""
 
 #: js/dd_cad.js
-msgid "Your Bank Transit Number requires exactly five digits"
-msgstr "Het transit-nummer bestaat uit 5 cijfers"
+msgid "Your Transit No. requires exactly five digits"
+msgstr ""
 
 #: js/swipe.js
 msgid "Click here - then swipe."
 msgstr "Klik hier en swipe."
+
+#: settings/iats.setting.php
+msgid "Email Recurring Contribution failure reports to this Email address"
+msgstr "Het mislukken van de terugkerende bijdrage melden op dit e-mailadres"
+
+#: settings/iats.setting.php
+msgid ""
+"BCC Email Recurring Contribution failure reports to this Email address."
+msgstr ""
+
+#: settings/iats.setting.php
+msgid ""
+"When failure count is equal to or greater than this number, push the next "
+"scheduled contribution date forward"
+msgstr "Verzet de geplande bijdragedatum naar achteren als er meer fouten optreden dan dit aantal"
+
+#: settings/iats.setting.php
+msgid "Never"
+msgstr "Nooit"
+
+#: settings/iats.setting.php
+msgid "Always"
+msgstr "Altijd"
+
+#: settings/iats.setting.php
+msgid "As set for a specific Contribution Series"
+msgstr ""
+
+#: settings/iats.setting.php
+msgid ""
+"Email receipt for a Contribution if Recurring payment fails - with error "
+"message"
+msgstr ""
+
+#: settings/iats.setting.php
+msgid "Disable use of cryptogram (only applies to FirstAmerican)."
+msgstr "Gebruik van cryptogram uitschakelen (van toepassing bij FirstAmerican)."
+
+#: settings/iats.setting.php
+msgid "ACH Category Text (only applies to FirstAmerican)."
+msgstr "ACH Categorie-tekst (van toepassing bij FirstAmerican)."
+
+#: settings/iats.setting.php
+msgid "Disable extra edit fields for Recurring Contributions"
+msgstr "Schakel extra wijzigingsvelden uit voor terugkerende bijdragen"
+
+#: settings/iats.setting.php
+msgid ""
+"Enable self-service updates to recurring contribution Contact Billing Info."
+msgstr "Zelf updates laten doen inschakelen voor betaalgegevens contacten periodieke bijdrage."
+
+#: settings/iats.setting.php
+msgid "Allow self-service updates to recurring contribution amount."
+msgstr "Zelf updates laten doen toestaan voor periodieke bijdragen."
+
+#: settings/iats.setting.php
+msgid "Enable self-service cancellation of a recurring contribution."
+msgstr "Zelf laten afbreken van periodieke bijdragen inschakelen."
+
+#: settings/iats.setting.php
+msgid "Enable public selection of future recurring start dates."
+msgstr "Publieke selectie van toekomstige startdatums inschakelen."
+
+#: settings/iats.setting.php
+msgid "Restrict allowable days of the month for Recurring Contributions"
+msgstr "Beperken van toegestane dagen in de maand voor terugkerende bijdragen"
 
 #: templates/CRM/Iats/BillingBlockDPM.tpl
 msgid "Please fix the following errors in the form fields above:"
