@@ -6,10 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2021-05-07 05:01+0000\n"
-"PO-Revision-Date: 2021-05-07 05:01+0000\n"
-"Last-Translator: CiviCRM Maintenance\n"
-"Language-Team: Ukrainian (http://www.transifex.com/civicrm/civicrm_extensions/language/uk/)\n"
+"POT-Creation-Date: 2024-05-17 05:01+0000\n"
+"PO-Revision-Date: 2014-12-20 05:32+0000\n"
+"Language-Team: Ukrainian (http://app.transifex.com/civicrm/civicrm_extensions/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -87,7 +86,11 @@ msgid "Account type"
 msgstr ""
 
 #: CRM/Core/Payment/iATSServiceACHEFT.php
-msgid "Bank Number (3 digits)"
+msgid "Account No."
+msgstr ""
+
+#: CRM/Core/Payment/iATSServiceACHEFT.php
+msgid "Bank No. (3 digits)"
 msgstr ""
 
 #: CRM/Core/Payment/iATSServiceACHEFT.php
@@ -95,7 +98,7 @@ msgid "%1 is a required field."
 msgstr ""
 
 #: CRM/Core/Payment/iATSServiceACHEFT.php
-msgid "Bank Number"
+msgid "Bank No."
 msgstr ""
 
 #: CRM/Core/Payment/iATSServiceACHEFT.php
@@ -111,7 +114,7 @@ msgid "Transit Number (5 digits)"
 msgstr ""
 
 #: CRM/Core/Payment/iATSServiceACHEFT.php
-msgid "Transit Number"
+msgid "Transit No."
 msgstr ""
 
 #: CRM/Core/Payment/iATSServiceACHEFT.php
@@ -131,7 +134,7 @@ msgstr ""
 msgid "Unable to retrieve card details from iATS.<br />%1"
 msgstr ""
 
-#: CRM/Iats/Form/IATSCustomerLink.php CRM/Iats/Form/Settings.php
+#: CRM/Iats/Form/IATSCustomerLink.php
 msgid "Submit"
 msgstr ""
 
@@ -597,61 +600,6 @@ msgstr ""
 msgid "View details of the verified contribution."
 msgstr ""
 
-#: CRM/Iats/Form/Settings.php
-msgid "Email Recurring Contribution failure reports to this Email address"
-msgstr ""
-
-#: CRM/Iats/Form/Settings.php
-msgid "Email address is not a valid format."
-msgstr ""
-
-#: CRM/Iats/Form/Settings.php
-msgid ""
-"When failure count is equal to or greater than this number, push the next "
-"scheduled contribution date forward"
-msgstr ""
-
-#: CRM/Iats/Form/Settings.php
-msgid "Threshhold must be a positive integer."
-msgstr ""
-
-#: CRM/Iats/Form/Settings.php
-msgid "Email receipt for a Contribution in a Recurring Series"
-msgstr ""
-
-#: CRM/Iats/Form/Settings.php
-msgid "Disable use of cryptogram (only applies to FirstAmerican)."
-msgstr ""
-
-#: CRM/Iats/Form/Settings.php
-msgid "ACH Category Text (only applies to FirstAmerican)."
-msgstr ""
-
-#: CRM/Iats/Form/Settings.php
-msgid "Disable extra edit fields for Recurring Contributions"
-msgstr ""
-
-#: CRM/Iats/Form/Settings.php
-msgid ""
-"Enable self-service updates to recurring contribution Contact Billing Info."
-msgstr ""
-
-#: CRM/Iats/Form/Settings.php
-msgid "Allow self-service updates to recurring contribution amount."
-msgstr ""
-
-#: CRM/Iats/Form/Settings.php
-msgid "Enable self-service cancellation of a recurring contribution."
-msgstr ""
-
-#: CRM/Iats/Form/Settings.php
-msgid "Enable public selection of future recurring start dates."
-msgstr ""
-
-#: CRM/Iats/Form/Settings.php
-msgid "Restrict allowable days of the month for Recurring Contributions"
-msgstr ""
-
 #: CRM/Iats/Transaction.php
 msgid "Failed to process recurring contribution id %1: %2"
 msgstr ""
@@ -677,10 +625,6 @@ msgstr ""
 msgid "Now"
 msgstr ""
 
-#: CRM/Iats/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Оновити %1 до версії %2"
-
 #: CRM/Iats/iATSServiceRequest.php
 msgid "Invalid currency selection: %1 for domain %2"
 msgstr ""
@@ -698,11 +642,27 @@ msgid "Failed to acquire lock. No contribution records were processed."
 msgstr ""
 
 #: api/v3/Job/Iatsrecurringcontributions.php
+msgid ""
+"Stale recurring contribution schedule for contact id %1, recurring schedule "
+"id %2, %3"
+msgstr ""
+
+#: api/v3/Job/Iatsrecurringcontributions.php
 msgid "iATS Payments (%1) Recurring Contribution ( id = %2 )"
 msgstr ""
 
 #: api/v3/Job/Iatsrecurringcontributions.php
 msgid "Unexpected error, no payment token for recurring schedule id %1"
+msgstr ""
+
+#: api/v3/Job/Iatsrecurringcontributions.php
+msgid "Admin"
+msgstr ""
+
+#: api/v3/Job/Iatsrecurringcontributions.php
+msgid ""
+"It seems something is not quite right with your recurring contribution "
+"payment. Please see details below."
 msgstr ""
 
 #: api/v3/Job/Iatsrecurringcontributions.php
@@ -715,6 +675,10 @@ msgstr ""
 
 #: api/v3/Job/Iatsrecurringcontributions.php
 msgid "Created activity record for contact id %1"
+msgstr ""
+
+#: api/v3/Job/Iatsrecurringcontributions.php
+msgid "System Administrator"
 msgstr ""
 
 #: api/v3/Job/Iatsrecurringcontributions.php
@@ -765,6 +729,14 @@ msgid "Date of first contribution"
 msgstr ""
 
 #: iats.php
+msgid "Email address is not a valid format."
+msgstr ""
+
+#: iats.php
+msgid "Threshhold must be a positive integer."
+msgstr ""
+
+#: iats.php
 msgid ""
 "Your next scheduled contribution date will automatically be updated to the "
 "next allowable day of the month: %1"
@@ -775,15 +747,81 @@ msgid "Status"
 msgstr ""
 
 #: js/dd_cad.js
-msgid "Your Bank Number requires three digits, use a leading \"0\" if necessary"
+msgid "Your Bank No. requires three digits, use a leading \"0\" if necessary"
 msgstr ""
 
 #: js/dd_cad.js
-msgid "Your Bank Transit Number requires exactly five digits"
+msgid "Your Transit No. requires exactly five digits"
 msgstr ""
 
 #: js/swipe.js
 msgid "Click here - then swipe."
+msgstr ""
+
+#: settings/iats.setting.php
+msgid "Email Recurring Contribution failure reports to this Email address"
+msgstr ""
+
+#: settings/iats.setting.php
+msgid ""
+"BCC Email Recurring Contribution failure reports to this Email address."
+msgstr ""
+
+#: settings/iats.setting.php
+msgid ""
+"When failure count is equal to or greater than this number, push the next "
+"scheduled contribution date forward"
+msgstr ""
+
+#: settings/iats.setting.php
+msgid "Never"
+msgstr ""
+
+#: settings/iats.setting.php
+msgid "Always"
+msgstr ""
+
+#: settings/iats.setting.php
+msgid "As set for a specific Contribution Series"
+msgstr ""
+
+#: settings/iats.setting.php
+msgid ""
+"Email receipt for a Contribution if Recurring payment fails - with error "
+"message"
+msgstr ""
+
+#: settings/iats.setting.php
+msgid "Disable use of cryptogram (only applies to FirstAmerican)."
+msgstr ""
+
+#: settings/iats.setting.php
+msgid "ACH Category Text (only applies to FirstAmerican)."
+msgstr ""
+
+#: settings/iats.setting.php
+msgid "Disable extra edit fields for Recurring Contributions"
+msgstr ""
+
+#: settings/iats.setting.php
+msgid ""
+"Enable self-service updates to recurring contribution Contact Billing Info."
+msgstr ""
+
+#: settings/iats.setting.php
+msgid "Allow self-service updates to recurring contribution amount."
+msgstr ""
+
+#: settings/iats.setting.php
+msgid "Enable self-service cancellation of a recurring contribution."
+msgstr ""
+
+#: settings/iats.setting.php
+msgid "Enable public selection of future recurring start dates."
+msgstr ""
+
+#: settings/iats.setting.php
+msgid "Restrict allowable days of the month for Recurring Contributions"
 msgstr ""
 
 #: templates/CRM/Iats/BillingBlockDPM.tpl
