@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2021-05-07 05:01+0000\n"
+"POT-Creation-Date: 2024-05-17 05:01+0000\n"
 "PO-Revision-Date: 2014-12-20 05:32+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2023\n"
 "Language-Team: Turkish (http://app.transifex.com/civicrm/civicrm_extensions/language/tr/)\n"
@@ -88,16 +88,20 @@ msgid "Account type"
 msgstr "Hesap türü"
 
 #: CRM/Core/Payment/iATSServiceACHEFT.php
-msgid "Bank Number (3 digits)"
-msgstr "Banka numarası (3 hane)"
+msgid "Account No."
+msgstr ""
+
+#: CRM/Core/Payment/iATSServiceACHEFT.php
+msgid "Bank No. (3 digits)"
+msgstr ""
 
 #: CRM/Core/Payment/iATSServiceACHEFT.php
 msgid "%1 is a required field."
 msgstr "%1 alanının doldurulması zorunludur"
 
 #: CRM/Core/Payment/iATSServiceACHEFT.php
-msgid "Bank Number"
-msgstr "Banka numarası"
+msgid "Bank No."
+msgstr ""
 
 #: CRM/Core/Payment/iATSServiceACHEFT.php
 msgid "%1 must contain only digits."
@@ -112,8 +116,8 @@ msgid "Transit Number (5 digits)"
 msgstr "Aktarım numarası (5 hane)"
 
 #: CRM/Core/Payment/iATSServiceACHEFT.php
-msgid "Transit Number"
-msgstr "Aktarım numarası"
+msgid "Transit No."
+msgstr ""
 
 #: CRM/Core/Payment/iATSServiceACHEFT.php
 msgid "%1 must be of length 5."
@@ -132,7 +136,7 @@ msgstr "Şifrelenmiş kredi kartı ayrıntıları"
 msgid "Unable to retrieve card details from iATS.<br />%1"
 msgstr "iATS üzerinden kart bilgileri alınamadı<br />%1"
 
-#: CRM/Iats/Form/IATSCustomerLink.php CRM/Iats/Form/Settings.php
+#: CRM/Iats/Form/IATSCustomerLink.php
 msgid "Submit"
 msgstr "Gönder"
 
@@ -598,61 +602,6 @@ msgstr "Bu kişiyi görüntüler."
 msgid "View details of the verified contribution."
 msgstr "Doğrulanmış katkının ayrıntılarını görüntüler."
 
-#: CRM/Iats/Form/Settings.php
-msgid "Email Recurring Contribution failure reports to this Email address"
-msgstr "Alınamayan yinelenen katkı raporları bu e-posta adresine gönderilsin"
-
-#: CRM/Iats/Form/Settings.php
-msgid "Email address is not a valid format."
-msgstr "E-posta adresinin biçimi geçersiz."
-
-#: CRM/Iats/Form/Settings.php
-msgid ""
-"When failure count is equal to or greater than this number, push the next "
-"scheduled contribution date forward"
-msgstr "Başarısızlık sayısı bu sayıya eşit veya büyük olduğunda, bir sonraki zamanlanmış katkı tarihini ötelensin"
-
-#: CRM/Iats/Form/Settings.php
-msgid "Threshhold must be a positive integer."
-msgstr "Eşik değeri pozitif bir tamsayı olmalıdır."
-
-#: CRM/Iats/Form/Settings.php
-msgid "Email receipt for a Contribution in a Recurring Series"
-msgstr "Yinelenen bir dizideki katkının alındısı e-posta ile gönderilsin"
-
-#: CRM/Iats/Form/Settings.php
-msgid "Disable use of cryptogram (only applies to FirstAmerican)."
-msgstr "Şifrelenmiş metin kullanılmasın (yalnızca FirstAmerican için geçerlidir)"
-
-#: CRM/Iats/Form/Settings.php
-msgid "ACH Category Text (only applies to FirstAmerican)."
-msgstr "ACH kategorisi metni (yalnızca FirstAmerican için geçerlidir)."
-
-#: CRM/Iats/Form/Settings.php
-msgid "Disable extra edit fields for Recurring Contributions"
-msgstr "Yinelenen katkılar için ek düzenleme alanları devre dışı bırakılsın"
-
-#: CRM/Iats/Form/Settings.php
-msgid ""
-"Enable self-service updates to recurring contribution Contact Billing Info."
-msgstr "Yinelenen katkı kişi fatura bilgilerinin kendi kendine güncellenebilmesini sağlar."
-
-#: CRM/Iats/Form/Settings.php
-msgid "Allow self-service updates to recurring contribution amount."
-msgstr "Yinelenen katkı miktarının kendi kendine güncellenebilmesini sağlar."
-
-#: CRM/Iats/Form/Settings.php
-msgid "Enable self-service cancellation of a recurring contribution."
-msgstr "Yinelenen bir katkıyı kendisi iptal edebilsin."
-
-#: CRM/Iats/Form/Settings.php
-msgid "Enable public selection of future recurring start dates."
-msgstr "Gelecekteki yinelenen başlangıç tarihleri herkese açık olarak seçilebilsin."
-
-#: CRM/Iats/Form/Settings.php
-msgid "Restrict allowable days of the month for Recurring Contributions"
-msgstr "Yinelenen katkılar için ayın izin verilen günleri kısıtlansın"
-
 #: CRM/Iats/Transaction.php
 msgid "Failed to process recurring contribution id %1: %2"
 msgstr "%1 kimlikli yinelenen katkı işlenemedi: %2"
@@ -678,10 +627,6 @@ msgstr "%1 aracı grubu desteklenmiyor"
 msgid "Now"
 msgstr "Şimdi"
 
-#: CRM/Iats/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "%1, %2 sürümüne güncelle"
-
 #: CRM/Iats/iATSServiceRequest.php
 msgid "Invalid currency selection: %1 for domain %2"
 msgstr "Para birimi seçimi geçersiz: %1, %2 etki alanı için"
@@ -699,12 +644,28 @@ msgid "Failed to acquire lock. No contribution records were processed."
 msgstr "Kilitlenemedi. Herhangi bir katkı kaydı yapılmadı."
 
 #: api/v3/Job/Iatsrecurringcontributions.php
+msgid ""
+"Stale recurring contribution schedule for contact id %1, recurring schedule "
+"id %2, %3"
+msgstr ""
+
+#: api/v3/Job/Iatsrecurringcontributions.php
 msgid "iATS Payments (%1) Recurring Contribution ( id = %2 )"
 msgstr "iATS Payments (%1) yinelenen katkı ( kimlik = %2 )"
 
 #: api/v3/Job/Iatsrecurringcontributions.php
 msgid "Unexpected error, no payment token for recurring schedule id %1"
 msgstr "Beklenmeyen sorun. %1 yinelenen zamanlama kimliği için bir ödeme belirteci yok"
+
+#: api/v3/Job/Iatsrecurringcontributions.php
+msgid "Admin"
+msgstr "Yönetici"
+
+#: api/v3/Job/Iatsrecurringcontributions.php
+msgid ""
+"It seems something is not quite right with your recurring contribution "
+"payment. Please see details below."
+msgstr ""
 
 #: api/v3/Job/Iatsrecurringcontributions.php
 msgid "Attempted iATS Payments (%1) Recurring Contribution for %2"
@@ -717,6 +678,10 @@ msgstr "%1 kimlikli kişi için işlem kaydı eklenirken bir sorun çıktı: %2"
 #: api/v3/Job/Iatsrecurringcontributions.php
 msgid "Created activity record for contact id %1"
 msgstr "%1 kimlikli kişi için işlem kaydı eklendi"
+
+#: api/v3/Job/Iatsrecurringcontributions.php
+msgid "System Administrator"
+msgstr ""
 
 #: api/v3/Job/Iatsrecurringcontributions.php
 msgid "Completed, but with %1 errors. %2 records processed."
@@ -766,6 +731,14 @@ msgid "Date of first contribution"
 msgstr "İlk katkı tarihi"
 
 #: iats.php
+msgid "Email address is not a valid format."
+msgstr "E-posta adresinin biçimi geçersiz."
+
+#: iats.php
+msgid "Threshhold must be a positive integer."
+msgstr "Eşik değeri pozitif bir tamsayı olmalıdır."
+
+#: iats.php
 msgid ""
 "Your next scheduled contribution date will automatically be updated to the "
 "next allowable day of the month: %1"
@@ -776,16 +749,82 @@ msgid "Status"
 msgstr "Durum"
 
 #: js/dd_cad.js
-msgid "Your Bank Number requires three digits, use a leading \"0\" if necessary"
-msgstr "Banka numaranız üç haneli olmalıdır, gerekirse başına \"0\" ekleyin"
+msgid "Your Bank No. requires three digits, use a leading \"0\" if necessary"
+msgstr ""
 
 #: js/dd_cad.js
-msgid "Your Bank Transit Number requires exactly five digits"
-msgstr "Banka aktarım numaranız tam olarak beş hane olmalıdır"
+msgid "Your Transit No. requires exactly five digits"
+msgstr ""
 
 #: js/swipe.js
 msgid "Click here - then swipe."
 msgstr "Buraya tıklayın ardından kartı okutun."
+
+#: settings/iats.setting.php
+msgid "Email Recurring Contribution failure reports to this Email address"
+msgstr "Alınamayan yinelenen katkı raporları bu e-posta adresine gönderilsin"
+
+#: settings/iats.setting.php
+msgid ""
+"BCC Email Recurring Contribution failure reports to this Email address."
+msgstr ""
+
+#: settings/iats.setting.php
+msgid ""
+"When failure count is equal to or greater than this number, push the next "
+"scheduled contribution date forward"
+msgstr "Başarısızlık sayısı bu sayıya eşit veya büyük olduğunda, bir sonraki zamanlanmış katkı tarihini ötelensin"
+
+#: settings/iats.setting.php
+msgid "Never"
+msgstr "Hiçbir zaman"
+
+#: settings/iats.setting.php
+msgid "Always"
+msgstr "Her zaman"
+
+#: settings/iats.setting.php
+msgid "As set for a specific Contribution Series"
+msgstr ""
+
+#: settings/iats.setting.php
+msgid ""
+"Email receipt for a Contribution if Recurring payment fails - with error "
+"message"
+msgstr ""
+
+#: settings/iats.setting.php
+msgid "Disable use of cryptogram (only applies to FirstAmerican)."
+msgstr "Şifrelenmiş metin kullanılmasın (yalnızca FirstAmerican için geçerlidir)"
+
+#: settings/iats.setting.php
+msgid "ACH Category Text (only applies to FirstAmerican)."
+msgstr "ACH kategorisi metni (yalnızca FirstAmerican için geçerlidir)."
+
+#: settings/iats.setting.php
+msgid "Disable extra edit fields for Recurring Contributions"
+msgstr "Yinelenen katkılar için ek düzenleme alanları devre dışı bırakılsın"
+
+#: settings/iats.setting.php
+msgid ""
+"Enable self-service updates to recurring contribution Contact Billing Info."
+msgstr "Yinelenen katkı kişi fatura bilgilerinin kendi kendine güncellenebilmesini sağlar."
+
+#: settings/iats.setting.php
+msgid "Allow self-service updates to recurring contribution amount."
+msgstr "Yinelenen katkı miktarının kendi kendine güncellenebilmesini sağlar."
+
+#: settings/iats.setting.php
+msgid "Enable self-service cancellation of a recurring contribution."
+msgstr "Yinelenen bir katkıyı kendisi iptal edebilsin."
+
+#: settings/iats.setting.php
+msgid "Enable public selection of future recurring start dates."
+msgstr "Gelecekteki yinelenen başlangıç tarihleri herkese açık olarak seçilebilsin."
+
+#: settings/iats.setting.php
+msgid "Restrict allowable days of the month for Recurring Contributions"
+msgstr "Yinelenen katkılar için ayın izin verilen günleri kısıtlansın"
 
 #: templates/CRM/Iats/BillingBlockDPM.tpl
 msgid "Please fix the following errors in the form fields above:"
