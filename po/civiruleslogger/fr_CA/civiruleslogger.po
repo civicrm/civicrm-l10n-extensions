@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2021-07-14 05:01+0000\n"
+"POT-Creation-Date: 2024-05-23 05:01+0000\n"
 "PO-Revision-Date: 2015-10-15 05:34+0000\n"
 "Language-Team: French (Canada) (http://app.transifex.com/civicrm/civicrm_extensions/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
@@ -22,6 +22,10 @@ msgstr "Journaux CiviRules"
 #: CRM/Civiruleslogger/DAO/CivirulesLog.php
 msgid "Civirules Log"
 msgstr "Journal CiviRules"
+
+#: CRM/Civiruleslogger/DAO/CivirulesLog.php
+msgid "ID"
+msgstr "Identifiant"
 
 #: CRM/Civiruleslogger/DAO/CivirulesLog.php
 msgid "Unique CivirulesLog ID"
@@ -63,10 +67,18 @@ msgid "Timestamp of when event occurred."
 msgstr ""
 
 #: CRM/Civiruleslogger/DAO/CivirulesLog.php
+msgid "Contact ID"
+msgstr "Id. du contact"
+
+#: CRM/Civiruleslogger/DAO/CivirulesLog.php
 msgid ""
 "Optional Contact ID that created the log. Not an FK as we keep this "
 "regardless"
 msgstr ""
+
+#: CRM/Civiruleslogger/DAO/CivirulesLog.php
+msgid "Rule ID"
+msgstr "Id de la règle"
 
 #: CRM/Civiruleslogger/DAO/CivirulesLog.php
 msgid "Optional Rule ID that created the log"
@@ -79,10 +91,6 @@ msgstr "Voir le journal pour la règle : \"%1\""
 #: CRM/Civiruleslogger/Page/ViewLog.php
 msgid "Log entries %%StatusMessage%%"
 msgstr "Entrées du journal %%Message d'état %%"
-
-#: CRM/Civiruleslogger/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Mise à jour de %1 à la révision %2"
 
 #: civiruleslogger.php
 msgid "Logging"
