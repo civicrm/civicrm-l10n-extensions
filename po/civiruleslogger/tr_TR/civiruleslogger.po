@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2021-07-14 05:01+0000\n"
+"POT-Creation-Date: 2024-05-23 05:01+0000\n"
 "PO-Revision-Date: 2015-10-15 05:34+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2022-2023\n"
 "Language-Team: Turkish (http://app.transifex.com/civicrm/civicrm_extensions/language/tr/)\n"
@@ -24,6 +24,10 @@ msgstr "CiviRules günlükleri"
 #: CRM/Civiruleslogger/DAO/CivirulesLog.php
 msgid "Civirules Log"
 msgstr "CiviRules günlüğü"
+
+#: CRM/Civiruleslogger/DAO/CivirulesLog.php
+msgid "ID"
+msgstr "Kimlik"
 
 #: CRM/Civiruleslogger/DAO/CivirulesLog.php
 msgid "Unique CivirulesLog ID"
@@ -65,10 +69,18 @@ msgid "Timestamp of when event occurred."
 msgstr "Etkinliğin oluştuğu zaman damgası."
 
 #: CRM/Civiruleslogger/DAO/CivirulesLog.php
+msgid "Contact ID"
+msgstr "Kişi kimliği"
+
+#: CRM/Civiruleslogger/DAO/CivirulesLog.php
 msgid ""
 "Optional Contact ID that created the log. Not an FK as we keep this "
 "regardless"
 msgstr "İsteğe bağlı olarak, günlüğü oluşturan kişinin kimliği. Bu veriyi her durumda kaydederiz ve bir dış anahtar değildir."
+
+#: CRM/Civiruleslogger/DAO/CivirulesLog.php
+msgid "Rule ID"
+msgstr ""
 
 #: CRM/Civiruleslogger/DAO/CivirulesLog.php
 msgid "Optional Rule ID that created the log"
@@ -81,10 +93,6 @@ msgstr "Şu kuralın günlüğünü görüntüle: \"%1\""
 #: CRM/Civiruleslogger/Page/ViewLog.php
 msgid "Log entries %%StatusMessage%%"
 msgstr "Günlük kayıtları %%StatusMessage%%"
-
-#: CRM/Civiruleslogger/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "%1, %2 sürümüne güncelle"
 
 #: civiruleslogger.php
 msgid "Logging"
