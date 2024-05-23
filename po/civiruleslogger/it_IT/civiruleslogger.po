@@ -7,15 +7,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2021-07-14 05:01+0000\n"
-"PO-Revision-Date: 2021-07-14 05:01+0000\n"
-"Last-Translator: CiviCRM Maintenance\n"
-"Language-Team: Italian (http://www.transifex.com/civicrm/civicrm_extensions/language/it/)\n"
+"POT-Creation-Date: 2024-05-23 05:01+0000\n"
+"PO-Revision-Date: 2015-10-15 05:34+0000\n"
+"Last-Translator: Francesco Garganese <francesco.garganese@aeromnia.aero>, 2021\n"
+"Language-Team: Italian (http://app.transifex.com/civicrm/civicrm_extensions/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: CRM/Civiruleslogger/DAO/CivirulesLog.php
 msgid "Civirules Logs"
@@ -24,6 +24,10 @@ msgstr ""
 #: CRM/Civiruleslogger/DAO/CivirulesLog.php
 msgid "Civirules Log"
 msgstr ""
+
+#: CRM/Civiruleslogger/DAO/CivirulesLog.php
+msgid "ID"
+msgstr "ID"
 
 #: CRM/Civiruleslogger/DAO/CivirulesLog.php
 msgid "Unique CivirulesLog ID"
@@ -65,10 +69,18 @@ msgid "Timestamp of when event occurred."
 msgstr ""
 
 #: CRM/Civiruleslogger/DAO/CivirulesLog.php
+msgid "Contact ID"
+msgstr "ID Contatto"
+
+#: CRM/Civiruleslogger/DAO/CivirulesLog.php
 msgid ""
 "Optional Contact ID that created the log. Not an FK as we keep this "
 "regardless"
 msgstr ""
+
+#: CRM/Civiruleslogger/DAO/CivirulesLog.php
+msgid "Rule ID"
+msgstr "ID Ruolo"
 
 #: CRM/Civiruleslogger/DAO/CivirulesLog.php
 msgid "Optional Rule ID that created the log"
@@ -81,10 +93,6 @@ msgstr ""
 #: CRM/Civiruleslogger/Page/ViewLog.php
 msgid "Log entries %%StatusMessage%%"
 msgstr ""
-
-#: CRM/Civiruleslogger/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Aggiorna %1 alla revisione %2"
 
 #: civiruleslogger.php
 msgid "Logging"
