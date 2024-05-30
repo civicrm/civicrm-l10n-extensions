@@ -264,7 +264,7 @@ msgstr "Journal de la règle CiviRules"
 
 #: CRM/Civirules/DAO/CiviRulesRuleLog.php
 msgid "Unique RuleLog ID"
-msgstr ""
+msgstr "Id. unique du journal de la règle"
 
 #: CRM/Civirules/DAO/CiviRulesRuleLog.php
 #: CRM/CivirulesActions/Contact/Form/UpdateNumericValue.php
@@ -980,11 +980,11 @@ msgstr "Gérer CiviRules"
 
 #: CRM/Civirules/SaveUpgrade2035.php
 msgid "Can not process empty trigger id in "
-msgstr ""
+msgstr "Impossible de traiter un identifiant de déclencheur vide dans "
 
 #: CRM/Civirules/SaveUpgrade2035.php
 msgid "Could not find required table "
-msgstr ""
+msgstr "Impossible de trouver la table requise"
 
 #: CRM/Civirules/SaveUpgrade2035.php
 msgid ""
@@ -993,12 +993,12 @@ msgid ""
 "civirule_pre210_rule/rule_action/rule_condition. Use that data to re-enter "
 "them manually using trigger Case Activity added with condition activity type"
 " is Open Case"
-msgstr ""
+msgstr "Les règles utilisant le déclencheur Case is added seront supprimées lors de la mise à jour de Civirules vers la version 2.10. Elles seront sauvegardées dans les tables temporaires civirule_pre210_rule/rule_action/rule_condition. Utilisez ces données pour les réintroduire manuellement à l'aide du déclencheur Activité de dossier ajouté avec le type d'activité de condition est Dossier ouvert."
 
 #: CRM/Civirules/SaveUpgrade2035.php
 msgid ""
 "The rule below will be deleted during the Civirules upgrade to release 2.10:"
-msgstr ""
+msgstr "La règle ci-dessous sera supprimée lors de la mise à jour de Civirules vers la version 2.10 :"
 
 #: CRM/Civirules/SaveUpgrade2035.php
 msgid "Data from table civirule_rule: "
@@ -1014,7 +1014,7 @@ msgstr "Données de la table civirule_rule_condition :"
 
 #: CRM/Civirules/Upgrader.php
 msgid "The upgrade has deleted "
-msgstr ""
+msgstr "La mise à jour a supprimé "
 
 #: CRM/Civirules/Upgrader.php
 msgid ""
@@ -1040,7 +1040,7 @@ msgstr ""
 
 #: CRM/Civirules/Upgrader.php
 msgid "The condition Entity Has/Does Not Have Tag is used in the rule "
-msgstr ""
+msgstr "La condition Entité a/n'a pas d'étiquette est utilisée dans la règle "
 
 #: CRM/Civirules/Upgrader.php
 msgid " (rule ID "
@@ -1050,11 +1050,11 @@ msgstr "(Id. de la règle"
 msgid ""
 ") but this condition is now changed to Contact Has/Does Not Have Tag. Please"
 " inspect this rule to see if the configuration is still applicable"
-msgstr ""
+msgstr "), mais cette condition est désormais remplacée par Contact a/n'a pas d'étiquette. Veuillez inspecter cette règle pour voir si la configuration est toujours applicable."
 
 #: CRM/Civirules/Upgrader.php
 msgid "Condition on rule [%1] changed"
-msgstr ""
+msgstr "La condition de la règle [%1] a été modifiée"
 
 #: CRM/Civirules/Utils.php
 msgid "Yes"
@@ -1106,7 +1106,7 @@ msgstr "Contact B"
 
 #: CRM/CivirulesActions/Activity/Add.php
 msgid "Relationship Contact: %1"
-msgstr ""
+msgstr "Contact relationnel : %1"
 
 #: CRM/CivirulesActions/Activity/Add.php
 #: CRM/CivirulesActions/Activity/AddToCase.php
@@ -1116,7 +1116,7 @@ msgstr "Assigné(s) : %1"
 
 #: CRM/CivirulesActions/Activity/Add.php
 msgid "Assignee (by relationship): %1"
-msgstr ""
+msgstr "Personne assignée (par relation) : %1"
 
 #: CRM/CivirulesActions/Activity/Add.php
 #: CRM/CivirulesActions/Activity/AddToCase.php
@@ -1128,11 +1128,11 @@ msgstr "Date de l'activité"
 #: CRM/CivirulesActions/Activity/AddToCase.php
 #: CRM/CivirulesActions/Activity/CreateActivityFromEvent.php
 msgid "Send notification"
-msgstr ""
+msgstr "Envoyer une notification"
 
 #: CRM/CivirulesActions/Activity/AddTargetContact.php
 msgid "Set to related contact: %1"
-msgstr ""
+msgstr "Réglé sur le contact associé : %1"
 
 #: CRM/CivirulesActions/Activity/AddToCase.php
 msgid "Add to case with type %1 and status %2"
@@ -1218,15 +1218,15 @@ msgstr ""
 
 #: CRM/CivirulesActions/Activity/Form/AddTargetContact.php
 msgid "Related contact"
-msgstr ""
+msgstr "Contact lié"
 
 #: CRM/CivirulesActions/Activity/Form/AddToCase.php
 msgid "Case type"
-msgstr ""
+msgstr "Type de Dossier"
 
 #: CRM/CivirulesActions/Activity/Form/AddToCase.php
 msgid "-- Please select --"
-msgstr ""
+msgstr "-- Sélectionner --"
 
 #: CRM/CivirulesActions/Activity/Form/AddToCase.php
 msgid "Case Status"
@@ -1234,11 +1234,11 @@ msgstr "Statut du Dossier"
 
 #: CRM/CivirulesActions/Activity/Form/AddToCase.php
 msgid "-- Any status  --"
-msgstr ""
+msgstr "-- Tout statut --"
 
 #: CRM/CivirulesActions/Activity/Form/AssignToContact.php
 msgid "Assign to"
-msgstr ""
+msgstr "Affecté à"
 
 #: CRM/CivirulesActions/Activity/Form/AssignToContact.php
 msgid "Assign a contact or choose the 'Assign to contact from trigger' option"
@@ -1264,7 +1264,7 @@ msgstr ""
 
 #: CRM/CivirulesActions/Case/Form/AddRole.php
 msgid "Case role"
-msgstr ""
+msgstr "Rôle du dossier"
 
 #: CRM/CivirulesActions/Case/Form/AddRole.php
 msgid "Contact"
@@ -1279,13 +1279,13 @@ msgstr "Contact"
 #: CRM/CivirulesActions/Generic/Form/SetCustomField.php
 #: CRM/CivirulesActions/Generic/Form/UpdateDateValue.php
 msgid "Target Field"
-msgstr ""
+msgstr "Champ cible"
 
 #: CRM/CivirulesActions/Case/Form/SetCustomField.php
 #: CRM/CivirulesActions/Contact/Form/SetCustomField.php
 #: CRM/CivirulesActions/Generic/Form/SetCustomField.php
 msgid "Value (raw or json)"
-msgstr ""
+msgstr "Valeur (brute ou json)"
 
 #: CRM/CivirulesActions/Case/Form/SetCustomField.php
 #: CRM/CivirulesActions/Contact/Form/CopyCustomField.php
@@ -1394,24 +1394,24 @@ msgstr "Définir plusieurs sous-types"
 #: CRM/CivirulesActions/Contact/Form/UpdateNumericValue.php
 #: CRM/CivirulesActions/Generic/Form/UpdateDateValue.php
 msgid "Operation"
-msgstr ""
+msgstr "Opération"
 
 #: CRM/CivirulesActions/Contact/Form/UpdateDateValue.php
 #: CRM/CivirulesActions/Contact/Form/UpdateNumericValue.php
 #: CRM/CivirulesActions/Generic/Form/UpdateDateValue.php
 msgid "Operand"
-msgstr ""
+msgstr "Opérateur"
 
 #: CRM/CivirulesActions/Contact/Form/UpdateDateValue.php
 #: CRM/CivirulesActions/Contact/Form/UpdateNumericValue.php
 #: CRM/CivirulesActions/Generic/Form/UpdateDateValue.php
 msgid "Set to"
-msgstr ""
+msgstr "Définir à "
 
 #: CRM/CivirulesActions/Contact/Form/UpdateDateValue.php
 #: CRM/CivirulesActions/Generic/Form/UpdateDateValue.php
 msgid "Modify"
-msgstr ""
+msgstr "Modifier"
 
 #: CRM/CivirulesActions/Contact/Form/UpdateDateValue.php
 #: CRM/CivirulesActions/Generic/Form/UpdateDateValue.php
@@ -1425,19 +1425,19 @@ msgstr ""
 
 #: CRM/CivirulesActions/Contact/Form/UpdateNumericValue.php
 msgid "Increase by"
-msgstr ""
+msgstr "Augmenter de"
 
 #: CRM/CivirulesActions/Contact/Form/UpdateNumericValue.php
 msgid "Decrease by"
-msgstr ""
+msgstr "Diminuer de"
 
 #: CRM/CivirulesActions/Contact/Form/UpdateNumericValue.php
 msgid "Multiply by"
-msgstr ""
+msgstr "Multiplier par"
 
 #: CRM/CivirulesActions/Contact/Form/UpdateNumericValue.php
 msgid "Divide by"
-msgstr ""
+msgstr "Diviser par"
 
 #: CRM/CivirulesActions/Contact/Form/UpdateNumericValue.php
 msgid "Set to (global) maximum plus"
@@ -2567,7 +2567,7 @@ msgstr ""
 
 #: CRM/CivirulesConditions/Form/Generic/Date.php
 msgid "Which Date"
-msgstr ""
+msgstr "Quelle date"
 
 #: CRM/CivirulesConditions/Form/Generic/Date.php
 #: CRM/CivirulesConditions/Generic/Date.php
