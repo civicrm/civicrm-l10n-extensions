@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2024-04-07 05:01+0000\n"
+"POT-Creation-Date: 2024-05-28 05:01+0000\n"
 "PO-Revision-Date: 2015-10-15 05:34+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>, 2023\n"
 "Language-Team: English (United Kingdom) (http://app.transifex.com/civicrm/civicrm_extensions/language/en_GB/)\n"
@@ -149,11 +149,11 @@ msgid "Unique Condition ID"
 msgstr ""
 
 #: CRM/Civirules/DAO/CiviRulesRule.php
-msgid "Rules"
+msgid "Civi Rules Rules"
 msgstr ""
 
 #: CRM/Civirules/DAO/CiviRulesRule.php
-msgid "Rule"
+msgid "Civi Rules Rule"
 msgstr ""
 
 #: CRM/Civirules/DAO/CiviRulesRule.php
@@ -625,6 +625,7 @@ msgstr "Next"
 #: CRM/CivirulesActions/GroupContact/Form/AddRelated.php
 #: CRM/CivirulesActions/GroupContact/Form/GroupId.php
 #: CRM/CivirulesActions/Membership/Form/Add.php
+#: CRM/CivirulesActions/Membership/Form/UpdateStatus.php
 #: CRM/CivirulesActions/Participant/Form/Register.php
 #: CRM/CivirulesActions/Participant/Form/UpdateStatus.php
 #: CRM/CivirulesActions/Relationship/Form/End.php
@@ -745,6 +746,7 @@ msgstr "Delete"
 #: CRM/CivirulesActions/GroupContact/Form/AddRelated.php
 #: CRM/CivirulesActions/GroupContact/Form/GroupId.php
 #: CRM/CivirulesActions/Membership/Form/Add.php
+#: CRM/CivirulesActions/Membership/Form/UpdateStatus.php
 #: CRM/CivirulesActions/Participant/Form/Register.php
 #: CRM/CivirulesActions/Participant/Form/UpdateStatus.php
 #: CRM/CivirulesActions/Relationship/Form/End.php
@@ -1079,6 +1081,7 @@ msgstr ""
 #: CRM/CivirulesActions/Activity/AddToCase.php
 #: CRM/CivirulesActions/Activity/CreateActivityFromEvent.php
 #: CRM/CivirulesActions/Activity/UpdateStatus.php
+#: CRM/CivirulesActions/Membership/UpdateStatus.php
 #: CRM/CivirulesActions/Participant/UpdateStatus.php
 msgid "Status: %1"
 msgstr ""
@@ -1159,6 +1162,7 @@ msgstr "Activity type"
 #: CRM/CivirulesActions/GroupContact/Form/AddRelated.php
 #: CRM/CivirulesActions/GroupContact/Form/GroupId.php
 #: CRM/CivirulesActions/Membership/Form/Add.php
+#: CRM/CivirulesActions/Membership/Form/UpdateStatus.php
 #: CRM/CivirulesActions/Participant/Form/UpdateStatus.php
 #: CRM/CivirulesActions/Tag/Form/Sync.php
 #: CRM/CivirulesActions/Tag/Form/TagId.php
@@ -1616,9 +1620,38 @@ msgstr ""
 msgid "Membership type"
 msgstr "Membership type"
 
+#: CRM/CivirulesActions/Membership/Form/UpdateStatus.php
+#: CRM/CivirulesConditions/ContributionRecur/Membership.php
+#: CRM/CivirulesConditions/Form/ContributionRecur/Membership.php
+#: CRM/CivirulesConditions/Form/Membership/ContactHasMembership.php
+#: CRM/CivirulesConditions/Form/Membership/Status.php
+#: CRM/CivirulesConditions/Membership/ContactHasMembership.php
+msgid "Membership Status"
+msgstr ""
+
+#: CRM/CivirulesActions/Membership/Form/UpdateStatus.php
+#: CRM/CivirulesActions/Membership/UpdateStatus.php
+msgid "set to override permanently"
+msgstr ""
+
+#: CRM/CivirulesActions/Membership/Form/UpdateStatus.php
+#: CRM/CivirulesActions/Membership/UpdateStatus.php
+msgid "set to not override"
+msgstr ""
+
+#: CRM/CivirulesActions/Membership/Form/UpdateStatus.php
+#: CRM/CivirulesActions/Membership/UpdateStatus.php
+msgid "do not change setting"
+msgstr ""
+
+#: CRM/CivirulesActions/Membership/Form/UpdateStatus.php
+#: CRM/CivirulesActions/Membership/UpdateStatus.php
+msgid "Status Override?"
+msgstr ""
+
 #: CRM/CivirulesActions/Participant/Form/Register.php
 msgid "Event"
-msgstr ""
+msgstr "Event"
 
 #: CRM/CivirulesActions/Participant/Form/Register.php
 msgid "- Select Event -"
@@ -2001,15 +2034,7 @@ msgstr ""
 #: CRM/CivirulesConditions/Membership/ContactHasMembership.php
 #: CRM/CivirulesCronTrigger/Form/MembershipEndDate.php
 msgid "Membership Type"
-msgstr ""
-
-#: CRM/CivirulesConditions/ContributionRecur/Membership.php
-#: CRM/CivirulesConditions/Form/ContributionRecur/Membership.php
-#: CRM/CivirulesConditions/Form/Membership/ContactHasMembership.php
-#: CRM/CivirulesConditions/Form/Membership/Status.php
-#: CRM/CivirulesConditions/Membership/ContactHasMembership.php
-msgid "Membership Status"
-msgstr ""
+msgstr "Membership Type"
 
 #: CRM/CivirulesConditions/ContributionRecur/Membership.php
 #: CRM/CivirulesConditions/Form/ContributionRecur/Membership.php
@@ -3086,7 +3111,7 @@ msgstr ""
 
 #: CRM/CivirulesCronTrigger/MembershipEndDate.php
 msgid "Membership"
-msgstr ""
+msgstr "Membership"
 
 #: CRM/CivirulesCronTrigger/MembershipEndDate.php
 msgid "Membership Types %1 - %2 %3"
@@ -3227,19 +3252,19 @@ msgstr ""
 msgid "Could not %1 '%2' %3"
 msgstr ""
 
-#: api/v3/CiviRuleTrigger/Create.php
+#: api/v3/CiviRulesTrigger.php
 msgid "Label can not be empty when adding a new CiviRule Trigger"
 msgstr ""
 
-#: api/v3/CiviRuleTrigger/Create.php
+#: api/v3/CiviRulesTrigger.php
 msgid "Either class_name or a combination of object_name and op is mandatory"
 msgstr ""
 
-#: api/v3/CiviRuleTrigger/Create.php
+#: api/v3/CiviRulesTrigger.php
 msgid "For a cron type trigger the class_name is mandatory"
 msgstr ""
 
-#: api/v3/CiviRuleTrigger/Create.php
+#: api/v3/CiviRulesTrigger.php
 msgid ""
 "There is already a trigger for this class_name or combination of object_name"
 " and op"
