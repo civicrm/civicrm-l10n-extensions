@@ -1023,7 +1023,7 @@ msgid ""
 " These rules and their data have been saved in tables civirule_per210_rule, civirule_pre210_rule_action and civirule_pre210_condition. \n"
 "\n"
 " You need to manually re-create those rules with the trigger Case Activitity added with condition activity_type is Open Case (see https://lab.civicrm.org/extensions/civirules/issues/45"
-msgstr ""
+msgstr " Les règles avec déclencheur Dossier sont ajoutées. \n\nCes règles et leurs données ont été enregistrées dans les tables civirule_per210_rule, civirule_pre210_rule_action et civirule_pre210_condition. \n\nVous devez recréer manuellement ces règles avec le déclencheur Activité de dossier ajouté avec la condition activity_type is Dossier ouvert (voir https://lab.civicrm.org/extensions/civirules/issues/45)."
 
 #: CRM/Civirules/Upgrader.php
 msgid "Upgrade has DELETED rules!"
@@ -1036,7 +1036,7 @@ msgid ""
 "trigger Case is added and do not have a trigger called Case is added. If "
 "that is true, you are fine. If not, read the README.md of the Civirules "
 "extension on upgrade to 2.10."
-msgstr ""
+msgstr "Impossible de trouver un déclencheur CiviRules avec le nom new_case, cela pourrait être un problème ? Veuillez vérifier attentivement si vous n'avez pas de règles avec le déclencheur Dossier est ajouté et si vous n'avez pas de déclencheur appelé Dossier est ajouté. Si c'est le cas, tout va bien. Si ce n'est pas le cas, lisez le README.md de l'extension CiviRules lors de la mise à jour vers la version 2.10."
 
 #: CRM/Civirules/Upgrader.php
 msgid "The condition Entity Has/Does Not Have Tag is used in the rule "
@@ -1136,11 +1136,11 @@ msgstr "Réglé sur le contact associé : %1"
 
 #: CRM/CivirulesActions/Activity/AddToCase.php
 msgid "Add to case with type %1 and status %2"
-msgstr ""
+msgstr "Ajouter au cas avec le type %1 et le statut %2"
 
 #: CRM/CivirulesActions/Activity/AddToCase.php
 msgid "Add to case with type %1"
-msgstr ""
+msgstr "Ajouter au dossier avec le type %1"
 
 #: CRM/CivirulesActions/Activity/Form/Activity.php
 #: CRM/CivirulesActions/Activity/Form/ActivityEdit.php
@@ -1210,11 +1210,11 @@ msgstr "Durée"
 
 #: CRM/CivirulesActions/Activity/Form/Activity.php
 msgid "Relationship Contact (activity target)"
-msgstr ""
+msgstr "Contact par relation (cible de l'activité)"
 
 #: CRM/CivirulesActions/Activity/Form/Activity.php
 msgid "Relationship Contact Assignee"
-msgstr ""
+msgstr "Personne assignés par relation"
 
 #: CRM/CivirulesActions/Activity/Form/AddTargetContact.php
 msgid "Related contact"
@@ -1242,25 +1242,25 @@ msgstr "Affecté à"
 
 #: CRM/CivirulesActions/Activity/Form/AssignToContact.php
 msgid "Assign a contact or choose the 'Assign to contact from trigger' option"
-msgstr ""
+msgstr "Assigner un contact ou choisir l'option \"Assigner à un contact à partir d'un déclencheur\"."
 
 #: CRM/CivirulesActions/Activity/Form/CreateActivityFromEvent.php
 #: CRM/CivirulesPostTrigger/Form/RelatedParticipantWhenActivityChanged.php
 #: CRM/CivirulesPostTrigger/Form/RelatedParticipantWhenActivityIsTagged.php
 msgid "Event ID custom field"
-msgstr ""
+msgstr "Champ personnalisé id. de l'événement"
 
 #: CRM/CivirulesActions/Activity/Form/CreateActivityFromEvent.php
 msgid "Custom field to store the Event Start Date"
-msgstr ""
+msgstr "Champ personnalisé pour stocker la date de début de l'événement"
 
 #: CRM/CivirulesActions/Activity/Form/CreateActivityFromEvent.php
 msgid "Custom field to store the Event End Date"
-msgstr ""
+msgstr "Champ personnalisé pour stocker la date de fin de l'événement"
 
 #: CRM/CivirulesActions/Case/AddRole.php
 msgid "Add %2 to the case with role <em>%1</em>"
-msgstr ""
+msgstr "Ajouter %2 au dossier avec le rôle <em>%1</em>."
 
 #: CRM/CivirulesActions/Case/Form/AddRole.php
 msgid "Case role"
@@ -1295,7 +1295,7 @@ msgstr "Valeur (brute ou json)"
 #: CRM/CivirulesActions/Generic/Form/UpdateDateValue.php
 #: CRM/CivirulesConditions/Form/Generic/Date.php
 msgid "Field '%1' (Group '%2')"
-msgstr ""
+msgstr "Champ '%1' (Groupe '%2')"
 
 #: CRM/CivirulesActions/Case/Form/SetDateField.php
 msgid " - Set date to time of processing of action - "
@@ -1328,7 +1328,7 @@ msgstr "Préférence(s) de communication"
 #: CRM/CivirulesActions/Generic/Form/CopyCustomField.php
 #: CRM/CivirulesActions/Generic/Form/UpdateDateValue.php
 msgid "Source Field"
-msgstr ""
+msgstr "Champ source"
 
 #: CRM/CivirulesActions/Contact/Form/Jobtitle.php
 msgid "Job title"
@@ -1347,11 +1347,11 @@ msgstr "Unique / Multiple"
 
 #: CRM/CivirulesActions/Contact/Form/RemoveSubtype.php
 msgid "Remove one subtype"
-msgstr ""
+msgstr "Retirer un sous-type"
 
 #: CRM/CivirulesActions/Contact/Form/RemoveSubtype.php
 msgid "Remove multiple subtypes"
-msgstr ""
+msgstr "Retirer plusieurs sous-types"
 
 #: CRM/CivirulesActions/Contact/Form/RemoveSubtype.php
 #: CRM/CivirulesActions/Contact/Form/Subtype.php
@@ -1416,12 +1416,12 @@ msgstr "Modifier"
 #: CRM/CivirulesActions/Contact/Form/UpdateDateValue.php
 #: CRM/CivirulesActions/Generic/Form/UpdateDateValue.php
 msgid "Set to (global) maximum with modification"
-msgstr ""
+msgstr "Régler au maximum (global) avec modification"
 
 #: CRM/CivirulesActions/Contact/Form/UpdateDateValue.php
 #: CRM/CivirulesActions/Generic/Form/UpdateDateValue.php
 msgid "Set to (global) minimum with modification"
-msgstr ""
+msgstr "Régler au minimum (global) avec modification"
 
 #: CRM/CivirulesActions/Contact/Form/UpdateNumericValue.php
 msgid "Increase by"
@@ -1441,27 +1441,27 @@ msgstr "Diviser par"
 
 #: CRM/CivirulesActions/Contact/Form/UpdateNumericValue.php
 msgid "Set to (global) maximum plus"
-msgstr ""
+msgstr "Réglé sur le maximum (global) plus"
 
 #: CRM/CivirulesActions/Contact/Form/UpdateNumericValue.php
 msgid "Set to (global) maximum minus"
-msgstr ""
+msgstr "Réglé sur le maximum (global) moins"
 
 #: CRM/CivirulesActions/Contact/Form/UpdateNumericValue.php
 msgid "Set to (global) minimum plus"
-msgstr ""
+msgstr "Réglé sur le minimum (global) plus"
 
 #: CRM/CivirulesActions/Contact/Form/UpdateNumericValue.php
 msgid "Set to (global) minimum minus"
-msgstr ""
+msgstr "Réglé sur le minimum (global) moins"
 
 #: CRM/CivirulesActions/Contact/Form/UpdateNumericValue.php
 msgid "Contact External Identifier"
-msgstr ""
+msgstr "Identifiant externe de contact"
 
 #: CRM/CivirulesActions/Contact/RemoveSubtype.php
 msgid "Remove contact subtype"
-msgstr ""
+msgstr "Retirer le sous-type du contact"
 
 #: CRM/CivirulesActions/Contact/SetCommPref.php
 msgid "Communication Preference(s) "
@@ -1515,58 +1515,58 @@ msgstr "Heure de remerciement"
 
 #: CRM/CivirulesActions/ContributionRecur/Form/UpdateStatus.php
 msgid "Set Status to"
-msgstr ""
+msgstr "Définir l'état à"
 
 #: CRM/CivirulesActions/ContributionRecur/UpdateStatus.php
 msgid "Set Status to: %1"
-msgstr ""
+msgstr "Définir l'état à : %1"
 
 #: CRM/CivirulesActions/Form/Form.php
 msgid "Action '%1' parameters updated for CiviRule '%2'"
-msgstr ""
+msgstr "Paramètres de l'action \"%1\" mis à jour pour la CiviRule \"%2\"."
 
 #: CRM/CivirulesActions/Form/Form.php
 msgid "Action parameters updated"
-msgstr ""
+msgstr "Paramètres d'action mis à jour"
 
 #: CRM/CivirulesActions/Form/Form.php
 msgid "Edit Action '%1' for CiviRule '%2'"
-msgstr ""
+msgstr "Modifier l'action '%1' pour la CiviRule '%2'"
 
 #: CRM/CivirulesActions/Generic/Form/CopyCustomField.php
 #: CRM/CivirulesActions/Generic/Form/SetCustomField.php
 msgid "Field '%1' (Entity '%3', Group '%2')"
-msgstr ""
+msgstr "Champ '%1' (Entité '%3', Groupe '%2')"
 
 #: CRM/CivirulesActions/Generic/Form/CopyCustomField.php
 msgid ""
 "This action copies the value of a custom field from any entity in the rule "
 "to another custom field."
-msgstr ""
+msgstr "Cette action permet de copier la valeur d'un champ personnalisé de n'importe quelle entité de la règle vers un autre champ personnalisé."
 
 #: CRM/CivirulesActions/Generic/Form/UpdateDateValue.php
 #: CRM/CivirulesConditions/Form/Generic/Date.php
 msgid "%3 Trigger: Field '%1' (Group '%2')"
-msgstr ""
+msgstr "%3 Déclencheur : Champ '%1' (Groupe '%2')"
 
 #: CRM/CivirulesActions/Generic/Form/UpdateDateValue.php
 #: CRM/CivirulesConditions/Form/Generic/Date.php
 msgid "%2 Trigger: Field '%1'"
-msgstr ""
+msgstr "%2 Déclencheur : Champ '%1'"
 
 #: CRM/CivirulesActions/GroupContact/AddRelated.php
 msgid "Add related contacts of type \"%1\" to Group \"%2\""
-msgstr ""
+msgstr "Ajouter des contacts liés de type \"%1\" au groupe \"%2\""
 
 #: CRM/CivirulesActions/GroupContact/Form/AddRelated.php
 #: CRM/CivirulesActions/Tag/Form/Sync.php
 msgid "Related contacts"
-msgstr ""
+msgstr "Contacts liés"
 
 #: CRM/CivirulesActions/GroupContact/Form/AddRelated.php
 #: CRM/CivirulesActions/Tag/Form/Sync.php
 msgid "--- select relationship type(s) ---"
-msgstr ""
+msgstr "--- sélectionner le(s) type(s) de relation ---"
 
 #: CRM/CivirulesActions/GroupContact/Form/AddRelated.php
 #: CRM/CivirulesActions/GroupContact/Form/GroupId.php
@@ -1604,19 +1604,19 @@ msgstr "Supprimer contact du (des) groupe(s) : %1"
 
 #: CRM/CivirulesActions/GroupContact/RebuildSmartGroup.php
 msgid "Rebuild Smart Group: %1"
-msgstr ""
+msgstr "Reconstruire le groupe dynamique : %1"
 
 #: CRM/CivirulesActions/GroupContact/RebuildSmartGroup.php
 msgid "Rebuild Smart Group(s): %1"
-msgstr ""
+msgstr "Reconstruire le(s) groupe(s) dynamique(s) : %1"
 
 #: CRM/CivirulesActions/GroupContact/Subscribe.php
 msgid "Subscribe contact to group(s): %1"
-msgstr ""
+msgstr "Inscrire le contact au(x) groupe(s) : %1"
 
 #: CRM/CivirulesActions/Membership/Form/Add.php
 msgid "Membership type"
-msgstr ""
+msgstr "Type d'adhésion"
 
 #: CRM/CivirulesActions/Membership/Form/UpdateStatus.php
 #: CRM/CivirulesConditions/ContributionRecur/Membership.php
@@ -1630,17 +1630,17 @@ msgstr "État de l'adhésion"
 #: CRM/CivirulesActions/Membership/Form/UpdateStatus.php
 #: CRM/CivirulesActions/Membership/UpdateStatus.php
 msgid "set to override permanently"
-msgstr ""
+msgstr "défini sur outrepasser de façon permanente"
 
 #: CRM/CivirulesActions/Membership/Form/UpdateStatus.php
 #: CRM/CivirulesActions/Membership/UpdateStatus.php
 msgid "set to not override"
-msgstr ""
+msgstr "défini sur ne pas outrepasser"
 
 #: CRM/CivirulesActions/Membership/Form/UpdateStatus.php
 #: CRM/CivirulesActions/Membership/UpdateStatus.php
 msgid "do not change setting"
-msgstr ""
+msgstr "ne pas modifier le réglage"
 
 #: CRM/CivirulesActions/Membership/Form/UpdateStatus.php
 #: CRM/CivirulesActions/Membership/UpdateStatus.php
@@ -1653,7 +1653,7 @@ msgstr "Événement"
 
 #: CRM/CivirulesActions/Participant/Form/Register.php
 msgid "- Select Event -"
-msgstr ""
+msgstr "- Sélectionner l'événement -"
 
 #: CRM/CivirulesActions/Participant/Form/Register.php
 msgid "Campaign"
@@ -1661,7 +1661,7 @@ msgstr "Campagne"
 
 #: CRM/CivirulesActions/Participant/Form/Register.php
 msgid "- Select Campaign -"
-msgstr ""
+msgstr "- Sélectionner la campagne -"
 
 #: CRM/CivirulesActions/Participant/Form/Register.php
 msgid "Participant Role"
@@ -1669,7 +1669,7 @@ msgstr "Rôle du participant"
 
 #: CRM/CivirulesActions/Participant/Form/Register.php
 msgid "- Select Role -"
-msgstr ""
+msgstr "- Sélectionner le rôle -"
 
 #: CRM/CivirulesActions/Participant/Form/Register.php
 msgid "Participant Status"
@@ -1677,19 +1677,19 @@ msgstr "Statut du participant"
 
 #: CRM/CivirulesActions/Participant/Form/Register.php
 msgid "- Select Status -"
-msgstr ""
+msgstr "- Sélectionner le statut -"
 
 #: CRM/CivirulesActions/Participant/Form/Register.php
 msgid "Registration Date"
-msgstr ""
+msgstr "Date d'inscription"
 
 #: CRM/CivirulesActions/Relationship/End.php
 msgid "Could not delete relationships with CiviRules in "
-msgstr ""
+msgstr "Impossible de supprimer les relations avec CiviRules dans"
 
 #: CRM/CivirulesActions/Relationship/End.php
 msgid "Could not disable relationships with CiviRules in "
-msgstr ""
+msgstr "Impossible de désactiver les relations avec les CiviRules dans"
 
 #: CRM/CivirulesActions/Relationship/Form/End.php
 msgid "Relationship Type"
@@ -1697,11 +1697,11 @@ msgstr "Type de relation"
 
 #: CRM/CivirulesActions/Relationship/Form/End.php
 msgid "End or Delete Relationship"
-msgstr ""
+msgstr "Mettre fin à la relation ou la supprimer"
 
 #: CRM/CivirulesActions/Relationship/Form/End.php
 msgid "Relationship End Date (only if disable)"
-msgstr ""
+msgstr "Date de fin de la relation (uniquement en cas de désactivation)"
 
 #: CRM/CivirulesActions/Relationship/Form/End.php
 #: CRM/CivirulesCronTrigger/Form/EventDate.php
