@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = sk: sk_SK, bg: bg_BG, sl: sl_SI, ja: ja_JP, km: km_KH, sq: sq_AL, vi: vi_VN, sv: sv_SE, pt: pt_PT, it: it_IT, fi: fi_FI, hu: hu_HU, nl: nl_NL, es: es_ES, ru: ru_RU, id: id_ID, de: de_DE, ca: ca_ES, nb: nb_NO, fr: fr_FR, he: he_IL, da: da_DK, hi: hi_IN, tr: tr_TR, ro: ro_RO, cs: cs_CZ, el: el_GR, pl: pl_PL, et: et_EE, lv: lv_LV, af: af_ZA, lt: lt_LT
+lang_map = hu: hu_HU, pt: pt_PT, fi: fi_FI, fr: fr_FR, he: he_IL, da: da_DK, hi: hi_IN, nl: nl_NL, nb: nb_NO, lv: lv_LV, ru: ru_RU, cs: cs_CZ, ca: ca_ES, ro: ro_RO, el: el_GR, sl: sl_SI, de: de_DE, km: km_KH, et: et_EE, lt: lt_LT, bg: bg_BG, pl: pl_PL, es: es_ES, id: id_ID, ja: ja_JP, sq: sq_AL, sv: sv_SE, it: it_IT, tr: tr_TR, af: af_ZA, sk: sk_SK, vi: vi_VN
 
 [o:civicrm:p:civicrm_extensions:r:Civixero]
 file_filter = po/Civixero/<lang>/Civixero.po
@@ -140,6 +140,13 @@ source_lang = en
 file_filter = po/cdntaxreceipts/<lang>/cdntaxreceipts.po
 source_file = po/cdntaxreceipts/pot/cdntaxreceipts.pot
 source_lang = en
+
+[o:civicrm:p:civicrm_extensions:r:chasse]
+file_filter   = po/chasse/<lang>/chasse.po
+source_file   = po/chasse/pot/chasse.pot
+type          = POT
+minimum_perc  = 0
+resource_name = chasse
 
 [o:civicrm:p:civicrm_extensions:r:civicrmpostcodelookup]
 file_filter = po/civicrmpostcodelookup/<lang>/civicrmpostcodelookup.po
