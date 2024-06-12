@@ -75,7 +75,7 @@ msgstr "Nom"
 #: managed/managerules_searchkit.mgd.php managed/managetags_searchkit.mgd.php
 #: templates/CRM/Civirules/Page/RuleViewList.tpl
 msgid "Label"
-msgstr "Étiquette"
+msgstr "Nom"
 
 #: CRM/Civirules/DAO/CiviRulesAction.php
 #: CRM/Civirules/DAO/CiviRulesCondition.php
@@ -306,7 +306,7 @@ msgstr "Étiquettes de règle CiviRules"
 #: CRM/Civirules/DAO/CiviRulesRuleTag.php
 #: CRM/CivirulesActions/Tag/Form/TagId.php
 msgid "Tag"
-msgstr "Tag/Étiquette"
+msgstr "Étiquette"
 
 #: CRM/Civirules/DAO/CiviRulesTrigger.php
 msgid "Civi Rules Triggers"
@@ -334,7 +334,7 @@ msgstr "Cron"
 
 #: CRM/Civirules/Delay/DayOfMonthBasedOnContribution.php
 msgid "Delay by the xth day of the month of the contribution"
-msgstr "Report au xème jour du mois de la contribution"
+msgstr "Report au Xème jour du mois de la contribution"
 
 #: CRM/Civirules/Delay/DayOfMonthBasedOnContribution.php
 msgid "Delay by the %1 day of the month of the contribution"
@@ -590,7 +590,7 @@ msgstr "Texte d'aide avec le but de la règle"
 
 #: CRM/Civirules/Form/Rule.php
 msgid "Civirule Tag(s)"
-msgstr "Tags/Étiquette(s) CiviRules"
+msgstr "Étiquette(s) CiviRules"
 
 #: CRM/Civirules/Form/Rule.php
 msgid "Select Trigger"
@@ -945,11 +945,11 @@ msgstr "Règle activée"
 
 #: CRM/Civirules/Form/RuleView.php
 msgid "Filter Tag(s)"
-msgstr "Filtrer par tags/étiquettes"
+msgstr "Filtrer par étiquette(s)"
 
 #: CRM/Civirules/Form/RuleView.php
 msgid "- Select Tag -"
-msgstr "- Sélectionner un tag/étiquette -"
+msgstr "- Sélectionner une étiquette -"
 
 #: CRM/Civirules/Form/RuleView.php
 msgid "Filter Trigger(s)"
@@ -1777,7 +1777,7 @@ msgstr "Copier"
 #: CRM/CivirulesActions/Tag/Form/TagId.php
 #: managed/managerules_searchkit.mgd.php
 msgid "Tags"
-msgstr "Tags/Étiquettes"
+msgstr "Étiquettes"
 
 #: CRM/CivirulesActions/Tag/Form/Sync.php
 msgid "--- select tag(s) ---"
@@ -2547,7 +2547,7 @@ msgstr "Valeurs de comparaison"
 msgid ""
 "This condition checks the before and after value of a field. It also works with delayed actions that\n"
 "      re-check conditions because the original values are saved when it is triggered."
-msgstr ""
+msgstr "Cette condition vérifie les valeurs avant et après d'un champ. Elle fonctionne également avec les actions différées qui vérifient à nouveau les conditions, car les valeurs d'origine sont sauvegardées au moment du déclenchement."
 
 #: CRM/CivirulesConditions/Form/FieldValueComparison.php
 msgid "Compare with original value (before the change)?"
@@ -3038,7 +3038,7 @@ msgstr "L'intervalle doit être une valeur numérique"
 msgid ""
 "The rule will be triggered for activities of selected types when the "
 "scheduled date is X days/weeks/months before or after."
-msgstr ""
+msgstr "La règle sera déclenchée pour les activités des types sélectionnés lorsque la date programmée se situe X jours/semaines/mois avant ou après."
 
 #: CRM/CivirulesCronTrigger/Form/EventDate.php
 msgid "Event Type"
@@ -3072,13 +3072,13 @@ msgstr "%1 (tous les %2 %3)"
 msgid ""
 "The rule will be triggered for memberships of selected membership types when"
 " the end date is X days/weeks/months before or after."
-msgstr ""
+msgstr "La règle sera déclenchée pour les adhésions des types d'adhésion sélectionnés lorsque la date de fin est antérieure ou postérieure de X jours/semaines/mois."
 
 #: CRM/CivirulesCronTrigger/Form/NextContributionDate.php
 msgid ""
 "The rule will be triggered for recurring contributions when the next "
 "scheduled contribution date is X days/weeks/months before or after."
-msgstr ""
+msgstr "La règle sera déclenchée pour les contributions récurrentes lorsque la prochaine date de contribution programmée se situe X jours/semaines/mois avant ou après."
 
 #: CRM/CivirulesCronTrigger/GroupMembership.php
 #: CRM/CivirulesCronTrigger/HasTag.php
@@ -3181,7 +3181,7 @@ msgstr "Lorsque l'option Tous les contacts est sélectionnée, le déclencheur e
 msgid ""
 "When you don't want that select the record type for which you want to fire "
 "the trigger."
-msgstr ""
+msgstr "Si vous ne le souhaitez pas, sélectionnez le type d'enregistrement pour lequel vous voulez déclencher l'action."
 
 #: CRM/CivirulesPostTrigger/Form/Activity.php
 msgid ""
@@ -3302,7 +3302,7 @@ msgstr "Ajouter règle"
 
 #: managed/managetags_searchkit.mgd.php
 msgid "CiviRules Tags"
-msgstr "Tags/Étiquettes CiviRules"
+msgstr "Étiquettes CiviRules"
 
 #: managed/managetags_searchkit.mgd.php
 msgid "Tags for CiviRules"
@@ -3423,7 +3423,7 @@ msgid ""
 "The existing CiviRules are listed below. You can manage, delete, "
 "disable/enable or add a rule. You can filter the list using the Filter "
 "Criteria"
-msgstr ""
+msgstr "Les règles CiviRules existantes sont énumérées ci-dessous. Vous pouvez gérer, supprimer, désactiver/activer ou ajouter une règle. Vous pouvez filtrer la liste à l'aide des critères de filtrage"
 
 #: templates/CRM/Civirules/Form/RuleView.tpl
 msgid "Filter Criteria"
@@ -3459,14 +3459,14 @@ msgid ""
 "option groups, you need to provide the <code>value</code> instead of the "
 "label. You can find this in the \"Option Groups\" overview in the system "
 "administration menu. Complex values can be set using JSON expressions."
-msgstr ""
+msgstr "Cette action définit le champ personnalisé avec la valeur fournie. Dans le cas des groupes d'options, vous devez fournir la <code>valeur</code> à la place du libellé. Vous trouverez cette information dans l'aperçu \"Groupes d'options\" du menu d'administration du système. Les valeurs complexes peuvent être définies à l'aide d'expressions JSON."
 
 #: templates/CRM/CivirulesActions/Contact/Form/CopyCustomField.tpl
 #: templates/CRM/CivirulesActions/Generic/Form/CopyCustomField.tpl
 msgid ""
 "This action will set the custom field to the value from another custom "
 "field."
-msgstr ""
+msgstr "Cette action remplacera la valeur du champ personnalisé par celle d'un autre champ personnalisé."
 
 #: templates/CRM/CivirulesActions/Contact/Form/UpdateDateValue.tpl
 msgid ""
@@ -3478,14 +3478,14 @@ msgid ""
 " is a valid entry.  For 'Modify', the 'Operand' will be passed to <a "
 "href=\"https://www.php.net/manual/en/datetime.modify.php\">DateTime::modify</a>"
 " is a valid entry."
-msgstr ""
+msgstr "Cette action prend la valeur du champ de contact spécifié dans \"Source\", applique l'opérateur et l'opérande, et stocke le résultat dans le champ spécifié dans \"Cible\". Seuls les champs de date sont pris en compte. Pour \"Définir\", l'\"Opérande\" sera transmis à <a href=\"https://www.php.net/manual/en/datetime.construct.php\">DateTime::__construct</a> si c'est une entrée valide. Pour \"Modifier\", l'\"Opérande\" sera transmis à <a href=\"https://www.php.net/manual/en/datetime.modify.php\">DateTime::modify</a> si c'est une entrée valide."
 
 #: templates/CRM/CivirulesActions/Contact/Form/UpdateNumericValue.tpl
 msgid ""
 "This action takes the value from the contact field specified in 'Source', "
 "applies the operator and the operand, and stores the result in the field "
 "specified in 'Target'. Only numeric fields will be considered."
-msgstr ""
+msgstr "Cette action prend la valeur du champ de contact spécifié dans \"Source\", applique l'opérateur et l'opérande, et stocke le résultat dans le champ spécifié dans \"Cible\". Seuls les champs numériques sont pris en compte."
 
 #: templates/CRM/CivirulesActions/Generic/Form/UpdateDateValue.tpl
 msgid ""
@@ -3499,13 +3499,13 @@ msgid ""
 "to the <a "
 "href=\"https://www.php.net/manual/en/datetime.modify.php\">DateTime::modify</a>"
 " method."
-msgstr ""
+msgstr "Dans le cas d'une \"opération\" de type \"Set\", cette action fixe la valeur du \"champ cible\" à la valeur spécifiée dans l'\"opérande\". Dans ce cas, l'\"opérande\" peut être n'importe quelle valeur valide pouvant être transmise à la  méthode <a href=\"https://www.php.net/manual/en/datetime.construct.php\">DateTime::__construct</a>.<br /><br />Pour toutes les autres \"opérations\", cette action prend la valeur du \"champ source\", applique l'\"opération\" et l'\"opérande\" et enregistre le résultat dans le \"champ cible\". Les \"Opérandes\" peuvent être n'importe quelle entrée valide de la méthode <a href=\"https://www.php.net/manual/en/datetime.modify.php\">DateTime::modify</a>."
 
 #: templates/CRM/CivirulesActions/GroupContact/Form/AddRelated.tpl
 msgid ""
 "All related contacts of the selected relationship types will be added to the"
 " selected group"
-msgstr ""
+msgstr "Tous les contacts liés aux types de relations sélectionnés seront ajoutés au groupe sélectionné."
 
 #: templates/CRM/CivirulesActions/GroupContact/Form/AddRelated.tpl
 msgid "Relationship type"
@@ -3524,7 +3524,7 @@ msgid ""
 "  <br /><br />\n"
 "  You can select the relationship type and if the relationship should be disabled (and show up as a former relationship) or deleted (completely removed from the database).\n"
 "  If you select to disable the relationship, you can also select the end date of the relationship. The default will be the date the action is executed."
-msgstr ""
+msgstr "Cette action va désactiver ou supprimer la ou les relation(s) du type sélectionné où il est <strong>supposé</strong> que le contact en question est le <strong>contact A</strong>.<br />\nComme vous le savez, une relation dans CiviCRM se fait entre 2 contacts, par exemple la relation employé de/employeur où l'employé est le contact A et l'employeur est le contact B.\n<br /><br />\nIl s'agit de relation(s) parce qu'un contact peut avoir plus d'une relation d'un certain type, <strong>toutes</strong> celles-ci seront désactivées ou supprimées.\n<br /><br />\nVous pouvez sélectionner le type de relation et indiquer si la relation doit être désactivée (et apparaître comme une ancienne relation) ou supprimée (complètement supprimée de la base de données).\nSi vous choisissez de désactiver la relation, vous pouvez également sélectionner la date de fin de la relation. La date par défaut est la date d'exécution de l'action."
 
 #: templates/CRM/CivirulesActions/Tag/Form/Sync.tpl
 msgid ""
@@ -3539,7 +3539,7 @@ msgid ""
 "      <strong>Relationship type:</strong><br />\n"
 "      The relationship type to find target contacts.<br />\n"
 "    "
-msgstr ""
+msgstr "\n      <strong>Type :</strong><br />\n      <ul>\n        <li><strong>Copier</strong> signifie que les étiquettes qui sont présentes dans la <em>source</em> mais pas dans la <em>cible</em> seront <em>ajoutées</em>.</li>\n        <li><strong>Synchroniser</strong> signifie que les étiquettes qui sont présentes dans la <em>source</em> mais pas dans la <em>cible</em> seront <em>retirées</em>. Et toutes les étiquettes qui sont présentes dans la <em>source</em> mais pas dans la <em>cible</em> seront <em>ajoutées</em>.</li>\n      </ul>\n      <strong>Étiquettes :</strong><br />\n      Les étiquettes sélectionnées à vérifier.<br />\n      <strong>Type de relation :</strong><br />\n      Le type de relation utilisé pour trouver les contacts cibles.<br />\n    "
 
 #: templates/CRM/CivirulesConditions/Form/ActionLog/ScheduledReminder.tpl
 msgid "Scheduled Reminder(s)"
@@ -3656,7 +3656,7 @@ msgstr "Nouvelle valeur"
 msgid ""
 "You can test an activity or participation date against specific dates or "
 "date fields (Comparison Date or From and To Date depending on the Operator)."
-msgstr ""
+msgstr "Vous pouvez tester une activité ou une date de participation par rapport à des dates ou des champs de date spécifiques (date de comparaison ou date du et au selon l'opérateur)."
 
 #: templates/CRM/ConfigItems/Entity/CiviRules/ExportForm.tpl
 msgid "%1 on this system"
