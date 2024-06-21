@@ -6,15 +6,15 @@
 # lbl_knts <git@rlkd.de>, 2020
 # Maria <maria.vogel@civiservice.de>, 2022
 # Reinhard Kopp <reinhard@magiclight.de>, 2023
-# Torben Bertram, 2024
 # Mathieu Lu <mathieu@bidon.ca>, 2024
 # Andreas Howiller <andreas.howiller@civiservice.de>, 2024
+# Torben Bertram, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
-"POT-Creation-Date: 2024-03-27 05:01+0000\n"
-"Last-Translator: Andreas Howiller <andreas.howiller@civiservice.de>, 2024\n"
+"POT-Creation-Date: 2024-06-21 05:01+0000\n"
+"Last-Translator: Torben Bertram, 2024\n"
 "Language-Team: German (https://app.transifex.com/civicrm/teams/1905/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -722,10 +722,6 @@ msgid "Server key"
 msgstr "Server key"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
-msgid "Automatically keep the extension up to date"
-msgstr "Erweiterung automatisch up to date halten"
-
-#: CRM/CiviMobileAPI/Form/Settings.php
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "Show a Website URL QR-code for Anonymous users"
 msgstr "Zeigt eine Webseiten-URL als QR-Code für anonyme Nutzer"
@@ -786,16 +782,8 @@ msgid "Confirm server key"
 msgstr "Bestätige Server Key"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
-msgid "Update CiviMobile Extension"
-msgstr "Update CiviMobile Erweiterung"
-
-#: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Server key updated"
 msgstr "Server Key aktualisiert"
-
-#: CRM/CiviMobileAPI/Form/Settings.php
-msgid "CiviMobile updated"
-msgstr "CiviMobile aktualisiert"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "CiviMobile settings updated"
@@ -1058,6 +1046,10 @@ msgstr "Umfragen"
 msgid "TimeTracker"
 msgstr ""
 
+#: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
+msgid "Appointment"
+msgstr ""
+
 #: CRM/CiviMobileAPI/Install/Entity/UpdateMessageTemplate.php
 msgid ""
 "Can not find template with these parameters: valueName "
@@ -1220,10 +1212,6 @@ msgstr ""
 msgid "Your Api key has removed and all device disconnected from account."
 msgstr "Ihr API Key wurde entfernt und alle Geräte von diesem Konto getrennt."
 
-#: CRM/CiviMobileAPI/Utils/Extension.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Aktualisiere %1 auf Revision %2"
-
 #: Civi/Api4/Action/CiviMobileAddAttachment/Create.php
 msgid "Cannot add more attachments. Maximum limit reached"
 msgstr ""
@@ -1232,17 +1220,37 @@ msgstr ""
 msgid "Files were not uploaded"
 msgstr ""
 
-#: Civi/Api4/CiviMobileAddAttachment.php
+#: Civi/Api4/Action/CiviMobileEventRegistration/Create.php
+msgid "Field 'event_id' is required"
+msgstr ""
+
+#: Civi/Api4/Action/CiviMobileEventRegistration/Create.php
+msgid "Participant registration error."
+msgstr ""
+
+#: Civi/Api4/Action/CiviMobileEventRegistration/Create.php
+msgid "You already registered on Event."
+msgstr ""
+
+#: Civi/Api4/Action/CiviMobileEventRegistration/Create.php
+msgid "The event is currently full."
+msgstr ""
+
+#: Civi/Api4/CiviMobileAddAttachment.php Civi/Api4/CiviMobileProfileFields.php
 msgid "Entity ID"
 msgstr "Entität ID"
 
-#: Civi/Api4/CiviMobileAddAttachment.php
+#: Civi/Api4/CiviMobileAddAttachment.php Civi/Api4/CiviMobileProfileFields.php
 msgid "Entity Table"
 msgstr "Entitätstabelle"
 
 #: Civi/Api4/CiviMobileDeleteAccount.php
 msgid "Account id"
 msgstr ""
+
+#: Civi/Api4/CiviMobileEventRegistration.php
+msgid "Event ID"
+msgstr "Event ID"
 
 #: Civi/Api4/CiviMobileGenerateEventDescription.php
 msgid "Event title"
@@ -1607,7 +1615,13 @@ msgstr ""
 "sind."
 
 #: civimobileapi.php
-msgid "test"
+msgid ""
+"Gives possibility to access CiviMobile without accessing web. Works in a "
+"pair with CiviCRM: access CiviCRM backend and API"
+msgstr ""
+
+#: civimobileapi.php
+msgid "Allows to send requests to ChatGPT"
 msgstr ""
 
 #: civimobileapi.php
@@ -1813,22 +1827,6 @@ msgid ""
 msgstr ""
 "Wenn die Anwendung benutzerindividuell ist, kann der eigene Firebase-"
 "Schlüssel zu Sicherheitszwecken für Push-Benachrichtigungen verwenden."
-
-#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
-#: templates/CRM/CiviMobileAPI/Form/Settings.tpl
-msgid "Software update"
-msgstr "Software update"
-
-#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
-msgid ""
-"We recommend enabling automatically extension update to be sure that you are"
-" using the most secure and powerful extension version and avoid "
-"desynchronization between mobile application and extension."
-msgstr ""
-"Wir empfehlen, die automatische Aktualisierung der Erweiterung zu "
-"aktivieren, um sicherzustellen, dass Sie die sicherste und leistungsfähigste"
-" Version der Erweiterung verwenden und eine Desynchronisation zwischen der "
-"mobilen Anwendung und der Erweiterung vermeiden."
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "Site name for CiviMobile"
