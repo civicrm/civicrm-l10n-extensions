@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
-"POT-Creation-Date: 2024-03-27 05:01+0000\n"
+"POT-Creation-Date: 2024-06-21 05:01+0000\n"
 "Last-Translator: Zoltán Reizinger <zreizinger@gmail.com>, 2024\n"
 "Language-Team: Hungarian (https://app.transifex.com/civicrm/teams/1905/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -688,10 +688,6 @@ msgid "Server key"
 msgstr "Szerver kulcs"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
-msgid "Automatically keep the extension up to date"
-msgstr "A kiterjesztés automatikusan frissüljön"
-
-#: CRM/CiviMobileAPI/Form/Settings.php
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "Show a Website URL QR-code for Anonymous users"
 msgstr ""
@@ -752,16 +748,8 @@ msgid "Confirm server key"
 msgstr "Erősítse meg a szerver kulcsot"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
-msgid "Update CiviMobile Extension"
-msgstr "CiviMobile kiterjesztés frissítése"
-
-#: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Server key updated"
 msgstr "Szerver kulcs frissítve"
-
-#: CRM/CiviMobileAPI/Form/Settings.php
-msgid "CiviMobile updated"
-msgstr "CiviMobile frissítve"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "CiviMobile settings updated"
@@ -1018,6 +1006,10 @@ msgstr ""
 msgid "TimeTracker"
 msgstr ""
 
+#: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
+msgid "Appointment"
+msgstr ""
+
 #: CRM/CiviMobileAPI/Install/Entity/UpdateMessageTemplate.php
 msgid ""
 "Can not find template with these parameters: valueName "
@@ -1175,10 +1167,6 @@ msgstr ""
 msgid "Your Api key has removed and all device disconnected from account."
 msgstr "Az API key eltávolítva és az összes eszköz szétkapcsolva a fiókjától."
 
-#: CRM/CiviMobileAPI/Utils/Extension.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Frissítsen %1 a %2 változatra"
-
 #: Civi/Api4/Action/CiviMobileAddAttachment/Create.php
 msgid "Cannot add more attachments. Maximum limit reached"
 msgstr ""
@@ -1187,16 +1175,36 @@ msgstr ""
 msgid "Files were not uploaded"
 msgstr ""
 
-#: Civi/Api4/CiviMobileAddAttachment.php
+#: Civi/Api4/Action/CiviMobileEventRegistration/Create.php
+msgid "Field 'event_id' is required"
+msgstr ""
+
+#: Civi/Api4/Action/CiviMobileEventRegistration/Create.php
+msgid "Participant registration error."
+msgstr ""
+
+#: Civi/Api4/Action/CiviMobileEventRegistration/Create.php
+msgid "You already registered on Event."
+msgstr ""
+
+#: Civi/Api4/Action/CiviMobileEventRegistration/Create.php
+msgid "The event is currently full."
+msgstr ""
+
+#: Civi/Api4/CiviMobileAddAttachment.php Civi/Api4/CiviMobileProfileFields.php
 msgid "Entity ID"
 msgstr ""
 
-#: Civi/Api4/CiviMobileAddAttachment.php
+#: Civi/Api4/CiviMobileAddAttachment.php Civi/Api4/CiviMobileProfileFields.php
 msgid "Entity Table"
 msgstr "Egyed tábla"
 
 #: Civi/Api4/CiviMobileDeleteAccount.php
 msgid "Account id"
+msgstr ""
+
+#: Civi/Api4/CiviMobileEventRegistration.php
+msgid "Event ID"
 msgstr ""
 
 #: Civi/Api4/CiviMobileGenerateEventDescription.php
@@ -1558,7 +1566,13 @@ msgid "It means the User can see the groups he belongs to"
 msgstr ""
 
 #: civimobileapi.php
-msgid "test"
+msgid ""
+"Gives possibility to access CiviMobile without accessing web. Works in a "
+"pair with CiviCRM: access CiviCRM backend and API"
+msgstr ""
+
+#: civimobileapi.php
+msgid "Allows to send requests to ChatGPT"
 msgstr ""
 
 #: civimobileapi.php
@@ -1746,21 +1760,6 @@ msgid ""
 "If the application is custom you can use your own Firebase Key for security "
 "purposes for Push Notifications"
 msgstr ""
-
-#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
-#: templates/CRM/CiviMobileAPI/Form/Settings.tpl
-msgid "Software update"
-msgstr "Szoftver frissítés"
-
-#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
-msgid ""
-"We recommend enabling automatically extension update to be sure that you are"
-" using the most secure and powerful extension version and avoid "
-"desynchronization between mobile application and extension."
-msgstr ""
-"A kiterjesztés automatikus frissítését javasoljuk, hogy biztosítani lehessen"
-" a legbiztonságosabb és legerősebb kiterjesztés változatot és elkerüljük a "
-"mobil alkalmazás és a kiterjesztés közötti deszinkronizációt. "
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "Site name for CiviMobile"
