@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
-"POT-Creation-Date: 2024-01-17 05:01+0000\n"
+"POT-Creation-Date: 2024-06-21 05:01+0000\n"
 "Last-Translator: Thomas Nilefalk <thomas.nilefalk@responsive.se>, 2024\n"
 "Language-Team: Swedish (Sweden) (https://app.transifex.com/civicrm/teams/1905/sv_SE/)\n"
 "MIME-Version: 1.0\n"
@@ -243,7 +243,7 @@ msgid "Last Name"
 msgstr ""
 
 #: CRM/CiviMobileAPI/DAO/CivimobileEventPaymentInfo.php
-#: api/v3/CiviMobileCmsRegistration.php
+#: Civi/Api4/CiviMobileResetPassword.php api/v3/CiviMobileCmsRegistration.php
 #: api/v3/CiviMobileParticipantPaymentLink.php
 msgid "Email"
 msgstr "Epost"
@@ -681,10 +681,6 @@ msgid "Server key"
 msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
-msgid "Automatically keep the extension up to date"
-msgstr ""
-
-#: CRM/CiviMobileAPI/Form/Settings.php
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "Show a Website URL QR-code for Anonymous users"
 msgstr ""
@@ -703,6 +699,10 @@ msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Show Public area"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Show Reset password"
 msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
@@ -741,15 +741,7 @@ msgid "Confirm server key"
 msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
-msgid "Update CiviMobile Extension"
-msgstr ""
-
-#: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Server key updated"
-msgstr ""
-
-#: CRM/CiviMobileAPI/Form/Settings.php
-msgid "CiviMobile updated"
 msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
@@ -1007,6 +999,10 @@ msgstr ""
 msgid "TimeTracker"
 msgstr ""
 
+#: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
+msgid "Appointment"
+msgstr ""
+
 #: CRM/CiviMobileAPI/Install/Entity/UpdateMessageTemplate.php
 msgid ""
 "Can not find template with these parameters: valueName "
@@ -1087,10 +1083,6 @@ msgstr ""
 msgid "Event(id = %1) does not exist or is not public."
 msgstr ""
 
-#: CRM/CiviMobileAPI/Upgrader/Base.php CRM/CiviMobileAPI/Utils/Extension.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Uppgradera %1 till revision %2"
-
 #: CRM/CiviMobileAPI/Utils/ActivityType.php
 msgid "Send an Email"
 msgstr ""
@@ -1162,6 +1154,46 @@ msgstr ""
 
 #: CRM/CiviMobileAPI/Utils/Contact.php
 msgid "Your Api key has removed and all device disconnected from account."
+msgstr ""
+
+#: Civi/Api4/Action/CiviMobileAddAttachment/Create.php
+msgid "Cannot add more attachments. Maximum limit reached"
+msgstr ""
+
+#: Civi/Api4/Action/CiviMobileAddAttachment/Create.php
+msgid "Files were not uploaded"
+msgstr ""
+
+#: Civi/Api4/Action/CiviMobileEventRegistration/Create.php
+msgid "Field 'event_id' is required"
+msgstr ""
+
+#: Civi/Api4/Action/CiviMobileEventRegistration/Create.php
+msgid "Participant registration error."
+msgstr ""
+
+#: Civi/Api4/Action/CiviMobileEventRegistration/Create.php
+msgid "You already registered on Event."
+msgstr ""
+
+#: Civi/Api4/Action/CiviMobileEventRegistration/Create.php
+msgid "The event is currently full."
+msgstr ""
+
+#: Civi/Api4/CiviMobileAddAttachment.php Civi/Api4/CiviMobileProfileFields.php
+msgid "Entity ID"
+msgstr ""
+
+#: Civi/Api4/CiviMobileAddAttachment.php Civi/Api4/CiviMobileProfileFields.php
+msgid "Entity Table"
+msgstr ""
+
+#: Civi/Api4/CiviMobileDeleteAccount.php
+msgid "Account id"
+msgstr ""
+
+#: Civi/Api4/CiviMobileEventRegistration.php
+msgid "Event ID"
 msgstr ""
 
 #: Civi/Api4/CiviMobileGenerateEventDescription.php
@@ -1519,7 +1551,13 @@ msgid "It means the User can see the groups he belongs to"
 msgstr ""
 
 #: civimobileapi.php
-msgid "test"
+msgid ""
+"Gives possibility to access CiviMobile without accessing web. Works in a "
+"pair with CiviCRM: access CiviCRM backend and API"
+msgstr ""
+
+#: civimobileapi.php
+msgid "Allows to send requests to ChatGPT"
 msgstr ""
 
 #: civimobileapi.php
@@ -1705,18 +1743,6 @@ msgid ""
 msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
-#: templates/CRM/CiviMobileAPI/Form/Settings.tpl
-msgid "Software update"
-msgstr ""
-
-#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
-msgid ""
-"We recommend enabling automatically extension update to be sure that you are"
-" using the most secure and powerful extension version and avoid "
-"desynchronization between mobile application and extension."
-msgstr ""
-
-#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "Site name for CiviMobile"
 msgstr ""
 
@@ -1751,6 +1777,12 @@ msgid ""
 "    component is enabled. Note that if you want a specific event to be made available in the Public Area-please enable\n"
 "    'Public Event' checkbox in Event Info and Settings section.</p>\n"
 "  <p>News may also be present in the Public Area if Show News checkbox is enabled."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid ""
+"By checking the checkbox you will allow reset password functionality in the "
+"mobile application."
 msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
@@ -1808,6 +1840,10 @@ msgstr ""
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid ""
 "Note that the all required permissions for Anonymous user should be enabled."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.tpl
+msgid "To use the password reset functionality, configure SMTP in CMS."
 msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
