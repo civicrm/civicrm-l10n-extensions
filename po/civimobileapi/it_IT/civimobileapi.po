@@ -4,15 +4,15 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Alice Montrasio, 2022
-# Francesco Garganese <francesco.garganese@aeromnia.aero>, 2024
 # simo0082 <simone.piazza@gmail.com>, 2024
 # Marco Mercinelli <marco.mercinelli@gmail.com>, 2024
+# Francesco Garganese <francesco.garganese@aeromnia.aero>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
-"POT-Creation-Date: 2024-04-06 05:02+0000\n"
-"Last-Translator: Marco Mercinelli <marco.mercinelli@gmail.com>, 2024\n"
+"POT-Creation-Date: 2024-06-21 05:01+0000\n"
+"Last-Translator: Francesco Garganese <francesco.garganese@aeromnia.aero>, 2024\n"
 "Language-Team: Italian (https://app.transifex.com/civicrm/teams/1905/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -689,10 +689,6 @@ msgid "Server key"
 msgstr "Chiave server"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
-msgid "Automatically keep the extension up to date"
-msgstr ""
-
-#: CRM/CiviMobileAPI/Form/Settings.php
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "Show a Website URL QR-code for Anonymous users"
 msgstr ""
@@ -753,16 +749,8 @@ msgid "Confirm server key"
 msgstr "Conferma chiave server"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
-msgid "Update CiviMobile Extension"
-msgstr "Aggiorna l'estensione CiviMobile"
-
-#: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Server key updated"
 msgstr "Chiave server aggiornata"
-
-#: CRM/CiviMobileAPI/Form/Settings.php
-msgid "CiviMobile updated"
-msgstr "CiviMobile aggiornato"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "CiviMobile settings updated"
@@ -1019,6 +1007,10 @@ msgstr ""
 msgid "TimeTracker"
 msgstr ""
 
+#: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
+msgid "Appointment"
+msgstr ""
+
 #: CRM/CiviMobileAPI/Install/Entity/UpdateMessageTemplate.php
 msgid ""
 "Can not find template with these parameters: valueName "
@@ -1172,10 +1164,6 @@ msgstr ""
 msgid "Your Api key has removed and all device disconnected from account."
 msgstr ""
 
-#: CRM/CiviMobileAPI/Utils/Extension.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Aggiorna %1 alla revisione %2"
-
 #: Civi/Api4/Action/CiviMobileAddAttachment/Create.php
 msgid "Cannot add more attachments. Maximum limit reached"
 msgstr ""
@@ -1184,17 +1172,37 @@ msgstr ""
 msgid "Files were not uploaded"
 msgstr ""
 
-#: Civi/Api4/CiviMobileAddAttachment.php
+#: Civi/Api4/Action/CiviMobileEventRegistration/Create.php
+msgid "Field 'event_id' is required"
+msgstr ""
+
+#: Civi/Api4/Action/CiviMobileEventRegistration/Create.php
+msgid "Participant registration error."
+msgstr ""
+
+#: Civi/Api4/Action/CiviMobileEventRegistration/Create.php
+msgid "You already registered on Event."
+msgstr ""
+
+#: Civi/Api4/Action/CiviMobileEventRegistration/Create.php
+msgid "The event is currently full."
+msgstr ""
+
+#: Civi/Api4/CiviMobileAddAttachment.php Civi/Api4/CiviMobileProfileFields.php
 msgid "Entity ID"
 msgstr "ID Entità"
 
-#: Civi/Api4/CiviMobileAddAttachment.php
+#: Civi/Api4/CiviMobileAddAttachment.php Civi/Api4/CiviMobileProfileFields.php
 msgid "Entity Table"
 msgstr "Tabella Entità"
 
 #: Civi/Api4/CiviMobileDeleteAccount.php
 msgid "Account id"
 msgstr ""
+
+#: Civi/Api4/CiviMobileEventRegistration.php
+msgid "Event ID"
+msgstr "ID Evento"
 
 #: Civi/Api4/CiviMobileGenerateEventDescription.php
 msgid "Event title"
@@ -1741,18 +1749,6 @@ msgstr ""
 msgid ""
 "If the application is custom you can use your own Firebase Key for security "
 "purposes for Push Notifications"
-msgstr ""
-
-#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
-#: templates/CRM/CiviMobileAPI/Form/Settings.tpl
-msgid "Software update"
-msgstr "Aggiornamento software"
-
-#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
-msgid ""
-"We recommend enabling automatically extension update to be sure that you are"
-" using the most secure and powerful extension version and avoid "
-"desynchronization between mobile application and extension."
 msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
