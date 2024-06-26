@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: grantapplications\n"
-"POT-Creation-Date: 2024-05-08 05:01+0000\n"
+"POT-Creation-Date: 2024-06-26 05:01+0000\n"
 "Last-Translator: HanV <han.velthuis@kpnmail.nl>, 2023\n"
 "Language-Team: Dutch (https://app.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -112,7 +112,7 @@ msgstr "Voer een geldig bedrag in."
 msgid "Requested amount has to be greater than zero."
 msgstr "Bedrag moet groter dan 0 zijn."
 
-#: CRM/Grant/Form/Grant/OnBehalfOf.php
+#: CRM/Grant/Form/Grant/Main.php CRM/Grant/Form/Grant/OnBehalfOf.php
 msgid ""
 "This grant application page has been configured for applying for grants on "
 "behalf of an organization and the selected onbehalf profile is either "
@@ -121,6 +121,21 @@ msgstr ""
 "Deze toelage-applicatie is geconfigureerd voor toelagen namens een "
 "organisatie en  het geselecteerde profiel daarvoor ontbreekt of is "
 "uitgeschakeld."
+
+#: CRM/Grant/Form/Grant/Main.php CRM/Grant/Form/Grant/OnBehalfOf.php
+#: CRM/Grant/Form/GrantBase.php
+msgid "Select an existing organization"
+msgstr "Selecteer een organisatie"
+
+#: CRM/Grant/Form/Grant/Main.php CRM/Grant/Form/Grant/OnBehalfOf.php
+#: CRM/Grant/Form/GrantBase.php
+msgid "Enter a new organization"
+msgstr "Maak een nieuwe organisatie aan"
+
+#: CRM/Grant/Form/Grant/Main.php CRM/Grant/Form/Grant/OnBehalfOf.php
+#: CRM/Grant/Form/GrantBase.php
+msgid "options"
+msgstr "opties"
 
 #: CRM/Grant/Form/Grant/OnBehalfOf.php
 msgid ""
@@ -139,18 +154,6 @@ msgstr "Organisatie details"
 #: CRM/Grant/Form/Grant/OnBehalfOf.php
 msgid "Select an existing related Organization OR enter a new one"
 msgstr "Selecteer een organisatie of maak een nieuwe aan"
-
-#: CRM/Grant/Form/Grant/OnBehalfOf.php CRM/Grant/Form/GrantBase.php
-msgid "Select an existing organization"
-msgstr "Selecteer een organisatie"
-
-#: CRM/Grant/Form/Grant/OnBehalfOf.php CRM/Grant/Form/GrantBase.php
-msgid "Enter a new organization"
-msgstr "Maak een nieuwe organisatie aan"
-
-#: CRM/Grant/Form/Grant/OnBehalfOf.php CRM/Grant/Form/GrantBase.php
-msgid "options"
-msgstr "opties"
 
 #: CRM/Grant/Form/GrantBase.php
 msgid "The page you requested is currently unavailable."
@@ -340,11 +343,9 @@ msgstr "Gebruik in de titel geen '/'"
 
 #: CRM/Grant/Form/GrantPage/Settings.php
 msgid ""
-"Please select a profile to collect organization information on this "
-"contribution page."
+"Please select a profile to collect organization information on this grant "
+"application page."
 msgstr ""
-"Selecteer op deze bijdragepagina een profiel om gegevens te verzamelen over "
-"een organisatie."
 
 #: CRM/Grant/Form/GrantPage/Settings.php
 msgid ""
@@ -579,6 +580,14 @@ msgid "CiviCRM Profile Group Preview"
 msgstr "CiviCRM Profielgroep voorvertonen"
 
 #: grantapplications.php
+msgid "Message Template Workflow for Grant"
+msgstr "Berichtensjabloon voor toelage"
+
+#: grantapplications.php
+msgid "Grants - Receipt (on-line)"
+msgstr "Toelagen - ontvangstbewijs (online)"
+
+#: grantapplications.php
 msgid "Grants on dashboard"
 msgstr "Toelagen op dashboard"
 
@@ -653,14 +662,6 @@ msgstr "Wijzigen"
 #: grantapplications.php
 msgid "Edit Grant Application"
 msgstr "Toelage-applicatie wijzigen"
-
-#: sql/civicrm_msg_template.tpl
-msgid "Message Template Workflow for Grant"
-msgstr "Berichtensjabloon voor toelage"
-
-#: sql/civicrm_msg_template.tpl
-msgid "Grants - Receipt (on-line)"
-msgstr "Toelagen - ontvangstbewijs (online)"
 
 #: sql/message_templates/grant_online_receipt_html.tpl
 #: sql/upgrade_4701.sql.tpl
@@ -1050,18 +1051,6 @@ msgid ""
 msgstr ""
 "Selecteer het toelage-programma dat de applicaties krijgen die deze pagina "
 "gebruiken."
-
-#: templates/CRM/Grant/Form/GrantPage/Settings.tpl
-msgid ""
-"You must <a href=\"%1\">configure a valid organization profile</a> in order "
-"to allow individuals to contribute on behalf of an organization. Valid "
-"profiles include Contact and / or Organization fields, and may include "
-"Contribution and Membership fields."
-msgstr ""
-"U moet een <a href=\"%1\">profiel voor een organisatie configureren</a> om "
-"het personen toe te staan namens een organisatie een bijdrage te laten doen."
-" In het profiel zitten gegevens van een contact en/of een organisatie en "
-"mogelijk gegevens van een bijdrage en een lidmaatschap."
 
 #: templates/CRM/Grant/Form/GrantPage/Settings.tpl
 msgid ""
