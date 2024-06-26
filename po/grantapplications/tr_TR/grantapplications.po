@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: grantapplications\n"
-"POT-Creation-Date: 2024-05-08 05:01+0000\n"
+"POT-Creation-Date: 2024-06-26 05:01+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2023\n"
 "Language-Team: Turkish (https://app.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -114,7 +114,7 @@ msgstr "Lütfen geçerli bir tutar yazın."
 msgid "Requested amount has to be greater than zero."
 msgstr "İstenilen tutar sıfırdan büyük olmalıdır."
 
-#: CRM/Grant/Form/Grant/OnBehalfOf.php
+#: CRM/Grant/Form/Grant/Main.php CRM/Grant/Form/Grant/OnBehalfOf.php
 msgid ""
 "This grant application page has been configured for applying for grants on "
 "behalf of an organization and the selected onbehalf profile is either "
@@ -123,6 +123,21 @@ msgstr ""
 "Bu bağış başvurusu sayfası, bir kuruluş adına bağış başvurusu için "
 "yapılandırılmış ve seçilmiş kimin adına profili devre dışı bırakılmış ya da "
 "yok."
+
+#: CRM/Grant/Form/Grant/Main.php CRM/Grant/Form/Grant/OnBehalfOf.php
+#: CRM/Grant/Form/GrantBase.php
+msgid "Select an existing organization"
+msgstr "Var olan bir kuruluş seçin"
+
+#: CRM/Grant/Form/Grant/Main.php CRM/Grant/Form/Grant/OnBehalfOf.php
+#: CRM/Grant/Form/GrantBase.php
+msgid "Enter a new organization"
+msgstr "Yeni bir kuruluş yazın"
+
+#: CRM/Grant/Form/Grant/Main.php CRM/Grant/Form/Grant/OnBehalfOf.php
+#: CRM/Grant/Form/GrantBase.php
+msgid "options"
+msgstr "Seçenekler"
 
 #: CRM/Grant/Form/Grant/OnBehalfOf.php
 msgid ""
@@ -141,18 +156,6 @@ msgstr "Kuruluş bilgileri"
 #: CRM/Grant/Form/Grant/OnBehalfOf.php
 msgid "Select an existing related Organization OR enter a new one"
 msgstr "İlgili kuruluş olarak var olan birini seçin VEYA yenisini yazın"
-
-#: CRM/Grant/Form/Grant/OnBehalfOf.php CRM/Grant/Form/GrantBase.php
-msgid "Select an existing organization"
-msgstr "Var olan bir kuruluş seçin"
-
-#: CRM/Grant/Form/Grant/OnBehalfOf.php CRM/Grant/Form/GrantBase.php
-msgid "Enter a new organization"
-msgstr "Yeni bir kuruluş yazın"
-
-#: CRM/Grant/Form/Grant/OnBehalfOf.php CRM/Grant/Form/GrantBase.php
-msgid "options"
-msgstr "Seçenekler"
 
 #: CRM/Grant/Form/GrantBase.php
 msgid "The page you requested is currently unavailable."
@@ -341,11 +344,9 @@ msgstr "Lütfen başlıkta '/' kullanmayın"
 
 #: CRM/Grant/Form/GrantPage/Settings.php
 msgid ""
-"Please select a profile to collect organization information on this "
-"contribution page."
+"Please select a profile to collect organization information on this grant "
+"application page."
 msgstr ""
-"Lütfen bu katkı sayfasındaki kuruluş bilgilerinin getirileceği bir profil "
-"seçin."
 
 #: CRM/Grant/Form/GrantPage/Settings.php
 msgid ""
@@ -581,6 +582,14 @@ msgid "CiviCRM Profile Group Preview"
 msgstr "CiviCRM profili grubu ön izlemesi"
 
 #: grantapplications.php
+msgid "Message Template Workflow for Grant"
+msgstr "Bağış için ileti kalıbı iş akışı"
+
+#: grantapplications.php
+msgid "Grants - Receipt (on-line)"
+msgstr "Bağışlar - Alındı (çevrim içi)"
+
+#: grantapplications.php
 msgid "Grants on dashboard"
 msgstr "Panoda bağışlar"
 
@@ -655,14 +664,6 @@ msgstr "Düzenle"
 #: grantapplications.php
 msgid "Edit Grant Application"
 msgstr "Bağış başvurusunu düzenle"
-
-#: sql/civicrm_msg_template.tpl
-msgid "Message Template Workflow for Grant"
-msgstr "Bağış için ileti kalıbı iş akışı"
-
-#: sql/civicrm_msg_template.tpl
-msgid "Grants - Receipt (on-line)"
-msgstr "Bağışlar - Alındı (çevrim içi)"
 
 #: sql/message_templates/grant_online_receipt_html.tpl
 #: sql/upgrade_4701.sql.tpl
@@ -1057,18 +1058,6 @@ msgid ""
 msgstr ""
 "Bu sayfa kullanılarak yapılan bağış başvurularında atanacak bağış programını"
 " seçin."
-
-#: templates/CRM/Grant/Form/GrantPage/Settings.tpl
-msgid ""
-"You must <a href=\"%1\">configure a valid organization profile</a> in order "
-"to allow individuals to contribute on behalf of an organization. Valid "
-"profiles include Contact and / or Organization fields, and may include "
-"Contribution and Membership fields."
-msgstr ""
-"Bireylerin bir kuruluş adına katkıda bulunmasını sağlamak için <a "
-"href=\"%1\">geçerli bir kuruluş profili yapılandırmanız</a> gerekir. Geçerli"
-" profillerde, kişi ve/veya kuruluş alanları bulunur ve katkı ve üyelik "
-"alanları da bulunabilir."
 
 #: templates/CRM/Grant/Form/GrantPage/Settings.tpl
 msgid ""
