@@ -3,13 +3,12 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Mikey O'Toole <mikey@mjco.me.uk>, 2022
 # Andi Chandler <andi@gowling.com>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: qrcodecheckin\n"
-"POT-Creation-Date: 2021-08-04 05:01+0000\n"
+"POT-Creation-Date: 2024-07-09 05:01+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>, 2023\n"
 "Language-Team: English (United Kingdom) (https://app.transifex.com/civicrm/teams/1905/en_GB/)\n"
 "MIME-Version: 1.0\n"
@@ -23,16 +22,16 @@ msgid "QR Code Check-in page"
 msgstr "QR Code Check-in page"
 
 #: CRM/Qrcodecheckin/Page/QrcodecheckinLanding.php
+msgid "Qrcodecheckin: denied access, hash mis-match for participant id: %1"
+msgstr ""
+
+#: CRM/Qrcodecheckin/Page/QrcodecheckinLanding.php
 msgid ""
 "Woops! The link you clicked on appears to be broken. Please check again and "
 "ensure it was not split by a line break."
 msgstr ""
 "Woops! The link you clicked on appears to be broken. Please check again and "
 "ensure it was not split by a line break."
-
-#: CRM/Qrcodecheckin/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Upgrade %1 to revision %2"
 
 #: qrcodecheckin.js
 msgid "There was an error updating the status. Sorry."
@@ -94,6 +93,21 @@ msgstr ""
 "QR Code in case you need to display it when you do not have Internet "
 "access.</div>"
 
+#: settings/qrcodecheckin.setting.php
+msgid ""
+"The events that will use QRCodes for a given contact (can be more than one "
+"event)."
+msgstr ""
+
+#: settings/qrcodecheckin.setting.php
+#: templates/qrcode-checkin-event-options.tpl
+msgid ""
+"If enabled, when sending email to contacts you can include a QR Checkin Code"
+" token for this event."
+msgstr ""
+"If enabled, when sending email to contacts you can include a QR Checkin Code"
+" token for this event."
+
 #: templates/CRM/Qrcodecheckin/Page/QrcodecheckinLanding.tpl
 msgid ""
 "Congratulations! Your QR Code for checkin works. Please present your code to"
@@ -105,11 +119,3 @@ msgstr ""
 #: templates/CRM/Qrcodecheckin/Page/QrcodecheckinLanding.tpl
 msgid "Update to Attended"
 msgstr "Update to Attended"
-
-#: templates/qrcode-checkin-event-options.tpl
-msgid ""
-"If enabled, when sending email to contacts you can include a QR Checkin Code"
-" token for this event."
-msgstr ""
-"If enabled, when sending email to contacts you can include a QR Checkin Code"
-" token for this event."
