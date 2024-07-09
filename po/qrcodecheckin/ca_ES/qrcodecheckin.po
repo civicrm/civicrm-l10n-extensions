@@ -9,9 +9,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: qrcodecheckin\n"
-"POT-Creation-Date: 2021-08-04 05:01+0000\n"
+"POT-Creation-Date: 2024-07-09 05:01+0000\n"
 "Last-Translator: Marti Prat <m.prat@ixiam.com>, 2022\n"
-"Language-Team: Catalan (https://www.transifex.com/civicrm/teams/1905/ca/)\n"
+"Language-Team: Catalan (https://app.transifex.com/civicrm/teams/1905/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,16 +23,16 @@ msgid "QR Code Check-in page"
 msgstr "Pàgina de registrar amb Codi QR"
 
 #: CRM/Qrcodecheckin/Page/QrcodecheckinLanding.php
+msgid "Qrcodecheckin: denied access, hash mis-match for participant id: %1"
+msgstr ""
+
+#: CRM/Qrcodecheckin/Page/QrcodecheckinLanding.php
 msgid ""
 "Woops! The link you clicked on appears to be broken. Please check again and "
 "ensure it was not split by a line break."
 msgstr ""
 "Vaja! Sembla que l'enllaç al que has fet clic està trencat. Torna a "
 "comprovar-ho y assegura't que no s'hagi dividit per un salt de línia."
-
-#: CRM/Qrcodecheckin/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Actualitzar %1 a la revisió %2"
 
 #: qrcodecheckin.js
 msgid "There was an error updating the status. Sorry."
@@ -94,6 +94,21 @@ msgstr ""
 "fer una captura de pantalla del vostre codi QR per si el necessites quan no "
 "tinguis accés a internet.</div>"
 
+#: settings/qrcodecheckin.setting.php
+msgid ""
+"The events that will use QRCodes for a given contact (can be more than one "
+"event)."
+msgstr ""
+
+#: settings/qrcodecheckin.setting.php
+#: templates/qrcode-checkin-event-options.tpl
+msgid ""
+"If enabled, when sending email to contacts you can include a QR Checkin Code"
+" token for this event."
+msgstr ""
+"Si està activat, a l'enviar correus electrònics als contactes, pots incloure"
+" el codi de registre QR per a aquest esdeveniment."
+
 #: templates/CRM/Qrcodecheckin/Page/QrcodecheckinLanding.tpl
 msgid ""
 "Congratulations! Your QR Code for checkin works. Please present your code to"
@@ -105,11 +120,3 @@ msgstr ""
 #: templates/CRM/Qrcodecheckin/Page/QrcodecheckinLanding.tpl
 msgid "Update to Attended"
 msgstr "Actualitza a Assistit"
-
-#: templates/qrcode-checkin-event-options.tpl
-msgid ""
-"If enabled, when sending email to contacts you can include a QR Checkin Code"
-" token for this event."
-msgstr ""
-"Si està activat, a l'enviar correus electrònics als contactes, pots incloure"
-" el codi de registre QR per a aquest esdeveniment."
