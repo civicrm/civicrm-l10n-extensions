@@ -3,6 +3,7 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
+# Francesc Bassas i Bullich <francesc@babu.cat>, 2024
 # ixiam <info@ixiam.com>, 2018,2020
 # Marti Prat <m.prat@ixiam.com>, 2016
 # michaelmcandrew <michaelmcandrew@thirdsectordesign.org>, 2016
@@ -10,9 +11,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2024-04-07 05:01+0000\n"
+"POT-Creation-Date: 2024-06-26 05:01+0000\n"
 "PO-Revision-Date: 2015-10-15 05:34+0000\n"
-"Last-Translator: ixiam <info@ixiam.com>, 2018,2020\n"
+"Last-Translator: Francesc Bassas i Bullich <francesc@babu.cat>, 2024\n"
 "Language-Team: Spanish (http://app.transifex.com/civicrm/civicrm_extensions/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -152,11 +153,11 @@ msgid "Unique Condition ID"
 msgstr ""
 
 #: CRM/Civirules/DAO/CiviRulesRule.php
-msgid "Rules"
+msgid "Civi Rules Rules"
 msgstr ""
 
 #: CRM/Civirules/DAO/CiviRulesRule.php
-msgid "Rule"
+msgid "Civi Rules Rule"
 msgstr ""
 
 #: CRM/Civirules/DAO/CiviRulesRule.php
@@ -171,7 +172,7 @@ msgstr ""
 #: managed/managerules_searchkit.mgd.php
 #: templates/CRM/Civirules/Page/RuleViewList.tpl
 msgid "Trigger"
-msgstr "Trigger"
+msgstr "Disparador"
 
 #: CRM/Civirules/DAO/CiviRulesRule.php
 msgid "Trigger Params"
@@ -572,7 +573,7 @@ msgstr ""
 
 #: CRM/Civirules/Form/Rule.php
 msgid "You have to select a trigger for the rule"
-msgstr "Es necesario seleccionar un trigger para la regla"
+msgstr "Es necesario seleccionar un disparador para la regla"
 
 #: CRM/Civirules/Form/Rule.php
 msgid "There is already a rule with this name"
@@ -588,11 +589,11 @@ msgstr "Texto de ayuda con el propósito de la regla"
 
 #: CRM/Civirules/Form/Rule.php
 msgid "Civirule Tag(s)"
-msgstr ""
+msgstr "Etiquetas de CiviRules"
 
 #: CRM/Civirules/Form/Rule.php
 msgid "Select Trigger"
-msgstr "Seleccionar Trigger"
+msgstr "Seleccionar disparador"
 
 #: CRM/Civirules/Form/Rule.php
 msgid "Next"
@@ -628,6 +629,7 @@ msgstr "Siguiente"
 #: CRM/CivirulesActions/GroupContact/Form/AddRelated.php
 #: CRM/CivirulesActions/GroupContact/Form/GroupId.php
 #: CRM/CivirulesActions/Membership/Form/Add.php
+#: CRM/CivirulesActions/Membership/Form/UpdateStatus.php
 #: CRM/CivirulesActions/Participant/Form/Register.php
 #: CRM/CivirulesActions/Participant/Form/UpdateStatus.php
 #: CRM/CivirulesActions/Relationship/Form/End.php
@@ -748,6 +750,7 @@ msgstr "Eliminar"
 #: CRM/CivirulesActions/GroupContact/Form/AddRelated.php
 #: CRM/CivirulesActions/GroupContact/Form/GroupId.php
 #: CRM/CivirulesActions/Membership/Form/Add.php
+#: CRM/CivirulesActions/Membership/Form/UpdateStatus.php
 #: CRM/CivirulesActions/Participant/Form/Register.php
 #: CRM/CivirulesActions/Participant/Form/UpdateStatus.php
 #: CRM/CivirulesActions/Relationship/Form/End.php
@@ -881,7 +884,7 @@ msgstr ""
 
 #: CRM/Civirules/Form/RuleAction.php
 msgid "This action is not available with trigger %1"
-msgstr "Esta acción no es posible con el trigger %1"
+msgstr "Esta acción no es posible con el disparador %1"
 
 #: CRM/Civirules/Form/RuleCondition.php
 msgid "Select Link Operator"
@@ -897,7 +900,7 @@ msgstr ""
 
 #: CRM/Civirules/Form/RuleCondition.php
 msgid "This condition is not available with trigger %1"
-msgstr "Esta condición no es posible con el trigger %1"
+msgstr "Esta condición no es posible con el disparador %1"
 
 #: CRM/Civirules/Form/RuleCondition.php
 msgid "Link Operator can only be AND or OR"
@@ -979,7 +982,7 @@ msgstr "Habilitar"
 
 #: CRM/Civirules/Form/RuleView.php
 msgid "Manage CiviRules"
-msgstr ""
+msgstr "Administrar CiviRules"
 
 #: CRM/Civirules/SaveUpgrade2035.php
 msgid "Can not process empty trigger id in "
@@ -1082,6 +1085,7 @@ msgstr "Tipo: %1"
 #: CRM/CivirulesActions/Activity/AddToCase.php
 #: CRM/CivirulesActions/Activity/CreateActivityFromEvent.php
 #: CRM/CivirulesActions/Activity/UpdateStatus.php
+#: CRM/CivirulesActions/Membership/UpdateStatus.php
 #: CRM/CivirulesActions/Participant/UpdateStatus.php
 msgid "Status: %1"
 msgstr "Estado: %1"
@@ -1162,6 +1166,7 @@ msgstr "Tipo de actividad"
 #: CRM/CivirulesActions/GroupContact/Form/AddRelated.php
 #: CRM/CivirulesActions/GroupContact/Form/GroupId.php
 #: CRM/CivirulesActions/Membership/Form/Add.php
+#: CRM/CivirulesActions/Membership/Form/UpdateStatus.php
 #: CRM/CivirulesActions/Participant/Form/UpdateStatus.php
 #: CRM/CivirulesActions/Tag/Form/Sync.php
 #: CRM/CivirulesActions/Tag/Form/TagId.php
@@ -1619,6 +1624,35 @@ msgstr ""
 msgid "Membership type"
 msgstr ""
 
+#: CRM/CivirulesActions/Membership/Form/UpdateStatus.php
+#: CRM/CivirulesConditions/ContributionRecur/Membership.php
+#: CRM/CivirulesConditions/Form/ContributionRecur/Membership.php
+#: CRM/CivirulesConditions/Form/Membership/ContactHasMembership.php
+#: CRM/CivirulesConditions/Form/Membership/Status.php
+#: CRM/CivirulesConditions/Membership/ContactHasMembership.php
+msgid "Membership Status"
+msgstr "Estatus de membresía"
+
+#: CRM/CivirulesActions/Membership/Form/UpdateStatus.php
+#: CRM/CivirulesActions/Membership/UpdateStatus.php
+msgid "set to override permanently"
+msgstr ""
+
+#: CRM/CivirulesActions/Membership/Form/UpdateStatus.php
+#: CRM/CivirulesActions/Membership/UpdateStatus.php
+msgid "set to not override"
+msgstr ""
+
+#: CRM/CivirulesActions/Membership/Form/UpdateStatus.php
+#: CRM/CivirulesActions/Membership/UpdateStatus.php
+msgid "do not change setting"
+msgstr ""
+
+#: CRM/CivirulesActions/Membership/Form/UpdateStatus.php
+#: CRM/CivirulesActions/Membership/UpdateStatus.php
+msgid "Status Override?"
+msgstr ""
+
 #: CRM/CivirulesActions/Participant/Form/Register.php
 msgid "Event"
 msgstr "Evento"
@@ -2005,14 +2039,6 @@ msgstr ""
 #: CRM/CivirulesCronTrigger/Form/MembershipEndDate.php
 msgid "Membership Type"
 msgstr "Tipo de membresía"
-
-#: CRM/CivirulesConditions/ContributionRecur/Membership.php
-#: CRM/CivirulesConditions/Form/ContributionRecur/Membership.php
-#: CRM/CivirulesConditions/Form/Membership/ContactHasMembership.php
-#: CRM/CivirulesConditions/Form/Membership/Status.php
-#: CRM/CivirulesConditions/Membership/ContactHasMembership.php
-msgid "Membership Status"
-msgstr "Estatus de membresía"
 
 #: CRM/CivirulesConditions/ContributionRecur/Membership.php
 #: CRM/CivirulesConditions/Form/ContributionRecur/Membership.php
@@ -3230,19 +3256,19 @@ msgstr ""
 msgid "Could not %1 '%2' %3"
 msgstr ""
 
-#: api/v3/CiviRuleTrigger/Create.php
+#: api/v3/CiviRulesTrigger.php
 msgid "Label can not be empty when adding a new CiviRule Trigger"
 msgstr ""
 
-#: api/v3/CiviRuleTrigger/Create.php
+#: api/v3/CiviRulesTrigger.php
 msgid "Either class_name or a combination of object_name and op is mandatory"
 msgstr ""
 
-#: api/v3/CiviRuleTrigger/Create.php
+#: api/v3/CiviRulesTrigger.php
 msgid "For a cron type trigger the class_name is mandatory"
 msgstr ""
 
-#: api/v3/CiviRuleTrigger/Create.php
+#: api/v3/CiviRulesTrigger.php
 msgid ""
 "There is already a trigger for this class_name or combination of object_name"
 " and op"
@@ -3271,7 +3297,7 @@ msgstr ""
 
 #: managed/managerules_searchkit.mgd.php
 msgid "Add Rule"
-msgstr ""
+msgstr "Añadir regla"
 
 #: managed/managetags_searchkit.mgd.php
 msgid "CiviRules Tags"
@@ -3352,7 +3378,7 @@ msgstr ""
 
 #: templates/CRM/Civirules/Form/RuleBlocks/TriggerBlock.tpl
 msgid "Edit trigger parameters"
-msgstr "Editar los parámetros del trigger"
+msgstr "Editar los parámetros del disparador"
 
 #: templates/CRM/Civirules/Form/RuleDelete.tpl
 msgid "Are you sure you want to delete the rule with label"
