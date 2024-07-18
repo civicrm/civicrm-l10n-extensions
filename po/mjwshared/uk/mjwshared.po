@@ -3,15 +3,14 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Yevhen Barshchevskyi <ybarshchevskyi@ndi.org>, 2022
 # Євген Шульга, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: mjwshared\n"
-"POT-Creation-Date: 2021-12-25 05:02+0000\n"
+"POT-Creation-Date: 2024-07-18 05:02+0000\n"
 "Last-Translator: Євген Шульга, 2022\n"
-"Language-Team: Ukrainian (https://www.transifex.com/civicrm/teams/1905/uk/)\n"
+"Language-Team: Ukrainian (https://app.transifex.com/civicrm/teams/1905/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -125,15 +124,25 @@ msgid "Paymentprocessor Webhook"
 msgstr ""
 
 #: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "ID"
+msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
 msgid "Unique PaymentprocessorWebhook ID"
 msgstr ""
 
 #: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
 msgid "Payment Processor"
 msgstr ""
 
 #: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
 msgid "Payment Processor for this webhook"
+msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+#: ang/mjwshared/PaymentprocessorWebhook.html
+msgid "Event ID"
 msgstr ""
 
 #: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
@@ -198,7 +207,15 @@ msgid "You do not have permission to access this page."
 msgstr ""
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
-msgid "Cancel Participants"
+msgid "Do you want to cancel these registrations when you refund the payment?"
+msgstr ""
+
+#: CRM/Mjwshared/Form/PaymentRefund.php
+msgid "Do you want to cancel these memberships when you refund the payment?"
+msgstr ""
+
+#: CRM/Mjwshared/Form/PaymentRefund.php
+msgid "Refund Amount"
 msgstr ""
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
@@ -217,9 +234,61 @@ msgstr ""
 msgid "Cancelled %1 participant registration(s)."
 msgstr ""
 
-#: CRM/Mjwshared/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Оновити %1 до версії %2"
+#: CRM/Mjwshared/Form/PaymentRefund.php
+msgid "Cancelled %1 membership(s)."
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php api/v3/Mjwpayment.php
+msgid "Contribution ID"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Total Payment Amount"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Fee Amount"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Payment Processor for this payment"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Payment Date"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Send out notifications based on contribution status change?"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Payment Method (FK to payment_instrument option group values)"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Card Type ID (FK to accept_creditcard option group values)"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Transaction Result Code"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Transaction ID supplied by external processor. This may not be unique."
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Payment Processor external order reference"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Check Number"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "PAN Truncation (Last 4 digits of credit card)"
+msgstr ""
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "Payment Processor Webhooks"
@@ -254,7 +323,27 @@ msgid "Error"
 msgstr ""
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
-msgid "Event ID"
+msgid "Processor"
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
+msgid "Test"
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
+msgid "Live"
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
+msgid "%count webhooks"
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
+msgid "Search identifier"
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
+msgid "Search raw data"
 msgstr ""
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
@@ -269,7 +358,7 @@ msgstr ""
 msgid "Search / Reload"
 msgstr ""
 
-#: ang/mjwshared/PaymentprocessorWebhook.js
+#: ang/mjwshared/PaymentprocessorWebhook.js js/crm.payment.js
 msgid "mjwshared"
 msgstr ""
 
@@ -330,7 +419,7 @@ msgstr ""
 msgid "Scheduled for retry"
 msgstr ""
 
-#: api/v3/Mjwpayment.php
+#: api/v3/Mjwpayment.php templates/CRM/Mjwshared/Form/PaymentRefund.tpl
 msgid "Transaction ID"
 msgstr ""
 
@@ -350,7 +439,23 @@ msgstr ""
 msgid "Please check and fill in all required fields!"
 msgstr ""
 
-#: mjwshared.php
+#: managed/ProcessPaymentprocessorWebhooks.mgd.php
+msgid "Process incomplete payment processor webhooks"
+msgstr ""
+
+#: managed/customdata.mgd.php
+msgid "Financial Transaction (Payment)"
+msgstr ""
+
+#: managed/customdata.mgd.php
+msgid "Payment details"
+msgstr ""
+
+#: managed/navigationmenu.mgd.php
+msgid "Payment Shared Settings"
+msgstr ""
+
+#: managed/navigationmenu.mgd.php
 msgid "Payment processor webhooks"
 msgstr ""
 
@@ -365,6 +470,18 @@ msgid ""
 msgstr ""
 
 #: settings/mjwshared.setting.php
+msgid "Disable the \"Record Refund\" link on edit contribution"
+msgstr ""
+
+#: settings/mjwshared.setting.php
+msgid ""
+"By default CiviCRM includes a \"Record Refund\" link on edit contribution. "
+"This can be confusing when our payment refund UI is enabled because the "
+"contribution \"Record Refund\" does not communicate with the payment "
+"processor."
+msgstr ""
+
+#: settings/mjwshared.setting.php
 msgid "Enable Javascript debugging?"
 msgstr ""
 
@@ -375,17 +492,25 @@ msgid ""
 msgstr ""
 
 #: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
-msgid "Click \"refund\" to refund this payment"
+msgid "Amount"
 msgstr ""
 
 #: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
-msgid ""
-"Do you want to cancel the following event registrations when you refund the "
-"payment?"
+msgid "Payment date"
 msgstr ""
 
-#: templates/CRM/mjwshared/PaymentprocessorWebhook.hlp
-msgid ""
-"The contact name  should be divided in two parts, the first name and last "
-"name."
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
+msgid "Order Reference"
+msgstr ""
+
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
+msgid "This payment was used to register the following participants:"
+msgstr ""
+
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
+msgid "This payment was used for the following memberships:"
+msgstr ""
+
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
+msgid "Click \"refund\" to refund this payment"
 msgstr ""
