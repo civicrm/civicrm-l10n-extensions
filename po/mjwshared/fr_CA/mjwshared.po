@@ -8,16 +8,17 @@
 # Thomas Octaid <contact@octaid.com>, 2022
 # Stéphane Lussier <stephane@symbiotic.coop>, 2022
 # H. Bond <bonduaeux.h@gmail.com>, 2022
-# Guillaume Sorel <serviceclient@all-in-appli.com>, 2023
-# Mathieu Lu <mathieu@bidon.ca>, 2023
 # Alain Rihs <alainrihs@sunrise.ch>, 2023
+# Guillaume Sorel <serviceclient@all-in-appli.com>, 2024
+# Pierre Mathieu <pierrem7@gmail.com>, 2024
 # Usha Matisson, 2024
+# Mathieu Lu <mathieu@bidon.ca>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: mjwshared\n"
-"POT-Creation-Date: 2023-01-27 19:24+0000\n"
-"Last-Translator: Usha Matisson, 2024\n"
+"POT-Creation-Date: 2024-07-18 05:02+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>, 2024\n"
 "Language-Team: French (Canada) (https://app.transifex.com/civicrm/teams/1905/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -140,6 +141,10 @@ msgid "Paymentprocessor Webhook"
 msgstr ""
 
 #: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "ID"
+msgstr "Id."
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
 msgid "Unique PaymentprocessorWebhook ID"
 msgstr ""
 
@@ -151,6 +156,11 @@ msgstr "Passerelle de paiement"
 #: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
 msgid "Payment Processor for this webhook"
 msgstr ""
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+#: ang/mjwshared/PaymentprocessorWebhook.html
+msgid "Event ID"
+msgstr "Id. d'événement"
 
 #: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
 msgid "Webhook event ID"
@@ -245,9 +255,59 @@ msgstr ""
 msgid "Cancelled %1 membership(s)."
 msgstr ""
 
-#: CRM/Mjwshared/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Mise à jour de %1 à la révision %2"
+#: Civi/Api4/Action/PaymentMJW/Create.php api/v3/Mjwpayment.php
+msgid "Contribution ID"
+msgstr "ID de la contribution"
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Total Payment Amount"
+msgstr "Montant total réglé"
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Fee Amount"
+msgstr "Montant de la commission"
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Payment Processor for this payment"
+msgstr "Processeur de paiement pour ce règlement"
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Payment Date"
+msgstr "Date de règlement"
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Send out notifications based on contribution status change?"
+msgstr ""
+"Envoyer des notifications en fonction du changement de statut de "
+"contribution ?"
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Payment Method (FK to payment_instrument option group values)"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Card Type ID (FK to accept_creditcard option group values)"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Transaction Result Code"
+msgstr "Code de résultat de la transaction"
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Transaction ID supplied by external processor. This may not be unique."
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Payment Processor external order reference"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Check Number"
+msgstr "Numéro de chèque"
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "PAN Truncation (Last 4 digits of credit card)"
+msgstr ""
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "Payment Processor Webhooks"
@@ -298,8 +358,12 @@ msgid "%count webhooks"
 msgstr ""
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
-msgid "Event ID"
-msgstr "Id. d'événement"
+msgid "Search identifier"
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
+msgid "Search raw data"
+msgstr ""
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "Previous page"
@@ -313,7 +377,7 @@ msgstr ""
 msgid "Search / Reload"
 msgstr ""
 
-#: ang/mjwshared/PaymentprocessorWebhook.js
+#: ang/mjwshared/PaymentprocessorWebhook.js js/crm.payment.js
 msgid "mjwshared"
 msgstr ""
 
@@ -374,10 +438,6 @@ msgstr ""
 msgid "Scheduled for retry"
 msgstr ""
 
-#: api/v3/Mjwpayment.php
-msgid "Contribution ID"
-msgstr "ID de la contribution"
-
 #: api/v3/Mjwpayment.php templates/CRM/Mjwshared/Form/PaymentRefund.tpl
 msgid "Transaction ID"
 msgstr "Identifiant de transaction"
@@ -400,7 +460,23 @@ msgstr ""
 msgid "Please check and fill in all required fields!"
 msgstr "Veuillez vérifier et remplir tous les champs obligatoires !"
 
-#: mjwshared.php
+#: managed/ProcessPaymentprocessorWebhooks.mgd.php
+msgid "Process incomplete payment processor webhooks"
+msgstr ""
+
+#: managed/customdata.mgd.php
+msgid "Financial Transaction (Payment)"
+msgstr ""
+
+#: managed/customdata.mgd.php
+msgid "Payment details"
+msgstr "détail ,Payments"
+
+#: managed/navigationmenu.mgd.php
+msgid "Payment Shared Settings"
+msgstr ""
+
+#: managed/navigationmenu.mgd.php
 msgid "Payment processor webhooks"
 msgstr ""
 
@@ -412,6 +488,18 @@ msgstr ""
 msgid ""
 "Enables a \"Refund payment\" option next to the edit payment option on Payments. Find payments by expanding contributions.\n"
 "    For more detail see the <a href=\"%1\">Refund documentation</a>"
+msgstr ""
+
+#: settings/mjwshared.setting.php
+msgid "Disable the \"Record Refund\" link on edit contribution"
+msgstr ""
+
+#: settings/mjwshared.setting.php
+msgid ""
+"By default CiviCRM includes a \"Record Refund\" link on edit contribution. "
+"This can be confusing when our payment refund UI is enabled because the "
+"contribution \"Record Refund\" does not communicate with the payment "
+"processor."
 msgstr ""
 
 #: settings/mjwshared.setting.php
