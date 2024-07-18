@@ -4,13 +4,13 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Mathieu Lu <mathieu@bidon.ca>, 2022
-# Kaya Zeren <kayazeren@gmail.com>, 2023
+# Kaya Zeren <kayazeren@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: mjwshared\n"
-"POT-Creation-Date: 2023-01-27 19:24+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2023\n"
+"POT-Creation-Date: 2024-07-18 05:02+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (https://app.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -143,6 +143,10 @@ msgid "Paymentprocessor Webhook"
 msgstr "Paymentprocessor internet kancası"
 
 #: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+msgid "ID"
+msgstr "Kimlik"
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
 msgid "Unique PaymentprocessorWebhook ID"
 msgstr "Benzersiz PaymentprocessorWebhook kimliği"
 
@@ -154,6 +158,11 @@ msgstr "Ödeme aracısı"
 #: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
 msgid "Payment Processor for this webhook"
 msgstr "Bu internet kancasının ödeme aracısı"
+
+#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
+#: ang/mjwshared/PaymentprocessorWebhook.html
+msgid "Event ID"
+msgstr "Etkinlik kimliği"
 
 #: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
 msgid "Webhook event ID"
@@ -250,9 +259,57 @@ msgstr "% katılımcının kaydı iptal edildi."
 msgid "Cancelled %1 membership(s)."
 msgstr "%1 üyelik iptal edildi."
 
-#: CRM/Mjwshared/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "%1, %2 sürümüne güncelle"
+#: Civi/Api4/Action/PaymentMJW/Create.php api/v3/Mjwpayment.php
+msgid "Contribution ID"
+msgstr "Katkı kimliği"
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Total Payment Amount"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Fee Amount"
+msgstr "Ücret tutarı"
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Payment Processor for this payment"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Payment Date"
+msgstr "Ödeme tarihi"
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Send out notifications based on contribution status change?"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Payment Method (FK to payment_instrument option group values)"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Card Type ID (FK to accept_creditcard option group values)"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Transaction Result Code"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Transaction ID supplied by external processor. This may not be unique."
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Payment Processor external order reference"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Check Number"
+msgstr "Çek numarası"
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "PAN Truncation (Last 4 digits of credit card)"
+msgstr ""
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "Payment Processor Webhooks"
@@ -303,8 +360,12 @@ msgid "%count webhooks"
 msgstr "%count internet kancası"
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
-msgid "Event ID"
-msgstr "Etkinlik kimliği"
+msgid "Search identifier"
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
+msgid "Search raw data"
+msgstr ""
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "Previous page"
@@ -318,7 +379,7 @@ msgstr "Sonraki sayfa"
 msgid "Search / Reload"
 msgstr "Arama / Yeniden yükle"
 
-#: ang/mjwshared/PaymentprocessorWebhook.js
+#: ang/mjwshared/PaymentprocessorWebhook.js js/crm.payment.js
 msgid "mjwshared"
 msgstr "mjwshared"
 
@@ -384,10 +445,6 @@ msgstr "Güncellendi"
 msgid "Scheduled for retry"
 msgstr "Yeniden denenmek üzere zamanlandı"
 
-#: api/v3/Mjwpayment.php
-msgid "Contribution ID"
-msgstr "Katkı kimliği"
-
 #: api/v3/Mjwpayment.php templates/CRM/Mjwshared/Form/PaymentRefund.tpl
 msgid "Transaction ID"
 msgstr "Hesap hareketi kimliği"
@@ -409,7 +466,23 @@ msgstr "Lütfen indirim kodunu uygulayın ya da indirim kodu alanını boşaltı
 msgid "Please check and fill in all required fields!"
 msgstr "Lütfen tüm zorunlu alanları denetleyip doldurun!"
 
-#: mjwshared.php
+#: managed/ProcessPaymentprocessorWebhooks.mgd.php
+msgid "Process incomplete payment processor webhooks"
+msgstr ""
+
+#: managed/customdata.mgd.php
+msgid "Financial Transaction (Payment)"
+msgstr ""
+
+#: managed/customdata.mgd.php
+msgid "Payment details"
+msgstr "Ödeme ayrıntıları"
+
+#: managed/navigationmenu.mgd.php
+msgid "Payment Shared Settings"
+msgstr ""
+
+#: managed/navigationmenu.mgd.php
 msgid "Payment processor webhooks"
 msgstr "Ödeme aracısı internet kancaları"
 
@@ -424,6 +497,18 @@ msgid ""
 msgstr ""
 "Bu seçenek etkinleştirildiğinde, Payments üzerinde ödemeyi düzenle seçeneğinin yanında bir \"Geri öde\" seçeneği sunulur. Katkıları genişleterek ödemeleri bulabilirsiniz.\n"
 "    Ayrıntılı bilgi almak için <a href=\"%1\">Geri ödeme belgeleri</a> bölümüne bakabilirsiniz"
+
+#: settings/mjwshared.setting.php
+msgid "Disable the \"Record Refund\" link on edit contribution"
+msgstr ""
+
+#: settings/mjwshared.setting.php
+msgid ""
+"By default CiviCRM includes a \"Record Refund\" link on edit contribution. "
+"This can be confusing when our payment refund UI is enabled because the "
+"contribution \"Record Refund\" does not communicate with the payment "
+"processor."
+msgstr ""
 
 #: settings/mjwshared.setting.php
 msgid "Enable Javascript debugging?"
