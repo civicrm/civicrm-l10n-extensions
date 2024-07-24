@@ -280,11 +280,11 @@ msgstr "Image du filigrane"
 
 #: CRM/Cdntaxreceipts/Form/Settings.php
 msgid "Source Field Value"
-msgstr ""
+msgstr "Valeur du champ source"
 
 #: CRM/Cdntaxreceipts/Form/Settings.php
 msgid "Source Field Label (%1)"
-msgstr ""
+msgstr "Libellé du champ source (%1)"
 
 #: CRM/Cdntaxreceipts/Form/Settings.php
 msgid "Could not upload the file"
@@ -296,7 +296,7 @@ msgstr "Configurer les reçus en nature?"
 
 #: CRM/Cdntaxreceipts/Form/Settings.php
 msgid "In-kind Financial Type"
-msgstr ""
+msgstr "Type d'opération comptable pour les apports en nature"
 
 #: CRM/Cdntaxreceipts/Form/Settings.php
 msgid "Delivery Method"
@@ -377,7 +377,7 @@ msgstr "Le fichier a expiré. Récupérez le reçu à partir de l'archive Mail."
 msgid ""
 "No eligible contributions selected. E.g. In-kind must be receipted "
 "individually."
-msgstr ""
+msgstr "Aucune contribution éligible sélectionnée. Par exemple : un reçu pour apport en nature doit être généré individuellement (et pas en lot)."
 
 #: CRM/Cdntaxreceipts/Task/IssueAggregateTaxReceipts.php
 msgid "Issue Aggregate Tax Receipts"
@@ -444,7 +444,7 @@ msgstr "%1 reçus n'ont pas pu être générés."
 #: CRM/Cdntaxreceipts/Task/IssueAnnualTaxReceipts.php
 #: CRM/Cdntaxreceipts/Task/IssueSingleTaxReceipts.php
 msgid "Receipts-To-Print-%1"
-msgstr ""
+msgstr "Reçus-A-Imprimer-%1"
 
 #: CRM/Cdntaxreceipts/Task/IssueAnnualTaxReceipts.php cdntaxreceipts.php
 msgid "Issue Annual Tax Receipts"
@@ -466,7 +466,7 @@ msgstr "Générer les reçus fiscaux pour les %1 contributions. Les contribution
 
 #: CRM/Cdntaxreceipts/Upgrader.php
 msgid "Source: "
-msgstr ""
+msgstr "Source :"
 
 #: cdntaxreceipts.functions.inc
 msgid "Failed to acquire lock. No receipts were processed."
@@ -558,7 +558,7 @@ msgstr "L'adresse d'expéditeur n'est pas configurée. Merci de la saisir dans A
 msgid ""
 "The total for contribution id <a %1>%2</a> does not match the line items. "
 "Please correct the contribution first."
-msgstr ""
+msgstr "Le total pour la contribution (id  <a %1>%2</a>) ne correspond pas aux lignes (line items). Merci de corriger la contribution d'abord."
 
 #: cdntaxreceipts.php
 msgid "Tax Receipt"
@@ -574,7 +574,7 @@ msgstr "Générer les reçus fiscaux (combiné avec le total contribué)"
 
 #: cdntaxreceipts.php
 msgid "CiviCRM CDN Tax Receipts: Issue Tax Receipts"
-msgstr ""
+msgstr "CiviCRM CDN Tax Receipts : Générer les Reçus Fiscaux"
 
 #: cdntaxreceipts.php
 msgid ""
@@ -597,11 +597,11 @@ msgid ""
 "have changed and it can not be determined automatically. Please visit <a "
 "%1>the settings page</a> and select the financial type being used for In-"
 "kind."
-msgstr ""
+msgstr "Les reçus pour apports en nature semblent avoir été configurés, mais le type d'opération comptable peut avoir changé et il ne peut pas être déterminé automatiquement. Veuillez configurer <a %1>la page des paramètres</a>et sélectionner le type utilisé pour les apports en nature."
 
 #: cdntaxreceipts.php
 msgid "In-kind financial type is unknown"
-msgstr ""
+msgstr "Le type d'opération comptable est inconnu pour l'apport en nature"
 
 #: templates/CRM/Cdntaxreceipts/Form/ImageDelete.tpl
 msgid "Delete the <em>%1</em> file?"
@@ -661,13 +661,13 @@ msgstr "Téléchargez votre propre modèle PDF: .pdf"
 
 #: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
 msgid "Either replace with a token string or blank out to hide the field."
-msgstr ""
+msgstr "Remplacez par un token ou laisser le vide pour masquer le champ."
 
 #: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
 msgid ""
 "Label to use for the Source field. Include a space at the end to provide "
 "spacing between the label and the value."
-msgstr ""
+msgstr "Libellé à utiliser pour le champ Source. Incluez un espace à la fin pour fournir un espace entre l’étiquette et la valeur."
 
 #: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
 msgid "System Options"
@@ -677,27 +677,27 @@ msgstr "Options du système"
 msgid ""
 "Checking this box will set up the fields required to generate in-kind tax "
 "receipts."
-msgstr ""
+msgstr "Cocher cette case configurera les champs obligatoires pour générer des reçus fiscaux pour les apports en nature."
 
 #: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
 msgid ""
 "In-kind appears to have been previously enabled but the financial type for "
 "it may have changed. Please select the type you are using for In-kind."
-msgstr ""
+msgstr "Les apports en nature ont été préalablement activés mais leur type d'opération comptable a dû être modifié depuis. Veuillez sélectionner le type que vous utilisez aujourd'hui pour les apports en nature."
 
 #: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
 msgid "In-kind receipts:"
-msgstr ""
+msgstr "Reçus pour apports en nature :"
 
 #: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
 msgid "Configured"
-msgstr ""
+msgstr "Paramétré"
 
 #: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
 msgid ""
 "To disable in-kind receipts you will need to either disable the In-kind "
 "contribution type or make it non-deductible."
-msgstr ""
+msgstr "Pour désactiver les reçus pour les apports en nature, vous devrez soit désactiver le type de contribution \"apport en nature\", soit le rendre non déductible."
 
 #: templates/CRM/Cdntaxreceipts/Form/Settings.tpl
 msgid ""
@@ -930,7 +930,7 @@ msgstr "Un seul reçu officiel annuel peut être émis par donateur par année.\
 
 #: templates/CRM/Cdntaxreceipts/Task/IssueSingleTaxReceipts.tpl
 msgid "Tax Receipt Status"
-msgstr ""
+msgstr "Statut du reçu fiscal"
 
 #: templates/CRM/Cdntaxreceipts/Task/IssueSingleTaxReceipts.tpl
 msgid "Total"
