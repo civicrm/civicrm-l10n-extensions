@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = ca: ca_ES, sl: sl_SI, fr: fr_FR, bg: bg_BG, ja: ja_JP, nl: nl_NL, ro: ro_RO, sk: sk_SK, da: da_DK, lt: lt_LT, es: es_ES, he: he_IL, km: km_KH, id: id_ID, sv: sv_SE, af: af_ZA, hu: hu_HU, fi: fi_FI, hi: hi_IN, lv: lv_LV, ru: ru_RU, el: el_GR, et: et_EE, sq: sq_AL, it: it_IT, vi: vi_VN, cs: cs_CZ, de: de_DE, pl: pl_PL, tr: tr_TR, pt: pt_PT, nb: nb_NO
+lang_map = cs: cs_CZ, tr: tr_TR, km: km_KH, ru: ru_RU, da: da_DK, es: es_ES, el: el_GR, bg: bg_BG, hi: hi_IN, lv: lv_LV, pl: pl_PL, hu: hu_HU, ro: ro_RO, sk: sk_SK, af: af_ZA, fi: fi_FI, sq: sq_AL, sl: sl_SI, fr: fr_FR, de: de_DE, ca: ca_ES, nl: nl_NL, he: he_IL, et: et_EE, it: it_IT, pt: pt_PT, nb: nb_NO, ja: ja_JP, id: id_ID, sv: sv_SE, vi: vi_VN, lt: lt_LT
 
 [o:civicrm:p:civicrm_extensions:r:Civixero]
 file_filter = po/Civixero/<lang>/Civixero.po
@@ -573,6 +573,13 @@ source_lang = en
 file_filter = po/logviewer/<lang>/logviewer.po
 source_file = po/logviewer/pot/logviewer.pot
 source_lang = en
+
+[o:civicrm:p:civicrm_extensions:r:mailbatch]
+file_filter   = po/mailbatch/<lang>/mailbatch.po
+source_file   = po/mailbatch/pot/mailbatch.pot
+type          = POT
+minimum_perc  = 0
+resource_name = mailbatch
 
 [o:civicrm:p:civicrm_extensions:r:mailchimp]
 file_filter = po/mailchimp/<lang>/mailchimp.po
