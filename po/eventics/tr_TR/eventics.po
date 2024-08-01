@@ -3,13 +3,12 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Mathieu Lu <mathieu@bidon.ca>, 2023
 # Kaya Zeren <kayazeren@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: eventics\n"
-"POT-Creation-Date: 2023-01-29 05:02+0000\n"
+"POT-Creation-Date: 2024-08-01 05:02+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2023\n"
 "Language-Team: Turkish (https://app.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -58,6 +57,14 @@ msgstr "Etkinlik açıklaması"
 msgid "Details about the event"
 msgstr "Etkinlik hakkında bilgiler"
 
+#: CRM/Eventics/DAO/Eventics.php
+msgid "Event Timezone"
+msgstr ""
+
+#: CRM/Eventics/DAO/Eventics.php
+msgid "Override the event timezone"
+msgstr ""
+
 #: CRM/Eventics/Form/Eventics.php
 msgid "Attach a calendar invite?"
 msgstr "Takvim daveti dosyası eklensin mi?"
@@ -70,9 +77,9 @@ msgstr "Konum"
 msgid "Description"
 msgstr "Açıklama"
 
-#: CRM/Eventics/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "%1, %2 sürümüne güncelle"
+#: CRM/Eventics/Form/Eventics.php
+msgid "Timezone"
+msgstr ""
 
 #: eventics.php
 msgid "Send iCal"
@@ -90,6 +97,26 @@ msgstr "Etkinlik kayıtlarında varsayılan olarak iCal ek dosyaları gönderils
 msgid "Can be set per event as well."
 msgstr "Her etkinlik için ayrıca ayarlanabilir."
 
+#: settings/eventics.setting.php
+msgid "Include a Google Calendar Link for event registrations"
+msgstr ""
+
+#: settings/eventics.setting.php
+msgid ""
+"Provides a special Google Calendar Link for easier addition of events to "
+"Google calendars."
+msgstr ""
+
+#: settings/eventics.setting.php
+msgid "Include a Outlook Calendar Link for event registrations"
+msgstr ""
+
+#: settings/eventics.setting.php
+msgid ""
+"Provides a special Outlook Calendar Link for easier addition of events to "
+"Google calendars."
+msgstr ""
+
 #: templates/CRM/Eventics/Form/Eventics.tpl
 msgid "Physical location or link. If empty, Event Location is used."
 msgstr ""
@@ -98,3 +125,11 @@ msgstr ""
 #: templates/CRM/Eventics/Form/Eventics.tpl
 msgid "If empty, Event Summary is used."
 msgstr "Boş bırakılırsa, etkinlik özeti kullanılır."
+
+#: templates/CRM/Eventics/Form/Eventics.tpl
+msgid ""
+"Override the default site timezone. Must be a valid PHP timezone. For "
+"example: America/New_York, America/Los_Angeles, Europe/London, Europe/Paris,"
+" Europe/Kyiv, Australia/Sydney. See the <a %1>PHP documentation for the full"
+" list.</a>"
+msgstr ""
