@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: eventics\n"
-"POT-Creation-Date: 2023-01-29 05:02+0000\n"
+"POT-Creation-Date: 2024-08-01 05:02+0000\n"
 "Last-Translator: HanV <han.velthuis@kpnmail.nl>, 2023\n"
 "Language-Team: Dutch (https://app.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -57,6 +57,14 @@ msgstr "Beschrijving evenement"
 msgid "Details about the event"
 msgstr "Details van het evenement"
 
+#: CRM/Eventics/DAO/Eventics.php
+msgid "Event Timezone"
+msgstr ""
+
+#: CRM/Eventics/DAO/Eventics.php
+msgid "Override the event timezone"
+msgstr ""
+
 #: CRM/Eventics/Form/Eventics.php
 msgid "Attach a calendar invite?"
 msgstr "Een kalender uitnodiging toevoegen?"
@@ -69,9 +77,9 @@ msgstr "Locatie"
 msgid "Description"
 msgstr "Beschrijving"
 
-#: CRM/Eventics/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Upgrade %1 naar revisie %2"
+#: CRM/Eventics/Form/Eventics.php
+msgid "Timezone"
+msgstr ""
 
 #: eventics.php
 msgid "Send iCal"
@@ -89,6 +97,26 @@ msgstr "Standaard iCal-bijlagen verzenden bij registratie voor een evenement"
 msgid "Can be set per event as well."
 msgstr "Kan ook per evenement worden ingesteld."
 
+#: settings/eventics.setting.php
+msgid "Include a Google Calendar Link for event registrations"
+msgstr ""
+
+#: settings/eventics.setting.php
+msgid ""
+"Provides a special Google Calendar Link for easier addition of events to "
+"Google calendars."
+msgstr ""
+
+#: settings/eventics.setting.php
+msgid "Include a Outlook Calendar Link for event registrations"
+msgstr ""
+
+#: settings/eventics.setting.php
+msgid ""
+"Provides a special Outlook Calendar Link for easier addition of events to "
+"Google calendars."
+msgstr ""
+
 #: templates/CRM/Eventics/Form/Eventics.tpl
 msgid "Physical location or link. If empty, Event Location is used."
 msgstr ""
@@ -98,3 +126,11 @@ msgstr ""
 #: templates/CRM/Eventics/Form/Eventics.tpl
 msgid "If empty, Event Summary is used."
 msgstr "Indien leeg, de samenvatting van het evenement wordt gebruikt."
+
+#: templates/CRM/Eventics/Form/Eventics.tpl
+msgid ""
+"Override the default site timezone. Must be a valid PHP timezone. For "
+"example: America/New_York, America/Los_Angeles, Europe/London, Europe/Paris,"
+" Europe/Kyiv, Australia/Sydney. See the <a %1>PHP documentation for the full"
+" list.</a>"
+msgstr ""
