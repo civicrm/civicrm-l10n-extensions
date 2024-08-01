@@ -3,14 +3,14 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Usha Matisson <matisson@makoa.fr>, 2023
+# Usha Matisson, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: eventics\n"
-"POT-Creation-Date: 2023-01-29 05:02+0000\n"
-"Last-Translator: Usha Matisson <matisson@makoa.fr>, 2023\n"
-"Language-Team: French (Canada) (https://www.transifex.com/civicrm/teams/1905/fr_CA/)\n"
+"POT-Creation-Date: 2024-08-01 05:02+0000\n"
+"Last-Translator: Usha Matisson, 2023\n"
+"Language-Team: French (Canada) (https://app.transifex.com/civicrm/teams/1905/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -57,6 +57,14 @@ msgstr "Description"
 msgid "Details about the event"
 msgstr "Détails à propos de l'événement"
 
+#: CRM/Eventics/DAO/Eventics.php
+msgid "Event Timezone"
+msgstr ""
+
+#: CRM/Eventics/DAO/Eventics.php
+msgid "Override the event timezone"
+msgstr ""
+
 #: CRM/Eventics/Form/Eventics.php
 msgid "Attach a calendar invite?"
 msgstr "Joindre une invitation (agenda)"
@@ -69,9 +77,9 @@ msgstr "Emplacement"
 msgid "Description"
 msgstr "Description"
 
-#: CRM/Eventics/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Mise à jour de %1 à la révision %2"
+#: CRM/Eventics/Form/Eventics.php
+msgid "Timezone"
+msgstr ""
 
 #: eventics.php
 msgid "Send iCal"
@@ -89,6 +97,26 @@ msgstr "Envoyer par défaut un iCal pour les inscriptions aux événements"
 msgid "Can be set per event as well."
 msgstr "Peut aussi être configuré par événement"
 
+#: settings/eventics.setting.php
+msgid "Include a Google Calendar Link for event registrations"
+msgstr ""
+
+#: settings/eventics.setting.php
+msgid ""
+"Provides a special Google Calendar Link for easier addition of events to "
+"Google calendars."
+msgstr ""
+
+#: settings/eventics.setting.php
+msgid "Include a Outlook Calendar Link for event registrations"
+msgstr ""
+
+#: settings/eventics.setting.php
+msgid ""
+"Provides a special Outlook Calendar Link for easier addition of events to "
+"Google calendars."
+msgstr ""
+
 #: templates/CRM/Eventics/Form/Eventics.tpl
 msgid "Physical location or link. If empty, Event Location is used."
 msgstr "Lieu ou lien. Si vide, le lieu de l'événement est utilisé."
@@ -96,3 +124,11 @@ msgstr "Lieu ou lien. Si vide, le lieu de l'événement est utilisé."
 #: templates/CRM/Eventics/Form/Eventics.tpl
 msgid "If empty, Event Summary is used."
 msgstr "Si vide, le résumé de l'événement est utilisé."
+
+#: templates/CRM/Eventics/Form/Eventics.tpl
+msgid ""
+"Override the default site timezone. Must be a valid PHP timezone. For "
+"example: America/New_York, America/Los_Angeles, Europe/London, Europe/Paris,"
+" Europe/Kyiv, Australia/Sydney. See the <a %1>PHP documentation for the full"
+" list.</a>"
+msgstr ""
