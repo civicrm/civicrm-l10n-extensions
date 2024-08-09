@@ -6,15 +6,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2021-11-24 05:03+0000\n"
-"PO-Revision-Date: 2022-02-24 12:39+0000\n"
-"Last-Translator: Usha Matisson <matisson@makoa.fr>\n"
-"Language-Team: French (Canada) (http://www.transifex.com/civicrm/civicrm_extensions/language/fr_CA/)\n"
+"POT-Creation-Date: 2024-04-21 05:01+0000\n"
+"PO-Revision-Date: 2015-03-17 05:36+0000\n"
+"Language-Team: French (Canada) (http://app.transifex.com/civicrm/civicrm_extensions/language/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_CA\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: CRM/CiviExportExcel/Form/ExportExcelSettings.php
 msgid "- select -"
@@ -49,6 +48,14 @@ msgstr "Statistiques"
 msgid "CiviCRM export"
 msgstr "Exportation CiviCRM"
 
+#: Civi/ExportExcel/CompilerPass.php
+msgid "Excel (.xlsx)"
+msgstr "Excel (.xlsx)"
+
+#: Civi/ExportExcel/CompilerPass.php
+msgid "Excel (.xlsx) export"
+msgstr "Export Excel (.xlsx)"
+
 #: Civi/Report/Civiexportexcel/Excel2007.php
 msgid "See attached."
 msgstr "Voir en piece jointe."
@@ -60,6 +67,10 @@ msgstr "Exporter vers Excel"
 #: civiexportexcel.php
 msgid "Preview Excel"
 msgstr "Prévisualiser dans Excel"
+
+#: civiexportexcel.php
+msgid "Contact - Export to Excel"
+msgstr "Contact - exporter un fichier excel"
 
 #: settings/civiexportexcel.setting.php
 msgid "Show the report title"
