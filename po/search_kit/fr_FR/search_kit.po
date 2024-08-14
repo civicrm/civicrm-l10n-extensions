@@ -11,46 +11,46 @@
 # H. Bond <bonduaeux.h@gmail.com>, 2022
 # Mathieu Lu <mathieu@bidon.ca>, 2022
 # Guillaume Sorel <serviceclient@all-in-appli.com>, 2023
-# Usha Matisson, 2023
+# Usha Matisson, 2024
 # 
 msgid ""
 msgstr ""
-"Last-Translator: Usha Matisson, 2023\n"
+"Last-Translator: Usha Matisson, 2024\n"
 "Language-Team: French (https://app.transifex.com/civicrm/teams/1905/fr/)\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ./CRM/Search/DAO/SearchDisplay.php
 msgid "Search Displays"
-msgstr "Affichages de recherche"
+msgstr "Affichages"
 
 #: ./CRM/Search/DAO/SearchDisplay.php
 msgid "Search Display"
-msgstr "Affichage de recherche"
+msgstr "Affichage"
 
 #: ./CRM/Search/DAO/SearchDisplay.php
 msgid "Search Display ID"
-msgstr "Id. de l'affichage de recherche"
+msgstr "Id. de l'affichage"
 
 #: ./CRM/Search/DAO/SearchDisplay.php
 msgid "Unique SearchDisplay ID"
-msgstr "Id. de l'affichage de recherche unique"
+msgstr "Id. unique de l'affichage"
 
 #: ./CRM/Search/DAO/SearchDisplay.php
 msgid "Search Display Name"
-msgstr "Nom de l'affichage de recherche"
-
-#: ./CRM/Search/DAO/SearchDisplay.php
-msgid "Unique name for identifying search display"
-msgstr "Nom unique pour identifier l'affichage de recherche"
-
-#: ./CRM/Search/DAO/SearchDisplay.php
-msgid "Search Display Label"
 msgstr "Nom de l'affichage"
 
 #: ./CRM/Search/DAO/SearchDisplay.php
+msgid "Unique name for identifying search display"
+msgstr "Nom unique de l'affichage"
+
+#: ./CRM/Search/DAO/SearchDisplay.php
+msgid "Search Display Label"
+msgstr "Titre de l'affichage"
+
+#: ./CRM/Search/DAO/SearchDisplay.php
 msgid "Label for identifying search display to administrators"
-msgstr "Noms pour les administrateurs pour identifier l'affichage"
+msgstr "Titre (admin) de l'affichage"
 
 #: ./CRM/Search/DAO/SearchDisplay.php
 msgid "Saved Search ID"
@@ -58,11 +58,11 @@ msgstr "Id. de la recherche"
 
 #: ./CRM/Search/DAO/SearchDisplay.php
 msgid "FK to saved search table."
-msgstr "Clé étrangère vers la table des recherches."
+msgstr "Clé étrangère vers la table de la recherche"
 
 #: ./CRM/Search/DAO/SearchDisplay.php ./managed/SearchDisplayType.mgd.php
 msgid "Search Display Type"
-msgstr "Type d'affichage de recherche"
+msgstr "Type d'affichage"
 
 #: ./CRM/Search/DAO/SearchDisplay.php
 msgid "Type of display"
@@ -70,11 +70,11 @@ msgstr "Type d'affichage"
 
 #: ./CRM/Search/DAO/SearchDisplay.php
 msgid "Search Display Settings"
-msgstr "Paramètres de l'affichage de recherche"
+msgstr "Paramètres de l'affichage"
 
 #: ./CRM/Search/DAO/SearchDisplay.php
 msgid "Configuration data for the search display"
-msgstr "Données de configuration pour l'affichage de recherche"
+msgstr "Données de configuration de l'affichage"
 
 #: ./CRM/Search/DAO/SearchDisplay.php
 msgid "Bypass ACL Permissions"
@@ -98,7 +98,7 @@ msgstr "Id. du segment de recherche"
 
 #: ./CRM/Search/DAO/SearchSegment.php
 msgid "Unique SearchSegment ID"
-msgstr "Id. unique de segment de recherche"
+msgstr "Id. unique du segment de recherche"
 
 #: ./CRM/Search/DAO/SearchSegment.php
 msgid "Search Segment Name"
@@ -115,15 +115,14 @@ msgstr "Nom unique"
 #: ./ang/crmSearchAdmin/searchSegment/crmSearchAdminSegment.html
 #: ./ang/crmSearchAdmin/searchSegmentListing/crmSearchAdminSegmentListing.component.js
 msgid "Label"
-msgstr "Libellé"
+msgstr "Titre"
 
 #: ./CRM/Search/DAO/SearchSegment.php
 msgid ""
 "Label for identifying search segment (will appear as name of calculated "
 "field)"
 msgstr ""
-"Libellé pour identifier le segment de recherche (apparaîtra comme nom du "
-"champ calculé)"
+"Titre du segment de recherche (apparaîtra comme libellé du champ calculé)"
 
 #: ./CRM/Search/DAO/SearchSegment.php
 #: ./ang/crmSearchAdmin/searchSegment/crmSearchAdminSegment.html
@@ -135,8 +134,8 @@ msgstr "Description"
 msgid ""
 "Description will appear when selecting SearchSegment in the fields dropdown."
 msgstr ""
-"La description apparaîtra lors de la sélection du segment de recherche dans "
-"le menu déroulant."
+"La description apparait à la sélection du segment de recherche dans le menu "
+"déroulant."
 
 #: ./CRM/Search/DAO/SearchSegment.php ./ang/crmSearchAdmin/compose.html
 #: ./ang/crmSearchAdmin/searchSegment/crmSearchAdminSegment.html
@@ -145,7 +144,7 @@ msgstr "Entité"
 
 #: ./CRM/Search/DAO/SearchSegment.php
 msgid "Entity for which this set is used."
-msgstr "Entité pour laquelle cet ensemble est utilisé."
+msgstr "Entité concernée par ce segment."
 
 #: ./CRM/Search/DAO/SearchSegment.php
 #: ./ang/crmSearchAdmin/searchSegment/crmSearchAdminSegment.html
@@ -155,7 +154,7 @@ msgstr "Éléments"
 
 #: ./CRM/Search/DAO/SearchSegment.php
 msgid "All items in set"
-msgstr "Tous les éléments de l'ensemble"
+msgstr "Tous les éléments du segment"
 
 #: ./CRM/Search/Page/Admin.php ./CRM/Search/Page/Search.php
 #: ./managed/Navigation_search_kit.mgd.php
@@ -180,7 +179,7 @@ msgstr "Numéro de la ligne"
 
 #: ./Civi/Api4/Action/SearchDisplay/AbstractRunAction.php
 msgid "Index of each row, starting from 1 on the first page"
-msgstr "Index de chaque ligne, à partir de 1 sur la première page"
+msgstr "Index de chaque ligne, débute à 1 (sur la première page)"
 
 #: ./Civi/Api4/Action/SearchDisplay/AbstractRunAction.php
 msgid "Current User ID"
@@ -188,11 +187,11 @@ msgstr "Id. de l'utilisateur actuel"
 
 #: ./Civi/Api4/Action/SearchDisplay/AbstractRunAction.php
 msgid "Contact ID of the current user if logged in"
-msgstr "Id. de l'utilisateur actuel s'il est connecté"
+msgstr "Id. de l'utilisateur actuel (s'il est connecté)"
 
 #: ./Civi/Api4/Action/SearchDisplay/AbstractRunAction.php
 msgid "Current Date"
-msgstr "Date actuelle"
+msgstr "Date du jour"
 
 #: ./Civi/Api4/Action/SearchDisplay/AbstractRunAction.php
 msgid "System date at the moment the search is run"
@@ -234,7 +233,7 @@ msgstr "Activation de %1 %2..."
 
 #: ./Civi/Api4/Action/SearchDisplay/GetSearchTasks.php
 msgid "Successfully enabled %1 %2."
-msgstr "Activation réussie %1 %2."
+msgstr "Activation réussie de %1 %2."
 
 #: ./Civi/Api4/Action/SearchDisplay/GetSearchTasks.php
 msgid "An error occurred while attempting to enable %1 %2."
@@ -250,7 +249,7 @@ msgstr "Êtes-vous sûr que vous voulez désactiver %1 %2 ?"
 
 #: ./Civi/Api4/Action/SearchDisplay/GetSearchTasks.php
 msgid "Disabling %1 %2..."
-msgstr "Désactivation %1 %2..."
+msgstr "Désactivation de %1 %2..."
 
 #: ./Civi/Api4/Action/SearchDisplay/GetSearchTasks.php
 msgid "Successfully disabled %1 %2."
@@ -289,7 +288,7 @@ msgstr "Une erreur est apparue lors de la tentative de suppression de %1 %2."
 
 #: ./Civi/Api4/Action/SearchDisplay/GetSearchTasks.php
 msgid "Profile Update"
-msgstr "Mise à jour via un profil"
+msgstr "Mettre à jour via un profil"
 
 #: ./Civi/Api4/Action/SearchDisplay/GetSearchTasks.php
 msgid "Dedupe - Merge 2 Contacts"
@@ -313,19 +312,19 @@ msgstr "N'est pas l'un de"
 
 #: ./Civi/Search/Admin.php
 msgid "Is Like"
-msgstr "Est comme"
+msgstr "Est comme (like)"
 
 #: ./Civi/Search/Admin.php
 msgid "Not Like"
-msgstr "N'est pas comme"
+msgstr "N'est pas comme (not like)"
 
 #: ./Civi/Search/Admin.php
 msgid "Matches Pattern"
-msgstr "Correspond au modèle"
+msgstr "Correspond au modèle (pattern)"
 
 #: ./Civi/Search/Admin.php
 msgid "Doesn't Match Pattern"
-msgstr "Ne correspond pas au modèle"
+msgstr "Ne correspond pas au modèle (pattern)"
 
 #: ./Civi/Search/Admin.php
 msgid "Is Between"
@@ -442,7 +441,7 @@ msgstr "Ayant (having)"
 #: ./ang/crmSearchAdmin/compose.html
 #: ./ang/crmSearchAdmin/searchListing/buttons.html
 msgid "View search results table"
-msgstr "Voir la table des résultats de recherche"
+msgstr "Voir le tableau des résultats par défaut"
 
 #: ./ang/crmSearchAdmin/compose.html
 #: ./ang/crmSearchAdmin/searchListing/buttons.html
@@ -451,7 +450,7 @@ msgstr "Voir les résultats"
 
 #: ./ang/crmSearchAdmin/compose.html
 msgid "Search results table"
-msgstr "Table des résultats de recherche"
+msgstr "Tableau des résultats par défaut"
 
 #: ./ang/crmSearchAdmin/compose.html
 #: ./ang/crmSearchAdmin/searchListing/displays.html
@@ -461,7 +460,7 @@ msgstr "Les autorisations sont désactivées pour cet affichage"
 #: ./ang/crmSearchAdmin/compose.html
 #: ./ang/crmSearchAdmin/searchListing/displays.html
 msgid "View display"
-msgstr "Affichage"
+msgstr "Voir l'affichage"
 
 #: ./ang/crmSearchAdmin/compose.html
 msgid "Field Transformations"
@@ -539,11 +538,11 @@ msgstr "Affichage embarqué"
 
 #: ./ang/crmSearchAdmin/crmSearchAdmin.component.js
 msgid " (copy)"
-msgstr " (copie)"
+msgstr "(copie)"
 
 #: ./ang/crmSearchAdmin/crmSearchAdmin.component.js
 msgid "Search Label"
-msgstr "Libellé de recherche"
+msgstr "Titre de la recherche"
 
 #: ./ang/crmSearchAdmin/crmSearchAdmin.component.js
 msgid "%1 is a required field."
@@ -556,7 +555,7 @@ msgstr "Titre du groupe"
 
 #: ./ang/crmSearchAdmin/crmSearchAdmin.component.js
 msgid "Display Label"
-msgstr "Libellé de l'affichage"
+msgstr "Titre de l'affichage"
 
 #: ./ang/crmSearchAdmin/crmSearchAdmin.component.js
 msgid "Error Saving"
@@ -606,7 +605,7 @@ msgstr "Formulaires..."
 #: ./ang/crmSearchAdmin/crmSearchAdmin.html
 #: ./ang/crmSearchAdmin/searchListing/afforms.html
 msgid "Create form for search results table"
-msgstr "Créer un formulaire pour la table des résultats de recherche"
+msgstr "Créer un formulaire pour le tableau des résultats par défaut"
 
 #: ./ang/crmSearchAdmin/crmSearchAdmin.html
 #: ./ang/crmSearchAdmin/searchListing/afforms.html
@@ -648,7 +647,7 @@ msgid ""
 "checks."
 msgstr ""
 "Seuls les utilisateurs avec les toutes les \"autorisations CiviCRM et ACLs\""
-" peuvent désactiver le contrôles d'autorisation."
+" peuvent désactiver les contrôles d'autorisations."
 
 #: ./ang/crmSearchAdmin/crmSearchAdminDisplay.component.js
 msgid "Links"
@@ -716,8 +715,8 @@ msgid ""
 "Anyone who can view this display will be able to see all results, regardless"
 " of their permission level."
 msgstr ""
-"Celui qui pourra voir cet affichage pourra voir tous les résultats, "
-"indépendamment de son niveau d'autorisation."
+"Tous ceux qui sont autorisés à visualiser cet affichage pourront voir tous "
+"les résultats, quelles que soient les autorisations de l'utilisateur."
 
 #: ./ang/crmSearchAdmin/crmSearchAdminDisplayHeader.html
 msgid "Description (shown above)"
@@ -725,7 +724,7 @@ msgstr "Description (affichée au dessus)"
 
 #: ./ang/crmSearchAdmin/crmSearchAdminDisplayHeader.html
 msgid "View search display on its own page"
-msgstr "Voir l'affichage de recherche dans sa page propre"
+msgstr "Voir l'affichage dans une page dédiée"
 
 #: ./ang/crmSearchAdmin/crmSearchAdminDisplayHeader.html
 msgid "View Display"
@@ -827,12 +826,12 @@ msgstr "Impossible de créer %1 %2 car il en existe déjà un avec le même nom.
 #: ./ang/crmSearchAdmin/crmSearchAdminImport.component.js
 msgid "To update existing records, include \"match\" in the API params."
 msgstr ""
-"Pour mettre à jour les contacts existants inclure \"faire correspondre\" "
-"dans les paramètres de l'API."
+"Pour mettre à jour les contacts existants inclure \"match\" dans les "
+"paramètres de l'API."
 
 #: ./ang/crmSearchAdmin/crmSearchAdminImport.component.js
 msgid "%1 existing %2 will be updated."
-msgstr "%1 existant %2 sera mise à jour."
+msgstr "%1 %2 existant sera mise à jour."
 
 #: ./ang/crmSearchAdmin/crmSearchAdminImport.component.js
 msgid "%1 new %2 will be created."
@@ -853,8 +852,8 @@ msgstr "Erreur de traitement :"
 #: ./ang/crmSearchAdmin/crmSearchAdminImport.html
 msgid "Search configuration copied from the \"Export\" action can be pasted here."
 msgstr ""
-"Configuration de recherche copiée depuis l'action \"Exporter\" peut être "
-"collée ici."
+"Ici vous pouvez coller la configuration de recherche que vous avez copiée "
+"depuis l'action \"Exporter\"."
 
 #: ./ang/crmSearchAdmin/crmSearchAdminImport.html
 msgid "Checking input..."
@@ -862,7 +861,7 @@ msgstr "Vérification de l'entrée..."
 
 #: ./ang/crmSearchAdmin/crmSearchAdminImport.html
 msgid "Importing Saved Search..."
-msgstr "Importation de la recherche..."
+msgstr "Importation de la recherche en cours..."
 
 #: ./ang/crmSearchAdmin/crmSearchAdminImport.html
 #: ./ang/crmSearchAdmin/searchListing/searchList.html
@@ -1120,11 +1119,13 @@ msgstr "Réecrire le texte"
 
 #: ./ang/crmSearchAdmin/displays/colType/field.html
 msgid "Users will be able to click to edit this field."
-msgstr "Les utilisateurs auront le droit de cliquer pour modifier ce champ."
+msgstr ""
+"Les utilisateurs auront le droit de cliquer pour modifier ce champ sans "
+"sortir de l'affichage en cours."
 
 #: ./ang/crmSearchAdmin/displays/colType/field.html
 msgid "In-Place Edit"
-msgstr "Modifier directement"
+msgstr "Modifier sur place"
 
 #: ./ang/crmSearchAdmin/displays/colType/field.html
 msgid "Read-only or rewritten fields cannot be editable."
@@ -1152,7 +1153,7 @@ msgstr "Texte alternatif"
 
 #: ./ang/crmSearchAdmin/displays/colType/image.html
 msgid "Image to display if the field contents are empty."
-msgstr "Image à afficher si les contenu de champ sont vides."
+msgstr "Image à afficher si les contenus de champ sont vides."
 
 #: ./ang/crmSearchAdmin/displays/colType/image.html
 msgid "Alternate image"
@@ -1160,7 +1161,7 @@ msgstr "Image alternative"
 
 #: ./ang/crmSearchAdmin/displays/colType/image.html
 msgid "Specify url path to this image."
-msgstr "Spécifier le chemin URL vers cette image."
+msgstr "Indique l'URL vers cette image."
 
 #: ./ang/crmSearchAdmin/displays/colType/image.html
 msgid "Custom image url"
@@ -1168,7 +1169,7 @@ msgstr "URL de l'image personnalisée"
 
 #: ./ang/crmSearchAdmin/displays/colType/include.html
 msgid "Template File"
-msgstr "Fichier de modèle"
+msgstr "Fichier modèle"
 
 #: ./ang/crmSearchAdmin/displays/colType/include.html
 msgid "Relative path to the custom template, e.g. \"~/myModule/myTemplate.html\""
@@ -1259,7 +1260,7 @@ msgstr "Ajouter icône(s) à cette colonne"
 
 #: ./ang/crmSearchAdmin/displays/common/searchAdminPagerConfig.html
 msgid "Use Pager"
-msgstr "Utiliser un compteur de pages"
+msgstr "Utiliser une navigation par pages"
 
 #: ./ang/crmSearchAdmin/displays/common/searchAdminPagerConfig.html
 msgid "Limit Results"
@@ -1268,7 +1269,7 @@ msgstr "Limiter les résultats"
 #: ./ang/crmSearchAdmin/displays/common/searchAdminPagerConfig.html
 #: ./ang/crmSearchDisplay/Pager.html
 msgid "Page Size"
-msgstr "Taille de la page"
+msgstr "Nombre de résultats par page"
 
 #: ./ang/crmSearchAdmin/displays/common/searchAdminPagerConfig.html
 msgid "Show Count in Pager"
@@ -1276,7 +1277,7 @@ msgstr "Afficher le total dans la pagination"
 
 #: ./ang/crmSearchAdmin/displays/common/searchAdminPagerConfig.html
 msgid "Adjustable Page Size"
-msgstr "Taille de page ajustable"
+msgstr "Nombre de résultats par page ajustable"
 
 #: ./ang/crmSearchAdmin/displays/common/searchAdminPlaceholderConfig.html
 msgid "Show wireframe placeholder results while waiting for data"
@@ -1296,7 +1297,7 @@ msgstr ""
 
 #: ./ang/crmSearchAdmin/displays/common/searchButtonConfig.html
 msgid "Auto-Run"
-msgstr "Exécution automatique"
+msgstr "Recherche lancée automatiquement"
 
 #: ./ang/crmSearchAdmin/displays/common/searchButtonConfig.html
 #: ./ang/crmSearchAdmin/resultsTable/crmSearchAdminResultsTable.component.js
@@ -1313,7 +1314,7 @@ msgstr "Texte du bouton de recherche"
 
 #: ./ang/crmSearchAdmin/displays/common/searchButtonConfig.html
 msgid "Show Count in Header"
-msgstr "Afficher le total dans l'en-tête"
+msgstr "Afficher le nombre de résultats dans l'en-tête"
 
 #: ./ang/crmSearchAdmin/displays/common/searchButtonConfig.html
 msgid "Display a button for creating a new record"
@@ -1393,8 +1394,8 @@ msgstr "5 x 5"
 #: ./ang/crmSearchAdmin/displays/searchAdminDisplayList.html
 msgid "Should this item display on its own line or inline with other items?"
 msgstr ""
-"Est-ce que cet item doit s'afficher sur sa propre ligne ou être intégré avec"
-" d'autres items ?"
+"Est-ce que cet élément doit s'afficher sur sa propre ligne ou être intégré "
+"sur une seule ligne avec d'autres éléments ?"
 
 #: ./ang/crmSearchAdmin/displays/searchAdminDisplayGrid.html
 #: ./ang/crmSearchAdmin/displays/searchAdminDisplayList.html
@@ -1538,7 +1539,7 @@ msgid ""
 "Unable to create smart group because this search does not include any "
 "contacts."
 msgstr ""
-"Impossible de créer un groupe dynamique car cette recherche n'inclut aucun "
+"Impossible de créer un groupe dynamique car cette requête n'inclut aucun "
 "contact."
 
 #: ./ang/crmSearchAdmin/group.html
@@ -1577,7 +1578,7 @@ msgstr "Modifier"
 
 #: ./ang/crmSearchAdmin/searchListing/buttons.html
 msgid "Create a new search based on this one"
-msgstr "Créer une nouvelle recherche basée sur celle-ci"
+msgstr "Créer une nouvelle requête basée sur celle-ci"
 
 #: ./ang/crmSearchAdmin/searchListing/buttons.html
 msgid "Clone..."
@@ -1593,8 +1594,7 @@ msgstr "Exporter..."
 
 #: ./ang/crmSearchAdmin/searchListing/buttons.html
 msgid "Delete search along with any displays and forms"
-msgstr ""
-"Supprimer la recherche ainsi que les affichages et les formulaires liés"
+msgstr "Supprimer la requête ainsi que les affichages et les formulaires liés"
 
 #: ./ang/crmSearchAdmin/searchListing/buttons.html
 msgid "Delete..."
@@ -1602,7 +1602,9 @@ msgstr "Supprimer..."
 
 #: ./ang/crmSearchAdmin/searchListing/buttons.html
 msgid "Revert search to its packaged state"
-msgstr "Rétablir la recherche telle que dans l'extension"
+msgstr ""
+"Réinitialiser la recherche (telle qu'elle est dans l'extension - sans vos "
+"modifications)"
 
 #: ./ang/crmSearchAdmin/searchListing/buttons.html
 msgid "Revert..."
@@ -1614,7 +1616,7 @@ msgid ""
 "your first search."
 msgstr ""
 "Bienvenue sur Search Kit. Cliquer sur le bouton Nouvelle recherche pour "
-"créer votre première recherche."
+"créer votre première requête."
 
 #: ./ang/crmSearchAdmin/searchListing/crmSearchAdminSearchListing.component.js
 msgid "No Saved Searches match filter criteria."
@@ -1623,8 +1625,8 @@ msgstr "Aucune recherche ne correspond aux critères."
 #: ./ang/crmSearchAdmin/searchListing/crmSearchAdminSearchListing.component.js
 msgid "Revert this search to its packaged settings?"
 msgstr ""
-"Rétablir cette recherche telle qu'elle était à l'installation de l'extension"
-" ?"
+"Réinitialiser cette recherche telle qu'elle était à l'installation de "
+"l'extension ?"
 
 #: ./ang/crmSearchAdmin/searchListing/crmSearchAdminSearchListing.component.js
 msgid "Permanently delete this saved search?"
@@ -1642,7 +1644,7 @@ msgstr "Inclut %1 affichages qui vont aussi être rétablis."
 msgid "Smart group \"%1\" will be reset to the packaged search criteria."
 msgstr ""
 "Le groupe dynamique \"%1\" sera réinitialisé selon les critères de la "
-"recherche empaquetée."
+"requête empaquetée."
 
 #: ./ang/crmSearchAdmin/searchListing/crmSearchAdminSearchListing.component.js
 msgid ""
@@ -1695,7 +1697,7 @@ msgstr "Recherche rétablie"
 
 #: ./ang/crmSearchAdmin/searchListing/crmSearchAdminSearchListing.component.js
 msgid "Edit Label"
-msgstr "Modifier le libellé"
+msgstr "Modifier le titre"
 
 #: ./ang/crmSearchAdmin/searchListing/crmSearchAdminSearchListing.component.js
 msgid "Edit Description"
@@ -1747,7 +1749,7 @@ msgstr "Recherches enregistrées"
 
 #: ./ang/crmSearchAdmin/searchListing/searchList.html
 msgid "Data Segmentation"
-msgstr "Segmentation des données"
+msgstr "Segments de données"
 
 #: ./ang/crmSearchAdmin/searchListing/searchList.html
 msgid "New Search"
@@ -1755,7 +1757,7 @@ msgstr "Nouvelle recherche"
 
 #: ./ang/crmSearchAdmin/searchListing/searchList.html
 msgid "Choose other entities on the search screen"
-msgstr "Choisir d'autres entités sur l'écran de recherche"
+msgstr "Choisir d'autres entités sur l'onglet de la requête"
 
 #: ./ang/crmSearchAdmin/searchListing/searchList.html
 #: ./ang/crmSearchAdmin.module.js
@@ -1768,7 +1770,7 @@ msgstr "Nouveau segment de données"
 
 #: ./ang/crmSearchAdmin/searchListing/searchList.html
 msgid "Filter by label..."
-msgstr "Filtrer par libellé..."
+msgstr "Filtrer par titre..."
 
 #: ./ang/crmSearchAdmin/searchListing/searchList.html
 msgid "Filter by author..."
@@ -1801,7 +1803,7 @@ msgstr "Conditions"
 
 #: ./ang/crmSearchAdmin/searchSegment/crmSearchAdminSegment.html
 msgid "Default Item"
-msgstr "Item par défaut"
+msgstr "Elément par défaut"
 
 #: ./ang/crmSearchAdmin/searchSegment/crmSearchAdminSegment.html
 msgid "Add Item"
@@ -1826,7 +1828,7 @@ msgstr "Description (affichée au dessus de l'affichage par défaut)"
 
 #: ./ang/crmSearchAdmin/tabs.html
 msgid "Compose Search"
-msgstr "Composer la recherche"
+msgstr "Modifier la requête"
 
 #: ./ang/crmSearchAdmin/tabs.html
 msgid "Group will be deleted."
@@ -1846,7 +1848,7 @@ msgstr "Dupliquer l'affichage"
 
 #: ./ang/crmSearchAdmin/tabs.html
 msgid "Smart group of contacts based on search results"
-msgstr "Groupe dynamique des contacts basé sur les résultats de la recherche"
+msgstr "Groupe dynamique des contacts basé sur les résultats de la requête"
 
 #: ./ang/crmSearchAdmin/tabs.html
 msgid "Display"
@@ -1854,7 +1856,7 @@ msgstr "Affichage"
 
 #: ./ang/crmSearchAdmin.module.js
 msgid "Custom Searches"
-msgstr "Recherches personnalisées"
+msgstr "Mes recherches personnalisées"
 
 #: ./ang/crmSearchAdmin.module.js
 msgid "Packaged Searches"
@@ -2251,9 +2253,9 @@ msgid ""
 " types. Creating a display is optional and allows customization of how each "
 "result appears in the dropdown."
 msgstr ""
-"Dans vos formulaires, les champs \"Autocompletes\" permettent d'afficher les"
-" résultats de cette recherche à la volée. Créer un affichage est facultatif,"
-" cela permet de choisir comment précisément chaque résultat apparaitra dans "
+"Dans vos formulaires, les champs \"Autocomplete\" permettent d'afficher les "
+"résultats de cette requête à la volée. Créer un affichage est facultatif, "
+"cela permet de choisir comment précisément chaque résultat apparaitra dans "
 "la liste (dropdown)."
 
 #: ./search_kit.php
@@ -2266,5 +2268,4 @@ msgid ""
 "delete searches and displays"
 msgstr ""
 "Donne accès à l'interface de SearchKit aux utilisateurs qui ne sont pas "
-"Admin pour créer, mettre à jour et supprimer des recherches et des "
-"affichages"
+"Admin pour créer, mettre à jour et supprimer des requêtes et des affichages"
