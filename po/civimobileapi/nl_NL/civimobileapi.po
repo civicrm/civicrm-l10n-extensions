@@ -4,14 +4,14 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Betty Dolfing <betty.dolfing@civicoop.org>, 2021
-# brouwser <brouwer@ee-atwork.nl>, 2023
 # HanV <han.velthuis@kpnmail.nl>, 2024
+# brouwser <brouwer@ee-atwork.nl>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
-"POT-Creation-Date: 2024-06-21 05:01+0000\n"
-"Last-Translator: HanV <han.velthuis@kpnmail.nl>, 2024\n"
+"POT-Creation-Date: 2024-08-20 05:01+0000\n"
+"Last-Translator: brouwser <brouwer@ee-atwork.nl>, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -264,14 +264,14 @@ msgstr "Publieke Key"
 
 #: CRM/CiviMobileAPI/DAO/EventSession.php CRM/CiviMobileAPI/Form/Session.php
 #: CRM/CiviMobileAPI/Form/Venue.php api/v3/CiviMobileEventSession.php
-#: api/v3/CiviMobileSurvey.php
+#: api/v3/CiviMobileSurvey.php templates/CRM/CiviMobileAPI/Form/Session.tpl
 msgid "Title"
 msgstr "Titel"
 
 #: CRM/CiviMobileAPI/DAO/EventSession.php
 #: CRM/CiviMobileAPI/DAO/LocationVenue.php CRM/CiviMobileAPI/Form/Session.php
 #: CRM/CiviMobileAPI/Form/Venue.php api/v3/CiviMobileEventSession.php
-#: api/v3/CiviMobileVenue.php
+#: api/v3/CiviMobileVenue.php templates/CRM/CiviMobileAPI/Form/Session.tpl
 msgid "Description"
 msgstr "Beschrijving"
 
@@ -398,9 +398,23 @@ msgid "Invoke Contact Id"
 msgstr "Inviteren Contact-id"
 
 #: CRM/CiviMobileAPI/Form/Agenda.php CRM/CiviMobileAPI/Form/Session.php
+msgid "Invalid eventId parameter."
+msgstr "Ongeldige event-id parameter."
+
+#: CRM/CiviMobileAPI/Form/Agenda.php CRM/CiviMobileAPI/Form/Session.php
 #: CRM/CiviMobileAPI/Form/Speaker.php
 msgid "Not Found"
 msgstr "Niet gevonden"
+
+#: CRM/CiviMobileAPI/Form/Agenda.php CRM/CiviMobileAPI/Form/Venue.php
+#: CRM/CiviMobileAPI/Page/ManageVenues.php
+msgid "Yes"
+msgstr "Ja"
+
+#: CRM/CiviMobileAPI/Form/Agenda.php CRM/CiviMobileAPI/Form/Venue.php
+#: CRM/CiviMobileAPI/Page/ManageVenues.php
+msgid "No"
+msgstr "Nee"
 
 #: CRM/CiviMobileAPI/Form/Agenda.php
 msgid ""
@@ -420,6 +434,7 @@ msgstr "- elke -"
 #: api/v3/CiviMobileEventSession.php
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
 #: templates/CRM/CiviMobileAPI/Form/Session.hlp
+#: templates/CRM/CiviMobileAPI/Form/Session.tpl
 msgid "Venue"
 msgstr "Zaal"
 
@@ -509,7 +524,8 @@ msgstr "Toon voor mijzelf een QR-code met de website-URL"
 msgid "Back"
 msgstr "Terug"
 
-#: CRM/CiviMobileAPI/Form/Session.php CRM/CiviMobileAPI/Form/Venue.php
+#: CRM/CiviMobileAPI/Form/Session.php CRM/CiviMobileAPI/Form/Speaker.php
+#: CRM/CiviMobileAPI/Form/Venue.php
 msgid "You do not have all the permissions needed for this page."
 msgstr "U heeft niet genoeg rechten voor deze pagina."
 
@@ -517,10 +533,6 @@ msgstr "U heeft niet genoeg rechten voor deze pagina."
 #: CRM/CiviMobileAPI/Form/Venue.php
 msgid "Permission Denied"
 msgstr "Actie geweigerd"
-
-#: CRM/CiviMobileAPI/Form/Session.php
-msgid "Invalid eventId parameter."
-msgstr "Ongeldige event-id parameter."
 
 #: CRM/CiviMobileAPI/Form/Session.php
 msgid " - Add Session"
@@ -536,12 +548,14 @@ msgstr "Evenement bestaat niet."
 
 #: CRM/CiviMobileAPI/Form/Session.php
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
+#: templates/CRM/CiviMobileAPI/Form/Session.tpl
 msgid "Date"
 msgstr "Datum"
 
 #: CRM/CiviMobileAPI/Form/Session.php api/v3/CiviMobileEventSession.php
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
 #: templates/CRM/CiviMobileAPI/Form/Session.hlp
+#: templates/CRM/CiviMobileAPI/Form/Session.tpl
 msgid "Speakers"
 msgstr "Sprekers"
 
@@ -772,6 +786,10 @@ msgstr "Server-key gewijzigd"
 msgid "CiviMobile settings updated"
 msgstr "CiviMobile instellingen geüpdatet"
 
+#: CRM/CiviMobileAPI/Form/Speaker.php
+msgid "The speaker doesn`t exists."
+msgstr ""
+
 #: CRM/CiviMobileAPI/Form/Speaker.php api/v3/CiviMobileCmsRegistration.php
 #: api/v3/CiviMobilePublicParticipant.php
 msgid "First name"
@@ -797,12 +815,21 @@ msgid "Image"
 msgstr "Afbeelding"
 
 #: CRM/CiviMobileAPI/Form/Speaker.php
+#: templates/CRM/CiviMobileAPI/Page/Speakers.tpl
+msgid "Company"
+msgstr "Bedrijf"
+
+#: CRM/CiviMobileAPI/Form/Speaker.php
 msgid "Contact info wasn`t saved!"
 msgstr "Contact-informatie is niet opgeslagen!"
 
 #: CRM/CiviMobileAPI/Form/Speaker.php
 msgid "Participant bio wasn`t saved!"
 msgstr "De bio van de deelnemer is niet opgeslagen!"
+
+#: CRM/CiviMobileAPI/Form/Speaker.php
+msgid "Title length cannot be more than %1 characters."
+msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Venue.php
 msgid "Empty location id."
@@ -819,14 +846,6 @@ msgstr "Lege zaal-id."
 #: CRM/CiviMobileAPI/Form/Venue.php
 msgid "Venue id does not exist."
 msgstr "Zaal-id bestaat niet."
-
-#: CRM/CiviMobileAPI/Form/Venue.php CRM/CiviMobileAPI/Page/ManageVenues.php
-msgid "Yes"
-msgstr "Ja"
-
-#: CRM/CiviMobileAPI/Form/Venue.php CRM/CiviMobileAPI/Page/ManageVenues.php
-msgid "No"
-msgstr "Nee"
 
 #: CRM/CiviMobileAPI/Form/Venue.php
 msgid "View venue"
@@ -1747,6 +1766,22 @@ msgid "Edit"
 msgstr "Wijzigen"
 
 #: templates/CRM/CiviMobileAPI/Form/Session.tpl
+msgid "Start Time"
+msgstr "Begintijd"
+
+#: templates/CRM/CiviMobileAPI/Form/Session.tpl
+msgid "End Time"
+msgstr "Eindtijd"
+
+#: templates/CRM/CiviMobileAPI/Form/Session.tpl
+msgid "Participant"
+msgstr "Deelnemer"
+
+#: templates/CRM/CiviMobileAPI/Form/Session.tpl
+msgid "Are you really want to delete the Session?"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Session.tpl
 msgid "New Speaker"
 msgstr "Spreker toevoegen"
 
@@ -1925,6 +1960,14 @@ msgstr "Nieuws"
 msgid "Set default RSS feed on CMS"
 msgstr "Standaard RSS-feed op CMS zetten"
 
+#: templates/CRM/CiviMobileAPI/Form/Speaker.tpl
+msgid "Delete contact image"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Speaker.tpl
+msgid "Are you sure you want to delete contact image?"
+msgstr ""
+
 #: templates/CRM/CiviMobileAPI/Form/Venue.hlp
 msgid ""
 "The Venue can be located at a different address than the event. The location"
@@ -1985,10 +2028,6 @@ msgstr ""
 #: templates/CRM/CiviMobileAPI/Page/Speakers.tpl
 msgid "Display Name"
 msgstr "Weergavenaam"
-
-#: templates/CRM/CiviMobileAPI/Page/Speakers.tpl
-msgid "Company"
-msgstr "Bedrijf"
 
 #: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
 msgid "Generate description"
