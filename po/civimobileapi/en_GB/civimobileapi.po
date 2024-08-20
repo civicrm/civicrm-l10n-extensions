@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
-"POT-Creation-Date: 2024-06-21 05:01+0000\n"
+"POT-Creation-Date: 2024-08-20 05:01+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>, 2024\n"
 "Language-Team: English (United Kingdom) (https://app.transifex.com/civicrm/teams/1905/en_GB/)\n"
 "MIME-Version: 1.0\n"
@@ -261,14 +261,14 @@ msgstr "Public Key"
 
 #: CRM/CiviMobileAPI/DAO/EventSession.php CRM/CiviMobileAPI/Form/Session.php
 #: CRM/CiviMobileAPI/Form/Venue.php api/v3/CiviMobileEventSession.php
-#: api/v3/CiviMobileSurvey.php
+#: api/v3/CiviMobileSurvey.php templates/CRM/CiviMobileAPI/Form/Session.tpl
 msgid "Title"
 msgstr "Title"
 
 #: CRM/CiviMobileAPI/DAO/EventSession.php
 #: CRM/CiviMobileAPI/DAO/LocationVenue.php CRM/CiviMobileAPI/Form/Session.php
 #: CRM/CiviMobileAPI/Form/Venue.php api/v3/CiviMobileEventSession.php
-#: api/v3/CiviMobileVenue.php
+#: api/v3/CiviMobileVenue.php templates/CRM/CiviMobileAPI/Form/Session.tpl
 msgid "Description"
 msgstr "Description"
 
@@ -395,9 +395,23 @@ msgid "Invoke Contact Id"
 msgstr "Invoke Contact Id"
 
 #: CRM/CiviMobileAPI/Form/Agenda.php CRM/CiviMobileAPI/Form/Session.php
+msgid "Invalid eventId parameter."
+msgstr "Invalid eventId parameter."
+
+#: CRM/CiviMobileAPI/Form/Agenda.php CRM/CiviMobileAPI/Form/Session.php
 #: CRM/CiviMobileAPI/Form/Speaker.php
 msgid "Not Found"
 msgstr "Not Found"
+
+#: CRM/CiviMobileAPI/Form/Agenda.php CRM/CiviMobileAPI/Form/Venue.php
+#: CRM/CiviMobileAPI/Page/ManageVenues.php
+msgid "Yes"
+msgstr "Yes"
+
+#: CRM/CiviMobileAPI/Form/Agenda.php CRM/CiviMobileAPI/Form/Venue.php
+#: CRM/CiviMobileAPI/Page/ManageVenues.php
+msgid "No"
+msgstr "No"
 
 #: CRM/CiviMobileAPI/Form/Agenda.php
 msgid ""
@@ -417,6 +431,7 @@ msgstr "- any -"
 #: api/v3/CiviMobileEventSession.php
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
 #: templates/CRM/CiviMobileAPI/Form/Session.hlp
+#: templates/CRM/CiviMobileAPI/Form/Session.tpl
 msgid "Venue"
 msgstr "Venue"
 
@@ -510,7 +525,8 @@ msgstr "Show a Website URL QR-code for me"
 msgid "Back"
 msgstr "Back"
 
-#: CRM/CiviMobileAPI/Form/Session.php CRM/CiviMobileAPI/Form/Venue.php
+#: CRM/CiviMobileAPI/Form/Session.php CRM/CiviMobileAPI/Form/Speaker.php
+#: CRM/CiviMobileAPI/Form/Venue.php
 msgid "You do not have all the permissions needed for this page."
 msgstr "You do not have all the permissions needed for this page."
 
@@ -518,10 +534,6 @@ msgstr "You do not have all the permissions needed for this page."
 #: CRM/CiviMobileAPI/Form/Venue.php
 msgid "Permission Denied"
 msgstr "Permission Denied"
-
-#: CRM/CiviMobileAPI/Form/Session.php
-msgid "Invalid eventId parameter."
-msgstr "Invalid eventId parameter."
 
 #: CRM/CiviMobileAPI/Form/Session.php
 msgid " - Add Session"
@@ -537,12 +549,14 @@ msgstr "Event does not exists."
 
 #: CRM/CiviMobileAPI/Form/Session.php
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
+#: templates/CRM/CiviMobileAPI/Form/Session.tpl
 msgid "Date"
 msgstr "Date"
 
 #: CRM/CiviMobileAPI/Form/Session.php api/v3/CiviMobileEventSession.php
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
 #: templates/CRM/CiviMobileAPI/Form/Session.hlp
+#: templates/CRM/CiviMobileAPI/Form/Session.tpl
 msgid "Speakers"
 msgstr "Speakers"
 
@@ -774,6 +788,10 @@ msgstr "Server key updated"
 msgid "CiviMobile settings updated"
 msgstr "CiviMobile settings updated"
 
+#: CRM/CiviMobileAPI/Form/Speaker.php
+msgid "The speaker doesn`t exists."
+msgstr ""
+
 #: CRM/CiviMobileAPI/Form/Speaker.php api/v3/CiviMobileCmsRegistration.php
 #: api/v3/CiviMobilePublicParticipant.php
 msgid "First name"
@@ -799,12 +817,21 @@ msgid "Image"
 msgstr "Image"
 
 #: CRM/CiviMobileAPI/Form/Speaker.php
+#: templates/CRM/CiviMobileAPI/Page/Speakers.tpl
+msgid "Company"
+msgstr "Company"
+
+#: CRM/CiviMobileAPI/Form/Speaker.php
 msgid "Contact info wasn`t saved!"
 msgstr "Contact info wasn`t saved!"
 
 #: CRM/CiviMobileAPI/Form/Speaker.php
 msgid "Participant bio wasn`t saved!"
 msgstr "Participant bio wasn`t saved!"
+
+#: CRM/CiviMobileAPI/Form/Speaker.php
+msgid "Title length cannot be more than %1 characters."
+msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Venue.php
 msgid "Empty location id."
@@ -821,14 +848,6 @@ msgstr "Empty venue id."
 #: CRM/CiviMobileAPI/Form/Venue.php
 msgid "Venue id does not exist."
 msgstr "Venue id does not exist."
-
-#: CRM/CiviMobileAPI/Form/Venue.php CRM/CiviMobileAPI/Page/ManageVenues.php
-msgid "Yes"
-msgstr "Yes"
-
-#: CRM/CiviMobileAPI/Form/Venue.php CRM/CiviMobileAPI/Page/ManageVenues.php
-msgid "No"
-msgstr "No"
 
 #: CRM/CiviMobileAPI/Form/Venue.php
 msgid "View venue"
@@ -1748,6 +1767,22 @@ msgid "Edit"
 msgstr "Edit"
 
 #: templates/CRM/CiviMobileAPI/Form/Session.tpl
+msgid "Start Time"
+msgstr "Start Time"
+
+#: templates/CRM/CiviMobileAPI/Form/Session.tpl
+msgid "End Time"
+msgstr "End Time"
+
+#: templates/CRM/CiviMobileAPI/Form/Session.tpl
+msgid "Participant"
+msgstr "Participant"
+
+#: templates/CRM/CiviMobileAPI/Form/Session.tpl
+msgid "Are you really want to delete the Session?"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Session.tpl
 msgid "New Speaker"
 msgstr "New Speaker"
 
@@ -1932,6 +1967,14 @@ msgstr "News"
 msgid "Set default RSS feed on CMS"
 msgstr "Set default RSS feed on CMS"
 
+#: templates/CRM/CiviMobileAPI/Form/Speaker.tpl
+msgid "Delete contact image"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Speaker.tpl
+msgid "Are you sure you want to delete contact image?"
+msgstr ""
+
 #: templates/CRM/CiviMobileAPI/Form/Venue.hlp
 msgid ""
 "The Venue can be located at a different address than the event. The location"
@@ -1991,10 +2034,6 @@ msgstr ""
 #: templates/CRM/CiviMobileAPI/Page/Speakers.tpl
 msgid "Display Name"
 msgstr "Display Name"
-
-#: templates/CRM/CiviMobileAPI/Page/Speakers.tpl
-msgid "Company"
-msgstr "Company"
 
 #: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
 msgid "Generate description"
