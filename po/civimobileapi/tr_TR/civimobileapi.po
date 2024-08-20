@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
-"POT-Creation-Date: 2024-06-21 05:01+0000\n"
+"POT-Creation-Date: 2024-08-20 05:01+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (https://app.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -264,14 +264,14 @@ msgstr "Herkese açık anahtar"
 
 #: CRM/CiviMobileAPI/DAO/EventSession.php CRM/CiviMobileAPI/Form/Session.php
 #: CRM/CiviMobileAPI/Form/Venue.php api/v3/CiviMobileEventSession.php
-#: api/v3/CiviMobileSurvey.php
+#: api/v3/CiviMobileSurvey.php templates/CRM/CiviMobileAPI/Form/Session.tpl
 msgid "Title"
 msgstr "Başlık"
 
 #: CRM/CiviMobileAPI/DAO/EventSession.php
 #: CRM/CiviMobileAPI/DAO/LocationVenue.php CRM/CiviMobileAPI/Form/Session.php
 #: CRM/CiviMobileAPI/Form/Venue.php api/v3/CiviMobileEventSession.php
-#: api/v3/CiviMobileVenue.php
+#: api/v3/CiviMobileVenue.php templates/CRM/CiviMobileAPI/Form/Session.tpl
 msgid "Description"
 msgstr "Açıklama"
 
@@ -398,9 +398,23 @@ msgid "Invoke Contact Id"
 msgstr "Kişi kimliğini al"
 
 #: CRM/CiviMobileAPI/Form/Agenda.php CRM/CiviMobileAPI/Form/Session.php
+msgid "Invalid eventId parameter."
+msgstr "Etkinlik kimliği parametresi geçersiz."
+
+#: CRM/CiviMobileAPI/Form/Agenda.php CRM/CiviMobileAPI/Form/Session.php
 #: CRM/CiviMobileAPI/Form/Speaker.php
 msgid "Not Found"
 msgstr "Bulunamadı"
+
+#: CRM/CiviMobileAPI/Form/Agenda.php CRM/CiviMobileAPI/Form/Venue.php
+#: CRM/CiviMobileAPI/Page/ManageVenues.php
+msgid "Yes"
+msgstr "Evet"
+
+#: CRM/CiviMobileAPI/Form/Agenda.php CRM/CiviMobileAPI/Form/Venue.php
+#: CRM/CiviMobileAPI/Page/ManageVenues.php
+msgid "No"
+msgstr "Hayır"
 
 #: CRM/CiviMobileAPI/Form/Agenda.php
 msgid ""
@@ -419,6 +433,7 @@ msgstr "- Tümü -"
 #: api/v3/CiviMobileEventSession.php
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
 #: templates/CRM/CiviMobileAPI/Form/Session.hlp
+#: templates/CRM/CiviMobileAPI/Form/Session.tpl
 msgid "Venue"
 msgstr "Mekan"
 
@@ -509,7 +524,8 @@ msgstr "Benim için bir site adresi QR kodu görüntüle"
 msgid "Back"
 msgstr "Geri"
 
-#: CRM/CiviMobileAPI/Form/Session.php CRM/CiviMobileAPI/Form/Venue.php
+#: CRM/CiviMobileAPI/Form/Session.php CRM/CiviMobileAPI/Form/Speaker.php
+#: CRM/CiviMobileAPI/Form/Venue.php
 msgid "You do not have all the permissions needed for this page."
 msgstr "İzinleriniz bu sayfayı görüntülemek için yetersiz."
 
@@ -517,10 +533,6 @@ msgstr "İzinleriniz bu sayfayı görüntülemek için yetersiz."
 #: CRM/CiviMobileAPI/Form/Venue.php
 msgid "Permission Denied"
 msgstr "İzin reddedildi"
-
-#: CRM/CiviMobileAPI/Form/Session.php
-msgid "Invalid eventId parameter."
-msgstr "Etkinlik kimliği parametresi geçersiz."
 
 #: CRM/CiviMobileAPI/Form/Session.php
 msgid " - Add Session"
@@ -536,12 +548,14 @@ msgstr "Etkinlik bulunamadı."
 
 #: CRM/CiviMobileAPI/Form/Session.php
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
+#: templates/CRM/CiviMobileAPI/Form/Session.tpl
 msgid "Date"
 msgstr "Tarih"
 
 #: CRM/CiviMobileAPI/Form/Session.php api/v3/CiviMobileEventSession.php
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
 #: templates/CRM/CiviMobileAPI/Form/Session.hlp
+#: templates/CRM/CiviMobileAPI/Form/Session.tpl
 msgid "Speakers"
 msgstr "Konuşmacılar"
 
@@ -775,6 +789,10 @@ msgstr "Sunucu anahtarı güncellendi"
 msgid "CiviMobile settings updated"
 msgstr "CiviMobile ayarları güncellendi"
 
+#: CRM/CiviMobileAPI/Form/Speaker.php
+msgid "The speaker doesn`t exists."
+msgstr ""
+
 #: CRM/CiviMobileAPI/Form/Speaker.php api/v3/CiviMobileCmsRegistration.php
 #: api/v3/CiviMobilePublicParticipant.php
 msgid "First name"
@@ -800,12 +818,21 @@ msgid "Image"
 msgstr "Görsel"
 
 #: CRM/CiviMobileAPI/Form/Speaker.php
+#: templates/CRM/CiviMobileAPI/Page/Speakers.tpl
+msgid "Company"
+msgstr "Kuruluş"
+
+#: CRM/CiviMobileAPI/Form/Speaker.php
 msgid "Contact info wasn`t saved!"
 msgstr "Kişi bilgileri kaydedilmedi!"
 
 #: CRM/CiviMobileAPI/Form/Speaker.php
 msgid "Participant bio wasn`t saved!"
 msgstr "Katılımcı özgeçmişi kaydedilmedi!"
+
+#: CRM/CiviMobileAPI/Form/Speaker.php
+msgid "Title length cannot be more than %1 characters."
+msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Venue.php
 msgid "Empty location id."
@@ -822,14 +849,6 @@ msgstr "Mekan kimliği boş."
 #: CRM/CiviMobileAPI/Form/Venue.php
 msgid "Venue id does not exist."
 msgstr "Mekan kimliği bulunamadı."
-
-#: CRM/CiviMobileAPI/Form/Venue.php CRM/CiviMobileAPI/Page/ManageVenues.php
-msgid "Yes"
-msgstr "Evet"
-
-#: CRM/CiviMobileAPI/Form/Venue.php CRM/CiviMobileAPI/Page/ManageVenues.php
-msgid "No"
-msgstr "Hayır"
 
 #: CRM/CiviMobileAPI/Form/Venue.php
 msgid "View venue"
@@ -1749,6 +1768,22 @@ msgid "Edit"
 msgstr "Düzenle"
 
 #: templates/CRM/CiviMobileAPI/Form/Session.tpl
+msgid "Start Time"
+msgstr "Başlangıç zamanı"
+
+#: templates/CRM/CiviMobileAPI/Form/Session.tpl
+msgid "End Time"
+msgstr "Bitiş zamanı"
+
+#: templates/CRM/CiviMobileAPI/Form/Session.tpl
+msgid "Participant"
+msgstr "Katılımcı"
+
+#: templates/CRM/CiviMobileAPI/Form/Session.tpl
+msgid "Are you really want to delete the Session?"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Session.tpl
 msgid "New Speaker"
 msgstr "Yeni konuşmacı"
 
@@ -1930,6 +1965,14 @@ msgstr "Haberler"
 msgid "Set default RSS feed on CMS"
 msgstr "İçerik yönetimi sisteminde varsayılan RSS akışını ayarla"
 
+#: templates/CRM/CiviMobileAPI/Form/Speaker.tpl
+msgid "Delete contact image"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Speaker.tpl
+msgid "Are you sure you want to delete contact image?"
+msgstr ""
+
 #: templates/CRM/CiviMobileAPI/Form/Venue.hlp
 msgid ""
 "The Venue can be located at a different address than the event. The location"
@@ -1989,10 +2032,6 @@ msgstr ""
 #: templates/CRM/CiviMobileAPI/Page/Speakers.tpl
 msgid "Display Name"
 msgstr "Görüntülenecek ad"
-
-#: templates/CRM/CiviMobileAPI/Page/Speakers.tpl
-msgid "Company"
-msgstr "Kuruluş"
 
 #: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
 msgid "Generate description"
