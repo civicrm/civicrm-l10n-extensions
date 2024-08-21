@@ -4,13 +4,13 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Mathieu Lu <mathieu@bidon.ca>, 2023
-# Kaya Zeren <kayazeren@gmail.com>, 2023
+# Kaya Zeren <kayazeren@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Civixero\n"
-"POT-Creation-Date: 2023-01-30 05:01+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2023\n"
+"POT-Creation-Date: 2024-08-21 05:01+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (https://app.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,29 +18,37 @@ msgstr ""
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: CRM/Civixero/Contact.php
-msgid "Failed to store "
-msgstr "Kaydedilemedi"
+#: CRM/Civixero/Contact.php CRM/Civixero/Invoice.php
+msgid "Failed to store %1 (%2)"
+msgstr "%1 kaydedilemedi (%2)"
 
 #: CRM/Civixero/Contact.php CRM/Civixero/Invoice.php
 msgid " with error "
 msgstr "Hata:"
 
-#: CRM/Civixero/Contact.php
-msgid "Contact Pull failed"
-msgstr "Kişi alınamadı"
+#: CRM/Civixero/Contact.php CRM/Civixero/Invoice.php
+msgid "Not all records were saved"
+msgstr "Tüm kayıtlar kaydedilemedi"
 
 #: CRM/Civixero/Contact.php
-msgid "Updating existing contact for %1"
-msgstr "%1 için var olan kişi güncellenemedi"
+msgid "Error updating existing contact for %1"
+msgstr ""
 
 #: CRM/Civixero/Contact.php
 msgid "Attempt to sync Contact %1 to Xero entry for existing Contact %2. "
 msgstr "%1 kişisini, var olan %2 kişisinin Xero kaydıyla eşitlemeyi dener."
 
 #: CRM/Civixero/Contact.php
-msgid "Failed to push "
-msgstr "Gönderilemedi"
+msgid "Failed to push contactID: %1"
+msgstr ""
+
+#: CRM/Civixero/Contact.php CRM/Civixero/Invoice.php
+msgid "Error: "
+msgstr "Hata: "
+
+#: CRM/Civixero/Contact.php
+msgid "Record: "
+msgstr ""
 
 #: CRM/Civixero/Contact.php
 msgid "Contact Push failed"
@@ -87,20 +95,8 @@ msgid "Authorize with Xero"
 msgstr "Xero için izin ver"
 
 #: CRM/Civixero/Invoice.php
-msgid "Cannot update invoice"
-msgstr "Fatura güncellenemedi"
-
-#: CRM/Civixero/Invoice.php
-msgid "Failed to store %1 (%2)"
-msgstr "%1 kaydedilemedi (%2)"
-
-#: CRM/Civixero/Invoice.php
-msgid "Invoice Pull failed"
-msgstr "Fatura alınamadı"
-
-#: CRM/Civixero/Invoice.php
-msgid "Not all records were saved"
-msgstr "Tüm kayıtlar kaydedilemedi"
+msgid "Failed to push contributionID: %1 (AccountsContactID: %2)"
+msgstr ""
 
 #: CRM/Civixero/Invoice.php
 msgid "%1 Push failed"
@@ -157,6 +153,10 @@ msgstr ""
 "Xero için izinleri yeniden vermelisiniz."
 
 #: Civixero.php
+msgid "Xero"
+msgstr ""
+
+#: Civixero.php
 msgid "Civi Xero"
 msgstr "Civi Xero"
 
@@ -180,21 +180,29 @@ msgstr "Fatura eşitleme bağlantısı"
 msgid "Contact Sync Link"
 msgstr "Kişi eşitleme bağlantısı"
 
-#: api/v3/Civixero/Invoicepull.php
+#: api/v3/Civixero/Contactpull.php api/v3/Civixero/Invoicepull.php
 msgid "Sync Start Date"
 msgstr "Eşitleme bağlangıç tarihi"
 
-#: api/v3/Civixero/Invoicepull.php
+#: api/v3/Civixero/Contactpull.php api/v3/Civixero/Invoicepull.php
 msgid "date to start pulling from (default \"yesterday\")"
 msgstr "alınmaya başlanacak tarih (varsayılan değer: \"dün\""
 
-#: api/v3/Civixero/Invoicepull.php
+#: api/v3/Civixero/Contactpull.php api/v3/Civixero/Invoicepull.php
 msgid "Connector ID"
 msgstr "Bağlayıcı kimliği"
 
-#: api/v3/Civixero/Invoicepull.php
+#: api/v3/Civixero/Contactpull.php api/v3/Civixero/Invoicepull.php
 msgid "Connector ID if using nz.co.fuzion.connectors, else 0"
 msgstr "nz.co.fuzion.connectors kullanılıyorsa bağlayıcı kimliği, yoksa 0"
+
+#: api/v3/Civixero/Contactpull.php
+msgid "Xero Contact ID"
+msgstr ""
+
+#: api/v3/Civixero/Contactpull.php
+msgid "Specify Xero Contact UUID to retrieve a single contact record"
+msgstr ""
 
 #: api/v3/Civixero/Invoicepull.php
 msgid "Invoice Number"
@@ -203,6 +211,18 @@ msgstr "Fatura numarası"
 #: api/v3/Civixero/Invoicepull.php
 msgid "The (Optional) Xero Invoice number to pull (eg. IN-0624"
 msgstr "Alınacak (isteğe bağlı) Xero fatura numarası (örneğin IN-0624"
+
+#: api/v3/Civixero/Invoicepull.php
+msgid "Xero Invoice ID"
+msgstr ""
+
+#: api/v3/Civixero/Invoicepull.php
+msgid "Specify Xero Invoice UUID to retrieve a single contribution record"
+msgstr ""
+
+#: api/v3/Civixero/Invoicepull.php
+msgid "Create contributions in CiviCRM if they don't exist"
+msgstr ""
 
 #: managed/navigation.mgd.php
 msgid "Xero Settings"
@@ -259,7 +279,3 @@ msgstr "Kişi Xero ile eşitlendi"
 #: templates/CRM/Civixero/Page/Inline/ContactSyncStatus.tpl
 msgid "Contact is queued for sync with Xero"
 msgstr "Kişi Xero ile eşitlenmek üzere sıraya alındı"
-
-#: templates/CRM/Civixero/Page/Inline/ContactSyncStatus.tpl
-msgid "Error getting sync status"
-msgstr "Eşitleme durumu alınırken sorun çıktı"
