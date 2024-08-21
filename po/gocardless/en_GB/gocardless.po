@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gocardless\n"
-"POT-Creation-Date: 2024-04-06 05:01+0000\n"
+"POT-Creation-Date: 2024-05-25 05:01+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>, 2024\n"
 "Language-Team: English (United Kingdom) (https://app.transifex.com/civicrm/teams/1905/en_GB/)\n"
 "MIME-Version: 1.0\n"
@@ -20,13 +20,15 @@ msgstr ""
 
 #: CRM/Core/Payment/GoCardless.php
 msgid "Missing %1"
-msgstr ""
+msgstr "Missing %1"
 
 #: CRM/Core/Payment/GoCardless.php
 msgid ""
 "Missing URL for API. This sould probably be %1 (for live payments) or %2 "
 "(for test/sandbox)"
 msgstr ""
+"Missing URL for API. This sould probably be %1 (for live payments) or %2 "
+"(for test/sandbox)"
 
 #: CRM/Core/Payment/GoCardless.php
 msgid "Successfully cancelled the subscription in CiviCRM ONLY."
@@ -34,11 +36,12 @@ msgstr "Successfully cancelled the subscription in CiviCRM ONLY."
 
 #: CRM/Core/Payment/GoCardless.php
 msgid "Successfully cancelled the subscription at GoCardless."
-msgstr ""
+msgstr "Successfully cancelled the subscription at GoCardless."
 
 #: CRM/Core/Payment/GoCardless.php
 msgid "Sorry, there was an error contacting the payment processor GoCardless."
 msgstr ""
+"Sorry, there was an error contacting the payment processor GoCardless."
 
 #: CRM/Core/Payment/GoCardless.php
 msgid "Error"
@@ -49,50 +52,56 @@ msgid ""
 "GoCardless will be automatically notified and the subscription will be "
 "cancelled."
 msgstr ""
+"GoCardless will be automatically notified and the subscription will be "
+"cancelled."
 
 #: CRM/Core/Payment/GoCardless.php
 msgid ""
 "If you select 'Send cancellation request..' then GoCardless will be "
 "automatically notified and the subscription will be cancelled."
 msgstr ""
+"If you select 'Send cancellation request..' then GoCardless will be "
+"automatically notified and the subscription will be cancelled."
 
 #: CRM/GoCardless/Upgrader.php
 msgid "GoCardless Direct Debit"
-msgstr ""
+msgstr "GoCardless Direct Debit"
 
 #: ang/gocardless/GoCardlessSettings.html settings/gocardless.setting.php
 msgid "GoCardless settings"
-msgstr ""
+msgstr "GoCardless settings"
 
 #: ang/gocardless/GoCardlessSettings.html
 msgid "Please see <a %1>reference documentation</a> for these settings"
-msgstr ""
+msgstr "Please see <a %1>reference documentation</a> for these settings"
 
 #: ang/gocardless/GoCardlessSettings.html
 msgid ""
 "Force recurring contributions when a GoCardless payment processor is chosen"
 msgstr ""
+"Force recurring contributions when a GoCardless payment processor is chosen"
 
 #: ang/gocardless/GoCardlessSettings.html
 msgid "Receipts"
-msgstr ""
+msgstr "Receipts"
 
 #: ang/gocardless/GoCardlessSettings.html
 msgid "Never send receipts"
-msgstr ""
+msgstr "Never send receipts"
 
 #: ang/gocardless/GoCardlessSettings.html
 msgid "Always send receipts"
-msgstr ""
+msgstr "Always send receipts"
 
 #: ang/gocardless/GoCardlessSettings.html
 msgid ""
 "Defer to Contribution Recur record’s <code>is_email_receipt</code> field"
 msgstr ""
+"Defer to Contribution Recur record’s <code>is_email_receipt</code> field"
 
 #: ang/gocardless/GoCardlessSettings.html
 msgid "Allowed days of month"
-msgstr ""
+msgstr "Allowed days of month"
 
 #: ang/gocardless/GoCardlessSettings.html
 msgid "Save"
@@ -100,7 +109,7 @@ msgstr "Зберегти"
 
 #: ang/gocardless/GoCardlessSettings.js js/gcform.js
 msgid "uk.artfulrobot.civicrm.gocardless"
-msgstr ""
+msgstr "uk.artfulrobot.civicrm.gocardless"
 
 #: ang/gocardless/GoCardlessSettings.js
 msgid "Saving..."
@@ -112,11 +121,11 @@ msgstr "Saved"
 
 #: gocardless.php
 msgid "GoCardless Settings"
-msgstr ""
+msgstr "GoCardless Settings"
 
 #: gocardless.php
 msgid "Webhook secrets MUST be unique between test and live."
-msgstr ""
+msgstr "Webhook secrets MUST be unique between test and live."
 
 #: gocardless.php
 msgid ""
@@ -125,27 +134,43 @@ msgid ""
 " install from a released .zip/.gz file. Drupal 8+ admins will need to ensure"
 " this project‘s composer libs are installed."
 msgstr ""
+"The GoCardlessPro classes are missing. This can happen if you install from "
+"the git repo and don‘t do composer install. This should never happen with an"
+" install from a released .zip/.gz file. Drupal 8+ admins will need to ensure"
+" this project‘s composer libs are installed."
 
 #: gocardless.php
 msgid "GoCardless extension incomplete install: will cause crashes!"
-msgstr ""
+msgstr "GoCardless extension incomplete install: will cause crashes!"
 
 #: gocardless.php
 msgid "Missing Financial Account for GoCardless"
-msgstr ""
+msgstr "Missing Financial Account for GoCardless"
 
 #: gocardless.php
 msgid "Legacy webhook URLs used on %1"
+msgstr "Legacy webhook URLs used on %1"
+
+#: gocardless.php
+msgid ""
+"This flag will cause live API calls to fail; it should not be set in "
+"production environments."
 msgstr ""
+"This flag will cause live API calls to fail; it should not be set in "
+"production environments."
+
+#: gocardless.php
+msgid "CIVI_GOCARDLESS_FORCE_SANDBOX_ENVIRONMENT set!"
+msgstr "CIVI_GOCARDLESS_FORCE_SANDBOX_ENVIRONMENT set!"
 
 #: js/gcform.js
 msgid "Day of month"
-msgstr ""
+msgstr "Day of month"
 
 #: js/gcform.js
 msgid "Your direct debit will be collected on the %1 day of the month"
-msgstr ""
+msgstr "Your direct debit will be collected on the %1 day of the month"
 
 #: settings/gocardless.setting.php
 msgid "JSON encoded settings."
-msgstr ""
+msgstr "JSON encoded settings."
