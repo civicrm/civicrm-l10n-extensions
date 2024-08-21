@@ -8,13 +8,12 @@
 # Guillaume Sorel <serviceclient@all-in-appli.com>, 2023
 # Alain Rihs <alainrihs@sunrise.ch>, 2023
 # Mathieu Lu <mathieu@bidon.ca>, 2023
-# Valentin Louis ROCHE, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Civixero\n"
-"POT-Creation-Date: 2023-01-30 05:01+0000\n"
-"Last-Translator: Valentin Louis ROCHE, 2023\n"
+"POT-Creation-Date: 2024-08-21 05:01+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>, 2023\n"
 "Language-Team: French (https://app.transifex.com/civicrm/teams/1905/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,20 +21,20 @@ msgstr ""
 "Language: fr\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: CRM/Civixero/Contact.php
-msgid "Failed to store "
-msgstr "Enregistrement impossible"
+#: CRM/Civixero/Contact.php CRM/Civixero/Invoice.php
+msgid "Failed to store %1 (%2)"
+msgstr ""
 
 #: CRM/Civixero/Contact.php CRM/Civixero/Invoice.php
 msgid " with error "
 msgstr "avec erreur"
 
-#: CRM/Civixero/Contact.php
-msgid "Contact Pull failed"
-msgstr "La synchro entrante du Contact n'a pas fonctionné"
+#: CRM/Civixero/Contact.php CRM/Civixero/Invoice.php
+msgid "Not all records were saved"
+msgstr ""
 
 #: CRM/Civixero/Contact.php
-msgid "Updating existing contact for %1"
+msgid "Error updating existing contact for %1"
 msgstr ""
 
 #: CRM/Civixero/Contact.php
@@ -43,7 +42,15 @@ msgid "Attempt to sync Contact %1 to Xero entry for existing Contact %2. "
 msgstr ""
 
 #: CRM/Civixero/Contact.php
-msgid "Failed to push "
+msgid "Failed to push contactID: %1"
+msgstr ""
+
+#: CRM/Civixero/Contact.php CRM/Civixero/Invoice.php
+msgid "Error: "
+msgstr ""
+
+#: CRM/Civixero/Contact.php
+msgid "Record: "
 msgstr ""
 
 #: CRM/Civixero/Contact.php
@@ -89,19 +96,7 @@ msgid "Authorize with Xero"
 msgstr ""
 
 #: CRM/Civixero/Invoice.php
-msgid "Cannot update invoice"
-msgstr "Échec de la mise-à-jour de la facture..."
-
-#: CRM/Civixero/Invoice.php
-msgid "Failed to store %1 (%2)"
-msgstr ""
-
-#: CRM/Civixero/Invoice.php
-msgid "Invoice Pull failed"
-msgstr ""
-
-#: CRM/Civixero/Invoice.php
-msgid "Not all records were saved"
+msgid "Failed to push contributionID: %1 (AccountsContactID: %2)"
 msgstr ""
 
 #: CRM/Civixero/Invoice.php
@@ -155,6 +150,10 @@ msgid ""
 msgstr ""
 
 #: Civixero.php
+msgid "Xero"
+msgstr ""
+
+#: Civixero.php
 msgid "Civi Xero"
 msgstr ""
 
@@ -178,20 +177,28 @@ msgstr ""
 msgid "Contact Sync Link"
 msgstr ""
 
-#: api/v3/Civixero/Invoicepull.php
+#: api/v3/Civixero/Contactpull.php api/v3/Civixero/Invoicepull.php
 msgid "Sync Start Date"
 msgstr ""
 
-#: api/v3/Civixero/Invoicepull.php
+#: api/v3/Civixero/Contactpull.php api/v3/Civixero/Invoicepull.php
 msgid "date to start pulling from (default \"yesterday\")"
 msgstr ""
 
-#: api/v3/Civixero/Invoicepull.php
+#: api/v3/Civixero/Contactpull.php api/v3/Civixero/Invoicepull.php
 msgid "Connector ID"
 msgstr ""
 
-#: api/v3/Civixero/Invoicepull.php
+#: api/v3/Civixero/Contactpull.php api/v3/Civixero/Invoicepull.php
 msgid "Connector ID if using nz.co.fuzion.connectors, else 0"
+msgstr ""
+
+#: api/v3/Civixero/Contactpull.php
+msgid "Xero Contact ID"
+msgstr ""
+
+#: api/v3/Civixero/Contactpull.php
+msgid "Specify Xero Contact UUID to retrieve a single contact record"
 msgstr ""
 
 #: api/v3/Civixero/Invoicepull.php
@@ -200,6 +207,18 @@ msgstr "Numéro de facture"
 
 #: api/v3/Civixero/Invoicepull.php
 msgid "The (Optional) Xero Invoice number to pull (eg. IN-0624"
+msgstr ""
+
+#: api/v3/Civixero/Invoicepull.php
+msgid "Xero Invoice ID"
+msgstr ""
+
+#: api/v3/Civixero/Invoicepull.php
+msgid "Specify Xero Invoice UUID to retrieve a single contribution record"
+msgstr ""
+
+#: api/v3/Civixero/Invoicepull.php
+msgid "Create contributions in CiviCRM if they don't exist"
 msgstr ""
 
 #: managed/navigation.mgd.php
@@ -254,8 +273,4 @@ msgstr ""
 
 #: templates/CRM/Civixero/Page/Inline/ContactSyncStatus.tpl
 msgid "Contact is queued for sync with Xero"
-msgstr ""
-
-#: templates/CRM/Civixero/Page/Inline/ContactSyncStatus.tpl
-msgid "Error getting sync status"
 msgstr ""
