@@ -3,14 +3,13 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# HanV <han.velthuis@kpnmail.nl>, 2023
-# Betty Dolfing <betty.dolfing@civicoop.org>, 2023
+# HanV <han.velthuis@kpnmail.nl>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Civixero\n"
-"POT-Creation-Date: 2023-01-30 05:01+0000\n"
-"Last-Translator: Betty Dolfing <betty.dolfing@civicoop.org>, 2023\n"
+"POT-Creation-Date: 2024-08-21 05:01+0000\n"
+"Last-Translator: HanV <han.velthuis@kpnmail.nl>, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,21 +17,21 @@ msgstr ""
 "Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: CRM/Civixero/Contact.php
-msgid "Failed to store "
-msgstr "Opslaan is mislukt"
+#: CRM/Civixero/Contact.php CRM/Civixero/Invoice.php
+msgid "Failed to store %1 (%2)"
+msgstr "Opslaan %1 (%2) is mislukt"
 
 #: CRM/Civixero/Contact.php CRM/Civixero/Invoice.php
 msgid " with error "
 msgstr " met fout "
 
-#: CRM/Civixero/Contact.php
-msgid "Contact Pull failed"
-msgstr "Ophalen contact is mislukt"
+#: CRM/Civixero/Contact.php CRM/Civixero/Invoice.php
+msgid "Not all records were saved"
+msgstr "Niet alle records zijn opgeslagen"
 
 #: CRM/Civixero/Contact.php
-msgid "Updating existing contact for %1"
-msgstr "Contact bijwerken voor %1"
+msgid "Error updating existing contact for %1"
+msgstr ""
 
 #: CRM/Civixero/Contact.php
 msgid "Attempt to sync Contact %1 to Xero entry for existing Contact %2. "
@@ -40,8 +39,16 @@ msgstr ""
 "Poging contact %1 te synchroniseren met Xero voor bestaand contact %2. "
 
 #: CRM/Civixero/Contact.php
-msgid "Failed to push "
-msgstr "Ophalen is mislukt"
+msgid "Failed to push contactID: %1"
+msgstr ""
+
+#: CRM/Civixero/Contact.php CRM/Civixero/Invoice.php
+msgid "Error: "
+msgstr "Fout: "
+
+#: CRM/Civixero/Contact.php
+msgid "Record: "
+msgstr ""
 
 #: CRM/Civixero/Contact.php
 msgid "Contact Push failed"
@@ -89,20 +96,8 @@ msgid "Authorize with Xero"
 msgstr "Autoriseren met Xero"
 
 #: CRM/Civixero/Invoice.php
-msgid "Cannot update invoice"
-msgstr "Bijwerken factuur is niet mogelijk"
-
-#: CRM/Civixero/Invoice.php
-msgid "Failed to store %1 (%2)"
-msgstr "Opslaan %1 (%2) is mislukt"
-
-#: CRM/Civixero/Invoice.php
-msgid "Invoice Pull failed"
-msgstr "Ophalen factuur is mislukt"
-
-#: CRM/Civixero/Invoice.php
-msgid "Not all records were saved"
-msgstr "Niet alle records zijn opgeslagen"
+msgid "Failed to push contributionID: %1 (AccountsContactID: %2)"
+msgstr ""
 
 #: CRM/Civixero/Invoice.php
 msgid "%1 Push failed"
@@ -157,6 +152,10 @@ msgstr ""
 "Xero om weer een verbinding te maken."
 
 #: Civixero.php
+msgid "Xero"
+msgstr ""
+
+#: Civixero.php
 msgid "Civi Xero"
 msgstr "Civi Xero"
 
@@ -180,21 +179,29 @@ msgstr "Factuur Sync Link"
 msgid "Contact Sync Link"
 msgstr "Contact Sync Link"
 
-#: api/v3/Civixero/Invoicepull.php
+#: api/v3/Civixero/Contactpull.php api/v3/Civixero/Invoicepull.php
 msgid "Sync Start Date"
 msgstr "Sync Startdatum"
 
-#: api/v3/Civixero/Invoicepull.php
+#: api/v3/Civixero/Contactpull.php api/v3/Civixero/Invoicepull.php
 msgid "date to start pulling from (default \"yesterday\")"
 msgstr "startdatum voor het ophalen (standaard \"gisteren\")"
 
-#: api/v3/Civixero/Invoicepull.php
+#: api/v3/Civixero/Contactpull.php api/v3/Civixero/Invoicepull.php
 msgid "Connector ID"
 msgstr "Connector-id"
 
-#: api/v3/Civixero/Invoicepull.php
+#: api/v3/Civixero/Contactpull.php api/v3/Civixero/Invoicepull.php
 msgid "Connector ID if using nz.co.fuzion.connectors, else 0"
 msgstr "Connector-id bij gebruik van nz.co.fuzion.connectoren, anders 0"
+
+#: api/v3/Civixero/Contactpull.php
+msgid "Xero Contact ID"
+msgstr ""
+
+#: api/v3/Civixero/Contactpull.php
+msgid "Specify Xero Contact UUID to retrieve a single contact record"
+msgstr ""
 
 #: api/v3/Civixero/Invoicepull.php
 msgid "Invoice Number"
@@ -203,6 +210,18 @@ msgstr "Factuurnummer"
 #: api/v3/Civixero/Invoicepull.php
 msgid "The (Optional) Xero Invoice number to pull (eg. IN-0624"
 msgstr "Het (optionele) Xero factuurnummer voor het ophalen (bijv. IN-0624"
+
+#: api/v3/Civixero/Invoicepull.php
+msgid "Xero Invoice ID"
+msgstr ""
+
+#: api/v3/Civixero/Invoicepull.php
+msgid "Specify Xero Invoice UUID to retrieve a single contribution record"
+msgstr ""
+
+#: api/v3/Civixero/Invoicepull.php
+msgid "Create contributions in CiviCRM if they don't exist"
+msgstr ""
 
 #: managed/navigation.mgd.php
 msgid "Xero Settings"
@@ -259,7 +278,3 @@ msgstr "Contact is gesynchroniseerd met Xero"
 #: templates/CRM/Civixero/Page/Inline/ContactSyncStatus.tpl
 msgid "Contact is queued for sync with Xero"
 msgstr "Contact in wachtrij voor synchronisatie met Xero"
-
-#: templates/CRM/Civixero/Page/Inline/ContactSyncStatus.tpl
-msgid "Error getting sync status"
-msgstr "Fout bij ophalen status synchronisatie"
