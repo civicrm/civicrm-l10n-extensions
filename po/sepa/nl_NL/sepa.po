@@ -3,13 +3,13 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# HanV <han.velthuis@kpnmail.nl>, 2023
+# HanV <han.velthuis@kpnmail.nl>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: sepa\n"
 "POT-Creation-Date: 2024-05-14 05:01+0000\n"
-"Last-Translator: HanV <han.velthuis@kpnmail.nl>, 2023\n"
+"Last-Translator: HanV <han.velthuis@kpnmail.nl>, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: CRM/Admin/Form/Setting/SepaSettings.php
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Cycle Day(s)"
-msgstr "Cyclus dag(en)"
+msgstr "Cyclus-dag(en)"
 
 #: CRM/Admin/Form/Setting/SepaSettings.php
 msgid "One-off horizon"
@@ -155,7 +155,7 @@ msgstr "IBAN"
 
 #: CRM/Admin/Form/Setting/SepaSettings.php
 msgid "CUC (only from CBIBdySDDReq)"
-msgstr ""
+msgstr "CUC (alleen van CBIBdySDDReq)"
 
 #: CRM/Admin/Form/Setting/SepaSettings.php CRM/Sepa/DAO/SEPACreditor.php
 #: CRM/Sepa/Form/CreateMandate.php CRM/Sepa/Form/Report/SepaMandateOOFF.php
@@ -397,11 +397,11 @@ msgstr "Campagne gewijzigd van '%1' [%2] in '%3' [%4]."
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "Cycle day changed"
-msgstr ""
+msgstr "Cyclus-dag gewijzigd"
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "Cycle day changed from '%1' to '%2'."
-msgstr ""
+msgstr "Cyclus-dag gewijzigd van '%1' in '%2'."
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "%1 pending contributions were adjusted as well."
@@ -655,11 +655,11 @@ msgstr "Indien waar, deze crediteur gebruikt geen BIC's"
 #: CRM/Sepa/DAO/SEPACreditor.php
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "CUC"
-msgstr ""
+msgstr "CUC"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "CUC of the creditor"
-msgstr ""
+msgstr "CUC van de crediteur"
 
 #: CRM/Sepa/DAO/SEPAMandate.php
 msgid "SEPAMandates"
@@ -1209,7 +1209,7 @@ msgstr "Terugkerend rapport SEPA-mandaat (org.project60.sepa)"
 
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php sepa.php
 msgid "Cycle Day"
-msgstr "Cyclus dag"
+msgstr "Cyclus-dag"
 
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php
 msgid "Recurring Contribution Status"
@@ -1233,7 +1233,7 @@ msgstr "Cyclus interval"
 
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php
 msgid "Cycle Days"
-msgstr "Cyclus dagen"
+msgstr "Cyclus-dagen"
 
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php
 msgid "Total Amount Collected"
@@ -1950,23 +1950,23 @@ msgstr "SEPA Mandaat"
 
 #: Civi/Sepa/ContainerSpecs.php
 msgid "SEPA Creditor"
-msgstr ""
+msgstr "SEPA Crediteur"
 
 #: Civi/Sepa/ContainerSpecs.php
 msgid "SEPA Transaction Group"
-msgstr ""
+msgstr "SEPA Transactiegroep"
 
 #: Civi/Sepa/ContainerSpecs.php
 msgid "SEPA SDD File"
-msgstr ""
+msgstr "SEPA SDD-bestand"
 
 #: Civi/Sepa/ContainerSpecs.php
 msgid "SEPA Contribution Group"
-msgstr ""
+msgstr "SEPA Contributiegroep"
 
 #: Civi/Sepa/ContainerSpecs.php
 msgid "SEPA Mandate Link"
-msgstr ""
+msgstr "SEPA Mandaat Link"
 
 #: api/v3/SepaTransactionGroup.php
 msgid "SEPA DD Transaction Batch"
@@ -2059,7 +2059,7 @@ msgstr "SEPA-mandaat aanmaken"
 
 #: sepa.php
 msgid "Allows creating SEPA Direct Debit mandates."
-msgstr ""
+msgstr "Toestaan van het aanmaken van SEPA Direct Debit mandaten."
 
 #: sepa.php
 msgid "View SEPA mandates"
@@ -2067,7 +2067,7 @@ msgstr "SEPA-mandaten weergeven"
 
 #: sepa.php
 msgid "Allows viewing SEPA Direct Debit mandates"
-msgstr ""
+msgstr "Toestaan van het bekijken van SEPA Direct Debit mandaten"
 
 #: sepa.php
 msgid "Edit SEPA mandates"
@@ -2075,7 +2075,7 @@ msgstr "SEPA-mandaat wijzigen"
 
 #: sepa.php
 msgid "Allows editing SEPA Direct Debit mandates."
-msgstr ""
+msgstr "Toestaan van het wijzigen van SEPA Direct Debit mandaten."
 
 #: sepa.php
 msgid "Delete SEPA mandates"
@@ -2083,7 +2083,7 @@ msgstr "SEPA-mandaat verwijderen"
 
 #: sepa.php
 msgid "Allows deleting SEPA Direct Debit mandates"
-msgstr ""
+msgstr "Toestaan van het verwijderen van SEPA Direct Debit mandaten"
 
 #: sepa.php
 msgid "View SEPA transaction groups"
@@ -2092,6 +2092,8 @@ msgstr "SEPA-transactiegroepen weergeven"
 #: sepa.php
 msgid "Allows viewing groups of SEPA transactions to be sent to the bank."
 msgstr ""
+"Toestaan van het bekijken van SEPA transactiegroepen die naar de bank zullen"
+" worden verzonden."
 
 #: sepa.php
 msgid "Batch SEPA transaction groups"
@@ -2100,6 +2102,8 @@ msgstr "Batch SEPA-transactiegroepen"
 #: sepa.php
 msgid "Allows generating groups of SEPA transactions to be sent to the bank."
 msgstr ""
+"Toestaan van het aanmaken van SEPA transactiegroepen die naar de bank zullen"
+" worden verzonden."
 
 #: sepa.php
 msgid "Delete SEPA transaction groups"
@@ -2108,6 +2112,8 @@ msgstr "SEPA-transactiegroep verwijderen"
 #: sepa.php
 msgid "Allows deleting groups of SEPA transactions to be sent to the bank."
 msgstr ""
+"Toestaan van het verwijderen van SEPA transactiegroepen die naar de bank "
+"zullen worden verzonden."
 
 #: sepa.php
 msgid ""
@@ -2609,6 +2615,8 @@ msgid ""
 "CUC-code (\"Codice Univoco CBI\") of the financial institution of the "
 "creditor. It is only required for CBIBdySDDReq SEPA file format."
 msgstr ""
+"CUC-code (\"Codice Univoco CBI\") van het financiële instituut van de "
+"crediteur. Dit is alleen verplicht voor het bestandsformaat CBIBdySDDReq."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Creditors"
@@ -3477,6 +3485,8 @@ msgid ""
 "When you change the cycle day be aware that you might end up collecting "
 "twice in the same month, or miss a collection altogether."
 msgstr ""
+"Wanneer u de cyclus-dag wijzigt, houd er dan rekening mee dat u mogelijk "
+"twee keer in dezelfde maand incasseert of een incasso helemaal mist."
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "SEPA Recurring Mandate"
@@ -3577,15 +3587,15 @@ msgstr "Reden van vervangen:"
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "Change Cycle Day"
-msgstr ""
+msgstr "Cyclus-dag wijzigen"
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "New cycle day:"
-msgstr ""
+msgstr "Nieuw cyclus-dag:"
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "Cyle Day"
-msgstr ""
+msgstr "Cyclus-dag"
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "Adjust Amount"
