@@ -40,10 +40,13 @@ msgid ""
 "NULL connector_id. These need updating manually to 0 or the connector ID if "
 "using the connectors extension."
 msgstr ""
+"Er zijn %1 records in de tabel 'civicrm_account_contact' die een NULL-"
+"connector_id hebben. Deze moeten handmatig worden bijgewerkt naar 0 of de "
+"connector-ID als u de connector-extensie gebruikt."
 
 #: CRM/Accountsync/Check.php
 msgid "AccountSync: Database issues"
-msgstr ""
+msgstr "AccountSync: Database problemen"
 
 #: CRM/Accountsync/Check.php
 msgid ""
@@ -51,6 +54,9 @@ msgid ""
 "NULL connector_id. These need updating manually to 0 or the connector ID if "
 "using the connectors extension."
 msgstr ""
+"Er zijn %1 records in de tabel 'civicrm_account_invoice' die een NULL-"
+"connector_id hebben. Deze moeten handmatig worden bijgewerkt naar 0 of de "
+"connector-ID als u de connector-extensie gebruikt."
 
 #: CRM/Accountsync/DAO/AccountContact.php
 msgid "Account Contacts"
@@ -85,7 +91,7 @@ msgstr "CiviCRM Contact-id"
 #: CRM/Accountsync/DAO/AccountContact.php managed/contact_errors.mgd.php
 #: managed/contact_list.mgd.php
 msgid "Accounts Contact ID"
-msgstr ""
+msgstr "Accounts Contact-id"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php
@@ -187,12 +193,12 @@ msgstr "Dit contact niet synchroniseren"
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php managed/contact_list.mgd.php
 msgid "Error Resolved"
-msgstr ""
+msgstr "Fout opgelost"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Filter out if resolved"
-msgstr ""
+msgstr "Uitfilteren indien opgelost"
 
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Account Invoices"
@@ -218,11 +224,11 @@ msgstr "FK naar tabel Contribution."
 
 #: CRM/Accountsync/DAO/AccountInvoice.php managed/invoice_errors.mgd.php
 msgid "Accounts Invoice ID"
-msgstr ""
+msgstr "Accounts Factuur-id"
 
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Accounts Status ID"
-msgstr ""
+msgstr "Accounts Status-id"
 
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Status in accounts system (mapped to civicrm definition)"
@@ -230,11 +236,11 @@ msgstr "Status in boekhoudsysteem (gekoppeld aan CiviCRM definitie)"
 
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Accounting system status"
-msgstr ""
+msgstr "Accounting systeemstatus"
 
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Last Modified Date"
-msgstr ""
+msgstr "Laatste wijzigingsdatum"
 
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Connection"
@@ -242,43 +248,50 @@ msgstr "Connectie"
 
 #: Civi/Hooks/SearchKitTasks.php
 msgid "Retry sync"
-msgstr ""
+msgstr "Herhalen sync"
 
 #: Civi/Hooks/SearchKitTasks.php
 msgid "Processing ..."
-msgstr ""
+msgstr "Verwerking..."
 
 #: Civi/Hooks/SearchKitTasks.php
 msgid "Successfully marked %1 records to retry next time the sync job runs."
 msgstr ""
+"%1 records zijn gemarkeerd om opnieuw te proberen bij de volgende keer dat "
+"de synchronisatietaak wordt uitgevoerd."
 
 #: Civi/Hooks/SearchKitTasks.php
 msgid "An error occurred while attempting to mark %1 records for retry."
 msgstr ""
+"Er is een fout opgetreden tijdens de poging om %1 records te markeren voor "
+"het opnieuw te verwerken."
 
 #: Civi/Hooks/SearchKitTasks.php
 msgid "Mark as resolved"
-msgstr ""
+msgstr "Als opgelost zien"
 
 #: Civi/Hooks/SearchKitTasks.php
 msgid "Successfully marked %1 records as resolved."
-msgstr ""
+msgstr "Er zijn %1 records gemarkeerd als opgelost."
 
 #: Civi/Hooks/SearchKitTasks.php
 msgid "An error occurred while marking errors as resolved."
 msgstr ""
+"Er is een fout opgetreden tijdens het markeren van fouten als opgelost."
 
 #: Civi/Hooks/SearchKitTasks.php
 msgid "Do not sync"
-msgstr ""
+msgstr "Niet sync"
 
 #: Civi/Hooks/SearchKitTasks.php
 msgid "Successfully marked %1 records as \"Do not Sync\"."
-msgstr ""
+msgstr "Er zijn %1 records gemarkeerd als \"niet synchroniseren\"."
 
 #: Civi/Hooks/SearchKitTasks.php
 msgid "An error occurred while marking errors as \"Do not Sync\"."
 msgstr ""
+"Er is een fout opgetreden tijdens het markeren van fouten als \"niet "
+"synchroniseren\"."
 
 #: accountsync.php
 msgid ""
@@ -339,7 +352,7 @@ msgstr "Opgeslagen"
 
 #: managed/SavedSearch_Non_queued_Contributions.mgd.php
 msgid "Non Queued Contributions"
-msgstr ""
+msgstr "Bijdragen niet in de wachtrij"
 
 #: managed/SavedSearch_Non_queued_Contributions.mgd.php
 msgid ""
