@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mjwshared\n"
-"POT-Creation-Date: 2024-07-18 05:02+0000\n"
+"POT-Creation-Date: 2024-08-27 05:02+0000\n"
 "Last-Translator: HanV <han.velthuis@kpnmail.nl>, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -283,11 +283,11 @@ msgstr ""
 
 #: Civi/Api4/Action/PaymentMJW/Create.php
 msgid "Payment Method (FK to payment_instrument option group values)"
-msgstr ""
+msgstr "Betaalmethode  (FK naar payment_instrument option group values)"
 
 #: Civi/Api4/Action/PaymentMJW/Create.php
 msgid "Card Type ID (FK to accept_creditcard option group values)"
-msgstr ""
+msgstr "Kaarttype-id (FK naar accept_creditcard option group values)"
 
 #: Civi/Api4/Action/PaymentMJW/Create.php
 msgid "Transaction Result Code"
@@ -296,10 +296,12 @@ msgstr "Transactie-resultaatcode"
 #: Civi/Api4/Action/PaymentMJW/Create.php
 msgid "Transaction ID supplied by external processor. This may not be unique."
 msgstr ""
+"Transactie-id aangeleverd door een extern proces. Mogelijk is het niet "
+"uniek."
 
 #: Civi/Api4/Action/PaymentMJW/Create.php
 msgid "Payment Processor external order reference"
-msgstr ""
+msgstr "Betaalmethode externe volgorde referentie"
 
 #: Civi/Api4/Action/PaymentMJW/Create.php
 msgid "Check Number"
@@ -307,7 +309,7 @@ msgstr "Controlegetal"
 
 #: Civi/Api4/Action/PaymentMJW/Create.php
 msgid "PAN Truncation (Last 4 digits of credit card)"
-msgstr ""
+msgstr "PAN afkapping (Laatste 4 cijfers van creditcard)"
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "Payment Processor Webhooks"
@@ -359,11 +361,11 @@ msgstr "%count webhooks"
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "Search identifier"
-msgstr ""
+msgstr "Identificatie zoeken"
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "Search raw data"
-msgstr ""
+msgstr "Ruwe data zoeken"
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "Previous page"
@@ -467,11 +469,11 @@ msgstr "Vul a.u.b. alle verplichte velden in!"
 
 #: managed/ProcessPaymentprocessorWebhooks.mgd.php
 msgid "Process incomplete payment processor webhooks"
-msgstr ""
+msgstr "Niet volledige betaalmethode webhooks verwerken"
 
 #: managed/customdata.mgd.php
 msgid "Financial Transaction (Payment)"
-msgstr ""
+msgstr "Financiële Transactie (Betaling)"
 
 #: managed/customdata.mgd.php
 msgid "Payment details"
@@ -479,7 +481,7 @@ msgstr "Details betaling"
 
 #: managed/navigationmenu.mgd.php
 msgid "Payment Shared Settings"
-msgstr ""
+msgstr "Gedeelde instellingen betalingen"
 
 #: managed/navigationmenu.mgd.php
 msgid "Payment processor webhooks"
@@ -500,6 +502,8 @@ msgstr ""
 #: settings/mjwshared.setting.php
 msgid "Disable the \"Record Refund\" link on edit contribution"
 msgstr ""
+"Bij het wijzigen van een bijdrage de link om een terugbetaling te "
+"registreren uitschakelen"
 
 #: settings/mjwshared.setting.php
 msgid ""
@@ -508,6 +512,10 @@ msgid ""
 "contribution \"Record Refund\" does not communicate with the payment "
 "processor."
 msgstr ""
+"Standaard voegt CiviCRM bij het bewerken van een bijdrage een link toe om "
+"een terugbetaling te registreren. Dit kan verwarrend zijn als de de "
+"betaalmethode terugbetaling is ingeschakeld omdat de standaard terugbetaling"
+" losstaat van de betaalmethode."
 
 #: settings/mjwshared.setting.php
 msgid "Enable Javascript debugging?"
