@@ -3,13 +3,13 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Kaya Zeren <kayazeren@gmail.com>, 2022-2023
+# Kaya Zeren <kayazeren@gmail.com>, 2022-2024
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
 "POT-Creation-Date: 2024-02-10 05:01+0000\n"
 "PO-Revision-Date: 2013-10-08 17:09+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2022-2023\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2022-2024\n"
 "Language-Team: Turkish (http://app.transifex.com/civicrm/civicrm_extensions/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: CRM/Volunteer/BAO/Commendation.php
 msgid "Volunteer Commendation for %1"
-msgstr ""
+msgstr "%1 için gönüllü takdiri"
 
 #: CRM/Volunteer/BAO/Need.php templates/CRM/Volunteer/Page/Backbone/Assign.tpl
 msgid "Any"
@@ -27,31 +27,31 @@ msgstr "Tümü"
 
 #: CRM/Volunteer/BAO/Project.php
 msgid "Radius should exist and be numeric"
-msgstr ""
+msgstr "Yarıçap var ve sayısal olmalıdır"
 
 #: CRM/Volunteer/BAO/Project.php
 msgid "Either Country or both Latitude and Longitude are required"
-msgstr ""
+msgstr "Ülke ya da hem Enlem hem de Boylam değeri gereklidir"
 
 #: CRM/Volunteer/BAO/Project.php
 msgid "Profile(s) for Individual Registration"
-msgstr ""
+msgstr "Bireysel kayıt için profil(ler)"
 
 #: CRM/Volunteer/BAO/Project.php
 msgid "Individual Registration"
-msgstr ""
+msgstr "Bireysel kayıt"
 
 #: CRM/Volunteer/BAO/Project.php
 msgid "Profile(s) for Group Registration"
-msgstr ""
+msgstr "Grup kaydı için profil(ler)"
 
 #: CRM/Volunteer/BAO/Project.php
 msgid "Group Registration"
-msgstr ""
+msgstr "Grup kaydı"
 
 #: CRM/Volunteer/BAO/Project.php
 msgid "Profile(s) for Both Individual and Group Registration"
-msgstr ""
+msgstr "Hem bireysel hem de grup kaydı için profil(ler)"
 
 #: CRM/Volunteer/BAO/Project.php
 msgid "Both"
@@ -63,7 +63,7 @@ msgstr "Gönüllü gereksinimleri"
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "Volunteer Need"
-msgstr ""
+msgstr "Gönüllü gereksinimi"
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "CiviVolunteer Need ID"
@@ -71,13 +71,13 @@ msgstr "CiviVolunteer gereksinim kimliği"
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "Need Id"
-msgstr ""
+msgstr "Gereksinim kimliği"
 
 #: CRM/Volunteer/DAO/Need.php
 msgid ""
 "FK to civicrm_volunteer_project table which contains entity_table + entity "
 "for each volunteer project (initially civicrm_event + eventID)."
-msgstr ""
+msgstr "Her gönüllü projesi için entity_table + entity (başlangıçta civicrm_event + eventID) bulunan civicrm_volunteer_project tablosunun dış anahtarı."
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "Start Date and Time"
@@ -85,13 +85,13 @@ msgstr "Başlangıç tarihi ve saati"
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "End Date and Time"
-msgstr ""
+msgstr "Bitiş tarihi ve saati"
 
 #: CRM/Volunteer/DAO/Need.php
 msgid ""
 "Used for specifying fuzzy dates, e.g., I have a need for 3 hours of "
 "volunteer work to be completed between 12/01/2015 and 12/31/2015."
-msgstr ""
+msgstr "Belirsiz tarihleri ​​belirtmek için kullanılır. Örneğin; 12/01/2015 ile 12/31/2015 tarihleri ​​arasında tamamlanması gereken 3 saatlik gönüllü çalışmaya gerek duyuyorum."
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "Duration"
@@ -99,7 +99,7 @@ msgstr "Süre"
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "Length in minutes of this volunteer time slot."
-msgstr ""
+msgstr "Dakika olarak bu gönüllü zaman aralığının süresi."
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "Flexible"
@@ -110,7 +110,7 @@ msgid ""
 "Boolean indicating whether or not the time and role are flexible. Activities"
 " linked to a flexible need indicate that the volunteer is generally "
 "available."
-msgstr ""
+msgstr "Zamanın ve rolün esnek olup olmadığını belirten ikili değer. Esnek bir gereksinime bağlanmış işlemler, gönüllünün genel olarak uygun olduğunu gösterir."
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "Quantity"
@@ -118,7 +118,7 @@ msgstr "Adet"
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "The number of volunteers needed for this need."
-msgstr ""
+msgstr "Bu gereksinim için gereken gönüllü sayısı."
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "Visibility"
@@ -128,7 +128,7 @@ msgstr "Görünürlük"
 msgid ""
 " Indicates whether this need is offered on public volunteer signup forms. "
 "Implicit FK to option_value row in visibility option_group."
-msgstr ""
+msgstr "Bu gereksinimin herkese açık gönüllü kayıt formlarında sunulup sunulmayacağını belirler. Görünürlük option_group içindeki option_value alanına yazılacak dış anahtar."
 
 #: CRM/Volunteer/DAO/Need.php ang/volunteer/VolOppsCtrl.html
 #: templates/CRM/Volunteer/Form/Log.tpl
@@ -142,7 +142,7 @@ msgstr "Rol"
 msgid ""
 "The role associated with this need. Implicit FK to option_value row in "
 "volunteer_role option_group."
-msgstr ""
+msgstr "Bu gereksinimle ilişkili rol. volunteer_role option_group içindeki option_value alanına yazılacak dış anahtar."
 
 #: CRM/Volunteer/DAO/Need.php CRM/Volunteer/DAO/Project.php
 msgid "Enabled"
@@ -150,23 +150,23 @@ msgstr "Etkin"
 
 #: CRM/Volunteer/DAO/Need.php CRM/Volunteer/DAO/Project.php
 msgid "Is this need enabled?"
-msgstr ""
+msgstr "Bu gereksinim etkin mi?"
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "Date of Creation"
-msgstr ""
+msgstr "Oluşturulma tarihi"
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "Date of Last Update"
-msgstr ""
+msgstr "Son güncelleme tarihi"
 
 #: CRM/Volunteer/DAO/Project.php
 msgid "Volunteer Projects"
-msgstr ""
+msgstr "Gönüllü projeleri"
 
 #: CRM/Volunteer/DAO/Project.php ang/volunteer/Projects.html
 msgid "Volunteer Project"
-msgstr ""
+msgstr "Gönüllü projesi"
 
 #: CRM/Volunteer/DAO/Project.php CRM/Volunteer/DAO/ProjectContact.php
 msgid "CiviVolunteer Project ID"
@@ -174,7 +174,7 @@ msgstr "CiviVolunteer proje kimliği"
 
 #: CRM/Volunteer/DAO/Project.php
 msgid "Project Id"
-msgstr ""
+msgstr "Proje kimliği"
 
 #: CRM/Volunteer/DAO/Project.php ang/volunteer/Projects.html
 msgid "Title"
@@ -182,7 +182,7 @@ msgstr "Başlık"
 
 #: CRM/Volunteer/DAO/Project.php
 msgid "The title of the Volunteer Project"
-msgstr ""
+msgstr "Gönüllü projesinin başlığı"
 
 #: CRM/Volunteer/DAO/Project.php
 msgid "Description"
@@ -192,7 +192,7 @@ msgstr "Açıklama"
 msgid ""
 "Full description of the Volunteer Project. Text and HTML allowed. Displayed "
 "on sign-up screens."
-msgstr ""
+msgstr "Gönüllü projesinin tam açıklaması. Metin ve HTML kodları kullanılabilir. Kayıt ekranlarında görüntülenir."
 
 #: CRM/Volunteer/DAO/Project.php
 msgid "Entity Table"
@@ -200,19 +200,19 @@ msgstr "Varlık tablosu"
 
 #: CRM/Volunteer/DAO/Project.php
 msgid "Entity table for entity_id (initially civicrm_event)"
-msgstr ""
+msgstr "entity_id için varlık tablosu (başlangıçta civicrm_event)"
 
 #: CRM/Volunteer/DAO/Project.php
 msgid "Implicit FK project entity (initially eventID)."
-msgstr ""
+msgstr "Proje varlığına yazılacak dış anahtar (başlangıçta eventID)."
 
 #: CRM/Volunteer/DAO/Project.php
 msgid "Location Block ID"
-msgstr ""
+msgstr "Konum bloğu kimliği"
 
 #: CRM/Volunteer/DAO/Project.php
 msgid "FK to Location Block ID"
-msgstr ""
+msgstr "Konum bloğu kimliğinin dış anahtarı"
 
 #: CRM/Volunteer/DAO/Project.php CRM/Volunteer/Form/Settings.php
 #: ang/volunteer/Project.html ang/volunteer/Projects.html
@@ -221,23 +221,23 @@ msgstr "Kampanya"
 
 #: CRM/Volunteer/DAO/Project.php
 msgid "The campaign associated with this Volunteer Project."
-msgstr ""
+msgstr "Bu gönüllü projesi ile ilişkili kampanya."
 
 #: CRM/Volunteer/DAO/ProjectContact.php
 msgid "Volunteer Project Contacts"
-msgstr ""
+msgstr "Gönüllü projesi kişileri"
 
 #: CRM/Volunteer/DAO/ProjectContact.php
 msgid "Volunteer Project Contact"
-msgstr ""
+msgstr "Gönüllü projesi kişisi"
 
 #: CRM/Volunteer/DAO/ProjectContact.php
 msgid "CiviVolunteer ProjectContact Row ID"
-msgstr ""
+msgstr "CiviVolunteer ProjectContact satır kimliği"
 
 #: CRM/Volunteer/DAO/ProjectContact.php
 msgid "Foreign key to the Volunteer Project for this record"
-msgstr ""
+msgstr "Bu kaydın gönüllü projesinin dış anahtarı"
 
 #: CRM/Volunteer/DAO/ProjectContact.php
 msgid "Contact ID"
@@ -245,7 +245,7 @@ msgstr "Kişi kimliği"
 
 #: CRM/Volunteer/DAO/ProjectContact.php
 msgid "Foreign key to the Contact for this record"
-msgstr ""
+msgstr "Bu kaydın kişisinin dış anahtarı"
 
 #: CRM/Volunteer/DAO/ProjectContact.php
 msgid "Relationship Type"
@@ -1276,7 +1276,7 @@ msgstr ""
 
 #: ang/volunteer/VolOppsCtrl.js
 msgid "Searching..."
-msgstr ""
+msgstr "Aranıyor..."
 
 #: ang/volunteer/VolOppsCtrl.js
 msgid "Search complete"
