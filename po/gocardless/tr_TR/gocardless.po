@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gocardless\n"
-"POT-Creation-Date: 2024-04-06 05:01+0000\n"
+"POT-Creation-Date: 2024-05-25 05:01+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (https://app.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -67,37 +67,39 @@ msgstr "GoCardless otomatik ödeme"
 
 #: ang/gocardless/GoCardlessSettings.html settings/gocardless.setting.php
 msgid "GoCardless settings"
-msgstr ""
+msgstr "GoCardless ayarları"
 
 #: ang/gocardless/GoCardlessSettings.html
 msgid "Please see <a %1>reference documentation</a> for these settings"
-msgstr ""
+msgstr "Bu ayarlar için lütfen <a %1>başvuru belgelerine</a> bakın"
 
 #: ang/gocardless/GoCardlessSettings.html
 msgid ""
 "Force recurring contributions when a GoCardless payment processor is chosen"
 msgstr ""
+"Bir GoCardless ödeme aracısı seçildiğinde yinelenen katkılar zorunlu olsun"
 
 #: ang/gocardless/GoCardlessSettings.html
 msgid "Receipts"
-msgstr ""
+msgstr "Alındılar"
 
 #: ang/gocardless/GoCardlessSettings.html
 msgid "Never send receipts"
-msgstr ""
+msgstr "Alındılar hiçbir zaman gönderilmesin"
 
 #: ang/gocardless/GoCardlessSettings.html
 msgid "Always send receipts"
-msgstr ""
+msgstr "Alındılar her zaman gönderilsin"
 
 #: ang/gocardless/GoCardlessSettings.html
 msgid ""
 "Defer to Contribution Recur record’s <code>is_email_receipt</code> field"
 msgstr ""
+"Katkı yinelenme kaydının <code>is_email_receipt</code> alanına ötelensin"
 
 #: ang/gocardless/GoCardlessSettings.html
 msgid "Allowed days of month"
-msgstr ""
+msgstr "Ayın izin verilen günleri"
 
 #: ang/gocardless/GoCardlessSettings.html
 msgid "Save"
@@ -105,7 +107,7 @@ msgstr "Kaydet"
 
 #: ang/gocardless/GoCardlessSettings.js js/gcform.js
 msgid "uk.artfulrobot.civicrm.gocardless"
-msgstr ""
+msgstr "uk.artfulrobot.civicrm.gocardless"
 
 #: ang/gocardless/GoCardlessSettings.js
 msgid "Saving..."
@@ -117,7 +119,7 @@ msgstr "Kaydedildi"
 
 #: gocardless.php
 msgid "GoCardless Settings"
-msgstr ""
+msgstr "GoCardless ayarları"
 
 #: gocardless.php
 msgid "Webhook secrets MUST be unique between test and live."
@@ -131,10 +133,15 @@ msgid ""
 " install from a released .zip/.gz file. Drupal 8+ admins will need to ensure"
 " this project‘s composer libs are installed."
 msgstr ""
+"GoCardlessPro sınıfları eksik. Bu durum, Git deposundan kurulum yaparsanız "
+"ve composer kurulumu yapmazsanız ortaya çıkabilir. Bu durum, yayınlanmış bir"
+" .zip/.gz dosyasından kurulum yapılırken asla gerçekleşmemelidir. Drupal 8+ "
+"yöneticilerinin bu projenin composer kitaplıklarının kurulduğundan emin "
+"olmaları gerekir."
 
 #: gocardless.php
 msgid "GoCardless extension incomplete install: will cause crashes!"
-msgstr ""
+msgstr "GoCardless eklentisi eksik kurulum: Çökmeye neden olacak!"
 
 #: gocardless.php
 msgid "Missing Financial Account for GoCardless"
@@ -142,7 +149,19 @@ msgstr "GoCardless için mali hesap eksik"
 
 #: gocardless.php
 msgid "Legacy webhook URLs used on %1"
+msgstr "%1 üzerinde kullanılan eski İnternet kancası adresleri"
+
+#: gocardless.php
+msgid ""
+"This flag will cause live API calls to fail; it should not be set in "
+"production environments."
 msgstr ""
+"Bu işaret canlı API çağrılarının başarısız olmasına yol açar. Üretim "
+"ortamında ayarlanmamalıdır."
+
+#: gocardless.php
+msgid "CIVI_GOCARDLESS_FORCE_SANDBOX_ENVIRONMENT set!"
+msgstr "CIVI_GOCARDLESS_FORCE_SANDBOX_ENVIRONMENT ayarlanmış!"
 
 #: js/gcform.js
 msgid "Day of month"
@@ -150,8 +169,8 @@ msgstr "Ayın günü"
 
 #: js/gcform.js
 msgid "Your direct debit will be collected on the %1 day of the month"
-msgstr ""
+msgstr "Otomatik ödemeniz ayın %1. gününde alınacak"
 
 #: settings/gocardless.setting.php
 msgid "JSON encoded settings."
-msgstr ""
+msgstr "JSON olarak kodlanmış ayarlar."
