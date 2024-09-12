@@ -44,7 +44,7 @@ msgstr "Bu kişi zaten bu etkinlikle ilişkilendirilmiş."
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPayment/Create.php
 #: CRM/CiviMobileAPI/ApiWrapper/Participant/Create.php
 msgid "This contact has already been assigned to event with same date."
-msgstr ""
+msgstr "Bu kişi aynı tarihli etkinliğe zaten atanmış."
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPayment/Create.php
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
@@ -489,14 +489,17 @@ msgid ""
 "href=\"https://platform.openai.com/account/api-keys\"  "
 "target=\"_blank\">openai.com</a> and create your own Secret Key"
 msgstr ""
+"ChatGPT kullanmak için <a href=\"https://platform.openai.com/account/api-"
+"keys\"  target=\"_blank\">openai.com</a> adresinden kayıt olmalı ve kendi "
+"gizli anahtarınızı oluşturmalısınız"
 
 #: CRM/CiviMobileAPI/Form/CiviAiSettings.php
 msgid "Fields cannot be empty."
-msgstr ""
+msgstr "Alanlar boş olamaz."
 
 #: CRM/CiviMobileAPI/Form/CiviAiSettings.php
 msgid "Secret key"
-msgstr ""
+msgstr "Gizli anahtar"
 
 #: CRM/CiviMobileAPI/Form/CiviAiSettings.php
 #: CRM/CiviMobileAPI/Form/Settings.php
@@ -505,7 +508,7 @@ msgstr "Ayarları kaydet"
 
 #: CRM/CiviMobileAPI/Form/CiviAiSettings.php
 msgid "Secret key updated"
-msgstr ""
+msgstr "Gizli anahtar güncellendi"
 
 #: CRM/CiviMobileAPI/Form/CiviAiSettings.php
 #: CRM/CiviMobileAPI/Form/Settings.php civimobileapi.php
@@ -744,7 +747,7 @@ msgstr "Herkese açık alan görüntülensin"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Show Reset password"
-msgstr ""
+msgstr "Parolayı sıfırla görüntülensin"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
@@ -768,6 +771,7 @@ msgstr "Özel uygulamanız var mı?"
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Do you want disallow registration on events at same date?"
 msgstr ""
+"Aynı tarihteki etkinliklere kayıt yapılmasını engellemek ister misiniz?"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Life time for push notification messages"
@@ -791,7 +795,7 @@ msgstr "CiviMobile ayarları güncellendi"
 
 #: CRM/CiviMobileAPI/Form/Speaker.php
 msgid "The speaker doesn`t exists."
-msgstr ""
+msgstr "Konuşmacı bulunamadı."
 
 #: CRM/CiviMobileAPI/Form/Speaker.php api/v3/CiviMobileCmsRegistration.php
 #: api/v3/CiviMobilePublicParticipant.php
@@ -832,7 +836,7 @@ msgstr "Katılımcı özgeçmişi kaydedilmedi!"
 
 #: CRM/CiviMobileAPI/Form/Speaker.php
 msgid "Title length cannot be more than %1 characters."
-msgstr ""
+msgstr "Başlık %1 karakterden uzun olamaz."
 
 #: CRM/CiviMobileAPI/Form/Venue.php
 msgid "Empty location id."
@@ -1044,11 +1048,11 @@ msgstr "Anketler"
 
 #: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
 msgid "TimeTracker"
-msgstr ""
+msgstr "Zaman izleyici"
 
 #: CRM/CiviMobileAPI/Install/Entity/OptionValue.php
 msgid "Appointment"
-msgstr ""
+msgstr "Randevu"
 
 #: CRM/CiviMobileAPI/Install/Entity/UpdateMessageTemplate.php
 msgid ""
@@ -1215,27 +1219,27 @@ msgstr ""
 
 #: Civi/Api4/Action/CiviMobileAddAttachment/Create.php
 msgid "Cannot add more attachments. Maximum limit reached"
-msgstr ""
+msgstr "Daha fazla dosya eklenemez. En fazla dosya sayısı sınırına ulaşıldı"
 
 #: Civi/Api4/Action/CiviMobileAddAttachment/Create.php
 msgid "Files were not uploaded"
-msgstr ""
+msgstr "Dosyalar yüklenmedi"
 
 #: Civi/Api4/Action/CiviMobileEventRegistration/Create.php
 msgid "Field 'event_id' is required"
-msgstr ""
+msgstr "'event_id' alanı zorunludur"
 
 #: Civi/Api4/Action/CiviMobileEventRegistration/Create.php
 msgid "Participant registration error."
-msgstr ""
+msgstr "Katılımcı kaydı sorunu."
 
 #: Civi/Api4/Action/CiviMobileEventRegistration/Create.php
 msgid "You already registered on Event."
-msgstr ""
+msgstr "Etkinliğe zaten kayıt olmuşsunuz."
 
 #: Civi/Api4/Action/CiviMobileEventRegistration/Create.php
 msgid "The event is currently full."
-msgstr ""
+msgstr "Etkinlikte yer kalmadı."
 
 #: Civi/Api4/CiviMobileAddAttachment.php Civi/Api4/CiviMobileProfileFields.php
 msgid "Entity ID"
@@ -1247,7 +1251,7 @@ msgstr "Varlık tablosu"
 
 #: Civi/Api4/CiviMobileDeleteAccount.php
 msgid "Account id"
-msgstr ""
+msgstr "Hesap kimliği"
 
 #: Civi/Api4/CiviMobileEventRegistration.php
 msgid "Event ID"
@@ -1255,7 +1259,7 @@ msgstr "Etkinlik kimliği"
 
 #: Civi/Api4/CiviMobileGenerateEventDescription.php
 msgid "Event title"
-msgstr ""
+msgstr "Etkinlik başlığı"
 
 #: Civi/Api4/CiviMobileGenerateEventDescription.php
 #: api/v3/CiviMobileCalendar.php
@@ -1264,7 +1268,7 @@ msgstr "Etkinlik türü"
 
 #: Civi/Api4/CiviMobileGenerateEventDescription.php
 msgid "User input"
-msgstr ""
+msgstr "Kullanıcı girişi"
 
 #: api/v3/CiviMobileActiveRelationship.php
 msgid "Contact id(a) is deleted?"
@@ -1404,7 +1408,7 @@ msgstr "Varlık"
 
 #: api/v3/CiviMobileCustomFields.php
 msgid "Is searchable"
-msgstr ""
+msgstr "Aranabilir"
 
 #: api/v3/CiviMobileEventSession.php
 msgid "EventSession id"
@@ -1618,10 +1622,12 @@ msgid ""
 "Gives possibility to access CiviMobile without accessing web. Works in a "
 "pair with CiviCRM: access CiviCRM backend and API"
 msgstr ""
+"İnternet erişimi olmadan CiviMobile üzerine erişme olanağı sağlar. CiviCRM "
+"ile birlikte çalışır: CiviCRM arka ucuna ve API uygulamasına erişim"
 
 #: civimobileapi.php
 msgid "Allows to send requests to ChatGPT"
-msgstr ""
+msgstr "ChatGPT üzerine istek göndermeyi sağlar"
 
 #: civimobileapi.php
 msgid "CiviMobile Event Locations"
@@ -1633,7 +1639,7 @@ msgstr "CiviMobile kontrol listesi"
 
 #: civimobileapi.php
 msgid "CiviAI Settings"
-msgstr ""
+msgstr "CiviAI ayarları"
 
 #: civimobileapi.php
 msgid "Is allow mobile registration?"
@@ -1731,11 +1737,11 @@ msgstr "Zaman"
 
 #: templates/CRM/CiviMobileAPI/Form/CiviAiSettings.hlp
 msgid "Secret Key"
-msgstr ""
+msgstr "Gizli anahtar"
 
 #: templates/CRM/CiviMobileAPI/Form/CiviAiSettings.hlp
 msgid "The key is used to give access to the ChatGPT functionality"
-msgstr ""
+msgstr "Anahtar, ChatGPT özelliklerine erişmek için kullanılır"
 
 #: templates/CRM/CiviMobileAPI/Form/EventLocations.tpl
 msgid "Locations"
@@ -1781,7 +1787,7 @@ msgstr "Katılımcı"
 
 #: templates/CRM/CiviMobileAPI/Form/Session.tpl
 msgid "Are you really want to delete the Session?"
-msgstr ""
+msgstr "Oturumu silmek istediğinize emin misiniz?"
 
 #: templates/CRM/CiviMobileAPI/Form/Session.tpl
 msgid "New Speaker"
@@ -1885,12 +1891,19 @@ msgid ""
 "    'Public Event' checkbox in Event Info and Settings section.</p>\n"
 "  <p>News may also be present in the Public Area if Show News checkbox is enabled."
 msgstr ""
+"Kutuyu işaretleyerek, anonim kullanıcıların mobil uygulamadaki herkese açık bilgilere erişmesine izin verirsiniz.</p>\n"
+"    <p>Anonim kullanıcı için gerekli tüm izinler verilmişse ve CiviEvent bileşeni etkinleştirilmişse, \n"
+"    etkinlikler herkese açık alanda görüntülenir. Belirli bir etkinliğin herkese açık alanda sunulmasını istiyorsanız, \n"
+"    lütfen etkinlik bilgileri ve ayarlar bölümünde 'Herkese açık etkinlik' kutusunu işaretleyin.</p>\n"
+"    <p>Haberleri görüntüle kutusu işaretlenmişse haberler herkese açık alanda görüntülenir."
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid ""
 "By checking the checkbox you will allow reset password functionality in the "
 "mobile application."
 msgstr ""
+"Kutuyu işaretleyerek mobil uygulama ile parola sıfırlamaya izin vermiş "
+"olursunuz."
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "Push notification Lifetime"
@@ -1906,13 +1919,15 @@ msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "Registration Overlap"
-msgstr ""
+msgstr "Kayıt çakışması"
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid ""
 "By checking the checkbox you will disallow user registration for events that"
 " overlap with other events"
 msgstr ""
+"Kutuyu işaretleyerek, diğer etkinliklerle çakışan etkinlikler için kullanıcı"
+" kaydına izin vermemiş olursunuz"
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "Extension Info"
@@ -1956,6 +1971,8 @@ msgstr ""
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "To use the password reset functionality, configure SMTP in CMS."
 msgstr ""
+"Parola sıfırlama özelliğini kullanmak için CMS üzerinde SMTP ayarını "
+"yapılandırın."
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "News"
@@ -1967,11 +1984,11 @@ msgstr "İçerik yönetimi sisteminde varsayılan RSS akışını ayarla"
 
 #: templates/CRM/CiviMobileAPI/Form/Speaker.tpl
 msgid "Delete contact image"
-msgstr ""
+msgstr "Kişi görselini sil"
 
 #: templates/CRM/CiviMobileAPI/Form/Speaker.tpl
 msgid "Are you sure you want to delete contact image?"
-msgstr ""
+msgstr "Kişi görselini silmek istediğinize emin misiniz?"
 
 #: templates/CRM/CiviMobileAPI/Form/Venue.hlp
 msgid ""
@@ -2035,7 +2052,7 @@ msgstr "Görüntülenecek ad"
 
 #: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
 msgid "Generate description"
-msgstr ""
+msgstr "Açıklama oluştur"
 
 #: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
 msgid "Close"
@@ -2045,6 +2062,8 @@ msgstr "Kapat"
 msgid ""
 "Here you can add some editions. E.g: 'Add new date to the generated text'"
 msgstr ""
+"Buradan bazı sürümler ekleyebilirsiniz. Örneğin: 'Oluşturulan metne yeni "
+"tarih ekle'"
 
 #: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
 msgid "Generate"
@@ -2052,23 +2071,23 @@ msgstr "Üret"
 
 #: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
 msgid "Save description"
-msgstr ""
+msgstr "Açıklamayı kaydet"
 
 #: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
 msgid "Please wait while your description is being generated"
-msgstr ""
+msgstr "Lütfen açıklamanız oluşturulurken bekleyin"
 
 #: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
 msgid "Generated description"
-msgstr ""
+msgstr "Oluşturulan açıklama"
 
 #: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
 msgid "Invalid API key. Please check your key."
-msgstr ""
+msgstr "API anahtarı geçersiz. Lütfen anahtarınızı denetleyin."
 
 #: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
 msgid "Please, enter title and type for the event"
-msgstr ""
+msgstr "Lütfen etkinliğin başlığını ve türünü belirtin"
 
 #: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
 msgid "Warning"
