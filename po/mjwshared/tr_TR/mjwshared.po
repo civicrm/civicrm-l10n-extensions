@@ -286,22 +286,27 @@ msgstr "Katkı durumundaki değişikliğe göre bildirimler gönderilsin mi?"
 #: Civi/Api4/Action/PaymentMJW/Create.php
 msgid "Payment Method (FK to payment_instrument option group values)"
 msgstr ""
+"Ödeme yöntemi (payment_instrument seçenek grubu değerlerinin dış anahtarı)"
 
 #: Civi/Api4/Action/PaymentMJW/Create.php
 msgid "Card Type ID (FK to accept_creditcard option group values)"
 msgstr ""
+"Kart türü kimliği (accept_creditcard seçenek grubu değerlerinin dış "
+"anahtarı)"
 
 #: Civi/Api4/Action/PaymentMJW/Create.php
 msgid "Transaction Result Code"
-msgstr ""
+msgstr "Hesap hareketi sonuç kodu"
 
 #: Civi/Api4/Action/PaymentMJW/Create.php
 msgid "Transaction ID supplied by external processor. This may not be unique."
 msgstr ""
+"Dış aracı tarafından sağlanan hesap hareketi kimliği. Bu değer benzersiz "
+"olmayabilir."
 
 #: Civi/Api4/Action/PaymentMJW/Create.php
 msgid "Payment Processor external order reference"
-msgstr ""
+msgstr "Ödeme aracısının dış sipariş referansı"
 
 #: Civi/Api4/Action/PaymentMJW/Create.php
 msgid "Check Number"
@@ -309,7 +314,7 @@ msgstr "Çek numarası"
 
 #: Civi/Api4/Action/PaymentMJW/Create.php
 msgid "PAN Truncation (Last 4 digits of credit card)"
-msgstr ""
+msgstr "PAN parçası (kredi kartının son 4 rakamı)"
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "Payment Processor Webhooks"
@@ -361,11 +366,11 @@ msgstr "%count internet kancası"
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "Search identifier"
-msgstr ""
+msgstr "Arama belirteci"
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "Search raw data"
-msgstr ""
+msgstr "Ham verilerde ara"
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "Previous page"
@@ -452,7 +457,8 @@ msgstr "Hesap hareketi kimliği"
 #: api/v3/Mjwpayment.php
 msgid "Transaction id supplied by external processor. This may not be unique."
 msgstr ""
-"Dış aracı tarafından sağlanan işlem kimliği. Bu değer benzersiz olmayabilir."
+"Dış aracı tarafından sağlanan hesap hareketi kimliği. Bu değer benzersiz "
+"olmayabilir."
 
 #: js/crm.payment.js
 msgid "Please complete the reCaptcha"
@@ -468,11 +474,11 @@ msgstr "Lütfen tüm zorunlu alanları denetleyip doldurun!"
 
 #: managed/ProcessPaymentprocessorWebhooks.mgd.php
 msgid "Process incomplete payment processor webhooks"
-msgstr ""
+msgstr "İşlemi tamamlanmamış ödeme işlemcisi İnternet kancaları"
 
 #: managed/customdata.mgd.php
 msgid "Financial Transaction (Payment)"
-msgstr ""
+msgstr "Mali hesap hareketi (ödeme)"
 
 #: managed/customdata.mgd.php
 msgid "Payment details"
@@ -480,7 +486,7 @@ msgstr "Ödeme ayrıntıları"
 
 #: managed/navigationmenu.mgd.php
 msgid "Payment Shared Settings"
-msgstr ""
+msgstr "Ödeme paylaşım ayarları"
 
 #: managed/navigationmenu.mgd.php
 msgid "Payment processor webhooks"
@@ -500,7 +506,7 @@ msgstr ""
 
 #: settings/mjwshared.setting.php
 msgid "Disable the \"Record Refund\" link on edit contribution"
-msgstr ""
+msgstr "Katkı düzenlenmesinde \"Geri ödeme kaydedilsin\" bağlantısı kullanılmasın"
 
 #: settings/mjwshared.setting.php
 msgid ""
@@ -509,6 +515,10 @@ msgid ""
 "contribution \"Record Refund\" does not communicate with the payment "
 "processor."
 msgstr ""
+"Varsayılan olarak CiviCRM katkı düzenlemesinde bir \"Geri ödeme "
+"kaydedilsin\" bağlantısı bulunur. Ödeme iadesi kullanıcı arayüzümüz "
+"etkinleştirildiğinde bu durum kafa karıştırıcı olabilir çünkü \"Geri ödeme "
+"kaydedilsin\" katkısı ödeme aracısıyla iletişim kurmaz."
 
 #: settings/mjwshared.setting.php
 msgid "Enable Javascript debugging?"
