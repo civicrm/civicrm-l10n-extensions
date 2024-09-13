@@ -40,10 +40,13 @@ msgid ""
 "NULL connector_id. These need updating manually to 0 or the connector ID if "
 "using the connectors extension."
 msgstr ""
+"`civicrm_account_contact` tablosunda NULL connector_id değeri olan %1 kayıt "
+"var. Bunların el ile 0 olarak ya da bağlayıcılar eklentisi kullanılıyorsa "
+"bağlayıcı kimliği ile güncellenmesi gerekiyor."
 
 #: CRM/Accountsync/Check.php
 msgid "AccountSync: Database issues"
-msgstr ""
+msgstr "Hesap eşitleme: Veri tabanı sorunları"
 
 #: CRM/Accountsync/Check.php
 msgid ""
@@ -51,6 +54,9 @@ msgid ""
 "NULL connector_id. These need updating manually to 0 or the connector ID if "
 "using the connectors extension."
 msgstr ""
+"`civicrm_account_invoice` tablosunda NULL connector_id değeri olan %1 kayıt "
+"var. Bunların el ile 0 olarak ya da bağlayıcılar eklentisi kullanılıyorsa "
+"bağlayıcı kimliği ile güncellenmesi gerekiyor."
 
 #: CRM/Accountsync/DAO/AccountContact.php
 msgid "Account Contacts"
@@ -85,7 +91,7 @@ msgstr "CiviCRM kişi kimliği"
 #: CRM/Accountsync/DAO/AccountContact.php managed/contact_errors.mgd.php
 #: managed/contact_list.mgd.php
 msgid "Accounts Contact ID"
-msgstr ""
+msgstr "Hesapların kişi kimliği"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php
@@ -186,12 +192,12 @@ msgstr "Bu seçenek etkinleştirildiğinde, bu kişi eşitlenmez"
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php managed/contact_list.mgd.php
 msgid "Error Resolved"
-msgstr ""
+msgstr "Sorun çözüldü"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Filter out if resolved"
-msgstr ""
+msgstr "Çözülmüş ise süzülerek katılmasın"
 
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Account Invoices"
@@ -217,11 +223,11 @@ msgstr "Katkı tablosunun dış anahtarı."
 
 #: CRM/Accountsync/DAO/AccountInvoice.php managed/invoice_errors.mgd.php
 msgid "Accounts Invoice ID"
-msgstr ""
+msgstr "Hesapların fatura kimliği"
 
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Accounts Status ID"
-msgstr ""
+msgstr "Hesapların durum kimliği"
 
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Status in accounts system (mapped to civicrm definition)"
@@ -229,11 +235,11 @@ msgstr "Hesap sistemindeki durum civicrm tanımı ile eşleştirilmiş)"
 
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Accounting system status"
-msgstr ""
+msgstr "Muhasebe sistemi durumu"
 
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Last Modified Date"
-msgstr ""
+msgstr "Son değiştirilme tarihi"
 
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Connection"
@@ -241,43 +247,45 @@ msgstr "Bağlantı"
 
 #: Civi/Hooks/SearchKitTasks.php
 msgid "Retry sync"
-msgstr ""
+msgstr "Eşitlemeyi yeniden dene"
 
 #: Civi/Hooks/SearchKitTasks.php
 msgid "Processing ..."
-msgstr ""
+msgstr "İşleniyor..."
 
 #: Civi/Hooks/SearchKitTasks.php
 msgid "Successfully marked %1 records to retry next time the sync job runs."
 msgstr ""
+"%1 kayıt, bir sonraki eşitleme görevi yürütüldüğünde yeniden denenmek üzere "
+"işaretlendi."
 
 #: Civi/Hooks/SearchKitTasks.php
 msgid "An error occurred while attempting to mark %1 records for retry."
-msgstr ""
+msgstr "%1 kayıt yeniden denenmek üzere işaretlenirken bir sorun çıktı."
 
 #: Civi/Hooks/SearchKitTasks.php
 msgid "Mark as resolved"
-msgstr ""
+msgstr "Çözülmüş olarak işaretle"
 
 #: Civi/Hooks/SearchKitTasks.php
 msgid "Successfully marked %1 records as resolved."
-msgstr ""
+msgstr "%1 kayıt, çözülmüş olarak işaretlendi."
 
 #: Civi/Hooks/SearchKitTasks.php
 msgid "An error occurred while marking errors as resolved."
-msgstr ""
+msgstr "Sorunlar çözülmüş olarak işaretlenirken bir sorun çıktı."
 
 #: Civi/Hooks/SearchKitTasks.php
 msgid "Do not sync"
-msgstr ""
+msgstr "Eşitlenmesin"
 
 #: Civi/Hooks/SearchKitTasks.php
 msgid "Successfully marked %1 records as \"Do not Sync\"."
-msgstr ""
+msgstr "%1 kayıt, \"Eşitlenmesin\" olarak işaretlendi."
 
 #: Civi/Hooks/SearchKitTasks.php
 msgid "An error occurred while marking errors as \"Do not Sync\"."
-msgstr ""
+msgstr "Sorunlar \"Eşitlenmesin\" olarak işaretlenirken bir sorun çıktı."
 
 #: accountsync.php
 msgid ""
@@ -337,17 +345,19 @@ msgstr "Kaydedildi"
 
 #: managed/SavedSearch_Non_queued_Contributions.mgd.php
 msgid "Non Queued Contributions"
-msgstr ""
+msgstr "Kuyruğa alınmamış katkılar"
 
 #: managed/SavedSearch_Non_queued_Contributions.mgd.php
 msgid ""
 "These contributions are not present in the Account Invoice Table. Therefore,"
 " they are not in the queue to be pushed to the external accounting system."
 msgstr ""
+"Bu katkılar hesap fatura tablosunda bulunmuyor. Bu nedenle, dış muhasebe "
+"sistemine gönderilmek üzere kuyrukta değiller."
 
 #: managed/SavedSearch_Non_queued_Contributions.mgd.php
 msgid "Contact Display Name"
-msgstr ""
+msgstr "Kişinin görüntülenecek adı"
 
 #: managed/SavedSearch_Non_queued_Contributions.mgd.php
 msgid "Total Amount"
@@ -359,7 +369,7 @@ msgstr "Katkı durumu"
 
 #: managed/SavedSearch_Non_queued_Contributions.mgd.php
 msgid "Contribution Date"
-msgstr ""
+msgstr "Katkı tarihi"
 
 #: managed/SavedSearch_Non_queued_Contributions.mgd.php
 #: managed/invoice_errors.mgd.php
@@ -368,15 +378,15 @@ msgstr "Katkıyı görüntüle"
 
 #: managed/SavedSearch_Non_queued_Contributions.mgd.php
 msgid "Update Contribution"
-msgstr ""
+msgstr "Katkıyı güncelle"
 
 #: managed/SavedSearch_Non_queued_Contributions.mgd.php
 msgid "Delete Contribution"
-msgstr ""
+msgstr "Katkıyı sil"
 
 #: managed/contact_errors.mgd.php
 msgid "Contact Synchronization Errors"
-msgstr ""
+msgstr "Kişi eşitleme sorunları"
 
 #: managed/contact_errors.mgd.php managed/invoice_errors.mgd.php
 msgid "id"
@@ -388,83 +398,83 @@ msgstr "Kişi"
 
 #: managed/contact_errors.mgd.php
 msgid "View CiviCRM Contact"
-msgstr ""
+msgstr "CiviCRM kişisini görüntüle"
 
 #: managed/contact_errors.mgd.php managed/invoice_errors.mgd.php
 msgid "Last Synchronization Date"
-msgstr ""
+msgstr "Son eşitleme tarihi"
 
 #: managed/contact_list.mgd.php
 msgid "Accountsync Contact list"
-msgstr ""
+msgstr "Hesap eşitleme kişi listesi"
 
 #: managed/contact_list.mgd.php
 msgid "View CiviCRM Contact ID"
-msgstr ""
+msgstr "CiviCRM kişi kimliğini görüntüle"
 
 #: managed/contact_list.mgd.php
 msgid "CiviCRM Display Name"
-msgstr ""
+msgstr "CiviCRM görüntülenecek adı"
 
 #: managed/contact_list.mgd.php managed/contact_match.mgd.php
 msgid "Accounts Display Name"
-msgstr ""
+msgstr "Hesapların görüntülenecek adı"
 
 #: managed/contact_list.mgd.php
 msgid "Accounts"
-msgstr ""
+msgstr "Hesaplar"
 
 #: managed/contact_match.mgd.php
 msgid "Accountsync Contact Match"
-msgstr ""
+msgstr "Hesap eşitleme kişi eşleşmesi"
 
 #: managed/contact_match.mgd.php
 msgid "Accountsync Contact Match Table 1"
-msgstr ""
+msgstr "Hesap eşitleme kişi eşleşme tablosu 1"
 
 #: managed/contact_match.mgd.php
 msgid "AccountsContact ID"
-msgstr ""
+msgstr "Hesapların kişi kimliği"
 
 #: managed/contact_match.mgd.php
 msgid "Click to match with an existing contact"
-msgstr ""
+msgstr "Var olan bir kişi ile eşleştirmek için tıklayın"
 
 #: managed/contact_match.mgd.php
 msgid "Accounts system Contact ID"
-msgstr ""
+msgstr "Hesaplar sistemi kişi kimliği"
 
 #: managed/invoice_errors.mgd.php
 msgid "Invoice Synchronization Errors"
-msgstr ""
+msgstr "Fatura eşitleme sorunları"
 
 #: managed/navigation.mgd.php
 msgid "Errors"
-msgstr "Hatalar"
+msgstr "Sorunlar"
 
 #: managed/navigation.mgd.php
 msgid "Invoice Errors"
-msgstr ""
+msgstr "Fatura sorunları"
 
 #: managed/navigation.mgd.php
 msgid "Contact Errors"
-msgstr ""
+msgstr "Kişi sorunları"
 
 #: managed/navigation.mgd.php
 msgid "Match Contacts (legacy)"
-msgstr ""
+msgstr "Kişi eşleştirme (eski)"
 
 #: managed/navigation.mgd.php
 msgid "Match Contacts"
-msgstr ""
+msgstr "Kişi eşleştirme"
 
 #: managed/navigation.mgd.php
 msgid "List of synced contacts"
-msgstr ""
+msgstr "Eşitlenmiş kişilerin listesi"
 
 #: managed/navigation.mgd.php
 msgid "Non-Queued Contributions"
-msgstr ""
+msgstr "Kuyruğa alınmamış katkılar"
 
 #: templates/CRM/accountsync/EditCtrl.hlp
 msgid "The name recorded in the accounting package."
