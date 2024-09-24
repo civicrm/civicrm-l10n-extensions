@@ -2449,7 +2449,7 @@ msgid ""
 "This condition checks if the contact has any recurring contributions with no"
 " end-date or and end-date later than today. It does NOT check the status of "
 "a recurring contribution and does not work with test entities."
-msgstr ""
+msgstr "Bu koşul, kişinin bitiş tarihi olmayan veya bitiş tarihi bugünden sonra olan yinelenen katkıları olup olmadığını kontrol eder. Yinelenen bir katkının durumunu KONTROL ETMEZ ve deneme varlıklarıyla çalışmaz."
 
 #: CRM/CivirulesConditions/Form/ContributionRecur/DonorIsRecurring.php
 msgid "Donor has recurring contributions?"
@@ -2474,7 +2474,7 @@ msgstr "Sıklık"
 msgid ""
 "This condition checks if the recurring contribution pays for a membership, "
 "optionally of certain type(s) and statuses."
-msgstr ""
+msgstr "Bu koşul, yinelenen katkının isteğe bağlı olarak belirli türler ve durumlardaki bir üyeliğe karşı gelip gelmediğini kontrol eder."
 
 #: CRM/CivirulesConditions/Form/ContributionRecur/PaymentProcessor.php
 msgid "Payment Processor"
@@ -2484,13 +2484,13 @@ msgstr "Ödeme aracısı"
 msgid ""
 "This condition works with Membership (checks the linked recur), Contribution"
 " (checks the linked recur) and Recurring Contribution triggers."
-msgstr ""
+msgstr "Bu koşul üyelik (bağlantılı yinelenmeyi kontrol eder), katkı (bağlantılı yinelenmeyi kontrol eder) ve yinelenen katkı tetikleyicileriyle çalışır."
 
 #: CRM/CivirulesConditions/Form/ContributionRecur/PaymentProcessor.php
 msgid ""
 "IS ONE OF will match a Membership/Contribution/Recurring Contribution that "
 "has a payment processor in the list."
-msgstr ""
+msgstr "ŞUNLARDA BİRİ OLAN, listede ödeme işleyici bulunan bir üyelik/katkı/yinelenen Katkı ile eşleşir."
 
 #: CRM/CivirulesConditions/Form/ContributionRecur/PaymentProcessor.php
 msgid ""
@@ -2498,11 +2498,11 @@ msgid ""
 "linked recurring contribution OR a Membership/Contribution/Recurring "
 "Contribution that: Has a recurring contribution with no payment processor; "
 "Has a recurring contribution that has a payment processor not in the list."
-msgstr ""
+msgstr "ŞUNLARDAN BİRİ OLMAYAN, bağlantılı yinelenen katkısı olmayan bir üyelik/katkı veya aşağıdaki özellikleri olan bir üyelik/katkı/yinelenen katkı ile eşleşir: Ödeme işleyicisi olmayan yinelenen bir katkısı olan; listede olmayan bir ödeme işleyicisi olan yinelenen bir katkısı olan."
 
 #: CRM/CivirulesConditions/Form/ContributionRecur/xthContribution.php
 msgid "Number of the Contribution of the Recurring Contribution"
-msgstr ""
+msgstr "Yinelenen katkının katkı sayısı"
 
 #: CRM/CivirulesConditions/Form/ContributionSoft/SoftCreditType.php
 #: templates/CRM/CivirulesConditions/Form/ContributionSoft/SoftCreditType.tpl
@@ -2542,7 +2542,7 @@ msgstr "Karşılaştırma değerleri"
 msgid ""
 "This condition checks the before and after value of a field. It also works with delayed actions that\n"
 "      re-check conditions because the original values are saved when it is triggered."
-msgstr ""
+msgstr "Bu koşul, bir alanın önceki ve sonraki değerini kontrol eder. Ayrıca, tetiklendiğinde özgün değerler\n      kaydedildiği için koşulları yeniden kontrol eden gecikmeli işlemlerle de çalışır."
 
 #: CRM/CivirulesConditions/Form/FieldValueComparison.php
 msgid "Compare with original value (before the change)?"
@@ -2669,7 +2669,7 @@ msgstr "- Seçin -"
 
 #: CRM/CivirulesConditions/Form/Membership/ActiveMembership.php
 msgid "Negate"
-msgstr ""
+msgstr "Olumsuzla"
 
 #: CRM/CivirulesConditions/Form/Membership/ContactHasMembership.php
 msgid "Condition Type"
@@ -2726,21 +2726,21 @@ msgstr "İlişki türleri"
 msgid ""
 "This condition checks if the contact has any recurring contributions that "
 "are (not) in one of the statuses selected."
-msgstr ""
+msgstr "Bu koşul, kişinin seçilmiş durumlardan birinde olmayan (veya olmayan) yinelenen katkılarının olup olmadığını kontrol eder."
 
 #: CRM/CivirulesConditions/Form/Status.php
 msgid ""
 "This condition checks the status of the entity is (not) one of the selected "
 "status values."
-msgstr ""
+msgstr "Bu koşul, varlığın durumunun seçilmiş durum değerlerinden biri olup olmadığını kontrol eder."
 
 #: CRM/CivirulesConditions/Generic/Date.php
 msgid ", condition returned as false"
-msgstr ""
+msgstr ", koşul yanlış sonuç döndürdü"
 
 #: CRM/CivirulesConditions/Generic/Date.php
 msgid "Unable to field or contact to use "
-msgstr ""
+msgstr "Kullanılacak alan ya da kişi yok"
 
 #: CRM/CivirulesConditions/Generic/Date.php
 msgid "Invalid comparison type "
@@ -2910,51 +2910,51 @@ msgstr "Tüm kişiler"
 
 #: CRM/CivirulesCronTrigger/ActivityDate.php
 msgid "%4 with type %1 and status %2 date reached. Trigger for %3"
-msgstr ""
+msgstr "%4, %1 türü ve %2 durumu ile tarihe ulaştı. %3 tetikleyicisi"
 
 #: CRM/CivirulesCronTrigger/ActivityScheduledDate.php
 msgid "Minutes(s) before scheduled date/time"
-msgstr ""
+msgstr "Zamanlanmış tarih ve saatten şu kadar dakika önce"
 
 #: CRM/CivirulesCronTrigger/ActivityScheduledDate.php
 msgid "Hours(s) before scheduled date/time"
-msgstr ""
+msgstr "Zamanlanmış tarih ve saatten şu kadar saat önce"
 
 #: CRM/CivirulesCronTrigger/ActivityScheduledDate.php
 msgid "Day(s) before scheduled date"
-msgstr ""
+msgstr "Zamanlanmış tarih ve saatten şu kadar gün önce"
 
 #: CRM/CivirulesCronTrigger/ActivityScheduledDate.php
 msgid "Week(s) before scheduled date"
-msgstr ""
+msgstr "Zamanlanmış tarih ve saatten şu kadar hafta önce"
 
 #: CRM/CivirulesCronTrigger/ActivityScheduledDate.php
 msgid "Month(s) before scheduled date"
-msgstr ""
+msgstr "Zamanlanmış tarih ve saatten şu kadar ay önce"
 
 #: CRM/CivirulesCronTrigger/ActivityScheduledDate.php
 msgid "Minutes(s) after scheduled date/time"
-msgstr ""
+msgstr "Zamanlanmış tarih ve saatten şu kadar dakika sonra"
 
 #: CRM/CivirulesCronTrigger/ActivityScheduledDate.php
 msgid "Hours(s) after scheduled date/time"
-msgstr ""
+msgstr "Zamanlanmış tarih ve saatten şu kadar saat sonra"
 
 #: CRM/CivirulesCronTrigger/ActivityScheduledDate.php
 msgid "Day(s) after scheduled date"
-msgstr ""
+msgstr "Zamanlanmış tarih ve saatten şu kadar gün sonra"
 
 #: CRM/CivirulesCronTrigger/ActivityScheduledDate.php
 msgid "Week(s) after scheduled date"
-msgstr ""
+msgstr "Zamanlanmış tarih ve saatten şu kadar hafta sonra"
 
 #: CRM/CivirulesCronTrigger/ActivityScheduledDate.php
 msgid "Month(s) after scheduled date"
-msgstr ""
+msgstr "Zamanlanmış tarih ve saatten şu kadar ay sonra"
 
 #: CRM/CivirulesCronTrigger/ActivityScheduledDate.php
 msgid "%6 Types %1 and status %2 - %3 %4. Trigger for %5"
-msgstr ""
+msgstr "%6, %1 türlerinde ve %2 durumu - %3 %4. %5 tetikleyicisi"
 
 #: CRM/CivirulesCronTrigger/Birthday.php
 msgid "Person"
@@ -2979,7 +2979,7 @@ msgstr "Şundan sonra"
 #: CRM/CivirulesCronTrigger/EventDate.php
 #: CRM/CivirulesCronTrigger/Form/EventDate.php
 msgid "Hour(s)"
-msgstr ""
+msgstr "Saatler"
 
 #: CRM/CivirulesCronTrigger/EventDate.php
 #: CRM/CivirulesCronTrigger/Form/EventDate.php
@@ -2988,16 +2988,16 @@ msgstr "Yıllar"
 
 #: CRM/CivirulesCronTrigger/EventDate.php
 msgid "Trigger for Event with type \"%1\" %3 \"%2\"."
-msgstr ""
+msgstr "\"%1\" %3 \"%2\" türünde etkinliğin tetikleyicisi."
 
 #: CRM/CivirulesCronTrigger/Form/Activity.php
 #: CRM/CivirulesPostTrigger/Form/Activity.php
 msgid "Trigger for"
-msgstr ""
+msgstr "Şunun tetikleyicisi"
 
 #: CRM/CivirulesCronTrigger/Form/Activity.php
 msgid "Trigger for case activities?"
-msgstr ""
+msgstr "Olay işlemlerinin tetikleyicisi mi?"
 
 #: CRM/CivirulesCronTrigger/Form/ActivityDate.php
 #: CRM/CivirulesCronTrigger/Form/ActivityScheduledDate.php
@@ -3013,7 +3013,7 @@ msgstr "İşlem durumu"
 msgid ""
 "Trigger rule when scheduled date for activity with status and type is "
 "reached."
-msgstr ""
+msgstr "Durumu ve türü belirlenmiş işlem için planlanan tarihe ulaşıldığında tetikleyici kural."
 
 #: CRM/CivirulesCronTrigger/Form/ActivityDate.php
 #: CRM/CivirulesCronTrigger/Form/ActivityScheduledDate.php
@@ -3021,7 +3021,7 @@ msgid ""
 "If \"Trigger for case activities\" is \"Yes\" then this will only trigger "
 "for case activities. If it is \"No\" then it will only trigger for "
 "activities that are not linked to a case."
-msgstr ""
+msgstr "\"Olay işlemlerinin tetikleyicisi mi\" seçeneği \"Evet\" olarak ayarlanmış ise bu kural yalnızca olay etkinlikleri için tetiklenir. \"Hayır\" olarak ayarlanmışsa kural yalnızca bir olaya bağlı olmayan etkinlikler için tetiklenir."
 
 #: CRM/CivirulesCronTrigger/Form/ActivityScheduledDate.php
 #: CRM/CivirulesCronTrigger/Form/MembershipEndDate.php
@@ -3033,7 +3033,7 @@ msgstr "Sıklık sayılsal bir değer olmalıdır"
 msgid ""
 "The rule will be triggered for activities of selected types when the "
 "scheduled date is X days/weeks/months before or after."
-msgstr ""
+msgstr "Kural, planlanan tarihin X gün/hafta/ay önce veya sonra olması durumunda seçilmiş türdeki işlemler için tetiklenir."
 
 #: CRM/CivirulesCronTrigger/Form/EventDate.php
 msgid "Event Type"
@@ -3061,19 +3061,19 @@ msgstr "Bir tarih sapması  belirtin"
 
 #: CRM/CivirulesCronTrigger/Form/MembershipEndDate.php
 msgid "%1 (every %2 %3)"
-msgstr ""
+msgstr "%1 (her %2 %3)"
 
 #: CRM/CivirulesCronTrigger/Form/MembershipEndDate.php
 msgid ""
 "The rule will be triggered for memberships of selected membership types when"
 " the end date is X days/weeks/months before or after."
-msgstr ""
+msgstr "Kural, seçilmiş üyelik türlerindeki üyelikler için, bitiş tarihi X gün/hafta/ay önce veya sonra olduğunda tetiklenir."
 
 #: CRM/CivirulesCronTrigger/Form/NextContributionDate.php
 msgid ""
 "The rule will be triggered for recurring contributions when the next "
 "scheduled contribution date is X days/weeks/months before or after."
-msgstr ""
+msgstr "Kural, yinelenen katkılar için bir sonraki zamanlanmış katkı tarihinin X gün/hafta/ay önce veya sonra olması durumunda tetiklenir."
 
 #: CRM/CivirulesCronTrigger/GroupMembership.php
 #: CRM/CivirulesCronTrigger/HasTag.php
@@ -3115,31 +3115,31 @@ msgstr "Üyelik"
 
 #: CRM/CivirulesCronTrigger/MembershipEndDate.php
 msgid "Membership Types %1 - %2 %3"
-msgstr ""
+msgstr "Üyelik türleri %1 - %2 %3"
 
 #: CRM/CivirulesCronTrigger/NextContributionDate.php
 msgid "Day(s) before next scheduled recurring contribution date"
-msgstr ""
+msgstr "Bir sonraki zamanlanmış yinelenen katkı tarihinden önceki gün sayısı"
 
 #: CRM/CivirulesCronTrigger/NextContributionDate.php
 msgid "Week(s) before next scheduled recurring contribution date"
-msgstr ""
+msgstr "Bir sonraki zamanlanmış yinelenen katkı tarihinden önceki hafta sayısı"
 
 #: CRM/CivirulesCronTrigger/NextContributionDate.php
 msgid "Month(s) before next scheduled recurring contribution date"
-msgstr ""
+msgstr "Bir sonraki zamanlanmış yinelenen katkı tarihinden önceki ay sayısı"
 
 #: CRM/CivirulesCronTrigger/NextContributionDate.php
 msgid "Day(s) after next scheduled recurring contribution date"
-msgstr ""
+msgstr "Bir sonraki zamanlanmış yinelenen katkı tarihinden sonraki gün sayısı"
 
 #: CRM/CivirulesCronTrigger/NextContributionDate.php
 msgid "Week(s) after next scheduled recurring contribution date"
-msgstr ""
+msgstr "Bir sonraki zamanlanmış yinelenen katkı tarihinden sonraki hafta sayısı"
 
 #: CRM/CivirulesCronTrigger/NextContributionDate.php
 msgid "Month(s) after next scheduled recurring contribution date"
-msgstr ""
+msgstr "Bir sonraki zamanlanmış yinelenen katkı tarihinden sonraki ay sayısı"
 
 #: CRM/CivirulesCronTrigger/NextContributionDate.php
 msgid "Recurring Contribution"
@@ -3147,70 +3147,70 @@ msgstr "Yinelenen katkı"
 
 #: CRM/CivirulesCronTrigger/NextContributionDate.php
 msgid "Next Scheduled Contribution Date %1 - %2"
-msgstr ""
+msgstr "Sonraki zamanlanmış katkı tarihi %1 - %2"
 
 #: CRM/CivirulesPostTrigger/Activity.php
 #: CRM/CivirulesPostTrigger/Form/Activity.php
 msgid "For all contacts"
-msgstr ""
+msgstr "Tüm kişiler için"
 
 #: CRM/CivirulesPostTrigger/Activity.php
 msgid "Trigger for %1"
-msgstr ""
+msgstr "%1 için tetikleyici"
 
 #: CRM/CivirulesPostTrigger/Event.php
 msgid "Trigger uses the logged in user as the contact."
-msgstr ""
+msgstr "Tetikleyici, kişi olarak oturum açmış kullanıcıyı kullanır."
 
 #: CRM/CivirulesPostTrigger/Event.php
 msgid "Trigger does not use a contact."
-msgstr ""
+msgstr "Tetikleyici bir kişiyi kullanmaz."
 
 #: CRM/CivirulesPostTrigger/Form/Activity.php
 msgid ""
 "When all contacts is selected then the trigger will be fired for every "
 "contact. Meaning that trigger might run more than once."
-msgstr ""
+msgstr "Tüm kişiler olarak seçildiğinde tetikleyici her kişi için tetiklenir. Böylece tetikleyici birden fazla kez çalışabilir."
 
 #: CRM/CivirulesPostTrigger/Form/Activity.php
 msgid ""
 "When you don't want that select the record type for which you want to fire "
 "the trigger."
-msgstr ""
+msgstr "Bunu istemediğinizde tetikleyicinin tetiklenmesini istediğiniz kayıt türünü seçin."
 
 #: CRM/CivirulesPostTrigger/Form/Activity.php
 msgid ""
 "The select record type also defines which contact is available in the "
 "conditions and actions."
-msgstr ""
+msgstr "Kayıt türünün seçilmesi aynı zamanda koşullar ve işlemlerde hangi kişinin var olacağını da tanımlar."
 
 #: CRM/CivirulesPostTrigger/Form/Event.php
 msgid "Do not use Contact ID"
-msgstr ""
+msgstr "Kişi kimliği kullanılmasın"
 
 #: CRM/CivirulesPostTrigger/Form/Event.php
 msgid "Set contact id to logged in contact"
-msgstr ""
+msgstr "Kişi kimliği oturum açmış kişiye ayarlansın"
 
 #: CRM/CivirulesPostTrigger/Form/Event.php
 msgid ""
 "An event does not have related contacts. So you can trigger without any "
 "contact are use the logged in contact (recommended)."
-msgstr ""
+msgstr "Bir olayın ilişkili kişileri yoktur. Bu yüzden herhangi bir kişi olmadan tetikleyebilir ya da oturum açmış kişiyi kullanabilirsiniz (önerilir)."
 
 #: CRM/CivirulesPostTrigger/Form/RelatedParticipantWhenActivityChanged.php
 #: CRM/CivirulesPostTrigger/Form/RelatedParticipantWhenActivityIsTagged.php
 msgid "Limit to Activity type"
-msgstr ""
+msgstr "Şu işlem türüyle sınırlansın"
 
 #: Civi/ConfigItems/Entity/CiviRules/Definition.php
 #: managed/managerules_searchkit.mgd.php managed/navigationmenu.mgd.php
 msgid "CiviRules"
-msgstr ""
+msgstr "CiviRules"
 
 #: Civi/ConfigItems/Entity/CiviRules/ExportForm.php
 msgid "Do not include in export file"
-msgstr ""
+msgstr "Dışa aktarılan dosyaya katılmasın"
 
 #: Civi/ConfigItems/Entity/CiviRules/Exporter.php
 msgid "Include"
@@ -3218,19 +3218,19 @@ msgstr "Katılsın"
 
 #: Civi/ConfigItems/Entity/CiviRules/Exporter.php
 msgid "Mark as removed"
-msgstr ""
+msgstr "Kaldırıldı olarak işaretle"
 
 #: Civi/ConfigItems/Entity/CiviRules/Importer.php
 msgid "Include %1"
-msgstr ""
+msgstr "%1 katılsın"
 
 #: Civi/ConfigItems/Entity/CiviRules/Importer.php
 msgid "Removed %1"
-msgstr ""
+msgstr "%1 kaldırıldı"
 
 #: Civi/ConfigItems/Entity/CiviRules/Importer.php
 msgid "Do not update"
-msgstr ""
+msgstr "Güncellenmesin"
 
 #: Civi/ConfigItems/Entity/CiviRules/Importer.php
 msgid "Update"
@@ -3242,15 +3242,15 @@ msgstr "Ekle"
 
 #: Civi/ConfigItems/Entity/CiviRules/Importer.php
 msgid "Do not add"
-msgstr ""
+msgstr "Eklenmesin"
 
 #: Civi/ConfigItems/Entity/CiviRules/Importer.php
 msgid "Keep"
-msgstr ""
+msgstr "Tutulsun"
 
 #: Civi/ConfigItems/Entity/CiviRules/Importer.php
 msgid "Could not %1 '%2' %3"
-msgstr ""
+msgstr "%1 '%2' %3 yapılamadı"
 
 #: api/v3/CiviRulesTrigger.php
 msgid "Label can not be empty when adding a new CiviRule Trigger"
@@ -3272,28 +3272,28 @@ msgstr "Bu class_name ya da object_name ve işlem kombinasyonu için zaten bir t
 
 #: civirules.php
 msgid "CiviRules: administer CiviRules extension"
-msgstr ""
+msgstr "CiviRules: CiviRules eklentisi yönetimi"
 
 #: civirules.php
 msgid "Perform all CiviRules administration tasks in CiviCRM"
-msgstr ""
+msgstr "CiviCRM üzerindeki tüm CiviRules yönetim işlemlerini yapın"
 
 #: managed/managerules_searchkit.mgd.php
 msgid "CiviRules List"
-msgstr ""
+msgstr "CiviRules listesi"
 
 #: managed/managerules_searchkit.mgd.php
 msgid "View Modified By"
-msgstr ""
+msgstr "Değiştiren görüntülensin"
 
 #: managed/managerules_searchkit.mgd.php templates/CRM/Civirules/Form/Rule.tpl
 #: templates/CRM/Civirules/Page/RuleViewList.tpl
 msgid "Last triggered"
-msgstr ""
+msgstr "Son tetiklenme"
 
 #: managed/managerules_searchkit.mgd.php
 msgid "Add Rule"
-msgstr ""
+msgstr "Kural ekle"
 
 #: managed/managetags_searchkit.mgd.php
 msgid "CiviRules Tags"
@@ -3301,7 +3301,7 @@ msgstr "CiviRules etiketleri"
 
 #: managed/managetags_searchkit.mgd.php
 msgid "Tags for CiviRules"
-msgstr ""
+msgstr "CiviRules etiketleri"
 
 #: managed/managetags_searchkit.mgd.php
 msgid "Value"
@@ -3309,11 +3309,11 @@ msgstr "Değer"
 
 #: managed/managetags_searchkit.mgd.php
 msgid "Is Reserved?"
-msgstr ""
+msgstr "Ayırtılmış mı?"
 
 #: managed/managetags_searchkit.mgd.php
 msgid "Add Tags for CiviRules"
-msgstr ""
+msgstr "CiviRules etiketleri ekle"
 
 #: templates/CRM/Civirules/Delay/XWeekDay.tpl
 msgid "on"
@@ -3329,12 +3329,12 @@ msgstr "'%1' kuralını silmek istediğinize emin misiniz?"
 
 #: templates/CRM/Civirules/Form/Rule.tpl
 msgid "Last 20 triggers for this rule"
-msgstr ""
+msgstr "Bu kuralın son 20 tetikleyicisi"
 
 #: templates/CRM/Civirules/Form/Rule.tpl
 #: templates/CRM/Civirules/Page/RuleViewList.tpl
 msgid "Triggered for"
-msgstr ""
+msgstr "Şunun için tetiklendi"
 
 #: templates/CRM/Civirules/Form/RuleActionDelay.tpl
 msgid "Delay action"
@@ -3342,7 +3342,7 @@ msgstr "İşlemi geciktir"
 
 #: templates/CRM/Civirules/Form/RuleBlocks/ActionBlock.tpl
 msgid "Linked Action(s)"
-msgstr ""
+msgstr "Bağlantılı işlemler"
 
 #: templates/CRM/Civirules/Form/RuleBlocks/ActionBlock.tpl
 msgid "Extra parameters"
@@ -3354,7 +3354,7 @@ msgstr "İşlem ekle"
 
 #: templates/CRM/Civirules/Form/RuleBlocks/ConditionBlock.tpl
 msgid "Linked Condition(s)"
-msgstr ""
+msgstr "Bağlantılı koşullar"
 
 #: templates/CRM/Civirules/Form/RuleBlocks/ConditionBlock.tpl
 msgid "Link operator"
@@ -3370,7 +3370,7 @@ msgstr "Koşul ekle"
 
 #: templates/CRM/Civirules/Form/RuleBlocks/RuleBlock.tpl
 msgid "Enabling can result in unintended double actions"
-msgstr ""
+msgstr "Etkinleştirmek, istenmeyen çift işlemlere neden olabilir"
 
 #: templates/CRM/Civirules/Form/RuleBlocks/TriggerBlock.tpl
 msgid "Edit trigger parameters"
@@ -3403,26 +3403,26 @@ msgstr "böylece kural veri tabanından tam olarak silinir."
 
 #: templates/CRM/Civirules/Form/RuleEnable.tpl
 msgid "Are you sure you want to enable the rule with label"
-msgstr ""
+msgstr "Etiketli kuralı etkinleştirmek istediğinize emin misiniz?"
 
 #: templates/CRM/Civirules/Form/RuleEnable.tpl
 msgid "This rule has the following duplicate(s)"
-msgstr ""
+msgstr "Bu kuralın şu kopyaları var"
 
 #: templates/CRM/Civirules/Form/RuleEnable.tpl
 msgid "to enable but expect unintented double emails."
-msgstr ""
+msgstr "ile etkinleştirin ancak istenmeyen çift e-postalar olmasını bekleyin."
 
 #: templates/CRM/Civirules/Form/RuleView.tpl
 msgid ""
 "The existing CiviRules are listed below. You can manage, delete, "
 "disable/enable or add a rule. You can filter the list using the Filter "
 "Criteria"
-msgstr ""
+msgstr "Var olan CiviRules aşağıda görülebilir. Kuralları yönetebilir, silebilir, devre dışı bırakabilir/etkinleştirebilir veya ekleyebilirsiniz. Filtre süzgeçlerini kullanarak listeyi süzebilirsiniz."
 
 #: templates/CRM/Civirules/Form/RuleView.tpl
 msgid "Filter Criteria"
-msgstr ""
+msgstr "Süzgeç ölçütü"
 
 #: templates/CRM/Civirules/Page/RuleViewList.tpl
 msgid "Add CiviRule"
@@ -3473,14 +3473,14 @@ msgid ""
 " is a valid entry.  For 'Modify', the 'Operand' will be passed to <a "
 "href=\"https://www.php.net/manual/en/datetime.modify.php\">DateTime::modify</a>"
 " is a valid entry."
-msgstr ""
+msgstr "Bu işlem, 'Kaynak' olarak belirtilmiş kişi alanından değeri alır, işlemi ve işleneni uygular ve sonucu 'Hedef' olarak belirtilmiş alana kaydeder. Yalnızca tarih alanları dikkate alınır. 'Ayarla' için 'İşlenen' <a href=\"https://www.php.net/manual/en/datetime.construct.php\">DateTime::__construct</a> yöntemine aktarılabilecek geçerli bir kayıt olabilir. 'Değiştir' için 'İşlenen' <a href=\"https://www.php.net/manual/en/datetime.modify.php\">DateTime::modify</a> yöntemine aktarılacak geçerli bir kayıt olabilir."
 
 #: templates/CRM/CivirulesActions/Contact/Form/UpdateNumericValue.tpl
 msgid ""
 "This action takes the value from the contact field specified in 'Source', "
 "applies the operator and the operand, and stores the result in the field "
 "specified in 'Target'. Only numeric fields will be considered."
-msgstr ""
+msgstr "Bu işlem, 'Kaynak' olarak belirtilmiş kişi alanından değeri alır, işlemi ve işleneni uygular ve sonucu 'Hedef' olarak belirtilmiş alana kaydeder. Yalnızca sayısal alanlar dikkate alınır."
 
 #: templates/CRM/CivirulesActions/Generic/Form/UpdateDateValue.tpl
 msgid ""
@@ -3494,13 +3494,13 @@ msgid ""
 "to the <a "
 "href=\"https://www.php.net/manual/en/datetime.modify.php\">DateTime::modify</a>"
 " method."
-msgstr ""
+msgstr "Bir 'Ayarla' 'İşlemi' için, bu işlem 'Hedef alan' değerini 'İşlenen' olarak belirtilmiş değere ayarlar. Bu durumda 'İşlenen, <a href=\"https://www.php.net/manual/en/datetime.construct.php\">DateTime::__construct</a> yöntemine aktarılabilecek herhangi bir geçerli değer olabilir.<br /><br />Diğer tüm 'İşlemler' için, bu işlem değeri 'Kaynak alan' üzerinden alır, 'İşlem' ve 'İşlenen' değerlerini uygular ve sonucu 'Hedef alan' üzerine kaydeder. 'İşlenenler', <a href=\"https://www.php.net/manual/en/datetime.modify.php\">DateTime::modify</a> yöntemine aktarılabilecek herhangi bir geçerli kayıt olabilir."
 
 #: templates/CRM/CivirulesActions/GroupContact/Form/AddRelated.tpl
 msgid ""
 "All related contacts of the selected relationship types will be added to the"
 " selected group"
-msgstr ""
+msgstr "Seçilmiş ilişki türlerinin tüm ilgili kişileri seçilen gruba eklenir"
 
 #: templates/CRM/CivirulesActions/GroupContact/Form/AddRelated.tpl
 msgid "Relationship type"
@@ -3508,7 +3508,7 @@ msgstr "İlişki türü"
 
 #: templates/CRM/CivirulesActions/GroupContact/Form/AddRelated.tpl
 msgid "The relationship type to find target contacts"
-msgstr ""
+msgstr "Hedef kişilerin bulunacağı ilişki türü"
 
 #: templates/CRM/CivirulesActions/Relationship/Form/End.tpl
 msgid ""
@@ -3519,7 +3519,7 @@ msgid ""
 "  <br /><br />\n"
 "  You can select the relationship type and if the relationship should be disabled (and show up as a former relationship) or deleted (completely removed from the database).\n"
 "  If you select to disable the relationship, you can also select the end date of the relationship. The default will be the date the action is executed."
-msgstr ""
+msgstr "Bu işlem, söz konusu kişinin <strong>A kişisi</strong> olduğu <strong>varsayıldığında</strong> seçilmiş türdeki ilişkiyi veya ilişkileri devre dışı bırakır ya da siler. 3\n  Bildiğiniz gibi CiviCRM üzerinde bir ilişki 2 kişi arasındadır. Örneğin çalışan/işveren ilişkisi, çalışanın A kişisi ve işverenin B kişisi olduğu ilişkidir.\n  <br /><br />\n  Bunlar ilişkidir çünkü bir kişinin belirli bir türde 1 taneden fazla ilişkisi olabilir. Bunların <strong>tümü</strong> devre dışı bırakılır ya da silinir.\n  <br /><br />7\n  İlişki türünü ve ilişkinin devre dışı bırakılmasını (ve eski bir ilişki olarak gösterilmesini) veya silinmesini (veri tabanından tamamen kaldırılmasını) seçebilirsiniz.\n  İlişkiyi devre dışı bırakmayı seçerseniz, ilişkinin bitiş tarihini de seçebilirsiniz. Varsayılan, işlemin yürütüldüğü tarih olur."
 
 #: templates/CRM/CivirulesActions/Tag/Form/Sync.tpl
 msgid ""
@@ -3534,7 +3534,7 @@ msgid ""
 "      <strong>Relationship type:</strong><br />\n"
 "      The relationship type to find target contacts.<br />\n"
 "    "
-msgstr ""
+msgstr "\n      <strong>Tür:</strong><br />\n      <ul>\n        <li><strong>Kopyala</strong>, yalnızca <em>kaynak</em> içinde bulunan ancak <em>hedef</em> içinde bulunmayan etiketleri <em>ekler</em>.</li>\n        <li><strong>Eşitle</strong>,  <em>hedef</em> içinde bulunan ancak  <em>kaynak</em> içinde bulunamayan etiketleri kaldırır. <em>Kaynak</em> içinde bulunan ancak <em>hedef</em> içinde bulunamayan etiketleri <em>ekler</em>.</li>\n      </ul>\n      <strong>Etiketler:</strong><br />\n      Denetlenecek seçilmiş etiketler.<br />\n      <strong>İlişki türü:</strong><br />\n      Hedef kişilerin bulunacağı ilişki türü.<br />\n    "
 
 #: templates/CRM/CivirulesConditions/Form/ActionLog/ScheduledReminder.tpl
 msgid "Scheduled Reminder(s)"
@@ -3664,4 +3664,4 @@ msgstr "İçe aktarma dosyasında %1"
 #: templates/CRM/ConfigItems/Entity/CiviRules/ExportForm.tpl
 msgid ""
 "The following %1 are available in the import file but not on this system."
-msgstr ""
+msgstr "Şu %1 içe aktarma dosyasında var ancak bu sistemde yok."
