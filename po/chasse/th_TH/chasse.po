@@ -3,13 +3,12 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Pannapat Tammasrisawat, 2024
 # Preediphat Luang-on, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: chasse\n"
-"POT-Creation-Date: 2024-06-08 05:01+0000\n"
+"POT-Creation-Date: 2024-10-01 22:54+0000\n"
 "Last-Translator: Preediphat Luang-on, 2024\n"
 "Language-Team: Thai (Thailand) (https://app.transifex.com/civicrm/teams/1905/th_TH/)\n"
 "MIME-Version: 1.0\n"
@@ -47,16 +46,112 @@ msgstr ""
 msgid "%1 Contact(s) updated"
 msgstr ""
 
-#: CRM/Chasse/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "อัปเกรด %1 เป็นการแก้ไข %2"
-
 #: ang/chasse/Config.html
 msgid "Edit Chassé Journey: %name"
 msgstr ""
 
 #: ang/chasse/Config.html
+msgid "Back to Chassé Overview"
+msgstr ""
+
+#: ang/chasse/Config.html
+msgid "There are unsaved changes"
+msgstr ""
+
+#: ang/chasse/Config.html
 msgid "Save"
+msgstr ""
+
+#: ang/chasse/Config.html
+msgid "Correct errors before saving"
+msgstr ""
+
+#: ang/chasse/Config.html
+msgid "Journey: %name"
+msgstr ""
+
+#: ang/chasse/Config.html
+msgid "Journey name"
+msgstr ""
+
+#: ang/chasse/Config.html
+msgid "Required"
+msgstr ""
+
+#: ang/chasse/Config.html
+msgid "Mailing Group"
+msgstr ""
+
+#: ang/chasse/Config.html
+msgid "--please choose--"
+msgstr ""
+
+#: ang/chasse/Config.html
+msgid "Campaign"
+msgstr "แคมเปญ"
+
+#: ang/chasse/Config.html
+msgid "Archive mailings"
+msgstr ""
+
+#: ang/chasse/Config.html
+msgid "Create Chassé mailings as archived."
+msgstr ""
+
+#: ang/chasse/Config.html
+msgid "Steps in: %name"
+msgstr ""
+
+#: ang/chasse/Config.html
+msgid "Step Code"
+msgstr ""
+
+#: ang/chasse/Config.html
+msgid "Unique code required"
+msgstr ""
+
+#: ang/chasse/Config.html
+msgid "Delete"
+msgstr "ลบ"
+
+#: ang/chasse/Config.html
+msgid "Add to group"
+msgstr ""
+
+#: ang/chasse/Config.html
+msgid "Send Mailing"
+msgstr ""
+
+#: ang/chasse/Config.html
+msgid "(None)"
+msgstr ""
+
+#: ang/chasse/Config.html
+msgid "From address"
+msgstr ""
+
+#: ang/chasse/Config.html
+msgid "Reply-to address"
+msgstr ""
+
+#: ang/chasse/Config.html
+msgid "Same as From address"
+msgstr ""
+
+#: ang/chasse/Config.html
+msgid ""
+"Note: Journeys are processed in reverse order. (otherwise the contacts in "
+"step 1 would get moved into step 2 and then re-processed along with the "
+"contacts already in step 2, etc.) So use the re-order buttons to make the "
+"processing safe."
+msgstr ""
+
+#: ang/chasse/Config.html
+msgid "Add step"
+msgstr ""
+
+#: ang/chasse/Config.html
+msgid "Delete Journey"
 msgstr ""
 
 #: ang/chasse/Config.js ang/chasse/Status.js
@@ -79,6 +174,38 @@ msgstr "กำลังบันทึก..."
 msgid "Saved"
 msgstr "บันทึกแล้ว"
 
+#: ang/chasse/Status.html
+msgid "No journeys planned yet."
+msgstr ""
+
+#: ang/chasse/Status.html
+msgid "Let’s create a journey!"
+msgstr ""
+
+#: ang/chasse/Status.html
+msgid "Refresh status"
+msgstr ""
+
+#: ang/chasse/Status.html
+msgid "Edit"
+msgstr "แก้ไข"
+
+#: ang/chasse/Status.html
+msgid "STEP %stepCode"
+msgstr ""
+
+#: ang/chasse/Status.html
+msgid "Automatic processing enabled"
+msgstr ""
+
+#: ang/chasse/Status.html
+msgid "Process Now"
+msgstr ""
+
+#: ang/chasse/Status.html
+msgid "Add New Journey"
+msgstr ""
+
 #: ang/chasse/Status.js
 msgid "Processing Journey: %name..."
 msgstr ""
@@ -93,6 +220,68 @@ msgstr "กำลังโหลด..."
 
 #: ang/chasse/Status.js
 msgid "Loaded"
+msgstr ""
+
+#: ang/chasse/intervalSelector.html
+msgid "Delay next step by"
+msgstr ""
+
+#: ang/chasse/intervalSelector.html
+msgid "(no delay)"
+msgstr ""
+
+#: ang/chasse/intervalSelector.html
+msgid "day(s)"
+msgstr ""
+
+#: ang/chasse/intervalSelector.html
+msgid "week(s)"
+msgstr ""
+
+#: ang/chasse/intervalSelector.html
+msgid "month(s)"
+msgstr ""
+
+#: ang/chasse/intervalSelector.html
+msgid ""
+"Warning: if you do not have a delay then contacts will progress through this"
+" step whenever the journey runs. If you are using automatic scheduling "
+"enabled then journeys are processed every time cron fires which could be "
+"every 5 minutes. So if you successive steps without a delay the contact will"
+" be processed through them all in a matter of minutes, which is probably not"
+" what you want."
+msgstr ""
+
+#: ang/chasse/scheduleEditor.html
+msgid "Processing"
+msgstr ""
+
+#: ang/chasse/scheduleEditor.html
+msgid "Use Automatic Schedule"
+msgstr ""
+
+#: ang/chasse/scheduleEditor.html
+msgid "Run every"
+msgstr ""
+
+#: ang/chasse/scheduleEditor.html
+msgid "Run every month on the"
+msgstr ""
+
+#: ang/chasse/scheduleEditor.html
+msgid "Enter a valid day-of-the-month, e.g. 1 would be 1st of month."
+msgstr ""
+
+#: ang/chasse/scheduleEditor.html
+msgid "Don’t run before"
+msgstr ""
+
+#: ang/chasse/scheduleEditor.html
+msgid "Enter a valid time in 24hr format, e.g. 9:00 or 20:12"
+msgstr ""
+
+#: ang/chasse/scheduleEditor.html
+msgid "Don’t run after"
 msgstr ""
 
 #: chasse.php
