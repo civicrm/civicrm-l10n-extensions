@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: form_processor\n"
-"POT-Creation-Date: 2024-07-17 05:01+0000\n"
+"POT-Creation-Date: 2024-10-05 05:02+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (https://app.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -24,6 +24,13 @@ msgstr ""
 #: CRM/FormProcessor/BAO/FormProcessorValidateAction.php
 msgid "Input :: "
 msgstr "Giriş :: "
+
+#: CRM/FormProcessor/BAO/FormProcessorAction.php
+#: CRM/FormProcessor/BAO/FormProcessorCalculateAction.php
+#: CRM/FormProcessor/BAO/FormProcessorDefaultDataAction.php
+#: CRM/FormProcessor/BAO/FormProcessorValidateAction.php
+msgid "Formatted :: "
+msgstr "Biçimlendirilmiş :: "
 
 #: CRM/FormProcessor/BAO/FormProcessorAction.php
 #: CRM/FormProcessor/BAO/FormProcessorCalculateAction.php
@@ -267,12 +274,18 @@ msgid "Condition Configuration"
 msgstr "Koşul yapılandırması"
 
 #: CRM/FormProcessor/DAO/FormProcessorAction.php
+#: CRM/FormProcessor/DAO/FormProcessorCalculateAction.php
+#: CRM/FormProcessor/DAO/FormProcessorDefaultDataAction.php
+#: CRM/FormProcessor/DAO/FormProcessorValidateAction.php
 #: api/v3/FormProcessorAction/Create.php
 #: templates/CRM/FormProcessor/Form/Blocks/Actions.tpl
 msgid "Delay"
 msgstr "Gecikme"
 
 #: CRM/FormProcessor/DAO/FormProcessorAction.php
+#: CRM/FormProcessor/DAO/FormProcessorCalculateAction.php
+#: CRM/FormProcessor/DAO/FormProcessorDefaultDataAction.php
+#: CRM/FormProcessor/DAO/FormProcessorValidateAction.php
 msgid "Delay Configuration"
 msgstr "Gecikme yapılandırması"
 
@@ -789,6 +802,7 @@ msgstr "Kampanyanın adı"
 
 #: Civi/FormProcessor/Type/CaseTypeType.php
 #: Civi/FormProcessor/Type/ContactSubTypeType.php
+#: Civi/FormProcessor/Type/CountryType.php
 #: Civi/FormProcessor/Type/CustomOptionListType.php
 #: Civi/FormProcessor/Type/MailingGroupType.php
 #: Civi/FormProcessor/Type/OptionGroupType.php
@@ -800,6 +814,7 @@ msgstr "Çoklu"
 
 #: Civi/FormProcessor/Type/CaseTypeType.php
 #: Civi/FormProcessor/Type/ContactSubTypeType.php
+#: Civi/FormProcessor/Type/CountryType.php
 #: Civi/FormProcessor/Type/CustomOptionListType.php
 #: Civi/FormProcessor/Type/MailingGroupType.php
 #: Civi/FormProcessor/Type/OptionGroupType.php
@@ -811,6 +826,7 @@ msgstr "Tek değer"
 
 #: Civi/FormProcessor/Type/CaseTypeType.php
 #: Civi/FormProcessor/Type/ContactSubTypeType.php
+#: Civi/FormProcessor/Type/CountryType.php
 #: Civi/FormProcessor/Type/CustomOptionListType.php
 #: Civi/FormProcessor/Type/MailingGroupType.php
 #: Civi/FormProcessor/Type/OptionGroupType.php
@@ -1087,6 +1103,10 @@ msgstr "Değer olarak etiket kullanılsın"
 #: Civi/FormProcessor/Type/OptionGroupType.php
 msgid "Option group"
 msgstr "Seçenek grubu"
+
+#: Civi/FormProcessor/Type/ShortTextType.php
+msgid "Remove leading and trailing spaces"
+msgstr "Baştaki ve sondaki boşluklar kaldırılsın"
 
 #: Civi/FormProcessor/Type/StateProvinceType.php
 msgid "Use state/province name as value"
@@ -1720,6 +1740,10 @@ msgstr ""
 #: templates/CRM/FormProcessor/Form/RunFormProcessor.tpl
 msgid "Result"
 msgstr "Sonuç"
+
+#: templates/CRM/FormProcessor/Form/Tab.tpl
+msgid "disabled"
+msgstr "devre dışı"
 
 #: templates/CRM/FormProcessor/Form/ValidationConfigurationValidator.tpl
 msgid "Delete Validator"
