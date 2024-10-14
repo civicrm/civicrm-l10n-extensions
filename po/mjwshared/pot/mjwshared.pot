@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mjwshared\n"
-"POT-Creation-Date: 2024-08-27 05:02+0000\n"
+"POT-Creation-Date: 2024-10-14 21:30+0000\n"
 "Language-Team: CiviCRM Translators <civicrm-translators@lists.civicrm.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -127,91 +127,18 @@ msgstr ""
 msgid "Payments: Multidomain scheduled jobs"
 msgstr ""
 
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Paymentprocessor Webhooks"
+#: CRM/Mjwshared/Check.php
+msgid ""
+"You have %1 payment processor webhooks in \"processing\" status for %2 "
+"payment processors.\n"
+"        This means that the system started processing them but something "
+"went wrong that can't be fixed automatically.\n"
+"        Please check and identify the problem. Then you can mark them for "
+"retry."
 msgstr ""
 
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Paymentprocessor Webhook"
-msgstr ""
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "ID"
-msgstr ""
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Unique PaymentprocessorWebhook ID"
-msgstr ""
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
-msgid "Payment Processor"
-msgstr ""
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Payment Processor for this webhook"
-msgstr ""
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-#: ang/mjwshared/PaymentprocessorWebhook.html
-msgid "Event ID"
-msgstr ""
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Webhook event ID"
-msgstr ""
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Trigger"
-msgstr ""
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Webhook trigger event type"
-msgstr ""
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Created Date"
-msgstr ""
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "When the webhook was first received by the IPN code"
-msgstr ""
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Processed Date"
-msgstr ""
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Has this webhook been processed yet?"
-msgstr ""
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-#: ang/mjwshared/PaymentprocessorWebhook.html
-msgid "Status"
-msgstr ""
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Processing status"
-msgstr ""
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Identifier"
-msgstr ""
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Optional key to group webhooks, as needed by some processors."
-msgstr ""
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Message"
-msgstr ""
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Stores data sent that is needed for processing. JSON suggested."
-msgstr ""
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Data"
+#: CRM/Mjwshared/Check.php
+msgid "Payment Processor Webhooks: Processing failed"
 msgstr ""
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
@@ -311,6 +238,11 @@ msgid "Filters"
 msgstr ""
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Status"
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "- Any -"
 msgstr ""
 
@@ -348,6 +280,11 @@ msgstr ""
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "%count webhooks"
+msgstr ""
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Event ID"
 msgstr ""
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
@@ -455,7 +392,7 @@ msgstr ""
 msgid "Process incomplete payment processor webhooks"
 msgstr ""
 
-#: managed/customdata.mgd.php
+#: managed/cg_extend_financialtrxn.mgd.php
 msgid "Financial Transaction (Payment)"
 msgstr ""
 
@@ -469,6 +406,87 @@ msgstr ""
 
 #: managed/navigationmenu.mgd.php
 msgid "Payment processor webhooks"
+msgstr ""
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Paymentprocessor Webhook"
+msgstr ""
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Paymentprocessor Webhooks"
+msgstr ""
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Track the processing of payment processor webhooks"
+msgstr ""
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "ID"
+msgstr ""
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Unique PaymentprocessorWebhook ID"
+msgstr ""
+
+#: schema/PaymentprocessorWebhook.entityType.php
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
+msgid "Payment Processor"
+msgstr ""
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Payment Processor for this webhook"
+msgstr ""
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Webhook event ID"
+msgstr ""
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Trigger"
+msgstr ""
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Webhook trigger event type"
+msgstr ""
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Created Date"
+msgstr ""
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "When the webhook was first received by the IPN code"
+msgstr ""
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Processed Date"
+msgstr ""
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Has this webhook been processed yet?"
+msgstr ""
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Processing status"
+msgstr ""
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Identifier"
+msgstr ""
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Optional key to group webhooks, as needed by some processors."
+msgstr ""
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Message"
+msgstr ""
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Stores data sent that is needed for processing. JSON suggested."
+msgstr ""
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Data"
 msgstr ""
 
 #: settings/mjwshared.setting.php
