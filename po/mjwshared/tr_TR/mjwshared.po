@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mjwshared\n"
-"POT-Creation-Date: 2024-08-27 05:02+0000\n"
+"POT-Creation-Date: 2024-10-14 21:30+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (https://app.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -134,94 +134,19 @@ msgstr ""
 msgid "Payments: Multidomain scheduled jobs"
 msgstr "Ödemeler: Birkaç etki alanının zamanlanmış görevleri"
 
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Paymentprocessor Webhooks"
-msgstr "Paymentprocessor internet kancaları"
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Paymentprocessor Webhook"
-msgstr "Paymentprocessor internet kancası"
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "ID"
-msgstr "Kimlik"
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Unique PaymentprocessorWebhook ID"
-msgstr "Benzersiz PaymentprocessorWebhook kimliği"
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
-msgid "Payment Processor"
-msgstr "Ödeme aracısı"
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Payment Processor for this webhook"
-msgstr "Bu internet kancasının ödeme aracısı"
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-#: ang/mjwshared/PaymentprocessorWebhook.html
-msgid "Event ID"
-msgstr "Etkinlik kimliği"
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Webhook event ID"
-msgstr "İnternet kancası işlem kimliği"
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Trigger"
-msgstr "Tetikleyici"
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Webhook trigger event type"
-msgstr "İnternet kancası tetikleyici işlem türü"
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Created Date"
-msgstr "Oluşturulma tarihi"
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "When the webhook was first received by the IPN code"
-msgstr "İnternet kancasının IPN kodu ile ilk kez alındığı zaman"
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Processed Date"
-msgstr "İşlenme tarihi"
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Has this webhook been processed yet?"
-msgstr "Bu internet kancası işlendi mi?"
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-#: ang/mjwshared/PaymentprocessorWebhook.html
-msgid "Status"
-msgstr "Durum"
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Processing status"
-msgstr "İşlenme durumu"
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Identifier"
-msgstr "Belirteç"
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Optional key to group webhooks, as needed by some processors."
+#: CRM/Mjwshared/Check.php
+msgid ""
+"You have %1 payment processor webhooks in \"processing\" status for %2 payment processors.\n"
+"        This means that the system started processing them but something went wrong that can't be fixed automatically.\n"
+"        Please check and identify the problem. Then you can mark them for retry."
 msgstr ""
-"Bazı işleyiciler tarafından gerek duyulan ve internet kancalarını gruplayan "
-"isteğe bağlı anahtar. "
+"%2 ödeme aracısının \"işleniyor\" durumda %1 ödeme aracısı internet kancası var.\n"
+"        Bu durum, sistemin bunları işlemeye başladığı ancak otomatik olarak düzeltilemeyen bir sorun çıktığı anlamına gelir.\n"
+"        Lütfen sorunu kontrol edip belirleyin. Ardından bunları yeniden denenmek üzere işaretleyebilirsiniz."
 
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Message"
-msgstr "İleti"
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Stores data sent that is needed for processing. JSON suggested."
-msgstr "İşlenmek üzere gönderilen verileri kaydeder. JSON önerir."
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Data"
-msgstr "Veriler"
+#: CRM/Mjwshared/Check.php
+msgid "Payment Processor Webhooks: Processing failed"
+msgstr "Ödeme aracısı internet kancaları: İşlenemedi"
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid "You do not have permission to access this page."
@@ -325,6 +250,11 @@ msgid "Filters"
 msgstr "Süzgeçler"
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Status"
+msgstr "Durum"
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "- Any -"
 msgstr "- Tümü -"
 
@@ -363,6 +293,11 @@ msgstr "Canlı"
 #: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "%count webhooks"
 msgstr "%count internet kancası"
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Event ID"
+msgstr "Etkinlik kimliği"
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "Search identifier"
@@ -476,7 +411,7 @@ msgstr "Lütfen tüm zorunlu alanları denetleyip doldurun!"
 msgid "Process incomplete payment processor webhooks"
 msgstr "İşlemi tamamlanmamış ödeme işlemcisi İnternet kancaları"
 
-#: managed/customdata.mgd.php
+#: managed/cg_extend_financialtrxn.mgd.php
 msgid "Financial Transaction (Payment)"
 msgstr "Mali hesap hareketi (ödeme)"
 
@@ -491,6 +426,89 @@ msgstr "Ödeme paylaşım ayarları"
 #: managed/navigationmenu.mgd.php
 msgid "Payment processor webhooks"
 msgstr "Ödeme aracısı internet kancaları"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Paymentprocessor Webhook"
+msgstr "Paymentprocessor internet kancası"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Paymentprocessor Webhooks"
+msgstr "Paymentprocessor internet kancaları"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Track the processing of payment processor webhooks"
+msgstr "Ödeme aracısı internet kancalarının işlenmesini izleyin"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "ID"
+msgstr "Kimlik"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Unique PaymentprocessorWebhook ID"
+msgstr "Benzersiz PaymentprocessorWebhook kimliği"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
+msgid "Payment Processor"
+msgstr "Ödeme aracısı"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Payment Processor for this webhook"
+msgstr "Bu internet kancasının ödeme aracısı"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Webhook event ID"
+msgstr "İnternet kancası işlem kimliği"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Trigger"
+msgstr "Tetikleyici"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Webhook trigger event type"
+msgstr "İnternet kancası tetikleyici işlem türü"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Created Date"
+msgstr "Oluşturulma tarihi"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "When the webhook was first received by the IPN code"
+msgstr "İnternet kancasının IPN kodu ile ilk kez alındığı zaman"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Processed Date"
+msgstr "İşlenme tarihi"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Has this webhook been processed yet?"
+msgstr "Bu internet kancası işlendi mi?"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Processing status"
+msgstr "İşlenme durumu"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Identifier"
+msgstr "Belirteç"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Optional key to group webhooks, as needed by some processors."
+msgstr ""
+"Bazı işleyiciler tarafından gerek duyulan ve internet kancalarını gruplayan "
+"isteğe bağlı anahtar. "
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Message"
+msgstr "İleti"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Stores data sent that is needed for processing. JSON suggested."
+msgstr "İşlenmek üzere gönderilen verileri kaydeder. JSON önerir."
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Data"
+msgstr "Veriler"
 
 #: settings/mjwshared.setting.php
 msgid "Enable refund payment via UI?"
