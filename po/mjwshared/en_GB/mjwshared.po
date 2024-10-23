@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mjwshared\n"
-"POT-Creation-Date: 2024-08-27 05:02+0000\n"
+"POT-Creation-Date: 2024-10-14 21:30+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>, 2024\n"
 "Language-Team: English (United Kingdom) (https://app.transifex.com/civicrm/teams/1905/en_GB/)\n"
 "MIME-Version: 1.0\n"
@@ -20,11 +20,11 @@ msgstr ""
 
 #: CRM/Core/Payment/MJWTrait.php
 msgid "Contribution: %1"
-msgstr ""
+msgstr "Contribution: %1"
 
 #: CRM/Core/Payment/MJWTrait.php
 msgid "Unable to complete payment! Missing %1."
-msgstr ""
+msgstr "Unable to complete payment! Missing %1."
 
 #: CRM/Mjwshared/Check.php
 msgid "You are using a development version of %1 extension."
@@ -56,20 +56,25 @@ msgid ""
 "        There are multiple versions of this extension on various sites and the source code has not been released.\n"
 "        It is known to be cause issues with other payment processors and should be disabled"
 msgstr ""
+"You have the uk.co.nfpservice.onlineworldpay extension installed.\n"
+"        There are multiple versions of this extension on various sites and the source code has not been released.\n"
+"        It is known to be cause issues with other payment processors and should be disabled"
 
 #: CRM/Mjwshared/Check.php
 msgid "Incompatible Extension: uk.co.nfpservice.onlineworldpay"
-msgstr ""
+msgstr "Incompatible Extension: uk.co.nfpservice.onlineworldpay"
 
 #: CRM/Mjwshared/Check.php
 msgid ""
 "It is recommended that you download and install the <strong><a href=\"https://civicrm.org/extensions/minifier\">minifier</a></strong> extension.\n"
 "               This will improve the page-load speeds for JS/CSS assets included with extensions such as <strong><a href=\"https://civicrm.org/extensions/stripe-payment-processor\">Stripe</a></strong>."
 msgstr ""
+"It is recommended that you download and install the <strong><a href=\"https://civicrm.org/extensions/minifier\">minifier</a></strong> extension.\n"
+"               This will improve the page-load speeds for JS/CSS assets included with extensions such as <strong><a href=\"https://civicrm.org/extensions/stripe-payment-processor\">Stripe</a></strong>."
 
 #: CRM/Mjwshared/Check.php
 msgid "Recommended Extension: minifier"
-msgstr ""
+msgstr "Recommended Extension: minifier"
 
 #: CRM/Mjwshared/Check.php
 msgid "Install now"
@@ -81,20 +86,25 @@ msgid ""
 "            <strong><a href=\"https://civicrm.org/extensions/contribution-transact-api\">contributiontransactlegacy</a></strong> extension.\n"
 "            This fixes a number of issues that cause payments to fail with extensions such as <strong><a href=\"https://civicrm.org/extensions/stripe-payment-processor\">Stripe</a></strong>."
 msgstr ""
+"If you are using Drupal webform_civicrm to accept payments you should download and install the\n"
+"            <strong><a href=\"https://civicrm.org/extensions/contribution-transact-api\">contributiontransactlegacy</a></strong> extension.\n"
+"            This fixes a number of issues that cause payments to fail with extensions such as <strong><a href=\"https://civicrm.org/extensions/stripe-payment-processor\">Stripe</a></strong>."
 
 #: CRM/Mjwshared/Check.php
 msgid "Recommended Extension: contributiontransactlegacy"
-msgstr ""
+msgstr "Recommended Extension: contributiontransactlegacy"
 
 #: CRM/Mjwshared/Check.php
 msgid ""
 "You need to disable \"Separate Membership Payment\" or disable the payment processors: %2 on contribution page %1 because it is not supported and will not work.\n"
 "                See <a href=\"https://lab.civicrm.org/extensions/stripe/-/issues/134\">Stripe#134</a>."
 msgstr ""
+"You need to disable \"Separate Membership Payment\" or disable the payment processors: %2 on contribution page %1 because it is not supported and will not work.\n"
+"                See <a href=\"https://lab.civicrm.org/extensions/stripe/-/issues/134\">Stripe#134</a>."
 
 #: CRM/Mjwshared/Check.php
 msgid "Payments: Invalid configuration"
-msgstr ""
+msgstr "Payments: Invalid configuration"
 
 #: CRM/Mjwshared/Check.php
 msgid ""
@@ -103,107 +113,40 @@ msgid ""
 "        If this is not installed it will fallback to the browser \"alert\" message but you will\n"
 "        not see some messages (such as <em>we are pre-authorizing your card</em> and <em>please wait</em>) and the feedback to the user will not be as helpful."
 msgstr ""
+"It is recommended that you install the <strong><a href=\"https://civicrm.org/extensions/sweetalert\">sweetalert</a></strong> extension.\n"
+"        This allows extensions such as Stripe to show useful messages to the user when processing payment.\n"
+"        If this is not installed it will fallback to the browser \"alert\" message but you will\n"
+"        not see some messages (such as <em>we are pre-authorising your card</em> and <em>please wait</em>) and the feedback to the user will not be as helpful."
 
 #: CRM/Mjwshared/Check.php
 msgid "Recommended Extension: sweetalert"
-msgstr ""
+msgstr "Recommended Extension: sweetalert"
 
 #: CRM/Mjwshared/Check.php
 msgid ""
 "You have multiple domains configured and some domains are missing the "
 "scheduled job \"Job.process_paymentprocessor_webhooks\": %1"
 msgstr ""
+"You have multiple domains configured and some domains are missing the "
+"scheduled job \"Job.process_paymentprocessor_webhooks\": %1"
 
 #: CRM/Mjwshared/Check.php
 msgid "Payments: Multidomain scheduled jobs"
+msgstr "Payments: Multidomain scheduled jobs"
+
+#: CRM/Mjwshared/Check.php
+msgid ""
+"You have %1 payment processor webhooks in \"processing\" status for %2 payment processors.\n"
+"        This means that the system started processing them but something went wrong that can't be fixed automatically.\n"
+"        Please check and identify the problem. Then you can mark them for retry."
 msgstr ""
+"You have %1 payment processor webhooks in \"processing\" status for %2 payment processors.\n"
+"        This means that the system started processing them but something went wrong that can't be fixed automatically.\n"
+"        Please check and identify the problem. Then you can mark them for retry."
 
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Paymentprocessor Webhooks"
-msgstr ""
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Paymentprocessor Webhook"
-msgstr ""
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "ID"
-msgstr "ID"
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Unique PaymentprocessorWebhook ID"
-msgstr ""
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
-msgid "Payment Processor"
-msgstr "Payment Processor"
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Payment Processor for this webhook"
-msgstr ""
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-#: ang/mjwshared/PaymentprocessorWebhook.html
-msgid "Event ID"
-msgstr "Event ID"
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Webhook event ID"
-msgstr ""
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Trigger"
-msgstr "Trigger"
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Webhook trigger event type"
-msgstr ""
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Created Date"
-msgstr "Created Date"
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "When the webhook was first received by the IPN code"
-msgstr ""
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Processed Date"
-msgstr ""
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Has this webhook been processed yet?"
-msgstr ""
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-#: ang/mjwshared/PaymentprocessorWebhook.html
-msgid "Status"
-msgstr "Status"
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Processing status"
-msgstr ""
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Identifier"
-msgstr "Identifier"
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Optional key to group webhooks, as needed by some processors."
-msgstr ""
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Message"
-msgstr "Message"
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Stores data sent that is needed for processing. JSON suggested."
-msgstr ""
-
-#: CRM/Mjwshared/DAO/PaymentprocessorWebhook.php
-msgid "Data"
-msgstr "Data"
+#: CRM/Mjwshared/Check.php
+msgid "Payment Processor Webhooks: Processing failed"
+msgstr "Payment Processor Webhooks: Processing failed"
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid "You do not have permission to access this page."
@@ -212,18 +155,19 @@ msgstr "You do not have permission to access this page."
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid "Do you want to cancel these registrations when you refund the payment?"
 msgstr ""
+"Do you want to cancel these registrations when you refund the payment?"
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid "Do you want to cancel these memberships when you refund the payment?"
-msgstr ""
+msgstr "Do you want to cancel these memberships when you refund the payment?"
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid "Refund Amount"
-msgstr ""
+msgstr "Refund Amount"
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid "Refund"
-msgstr ""
+msgstr "Refund"
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid "Cancel"
@@ -231,15 +175,15 @@ msgstr "Cancel"
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid "Refund was processed successfully."
-msgstr ""
+msgstr "Refund was processed successfully."
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid "Cancelled %1 participant registration(s)."
-msgstr ""
+msgstr "Cancelled %1 participant registration(s)."
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid "Cancelled %1 membership(s)."
-msgstr ""
+msgstr "Cancelled %1 membership(s)."
 
 #: Civi/Api4/Action/PaymentMJW/Create.php api/v3/Mjwpayment.php
 msgid "Contribution ID"
@@ -247,7 +191,7 @@ msgstr "Contribution ID"
 
 #: Civi/Api4/Action/PaymentMJW/Create.php
 msgid "Total Payment Amount"
-msgstr ""
+msgstr "Total Payment Amount"
 
 #: Civi/Api4/Action/PaymentMJW/Create.php
 msgid "Fee Amount"
@@ -255,35 +199,36 @@ msgstr "Fee Amount"
 
 #: Civi/Api4/Action/PaymentMJW/Create.php
 msgid "Payment Processor for this payment"
-msgstr ""
+msgstr "Payment Processor for this payment"
 
 #: Civi/Api4/Action/PaymentMJW/Create.php
 msgid "Payment Date"
-msgstr ""
+msgstr "Payment Date"
 
 #: Civi/Api4/Action/PaymentMJW/Create.php
 msgid "Send out notifications based on contribution status change?"
-msgstr ""
+msgstr "Send out notifications based on contribution status change?"
 
 #: Civi/Api4/Action/PaymentMJW/Create.php
 msgid "Payment Method (FK to payment_instrument option group values)"
-msgstr ""
+msgstr "Payment Method (FK to payment_instrument option group values)"
 
 #: Civi/Api4/Action/PaymentMJW/Create.php
 msgid "Card Type ID (FK to accept_creditcard option group values)"
-msgstr ""
+msgstr "Card Type ID (FK to accept_creditcard option group values)"
 
 #: Civi/Api4/Action/PaymentMJW/Create.php
 msgid "Transaction Result Code"
-msgstr ""
+msgstr "Transaction Result Code"
 
 #: Civi/Api4/Action/PaymentMJW/Create.php
 msgid "Transaction ID supplied by external processor. This may not be unique."
 msgstr ""
+"Transaction ID supplied by external processor. This may not be unique."
 
 #: Civi/Api4/Action/PaymentMJW/Create.php
 msgid "Payment Processor external order reference"
-msgstr ""
+msgstr "Payment Processor external order reference"
 
 #: Civi/Api4/Action/PaymentMJW/Create.php
 msgid "Check Number"
@@ -291,19 +236,24 @@ msgstr "Check Number"
 
 #: Civi/Api4/Action/PaymentMJW/Create.php
 msgid "PAN Truncation (Last 4 digits of credit card)"
-msgstr ""
+msgstr "PAN Truncation (Last 4 digits of credit card)"
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "Payment Processor Webhooks"
-msgstr ""
+msgstr "Payment Processor Webhooks"
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "Filters"
 msgstr "Filters"
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Status"
+msgstr "Status"
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "- Any -"
-msgstr ""
+msgstr "- Any -"
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
 #: ang/mjwshared/PaymentprocessorWebhook.js
@@ -327,7 +277,7 @@ msgstr "Error"
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "Processor"
-msgstr ""
+msgstr "Processor"
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "Test"
@@ -335,51 +285,56 @@ msgstr "Test"
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "Live"
-msgstr ""
+msgstr "Live"
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "%count webhooks"
-msgstr ""
+msgstr "%count webhooks"
+
+#: ang/mjwshared/PaymentprocessorWebhook.html
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Event ID"
+msgstr "Event ID"
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "Search identifier"
-msgstr ""
+msgstr "Search identifier"
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "Search raw data"
-msgstr ""
+msgstr "Search raw data"
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "Previous page"
-msgstr ""
+msgstr "Previous page"
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "Next page"
-msgstr ""
+msgstr "Next page"
 
 #: ang/mjwshared/PaymentprocessorWebhook.html
 msgid "Search / Reload"
-msgstr ""
+msgstr "Search / Reload"
 
 #: ang/mjwshared/PaymentprocessorWebhook.js js/crm.payment.js
 msgid "mjwshared"
-msgstr ""
+msgstr "mjwshared"
 
 #: ang/mjwshared/PaymentprocessorWebhook.js
 msgid "This event is awaiting processing"
-msgstr ""
+msgstr "This event is awaiting processing"
 
 #: ang/mjwshared/PaymentprocessorWebhook.js
 msgid "This event is currently being processed by the Scheduled Job"
-msgstr ""
+msgstr "This event is currently being processed by the Scheduled Job"
 
 #: ang/mjwshared/PaymentprocessorWebhook.js
 msgid "This event was successfully processed."
-msgstr ""
+msgstr "This event was successfully processed."
 
 #: ang/mjwshared/PaymentprocessorWebhook.js
 msgid "There was an error processing this event."
-msgstr ""
+msgstr "There was an error processing this event."
 
 #: ang/mjwshared/PaymentprocessorWebhook.js
 msgid "Loading..."
@@ -394,6 +349,8 @@ msgid ""
 "Deleting a received webhook event is not un-do-able, and you may not be able"
 " to generate it again. Are you sure?"
 msgstr ""
+"Deleting a received webhook event is not un-do-able, and you may not be able"
+" to generate it again. Are you sure?"
 
 #: ang/mjwshared/PaymentprocessorWebhook.js
 msgid "Deleting..."
@@ -401,7 +358,7 @@ msgstr "Deleting..."
 
 #: ang/mjwshared/PaymentprocessorWebhook.js
 msgid "Gone"
-msgstr ""
+msgstr "Gone"
 
 #: ang/mjwshared/PaymentprocessorWebhook.js
 msgid ""
@@ -409,18 +366,21 @@ msgid ""
 "and the processor, so please be confident in your understanding of both. "
 "Schedule retry of this event?"
 msgstr ""
+"Retrying an event could cause bad things to happen, depending on the event "
+"and the processor, so please be confident in your understanding of both. "
+"Schedule retry of this event?"
 
 #: ang/mjwshared/PaymentprocessorWebhook.js
 msgid "Updating..."
-msgstr ""
+msgstr "Updating..."
 
 #: ang/mjwshared/PaymentprocessorWebhook.js
 msgid "Updated"
-msgstr ""
+msgstr "Updated"
 
 #: ang/mjwshared/PaymentprocessorWebhook.js
 msgid "Scheduled for retry"
-msgstr ""
+msgstr "Scheduled for retry"
 
 #: api/v3/Mjwpayment.php templates/CRM/Mjwshared/Form/PaymentRefund.tpl
 msgid "Transaction ID"
@@ -429,52 +389,136 @@ msgstr "Transaction ID"
 #: api/v3/Mjwpayment.php
 msgid "Transaction id supplied by external processor. This may not be unique."
 msgstr ""
+"Transaction id supplied by external processor. This may not be unique."
 
 #: js/crm.payment.js
 msgid "Please complete the reCaptcha"
-msgstr ""
+msgstr "Please complete the reCaptcha"
 
 #: js/crm.payment.js
 msgid "Please apply the Discount Code or clear the Discount Code text-field"
-msgstr ""
+msgstr "Please apply the Discount Code or clear the Discount Code text-field"
 
 #: js/crm.payment.js
 msgid "Please check and fill in all required fields!"
-msgstr ""
+msgstr "Please check and fill in all required fields!"
 
 #: managed/ProcessPaymentprocessorWebhooks.mgd.php
 msgid "Process incomplete payment processor webhooks"
-msgstr ""
+msgstr "Process incomplete payment processor webhooks"
 
-#: managed/customdata.mgd.php
+#: managed/cg_extend_financialtrxn.mgd.php
 msgid "Financial Transaction (Payment)"
-msgstr ""
+msgstr "Financial Transaction (Payment)"
 
 #: managed/customdata.mgd.php
 msgid "Payment details"
-msgstr ""
+msgstr "Payment details"
 
 #: managed/navigationmenu.mgd.php
 msgid "Payment Shared Settings"
-msgstr ""
+msgstr "Payment Shared Settings"
 
 #: managed/navigationmenu.mgd.php
 msgid "Payment processor webhooks"
-msgstr ""
+msgstr "Payment processor webhooks"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Paymentprocessor Webhook"
+msgstr "Paymentprocessor Webhook"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Paymentprocessor Webhooks"
+msgstr "Paymentprocessor Webhooks"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Track the processing of payment processor webhooks"
+msgstr "Track the processing of payment processor webhooks"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "ID"
+msgstr "ID"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Unique PaymentprocessorWebhook ID"
+msgstr "Unique PaymentprocessorWebhook ID"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
+msgid "Payment Processor"
+msgstr "Payment Processor"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Payment Processor for this webhook"
+msgstr "Payment Processor for this webhook"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Webhook event ID"
+msgstr "Webhook event ID"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Trigger"
+msgstr "Trigger"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Webhook trigger event type"
+msgstr "Webhook trigger event type"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Created Date"
+msgstr "Created Date"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "When the webhook was first received by the IPN code"
+msgstr "When the webhook was first received by the IPN code"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Processed Date"
+msgstr "Processed Date"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Has this webhook been processed yet?"
+msgstr "Has this webhook been processed yet?"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Processing status"
+msgstr "Processing status"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Identifier"
+msgstr "Identifier"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Optional key to group webhooks, as needed by some processors."
+msgstr "Optional key to group webhooks, as needed by some processors."
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Message"
+msgstr "Message"
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Stores data sent that is needed for processing. JSON suggested."
+msgstr "Stores data sent that is needed for processing. JSON suggested."
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Data"
+msgstr "Data"
 
 #: settings/mjwshared.setting.php
 msgid "Enable refund payment via UI?"
-msgstr ""
+msgstr "Enable refund payment via UI?"
 
 #: settings/mjwshared.setting.php
 msgid ""
 "Enables a \"Refund payment\" option next to the edit payment option on Payments. Find payments by expanding contributions.\n"
 "    For more detail see the <a href=\"%1\">Refund documentation</a>"
 msgstr ""
+"Enables a \"Refund payment\" option next to the edit payment option on Payments. Find payments by expanding contributions.\n"
+"    For more detail see the <a href=\"%1\">Refund documentation</a>"
 
 #: settings/mjwshared.setting.php
 msgid "Disable the \"Record Refund\" link on edit contribution"
-msgstr ""
+msgstr "Disable the \"Record Refund\" link on edit contribution"
 
 #: settings/mjwshared.setting.php
 msgid ""
@@ -483,16 +527,22 @@ msgid ""
 "contribution \"Record Refund\" does not communicate with the payment "
 "processor."
 msgstr ""
+"By default CiviCRM includes a \"Record Refund\" link on edit contribution. "
+"This can be confusing when our payment refund UI is enabled because the "
+"contribution \"Record Refund\" does not communicate with the payment "
+"processor."
 
 #: settings/mjwshared.setting.php
 msgid "Enable Javascript debugging?"
-msgstr ""
+msgstr "Enable Javascript debugging?"
 
 #: settings/mjwshared.setting.php
 msgid ""
 "Enables debug logging to browser console for javascript based payment "
 "processors."
 msgstr ""
+"Enables debug logging to browser console for javascript based payment "
+"processors."
 
 #: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
 msgid "Amount"
@@ -500,20 +550,20 @@ msgstr "Amount"
 
 #: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
 msgid "Payment date"
-msgstr ""
+msgstr "Payment date"
 
 #: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
 msgid "Order Reference"
-msgstr ""
+msgstr "Order Reference"
 
 #: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
 msgid "This payment was used to register the following participants:"
-msgstr ""
+msgstr "This payment was used to register the following participants:"
 
 #: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
 msgid "This payment was used for the following memberships:"
-msgstr ""
+msgstr "This payment was used for the following memberships:"
 
 #: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
 msgid "Click \"refund\" to refund this payment"
-msgstr ""
+msgstr "Click \"refund\" to refund this payment"
