@@ -53,11 +53,11 @@ msgstr "Edit Chassé Journey: %name"
 
 #: ang/chasse/Config.html
 msgid "Back to Chassé Overview"
-msgstr ""
+msgstr "Back to Chassé Overview"
 
 #: ang/chasse/Config.html
 msgid "There are unsaved changes"
-msgstr ""
+msgstr "There are unsaved changes"
 
 #: ang/chasse/Config.html
 msgid "Save"
@@ -65,15 +65,15 @@ msgstr "Save"
 
 #: ang/chasse/Config.html
 msgid "Correct errors before saving"
-msgstr ""
+msgstr "Correct errors before saving"
 
 #: ang/chasse/Config.html
 msgid "Journey: %name"
-msgstr ""
+msgstr "Journey: %name"
 
 #: ang/chasse/Config.html
 msgid "Journey name"
-msgstr ""
+msgstr "Journey name"
 
 #: ang/chasse/Config.html
 msgid "Required"
@@ -85,7 +85,7 @@ msgstr "Mailing Group"
 
 #: ang/chasse/Config.html
 msgid "--please choose--"
-msgstr ""
+msgstr "--please choose--"
 
 #: ang/chasse/Config.html
 msgid "Campaign"
@@ -93,23 +93,23 @@ msgstr "Campaign"
 
 #: ang/chasse/Config.html
 msgid "Archive mailings"
-msgstr ""
+msgstr "Archive mailings"
 
 #: ang/chasse/Config.html
 msgid "Create Chassé mailings as archived."
-msgstr ""
+msgstr "Create Chassé mailings as archived."
 
 #: ang/chasse/Config.html
 msgid "Steps in: %name"
-msgstr ""
+msgstr "Steps in: %name"
 
 #: ang/chasse/Config.html
 msgid "Step Code"
-msgstr ""
+msgstr "Step Code"
 
 #: ang/chasse/Config.html
 msgid "Unique code required"
-msgstr ""
+msgstr "Unique code required"
 
 #: ang/chasse/Config.html
 msgid "Delete"
@@ -117,27 +117,27 @@ msgstr "Delete"
 
 #: ang/chasse/Config.html
 msgid "Add to group"
-msgstr ""
+msgstr "Add to group"
 
 #: ang/chasse/Config.html
 msgid "Send Mailing"
-msgstr ""
+msgstr "Send Mailing"
 
 #: ang/chasse/Config.html
 msgid "(None)"
-msgstr ""
+msgstr "(None)"
 
 #: ang/chasse/Config.html
 msgid "From address"
-msgstr ""
+msgstr "From address"
 
 #: ang/chasse/Config.html
 msgid "Reply-to address"
-msgstr ""
+msgstr "Reply-to address"
 
 #: ang/chasse/Config.html
 msgid "Same as From address"
-msgstr ""
+msgstr "Same as From address"
 
 #: ang/chasse/Config.html
 msgid ""
@@ -146,14 +146,18 @@ msgid ""
 "contacts already in step 2, etc.) So use the re-order buttons to make the "
 "processing safe."
 msgstr ""
+"Note: Journeys are processed in reverse order. (otherwise the contacts in "
+"step 1 would get moved into step 2 and then re-processed along with the "
+"contacts already in step 2, etc.) So use the re-order buttons to make the "
+"processing safe."
 
 #: ang/chasse/Config.html
 msgid "Add step"
-msgstr ""
+msgstr "Add step"
 
 #: ang/chasse/Config.html
 msgid "Delete Journey"
-msgstr ""
+msgstr "Delete Journey"
 
 #: ang/chasse/Config.js ang/chasse/Status.js
 msgid "chasse"
@@ -177,15 +181,15 @@ msgstr "Saved"
 
 #: ang/chasse/Status.html
 msgid "No journeys planned yet."
-msgstr ""
+msgstr "No journeys planned yet."
 
 #: ang/chasse/Status.html
 msgid "Let’s create a journey!"
-msgstr ""
+msgstr "Let’s create a journey!"
 
 #: ang/chasse/Status.html
 msgid "Refresh status"
-msgstr ""
+msgstr "Refresh status"
 
 #: ang/chasse/Status.html
 msgid "Edit"
@@ -193,19 +197,19 @@ msgstr "Edit"
 
 #: ang/chasse/Status.html
 msgid "STEP %stepCode"
-msgstr ""
+msgstr "STEP %stepCode"
 
 #: ang/chasse/Status.html
 msgid "Automatic processing enabled"
-msgstr ""
+msgstr "Automatic processing enabled"
 
 #: ang/chasse/Status.html
 msgid "Process Now"
-msgstr ""
+msgstr "Process Now"
 
 #: ang/chasse/Status.html
 msgid "Add New Journey"
-msgstr ""
+msgstr "Add New Journey"
 
 #: ang/chasse/Status.js
 msgid "Processing Journey: %name..."
@@ -225,23 +229,23 @@ msgstr "Loaded"
 
 #: ang/chasse/intervalSelector.html
 msgid "Delay next step by"
-msgstr ""
+msgstr "Delay next step by"
 
 #: ang/chasse/intervalSelector.html
 msgid "(no delay)"
-msgstr ""
+msgstr "(no delay)"
 
 #: ang/chasse/intervalSelector.html
 msgid "day(s)"
-msgstr ""
+msgstr "day(s)"
 
 #: ang/chasse/intervalSelector.html
 msgid "week(s)"
-msgstr ""
+msgstr "week(s)"
 
 #: ang/chasse/intervalSelector.html
 msgid "month(s)"
-msgstr ""
+msgstr "month(s)"
 
 #: ang/chasse/intervalSelector.html
 msgid ""
@@ -252,6 +256,12 @@ msgid ""
 " be processed through them all in a matter of minutes, which is probably not"
 " what you want."
 msgstr ""
+"Warning: if you do not have a delay then contacts will progress through this"
+" step whenever the journey runs. If you are using automatic scheduling "
+"enabled then journeys are processed every time cron fires which could be "
+"every 5 minutes. So if you successive steps without a delay the contact will"
+" be processed through them all in a matter of minutes, which is probably not"
+" what you want."
 
 #: ang/chasse/scheduleEditor.html
 msgid "Processing"
@@ -259,31 +269,31 @@ msgstr "Processing"
 
 #: ang/chasse/scheduleEditor.html
 msgid "Use Automatic Schedule"
-msgstr ""
+msgstr "Use Automatic Schedule"
 
 #: ang/chasse/scheduleEditor.html
 msgid "Run every"
-msgstr ""
+msgstr "Run every"
 
 #: ang/chasse/scheduleEditor.html
 msgid "Run every month on the"
-msgstr ""
+msgstr "Run every month on the"
 
 #: ang/chasse/scheduleEditor.html
 msgid "Enter a valid day-of-the-month, e.g. 1 would be 1st of month."
-msgstr ""
+msgstr "Enter a valid day-of-the-month, e.g. 1 would be 1st of month."
 
 #: ang/chasse/scheduleEditor.html
 msgid "Don’t run before"
-msgstr ""
+msgstr "Don’t run before"
 
 #: ang/chasse/scheduleEditor.html
 msgid "Enter a valid time in 24hr format, e.g. 9:00 or 20:12"
-msgstr ""
+msgstr "Enter a valid time in 24hr format, e.g. 9:00 or 20:12"
 
 #: ang/chasse/scheduleEditor.html
 msgid "Don’t run after"
-msgstr ""
+msgstr "Don’t run after"
 
 #: chasse.php
 msgid "Chassé Supporter Journeys"
