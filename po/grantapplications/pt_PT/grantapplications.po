@@ -5,12 +5,13 @@
 # Translators:
 # Patrick Ilceu Reis de Carvalho <carpatrick@gmail.com>, 2022
 # Joao Galvao, 2022
+# Marcio Jacinto, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: grantapplications\n"
-"POT-Creation-Date: 2023-01-27 19:21+0000\n"
-"Last-Translator: Joao Galvao, 2022\n"
+"POT-Creation-Date: 2024-06-26 05:01+0000\n"
+"Last-Translator: Marcio Jacinto, 2024\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/civicrm/teams/1905/pt_PT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,7 +33,7 @@ msgstr ""
 
 #: CRM/Grant/BAO/GrantApplicationPage.php CRM/UF/Page/Group.php
 msgid "Delete"
-msgstr ""
+msgstr "Apagar"
 
 #: CRM/Grant/BAO/GrantApplicationPage.php
 msgid "Info and Settings"
@@ -113,11 +114,26 @@ msgstr ""
 msgid "Requested amount has to be greater than zero."
 msgstr ""
 
-#: CRM/Grant/Form/Grant/OnBehalfOf.php
+#: CRM/Grant/Form/Grant/Main.php CRM/Grant/Form/Grant/OnBehalfOf.php
 msgid ""
 "This grant application page has been configured for applying for grants on "
 "behalf of an organization and the selected onbehalf profile is either "
 "disabled or not found."
+msgstr ""
+
+#: CRM/Grant/Form/Grant/Main.php CRM/Grant/Form/Grant/OnBehalfOf.php
+#: CRM/Grant/Form/GrantBase.php
+msgid "Select an existing organization"
+msgstr ""
+
+#: CRM/Grant/Form/Grant/Main.php CRM/Grant/Form/Grant/OnBehalfOf.php
+#: CRM/Grant/Form/GrantBase.php
+msgid "Enter a new organization"
+msgstr ""
+
+#: CRM/Grant/Form/Grant/Main.php CRM/Grant/Form/Grant/OnBehalfOf.php
+#: CRM/Grant/Form/GrantBase.php
+msgid "options"
 msgstr ""
 
 #: CRM/Grant/Form/Grant/OnBehalfOf.php
@@ -133,18 +149,6 @@ msgstr ""
 
 #: CRM/Grant/Form/Grant/OnBehalfOf.php
 msgid "Select an existing related Organization OR enter a new one"
-msgstr ""
-
-#: CRM/Grant/Form/Grant/OnBehalfOf.php CRM/Grant/Form/GrantBase.php
-msgid "Select an existing organization"
-msgstr ""
-
-#: CRM/Grant/Form/Grant/OnBehalfOf.php CRM/Grant/Form/GrantBase.php
-msgid "Enter a new organization"
-msgstr ""
-
-#: CRM/Grant/Form/Grant/OnBehalfOf.php CRM/Grant/Form/GrantBase.php
-msgid "options"
 msgstr ""
 
 #: CRM/Grant/Form/GrantBase.php
@@ -259,7 +263,7 @@ msgstr ""
 #: CRM/Grant/Form/GrantPage/TabHeader.php
 #: templates/CRM/Grant/Page/GrantApplicationDashboard.tpl
 msgid "Title"
-msgstr ""
+msgstr "Titulo"
 
 #: CRM/Grant/Form/GrantPage/Settings.php
 msgid "Grant Program"
@@ -327,8 +331,8 @@ msgstr ""
 
 #: CRM/Grant/Form/GrantPage/Settings.php
 msgid ""
-"Please select a profile to collect organization information on this "
-"contribution page."
+"Please select a profile to collect organization information on this grant "
+"application page."
 msgstr ""
 
 #: CRM/Grant/Form/GrantPage/Settings.php
@@ -347,7 +351,7 @@ msgstr ""
 
 #: CRM/Grant/Form/GrantPage/Settings.php CRM/Grant/Form/GrantPage.php
 msgid "Saved"
-msgstr ""
+msgstr "Gravado"
 
 #: CRM/Grant/Form/GrantPage/TabHeader.php
 msgid "Thank You and Receipting"
@@ -449,7 +453,7 @@ msgstr ""
 
 #: CRM/Grant/Form/GrantPage.php
 msgid "Done"
-msgstr ""
+msgstr "Feito"
 
 #: CRM/Grant/Page/UserDashboard.php
 msgid "Grants"
@@ -469,10 +473,6 @@ msgstr ""
 
 #: CRM/Grantapplications/BAO/GrantApplicationProfile.php
 msgid "Grant Note"
-msgstr ""
-
-#: CRM/Grantapplications/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
 msgstr ""
 
 #: CRM/Grantapplications/Upgrader.php
@@ -564,6 +564,14 @@ msgid "CiviCRM Profile Group Preview"
 msgstr ""
 
 #: grantapplications.php
+msgid "Message Template Workflow for Grant"
+msgstr ""
+
+#: grantapplications.php
+msgid "Grants - Receipt (on-line)"
+msgstr ""
+
+#: grantapplications.php
 msgid "Grants on dashboard"
 msgstr ""
 
@@ -635,14 +643,6 @@ msgstr ""
 msgid "Edit Grant Application"
 msgstr ""
 
-#: sql/civicrm_msg_template.tpl
-msgid "Message Template Workflow for Grant"
-msgstr ""
-
-#: sql/civicrm_msg_template.tpl
-msgid "Grants - Receipt (on-line)"
-msgstr ""
-
 #: sql/message_templates/grant_online_receipt_html.tpl
 #: sql/upgrade_4701.sql.tpl
 msgid "Please print this confirmation for your records."
@@ -665,7 +665,7 @@ msgstr ""
 #: sql/message_templates/grant_online_receipt_text.tpl
 #: sql/upgrade_4701.sql.tpl templates/CRM/Grant/Form/Grant/ThankYou.tpl
 msgid "Date"
-msgstr ""
+msgstr "Data"
 
 #: sql/message_templates/grant_online_receipt_html.tpl
 #: sql/message_templates/grant_online_receipt_text.tpl
@@ -966,14 +966,6 @@ msgstr ""
 
 #: templates/CRM/Grant/Form/GrantPage/Settings.tpl
 msgid ""
-"You must <a href=\"%1\">configure a valid organization profile</a> in order "
-"to allow individuals to contribute on behalf of an organization. Valid "
-"profiles include Contact and / or Organization fields, and may include "
-"Contribution and Membership fields."
-msgstr ""
-
-#: templates/CRM/Grant/Form/GrantPage/Settings.tpl
-msgid ""
 "To change the organization data collected use the \"On Behalf Of "
 "Organization\" profile (<a href=\"%1\">Administer > Customize Data and "
 "Screens > Profiles</a>)."
@@ -1146,11 +1138,11 @@ msgstr ""
 
 #: templates/CRM/Grant/Page/GrantApplicationDashboard.tpl
 msgid "Yes"
-msgstr ""
+msgstr "Sim"
 
 #: templates/CRM/Grant/Page/GrantApplicationDashboard.tpl
 msgid "No"
-msgstr ""
+msgstr "Não"
 
 #: templates/CRM/Grant/Page/UserDashboard.tpl
 msgid "Name"
