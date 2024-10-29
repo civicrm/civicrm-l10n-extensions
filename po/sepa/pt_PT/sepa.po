@@ -4,12 +4,13 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Joao Galvao, 2022
+# Marcio Jacinto, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: sepa\n"
-"POT-Creation-Date: 2023-01-27 19:22+0000\n"
-"Last-Translator: Joao Galvao, 2022\n"
+"POT-Creation-Date: 2024-05-14 05:01+0000\n"
+"Last-Translator: Marcio Jacinto, 2024\n"
 "Language-Team: Portuguese (Portugal) (https://app.transifex.com/civicrm/teams/1905/pt_PT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -97,7 +98,7 @@ msgstr ""
 
 #: CRM/Admin/Form/Setting/SepaSettings.php
 msgid "Address"
-msgstr ""
+msgstr "Morada"
 
 #: CRM/Admin/Form/Setting/SepaSettings.php CRM/Sepa/DAO/SEPACreditor.php
 msgid "Country"
@@ -151,6 +152,10 @@ msgstr ""
 #: templates/Sepa/Contribute/Form/ContributionView.tpl
 #: templates/Sepa/Contribute/Page/ContributionRecur.tpl
 msgid "IBAN"
+msgstr ""
+
+#: CRM/Admin/Form/Setting/SepaSettings.php
+msgid "CUC (only from CBIBdySDDReq)"
 msgstr ""
 
 #: CRM/Admin/Form/Setting/SepaSettings.php CRM/Sepa/DAO/SEPACreditor.php
@@ -249,7 +254,7 @@ msgstr ""
 
 #: CRM/Admin/Form/Setting/SepaSettings.php
 msgid "Saved"
-msgstr ""
+msgstr "Gravado"
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "Cannot close mandate [%s], batching in progress!"
@@ -261,7 +266,7 @@ msgstr ""
 #: CRM/Sepa/Page/DashBoard.php CRM/Sepa/Page/EditMandate.php
 #: CRM/Sepa/Page/ListGroup.php js/SepaSettings.js
 msgid "Error"
-msgstr ""
+msgstr "Erro"
 
 #: CRM/Sepa/BAO/SEPAMandate.php CRM/Sepa/Page/EditMandate.php
 msgid "Cannot read mandate [%s]. Error was: '%s'"
@@ -383,6 +388,14 @@ msgstr ""
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "Campaign changed from '%1' [%2] to '%3' [%4]."
+msgstr ""
+
+#: CRM/Sepa/BAO/SEPAMandate.php
+msgid "Cycle day changed"
+msgstr ""
+
+#: CRM/Sepa/BAO/SEPAMandate.php
+msgid "Cycle day changed from '%1' to '%2'."
 msgstr ""
 
 #: CRM/Sepa/BAO/SEPAMandate.php
@@ -617,6 +630,15 @@ msgstr ""
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "If true, BICs are not used for this creditor"
+msgstr ""
+
+#: CRM/Sepa/DAO/SEPACreditor.php
+#: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
+msgid "CUC"
+msgstr ""
+
+#: CRM/Sepa/DAO/SEPACreditor.php
+msgid "CUC of the creditor"
 msgstr ""
 
 #: CRM/Sepa/DAO/SEPAMandate.php
@@ -1007,7 +1029,7 @@ msgstr ""
 #: CRM/Sepa/Form/CreateMandate.php CRM/Sepa/Page/CreateMandate.php
 #: CRM/Sepa/Page/EditMandate.php js/SepaSettings.js
 msgid "Success"
-msgstr ""
+msgstr "Sucesso"
 
 #: CRM/Sepa/Form/CreateMandate.php
 msgid "Failed to create %1 mandate. Error was: %2"
@@ -1866,6 +1888,31 @@ msgstr ""
 msgid "Find SEPA Mandate"
 msgstr ""
 
+#: Civi/Sepa/ContainerSpecs.php
+#: templates/CRM/Contact/Page/View/Summary.sepa.tpl
+msgid "SEPA Mandate"
+msgstr ""
+
+#: Civi/Sepa/ContainerSpecs.php
+msgid "SEPA Creditor"
+msgstr ""
+
+#: Civi/Sepa/ContainerSpecs.php
+msgid "SEPA Transaction Group"
+msgstr ""
+
+#: Civi/Sepa/ContainerSpecs.php
+msgid "SEPA SDD File"
+msgstr ""
+
+#: Civi/Sepa/ContainerSpecs.php
+msgid "SEPA Contribution Group"
+msgstr ""
+
+#: Civi/Sepa/ContainerSpecs.php
+msgid "SEPA Mandate Link"
+msgstr ""
+
 #: api/v3/SepaTransactionGroup.php
 msgid "SEPA DD Transaction Batch"
 msgstr ""
@@ -1953,7 +2000,15 @@ msgid "Create SEPA mandates"
 msgstr ""
 
 #: sepa.php
+msgid "Allows creating SEPA Direct Debit mandates."
+msgstr ""
+
+#: sepa.php
 msgid "View SEPA mandates"
+msgstr ""
+
+#: sepa.php
+msgid "Allows viewing SEPA Direct Debit mandates"
 msgstr ""
 
 #: sepa.php
@@ -1961,7 +2016,15 @@ msgid "Edit SEPA mandates"
 msgstr ""
 
 #: sepa.php
+msgid "Allows editing SEPA Direct Debit mandates."
+msgstr ""
+
+#: sepa.php
 msgid "Delete SEPA mandates"
+msgstr ""
+
+#: sepa.php
+msgid "Allows deleting SEPA Direct Debit mandates"
 msgstr ""
 
 #: sepa.php
@@ -1969,11 +2032,23 @@ msgid "View SEPA transaction groups"
 msgstr ""
 
 #: sepa.php
+msgid "Allows viewing groups of SEPA transactions to be sent to the bank."
+msgstr ""
+
+#: sepa.php
 msgid "Batch SEPA transaction groups"
 msgstr ""
 
 #: sepa.php
+msgid "Allows generating groups of SEPA transactions to be sent to the bank."
+msgstr ""
+
+#: sepa.php
 msgid "Delete SEPA transaction groups"
+msgstr ""
+
+#: sepa.php
+msgid "Allows deleting groups of SEPA transactions to be sent to the bank."
 msgstr ""
 
 #: sepa.php
@@ -2358,6 +2433,12 @@ msgid ""
 "If you leave this empty, no (new) one-off mandates can be created any more."
 msgstr ""
 
+#: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
+msgid ""
+"CUC-code (\"Codice Univoco CBI\") of the financial institution of the "
+"creditor. It is only required for CBIBdySDDReq SEPA file format."
+msgstr ""
+
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Creditors"
 msgstr ""
@@ -2380,7 +2461,7 @@ msgstr ""
 #: templates/CRM/Sepa/Page/DashBoard.tpl
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "Delete"
-msgstr ""
+msgstr "Apagar"
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "No creditors found"
@@ -2460,10 +2541,6 @@ msgid "Support Large Groups"
 msgstr ""
 
 #: templates/CRM/Contact/Page/View/Summary.sepa.tpl
-msgid "SEPA Mandate"
-msgstr ""
-
-#: templates/CRM/Contact/Page/View/Summary.sepa.tpl
 #: templates/CRM/Sepa/Page/DashBoard.tpl templates/CRM/Sepa/Page/ListGroup.tpl
 msgid "Contributions"
 msgstr ""
@@ -2499,7 +2576,7 @@ msgstr ""
 #: templates/CRM/Contribute/Form/ContributionThankYou.sepa.tpl
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "Date"
-msgstr ""
+msgstr "Data"
 
 #: templates/CRM/Contribute/Form/ContributionThankYou.sepa.tpl
 msgid "Payment Reference"
@@ -3063,11 +3140,11 @@ msgstr ""
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "Yes"
-msgstr ""
+msgstr "Sim"
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "No"
-msgstr ""
+msgstr "Não"
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "SEPA transaction group '%1' could not be deleted succesfully."
@@ -3106,7 +3183,7 @@ msgstr ""
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "Back"
-msgstr ""
+msgstr "Voltar"
 
 #: templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "No group_id given!"
@@ -3131,6 +3208,12 @@ msgstr ""
 msgid ""
 "The templates listed here are all user templates that begin with the prefix "
 "'SEPA'."
+msgstr ""
+
+#: templates/CRM/Sepa/Page/EditMandate.hlp
+msgid ""
+"When you change the cycle day be aware that you might end up collecting "
+"twice in the same month, or miss a collection altogether."
 msgstr ""
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
@@ -3224,6 +3307,18 @@ msgstr ""
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "Replace for the following reason:"
+msgstr ""
+
+#: templates/CRM/Sepa/Page/EditMandate.tpl
+msgid "Change Cycle Day"
+msgstr ""
+
+#: templates/CRM/Sepa/Page/EditMandate.tpl
+msgid "New cycle day:"
+msgstr ""
+
+#: templates/CRM/Sepa/Page/EditMandate.tpl
+msgid "Cyle Day"
 msgstr ""
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
@@ -3368,7 +3463,7 @@ msgstr ""
 
 #: templates/Sepa/Contribute/Page/ContributionRecur.tpl
 msgid "Done"
-msgstr ""
+msgstr "Feito"
 
 #: templates/Sepa/Contribute/Page/ContributionRecur.tpl
 msgid "Notes"
@@ -3525,10 +3620,6 @@ msgstr ""
 
 #: tests/phpunit/CRM/Sepa/ReferenceGenerationTest.php
 msgid "The RCUR mandate reference is invalid."
-msgstr ""
-
-#: tests/phpunit/CRM/Sepa/ReferenceGenerationTest.php
-msgid "There should be a clashing reference"
 msgstr ""
 
 #: tests/phpunit/CRM/Sepa/SettingsTest.php
