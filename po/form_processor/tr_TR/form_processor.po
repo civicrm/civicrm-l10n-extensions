@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: form_processor\n"
-"POT-Creation-Date: 2024-10-16 05:01+0000\n"
+"POT-Creation-Date: 2024-11-01 05:01+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (https://app.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -777,6 +777,10 @@ msgid "Send everything"
 msgstr "Her şey gönderilsin"
 
 #: Civi/FormProcessor/Runner.php
+msgid "Error in action %1: %2"
+msgstr "%1 işlemi yapılırken sorun çıktı: %2"
+
+#: Civi/FormProcessor/Runner.php
 msgid "Form Processor Name"
 msgstr "Form işleyici adı"
 
@@ -808,6 +812,7 @@ msgstr "Kampanyanın adı"
 #: Civi/FormProcessor/Type/OptionGroupType.php
 #: Civi/FormProcessor/Type/ParentMailingGroupType.php
 #: Civi/FormProcessor/Type/ParticipantStatusType.php
+#: Civi/FormProcessor/Type/PriceSetOptionsFieldType.php
 #: Civi/FormProcessor/Type/TagType.php Civi/FormProcessor/Type/WeekDays.php
 msgid "Multiple"
 msgstr "Çoklu"
@@ -820,6 +825,7 @@ msgstr "Çoklu"
 #: Civi/FormProcessor/Type/OptionGroupType.php
 #: Civi/FormProcessor/Type/ParentMailingGroupType.php
 #: Civi/FormProcessor/Type/ParticipantStatusType.php
+#: Civi/FormProcessor/Type/PriceSetOptionsFieldType.php
 #: Civi/FormProcessor/Type/TagType.php Civi/FormProcessor/Type/WeekDays.php
 msgid "Single value"
 msgstr "Tek değer"
@@ -832,6 +838,7 @@ msgstr "Tek değer"
 #: Civi/FormProcessor/Type/OptionGroupType.php
 #: Civi/FormProcessor/Type/ParentMailingGroupType.php
 #: Civi/FormProcessor/Type/ParticipantStatusType.php
+#: Civi/FormProcessor/Type/PriceSetOptionsFieldType.php
 #: Civi/FormProcessor/Type/TagType.php Civi/FormProcessor/Type/WeekDays.php
 msgid "Multiple values"
 msgstr "Çoklu değer"
@@ -1065,6 +1072,10 @@ msgstr "Olay türü"
 msgid "Any CiviCRM Entity (ID)"
 msgstr "Tüm CiviCRM varlıkları (kimlik)"
 
+#: Civi/FormProcessor/Type/Factory.php
+msgid "Price Set Options"
+msgstr "Fiyat paketi seçenekleri"
+
 #: Civi/FormProcessor/Type/FormattedDecimalType.php
 msgid "Decimal point"
 msgstr "Ondalık ayracı"
@@ -1103,6 +1114,14 @@ msgstr "Değer olarak etiket kullanılsın"
 #: Civi/FormProcessor/Type/OptionGroupType.php
 msgid "Option group"
 msgstr "Seçenek grubu"
+
+#: Civi/FormProcessor/Type/PriceSetOptionsFieldType.php
+msgid "Price set option fields"
+msgstr "Fiyat paketi seçenek alanları"
+
+#: Civi/FormProcessor/Type/PriceSetOptionsFieldType.php
+msgid "Include field label"
+msgstr "Alan etiketi katılsın"
 
 #: Civi/FormProcessor/Type/ShortTextType.php
 msgid "Remove leading and trailing spaces"
