@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: form_processor\n"
-"POT-Creation-Date: 2024-10-05 05:02+0000\n"
+"POT-Creation-Date: 2024-11-01 05:01+0000\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>, 2024\n"
 "Language-Team: English (United Kingdom) (https://app.transifex.com/civicrm/teams/1905/en_GB/)\n"
 "MIME-Version: 1.0\n"
@@ -775,6 +775,10 @@ msgid "Send everything"
 msgstr ""
 
 #: Civi/FormProcessor/Runner.php
+msgid "Error in action %1: %2"
+msgstr ""
+
+#: Civi/FormProcessor/Runner.php
 msgid "Form Processor Name"
 msgstr ""
 
@@ -806,6 +810,7 @@ msgstr ""
 #: Civi/FormProcessor/Type/OptionGroupType.php
 #: Civi/FormProcessor/Type/ParentMailingGroupType.php
 #: Civi/FormProcessor/Type/ParticipantStatusType.php
+#: Civi/FormProcessor/Type/PriceSetOptionsFieldType.php
 #: Civi/FormProcessor/Type/TagType.php Civi/FormProcessor/Type/WeekDays.php
 msgid "Multiple"
 msgstr "Multiple"
@@ -818,6 +823,7 @@ msgstr "Multiple"
 #: Civi/FormProcessor/Type/OptionGroupType.php
 #: Civi/FormProcessor/Type/ParentMailingGroupType.php
 #: Civi/FormProcessor/Type/ParticipantStatusType.php
+#: Civi/FormProcessor/Type/PriceSetOptionsFieldType.php
 #: Civi/FormProcessor/Type/TagType.php Civi/FormProcessor/Type/WeekDays.php
 msgid "Single value"
 msgstr ""
@@ -830,6 +836,7 @@ msgstr ""
 #: Civi/FormProcessor/Type/OptionGroupType.php
 #: Civi/FormProcessor/Type/ParentMailingGroupType.php
 #: Civi/FormProcessor/Type/ParticipantStatusType.php
+#: Civi/FormProcessor/Type/PriceSetOptionsFieldType.php
 #: Civi/FormProcessor/Type/TagType.php Civi/FormProcessor/Type/WeekDays.php
 msgid "Multiple values"
 msgstr ""
@@ -1036,7 +1043,7 @@ msgstr ""
 
 #: Civi/FormProcessor/Type/Factory.php
 msgid "Language"
-msgstr ""
+msgstr "Language"
 
 #: Civi/FormProcessor/Type/Factory.php
 msgid "Case Type"
@@ -1044,6 +1051,10 @@ msgstr "Case Type"
 
 #: Civi/FormProcessor/Type/Factory.php
 msgid "Any CiviCRM Entity (ID)"
+msgstr ""
+
+#: Civi/FormProcessor/Type/Factory.php
+msgid "Price Set Options"
 msgstr ""
 
 #: Civi/FormProcessor/Type/FormattedDecimalType.php
@@ -1083,6 +1094,14 @@ msgstr ""
 
 #: Civi/FormProcessor/Type/OptionGroupType.php
 msgid "Option group"
+msgstr ""
+
+#: Civi/FormProcessor/Type/PriceSetOptionsFieldType.php
+msgid "Price set option fields"
+msgstr ""
+
+#: Civi/FormProcessor/Type/PriceSetOptionsFieldType.php
+msgid "Include field label"
 msgstr ""
 
 #: Civi/FormProcessor/Type/ShortTextType.php
@@ -1535,10 +1554,6 @@ msgstr "Default value"
 
 #: templates/CRM/FormProcessor/Form/Blocks/Inputs.tpl
 msgid "Validation Rules"
-msgstr ""
-
-#: templates/CRM/FormProcessor/Form/Blocks/Inputs.tpl
-msgid "Invalid type"
 msgstr ""
 
 #: templates/CRM/FormProcessor/Form/Blocks/Inputs.tpl
