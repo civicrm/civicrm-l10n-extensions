@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: advanced_events\n"
-"POT-Creation-Date: 2024-03-07 05:02+0000\n"
+"POT-Creation-Date: 2024-12-05 05:01+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (https://app.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -34,39 +34,6 @@ msgstr "Yalnızca ana katılımcı"
 msgid "Additional Participant Only"
 msgstr "Yalnızca ek katılımcı"
 
-#: CRM/AdvancedEvents/DAO/EventTemplate.php
-#: managed/savedsearch_eventtemplates.mgd.php
-msgid "Event Templates"
-msgstr "Etkinlik kalıpları"
-
-#: CRM/AdvancedEvents/DAO/EventTemplate.php
-msgid "Event Template"
-msgstr "Etkinlik kalıbı"
-
-#: CRM/AdvancedEvents/DAO/EventTemplate.php
-msgid "ID"
-msgstr "Kimlik"
-
-#: CRM/AdvancedEvents/DAO/EventTemplate.php
-msgid "Unique EventTemplate ID"
-msgstr "Benzersiz EventTemplate kimliği"
-
-#: CRM/AdvancedEvents/DAO/EventTemplate.php
-msgid "Event ID"
-msgstr "Etkinlik kimliği"
-
-#: CRM/AdvancedEvents/DAO/EventTemplate.php
-msgid "FK to Event"
-msgstr "Etkinlik dış anahtarı"
-
-#: CRM/AdvancedEvents/DAO/EventTemplate.php
-msgid "Template ID"
-msgstr "Kalıp kimliği"
-
-#: CRM/AdvancedEvents/DAO/EventTemplate.php
-msgid "Event Template Title"
-msgstr "Etkinlik kalıbı başlığı"
-
 #: CRM/AdvancedEvents/Form/ManageEvent/Repeat.php
 #: CRM/AdvancedEvents/Form/Task/CopyParticipants.php
 #: CRM/AdvancedEvents/Form/Task.php
@@ -82,6 +49,8 @@ msgid "Repeats every"
 msgstr "Yinelenme"
 
 #: CRM/AdvancedEvents/Form/RecurringEntity.php
+#: managed/SavedSearch_AdvancedEvents_Linked_Events.mgd.php
+#: managed/SavedSearch_Event_Templates.mgd.php
 #: managed/savedsearch_eventtemplates.mgd.php
 #: managed/savedsearch_linkedevents.mgd.php
 msgid "Start Date"
@@ -228,14 +197,6 @@ msgid "Hide \"Skip Participant\" button"
 msgstr "\"Katılımcıyı atla\" düğmesi gizlensin"
 
 #: advanced_events.mgd.php
-msgid "PriceFieldValue"
-msgstr "Fiyat alanı değeri"
-
-#: advanced_events.mgd.php
-msgid "PriceField"
-msgstr "Fiyat alanı"
-
-#: advanced_events.mgd.php
 msgid "Event options"
 msgstr "Etkinlik seçenekleri"
 
@@ -283,125 +244,202 @@ msgstr "CiviEvent: Kendi etkinlik kalıplarını silme"
 msgid "CiviEvent: Delete all event templates"
 msgstr "CiviEvent: Tüm etkinlik kalıplarını silme"
 
-#: managed/navigationmenu.mgd.php
-msgid "Advanced Events Settings"
-msgstr "Gelişmiş etkinlikler ayarları"
+#: ang/afsearchAdvancedEventsLinkedEvents.aff.php
+msgid "Advanced Events Linked Events"
+msgstr ""
 
-#: managed/savedsearch_eventtemplates.mgd.php
-msgid "Event Templates Table 1"
-msgstr "Rtkinlik kalıpları tablosu 1"
+#: ang/afsearchManageEventTemplates.aff.php
+#: managed/Navigation_afsearchManageEventTemplates.mgd.php
+msgid "Manage Event Templates"
+msgstr ""
 
+#: managed/SavedSearch_AdvancedEvents_Linked_Events.mgd.php
+#: managed/savedsearch_linkedevents.mgd.php
+msgid "AdvancedEvents Linked Events"
+msgstr "AdvancedEvents bağlantılı etkinlikler"
+
+#: managed/SavedSearch_AdvancedEvents_Linked_Events.mgd.php
+#: managed/savedsearch_linkedevents.mgd.php
+msgid "Linked Events"
+msgstr "Bağlantılı etkinlikler"
+
+#: managed/SavedSearch_AdvancedEvents_Linked_Events.mgd.php
+#: managed/SavedSearch_Event_Templates.mgd.php
 #: managed/savedsearch_eventtemplates.mgd.php
 #: managed/savedsearch_linkedevents.mgd.php
 msgid "Title"
 msgstr "Başlık"
 
+#: managed/SavedSearch_AdvancedEvents_Linked_Events.mgd.php
+#: managed/savedsearch_linkedevents.mgd.php
+msgid "View Event"
+msgstr "Etkinliği görüntüle"
+
+#: managed/SavedSearch_AdvancedEvents_Linked_Events.mgd.php
+#: managed/SavedSearch_Event_Templates.mgd.php
+#: managed/savedsearch_eventtemplates.mgd.php
+#: managed/savedsearch_linkedevents.mgd.php
+msgid "End Date"
+msgstr "Bitiş tarihi"
+
+#: managed/SavedSearch_AdvancedEvents_Linked_Events.mgd.php
+#: managed/SavedSearch_Event_Templates.mgd.php
 #: managed/savedsearch_eventtemplates.mgd.php
 #: managed/savedsearch_linkedevents.mgd.php
 #: templates/CRM/Event/Page/ManageEvent.tpl
 msgid "Type"
 msgstr "Tür"
 
-#: managed/savedsearch_eventtemplates.mgd.php
-msgid "Created By"
-msgstr "Oluşturan"
-
-#: managed/savedsearch_eventtemplates.mgd.php
-msgid "View Created By"
-msgstr "Oluşturanı görüntüle"
-
-#: managed/savedsearch_eventtemplates.mgd.php
-msgid "Financial Type"
-msgstr "Mali tür"
-
+#: managed/SavedSearch_AdvancedEvents_Linked_Events.mgd.php
+#: managed/SavedSearch_Event_Templates.mgd.php
 #: managed/savedsearch_eventtemplates.mgd.php
 msgid "Summary"
 msgstr "Özet"
 
-#: managed/savedsearch_eventtemplates.mgd.php
-#: managed/savedsearch_linkedevents.mgd.php
-msgid "End Date"
-msgstr "Bitiş tarihi"
-
+#: managed/SavedSearch_AdvancedEvents_Linked_Events.mgd.php
+#: managed/SavedSearch_Event_Templates.mgd.php
 #: managed/savedsearch_eventtemplates.mgd.php
 #: managed/savedsearch_linkedevents.mgd.php
 msgid "Public"
 msgstr "Herkese açık"
 
-#: managed/savedsearch_eventtemplates.mgd.php
-msgid "Paid Event"
-msgstr "Ücretli etkinlik"
-
+#: managed/SavedSearch_AdvancedEvents_Linked_Events.mgd.php
+#: managed/SavedSearch_Event_Templates.mgd.php
 #: managed/savedsearch_eventtemplates.mgd.php
 #: managed/savedsearch_linkedevents.mgd.php
 msgid "Online Registration"
 msgstr "Çevrim içi kayıt"
 
-#: managed/savedsearch_eventtemplates.mgd.php
-msgid "Events"
-msgstr "Etkinlikler"
-
-#: managed/savedsearch_eventtemplates.mgd.php
-msgid "Create Event"
-msgstr "Etkinlik oluştur"
-
-#: managed/savedsearch_eventtemplates.mgd.php
-msgid "Edit"
-msgstr "Düzenle"
-
-#: managed/savedsearch_eventtemplates.mgd.php
-msgid "Disable"
-msgstr "Devre dışı bırak"
-
-#: managed/savedsearch_eventtemplates.mgd.php
-msgid "Enable"
-msgstr "Etkinleştir"
-
-#: managed/savedsearch_eventtemplates.mgd.php
-msgid "Delete"
-msgstr "Sil"
-
-#: managed/savedsearch_eventtemplates.mgd.php
-msgid "Copy"
-msgstr "Kopyala"
-
-#: managed/savedsearch_eventtemplates.mgd.php
-msgid "Add New Template"
-msgstr "Yeni kalıp ekle"
-
-#: managed/savedsearch_linkedevents.mgd.php
-msgid "AdvancedEvents Linked Events"
-msgstr "AdvancedEvents bağlantılı etkinlikler"
-
-#: managed/savedsearch_linkedevents.mgd.php
-msgid "Linked Events"
-msgstr "Bağlantılı etkinlikler"
-
-#: managed/savedsearch_linkedevents.mgd.php
-msgid "View Event"
-msgstr "Etkinliği görüntüle"
-
-#: managed/savedsearch_linkedevents.mgd.php
-msgid "Description"
-msgstr "Açıklama"
-
+#: managed/SavedSearch_AdvancedEvents_Linked_Events.mgd.php
 #: managed/savedsearch_linkedevents.mgd.php
 #: templates/CRM/Event/Page/ManageEvent.tpl
 msgid "Participants"
 msgstr "Katılımcılar"
 
+#: managed/SavedSearch_AdvancedEvents_Linked_Events.mgd.php
 #: managed/savedsearch_linkedevents.mgd.php
 #: templates/CRM/Event/Page/ManageEvent.tpl
 msgid "Add Event"
 msgstr "Etkinlik ekle"
 
-#: mixin/setting-admin@1.0.1.mixin.php
-msgid "%1 Settings"
-msgstr "%1 ayarları"
+#: managed/SavedSearch_Event_Templates.mgd.php
+#: managed/savedsearch_eventtemplates.mgd.php
+#: schema/EventTemplate.entityType.php
+msgid "Event Templates"
+msgstr "Etkinlik kalıpları"
 
-#: mixin/setting-admin@1.0.1.mixin.php
-msgid "%1: Administer settings"
-msgstr "%1: Ayar yönetimi"
+#: managed/SavedSearch_Event_Templates.mgd.php
+#: managed/savedsearch_eventtemplates.mgd.php
+msgid "Event Templates Table 1"
+msgstr "Rtkinlik kalıpları tablosu 1"
+
+#: managed/SavedSearch_Event_Templates.mgd.php
+#: managed/savedsearch_eventtemplates.mgd.php
+msgid "Created By"
+msgstr "Oluşturan"
+
+#: managed/SavedSearch_Event_Templates.mgd.php
+#: managed/savedsearch_eventtemplates.mgd.php
+msgid "View Created By"
+msgstr "Oluşturanı görüntüle"
+
+#: managed/SavedSearch_Event_Templates.mgd.php
+#: managed/savedsearch_eventtemplates.mgd.php
+msgid "Financial Type"
+msgstr "Mali tür"
+
+#: managed/SavedSearch_Event_Templates.mgd.php
+#: managed/savedsearch_eventtemplates.mgd.php
+msgid "Paid Event"
+msgstr "Ücretli etkinlik"
+
+#: managed/SavedSearch_Event_Templates.mgd.php
+#: managed/savedsearch_eventtemplates.mgd.php
+msgid "Events"
+msgstr "Etkinlikler"
+
+#: managed/SavedSearch_Event_Templates.mgd.php
+#: managed/savedsearch_eventtemplates.mgd.php
+msgid "Create Event"
+msgstr "Etkinlik oluştur"
+
+#: managed/SavedSearch_Event_Templates.mgd.php
+#: managed/savedsearch_eventtemplates.mgd.php
+msgid "Edit"
+msgstr "Düzenle"
+
+#: managed/SavedSearch_Event_Templates.mgd.php
+#: managed/savedsearch_eventtemplates.mgd.php
+msgid "Disable"
+msgstr "Devre dışı bırak"
+
+#: managed/SavedSearch_Event_Templates.mgd.php
+#: managed/savedsearch_eventtemplates.mgd.php
+msgid "Enable"
+msgstr "Etkinleştir"
+
+#: managed/SavedSearch_Event_Templates.mgd.php
+#: managed/savedsearch_eventtemplates.mgd.php
+msgid "Delete"
+msgstr "Sil"
+
+#: managed/SavedSearch_Event_Templates.mgd.php
+#: managed/savedsearch_eventtemplates.mgd.php
+msgid "Copy"
+msgstr "Kopyala"
+
+#: managed/SavedSearch_Event_Templates.mgd.php
+#: managed/savedsearch_eventtemplates.mgd.php
+msgid "Add New Template"
+msgstr "Yeni kalıp ekle"
+
+#: managed/cg_extend_pricefield.mgd.php
+msgid "PriceField"
+msgstr "Fiyat alanı"
+
+#: managed/cg_extend_pricefieldvalue.mgd.php
+msgid "PriceFieldValue"
+msgstr "Fiyat alanı değeri"
+
+#: managed/navigationmenu.mgd.php
+msgid "Advanced Events Settings"
+msgstr "Gelişmiş etkinlikler ayarları"
+
+#: managed/savedsearch_linkedevents.mgd.php
+msgid "Description"
+msgstr "Açıklama"
+
+#: schema/EventTemplate.entityType.php
+msgid "Event Template"
+msgstr "Etkinlik kalıbı"
+
+#: schema/EventTemplate.entityType.php
+msgid "CiviCRM Event Template map table"
+msgstr ""
+
+#: schema/EventTemplate.entityType.php
+msgid "ID"
+msgstr "Kimlik"
+
+#: schema/EventTemplate.entityType.php
+msgid "Unique EventTemplate ID"
+msgstr "Benzersiz EventTemplate kimliği"
+
+#: schema/EventTemplate.entityType.php
+msgid "Event ID"
+msgstr "Etkinlik kimliği"
+
+#: schema/EventTemplate.entityType.php
+msgid "FK to Event"
+msgstr "Etkinlik dış anahtarı"
+
+#: schema/EventTemplate.entityType.php
+msgid "Template ID"
+msgstr "Kalıp kimliği"
+
+#: schema/EventTemplate.entityType.php
+msgid "Event Template Title"
+msgstr "Etkinlik kalıbı başlığı"
 
 #: settings/advanced_events.setting.php
 msgid "Manage Events Tabs: Enable Location"
