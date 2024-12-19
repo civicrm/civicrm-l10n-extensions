@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: form_processor\n"
-"POT-Creation-Date: 2024-11-01 05:01+0000\n"
+"POT-Creation-Date: 2024-12-06 05:01+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
 "Language-Team: Turkish (https://app.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -20,22 +20,17 @@ msgstr ""
 
 #: CRM/FormProcessor/BAO/FormProcessorAction.php
 #: CRM/FormProcessor/BAO/FormProcessorCalculateAction.php
-#: CRM/FormProcessor/BAO/FormProcessorDefaultDataAction.php
 #: CRM/FormProcessor/BAO/FormProcessorValidateAction.php
-msgid "Input :: "
-msgstr "Giriş :: "
+msgid "Validation Action"
+msgstr "Doğrulama işlemi"
 
 #: CRM/FormProcessor/BAO/FormProcessorAction.php
 #: CRM/FormProcessor/BAO/FormProcessorCalculateAction.php
-#: CRM/FormProcessor/BAO/FormProcessorDefaultDataAction.php
-#: CRM/FormProcessor/BAO/FormProcessorValidateAction.php
-msgid "Formatted :: "
-msgstr "Biçimlendirilmiş :: "
+msgid "Calculation Action"
+msgstr "Hesaplama işlemi"
 
 #: CRM/FormProcessor/BAO/FormProcessorAction.php
-#: CRM/FormProcessor/BAO/FormProcessorCalculateAction.php
 #: CRM/FormProcessor/BAO/FormProcessorDefaultDataAction.php
-#: CRM/FormProcessor/BAO/FormProcessorValidateAction.php
 msgid "Action"
 msgstr "İşlem"
 
@@ -775,6 +770,14 @@ msgstr "%1 işlemi :: %2"
 #: Civi/FormProcessor/OutputHandler/OutputAllActionOutput.php
 msgid "Send everything"
 msgstr "Her şey gönderilsin"
+
+#: Civi/FormProcessor/Runner.php
+msgid "Input :: "
+msgstr "Giriş :: "
+
+#: Civi/FormProcessor/Runner.php
+msgid "Formatted :: "
+msgstr "Biçimlendirilmiş :: "
 
 #: Civi/FormProcessor/Runner.php
 msgid "Error in action %1: %2"
