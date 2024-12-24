@@ -9,12 +9,13 @@
 # Francesc Bassas i Bullich <francesc@babu.cat>, 2024
 # Marti Prat <m.prat@ixiam.com>, 2024
 # ixiam <info@ixiam.com>, 2024
+# Francisco Javier Alexandre Hurlé <fjalexandre@hubor-proteus.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
-"POT-Creation-Date: 2024-08-20 05:01+0000\n"
-"Last-Translator: ixiam <info@ixiam.com>, 2024\n"
+"POT-Creation-Date: 2024-12-24 05:01+0000\n"
+"Last-Translator: Francisco Javier Alexandre Hurlé <fjalexandre@hubor-proteus.com>, 2024\n"
 "Language-Team: Spanish (https://app.transifex.com/civicrm/teams/1905/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,6 +40,95 @@ msgstr ""
 msgid "Session is ready to use"
 msgstr ""
 
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantLink/Get.php
+msgid "Previous Payment cannot be deleted (hash=%1). Please complete payment"
+msgstr ""
+"El pago anterior no se puede eliminar (hash=%1).  Por favor, complete el "
+"pago"
+
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantLink/Get.php
+msgid "User with same email already registered"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantLink/Get.php
+msgid ""
+"Event(id = %1) User can not be registered because event does not exist."
+msgstr ""
+"Evento(id = %1) El usuario no puede ser registrado porque el evento no "
+"existe."
+
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantLink/Get.php
+msgid "Contact(id = %1) is already registered on the Event(id = %2)."
+msgstr "El contacto(id = %1) ya está registrado en el Evento(id = %2)."
+
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantLink/Get.php
+msgid "Contact(id = %1) does not exist."
+msgstr "El Contactot(id = %1) no existe."
+
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantLink/Get.php
+msgid "First name '%1' cannot be empty."
+msgstr "Nombre '%1' no puede estar vacío."
+
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantLink/Get.php
+msgid "Last name '%1' cannot be empty."
+msgstr "Apellido '%1' no puede estar vacío."
+
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantLink/Get.php
+msgid "Email '%1' have to be valid."
+msgstr "Correo Electrónico '%1' debe ser válido."
+
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantLink/Get.php
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPayment/Create.php
+msgid "Can not get price set assigned to event."
+msgstr "No es posible identificar un conjunto de precios asignados al evento"
+
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantLink/Get.php
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPayment/Create.php
+msgid "Can not get price set fields assigned to event."
+msgstr ""
+"No es posible identificar los campos del conjunto de precios asignados al "
+"evento"
+
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantLink/Get.php
+msgid "Can not parse selected price set"
+msgstr "El conjunto de precios seleccionado no se puede analizar"
+
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantLink/Get.php
+msgid ""
+"Can not parse selected value for field (id = %1) for price set (id = %2)"
+msgstr ""
+"No se puede analizar el valor del campo seleccionado (id = %1) para el "
+"conjunto de precios (id = %2)"
+
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantLink/Get.php
+msgid "Price Field (id = %1) does not exist for Event's"
+msgstr "El campo Precio (id = %1) no existe para Eventos"
+
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantLink/Get.php
+msgid ""
+"Empty filed values for price set field (id = %1). Please create it in "
+"administer."
+msgstr ""
+"Los valores del campo del conjunto de precios (id = %1 ) están vacíos. Por "
+"favor, créelos en administrar."
+
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantLink/Get.php
+msgid "\"filed_value_count\" must be filled for field with \"Text\" \"html_type\""
+msgstr ""
+"\"campo_valor_recuento\" se debe completar para el campo con \"Texto\" "
+"\"html_type\""
+
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantLink/Get.php
+msgid "Not valid value(id = %1) for price set field (id = %2)."
+msgstr ""
+"Valor no válido(id = %1) para el campo del conjunto de precios (id = %2)."
+
+#: CRM/CiviMobileAPI/Api/CiviMobileParticipantLink/Get.php
+msgid "Price field (id = %1) is required field for price set(id = %2)"
+msgstr ""
+"Campo Precio (id = %1) es un campo obligatorio para el conjunto de "
+"precios(id = %2)"
+
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantPayment/Create.php
 #: CRM/CiviMobileAPI/ApiWrapper/Participant/Create.php
 msgid "This contact has already been assigned to this event."
@@ -48,91 +138,6 @@ msgstr "Este contacto ya ha sido asignado a este evento"
 #: CRM/CiviMobileAPI/ApiWrapper/Participant/Create.php
 msgid "This contact has already been assigned to event with same date."
 msgstr ""
-
-#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPayment/Create.php
-#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
-msgid "Can not get price set assigned to event."
-msgstr "No es posible identificar un conjunto de precios asignados al evento"
-
-#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPayment/Create.php
-#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
-msgid "Can not get price set fields assigned to event."
-msgstr ""
-"No es posible identificar los campos del conjunto de precios asignados al "
-"evento"
-
-#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
-msgid "Previous Payment cannot be deleted (hash=%1). Please complete payment"
-msgstr ""
-"El pago anterior no se puede eliminar (hash=%1).  Por favor, complete el "
-"pago"
-
-#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
-msgid ""
-"Event(id = %1) User can not be registered because event does not exist."
-msgstr ""
-"Evento(id = %1) El usuario no puede ser registrado porque el evento no "
-"existe."
-
-#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
-msgid "Contact(id = %1) is already registered on the Event(id = %2)."
-msgstr "El contacto(id = %1) ya está registrado en el Evento(id = %2)."
-
-#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
-msgid "Contact(id = %1) does not exist."
-msgstr "El Contactot(id = %1) no existe."
-
-#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
-msgid "First name '%1' cannot be empty."
-msgstr "Nombre '%1' no puede estar vacío."
-
-#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
-msgid "Last name '%1' cannot be empty."
-msgstr "Apellido '%1' no puede estar vacío."
-
-#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
-msgid "Email '%1' have to be valid."
-msgstr "Correo Electrónico '%1' debe ser válido."
-
-#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
-msgid "Can not parse selected price set"
-msgstr "El conjunto de precios seleccionado no se puede analizar"
-
-#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
-msgid ""
-"Can not parse selected value for field (id = %1) for price set (id = %2)"
-msgstr ""
-"No se puede analizar el valor del campo seleccionado (id = %1) para el "
-"conjunto de precios (id = %2)"
-
-#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
-msgid "Price Field (id = %1) does not exist for Event's"
-msgstr "El campo Precio (id = %1) no existe para Eventos"
-
-#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
-msgid ""
-"Empty filed values for price set field (id = %1). Please create it in "
-"administer."
-msgstr ""
-"Los valores del campo del conjunto de precios (id = %1 ) están vacíos. Por "
-"favor, créelos en administrar."
-
-#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
-msgid "\"filed_value_count\" must be filled for field with \"Text\" \"html_type\""
-msgstr ""
-"\"campo_valor_recuento\" se debe completar para el campo con \"Texto\" "
-"\"html_type\""
-
-#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
-msgid "Not valid value(id = %1) for price set field (id = %2)."
-msgstr ""
-"Valor no válido(id = %1) para el campo del conjunto de precios (id = %2)."
-
-#: CRM/CiviMobileAPI/Api/CiviMobileParticipantPaymentLink/Get.php
-msgid "Price field (id = %1) is required field for price set(id = %2)"
-msgstr ""
-"Campo Precio (id = %1) es un campo obligatorio para el conjunto de "
-"precios(id = %2)"
 
 #: CRM/CiviMobileAPI/Api/CiviMobilePublicParticipant/Create.php
 msgid "Can not create Contact. Error: "
@@ -219,7 +224,8 @@ msgstr "id"
 #: CRM/CiviMobileAPI/DAO/AgendaConfig.php
 #: CRM/CiviMobileAPI/DAO/EventSession.php api/v3/CiviMobileAgendaConfig.php
 #: api/v3/CiviMobileEventSession.php api/v3/CiviMobileGetPriceSetByEvent.php
-#: api/v3/CiviMobileParticipant.php api/v3/CiviMobileParticipantPayment.php
+#: api/v3/CiviMobileParticipant.php api/v3/CiviMobileParticipantLink.php
+#: api/v3/CiviMobileParticipantPayment.php
 #: api/v3/CiviMobileParticipantPaymentLink.php
 #: api/v3/CiviMobilePublicParticipant.php api/v3/CiviMobileSpeaker.php
 msgid "Event id"
@@ -246,6 +252,7 @@ msgid "CMB Hash"
 msgstr "CMB Hash"
 
 #: CRM/CiviMobileAPI/DAO/CivimobileEventPaymentInfo.php
+#: api/v3/CiviMobileParticipantLink.php
 #: api/v3/CiviMobileParticipantPaymentLink.php
 msgid "Price Set"
 msgstr "Conjunto de precios"
@@ -255,17 +262,20 @@ msgid "Contact Id"
 msgstr "ID del contacto"
 
 #: CRM/CiviMobileAPI/DAO/CivimobileEventPaymentInfo.php
+#: api/v3/CiviMobileParticipantLink.php
 #: api/v3/CiviMobileParticipantPaymentLink.php
 msgid "First Name"
 msgstr "Nombre"
 
 #: CRM/CiviMobileAPI/DAO/CivimobileEventPaymentInfo.php
+#: api/v3/CiviMobileParticipantLink.php
 #: api/v3/CiviMobileParticipantPaymentLink.php
 msgid "Last Name"
 msgstr "Apellidos"
 
 #: CRM/CiviMobileAPI/DAO/CivimobileEventPaymentInfo.php
 #: Civi/Api4/CiviMobileResetPassword.php api/v3/CiviMobileCmsRegistration.php
+#: api/v3/CiviMobileParticipantLink.php
 #: api/v3/CiviMobileParticipantPaymentLink.php
 msgid "Email"
 msgstr "Correo electrónico"
@@ -363,6 +373,7 @@ msgstr "Peso"
 #: CRM/CiviMobileAPI/DAO/PushNotification.php
 #: CRM/CiviMobileAPI/DAO/PushNotificationMessages.php
 #: api/v3/CiviMobileMyTicket.php api/v3/CiviMobileParticipant.php
+#: api/v3/CiviMobileParticipantLink.php
 #: api/v3/CiviMobileParticipantPayment.php
 #: api/v3/CiviMobileParticipantPaymentLink.php
 msgid "Contact id"
@@ -496,13 +507,6 @@ msgid "CiviMobile Calendar Settings"
 msgstr "Configuración del calendario CiviMobile"
 
 #: CRM/CiviMobileAPI/Form/CiviAiSettings.php
-msgid ""
-"To use ChatGPT you must register at <a "
-"href=\"https://platform.openai.com/account/api-keys\"  "
-"target=\"_blank\">openai.com</a> and create your own Secret Key"
-msgstr ""
-
-#: CRM/CiviMobileAPI/Form/CiviAiSettings.php
 msgid "Fields cannot be empty."
 msgstr ""
 
@@ -511,18 +515,21 @@ msgid "Secret key"
 msgstr ""
 
 #: CRM/CiviMobileAPI/Form/CiviAiSettings.php
+msgid "Model"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/CiviAiSettings.php
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Save settings"
 msgstr "Guardar configuración"
 
 #: CRM/CiviMobileAPI/Form/CiviAiSettings.php
-msgid "Secret key updated"
+msgid "AI settings updated"
 msgstr ""
 
-#: CRM/CiviMobileAPI/Form/CiviAiSettings.php
-#: CRM/CiviMobileAPI/Form/Settings.php civimobileapi.php
-msgid "CiviMobile Settings"
-msgstr "Configuración de CiviMobile"
+#: CRM/CiviMobileAPI/Form/CiviAiSettings.php civimobileapi.php
+msgid "CiviAI Settings"
+msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Dashboard.php
 msgid "Logout from mobile"
@@ -720,6 +727,10 @@ msgid "Value cannot be greater than 90!"
 msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Please enter a valid 6-digit hex color code (e.g., #RRGGBB)."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Fields can not be empty."
 msgstr "Los campos no pueden estar vacíos."
 
@@ -784,6 +795,10 @@ msgid "Life time for push notification messages"
 msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Set the button color for event registration"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Allow registration"
 msgstr ""
 
@@ -794,6 +809,10 @@ msgstr "Confirmar clave del servidor"
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Server key updated"
 msgstr "La clave del servidor ha sido actualizada"
+
+#: CRM/CiviMobileAPI/Form/Settings.php civimobileapi.php
+msgid "CiviMobile Settings"
+msgstr "Configuración de CiviMobile"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "CiviMobile settings updated"
@@ -1261,16 +1280,11 @@ msgstr ""
 msgid "Event ID"
 msgstr "Identificador del evento"
 
-#: Civi/Api4/CiviMobileGenerateEventDescription.php
-msgid "Event title"
-msgstr ""
+#: Civi/Api4/CiviMobileGenerateText.php
+msgid "Params"
+msgstr "Parámetros"
 
-#: Civi/Api4/CiviMobileGenerateEventDescription.php
-#: api/v3/CiviMobileCalendar.php
-msgid "Event type"
-msgstr "Tipo de evento"
-
-#: Civi/Api4/CiviMobileGenerateEventDescription.php
+#: Civi/Api4/CiviMobileGenerateText.php
 msgid "User input"
 msgstr ""
 
@@ -1316,6 +1330,10 @@ msgstr "Fecha de inicio de búsqueda (Y-m-d H:i:s)"
 #: api/v3/CiviMobileCalendar.php
 msgid "End date for searching (Y-m-d H:i:s)"
 msgstr "Fecha de fin de búsqueda (Y-m-d H:i:s)"
+
+#: api/v3/CiviMobileCalendar.php
+msgid "Event type"
+msgstr "Tipo de evento"
 
 #: api/v3/CiviMobileCase.php
 msgid "Case Id"
@@ -1632,15 +1650,15 @@ msgid "Allows to send requests to ChatGPT"
 msgstr ""
 
 #: civimobileapi.php
+msgid "View all events including not public for authenticated user"
+msgstr ""
+
+#: civimobileapi.php
 msgid "CiviMobile Event Locations"
 msgstr ""
 
 #: civimobileapi.php
 msgid "CiviMobile Checklist"
-msgstr ""
-
-#: civimobileapi.php
-msgid "CiviAI Settings"
 msgstr ""
 
 #: civimobileapi.php
@@ -1736,6 +1754,17 @@ msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/CiviAiSettings.hlp
 msgid "The key is used to give access to the ChatGPT functionality"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/CiviAiSettings.tpl
+msgid ""
+"To use ChatGPT you must register at\n"
+"                                <a href=\"https://platform.openai.com/account/api-keys\" target=\"_blank\">openai.com</a>\n"
+"                                and create your own Secret Key'"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/CiviAiSettings.tpl
+msgid "Type your model name in format like this <strong>gpt-4o-mini</strong>"
 msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/EventLocations.tpl
@@ -1879,6 +1908,12 @@ msgstr ""
 msgid ""
 "By checking the checkbox you will allow reset password functionality in the "
 "mobile application."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid ""
+"Here you can set the color for buttons that will be used during event "
+"registration in the CiviMobile app."
 msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
@@ -2034,20 +2069,8 @@ msgid "Please wait while your description is being generated"
 msgstr ""
 
 #: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
-msgid "Generated description"
-msgstr ""
-
-#: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
 msgid "Invalid API key. Please check your key."
 msgstr ""
-
-#: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
-msgid "Please, enter title and type for the event"
-msgstr ""
-
-#: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
-msgid "Warning"
-msgstr "Aviso"
 
 #: templates/CRM/CiviMobileAPI/popup.tpl
 msgid "Open Qr Code"
