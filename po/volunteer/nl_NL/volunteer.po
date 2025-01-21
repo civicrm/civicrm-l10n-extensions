@@ -5,14 +5,14 @@
 # Translators:
 # Betty Dolfing <betty.dolfing@civicoop.org>, 2019
 # HanV <han.velthuis@kpnmail.nl>, 2020-2021
-# HanV <han.velthuis@kpnmail.nl>, 2024
+# HanV <han.velthuis@kpnmail.nl>, 2024-2025
 # Mark Jeff van Haastert <mjvanhaastert@hotmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
 "POT-Creation-Date: 2024-02-10 05:01+0000\n"
 "PO-Revision-Date: 2013-10-08 17:09+0000\n"
-"Last-Translator: HanV <han.velthuis@kpnmail.nl>, 2024\n"
+"Last-Translator: HanV <han.velthuis@kpnmail.nl>, 2024-2025\n"
 "Language-Team: Dutch (http://app.transifex.com/civicrm/civicrm_extensions/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -80,7 +80,7 @@ msgstr "Behoefte-id"
 msgid ""
 "FK to civicrm_volunteer_project table which contains entity_table + entity "
 "for each volunteer project (initially civicrm_event + eventID)."
-msgstr ""
+msgstr "FK naar tabel civicrm_volunteer_project die de entity_table + entity voor elk vrijwilligersproject bevat (initieel civicrm_event + eventID)."
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "Start Date and Time"
@@ -94,7 +94,7 @@ msgstr "Einddatum en tijd"
 msgid ""
 "Used for specifying fuzzy dates, e.g., I have a need for 3 hours of "
 "volunteer work to be completed between 12/01/2015 and 12/31/2015."
-msgstr ""
+msgstr "Gebruikt voor het specificeren van fuzzy data, bijv. Ik heb 3 uur vrijwilligerswerk nodig dat moet worden voltooid tussen 12/01/2015 en 31/12/2015."
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "Duration"
@@ -121,7 +121,7 @@ msgstr "Kwantiteit"
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "The number of volunteers needed for this need."
-msgstr ""
+msgstr "Het aantal vrijwilligers dat nodig is voor deze taak. "
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "Visibility"
@@ -131,7 +131,7 @@ msgstr "Zichtbaarheid"
 msgid ""
 " Indicates whether this need is offered on public volunteer signup forms. "
 "Implicit FK to option_value row in visibility option_group."
-msgstr ""
+msgstr "Geeft aan of deze taak wordt aangeboden op openbare aanmeldingsformulieren voor vrijwilligers. Impliciete FK naar option_value rij in zichtbaarheid option_group."
 
 #: CRM/Volunteer/DAO/Need.php ang/volunteer/VolOppsCtrl.html
 #: templates/CRM/Volunteer/Form/Log.tpl
@@ -145,7 +145,7 @@ msgstr "Rol"
 msgid ""
 "The role associated with this need. Implicit FK to option_value row in "
 "volunteer_role option_group."
-msgstr ""
+msgstr "De rol die bij deze taak hoort. Impliciete FK naar option_value rij in volunteer_role option_group."
 
 #: CRM/Volunteer/DAO/Need.php CRM/Volunteer/DAO/Project.php
 msgid "Enabled"
@@ -195,7 +195,7 @@ msgstr "Omschrijving"
 msgid ""
 "Full description of the Volunteer Project. Text and HTML allowed. Displayed "
 "on sign-up screens."
-msgstr ""
+msgstr "Volledige beschrijving van het vrijwilligersproject. Tekst en HTML toegestaan. Wordt weergegeven op aanmeldingsschermen."
 
 #: CRM/Volunteer/DAO/Project.php
 msgid "Entity Table"
@@ -203,19 +203,19 @@ msgstr "Entiteitentabel"
 
 #: CRM/Volunteer/DAO/Project.php
 msgid "Entity table for entity_id (initially civicrm_event)"
-msgstr ""
+msgstr "Entiteitstabel voor entity_id (initieel civicrm_event)"
 
 #: CRM/Volunteer/DAO/Project.php
 msgid "Implicit FK project entity (initially eventID)."
-msgstr ""
+msgstr "Impliciet FK project entiteit (initieel eventID)."
 
 #: CRM/Volunteer/DAO/Project.php
 msgid "Location Block ID"
-msgstr ""
+msgstr "Locatie-Blok-id"
 
 #: CRM/Volunteer/DAO/Project.php
 msgid "FK to Location Block ID"
-msgstr ""
+msgstr "FK naar Locatie-Blok-id"
 
 #: CRM/Volunteer/DAO/Project.php CRM/Volunteer/Form/Settings.php
 #: ang/volunteer/Project.html ang/volunteer/Projects.html
@@ -224,23 +224,23 @@ msgstr "Campagne"
 
 #: CRM/Volunteer/DAO/Project.php
 msgid "The campaign associated with this Volunteer Project."
-msgstr ""
+msgstr "De campagne die verband houdt met dit vrijwilligersproject."
 
 #: CRM/Volunteer/DAO/ProjectContact.php
 msgid "Volunteer Project Contacts"
-msgstr ""
+msgstr "Vrijwilligersproject contacten"
 
 #: CRM/Volunteer/DAO/ProjectContact.php
 msgid "Volunteer Project Contact"
-msgstr ""
+msgstr "Vrijwilligersproject contact"
 
 #: CRM/Volunteer/DAO/ProjectContact.php
 msgid "CiviVolunteer ProjectContact Row ID"
-msgstr ""
+msgstr "CiviVolunteer ProjectContact Rij-id"
 
 #: CRM/Volunteer/DAO/ProjectContact.php
 msgid "Foreign key to the Volunteer Project for this record"
-msgstr ""
+msgstr "FK naar het vrijwilligersproject voor dit record"
 
 #: CRM/Volunteer/DAO/ProjectContact.php
 msgid "Contact ID"
@@ -248,7 +248,7 @@ msgstr "Contact ID"
 
 #: CRM/Volunteer/DAO/ProjectContact.php
 msgid "Foreign key to the Contact for this record"
-msgstr ""
+msgstr "FK naar het contact voor dit record"
 
 #: CRM/Volunteer/DAO/ProjectContact.php
 msgid "Relationship Type"
@@ -258,15 +258,15 @@ msgstr "Relatietype"
 msgid ""
 "Nature of the contact's relationship to the Volunteer Project (e.g., "
 "Beneficiary). See option group volunteer_project_relationship."
-msgstr ""
+msgstr "Aard van de relatie van de contactpersoon met het vrijwilligersproject (bijv. Begunstigde). Zie optiegroep volunteer_project_relationship."
 
 #: CRM/Volunteer/Form/Commendation.php
 msgid "Commend %1"
-msgstr ""
+msgstr "Vermelden %1"
 
 #: CRM/Volunteer/Form/Commendation.php
 msgid "Why does this volunteer merit a commendation?"
-msgstr ""
+msgstr "Waarom verdient deze vrijwilliger een eervolle vermelding?"
 
 #: CRM/Volunteer/Form/Commendation.php
 msgid "Update"
@@ -302,11 +302,11 @@ msgstr "-selecteer-"
 
 #: CRM/Volunteer/Form/Log.php
 msgid "Please enter the actual duration volunteered."
-msgstr ""
+msgstr "Voer de werkelijke duur van het vrijwilligerswerk in."
 
 #: CRM/Volunteer/Form/Log.php
 msgid "Please enter duration as a number."
-msgstr ""
+msgstr "Voer de duur in als een getal."
 
 #: CRM/Volunteer/Form/Log.php
 msgid "Volunteer hours have been logged."
@@ -327,35 +327,35 @@ msgstr "Locatie"
 
 #: CRM/Volunteer/Form/Settings.php
 msgid "Are new Projects active by default?"
-msgstr ""
+msgstr "Zijn nieuwe projecten standaard actief?"
 
 #: CRM/Volunteer/Form/Settings.php
 msgid "Campaign Filter Whitelist/Blacklist"
-msgstr ""
+msgstr "Campagnefilter Witte lijst/Zwarte lijst"
 
 #: CRM/Volunteer/Form/Settings.php
 msgid "Blacklist"
-msgstr ""
+msgstr "Zwarte lijst"
 
 #: CRM/Volunteer/Form/Settings.php
 msgid "Whitelist"
-msgstr ""
+msgstr "Witte lijst"
 
 #: CRM/Volunteer/Form/Settings.php
 msgid "Campaign Type(s)"
-msgstr ""
+msgstr "Soort(en) campagne(s)"
 
 #: CRM/Volunteer/Form/Settings.php
 msgid "Help text for the project settings screen"
-msgstr ""
+msgstr "Helptekst voor het scherm met projectinstellingen"
 
 #: CRM/Volunteer/Form/Settings.php
 msgid "Save Volunteer Settings"
-msgstr ""
+msgstr "Vrijwilligersinstellingen opslaan"
 
 #: CRM/Volunteer/Form/Settings.php
 msgid "Default to Contact(s) Having this Relationship with the Acting Contact"
-msgstr ""
+msgstr "Standaard ingesteld op contact(en) die deze relatie hebben met de handelende contactpersoon"
 
 #: CRM/Volunteer/Form/Settings.php
 msgid "Default to Selected Contact(s)"
