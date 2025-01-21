@@ -4,13 +4,13 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Mathieu Lu <mathieu@bidon.ca>, 2022
-# Kaya Zeren <kayazeren@gmail.com>, 2024
+# Kaya Zeren <kayazeren@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: contactlayout\n"
-"POT-Creation-Date: 2024-06-05 05:01+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2024\n"
+"POT-Creation-Date: 2025-01-19 05:01+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2025\n"
 "Language-Team: Turkish (https://app.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -58,8 +58,7 @@ msgstr "Kimlik, tür, etiketler"
 msgid "Tags"
 msgstr "Etiketler"
 
-#: CRM/Contactlayout/BAO/ContactLayout.php
-#: CRM/Contactlayout/DAO/ContactLayout.php
+#: CRM/Contactlayout/BAO/ContactLayout.php schema/ContactLayout.entityType.php
 msgid "Contact Type"
 msgstr "Kişi türü"
 
@@ -196,72 +195,6 @@ msgstr "Doğum tarihi"
 msgid "Age"
 msgstr "Yaş"
 
-#: CRM/Contactlayout/DAO/ContactLayout.php CRM/Contactlayout/Upgrader.php
-msgid "Contact Summary Layouts"
-msgstr "Kişi özeti görünümleri"
-
-#: CRM/Contactlayout/DAO/ContactLayout.php
-msgid "Contact Summary Layout"
-msgstr "Kişi özeti görünümü"
-
-#: CRM/Contactlayout/DAO/ContactLayout.php
-msgid "ID"
-msgstr "Kimlik"
-
-#: CRM/Contactlayout/DAO/ContactLayout.php
-msgid "Unique ContactLayout ID"
-msgstr "Benzersiz kişi görünümü kimliği"
-
-#: CRM/Contactlayout/DAO/ContactLayout.php
-msgid "Label"
-msgstr "Etiket"
-
-#: CRM/Contactlayout/DAO/ContactLayout.php
-msgid "Name of this layout."
-msgstr "Bu görünümün adı."
-
-#: CRM/Contactlayout/DAO/ContactLayout.php
-msgid "The type of contacts this layout applies to."
-msgstr "Bu görünümün uygulanacağı kişi türü."
-
-#: CRM/Contactlayout/DAO/ContactLayout.php
-msgid "Contact Subtype"
-msgstr "Kişi alt türü"
-
-#: CRM/Contactlayout/DAO/ContactLayout.php
-msgid "The contacts subtypes this layout applies to."
-msgstr "Bu görünümün uygulanacağı kişi alt türü."
-
-#: CRM/Contactlayout/DAO/ContactLayout.php
-#: ang/contactlayout/contactlayout-canvas.html
-msgid "Groups"
-msgstr "Gruplar"
-
-#: CRM/Contactlayout/DAO/ContactLayout.php
-msgid "Show layout to users belonging to these groups."
-msgstr "Bu görünüm bu gruplardaki kullanıcılara görüntülenir."
-
-#: CRM/Contactlayout/DAO/ContactLayout.php
-msgid "Order"
-msgstr "Sıralama"
-
-#: CRM/Contactlayout/DAO/ContactLayout.php
-#: ang/contactlayout/contactlayout-canvas.html
-msgid "Blocks"
-msgstr "Bloklar"
-
-#: CRM/Contactlayout/DAO/ContactLayout.php
-msgid "Contains json encoded layout blocks."
-msgstr "JSON olarak kodlanmış düzen bloklarını içerir."
-
-#: CRM/Contactlayout/DAO/ContactLayout.php
-msgid "Tabs"
-msgstr "Sekmeler"
-
-#: CRM/Contactlayout/DAO/ContactLayout.php
-msgid "Contains json encoded layout tabs."
-msgstr "JSON olarak kodlanmış düzen sekmelerini içerir."
-
 #: CRM/Contactlayout/Form/Inline/ProfileBlock.php
 #: ang/contactlayout/contactLayoutEditor.component.js
 msgid "Save"
@@ -295,6 +228,10 @@ msgid "%count month"
 msgid_plural "%count months"
 msgstr[0] "%count ay"
 msgstr[1] "%count ay"
+
+#: CRM/Contactlayout/Upgrader.php schema/ContactLayout.entityType.php
+msgid "Contact Summary Layouts"
+msgstr "Kişi özeti görünümleri"
 
 #: ang/contactlayout/contactLayoutEditTabs.component.js
 #: ang/contactlayout/contactLayoutEditor.component.js
@@ -508,6 +445,11 @@ msgid "To:"
 msgstr "Şuraya:"
 
 #: ang/contactlayout/contactlayout-canvas.html
+#: schema/ContactLayout.entityType.php
+msgid "Groups"
+msgstr "Gruplar"
+
+#: ang/contactlayout/contactlayout-canvas.html
 msgid "Remove column"
 msgstr "Sütunu kaldır"
 
@@ -518,6 +460,11 @@ msgstr "Sütun ekle"
 #: ang/contactlayout/contactlayout-canvas.html
 msgid "Add row"
 msgstr "Satır ekle"
+
+#: ang/contactlayout/contactlayout-canvas.html
+#: schema/ContactLayout.entityType.php
+msgid "Blocks"
+msgstr "Bloklar"
 
 #: ang/contactlayout/contactlayout-canvas.html
 msgid "Create new block"
@@ -588,6 +535,62 @@ msgstr "Düzeni düzenle"
 #: contactlayout.php
 msgid "Layout: %1"
 msgstr "Düzen: %1"
+
+#: schema/ContactLayout.entityType.php
+msgid "Contact Summary Layout"
+msgstr "Kişi özeti görünümü"
+
+#: schema/ContactLayout.entityType.php
+msgid "Layouts for the contact summary page"
+msgstr "Kişi özeti sayfası yerleşimleri"
+
+#: schema/ContactLayout.entityType.php
+msgid "ID"
+msgstr "Kimlik"
+
+#: schema/ContactLayout.entityType.php
+msgid "Unique ContactLayout ID"
+msgstr "Benzersiz kişi görünümü kimliği"
+
+#: schema/ContactLayout.entityType.php
+msgid "Label"
+msgstr "Etiket"
+
+#: schema/ContactLayout.entityType.php
+msgid "Name of this layout."
+msgstr "Bu görünümün adı."
+
+#: schema/ContactLayout.entityType.php
+msgid "The type of contacts this layout applies to."
+msgstr "Bu görünümün uygulanacağı kişi türü."
+
+#: schema/ContactLayout.entityType.php
+msgid "Contact Subtype"
+msgstr "Kişi alt türü"
+
+#: schema/ContactLayout.entityType.php
+msgid "The contacts subtypes this layout applies to."
+msgstr "Bu görünümün uygulanacağı kişi alt türü."
+
+#: schema/ContactLayout.entityType.php
+msgid "Show layout to users belonging to these groups."
+msgstr "Bu görünüm bu gruplardaki kullanıcılara görüntülenir."
+
+#: schema/ContactLayout.entityType.php
+msgid "Order"
+msgstr "Sıralama"
+
+#: schema/ContactLayout.entityType.php
+msgid "Contains json encoded layout blocks."
+msgstr "JSON olarak kodlanmış düzen bloklarını içerir."
+
+#: schema/ContactLayout.entityType.php
+msgid "Tabs"
+msgstr "Sekmeler"
+
+#: schema/ContactLayout.entityType.php
+msgid "Contains json encoded layout tabs."
+msgstr "JSON olarak kodlanmış düzen sekmelerini içerir."
 
 #: settings/contactlayout.setting.php
 msgid "Default contact summary tabs"
