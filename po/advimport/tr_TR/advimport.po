@@ -50,7 +50,7 @@ msgstr "APIv3 varlığı"
 
 #: CRM/Advimport/Advimport/GroupContactAdd.php
 msgid "Add Contact to Group"
-msgstr ""
+msgstr "Kişiyi gruba ekle"
 
 #: CRM/Advimport/Advimport/GroupContactAdd.php
 #: CRM/Advimport/Advimport/GroupContactRemove.php
@@ -75,28 +75,30 @@ msgid ""
 "If a contact is already added to the group, they will be ignored. If their "
 "status was \"removed\" or \"pending\", they will be changed to \"added\"."
 msgstr ""
+"Bir kişi gruba zaten eklenmişse, yok sayılır. Durumları \"Kaldırıldı\" veya "
+"\"Beklemede\" ise, \"Eklendi\" olarak değiştirilir."
 
 #: CRM/Advimport/Advimport/GroupContactRemove.php
 msgid "Remove Contact from Group"
-msgstr ""
+msgstr "Kişiyi gruptan çıkar"
 
 #: CRM/Advimport/Advimport/GroupContactRemove.php
 msgid ""
 "If a contact is already removed from the group or are not in the group at "
 "all, they will be ignored."
-msgstr ""
+msgstr "Bir kişi gruptan çıkarılmışsa veya grupta zaten yoksa, yok sayılır."
 
 #: CRM/Advimport/Advimport/LookupTableContact.php advimport.php
 msgid "Lookup Table to Batch Update Contacts"
-msgstr ""
+msgstr "Kişilerin toplu güncellenmesi için arama tablosu"
 
 #: CRM/Advimport/Advimport/LookupTableContact.php
 msgid "Old Field"
-msgstr ""
+msgstr "Eski alan"
 
 #: CRM/Advimport/Advimport/LookupTableContact.php
 msgid "New Field"
-msgstr ""
+msgstr "Yeni alan"
 
 #: CRM/Advimport/Advimport/LookupTableContact.php
 msgid "Match Type"
@@ -108,7 +110,7 @@ msgstr "Seçenek değeri"
 
 #: CRM/Advimport/Advimport/LookupTableContact.php
 msgid "Option Label"
-msgstr ""
+msgstr "Seçenek etiketi"
 
 #: CRM/Advimport/Advimport/LookupTableContact.php
 msgid ""
@@ -119,22 +121,29 @@ msgid ""
 "main screen, and run the new import that will have been created (todo: one "
 "day, be more clever and automatically redirect to that step)."
 msgstr ""
+"Eşleşme türü yalnızca önceden tanımlanmış değerleri olan alanlar için "
+"geçerlidir (seçim, işaret kutusu, vb.). Bu form gönderildikten sonra, Arama "
+"tablosu üzerinde sahte bir işlem yapılır. Ayrıca güncellenmesi gereken "
+"veriler için yeni bir içe aktarma oluşturulur. Dolayısıyla bir sonraki adım "
+"tamamlandığında, Gelişmiş içe aktarma bölümüne dönün ve oluşturulmuş yeni "
+"içe aktarmayı yürütün (Yapılacak iş: Bir gün daha akıllı olacak ve otomatik "
+"olarak o adıma yönlendirilecek)."
 
 #: CRM/Advimport/Advimport/LookupTableContact.php
 msgid "Could not find the old_field column."
-msgstr ""
+msgstr "old_field sütunu bulunamadı."
 
 #: CRM/Advimport/Advimport/LookupTableContact.php
 msgid "Could not find the new_field column."
-msgstr ""
+msgstr "new_field sütunu bulunamadı."
 
 #: CRM/Advimport/Advimport/LookupTableContactProcess.php
 msgid "Lookup Table to Batch Update Contacts - Processor"
-msgstr ""
+msgstr "Kişilerin toplu güncellenmesi için arama tablosu - İşleyici"
 
 #: CRM/Advimport/Advimport/LookupTableContactProcess.php
 msgid "New value not found in the lookup table"
-msgstr ""
+msgstr "Yeni değer arama tablosunda bulunamadı"
 
 #: CRM/Advimport/Advimport/MembershipsAndContributions.php advimport.php
 msgid "Memberships and Contributions"
@@ -454,7 +463,7 @@ msgstr "Dosya ODS (LibreOffice), XLSX (Excel) veya CSV türünde olmalıdır."
 
 #: CRM/Advimport/Helper/ReportBatchUpdate.php
 msgid "Report Batch Update"
-msgstr ""
+msgstr "Toplu rapor güncelleme"
 
 #: CRM/Advimport/Helper/SearchBatchUpdate.php
 msgid "Batch Update"
@@ -592,11 +601,11 @@ msgstr "APIv3 varlıkları"
 
 #: advimport.php
 msgid "Groups - Add Contact to Group"
-msgstr ""
+msgstr "Gruplar - Kişiyi gruba ekle"
 
 #: advimport.php
 msgid "Groups - Remove Contact from Group"
-msgstr ""
+msgstr "Gruplar - Kişiyi gruptan çıkar"
 
 #: advimport.php
 msgid "Stripe Subscriptions - experimental"
