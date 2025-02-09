@@ -12,7 +12,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: contactlayout\n"
-"POT-Creation-Date: 2024-06-05 05:01+0000\n"
+"POT-Creation-Date: 2025-01-19 05:01+0000\n"
 "Last-Translator: Tetiana Oliiarchuk, 2025\n"
 "Language-Team: Polish (https://app.transifex.com/civicrm/teams/1905/pl/)\n"
 "MIME-Version: 1.0\n"
@@ -61,8 +61,7 @@ msgstr ""
 msgid "Tags"
 msgstr "Tagi"
 
-#: CRM/Contactlayout/BAO/ContactLayout.php
-#: CRM/Contactlayout/DAO/ContactLayout.php
+#: CRM/Contactlayout/BAO/ContactLayout.php schema/ContactLayout.entityType.php
 msgid "Contact Type"
 msgstr "Rodzaj kontaktu"
 
@@ -199,72 +198,6 @@ msgstr ""
 msgid "Age"
 msgstr ""
 
-#: CRM/Contactlayout/DAO/ContactLayout.php CRM/Contactlayout/Upgrader.php
-msgid "Contact Summary Layouts"
-msgstr ""
-
-#: CRM/Contactlayout/DAO/ContactLayout.php
-msgid "Contact Summary Layout"
-msgstr ""
-
-#: CRM/Contactlayout/DAO/ContactLayout.php
-msgid "ID"
-msgstr "ID"
-
-#: CRM/Contactlayout/DAO/ContactLayout.php
-msgid "Unique ContactLayout ID"
-msgstr ""
-
-#: CRM/Contactlayout/DAO/ContactLayout.php
-msgid "Label"
-msgstr "Etykieta"
-
-#: CRM/Contactlayout/DAO/ContactLayout.php
-msgid "Name of this layout."
-msgstr ""
-
-#: CRM/Contactlayout/DAO/ContactLayout.php
-msgid "The type of contacts this layout applies to."
-msgstr ""
-
-#: CRM/Contactlayout/DAO/ContactLayout.php
-msgid "Contact Subtype"
-msgstr ""
-
-#: CRM/Contactlayout/DAO/ContactLayout.php
-msgid "The contacts subtypes this layout applies to."
-msgstr ""
-
-#: CRM/Contactlayout/DAO/ContactLayout.php
-#: ang/contactlayout/contactlayout-canvas.html
-msgid "Groups"
-msgstr "Grupy"
-
-#: CRM/Contactlayout/DAO/ContactLayout.php
-msgid "Show layout to users belonging to these groups."
-msgstr ""
-
-#: CRM/Contactlayout/DAO/ContactLayout.php
-msgid "Order"
-msgstr "Zamówienie"
-
-#: CRM/Contactlayout/DAO/ContactLayout.php
-#: ang/contactlayout/contactlayout-canvas.html
-msgid "Blocks"
-msgstr ""
-
-#: CRM/Contactlayout/DAO/ContactLayout.php
-msgid "Contains json encoded layout blocks."
-msgstr ""
-
-#: CRM/Contactlayout/DAO/ContactLayout.php
-msgid "Tabs"
-msgstr ""
-
-#: CRM/Contactlayout/DAO/ContactLayout.php
-msgid "Contains json encoded layout tabs."
-msgstr ""
-
 #: CRM/Contactlayout/Form/Inline/ProfileBlock.php
 #: ang/contactlayout/contactLayoutEditor.component.js
 msgid "Save"
@@ -302,6 +235,10 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
+
+#: CRM/Contactlayout/Upgrader.php schema/ContactLayout.entityType.php
+msgid "Contact Summary Layouts"
+msgstr ""
 
 #: ang/contactlayout/contactLayoutEditTabs.component.js
 #: ang/contactlayout/contactLayoutEditor.component.js
@@ -513,6 +450,11 @@ msgid "To:"
 msgstr ""
 
 #: ang/contactlayout/contactlayout-canvas.html
+#: schema/ContactLayout.entityType.php
+msgid "Groups"
+msgstr "Grupy"
+
+#: ang/contactlayout/contactlayout-canvas.html
 msgid "Remove column"
 msgstr ""
 
@@ -522,6 +464,11 @@ msgstr ""
 
 #: ang/contactlayout/contactlayout-canvas.html
 msgid "Add row"
+msgstr ""
+
+#: ang/contactlayout/contactlayout-canvas.html
+#: schema/ContactLayout.entityType.php
+msgid "Blocks"
 msgstr ""
 
 #: ang/contactlayout/contactlayout-canvas.html
@@ -586,6 +533,62 @@ msgstr ""
 
 #: contactlayout.php
 msgid "Layout: %1"
+msgstr ""
+
+#: schema/ContactLayout.entityType.php
+msgid "Contact Summary Layout"
+msgstr ""
+
+#: schema/ContactLayout.entityType.php
+msgid "Layouts for the contact summary page"
+msgstr ""
+
+#: schema/ContactLayout.entityType.php
+msgid "ID"
+msgstr "ID"
+
+#: schema/ContactLayout.entityType.php
+msgid "Unique ContactLayout ID"
+msgstr ""
+
+#: schema/ContactLayout.entityType.php
+msgid "Label"
+msgstr "Etykieta"
+
+#: schema/ContactLayout.entityType.php
+msgid "Name of this layout."
+msgstr ""
+
+#: schema/ContactLayout.entityType.php
+msgid "The type of contacts this layout applies to."
+msgstr ""
+
+#: schema/ContactLayout.entityType.php
+msgid "Contact Subtype"
+msgstr ""
+
+#: schema/ContactLayout.entityType.php
+msgid "The contacts subtypes this layout applies to."
+msgstr ""
+
+#: schema/ContactLayout.entityType.php
+msgid "Show layout to users belonging to these groups."
+msgstr ""
+
+#: schema/ContactLayout.entityType.php
+msgid "Order"
+msgstr "Zamówienie"
+
+#: schema/ContactLayout.entityType.php
+msgid "Contains json encoded layout blocks."
+msgstr ""
+
+#: schema/ContactLayout.entityType.php
+msgid "Tabs"
+msgstr ""
+
+#: schema/ContactLayout.entityType.php
+msgid "Contains json encoded layout tabs."
 msgstr ""
 
 #: settings/contactlayout.setting.php
