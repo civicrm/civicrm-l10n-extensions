@@ -5,13 +5,13 @@
 # Translators:
 # Betty Dolfing <betty.dolfing@civicoop.org>, 2023
 # brouwser <brouwer@ee-atwork.nl>, 2023
-# HanV <han.velthuis@kpnmail.nl>, 2023
+# HanV <han.velthuis@kpnmail.nl>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: form_processor\n"
-"POT-Creation-Date: 2023-12-20 05:01+0000\n"
-"Last-Translator: HanV <han.velthuis@kpnmail.nl>, 2023\n"
+"POT-Creation-Date: 2025-02-13 05:01+0000\n"
+"Last-Translator: HanV <han.velthuis@kpnmail.nl>, 2025\n"
 "Language-Team: Dutch (https://app.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,15 +21,17 @@ msgstr ""
 
 #: CRM/FormProcessor/BAO/FormProcessorAction.php
 #: CRM/FormProcessor/BAO/FormProcessorCalculateAction.php
-#: CRM/FormProcessor/BAO/FormProcessorDefaultDataAction.php
 #: CRM/FormProcessor/BAO/FormProcessorValidateAction.php
-msgid "Input :: "
+msgid "Validation Action"
 msgstr ""
 
 #: CRM/FormProcessor/BAO/FormProcessorAction.php
 #: CRM/FormProcessor/BAO/FormProcessorCalculateAction.php
+msgid "Calculation Action"
+msgstr ""
+
+#: CRM/FormProcessor/BAO/FormProcessorAction.php
 #: CRM/FormProcessor/BAO/FormProcessorDefaultDataAction.php
-#: CRM/FormProcessor/BAO/FormProcessorValidateAction.php
 msgid "Action"
 msgstr "Actie"
 
@@ -268,12 +270,18 @@ msgid "Condition Configuration"
 msgstr ""
 
 #: CRM/FormProcessor/DAO/FormProcessorAction.php
+#: CRM/FormProcessor/DAO/FormProcessorCalculateAction.php
+#: CRM/FormProcessor/DAO/FormProcessorDefaultDataAction.php
+#: CRM/FormProcessor/DAO/FormProcessorValidateAction.php
 #: api/v3/FormProcessorAction/Create.php
 #: templates/CRM/FormProcessor/Form/Blocks/Actions.tpl
 msgid "Delay"
 msgstr "Uitstel"
 
 #: CRM/FormProcessor/DAO/FormProcessorAction.php
+#: CRM/FormProcessor/DAO/FormProcessorCalculateAction.php
+#: CRM/FormProcessor/DAO/FormProcessorDefaultDataAction.php
+#: CRM/FormProcessor/DAO/FormProcessorValidateAction.php
 msgid "Delay Configuration"
 msgstr ""
 
@@ -583,6 +591,10 @@ msgid "Output configuration"
 msgstr ""
 
 #: CRM/FormProcessor/Form/Configuration.php
+msgid "Copy"
+msgstr "Kopiëren"
+
+#: CRM/FormProcessor/Form/Configuration.php
 msgid "Restore to imported version"
 msgstr ""
 
@@ -638,6 +650,14 @@ msgstr "Verzenden"
 #: CRM/FormProcessor/Form/TabHeader.php
 msgid "Define form processor"
 msgstr "Form-processor definiëren"
+
+#: CRM/FormProcessor/Form/TabHeader.php
+msgid "New form processor"
+msgstr ""
+
+#: CRM/FormProcessor/Form/TabHeader.php
+msgid "Clone form processor"
+msgstr ""
 
 #: CRM/FormProcessor/Form/TabHeader.php
 #: templates/CRM/FormProcessor/Form/DefaultDataConfiguration.tpl
@@ -765,6 +785,18 @@ msgid "Send everything"
 msgstr "Alles verzenden"
 
 #: Civi/FormProcessor/Runner.php
+msgid "Input :: "
+msgstr ""
+
+#: Civi/FormProcessor/Runner.php
+msgid "Formatted :: "
+msgstr ""
+
+#: Civi/FormProcessor/Runner.php
+msgid "Error in action %1: %2"
+msgstr ""
+
+#: Civi/FormProcessor/Runner.php
 msgid "Form Processor Name"
 msgstr ""
 
@@ -790,33 +822,39 @@ msgstr "Naam van de campagne"
 
 #: Civi/FormProcessor/Type/CaseTypeType.php
 #: Civi/FormProcessor/Type/ContactSubTypeType.php
+#: Civi/FormProcessor/Type/CountryType.php
 #: Civi/FormProcessor/Type/CustomOptionListType.php
 #: Civi/FormProcessor/Type/MailingGroupType.php
 #: Civi/FormProcessor/Type/OptionGroupType.php
 #: Civi/FormProcessor/Type/ParentMailingGroupType.php
 #: Civi/FormProcessor/Type/ParticipantStatusType.php
+#: Civi/FormProcessor/Type/PriceSetOptionsFieldType.php
 #: Civi/FormProcessor/Type/TagType.php Civi/FormProcessor/Type/WeekDays.php
 msgid "Multiple"
 msgstr "Meerdere"
 
 #: Civi/FormProcessor/Type/CaseTypeType.php
 #: Civi/FormProcessor/Type/ContactSubTypeType.php
+#: Civi/FormProcessor/Type/CountryType.php
 #: Civi/FormProcessor/Type/CustomOptionListType.php
 #: Civi/FormProcessor/Type/MailingGroupType.php
 #: Civi/FormProcessor/Type/OptionGroupType.php
 #: Civi/FormProcessor/Type/ParentMailingGroupType.php
 #: Civi/FormProcessor/Type/ParticipantStatusType.php
+#: Civi/FormProcessor/Type/PriceSetOptionsFieldType.php
 #: Civi/FormProcessor/Type/TagType.php Civi/FormProcessor/Type/WeekDays.php
 msgid "Single value"
 msgstr "Enkele waarde"
 
 #: Civi/FormProcessor/Type/CaseTypeType.php
 #: Civi/FormProcessor/Type/ContactSubTypeType.php
+#: Civi/FormProcessor/Type/CountryType.php
 #: Civi/FormProcessor/Type/CustomOptionListType.php
 #: Civi/FormProcessor/Type/MailingGroupType.php
 #: Civi/FormProcessor/Type/OptionGroupType.php
 #: Civi/FormProcessor/Type/ParentMailingGroupType.php
 #: Civi/FormProcessor/Type/ParticipantStatusType.php
+#: Civi/FormProcessor/Type/PriceSetOptionsFieldType.php
 #: Civi/FormProcessor/Type/TagType.php Civi/FormProcessor/Type/WeekDays.php
 msgid "Multiple values"
 msgstr "Meerdere waarden"
@@ -1033,6 +1071,10 @@ msgstr "Dossiertype"
 msgid "Any CiviCRM Entity (ID)"
 msgstr ""
 
+#: Civi/FormProcessor/Type/Factory.php
+msgid "Price Set Options"
+msgstr ""
+
 #: Civi/FormProcessor/Type/FormattedDecimalType.php
 msgid "Decimal point"
 msgstr "Decimale punt"
@@ -1071,6 +1113,18 @@ msgstr "Label als waarde gebruiken"
 #: Civi/FormProcessor/Type/OptionGroupType.php
 msgid "Option group"
 msgstr "Optiegroep"
+
+#: Civi/FormProcessor/Type/PriceSetOptionsFieldType.php
+msgid "Price set option fields"
+msgstr ""
+
+#: Civi/FormProcessor/Type/PriceSetOptionsFieldType.php
+msgid "Include field label"
+msgstr ""
+
+#: Civi/FormProcessor/Type/ShortTextType.php
+msgid "Remove leading and trailing spaces"
+msgstr ""
 
 #: Civi/FormProcessor/Type/StateProvinceType.php
 msgid "Use state/province name as value"
@@ -1388,6 +1442,11 @@ msgid "Disable Form Processor"
 msgstr ""
 
 #: managed/SavedSearch_Form_Processors.mgd.php
+#: templates/CRM/FormProcessor/Form/Configuration.tpl
+msgid "Clone Form Processor"
+msgstr ""
+
+#: managed/SavedSearch_Form_Processors.mgd.php
 msgid "Export"
 msgstr "Exporteren"
 
@@ -1447,7 +1506,8 @@ msgstr ""
 #: templates/CRM/FormProcessor/Form/AbstractConfigurationInput.tpl
 msgid ""
 "When you use the formatted parameters for example to send an e-mail with the"
-" submitted data. You can exclude this field by unchecking this box."
+" submitted data in nice HTML format. You can exclude this field by "
+"unchecking this box."
 msgstr ""
 
 #: templates/CRM/FormProcessor/Form/AbstractConfigurationInputValidation.tpl
@@ -1570,6 +1630,10 @@ msgid "Define Form Processor"
 msgstr ""
 
 #: templates/CRM/FormProcessor/Form/Configuration.tpl
+msgid "The cloned form processor is not yet saved."
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/Configuration.tpl
 #: templates/CRM/FormProcessor/Form/ConfigurationInput.tpl
 msgid "Add Input"
 msgstr ""
@@ -1685,6 +1749,10 @@ msgstr ""
 #: templates/CRM/FormProcessor/Form/RunFormProcessor.tpl
 msgid "Result"
 msgstr "Resultaat"
+
+#: templates/CRM/FormProcessor/Form/Tab.tpl
+msgid "disabled"
+msgstr ""
 
 #: templates/CRM/FormProcessor/Form/ValidationConfigurationValidator.tpl
 msgid "Delete Validator"
