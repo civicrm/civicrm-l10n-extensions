@@ -9,14 +9,14 @@
 # punkyard persist <punkyard@grrlz.net>, 2023
 # Mathieu Lu <mathieu@bidon.ca>, 2023
 # Alain Rihs <alainrihs@sunrise.ch>, 2023
-# Guillaume Sorel <serviceclient@all-in-appli.com>, 2024
 # Usha Matisson, 2024
+# Guillaume Sorel <serviceclient@all-in-appli.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: form_processor\n"
-"POT-Creation-Date: 2024-07-17 05:01+0000\n"
-"Last-Translator: Usha Matisson, 2024\n"
+"POT-Creation-Date: 2025-02-13 05:01+0000\n"
+"Last-Translator: Guillaume Sorel <serviceclient@all-in-appli.com>, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/civicrm/teams/1905/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,15 +26,17 @@ msgstr ""
 
 #: CRM/FormProcessor/BAO/FormProcessorAction.php
 #: CRM/FormProcessor/BAO/FormProcessorCalculateAction.php
-#: CRM/FormProcessor/BAO/FormProcessorDefaultDataAction.php
 #: CRM/FormProcessor/BAO/FormProcessorValidateAction.php
-msgid "Input :: "
+msgid "Validation Action"
 msgstr ""
 
 #: CRM/FormProcessor/BAO/FormProcessorAction.php
 #: CRM/FormProcessor/BAO/FormProcessorCalculateAction.php
+msgid "Calculation Action"
+msgstr ""
+
+#: CRM/FormProcessor/BAO/FormProcessorAction.php
 #: CRM/FormProcessor/BAO/FormProcessorDefaultDataAction.php
-#: CRM/FormProcessor/BAO/FormProcessorValidateAction.php
 msgid "Action"
 msgstr "Action"
 
@@ -273,12 +275,18 @@ msgid "Condition Configuration"
 msgstr "Paramétrage des conditions"
 
 #: CRM/FormProcessor/DAO/FormProcessorAction.php
+#: CRM/FormProcessor/DAO/FormProcessorCalculateAction.php
+#: CRM/FormProcessor/DAO/FormProcessorDefaultDataAction.php
+#: CRM/FormProcessor/DAO/FormProcessorValidateAction.php
 #: api/v3/FormProcessorAction/Create.php
 #: templates/CRM/FormProcessor/Form/Blocks/Actions.tpl
 msgid "Delay"
 msgstr "Délai"
 
 #: CRM/FormProcessor/DAO/FormProcessorAction.php
+#: CRM/FormProcessor/DAO/FormProcessorCalculateAction.php
+#: CRM/FormProcessor/DAO/FormProcessorDefaultDataAction.php
+#: CRM/FormProcessor/DAO/FormProcessorValidateAction.php
 msgid "Delay Configuration"
 msgstr "Paramétrage du délai"
 
@@ -588,6 +596,10 @@ msgid "Output configuration"
 msgstr "Paramétrage du résultat"
 
 #: CRM/FormProcessor/Form/Configuration.php
+msgid "Copy"
+msgstr "Copier"
+
+#: CRM/FormProcessor/Form/Configuration.php
 msgid "Restore to imported version"
 msgstr "Revenir à la version importée"
 
@@ -643,6 +655,14 @@ msgstr "Soumettre"
 #: CRM/FormProcessor/Form/TabHeader.php
 msgid "Define form processor"
 msgstr "Définir le Générateur de Formulaire"
+
+#: CRM/FormProcessor/Form/TabHeader.php
+msgid "New form processor"
+msgstr ""
+
+#: CRM/FormProcessor/Form/TabHeader.php
+msgid "Clone form processor"
+msgstr ""
 
 #: CRM/FormProcessor/Form/TabHeader.php
 #: templates/CRM/FormProcessor/Form/DefaultDataConfiguration.tpl
@@ -770,6 +790,18 @@ msgid "Send everything"
 msgstr "Envoyer tout"
 
 #: Civi/FormProcessor/Runner.php
+msgid "Input :: "
+msgstr ""
+
+#: Civi/FormProcessor/Runner.php
+msgid "Formatted :: "
+msgstr ""
+
+#: Civi/FormProcessor/Runner.php
+msgid "Error in action %1: %2"
+msgstr ""
+
+#: Civi/FormProcessor/Runner.php
 msgid "Form Processor Name"
 msgstr "Nom du Form Processor"
 
@@ -795,33 +827,39 @@ msgstr "Nom de la campagne"
 
 #: Civi/FormProcessor/Type/CaseTypeType.php
 #: Civi/FormProcessor/Type/ContactSubTypeType.php
+#: Civi/FormProcessor/Type/CountryType.php
 #: Civi/FormProcessor/Type/CustomOptionListType.php
 #: Civi/FormProcessor/Type/MailingGroupType.php
 #: Civi/FormProcessor/Type/OptionGroupType.php
 #: Civi/FormProcessor/Type/ParentMailingGroupType.php
 #: Civi/FormProcessor/Type/ParticipantStatusType.php
+#: Civi/FormProcessor/Type/PriceSetOptionsFieldType.php
 #: Civi/FormProcessor/Type/TagType.php Civi/FormProcessor/Type/WeekDays.php
 msgid "Multiple"
 msgstr "Multiple"
 
 #: Civi/FormProcessor/Type/CaseTypeType.php
 #: Civi/FormProcessor/Type/ContactSubTypeType.php
+#: Civi/FormProcessor/Type/CountryType.php
 #: Civi/FormProcessor/Type/CustomOptionListType.php
 #: Civi/FormProcessor/Type/MailingGroupType.php
 #: Civi/FormProcessor/Type/OptionGroupType.php
 #: Civi/FormProcessor/Type/ParentMailingGroupType.php
 #: Civi/FormProcessor/Type/ParticipantStatusType.php
+#: Civi/FormProcessor/Type/PriceSetOptionsFieldType.php
 #: Civi/FormProcessor/Type/TagType.php Civi/FormProcessor/Type/WeekDays.php
 msgid "Single value"
 msgstr "Valeur unique"
 
 #: Civi/FormProcessor/Type/CaseTypeType.php
 #: Civi/FormProcessor/Type/ContactSubTypeType.php
+#: Civi/FormProcessor/Type/CountryType.php
 #: Civi/FormProcessor/Type/CustomOptionListType.php
 #: Civi/FormProcessor/Type/MailingGroupType.php
 #: Civi/FormProcessor/Type/OptionGroupType.php
 #: Civi/FormProcessor/Type/ParentMailingGroupType.php
 #: Civi/FormProcessor/Type/ParticipantStatusType.php
+#: Civi/FormProcessor/Type/PriceSetOptionsFieldType.php
 #: Civi/FormProcessor/Type/TagType.php Civi/FormProcessor/Type/WeekDays.php
 msgid "Multiple values"
 msgstr "Valeurs multiples"
@@ -1038,6 +1076,10 @@ msgstr "Type de dossier"
 msgid "Any CiviCRM Entity (ID)"
 msgstr "N'importe quelle entité CiviCRM (Id.)"
 
+#: Civi/FormProcessor/Type/Factory.php
+msgid "Price Set Options"
+msgstr ""
+
 #: Civi/FormProcessor/Type/FormattedDecimalType.php
 msgid "Decimal point"
 msgstr "Séparateur de décimales"
@@ -1076,6 +1118,18 @@ msgstr "Utiliser le label comme valeur"
 #: Civi/FormProcessor/Type/OptionGroupType.php
 msgid "Option group"
 msgstr "Groupe d'options"
+
+#: Civi/FormProcessor/Type/PriceSetOptionsFieldType.php
+msgid "Price set option fields"
+msgstr ""
+
+#: Civi/FormProcessor/Type/PriceSetOptionsFieldType.php
+msgid "Include field label"
+msgstr ""
+
+#: Civi/FormProcessor/Type/ShortTextType.php
+msgid "Remove leading and trailing spaces"
+msgstr ""
 
 #: Civi/FormProcessor/Type/StateProvinceType.php
 msgid "Use state/province name as value"
@@ -1389,6 +1443,11 @@ msgid "Disable Form Processor"
 msgstr "Désactiver le processeur de données"
 
 #: managed/SavedSearch_Form_Processors.mgd.php
+#: templates/CRM/FormProcessor/Form/Configuration.tpl
+msgid "Clone Form Processor"
+msgstr ""
+
+#: managed/SavedSearch_Form_Processors.mgd.php
 msgid "Export"
 msgstr "Exporter"
 
@@ -1526,10 +1585,6 @@ msgid "Validation Rules"
 msgstr ""
 
 #: templates/CRM/FormProcessor/Form/Blocks/Inputs.tpl
-msgid "Invalid type"
-msgstr ""
-
-#: templates/CRM/FormProcessor/Form/Blocks/Inputs.tpl
 msgid "Add Validation rule"
 msgstr ""
 
@@ -1573,6 +1628,10 @@ msgstr ""
 
 #: templates/CRM/FormProcessor/Form/Configuration.tpl
 msgid "Define Form Processor"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/Configuration.tpl
+msgid "The cloned form processor is not yet saved."
 msgstr ""
 
 #: templates/CRM/FormProcessor/Form/Configuration.tpl
@@ -1693,6 +1752,10 @@ msgstr ""
 #: templates/CRM/FormProcessor/Form/RunFormProcessor.tpl
 msgid "Result"
 msgstr "Résultat"
+
+#: templates/CRM/FormProcessor/Form/Tab.tpl
+msgid "disabled"
+msgstr ""
 
 #: templates/CRM/FormProcessor/Form/ValidationConfigurationValidator.tpl
 msgid "Delete Validator"
