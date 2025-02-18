@@ -3,15 +3,16 @@
 # Veruska Perinotto <reaching.out@gmail.com>, 2022
 # Molly Finn <mollyperu@gmail.com>, 2022
 # Carolina Bardisa <c.bardisa@ixiam.com>, 2022
-# sluc23 <sluc23@hotmail.com>, 2022
-# Marti Prat <m.prat@ixiam.com>, 2022
-# Irene López Meijide, 2023
-# Darío Hereñú, 2023
-# ixiam <info@ixiam.com>, 2023
+# Bradley Taylor, 2025
+# Irene López Meijide, 2025
+# Marti Prat <m.prat@ixiam.com>, 2025
+# sluc23 <sluc23@hotmail.com>, 2025
+# ixiam <info@ixiam.com>, 2025
+# Darío Hereñú, 2025
 # 
 msgid ""
 msgstr ""
-"Last-Translator: ixiam <info@ixiam.com>, 2023\n"
+"Last-Translator: Darío Hereñú, 2025\n"
 "Language-Team: Spanish (https://app.transifex.com/civicrm/teams/1905/es/)\n"
 "Language: es\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
@@ -19,6 +20,14 @@ msgstr ""
 #: ./CRM/AfformAdmin/Page/Base.php ./ang/afAdmin/afAdminList.html
 #: ./managed/Navigation_afform_admin.mgd.php
 msgid "FormBuilder"
+msgstr ""
+
+#: ./Civi/AfformAdmin/AfformAdminInjector.php
+msgid "Edit %1 in FormBuilder"
+msgstr ""
+
+#: ./Civi/AfformAdmin/AfformAdminInjector.php
+msgid "Edit %1 in SearchKit"
 msgstr ""
 
 #: ./Civi/AfformAdmin/AfformAdminMeta.php
@@ -72,6 +81,14 @@ msgid "Submit"
 msgstr "Enviar"
 
 #: ./Civi/AfformAdmin/AfformAdminMeta.php
+msgid "Save Draft Button"
+msgstr ""
+
+#: ./Civi/AfformAdmin/AfformAdminMeta.php
+msgid "Save Draft"
+msgstr "Guardar borrador"
+
+#: ./Civi/AfformAdmin/AfformAdminMeta.php
 msgid "Reset Button"
 msgstr "Botón Restablecer"
 
@@ -117,6 +134,9 @@ msgid "Choose Date Range"
 msgstr "Elegir rango de fechas"
 
 #: ./ang/afAdmin/afAdminList.controller.js
+#: ./ang/afGuiEditor/afGuiClause.component.js
+#: ./ang/afGuiEditor/afGuiCondition.component.js
+#: ./ang/afGuiEditor/afGuiConditionalDialog.ctrl.js
 #: ./ang/afGuiEditor/afGuiContainerMultiToggle.component.js
 #: ./ang/afGuiEditor/afGuiEditOptions.component.js
 #: ./ang/afGuiEditor/afGuiEditor.component.js
@@ -131,6 +151,7 @@ msgstr "Elegir rango de fechas"
 #: ./ang/afGuiEditor/afGuiTokenSelect.js
 #: ./ang/afGuiEditor/behaviors/autofillRelationshipBehaviorForm.component.js
 #: ./ang/afGuiEditor/elements/afGuiButton.component.js
+#: ./ang/afGuiEditor/elements/afGuiConditionalMenu.directive.js
 #: ./ang/afGuiEditor/elements/afGuiContainer.component.js
 #: ./ang/afGuiEditor/elements/afGuiField.component.js
 #: ./ang/afGuiEditor/elements/afGuiGenericElement.js
@@ -139,10 +160,6 @@ msgstr "Elegir rango de fechas"
 #: ./ang/afGuiEditor/elements/afGuiText.component.js
 msgid "org.civicrm.afform_admin"
 msgstr "org.civicrm.afform_admin"
-
-#: ./ang/afAdmin/afAdminList.controller.js
-msgid "Dashboard"
-msgstr "Panel de control"
 
 #: ./ang/afAdmin/afAdminList.controller.js
 msgid "Reverting..."
@@ -189,12 +206,37 @@ msgid "Placement"
 msgstr "Ubicación"
 
 #: ./ang/afAdmin/afAdminList.html
+msgid "Status"
+msgstr "Estado"
+
+#: ./ang/afAdmin/afAdminList.html ./ang/afAdminFormSubmissionList.aff.php
+#: ./ang/afGuiEditor/config-form.html
 msgid "Submissions"
 msgstr "Presentaciones"
 
 #: ./ang/afAdmin/afAdminList.html
 msgid "Package"
 msgstr "Paquete"
+
+#: ./ang/afAdmin/afAdminList.html ./ang/afGuiEditor/config-form.html
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: ./ang/afAdmin/afAdminList.html
+msgid "Actions"
+msgstr "Acciones"
+
+#: ./ang/afAdmin/afAdminList.html ./ang/afGuiEditor/config-form.html
+msgid "Open"
+msgstr "Abrir"
+
+#: ./ang/afAdmin/afAdminList.html ./ang/afGuiEditor/config-form.html
+msgid "Closed"
+msgstr "Cerrado"
+
+#: ./ang/afAdmin/afAdminList.html
+msgid "%1 remaining"
+msgstr ""
 
 #: ./ang/afAdmin/afAdminList.html
 msgid "1 Submission"
@@ -221,8 +263,95 @@ msgid "Revert"
 msgstr "Volver"
 
 #: ./ang/afAdmin/afAdminList.html
+#: ./ang/afGuiEditor/elements/afGuiContainer-menu.html
 msgid "Delete"
 msgstr "Eliminar"
+
+#: ./ang/afAdminFormSubmissionList.aff.html
+msgid "Any Status"
+msgstr ""
+
+#: ./ang/afGuiEditor/afGuiClause.component.js
+#: ./ang/afGuiEditor/config-form.html
+msgid "And"
+msgstr "Y"
+
+#: ./ang/afGuiEditor/afGuiClause.component.js
+#: ./ang/afGuiEditor/config-form.html
+msgid "Or"
+msgstr "O"
+
+#: ./ang/afGuiEditor/afGuiClause.component.js
+msgid "Not"
+msgstr "No"
+
+#: ./ang/afGuiEditor/afGuiClause.html
+msgid "%1 group"
+msgstr "grupo %1"
+
+#: ./ang/afGuiEditor/afGuiClause.html
+msgid "Remove group"
+msgstr "Eliminar grupo"
+
+#: ./ang/afGuiEditor/afGuiClause.html
+msgid "Drag to reposition"
+msgstr "Arrastrar para reposicionar"
+
+#: ./ang/afGuiEditor/afGuiClause.html
+msgid "Add a subgroup of clauses"
+msgstr ""
+
+#: ./ang/afGuiEditor/afGuiClause.html
+msgid "Add a group of clauses"
+msgstr ""
+
+#: ./ang/afGuiEditor/afGuiClause.html
+msgid "Select field"
+msgstr "Seleccionar campo"
+
+#: ./ang/afGuiEditor/afGuiCondition.component.js
+msgid "Contains"
+msgstr "contiene"
+
+#: ./ang/afGuiEditor/afGuiCondition.component.js
+msgid "Doesn't Contain"
+msgstr ""
+
+#: ./ang/afGuiEditor/afGuiCondition.component.js
+msgid "Is One Of"
+msgstr "Es uno de"
+
+#: ./ang/afGuiEditor/afGuiCondition.component.js
+msgid "Not One Of"
+msgstr "No uno de"
+
+#: ./ang/afGuiEditor/afGuiCondition.component.js
+msgid "Is Like"
+msgstr "es como"
+
+#: ./ang/afGuiEditor/afGuiCondition.component.js
+msgid "Not Like"
+msgstr "No como"
+
+#: ./ang/afGuiEditor/afGuiCondition.component.js
+msgid "Is Empty"
+msgstr "Está vacío"
+
+#: ./ang/afGuiEditor/afGuiCondition.component.js
+msgid "Not Empty"
+msgstr "No vacío"
+
+#: ./ang/afGuiEditor/afGuiConditionalDialog.html
+msgid "Element will be shown if"
+msgstr ""
+
+#: ./ang/afGuiEditor/afGuiConditionalDialog.html
+msgid "If"
+msgstr "Si"
+
+#: ./ang/afGuiEditor/afGuiConditionalDialog.html
+msgid "Apply Changes"
+msgstr ""
 
 #: ./ang/afGuiEditor/afGuiContainerMultiToggle.component.js
 msgid "Multiple"
@@ -372,6 +501,15 @@ msgid "Values:"
 msgstr "Valores:"
 
 #: ./ang/afGuiEditor/afGuiEntity.html
+msgid "Current Date"
+msgstr "Fecha actual"
+
+#: ./ang/afGuiEditor/afGuiEntity.html
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Pick Date"
+msgstr "Elegir fecha"
+
+#: ./ang/afGuiEditor/afGuiEntity.html
 msgid "Add value"
 msgstr "Añadir valor"
 
@@ -396,11 +534,12 @@ msgstr "Bloques"
 msgid "Remove %1"
 msgstr "Quitar %1"
 
-#: ./ang/afGuiEditor/afGuiEntity.html
+#: ./ang/afGuiEditor/afGuiEntity.html ./ang/afGuiEditor/afGuiSearch.html
 msgid "Options"
 msgstr "Opciones"
 
 #: ./ang/afGuiEditor/afGuiFieldValue.directive.js
+#: ./ang/afGuiEditor/config-form.html
 msgid "- select -"
 msgstr "- seleccionar -"
 
@@ -455,24 +594,8 @@ msgid "Outset"
 msgstr "Comienzo"
 
 #: ./ang/afGuiEditor/afGuiMenuItemCollapsible.html
-msgid "Allow user to collapse this to only show title"
-msgstr "Permitir al usuario plegar esto para mostrar sólo el título"
-
-#: ./ang/afGuiEditor/afGuiMenuItemCollapsible.html
-msgid "Must have a title to be collapsible"
-msgstr "Debe tener un título para ser plegable"
-
-#: ./ang/afGuiEditor/afGuiMenuItemCollapsible.html
-msgid "Collapsible"
-msgstr "Plegable"
-
-#: ./ang/afGuiEditor/afGuiMenuItemCollapsible.html
-msgid "Closed"
-msgstr "Cerrado"
-
-#: ./ang/afGuiEditor/afGuiMenuItemCollapsible.html
-msgid "Open"
-msgstr "Abrir"
+msgid "Collapsed"
+msgstr ""
 
 #: ./ang/afGuiEditor/afGuiMenuItemStyle.component.js
 msgid "Panel Pane"
@@ -485,6 +608,7 @@ msgstr "Estilo"
 #: ./ang/afGuiEditor/afGuiMenuItemStyle.html
 #: ./ang/afGuiEditor/behaviors/afGuiDefaultBehaviorTemplate.html
 #: ./ang/afGuiEditor/behaviors/autofillRelationshipBehavior.html
+#: ./ang/afGuiEditor/config-form.html
 msgid "None"
 msgstr "Ninguno"
 
@@ -506,8 +630,8 @@ msgid "Value"
 msgstr "Valor"
 
 #: ./ang/afGuiEditor/afGuiSearch.html
-msgid "Current Contact"
-msgstr "Actual contacto"
+msgid "Contact being Viewed"
+msgstr ""
 
 #: ./ang/afGuiEditor/afGuiSearch.html
 msgid "Url variable"
@@ -518,8 +642,21 @@ msgid "Fixed value"
 msgstr "Valor fijo"
 
 #: ./ang/afGuiEditor/afGuiSearch.html
+msgid "Append %1 to the URL to pass a parameter value to the form"
+msgstr ""
+
+#: ./ang/afGuiEditor/afGuiSearch.html
 msgid "Add filter"
 msgstr "Agregar filtro"
+
+#: ./ang/afGuiEditor/afGuiSearch.html
+msgid "Remember Filters"
+msgstr ""
+
+#: ./ang/afGuiEditor/afGuiSearch.html
+msgid ""
+"Filter fields will retain their value when the same user revisits the form."
+msgstr ""
 
 #: ./ang/afGuiEditor/afGuiTokenSelect.html
 #: ./ang/afGuiEditor/afGuiTokenSelect.js
@@ -547,6 +684,7 @@ msgstr ""
 
 #: ./ang/afGuiEditor/config-form.html
 #: ./ang/afGuiEditor/elements/afGuiField-menu.html
+#: ./ang/afGuiEditor/inputType/CheckBox.html
 msgid "Required"
 msgstr "Necesario"
 
@@ -569,6 +707,12 @@ msgid "What permission is required to use this form?"
 msgstr "¿Qué permisos son necesarios para usar este formulario?"
 
 #: ./ang/afGuiEditor/config-form.html
+msgid ""
+"Join multiple permissions with \"And\" to require all, or \"Or\" to require "
+"at least one."
+msgstr ""
+
+#: ./ang/afGuiEditor/config-form.html
 msgid "Page Route"
 msgstr ""
 
@@ -585,14 +729,6 @@ msgstr ""
 #: ./ang/afGuiEditor/config-form.html
 msgid "Accessible on front-end of website"
 msgstr "Accesible en la portada del sitio de internet"
-
-#: ./ang/afGuiEditor/config-form.html
-msgid "Provide Email Token"
-msgstr "Proporcionar token de correo electrónico"
-
-#: ./ang/afGuiEditor/config-form.html
-msgid "Allows CiviMail authors to easily link to this page"
-msgstr "Permitir a los autores de CiviMail vincular a esta página"
 
 #: ./ang/afGuiEditor/config-form.html
 msgid "Add to Navigation Menu"
@@ -619,16 +755,26 @@ msgid "Icon"
 msgstr "Icono"
 
 #: ./ang/afGuiEditor/config-form.html
-msgid "Add to Contact Summary Page"
-msgstr "Agregar a la Página de resumen de contactos"
+msgid "Expose To"
+msgstr ""
 
 #: ./ang/afGuiEditor/config-form.html
-msgid "As Block"
-msgstr "Como bloque"
+msgid "Additional contexts in which the form can be embedded."
+msgstr ""
 
 #: ./ang/afGuiEditor/config-form.html
-msgid "As Tab"
-msgstr "Como pestaña"
+msgid "%1 placement requires a page route."
+msgstr ""
+
+#: ./ang/afGuiEditor/config-form.html
+msgid ""
+"Tags can be used to keep track of your forms if Used For is set to include "
+"Afform."
+msgstr ""
+
+#: ./ang/afGuiEditor/config-form.html
+msgid "Manage Tags"
+msgstr ""
 
 #: ./ang/afGuiEditor/config-form.html
 msgid "For"
@@ -639,22 +785,27 @@ msgid "Any contact type"
 msgstr ""
 
 #: ./ang/afGuiEditor/config-form.html
-msgid "Placement can be configured using the Contact Layout Editor."
+msgid "Position"
+msgstr "Posición"
+
+#: ./ang/afGuiEditor/config-form.html
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Auto"
 msgstr ""
-"La ubicación se puede configurar mediante el Editor de formato de contacto."
 
 #: ./ang/afGuiEditor/config-form.html
-msgid "Add to Dashboard"
-msgstr "Agregar al Panel de control"
-
-#: ./ang/afGuiEditor/config-form.html
-msgid "Allow CiviCRM users to add the form to their home dashboard."
+msgid "Autosave Draft"
 msgstr ""
-"Permitir a los usuarios CiviCRM añadir el formulario a su Panel personal"
 
 #: ./ang/afGuiEditor/config-form.html
-msgid "Submit Actions"
-msgstr "Enviar acciones"
+msgid "For authenticated users, form will auto-save periodically."
+msgstr ""
+
+#: ./ang/afGuiEditor/config-form.html
+msgid ""
+"You may also place a \"Save Draft\" button on the form, with or without "
+"Autosave enabled."
+msgstr ""
 
 #: ./ang/afGuiEditor/config-form.html
 msgid "Log Submissions"
@@ -666,6 +817,37 @@ msgid ""
 msgstr ""
 "Mantenga un registro de la fecha, la hora, el usuario y los elementos "
 "guardados por cada envío de formulario."
+
+#: ./ang/afGuiEditor/config-form.html
+msgid "Maximum Submissions"
+msgstr ""
+
+#: ./ang/afGuiEditor/config-form.html
+msgid "Unlimited"
+msgstr "Ilimitado"
+
+#: ./ang/afGuiEditor/config-form.html
+msgid "Verify submission before processing"
+msgstr ""
+
+#: ./ang/afGuiEditor/config-form.html
+msgid ""
+"The data will need to be processed manually using Form Submission action."
+msgstr ""
+
+#: ./ang/afGuiEditor/config-form.html
+msgid "Allow verification by email"
+msgstr ""
+
+#: ./ang/afGuiEditor/config-form.html
+msgid ""
+"The data can be processed via email verification. Email field should be "
+"included in the form for this functionality."
+msgstr ""
+
+#: ./ang/afGuiEditor/config-form.html
+msgid "Email template"
+msgstr ""
 
 #: ./ang/afGuiEditor/config-form.html
 msgid "Post-Submit Page"
@@ -715,6 +897,18 @@ msgstr "Enviar formulario"
 msgid "Configure"
 msgstr "Configurar"
 
+#: ./ang/afGuiEditor/elements/afGuiConditionalMenu.html
+msgid "Conditional Rules"
+msgstr ""
+
+#: ./ang/afGuiEditor/elements/afGuiConditionalMenu.html
+msgid "Add Conditional Rules"
+msgstr ""
+
+#: ./ang/afGuiEditor/elements/afGuiConditionalMenu.html
+msgid "Edit Conditional Rules"
+msgstr ""
+
 #: ./ang/afGuiEditor/elements/afGuiContainer-menu.html
 msgid "Save as block"
 msgstr "Guardar como bloque"
@@ -747,12 +941,25 @@ msgid "Layout:"
 msgstr "Diseño"
 
 #: ./ang/afGuiEditor/elements/afGuiContainer-menu.html
+msgid "Allow:"
+msgstr ""
+
+#: ./ang/afGuiEditor/elements/afGuiContainer-menu.html
+#: ./ang/afGuiEditor/entityConfig/EntityOptionsGeneric.html
+msgid "Update"
+msgstr "Actualizar"
+
+#: ./ang/afGuiEditor/elements/afGuiContainer-menu.html
 msgid "Remove container"
 msgstr "Quitar contenedor"
 
 #: ./ang/afGuiEditor/elements/afGuiContainer-menu.html
 msgid "Remove block"
 msgstr "Quitar bloque"
+
+#: ./ang/afGuiEditor/elements/afGuiContainer.component.js
+msgid "Collapsible"
+msgstr "Plegable"
 
 #: ./ang/afGuiEditor/elements/afGuiContainer.component.js
 msgid "Contents display as rows"
@@ -808,6 +1015,18 @@ msgid "Field type"
 msgstr "Tipo de campo"
 
 #: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Input date + time"
+msgstr ""
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Show Time"
+msgstr ""
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Max Length:"
+msgstr ""
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
 msgid "Decimal places:"
 msgstr ""
 
@@ -832,6 +1051,14 @@ msgid "Should permissions be checked when autocompleting existing entities"
 msgstr ""
 
 #: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Allow a new entity to be created via quick-add popup"
+msgstr ""
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Quick Add"
+msgstr ""
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
 msgid "Show autocomplete results without typing"
 msgstr ""
 
@@ -850,6 +1077,38 @@ msgstr "Rellenar previamente este campo con un valor"
 #: ./ang/afGuiEditor/elements/afGuiField-menu.html
 msgid "Default value"
 msgstr "Valor predeterminado"
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Now"
+msgstr "Ahora"
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Relative"
+msgstr ""
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Days"
+msgstr "Días"
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Day"
+msgstr "Día"
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Weeks"
+msgstr "Semanas"
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Week"
+msgstr "Semana"
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Years"
+msgstr "Años"
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Year"
+msgstr "Año"
 
 #: ./ang/afGuiEditor/elements/afGuiField-menu.html
 msgid "Show field label"
@@ -899,10 +1158,6 @@ msgstr "Operador:"
 msgid ""
 "Set the search operator for this field or allow the user to select it on the"
 " form"
-msgstr ""
-
-#: ./ang/afGuiEditor/elements/afGuiField-menu.html
-msgid "Auto"
 msgstr ""
 
 #: ./ang/afGuiEditor/elements/afGuiField-menu.html
@@ -1025,27 +1280,24 @@ msgstr "Alinear a la derecha"
 msgid "Justify"
 msgstr "Justificar"
 
-#: ./ang/afGuiEditor/entityConfig/Options.html
+#: ./ang/afGuiEditor/entityConfig/EntityOptionsGeneric.html
 msgid "Security"
 msgstr "Seguridad"
 
-#: ./ang/afGuiEditor/entityConfig/Options.html
+#: ./ang/afGuiEditor/entityConfig/EntityOptionsGeneric.html
+#: ./ang/afGuiEditor/entityConfig/GroupSubscriptionOptions.html
 msgid "Allowed Actions"
 msgstr "Acciones permitidas"
 
-#: ./ang/afGuiEditor/entityConfig/Options.html
+#: ./ang/afGuiEditor/entityConfig/EntityOptionsGeneric.html
 msgid "Create"
 msgstr "Crear"
 
-#: ./ang/afGuiEditor/entityConfig/Options.html
-msgid "Update"
-msgstr "Actualizar"
-
-#: ./ang/afGuiEditor/entityConfig/Options.html
+#: ./ang/afGuiEditor/entityConfig/EntityOptionsGeneric.html
 msgid "Accept ID from URL"
 msgstr "Aceptar ID de la URL"
 
-#: ./ang/afGuiEditor/entityConfig/Options.html
+#: ./ang/afGuiEditor/entityConfig/EntityOptionsGeneric.html
 msgid ""
 "Without Role-Based access, users of the form will be able to view and update"
 " any %1 by changing the id in the URL."
@@ -1053,9 +1305,23 @@ msgstr ""
 "Sin el acceso basado en roles, los usuarios del formulario podrán ver y "
 "actualizar cualquier %1 cambiando el id en la URL."
 
-#: ./ang/afGuiEditor/entityConfig/Options.html
+#: ./ang/afGuiEditor/entityConfig/EntityOptionsGeneric.html
 msgid "Update %1 by including the id in the link to this form:"
 msgstr "Actualizar %1 incluyendo el id en el enlace a este formulario:"
+
+#: ./ang/afGuiEditor/entityConfig/EntityOptionsGeneric.html
+msgid ""
+"If you have made a repeating container for %1, you may update multiple %2s "
+"using comma-separated ids:"
+msgstr ""
+
+#: ./ang/afGuiEditor/entityConfig/GroupSubscriptionOptions.html
+msgid "Subscribe"
+msgstr ""
+
+#: ./ang/afGuiEditor/entityConfig/GroupSubscriptionOptions.html
+msgid "Unsubscribe"
+msgstr ""
 
 #: ./ang/afGuiEditor/inputType/ChainSelect.html
 #: ./ang/afGuiEditor/inputType/Select.html
@@ -1080,6 +1346,15 @@ msgstr "Establecer valor predeterminado"
 
 #: ./ang/afGuiEditor/inputType/DisplayOnly.html
 msgid "Field value will be shown on the form"
+msgstr ""
+
+#: ./ang/afGuiEditor/inputType/Email.html
+#: ./ang/afGuiEditor/inputType/Text.html
+msgid "(no placeholder)"
+msgstr ""
+
+#: ./ang/afGuiEditor/inputType/Missing.html
+msgid "Error: missing field \"%1\""
 msgstr ""
 
 #: ./ang/afGuiEditor/inputType/Radio.html
@@ -1144,3 +1419,19 @@ msgstr "Anónimo"
 #: ./managed/FormSubmissionSavedSearch.mgd.php
 msgid "Submission Date/Time"
 msgstr "Fecha/Horario de la presentación"
+
+#: ./managed/FormSubmissionSavedSearch.mgd.php
+msgid "Submission Status"
+msgstr ""
+
+#: ./managed/FormSubmissionSavedSearch.mgd.php
+msgid "View"
+msgstr "Ver"
+
+#: ./managed/FormSubmissionSavedSearch.mgd.php
+msgid "Process"
+msgstr "Procesar"
+
+#: ./managed/FormSubmissionSavedSearch.mgd.php
+msgid "Reject"
+msgstr ""
