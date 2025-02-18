@@ -1,11 +1,11 @@
 # 
 # Translators:
-# Mathieu Lu <mathieu@bidon.ca>, 2022
-# Kaya Zeren <kayazeren@gmail.com>, 2023
+# Mathieu Lu <mathieu@bidon.ca>, 2025
+# Kaya Zeren <kayazeren@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2023\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2025\n"
 "Language-Team: Turkish (https://app.transifex.com/civicrm/teams/1905/tr/)\n"
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
@@ -14,6 +14,14 @@ msgstr ""
 #: ./managed/Navigation_afform_admin.mgd.php
 msgid "FormBuilder"
 msgstr "FormBuilder"
+
+#: ./Civi/AfformAdmin/AfformAdminInjector.php
+msgid "Edit %1 in FormBuilder"
+msgstr ""
+
+#: ./Civi/AfformAdmin/AfformAdminInjector.php
+msgid "Edit %1 in SearchKit"
+msgstr ""
 
 #: ./Civi/AfformAdmin/AfformAdminMeta.php
 msgid "Submission Forms"
@@ -66,6 +74,14 @@ msgid "Submit"
 msgstr "Gönder"
 
 #: ./Civi/AfformAdmin/AfformAdminMeta.php
+msgid "Save Draft Button"
+msgstr ""
+
+#: ./Civi/AfformAdmin/AfformAdminMeta.php
+msgid "Save Draft"
+msgstr "Taslağı kaydet"
+
+#: ./Civi/AfformAdmin/AfformAdminMeta.php
 msgid "Reset Button"
 msgstr "Sıfırla düğmesi"
 
@@ -111,6 +127,9 @@ msgid "Choose Date Range"
 msgstr "Tarih aralığı seçin"
 
 #: ./ang/afAdmin/afAdminList.controller.js
+#: ./ang/afGuiEditor/afGuiClause.component.js
+#: ./ang/afGuiEditor/afGuiCondition.component.js
+#: ./ang/afGuiEditor/afGuiConditionalDialog.ctrl.js
 #: ./ang/afGuiEditor/afGuiContainerMultiToggle.component.js
 #: ./ang/afGuiEditor/afGuiEditOptions.component.js
 #: ./ang/afGuiEditor/afGuiEditor.component.js
@@ -125,6 +144,7 @@ msgstr "Tarih aralığı seçin"
 #: ./ang/afGuiEditor/afGuiTokenSelect.js
 #: ./ang/afGuiEditor/behaviors/autofillRelationshipBehaviorForm.component.js
 #: ./ang/afGuiEditor/elements/afGuiButton.component.js
+#: ./ang/afGuiEditor/elements/afGuiConditionalMenu.directive.js
 #: ./ang/afGuiEditor/elements/afGuiContainer.component.js
 #: ./ang/afGuiEditor/elements/afGuiField.component.js
 #: ./ang/afGuiEditor/elements/afGuiGenericElement.js
@@ -133,10 +153,6 @@ msgstr "Tarih aralığı seçin"
 #: ./ang/afGuiEditor/elements/afGuiText.component.js
 msgid "org.civicrm.afform_admin"
 msgstr "org.civicrm.afform_admin"
-
-#: ./ang/afAdmin/afAdminList.controller.js
-msgid "Dashboard"
-msgstr "Pano"
 
 #: ./ang/afAdmin/afAdminList.controller.js
 msgid "Reverting..."
@@ -183,12 +199,37 @@ msgid "Placement"
 msgstr "Konum"
 
 #: ./ang/afAdmin/afAdminList.html
+msgid "Status"
+msgstr "Durum"
+
+#: ./ang/afAdmin/afAdminList.html ./ang/afAdminFormSubmissionList.aff.php
+#: ./ang/afGuiEditor/config-form.html
 msgid "Submissions"
 msgstr "Gönderimler"
 
 #: ./ang/afAdmin/afAdminList.html
 msgid "Package"
 msgstr "Paket"
+
+#: ./ang/afAdmin/afAdminList.html ./ang/afGuiEditor/config-form.html
+msgid "Tags"
+msgstr "Etiketler"
+
+#: ./ang/afAdmin/afAdminList.html
+msgid "Actions"
+msgstr "İşlemler"
+
+#: ./ang/afAdmin/afAdminList.html ./ang/afGuiEditor/config-form.html
+msgid "Open"
+msgstr "Aç"
+
+#: ./ang/afAdmin/afAdminList.html ./ang/afGuiEditor/config-form.html
+msgid "Closed"
+msgstr "Kapatılmış"
+
+#: ./ang/afAdmin/afAdminList.html
+msgid "%1 remaining"
+msgstr ""
 
 #: ./ang/afAdmin/afAdminList.html
 msgid "1 Submission"
@@ -215,8 +256,95 @@ msgid "Revert"
 msgstr "Geri döndür"
 
 #: ./ang/afAdmin/afAdminList.html
+#: ./ang/afGuiEditor/elements/afGuiContainer-menu.html
 msgid "Delete"
 msgstr "Sil"
+
+#: ./ang/afAdminFormSubmissionList.aff.html
+msgid "Any Status"
+msgstr ""
+
+#: ./ang/afGuiEditor/afGuiClause.component.js
+#: ./ang/afGuiEditor/config-form.html
+msgid "And"
+msgstr "Ve"
+
+#: ./ang/afGuiEditor/afGuiClause.component.js
+#: ./ang/afGuiEditor/config-form.html
+msgid "Or"
+msgstr "Veya"
+
+#: ./ang/afGuiEditor/afGuiClause.component.js
+msgid "Not"
+msgstr "Olmayan"
+
+#: ./ang/afGuiEditor/afGuiClause.html
+msgid "%1 group"
+msgstr "%1 grup"
+
+#: ./ang/afGuiEditor/afGuiClause.html
+msgid "Remove group"
+msgstr "Grubu sil"
+
+#: ./ang/afGuiEditor/afGuiClause.html
+msgid "Drag to reposition"
+msgstr "Sürükleyerek konumunu değiştirin"
+
+#: ./ang/afGuiEditor/afGuiClause.html
+msgid "Add a subgroup of clauses"
+msgstr "Bir madde alt grubu ekle"
+
+#: ./ang/afGuiEditor/afGuiClause.html
+msgid "Add a group of clauses"
+msgstr "Bir madde grubu ekle"
+
+#: ./ang/afGuiEditor/afGuiClause.html
+msgid "Select field"
+msgstr "Alanı seçin"
+
+#: ./ang/afGuiEditor/afGuiCondition.component.js
+msgid "Contains"
+msgstr "Şunu içeren"
+
+#: ./ang/afGuiEditor/afGuiCondition.component.js
+msgid "Doesn't Contain"
+msgstr "Şunu içermeyen"
+
+#: ./ang/afGuiEditor/afGuiCondition.component.js
+msgid "Is One Of"
+msgstr "Şunlardan biri olan"
+
+#: ./ang/afGuiEditor/afGuiCondition.component.js
+msgid "Not One Of"
+msgstr "Şunlardan biri olmayan"
+
+#: ./ang/afGuiEditor/afGuiCondition.component.js
+msgid "Is Like"
+msgstr "Şuna benzeyen"
+
+#: ./ang/afGuiEditor/afGuiCondition.component.js
+msgid "Not Like"
+msgstr "Şuna benzemeyen"
+
+#: ./ang/afGuiEditor/afGuiCondition.component.js
+msgid "Is Empty"
+msgstr "Boş olan"
+
+#: ./ang/afGuiEditor/afGuiCondition.component.js
+msgid "Not Empty"
+msgstr "Boş olmayan"
+
+#: ./ang/afGuiEditor/afGuiConditionalDialog.html
+msgid "Element will be shown if"
+msgstr ""
+
+#: ./ang/afGuiEditor/afGuiConditionalDialog.html
+msgid "If"
+msgstr "Eğer"
+
+#: ./ang/afGuiEditor/afGuiConditionalDialog.html
+msgid "Apply Changes"
+msgstr ""
 
 #: ./ang/afGuiEditor/afGuiContainerMultiToggle.component.js
 msgid "Multiple"
@@ -364,6 +492,15 @@ msgid "Values:"
 msgstr "Değerler:"
 
 #: ./ang/afGuiEditor/afGuiEntity.html
+msgid "Current Date"
+msgstr "Güncel tarih"
+
+#: ./ang/afGuiEditor/afGuiEntity.html
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Pick Date"
+msgstr "Tarih seçin"
+
+#: ./ang/afGuiEditor/afGuiEntity.html
 msgid "Add value"
 msgstr "Değer ekle"
 
@@ -388,11 +525,12 @@ msgstr "Bloklar"
 msgid "Remove %1"
 msgstr "%1 kaldır"
 
-#: ./ang/afGuiEditor/afGuiEntity.html
+#: ./ang/afGuiEditor/afGuiEntity.html ./ang/afGuiEditor/afGuiSearch.html
 msgid "Options"
 msgstr "Seçenekler"
 
 #: ./ang/afGuiEditor/afGuiFieldValue.directive.js
+#: ./ang/afGuiEditor/config-form.html
 msgid "- select -"
 msgstr "- Seçin -"
 
@@ -447,24 +585,8 @@ msgid "Outset"
 msgstr "Kabartma"
 
 #: ./ang/afGuiEditor/afGuiMenuItemCollapsible.html
-msgid "Allow user to collapse this to only show title"
-msgstr "Kullanıcı bunu yalnızca başlığı gösterecek şekilde daraltabilsin"
-
-#: ./ang/afGuiEditor/afGuiMenuItemCollapsible.html
-msgid "Must have a title to be collapsible"
-msgstr "Daraltılabilir olması için bir başlığı olmalıdır"
-
-#: ./ang/afGuiEditor/afGuiMenuItemCollapsible.html
-msgid "Collapsible"
-msgstr "Daraltılabilir"
-
-#: ./ang/afGuiEditor/afGuiMenuItemCollapsible.html
-msgid "Closed"
-msgstr "Kapatılmış"
-
-#: ./ang/afGuiEditor/afGuiMenuItemCollapsible.html
-msgid "Open"
-msgstr "Aç"
+msgid "Collapsed"
+msgstr ""
 
 #: ./ang/afGuiEditor/afGuiMenuItemStyle.component.js
 msgid "Panel Pane"
@@ -477,6 +599,7 @@ msgstr "Biçem:"
 #: ./ang/afGuiEditor/afGuiMenuItemStyle.html
 #: ./ang/afGuiEditor/behaviors/afGuiDefaultBehaviorTemplate.html
 #: ./ang/afGuiEditor/behaviors/autofillRelationshipBehavior.html
+#: ./ang/afGuiEditor/config-form.html
 msgid "None"
 msgstr "Yok"
 
@@ -498,8 +621,8 @@ msgid "Value"
 msgstr "Değer"
 
 #: ./ang/afGuiEditor/afGuiSearch.html
-msgid "Current Contact"
-msgstr "Geçerli kişi"
+msgid "Contact being Viewed"
+msgstr ""
 
 #: ./ang/afGuiEditor/afGuiSearch.html
 msgid "Url variable"
@@ -510,8 +633,21 @@ msgid "Fixed value"
 msgstr "Sabit değer"
 
 #: ./ang/afGuiEditor/afGuiSearch.html
+msgid "Append %1 to the URL to pass a parameter value to the form"
+msgstr ""
+
+#: ./ang/afGuiEditor/afGuiSearch.html
 msgid "Add filter"
 msgstr "Süzgeç ekle"
+
+#: ./ang/afGuiEditor/afGuiSearch.html
+msgid "Remember Filters"
+msgstr ""
+
+#: ./ang/afGuiEditor/afGuiSearch.html
+msgid ""
+"Filter fields will retain their value when the same user revisits the form."
+msgstr ""
 
 #: ./ang/afGuiEditor/afGuiTokenSelect.html
 #: ./ang/afGuiEditor/afGuiTokenSelect.js
@@ -537,6 +673,7 @@ msgstr "Herkese açık başlık (genellikle formun üstünde görüntülenir)."
 
 #: ./ang/afGuiEditor/config-form.html
 #: ./ang/afGuiEditor/elements/afGuiField-menu.html
+#: ./ang/afGuiEditor/inputType/CheckBox.html
 msgid "Required"
 msgstr "Zorunlu"
 
@@ -557,6 +694,12 @@ msgid "What permission is required to use this form?"
 msgstr "Bu formu kullanmak için hangi izin gereklidir?"
 
 #: ./ang/afGuiEditor/config-form.html
+msgid ""
+"Join multiple permissions with \"And\" to require all, or \"Or\" to require "
+"at least one."
+msgstr ""
+
+#: ./ang/afGuiEditor/config-form.html
 msgid "Page Route"
 msgstr "Sayfa yolu"
 
@@ -573,14 +716,6 @@ msgstr ""
 #: ./ang/afGuiEditor/config-form.html
 msgid "Accessible on front-end of website"
 msgstr "Site ön yüzünden erişilebilir"
-
-#: ./ang/afGuiEditor/config-form.html
-msgid "Provide Email Token"
-msgstr "E-posta kodu belirt"
-
-#: ./ang/afGuiEditor/config-form.html
-msgid "Allows CiviMail authors to easily link to this page"
-msgstr "CiviMail sorumlularının bu sayfaya kolayca bağlantı vermesini sağlar"
 
 #: ./ang/afGuiEditor/config-form.html
 msgid "Add to Navigation Menu"
@@ -607,16 +742,26 @@ msgid "Icon"
 msgstr "Simge"
 
 #: ./ang/afGuiEditor/config-form.html
-msgid "Add to Contact Summary Page"
-msgstr "Kişi özeti sayfasına ekle"
+msgid "Expose To"
+msgstr ""
 
 #: ./ang/afGuiEditor/config-form.html
-msgid "As Block"
-msgstr "Blok olarak"
+msgid "Additional contexts in which the form can be embedded."
+msgstr ""
 
 #: ./ang/afGuiEditor/config-form.html
-msgid "As Tab"
-msgstr "Sekme olarak"
+msgid "%1 placement requires a page route."
+msgstr ""
+
+#: ./ang/afGuiEditor/config-form.html
+msgid ""
+"Tags can be used to keep track of your forms if Used For is set to include "
+"Afform."
+msgstr ""
+
+#: ./ang/afGuiEditor/config-form.html
+msgid "Manage Tags"
+msgstr ""
 
 #: ./ang/afGuiEditor/config-form.html
 msgid "For"
@@ -627,20 +772,27 @@ msgid "Any contact type"
 msgstr "Tüm kişi türleri"
 
 #: ./ang/afGuiEditor/config-form.html
-msgid "Placement can be configured using the Contact Layout Editor."
-msgstr "Yerleşim, Kişi düzeni düzenleyicisi kullanılarak yapılandırılabilir."
+msgid "Position"
+msgstr "Konum"
 
 #: ./ang/afGuiEditor/config-form.html
-msgid "Add to Dashboard"
-msgstr "Panoya ekle"
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Auto"
+msgstr "Otomatik"
 
 #: ./ang/afGuiEditor/config-form.html
-msgid "Allow CiviCRM users to add the form to their home dashboard."
-msgstr "CiviCRM kullanıcılarının formu kendi panolarına eklemesini sağlar."
+msgid "Autosave Draft"
+msgstr ""
 
 #: ./ang/afGuiEditor/config-form.html
-msgid "Submit Actions"
-msgstr "Gönderme işlemleri"
+msgid "For authenticated users, form will auto-save periodically."
+msgstr ""
+
+#: ./ang/afGuiEditor/config-form.html
+msgid ""
+"You may also place a \"Save Draft\" button on the form, with or without "
+"Autosave enabled."
+msgstr ""
 
 #: ./ang/afGuiEditor/config-form.html
 msgid "Log Submissions"
@@ -651,6 +803,37 @@ msgid ""
 "Keep a log of the date, time, user, and items saved by each form submission."
 msgstr ""
 "Her form gönderiminde tarih, saat, kullanıcı ve ögeler günlüğe kaydedilir."
+
+#: ./ang/afGuiEditor/config-form.html
+msgid "Maximum Submissions"
+msgstr ""
+
+#: ./ang/afGuiEditor/config-form.html
+msgid "Unlimited"
+msgstr "Sınırsız"
+
+#: ./ang/afGuiEditor/config-form.html
+msgid "Verify submission before processing"
+msgstr ""
+
+#: ./ang/afGuiEditor/config-form.html
+msgid ""
+"The data will need to be processed manually using Form Submission action."
+msgstr ""
+
+#: ./ang/afGuiEditor/config-form.html
+msgid "Allow verification by email"
+msgstr ""
+
+#: ./ang/afGuiEditor/config-form.html
+msgid ""
+"The data can be processed via email verification. Email field should be "
+"included in the form for this functionality."
+msgstr ""
+
+#: ./ang/afGuiEditor/config-form.html
+msgid "Email template"
+msgstr ""
 
 #: ./ang/afGuiEditor/config-form.html
 msgid "Post-Submit Page"
@@ -700,6 +883,18 @@ msgstr "Formu gönder"
 msgid "Configure"
 msgstr "Yapılandır"
 
+#: ./ang/afGuiEditor/elements/afGuiConditionalMenu.html
+msgid "Conditional Rules"
+msgstr ""
+
+#: ./ang/afGuiEditor/elements/afGuiConditionalMenu.html
+msgid "Add Conditional Rules"
+msgstr ""
+
+#: ./ang/afGuiEditor/elements/afGuiConditionalMenu.html
+msgid "Edit Conditional Rules"
+msgstr ""
+
 #: ./ang/afGuiEditor/elements/afGuiContainer-menu.html
 msgid "Save as block"
 msgstr "Blok olarak kaydet"
@@ -732,12 +927,25 @@ msgid "Layout:"
 msgstr "Düzen:"
 
 #: ./ang/afGuiEditor/elements/afGuiContainer-menu.html
+msgid "Allow:"
+msgstr ""
+
+#: ./ang/afGuiEditor/elements/afGuiContainer-menu.html
+#: ./ang/afGuiEditor/entityConfig/EntityOptionsGeneric.html
+msgid "Update"
+msgstr "Güncelle"
+
+#: ./ang/afGuiEditor/elements/afGuiContainer-menu.html
 msgid "Remove container"
 msgstr "Kapsayıcıyı kaldır"
 
 #: ./ang/afGuiEditor/elements/afGuiContainer-menu.html
 msgid "Remove block"
 msgstr "Bloğu kaldır"
+
+#: ./ang/afGuiEditor/elements/afGuiContainer.component.js
+msgid "Collapsible"
+msgstr "Daraltılabilir"
 
 #: ./ang/afGuiEditor/elements/afGuiContainer.component.js
 msgid "Contents display as rows"
@@ -793,6 +1001,18 @@ msgid "Field type"
 msgstr "Alan türü"
 
 #: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Input date + time"
+msgstr ""
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Show Time"
+msgstr ""
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Max Length:"
+msgstr ""
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
 msgid "Decimal places:"
 msgstr "Ondalık basamak:"
 
@@ -819,6 +1039,14 @@ msgstr ""
 "Var olan varlıklar otomatik olarak tamamlanırken izinler kontrol edilsin"
 
 #: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Allow a new entity to be created via quick-add popup"
+msgstr ""
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Quick Add"
+msgstr ""
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
 msgid "Show autocomplete results without typing"
 msgstr "Yazmaya başlamadan otomatik tamamlama sonuçları görüntülensin"
 
@@ -837,6 +1065,38 @@ msgstr "Bu alan bir değer ile önceden doldurulsun"
 #: ./ang/afGuiEditor/elements/afGuiField-menu.html
 msgid "Default value"
 msgstr "Varsayılan değer"
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Now"
+msgstr "Şimdi"
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Relative"
+msgstr ""
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Days"
+msgstr "Gün"
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Day"
+msgstr "Gün"
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Weeks"
+msgstr "Hafta"
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Week"
+msgstr "Hafta"
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Years"
+msgstr "Yıl"
+
+#: ./ang/afGuiEditor/elements/afGuiField-menu.html
+msgid "Year"
+msgstr "Yıl"
 
 #: ./ang/afGuiEditor/elements/afGuiField-menu.html
 msgid "Show field label"
@@ -889,10 +1149,6 @@ msgid ""
 msgstr ""
 "Bu alan için arama işlemini ayarlayın ya da kullanıcının formdan seçmesine "
 "izin verin"
-
-#: ./ang/afGuiEditor/elements/afGuiField-menu.html
-msgid "Auto"
-msgstr "Otomatik"
 
 #: ./ang/afGuiEditor/elements/afGuiField-menu.html
 msgid "User Select"
@@ -1014,27 +1270,24 @@ msgstr "Sağa hizala"
 msgid "Justify"
 msgstr "İki yana hizala"
 
-#: ./ang/afGuiEditor/entityConfig/Options.html
+#: ./ang/afGuiEditor/entityConfig/EntityOptionsGeneric.html
 msgid "Security"
 msgstr "Güvenlik"
 
-#: ./ang/afGuiEditor/entityConfig/Options.html
+#: ./ang/afGuiEditor/entityConfig/EntityOptionsGeneric.html
+#: ./ang/afGuiEditor/entityConfig/GroupSubscriptionOptions.html
 msgid "Allowed Actions"
 msgstr "Yapılabilecek işlemler"
 
-#: ./ang/afGuiEditor/entityConfig/Options.html
+#: ./ang/afGuiEditor/entityConfig/EntityOptionsGeneric.html
 msgid "Create"
 msgstr "Oluştur"
 
-#: ./ang/afGuiEditor/entityConfig/Options.html
-msgid "Update"
-msgstr "Güncelle"
-
-#: ./ang/afGuiEditor/entityConfig/Options.html
+#: ./ang/afGuiEditor/entityConfig/EntityOptionsGeneric.html
 msgid "Accept ID from URL"
 msgstr "Adresten onay kimliği"
 
-#: ./ang/afGuiEditor/entityConfig/Options.html
+#: ./ang/afGuiEditor/entityConfig/EntityOptionsGeneric.html
 msgid ""
 "Without Role-Based access, users of the form will be able to view and update"
 " any %1 by changing the id in the URL."
@@ -1042,9 +1295,23 @@ msgstr ""
 "Rol temelli erişim olmadan, formun kullanıcıları adresteki kimliği "
 "değiştirerek herhangi bir %1 kaydını görüntüleyebilir ve güncelleyebilir."
 
-#: ./ang/afGuiEditor/entityConfig/Options.html
+#: ./ang/afGuiEditor/entityConfig/EntityOptionsGeneric.html
 msgid "Update %1 by including the id in the link to this form:"
 msgstr "Bu formun bağlantısına kimliği ekleyerek %1 kaydını güncelle:"
+
+#: ./ang/afGuiEditor/entityConfig/EntityOptionsGeneric.html
+msgid ""
+"If you have made a repeating container for %1, you may update multiple %2s "
+"using comma-separated ids:"
+msgstr ""
+
+#: ./ang/afGuiEditor/entityConfig/GroupSubscriptionOptions.html
+msgid "Subscribe"
+msgstr ""
+
+#: ./ang/afGuiEditor/entityConfig/GroupSubscriptionOptions.html
+msgid "Unsubscribe"
+msgstr "Abonelikten ayrıl"
 
 #: ./ang/afGuiEditor/inputType/ChainSelect.html
 #: ./ang/afGuiEditor/inputType/Select.html
@@ -1070,6 +1337,15 @@ msgstr "Varsayılan değeri ayarla"
 #: ./ang/afGuiEditor/inputType/DisplayOnly.html
 msgid "Field value will be shown on the form"
 msgstr "Formda görüntülenecek alan değeri"
+
+#: ./ang/afGuiEditor/inputType/Email.html
+#: ./ang/afGuiEditor/inputType/Text.html
+msgid "(no placeholder)"
+msgstr ""
+
+#: ./ang/afGuiEditor/inputType/Missing.html
+msgid "Error: missing field \"%1\""
+msgstr ""
 
 #: ./ang/afGuiEditor/inputType/Radio.html
 msgid "Clear Default"
@@ -1132,3 +1408,19 @@ msgstr "Anonim"
 #: ./managed/FormSubmissionSavedSearch.mgd.php
 msgid "Submission Date/Time"
 msgstr "Gönderim tarih ve saati"
+
+#: ./managed/FormSubmissionSavedSearch.mgd.php
+msgid "Submission Status"
+msgstr ""
+
+#: ./managed/FormSubmissionSavedSearch.mgd.php
+msgid "View"
+msgstr "Görüntüle"
+
+#: ./managed/FormSubmissionSavedSearch.mgd.php
+msgid "Process"
+msgstr "Süreç"
+
+#: ./managed/FormSubmissionSavedSearch.mgd.php
+msgid "Reject"
+msgstr "Reddet"
