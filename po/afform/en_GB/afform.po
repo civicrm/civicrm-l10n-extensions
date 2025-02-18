@@ -1,70 +1,27 @@
 # 
 # Translators:
 # Mikey O'Toole <mikey@mjco.me.uk>, 2022
-# Andi Chandler <andi@gowling.com>, 2024
+# Наталя Бадьо, 2025
+# Andi Chandler <andi@gowling.com>, 2025
 # 
 msgid ""
 msgstr ""
-"Last-Translator: Andi Chandler <andi@gowling.com>, 2024\n"
+"Last-Translator: Andi Chandler <andi@gowling.com>, 2025\n"
 "Language-Team: English (United Kingdom) (https://app.transifex.com/civicrm/teams/1905/en_GB/)\n"
 "Language: en_GB\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: ./CRM/Afform/DAO/AfformSubmission.php
-msgid "FormBuilder Submissions"
-msgstr "FormBuilder Submissions"
-
-#: ./CRM/Afform/DAO/AfformSubmission.php
-msgid "FormBuilder Submission"
-msgstr "FormBuilder Submission"
-
-#: ./CRM/Afform/DAO/AfformSubmission.php
-msgid "Form Submission ID"
-msgstr "Form Submission ID"
-
-#: ./CRM/Afform/DAO/AfformSubmission.php
-msgid "Unique Submission ID"
-msgstr "Unique Submission ID"
-
-#: ./CRM/Afform/DAO/AfformSubmission.php
-msgid "User Contact ID"
-msgstr "User Contact ID"
-
-#: ./CRM/Afform/DAO/AfformSubmission.php
-msgid "Afform Name"
-msgstr "Afform Name"
-
-#: ./CRM/Afform/DAO/AfformSubmission.php
-msgid "Name of submitted afform"
-msgstr "Name of submitted afform"
-
-#: ./CRM/Afform/DAO/AfformSubmission.php
-msgid "Submission Data"
-msgstr "Submission Data"
-
-#: ./CRM/Afform/DAO/AfformSubmission.php
-msgid "IDs of saved entities"
-msgstr "IDs of saved entities"
-
-#: ./CRM/Afform/DAO/AfformSubmission.php
-msgid "Submission Date/Time"
-msgstr "Submission Date/Time"
 
 #: ./CRM/Afform/Page/AfformBase.php
 msgid "CiviCRM"
 msgstr "CiviCRM"
 
-#: ./CRM/Afform/Page/AfformBase.php
-msgid "Administer"
-msgstr "Administer"
+#: ./CRM/Afform/Page/Verify.php
+msgid "Token expired."
+msgstr ""
 
-#: ./CRM/Afform/Page/AfformBase.php ./afform.php
-msgid "FormBuilder"
-msgstr "FormBuilder"
-
-#: ./CRM/Afform/Page/AfformBase.php
-msgid "Edit Form"
-msgstr "Edit Form"
+#: ./CRM/Afform/Page/Verify.php
+msgid "An error occurred when processing the token."
+msgstr ""
 
 #: ./Civi/Afform/AfformMetadataInjector.php
 msgid "Select"
@@ -98,6 +55,14 @@ msgstr "Current User"
 msgid "Auto-select logged-in user"
 msgstr "Auto-select logged-in user"
 
+#: ./Civi/Afform/Behavior/ContactAutofill.php
+msgid "Contact being Viewed"
+msgstr ""
+
+#: ./Civi/Afform/Behavior/ContactAutofill.php
+msgid "For use on the contact summary page"
+msgstr ""
+
 #: ./Civi/Afform/Behavior/ContactDedupe.php
 msgid "Duplicate Matching"
 msgstr "Duplicate Matching"
@@ -110,35 +75,40 @@ msgstr ""
 "Update existing contact instead of creating a new one based on a dedupe "
 "rule."
 
+#: ./Civi/Afform/Behavior/GroupSubscription.php
+msgid "Email Verification"
+msgstr ""
+
+#: ./Civi/Afform/Behavior/GroupSubscription.php
+msgid "Email verification is not available because CiviMail is disabled."
+msgstr ""
+
+#: ./Civi/Afform/Behavior/GroupSubscription.php
+msgid ""
+"Verify the contact's email by sending them a link to confirm their "
+"subscription (recommended for public forms, requires an email input on the "
+"form)."
+msgstr ""
+
+#: ./Civi/Afform/Behavior/GroupSubscription.php
+msgid "Send Confirmation Email"
+msgstr ""
+
+#: ./Civi/Afform/Behavior/GroupSubscription.php
+msgid "Double opt-in for sign up"
+msgstr ""
+
+#: ./Civi/Afform/Behavior/GroupSubscription.php
+msgid "No Confirmation"
+msgstr ""
+
+#: ./Civi/Afform/Behavior/GroupSubscription.php
+msgid "Contact added to group immediately"
+msgstr ""
+
 #: ./Civi/Afform/FormDataModel.php
 msgid "Existing %1"
 msgstr "Existing %1"
-
-#: ./Civi/Afform/StatusChecks.php
-msgid ""
-"Email token support has been configured for %2 form(s), which requires "
-"extended authentication services. Please enable \"AuthX\" in <a "
-"href=\"%1\">Manage Extensions</a>."
-msgstr ""
-"Email token support has been configured for %2 form(s), which requires "
-"extended authentication services. Please enable \"AuthX\" in <a "
-"href=\"%1\">Manage Extensions</a>."
-
-#: ./Civi/Afform/StatusChecks.php
-msgid "AuthX Required"
-msgstr "AuthX Required"
-
-#: ./Civi/Afform/StatusChecks.php
-msgid ""
-"To generate authenticated email links for custom forms, enable extended "
-"authentication services (AuthX) in <a href=\"%1\">Manage Extensions</a>."
-msgstr ""
-"To generate authenticated email links for custom forms, enable extended "
-"authentication services (AuthX) in <a href=\"%1\">Manage Extensions</a>."
-
-#: ./Civi/Afform/StatusChecks.php
-msgid "AuthX Suggested"
-msgstr "AuthX Suggested"
 
 #: ./Civi/Afform/StatusChecks.php
 msgid ""
@@ -159,6 +129,18 @@ msgstr "%1 (URL)"
 #: ./Civi/Afform/Tokens.php
 msgid "%1 (Full Hyperlink)"
 msgstr "%1 (Full Hyperlink)"
+
+#: ./Civi/Afform/Tokens.php
+msgid "Validate Submission URL"
+msgstr ""
+
+#: ./Civi/Afform/Tokens.php
+msgid "Validate Submission (Full Hyperlink)"
+msgstr ""
+
+#: ./Civi/Afform/Tokens.php
+msgid "verify your email address"
+msgstr ""
 
 #: ./Civi/Afform/Utils.php
 msgid "Contains"
@@ -192,9 +174,33 @@ msgstr "Matches Pattern"
 msgid "Doesn't Match Pattern"
 msgstr "Doesn't Match Pattern"
 
-#: ./Civi/Api4/Action/Afform/Get.php
-msgid "%1 block"
-msgstr "%1 block"
+#: ./Civi/Afform/Utils.php
+msgid "Matches Pattern (case-sensitive)"
+msgstr ""
+
+#: ./Civi/Afform/Utils.php
+msgid "Doesn't Match Pattern (case-sensitive)"
+msgstr ""
+
+#: ./Civi/Afform/Utils.php ./ang/af/afField.component.js
+msgid "Yes"
+msgstr "Yes"
+
+#: ./Civi/Afform/Utils.php ./ang/af/afField.component.js
+msgid "No"
+msgstr "No"
+
+#: ./Civi/Api4/Action/Afform/AbstractProcessor.php
+msgid "You do not have permission to submit this form"
+msgstr ""
+
+#: ./Civi/Api4/Action/Afform/AbstractProcessor.php
+msgid "This form is not currently open for submissions."
+msgstr ""
+
+#: ./Civi/Api4/Action/Afform/Submit.php
+msgid "Submission is already processed."
+msgstr ""
 
 #: ./Civi/Api4/Action/Afform/Submit.php
 msgid "Validation Error"
@@ -207,16 +213,138 @@ msgid "%1 is a required field."
 msgstr "%1 is a required field."
 
 #: ./Civi/Api4/Action/Afform/Submit.php
+msgid "%1 has a max length of %2."
+msgstr ""
+
+#: ./Civi/Api4/Action/Afform/Submit.php
 msgid "Illegal value for %1."
 msgstr "Illegal value for %1."
 
-#: ./Civi/Api4/Afform.php
-msgid "Contact Summary Block"
-msgstr "Contact Summary Block"
+#: ./Civi/Api4/Action/CustomGroup/GetAfforms.php
+msgid "%1 block"
+msgstr "%1 block"
+
+#: ./Civi/Api4/Action/CustomGroup/GetAfforms.php
+msgid "View %1"
+msgstr "View %1"
+
+#: ./Civi/Api4/Action/CustomGroup/GetAfforms.php
+msgid "Update %1"
+msgstr "Update %1"
+
+#: ./Civi/Api4/Action/CustomGroup/GetAfforms.php
+msgid "Add %1"
+msgstr "Add %1"
+
+#: ./Civi/Api4/Action/CustomGroup/GetAfforms.php
+msgid "%1 tab display for %2"
+msgstr ""
 
 #: ./Civi/Api4/Afform.php
-msgid "Contact Summary Tab"
-msgstr "Contact Summary Tab"
+msgid "Name"
+msgstr "Ім'я"
+
+#: ./Civi/Api4/Afform.php
+msgid "Type"
+msgstr "Type"
+
+#: ./Civi/Api4/Afform.php
+msgid "Requires"
+msgstr ""
+
+#: ./Civi/Api4/Afform.php
+msgid "Block Entity"
+msgstr ""
+
+#: ./Civi/Api4/Afform.php
+msgid "Join Entity"
+msgstr ""
+
+#: ./Civi/Api4/Afform.php
+msgid "Title"
+msgstr "Title"
+
+#: ./Civi/Api4/Afform.php
+msgid "Description"
+msgstr "Description"
+
+#: ./Civi/Api4/Afform.php
+msgid "Placement"
+msgstr "Placement"
+
+#: ./Civi/Api4/Afform.php
+msgid "Tags"
+msgstr "Tags"
+
+#: ./Civi/Api4/Afform.php
+msgid "Summary Contact Type"
+msgstr ""
+
+#: ./Civi/Api4/Afform.php
+msgid "Order"
+msgstr "Order"
+
+#: ./Civi/Api4/Afform.php
+msgid "Icon"
+msgstr "Icon"
+
+#: ./Civi/Api4/Afform.php
+msgid "Page Route"
+msgstr "Page Route"
+
+#: ./Civi/Api4/Afform.php
+msgid "Is Public"
+msgstr ""
+
+#: ./Civi/Api4/Afform.php
+msgid "Permission"
+msgstr "Permission"
+
+#: ./Civi/Api4/Afform.php
+msgid "Permission Operator"
+msgstr ""
+
+#: ./Civi/Api4/Afform.php
+msgid "Post-Submit Page"
+msgstr "Post-Submit Page"
+
+#: ./Civi/Api4/Afform.php
+msgid "Allow Submissions"
+msgstr ""
+
+#: ./Civi/Api4/Afform.php
+msgid "Maximum Submissions"
+msgstr ""
+
+#: ./Civi/Api4/Afform.php
+msgid "Log Submissions"
+msgstr "Log Submissions"
+
+#: ./Civi/Api4/Afform.php
+msgid ""
+"Keep a log of the date, time, user, and items saved by each form submission."
+msgstr ""
+"Keep a log of the date, time, user, and items saved by each form submission."
+
+#: ./Civi/Api4/Afform.php
+msgid "Autosave Draft"
+msgstr ""
+
+#: ./Civi/Api4/Afform.php
+msgid "For authenticated users, form will auto-save periodically."
+msgstr ""
+
+#: ./Civi/Api4/Afform.php
+msgid "Navigation Menu"
+msgstr ""
+
+#: ./Civi/Api4/Afform.php
+msgid "Layout"
+msgstr "Layout"
+
+#: ./Civi/Api4/Afform.php
+msgid "Date Modified"
+msgstr ""
 
 #: ./afform.php
 msgid "(Untitled)"
@@ -231,28 +359,79 @@ msgid "Allows non-admin users to create, update and delete forms"
 msgstr "Allows non-admin users to create, update and delete forms"
 
 #: ./afform.php
+msgid "Generic: Anyone with secret link"
+msgstr ""
+
+#: ./afform.php
+msgid ""
+"If you link to the form with a secure token, then no other permission is "
+"needed."
+msgstr ""
+
+#: ./afform.php
 msgid "Afform: Inherit permission of %1"
 msgstr "Afform: Inherit permission of %1"
 
-#: ./ang/af/afField.component.js
+#: ./afform.php
+msgid "FormBuilder"
+msgstr "FormBuilder"
+
+#: ./afform.php
+msgid "Process Submissions"
+msgstr ""
+
+#: ./afform.php
+msgid "Confirm processing %1 %2."
+msgstr ""
+
+#: ./afform.php
+msgid "Processing %1 %2..."
+msgstr ""
+
+#: ./afform.php
+msgid "Successfully processed %1 %2."
+msgstr ""
+
+#: ./afform.php
+msgid "An error occurred while attempting to process %1 %2."
+msgstr ""
+
+#: ./afform.php
+msgid "Reject Submissions"
+msgstr ""
+
+#: ./afform.php
+msgid "Reject %1 %2."
+msgstr ""
+
+#: ./afform.php
+msgid "Updating %1 %2..."
+msgstr "Updating %1 %2..."
+
+#: ./afform.php
+msgid "%1 %2 have been rejected."
+msgstr ""
+
+#: ./ang/af/afCharacterCount.html
+msgid "Max characters allowed: %1"
+msgstr ""
+
+#: ./ang/af/afField.component.js ./ang/af/afFieldset.directive.js
+#: ./ang/af/afForm.component.js
 msgid "org.civicrm.afform"
 msgstr "org.civicrm.afform"
 
-#: ./ang/af/afField.component.js
-msgid "Yes"
-msgstr "Yes"
-
-#: ./ang/af/afField.component.js
-msgid "No"
-msgstr "No"
-
-#: ./ang/af/afField.html
+#: ./ang/af/afField.html ./ang/af/fields/CheckBox.html
 msgid "Required"
 msgstr "Required"
 
 #: ./ang/af/afForm.component.js
 msgid "Uploading %1"
 msgstr "Uploading %1"
+
+#: ./ang/af/afForm.component.js
+msgid "Sorry"
+msgstr ""
 
 #: ./ang/af/afForm.component.js
 msgid "Please fill all required fields."
@@ -262,17 +441,173 @@ msgstr "Please fill all required fields."
 msgid "Form Error"
 msgstr "Form Error"
 
+#: ./ang/af/afForm.component.js
+msgid "Draft saved"
+msgstr ""
+
+#: ./ang/af/afForm.component.js
+msgid "Saving Draft"
+msgstr ""
+
+#: ./ang/af/afForm.component.js
+msgid "Draft Saved"
+msgstr ""
+
+#: ./ang/af/fields/Date.html
+msgid "Search Range"
+msgstr ""
+
 #: ./ang/af/fields/File.html
 msgid "Replace"
 msgstr "Replace"
+
+#: ./ang/af/fields/Location.html
+msgid "Distance"
+msgstr ""
+
+#: ./ang/af/fields/Location.html
+msgid "Km"
+msgstr ""
+
+#: ./ang/af/fields/Location.html
+msgid "Miles"
+msgstr ""
+
+#: ./ang/af/fields/Location.html
+msgid "Street, City, State, Country"
+msgstr ""
 
 #: ./ang/af/fields/Radio.html
 msgid "Clear"
 msgstr "Clear"
 
+#: ./ang/af/fields/Select.html
+msgid "Select Value"
+msgstr ""
+
+#: ./ang/af/fields/Select.html
+msgid "Select Values"
+msgstr ""
+
+#: ./ang/af/fields/Select.html
+msgid "Select Range"
+msgstr ""
+
 #: ./ang/afCore/Api4Action.js
 msgid "Submitting..."
 msgstr "Submitting..."
+
+#: ./ang/afblockContactAddress.aff.php
+msgid "Contact Address(es)"
+msgstr ""
+
+#: ./ang/afblockContactEmail.aff.php
+msgid "Contact Email(s)"
+msgstr ""
+
+#: ./ang/afblockContactIM.aff.php
+msgid "Contact IM(s)"
+msgstr ""
+
+#: ./ang/afblockContactNote.aff.php
+msgid "Contact Note(s)"
+msgstr ""
+
+#: ./ang/afblockContactPhone.aff.php
+msgid "Contact Phone(s)"
+msgstr ""
+
+#: ./ang/afblockContactWebsite.aff.php
+msgid "Contact Website(s)"
+msgstr ""
+
+#: ./ang/afblockEventLocBlock.aff.php
+msgid "Event Location"
+msgstr "Event Location"
+
+#: ./ang/afblockNameHousehold.aff.php
+msgid "Household Name"
+msgstr ""
+
+#: ./ang/afblockNameIndividual.aff.php
+msgid "Individual Name"
+msgstr ""
+
+#: ./ang/afblockNameOrganization.aff.php
+msgid "Organization Name"
+msgstr "Organisation Name"
+
+#: ./ang/afblockParticipantNote.aff.php
+msgid "Participant Note(s)"
+msgstr ""
+
+#: ./managed/AfformPlacement.mgd.php
+msgid "Afform Placement"
+msgstr ""
+
+#: ./managed/AfformPlacement.mgd.php
+msgid "Dashboard Dashlet"
+msgstr ""
+
+#: ./managed/AfformPlacement.mgd.php
+msgid "Allow CiviCRM users to add the form to their home dashboard."
+msgstr "Allow CiviCRM users to add the form to their home dashboard."
+
+#: ./managed/AfformPlacement.mgd.php
+msgid "Contact Summary Tab"
+msgstr "Contact Summary Tab"
+
+#: ./managed/AfformPlacement.mgd.php
+msgid "Add tab to contact summary page."
+msgstr ""
+
+#: ./managed/AfformPlacement.mgd.php
+msgid "Contact Summary Block"
+msgstr "Contact Summary Block"
+
+#: ./managed/AfformPlacement.mgd.php
+msgid "Add block to main contact summary tab."
+msgstr ""
+
+#: ./managed/AfformPlacement.mgd.php
+msgid "Contact Summary Actions"
+msgstr ""
+
+#: ./managed/AfformPlacement.mgd.php
+msgid "Add to the contact summary actions menu."
+msgstr ""
+
+#: ./managed/AfformPlacement.mgd.php
+msgid "Message Tokens"
+msgstr ""
+
+#: ./managed/AfformPlacement.mgd.php
+msgid "Allows CiviMail authors to easily link to this page"
+msgstr "Allows CiviMail authors to easily link to this page"
+
+#: ./managed/AfformSubmissionStatus.mgd.php
+msgid "Afform Submission Status"
+msgstr ""
+
+#: ./managed/AfformSubmissionStatus.mgd.php
+msgid "Processed"
+msgstr ""
+
+#: ./managed/AfformSubmissionStatus.mgd.php
+msgid "Pending"
+msgstr "Pending"
+
+#: ./managed/AfformSubmissionStatus.mgd.php
+msgid "Draft"
+msgstr "Draft"
+
+#: ./managed/AfformSubmissionStatus.mgd.php
+msgid "Rejected"
+msgstr "Rejected"
+
+#: ./managed/AfformTags.mgd.php
+msgid "Afforms"
+msgstr ""
 
 #: ./managed/AfformType.mgd.php
 msgid "Afform Type"
@@ -293,3 +628,65 @@ msgstr "Field Block"
 #: ./managed/AfformType.mgd.php
 msgid "System Form"
 msgstr "System Form"
+
+#: ./schema/AfformSubmission.entityType.php
+msgid "FormBuilder Submission"
+msgstr "FormBuilder Submission"
+
+#: ./schema/AfformSubmission.entityType.php
+msgid "FormBuilder Submissions"
+msgstr "FormBuilder Submissions"
+
+#: ./schema/AfformSubmission.entityType.php
+msgid "Recorded form submissions"
+msgstr ""
+
+#: ./schema/AfformSubmission.entityType.php
+msgid "Form Submission ID"
+msgstr "Form Submission ID"
+
+#: ./schema/AfformSubmission.entityType.php
+msgid "Unique Submission ID"
+msgstr "Unique Submission ID"
+
+#: ./schema/AfformSubmission.entityType.php
+msgid "User Contact ID"
+msgstr "User Contact ID"
+
+#: ./schema/AfformSubmission.entityType.php
+msgid "Afform Name"
+msgstr "Afform Name"
+
+#: ./schema/AfformSubmission.entityType.php
+msgid "Name of submitted afform"
+msgstr "Name of submitted afform"
+
+#: ./schema/AfformSubmission.entityType.php
+msgid "Submission Data"
+msgstr "Submission Data"
+
+#: ./schema/AfformSubmission.entityType.php
+msgid "IDs of saved entities"
+msgstr "IDs of saved entities"
+
+#: ./schema/AfformSubmission.entityType.php
+msgid "Submission Date/Time"
+msgstr "Submission Date/Time"
+
+#: ./schema/AfformSubmission.entityType.php
+msgid "Submission Status"
+msgstr ""
+
+#: ./schema/AfformSubmission.entityType.php
+msgid "fk to Afform Submission Status options in civicrm_option_values"
+msgstr ""
+
+#: ./templates/CRM/Afform/Page/Verify.tpl
+msgid ""
+"Thank you. Your email was verified successfully and your submission was "
+"processed."
+msgstr ""
+
+#: ./templates/CRM/Afform/Page/Verify.tpl
+msgid "Sorry, unable to verify your submission."
+msgstr ""
