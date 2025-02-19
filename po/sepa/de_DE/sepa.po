@@ -7,14 +7,14 @@
 # Andreas Howiller <andreas.howiller@civiservice.de>, 2023
 # Fabian <schuttenberg@systopia.de>, 2023
 # Romy Ebert <romy.ebert@civiservice.de>, 2023
-# Torben Bertram, 2023
 # ixiam <info@ixiam.com>, 2024
+# Torben Bertram, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: sepa\n"
 "POT-Creation-Date: 2024-05-14 05:01+0000\n"
-"Last-Translator: ixiam <info@ixiam.com>, 2024\n"
+"Last-Translator: Torben Bertram, 2025\n"
 "Language-Team: German (https://app.transifex.com/civicrm/teams/1905/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -160,7 +160,7 @@ msgstr "IBAN"
 
 #: CRM/Admin/Form/Setting/SepaSettings.php
 msgid "CUC (only from CBIBdySDDReq)"
-msgstr ""
+msgstr "CUC (nur von CBIBdySDDReq)"
 
 #: CRM/Admin/Form/Setting/SepaSettings.php CRM/Sepa/DAO/SEPACreditor.php
 #: CRM/Sepa/Form/CreateMandate.php CRM/Sepa/Form/Report/SepaMandateOOFF.php
@@ -408,11 +408,11 @@ msgstr "Kampagne von '%1' [%2] auf '%3' [%4] geändert."
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "Cycle day changed"
-msgstr ""
+msgstr "Einzugstag geändert"
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "Cycle day changed from '%1' to '%2'."
-msgstr ""
+msgstr "Einzugstag geändert von '%1' zu '%2'."
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "%1 pending contributions were adjusted as well."
@@ -474,11 +474,11 @@ msgstr "SEPA Zuwendungsgruppe"
 
 #: CRM/Sepa/DAO/SEPAContributionGroup.php
 msgid "primary key"
-msgstr ""
+msgstr "Primärschlüssel"
 
 #: CRM/Sepa/DAO/SEPAContributionGroup.php
 msgid "FK to Contribution ID"
-msgstr ""
+msgstr "FK zu Contribution ID"
 
 #: CRM/Sepa/DAO/SEPAContributionGroup.php
 msgid "FK to civicrm_sdd_txgroup"
@@ -569,7 +569,7 @@ msgstr "Präfix für Mandatsnummerierung"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "prefix for mandate identifiers"
-msgstr ""
+msgstr "Präfix für die Mandatsidentifikation"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "currency used by this creditor"
@@ -577,7 +577,7 @@ msgstr "Währung, die vom Kreditor benutzt wird"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "Payment processor link (to be deprecated)"
-msgstr ""
+msgstr "Link zum Zahlungsprozessor (veraltet)"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "Category purpose of the collection"
@@ -656,11 +656,11 @@ msgstr "Wenn aktiv, dann werden BICs für diesen Kreditor nicht verwendet"
 #: CRM/Sepa/DAO/SEPACreditor.php
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "CUC"
-msgstr ""
+msgstr "CUC"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "CUC of the creditor"
-msgstr ""
+msgstr "CUC des Kreditors"
 
 #: CRM/Sepa/DAO/SEPAMandate.php
 msgid "SEPAMandates"
@@ -791,7 +791,7 @@ msgstr "Ersteinzug"
 
 #: CRM/Sepa/DAO/SEPAMandate.php
 msgid "FK to civicrm_contribution"
-msgstr ""
+msgstr "FK zu civicrm_contribution"
 
 #: CRM/Sepa/DAO/SEPAMandate.php
 msgid "validation date"
@@ -831,7 +831,7 @@ msgstr "Erstelldatum"
 
 #: CRM/Sepa/DAO/SEPASddFile.php CRM/Sepa/DAO/SEPATransactionGroup.php
 msgid "When was this item created"
-msgstr ""
+msgstr "Wann wurde dieser Eintrag erstellt?"
 
 #: CRM/Sepa/DAO/SEPASddFile.php
 msgid "FK to Contact ID of creator"
@@ -887,11 +887,11 @@ msgstr ""
 
 #: CRM/Sepa/DAO/SEPATransactionGroup.php
 msgid "fk to SDD Creditor Id"
-msgstr ""
+msgstr "fk zu SDD Creditor Id"
 
 #: CRM/Sepa/DAO/SEPATransactionGroup.php
 msgid "fk to SDD File Id"
-msgstr ""
+msgstr "fk zu SDD File Id"
 
 #: CRM/Sepa/DAO/SepaMandateLink.php
 msgid "SepaMandate ID"
@@ -1139,7 +1139,7 @@ msgstr "Dauereinzug"
 
 #: CRM/Sepa/Form/Report/SepaMandateGeneric.php
 msgid "account_holder"
-msgstr ""
+msgstr "account_holder"
 
 #: CRM/Sepa/Form/Report/SepaMandateGeneric.php
 msgid "Contact Name"
@@ -1205,7 +1205,7 @@ msgstr "SEPA Dauereinzugs-Mandate (org.project60.sepa)"
 
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php sepa.php
 msgid "Cycle Day"
-msgstr "Monatstag"
+msgstr "Einzugstag"
 
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php
 msgid "Recurring Contribution Status"
@@ -1229,7 +1229,7 @@ msgstr "Turnus"
 
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php
 msgid "Cycle Days"
-msgstr "Monatstage"
+msgstr "Einzugstage"
 
 #: CRM/Sepa/Form/Report/SepaMandateRCUR.php
 msgid "Total Amount Collected"
@@ -1416,6 +1416,7 @@ msgstr ""
 msgid ""
 "The following irregularities have been detected and fixed in your database:"
 msgstr ""
+"Folgende Unregelmäßigkeiten wurden entdeckt und in der Datenbank korrigiert:"
 
 #: CRM/Sepa/Logic/MandateRepairs.php
 msgid "You can find a detailed log of the changes here: <code>%1</code>"
@@ -1423,7 +1424,7 @@ msgstr "Detaillierter Log der Änderungen: <code>%1</code>"
 
 #: CRM/Sepa/Logic/MandateRepairs.php
 msgid "CiviSEPA Health Check"
-msgstr ""
+msgstr "CiviSEPA Health-Prüfung"
 
 #: CRM/Sepa/Logic/Queue/Close.php
 msgid "Closing SDD Group(s) [%1]"
@@ -1940,19 +1941,19 @@ msgstr "SEPA Gläubiger"
 
 #: Civi/Sepa/ContainerSpecs.php
 msgid "SEPA Transaction Group"
-msgstr ""
+msgstr "SEPA Transaktionsgruppe"
 
 #: Civi/Sepa/ContainerSpecs.php
 msgid "SEPA SDD File"
-msgstr ""
+msgstr "SEPA SDD-Datei"
 
 #: Civi/Sepa/ContainerSpecs.php
 msgid "SEPA Contribution Group"
-msgstr ""
+msgstr "SEPA Zuwendungsgruppe"
 
 #: Civi/Sepa/ContainerSpecs.php
 msgid "SEPA Mandate Link"
-msgstr ""
+msgstr "SEPA Mandat-Link"
 
 #: api/v3/SepaTransactionGroup.php
 msgid "SEPA DD Transaction Batch"
@@ -2074,7 +2075,7 @@ msgstr ""
 
 #: sepa.php
 msgid "View SEPA transaction groups"
-msgstr "SEPA-Gruppen ansehen"
+msgstr "SEPA-Transaktionsgruppen ansehen"
 
 #: sepa.php
 msgid "Allows viewing groups of SEPA transactions to be sent to the bank."
@@ -2082,7 +2083,7 @@ msgstr ""
 
 #: sepa.php
 msgid "Batch SEPA transaction groups"
-msgstr "SEPA-Gruppen erzeugen"
+msgstr "SEPA-Transaktionsgruppen erzeugen"
 
 #: sepa.php
 msgid "Allows generating groups of SEPA transactions to be sent to the bank."
@@ -2090,7 +2091,7 @@ msgstr ""
 
 #: sepa.php
 msgid "Delete SEPA transaction groups"
-msgstr "SEPA-Gruppen löschen"
+msgstr "SEPA-Transaktionsgruppen löschen"
 
 #: sepa.php
 msgid "Allows deleting groups of SEPA transactions to be sent to the bank."
@@ -2551,6 +2552,9 @@ msgid ""
 "mandates. The payment instrument selected on creation will define the "
 "payment instrument of all installments."
 msgstr ""
+"Mit dieser Einstellung können Sie die verfügbaren Zahlungsinstrumente für "
+"die Erstellung des Einzugsmandats auswählen. Damit wird das "
+"Zahlungsinstrument für alle eingezogenen Beitrag festgelegt."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
@@ -2563,6 +2567,8 @@ msgid ""
 "If you leave this empty, no (new) mandates can be created for recurring "
 "collection"
 msgstr ""
+"Wenn es leer gelassen wird, können keine (neuen) Mandate für wiederkehrende "
+"Einzüge mehr erstellt werden."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
@@ -2578,6 +2584,9 @@ msgid ""
 " collection mandate. It will therfore define the payment instrument of the "
 "collected contribution."
 msgstr ""
+"Mit dieser Einstellung können Sie die verfügbaren Zahlungsinstrumente für "
+"die Erstellung des Einzugsmandats auswählen. Damit wird das "
+"Zahlungsinstrument für den eingezogenen Beitrag festgelegt."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
@@ -2784,12 +2793,17 @@ msgid ""
 "You can add a note about the precise nature of this re-submitted collection."
 " It is only visible to users of this CiviCRM, not the donors."
 msgstr ""
+"Sie können eine Notiz über die genaue Art dieses neu eingereichten Einzugs "
+"hinzufügen. Sie ist nur für die Benutzer dieses CiviCRM sichtbar, nicht für "
+"die Spender."
 
 #: templates/CRM/Sepa/Form/RetryCollection.tpl
 msgid ""
 "Select the transaction groups of which you want to re-collect failed "
 "transactions"
 msgstr ""
+"Wähle die Transaktionsgruppe für den Wiedereinzug von fehlgeschlagenen "
+"Transaktionen"
 
 #: templates/CRM/Sepa/Form/RetryCollection.tpl
 msgid "Add some filters"
@@ -3471,6 +3485,8 @@ msgid ""
 "When you change the cycle day be aware that you might end up collecting "
 "twice in the same month, or miss a collection altogether."
 msgstr ""
+"Bitte bei Änderungen am Einzugstag darauf achten, dass nicht zweimal im "
+"gleichen Monat eingezogen wird, oder dass ein Einzug komplett ausfällt."
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "SEPA Recurring Mandate"
@@ -3570,15 +3586,15 @@ msgstr "Grund der Änderung:"
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "Change Cycle Day"
-msgstr ""
+msgstr "Einzugstag ändern"
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "New cycle day:"
-msgstr ""
+msgstr "Neuer Einzugstag:"
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "Cyle Day"
-msgstr ""
+msgstr "Einzugstag"
 
 #: templates/CRM/Sepa/Page/EditMandate.tpl
 msgid "Adjust Amount"
@@ -3740,6 +3756,8 @@ msgid ""
 "OOFF contribution status after closing is incorrect, probably related to "
 "SEPA-629"
 msgstr ""
+"OOFF Zuwendungsstatus ist nach Schließung fehlerhaft, hängt wahrscheinlich "
+"mit SEPA-629 zusammen"
 
 #: tests/phpunit/CRM/Sepa/HookTest.php
 msgid "The create_mandate hook has not been called."
@@ -3882,7 +3900,7 @@ msgstr "Mandatsstatus des neuen Mandats ist fehlerhaft."
 
 #: tests/phpunit/CRM/Sepa/MandateTest.php
 msgid "Mandate account holder after creation is incorrect."
-msgstr ""
+msgstr "Mandatskontoinhaber ist nach Erstellung fehlerhaft."
 
 #: tests/phpunit/CRM/Sepa/ReferenceGenerationTest.php
 msgid "The OOFF mandate reference is invalid."
