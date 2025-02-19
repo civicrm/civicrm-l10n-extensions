@@ -9,13 +9,13 @@
 # Mathieu Lu <mathieu@bidon.ca>, 2024
 # Andreas Howiller <andreas.howiller@civiservice.de>, 2024
 # Joachim Kueter, 2024
-# Torben Bertram, 2024
+# Torben Bertram, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
 "POT-Creation-Date: 2024-12-24 05:01+0000\n"
-"Last-Translator: Torben Bertram, 2024\n"
+"Last-Translator: Torben Bertram, 2025\n"
 "Language-Team: German (https://app.transifex.com/civicrm/teams/1905/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,7 +25,7 @@ msgstr ""
 
 #: CRM/CiviMobileAPI/Api/CiviMobileEventSession/Get.php
 msgid "Venue does not exists in session"
-msgstr "Veranstaltungsort existiert nicht"
+msgstr "Veranstaltungsort existiert nicht in Sitzung"
 
 #: CRM/CiviMobileAPI/Api/CiviMobileEventSession/Get.php
 msgid ""
@@ -50,7 +50,7 @@ msgstr ""
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantLink/Get.php
 msgid "User with same email already registered"
-msgstr ""
+msgstr "Benutzer mit der gleichen E-Mail-Adresse ist bereits angemeldet"
 
 #: CRM/CiviMobileAPI/Api/CiviMobileParticipantLink/Get.php
 msgid ""
@@ -514,7 +514,7 @@ msgstr "Secret key"
 
 #: CRM/CiviMobileAPI/Form/CiviAiSettings.php
 msgid "Model"
-msgstr ""
+msgstr "Modell"
 
 #: CRM/CiviMobileAPI/Form/CiviAiSettings.php
 #: CRM/CiviMobileAPI/Form/Settings.php
@@ -523,7 +523,7 @@ msgstr "Einstellungen speichern"
 
 #: CRM/CiviMobileAPI/Form/CiviAiSettings.php
 msgid "AI settings updated"
-msgstr ""
+msgstr "AI-Einstellungen aktualisiert"
 
 #: CRM/CiviMobileAPI/Form/CiviAiSettings.php civimobileapi.php
 msgid "CiviAI Settings"
@@ -735,6 +735,7 @@ msgstr "Wert darf nicht größer sein als 90!"
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Please enter a valid 6-digit hex color code (e.g., #RRGGBB)."
 msgstr ""
+"Bitte einen gültigen 6-stelligen hex Frabcode eingeben (z.B. #RRGGBB)."
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Fields can not be empty."
@@ -802,7 +803,7 @@ msgstr "Gültigkeitszeitraum für Push Nachrichten"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Set the button color for event registration"
-msgstr ""
+msgstr "Stelle die Farbe für die Schaltfläche der Anmeldung ein"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Allow registration"
@@ -826,7 +827,7 @@ msgstr "CiviMobile Einstellungen aktualisiert"
 
 #: CRM/CiviMobileAPI/Form/Speaker.php
 msgid "The speaker doesn`t exists."
-msgstr ""
+msgstr "Der Referent existiert nicht."
 
 #: CRM/CiviMobileAPI/Form/Speaker.php api/v3/CiviMobileCmsRegistration.php
 #: api/v3/CiviMobilePublicParticipant.php
@@ -867,7 +868,7 @@ msgstr "Teilnehmer Bio wurde nicht gespeichert!"
 
 #: CRM/CiviMobileAPI/Form/Speaker.php
 msgid "Title length cannot be more than %1 characters."
-msgstr ""
+msgstr "Titel darf nicht länger als %1 Zeichen sein."
 
 #: CRM/CiviMobileAPI/Form/Venue.php
 msgid "Empty location id."
@@ -1668,6 +1669,8 @@ msgstr "Ermöglicht das Senden von Anfragen an ChatGPT"
 #: civimobileapi.php
 msgid "View all events including not public for authenticated user"
 msgstr ""
+"Anzeige aller Veranstaltungen einschließlich der nicht öffentlichen für "
+"authentifizierte Benutzer"
 
 #: civimobileapi.php
 msgid "CiviMobile Event Locations"
@@ -1787,10 +1790,13 @@ msgid ""
 "                                <a href=\"https://platform.openai.com/account/api-keys\" target=\"_blank\">openai.com</a>\n"
 "                                and create your own Secret Key'"
 msgstr ""
+"TZur Benutzung von ChatGPT muss man angemeldet sein bei \n"
+"                                <a href=\"https://platform.openai.com/account/api-keys\" target=\"_blank\">openai.com</a>\n"
+"                                und einen eigenen Secret Key erstellt haben'"
 
 #: templates/CRM/CiviMobileAPI/Form/CiviAiSettings.tpl
 msgid "Type your model name in format like this <strong>gpt-4o-mini</strong>"
-msgstr ""
+msgstr "Gebe den Modellnamen ein im Format <strong>gpt-4o-mini</strong>"
 
 #: templates/CRM/CiviMobileAPI/Form/EventLocations.tpl
 msgid "Locations"
@@ -1825,7 +1831,7 @@ msgstr "Bearbeiten"
 
 #: templates/CRM/CiviMobileAPI/Form/Session.tpl
 msgid "Start Time"
-msgstr ""
+msgstr "Startzeit"
 
 #: templates/CRM/CiviMobileAPI/Form/Session.tpl
 msgid "End Time"
@@ -1837,7 +1843,7 @@ msgstr "Teilnehmende"
 
 #: templates/CRM/CiviMobileAPI/Form/Session.tpl
 msgid "Are you really want to delete the Session?"
-msgstr ""
+msgstr "Sind Sie sicher, dass Sie diese Einzelveranstaltung löschen möchten?"
 
 #: templates/CRM/CiviMobileAPI/Form/Session.tpl
 msgid "New Speaker"
@@ -1959,6 +1965,8 @@ msgid ""
 "Here you can set the color for buttons that will be used during event "
 "registration in the CiviMobile app."
 msgstr ""
+"Hier können Sie die Farbe für Schaltflächen festlegen, die bei der "
+"Veranstaltungsanmeldung in der CiviMobile-App verwendet werden."
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "Push notification Lifetime"
@@ -2040,11 +2048,11 @@ msgstr "Standard-RSS-Feed im CMS einstellen"
 
 #: templates/CRM/CiviMobileAPI/Form/Speaker.tpl
 msgid "Delete contact image"
-msgstr ""
+msgstr "Kontaktbild löschen"
 
 #: templates/CRM/CiviMobileAPI/Form/Speaker.tpl
 msgid "Are you sure you want to delete contact image?"
-msgstr ""
+msgstr "Sind Sie sicher, dass Sie das Kontaktbild löschen möchten?"
 
 #: templates/CRM/CiviMobileAPI/Form/Venue.hlp
 msgid ""
