@@ -10,13 +10,13 @@
 # Mathieu Lu <mathieu@bidon.ca>, 2024
 # Andreas Howiller <andreas.howiller@civiservice.de>, 2024
 # Pascal Kemper, 2024
-# Torben Bertram, 2024
+# Torben Bertram, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: advanced_events\n"
-"POT-Creation-Date: 2024-12-05 05:01+0000\n"
-"Last-Translator: Torben Bertram, 2024\n"
+"POT-Creation-Date: 2025-01-07 05:01+0000\n"
+"Last-Translator: Torben Bertram, 2025\n"
 "Language-Team: German (https://app.transifex.com/civicrm/teams/1905/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -123,11 +123,11 @@ msgstr "Das ist ein Pflichtfeld"
 
 #: CRM/AdvancedEvents/Form/RecurringEntity.php
 msgid "Occurrences should be less than or equal to 30"
-msgstr ""
+msgstr "Die Häufigkeit sollte weniger als oder gleich 30 betragen."
 
 #: CRM/AdvancedEvents/Form/RecurringEntity.php
 msgid "End date should be after current entity's start date"
-msgstr ""
+msgstr "Enddatum sollte nach dem Startdatum liegen"
 
 #: CRM/AdvancedEvents/Form/RecurringEntity.php
 msgid "Invalid day of the month"
@@ -256,12 +256,12 @@ msgstr "CiviEvent: Lösche alle Veranstaltungsvorlagen"
 
 #: ang/afsearchAdvancedEventsLinkedEvents.aff.php
 msgid "Advanced Events Linked Events"
-msgstr ""
+msgstr "AdvancedEvents Verbundene Veranstaltungen"
 
 #: ang/afsearchManageEventTemplates.aff.php
 #: managed/Navigation_afsearchManageEventTemplates.mgd.php
 msgid "Manage Event Templates"
-msgstr ""
+msgstr "Verwalte Veranstaltungsvorlagen"
 
 #: managed/SavedSearch_AdvancedEvents_Linked_Events.mgd.php
 #: managed/savedsearch_linkedevents.mgd.php
@@ -413,7 +413,7 @@ msgstr "Preisfeldwert"
 
 #: managed/navigationmenu.mgd.php
 msgid "Advanced Events Settings"
-msgstr ""
+msgstr "Advanced Event Einstellungen"
 
 #: managed/savedsearch_linkedevents.mgd.php
 msgid "Description"
@@ -425,7 +425,7 @@ msgstr "Veranstaltungsvorlage"
 
 #: schema/EventTemplate.entityType.php
 msgid "CiviCRM Event Template map table"
-msgstr ""
+msgstr "CiviCRM Veranstaltungsvorlagen Tabellenkarte"
 
 #: schema/EventTemplate.entityType.php
 msgid "ID"
@@ -453,31 +453,31 @@ msgstr "Veranstaltungsvorlage Titel"
 
 #: settings/advanced_events.setting.php
 msgid "Manage Events Tabs: Enable Location"
-msgstr ""
+msgstr "Verwalte Veranstaltungsvorlage: Aktiviere Veranstaltungsorte"
 
 #: settings/advanced_events.setting.php
 msgid "Manage Events Tabs: Enable Fees"
-msgstr ""
+msgstr "Verwalte Veranstaltungsvorlage: Aktiviere Gebühren"
 
 #: settings/advanced_events.setting.php
 msgid "Manage Events Tabs: Enable Online Registration"
-msgstr ""
+msgstr "Verwalte Veranstaltungsvorlage: Aktiviere Online-Anmeldung"
 
 #: settings/advanced_events.setting.php
 msgid "Manage Events Tabs: Enable Reminders"
-msgstr ""
+msgstr "Verwalte Veranstaltungsvorlage: Aktiviere Erinnerungen"
 
 #: settings/advanced_events.setting.php
 msgid "Manage Events Tabs: Enable Tell A Friend"
-msgstr ""
+msgstr "Verwalte Veranstaltungsvorlage: Aktiviere Tell-a-Friend"
 
 #: settings/advanced_events.setting.php
 msgid "Manage Events Tabs: Enable Personal Campaigns"
-msgstr ""
+msgstr "Verwalte Veranstaltungsvorlage: Aktiviere Persönliche Kampagnen"
 
 #: settings/advanced_events.setting.php
 msgid "Manage Events Tabs: Enable Repeating Event"
-msgstr ""
+msgstr "Verwalte Veranstaltungsvorlage: Aktiviere Wiederholung"
 
 #: templates/CRM/AdvancedEvents/Form/ManageEvent/RecurringEntity.hlp
 msgid "Repeats"
@@ -487,24 +487,32 @@ msgstr "Wiederholungen"
 msgid ""
 "Access the drop-down menus here to select how frequently your %1 occurs."
 msgstr ""
+"Greifen Sie hier auf die Dropdown-Menüs zu, um auszuwählen, wie häufig Ihr "
+"%1 auftritt."
 
 #: templates/CRM/AdvancedEvents/Form/ManageEvent/RecurringEntity.hlp
 msgid ""
 "Example: You would select options \"1 month\", if your %1 occurs every "
 "month."
 msgstr ""
+"Beispiel: Sie würden die Option „1 Monat“ wählen, wenn Ihr %1 jeden Monat "
+"auftritt."
 
 #: templates/CRM/AdvancedEvents/Form/ManageEvent/RecurringEntity.hlp
 msgid ""
 "You can choose to select your %1 to repeat on weekdays, weekends or any "
 "combination of day of the week."
 msgstr ""
+"Sie können wählen, ob Ihr %1 an Wochentagen, Wochenenden oder einer "
+"beliebigen Kombination von Wochentagen wiederholt werden soll."
 
 #: templates/CRM/AdvancedEvents/Form/ManageEvent/RecurringEntity.hlp
 msgid ""
 "Example: You can select Monday, Wednesday and Friday for your %1 to occur on"
 " alternate weekdays."
 msgstr ""
+"Beispiel: Sie können Montag, Mittwoch und Freitag auswählen, damit Ihr %1 an"
+" abwechselnden Wochentagen stattfindet."
 
 #: templates/CRM/AdvancedEvents/Form/ManageEvent/RecurringEntity.hlp
 msgid "Repeats by day of the month"
@@ -512,12 +520,13 @@ msgstr "Wiederholungen nach Tag im Monat"
 
 #: templates/CRM/AdvancedEvents/Form/ManageEvent/RecurringEntity.hlp
 msgid "Options given here are days of a month from 1 - 31"
-msgstr ""
+msgstr "Optionen sind hier die Monatstage von 1 - 31"
 
 #: templates/CRM/AdvancedEvents/Form/ManageEvent/RecurringEntity.hlp
 msgid ""
 "Example: If your %1 repeats 8th of every month then you would select 8."
 msgstr ""
+"Beispiel: Wenn %1 jeden 8. des Monats stattfinden soll, dann wähle hier 8."
 
 #: templates/CRM/AdvancedEvents/Form/ManageEvent/RecurringEntity.hlp
 msgid "Repeats by day of the week"
@@ -529,20 +538,27 @@ msgid ""
 "fourth Wednesday of the month and various other combinations given in the "
 "dropdown."
 msgstr ""
+"Sie können auswählen, dass %1 jeden dritten Freitag, letzten Montag, vierten"
+" Mittwoch im Monat und verschiedene andere Kombinationen, die in der "
+"Dropdown-Liste angegeben sind, vorkommen."
 
 #: templates/CRM/AdvancedEvents/Form/ManageEvent/RecurringEntity.hlp
 msgid "Use this field to limit/end the repetition of the %1."
 msgstr ""
+"Dieses Feld wird benutzt zur Einschränkung / Ende der Wiederholungen von %1."
 
 #: templates/CRM/AdvancedEvents/Form/ManageEvent/RecurringEntity.hlp
 msgid ""
 "Example: If you want to repeat an %1 6 times, then set 6 as a value for this"
 " field."
 msgstr ""
+"Beispiel: Wenn %1 6 Mal wiederholt werden soll, dann trage hier 6 ein."
 
 #: templates/CRM/AdvancedEvents/Form/ManageEvent/RecurringEntity.hlp
 msgid "Choose a specific date to limit/end the repetition."
 msgstr ""
+"Wähle ein konkretes Datum für die Beendigung / Begrenzung der "
+"Wiederholungen."
 
 #: templates/CRM/AdvancedEvents/Form/ManageEvent/RecurringEntity.hlp
 msgid "Exclude Date(s)"
@@ -553,6 +569,8 @@ msgid ""
 "This field enables you to alter certain sessions, skip holidays, or create "
 "gaps in the sequence for other reasons."
 msgstr ""
+"Dieses Feld ermöglicht es Ihnen, bestimmte Sitzungen zu ändern, Feiertage "
+"auszulassen oder aus anderen Gründen Lücken in der Reihenfolge zu schaffen."
 
 #: templates/CRM/AdvancedEvents/Form/ManageEvent/RecurringEntity.tpl
 msgid "Repeat %1"
@@ -560,7 +578,7 @@ msgstr "Wiederhole %1"
 
 #: templates/CRM/AdvancedEvents/Form/ManageEvent/RecurringEntity.tpl
 msgid "occurrences"
-msgstr ""
+msgstr "Geschehnisse"
 
 #: templates/CRM/AdvancedEvents/Form/ManageEvent/RecurringEntity.tpl
 msgid "Already selected"
@@ -573,12 +591,16 @@ msgstr "Erstelle Veranstaltungen nach dieser Vorlage"
 #: templates/CRM/AdvancedEvents/Form/RecurringEntityPreview.tpl
 msgid "A new set of Events will be created with the following dates:"
 msgstr ""
+"Eine neue Sammlung von Veranstaltung wird mit diesen Details erstellt:"
 
 #: templates/CRM/AdvancedEvents/Form/RecurringEntityPreview.tpl
 msgid ""
 "If an event already exists for the specified dates a new event will not be "
 "created and the existing one will not be updated."
 msgstr ""
+"Wenn für die angegebenen Daten bereits eine Veranstaltung existiert, wird "
+"keine Neue erstellt, und die bestehende Veranstaltung wird nicht "
+"aktualisiert."
 
 #: templates/CRM/AdvancedEvents/Form/RecurringEntityPreview.tpl
 #: templates/CRM/AdvancedEvents/Page/RecurringEntityPreview.tpl
@@ -605,6 +627,8 @@ msgid ""
 "Are you sure you want to copy the participants from the selected event to "
 "all the others?"
 msgstr ""
+"Sind Sie sicher, dass Sie die Teilnehmenden der ausgewählten Veranstaltung "
+"in alle anderen Veranstaltungen kopieren möchten?"
 
 #: templates/CRM/AdvancedEvents/Form/Task/CopyParticipants.tpl
 msgid "Duplicates will not be created."
@@ -616,22 +640,26 @@ msgstr "Anzahl gewählter Veranstaltungen: %1"
 
 #: templates/CRM/AdvancedEvents/Page/RecurringEntityPreview.tpl
 msgid "A repeating set will be created with the following dates."
-msgstr ""
+msgstr "Eine wiederholende Sammlung wird mit diesen Daten erstellt."
 
 #: templates/CRM/Event/Form/ManageEvent/EventInfo.tpl
 msgid ""
 "Please use only alphanumeric, spaces, hyphens and dashes for event names."
 msgstr ""
+"Bitte verwenden Sie nur alphanumerische Zeichen, Leerzeichen, Bindestriche "
+"und Bindestriche für Veranstaltungsnamen."
 
 #: templates/CRM/Event/Form/ManageEvent/EventInfo.tpl
 msgid "Edit Participant Status Options"
-msgstr ""
+msgstr "Bearbeite Teilnahmestatusoptionen"
 
 #: templates/CRM/Event/Form/ManageEvent/EventInfo.tpl
 msgid ""
 "When this Event is active, create links to the Event Information page by "
 "copying and pasting the following URL:"
 msgstr ""
+"Wenn diese Veranstaltung aktiv ist, erstellen Sie Links zur Seite mit den "
+"Eventinformationen, indem Sie die folgende URL kopieren und einfügen:"
 
 #: templates/CRM/Event/Form/ManageEvent/EventInfo.tpl
 msgid ""
@@ -639,6 +667,10 @@ msgid ""
 "page using the Menu Manager. Select <strong>Event Info Page</strong> and "
 "enter <strong>%1</strong> for the Event ID."
 msgstr ""
+"Wenn diese Veranstaltung aktiv ist, dann kann mit dem Menümanager ein Link "
+"zur Veranstaltungsseite im Frontend erstellt werden. Wähle "
+"<strong>Veranstaltungsinfoseite</strong> und gebe <strong>%1</strong> als "
+"Event-ID ein."
 
 #: templates/CRM/Event/Form/ManageEvent/Tab.tpl
 msgid "Event Links"
@@ -724,6 +756,7 @@ msgstr "Teilnehmende nicht gezählt"
 #: templates/CRM/Event/Page/ManageEvent.tpl
 msgid "No available Events match your search criteria. Suggestions:"
 msgstr ""
+"Die Suchkriterien passen zu keinen verfügbaren Veranstaltungen. Vorschläge:"
 
 #: templates/CRM/Event/Page/ManageEvent.tpl
 msgid "Check your spelling."
@@ -731,7 +764,7 @@ msgstr "Schreibweise überprüfen."
 
 #: templates/CRM/Event/Page/ManageEvent.tpl
 msgid "Try \"Search All or by Date Range\"."
-msgstr ""
+msgstr "Versuche \"Suche alle oder nach Datumsbereich\"."
 
 #: templates/CRM/Event/Page/ManageEvent.tpl
 msgid "Try a different spelling or use fewer letters."
@@ -739,7 +772,7 @@ msgstr "Versuche eine andere Schreibweise oder weniger Zeichen."
 
 #: templates/CRM/Event/Page/ManageEvent.tpl
 msgid "Make sure you have enough privileges in the access control system."
-msgstr ""
+msgstr "Stelle sicher, dass Du ausreichend berechtigt bist."
 
 #: templates/CRM/Event/Page/ManageEvent.tpl
 msgid "Or you can <a href='%1'>browse all available Current Events</a>."
