@@ -482,7 +482,7 @@ msgstr "FK zu Contribution ID"
 
 #: CRM/Sepa/DAO/SEPAContributionGroup.php
 msgid "FK to civicrm_sdd_txgroup"
-msgstr ""
+msgstr "FK zu civicrm_sdd_txgroup"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "SEPACreditors"
@@ -505,7 +505,7 @@ msgstr "Gläubiger-Kontakt"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "FK to Contact ID that owns that account"
-msgstr ""
+msgstr "FK zu Kontakt ID die das Konto besitzt"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "SEPA Creditor identifier"
@@ -516,6 +516,8 @@ msgid ""
 "Provided by the bank. ISO country code+check digit+ZZZ+country specific "
 "identifier"
 msgstr ""
+"Von der Bank geliefert. ISO Ländercode+Prüfziffer+ZZZ+landesspezifischer "
+"Identifier"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
@@ -541,7 +543,7 @@ msgstr "Adresse des Gläubigers"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "by default creditor_id.address (billing) at creation"
-msgstr ""
+msgstr "standardmäßig creditor_id.address (billing) bei Erstellung"
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "Which Country does this address belong to."
@@ -596,6 +598,8 @@ msgid ""
 "Place this creditor's transaction groups in an XML file tagged with this "
 "value."
 msgstr ""
+"Legen Sie die Transaktionsgruppen dieses Kreditoren in einer XML-Datei ab, "
+"die mit diesem Wert gekennzeichnet ist."
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "Immediately activate new Mandates"
@@ -607,6 +611,9 @@ msgid ""
 "            to be activated explicitly later on.\n"
 "        "
 msgstr ""
+"Falls ja, dann werden neue Mandate für diesen Kreditor beim Anlegen direkt auf Aktiv gesetzt; Andernfalls müssen sie\n"
+"            später ausdrücklich aktiviert werden.\n"
+"        "
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 msgid "SEPA File Format"
@@ -618,6 +625,9 @@ msgid ""
 "            Formats in civicrm_option_value.\n"
 "        "
 msgstr ""
+"Variante vom pain.008 Format, das bei der Erstellung von SEPA XML-Datien für diesen Kreditor benutzt wird. FK zu SEPA File\n"
+"            Formatierung in civicrm_option_value.\n"
+"        "
 
 #: CRM/Sepa/DAO/SEPACreditor.php
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
@@ -707,6 +717,8 @@ msgid ""
 "Physical tablename for the contract entity being joined, eg "
 "contributionRecur or Membership"
 msgstr ""
+"Physikalischer Tabellenname zum Joinen für die Vertragsentität, z.B. "
+"contributionRecur oder Membership"
 
 #: CRM/Sepa/DAO/SEPAMandate.php CRM/Sepa/DAO/SepaMandateLink.php
 msgid "Entity ID"
@@ -715,6 +727,8 @@ msgstr "Entität ID"
 #: CRM/Sepa/DAO/SEPAMandate.php
 msgid "FK to contract entity table specified in entity_table column."
 msgstr ""
+"FK zur Vertragsentitätstabelle, die in der Spalte entity_table angegeben "
+"ist."
 
 #: CRM/Sepa/DAO/SEPAMandate.php
 msgid "Mandate signature date"
@@ -733,7 +747,7 @@ msgstr "Gläubiger-ID"
 
 #: CRM/Sepa/DAO/SEPAMandate.php
 msgid "FK to ssd_creditor"
-msgstr ""
+msgstr "FK zu ssd_creditor"
 
 #: CRM/Sepa/DAO/SEPAMandate.php CRM/Sepa/Form/Report/SepaMandateGeneric.php
 #: CRM/Sepa/Form/Search/SepaContactSearch.php
@@ -745,7 +759,7 @@ msgstr "Kontakt ID"
 
 #: CRM/Sepa/DAO/SEPAMandate.php
 msgid "FK to Contact ID of the debtor"
-msgstr ""
+msgstr "FK zu Kontakt ID des Debtors"
 
 #: CRM/Sepa/DAO/SEPAMandate.php
 msgid "Name of the account holder"
@@ -835,11 +849,11 @@ msgstr "Wann wurde dieser Eintrag erstellt?"
 
 #: CRM/Sepa/DAO/SEPASddFile.php
 msgid "FK to Contact ID of creator"
-msgstr ""
+msgstr "FK zu Kontakt ID des Erstellenden"
 
 #: CRM/Sepa/DAO/SEPASddFile.php
 msgid "fk to Batch Status options in civicrm_option_values"
-msgstr ""
+msgstr "fk zu Batch Status Optionen in civicrm_option_values"
 
 #: CRM/Sepa/DAO/SEPASddFile.php
 msgid "Comments"
@@ -851,7 +865,7 @@ msgstr "Kommentare zur Verarbeitung dieser Datei"
 
 #: CRM/Sepa/DAO/SEPASddFile.php
 msgid "Tag used to group multiple creditors in this XML file."
-msgstr ""
+msgstr "Tag zur Gruppierung mehrerer Gläubiger in dieser XML-Datei."
 
 #: CRM/Sepa/DAO/SEPATransactionGroup.php
 msgid "SEPATransaction Groups"
@@ -883,7 +897,7 @@ msgstr "Zieldatum Einzug"
 
 #: CRM/Sepa/DAO/SEPATransactionGroup.php
 msgid "fk sepa group Status options in civicrm_option_values"
-msgstr ""
+msgstr "fk sepa group Statusoptionen in civicrm_option_values"
 
 #: CRM/Sepa/DAO/SEPATransactionGroup.php
 msgid "fk to SDD Creditor Id"
@@ -1391,6 +1405,10 @@ msgid ""
 "any more. You should delete them by searching for contributions in status "
 "'Pending' with payment instruments RCUR and FRST."
 msgstr ""
+"%1 verwaiste offene (wartende) SEPA-Beiträge wurden im System gefunden, d.h."
+" sie sind nicht Teil einer SEPA-Transaktionsgruppe und werden nicht mehr "
+"eingezogen. Sie sollten sie löschen, indem Sie nach Beiträgen im Status "
+"„Pending“ mit den Zahlungsinstrumenten RCUR und FRST suchen."
 
 #: CRM/Sepa/Logic/MandateRepairs.php
 msgid ""
@@ -1401,16 +1419,24 @@ msgid ""
 "Progress' with the SEPA payment instruments (e.g. RCUR and FRST), and then "
 "export (to be safe) and delete them."
 msgstr ""
+"WARNUNG: %1 verwaiste aktive (in Bearbeitung befindliche) SEPA-Beiträge "
+"entdeckt. Diese können zu Unregelmäßigkeiten bei der Erstellung der SEPA-"
+"Einzugsgruppen führen und insbesondere dazu, dass dieselbe Rate mehrfach "
+"eingezogen wird. Sie sollten sie finden, indem Sie nach Beiträgen im Status "
+"„in Progress“ mit den SEPA-Zahlungsinstrumenten (z. B. RCUR und FRST) suchen"
+" und diese dann (zur Sicherheit) exportieren und löschen."
 
 #: CRM/Sepa/Logic/MandateRepairs.php
 msgid ""
 "Warning: had to adjusted the status of %1 contribution(s) to 'Pending', as "
 "they are part of an open transaction group."
 msgstr ""
+"Warnung: der Status von %1 Zuwendung(en) muss auf \"Unerledigt\" angepasst "
+"werden, weil sie Teil der offenen Transaktionsgruppe sind."
 
 #: CRM/Sepa/Logic/MandateRepairs.php
 msgid "Adjusted the payment instruments of %1 recurring mandate(s)."
-msgstr ""
+msgstr "Zahlungsinstrument von %1 wiederkehrenden Mandat(en) angepasst."
 
 #: CRM/Sepa/Logic/MandateRepairs.php
 msgid ""
@@ -2047,7 +2073,7 @@ msgstr "Lege SEPA-Mandate an"
 
 #: sepa.php
 msgid "Allows creating SEPA Direct Debit mandates."
-msgstr ""
+msgstr "Erlaubt das Erstellen von SEPA Direct Debit Mandaten"
 
 #: sepa.php
 msgid "View SEPA mandates"
@@ -2055,7 +2081,7 @@ msgstr "SEPA-Mandate ansehen"
 
 #: sepa.php
 msgid "Allows viewing SEPA Direct Debit mandates"
-msgstr ""
+msgstr "Erlaubt das Anzeigen von SEPA Direct Debit Mandaten"
 
 #: sepa.php
 msgid "Edit SEPA mandates"
@@ -2063,7 +2089,7 @@ msgstr "SEPA-Mandate bearbeiten"
 
 #: sepa.php
 msgid "Allows editing SEPA Direct Debit mandates."
-msgstr ""
+msgstr "Erlaubt das Bearbeiten von SEPA Direct Debit Mandaten"
 
 #: sepa.php
 msgid "Delete SEPA mandates"
@@ -2071,7 +2097,7 @@ msgstr "SEPA-Mandate löschen"
 
 #: sepa.php
 msgid "Allows deleting SEPA Direct Debit mandates"
-msgstr ""
+msgstr "Erlaubt das Löschen von SEPA Direct Debit Mandaten"
 
 #: sepa.php
 msgid "View SEPA transaction groups"
@@ -2080,6 +2106,8 @@ msgstr "SEPA-Transaktionsgruppen ansehen"
 #: sepa.php
 msgid "Allows viewing groups of SEPA transactions to be sent to the bank."
 msgstr ""
+"Erlaubt das Anzeigen von SEPA-Transaktionsgruppen die zur Bank gesendet "
+"werden."
 
 #: sepa.php
 msgid "Batch SEPA transaction groups"
@@ -2088,6 +2116,8 @@ msgstr "SEPA-Transaktionsgruppen erzeugen"
 #: sepa.php
 msgid "Allows generating groups of SEPA transactions to be sent to the bank."
 msgstr ""
+"Erlaubt das Erstellen von SEPA-Transaktionsgruppen die zur Bank gesendet "
+"werden."
 
 #: sepa.php
 msgid "Delete SEPA transaction groups"
@@ -2096,6 +2126,8 @@ msgstr "SEPA-Transaktionsgruppen löschen"
 #: sepa.php
 msgid "Allows deleting groups of SEPA transactions to be sent to the bank."
 msgstr ""
+"Erlaubt das Löschen von SEPA-Transaktionsgruppen die zur Bank gesendet "
+"werden."
 
 #: sepa.php
 msgid ""
@@ -2561,6 +2593,8 @@ msgid ""
 "If you select more than one payment instrument you will <i>have</i> to "
 "select one at mandate creation - in the UI <i>and</i> the API."
 msgstr ""
+"Wenn Du mehr als ein Zahlungsinstrument auswählst, <i>dann musst</i> Du eins"
+" bei der Mandatserstellung wählen - in der UI <i>und</i> der API."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
@@ -2600,6 +2634,8 @@ msgid ""
 "CUC-code (\"Codice Univoco CBI\") of the financial institution of the "
 "creditor. It is only required for CBIBdySDDReq SEPA file format."
 msgstr ""
+"CUC-Code (\"Codice Univoco CBI\") der Bank des Kreditors. Wird nur benötigt,"
+" wenn das CBIBdySDDReq SEPA Dateiformat benutzt wird."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Creditors"
