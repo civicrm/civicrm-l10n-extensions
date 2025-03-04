@@ -3,32 +3,19 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Mikey O'Toole <mikey@mjco.me.uk>, 2022
-# Andi Chandler <andi@gowling.com>, 2023
+# Andi Chandler <andi@gowling.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: activityical\n"
-"POT-Creation-Date: 2023-01-27 19:23+0000\n"
-"Last-Translator: Andi Chandler <andi@gowling.com>, 2023\n"
+"POT-Creation-Date: 2025-03-04 05:01+0000\n"
+"Last-Translator: Andi Chandler <andi@gowling.com>, 2025\n"
 "Language-Team: English (United Kingdom) (https://app.transifex.com/civicrm/teams/1905/en_GB/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: en_GB\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: CRM/Activityical/DAO/ActivityicalCache.php
-msgid "Cache"
-msgstr "Cache"
-
-#: CRM/Activityical/DAO/ActivityicalCache.php
-msgid "Cached"
-msgstr "Cached"
-
-#: CRM/Activityical/DAO/ActivityicalContact.php
-msgid "Hash"
-msgstr "Hash"
 
 #: CRM/Activityical/Form/Details.php
 msgid "The given contact does not have an activities iCalendar feed."
@@ -86,10 +73,6 @@ msgstr "Settings saved."
 msgid "none"
 msgstr "none"
 
-#: CRM/Activityical/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Upgrade %1 to revision %2"
-
 #: activityical.php
 msgid "Activity iCalendar Feed"
 msgstr "Activity iCalendar Feed"
@@ -101,6 +84,77 @@ msgstr "Assigned activities are accessible as an iCalendar feed."
 #: activityical.php
 msgid "Feed details..."
 msgstr "Feed details..."
+
+#: schema/ActivityicalCache.entityType.php
+msgid "Activityical Cache"
+msgstr ""
+
+#: schema/ActivityicalCache.entityType.php
+msgid "Activityical Caches"
+msgstr ""
+
+#: schema/ActivityicalCache.entityType.php
+msgid "Cached activity iCalendar feed contents, per contact"
+msgstr ""
+
+#: schema/ActivityicalCache.entityType.php
+#: schema/ActivityicalContact.entityType.php
+msgid "ID"
+msgstr "ID"
+
+#: schema/ActivityicalCache.entityType.php
+msgid "Unique ActivityicalCache ID"
+msgstr ""
+
+#: schema/ActivityicalCache.entityType.php
+#: schema/ActivityicalContact.entityType.php
+msgid "Contact ID"
+msgstr "Contact ID"
+
+#: schema/ActivityicalCache.entityType.php
+#: schema/ActivityicalContact.entityType.php
+msgid "FK to Contact"
+msgstr "FK to Contact"
+
+#: schema/ActivityicalCache.entityType.php
+msgid "Cache"
+msgstr "Cache"
+
+#: schema/ActivityicalCache.entityType.php
+msgid "Cached feed output"
+msgstr ""
+
+#: schema/ActivityicalCache.entityType.php
+msgid "Cached"
+msgstr "Cached"
+
+#: schema/ActivityicalCache.entityType.php
+msgid "Timestamp"
+msgstr "Timestamp"
+
+#: schema/ActivityicalContact.entityType.php
+msgid "Activityical Contact"
+msgstr ""
+
+#: schema/ActivityicalContact.entityType.php
+msgid "Activityical Contacts"
+msgstr ""
+
+#: schema/ActivityicalContact.entityType.php
+msgid "Per-contact data for activity iCalendar feed"
+msgstr ""
+
+#: schema/ActivityicalContact.entityType.php
+msgid "Unique ActivityicalContact ID"
+msgstr ""
+
+#: schema/ActivityicalContact.entityType.php
+msgid "Hash"
+msgstr "Hash"
+
+#: schema/ActivityicalContact.entityType.php
+msgid "Private hash per feed"
+msgstr ""
 
 #: settings/Activityical.setting.php
 msgid ""
