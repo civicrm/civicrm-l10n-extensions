@@ -5,30 +5,19 @@
 # Translators:
 # mgregoire <mgregoire@mgregoire.net>, 2020
 # punkyard persist <punkyard@grrlz.net>, 2020
+# Usha Matisson, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: activityical\n"
-"POT-Creation-Date: 2019-10-24 05:01+0000\n"
-"Last-Translator: punkyard persist <punkyard@grrlz.net>, 2020\n"
-"Language-Team: French (https://www.transifex.com/civicrm/teams/1905/fr/)\n"
+"POT-Creation-Date: 2025-03-04 05:01+0000\n"
+"Last-Translator: Usha Matisson, 2025\n"
+"Language-Team: French (https://app.transifex.com/civicrm/teams/1905/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-
-#: CRM/Activityical/DAO/ActivityicalCache.php
-msgid "Cache"
-msgstr "Cache"
-
-#: CRM/Activityical/DAO/ActivityicalCache.php
-msgid "Cached"
-msgstr "Mis en cache"
-
-#: CRM/Activityical/DAO/ActivityicalContact.php
-msgid "Hash"
-msgstr "Hachage"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: CRM/Activityical/Form/Details.php
 msgid "The given contact does not have an activities iCalendar feed."
@@ -88,10 +77,6 @@ msgstr "Paramètres sauvegardés."
 msgid "none"
 msgstr "aucun"
 
-#: CRM/Activityical/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Mettre à jour %1 vers la révision %2"
-
 #: activityical.php
 msgid "Activity iCalendar Feed"
 msgstr "Flux d'Activité iCalendar"
@@ -103,6 +88,77 @@ msgstr "Les activités affectées sont accessibles en tant que flux iCalendar."
 #: activityical.php
 msgid "Feed details..."
 msgstr "Détails de Flux..."
+
+#: schema/ActivityicalCache.entityType.php
+msgid "Activityical Cache"
+msgstr ""
+
+#: schema/ActivityicalCache.entityType.php
+msgid "Activityical Caches"
+msgstr ""
+
+#: schema/ActivityicalCache.entityType.php
+msgid "Cached activity iCalendar feed contents, per contact"
+msgstr ""
+
+#: schema/ActivityicalCache.entityType.php
+#: schema/ActivityicalContact.entityType.php
+msgid "ID"
+msgstr "Id."
+
+#: schema/ActivityicalCache.entityType.php
+msgid "Unique ActivityicalCache ID"
+msgstr ""
+
+#: schema/ActivityicalCache.entityType.php
+#: schema/ActivityicalContact.entityType.php
+msgid "Contact ID"
+msgstr "Id. de contact"
+
+#: schema/ActivityicalCache.entityType.php
+#: schema/ActivityicalContact.entityType.php
+msgid "FK to Contact"
+msgstr "FK vers Contact"
+
+#: schema/ActivityicalCache.entityType.php
+msgid "Cache"
+msgstr "Cache"
+
+#: schema/ActivityicalCache.entityType.php
+msgid "Cached feed output"
+msgstr ""
+
+#: schema/ActivityicalCache.entityType.php
+msgid "Cached"
+msgstr "Mis en cache"
+
+#: schema/ActivityicalCache.entityType.php
+msgid "Timestamp"
+msgstr "Horodatage"
+
+#: schema/ActivityicalContact.entityType.php
+msgid "Activityical Contact"
+msgstr ""
+
+#: schema/ActivityicalContact.entityType.php
+msgid "Activityical Contacts"
+msgstr ""
+
+#: schema/ActivityicalContact.entityType.php
+msgid "Per-contact data for activity iCalendar feed"
+msgstr ""
+
+#: schema/ActivityicalContact.entityType.php
+msgid "Unique ActivityicalContact ID"
+msgstr ""
+
+#: schema/ActivityicalContact.entityType.php
+msgid "Hash"
+msgstr "Hachage"
+
+#: schema/ActivityicalContact.entityType.php
+msgid "Private hash per feed"
+msgstr ""
 
 #: settings/Activityical.setting.php
 msgid ""
