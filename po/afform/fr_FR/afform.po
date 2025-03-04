@@ -97,22 +97,25 @@ msgid ""
 "subscription (recommended for public forms, requires an email input on the "
 "form)."
 msgstr ""
+"Vérifier l'adresse électronique du contact en lui envoyant un lien pour "
+"confirmer son inscription (recommandé pour les formulaires publics, "
+"l'adresse électronique doit être saisie dans le formulaire)."
 
 #: ./Civi/Afform/Behavior/GroupSubscription.php
 msgid "Send Confirmation Email"
-msgstr ""
+msgstr "Envoyer un courriel de confirmation"
 
 #: ./Civi/Afform/Behavior/GroupSubscription.php
 msgid "Double opt-in for sign up"
-msgstr ""
+msgstr "Double opt-in pour l'inscription"
 
 #: ./Civi/Afform/Behavior/GroupSubscription.php
 msgid "No Confirmation"
-msgstr ""
+msgstr "Aucune confirmation"
 
 #: ./Civi/Afform/Behavior/GroupSubscription.php
 msgid "Contact added to group immediately"
-msgstr ""
+msgstr "Contact ajouté immédiatement au groupe"
 
 #: ./Civi/Afform/FormDataModel.php
 msgid "Existing %1"
@@ -141,15 +144,15 @@ msgstr "%1 (lien hypertexte complet)"
 
 #: ./Civi/Afform/Tokens.php
 msgid "Validate Submission URL"
-msgstr ""
+msgstr "Valider l'URL de soumission"
 
 #: ./Civi/Afform/Tokens.php
 msgid "Validate Submission (Full Hyperlink)"
-msgstr ""
+msgstr "Valider la soumission (lien hypertexte complet)"
 
 #: ./Civi/Afform/Tokens.php
 msgid "verify your email address"
-msgstr ""
+msgstr "vérifiez votre adresse électronique"
 
 #: ./Civi/Afform/Utils.php
 msgid "Contains"
@@ -201,15 +204,15 @@ msgstr "Non"
 
 #: ./Civi/Api4/Action/Afform/AbstractProcessor.php
 msgid "You do not have permission to submit this form"
-msgstr ""
+msgstr "Vous n'avez pas l'autorisation de soumettre ce formulaire"
 
 #: ./Civi/Api4/Action/Afform/AbstractProcessor.php
 msgid "This form is not currently open for submissions."
-msgstr ""
+msgstr "Ce formulaire n'est pas ouvert aux soumissions pour le moment."
 
 #: ./Civi/Api4/Action/Afform/Submit.php
 msgid "Submission is already processed."
-msgstr ""
+msgstr "La demande a déjà été traitée."
 
 #: ./Civi/Api4/Action/Afform/Submit.php
 msgid "Validation Error"
@@ -224,7 +227,7 @@ msgstr "%1 est un champ requis."
 
 #: ./Civi/Api4/Action/Afform/Submit.php
 msgid "%1 has a max length of %2."
-msgstr ""
+msgstr "%1 a une longueur maximale de %2."
 
 #: ./Civi/Api4/Action/Afform/Submit.php
 msgid "Illegal value for %1."
@@ -248,7 +251,7 @@ msgstr "Ajouter %1"
 
 #: ./Civi/Api4/Action/CustomGroup/GetAfforms.php
 msgid "%1 tab display for %2"
-msgstr ""
+msgstr "Affichage de l'onglet %1 pour %2"
 
 #: ./Civi/Api4/Afform.php
 msgid "Name"
@@ -260,15 +263,15 @@ msgstr "Type"
 
 #: ./Civi/Api4/Afform.php
 msgid "Requires"
-msgstr ""
+msgstr "Nécessite"
 
 #: ./Civi/Api4/Afform.php
 msgid "Block Entity"
-msgstr ""
+msgstr "Entité bloc"
 
 #: ./Civi/Api4/Afform.php
 msgid "Join Entity"
-msgstr ""
+msgstr "Entité jointure"
 
 #: ./Civi/Api4/Afform.php
 msgid "Title"
@@ -304,7 +307,7 @@ msgstr "Chemin de la page"
 
 #: ./Civi/Api4/Afform.php
 msgid "Is Public"
-msgstr ""
+msgstr "Est public"
 
 #: ./Civi/Api4/Afform.php
 msgid "Permission"
@@ -312,7 +315,7 @@ msgstr "Autorisation"
 
 #: ./Civi/Api4/Afform.php
 msgid "Permission Operator"
-msgstr ""
+msgstr "Opérateur de permissions"
 
 #: ./Civi/Api4/Afform.php
 msgid "Post-Submit Page"
@@ -320,11 +323,11 @@ msgstr "Page post-soumission"
 
 #: ./Civi/Api4/Afform.php
 msgid "Allow Submissions"
-msgstr ""
+msgstr "Autoriser les soumissions"
 
 #: ./Civi/Api4/Afform.php
 msgid "Maximum Submissions"
-msgstr ""
+msgstr "Nombre maximum de soumissions"
 
 #: ./Civi/Api4/Afform.php
 msgid "Log Submissions"
@@ -339,15 +342,17 @@ msgstr ""
 
 #: ./Civi/Api4/Afform.php
 msgid "Autosave Draft"
-msgstr ""
+msgstr "Sauvegarde automatique"
 
 #: ./Civi/Api4/Afform.php
 msgid "For authenticated users, form will auto-save periodically."
 msgstr ""
+"Pour les utilisateurs authentifiés, le formulaire sera sauvegardé "
+"automatiquement et périodiquement."
 
 #: ./Civi/Api4/Afform.php
 msgid "Navigation Menu"
-msgstr ""
+msgstr "Menu de navigation"
 
 #: ./Civi/Api4/Afform.php
 msgid "Layout"
@@ -355,7 +360,7 @@ msgstr "Mise en page"
 
 #: ./Civi/Api4/Afform.php
 msgid "Date Modified"
-msgstr ""
+msgstr "Date de modification"
 
 #: ./afform.php
 msgid "(Untitled)"
@@ -373,13 +378,15 @@ msgstr ""
 
 #: ./afform.php
 msgid "Generic: Anyone with secret link"
-msgstr ""
+msgstr "Générique : Toute personne disposant d'un lien secret"
 
 #: ./afform.php
 msgid ""
 "If you link to the form with a secure token, then no other permission is "
 "needed."
 msgstr ""
+"Si vous créez un lien vers le formulaire à l'aide d'un jeton sécurisé, "
+"aucune autre autorisation n'est nécessaire."
 
 #: ./afform.php
 msgid "Afform: Inherit permission of %1"
@@ -391,31 +398,32 @@ msgstr "FormBuilder"
 
 #: ./afform.php
 msgid "Process Submissions"
-msgstr ""
+msgstr "Traiter les soumissions"
 
 #: ./afform.php
 msgid "Confirm processing %1 %2."
-msgstr ""
+msgstr "Confirmer le traitement %1 %2."
 
 #: ./afform.php
 msgid "Processing %1 %2..."
-msgstr ""
+msgstr "Traitement %1 %2..."
 
 #: ./afform.php
 msgid "Successfully processed %1 %2."
-msgstr ""
+msgstr "Traitement réussi de %1 %2."
 
 #: ./afform.php
 msgid "An error occurred while attempting to process %1 %2."
 msgstr ""
+"Une erreur s'est produite lors de la tentative de traitement de %1 %2."
 
 #: ./afform.php
 msgid "Reject Submissions"
-msgstr ""
+msgstr "Rejeter les soumissions"
 
 #: ./afform.php
 msgid "Reject %1 %2."
-msgstr ""
+msgstr "Rejeter %1 %2."
 
 #: ./afform.php
 msgid "Updating %1 %2..."
@@ -423,11 +431,11 @@ msgstr "Mise à jour %1 %2..."
 
 #: ./afform.php
 msgid "%1 %2 have been rejected."
-msgstr ""
+msgstr "%1 %2 ont été rejetés."
 
 #: ./ang/af/afCharacterCount.html
 msgid "Max characters allowed: %1"
-msgstr ""
+msgstr "Nombre maximum de caractères autorisés : %1"
 
 #: ./ang/af/afField.component.js ./ang/af/afFieldset.directive.js
 #: ./ang/af/afForm.component.js
@@ -444,7 +452,7 @@ msgstr "Téléversement de %1"
 
 #: ./ang/af/afForm.component.js
 msgid "Sorry"
-msgstr ""
+msgstr "Désolé"
 
 #: ./ang/af/afForm.component.js
 msgid "Please fill all required fields."
