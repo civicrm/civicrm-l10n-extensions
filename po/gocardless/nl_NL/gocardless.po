@@ -4,13 +4,13 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # brouwser <brouwer@ee-atwork.nl>, 2024
-# HanV <han.velthuis@kpnmail.nl>, 2024
+# HanV <han.velthuis@kpnmail.nl>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: gocardless\n"
-"POT-Creation-Date: 2024-04-06 05:01+0000\n"
-"Last-Translator: HanV <han.velthuis@kpnmail.nl>, 2024\n"
+"POT-Creation-Date: 2024-10-04 05:01+0000\n"
+"Last-Translator: HanV <han.velthuis@kpnmail.nl>, 2025\n"
 "Language-Team: Dutch (https://app.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -67,37 +67,40 @@ msgstr "GoCardless Direct Debit"
 
 #: ang/gocardless/GoCardlessSettings.html settings/gocardless.setting.php
 msgid "GoCardless settings"
-msgstr ""
+msgstr "GoCardless instellingen"
 
 #: ang/gocardless/GoCardlessSettings.html
 msgid "Please see <a %1>reference documentation</a> for these settings"
-msgstr ""
+msgstr "Bekijk <a %1>deze documentatie</a> voor deze instellingen"
 
 #: ang/gocardless/GoCardlessSettings.html
 msgid ""
 "Force recurring contributions when a GoCardless payment processor is chosen"
 msgstr ""
+"Forceer periodieke bijdragen wanneer een GoCardless-betaalmethode wordt "
+"gekozen"
 
 #: ang/gocardless/GoCardlessSettings.html
 msgid "Receipts"
-msgstr ""
+msgstr "Ontvangstbewijzen"
 
 #: ang/gocardless/GoCardlessSettings.html
 msgid "Never send receipts"
-msgstr ""
+msgstr "Nooit ontvangstbewijzen verzenden"
 
 #: ang/gocardless/GoCardlessSettings.html
 msgid "Always send receipts"
-msgstr ""
+msgstr "Altijd ontvangstbewijzen verzenden"
 
 #: ang/gocardless/GoCardlessSettings.html
 msgid ""
 "Defer to Contribution Recur record’s <code>is_email_receipt</code> field"
 msgstr ""
+"Uitstellen naar periodieke bijdrage recordveld <code>is_email_receipt</code>"
 
 #: ang/gocardless/GoCardlessSettings.html
 msgid "Allowed days of month"
-msgstr ""
+msgstr "Toegestane dagen van de maand"
 
 #: ang/gocardless/GoCardlessSettings.html
 msgid "Save"
@@ -105,7 +108,7 @@ msgstr "Opslaan"
 
 #: ang/gocardless/GoCardlessSettings.js js/gcform.js
 msgid "uk.artfulrobot.civicrm.gocardless"
-msgstr ""
+msgstr "uk.artfulrobot.civicrm.gocardless"
 
 #: ang/gocardless/GoCardlessSettings.js
 msgid "Saving..."
@@ -117,7 +120,7 @@ msgstr "Opgeslagen"
 
 #: gocardless.php
 msgid "GoCardless Settings"
-msgstr ""
+msgstr "GoCardless Instellingen"
 
 #: gocardless.php
 msgid "Webhook secrets MUST be unique between test and live."
@@ -130,10 +133,17 @@ msgid ""
 " install from a released .zip/.gz file. Drupal 8+ admins will need to ensure"
 " this project‘s composer libs are installed."
 msgstr ""
+"De classes GoCardlessPro ontbreken. Dit kan gebeuren als u installeert "
+"vanuit de git repo en geen composer install doet. Dit mag nooit gebeuren met"
+" een installatie van een vrijgegeven.zip/.gz-bestand. Drupal 8+ beheerders "
+"moeten ervoor zorgen dat de composer libs van dit project zijn "
+"geïnstalleerd."
 
 #: gocardless.php
 msgid "GoCardless extension incomplete install: will cause crashes!"
 msgstr ""
+"Het niet volledig installeren van de extensie GoCardless zal zorgen voor het"
+" stuklopen!"
 
 #: gocardless.php
 msgid "Missing Financial Account for GoCardless"
@@ -141,7 +151,19 @@ msgstr "De financiële rekening ontbreekt bij GoCardless"
 
 #: gocardless.php
 msgid "Legacy webhook URLs used on %1"
+msgstr "Verouderde webhook URL's gebruikt op %1"
+
+#: gocardless.php
+msgid ""
+"This flag will cause live API calls to fail; it should not be set in "
+"production environments."
 msgstr ""
+"Deze vlag zorgt ervoor dat live API-aanroepen mislukken; Het mag niet worden"
+" ingesteld in productieomgevingen."
+
+#: gocardless.php
+msgid "CIVI_GOCARDLESS_FORCE_SANDBOX_ENVIRONMENT set!"
+msgstr "CIVI_GOCARDLESS_FORCE_SANDBOX_ENVIRONMENT ingesteld!"
 
 #: js/gcform.js
 msgid "Day of month"
@@ -149,8 +171,8 @@ msgstr "Dag van de maand"
 
 #: js/gcform.js
 msgid "Your direct debit will be collected on the %1 day of the month"
-msgstr ""
+msgstr "Uw automatische incasso wordt geïncasseerd op de %1 dag van de maand"
 
 #: settings/gocardless.setting.php
 msgid "JSON encoded settings."
-msgstr ""
+msgstr "JSON-encoded instellingen."
