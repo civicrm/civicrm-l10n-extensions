@@ -3,13 +3,13 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# HanV <han.velthuis@kpnmail.nl>, 2023
+# HanV <han.velthuis@kpnmail.nl>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: grantapplications\n"
-"POT-Creation-Date: 2024-06-26 05:01+0000\n"
-"Last-Translator: HanV <han.velthuis@kpnmail.nl>, 2023\n"
+"POT-Creation-Date: 2025-03-15 05:01+0000\n"
+"Last-Translator: HanV <han.velthuis@kpnmail.nl>, 2025\n"
 "Language-Team: Dutch (https://app.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -475,25 +475,14 @@ msgstr "Klaar"
 msgid "Grants"
 msgstr "Toelagen"
 
-#: CRM/Grantapplications/BAO/GrantApplicationProfile.php
-msgid "Grant Status"
-msgstr "Toelagestatus"
-
-#: CRM/Grantapplications/BAO/GrantApplicationProfile.php
-msgid "Grant Amount Requested"
-msgstr "Toelage aangevraagd bedrag"
-
-#: CRM/Grantapplications/BAO/GrantApplicationProfile.php
-msgid "Grant Report Due Date"
-msgstr "Vervaldatum verantwoordingsrapport"
-
-#: CRM/Grantapplications/BAO/GrantApplicationProfile.php
-msgid "Grant Note"
-msgstr "Toelage-notitie"
-
 #: CRM/Grantapplications/Upgrader.php
 msgid "Migrate 'on behalf of' information to module_data"
 msgstr "Informatie over 'namens' verplaatsen naar module_data"
+
+#: CRM/Grantapplications/Upgrader.php
+#: managed/OptionValue_GrantStatus_Submitted.mgd.php
+msgid "Submitted"
+msgstr "Verzonden"
 
 #: CRM/UF/Page/Group.php
 msgid "Are you sure you want to make a copy of this Profile?"
@@ -662,6 +651,10 @@ msgstr "Wijzigen"
 #: grantapplications.php
 msgid "Edit Grant Application"
 msgstr "Toelage-applicatie wijzigen"
+
+#: managed/OptionValue_GrantStatus_Draft.mgd.php
+msgid "Draft"
+msgstr "Concept"
 
 #: sql/message_templates/grant_online_receipt_html.tpl
 #: sql/upgrade_4701.sql.tpl
