@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: grantapplications\n"
-"POT-Creation-Date: 2024-06-26 05:01+0000\n"
+"POT-Creation-Date: 2025-03-15 05:01+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2025\n"
 "Language-Team: Turkish (https://app.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -479,25 +479,14 @@ msgstr "Tamam"
 msgid "Grants"
 msgstr "Bağışlar"
 
-#: CRM/Grantapplications/BAO/GrantApplicationProfile.php
-msgid "Grant Status"
-msgstr "Bağış durumu"
-
-#: CRM/Grantapplications/BAO/GrantApplicationProfile.php
-msgid "Grant Amount Requested"
-msgstr "İstenilen bağış tutarı"
-
-#: CRM/Grantapplications/BAO/GrantApplicationProfile.php
-msgid "Grant Report Due Date"
-msgstr "Bağış raporu bitiş tarihi"
-
-#: CRM/Grantapplications/BAO/GrantApplicationProfile.php
-msgid "Grant Note"
-msgstr "Bağış notu"
-
 #: CRM/Grantapplications/Upgrader.php
 msgid "Migrate 'on behalf of' information to module_data"
 msgstr "'Kimin adına' bilgisi module_data ile birleştirilsin"
+
+#: CRM/Grantapplications/Upgrader.php
+#: managed/OptionValue_GrantStatus_Submitted.mgd.php
+msgid "Submitted"
+msgstr "Gönderildi"
 
 #: CRM/UF/Page/Group.php
 msgid "Are you sure you want to make a copy of this Profile?"
@@ -666,6 +655,10 @@ msgstr "Düzenle"
 #: grantapplications.php
 msgid "Edit Grant Application"
 msgstr "Bağış başvurusunu düzenle"
+
+#: managed/OptionValue_GrantStatus_Draft.mgd.php
+msgid "Draft"
+msgstr "Taslak"
 
 #: sql/message_templates/grant_online_receipt_html.tpl
 #: sql/upgrade_4701.sql.tpl
