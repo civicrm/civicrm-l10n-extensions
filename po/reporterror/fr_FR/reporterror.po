@@ -3,14 +3,15 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
+# Leila Fayet, 2025
 # Mathieu Lu <mathieu@bidon.ca>, 2014
 # Usha Matisson, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2024-03-09 05:01+0000\n"
+"POT-Creation-Date: 2024-12-06 05:01+0000\n"
 "PO-Revision-Date: 2014-04-29 21:10+0000\n"
-"Last-Translator: Usha Matisson, 2020\n"
+"Last-Translator: Leila Fayet, 2025\n"
 "Language-Team: French (http://app.transifex.com/civicrm/civicrm_extensions/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -93,18 +94,6 @@ msgstr "Bots à ignorer"
 #: CRM/ReportError/Admin/Form/Settings.php
 msgid "Automatically disable broken smartgroups?"
 msgstr "Désactiver automatiquement les groupes dynamiques en erreur ?"
-
-#: CRM/ReportError/Admin/Form/Settings.php
-msgid "Enable remote logging?"
-msgstr ""
-
-#: CRM/ReportError/Admin/Form/Settings.php
-msgid "Logging server hostname"
-msgstr ""
-
-#: CRM/ReportError/Admin/Form/Settings.php
-msgid "Logging server port"
-msgstr ""
 
 #: CRM/ReportError/Admin/Form/Settings.php
 msgid "Save"
@@ -246,7 +235,7 @@ msgid ""
 " about it. Bots also like to browse profiles, since they do not return "
 "proper HTTP error codes when they are disabled. Profiles errors are always "
 "logged in the CiviCRM logs (ConfigAndLog)."
-msgstr ""
+msgstr "Les erreurs fréquentes concernant les profils incluent : les utilisateurs anonymes ne peuvent pas visualiser les profils (par exemple : l'accès à toute page CiviCRM nécessite une authentification utilisateur) ou le profil peut avoir été désactivé. Dans la plupart des cas, l'utilisateur a rarement besoin d'en être informé. Les robots explorent aussi les profils, car ils n'indiquent pas les codes d'erreur HTTP corrects quand les profils sont désactivés. Les erreurs de profils sont toujours enregistrées dans les journaux de CiviCRM (ConfigAndLog)."
 
 #: templates/CRM/ReportError/Admin/Form/Settings.tpl
 msgid "Bots and crawlers"
@@ -282,27 +271,6 @@ msgid ""
 "When a group is disabled, an email notification will be sent (if one was set"
 " in the field at the top of this screen) and a note will be added in the "
 "group description."
-msgstr ""
-
-#: templates/CRM/ReportError/Admin/Form/Settings.tpl
-msgid "Remote Logging"
-msgstr ""
-
-#: templates/CRM/ReportError/Admin/Form/Settings.tpl
-msgid ""
-"By default, Report Error sends an email when an error occurs. In some "
-"circumstances, this can generate a lot of e-mails. You may want to collect "
-"error reports in a more structured way to simplify analysis. This extension "
-"supports (for now) the Gelf protocol, which is supported by Greylog2 or "
-"Logstash."
-msgstr ""
-
-#: templates/CRM/ReportError/Admin/Form/Settings.tpl
-msgid "Ex: log.example.org"
-msgstr ""
-
-#: templates/CRM/ReportError/Admin/Form/Settings.tpl
-msgid "Ex: 12201"
 msgstr ""
 
 #: templates/CRM/ReportError/Admin/Form/Settings.tpl
