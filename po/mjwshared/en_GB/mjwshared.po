@@ -4,13 +4,14 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Mikey O'Toole <mikey@mjco.me.uk>, 2022
-# Andi Chandler <andi@gowling.com>, 2024
+# Andi Chandler <andi@gowling.com>, 2025
+# Mathieu Lu <mathieu@bidon.ca>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: mjwshared\n"
-"POT-Creation-Date: 2024-10-14 21:30+0000\n"
-"Last-Translator: Andi Chandler <andi@gowling.com>, 2024\n"
+"POT-Creation-Date: 2025-04-05 05:01+0000\n"
+"Last-Translator: Mathieu Lu <mathieu@bidon.ca>, 2025\n"
 "Language-Team: English (United Kingdom) (https://app.transifex.com/civicrm/teams/1905/en_GB/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -238,149 +239,36 @@ msgstr "Check Number"
 msgid "PAN Truncation (Last 4 digits of credit card)"
 msgstr "PAN Truncation (Last 4 digits of credit card)"
 
-#: ang/mjwshared/PaymentprocessorWebhook.html
+#: Civi/PaymentprocessorWebhook/Tasks.php
+msgid "Retry Paymentprocessor Webhooks"
+msgstr ""
+
+#: Civi/PaymentprocessorWebhook/Tasks.php
+msgid "Schedule retry for %1 %2."
+msgstr ""
+
+#: Civi/PaymentprocessorWebhook/Tasks.php
+msgid "Scheduling retry for %1 %2..."
+msgstr ""
+
+#: Civi/PaymentprocessorWebhook/Tasks.php
+msgid ""
+"%1 %2 have been scheduled for retry (will retry next time scheduled jobs are"
+" run)."
+msgstr ""
+
+#: Civi/PaymentprocessorWebhook/Tasks.php
+msgid "An error occurred while attempting to schedule retry for %1 %2."
+msgstr ""
+
+#: ang/afsearchPaymentProcessorWebhookDetail.aff.php
+msgid "Payment Processor Webhook Detail"
+msgstr ""
+
+#: ang/afsearchPaymentProcessorWebhooks.aff.php
+#: managed/Navigation_afsearchPaymentProcessorWebhooks.mgd.php
 msgid "Payment Processor Webhooks"
 msgstr "Payment Processor Webhooks"
-
-#: ang/mjwshared/PaymentprocessorWebhook.html
-msgid "Filters"
-msgstr "Filters"
-
-#: ang/mjwshared/PaymentprocessorWebhook.html
-#: schema/PaymentprocessorWebhook.entityType.php
-msgid "Status"
-msgstr "Status"
-
-#: ang/mjwshared/PaymentprocessorWebhook.html
-msgid "- Any -"
-msgstr "- Any -"
-
-#: ang/mjwshared/PaymentprocessorWebhook.html
-#: ang/mjwshared/PaymentprocessorWebhook.js
-msgid "New"
-msgstr "New"
-
-#: ang/mjwshared/PaymentprocessorWebhook.html
-#: ang/mjwshared/PaymentprocessorWebhook.js
-msgid "Processing"
-msgstr "Processing"
-
-#: ang/mjwshared/PaymentprocessorWebhook.html
-#: ang/mjwshared/PaymentprocessorWebhook.js
-msgid "Success"
-msgstr "Success"
-
-#: ang/mjwshared/PaymentprocessorWebhook.html
-#: ang/mjwshared/PaymentprocessorWebhook.js
-msgid "Error"
-msgstr "Error"
-
-#: ang/mjwshared/PaymentprocessorWebhook.html
-msgid "Processor"
-msgstr "Processor"
-
-#: ang/mjwshared/PaymentprocessorWebhook.html
-msgid "Test"
-msgstr "Test"
-
-#: ang/mjwshared/PaymentprocessorWebhook.html
-msgid "Live"
-msgstr "Live"
-
-#: ang/mjwshared/PaymentprocessorWebhook.html
-msgid "%count webhooks"
-msgstr "%count webhooks"
-
-#: ang/mjwshared/PaymentprocessorWebhook.html
-#: schema/PaymentprocessorWebhook.entityType.php
-msgid "Event ID"
-msgstr "Event ID"
-
-#: ang/mjwshared/PaymentprocessorWebhook.html
-msgid "Search identifier"
-msgstr "Search identifier"
-
-#: ang/mjwshared/PaymentprocessorWebhook.html
-msgid "Search raw data"
-msgstr "Search raw data"
-
-#: ang/mjwshared/PaymentprocessorWebhook.html
-msgid "Previous page"
-msgstr "Previous page"
-
-#: ang/mjwshared/PaymentprocessorWebhook.html
-msgid "Next page"
-msgstr "Next page"
-
-#: ang/mjwshared/PaymentprocessorWebhook.html
-msgid "Search / Reload"
-msgstr "Search / Reload"
-
-#: ang/mjwshared/PaymentprocessorWebhook.js js/crm.payment.js
-msgid "mjwshared"
-msgstr "mjwshared"
-
-#: ang/mjwshared/PaymentprocessorWebhook.js
-msgid "This event is awaiting processing"
-msgstr "This event is awaiting processing"
-
-#: ang/mjwshared/PaymentprocessorWebhook.js
-msgid "This event is currently being processed by the Scheduled Job"
-msgstr "This event is currently being processed by the Scheduled Job"
-
-#: ang/mjwshared/PaymentprocessorWebhook.js
-msgid "This event was successfully processed."
-msgstr "This event was successfully processed."
-
-#: ang/mjwshared/PaymentprocessorWebhook.js
-msgid "There was an error processing this event."
-msgstr "There was an error processing this event."
-
-#: ang/mjwshared/PaymentprocessorWebhook.js
-msgid "Loading..."
-msgstr "Loading..."
-
-#: ang/mjwshared/PaymentprocessorWebhook.js
-msgid "Loaded"
-msgstr "Loaded"
-
-#: ang/mjwshared/PaymentprocessorWebhook.js
-msgid ""
-"Deleting a received webhook event is not un-do-able, and you may not be able"
-" to generate it again. Are you sure?"
-msgstr ""
-"Deleting a received webhook event is not un-do-able, and you may not be able"
-" to generate it again. Are you sure?"
-
-#: ang/mjwshared/PaymentprocessorWebhook.js
-msgid "Deleting..."
-msgstr "Deleting..."
-
-#: ang/mjwshared/PaymentprocessorWebhook.js
-msgid "Gone"
-msgstr "Gone"
-
-#: ang/mjwshared/PaymentprocessorWebhook.js
-msgid ""
-"Retrying an event could cause bad things to happen, depending on the event "
-"and the processor, so please be confident in your understanding of both. "
-"Schedule retry of this event?"
-msgstr ""
-"Retrying an event could cause bad things to happen, depending on the event "
-"and the processor, so please be confident in your understanding of both. "
-"Schedule retry of this event?"
-
-#: ang/mjwshared/PaymentprocessorWebhook.js
-msgid "Updating..."
-msgstr "Updating..."
-
-#: ang/mjwshared/PaymentprocessorWebhook.js
-msgid "Updated"
-msgstr "Updated"
-
-#: ang/mjwshared/PaymentprocessorWebhook.js
-msgid "Scheduled for retry"
-msgstr "Scheduled for retry"
 
 #: api/v3/Mjwpayment.php templates/CRM/Mjwshared/Form/PaymentRefund.tpl
 msgid "Transaction ID"
@@ -403,9 +291,87 @@ msgstr "Please apply the Discount Code or clear the Discount Code text-field"
 msgid "Please check and fill in all required fields!"
 msgstr "Please check and fill in all required fields!"
 
+#: js/crm.payment.js
+msgid "mjwshared"
+msgstr "mjwshared"
+
 #: managed/ProcessPaymentprocessorWebhooks.mgd.php
 msgid "Process incomplete payment processor webhooks"
 msgstr "Process incomplete payment processor webhooks"
+
+#: managed/SavedSearch_Paymentprocessor_Webhook_Detail.mgd.php
+msgid "Paymentprocessor Webhook Detail"
+msgstr ""
+
+#: managed/SavedSearch_Paymentprocessor_Webhook_Detail.mgd.php
+#: managed/SavedSearch_Paymentprocessor_Webhook_Search.mgd.php
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "ID"
+msgstr "ID"
+
+#: managed/SavedSearch_Paymentprocessor_Webhook_Detail.mgd.php
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Identifier"
+msgstr "Identifier"
+
+#: managed/SavedSearch_Paymentprocessor_Webhook_Detail.mgd.php
+#: managed/SavedSearch_Paymentprocessor_Webhook_Search.mgd.php
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Message"
+msgstr "Message"
+
+#: managed/SavedSearch_Paymentprocessor_Webhook_Detail.mgd.php
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Trigger"
+msgstr "Trigger"
+
+#: managed/SavedSearch_Paymentprocessor_Webhook_Detail.mgd.php
+#: managed/SavedSearch_Paymentprocessor_Webhook_Search.mgd.php
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Status"
+msgstr "Status"
+
+#: managed/SavedSearch_Paymentprocessor_Webhook_Detail.mgd.php
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Data"
+msgstr "Data"
+
+#: managed/SavedSearch_Paymentprocessor_Webhook_Search.mgd.php
+msgid "Paymentprocessor Webhook Search"
+msgstr ""
+
+#: managed/SavedSearch_Paymentprocessor_Webhook_Search.mgd.php
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Created Date"
+msgstr "Created Date"
+
+#: managed/SavedSearch_Paymentprocessor_Webhook_Search.mgd.php
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Processed Date"
+msgstr "Processed Date"
+
+#: managed/SavedSearch_Paymentprocessor_Webhook_Search.mgd.php
+#: schema/PaymentprocessorWebhook.entityType.php
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
+msgid "Payment Processor"
+msgstr "Payment Processor"
+
+#: managed/SavedSearch_Paymentprocessor_Webhook_Search.mgd.php
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Event ID"
+msgstr "Event ID"
+
+#: managed/SavedSearch_Paymentprocessor_Webhook_Search.mgd.php
+msgid "Detail"
+msgstr "Detail"
+
+#: managed/SavedSearch_Paymentprocessor_Webhook_Search.mgd.php
+msgid "Retry"
+msgstr ""
+
+#: managed/SavedSearch_Paymentprocessor_Webhook_Search.mgd.php
+msgid "Delete"
+msgstr "Delete"
 
 #: managed/cg_extend_financialtrxn.mgd.php
 msgid "Financial Transaction (Payment)"
@@ -418,10 +384,6 @@ msgstr "Payment details"
 #: managed/navigationmenu.mgd.php
 msgid "Payment Shared Settings"
 msgstr "Payment Shared Settings"
-
-#: managed/navigationmenu.mgd.php
-msgid "Payment processor webhooks"
-msgstr "Payment processor webhooks"
 
 #: schema/PaymentprocessorWebhook.entityType.php
 msgid "Paymentprocessor Webhook"
@@ -436,17 +398,8 @@ msgid "Track the processing of payment processor webhooks"
 msgstr "Track the processing of payment processor webhooks"
 
 #: schema/PaymentprocessorWebhook.entityType.php
-msgid "ID"
-msgstr "ID"
-
-#: schema/PaymentprocessorWebhook.entityType.php
 msgid "Unique PaymentprocessorWebhook ID"
 msgstr "Unique PaymentprocessorWebhook ID"
-
-#: schema/PaymentprocessorWebhook.entityType.php
-#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
-msgid "Payment Processor"
-msgstr "Payment Processor"
 
 #: schema/PaymentprocessorWebhook.entityType.php
 msgid "Payment Processor for this webhook"
@@ -457,24 +410,12 @@ msgid "Webhook event ID"
 msgstr "Webhook event ID"
 
 #: schema/PaymentprocessorWebhook.entityType.php
-msgid "Trigger"
-msgstr "Trigger"
-
-#: schema/PaymentprocessorWebhook.entityType.php
 msgid "Webhook trigger event type"
 msgstr "Webhook trigger event type"
 
 #: schema/PaymentprocessorWebhook.entityType.php
-msgid "Created Date"
-msgstr "Created Date"
-
-#: schema/PaymentprocessorWebhook.entityType.php
 msgid "When the webhook was first received by the IPN code"
 msgstr "When the webhook was first received by the IPN code"
-
-#: schema/PaymentprocessorWebhook.entityType.php
-msgid "Processed Date"
-msgstr "Processed Date"
 
 #: schema/PaymentprocessorWebhook.entityType.php
 msgid "Has this webhook been processed yet?"
@@ -485,24 +426,12 @@ msgid "Processing status"
 msgstr "Processing status"
 
 #: schema/PaymentprocessorWebhook.entityType.php
-msgid "Identifier"
-msgstr "Identifier"
-
-#: schema/PaymentprocessorWebhook.entityType.php
 msgid "Optional key to group webhooks, as needed by some processors."
 msgstr "Optional key to group webhooks, as needed by some processors."
 
 #: schema/PaymentprocessorWebhook.entityType.php
-msgid "Message"
-msgstr "Message"
-
-#: schema/PaymentprocessorWebhook.entityType.php
 msgid "Stores data sent that is needed for processing. JSON suggested."
 msgstr "Stores data sent that is needed for processing. JSON suggested."
-
-#: schema/PaymentprocessorWebhook.entityType.php
-msgid "Data"
-msgstr "Data"
 
 #: settings/mjwshared.setting.php
 msgid "Enable refund payment via UI?"
