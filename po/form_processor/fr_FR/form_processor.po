@@ -7,13 +7,13 @@
 # punkyard persist <punkyard@grrlz.net>, 2023
 # Mathieu Lu <mathieu@bidon.ca>, 2023
 # Alain Rihs <alainrihs@sunrise.ch>, 2023
-# Usha Matisson, 2024
+# Usha Matisson, 2025
 # Guillaume Sorel <serviceclient@all-in-appli.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: form_processor\n"
-"POT-Creation-Date: 2025-02-13 05:01+0000\n"
+"POT-Creation-Date: 2025-05-13 09:01+0000\n"
 "Last-Translator: Guillaume Sorel <serviceclient@all-in-appli.com>, 2025\n"
 "Language-Team: French (https://app.transifex.com/civicrm/teams/1905/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -117,6 +117,14 @@ msgid "FK to Form Processor"
 msgstr ""
 
 #: CRM/FormProcessor/DAO/FormProcessorAction.php
+msgid "Parent ID"
+msgstr "Id. parent"
+
+#: CRM/FormProcessor/DAO/FormProcessorAction.php
+msgid "Conditional processing group"
+msgstr ""
+
+#: CRM/FormProcessor/DAO/FormProcessorAction.php
 #: CRM/FormProcessor/DAO/FormProcessorCalculateAction.php
 #: CRM/FormProcessor/DAO/FormProcessorDefaultDataAction.php
 #: CRM/FormProcessor/DAO/FormProcessorDefaultDataInput.php
@@ -143,6 +151,7 @@ msgstr "Poids"
 #: CRM/FormProcessor/DAO/FormProcessorValidateValidator.php
 #: CRM/FormProcessor/Form/AbstractConfigurationAction.php
 #: CRM/FormProcessor/Form/AbstractConfigurationInput.php
+#: CRM/FormProcessor/Form/ConditionalProcessingConfiguration.php
 #: CRM/FormProcessor/Form/Configuration.php
 #: CRM/FormProcessor/Form/ValidationConfigurationValidator.php
 #: api/v3/FormProcessorAction/CheckName.php
@@ -179,6 +188,7 @@ msgstr "Titre"
 #: CRM/FormProcessor/DAO/FormProcessorValidateValidator.php
 #: CRM/FormProcessor/Form/AbstractConfigurationAction.php
 #: CRM/FormProcessor/Form/AbstractConfigurationInput.php
+#: CRM/FormProcessor/Form/ConditionalProcessingConfiguration.php
 #: CRM/FormProcessor/Form/Configuration.php
 #: CRM/FormProcessor/Form/ValidationConfigurationValidator.php
 #: api/v3/FormProcessorAction/CheckName.php
@@ -374,9 +384,11 @@ msgid "Enabled"
 msgstr "Activé"
 
 #: CRM/FormProcessor/DAO/FormProcessorInstance.php
+#: CRM/FormProcessor/Form/AbstractConfigurationCondition.php
 #: CRM/FormProcessor/Form/Configuration.php
 #: api/v3/FormProcessorInstance/Create.php
 #: managed/SavedSearch_Form_Processors.mgd.php
+#: templates/CRM/FormProcessor/Form/Blocks/Conditions.tpl
 msgid "Description"
 msgstr "Description"
 
@@ -504,6 +516,7 @@ msgstr "Enregistrer"
 #: CRM/FormProcessor/Form/AbstractConfigurationInput.php
 #: CRM/FormProcessor/Form/AbstractConfigurationInputValidation.php
 #: CRM/FormProcessor/Form/CalculationConfiguration.php
+#: CRM/FormProcessor/Form/ConditionalProcessingConfiguration.php
 #: CRM/FormProcessor/Form/Configuration.php CRM/FormProcessor/Form/Import.php
 #: CRM/FormProcessor/Form/ValidationConfigurationValidator.php
 msgid "Cancel"
@@ -514,6 +527,7 @@ msgid "Saved form processor"
 msgstr ""
 
 #: CRM/FormProcessor/Form/AbstractConfiguration.php
+#: CRM/FormProcessor/Form/ConditionalProcessingConfiguration.php
 msgid "Saved"
 msgstr "Enregistré"
 
@@ -545,6 +559,7 @@ msgstr "Action supprimée"
 #: CRM/FormProcessor/Form/AbstractConfigurationAction.php
 #: CRM/FormProcessor/Form/AbstractConfigurationInput.php
 #: CRM/FormProcessor/Form/AbstractConfigurationInputValidation.php
+#: CRM/FormProcessor/Form/ConditionalProcessingConfiguration.php
 #: CRM/FormProcessor/Form/Configuration.php
 #: CRM/FormProcessor/Form/ValidationConfigurationValidator.php
 msgid "Removed"
@@ -553,6 +568,21 @@ msgstr "Supprimé"
 #: CRM/FormProcessor/Form/AbstractConfigurationCondition.php
 msgid "- no condition -"
 msgstr "- aucune condition -"
+
+#: CRM/FormProcessor/Form/AbstractConfigurationCondition.php
+#: templates/CRM/FormProcessor/Form/Blocks/Conditions.tpl
+msgid "Link to previous"
+msgstr ""
+
+#: CRM/FormProcessor/Form/AbstractConfigurationCondition.php
+#: templates/CRM/FormProcessor/Form/Blocks/Conditions.tpl
+msgid "And"
+msgstr "Et"
+
+#: CRM/FormProcessor/Form/AbstractConfigurationCondition.php
+#: templates/CRM/FormProcessor/Form/Blocks/Conditions.tpl
+msgid "Or"
+msgstr "Ou"
 
 #: CRM/FormProcessor/Form/AbstractConfigurationDelay.php
 msgid "- no delay -"
@@ -566,7 +596,6 @@ msgid "- Select -"
 msgstr "--Sélectionner--"
 
 #: CRM/FormProcessor/Form/AbstractConfigurationDelay.php
-#: CRM/FormProcessor/Form/AbstractConfigurationInput.php
 #: CRM/FormProcessor/Form/AbstractConfigurationInputValidation.php
 msgid "Tokens"
 msgstr "Champs de fusion"
@@ -587,6 +616,35 @@ msgstr "La règle de validation a été supprimée"
 #: CRM/FormProcessor/Form/DefaultDataConfiguration.php
 #: Civi/FormProcessor/OutputHandler/OutputAllActionOutput.php
 msgid "Input :: %1"
+msgstr ""
+
+#: CRM/FormProcessor/Form/ConditionalProcessingConfiguration.php
+#: templates/CRM/FormProcessor/Form/ConditionalProcessingConfiguration.tpl
+msgid "Return to configuration"
+msgstr ""
+
+#: CRM/FormProcessor/Form/ConditionalProcessingConfiguration.php
+msgid "Conditional Processing removed"
+msgstr ""
+
+#: CRM/FormProcessor/Form/ConditionalProcessingConfiguration.php
+msgid "Saved conditional processing"
+msgstr ""
+
+#: CRM/FormProcessor/Form/ConditionalProcessingConfiguration.php
+msgid "Move to top"
+msgstr ""
+
+#: CRM/FormProcessor/Form/ConditionalProcessingConfiguration.php
+msgid "Move up one row"
+msgstr ""
+
+#: CRM/FormProcessor/Form/ConditionalProcessingConfiguration.php
+msgid "Move down one row"
+msgstr ""
+
+#: CRM/FormProcessor/Form/ConditionalProcessingConfiguration.php
+msgid "Move to bottom"
 msgstr ""
 
 #: CRM/FormProcessor/Form/Configuration.php
@@ -1125,6 +1183,18 @@ msgstr ""
 msgid "Include field label"
 msgstr ""
 
+#: Civi/FormProcessor/Type/PriceSetOptionsFieldType.php
+msgid "Include None option"
+msgstr ""
+
+#: Civi/FormProcessor/Type/PriceSetOptionsFieldType.php
+msgid "None option label"
+msgstr ""
+
+#: Civi/FormProcessor/Type/PriceSetOptionsFieldType.php
+msgid " - None - "
+msgstr ""
+
 #: Civi/FormProcessor/Type/ShortTextType.php
 msgid "Remove leading and trailing spaces"
 msgstr ""
@@ -1458,16 +1528,19 @@ msgid "Add form processor"
 msgstr "Ajouter un processeur de données"
 
 #: templates/CRM/FormProcessor/Form/AbstractConfigurationAction.tpl
+#: templates/CRM/FormProcessor/Form/AbstractConfigurationCondition.tpl
 msgid "Delete Action"
 msgstr "Supprimer l'Action"
 
 #: templates/CRM/FormProcessor/Form/AbstractConfigurationAction.tpl
+#: templates/CRM/FormProcessor/Form/ConditionalProcessingConfiguration.tpl
 msgid "Are you sure to delete action '%1'?"
 msgstr "Confirmez vous la suppression de l'action '%1' ?"
 
 #: templates/CRM/FormProcessor/Form/AbstractConfigurationAction.tpl
 #: templates/CRM/FormProcessor/Form/Blocks/CalculationActions.tpl
 #: templates/CRM/FormProcessor/Form/CalculationConfiguration.tpl
+#: templates/CRM/FormProcessor/Form/ConditionalProcessingConfiguration.tpl
 #: templates/CRM/FormProcessor/Form/Configuration.tpl
 #: templates/CRM/FormProcessor/Form/DefaultDataConfiguration.tpl
 #: templates/CRM/FormProcessor/Form/ValidationConfiguration.tpl
@@ -1480,6 +1553,7 @@ msgstr "Modifier l'Action"
 
 #: templates/CRM/FormProcessor/Form/AbstractConfigurationAction.tpl
 #: templates/CRM/FormProcessor/Form/AbstractConfigurationInput.tpl
+#: templates/CRM/FormProcessor/Form/ConditionalProcessingConfiguration.tpl
 #: templates/CRM/FormProcessor/Form/Configuration.tpl
 #: templates/CRM/FormProcessor/Form/ValidationConfigurationValidator.tpl
 msgid "System name:"
@@ -1487,14 +1561,20 @@ msgstr "Nom système :"
 
 #: templates/CRM/FormProcessor/Form/AbstractConfigurationAction.tpl
 #: templates/CRM/FormProcessor/Form/AbstractConfigurationInput.tpl
+#: templates/CRM/FormProcessor/Form/ConditionalProcessingConfiguration.tpl
 #: templates/CRM/FormProcessor/Form/Configuration.tpl
 #: templates/CRM/FormProcessor/Form/ValidationConfigurationValidator.tpl
 msgid "Change"
 msgstr "Modifier"
 
 #: templates/CRM/FormProcessor/Form/AbstractConfigurationCondition.tpl
+msgid "Are you sure to delete condition '%1'?"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/AbstractConfigurationCondition.tpl
 #: templates/CRM/FormProcessor/Form/Blocks/Actions.tpl
 #: templates/CRM/FormProcessor/Form/Blocks/CalculationActions.tpl
+#: templates/CRM/FormProcessor/Form/Blocks/Conditions.tpl
 msgid "Condition"
 msgstr "Condition"
 
@@ -1525,6 +1605,7 @@ msgid "Change Condition"
 msgstr ""
 
 #: templates/CRM/FormProcessor/Form/Blocks/Actions.tpl
+#: templates/CRM/FormProcessor/Form/ConditionalProcessingConfiguration.tpl
 msgid "Add Condition"
 msgstr "Ajouter une condition"
 
@@ -1538,6 +1619,7 @@ msgstr ""
 
 #: templates/CRM/FormProcessor/Form/Blocks/Actions.tpl
 #: templates/CRM/FormProcessor/Form/Blocks/CalculationActions.tpl
+#: templates/CRM/FormProcessor/Form/Blocks/Conditions.tpl
 #: templates/CRM/FormProcessor/Form/Blocks/Inputs.tpl
 #: templates/CRM/FormProcessor/Form/Blocks/ValidatorValidators.tpl
 msgid "Edit"
@@ -1545,6 +1627,7 @@ msgstr "Modifier"
 
 #: templates/CRM/FormProcessor/Form/Blocks/Actions.tpl
 #: templates/CRM/FormProcessor/Form/Blocks/CalculationActions.tpl
+#: templates/CRM/FormProcessor/Form/Blocks/Conditions.tpl
 #: templates/CRM/FormProcessor/Form/Blocks/Configuration.tpl
 #: templates/CRM/FormProcessor/Form/Blocks/Inputs.tpl
 #: templates/CRM/FormProcessor/Form/Blocks/ValidatorValidators.tpl
@@ -1553,6 +1636,7 @@ msgstr "Retirer"
 
 #: templates/CRM/FormProcessor/Form/Blocks/CalculationActions.tpl
 #: templates/CRM/FormProcessor/Form/CalculationConfiguration.tpl
+#: templates/CRM/FormProcessor/Form/ConditionalProcessingConfiguration.tpl
 #: templates/CRM/FormProcessor/Form/Configuration.tpl
 #: templates/CRM/FormProcessor/Form/ValidationConfiguration.tpl
 msgid "Actions"
@@ -1612,6 +1696,31 @@ msgstr ""
 msgid "Action Output Parameter"
 msgstr ""
 
+#: templates/CRM/FormProcessor/Form/ConditionalProcessingConfiguration.tpl
+msgid "Delete Conditional Processing"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/ConditionalProcessingConfiguration.tpl
+msgid "Add Conditional Processing"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/ConditionalProcessingConfiguration.tpl
+msgid "Edit Conditional Processing"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/ConditionalProcessingConfiguration.tpl
+msgid "Conditions"
+msgstr "Conditions"
+
+#: templates/CRM/FormProcessor/Form/ConditionalProcessingConfiguration.tpl
+msgid "Add condition"
+msgstr ""
+
+#: templates/CRM/FormProcessor/Form/ConditionalProcessingConfiguration.tpl
+#: templates/CRM/FormProcessor/Form/Configuration.tpl
+msgid "Add action"
+msgstr "Ajouter une action"
+
 #: templates/CRM/FormProcessor/Form/Configuration.tpl
 msgid "Are you sure to delete form processor '%1'?"
 msgstr ""
@@ -1642,8 +1751,8 @@ msgid "Add input"
 msgstr "Ajouter une entrée"
 
 #: templates/CRM/FormProcessor/Form/Configuration.tpl
-msgid "Add action"
-msgstr "Ajouter une action"
+msgid "Add conditional processing"
+msgstr ""
 
 #: templates/CRM/FormProcessor/Form/ConfigurationInput.tpl
 msgid "Delete Input"
