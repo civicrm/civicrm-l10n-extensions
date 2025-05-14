@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = pl: pl_PL, ja: ja_JP, lt: lt_LT, tr: tr_TR, el: el_GR, sl: sl_SI, nl: nl_NL, es: es_ES, hu: hu_HU, de: de_DE, pt: pt_PT, vi: vi_VN, fi: fi_FI, he: he_IL, cs: cs_CZ, da: da_DK, sk: sk_SK, af: af_ZA, it: it_IT, nb: nb_NO, sv: sv_SE, ru: ru_RU, bg: bg_BG, hi: hi_IN, ro: ro_RO, sq: sq_AL, id: id_ID, lv: lv_LV, fr: fr_FR, ca: ca_ES, km: km_KH, et: et_EE
+lang_map = pt: pt_PT, ro: ro_RO, af: af_ZA, sl: sl_SI, cs: cs_CZ, da: da_DK, id: id_ID, el: el_GR, hu: hu_HU, nb: nb_NO, fi: fi_FI, sv: sv_SE, bg: bg_BG, ca: ca_ES, pl: pl_PL, tr: tr_TR, nl: nl_NL, km: km_KH, ja: ja_JP, lt: lt_LT, it: it_IT, ru: ru_RU, fr: fr_FR, es: es_ES, de: de_DE, he: he_IL, et: et_EE, vi: vi_VN, hi: hi_IN, sq: sq_AL, sk: sk_SK, lv: lv_LV
 
 [o:civicrm:p:civicrm_extensions:r:Civixero]
 file_filter = po/Civixero/<lang>/Civixero.po
@@ -772,6 +772,13 @@ source_lang = en
 file_filter = po/quickdonate/<lang>/quickdonate.po
 source_file = po/quickdonate/pot/quickdonate.pot
 source_lang = en
+
+[o:civicrm:p:civicrm_extensions:r:radiobuttons]
+file_filter   = po/radiobuttons/<lang>/radiobuttons.po
+source_file   = po/radiobuttons/pot/radiobuttons.pot
+type          = POT
+minimum_perc  = 0
+resource_name = radiobuttons
 
 [o:civicrm:p:civicrm_extensions:r:recentmenu]
 file_filter = po/recentmenu/<lang>/recentmenu.po
