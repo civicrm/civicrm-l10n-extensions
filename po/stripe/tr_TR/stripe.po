@@ -3,13 +3,13 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Kaya Zeren <kayazeren@gmail.com>, 2023
+# Kaya Zeren <kayazeren@gmail.com>, 2023,2025
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
 "POT-Creation-Date: 2023-01-27 19:21+0000\n"
 "PO-Revision-Date: 2015-01-10 05:32+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2023\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2023,2025\n"
 "Language-Team: Turkish (http://app.transifex.com/civicrm/civicrm_extensions/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -105,7 +105,7 @@ msgid ""
 "          They will be removed in a future version - if this is a problem please contact <a href=\"https://mjw.pt/support\">MJW</a> and let us know why!</li>\n"
 "          <li><a href=\"https://docs.civicrm.org/mjwshared/en/latest/refunds/\">Refund UI</a> is now enabled by default.</li>\n"
 "        </ul>"
-msgstr "Stripe 6.6 sürümüne yükselttiğiniz için teşekkür ederiz. Çalışmayı sürdüreceğinden emin olmak için yapılandırmanızı kontrol etmeniz GEREKİR:\n        <ul>\n          <li><strong>AJAX API erişimi</strong> Stripe kullanarak ödeme yapan tüm kullanıcılar (anonim ile birlikte) için gereklidir.\n          Stripe ile ödeme yapan kullanıcıların CiviCRM <strong>AJAX API erişimi</strong> izni olduğunu denetleyin. Yoksa ödemeler alınamaz.</li>\n          <li>Fatura adresi alanları artık varsayılan olarak devre dışı bırakılmıştır (ek alanlara gerek duyuyorsanız, bunları bir profil ile toplayın).\n          Fatura adreslerine gerek duyuyorsanız bunları <em>Yönetim->CiviContribute->Stripe ayarları->Fatura adresi alanlarını devre dışı bırak</em> seçeneği ile etkinleştirin.\n          Bunlar gelecekteki bir sürümde kaldırılacak. Bu sizin için bir sorun olacaksalütfen <a href=\"https://mjw.pt/support\">MJW</a> ile görüşüp nedenini açıklayın!</li>\n          <li><a href=\"https://docs.civicrm.org/mjwshared/en/latest/refunds/\">Refund UI</a> artık varsayılan olarak etkindir.</li>\n        </ul>"
+msgstr "Stripe 6.6 sürümüne yükselttiğiniz için teşekkür ederiz. Çalışmayı sürdüreceğinden emin olmak için yapılandırmanızı kontrol etmeniz GEREKİR:\n        <ul>\n          <li><strong>AJAX API erişimi</strong> Stripe kullanarak ödeme yapan tüm kullanıcılar (anonim ile birlikte) için gereklidir.\n          Stripe ile ödeme yapan kullanıcıların CiviCRM <strong>AJAX API erişimi</strong> izni olduğunu denetleyin. Yoksa ödemeler alınamaz.</li>\n          <li>Fatura adresi alanları artık varsayılan olarak etkisizleştirilmiştir (ek alanlara gerek duyuyorsanız, bunları bir profil ile toplayın).\n          Fatura adreslerine gerek duyuyorsanız bunları <em>Yönetim->CiviContribute->Stripe ayarları->Fatura adresi alanlarını etkisizleştir</em> seçeneği ile etkinleştirin.\n          Bunlar gelecekteki bir sürümde kaldırılacak. Bu sizin için bir sorun olacaksa lütfen <a href=\"https://mjw.pt/support\">MJW</a> ile görüşüp nedenini açıklayın!</li>\n          <li><a href=\"https://docs.civicrm.org/mjwshared/en/latest/refunds/\">Refund UI</a> artık varsayılan olarak etkinleştirilmiştir.</li>\n        </ul>"
 
 #: CRM/Stripe/Check.php
 msgid ""
@@ -590,14 +590,14 @@ msgstr "Stripe Charge için \"email_receipt\" parametresini ayarlar. Böylece St
 
 #: settings/stripe.setting.php
 msgid "Disable billing address fields"
-msgstr "Fatura adresi alanları devre dışı bırakılsın"
+msgstr "Fatura adresi alanları etkisizleştirilsin"
 
 #: settings/stripe.setting.php
 msgid ""
 "Disable the fixed billing address fields block. Historically this was "
 "required by CiviCRM but since Stripe 6.x the stripe element collects "
 "everything it requires to make payment."
-msgstr "Bu seçenek etkinleştirildiğinde, sabit fatura adresi alanları bloğu devre dışı bırakılır. Geçmişte bu özellik, CiviCRM için gerekliydi. Ancak Stripe 6.x sürümünden bu yana Stripe bileşeni ödeme yapmak için gereken her şeyi toplar."
+msgstr "Etkinleştirildiğinde, sabit fatura adresi alanları bloğu etkisizleştirilir. Geçmişte bu özellik, CiviCRM için gerekliydi. Ancak Stripe 6.x sürümünden bu yana Stripe bileşeni ödeme yapmak için gereken her şeyi toplar."
 
 #: settings/stripe.setting.php
 msgid "Statement Descriptor"
