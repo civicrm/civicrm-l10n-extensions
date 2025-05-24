@@ -478,6 +478,8 @@ msgid ""
 "CiviCalendar and CiviMobile calendar are  synchronized! You can change "
 "settings in <a %1>CiviCalendar Settings</a>"
 msgstr ""
+"CiviCalendar ve CiviMobile takvimi eşitlendi! <a %1>CiviCalendar ayarları "
+"bölümünden yapılandırabilirsiniz</a>"
 
 #: CRM/CiviMobileAPI/Form/CalendarSettings.php
 msgid "Submit"
@@ -1189,7 +1191,7 @@ msgid ""
 msgstr ""
 "CiviMobile uygulamasına izin vermekle ilgili sorun yaşıyorsanız, hangi "
 "eklentinin CiviMobile uygulamasını engellediğini bulmak için lütfen "
-"eklentileri tek tek devre dışı bırakmayı deneyin."
+"eklentileri tek tek etkislzleştirmeyi deneyin."
 
 #: CRM/CiviMobileAPI/Utils/Contact.php
 msgid "Your Api key has removed and all device disconnected from account."
@@ -1246,51 +1248,51 @@ msgstr "Kullanıcı girişi"
 
 #: Civi/CiviMobileAPI/PushNotification/Entity/ActivityPushNotification.php
 msgid "has created activity."
-msgstr ""
+msgstr "işlem ekledi."
 
 #: Civi/CiviMobileAPI/PushNotification/Entity/ActivityPushNotification.php
 msgid "has edited activity."
-msgstr ""
+msgstr "işlemi düzenledi."
 
 #: Civi/CiviMobileAPI/PushNotification/Entity/ActivityPushNotification.php
 msgid "has deleted activity."
-msgstr ""
+msgstr "işlemi sildi."
 
 #: Civi/CiviMobileAPI/PushNotification/Entity/CasePushNotification.php
 msgid "has created case."
-msgstr ""
+msgstr "olay ekledi."
 
 #: Civi/CiviMobileAPI/PushNotification/Entity/CasePushNotification.php
 msgid "has edited case."
-msgstr ""
+msgstr "olayı düzenledi."
 
 #: Civi/CiviMobileAPI/PushNotification/Entity/CasePushNotification.php
 msgid "has deleted case."
-msgstr ""
+msgstr "olayı sildi."
 
 #: Civi/CiviMobileAPI/PushNotification/Entity/ParticipantPushNotification.php
 msgid "has created participant."
-msgstr ""
+msgstr "katılımcı ekledi."
 
 #: Civi/CiviMobileAPI/PushNotification/Entity/ParticipantPushNotification.php
 msgid "has edited your event's participation."
-msgstr ""
+msgstr "etkinlik katılımınızı düzenledi."
 
 #: Civi/CiviMobileAPI/PushNotification/Entity/ParticipantPushNotification.php
 msgid "has deleted you from event."
-msgstr ""
+msgstr "sizi etkinlikten sildi."
 
 #: Civi/CiviMobileAPI/PushNotification/Entity/RelationshipPushNotification.php
 msgid "has created relationship."
-msgstr ""
+msgstr "ilişki ekledi."
 
 #: Civi/CiviMobileAPI/PushNotification/Entity/RelationshipPushNotification.php
 msgid "has edited relationship."
-msgstr ""
+msgstr "ilişkiyi düzenledi."
 
 #: Civi/CiviMobileAPI/PushNotification/Entity/RelationshipPushNotification.php
 msgid "has deleted relationship."
-msgstr ""
+msgstr "ilişkiyi sildi."
 
 #: api/v3/CiviMobileActiveRelationship.php
 msgid "Contact id(a) is deleted?"
@@ -1669,11 +1671,11 @@ msgstr "CiviMobile üzerinden çevrim içi kayıt yapılabilsin"
 
 #: managed/Job_CiviMobile.mgd.php
 msgid "Clean old push notification messages"
-msgstr ""
+msgstr "Temiz eski anında bildirim iletileri"
 
 #: managed/Job_CiviMobile.mgd.php
 msgid "Notify all participants that event is going to start"
-msgstr ""
+msgstr "Tüm katılımcılara bu etkinliğin başlayacağı bildirilsin"
 
 #: managed/OptionGroup_CiviMobile_Tabs.mgd.php
 msgid "Calendar"
@@ -1764,6 +1766,11 @@ msgid ""
 "              as this will make public event mobile registration impossible.\n"
 "            "
 msgstr ""
+"\n"
+"              Bu seçeneği etkinleştirmeden önce kullandığınız profillerde\n"
+"              \"... kullanıcı hesabı açma seçeneği?\" seçeneğinin \"Hesap açılması zorunlu\" olarak\n"
+"              ayarlanmadığından emin olun. Yoksa herkese açık etkinliğe mobil kayıt yapılamaz.\n"
+"            "
 
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
 msgid ""
@@ -1841,10 +1848,13 @@ msgid ""
 "                                <a %1>openai.com</a>\n"
 "                                and create your own Secret Key"
 msgstr ""
+"ChatGPT kullanabilmek için\n"
+"                                <a %1>openai.com</a>\n"
+"                                adresinden hesap açın ve kendi gizli anahtarınızı oluşturun"
 
 #: templates/CRM/CiviMobileAPI/Form/CiviAiSettings.tpl
 msgid "Type your model name in format like this"
-msgstr ""
+msgstr "Model adınızı şunun gibi bir biçimde yazın"
 
 #: templates/CRM/CiviMobileAPI/Form/EventLocations.tpl
 msgid "Locations"
