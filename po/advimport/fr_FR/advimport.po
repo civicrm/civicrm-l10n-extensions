@@ -7,14 +7,14 @@
 # Alain Rihs <alainrihs@sunrise.ch>, 2023
 # Mathieu Lu <mathieu@bidon.ca>, 2023
 # Usha Matisson, 2023
-# Guillaume Sorel <serviceclient@all-in-appli.com>, 2025
 # Leila Fayet, 2025
+# Guillaume Sorel <serviceclient@all-in-appli.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: advimport\n"
 "POT-Creation-Date: 2025-02-05 05:05+0000\n"
-"Last-Translator: Leila Fayet, 2025\n"
+"Last-Translator: Guillaume Sorel <serviceclient@all-in-appli.com>, 2025\n"
 "Language-Team: French (https://app.transifex.com/civicrm/teams/1905/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -84,21 +84,23 @@ msgstr ""
 
 #: CRM/Advimport/Advimport/GroupContactRemove.php
 msgid "Remove Contact from Group"
-msgstr ""
+msgstr "Retirer le contact du groupe"
 
 #: CRM/Advimport/Advimport/GroupContactRemove.php
 msgid ""
 "If a contact is already removed from the group or are not in the group at "
 "all, they will be ignored."
 msgstr ""
+"Si un contact est déjà retiré du groupe ou ne fait pas partie du groupe, il "
+"sera ignoré."
 
 #: CRM/Advimport/Advimport/LookupTableContact.php advimport.php
 msgid "Lookup Table to Batch Update Contacts"
-msgstr ""
+msgstr "Table de recherche pour la mise à jour par lots des contacts"
 
 #: CRM/Advimport/Advimport/LookupTableContact.php
 msgid "Old Field"
-msgstr ""
+msgstr "Ancien champ"
 
 #: CRM/Advimport/Advimport/LookupTableContact.php
 msgid "New Field"
@@ -106,15 +108,15 @@ msgstr "Nouveau Champ"
 
 #: CRM/Advimport/Advimport/LookupTableContact.php
 msgid "Match Type"
-msgstr ""
+msgstr "Type de correspondance"
 
 #: CRM/Advimport/Advimport/LookupTableContact.php
 msgid "Option Value"
-msgstr ""
+msgstr "Éléments de liste de choix"
 
 #: CRM/Advimport/Advimport/LookupTableContact.php
 msgid "Option Label"
-msgstr ""
+msgstr "Libellé de l'option"
 
 #: CRM/Advimport/Advimport/LookupTableContact.php
 msgid ""
@@ -125,22 +127,31 @@ msgid ""
 "main screen, and run the new import that will have been created (todo: one "
 "day, be more clever and automatically redirect to that step)."
 msgstr ""
+"Le type de correspondance ne s'applique qu'aux champs dont les valeurs sont "
+"prédéfinies (sélection, case à cocher, etc.). Après avoir soumis ce "
+"formulaire, un traitement fictif de la table de recherche sera effectué. Il "
+"créera également une nouvelle importation pour les données qui doivent être "
+"mises à jour. Une fois l'étape suivante terminée, revenez à l'écran "
+"principal de l'importation avancée et exécutez la nouvelle importation qui "
+"aura été créée (à faire : un jour, soyons plus intelligent et redirigeons "
+"automatiquement vers cette étape)."
 
 #: CRM/Advimport/Advimport/LookupTableContact.php
 msgid "Could not find the old_field column."
-msgstr ""
+msgstr "Impossible de trouver la colonne old_field."
 
 #: CRM/Advimport/Advimport/LookupTableContact.php
 msgid "Could not find the new_field column."
-msgstr ""
+msgstr "Impossible de trouver la colonne new_field."
 
 #: CRM/Advimport/Advimport/LookupTableContactProcess.php
 msgid "Lookup Table to Batch Update Contacts - Processor"
 msgstr ""
+"Table de recherche pour la mise à jour par lots des contacts - Processeur"
 
 #: CRM/Advimport/Advimport/LookupTableContactProcess.php
 msgid "New value not found in the lookup table"
-msgstr ""
+msgstr "Nouvelle valeur non trouvée dans la table de recherche"
 
 #: CRM/Advimport/Advimport/MembershipsAndContributions.php advimport.php
 msgid "Memberships and Contributions"
@@ -470,7 +481,7 @@ msgstr "Le fichier doit être de type ODS (LibreOffice), XLSX (Excel) ou CSV."
 
 #: CRM/Advimport/Helper/ReportBatchUpdate.php
 msgid "Report Batch Update"
-msgstr ""
+msgstr "Mise à jour du rapport par lot"
 
 #: CRM/Advimport/Helper/SearchBatchUpdate.php
 msgid "Batch Update"
@@ -608,11 +619,11 @@ msgstr "Entités APIv3"
 
 #: advimport.php
 msgid "Groups - Add Contact to Group"
-msgstr ""
+msgstr "Groupes - Ajouter le contact au groupe"
 
 #: advimport.php
 msgid "Groups - Remove Contact from Group"
-msgstr ""
+msgstr "Groupes - Retirer le contact du groupe"
 
 #: advimport.php
 msgid "Stripe Subscriptions - experimental"
