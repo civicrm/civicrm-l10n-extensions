@@ -20,7 +20,7 @@ msgstr "Kodun süresi dolmuş."
 
 #: ./CRM/Afform/Page/Verify.php
 msgid "An error occurred when processing the token."
-msgstr ""
+msgstr "Kod işlenirken bir sorun çıktı."
 
 #: ./Civi/Afform/AfformMetadataInjector.php
 msgid "Select"
@@ -60,7 +60,7 @@ msgstr "Görüntülenen kişi"
 
 #: ./Civi/Afform/Behavior/ContactAutofill.php
 msgid "For use on the contact summary page"
-msgstr ""
+msgstr "Kişi özeti sayfasında kullanmak için"
 
 #: ./Civi/Afform/Behavior/ContactDedupe.php
 msgid "Duplicate Matching"
@@ -76,11 +76,11 @@ msgstr ""
 
 #: ./Civi/Afform/Behavior/GroupSubscription.php
 msgid "Email Verification"
-msgstr ""
+msgstr "E-posta adresi doğrulama"
 
 #: ./Civi/Afform/Behavior/GroupSubscription.php
 msgid "Email verification is not available because CiviMail is disabled."
-msgstr ""
+msgstr "CiviMail etkin olmadığından e-posta adresi doğrulaması kullanılamaz."
 
 #: ./Civi/Afform/Behavior/GroupSubscription.php
 msgid ""
@@ -88,22 +88,25 @@ msgid ""
 "subscription (recommended for public forms, requires an email input on the "
 "form)."
 msgstr ""
+"Aboneliklerini onaylamaları için bir bağlantı göndererek kişinin e-posta "
+"adresini doğrulayın (herkese açık formlar için önerilir, formda bir e-posta "
+"alanı olması gerekir)."
 
 #: ./Civi/Afform/Behavior/GroupSubscription.php
 msgid "Send Confirmation Email"
-msgstr ""
+msgstr "Onay e-postası gönderilsin"
 
 #: ./Civi/Afform/Behavior/GroupSubscription.php
 msgid "Double opt-in for sign up"
-msgstr ""
+msgstr "Hesap açılışı için çift abone olma"
 
 #: ./Civi/Afform/Behavior/GroupSubscription.php
 msgid "No Confirmation"
-msgstr ""
+msgstr "Onay yok"
 
 #: ./Civi/Afform/Behavior/GroupSubscription.php
 msgid "Contact added to group immediately"
-msgstr ""
+msgstr "Kişi gruba hemen eklendi"
 
 #: ./Civi/Afform/FormDataModel.php
 msgid "Existing %1"
@@ -131,15 +134,15 @@ msgstr "%1 (tam bağlantı)"
 
 #: ./Civi/Afform/Tokens.php
 msgid "Validate Submission URL"
-msgstr ""
+msgstr "Gönderim adresini doğrula"
 
 #: ./Civi/Afform/Tokens.php
 msgid "Validate Submission (Full Hyperlink)"
-msgstr ""
+msgstr "Gönderimi doğrula (tam bağlantı)"
 
 #: ./Civi/Afform/Tokens.php
 msgid "verify your email address"
-msgstr ""
+msgstr "e-posta adresinizi doğrulayın"
 
 #: ./Civi/Afform/Utils.php
 msgid "Contains"
@@ -191,15 +194,15 @@ msgstr "Hayır"
 
 #: ./Civi/Api4/Action/Afform/AbstractProcessor.php
 msgid "You do not have permission to submit this form"
-msgstr ""
+msgstr "Bu formu gönderme izniniz yok"
 
 #: ./Civi/Api4/Action/Afform/AbstractProcessor.php
 msgid "This form is not currently open for submissions."
-msgstr ""
+msgstr "Bu form şu anda gönderimlere açık değil."
 
 #: ./Civi/Api4/Action/Afform/Submit.php
 msgid "Submission is already processed."
-msgstr ""
+msgstr "Gönderim zaten yapılıyor."
 
 #: ./Civi/Api4/Action/Afform/Submit.php
 msgid "Validation Error"
@@ -213,7 +216,7 @@ msgstr "%1 alanının doldurulması zorunludur"
 
 #: ./Civi/Api4/Action/Afform/Submit.php
 msgid "%1 has a max length of %2."
-msgstr ""
+msgstr "%1, en fazla %2 uzunluğunda."
 
 #: ./Civi/Api4/Action/Afform/Submit.php
 msgid "Illegal value for %1."
@@ -225,11 +228,11 @@ msgstr "%1 blok"
 
 #: ./Civi/Api4/Action/CustomGroup/GetAfforms.php
 msgid "View %1"
-msgstr "%1 görüntüleme"
+msgstr "%1 görüntüle"
 
 #: ./Civi/Api4/Action/CustomGroup/GetAfforms.php
 msgid "Update %1"
-msgstr "%1 güncelleme"
+msgstr "%1 güncelle"
 
 #: ./Civi/Api4/Action/CustomGroup/GetAfforms.php
 msgid "Add %1"
@@ -237,7 +240,7 @@ msgstr "%1 ekle"
 
 #: ./Civi/Api4/Action/CustomGroup/GetAfforms.php
 msgid "%1 tab display for %2"
-msgstr ""
+msgstr "%2 için %1 sekme görünümü"
 
 #: ./Civi/Api4/Afform.php
 msgid "Name"
@@ -249,15 +252,15 @@ msgstr "Tür"
 
 #: ./Civi/Api4/Afform.php
 msgid "Requires"
-msgstr ""
+msgstr "Gerekli"
 
 #: ./Civi/Api4/Afform.php
 msgid "Block Entity"
-msgstr ""
+msgstr "Engellenecek varlık"
 
 #: ./Civi/Api4/Afform.php
 msgid "Join Entity"
-msgstr ""
+msgstr "Katılınacak varlık"
 
 #: ./Civi/Api4/Afform.php
 msgid "Title"
@@ -277,7 +280,7 @@ msgstr "Etiketler"
 
 #: ./Civi/Api4/Afform.php
 msgid "Summary Contact Type"
-msgstr ""
+msgstr "Özet kişisi türü"
 
 #: ./Civi/Api4/Afform.php
 msgid "Order"
@@ -293,7 +296,7 @@ msgstr "Sayfa yolu"
 
 #: ./Civi/Api4/Afform.php
 msgid "Is Public"
-msgstr ""
+msgstr "Herkese açık"
 
 #: ./Civi/Api4/Afform.php
 msgid "Permission"
@@ -301,7 +304,7 @@ msgstr "İzin"
 
 #: ./Civi/Api4/Afform.php
 msgid "Permission Operator"
-msgstr ""
+msgstr "İzin işlemi"
 
 #: ./Civi/Api4/Afform.php
 msgid "Post-Submit Page"
@@ -309,11 +312,11 @@ msgstr "Gönderim sonrası sayfası"
 
 #: ./Civi/Api4/Afform.php
 msgid "Allow Submissions"
-msgstr ""
+msgstr "Gönderim yapılabilsin"
 
 #: ./Civi/Api4/Afform.php
 msgid "Maximum Submissions"
-msgstr ""
+msgstr "En fazla gönderim sayısı"
 
 #: ./Civi/Api4/Afform.php
 msgid "Log Submissions"
@@ -327,23 +330,24 @@ msgstr ""
 
 #: ./Civi/Api4/Afform.php
 msgid "Autosave Draft"
-msgstr ""
+msgstr "Taslak otomatik kaydedilsin"
 
 #: ./Civi/Api4/Afform.php
 msgid "For authenticated users, form will auto-save periodically."
 msgstr ""
+"Kimliği doğrulanmış kullanıcılar için form düzenli aralıklarla kaydedilir."
 
 #: ./Civi/Api4/Afform.php
 msgid "Navigation Menu"
-msgstr ""
+msgstr "Gezinme menüsü"
 
 #: ./Civi/Api4/Afform.php
 msgid "Layout"
-msgstr "Düzen"
+msgstr "Yerleşim"
 
 #: ./Civi/Api4/Afform.php
 msgid "Date Modified"
-msgstr ""
+msgstr "Değiştirilme tarihi"
 
 #: ./afform.php
 msgid "(Untitled)"
