@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Civixero\n"
-"POT-Creation-Date: 2025-05-06 09:04+0000\n"
+"POT-Creation-Date: 2025-06-16 09:01+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2025\n"
 "Language-Team: Turkish (https://app.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -192,7 +192,7 @@ msgstr "Bağlayıcı kimliği"
 msgid "Connector ID if using nz.co.fuzion.connectors, else 0"
 msgstr "nz.co.fuzion.connectors kullanılıyorsa bağlayıcı kimliği, yoksa 0"
 
-#: api/v3/Civixero/Contactpull.php
+#: api/v3/Civixero/Contactpull.php api/v3/Civixero/Invoicepull.php
 msgid "Xero Contact ID"
 msgstr "Xero kişi kimliği"
 
@@ -215,6 +215,12 @@ msgstr "Xero fatura kimliği"
 #: api/v3/Civixero/Invoicepull.php
 msgid "Specify Xero Invoice UUID to retrieve a single contribution record"
 msgstr "Tek bir katkı kaydının alınacağı Xero faturası UUID değerini belirtin"
+
+#: api/v3/Civixero/Invoicepull.php
+msgid "Specify Xero Contact UUID to retrieve invoices for that Xero Contact"
+msgstr ""
+"Bu Xero kişisinin faturalarını almak için Xero Contact UUID değerini "
+"belirtin"
 
 #: api/v3/Civixero/Invoicepull.php
 msgid "Create contributions in CiviCRM if they don't exist"
