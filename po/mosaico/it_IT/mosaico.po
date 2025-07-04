@@ -4,7 +4,6 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # simo0082 <simone.piazza@gmail.com>, 2022
-# Dario Crespi <dario.crespi@gmail.com>, 2022
 # Samuele Masetto <samuele.masetto@perora.it>, 2023
 # Francesco Garganese <francesco.garganese@aeromnia.aero>, 2024
 # Marco Mercinelli <marco.mercinelli@gmail.com>, 2024
@@ -12,7 +11,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mosaico\n"
-"POT-Creation-Date: 2024-03-02 05:01+0000\n"
+"POT-Creation-Date: 2025-07-04 09:01+0000\n"
 "Last-Translator: Marco Mercinelli <marco.mercinelli@gmail.com>, 2024\n"
 "Language-Team: Italian (https://app.transifex.com/civicrm/teams/1905/it/)\n"
 "MIME-Version: 1.0\n"
@@ -20,152 +19,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
-
-#: CRM/Mosaico/DAO/MessageTemplate.php
-msgid "Mosaico Message Templates"
-msgstr ""
-
-#: CRM/Mosaico/DAO/MessageTemplate.php
-msgid "Mosaico Message Template"
-msgstr ""
-
-#: CRM/Mosaico/DAO/MessageTemplate.php CRM/Mosaico/DAO/MosaicoTemplate.php
-msgid "ID"
-msgstr "ID"
-
-#: CRM/Mosaico/DAO/MessageTemplate.php
-msgid "Unique Settings ID"
-msgstr ""
-
-#: CRM/Mosaico/DAO/MessageTemplate.php CRM/Mosaico/DAO/MosaicoTemplate.php
-msgid "message template ID"
-msgstr ""
-
-#: CRM/Mosaico/DAO/MessageTemplate.php CRM/Mosaico/DAO/MosaicoTemplate.php
-msgid "FK to civicrm_msg_template."
-msgstr ""
-
-#: CRM/Mosaico/DAO/MessageTemplate.php
-msgid "hash_key"
-msgstr ""
-
-#: CRM/Mosaico/DAO/MessageTemplate.php
-msgid "name"
-msgstr "nome"
-
-#: CRM/Mosaico/DAO/MessageTemplate.php CRM/Mosaico/DAO/MosaicoTemplate.php
-msgid "HTML"
-msgstr "HTML"
-
-#: CRM/Mosaico/DAO/MessageTemplate.php CRM/Mosaico/DAO/MosaicoTemplate.php
-msgid "metadata"
-msgstr ""
-
-#: CRM/Mosaico/DAO/MessageTemplate.php
-msgid "template"
-msgstr ""
-
-#: CRM/Mosaico/DAO/MosaicoTemplate.php managed/Navigation_mosaico.mgd.php
-msgid "Mosaico Templates"
-msgstr ""
-
-#: CRM/Mosaico/DAO/MosaicoTemplate.php
-msgid "Mosaico Template"
-msgstr ""
-
-#: CRM/Mosaico/DAO/MosaicoTemplate.php
-msgid "Unique Template ID"
-msgstr ""
-
-#: CRM/Mosaico/DAO/MosaicoTemplate.php
-#: ang/crmMosaico/CreateFromBaseTemplate.html api/v3/MosaicoBaseTemplate.php
-msgid "Title"
-msgstr "Titolo"
-
-#: CRM/Mosaico/DAO/MosaicoTemplate.php ang/crmMosaico/BlockDesign.js
-#: ang/crmMosaico/CreateFromBaseTemplate.html ang/crmMosaico/Templates.js
-msgid "Base Template"
-msgstr ""
-
-#: CRM/Mosaico/DAO/MosaicoTemplate.php
-msgid "Name of the Mosaico base template (e.g. versafix-1)"
-msgstr ""
-
-#: CRM/Mosaico/DAO/MosaicoTemplate.php
-msgid "Fully renderd HTML"
-msgstr ""
-
-#: CRM/Mosaico/DAO/MosaicoTemplate.php
-msgid "Mosaico metadata (JSON)"
-msgstr ""
-
-#: CRM/Mosaico/DAO/MosaicoTemplate.php
-msgid "Content"
-msgstr ""
-
-#: CRM/Mosaico/DAO/MosaicoTemplate.php
-msgid "Mosaico content (JSON)"
-msgstr ""
-
-#: CRM/Mosaico/DAO/MosaicoTemplate.php
-msgid "Category ID"
-msgstr ""
-
-#: CRM/Mosaico/DAO/MosaicoTemplate.php
-msgid ""
-"ID of the category this mailing template is currently belongs. Foreign key "
-"to civicrm_option_value."
-msgstr ""
-
-#: CRM/Mosaico/DAO/MosaicoTemplate.php
-#: ang/crmMosaico/CreateFromBaseTemplate.html
-msgid "Category"
-msgstr ""
-
-#: CRM/Mosaico/DAO/MosaicoTemplate.php
-msgid "Domain ID"
-msgstr ""
-
-#: CRM/Mosaico/DAO/MosaicoTemplate.php
-msgid "Domain ID this message template belongs to."
-msgstr ""
-
-#: CRM/Mosaico/Form/Migrate.php
-msgid "Are you sure want to copy data from Mosaico 1.x to 2.x?"
-msgstr ""
-
-#: CRM/Mosaico/Form/Migrate.php
-msgid "This action cannot be easily undone."
-msgstr ""
-
-#: CRM/Mosaico/Form/Migrate.php
-msgid "Are you sure want to purge Mosaico 1.x data?"
-msgstr ""
-
-#: CRM/Mosaico/Form/Migrate.php
-msgid "This action cannot be undone."
-msgstr "Questa operazione non può essere annullata."
-
-#: CRM/Mosaico/Form/Migrate.php ang/crmMosaico/SearchTemplateListButtons.html
-#: ang/crmMosaico/TemplateItem.html
-msgid "Copy"
-msgstr "Copia"
-
-#: CRM/Mosaico/Form/Migrate.php
-msgid "Purge"
-msgstr ""
-
-#: CRM/Mosaico/Form/Migrate.php
-msgid "Copied %1 templates from Mosaico 1.x to 2.x."
-msgstr ""
-
-#: CRM/Mosaico/Form/Migrate.php
-msgid "Purged invisible Mosaico 1.x data."
-msgstr ""
-
-#: CRM/Mosaico/Form/Migrate.php
-msgid "Unrecognized action"
-msgstr ""
 
 #: CRM/Mosaico/Utils.php
 msgid "Automatically select a layout"
@@ -263,6 +116,11 @@ msgstr "Caricamento..."
 msgid "Preview / Test"
 msgstr ""
 
+#: ang/crmMosaico/BlockDesign.js ang/crmMosaico/CreateFromBaseTemplate.html
+#: ang/crmMosaico/Templates.js schema/MosaicoTemplate.entityType.php
+msgid "Base Template"
+msgstr ""
+
 #: ang/crmMosaico/BlockMailing.html
 msgid "Mailing Name"
 msgstr ""
@@ -281,10 +139,6 @@ msgstr "Da"
 
 #: ang/crmMosaico/BlockMailing.html
 msgid "Reply-To"
-msgstr ""
-
-#: ang/crmMosaico/BlockMailing.html
-msgid "Email address"
 msgstr ""
 
 #: ang/crmMosaico/BlockMailing.html
@@ -411,6 +265,16 @@ msgstr ""
 msgid "mosaico"
 msgstr "mosaico"
 
+#: ang/crmMosaico/CreateFromBaseTemplate.html api/v3/MosaicoBaseTemplate.php
+#: schema/MosaicoTemplate.entityType.php
+msgid "Title"
+msgstr "Titolo"
+
+#: ang/crmMosaico/CreateFromBaseTemplate.html
+#: schema/MosaicoTemplate.entityType.php
+msgid "Category"
+msgstr ""
+
 #: ang/crmMosaico/CreateFromBaseTemplate.html
 msgid "Select"
 msgstr "Seleziona"
@@ -508,6 +372,14 @@ msgstr ""
 msgid "Continue"
 msgstr "Continua"
 
+#: ang/crmMosaico/FromList.html
+msgid "Add alternate 'From'"
+msgstr ""
+
+#: ang/crmMosaico/FromList.html
+msgid "Remove alternate 'From'"
+msgstr ""
+
 #: ang/crmMosaico/MixinCtrl.js
 msgid "Design (A)"
 msgstr ""
@@ -523,6 +395,18 @@ msgstr ""
 #: ang/crmMosaico/PreviewDialogCtrl.js
 msgid "Saving..."
 msgstr "Salvataggio..."
+
+#: ang/crmMosaico/ReplyToList.html
+msgid "Email address"
+msgstr ""
+
+#: ang/crmMosaico/ReplyToList.html
+msgid "Add alternate 'Reply-To'"
+msgstr ""
+
+#: ang/crmMosaico/ReplyToList.html
+msgid "Remove alternate 'Reply-To'"
+msgstr ""
 
 #: ang/crmMosaico/SearchTemplateCreateButton.component.js
 #: ang/crmMosaico/SearchTemplateListButtons.component.js
@@ -553,12 +437,17 @@ msgstr "Cancellato"
 msgid "Edit"
 msgstr "Modifica"
 
+#: ang/crmMosaico/SearchTemplateListButtons.html
+#: ang/crmMosaico/TemplateItem.html
+msgid "Copy"
+msgstr "Copia"
+
 #: ang/crmMosaico/SubjectList.html
-msgid "Add subject"
+msgid "Add alternate 'Subject'"
 msgstr ""
 
 #: ang/crmMosaico/SubjectList.html
-msgid "Remove subject"
+msgid "Remove alternate 'Subject'"
 msgstr ""
 
 #: ang/crmMosaico/TemplateItem.html
@@ -589,7 +478,7 @@ msgstr "Salvataggio"
 msgid "Saved"
 msgstr "Salvato"
 
-#: api/v3/MosaicoBaseTemplate.php templates/CRM/Mosaico/Form/Migrate.tpl
+#: api/v3/MosaicoBaseTemplate.php
 msgid "Name"
 msgstr "Nome"
 
@@ -604,6 +493,10 @@ msgstr ""
 #: managed/Navigation_mosaico.mgd.php
 msgid "New Mailing (Traditional)"
 msgstr "Nuovo mailing (tradizionale)"
+
+#: managed/Navigation_mosaico.mgd.php schema/MosaicoTemplate.entityType.php
+msgid "Mosaico Templates"
+msgstr ""
 
 #: managed/Navigation_mosaico.mgd.php
 msgid "Mosaico Settings"
@@ -685,16 +578,6 @@ msgid "Incorrect image upload url"
 msgstr ""
 
 #: mosaico.php
-msgid ""
-"Found %1 template(s) from CiviCRM-Mosaico v1.x. Use the <a "
-"href=\"%2\">Migration Assistant</a> to load them in v2.x."
-msgstr ""
-
-#: mosaico.php
-msgid "Mosaico: Migrate templates (1.x => 2.x)"
-msgstr ""
-
-#: mosaico.php
 msgid "%1 not writable or configured."
 msgstr ""
 
@@ -711,7 +594,87 @@ msgid "THUMBNAILS_DIR not writable or configured"
 msgstr ""
 
 #: mosaico.php
+msgid "Mosaico"
+msgstr ""
+
+#: mosaico.php
+msgid ""
+"Drag and drop template-based editor creates responsive emails that look "
+"great on all devices."
+msgstr ""
+
+#: mosaico.php
 msgid "Email - schedule/send via CiviMail (traditional)"
+msgstr ""
+
+#: schema/MosaicoTemplate.entityType.php
+msgid "Mosaico Template"
+msgstr ""
+
+#: schema/MosaicoTemplate.entityType.php
+msgid "Standalone Mosaico Template"
+msgstr ""
+
+#: schema/MosaicoTemplate.entityType.php
+msgid "ID"
+msgstr "ID"
+
+#: schema/MosaicoTemplate.entityType.php
+msgid "Unique Template ID"
+msgstr ""
+
+#: schema/MosaicoTemplate.entityType.php
+msgid "Name of the Mosaico base template (e.g. versafix-1)"
+msgstr ""
+
+#: schema/MosaicoTemplate.entityType.php
+msgid "HTML"
+msgstr "HTML"
+
+#: schema/MosaicoTemplate.entityType.php
+msgid "Fully renderd HTML"
+msgstr ""
+
+#: schema/MosaicoTemplate.entityType.php
+msgid "metadata"
+msgstr ""
+
+#: schema/MosaicoTemplate.entityType.php
+msgid "Mosaico metadata (JSON)"
+msgstr ""
+
+#: schema/MosaicoTemplate.entityType.php
+msgid "Content"
+msgstr ""
+
+#: schema/MosaicoTemplate.entityType.php
+msgid "Mosaico content (JSON)"
+msgstr ""
+
+#: schema/MosaicoTemplate.entityType.php
+msgid "message template ID"
+msgstr ""
+
+#: schema/MosaicoTemplate.entityType.php
+msgid "FK to civicrm_msg_template."
+msgstr ""
+
+#: schema/MosaicoTemplate.entityType.php
+msgid "Category ID"
+msgstr ""
+
+#: schema/MosaicoTemplate.entityType.php
+msgid ""
+"ID of the category this mailing template is currently belongs. Foreign key "
+"to civicrm_option_value."
+msgstr ""
+
+#: schema/MosaicoTemplate.entityType.php
+msgid "Domain ID"
+msgstr ""
+
+#: schema/MosaicoTemplate.entityType.php
+msgid "Domain ID this message template belongs to."
 msgstr ""
 
 #: settings/Mosaico.setting.php
@@ -771,117 +734,6 @@ msgstr ""
 
 #: settings/Mosaico.setting.php
 msgid "Mosaico hotlist tokens"
-msgstr ""
-
-#: templates/CRM/Mosaico/Form/Migrate.tpl
-msgid "Your system appears to be current. There are no templates to migrate."
-msgstr ""
-
-#: templates/CRM/Mosaico/Form/Migrate.tpl
-msgid "Introduction"
-msgstr "Introduzione"
-
-#: templates/CRM/Mosaico/Form/Migrate.tpl
-msgid ""
-"In CiviCRM-Mosaico v1.x, the Mosaico editor integrates "
-"<strong>indirectly</strong> with CiviMail. Each Mosaico template is mapped "
-"to a CiviCRM <em>Message Template</em> (which may be loaded into CiviMail)."
-msgstr ""
-
-#: templates/CRM/Mosaico/Form/Migrate.tpl
-msgid ""
-"This allows the template to be used in many different ways, but the "
-"indirection leads to some user-experiences quirks."
-msgstr ""
-
-#: templates/CRM/Mosaico/Form/Migrate.tpl
-msgid ""
-"In CiviCRM-Mosaico v2.x, the Mosaico editor integrates "
-"<strong>directly</strong> with CiviMail."
-msgstr ""
-
-#: templates/CRM/Mosaico/Form/Migrate.tpl
-msgid ""
-"This provides a more consistent user-experience, but it changes the data-"
-"structure, and it sacrifices some flexibility."
-msgstr ""
-
-#: templates/CRM/Mosaico/Form/Migrate.tpl
-msgid ""
-"This migration assistant will help you move templates from v1.x in v2.x."
-msgstr ""
-
-#: templates/CRM/Mosaico/Form/Migrate.tpl
-msgid ""
-"<strong>Tip</strong>: If you would still like to use <em>Message "
-"Templates</em> in v2.x, please visit <a href=\"%1\" "
-"target=\"_blank\">%1</a>."
-msgstr ""
-
-#: templates/CRM/Mosaico/Form/Migrate.tpl
-msgid "Template Summary"
-msgstr ""
-
-#: templates/CRM/Mosaico/Form/Migrate.tpl
-msgid "Mosaico 1.x Templates"
-msgstr ""
-
-#: templates/CRM/Mosaico/Form/Migrate.tpl
-msgid "1.x ID"
-msgstr ""
-
-#: templates/CRM/Mosaico/Form/Migrate.tpl
-msgid "Message Template ID"
-msgstr ""
-
-#: templates/CRM/Mosaico/Form/Migrate.tpl
-msgid "No templates found"
-msgstr ""
-
-#: templates/CRM/Mosaico/Form/Migrate.tpl
-msgid "Mosaico 2.x Templates"
-msgstr ""
-
-#: templates/CRM/Mosaico/Form/Migrate.tpl
-msgid "Manage"
-msgstr ""
-
-#: templates/CRM/Mosaico/Form/Migrate.tpl
-msgid "2.x ID"
-msgstr ""
-
-#: templates/CRM/Mosaico/Form/Migrate.tpl
-msgid ""
-"<strong>WARNING</strong>: Some <em>Message Templates</em> are mapped to "
-"multiple <em>Mosaico Templates</em>!"
-msgstr ""
-
-#: templates/CRM/Mosaico/Form/Migrate.tpl
-msgid "If you setup synchronization, this could cause problems."
-msgstr ""
-
-#: templates/CRM/Mosaico/Form/Migrate.tpl
-msgid "Suggested Process"
-msgstr ""
-
-#: templates/CRM/Mosaico/Form/Migrate.tpl
-msgid ""
-"<u>Copy</u>: Use this Migration Assistant to <em>copy</em> every template "
-"from Mosaico v1.x to v2.x. This will let you continue using your old "
-"templates."
-msgstr ""
-
-#: templates/CRM/Mosaico/Form/Migrate.tpl
-msgid ""
-"<u>Evaluate</u>: Use the new system for a while. If you don't like it, you "
-"can downgrade."
-msgstr ""
-
-#: templates/CRM/Mosaico/Form/Migrate.tpl
-msgid ""
-"<u>Purge</u>: Use this Migration Assistant to <em>purge</em> all the old "
-"templates from v1.x. This removes any in-app notices about the migration "
-"process."
 msgstr ""
 
 #: templates/CRM/Mosaico/Page/EditorIframe.tpl
