@@ -3,14 +3,14 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Torben Bertram, 2021
-# Mathieu Lu <mathieu@bidon.ca>, 2022
+# Mathieu Lu <mathieu@bidon.ca>, 2025
+# Torben Bertram, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: eWAYRecurring\n"
-"POT-Creation-Date: 2023-12-15 05:01+0000\n"
-"Last-Translator: Mathieu Lu <mathieu@bidon.ca>, 2022\n"
+"POT-Creation-Date: 2025-07-23 09:01+0000\n"
+"Last-Translator: Torben Bertram, 2025\n"
 "Language-Team: German (https://app.transifex.com/civicrm/teams/1905/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -74,38 +74,6 @@ msgstr ""
 msgid "Attempted to update billing details for a cancelled contribution."
 msgstr ""
 
-#: CRM/eWAYRecurring/DAO/EwayContributionTransactions.php
-msgid "Unique EwayContributionTransactions ID"
-msgstr ""
-
-#: CRM/eWAYRecurring/DAO/EwayContributionTransactions.php
-msgid "FK to Contribution"
-msgstr ""
-
-#: CRM/eWAYRecurring/DAO/EwayContributionTransactions.php
-msgid "FK to PaymentProcessor"
-msgstr ""
-
-#: CRM/eWAYRecurring/DAO/EwayContributionTransactions.php
-msgid "Access Code"
-msgstr ""
-
-#: CRM/eWAYRecurring/DAO/EwayContributionTransactions.php
-msgid "Failed Message"
-msgstr ""
-
-#: CRM/eWAYRecurring/DAO/EwayContributionTransactions.php
-msgid "Status"
-msgstr "Status"
-
-#: CRM/eWAYRecurring/DAO/EwayContributionTransactions.php
-msgid "Tries"
-msgstr ""
-
-#: CRM/eWAYRecurring/DAO/EwayContributionTransactions.php
-msgid "Send email?"
-msgstr ""
-
 #: CRM/eWAYRecurring/Form/Settings.php
 msgid "Submit"
 msgstr "Abschicken"
@@ -139,23 +107,11 @@ msgid ""
 msgstr ""
 
 #: eWAYRecurring.php
-msgid "Next Scheduled Date"
-msgstr ""
-
-#: eWAYRecurring.php
 msgid "API Key is a required field."
 msgstr ""
 
 #: eWAYRecurring.php
 msgid "API Password is a required field."
-msgstr ""
-
-#: eWAYRecurring.php
-msgid "Cannot schedule next contribution date before latest received date"
-msgstr ""
-
-#: eWAYRecurring.php
-msgid "Cannot schedule next contribution in the past"
 msgstr ""
 
 #: eWAYRecurring.php
@@ -206,4 +162,64 @@ msgstr ""
 
 #: js/eway.js
 msgid "eWAY Error"
+msgstr ""
+
+#: schema/EwayContributionTransactions.entityType.php
+msgid "Eway Contribution Transactions"
+msgstr ""
+
+#: schema/EwayContributionTransactions.entityType.php
+msgid "Eway Contribution Transactionses"
+msgstr ""
+
+#: schema/EwayContributionTransactions.entityType.php
+msgid "FIXME"
+msgstr ""
+
+#: schema/EwayContributionTransactions.entityType.php
+msgid "ID"
+msgstr "ID"
+
+#: schema/EwayContributionTransactions.entityType.php
+msgid "Unique EwayContributionTransactions ID"
+msgstr ""
+
+#: schema/EwayContributionTransactions.entityType.php
+msgid "Contribution ID"
+msgstr "Zuwendungs-ID"
+
+#: schema/EwayContributionTransactions.entityType.php
+msgid "FK to Contribution"
+msgstr ""
+
+#: schema/EwayContributionTransactions.entityType.php
+msgid "Payment Processor ID"
+msgstr "Zahlungsprozessor-ID"
+
+#: schema/EwayContributionTransactions.entityType.php
+msgid "FK to PaymentProcessor"
+msgstr ""
+
+#: schema/EwayContributionTransactions.entityType.php
+msgid "Access Code"
+msgstr ""
+
+#: schema/EwayContributionTransactions.entityType.php
+msgid "Failed Message"
+msgstr ""
+
+#: schema/EwayContributionTransactions.entityType.php
+msgid "Status"
+msgstr "Status"
+
+#: schema/EwayContributionTransactions.entityType.php
+msgid "Tries"
+msgstr ""
+
+#: schema/EwayContributionTransactions.entityType.php
+msgid "Is Email Receipt"
+msgstr ""
+
+#: schema/EwayContributionTransactions.entityType.php
+msgid "Should CRM send receipt email when payment completed?"
 msgstr ""
