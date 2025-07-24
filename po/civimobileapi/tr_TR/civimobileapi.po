@@ -518,7 +518,7 @@ msgstr "Model"
 #: CRM/CiviMobileAPI/Form/CiviAiSettings.php
 #: templates/CRM/CiviMobileAPI/Form/CiviAiSettings.hlp
 msgid "API URL"
-msgstr ""
+msgstr "API adresi"
 
 #: CRM/CiviMobileAPI/Form/CiviAiSettings.php
 #: CRM/CiviMobileAPI/Form/Settings.php
@@ -1849,12 +1849,18 @@ msgid ""
 "Enter the secret API key provided by your chosen AI service. This key is "
 "used to authenticate your requests to the AI provider."
 msgstr ""
+"Seçtiğiniz yapay zeka hizmeti tarafından verilen gizli API anahtarını yazın."
+" Bu anahtar, yapay zeka hizmeti sağlayıcısına yapacağınız istekleri "
+"doğrulamak için kullanılır."
 
 #: templates/CRM/CiviMobileAPI/Form/CiviAiSettings.hlp
 msgid ""
 "Specify the AI model you wish to use (e.g., gpt-4o-mini, claude-3-opus). "
 "Refer to your AI provider's documentation for available model names."
 msgstr ""
+"Kullanmak istediğiniz yapay zeka modelini belirtin (gpt-4o-mini, "
+"claude-3-opus gibi). Kullanılabilecek model adlarını görmek için yapay zeka "
+"hizmeti sağlayıcınızın belgelerine bakın."
 
 #: templates/CRM/CiviMobileAPI/Form/CiviAiSettings.hlp
 msgid ""
@@ -1865,6 +1871,12 @@ msgid ""
 "here. If left empty, the system will default to the OpenAI API URL: "
 "https://api.openai.com/v1/chat/completions."
 msgstr ""
+"Yapay zeka hizmetinizin API uç noktası adresini yazın. Bu adres, OpenAI API "
+"yapısıyla uyumlu bir API uygulamasını göstermelidir (örneğin, benzer istek "
+"ve yanıt biçimlerini desteklemelidir). Kendinizin barındırdığı bir çözüm "
+"veya OpenAI dışında bir hizmet sağlayıcı kullanıyorsanız, adresi tam olarak "
+"buraya yazın. Boş bırakılırsa, sistem varsayılanı olan OpenAI API adresi "
+"kullanılır: https://api.openai.com/v1/chat/completions."
 
 #: templates/CRM/CiviMobileAPI/Form/EventLocations.tpl
 msgid "Locations"
@@ -2210,7 +2222,7 @@ msgstr "Lütfen açıklamanız oluşturulurken bekleyin"
 
 #: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
 msgid "Unable to generate text. Contact Administer to resolve this."
-msgstr ""
+msgstr "Yazı oluşturulamadı. Bu sorunu çözmek için yönetici ile görüşün."
 
 #: templates/CRM/CiviMobileAPI/popup.tpl
 msgid "Open Qr Code"
