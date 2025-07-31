@@ -476,6 +476,8 @@ msgid ""
 "CiviCalendar and CiviMobile calendar are  synchronized! You can change "
 "settings in <a %1>CiviCalendar Settings</a>"
 msgstr ""
+"CiviCalendar and CiviMobile calendars are synchronised! You can change "
+"settings in <a %1>CiviCalendar Settings</a>"
 
 #: CRM/CiviMobileAPI/Form/CalendarSettings.php
 msgid "Submit"
@@ -514,7 +516,7 @@ msgstr "Model"
 #: CRM/CiviMobileAPI/Form/CiviAiSettings.php
 #: templates/CRM/CiviMobileAPI/Form/CiviAiSettings.hlp
 msgid "API URL"
-msgstr ""
+msgstr "API URL"
 
 #: CRM/CiviMobileAPI/Form/CiviAiSettings.php
 #: CRM/CiviMobileAPI/Form/Settings.php
@@ -1247,51 +1249,51 @@ msgstr "User input"
 
 #: Civi/CiviMobileAPI/PushNotification/Entity/ActivityPushNotification.php
 msgid "has created activity."
-msgstr ""
+msgstr "has created activity."
 
 #: Civi/CiviMobileAPI/PushNotification/Entity/ActivityPushNotification.php
 msgid "has edited activity."
-msgstr ""
+msgstr "has edited activity."
 
 #: Civi/CiviMobileAPI/PushNotification/Entity/ActivityPushNotification.php
 msgid "has deleted activity."
-msgstr ""
+msgstr "has deleted activity."
 
 #: Civi/CiviMobileAPI/PushNotification/Entity/CasePushNotification.php
 msgid "has created case."
-msgstr ""
+msgstr "has created case."
 
 #: Civi/CiviMobileAPI/PushNotification/Entity/CasePushNotification.php
 msgid "has edited case."
-msgstr ""
+msgstr "has edited case."
 
 #: Civi/CiviMobileAPI/PushNotification/Entity/CasePushNotification.php
 msgid "has deleted case."
-msgstr ""
+msgstr "has deleted case."
 
 #: Civi/CiviMobileAPI/PushNotification/Entity/ParticipantPushNotification.php
 msgid "has created participant."
-msgstr ""
+msgstr "has created participant."
 
 #: Civi/CiviMobileAPI/PushNotification/Entity/ParticipantPushNotification.php
 msgid "has edited your event's participation."
-msgstr ""
+msgstr "has edited your event's participation."
 
 #: Civi/CiviMobileAPI/PushNotification/Entity/ParticipantPushNotification.php
 msgid "has deleted you from event."
-msgstr ""
+msgstr "has deleted you from event."
 
 #: Civi/CiviMobileAPI/PushNotification/Entity/RelationshipPushNotification.php
 msgid "has created relationship."
-msgstr ""
+msgstr "has created relationship."
 
 #: Civi/CiviMobileAPI/PushNotification/Entity/RelationshipPushNotification.php
 msgid "has edited relationship."
-msgstr ""
+msgstr "has edited relationship."
 
 #: Civi/CiviMobileAPI/PushNotification/Entity/RelationshipPushNotification.php
 msgid "has deleted relationship."
-msgstr ""
+msgstr "has deleted relationship."
 
 #: api/v3/CiviMobileActiveRelationship.php
 msgid "Contact id(a) is deleted?"
@@ -1666,11 +1668,11 @@ msgstr "Allow Online registration in CiviMobile?"
 
 #: managed/Job_CiviMobile.mgd.php
 msgid "Clean old push notification messages"
-msgstr ""
+msgstr "Clean old push notification messages"
 
 #: managed/Job_CiviMobile.mgd.php
 msgid "Notify all participants that event is going to start"
-msgstr ""
+msgstr "Notify all participants that event is going to start"
 
 #: managed/OptionGroup_CiviMobile_Tabs.mgd.php
 msgid "Calendar"
@@ -1761,6 +1763,11 @@ msgid ""
 "              as this will make public event mobile registration impossible.\n"
 "            "
 msgstr ""
+"\n"
+"              Before enabling this option verify, that profiles you are using\n"
+"              do not have the \"... user account registration option?\" set to \"Account creation required\",\n"
+"              as this will make public event mobile registration impossible.\n"
+"            "
 
 #: templates/CRM/CiviMobileAPI/Form/Agenda.tpl
 msgid ""
@@ -1833,12 +1840,16 @@ msgid ""
 "Enter the secret API key provided by your chosen AI service. This key is "
 "used to authenticate your requests to the AI provider."
 msgstr ""
+"Enter the secret API key provided by your chosen AI service. This key is "
+"used to authenticate your requests to the AI provider."
 
 #: templates/CRM/CiviMobileAPI/Form/CiviAiSettings.hlp
 msgid ""
 "Specify the AI model you wish to use (e.g., gpt-4o-mini, claude-3-opus). "
 "Refer to your AI provider's documentation for available model names."
 msgstr ""
+"Specify the AI model you wish to use (e.g., gpt-4o-mini, claude-3-opus). "
+"Refer to your AI provider's documentation for available model names."
 
 #: templates/CRM/CiviMobileAPI/Form/CiviAiSettings.hlp
 msgid ""
@@ -1849,6 +1860,12 @@ msgid ""
 "here. If left empty, the system will default to the OpenAI API URL: "
 "https://api.openai.com/v1/chat/completions."
 msgstr ""
+"Enter the API endpoint URL for your AI service. This URL should point to an "
+"API that is compatible with the OpenAI API structure (e.g., it should "
+"support similar request and response formats). If you are using a self-"
+"hosted solution or a provider other than OpenAI, specify the complete URL "
+"here. If left empty, the system will default to the OpenAI API URL: "
+"https://api.openai.com/v1/chat/completions."
 
 #: templates/CRM/CiviMobileAPI/Form/EventLocations.tpl
 msgid "Locations"
@@ -2185,7 +2202,7 @@ msgstr "Please wait while your description is being generated"
 
 #: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
 msgid "Unable to generate text. Contact Administer to resolve this."
-msgstr ""
+msgstr "Unable to generate text. Contact Administer to resolve this."
 
 #: templates/CRM/CiviMobileAPI/popup.tpl
 msgid "Open Qr Code"
