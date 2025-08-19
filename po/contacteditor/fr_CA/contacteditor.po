@@ -6,12 +6,13 @@
 # Alain Rihs <alainrihs@sunrise.ch>, 2022
 # Usha Matisson, 2022
 # Leila Fayet, 2025
+# Guillaume Sorel <serviceclient@all-in-appli.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: contacteditor\n"
 "POT-Creation-Date: 2025-03-12 05:01+0000\n"
-"Last-Translator: Leila Fayet, 2025\n"
+"Last-Translator: Guillaume Sorel <serviceclient@all-in-appli.com>, 2025\n"
 "Language-Team: French (Canada) (https://app.transifex.com/civicrm/teams/1905/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,16 +23,21 @@ msgstr ""
 #: CRM/Contacteditor/ChangeContactType.php
 msgid "Contact type cannot be changed if subtype is not empty"
 msgstr ""
+"Le type de contact ne peut pas être modifié si le sous-type n'est pas vide"
 
 #: CRM/Contacteditor/ChangeContactType.php
 msgid ""
 "Individuals cannot be changed to another type while they have birth or death"
 " data"
 msgstr ""
+"Les individus ne peuvent pas être changés en un autre type tant qu'ils ont "
+"des données de naissance ou de décès"
 
 #: CRM/Contacteditor/ChangeContactType.php
 msgid "The contact has custom data that is not valid for the new type."
 msgstr ""
+"Le contact contient des données personnalisées qui ne sont pas valides pour "
+"le nouveau type."
 
 #: CRM/Contacteditor/ChangeContactType.php
 msgid ""
@@ -42,15 +48,15 @@ msgstr ""
 
 #: CRM/Contacteditor/ChangeContactType.php
 msgid "Contact type changed from %1 to %2"
-msgstr ""
+msgstr "Type de contact changé de %1 pour %2"
 
 #: CRM/Contacteditor/ChangeContactType.php
 msgid "Data lost by the change : "
-msgstr ""
+msgstr "Données perdues lors du changement :"
 
 #: CRM/Contacteditor/Form/ContactTypeChange.php
 msgid "Change contact type for %1"
-msgstr ""
+msgstr "Changer le type de contact pour %1"
 
 #: CRM/Contacteditor/Form/ContactTypeChange.php
 msgid "Save"
@@ -62,25 +68,28 @@ msgstr "Annuler"
 
 #: CRM/Contacteditor/Form/ContactTypeChange.php
 msgid "Contact type updated"
-msgstr ""
+msgstr "Type de contact mis à jour"
 
 #: CRM/Contacteditor/Form/ContactTypeChange.php
 msgid "Contact type not changed"
-msgstr ""
+msgstr "Type de contact non changé"
 
 #: contacteditor.php
 msgid "Change CiviCRM contact type"
-msgstr ""
+msgstr "Changer le type de contact CiviCRM"
 
 #: contacteditor.php
 msgid ""
 "Permits changing a contact type. This may result in data loss if the new "
 "type does not support all data of the old type."
 msgstr ""
+"Permet de modifier le type d'un contact. Cela peut entraîner une perte de "
+"données si le nouveau type ne prend pas en charge toutes les données de "
+"l'ancien type."
 
 #: contacteditor.php
 msgid "Change Contact Type"
-msgstr ""
+msgstr "Changer le type de contact"
 
 #: templates/CRM/Contacteditor/Form/ContactTypeChange.tpl
 msgid ""
@@ -88,3 +97,7 @@ msgid ""
 "would be invalidated. Some more trivial data (name prefix & suffix) will be "
 "stored in an activity rather than lost."
 msgstr ""
+"Vous pouvez modifier le type du contact à condition qu'il ne contienne "
+"aucune donnée susceptible d'être invalidée. Certaines données plus triviales"
+" (préfixe et suffixe du nom) seront stockées dans une activité plutôt que "
+"perdues."
