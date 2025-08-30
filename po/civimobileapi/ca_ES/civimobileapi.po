@@ -11,7 +11,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
-"POT-Creation-Date: 2025-05-27 09:05+0000\n"
+"POT-Creation-Date: 2025-07-21 09:01+0000\n"
 "Last-Translator: Marti Prat <m.prat@ixiam.com>, 2025\n"
 "Language-Team: Catalan (https://app.transifex.com/civicrm/teams/1905/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -495,7 +495,13 @@ msgid "Secret key"
 msgstr ""
 
 #: CRM/CiviMobileAPI/Form/CiviAiSettings.php
+#: templates/CRM/CiviMobileAPI/Form/CiviAiSettings.hlp
 msgid "Model"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/CiviAiSettings.php
+#: templates/CRM/CiviMobileAPI/Form/CiviAiSettings.hlp
+msgid "API URL"
 msgstr ""
 
 #: CRM/CiviMobileAPI/Form/CiviAiSettings.php
@@ -945,7 +951,7 @@ msgstr ""
 #: CRM/CiviMobileAPI/Hook/NavigationMenu.php
 #: CRM/CiviMobileAPI/Hook/Tabset/CiviMobile.php
 msgid "CiviMobile"
-msgstr ""
+msgstr "CiviMobile"
 
 #: CRM/CiviMobileAPI/Hook/NavigationMenu.php
 msgid "CiviMobile Event Locations"
@@ -1779,18 +1785,25 @@ msgid "Secret Key"
 msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/CiviAiSettings.hlp
-msgid "The key is used to give access to the ChatGPT functionality"
-msgstr ""
-
-#: templates/CRM/CiviMobileAPI/Form/CiviAiSettings.tpl
 msgid ""
-"To use ChatGPT you must register at\n"
-"                                <a %1>openai.com</a>\n"
-"                                and create your own Secret Key"
+"Enter the secret API key provided by your chosen AI service. This key is "
+"used to authenticate your requests to the AI provider."
 msgstr ""
 
-#: templates/CRM/CiviMobileAPI/Form/CiviAiSettings.tpl
-msgid "Type your model name in format like this"
+#: templates/CRM/CiviMobileAPI/Form/CiviAiSettings.hlp
+msgid ""
+"Specify the AI model you wish to use (e.g., gpt-4o-mini, claude-3-opus). "
+"Refer to your AI provider's documentation for available model names."
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/CiviAiSettings.hlp
+msgid ""
+"Enter the API endpoint URL for your AI service. This URL should point to an "
+"API that is compatible with the OpenAI API structure (e.g., it should "
+"support similar request and response formats). If you are using a self-"
+"hosted solution or a provider other than OpenAI, specify the complete URL "
+"here. If left empty, the system will default to the OpenAI API URL: "
+"https://api.openai.com/v1/chat/completions."
 msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/EventLocations.tpl
@@ -2086,7 +2099,7 @@ msgid "Please wait while your description is being generated"
 msgstr ""
 
 #: templates/CRM/CiviMobileAPI/generate-description-popup.tpl
-msgid "Invalid API key. Please check your key."
+msgid "Unable to generate text. Contact Administer to resolve this."
 msgstr ""
 
 #: templates/CRM/CiviMobileAPI/popup.tpl
