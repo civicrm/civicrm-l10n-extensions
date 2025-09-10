@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = pt: pt_PT, ro: ro_RO, af: af_ZA, sl: sl_SI, cs: cs_CZ, da: da_DK, id: id_ID, el: el_GR, hu: hu_HU, nb: nb_NO, fi: fi_FI, sv: sv_SE, bg: bg_BG, ca: ca_ES, pl: pl_PL, tr: tr_TR, nl: nl_NL, km: km_KH, ja: ja_JP, lt: lt_LT, it: it_IT, ru: ru_RU, fr: fr_FR, es: es_ES, de: de_DE, he: he_IL, et: et_EE, vi: vi_VN, hi: hi_IN, sq: sq_AL, sk: sk_SK, lv: lv_LV
+lang_map = km: km_KH, fr: fr_FR, et: et_EE, id: id_ID, nb: nb_NO, de: de_DE, sq: sq_AL, af: af_ZA, ja: ja_JP, it: it_IT, hi: hi_IN, pt: pt_PT, sl: sl_SI, cs: cs_CZ, el: el_GR, hu: hu_HU, es: es_ES, vi: vi_VN, sk: sk_SK, da: da_DK, bg: bg_BG, pl: pl_PL, ru: ru_RU, he: he_IL, ca: ca_ES, nl: nl_NL, lt: lt_LT, ro: ro_RO, fi: fi_FI, sv: sv_SE, tr: tr_TR, lv: lv_LV
 
 [o:civicrm:p:civicrm_extensions:r:Civixero]
 file_filter = po/Civixero/<lang>/Civixero.po
@@ -861,6 +861,13 @@ source_lang = en
 file_filter = po/sepa/<lang>/sepa.po
 source_file = po/sepa/pot/sepa.pot
 source_lang = en
+
+[o:civicrm:p:civicrm_extensions:r:sepapp]
+file_filter   = po/sepapp/<lang>/sepapp.po
+source_file   = po/sepapp/pot/sepapp.pot
+type          = POT
+minimum_perc  = 0
+resource_name = sepapp
 
 [o:civicrm:p:civicrm_extensions:r:ses]
 file_filter = po/ses/<lang>/ses.po
