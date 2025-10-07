@@ -4,11 +4,11 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Nagy Ákos <akoskaone@gmail.com>, 2019
-# Zoltán Reizinger <zreizinger@hdsnet.hu>, 2014
+# Zoltán Reizinger <zreizinger@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2023-12-22 05:01+0000\n"
+"POT-Creation-Date: 2025-10-07 11:01+0200\n"
 "PO-Revision-Date: 2014-04-28 23:36+0000\n"
 "Last-Translator: Nagy Ákos <akoskaone@gmail.com>, 2019\n"
 "Language-Team: Hungarian (http://app.transifex.com/civicrm/civicrm_extensions/language/hu/)\n"
@@ -26,7 +26,7 @@ msgstr "Százalék"
 msgid "Fixed Amount"
 msgstr "Fix összeg"
 
-#: CRM/CiviDiscount/BAO/Track.php CRM/CiviDiscount/DAO/Track.php
+#: CRM/CiviDiscount/BAO/Track.php schema/DiscountTrack.entityType.php
 msgid "Contribution"
 msgstr ""
 
@@ -34,266 +34,24 @@ msgstr ""
 msgid "Participant"
 msgstr ""
 
-#: CRM/CiviDiscount/BAO/Track.php managed/SavedSearch_Discount_Uses.mgd.php
+#: CRM/CiviDiscount/BAO/Track.php Civi/Api4/Action/DiscountCode/Verify.php
+#: managed/SavedSearch_Discount_Uses.mgd.php
 msgid "Membership"
 msgstr "Tagság"
 
-#: CRM/CiviDiscount/DAO/Item.php
-#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
-msgid "Discount Codes"
-msgstr ""
+#: CRM/CiviDiscount/DiscountCalculator.php cividiscount.php
+msgid "There are not enough uses remaining for this code."
+msgstr "Nem maradt elég felhasználás ehhez a kódhoz."
 
-#: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/Form/Admin.php
-msgid "Discount Code"
-msgstr "Kedvezmény kód"
+#: CRM/CiviDiscount/DiscountCalculator.php
+msgid "You have already used this code."
+msgid_plural "You have already used this code %count times."
+msgstr[0] ""
+msgstr[1] ""
 
-#: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/DAO/Track.php
-msgid "ID"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/DAO/Track.php
-msgid "Discount Item ID"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/DAO/Track.php
-#: ang/afsearchDiscounts.aff.html
-#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
-#: managed/SavedSearch_Discount_Uses.mgd.php
-#: templates/CRM/CiviDiscount/Page/View.tpl
-msgid "Code"
-msgstr "Kód"
-
-#: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/Form/Admin.php
-#: ang/afsearchDiscounts.aff.html
-#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
-#: templates/CRM/CiviDiscount/Page/View.tpl
-msgid "Description"
-msgstr "Leírás"
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Discount Description"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
-msgid "Amount"
-msgstr "Összeg"
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Amount of discount, actual or percentage"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Amount Type"
-msgstr "Összeg típusa"
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Type of discount, actual or percentage"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Type"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Count Max"
-msgstr "Maximális darabszám"
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Max number of times this code can be used"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Max Uses"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Count Use"
-msgstr "Használatban lévő darabszám"
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Number of times this code has been used"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
-msgid "Usage Count"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/Form/Admin.php
-#: templates/CRM/CiviDiscount/Page/View.tpl
-msgid "Events"
-msgstr "Esemény"
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Serialized list of events for which this code can be used"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Pricesets"
-msgstr "Árlisták"
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Serialized list of pricesets for which this code can be used"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/Form/Admin.php
-#: templates/CRM/CiviDiscount/Page/View.tpl
-msgid "Memberships"
-msgstr "Tagságok"
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Serialized list of memberships for which this code can be used"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Autodiscount"
-msgstr "Automatikus kedvezméy"
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid ""
-"Serialized list of entity-based attributes. A user with one of them has the "
-"discount automatically applied"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Organization ID"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "FK to Contact ID for the organization that originated this discount"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/Form/Admin.php
-#: ang/afsearchDiscounts.aff.html
-#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
-#: templates/CRM/CiviDiscount/Page/View.tpl
-msgid "Organization"
-msgstr "Szervezet"
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Active On"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Date this discount activated"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
-#: templates/CRM/CiviDiscount/Page/View.tpl
-msgid "Start Date"
-msgstr "Kezdő dátum"
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Expire On"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Date this discount expires"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
-msgid "End Date"
-msgstr "Vég dátum"
-
-#: CRM/CiviDiscount/DAO/Item.php
-#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
-msgid "Enabled"
-msgstr "Engedélyezve"
-
-#: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/Form/Admin.php
-msgid "Is this discount active?"
-msgstr "Ez a kedvezmény aktív?"
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Discount Msg Enabled"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Discount Msg"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Not Eligible Message"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Discount Filters"
-msgstr "Kedvezmény szűrők"
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "What filters apply to this discount (json array)"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "Discount Trackings"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "Discount Tracking"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "Discount Code ID"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "FK to Item ID of the discount code"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "Contact ID"
-msgstr "Kapcsolat azonosító"
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "FK to Contact ID for the contact that used this discount"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "Contact"
-msgstr "Kapcsolat"
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "Used Date"
-msgstr "Használt dátum"
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "Date of use"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php managed/SavedSearch_Discount_Uses.mgd.php
-msgid "Date Used"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "Contribution ID"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "FK to contribution table"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "Entity Table"
-msgstr "Egyed tábla"
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "Table where referenced item is stored"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "Entity ID"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "Foreign key to the referenced item"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "Entity"
-msgstr "Entitás"
+#: CRM/CiviDiscount/DiscountCalculator.php cividiscount.php
+msgid "The discount code you entered is invalid."
+msgstr "A megadott kedvezmény kód érvénytelen."
 
 #: CRM/CiviDiscount/Form/Admin.php ang/afsearchDiscounts.aff.php
 msgid "Discounts"
@@ -302,6 +60,10 @@ msgstr "Kedvezmények"
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "- none -"
 msgstr "- nincs -"
+
+#: CRM/CiviDiscount/Form/Admin.php schema/DiscountCode.entityType.php
+msgid "Discount Code"
+msgstr "Kedvezmény kód"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Code already exists in Database."
@@ -312,16 +74,22 @@ msgid "Code can only consist of alpha-numeric characters"
 msgstr "A kód csak alfanumerikus karaktereket tartalmazhat"
 
 #: CRM/CiviDiscount/Form/Admin.php
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
+#: schema/DiscountCode.entityType.php templates/CRM/CiviDiscount/Page/View.tpl
+msgid "Description"
+msgstr "Leírás"
+
+#: CRM/CiviDiscount/Form/Admin.php
 msgid "Discount Amount"
 msgstr "Kedvezményes összeg"
 
 #: CRM/CiviDiscount/Form/Admin.php
-msgid "Usage Limit"
-msgstr "Felhasználási korlát"
+msgid "Total Limit"
+msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
-msgid "Must be an integer"
-msgstr "Egésznek kell lennie"
+msgid "Per-User Limit"
+msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Activation Date"
@@ -332,12 +100,27 @@ msgid "Expiration Date"
 msgstr "Lejárat dátuma"
 
 #: CRM/CiviDiscount/Form/Admin.php
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
+#: schema/DiscountCode.entityType.php templates/CRM/CiviDiscount/Page/View.tpl
+msgid "Organization"
+msgstr "Szervezet"
+
+#: CRM/CiviDiscount/Form/Admin.php schema/DiscountCode.entityType.php
+msgid "Is this discount active?"
+msgstr "Ez a kedvezmény aktív?"
+
+#: CRM/CiviDiscount/Form/Admin.php
 msgid "Display a message to users not eligible for this discount?"
 msgstr "Kijelezzem az üzenetet a erre kedvezményre nem jogosult felhasználóknak is?"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Message to non-eligible users"
 msgstr "Üzenet a jogosulatlan felhasználóknak"
+
+#: CRM/CiviDiscount/Form/Admin.php schema/DiscountCode.entityType.php
+#: templates/CRM/CiviDiscount/Page/View.tpl
+msgid "Memberships"
+msgstr "Tagságok"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Specify entity for advanced autodiscount"
@@ -351,9 +134,18 @@ msgstr "A speciális szűrő api-karakterláncát adja meg"
 msgid "--any event--"
 msgstr "--bármely esemény--"
 
+#: CRM/CiviDiscount/Form/Admin.php schema/DiscountCode.entityType.php
+#: templates/CRM/CiviDiscount/Page/View.tpl
+msgid "Events"
+msgstr "Esemény"
+
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Event Types"
 msgstr "Esemény típusok"
+
+#: CRM/CiviDiscount/Form/Admin.php
+msgid "Event types could not be accessed due to permissions"
+msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Price Field Options"
@@ -475,6 +267,10 @@ msgstr "Kedvezmény törlése"
 msgid "We need a valid discount ID for view"
 msgstr "Érvényes kedvezmény azonosító szükséges a megtekintéshez"
 
+#: Civi/Api4/Action/DiscountCode/Verify.php
+msgid "[%1] %2 off %3 %4"
+msgstr ""
+
 #: ang/afsearchDiscountUsesReport.aff.php
 msgid "Discount Code Usage"
 msgstr ""
@@ -493,18 +289,6 @@ msgid "Codes Assigned"
 msgstr "Hozzárendelt kódok"
 
 #: cividiscount.php
-msgid "The discount code you entered is invalid."
-msgstr "A megadott kedvezmény kód érvénytelen."
-
-#: cividiscount.php
-msgid "There are not enough uses remaining for this code."
-msgstr "Nem maradt elég felhasználás ehhez a kódhoz."
-
-#: cividiscount.php
-msgid "Includes automatic member discount of"
-msgstr "Automatikus tag-kedvezményt tartalmaz"
-
-#: cividiscount.php
 msgid "Includes applied discount"
 msgstr ""
 
@@ -516,6 +300,10 @@ msgstr "Ha van kedvezmény kódja, itt adja meg"
 msgid "Apply"
 msgstr "Alkalmaz"
 
+#: cividiscount.php managed/Navigation_afsearchDiscounts.mgd.php
+msgid "CiviDiscount"
+msgstr "CiviKedvezmények"
+
 #: cividiscount.php
 msgid "administer CiviDiscount"
 msgstr "CiviKedvezmények adminisztrációja"
@@ -524,22 +312,55 @@ msgstr "CiviKedvezmények adminisztrációja"
 msgid "Administer the CiviDiscount extension"
 msgstr ""
 
-#: managed/Navigation_afsearchDiscounts.mgd.php
-msgid "CiviDiscount"
-msgstr "CiviKedvezmények"
-
 #: managed/SavedSearch_Administer_Discount_Codes.mgd.php
 msgid "Administer Discount Codes"
 msgstr ""
+
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
+#: schema/DiscountCode.entityType.php
+msgid "Discount Codes"
+msgstr ""
+
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
+#: managed/SavedSearch_Discount_Uses.mgd.php
+#: schema/DiscountCode.entityType.php schema/DiscountTrack.entityType.php
+#: templates/CRM/CiviDiscount/Page/View.tpl
+msgid "Code"
+msgstr "Kód"
 
 #: managed/SavedSearch_Administer_Discount_Codes.mgd.php
 msgid "View Discount Code"
 msgstr "Kedvezmény kód megtekintése"
 
 #: managed/SavedSearch_Administer_Discount_Codes.mgd.php
+#: schema/DiscountCode.entityType.php
+msgid "Enabled"
+msgstr "Engedélyezve"
+
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
+#: schema/DiscountCode.entityType.php
+msgid "Usage Count"
+msgstr ""
+
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
 #: templates/CRM/CiviDiscount/Page/View.tpl
 msgid "Unlimited"
 msgstr "Korlátlan"
+
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
+#: schema/DiscountCode.entityType.php
+msgid "Amount"
+msgstr "Összeg"
+
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
+#: schema/DiscountCode.entityType.php templates/CRM/CiviDiscount/Page/View.tpl
+msgid "Start Date"
+msgstr "Kezdő dátum"
+
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
+#: schema/DiscountCode.entityType.php
+msgid "End Date"
+msgstr "Vég dátum"
 
 #: managed/SavedSearch_Administer_Discount_Codes.mgd.php
 msgid "Copy"
@@ -558,6 +379,11 @@ msgid "Used By"
 msgstr ""
 
 #: managed/SavedSearch_Discount_Uses.mgd.php
+#: schema/DiscountTrack.entityType.php
+msgid "Date Used"
+msgstr ""
+
+#: managed/SavedSearch_Discount_Uses.mgd.php
 msgid "Event"
 msgstr "Esemény"
 
@@ -573,11 +399,219 @@ msgstr ""
 msgid "Discount Uses Assigned"
 msgstr ""
 
+#: schema/DiscountCode.entityType.php
+msgid "A discount item"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php schema/DiscountTrack.entityType.php
+msgid "ID"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php schema/DiscountTrack.entityType.php
+msgid "Discount Item ID"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Discount Description"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Amount of discount, actual or percentage"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Amount Type"
+msgstr "Összeg típusa"
+
+#: schema/DiscountCode.entityType.php
+msgid "Type of discount, actual or percentage"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Type"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Max Uses"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Max number of times this code can be used"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Max Uses (total)"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Max Uses Per User"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Max number of times a user can use this code"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Max Uses (per user)"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Count Use"
+msgstr "Használatban lévő darabszám"
+
+#: schema/DiscountCode.entityType.php
+msgid "Number of times this code has been used"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Serialized list of events for which this code can be used"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Pricesets"
+msgstr "Árlisták"
+
+#: schema/DiscountCode.entityType.php
+msgid "Serialized list of pricesets for which this code can be used"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Serialized list of memberships for which this code can be used"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Autodiscount"
+msgstr "Automatikus kedvezméy"
+
+#: schema/DiscountCode.entityType.php
+msgid ""
+"Serialized list of entity-based attributes. A user with one of them has the "
+"discount automatically applied"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Organization ID"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "FK to Contact ID for the organization that originated this discount"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Active On"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Date this discount activated"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Expire On"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Date this discount expires"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Discount Msg Enabled"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Discount Msg"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Not Eligible Message"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Discount Filters"
+msgstr "Kedvezmény szűrők"
+
+#: schema/DiscountCode.entityType.php
+msgid "What filters apply to this discount (json array)"
+msgstr ""
+
+#: schema/DiscountTrack.entityType.php
+msgid "Discount Tracking"
+msgstr ""
+
+#: schema/DiscountTrack.entityType.php
+msgid "Discount Trackings"
+msgstr ""
+
+#: schema/DiscountTrack.entityType.php
+msgid "Record an instance of a discount use"
+msgstr ""
+
+#: schema/DiscountTrack.entityType.php
+msgid "Discount Code ID"
+msgstr ""
+
+#: schema/DiscountTrack.entityType.php
+msgid "FK to Item ID of the discount code"
+msgstr ""
+
+#: schema/DiscountTrack.entityType.php
+msgid "Contact ID"
+msgstr "Kapcsolat azonosító"
+
+#: schema/DiscountTrack.entityType.php
+msgid "FK to Contact ID for the contact that used this discount"
+msgstr ""
+
+#: schema/DiscountTrack.entityType.php
+msgid "Contact"
+msgstr "Kapcsolat"
+
+#: schema/DiscountTrack.entityType.php
+msgid "Used Date"
+msgstr "Használt dátum"
+
+#: schema/DiscountTrack.entityType.php
+msgid "Date of use"
+msgstr ""
+
+#: schema/DiscountTrack.entityType.php
+msgid "Contribution ID"
+msgstr ""
+
+#: schema/DiscountTrack.entityType.php
+msgid "FK to contribution table"
+msgstr ""
+
+#: schema/DiscountTrack.entityType.php
+msgid "Entity Table"
+msgstr "Egyed tábla"
+
+#: schema/DiscountTrack.entityType.php
+msgid "Table where referenced item is stored"
+msgstr ""
+
+#: schema/DiscountTrack.entityType.php
+msgid "Entity ID"
+msgstr ""
+
+#: schema/DiscountTrack.entityType.php
+msgid "Foreign key to the referenced item"
+msgstr ""
+
+#: schema/DiscountTrack.entityType.php
+msgid "Entity"
+msgstr "Entitás"
+
 #: templates/CRM/CiviDiscount/Form/Admin.hlp
 msgid ""
 "The maximum number of times this discount code can be used. Leave blank for "
 "no limit."
 msgstr "A kedvezményes kód maximális száma. Hagyja üresen, ha nincs korlát."
+
+#: templates/CRM/CiviDiscount/Form/Admin.hlp
+msgid ""
+"The maximum number of times a single user can use this discount code. Leave "
+"blank for no limit."
+msgstr ""
 
 #: templates/CRM/CiviDiscount/Form/Admin.hlp
 msgid ""
@@ -669,6 +703,10 @@ msgstr "Véletlenszerű"
 #: templates/CRM/CiviDiscount/Form/Admin.tpl
 msgid "Do not use spaces in the Discount Code."
 msgstr "Ne használjon szóközt a kedvezmény kódjában"
+
+#: templates/CRM/CiviDiscount/Form/Admin.tpl
+msgid "Usage Limits"
+msgstr ""
 
 #: templates/CRM/CiviDiscount/Form/Admin.tpl
 msgid "Additional Options"
