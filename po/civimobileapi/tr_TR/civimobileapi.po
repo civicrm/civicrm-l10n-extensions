@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
-"POT-Creation-Date: 2025-07-21 09:01+0000\n"
+"POT-Creation-Date: 2025-09-15 11:01+0200\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2025\n"
 "Language-Team: Turkish (https://app.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -540,7 +540,7 @@ msgstr "Mobil oturumu kapat"
 
 #: CRM/CiviMobileAPI/Form/Dashboard.php
 msgid "Show a Website URL QR-code for me"
-msgstr "Benim için bir site adresi QR kodu görüntüle"
+msgstr "Benim için bir site adresi kare kodu görüntüle"
 
 #: CRM/CiviMobileAPI/Form/EventLocations.php
 msgid "Back"
@@ -750,7 +750,7 @@ msgstr "Sunucu anahtarı"
 #: CRM/CiviMobileAPI/Form/Settings.php
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid "Show a Website URL QR-code for Anonymous users"
-msgstr "Anonim kullanıcılar için bir site adresi QR kodu görüntüle"
+msgstr "Anonim kullanıcılar için bir site adresi kare kodu görüntüle"
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Use CMS site name"
@@ -961,7 +961,7 @@ msgstr "Bu konum için aynı adlı bir mekan zaten var."
 
 #: CRM/CiviMobileAPI/Hook/BuildForm/ManageEventEventInfo.php
 msgid "When generating QR Code tokens, use this Event"
-msgstr "QR kodları oluşturulurken bu etkinlik kullanılsın"
+msgstr "Kare kodlar oluşturulurken bu etkinlik kullanılsın"
 
 #: CRM/CiviMobileAPI/Hook/BuildForm/ManageEventRegistration.php
 msgid "Is allow mobile registration?"
@@ -1000,7 +1000,7 @@ msgid ""
 "'Attended'. Uses by QR Code."
 msgstr ""
 "Bu seçenek, kullanıcının katılımcı durumunu yalnızca 'Kayıtlı' veya "
-"'Katıldı' olarak güncelleyebileceği anlamına gelir. QR kod kullanılır."
+"'Katıldı' olarak güncelleyebileceği anlamına gelir. Kare kod kullanılır."
 
 #: CRM/CiviMobileAPI/Hook/Permission.php
 msgid "View Agenda."
@@ -1264,6 +1264,10 @@ msgstr "işlemi düzenledi."
 msgid "has deleted activity."
 msgstr "işlemi sildi."
 
+#: Civi/CiviMobileAPI/PushNotification/Entity/ActivityPushNotification.php
+msgid "has deleted activity in case."
+msgstr "olay işlemini sildi."
+
 #: Civi/CiviMobileAPI/PushNotification/Entity/CasePushNotification.php
 msgid "has created case."
 msgstr "olay ekledi."
@@ -1444,6 +1448,10 @@ msgstr "Varlık"
 msgid "Is searchable"
 msgstr "Aranabilir"
 
+#: api/v3/CiviMobileEventPushNotification.php
+msgid "Event start at"
+msgstr "Etkinlik başlangıcı"
+
 #: api/v3/CiviMobileEventSession.php
 msgid "EventSession id"
 msgstr "Etkinlik oturumu kimliği"
@@ -1493,7 +1501,7 @@ msgstr ""
 
 #: api/v3/CiviMobileParticipant.php
 msgid "Qr token"
-msgstr "QR kodu"
+msgstr "Kare kod"
 
 #: api/v3/CiviMobileParticipantPayment.php
 msgid "Participant role id"
@@ -1613,10 +1621,6 @@ msgstr "Adres açıklaması"
 msgid "Background color"
 msgstr "Arka plan rengi"
 
-#: api/v3/PushNotificationEventReminder.php
-msgid "Event start at"
-msgstr "Etkinlik başlangıcı"
-
 #: api/v3/PushNotificationMessages.php
 msgid "Direction"
 msgstr "Yol tarifi"
@@ -1629,27 +1633,27 @@ msgstr ""
 
 #: managed/CustomGroup_CiviMobile.mgd.php
 msgid "Qr options"
-msgstr "QR seçenekleri"
+msgstr "Kare kod seçenekleri"
 
 #: managed/CustomGroup_CiviMobile.mgd.php
 msgid "Is qr code used for this Event?"
-msgstr "Bu etkinliğin QR kodu var mı?"
+msgstr "Bu etkinliğin kare kodu var mı?"
 
 #: managed/CustomGroup_CiviMobile.mgd.php
 msgid "Qr codes"
-msgstr "QR kodları"
+msgstr "Kare kodlar"
 
 #: managed/CustomGroup_CiviMobile.mgd.php
 msgid "QR Event id"
-msgstr "QR etkinlik kimliği"
+msgstr "Kare kod etkinlik kimliği"
 
 #: managed/CustomGroup_CiviMobile.mgd.php
 msgid "Qr hash code"
-msgstr "QR karma kodu"
+msgstr "Kare kod karma kodu"
 
 #: managed/CustomGroup_CiviMobile.mgd.php
 msgid "QR image url"
-msgstr "QR görsel adresi"
+msgstr "Kare kod görsel adresi"
 
 #: managed/CustomGroup_CiviMobile.mgd.php
 msgid "Public Info"
@@ -1998,8 +2002,8 @@ msgid ""
 "Show QR code on CiviCRM website for unauthorised users if checkbox is "
 "checked."
 msgstr ""
-"Kutu işaretliyse, yetkisiz kullanıcılar için CiviCRM sitesindeki QR kodunu "
-"gösterin."
+"Kutu işaretliyse, yetkisiz kullanıcılar için CiviCRM sitesindeki kare kodunu"
+" gösterin."
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.hlp
 msgid ""
@@ -2118,6 +2122,14 @@ msgstr ""
 "yapılandırın."
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
+msgid "QR-code"
+msgstr "Kare kod"
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.tpl
+msgid "Regenerate QR Code for Site URL"
+msgstr "Site adresi kare kodunu yeniden oluştur"
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "News"
 msgstr "Haberler"
 
@@ -2226,7 +2238,7 @@ msgstr "Yazı oluşturulamadı. Bu sorunu çözmek için yönetici ile görüş�
 
 #: templates/CRM/CiviMobileAPI/popup.tpl
 msgid "Open Qr Code"
-msgstr "Açık QR kodu"
+msgstr "Açık kare kodu"
 
 #: templates/CRM/CiviMobileAPI/popup.tpl
 msgid "MORE"
@@ -2234,7 +2246,7 @@ msgstr "Diğer"
 
 #: templates/CRM/CiviMobileAPI/popup.tpl
 msgid "Scan QR code for login into app"
-msgstr "Uygulamada oturum açmak için QR kodunu tarayın"
+msgstr "Uygulamada oturum açmak için kare kodunu tarayın"
 
 #: templates/qrcode-checkin-event-options.tpl
 msgid ""
@@ -2242,9 +2254,9 @@ msgid ""
 "event. It is not possible to tick the QR Code generation when you edit this "
 "event."
 msgstr ""
-"Erişilebilir QR kod oluşturma seçeneği, yalnızca bir etkinlik oluşturulurken"
-" kullanılabilir. Bu etkinliği düzenlerken QR kod oluşturma seçeneğini "
-"işaretleyemezsiniz."
+"Erişilebilir kare kod oluşturma seçeneği, yalnızca bir etkinlik "
+"oluşturulurken kullanılabilir. Bu etkinliği düzenlerken kare kod oluşturma "
+"seçeneğini işaretleyemezsiniz."
 
 #: templates/qrcode-checkin-event-options.tpl
 msgid ""
@@ -2253,5 +2265,5 @@ msgid ""
 "upload QR Code from public event."
 msgstr ""
 "Lütfen ANONİM KULLANICI için \"CiviCRM: Yüklenen dosyalara erişim\" iznini "
-"denetleyin. İzin verilmemişse, ANONİM KULLANICI, herkese açık etkinlikten QR"
-" kodunu yükleyemez."
+"denetleyin. İzin verilmemişse, ANONİM KULLANICI, herkese açık etkinlikten "
+"kare kodu yükleyemez."
