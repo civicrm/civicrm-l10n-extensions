@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sepapp\n"
-"POT-Creation-Date: 2025-09-10 11:02+0200\n"
+"POT-Creation-Date: 2025-09-23 11:02+0200\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>, 2025\n"
 "Language-Team: English (United Kingdom) (https://app.transifex.com/civicrm/teams/1905/en_GB/)\n"
 "MIME-Version: 1.0\n"
@@ -19,17 +19,13 @@ msgstr ""
 "Language: en_GB\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: CRM/Core/Payment/SDD.php CRM/Sepapp/Upgrader.php
-msgid "SEPA Direct Debit"
-msgstr "SEPA Direct Debit"
-
 #: CRM/Core/Payment/SDD.php
 msgid "Couldn't create SEPA mandate. Error was: "
 msgstr "Couldn't create SEPA mandate. Error was: "
 
 #: CRM/Core/Payment/SDD.php CRM/Core/Payment/SDDNG.php
 msgid "Direct Debit"
-msgstr ""
+msgstr "Direct Debit"
 
 #: CRM/Core/Payment/SDD.php CRM/Core/Payment/SDDNG.php
 msgid "Account Holder"
@@ -65,7 +61,7 @@ msgstr "Start Date"
 
 #: CRM/Core/Payment/SDDNG.php
 msgid "Agreement"
-msgstr ""
+msgstr "Agreement"
 
 #: CRM/Core/Payment/SDDNG.php
 msgid ""
@@ -73,23 +69,31 @@ msgid ""
 " While submitting this form you agree to the charging of your bank account "
 "via direct debit."
 msgstr ""
+"Your account data will be used to charge your bank account via direct debit."
+" While submitting this form you agree to the charging of your bank account "
+"via direct debit."
+
+#: CRM/Sepapp/Upgrader.php
+msgid "SEPA Direct Debit"
+msgstr "SEPA Direct Debit"
 
 #: CRM/Sepapp/Upgrader.php
 msgid "Payment processor for the 'Single European Payment Area' (SEPA)."
-msgstr ""
+msgstr "Payment processor for the 'Single European Payment Area' (SEPA)."
 
 #: CRM/Sepapp/Upgrader.php
 msgid "SEPA Direct Debit (NEW)"
-msgstr ""
+msgstr "SEPA Direct Debit (NEW)"
 
 #: CRM/Sepapp/Upgrader.php
 msgid ""
 "Refactored Payment processor for the 'Single European Payement Area' (SEPA)."
 msgstr ""
+"Refactored Payment processor for the 'Single European Payement Area' (SEPA)."
 
 #: CRM/Sepapp/Upgrader.php
 msgid "Your CiviSEPA payment processors have been disabled."
-msgstr ""
+msgstr "Your CiviSEPA payment processors have been disabled."
 
 #: CRM/Sepapp/Upgrader.php
 msgid "%1 Payment Processor(s) Disabled!"
@@ -117,4 +121,4 @@ msgstr "Help"
 
 #: templates/CRM/Core/Payment/SEPA/SDD.tpl
 msgid "Bank unknown, please enter BIC."
-msgstr ""
+msgstr "Bank unknown, please enter BIC."
