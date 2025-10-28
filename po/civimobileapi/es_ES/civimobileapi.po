@@ -7,15 +7,17 @@
 # Irene López Meijide, 2022
 # sluc23 <sluc23@hotmail.com>, 2024
 # Francesc Bassas i Bullich <francesc@babu.cat>, 2024
-# ixiam <info@ixiam.com>, 2024
 # Francisco Javier Alexandre Hurlé <fjalexandre@hubor-proteus.com>, 2024
+# Darío Hereñú, 2025
 # Marti Prat <m.prat@ixiam.com>, 2025
+# michaelmcandrew <michaelmcandrew@thirdsectordesign.org>, 2025
+# ixiam <info@ixiam.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
-"POT-Creation-Date: 2025-07-21 09:01+0000\n"
-"Last-Translator: Marti Prat <m.prat@ixiam.com>, 2025\n"
+"POT-Creation-Date: 2025-10-28 10:01+0100\n"
+"Last-Translator: ixiam <info@ixiam.com>, 2025\n"
 "Language-Team: Spanish (https://app.transifex.com/civicrm/teams/1905/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -745,6 +747,22 @@ msgid "Please enter a valid 6-digit hex color code (e.g., #RRGGBB)."
 msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Days must be a non-negative integer!"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Hours must be between 0 and 23!"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Minutes must be between 0 and 59!"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Reminder time must be greater than 0!"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Fields can not be empty."
 msgstr "Los campos no pueden estar vacíos."
 
@@ -810,6 +828,10 @@ msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Set the button color for event registration"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Reminder about task due (day:hour:minute)"
 msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
@@ -1206,6 +1228,18 @@ msgstr ""
 "Su clave Api se ha eliminado y todos los dispositivos se desconectaron de la"
 " cuenta."
 
+#: CRM/CiviMobileAPI/Utils/TimeTrackerPushNotification.php
+msgid "Reminder: Task "
+msgstr ""
+
+#: CRM/CiviMobileAPI/Utils/TimeTrackerPushNotification.php
+msgid " is overdue."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Utils/TimeTrackerPushNotification.php
+msgid " is due soon."
+msgstr ""
+
 #: Civi/Api4/Action/CiviMobileAddAttachment/Create.php
 msgid "Cannot add more attachments. Maximum limit reached"
 msgstr ""
@@ -1266,6 +1300,10 @@ msgstr ""
 msgid "has deleted activity."
 msgstr ""
 
+#: Civi/CiviMobileAPI/PushNotification/Entity/ActivityPushNotification.php
+msgid "has deleted activity in case."
+msgstr ""
+
 #: Civi/CiviMobileAPI/PushNotification/Entity/CasePushNotification.php
 msgid "has created case."
 msgstr ""
@@ -1300,6 +1338,54 @@ msgstr ""
 
 #: Civi/CiviMobileAPI/PushNotification/Entity/RelationshipPushNotification.php
 msgid "has deleted relationship."
+msgstr ""
+
+#: Civi/CiviMobileAPI/PushNotification/Entity/TimeTrackerPushNotification.php
+msgid "You have been assigned to a new task in Project:"
+msgstr ""
+
+#: Civi/CiviMobileAPI/PushNotification/Entity/TimeTrackerPushNotification.php
+msgid "Task:"
+msgstr ""
+
+#: Civi/CiviMobileAPI/PushNotification/Entity/TimeTrackerPushNotification.php
+msgid "You have been removed from the task in Project:"
+msgstr ""
+
+#: Civi/CiviMobileAPI/PushNotification/Entity/TimeTrackerPushNotification.php
+msgid "Your task"
+msgstr ""
+
+#: Civi/CiviMobileAPI/PushNotification/Entity/TimeTrackerPushNotification.php
+msgid "in project"
+msgstr ""
+
+#: Civi/CiviMobileAPI/PushNotification/Entity/TimeTrackerPushNotification.php
+msgid "has been updated."
+msgstr ""
+
+#: Civi/CiviMobileAPI/PushNotification/Entity/TimeTrackerPushNotification.php
+msgid "Project"
+msgstr "Proyecto"
+
+#: Civi/CiviMobileAPI/PushNotification/Entity/TimeTrackerPushNotification.php
+msgid "has been archived."
+msgstr ""
+
+#: Civi/CiviMobileAPI/PushNotification/Entity/TimeTrackerPushNotification.php
+msgid "has been deleted."
+msgstr ""
+
+#: Civi/CiviMobileAPI/PushNotification/Entity/TimeTrackerPushNotification.php
+msgid "You have been added to the project"
+msgstr ""
+
+#: Civi/CiviMobileAPI/PushNotification/Entity/TimeTrackerPushNotification.php
+msgid "as a"
+msgstr ""
+
+#: Civi/CiviMobileAPI/PushNotification/Entity/TimeTrackerPushNotification.php
+msgid "You have been removed from the project"
 msgstr ""
 
 #: api/v3/CiviMobileActiveRelationship.php
@@ -1445,6 +1531,10 @@ msgstr "Entidad"
 #: api/v3/CiviMobileCustomFields.php
 msgid "Is searchable"
 msgstr ""
+
+#: api/v3/CiviMobileEventPushNotification.php
+msgid "Event start at"
+msgstr "Inicio del evento a las"
 
 #: api/v3/CiviMobileEventSession.php
 msgid "EventSession id"
@@ -1615,10 +1705,6 @@ msgstr ""
 msgid "Background color"
 msgstr ""
 
-#: api/v3/PushNotificationEventReminder.php
-msgid "Event start at"
-msgstr "Inicio del evento a las"
-
 #: api/v3/PushNotificationMessages.php
 msgid "Direction"
 msgstr "Dirección"
@@ -1683,6 +1769,14 @@ msgstr ""
 
 #: managed/Job_CiviMobile.mgd.php
 msgid "Notify all participants that event is going to start"
+msgstr ""
+
+#: managed/Job_CiviMobile.mgd.php
+msgid "Notify performers about due soon tasks"
+msgstr ""
+
+#: managed/Job_CiviMobile.mgd.php
+msgid "Notify performers about overdue tasks"
 msgstr ""
 
 #: managed/OptionGroup_CiviMobile_Tabs.mgd.php
@@ -2025,6 +2119,17 @@ msgid ""
 " overlap with other events"
 msgstr ""
 
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid "Reminder about task due"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid ""
+"Set the time before a task is due when a push notification reminder should "
+"be sent. Specify the number of days, hours, and minutes before the due "
+"date/time."
+msgstr ""
+
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "Extension Info"
 msgstr "Información sobre la extensión"
@@ -2067,12 +2172,32 @@ msgid "To use the password reset functionality, configure SMTP in CMS."
 msgstr ""
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
+msgid "QR-code"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.tpl
+msgid "Regenerate QR Code for Site URL"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "News"
 msgstr "Noticias"
 
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "Set default RSS feed on CMS"
 msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.tpl
+msgid "Days"
+msgstr "Días"
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.tpl
+msgid "Hours"
+msgstr "Horas"
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.tpl
+msgid "Minutes"
+msgstr "Minutos"
 
 #: templates/CRM/CiviMobileAPI/Form/Speaker.tpl
 msgid "Delete contact image"
