@@ -3,14 +3,14 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Betty Dolfing <betty.dolfing@civicoop.org>, 2021
 # brouwser <brouwer@ee-atwork.nl>, 2024
+# Betty Dolfing <betty.dolfing@civicoop.org>, 2025
 # HanV <han.velthuis@kpnmail.nl>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: civimobileapi\n"
-"POT-Creation-Date: 2025-09-15 11:01+0200\n"
+"POT-Creation-Date: 2025-10-28 10:01+0100\n"
 "Last-Translator: HanV <han.velthuis@kpnmail.nl>, 2025\n"
 "Language-Team: Dutch (https://app.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -735,6 +735,22 @@ msgstr ""
 "Voer een geldige 6-cijferige hexadecimale kleurcode in (bijv. #RRGGBB)."
 
 #: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Days must be a non-negative integer!"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Hours must be between 0 and 23!"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Minutes must be between 0 and 59!"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Reminder time must be greater than 0!"
+msgstr ""
+
+#: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Fields can not be empty."
 msgstr "Velden moeten ingevuld worden."
 
@@ -803,6 +819,10 @@ msgstr "Levensduur van push-meldingen"
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Set the button color for event registration"
 msgstr "De knopkleur instellen voor evenementregistratie"
+
+#: CRM/CiviMobileAPI/Form/Settings.php
+msgid "Reminder about task due (day:hour:minute)"
+msgstr ""
 
 #: CRM/CiviMobileAPI/Form/Settings.php
 msgid "Allow registration"
@@ -1204,6 +1224,18 @@ msgstr ""
 "Uw API-Key is verwijderd en alle devices zijn niet meer verbonden aan het "
 "account."
 
+#: CRM/CiviMobileAPI/Utils/TimeTrackerPushNotification.php
+msgid "Reminder: Task "
+msgstr ""
+
+#: CRM/CiviMobileAPI/Utils/TimeTrackerPushNotification.php
+msgid " is overdue."
+msgstr ""
+
+#: CRM/CiviMobileAPI/Utils/TimeTrackerPushNotification.php
+msgid " is due soon."
+msgstr ""
+
 #: Civi/Api4/Action/CiviMobileAddAttachment/Create.php
 msgid "Cannot add more attachments. Maximum limit reached"
 msgstr ""
@@ -1302,6 +1334,54 @@ msgstr ""
 
 #: Civi/CiviMobileAPI/PushNotification/Entity/RelationshipPushNotification.php
 msgid "has deleted relationship."
+msgstr ""
+
+#: Civi/CiviMobileAPI/PushNotification/Entity/TimeTrackerPushNotification.php
+msgid "You have been assigned to a new task in Project:"
+msgstr ""
+
+#: Civi/CiviMobileAPI/PushNotification/Entity/TimeTrackerPushNotification.php
+msgid "Task:"
+msgstr ""
+
+#: Civi/CiviMobileAPI/PushNotification/Entity/TimeTrackerPushNotification.php
+msgid "You have been removed from the task in Project:"
+msgstr ""
+
+#: Civi/CiviMobileAPI/PushNotification/Entity/TimeTrackerPushNotification.php
+msgid "Your task"
+msgstr ""
+
+#: Civi/CiviMobileAPI/PushNotification/Entity/TimeTrackerPushNotification.php
+msgid "in project"
+msgstr ""
+
+#: Civi/CiviMobileAPI/PushNotification/Entity/TimeTrackerPushNotification.php
+msgid "has been updated."
+msgstr ""
+
+#: Civi/CiviMobileAPI/PushNotification/Entity/TimeTrackerPushNotification.php
+msgid "Project"
+msgstr "Project"
+
+#: Civi/CiviMobileAPI/PushNotification/Entity/TimeTrackerPushNotification.php
+msgid "has been archived."
+msgstr ""
+
+#: Civi/CiviMobileAPI/PushNotification/Entity/TimeTrackerPushNotification.php
+msgid "has been deleted."
+msgstr ""
+
+#: Civi/CiviMobileAPI/PushNotification/Entity/TimeTrackerPushNotification.php
+msgid "You have been added to the project"
+msgstr ""
+
+#: Civi/CiviMobileAPI/PushNotification/Entity/TimeTrackerPushNotification.php
+msgid "as a"
+msgstr ""
+
+#: Civi/CiviMobileAPI/PushNotification/Entity/TimeTrackerPushNotification.php
+msgid "You have been removed from the project"
 msgstr ""
 
 #: api/v3/CiviMobileActiveRelationship.php
@@ -1683,6 +1763,14 @@ msgstr ""
 msgid "Notify all participants that event is going to start"
 msgstr ""
 
+#: managed/Job_CiviMobile.mgd.php
+msgid "Notify performers about due soon tasks"
+msgstr ""
+
+#: managed/Job_CiviMobile.mgd.php
+msgid "Notify performers about overdue tasks"
+msgstr ""
+
 #: managed/OptionGroup_CiviMobile_Tabs.mgd.php
 msgid "Calendar"
 msgstr "Kalender"
@@ -2042,6 +2130,17 @@ msgid ""
 " overlap with other events"
 msgstr ""
 
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid "Reminder about task due"
+msgstr ""
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.hlp
+msgid ""
+"Set the time before a task is due when a push notification reminder should "
+"be sent. Specify the number of days, hours, and minutes before the due "
+"date/time."
+msgstr ""
+
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "Extension Info"
 msgstr "Extensie informatie"
@@ -2100,6 +2199,18 @@ msgstr "Nieuws"
 #: templates/CRM/CiviMobileAPI/Form/Settings.tpl
 msgid "Set default RSS feed on CMS"
 msgstr "Standaard RSS-feed op CMS zetten"
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.tpl
+msgid "Days"
+msgstr "Dagen"
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.tpl
+msgid "Hours"
+msgstr "Uren"
+
+#: templates/CRM/CiviMobileAPI/Form/Settings.tpl
+msgid "Minutes"
+msgstr "Minuten"
 
 #: templates/CRM/CiviMobileAPI/Form/Speaker.tpl
 msgid "Delete contact image"
