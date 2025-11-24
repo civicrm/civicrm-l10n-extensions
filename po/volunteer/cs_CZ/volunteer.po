@@ -3,6 +3,7 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
+# Jiří Podhorecký <jirka.p@volny.cz>, 2025
 # Karel Hennhofer <khennhofer@kam.cz>, 2024
 # Martin Máša <my.melody.production@gmail.com>, 2014
 # Ondřej Mazaný <mazany.o@ambassadors.cz>, 2019
@@ -11,7 +12,7 @@ msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
 "POT-Creation-Date: 2024-02-10 05:01+0000\n"
 "PO-Revision-Date: 2013-10-08 17:09+0000\n"
-"Last-Translator: Karel Hennhofer <khennhofer@kam.cz>, 2024\n"
+"Last-Translator: Jiří Podhorecký <jirka.p@volny.cz>, 2025\n"
 "Language-Team: Czech (http://app.transifex.com/civicrm/civicrm_extensions/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,35 +30,35 @@ msgstr "Nezáleží"
 
 #: CRM/Volunteer/BAO/Project.php
 msgid "Radius should exist and be numeric"
-msgstr ""
+msgstr "Radius by měl existovat a být číselný"
 
 #: CRM/Volunteer/BAO/Project.php
 msgid "Either Country or both Latitude and Longitude are required"
-msgstr ""
+msgstr "Je nutné zadat buď zemi, nebo zeměpisnou šířku a délku"
 
 #: CRM/Volunteer/BAO/Project.php
 msgid "Profile(s) for Individual Registration"
-msgstr ""
+msgstr "Profil(y) pro individuální registraci"
 
 #: CRM/Volunteer/BAO/Project.php
 msgid "Individual Registration"
-msgstr ""
+msgstr "Individuální registrace"
 
 #: CRM/Volunteer/BAO/Project.php
 msgid "Profile(s) for Group Registration"
-msgstr ""
+msgstr "Profil(y) pro skupinovou registraci"
 
 #: CRM/Volunteer/BAO/Project.php
 msgid "Group Registration"
-msgstr ""
+msgstr "Skupinová registrace"
 
 #: CRM/Volunteer/BAO/Project.php
 msgid "Profile(s) for Both Individual and Group Registration"
-msgstr ""
+msgstr "Profil(y) pro individuální i skupinovou registraci"
 
 #: CRM/Volunteer/BAO/Project.php
 msgid "Both"
-msgstr ""
+msgstr "Obojí"
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "Volunteer Needs"
@@ -65,7 +66,7 @@ msgstr "Potřeba dobrovolníků"
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "Volunteer Need"
-msgstr ""
+msgstr "Potřeba dobrovolníků"
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "CiviVolunteer Need ID"
@@ -73,13 +74,13 @@ msgstr "CiviDobrovolnictví Potřeba ID"
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "Need Id"
-msgstr ""
+msgstr "Id potřeby"
 
 #: CRM/Volunteer/DAO/Need.php
 msgid ""
 "FK to civicrm_volunteer_project table which contains entity_table + entity "
 "for each volunteer project (initially civicrm_event + eventID)."
-msgstr ""
+msgstr "FK do tabulky civicrm_volunteer_project, která obsahuje entity_table + entity pro každý dobrovolnický projekt (původně civicrm_event + eventID)."
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "Start Date and Time"
@@ -87,13 +88,13 @@ msgstr "Datum a čas začátku"
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "End Date and Time"
-msgstr ""
+msgstr "Datum a čas ukončení"
 
 #: CRM/Volunteer/DAO/Need.php
 msgid ""
 "Used for specifying fuzzy dates, e.g., I have a need for 3 hours of "
 "volunteer work to be completed between 12/01/2015 and 12/31/2015."
-msgstr ""
+msgstr "Používá se pro určení nepřesných dat, např. potřebuji, aby byly 3 hodiny dobrovolnické práce vykonány mezi 1. 12. 2015 a 31. 12. 2015."
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "Duration"
@@ -101,7 +102,7 @@ msgstr "Trvání"
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "Length in minutes of this volunteer time slot."
-msgstr ""
+msgstr "Délka tohoto časového úseku pro dobrovolníky v minutách."
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "Flexible"
@@ -112,7 +113,7 @@ msgid ""
 "Boolean indicating whether or not the time and role are flexible. Activities"
 " linked to a flexible need indicate that the volunteer is generally "
 "available."
-msgstr ""
+msgstr "Logická hodnota udávající, zda jsou čas a role flexibilní. Aktivity spojené s flexibilní potřebou naznačují, že dobrovolník je obecně k dispozici."
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "Quantity"
@@ -120,7 +121,7 @@ msgstr "Množství"
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "The number of volunteers needed for this need."
-msgstr ""
+msgstr "Počet dobrovolníků potřebných pro tuto potřebu."
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "Visibility"
@@ -130,7 +131,7 @@ msgstr "Viditelnost"
 msgid ""
 " Indicates whether this need is offered on public volunteer signup forms. "
 "Implicit FK to option_value row in visibility option_group."
-msgstr ""
+msgstr "Označuje, zda je tato potřeba uvedena ve veřejných přihlašovacích formulářích pro dobrovolníky. Implicitní FK k řádku option_value ve viditelnosti option_group."
 
 #: CRM/Volunteer/DAO/Need.php ang/volunteer/VolOppsCtrl.html
 #: templates/CRM/Volunteer/Form/Log.tpl
@@ -144,7 +145,7 @@ msgstr "Role"
 msgid ""
 "The role associated with this need. Implicit FK to option_value row in "
 "volunteer_role option_group."
-msgstr ""
+msgstr "Role spojená s touto potřebou. Implicitní FK k řádku option_value v option_group volunteer_role."
 
 #: CRM/Volunteer/DAO/Need.php CRM/Volunteer/DAO/Project.php
 msgid "Enabled"
@@ -152,23 +153,23 @@ msgstr "Povoleno"
 
 #: CRM/Volunteer/DAO/Need.php CRM/Volunteer/DAO/Project.php
 msgid "Is this need enabled?"
-msgstr ""
+msgstr "Je tato potřeba povolena?"
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "Date of Creation"
-msgstr ""
+msgstr "Datum vytvoření"
 
 #: CRM/Volunteer/DAO/Need.php
 msgid "Date of Last Update"
-msgstr ""
+msgstr "Datum poslední aktualizace"
 
 #: CRM/Volunteer/DAO/Project.php
 msgid "Volunteer Projects"
-msgstr ""
+msgstr "Dobrovolnické projekty"
 
 #: CRM/Volunteer/DAO/Project.php ang/volunteer/Projects.html
 msgid "Volunteer Project"
-msgstr ""
+msgstr "Dobrovolnický projekt"
 
 #: CRM/Volunteer/DAO/Project.php CRM/Volunteer/DAO/ProjectContact.php
 msgid "CiviVolunteer Project ID"
@@ -176,25 +177,25 @@ msgstr "CiviDobrovolnictví Projekt ID"
 
 #: CRM/Volunteer/DAO/Project.php
 msgid "Project Id"
-msgstr ""
+msgstr "id Projektu"
 
 #: CRM/Volunteer/DAO/Project.php ang/volunteer/Projects.html
 msgid "Title"
-msgstr ""
+msgstr "Název"
 
 #: CRM/Volunteer/DAO/Project.php
 msgid "The title of the Volunteer Project"
-msgstr ""
+msgstr "Název dobrovolnického projektu"
 
 #: CRM/Volunteer/DAO/Project.php
 msgid "Description"
-msgstr ""
+msgstr "Popis"
 
 #: CRM/Volunteer/DAO/Project.php
 msgid ""
 "Full description of the Volunteer Project. Text and HTML allowed. Displayed "
 "on sign-up screens."
-msgstr ""
+msgstr "Úplný popis dobrovolnického projektu. Povolený text a HTML. Zobrazeno na přihlašovacích obrazovkách."
 
 #: CRM/Volunteer/DAO/Project.php
 msgid "Entity Table"
@@ -202,11 +203,11 @@ msgstr "Tabulka osoby"
 
 #: CRM/Volunteer/DAO/Project.php
 msgid "Entity table for entity_id (initially civicrm_event)"
-msgstr ""
+msgstr "Tabulka entit pro entity_id (původně civicrm_event)"
 
 #: CRM/Volunteer/DAO/Project.php
 msgid "Implicit FK project entity (initially eventID)."
-msgstr ""
+msgstr "Implicitní entita projektu FK (původně eventID)."
 
 #: CRM/Volunteer/DAO/Project.php
 msgid "Location Block ID"
@@ -223,23 +224,23 @@ msgstr "kampaň"
 
 #: CRM/Volunteer/DAO/Project.php
 msgid "The campaign associated with this Volunteer Project."
-msgstr ""
+msgstr "Kampaň spojená s tímto dobrovolnickým projektem."
 
 #: CRM/Volunteer/DAO/ProjectContact.php
 msgid "Volunteer Project Contacts"
-msgstr ""
+msgstr "Kontakty dobrovolnického projektu"
 
 #: CRM/Volunteer/DAO/ProjectContact.php
 msgid "Volunteer Project Contact"
-msgstr ""
+msgstr "Kontakt dobrovolnického projektu"
 
 #: CRM/Volunteer/DAO/ProjectContact.php
 msgid "CiviVolunteer ProjectContact Row ID"
-msgstr ""
+msgstr "ID řádku CiviVolunteer ProjectContact"
 
 #: CRM/Volunteer/DAO/ProjectContact.php
 msgid "Foreign key to the Volunteer Project for this record"
-msgstr ""
+msgstr "Cizí klíč k dobrovolnickému projektu pro tento záznam"
 
 #: CRM/Volunteer/DAO/ProjectContact.php
 msgid "Contact ID"
@@ -247,25 +248,25 @@ msgstr "ID Kontaktu"
 
 #: CRM/Volunteer/DAO/ProjectContact.php
 msgid "Foreign key to the Contact for this record"
-msgstr ""
+msgstr "Cizí klíč ke kontaktu pro tento záznam"
 
 #: CRM/Volunteer/DAO/ProjectContact.php
 msgid "Relationship Type"
-msgstr ""
+msgstr "Typ vztahu"
 
 #: CRM/Volunteer/DAO/ProjectContact.php
 msgid ""
 "Nature of the contact's relationship to the Volunteer Project (e.g., "
 "Beneficiary). See option group volunteer_project_relationship."
-msgstr ""
+msgstr "Povaha vztahu kontaktu k dobrovolnickému projektu (např. příjemce). Viz skupina možností volunteer_project_relationship."
 
 #: CRM/Volunteer/Form/Commendation.php
 msgid "Commend %1"
-msgstr ""
+msgstr "Pochvala %1"
 
 #: CRM/Volunteer/Form/Commendation.php
 msgid "Why does this volunteer merit a commendation?"
-msgstr ""
+msgstr "Proč si tento dobrovolník zaslouží pochvalu?"
 
 #: CRM/Volunteer/Form/Commendation.php
 msgid "Update"
@@ -293,7 +294,7 @@ msgstr "Přihlásit se na  1% hodin dobrovolné práce"
 
 #: CRM/Volunteer/Form/Log.php
 msgid "- select -"
-msgstr ""
+msgstr "- vybrat -"
 
 #: CRM/Volunteer/Form/Log.php
 msgid "-select-"
@@ -301,11 +302,11 @@ msgstr "-vybrat-"
 
 #: CRM/Volunteer/Form/Log.php
 msgid "Please enter the actual duration volunteered."
-msgstr ""
+msgstr "Zadejte prosím skutečnou délku dobrovolnické činnosti."
 
 #: CRM/Volunteer/Form/Log.php
 msgid "Please enter duration as a number."
-msgstr ""
+msgstr "Zadejte prosím délku trvání jako číslo."
 
 #: CRM/Volunteer/Form/Log.php
 msgid "Volunteer hours have been logged."
@@ -317,54 +318,54 @@ msgstr "Uloženo"
 
 #: CRM/Volunteer/Form/Settings.php
 msgid "- none -"
-msgstr ""
+msgstr "- žádné -"
 
 #: CRM/Volunteer/Form/Settings.php ang/volunteer/Project.html
 #: ang/volunteer/Projects.html
 msgid "Location"
-msgstr ""
+msgstr "Místo"
 
 #: CRM/Volunteer/Form/Settings.php
 msgid "Are new Projects active by default?"
-msgstr ""
+msgstr "Jsou nové projekty ve výchozím nastavení aktivní?"
 
 #: CRM/Volunteer/Form/Settings.php
 msgid "Campaign Filter Whitelist/Blacklist"
-msgstr ""
+msgstr "Filtr kampaně – seznam povolených/zakázaných adres"
 
 #: CRM/Volunteer/Form/Settings.php
 msgid "Blacklist"
-msgstr ""
+msgstr "Černá listina"
 
 #: CRM/Volunteer/Form/Settings.php
 msgid "Whitelist"
-msgstr ""
+msgstr "Seznam povolených"
 
 #: CRM/Volunteer/Form/Settings.php
 msgid "Campaign Type(s)"
-msgstr ""
+msgstr "Typ(y) kampaně"
 
 #: CRM/Volunteer/Form/Settings.php
 msgid "Help text for the project settings screen"
-msgstr ""
+msgstr "Nápověda pro obrazovku nastavení projektu"
 
 #: CRM/Volunteer/Form/Settings.php
 msgid "Save Volunteer Settings"
-msgstr ""
+msgstr "Uložit nastavení dobrovolníka"
 
 #: CRM/Volunteer/Form/Settings.php
 msgid "Default to Contact(s) Having this Relationship with the Acting Contact"
-msgstr ""
+msgstr "Výchozí nastavení pro kontakt(y), které mají tento vztah s aktuálním kontaktem"
 
 #: CRM/Volunteer/Form/Settings.php
 msgid "Default to Selected Contact(s)"
-msgstr ""
+msgstr "Výchozí pro vybraný kontakt(y)"
 
 #: CRM/Volunteer/Form/Settings.php
 msgid ""
 "The values set in this section will be used as defaults for volunteer "
 "projects in both the form and data layers."
-msgstr ""
+msgstr "Hodnoty nastavené v této sekci budou použity jako výchozí hodnoty pro dobrovolnické projekty jak ve formuláři, tak v datové vrstvě."
 
 #: CRM/Volunteer/Form/Settings.php
 msgid ""
