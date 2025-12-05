@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2023-12-08 05:01+0000\n"
+"POT-Creation-Date: 2025-12-05 11:01+0100\n"
 "PO-Revision-Date: 2014-10-24 05:32+0000\n"
 "Language-Team: Catalan (http://app.transifex.com/civicrm/civicrm_extensions/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -15,45 +15,12 @@ msgstr ""
 "Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: CRM/AuthorizeNet/Check.php
-msgid ""
-"The <em>%1</em> extension requires the <em>Payment Shared</em> extension "
-"which is not installed. See <a href=\"%2\" target=\"_blank\">details</a> for"
-" more information."
-msgstr ""
-
-#: CRM/AuthorizeNet/Check.php
-msgid "%1: Missing Requirements"
-msgstr ""
-
-#: CRM/AuthorizeNet/Check.php
-msgid "Install now"
-msgstr "Instal·la'l ara"
-
-#: CRM/AuthorizeNet/Check.php
-msgid "You are using a development version of %1 extension."
-msgstr ""
-
-#: CRM/AuthorizeNet/Check.php
-msgid "%1: Development version"
-msgstr ""
-
-#: CRM/AuthorizeNet/Check.php
-msgid ""
-"The %1 extension requires the %2 extension version %3 or greater but your "
-"system has version %4."
-msgstr ""
-
-#: CRM/AuthorizeNet/Check.php
-msgid "Upgrade now"
-msgstr "Actualitza'l ara"
-
 #: CRM/AuthorizeNet/Form/UpdateWebhook.php
 msgid "Update / Create webhook"
 msgstr ""
 
 #: CRM/AuthorizeNet/Form/UpdateWebhook.php
-msgid "All webhooks update successfully."
+msgid "All webhooks updated successfully."
 msgstr ""
 
 #: CRM/AuthorizeNet/Webhook.php
@@ -163,15 +130,6 @@ msgid "Bank Name"
 msgstr "Nom del banc"
 
 #: CRM/Core/Payment/AuthorizeNetCommon.php
-msgid ""
-"It appears that this transaction is a duplicate.  Have you already submitted"
-" the form once?  If so there may have been a connection problem.  Check your"
-" email for a receipt from Authorize.net.  If you do not receive a receipt "
-"within 2 hours you can try your transaction again.  If you continue to have "
-"problems please contact the site administrator."
-msgstr ""
-
-#: CRM/Core/Payment/AuthorizeNetCommon.php
 msgid "Successfully cancelled the subscription in CiviCRM ONLY."
 msgstr "La subscripció ha sigut correctament cancel·lada NOMÉS a CiviCRM."
 
@@ -185,12 +143,51 @@ msgstr ""
 msgid "Successfully cancelled the subscription at Authorize.net."
 msgstr ""
 
+#: Civi/Authnet/Check.php
+msgid "You are using a development version of %1 extension."
+msgstr ""
+
+#: Civi/Authnet/Check.php
+msgid "%1: Development version"
+msgstr ""
+
+#: Civi/Authnet/Check.php
+msgid ""
+"The %1 extension requires the %2 extension version %3 or greater but your "
+"system has version %4."
+msgstr ""
+
+#: Civi/Authnet/Check.php
+msgid "%1: Missing Requirements"
+msgstr ""
+
+#: Civi/Authnet/Check.php
+msgid "Upgrade %1 now"
+msgstr ""
+
+#: Civi/Authnet/Check.php
+msgid ""
+"The <em>%1</em> extension requires the <em>Payment Shared</em> extension "
+"which is not installed. See <a href=\"%2\" target=\"_blank\">details</a> for"
+" more information."
+msgstr ""
+
+#: Civi/Authnet/Check.php
+msgid "Install now"
+msgstr "Instal·la'l ara"
+
 #: api/v3/Authnet.php
 msgid "Payment processor ID"
 msgstr ""
 
 #: api/v3/Authnet.php
 msgid "Authnet Transaction ID"
+msgstr ""
+
+#: authnetecheck.php
+msgid ""
+"Please enter a valid signature key. You can generate one in your portal at "
+"authorize.net under Account >> API Credentials."
 msgstr ""
 
 #: js/civicrmAuthNetAccept.js
