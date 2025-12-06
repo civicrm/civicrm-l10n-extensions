@@ -28,18 +28,22 @@ msgstr "Ödeme tamamlanamadı! %1 eksik."
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid "You do not have permission to issue refunds."
-msgstr ""
+msgstr "Geri ödeme yapma izniniz yok."
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid ""
 "There is more than one payment for this Contribution. You need to select a "
 "specific payment to refund."
 msgstr ""
+"Bu katkı için birden fazla ödeme var. Geri ödemesi yapılacak belirli bir "
+"ödemeyi seçmeniz gerekir."
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid ""
 "No Payment found. Make sure you specified a valid Payment or Contribution."
 msgstr ""
+"Herhangi bir ödeme bulunamadı. Geçerli bir ödemeyi veya katkıyı "
+"belirttiğinizden emin olun."
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid "Do you want to cancel these registrations when you refund the payment?"
@@ -51,11 +55,11 @@ msgstr "Geri ödeme yaptığınızda bu üyelikleri iptal etmek ister misiniz?"
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid "Amount to Refund"
-msgstr ""
+msgstr "Geri ödenecek tutar"
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid "Process Refund"
-msgstr ""
+msgstr "Geri öde"
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid "Cancel"
@@ -63,7 +67,7 @@ msgstr "İptal"
 
 #: Civi/Api4/Action/ContributionRecur/UpdateAmountOnRecurMJW.php
 msgid "Amount must be greater than 0.0"
-msgstr ""
+msgstr "Tutar 0.0 değerinden büyük olmalıdır"
 
 #: Civi/Api4/Action/PaymentMJW/Create.php api/v3/Mjwpayment.php
 msgid "Contribution ID"
@@ -395,11 +399,11 @@ msgstr "Ödeme paylaşım ayarları"
 
 #: mjwshared.php
 msgid "Record Refund"
-msgstr ""
+msgstr "Kayıt geri ödemesi"
 
 #: mjwshared.php
 msgid "Refund Payment"
-msgstr ""
+msgstr "Geri öde"
 
 #: schema/PaymentprocessorWebhook.entityType.php
 msgid "Paymentprocessor Webhook"
@@ -493,11 +497,11 @@ msgstr ""
 
 #: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
 msgid "Total Amount"
-msgstr ""
+msgstr "Toplam tutar"
 
 #: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
 msgid "Amount Paid"
-msgstr ""
+msgstr "Ödenmiş tutar"
 
 #: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
 msgid "Payment date"
@@ -520,6 +524,8 @@ msgid ""
 "When you click \"Process Refund\" a refund will be requested using the %1 "
 "payment processor and, if successful, recorded on the Contribution record."
 msgstr ""
+"\"Geri öde\" üzerine tıkladığınızda, %1 ödeme aracısı ile bir geri ödeme "
+"isteğinde bulunulur ve başarılı olursa katkı kaydına eklenir."
 
 #: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
 msgid ""
@@ -527,3 +533,5 @@ msgid ""
 "refund will be recorded but you will need to process the actual refund "
 "externally."
 msgstr ""
+"Bu ödeme el ile kaydedilmiş ve bir ödeme aracısı kullanılmamış. Bir geri "
+"ödeme kaydedilecek, ancak gerçek geri ödemeyi dışarıdan yapmanız gerekecek."
