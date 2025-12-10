@@ -3,88 +3,19 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Andi Chandler <andi@gowling.com>, 2024
+# Andi Chandler <andi@gowling.com>, 2024-2025
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2024-05-23 05:01+0000\n"
+"POT-Creation-Date: 2025-12-06 11:01+0100\n"
 "PO-Revision-Date: 2015-10-15 05:34+0000\n"
-"Last-Translator: Andi Chandler <andi@gowling.com>, 2024\n"
+"Last-Translator: Andi Chandler <andi@gowling.com>, 2024-2025\n"
 "Language-Team: English (United Kingdom) (http://app.transifex.com/civicrm/civicrm_extensions/language/en_GB/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: en_GB\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: CRM/Civiruleslogger/DAO/CivirulesLog.php
-msgid "Civirules Logs"
-msgstr "Civirules Logs"
-
-#: CRM/Civiruleslogger/DAO/CivirulesLog.php
-msgid "Civirules Log"
-msgstr "Civirules Log"
-
-#: CRM/Civiruleslogger/DAO/CivirulesLog.php
-msgid "ID"
-msgstr "ID"
-
-#: CRM/Civiruleslogger/DAO/CivirulesLog.php
-msgid "Unique CivirulesLog ID"
-msgstr "Unique CivirulesLog ID"
-
-#: CRM/Civiruleslogger/DAO/CivirulesLog.php
-#: templates/CRM/Civiruleslogger/Page/ViewLog.tpl
-msgid "Message"
-msgstr "Message"
-
-#: CRM/Civiruleslogger/DAO/CivirulesLog.php
-msgid "Standardized message"
-msgstr "Standardised message"
-
-#: CRM/Civiruleslogger/DAO/CivirulesLog.php
-#: templates/CRM/Civiruleslogger/Page/ViewLog.tpl
-msgid "Context"
-msgstr "Context"
-
-#: CRM/Civiruleslogger/DAO/CivirulesLog.php
-msgid "JSON encoded data"
-msgstr "JSON encoded data"
-
-#: CRM/Civiruleslogger/DAO/CivirulesLog.php
-#: templates/CRM/Civiruleslogger/Page/ViewLog.tpl
-msgid "Level"
-msgstr "Level"
-
-#: CRM/Civiruleslogger/DAO/CivirulesLog.php
-msgid "error level per PSR3"
-msgstr "error level per PSR3"
-
-#: CRM/Civiruleslogger/DAO/CivirulesLog.php
-msgid "Timestamp"
-msgstr "Timestamp"
-
-#: CRM/Civiruleslogger/DAO/CivirulesLog.php
-msgid "Timestamp of when event occurred."
-msgstr "Timestamp of when event occurred."
-
-#: CRM/Civiruleslogger/DAO/CivirulesLog.php
-msgid "Contact ID"
-msgstr "Contact ID"
-
-#: CRM/Civiruleslogger/DAO/CivirulesLog.php
-msgid ""
-"Optional Contact ID that created the log. Not an FK as we keep this "
-"regardless"
-msgstr "Optional Contact ID that created the log. Not an FK as we keep this regardless"
-
-#: CRM/Civiruleslogger/DAO/CivirulesLog.php
-msgid "Rule ID"
-msgstr "Rule ID"
-
-#: CRM/Civiruleslogger/DAO/CivirulesLog.php
-msgid "Optional Rule ID that created the log"
-msgstr "Optional Rule ID that created the log"
 
 #: CRM/Civiruleslogger/Page/ViewLog.php
 msgid "View log for rule: \"%1\""
@@ -101,6 +32,79 @@ msgstr "Logging"
 #: civiruleslogger.php
 msgid "There are %1 log entries"
 msgstr "There are %1 log entries"
+
+#: schema/CivirulesLog.entityType.php
+msgid "Civirules Log"
+msgstr "Civirules Log"
+
+#: schema/CivirulesLog.entityType.php
+msgid "Civirules Logs"
+msgstr "Civirules Logs"
+
+#: schema/CivirulesLog.entityType.php
+msgid "Civirules logger log"
+msgstr "Civirules logger log"
+
+#: schema/CivirulesLog.entityType.php
+msgid "ID"
+msgstr "ID"
+
+#: schema/CivirulesLog.entityType.php
+msgid "Unique CivirulesLog ID"
+msgstr "Unique CivirulesLog ID"
+
+#: schema/CivirulesLog.entityType.php
+#: templates/CRM/Civiruleslogger/Page/ViewLog.tpl
+msgid "Message"
+msgstr "Message"
+
+#: schema/CivirulesLog.entityType.php
+msgid "Standardized message"
+msgstr "Standardised message"
+
+#: schema/CivirulesLog.entityType.php
+#: templates/CRM/Civiruleslogger/Page/ViewLog.tpl
+msgid "Context"
+msgstr "Context"
+
+#: schema/CivirulesLog.entityType.php
+msgid "JSON encoded data"
+msgstr "JSON encoded data"
+
+#: schema/CivirulesLog.entityType.php
+#: templates/CRM/Civiruleslogger/Page/ViewLog.tpl
+msgid "Level"
+msgstr "Level"
+
+#: schema/CivirulesLog.entityType.php
+msgid "error level per PSR3"
+msgstr "error level per PSR3"
+
+#: schema/CivirulesLog.entityType.php
+msgid "Timestamp"
+msgstr "Timestamp"
+
+#: schema/CivirulesLog.entityType.php
+msgid "Timestamp of when event occurred."
+msgstr "Timestamp of when event occurred."
+
+#: schema/CivirulesLog.entityType.php
+msgid "Contact ID"
+msgstr "Contact ID"
+
+#: schema/CivirulesLog.entityType.php
+msgid ""
+"Optional Contact ID that created the log. Not an FK as we keep this "
+"regardless"
+msgstr "Optional Contact ID that created the log. Not an FK as we keep this regardless"
+
+#: schema/CivirulesLog.entityType.php
+msgid "Rule ID"
+msgstr "Rule ID"
+
+#: schema/CivirulesLog.entityType.php
+msgid "Optional Rule ID that created the log"
+msgstr "Optional Rule ID that created the log"
 
 #: templates/CRM/Civiruleslogger/Page/ViewLog.tpl
 msgid "Go back"
