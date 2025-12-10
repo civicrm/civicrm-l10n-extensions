@@ -29,18 +29,21 @@ msgstr "Unable to complete payment! Missing %1."
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid "You do not have permission to issue refunds."
-msgstr ""
+msgstr "You do not have permission to issue refunds."
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid ""
 "There is more than one payment for this Contribution. You need to select a "
 "specific payment to refund."
 msgstr ""
+"There is more than one payment for this Contribution. You need to select a "
+"specific payment to refund."
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid ""
 "No Payment found. Make sure you specified a valid Payment or Contribution."
 msgstr ""
+"No Payment found. Make sure you specified a valid Payment or Contribution."
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid "Do you want to cancel these registrations when you refund the payment?"
@@ -57,7 +60,7 @@ msgstr "Amount to Refund"
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid "Process Refund"
-msgstr ""
+msgstr "Process Refund"
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid "Cancel"
@@ -65,7 +68,7 @@ msgstr "Cancel"
 
 #: Civi/Api4/Action/ContributionRecur/UpdateAmountOnRecurMJW.php
 msgid "Amount must be greater than 0.0"
-msgstr ""
+msgstr "Amount must be greater than 0.0"
 
 #: Civi/Api4/Action/PaymentMJW/Create.php api/v3/Mjwpayment.php
 msgid "Contribution ID"
@@ -392,11 +395,11 @@ msgstr "Payment Shared Settings"
 
 #: mjwshared.php
 msgid "Record Refund"
-msgstr ""
+msgstr "Record Refund"
 
 #: mjwshared.php
 msgid "Refund Payment"
-msgstr ""
+msgstr "Refund Payment"
 
 #: schema/PaymentprocessorWebhook.entityType.php
 msgid "Paymentprocessor Webhook"
@@ -515,6 +518,8 @@ msgid ""
 "When you click \"Process Refund\" a refund will be requested using the %1 "
 "payment processor and, if successful, recorded on the Contribution record."
 msgstr ""
+"When you click \"Process Refund\" a refund will be requested using the %1 "
+"payment processor and, if successful, recorded on the Contribution record."
 
 #: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
 msgid ""
@@ -522,3 +527,6 @@ msgid ""
 "refund will be recorded but you will need to process the actual refund "
 "externally."
 msgstr ""
+"This payment was recorded manually and did not use a payment processor. A "
+"refund will be recorded but you will need to process the actual refund "
+"externally."
