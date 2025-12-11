@@ -8,9 +8,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: areas\n"
-"POT-Creation-Date: 2021-05-06 05:01+0000\n"
+"POT-Creation-Date: 2023-01-31 05:01+0000\n"
 "Last-Translator: Satomi Sato <puritira2015@gmail.com>, 2022\n"
-"Language-Team: Japanese (https://www.transifex.com/civicrm/teams/1905/ja/)\n"
+"Language-Team: Japanese (https://app.transifex.com/civicrm/teams/1905/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,21 +18,27 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: CRM/Areas/DAO/Area.php CRM/Areas/DAO/AreaDefinition.php
+#: Civi/Areas/DataProcessor/Source/AreaDataSource.php
+#: Civi/Areas/DataProcessor/Source/AreaDefinitionDataSource.php
 #: api/v3/Area/Create.php api/v3/Area/Delete.php
 #: api/v3/AreaDefinition/Delete.php
 msgid "ID"
 msgstr "ID"
 
-#: CRM/Areas/DAO/Area.php ang/areas/AreaEditCtrl.html
-#: ang/areas/AreasListCtrl.html api/v3/Area/Create.php
+#: CRM/Areas/DAO/Area.php Civi/Areas/DataProcessor/Source/AreaDataSource.php
+#: ang/areas/AreaEditCtrl.html ang/areas/AreasListCtrl.html
+#: api/v3/Area/Create.php
 msgid "Title"
 msgstr "タイトル"
 
 #: CRM/Areas/DAO/AreaDefinition.php
+#: Civi/Areas/DataProcessor/Source/AreaDefinitionDataSource.php
 msgid "Area ID"
 msgstr ""
 
-#: CRM/Areas/DAO/AreaDefinition.php ang/areas/AreaEditCtrl.html
+#: CRM/Areas/DAO/AreaDefinition.php
+#: Civi/Areas/DataProcessor/Source/AreaDefinitionDataSource.php
+#: ang/areas/AreaEditCtrl.html
 msgid "Type"
 msgstr "タイプ"
 
@@ -40,10 +46,31 @@ msgstr "タイプ"
 msgid "Upgrade %1 to revision %2"
 msgstr "リビジョン %2 の %1 をアップグレード"
 
+#: Civi/Areas/DataProcessor/CompilerPass.php
+msgid "Area"
+msgstr ""
+
+#: Civi/Areas/DataProcessor/CompilerPass.php
+msgid "Area Definition"
+msgstr ""
+
+#: Civi/Areas/DataProcessor/Source/AreaDefinitionDataSource.php areas.php
+msgid "Country ID"
+msgstr ""
+
+#: Civi/Areas/DataProcessor/Source/AreaDefinitionDataSource.php areas.php
+msgid "State/Province ID"
+msgstr ""
+
+#: Civi/Areas/DataProcessor/Source/AreaDefinitionDataSource.php
 #: Civi/Areas/DefinitionType/City.php ang/areas/areaDefinition/CityCtl.html
 #: ang/areas/areaDefinition/CityStateProvinceCtl.html areas.php
 msgid "City"
 msgstr "市町村"
+
+#: Civi/Areas/DataProcessor/Source/AreaDefinitionDataSource.php
+msgid "Postal Code"
+msgstr ""
 
 #: Civi/Areas/DefinitionType/City.php Civi/Areas/DefinitionType/PostalCode.php
 #: Civi/Areas/DefinitionType/StateProvince.php
@@ -165,14 +192,6 @@ msgstr ""
 
 #: api/v3/Contact/UpdateAreas.php
 msgid "Updated %1 contacts"
-msgstr ""
-
-#: areas.php
-msgid "Country ID"
-msgstr ""
-
-#: areas.php
-msgid "State/Province ID"
 msgstr ""
 
 #: areas.php
