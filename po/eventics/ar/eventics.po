@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: eventics\n"
-"POT-Creation-Date: 2023-01-29 05:02+0000\n"
+"POT-Creation-Date: 2025-10-16 11:01+0200\n"
 "Language-Team: Arabic (https://app.transifex.com/civicrm/teams/1905/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -53,6 +53,14 @@ msgstr ""
 msgid "Details about the event"
 msgstr ""
 
+#: CRM/Eventics/DAO/Eventics.php
+msgid "Event Timezone"
+msgstr ""
+
+#: CRM/Eventics/DAO/Eventics.php
+msgid "Override the event timezone"
+msgstr ""
+
 #: CRM/Eventics/Form/Eventics.php
 msgid "Attach a calendar invite?"
 msgstr ""
@@ -65,8 +73,16 @@ msgstr ""
 msgid "Description"
 msgstr ""
 
-#: CRM/Eventics/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
+#: CRM/Eventics/Form/Eventics.php
+msgid "Timezone"
+msgstr ""
+
+#: CRM/Eventics/Form/Eventics.php
+msgid "- select -"
+msgstr ""
+
+#: CRM/Eventics/Utils/Helper.php
+msgid "A custom group '%1' has been created."
 msgstr ""
 
 #: eventics.php
@@ -74,7 +90,29 @@ msgid "Send iCal"
 msgstr ""
 
 #: eventics.php
-msgid "Event iCal Settings"
+msgid "Event iCal (ics) Attachment"
+msgstr ""
+
+#: eventics.php
+msgid "Event iCal (ics) Attachment for: %1"
+msgstr ""
+
+#: managed/CustomField_icsPreferences.mgd.php
+msgid "EventICS Preferences"
+msgstr ""
+
+#: managed/CustomField_icsPreferences.mgd.php
+msgid "Opt-out"
+msgstr ""
+
+#: managed/CustomField_icsPreferences.mgd.php
+msgid ""
+"For this contact, do not attach iCal (ics) files to event confirmation "
+"emails."
+msgstr ""
+
+#: managed/Navigation_eventicsSettings.mgd.php
+msgid "Event iCal (ics) Settings"
 msgstr ""
 
 #: settings/eventics.setting.php
@@ -85,10 +123,61 @@ msgstr ""
 msgid "Can be set per event as well."
 msgstr ""
 
+#: settings/eventics.setting.php
+msgid "Include a Google Calendar Link for event registrations"
+msgstr ""
+
+#: settings/eventics.setting.php
+msgid ""
+"Provides a special Google Calendar Link for easier addition of events to "
+"Google calendars."
+msgstr ""
+
+#: settings/eventics.setting.php
+msgid ""
+"Requires extra markup to be added to the message templates. <a %1>See the "
+"documentation for more information.</a>."
+msgstr ""
+
+#: settings/eventics.setting.php
+msgid "Include a Outlook Calendar Link for event registrations"
+msgstr ""
+
+#: settings/eventics.setting.php
+msgid ""
+"Provides a special Outlook Calendar Link for easier addition of events to "
+"Outlook calendars."
+msgstr ""
+
+#: settings/eventics.setting.php
+msgid "Enable opt-out field"
+msgstr ""
+
+#: settings/eventics.setting.php
+msgid ""
+"When enabled, creates a custom field so that people can opt-out of ICS "
+"attachments. Once enabled, you will be able to add this custom field to your"
+" communication preferences forms. The custom field is a managed entity. It "
+"will be automatically deleted if this setting is turned off (if not, flush "
+"the CiviCRM cache), or if this extension is uninstalled."
+msgstr ""
+
 #: templates/CRM/Eventics/Form/Eventics.tpl
 msgid "Physical location or link. If empty, Event Location is used."
 msgstr ""
 
 #: templates/CRM/Eventics/Form/Eventics.tpl
 msgid "If empty, Event Summary is used."
+msgstr ""
+
+#: templates/CRM/Eventics/Form/Eventics.tpl
+msgid ""
+"Setting the event timezone is strongly recommended. The default site "
+"timezone is %1."
+msgstr ""
+
+#: templates/CRM/Eventics/Form/Eventics.tpl
+msgid ""
+"This default value is unreliable on CiviCRM Standalone. The default site "
+"timezone is unknown."
 msgstr ""
