@@ -5,32 +5,28 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Civixero\n"
-"POT-Creation-Date: 2023-01-27 19:21+0000\n"
-"Language-Team: Korean (Korea) (https://www.transifex.com/civicrm/teams/1905/ko_KR/)\n"
+"POT-Creation-Date: 2025-10-03 11:01+0200\n"
+"Language-Team: Korean (Korea) (https://app.transifex.com/civicrm/teams/1905/ko_KR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ko_KR\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: CRM/Civixero/Contact.php
-msgid "Cannot update contact"
-msgstr ""
-
 #: CRM/Civixero/Contact.php CRM/Civixero/Invoice.php
-msgid "Failed to store "
+msgid "Failed to store %1 (%2)"
 msgstr ""
 
 #: CRM/Civixero/Contact.php CRM/Civixero/Invoice.php
 msgid " with error "
 msgstr ""
 
-#: CRM/Civixero/Contact.php
-msgid "Contact Pull failed"
+#: CRM/Civixero/Contact.php CRM/Civixero/Invoice.php
+msgid "Not all records were saved"
 msgstr ""
 
 #: CRM/Civixero/Contact.php
-msgid "Updating existing contact for %1"
+msgid "Error updating existing contact for %1"
 msgstr ""
 
 #: CRM/Civixero/Contact.php
@@ -38,7 +34,15 @@ msgid "Attempt to sync Contact %1 to Xero entry for existing Contact %2. "
 msgstr ""
 
 #: CRM/Civixero/Contact.php
-msgid "Failed to push "
+msgid "Failed to push contactID: %1"
+msgstr ""
+
+#: CRM/Civixero/Contact.php CRM/Civixero/Invoice.php
+msgid "Error: "
+msgstr ""
+
+#: CRM/Civixero/Contact.php
+msgid "Record: "
 msgstr ""
 
 #: CRM/Civixero/Contact.php
@@ -49,24 +53,42 @@ msgstr ""
 msgid "Not all contacts were saved"
 msgstr ""
 
-#: CRM/Civixero/Form/XeroSettings.php
-msgid "description"
+#: CRM/Civixero/Contact.php
+msgid "- Primary -"
 msgstr ""
 
-#: CRM/Civixero/Form/XeroSettings.php
-msgid "Submit"
+#: CRM/Civixero/Form/XeroAuthorize.php
+msgid "Xero Authorization Successful"
+msgstr ""
+
+#: CRM/Civixero/Form/XeroAuthorize.php
+msgid "Xero Authorization Not Successful, try again."
+msgstr ""
+
+#: CRM/Civixero/Form/XeroAuthorize.php
+msgid "Save"
+msgstr ""
+
+#: CRM/Civixero/Form/XeroAuthorize.php
+msgid ""
+"CiviCRM can connect to Xero. You do not need to authorize again at this "
+"point."
+msgstr ""
+
+#: CRM/Civixero/Form/XeroAuthorize.php
+msgid "You need to Re-authorize with Xero by clicking the button below."
+msgstr ""
+
+#: CRM/Civixero/Form/XeroAuthorize.php
+msgid "You need to Authorize with Xero by clicking the button below."
+msgstr ""
+
+#: CRM/Civixero/Form/XeroAuthorize.php
+msgid "Authorize with Xero"
 msgstr ""
 
 #: CRM/Civixero/Invoice.php
-msgid "Cannot update invoice"
-msgstr ""
-
-#: CRM/Civixero/Invoice.php
-msgid "Invoice Pull failed"
-msgstr ""
-
-#: CRM/Civixero/Invoice.php
-msgid "Not all records were saved"
+msgid "Failed to push contributionID: %1 (AccountsContactID: %2)"
 msgstr ""
 
 #: CRM/Civixero/Invoice.php
@@ -77,42 +99,24 @@ msgstr ""
 msgid "Tracking Category Does Not Exist "
 msgstr ""
 
-#: CRM/Civixero/Page/XeroAuthorize.php
-msgid "Xero Authorization Successful"
+#: CRM/Civixero/Invoice.php
+msgid "Draft"
 msgstr ""
 
-#: CRM/Civixero/Page/XeroAuthorize.php
-msgid "Xero Authorization Not Successful, try again."
+#: CRM/Civixero/Invoice.php
+msgid "Submitted"
 msgstr ""
 
-#: CRM/Civixero/Page/XeroAuthorize.php
-msgid "Authorize with Xero"
+#: CRM/Civixero/Invoice.php
+msgid "Approved"
 msgstr ""
 
-#: CRM/Civixero/Page/XeroAuthorize.php
-msgid ""
-"CiviCRM can connect to Xero. You do not need to authorize again at this "
-"point."
+#: CRM/Civixero/Invoice.php
+msgid "Inclusive"
 msgstr ""
 
-#: CRM/Civixero/Page/XeroAuthorize.php
-msgid "Change Authorized user"
-msgstr ""
-
-#: CRM/Civixero/Page/XeroAuthorize.php
-msgid "You will need to Authorize with Xero by clicking the link below."
-msgstr ""
-
-#: CRM/Civixero/Page/XeroErrorLogs.php
-msgid "Xero %1 error logs"
-msgstr ""
-
-#: CRM/Civixero/Page/XeroErrorLogs.php
-msgid "Synchronization Errors %%StatusMessage%%"
-msgstr ""
-
-#: CRM/Civixero/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
+#: CRM/Civixero/Invoice.php
+msgid "Exclusive"
 msgstr ""
 
 #: Civixero.php
@@ -132,6 +136,16 @@ msgid "Xero Authorization Required"
 msgstr ""
 
 #: Civixero.php
+msgid ""
+"Xero access token has expired. You need to re-authorize with Xero to re-"
+"enable the connection."
+msgstr ""
+
+#: Civixero.php
+msgid "Xero"
+msgstr ""
+
+#: Civixero.php
 msgid "Civi Xero"
 msgstr ""
 
@@ -148,27 +162,31 @@ msgid "Invoice Sync Errors"
 msgstr ""
 
 #: Civixero.php
-msgid "Invoice Sync Link"
-msgstr ""
-
-#: Civixero.php
 msgid "Contact Sync Link"
 msgstr ""
 
-#: api/v3/Civixero/Invoicepull.php
+#: api/v3/Civixero/Contactpull.php api/v3/Civixero/Invoicepull.php
 msgid "Sync Start Date"
 msgstr ""
 
-#: api/v3/Civixero/Invoicepull.php
+#: api/v3/Civixero/Contactpull.php api/v3/Civixero/Invoicepull.php
 msgid "date to start pulling from (default \"yesterday\")"
 msgstr ""
 
-#: api/v3/Civixero/Invoicepull.php
+#: api/v3/Civixero/Contactpull.php api/v3/Civixero/Invoicepull.php
 msgid "Connector ID"
 msgstr ""
 
-#: api/v3/Civixero/Invoicepull.php
+#: api/v3/Civixero/Contactpull.php api/v3/Civixero/Invoicepull.php
 msgid "Connector ID if using nz.co.fuzion.connectors, else 0"
+msgstr ""
+
+#: api/v3/Civixero/Contactpull.php api/v3/Civixero/Invoicepull.php
+msgid "Xero Contact ID"
+msgstr ""
+
+#: api/v3/Civixero/Contactpull.php
+msgid "Specify Xero Contact UUID to retrieve a single contact record"
 msgstr ""
 
 #: api/v3/Civixero/Invoicepull.php
@@ -179,30 +197,72 @@ msgstr ""
 msgid "The (Optional) Xero Invoice number to pull (eg. IN-0624"
 msgstr ""
 
-#: settings/Civixero.setting.php
-msgid "- Primary -"
+#: api/v3/Civixero/Invoicepull.php
+msgid "Xero Invoice ID"
 msgstr ""
 
-#: templates/CRM/Civixero/Page/XeroErrorLogs.tpl
-msgid "Contact"
+#: api/v3/Civixero/Invoicepull.php
+msgid "Specify Xero Invoice UUID to retrieve a single contribution record"
 msgstr ""
 
-#: templates/CRM/Civixero/Page/XeroErrorLogs.tpl
-msgid "Account Contact Id"
+#: api/v3/Civixero/Invoicepull.php
+msgid "Specify Xero Contact UUID to retrieve invoices for that Xero Contact"
 msgstr ""
 
-#: templates/CRM/Civixero/Page/XeroErrorLogs.tpl
-msgid "Contribution"
+#: api/v3/Civixero/Invoicepull.php
+msgid "Create contributions in CiviCRM if they don't exist"
 msgstr ""
 
-#: templates/CRM/Civixero/Page/XeroErrorLogs.tpl
-msgid "Account Invoice Id"
+#: managed/navigation.mgd.php
+msgid "Xero Settings"
 msgstr ""
 
-#: templates/CRM/Civixero/Page/XeroErrorLogs.tpl
-msgid "Error Data"
+#: managed/navigation.mgd.php
+msgid "Xero Authorize"
 msgstr ""
 
-#: templates/CRM/Civixero/Page/XeroErrorLogs.tpl
-msgid "Last Sync Date"
+#: templates/CRM/Civixero/Form/XeroAuthorize.tpl
+msgid "Xero client authentication details"
+msgstr ""
+
+#: templates/CRM/Civixero/Form/XeroAuthorize.tpl
+msgid "Access token expiry date"
+msgstr ""
+
+#: templates/CRM/Civixero/Form/XeroAuthorize.tpl
+msgid "Status"
+msgstr ""
+
+#: templates/CRM/Civixero/Form/XeroAuthorize.tpl
+msgid "Sync Status"
+msgstr ""
+
+#: templates/CRM/Civixero/Form/XeroAuthorize.tpl
+msgid ""
+"Data is synchronized via scheduled jobs. No data will be synchronized until "
+"you enable one or more jobs."
+msgstr ""
+
+#: templates/CRM/Civixero/Form/XeroAuthorize.tpl
+msgid "Enabled"
+msgstr ""
+
+#: templates/CRM/Civixero/Form/XeroAuthorize.tpl
+msgid "Disabled"
+msgstr ""
+
+#: templates/CRM/Civixero/Page/Inline/ContactSyncStatus.tpl
+msgid "Xero Sync Status"
+msgstr ""
+
+#: templates/CRM/Civixero/Page/Inline/ContactSyncStatus.tpl
+msgid "Queue Sync to Xero"
+msgstr ""
+
+#: templates/CRM/Civixero/Page/Inline/ContactSyncStatus.tpl
+msgid "Contact is synced with Xero"
+msgstr ""
+
+#: templates/CRM/Civixero/Page/Inline/ContactSyncStatus.tpl
+msgid "Contact is queued for sync with Xero"
 msgstr ""
