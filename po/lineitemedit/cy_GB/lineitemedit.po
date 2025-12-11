@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: lineitemedit\n"
-"POT-Creation-Date: 2021-05-06 05:01+0000\n"
-"Language-Team: Welsh (United Kingdom) (https://www.transifex.com/civicrm/teams/1905/cy_GB/)\n"
+"POT-Creation-Date: 2025-07-16 09:01+0000\n"
+"Language-Team: Welsh (United Kingdom) (https://app.transifex.com/civicrm/teams/1905/cy_GB/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,11 +36,7 @@ msgid "Submit"
 msgstr ""
 
 #: CRM/Lineitemedit/Form/Edit.php
-msgid "Please enter a whole number quantity"
-msgstr ""
-
-#: CRM/Lineitemedit/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
+msgid "Please enter a numeric quantity"
 msgstr ""
 
 #: CRM/Lineitemedit/Util.php
@@ -68,6 +64,10 @@ msgid "Add item"
 msgstr ""
 
 #: CRM/Lineitemedit/Util.php
+msgid "- select any price-field -"
+msgstr ""
+
+#: CRM/Lineitemedit/Util.php
 msgid "Please enter a monetary value for this field."
 msgstr ""
 
@@ -87,32 +87,50 @@ msgstr ""
 msgid "Additional Item"
 msgstr ""
 
-#: templates/CRM/Lineitemedit/Form/AddLineItems.tpl
-msgid "Choose manual contribution amount"
+#: managed/LineItemsSavedSearch.mgd.php
+msgid "Contribution Amount"
 msgstr ""
 
+#: managed/LineItemsSavedSearch.mgd.php
 #: templates/CRM/Lineitemedit/Form/AddLineItems.tpl
 msgid "Item"
 msgstr ""
 
+#: managed/LineItemsSavedSearch.mgd.php
 #: templates/CRM/Lineitemedit/Form/AddLineItems.tpl
 msgid "Financial Type"
 msgstr ""
 
+#: managed/LineItemsSavedSearch.mgd.php
 #: templates/CRM/Lineitemedit/Form/AddLineItems.tpl
 msgid "Qty"
 msgstr ""
 
+#: managed/LineItemsSavedSearch.mgd.php
 #: templates/CRM/Lineitemedit/Form/AddLineItems.tpl
 msgid "Unit Price"
 msgstr ""
 
+#: managed/LineItemsSavedSearch.mgd.php
 #: templates/CRM/Lineitemedit/Form/AddLineItems.tpl
 msgid "Total Price"
 msgstr ""
 
+#: managed/LineItemsSavedSearch.mgd.php
 #: templates/CRM/Lineitemedit/Form/AddLineItems.tpl
 msgid "Tax Amount"
+msgstr ""
+
+#: settings/lineitemedit.setting.php
+msgid "Maximum additional line items"
+msgstr ""
+
+#: settings/lineitemedit.setting.php
+msgid "Limits the number of lines shown"
+msgstr ""
+
+#: templates/CRM/Lineitemedit/Form/AddLineItems.tpl
+msgid "Choose manual contribution amount"
 msgstr ""
 
 #: templates/CRM/Lineitemedit/Form/AddLineItems.tpl
