@@ -6,15 +6,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2018-11-15 19:41+0000\n"
-"PO-Revision-Date: 2022-02-24 12:38+0000\n"
-"Last-Translator: Zaruhi Andreasyan <zandreasyan@yahoo.com>\n"
-"Language-Team: Armenian (http://www.transifex.com/civicrm/civicrm_extensions/language/hy/)\n"
+"POT-Creation-Date: 2024-01-10 05:01+0000\n"
+"PO-Revision-Date: 2014-05-30 13:55+0000\n"
+"Language-Team: Armenian (http://app.transifex.com/civicrm/civicrm_extensions/language/hy/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hy\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: CRM/Admin/Form/Setting/RegionLookup.php
+#: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
+msgid "Lookup method"
+msgstr ""
 
 #: CRM/Admin/Form/Setting/RegionLookup.php
 msgid "Save"
@@ -84,8 +88,8 @@ msgstr ""
 msgid "How many characters to send to the lookup query?"
 msgstr ""
 
-#: CRM/RegionLookup/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
+#: CRM/RegionLookup/BAO/RegionLookup.php
+msgid "Database"
 msgstr ""
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
@@ -129,6 +133,13 @@ msgid ""
 "For example, if your lookup only requires the first 3 digits of a postcode "
 "to find a match, enter 3 in this field. <strong>TODO: not implemented "
 "yet.</strong>"
+msgstr ""
+
+#: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
+msgid ""
+"The default lookup method uses values in the 'civicrm_regionlookup' database"
+" table. You can configure external lookup sources with the help of third-"
+"party extensions. See the extension's README file for more information."
 msgstr ""
 
 #: templates/CRM/Admin/Form/Setting/RegionLookup.tpl
