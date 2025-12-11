@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tsys\n"
-"POT-Creation-Date: 2019-10-23 05:01+0000\n"
-"Language-Team: Korean (Korea) (https://www.transifex.com/civicrm/teams/1905/ko_KR/)\n"
+"POT-Creation-Date: 2024-11-20 05:01+0000\n"
+"Language-Team: Korean (Korea) (https://app.transifex.com/civicrm/teams/1905/ko_KR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,22 +14,23 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: CRM/Core/Payment/Tsys.php
-msgid "TSYS"
+msgid "Genius"
 msgstr ""
 
 #: CRM/Core/Payment/Tsys.php
-msgid "The '%1' is not set in the TSYS Payment Processor settings."
+msgid "The '%1' is not set in the Genius Payment Processor settings."
 msgstr ""
 
-#: CRM/Core/Payment/Tsys.php CRM/Tsys/Recur.php
-#: api/v3/Job/Tsysrecurringcontributions.php
+#: CRM/Core/Payment/Tsys.php CRM/Tsys/Form/Device.php CRM/Tsys/Form/Refund.php
+#: CRM/Tsys/Form/Settings/Device.php CRM/Tsys/Form/Tsysdevicepayment.php
+#: CRM/Tsys/Recur.php api/v3/Job/Tsysrecurringcontributions.php
 #: tests/phpunit/CRM/Tsys/BaseTest.php
 #: tests/phpunit/CRM/Tsys/OneTimeContributionTsysTest.php tsys.php
 msgid "API Error %1"
 msgstr ""
 
 #: CRM/Core/Payment/Tsys.php
-msgid "Could not find valid TSYS Payment Processor credentials"
+msgid "Could not find valid Genius Payment Processor credentials"
 msgstr ""
 
 #: CRM/Core/Payment/Tsys.php
@@ -44,6 +45,207 @@ msgstr ""
 msgid "Warning"
 msgstr ""
 
+#: CRM/Tsys/Form/Device.php
+msgid "Select Contact"
+msgstr ""
+
+#: CRM/Tsys/Form/Device.php
+msgid "Financial Type"
+msgstr ""
+
+#: CRM/Tsys/Form/Device.php
+msgid "- Select Financial Type -"
+msgstr ""
+
+#: CRM/Tsys/Form/Device.php
+msgid "Total Amount"
+msgstr ""
+
+#: CRM/Tsys/Form/Device.php CRM/Tsys/Form/Tsysdevicepayment.php
+msgid "Test transaction?"
+msgstr ""
+
+#: CRM/Tsys/Form/Device.php CRM/Tsys/Form/Tsysdevicepayment.php
+msgid "Cancel"
+msgstr ""
+
+#: CRM/Tsys/Form/Device.php CRM/Tsys/Form/Settings.php
+#: CRM/Tsys/Form/Tsysdevicepayment.php
+msgid "Submit"
+msgstr ""
+
+#: CRM/Tsys/Form/Device.php CRM/Tsys/Form/Tsysdevicepayment.php
+msgid ""
+"error: %1, Transport Key: %2, Authorization Code: %3, Token: %4, Status: %5"
+msgstr ""
+
+#: CRM/Tsys/Form/Device.php CRM/Tsys/Form/Tsysdevicepayment.php
+msgid "User Cancelled this transaction."
+msgstr ""
+
+#: CRM/Tsys/Form/Device.php CRM/Tsys/Form/Tsysdevicepayment.php
+msgid "You Cancelled this transaction."
+msgstr ""
+
+#: CRM/Tsys/Form/Device.php CRM/Tsys/Form/Tsysdevicepayment.php
+msgid "error code: %1, Message: %3, Transport Key: %2"
+msgstr ""
+
+#: CRM/Tsys/Form/Device.php CRM/Tsys/Form/Tsysdevicepayment.php
+msgid "Perhaps you have Invalid credentials or the wrong TransportKey"
+msgstr ""
+
+#: CRM/Tsys/Form/Refund.php
+msgid ""
+"You cannot update this payment as it is not tied to a Genius payment "
+"processor"
+msgstr ""
+
+#: CRM/Tsys/Form/Refund.php
+msgid "Amount to Refund"
+msgstr ""
+
+#: CRM/Tsys/Form/Refund.php
+msgid "Issue Refund"
+msgstr ""
+
+#: CRM/Tsys/Form/Refund.php
+msgid ""
+"Amount Available to Refund for this payment is $%1. Submitting this form "
+"will result in a refund being issued from your Genius payment processor."
+msgstr ""
+
+#: CRM/Tsys/Form/Refund.php
+msgid "Amount to be Voided"
+msgstr ""
+
+#: CRM/Tsys/Form/Refund.php
+msgid "Void Payment"
+msgstr ""
+
+#: CRM/Tsys/Form/Refund.php
+msgid ""
+"This transaction has not been settled and so it is recommended that you void"
+" the full amount $%1 instead of refunding it. Submitting this form will "
+"result in this transaction being voided via your Genius Payment processor."
+msgstr ""
+
+#: CRM/Tsys/Form/Refund.php
+msgid "No Credit Card Actions are available for this payment at this time."
+msgstr ""
+
+#: CRM/Tsys/Form/Refund.php
+msgid "%1 of payment approved"
+msgstr ""
+
+#: CRM/Tsys/Form/Refund.php
+msgid "%1 Approved"
+msgstr ""
+
+#: CRM/Tsys/Form/Refund.php
+msgid "%1 Failed"
+msgstr ""
+
+#: CRM/Tsys/Form/Refund.php
+msgid "Error Code %1, %2"
+msgstr ""
+
+#: CRM/Tsys/Form/Refund.php
+msgid "%1 Response could not be found see logs for more details."
+msgstr ""
+
+#: CRM/Tsys/Form/Settings/Device.php templates/CRM/Tsys/Form/Settings.tpl
+msgid "Device Name"
+msgstr ""
+
+#: CRM/Tsys/Form/Settings/Device.php
+msgid "IP address of Device"
+msgstr ""
+
+#: CRM/Tsys/Form/Settings/Device.php
+msgid "Terminal ID for Device"
+msgstr ""
+
+#: CRM/Tsys/Form/Settings/Device.php templates/CRM/Tsys/Form/Settings.tpl
+msgid "Payment Processor"
+msgstr ""
+
+#: CRM/Tsys/Form/Settings/Device.php
+msgid "- Select Payment Processor -"
+msgstr ""
+
+#: CRM/Tsys/Form/Settings/Device.php
+msgid "Save"
+msgstr ""
+
+#: CRM/Tsys/Form/Settings/Device.php
+msgid "Is enabled"
+msgstr ""
+
+#: CRM/Tsys/Form/Settings/Device.php
+msgid "Device %2 (%1) created successfully"
+msgstr ""
+
+#: CRM/Tsys/Form/Settings/Device.php
+msgid "Device Created"
+msgstr ""
+
+#: CRM/Tsys/Form/Settings/Device.php
+msgid "Device not created: %1"
+msgstr ""
+
+#: CRM/Tsys/Form/Settings/Device.php
+msgid "Not saved because no valid device id was found."
+msgstr ""
+
+#: CRM/Tsys/Form/Settings.php
+msgid "more"
+msgstr ""
+
+#: CRM/Tsys/Form/Settings.php
+msgid "Edit"
+msgstr ""
+
+#: CRM/Tsys/Form/Settings.php
+msgid "Edit Genius Device"
+msgstr ""
+
+#: CRM/Tsys/Form/Settings.php
+msgid "Delete"
+msgstr ""
+
+#: CRM/Tsys/Form/Settings.php
+msgid "Delete Genius Device"
+msgstr ""
+
+#: CRM/Tsys/Form/Settings.php
+msgid "Test"
+msgstr ""
+
+#: CRM/Tsys/Form/Settings.php
+msgid "Test Genius Device"
+msgstr ""
+
+#: CRM/Tsys/Form/Settings.php
+msgid "Enable"
+msgstr ""
+
+#: CRM/Tsys/Form/Settings.php
+msgid "Enable this Device"
+msgstr ""
+
+#: CRM/Tsys/Form/Settings.php
+msgid "Disable"
+msgstr ""
+
+#: CRM/Tsys/Form/Settings.php
+msgid "Disable this Device"
+msgstr ""
+
+#: CRM/Tsys/Form/Tsysdevicepayment.php
+msgid "Payment Amount"
+msgstr ""
+
 #: CRM/Tsys/Recur.php
 msgid "no payment token found for recurring contribution in series id %1: "
 msgstr ""
@@ -53,7 +255,7 @@ msgid "No valid payment processor credentials found"
 msgstr ""
 
 #: CRM/Tsys/Recur.php
-msgid "no TSYS Credentials found for payment processor id: %1 "
+msgid "no Genius Credentials found for payment processor id: %1 "
 msgstr ""
 
 #: CRM/Tsys/Recur.php
@@ -94,6 +296,105 @@ msgstr ""
 msgid "No contribution records were processed."
 msgstr ""
 
+#: js/deviceTransact.js
+msgid "is a required field"
+msgstr ""
+
+#: js/deviceTransact.js
+msgid "must be numeric"
+msgstr ""
+
+#: templates/CRM/Contribute/Form/swipedevices.tpl
+msgid "Submit payment via "
+msgstr ""
+
+#: templates/CRM/Tsys/Form/Settings/Device.hlp
+msgid ""
+"To find the IP address of the device visit the <a "
+"href='https://docs.tsysmerchant.com/knowledge-base/faqs'>TSYS Knowledge Base"
+" FAQs</a>"
+msgstr ""
+
+#: templates/CRM/Tsys/Form/Settings/Device.hlp
+msgid ""
+"Terminal ID is used to uniquely identify the terminal to the processor. The "
+"terminal ID must contain all numeric characters. For more information about "
+"the TID value that should be used, take a look at this article <a "
+"href=\"https://docs.tsysmerchant.com/knowledge-base/best-"
+"practices/mastercard-terminal-id-handling-best-practices\">MasterCard "
+"Terminal ID Handling Best Practices.</a>"
+msgstr ""
+
+#: templates/CRM/Tsys/Form/Settings/Device.tpl
+msgid "This form is to enter information about a specific TSYS Device."
+msgstr ""
+
+#: templates/CRM/Tsys/Form/Settings.tpl
+msgid ""
+"Configure Devices in this section. Genius offers a variety of Devices to "
+"accept credit card payments for more information visit: "
+"https://www.tsys.com/solutions/products-services/merchant/genius/ "
+msgstr ""
+
+#: templates/CRM/Tsys/Form/Settings.tpl
+msgid "ID"
+msgstr ""
+
+#: templates/CRM/Tsys/Form/Settings.tpl
+msgid "IP Address"
+msgstr ""
+
+#: templates/CRM/Tsys/Form/Settings.tpl
+msgid "Terminal ID"
+msgstr ""
+
+#: templates/CRM/Tsys/Form/Settings.tpl
+msgid "Add Device"
+msgstr ""
+
+#: tsys.php
+msgid ""
+"Submitting this refund form will\n"
+"      NOT result in a refund of money to the user. A refund will be recorded in CiviCRM. If this\n"
+"      was a payment made thru a Genius processor either: refund the payment using the\n"
+"      credit card action button OR submit this form and then login to Genius to process\n"
+"      the refund."
+msgstr ""
+
+#: tsys.php
+msgid "Total Amount must be a positive number"
+msgstr ""
+
+#: tsys.php
+msgid "Please enter a valid IP address"
+msgstr ""
+
+#: tsys.php
+msgid "%1 must be unique."
+msgstr ""
+
+#: tsys.php
+msgid "Terminal ID must be unique."
+msgstr ""
+
+#: tsys.php
+msgid "This Terminal ID must be a number."
+msgstr ""
+
+#: tsys.php
+msgid "This Terminal ID must be between 1 and 16 characters long."
+msgstr ""
+
+#: tsys.php
+msgid ""
+"The Genius Credentials for Payment Processor ID %1 are incorrect please "
+"update them <a href=%2>here</a>."
+msgstr ""
+
+#: tsys.php
+msgid "Invalid Genius Credentials for Payment Processor ID: %1"
+msgstr ""
+
 #: tsys.php
 msgid ""
 "%1 Recurring Contribution(s) not successfully processed including the "
@@ -103,5 +404,13 @@ msgid ""
 msgstr ""
 
 #: tsys.php
-msgid "Uncompleted Recurring TSYS Contributions Found"
+msgid "Uncompleted Recurring Genius Contributions Found"
+msgstr ""
+
+#: tsys.php
+msgid "Genius Settings"
+msgstr ""
+
+#: tsys.php
+msgid "Submit Credit Card Contribution Via Device"
 msgstr ""
