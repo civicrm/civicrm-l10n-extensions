@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2024-01-16 05:01+0000\n"
+"POT-Creation-Date: 2024-06-26 05:01+0000\n"
 "PO-Revision-Date: 2015-10-15 05:34+0000\n"
 "Language-Team: Thai (Thailand) (http://app.transifex.com/civicrm/civicrm_extensions/language/th_TH/)\n"
 "MIME-Version: 1.0\n"
@@ -14,10 +14,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: th_TH\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-
-#: CRM/Civirules/BAO/CiviRulesRule.php
-msgid "Params can not be empty when adding or updating a civirule rule"
-msgstr ""
 
 #: CRM/Civirules/BAO/CiviRulesRule.php
 msgid "rule id can not be empty when attempting to delete a civirule rule"
@@ -48,7 +44,8 @@ msgstr ""
 #: CRM/Civirules/DAO/CiviRulesRuleCondition.php
 #: CRM/Civirules/DAO/CiviRulesRuleLog.php
 #: CRM/Civirules/DAO/CiviRulesRuleTag.php
-#: CRM/Civirules/DAO/CiviRulesTrigger.php managed/searchkit.mgd.php
+#: CRM/Civirules/DAO/CiviRulesTrigger.php
+#: managed/managerules_searchkit.mgd.php
 #: templates/CRM/Civirules/Page/RuleViewList.tpl
 msgid "ID"
 msgstr ""
@@ -68,7 +65,8 @@ msgstr "ชื่อ"
 #: CRM/Civirules/DAO/CiviRulesAction.php
 #: CRM/Civirules/DAO/CiviRulesCondition.php
 #: CRM/Civirules/DAO/CiviRulesRule.php CRM/Civirules/DAO/CiviRulesTrigger.php
-#: managed/searchkit.mgd.php templates/CRM/Civirules/Page/RuleViewList.tpl
+#: managed/managerules_searchkit.mgd.php managed/managetags_searchkit.mgd.php
+#: templates/CRM/Civirules/Page/RuleViewList.tpl
 msgid "Label"
 msgstr ""
 
@@ -84,7 +82,7 @@ msgstr ""
 #: CRM/Civirules/DAO/CiviRulesRuleAction.php
 #: CRM/Civirules/DAO/CiviRulesRuleCondition.php
 #: CRM/Civirules/DAO/CiviRulesTrigger.php CRM/Civirules/Form/Rule.php
-#: managed/searchkit.mgd.php
+#: managed/managerules_searchkit.mgd.php managed/managetags_searchkit.mgd.php
 msgid "Enabled"
 msgstr ""
 
@@ -118,7 +116,7 @@ msgstr ""
 #: CRM/Civirules/DAO/CiviRulesAction.php
 #: CRM/Civirules/DAO/CiviRulesCondition.php
 #: CRM/Civirules/DAO/CiviRulesRule.php CRM/Civirules/DAO/CiviRulesTrigger.php
-#: managed/searchkit.mgd.php
+#: managed/managerules_searchkit.mgd.php
 msgid "Modified Date"
 msgstr ""
 
@@ -131,7 +129,8 @@ msgstr ""
 #: CRM/Civirules/DAO/CiviRulesAction.php
 #: CRM/Civirules/DAO/CiviRulesCondition.php
 #: CRM/Civirules/DAO/CiviRulesRule.php CRM/Civirules/DAO/CiviRulesRuleLog.php
-#: CRM/Civirules/DAO/CiviRulesTrigger.php managed/searchkit.mgd.php
+#: CRM/Civirules/DAO/CiviRulesTrigger.php
+#: managed/managerules_searchkit.mgd.php
 msgid "Modified By"
 msgstr ""
 
@@ -148,11 +147,11 @@ msgid "Unique Condition ID"
 msgstr ""
 
 #: CRM/Civirules/DAO/CiviRulesRule.php
-msgid "Rules"
+msgid "Civi Rules Rules"
 msgstr ""
 
 #: CRM/Civirules/DAO/CiviRulesRule.php
-msgid "Rule"
+msgid "Civi Rules Rule"
 msgstr ""
 
 #: CRM/Civirules/DAO/CiviRulesRule.php
@@ -164,7 +163,8 @@ msgid "Trigger ID"
 msgstr ""
 
 #: CRM/Civirules/DAO/CiviRulesRule.php CRM/Civirules/DAO/CiviRulesTrigger.php
-#: managed/searchkit.mgd.php templates/CRM/Civirules/Page/RuleViewList.tpl
+#: managed/managerules_searchkit.mgd.php
+#: templates/CRM/Civirules/Page/RuleViewList.tpl
 msgid "Trigger"
 msgstr ""
 
@@ -173,7 +173,7 @@ msgid "Trigger Params"
 msgstr ""
 
 #: CRM/Civirules/DAO/CiviRulesRule.php CRM/Civirules/Form/Rule.php
-#: managed/searchkit.mgd.php
+#: managed/managerules_searchkit.mgd.php managed/managetags_searchkit.mgd.php
 #: templates/CRM/Civirules/Form/RuleBlocks/ConditionBlock.tpl
 #: templates/CRM/Civirules/Page/RuleViewList.tpl
 msgid "Description"
@@ -616,12 +616,14 @@ msgstr ""
 #: CRM/CivirulesActions/Contact/Form/UpdateNumericValue.php
 #: CRM/CivirulesActions/Contribution/Form/FinancialType.php
 #: CRM/CivirulesActions/Contribution/Form/ThankYouDate.php
+#: CRM/CivirulesActions/ContributionRecur/Form/UpdateStatus.php
 #: CRM/CivirulesActions/Generic/Form/CopyCustomField.php
 #: CRM/CivirulesActions/Generic/Form/SetCustomField.php
 #: CRM/CivirulesActions/Generic/Form/UpdateDateValue.php
 #: CRM/CivirulesActions/GroupContact/Form/AddRelated.php
 #: CRM/CivirulesActions/GroupContact/Form/GroupId.php
 #: CRM/CivirulesActions/Membership/Form/Add.php
+#: CRM/CivirulesActions/Membership/Form/UpdateStatus.php
 #: CRM/CivirulesActions/Participant/Form/Register.php
 #: CRM/CivirulesActions/Participant/Form/UpdateStatus.php
 #: CRM/CivirulesActions/Relationship/Form/End.php
@@ -709,7 +711,7 @@ msgid "Cancel"
 msgstr ""
 
 #: CRM/Civirules/Form/Rule.php CRM/Civirules/Form/RuleView.php
-#: managed/searchkit.mgd.php
+#: managed/managerules_searchkit.mgd.php managed/managetags_searchkit.mgd.php
 msgid "Delete"
 msgstr "ลบ"
 
@@ -735,12 +737,14 @@ msgstr "ลบ"
 #: CRM/CivirulesActions/Contact/Form/UpdateNumericValue.php
 #: CRM/CivirulesActions/Contribution/Form/FinancialType.php
 #: CRM/CivirulesActions/Contribution/Form/ThankYouDate.php
+#: CRM/CivirulesActions/ContributionRecur/Form/UpdateStatus.php
 #: CRM/CivirulesActions/Generic/Form/CopyCustomField.php
 #: CRM/CivirulesActions/Generic/Form/SetCustomField.php
 #: CRM/CivirulesActions/Generic/Form/UpdateDateValue.php
 #: CRM/CivirulesActions/GroupContact/Form/AddRelated.php
 #: CRM/CivirulesActions/GroupContact/Form/GroupId.php
 #: CRM/CivirulesActions/Membership/Form/Add.php
+#: CRM/CivirulesActions/Membership/Form/UpdateStatus.php
 #: CRM/CivirulesActions/Participant/Form/Register.php
 #: CRM/CivirulesActions/Participant/Form/UpdateStatus.php
 #: CRM/CivirulesActions/Relationship/Form/End.php
@@ -839,7 +843,7 @@ msgid "Close"
 msgstr ""
 
 #: CRM/Civirules/Form/Rule.php CRM/Civirules/Form/RuleView.php
-#: managed/searchkit.mgd.php
+#: managed/managerules_searchkit.mgd.php managed/managetags_searchkit.mgd.php
 msgid "Edit"
 msgstr "แก้ไข"
 
@@ -960,11 +964,13 @@ msgstr ""
 msgid "Filter"
 msgstr ""
 
-#: CRM/Civirules/Form/RuleView.php managed/searchkit.mgd.php
+#: CRM/Civirules/Form/RuleView.php managed/managerules_searchkit.mgd.php
+#: managed/managetags_searchkit.mgd.php
 msgid "Disable"
 msgstr ""
 
-#: CRM/Civirules/Form/RuleView.php managed/searchkit.mgd.php
+#: CRM/Civirules/Form/RuleView.php managed/managerules_searchkit.mgd.php
+#: managed/managetags_searchkit.mgd.php
 msgid "Enable"
 msgstr ""
 
@@ -1073,6 +1079,7 @@ msgstr ""
 #: CRM/CivirulesActions/Activity/AddToCase.php
 #: CRM/CivirulesActions/Activity/CreateActivityFromEvent.php
 #: CRM/CivirulesActions/Activity/UpdateStatus.php
+#: CRM/CivirulesActions/Membership/UpdateStatus.php
 #: CRM/CivirulesActions/Participant/UpdateStatus.php
 msgid "Status: %1"
 msgstr ""
@@ -1149,9 +1156,11 @@ msgstr ""
 #: CRM/CivirulesActions/Contact/Form/RemoveSubtype.php
 #: CRM/CivirulesActions/Contact/Form/Subtype.php
 #: CRM/CivirulesActions/Contribution/Form/FinancialType.php
+#: CRM/CivirulesActions/ContributionRecur/Form/UpdateStatus.php
 #: CRM/CivirulesActions/GroupContact/Form/AddRelated.php
 #: CRM/CivirulesActions/GroupContact/Form/GroupId.php
 #: CRM/CivirulesActions/Membership/Form/Add.php
+#: CRM/CivirulesActions/Membership/Form/UpdateStatus.php
 #: CRM/CivirulesActions/Participant/Form/UpdateStatus.php
 #: CRM/CivirulesActions/Tag/Form/Sync.php
 #: CRM/CivirulesActions/Tag/Form/TagId.php
@@ -1193,6 +1202,10 @@ msgstr ""
 #: CRM/CivirulesActions/Activity/Form/Activity.php
 #: CRM/CivirulesActions/Activity/Form/CreateActivityFromEvent.php
 msgid "Set activity date"
+msgstr ""
+
+#: CRM/CivirulesActions/Activity/Form/Activity.php
+msgid "Duration"
 msgstr ""
 
 #: CRM/CivirulesActions/Activity/Form/Activity.php
@@ -1500,6 +1513,14 @@ msgstr ""
 msgid "Thank You Time"
 msgstr ""
 
+#: CRM/CivirulesActions/ContributionRecur/Form/UpdateStatus.php
+msgid "Set Status to"
+msgstr ""
+
+#: CRM/CivirulesActions/ContributionRecur/UpdateStatus.php
+msgid "Set Status to: %1"
+msgstr ""
+
 #: CRM/CivirulesActions/Form/Form.php
 msgid "Action '%1' parameters updated for CiviRule '%2'"
 msgstr ""
@@ -1595,6 +1616,35 @@ msgstr ""
 
 #: CRM/CivirulesActions/Membership/Form/Add.php
 msgid "Membership type"
+msgstr ""
+
+#: CRM/CivirulesActions/Membership/Form/UpdateStatus.php
+#: CRM/CivirulesConditions/ContributionRecur/Membership.php
+#: CRM/CivirulesConditions/Form/ContributionRecur/Membership.php
+#: CRM/CivirulesConditions/Form/Membership/ContactHasMembership.php
+#: CRM/CivirulesConditions/Form/Membership/Status.php
+#: CRM/CivirulesConditions/Membership/ContactHasMembership.php
+msgid "Membership Status"
+msgstr ""
+
+#: CRM/CivirulesActions/Membership/Form/UpdateStatus.php
+#: CRM/CivirulesActions/Membership/UpdateStatus.php
+msgid "set to override permanently"
+msgstr ""
+
+#: CRM/CivirulesActions/Membership/Form/UpdateStatus.php
+#: CRM/CivirulesActions/Membership/UpdateStatus.php
+msgid "set to not override"
+msgstr ""
+
+#: CRM/CivirulesActions/Membership/Form/UpdateStatus.php
+#: CRM/CivirulesActions/Membership/UpdateStatus.php
+msgid "do not change setting"
+msgstr ""
+
+#: CRM/CivirulesActions/Membership/Form/UpdateStatus.php
+#: CRM/CivirulesActions/Membership/UpdateStatus.php
+msgid "Status Override?"
 msgstr ""
 
 #: CRM/CivirulesActions/Participant/Form/Register.php
@@ -1717,7 +1767,8 @@ msgid "Copy"
 msgstr "คัดลอก"
 
 #: CRM/CivirulesActions/Tag/Form/Sync.php
-#: CRM/CivirulesActions/Tag/Form/TagId.php managed/searchkit.mgd.php
+#: CRM/CivirulesActions/Tag/Form/TagId.php
+#: managed/managerules_searchkit.mgd.php
 msgid "Tags"
 msgstr ""
 
@@ -1815,6 +1866,10 @@ msgstr ""
 
 #: CRM/CivirulesConditions/Activity/RecordType.php
 msgid "For all %1"
+msgstr ""
+
+#: CRM/CivirulesConditions/Case/CaseActivity.php
+msgid "%1 Days since Last Case Activity"
 msgstr ""
 
 #: CRM/CivirulesConditions/Contact/HasActivityInCampaign.php
@@ -1977,14 +2032,6 @@ msgstr ""
 #: CRM/CivirulesConditions/Membership/ContactHasMembership.php
 #: CRM/CivirulesCronTrigger/Form/MembershipEndDate.php
 msgid "Membership Type"
-msgstr ""
-
-#: CRM/CivirulesConditions/ContributionRecur/Membership.php
-#: CRM/CivirulesConditions/Form/ContributionRecur/Membership.php
-#: CRM/CivirulesConditions/Form/Membership/ContactHasMembership.php
-#: CRM/CivirulesConditions/Form/Membership/Status.php
-#: CRM/CivirulesConditions/Membership/ContactHasMembership.php
-msgid "Membership Status"
 msgstr ""
 
 #: CRM/CivirulesConditions/ContributionRecur/Membership.php
@@ -3154,8 +3201,8 @@ msgstr ""
 msgid "Limit to Activity type"
 msgstr ""
 
-#: Civi/ConfigItems/Entity/CiviRules/Definition.php civirules.php
-#: managed/searchkit.mgd.php
+#: Civi/ConfigItems/Entity/CiviRules/Definition.php
+#: managed/managerules_searchkit.mgd.php managed/navigationmenu.mgd.php
 msgid "CiviRules"
 msgstr ""
 
@@ -3203,38 +3250,22 @@ msgstr ""
 msgid "Could not %1 '%2' %3"
 msgstr ""
 
-#: api/v3/CiviRuleTrigger/Create.php
+#: api/v3/CiviRulesTrigger.php
 msgid "Label can not be empty when adding a new CiviRule Trigger"
 msgstr ""
 
-#: api/v3/CiviRuleTrigger/Create.php
+#: api/v3/CiviRulesTrigger.php
 msgid "Either class_name or a combination of object_name and op is mandatory"
 msgstr ""
 
-#: api/v3/CiviRuleTrigger/Create.php
+#: api/v3/CiviRulesTrigger.php
 msgid "For a cron type trigger the class_name is mandatory"
 msgstr ""
 
-#: api/v3/CiviRuleTrigger/Create.php
+#: api/v3/CiviRulesTrigger.php
 msgid ""
 "There is already a trigger for this class_name or combination of object_name"
 " and op"
-msgstr ""
-
-#: civirules.php
-msgid "Manage Rules"
-msgstr ""
-
-#: civirules.php
-msgid "New Rule"
-msgstr ""
-
-#: civirules.php
-msgid "CiviRule Tags"
-msgstr ""
-
-#: civirules.php
-msgid "CiviRules Tags"
 msgstr ""
 
 #: civirules.php
@@ -3245,21 +3276,41 @@ msgstr ""
 msgid "Perform all CiviRules administration tasks in CiviCRM"
 msgstr ""
 
-#: managed/searchkit.mgd.php
+#: managed/managerules_searchkit.mgd.php
 msgid "CiviRules List"
 msgstr ""
 
-#: managed/searchkit.mgd.php
+#: managed/managerules_searchkit.mgd.php
 msgid "View Modified By"
 msgstr ""
 
-#: managed/searchkit.mgd.php templates/CRM/Civirules/Form/Rule.tpl
+#: managed/managerules_searchkit.mgd.php templates/CRM/Civirules/Form/Rule.tpl
 #: templates/CRM/Civirules/Page/RuleViewList.tpl
 msgid "Last triggered"
 msgstr ""
 
-#: managed/searchkit.mgd.php
+#: managed/managerules_searchkit.mgd.php
 msgid "Add Rule"
+msgstr ""
+
+#: managed/managetags_searchkit.mgd.php
+msgid "CiviRules Tags"
+msgstr ""
+
+#: managed/managetags_searchkit.mgd.php
+msgid "Tags for CiviRules"
+msgstr ""
+
+#: managed/managetags_searchkit.mgd.php
+msgid "Value"
+msgstr ""
+
+#: managed/managetags_searchkit.mgd.php
+msgid "Is Reserved?"
+msgstr ""
+
+#: managed/managetags_searchkit.mgd.php
+msgid "Add Tags for CiviRules"
 msgstr ""
 
 #: templates/CRM/Civirules/Delay/XWeekDay.tpl
