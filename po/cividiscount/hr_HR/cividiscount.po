@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2023-12-22 05:01+0000\n"
+"POT-Creation-Date: 2025-10-07 11:01+0200\n"
 "PO-Revision-Date: 2014-04-28 23:36+0000\n"
 "Language-Team: Croatian (Croatia) (http://app.transifex.com/civicrm/civicrm_extensions/language/hr_HR/)\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgstr ""
 msgid "Fixed Amount"
 msgstr ""
 
-#: CRM/CiviDiscount/BAO/Track.php CRM/CiviDiscount/DAO/Track.php
+#: CRM/CiviDiscount/BAO/Track.php schema/DiscountTrack.entityType.php
 msgid "Contribution"
 msgstr ""
 
@@ -31,265 +31,24 @@ msgstr ""
 msgid "Participant"
 msgstr ""
 
-#: CRM/CiviDiscount/BAO/Track.php managed/SavedSearch_Discount_Uses.mgd.php
+#: CRM/CiviDiscount/BAO/Track.php Civi/Api4/Action/DiscountCode/Verify.php
+#: managed/SavedSearch_Discount_Uses.mgd.php
 msgid "Membership"
 msgstr ""
 
-#: CRM/CiviDiscount/DAO/Item.php
-#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
-msgid "Discount Codes"
+#: CRM/CiviDiscount/DiscountCalculator.php cividiscount.php
+msgid "There are not enough uses remaining for this code."
 msgstr ""
 
-#: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/Form/Admin.php
-msgid "Discount Code"
-msgstr ""
+#: CRM/CiviDiscount/DiscountCalculator.php
+msgid "You have already used this code."
+msgid_plural "You have already used this code %count times."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
-#: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/DAO/Track.php
-msgid "ID"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/DAO/Track.php
-msgid "Discount Item ID"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/DAO/Track.php
-#: ang/afsearchDiscounts.aff.html
-#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
-#: managed/SavedSearch_Discount_Uses.mgd.php
-#: templates/CRM/CiviDiscount/Page/View.tpl
-msgid "Code"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/Form/Admin.php
-#: ang/afsearchDiscounts.aff.html
-#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
-#: templates/CRM/CiviDiscount/Page/View.tpl
-msgid "Description"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Discount Description"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
-msgid "Amount"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Amount of discount, actual or percentage"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Amount Type"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Type of discount, actual or percentage"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Type"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Count Max"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Max number of times this code can be used"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Max Uses"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Count Use"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Number of times this code has been used"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
-msgid "Usage Count"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/Form/Admin.php
-#: templates/CRM/CiviDiscount/Page/View.tpl
-msgid "Events"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Serialized list of events for which this code can be used"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Pricesets"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Serialized list of pricesets for which this code can be used"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/Form/Admin.php
-#: templates/CRM/CiviDiscount/Page/View.tpl
-msgid "Memberships"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Serialized list of memberships for which this code can be used"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Autodiscount"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid ""
-"Serialized list of entity-based attributes. A user with one of them has the "
-"discount automatically applied"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Organization ID"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "FK to Contact ID for the organization that originated this discount"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/Form/Admin.php
-#: ang/afsearchDiscounts.aff.html
-#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
-#: templates/CRM/CiviDiscount/Page/View.tpl
-msgid "Organization"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Active On"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Date this discount activated"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
-#: templates/CRM/CiviDiscount/Page/View.tpl
-msgid "Start Date"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Expire On"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Date this discount expires"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
-msgid "End Date"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
-msgid "Enabled"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php CRM/CiviDiscount/Form/Admin.php
-msgid "Is this discount active?"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Discount Msg Enabled"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Discount Msg"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Not Eligible Message"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "Discount Filters"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Item.php
-msgid "What filters apply to this discount (json array)"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "Discount Trackings"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "Discount Tracking"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "Discount Code ID"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "FK to Item ID of the discount code"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "Contact ID"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "FK to Contact ID for the contact that used this discount"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "Contact"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "Used Date"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "Date of use"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php managed/SavedSearch_Discount_Uses.mgd.php
-msgid "Date Used"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "Contribution ID"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "FK to contribution table"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "Entity Table"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "Table where referenced item is stored"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "Entity ID"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "Foreign key to the referenced item"
-msgstr ""
-
-#: CRM/CiviDiscount/DAO/Track.php
-msgid "Entity"
+#: CRM/CiviDiscount/DiscountCalculator.php cividiscount.php
+msgid "The discount code you entered is invalid."
 msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php ang/afsearchDiscounts.aff.php
@@ -298,6 +57,10 @@ msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "- none -"
+msgstr ""
+
+#: CRM/CiviDiscount/Form/Admin.php schema/DiscountCode.entityType.php
+msgid "Discount Code"
 msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
@@ -309,15 +72,21 @@ msgid "Code can only consist of alpha-numeric characters"
 msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
+#: schema/DiscountCode.entityType.php templates/CRM/CiviDiscount/Page/View.tpl
+msgid "Description"
+msgstr ""
+
+#: CRM/CiviDiscount/Form/Admin.php
 msgid "Discount Amount"
 msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
-msgid "Usage Limit"
+msgid "Total Limit"
 msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
-msgid "Must be an integer"
+msgid "Per-User Limit"
 msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
@@ -329,11 +98,26 @@ msgid "Expiration Date"
 msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
+#: schema/DiscountCode.entityType.php templates/CRM/CiviDiscount/Page/View.tpl
+msgid "Organization"
+msgstr ""
+
+#: CRM/CiviDiscount/Form/Admin.php schema/DiscountCode.entityType.php
+msgid "Is this discount active?"
+msgstr ""
+
+#: CRM/CiviDiscount/Form/Admin.php
 msgid "Display a message to users not eligible for this discount?"
 msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Message to non-eligible users"
+msgstr ""
+
+#: CRM/CiviDiscount/Form/Admin.php schema/DiscountCode.entityType.php
+#: templates/CRM/CiviDiscount/Page/View.tpl
+msgid "Memberships"
 msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
@@ -348,8 +132,17 @@ msgstr ""
 msgid "--any event--"
 msgstr ""
 
+#: CRM/CiviDiscount/Form/Admin.php schema/DiscountCode.entityType.php
+#: templates/CRM/CiviDiscount/Page/View.tpl
+msgid "Events"
+msgstr ""
+
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Event Types"
+msgstr ""
+
+#: CRM/CiviDiscount/Form/Admin.php
+msgid "Event types could not be accessed due to permissions"
 msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
@@ -472,6 +265,10 @@ msgstr ""
 msgid "We need a valid discount ID for view"
 msgstr ""
 
+#: Civi/Api4/Action/DiscountCode/Verify.php
+msgid "[%1] %2 off %3 %4"
+msgstr ""
+
 #: ang/afsearchDiscountUsesReport.aff.php
 msgid "Discount Code Usage"
 msgstr ""
@@ -490,18 +287,6 @@ msgid "Codes Assigned"
 msgstr ""
 
 #: cividiscount.php
-msgid "The discount code you entered is invalid."
-msgstr ""
-
-#: cividiscount.php
-msgid "There are not enough uses remaining for this code."
-msgstr ""
-
-#: cividiscount.php
-msgid "Includes automatic member discount of"
-msgstr ""
-
-#: cividiscount.php
 msgid "Includes applied discount"
 msgstr ""
 
@@ -513,6 +298,10 @@ msgstr ""
 msgid "Apply"
 msgstr ""
 
+#: cividiscount.php managed/Navigation_afsearchDiscounts.mgd.php
+msgid "CiviDiscount"
+msgstr ""
+
 #: cividiscount.php
 msgid "administer CiviDiscount"
 msgstr ""
@@ -521,12 +310,20 @@ msgstr ""
 msgid "Administer the CiviDiscount extension"
 msgstr ""
 
-#: managed/Navigation_afsearchDiscounts.mgd.php
-msgid "CiviDiscount"
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
+msgid "Administer Discount Codes"
 msgstr ""
 
 #: managed/SavedSearch_Administer_Discount_Codes.mgd.php
-msgid "Administer Discount Codes"
+#: schema/DiscountCode.entityType.php
+msgid "Discount Codes"
+msgstr ""
+
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
+#: managed/SavedSearch_Discount_Uses.mgd.php
+#: schema/DiscountCode.entityType.php schema/DiscountTrack.entityType.php
+#: templates/CRM/CiviDiscount/Page/View.tpl
+msgid "Code"
 msgstr ""
 
 #: managed/SavedSearch_Administer_Discount_Codes.mgd.php
@@ -534,8 +331,33 @@ msgid "View Discount Code"
 msgstr ""
 
 #: managed/SavedSearch_Administer_Discount_Codes.mgd.php
+#: schema/DiscountCode.entityType.php
+msgid "Enabled"
+msgstr ""
+
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
+#: schema/DiscountCode.entityType.php
+msgid "Usage Count"
+msgstr ""
+
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
 #: templates/CRM/CiviDiscount/Page/View.tpl
 msgid "Unlimited"
+msgstr ""
+
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
+#: schema/DiscountCode.entityType.php
+msgid "Amount"
+msgstr ""
+
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
+#: schema/DiscountCode.entityType.php templates/CRM/CiviDiscount/Page/View.tpl
+msgid "Start Date"
+msgstr ""
+
+#: managed/SavedSearch_Administer_Discount_Codes.mgd.php
+#: schema/DiscountCode.entityType.php
+msgid "End Date"
 msgstr ""
 
 #: managed/SavedSearch_Administer_Discount_Codes.mgd.php
@@ -555,6 +377,11 @@ msgid "Used By"
 msgstr ""
 
 #: managed/SavedSearch_Discount_Uses.mgd.php
+#: schema/DiscountTrack.entityType.php
+msgid "Date Used"
+msgstr ""
+
+#: managed/SavedSearch_Discount_Uses.mgd.php
 msgid "Event"
 msgstr ""
 
@@ -570,10 +397,218 @@ msgstr ""
 msgid "Discount Uses Assigned"
 msgstr ""
 
+#: schema/DiscountCode.entityType.php
+msgid "A discount item"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php schema/DiscountTrack.entityType.php
+msgid "ID"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php schema/DiscountTrack.entityType.php
+msgid "Discount Item ID"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Discount Description"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Amount of discount, actual or percentage"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Amount Type"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Type of discount, actual or percentage"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Type"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Max Uses"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Max number of times this code can be used"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Max Uses (total)"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Max Uses Per User"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Max number of times a user can use this code"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Max Uses (per user)"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Count Use"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Number of times this code has been used"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Serialized list of events for which this code can be used"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Pricesets"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Serialized list of pricesets for which this code can be used"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Serialized list of memberships for which this code can be used"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Autodiscount"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid ""
+"Serialized list of entity-based attributes. A user with one of them has the "
+"discount automatically applied"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Organization ID"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "FK to Contact ID for the organization that originated this discount"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Active On"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Date this discount activated"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Expire On"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Date this discount expires"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Discount Msg Enabled"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Discount Msg"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Not Eligible Message"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "Discount Filters"
+msgstr ""
+
+#: schema/DiscountCode.entityType.php
+msgid "What filters apply to this discount (json array)"
+msgstr ""
+
+#: schema/DiscountTrack.entityType.php
+msgid "Discount Tracking"
+msgstr ""
+
+#: schema/DiscountTrack.entityType.php
+msgid "Discount Trackings"
+msgstr ""
+
+#: schema/DiscountTrack.entityType.php
+msgid "Record an instance of a discount use"
+msgstr ""
+
+#: schema/DiscountTrack.entityType.php
+msgid "Discount Code ID"
+msgstr ""
+
+#: schema/DiscountTrack.entityType.php
+msgid "FK to Item ID of the discount code"
+msgstr ""
+
+#: schema/DiscountTrack.entityType.php
+msgid "Contact ID"
+msgstr ""
+
+#: schema/DiscountTrack.entityType.php
+msgid "FK to Contact ID for the contact that used this discount"
+msgstr ""
+
+#: schema/DiscountTrack.entityType.php
+msgid "Contact"
+msgstr ""
+
+#: schema/DiscountTrack.entityType.php
+msgid "Used Date"
+msgstr ""
+
+#: schema/DiscountTrack.entityType.php
+msgid "Date of use"
+msgstr ""
+
+#: schema/DiscountTrack.entityType.php
+msgid "Contribution ID"
+msgstr ""
+
+#: schema/DiscountTrack.entityType.php
+msgid "FK to contribution table"
+msgstr ""
+
+#: schema/DiscountTrack.entityType.php
+msgid "Entity Table"
+msgstr ""
+
+#: schema/DiscountTrack.entityType.php
+msgid "Table where referenced item is stored"
+msgstr ""
+
+#: schema/DiscountTrack.entityType.php
+msgid "Entity ID"
+msgstr ""
+
+#: schema/DiscountTrack.entityType.php
+msgid "Foreign key to the referenced item"
+msgstr ""
+
+#: schema/DiscountTrack.entityType.php
+msgid "Entity"
+msgstr ""
+
 #: templates/CRM/CiviDiscount/Form/Admin.hlp
 msgid ""
 "The maximum number of times this discount code can be used. Leave blank for "
 "no limit."
+msgstr ""
+
+#: templates/CRM/CiviDiscount/Form/Admin.hlp
+msgid ""
+"The maximum number of times a single user can use this discount code. Leave "
+"blank for no limit."
 msgstr ""
 
 #: templates/CRM/CiviDiscount/Form/Admin.hlp
@@ -665,6 +700,10 @@ msgstr ""
 
 #: templates/CRM/CiviDiscount/Form/Admin.tpl
 msgid "Do not use spaces in the Discount Code."
+msgstr ""
+
+#: templates/CRM/CiviDiscount/Form/Admin.tpl
+msgid "Usage Limits"
 msgstr ""
 
 #: templates/CRM/CiviDiscount/Form/Admin.tpl
