@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: grantapplications\n"
-"POT-Creation-Date: 2024-05-08 05:01+0000\n"
+"POT-Creation-Date: 2025-03-15 05:01+0000\n"
 "Last-Translator: Đorđe Kolaković <djordje@catalystbalkans.org>, 2022\n"
 "Language-Team: Serbian (Serbia) (https://app.transifex.com/civicrm/teams/1905/sr_RS/)\n"
 "MIME-Version: 1.0\n"
@@ -112,11 +112,26 @@ msgstr ""
 msgid "Requested amount has to be greater than zero."
 msgstr ""
 
-#: CRM/Grant/Form/Grant/OnBehalfOf.php
+#: CRM/Grant/Form/Grant/Main.php CRM/Grant/Form/Grant/OnBehalfOf.php
 msgid ""
 "This grant application page has been configured for applying for grants on "
 "behalf of an organization and the selected onbehalf profile is either "
 "disabled or not found."
+msgstr ""
+
+#: CRM/Grant/Form/Grant/Main.php CRM/Grant/Form/Grant/OnBehalfOf.php
+#: CRM/Grant/Form/GrantBase.php
+msgid "Select an existing organization"
+msgstr ""
+
+#: CRM/Grant/Form/Grant/Main.php CRM/Grant/Form/Grant/OnBehalfOf.php
+#: CRM/Grant/Form/GrantBase.php
+msgid "Enter a new organization"
+msgstr ""
+
+#: CRM/Grant/Form/Grant/Main.php CRM/Grant/Form/Grant/OnBehalfOf.php
+#: CRM/Grant/Form/GrantBase.php
+msgid "options"
 msgstr ""
 
 #: CRM/Grant/Form/Grant/OnBehalfOf.php
@@ -132,18 +147,6 @@ msgstr ""
 
 #: CRM/Grant/Form/Grant/OnBehalfOf.php
 msgid "Select an existing related Organization OR enter a new one"
-msgstr ""
-
-#: CRM/Grant/Form/Grant/OnBehalfOf.php CRM/Grant/Form/GrantBase.php
-msgid "Select an existing organization"
-msgstr ""
-
-#: CRM/Grant/Form/Grant/OnBehalfOf.php CRM/Grant/Form/GrantBase.php
-msgid "Enter a new organization"
-msgstr ""
-
-#: CRM/Grant/Form/Grant/OnBehalfOf.php CRM/Grant/Form/GrantBase.php
-msgid "options"
 msgstr ""
 
 #: CRM/Grant/Form/GrantBase.php
@@ -326,8 +329,8 @@ msgstr ""
 
 #: CRM/Grant/Form/GrantPage/Settings.php
 msgid ""
-"Please select a profile to collect organization information on this "
-"contribution page."
+"Please select a profile to collect organization information on this grant "
+"application page."
 msgstr ""
 
 #: CRM/Grant/Form/GrantPage/Settings.php
@@ -454,24 +457,13 @@ msgstr "Završeno"
 msgid "Grants"
 msgstr ""
 
-#: CRM/Grantapplications/BAO/GrantApplicationProfile.php
-msgid "Grant Status"
-msgstr ""
-
-#: CRM/Grantapplications/BAO/GrantApplicationProfile.php
-msgid "Grant Amount Requested"
-msgstr ""
-
-#: CRM/Grantapplications/BAO/GrantApplicationProfile.php
-msgid "Grant Report Due Date"
-msgstr ""
-
-#: CRM/Grantapplications/BAO/GrantApplicationProfile.php
-msgid "Grant Note"
+#: CRM/Grantapplications/Upgrader.php
+msgid "Migrate 'on behalf of' information to module_data"
 msgstr ""
 
 #: CRM/Grantapplications/Upgrader.php
-msgid "Migrate 'on behalf of' information to module_data"
+#: managed/OptionValue_GrantStatus_Submitted.mgd.php
+msgid "Submitted"
 msgstr ""
 
 #: CRM/UF/Page/Group.php
@@ -559,6 +551,14 @@ msgid "CiviCRM Profile Group Preview"
 msgstr ""
 
 #: grantapplications.php
+msgid "Message Template Workflow for Grant"
+msgstr ""
+
+#: grantapplications.php
+msgid "Grants - Receipt (on-line)"
+msgstr ""
+
+#: grantapplications.php
 msgid "Grants on dashboard"
 msgstr ""
 
@@ -630,12 +630,8 @@ msgstr "Uredi"
 msgid "Edit Grant Application"
 msgstr ""
 
-#: sql/civicrm_msg_template.tpl
-msgid "Message Template Workflow for Grant"
-msgstr ""
-
-#: sql/civicrm_msg_template.tpl
-msgid "Grants - Receipt (on-line)"
+#: managed/OptionValue_GrantStatus_Draft.mgd.php
+msgid "Draft"
 msgstr ""
 
 #: sql/message_templates/grant_online_receipt_html.tpl
@@ -957,14 +953,6 @@ msgstr ""
 msgid ""
 "Select the grant program to be assigned to grant applications made using "
 "this page."
-msgstr ""
-
-#: templates/CRM/Grant/Form/GrantPage/Settings.tpl
-msgid ""
-"You must <a href=\"%1\">configure a valid organization profile</a> in order "
-"to allow individuals to contribute on behalf of an organization. Valid "
-"profiles include Contact and / or Organization fields, and may include "
-"Contribution and Membership fields."
 msgstr ""
 
 #: templates/CRM/Grant/Form/GrantPage/Settings.tpl
