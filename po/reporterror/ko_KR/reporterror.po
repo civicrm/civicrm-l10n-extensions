@@ -6,10 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2021-03-01 05:01+0000\n"
-"PO-Revision-Date: 2021-03-01 05:01+0000\n"
-"Last-Translator: CiviCRM Maintenance\n"
-"Language-Team: Korean (Korea) (http://www.transifex.com/civicrm/civicrm_extensions/language/ko_KR/)\n"
+"POT-Creation-Date: 2024-12-06 05:01+0000\n"
+"PO-Revision-Date: 2014-04-29 21:10+0000\n"
+"Language-Team: Korean (Korea) (http://app.transifex.com/civicrm/civicrm_extensions/language/ko_KR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -34,6 +33,10 @@ msgstr ""
 
 #: CRM/ReportError/Admin/Form/Settings.php
 msgid "Display session data in e-mails?"
+msgstr ""
+
+#: CRM/ReportError/Admin/Form/Settings.php
+msgid "Display GET data in e-mails?"
 msgstr ""
 
 #: CRM/ReportError/Admin/Form/Settings.php
@@ -89,18 +92,6 @@ msgid "Automatically disable broken smartgroups?"
 msgstr ""
 
 #: CRM/ReportError/Admin/Form/Settings.php
-msgid "Enable remote logging?"
-msgstr ""
-
-#: CRM/ReportError/Admin/Form/Settings.php
-msgid "Logging server hostname"
-msgstr ""
-
-#: CRM/ReportError/Admin/Form/Settings.php
-msgid "Logging server port"
-msgstr ""
-
-#: CRM/ReportError/Admin/Form/Settings.php
 msgid "Save"
 msgstr ""
 
@@ -132,10 +123,6 @@ msgstr ""
 msgid ""
 "ERROR: Group ID %1 could not be loaded and has been disabled. This may be "
 "the result of a deleted custom field or a bug in a custom search."
-msgstr ""
-
-#: CRM/ReportError/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
 msgstr ""
 
 #: CRM/ReportError/Upgrader.php
@@ -204,6 +191,10 @@ msgstr ""
 msgid ""
 "Session data can provide clues, but should probably be disabled most of the "
 "time, as it can include sensitive information."
+msgstr ""
+
+#: templates/CRM/ReportError/Admin/Form/Settings.tpl
+msgid "GET is the data in the URL request."
 msgstr ""
 
 #: templates/CRM/ReportError/Admin/Form/Settings.tpl
@@ -276,27 +267,6 @@ msgid ""
 "When a group is disabled, an email notification will be sent (if one was set"
 " in the field at the top of this screen) and a note will be added in the "
 "group description."
-msgstr ""
-
-#: templates/CRM/ReportError/Admin/Form/Settings.tpl
-msgid "Remote Logging"
-msgstr ""
-
-#: templates/CRM/ReportError/Admin/Form/Settings.tpl
-msgid ""
-"By default, Report Error sends an email when an error occurs. In some "
-"circumstances, this can generate a lot of e-mails. You may want to collect "
-"error reports in a more structured way to simplify analysis. This extension "
-"supports (for now) the Gelf protocol, which is supported by Greylog2 or "
-"Logstash."
-msgstr ""
-
-#: templates/CRM/ReportError/Admin/Form/Settings.tpl
-msgid "Ex: log.example.org"
-msgstr ""
-
-#: templates/CRM/ReportError/Admin/Form/Settings.tpl
-msgid "Ex: 12201"
 msgstr ""
 
 #: templates/CRM/ReportError/Admin/Form/Settings.tpl
