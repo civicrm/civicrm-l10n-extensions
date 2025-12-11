@@ -6,15 +6,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CiviCRM_extensions\n"
-"POT-Creation-Date: 2021-10-18 05:02+0000\n"
-"PO-Revision-Date: 2022-02-24 12:38+0000\n"
-"Last-Translator: Yevhen Barshchevskyi <ybarshchevskyi@ndi.org>\n"
-"Language-Team: Ukrainian (http://www.transifex.com/civicrm/civicrm_extensions/language/uk/)\n"
+"POT-Creation-Date: 2023-01-27 19:21+0000\n"
+"PO-Revision-Date: 2015-01-10 05:32+0000\n"
+"Language-Team: Ukrainian (http://app.transifex.com/civicrm/civicrm_extensions/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: uk\n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#: CRM/Core/Payment/Stripe.php
+msgid "Stripe"
+msgstr ""
 
 #: CRM/Core/Payment/Stripe.php
 msgid "Successfully cancelled the subscription in CiviCRM ONLY."
@@ -47,14 +50,32 @@ msgid ""
 msgstr ""
 
 #: CRM/Stripe/Check.php
+msgid "You are using a development version of %1 extension."
+msgstr ""
+
+#: CRM/Stripe/Check.php
+msgid "%1: Development version"
+msgstr ""
+
+#: CRM/Stripe/Check.php
 msgid ""
-"The <em>%1</em> extension requires the <em>Payment Shared</em> extension "
-"which is not installed. See <a href=\"%2\" target=\"_blank\">details</a> for"
-" more information."
+"The %1 extension requires the %2 extension version %3 or greater but your "
+"system has version %4."
 msgstr ""
 
 #: CRM/Stripe/Check.php
 msgid "%1: Missing Requirements"
+msgstr ""
+
+#: CRM/Stripe/Check.php
+msgid "Upgrade now"
+msgstr ""
+
+#: CRM/Stripe/Check.php
+msgid ""
+"The <em>%1</em> extension requires the <em>Payment Shared</em> extension "
+"which is not installed. See <a href=\"%2\" target=\"_blank\">details</a> for"
+" more information."
 msgstr ""
 
 #: CRM/Stripe/Check.php
@@ -69,38 +90,6 @@ msgstr ""
 
 #: CRM/Stripe/Check.php
 msgid "Recommended Extension: firewall"
-msgstr ""
-
-#: CRM/Stripe/Check.php
-msgid ""
-"It is recommended that you install the <strong><a href=\"https://civicrm.org/extensions/sweetalert\">sweetalert</a></strong> extension.\n"
-"        This allows the stripe extension to show useful messages to the user when processing payment.\n"
-"        If this is not installed it will fallback to the browser \"alert\" message but you will\n"
-"        not see some messages (such as <em>we are pre-authorizing your card</em> and <em>please wait</em>) and the feedback to the user will not be as helpful."
-msgstr ""
-
-#: CRM/Stripe/Check.php
-msgid "Recommended Extension: sweetalert"
-msgstr ""
-
-#: CRM/Stripe/Check.php
-msgid ""
-"The %1 extension requires the %2 extension version %3 or greater but your "
-"system has version %4."
-msgstr ""
-
-#: CRM/Stripe/Check.php
-msgid "Upgrade now"
-msgstr ""
-
-#: CRM/Stripe/Check.php
-msgid ""
-"Stripe does not support \"Separate Membership Payment\" on contribution pages but you have one or more contribution pages with\n"
-"                that setting enabled and Stripe as the payment processor (found on contribution page ID: %1)."
-msgstr ""
-
-#: CRM/Stripe/Check.php
-msgid "Stripe: Invalid configuration"
 msgstr ""
 
 #: CRM/Stripe/Check.php
@@ -239,6 +228,14 @@ msgstr ""
 msgid "All webhooks update successfully."
 msgstr ""
 
+#: CRM/Stripe/PaymentIntent.php
+msgid "Payment failed: %1"
+msgstr ""
+
+#: CRM/Stripe/PaymentIntent.php
+msgid "Payment failed."
+msgstr ""
+
 #: CRM/Stripe/Recur.php
 msgid "Now"
 msgstr ""
@@ -262,7 +259,8 @@ msgstr ""
 #: CRM/Stripe/Webhook.php
 msgid ""
 "Unable to update the webhook %1. To correct this please delete the webhook "
-"at Stripe and then revisit this page which will recreate it correctly."
+"at Stripe and then revisit this page which will recreate it correctly. Error"
+" was: %2"
 msgstr ""
 
 #: CRM/Stripe/Webhook.php
@@ -292,6 +290,10 @@ msgstr ""
 
 #: CRM/Stripe/Webhook.php
 msgid "Stripe Payment Processor: %1 (%2)"
+msgstr ""
+
+#: api/v3/Stripe/Cleanup.php
+msgid "Set this to TRUE to execute this API function"
 msgstr ""
 
 #: api/v3/Stripe/Importallcustomers.php
@@ -481,19 +483,19 @@ msgid "Payment Method ID"
 msgstr ""
 
 #: api/v3/StripePaymentintent.php
-msgid "Payment Intent ID."
+msgid "Payment Intent ID"
 msgstr ""
 
 #: api/v3/StripePaymentintent.php
-msgid "Payment amount."
+msgid "Payment amount"
 msgstr ""
 
 #: api/v3/StripePaymentintent.php
-msgid "Whether we should try to capture the amount, not just confirm it."
+msgid "Whether we should try to capture the amount, not just confirm it"
 msgstr ""
 
 #: api/v3/StripePaymentintent.php
-msgid "Describe the payment."
+msgid "Describe the payment"
 msgstr ""
 
 #: api/v3/StripePaymentintent.php
@@ -501,15 +503,11 @@ msgid "Currency (eg. EUR)"
 msgstr ""
 
 #: api/v3/StripePaymentintent.php
-msgid "The stripe payment processor id."
+msgid "The stripe payment processor id"
 msgstr ""
 
 #: api/v3/StripePaymentintent.php
-msgid "Payment failed: %1"
-msgstr ""
-
-#: api/v3/StripePaymentintent.php
-msgid "Payment failed."
+msgid "Bad Request"
 msgstr ""
 
 #: js/civicrmStripeConfirm.js js/civicrm_stripe.js
@@ -553,23 +551,11 @@ msgid " preparing your payment..."
 msgstr ""
 
 #: js/civicrm_stripe.js
-msgid "Please apply the Discount Code or clear the Discount Code text-field"
-msgstr ""
-
-#: js/civicrm_stripe.js
-msgid "Please check and fill in all required fields!"
-msgstr ""
-
-#: js/civicrm_stripe.js
 msgid "Please enter your card details"
 msgstr ""
 
 #: js/civicrm_stripe.js
 msgid "Please check your card details!"
-msgstr ""
-
-#: js/civicrm_stripe.js
-msgid "Please complete the reCaptcha"
 msgstr ""
 
 #: js/civicrm_stripe.js
@@ -669,9 +655,9 @@ msgstr ""
 
 #: settings/stripe.setting.php
 msgid ""
-"Default 50. 0=Unlimited. This helps prevents webhooks from Stripe failing if"
-" a large number are triggered at the same time by delaying processing of any"
-" over this limit."
+"Default 50. This helps prevents webhooks from Stripe failing if a large "
+"number are triggered at the same time by delaying processing of any over "
+"this limit."
 msgstr ""
 
 #: settings/stripe.setting.php
