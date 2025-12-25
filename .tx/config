@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = km: km_KH, fr: fr_FR, et: et_EE, id: id_ID, nb: nb_NO, de: de_DE, sq: sq_AL, af: af_ZA, ja: ja_JP, it: it_IT, hi: hi_IN, pt: pt_PT, sl: sl_SI, cs: cs_CZ, el: el_GR, hu: hu_HU, es: es_ES, vi: vi_VN, sk: sk_SK, da: da_DK, bg: bg_BG, pl: pl_PL, ru: ru_RU, he: he_IL, ca: ca_ES, nl: nl_NL, lt: lt_LT, ro: ro_RO, fi: fi_FI, sv: sv_SE, tr: tr_TR, lv: lv_LV
+lang_map = it: it_IT, sl: sl_SI, pl: pl_PL, ca: ca_ES, nl: nl_NL, et: et_EE, nb: nb_NO, ja: ja_JP, cs: cs_CZ, hu: hu_HU, fi: fi_FI, lv: lv_LV, lt: lt_LT, km: km_KH, el: el_GR, vi: vi_VN, da: da_DK, he: he_IL, tr: tr_TR, fr: fr_FR, de: de_DE, es: es_ES, ru: ru_RU, sv: sv_SE, id: id_ID, sk: sk_SK, bg: bg_BG, ro: ro_RO, sq: sq_AL, af: af_ZA, hi: hi_IN, pt: pt_PT
 
 [o:civicrm:p:civicrm_extensions:r:Civixero]
 file_filter = po/Civixero/<lang>/Civixero.po
@@ -509,6 +509,13 @@ source_lang = en
 file_filter = po/group2summary/<lang>/group2summary.po
 source_file = po/group2summary/pot/group2summary.pot
 source_lang = en
+
+[o:civicrm:p:civicrm_extensions:r:gtmtracking]
+file_filter   = po/gtmtracking/<lang>/gtmtracking.po
+source_file   = po/gtmtracking/pot/gtmtracking.pot
+type          = POT
+minimum_perc  = 0
+resource_name = gtmtracking
 
 [o:civicrm:p:civicrm_extensions:r:helptab]
 file_filter = po/helptab/<lang>/helptab.po
