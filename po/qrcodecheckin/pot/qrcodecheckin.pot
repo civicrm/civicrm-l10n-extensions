@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: qrcodecheckin\n"
-"POT-Creation-Date: 2025-10-14 11:01+0200\n"
+"POT-Creation-Date: 2026-01-13 11:01+0100\n"
 "Language-Team: CiviCRM Translators <civicrm-translators@lists.civicrm.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,6 +23,16 @@ msgstr ""
 msgid ""
 "Woops! The link you clicked on appears to be broken. Please check again and "
 "ensure it was not split by a line break."
+msgstr ""
+
+#: Civi/QRCodeCheckin/EventConfirmTextToken.php
+msgid ""
+"<p><img alt=\"QR Code with link to checkin page\" src=\"%1\">You should see "
+"a QR code above which will be used to quickly check you into the event. If "
+"you do not see a code display above, please enable the display of images in "
+"your email program or try accessing it <a href=\"%1\">directly</a>. You may "
+"want to take a screen grab of your QR Code in case you need to display it "
+"when you do not have Internet access.</p>"
 msgstr ""
 
 #: managed/CustomGroup_QRCode.mgd.php
@@ -53,6 +63,10 @@ msgid "Enable QR Code tokens for this Event"
 msgstr ""
 
 #: qrcodecheckin.php
+msgid "Add QR Code to confirmation emails"
+msgstr ""
+
+#: qrcodecheckin.php
 msgid "QR Code Checkin"
 msgstr ""
 
@@ -80,6 +94,10 @@ msgid ""
 "case you need to display it when you do not have Internet access.</div>"
 msgstr ""
 
+#: qrcodecheckin.php
+msgid "QR Code Checkin Settings"
+msgstr ""
+
 #: settings/qrcodecheckin.setting.php
 msgid ""
 "The events that will use QRCodes for a given contact (can be more than one "
@@ -93,6 +111,28 @@ msgid ""
 "token for this event."
 msgstr ""
 
+#: settings/qrcodecheckin.setting.php
+msgid "QR Code Scan Action"
+msgstr ""
+
+#: settings/qrcodecheckin.setting.php
+msgid "The action to take when a QR code is scanned."
+msgstr ""
+
+#: settings/qrcodecheckin.setting.php
+msgid ""
+"Choose whether scanning a QR code automatically checks in the participant, "
+"or presents an \"Attended\" button."
+msgstr ""
+
+#: settings/qrcodecheckin.setting.php
+msgid "Show Button"
+msgstr ""
+
+#: settings/qrcodecheckin.setting.php
+msgid "Automatically Check In"
+msgstr ""
+
 #: templates/CRM/Qrcodecheckin/Page/QrcodecheckinLanding.tpl
 msgid ""
 "Congratulations! Your QR Code for checkin works. Please present your code to "
@@ -101,4 +141,10 @@ msgstr ""
 
 #: templates/CRM/Qrcodecheckin/Page/QrcodecheckinLanding.tpl
 msgid "Update to Attended"
+msgstr ""
+
+#: templates/qrcode-checkin-event-options.tpl
+msgid ""
+"If enabled, confirmation emails will contain the QR code. Can be used in "
+"addition to or instead of tokens."
 msgstr ""
