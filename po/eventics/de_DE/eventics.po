@@ -4,14 +4,14 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Andreas Howiller <andreas.howiller@civiservice.de>, 2023
-# Torben Bertram, 2025
 # Mathieu Lu <mathieu@bidon.ca>, 2025
+# Torben Bertram, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: eventics\n"
 "POT-Creation-Date: 2025-10-16 11:01+0200\n"
-"Last-Translator: Mathieu Lu <mathieu@bidon.ca>, 2025\n"
+"Last-Translator: Torben Bertram, 2026\n"
 "Language-Team: German (https://app.transifex.com/civicrm/teams/1905/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -89,7 +89,7 @@ msgstr "- wählen -"
 
 #: CRM/Eventics/Utils/Helper.php
 msgid "A custom group '%1' has been created."
-msgstr ""
+msgstr "Eine benutzerdefinierte Feldgruppe '%1' wurde erstellt."
 
 #: eventics.php
 msgid "Send iCal"
@@ -97,29 +97,30 @@ msgstr "Sende iCal"
 
 #: eventics.php
 msgid "Event iCal (ics) Attachment"
-msgstr ""
+msgstr "Event iCal (ics) Anhang"
 
 #: eventics.php
 msgid "Event iCal (ics) Attachment for: %1"
-msgstr ""
+msgstr "Event iCal (ics) Anhang für: %1"
 
 #: managed/CustomField_icsPreferences.mgd.php
 msgid "EventICS Preferences"
-msgstr ""
+msgstr "EventICS Voreinstellungen"
 
 #: managed/CustomField_icsPreferences.mgd.php
 msgid "Opt-out"
-msgstr ""
+msgstr "Opt-out"
 
 #: managed/CustomField_icsPreferences.mgd.php
 msgid ""
 "For this contact, do not attach iCal (ics) files to event confirmation "
 "emails."
 msgstr ""
+"Hänge für diesen Kontakt keine iCAL (ics)-Datei an Veranstaltungs-E-Mails."
 
 #: managed/Navigation_eventicsSettings.mgd.php
 msgid "Event iCal (ics) Settings"
-msgstr ""
+msgstr "Event iCal (ics) Einstellungen"
 
 #: settings/eventics.setting.php
 msgid "Send iCal attachments for event registrations by default"
@@ -146,6 +147,8 @@ msgid ""
 "Requires extra markup to be added to the message templates. <a %1>See the "
 "documentation for more information.</a>."
 msgstr ""
+"Erfordert zusätzliches Markup in den Nachrichtenvorlagen.  <a %1>Siehe in "
+"der Doku für weitere Informationen.</a>."
 
 #: settings/eventics.setting.php
 msgid "Include a Outlook Calendar Link for event registrations"
@@ -156,10 +159,12 @@ msgid ""
 "Provides a special Outlook Calendar Link for easier addition of events to "
 "Outlook calendars."
 msgstr ""
+"Stellt einen speziellen Outlook-Kalender-Link für leichtes Hinzufügen zum "
+"Outlook-Kalender zur Verfügung."
 
 #: settings/eventics.setting.php
 msgid "Enable opt-out field"
-msgstr ""
+msgstr "Aktive das opt-out-Feld"
 
 #: settings/eventics.setting.php
 msgid ""
@@ -169,6 +174,13 @@ msgid ""
 "will be automatically deleted if this setting is turned off (if not, flush "
 "the CiviCRM cache), or if this extension is uninstalled."
 msgstr ""
+"Wenn diese Option aktiviert ist, wird ein benutzerdefiniertes Feld erstellt,"
+" über das Personen ICS-Anhänge deaktivieren können. Nach der Aktivierung "
+"können Sie dieses benutzerdefinierte Feld zu Ihren Formularen für "
+"Kommunikationspräferenzen hinzufügen. Das benutzerdefinierte Feld ist eine "
+"verwaltete Entität. Es wird automatisch gelöscht, wenn diese Einstellung "
+"deaktiviert wird (falls nicht, leeren Sie den CiviCRM-Cache) oder wenn diese"
+" Erweiterung deinstalliert wird."
 
 #: templates/CRM/Eventics/Form/Eventics.tpl
 msgid "Physical location or link. If empty, Event Location is used."
@@ -183,9 +195,13 @@ msgid ""
 "Setting the event timezone is strongly recommended. The default site "
 "timezone is %1."
 msgstr ""
+"Eine Zeitzone für diese Veranstaltung einzustellen wird dringend empfohlen. "
+"Die aktuelle Standardzeitzone der Seite ist %1."
 
 #: templates/CRM/Eventics/Form/Eventics.tpl
 msgid ""
 "This default value is unreliable on CiviCRM Standalone. The default site "
 "timezone is unknown."
 msgstr ""
+"Dieser Standardwert ist bei CiviCRM Standalone unzuverlässig. Die Standard-"
+"Zeitzone der Website ist unbekannt."
