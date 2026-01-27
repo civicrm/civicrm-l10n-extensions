@@ -3,13 +3,13 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Andi Chandler <andi@gowling.com>, 2025
+# Andi Chandler <andi@gowling.com>, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: qrcodecheckin\n"
-"POT-Creation-Date: 2025-10-14 11:01+0200\n"
-"Last-Translator: Andi Chandler <andi@gowling.com>, 2025\n"
+"POT-Creation-Date: 2026-01-13 11:01+0100\n"
+"Last-Translator: Andi Chandler <andi@gowling.com>, 2026\n"
 "Language-Team: English (United Kingdom) (https://app.transifex.com/civicrm/teams/1905/en_GB/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,6 +32,22 @@ msgid ""
 msgstr ""
 "Woops! The link you clicked on appears to be broken. Please check again and "
 "ensure it was not split by a line break."
+
+#: Civi/QRCodeCheckin/EventConfirmTextToken.php
+msgid ""
+"<p><img alt=\"QR Code with link to checkin page\" src=\"%1\">You should see "
+"a QR code above which will be used to quickly check you into the event. If "
+"you do not see a code display above, please enable the display of images in "
+"your email program or try accessing it <a href=\"%1\">directly</a>. You may "
+"want to take a screen grab of your QR Code in case you need to display it "
+"when you do not have Internet access.</p>"
+msgstr ""
+"<p><img alt=\"QR Code with link to checkin page\" src=\"%1\">You should see "
+"a QR code above which will be used to quickly check you into the event. If "
+"you do not see a code display above, please enable the display of images in "
+"your email program or try accessing it <a href=\"%1\">directly</a>. You may "
+"want to take a screen grab of your QR Code in case you need to display it "
+"when you do not have Internet access.</p>"
 
 #: managed/CustomGroup_QRCode.mgd.php
 msgid "QRCode"
@@ -62,6 +78,10 @@ msgstr ""
 #: qrcodecheckin.php
 msgid "Enable QR Code tokens for this Event"
 msgstr "Enable QR Code tokens for this Event"
+
+#: qrcodecheckin.php
+msgid "Add QR Code to confirmation emails"
+msgstr "Add QR Code to confirmation emails"
 
 #: qrcodecheckin.php
 msgid "QR Code Checkin"
@@ -101,6 +121,10 @@ msgstr ""
 "QR Code in case you need to display it when you do not have Internet "
 "access.</div>"
 
+#: qrcodecheckin.php
+msgid "QR Code Checkin Settings"
+msgstr "QR Code Checkin Settings"
+
 #: settings/qrcodecheckin.setting.php
 msgid ""
 "The events that will use QRCodes for a given contact (can be more than one "
@@ -118,6 +142,30 @@ msgstr ""
 "If enabled, when sending email to contacts you can include a QR Checkin Code"
 " token for this event."
 
+#: settings/qrcodecheckin.setting.php
+msgid "QR Code Scan Action"
+msgstr "QR Code Scan Action"
+
+#: settings/qrcodecheckin.setting.php
+msgid "The action to take when a QR code is scanned."
+msgstr "The action to take when a QR code is scanned."
+
+#: settings/qrcodecheckin.setting.php
+msgid ""
+"Choose whether scanning a QR code automatically checks in the participant, "
+"or presents an \"Attended\" button."
+msgstr ""
+"Choose whether scanning a QR code automatically checks in the participant, "
+"or presents an \"Attended\" button."
+
+#: settings/qrcodecheckin.setting.php
+msgid "Show Button"
+msgstr "Show Button"
+
+#: settings/qrcodecheckin.setting.php
+msgid "Automatically Check In"
+msgstr "Automatically Check In"
+
 #: templates/CRM/Qrcodecheckin/Page/QrcodecheckinLanding.tpl
 msgid ""
 "Congratulations! Your QR Code for checkin works. Please present your code to"
@@ -129,3 +177,11 @@ msgstr ""
 #: templates/CRM/Qrcodecheckin/Page/QrcodecheckinLanding.tpl
 msgid "Update to Attended"
 msgstr "Update to Attended"
+
+#: templates/qrcode-checkin-event-options.tpl
+msgid ""
+"If enabled, confirmation emails will contain the QR code. Can be used in "
+"addition to or instead of tokens."
+msgstr ""
+"If enabled, confirmation emails will contain the QR code. Can be used in "
+"addition to or instead of tokens."
