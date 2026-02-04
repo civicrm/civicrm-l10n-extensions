@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: lineitemedit\n"
-"POT-Creation-Date: 2025-07-16 09:01+0000\n"
+"POT-Creation-Date: 2026-02-04 11:01+0100\n"
 "Last-Translator: Samuele Masetto <samuele.masetto@perora.it>, 2024\n"
 "Language-Team: Italian (https://app.transifex.com/civicrm/teams/1905/it/)\n"
 "MIME-Version: 1.0\n"
@@ -21,10 +21,9 @@ msgstr ""
 #: CRM/Lineitemedit/Form/Cancel.php
 msgid ""
 "WARNING: Cancelling this line item will affect the related contribution and "
-"update the associated financial transactions. Do you want to continue?"
+"update the associated financial transactions. The quantity and total price "
+"will be set to 0 for this line item. Do you want to continue?"
 msgstr ""
-"ATTENZIONE: l'annullamento di questa voce influisce sul relativo contributo "
-"e aggiorna le transazioni finanziarie associate. Vuoi continuare?"
 
 #: CRM/Lineitemedit/Form/Cancel.php
 msgid "Cancel Item"
@@ -94,9 +93,40 @@ msgstr "Voce aggiuntiva"
 msgid "Additional Item"
 msgstr "Voce aggiuntiva"
 
+#: lineitemedit.php
+msgid "Edit Line Item: add line item"
+msgstr ""
+
+#: lineitemedit.php
+msgid ""
+"Gives non-admin users to add line item(s) associated to a contribution."
+msgstr ""
+
+#: lineitemedit.php
+msgid "Edit Line Item: edit line item"
+msgstr ""
+
+#: lineitemedit.php
+msgid ""
+"Gives non-admin users to edit line item(s) associated to a contribution."
+msgstr ""
+
+#: lineitemedit.php
+msgid "Edit Line Item: cancel line item"
+msgstr ""
+
+#: lineitemedit.php
+msgid ""
+"Gives non-admin users to cancel line item(s) associated to a contribution."
+msgstr ""
+
 #: managed/LineItemsSavedSearch.mgd.php
 msgid "Contribution Amount"
 msgstr "Importo Contributo"
+
+#: managed/LineItemsSavedSearch.mgd.php
+msgid "Contribution Tax Amounts"
+msgstr ""
 
 #: managed/LineItemsSavedSearch.mgd.php
 #: templates/CRM/Lineitemedit/Form/AddLineItems.tpl
@@ -127,6 +157,10 @@ msgstr "Prezzo Totale"
 #: templates/CRM/Lineitemedit/Form/AddLineItems.tpl
 msgid "Tax Amount"
 msgstr "Valore Imposte"
+
+#: managed/LineItemsSavedSearch.mgd.php
+msgid "Contribution Line Items"
+msgstr ""
 
 #: settings/lineitemedit.setting.php
 msgid "Maximum additional line items"
