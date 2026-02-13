@@ -1,0 +1,840 @@
+# Copyright CiviCRM LLC (c) 2004-2015
+# This file is distributed under the same license as the CiviCRM package.
+# If you contribute heavily to a translation and deem your work copyrightable,
+# make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: advimport\n"
+"POT-Creation-Date: 2025-02-05 05:05+0000\n"
+"Language-Team: Norwegian Bokmål (https://app.transifex.com/civicrm/teams/1905/nb/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nb\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: CRM/Advimport/Advimport/APIv3.php
+#: CRM/Advimport/Advimport/MembershipsAndContributions.php
+msgid "External ID"
+msgstr ""
+
+#: CRM/Advimport/Advimport/APIv3.php
+#: CRM/Advimport/Advimport/GroupContactAdd.php
+#: CRM/Advimport/Advimport/GroupContactRemove.php
+#: CRM/Advimport/Advimport/Phone2Action.php
+#: CRM/Advimport/Upload/Form/DataUpload.php
+#: CRM/Advimport/Upload/Form/MapFields.php
+msgid "- select -"
+msgstr ""
+
+#: CRM/Advimport/Advimport/APIv3.php
+msgid "Entity"
+msgstr ""
+
+#: CRM/Advimport/Advimport/APIv3.php
+msgid ""
+"%1 (%2) is a required field. The field must be in the uploaded file and you "
+"must select a field match for it."
+msgstr ""
+
+#: CRM/Advimport/Advimport/APIv3.php
+msgid "APIv3 Entity"
+msgstr ""
+
+#: CRM/Advimport/Advimport/GroupContactAdd.php
+msgid "Add Contact to Group"
+msgstr ""
+
+#: CRM/Advimport/Advimport/GroupContactAdd.php
+#: CRM/Advimport/Advimport/GroupContactRemove.php
+#: CRM/Advimport/Upload/Form/DataUpload.php
+msgid "Group"
+msgstr ""
+
+#: CRM/Advimport/Advimport/GroupContactAdd.php
+#: CRM/Advimport/Advimport/GroupContactRemove.php
+#: CRM/Advimport/Advimport/Phone2Action.php
+msgid "Contact matching"
+msgstr ""
+
+#: CRM/Advimport/Advimport/GroupContactAdd.php
+#: CRM/Advimport/Advimport/GroupContactRemove.php
+#: CRM/Advimport/Advimport/MembershipsAndContributions.php
+msgid "Contact ID"
+msgstr ""
+
+#: CRM/Advimport/Advimport/GroupContactAdd.php
+msgid ""
+"If a contact is already added to the group, they will be ignored. If their "
+"status was \"removed\" or \"pending\", they will be changed to \"added\"."
+msgstr ""
+
+#: CRM/Advimport/Advimport/GroupContactRemove.php
+msgid "Remove Contact from Group"
+msgstr ""
+
+#: CRM/Advimport/Advimport/GroupContactRemove.php
+msgid ""
+"If a contact is already removed from the group or are not in the group at "
+"all, they will be ignored."
+msgstr ""
+
+#: CRM/Advimport/Advimport/LookupTableContact.php advimport.php
+msgid "Lookup Table to Batch Update Contacts"
+msgstr ""
+
+#: CRM/Advimport/Advimport/LookupTableContact.php
+msgid "Old Field"
+msgstr ""
+
+#: CRM/Advimport/Advimport/LookupTableContact.php
+msgid "New Field"
+msgstr ""
+
+#: CRM/Advimport/Advimport/LookupTableContact.php
+msgid "Match Type"
+msgstr ""
+
+#: CRM/Advimport/Advimport/LookupTableContact.php
+msgid "Option Value"
+msgstr ""
+
+#: CRM/Advimport/Advimport/LookupTableContact.php
+msgid "Option Label"
+msgstr ""
+
+#: CRM/Advimport/Advimport/LookupTableContact.php
+msgid ""
+"Match Type only applies to fields with predefined values (select, checkbox, "
+"etc). After submitting this form, it will do a dummy processing of the "
+"Lookup Table. It will also create a new import for the data that needs to be"
+" updated. So once the next step is finished, go back to the Advanced Import "
+"main screen, and run the new import that will have been created (todo: one "
+"day, be more clever and automatically redirect to that step)."
+msgstr ""
+
+#: CRM/Advimport/Advimport/LookupTableContact.php
+msgid "Could not find the old_field column."
+msgstr ""
+
+#: CRM/Advimport/Advimport/LookupTableContact.php
+msgid "Could not find the new_field column."
+msgstr ""
+
+#: CRM/Advimport/Advimport/LookupTableContactProcess.php
+msgid "Lookup Table to Batch Update Contacts - Processor"
+msgstr ""
+
+#: CRM/Advimport/Advimport/LookupTableContactProcess.php
+msgid "New value not found in the lookup table"
+msgstr ""
+
+#: CRM/Advimport/Advimport/MembershipsAndContributions.php advimport.php
+msgid "Memberships and Contributions"
+msgstr ""
+
+#: CRM/Advimport/Advimport/MembershipsAndContributions.php
+msgid "First Name"
+msgstr ""
+
+#: CRM/Advimport/Advimport/MembershipsAndContributions.php
+#: CRM/Advimport/Advimport/Phone2Action.php
+msgid "Last Name"
+msgstr ""
+
+#: CRM/Advimport/Advimport/MembershipsAndContributions.php
+msgid "Organization Name"
+msgstr ""
+
+#: CRM/Advimport/Advimport/MembershipsAndContributions.php
+#: CRM/Advimport/Advimport/Phone2Action.php
+msgid "Email"
+msgstr ""
+
+#: CRM/Advimport/Advimport/MembershipsAndContributions.php
+msgid "Membership Type"
+msgstr ""
+
+#: CRM/Advimport/Advimport/MembershipsAndContributions.php
+msgid "Membership Start Date"
+msgstr ""
+
+#: CRM/Advimport/Advimport/MembershipsAndContributions.php
+msgid "Membership Join Date"
+msgstr ""
+
+#: CRM/Advimport/Advimport/MembershipsAndContributions.php
+msgid "Contribution Source"
+msgstr ""
+
+#: CRM/Advimport/Advimport/MembershipsAndContributions.php
+msgid "Contribution Receive Date"
+msgstr ""
+
+#: CRM/Advimport/Advimport/MembershipsAndContributions.php
+msgid "Contribution Financial Type"
+msgstr ""
+
+#: CRM/Advimport/Advimport/MembershipsAndContributions.php
+msgid "Contribution Total Amount"
+msgstr ""
+
+#: CRM/Advimport/Advimport/MembershipsAndContributions.php
+msgid "Transaction Number"
+msgstr ""
+
+#: CRM/Advimport/Advimport/MembershipsAndContributions.php
+msgid "Invoice ID"
+msgstr ""
+
+#: CRM/Advimport/Advimport/MembershipsAndContributions.php
+msgid "Invoice Number"
+msgstr ""
+
+#: CRM/Advimport/Advimport/MembershipsAndContributions.php
+msgid "Payment Method"
+msgstr ""
+
+#: CRM/Advimport/Advimport/MembershipsAndContributions.php
+msgid "Contribution Status"
+msgstr ""
+
+#: CRM/Advimport/Advimport/MembershipsAndContributions.php
+msgid "Membership"
+msgstr ""
+
+#: CRM/Advimport/Advimport/Phone2Action.php advimport.php
+msgid "Contact + Activity"
+msgstr ""
+
+#: CRM/Advimport/Advimport/Phone2Action.php
+msgid "Activity Type"
+msgstr ""
+
+#: CRM/Advimport/Advimport/Phone2Action.php
+msgid "Add a tag using the \"Activity Subject\" field as tag name"
+msgstr ""
+
+#: CRM/Advimport/Advimport/Phone2Action.php
+msgid "First Name (or \"Display Name\" when matching on display name)"
+msgstr ""
+
+#: CRM/Advimport/Advimport/Phone2Action.php
+msgid "Phone"
+msgstr ""
+
+#: CRM/Advimport/Advimport/Phone2Action.php
+msgid "Country"
+msgstr ""
+
+#: CRM/Advimport/Advimport/Phone2Action.php
+msgid "Street Address line 1"
+msgstr ""
+
+#: CRM/Advimport/Advimport/Phone2Action.php
+msgid "Street Address line 2"
+msgstr ""
+
+#: CRM/Advimport/Advimport/Phone2Action.php
+msgid "City"
+msgstr ""
+
+#: CRM/Advimport/Advimport/Phone2Action.php
+msgid "Postal/Zip Code"
+msgstr ""
+
+#: CRM/Advimport/Advimport/Phone2Action.php
+msgid "State"
+msgstr ""
+
+#: CRM/Advimport/Advimport/Phone2Action.php
+msgid "Activity Subject"
+msgstr ""
+
+#: CRM/Advimport/Advimport/Phone2Action.php
+msgid "Activity Date"
+msgstr ""
+
+#: CRM/Advimport/Advimport/Phone2Action.php
+msgid "Match on email (contact will be created if not found)"
+msgstr ""
+
+#: CRM/Advimport/Advimport/Phone2Action.php
+msgid "Match on 'Display Name' (contact will NOT be created if not found)"
+msgstr ""
+
+#: CRM/Advimport/Advimport/Phone2Action.php
+msgid ""
+"Existing contacts will be matched by email address. If no match is found a "
+"new contact will be created."
+msgstr ""
+
+#: CRM/Advimport/Advimport/Phone2Action.php
+msgid "Make sure that your CSV/spreadsheet has headers in the first line"
+msgstr ""
+
+#: CRM/Advimport/Advimport/Phone2Action.php
+msgid ""
+"Optional: You may select an Activity Type or to tag contacts.\n"
+"        If an Activity Type is selected, activities will be created for each contact.\n"
+"        If the tag option is selected, tags will automatically be created (if they do not already exist) based on the 'source' field and added to the contact record."
+msgstr ""
+
+#: CRM/Advimport/Advimport/Phone2Action.php
+msgid "Contact not found so not imported."
+msgstr ""
+
+#: CRM/Advimport/Advimport/StripeFailedEvents.php
+msgid "Stripe Failed Events"
+msgstr ""
+
+#: CRM/Advimport/Advimport/StripeSubscriptions.php
+msgid "Stripe Subscriptions"
+msgstr ""
+
+#: CRM/Advimport/BAO/Advimport.php
+msgid "Task %1: %2 [%3 items]"
+msgstr ""
+
+#: CRM/Advimport/BAO/Advimport.php
+msgid "Task %1: post-import"
+msgstr ""
+
+#: CRM/Advimport/BAO/Advimport.php
+msgid ""
+"There was a problem analysing the uploaded file, or it was empty. Please "
+"verify the file and try again."
+msgstr ""
+
+#: CRM/Advimport/DAO/Advimport.php
+msgid "Advimports"
+msgstr ""
+
+#: CRM/Advimport/DAO/Advimport.php
+msgid "Advimport"
+msgstr ""
+
+#: CRM/Advimport/DAO/Advimport.php
+msgid "Unique Advimport ID"
+msgstr ""
+
+#: CRM/Advimport/DAO/Advimport.php
+msgid "Contact"
+msgstr ""
+
+#: CRM/Advimport/DAO/Advimport.php
+msgid "FK to Contact, import author"
+msgstr ""
+
+#: CRM/Advimport/DAO/Advimport.php
+msgid "Class Name"
+msgstr ""
+
+#: CRM/Advimport/DAO/Advimport.php
+msgid "Mapping helper class name"
+msgstr ""
+
+#: CRM/Advimport/DAO/Advimport.php
+#: templates/CRM/Advimport/Upload/Form/DataUpload.tpl
+msgid "Start Date"
+msgstr ""
+
+#: CRM/Advimport/DAO/Advimport.php
+msgid "Import start"
+msgstr ""
+
+#: CRM/Advimport/DAO/Advimport.php
+#: templates/CRM/Advimport/Upload/Form/DataUpload.tpl
+msgid "End Date"
+msgstr ""
+
+#: CRM/Advimport/DAO/Advimport.php
+msgid "Import end"
+msgstr ""
+
+#: CRM/Advimport/DAO/Advimport.php
+msgid "Filename"
+msgstr ""
+
+#: CRM/Advimport/DAO/Advimport.php
+msgid "Name of the file uploaded"
+msgstr ""
+
+#: CRM/Advimport/DAO/Advimport.php
+msgid "Table Name"
+msgstr ""
+
+#: CRM/Advimport/DAO/Advimport.php
+msgid "SQL table where the data is staged before being processed"
+msgstr ""
+
+#: CRM/Advimport/DAO/Advimport.php
+msgid "Total Count"
+msgstr ""
+
+#: CRM/Advimport/DAO/Advimport.php
+msgid "Total number of rows"
+msgstr ""
+
+#: CRM/Advimport/DAO/Advimport.php
+msgid "Success Count"
+msgstr ""
+
+#: CRM/Advimport/DAO/Advimport.php
+msgid "Number of rows imported successful"
+msgstr ""
+
+#: CRM/Advimport/DAO/Advimport.php
+msgid "Warning Count"
+msgstr ""
+
+#: CRM/Advimport/DAO/Advimport.php
+msgid "Number of rows imported with warnings"
+msgstr ""
+
+#: CRM/Advimport/DAO/Advimport.php
+msgid "Error Count"
+msgstr ""
+
+#: CRM/Advimport/DAO/Advimport.php
+msgid "Number of rows that failed to import because of errors"
+msgstr ""
+
+#: CRM/Advimport/DAO/Advimport.php
+msgid "Track Entity Type"
+msgstr ""
+
+#: CRM/Advimport/DAO/Advimport.php
+msgid "Ex: group or tag used to track contacts imported"
+msgstr ""
+
+#: CRM/Advimport/DAO/Advimport.php
+msgid "Track Entity ID"
+msgstr ""
+
+#: CRM/Advimport/DAO/Advimport.php
+msgid "ID of the group or tag used to track contacts imported"
+msgstr ""
+
+#: CRM/Advimport/DAO/Advimport.php
+msgid "Mapping"
+msgstr ""
+
+#: CRM/Advimport/DAO/Advimport.php
+msgid "Field mapping"
+msgstr ""
+
+#: CRM/Advimport/Form/NewRow.php
+msgid "New Row"
+msgstr ""
+
+#: CRM/Advimport/Helper/MsAccess.php
+msgid "The php-odbc package must be enabled."
+msgstr ""
+
+#: CRM/Advimport/Helper/PHPExcel.php
+msgid "The file must be of type ODS (LibreOffice), XLSX (Excel) or CSV."
+msgstr ""
+
+#: CRM/Advimport/Helper/ReportBatchUpdate.php
+msgid "Report Batch Update"
+msgstr ""
+
+#: CRM/Advimport/Helper/SearchBatchUpdate.php
+msgid "Batch Update"
+msgstr ""
+
+#: CRM/Advimport/Helper/Source.php
+msgid "Import data"
+msgstr ""
+
+#: CRM/Advimport/Helper/Source.php
+msgid "Import (%1) at %2"
+msgstr ""
+
+#: CRM/Advimport/Page/Export.php
+msgid "Export errors"
+msgstr ""
+
+#: CRM/Advimport/Page/Runner.php CRM/Advimport/Upload/Form/MapFields.php
+#: api/v3/Advimport/Run.php api/v3/Job/Advimportrun.php
+msgid "CiviCRM Advanced Import"
+msgstr ""
+
+#: CRM/Advimport/Report/Form.php
+#: templates/CRM/Advimport/Upload/Form/DataUpload.tpl
+msgid "Actions"
+msgstr ""
+
+#: CRM/Advimport/Upload/Form/DataUpload.php
+msgid "Import Data"
+msgstr ""
+
+#: CRM/Advimport/Upload/Form/DataUpload.php
+msgid "File"
+msgstr ""
+
+#: CRM/Advimport/Upload/Form/DataUpload.php
+msgid "Source"
+msgstr ""
+
+#: CRM/Advimport/Upload/Form/DataUpload.php
+msgid "None"
+msgstr ""
+
+#: CRM/Advimport/Upload/Form/DataUpload.php
+msgid "Tag"
+msgstr ""
+
+#: CRM/Advimport/Upload/Form/DataUpload.php
+msgid "Group or Tag"
+msgstr ""
+
+#: CRM/Advimport/Upload/Form/DataUpload.php
+msgid "Next >>"
+msgstr ""
+
+#: CRM/Advimport/Upload/Form/DataUpload.php
+msgid "Please select a file to upload."
+msgstr ""
+
+#: CRM/Advimport/Upload/Form/DataUpload.php
+msgid "- year -"
+msgstr ""
+
+#: CRM/Advimport/Upload/Form/DataUpload.php
+msgid "The task %1 with %2 items has been cancelled."
+msgstr ""
+
+#: CRM/Advimport/Upload/Form/DataUpload.php
+msgid ""
+"Erreur de sauvegarde du fichier téléversé. Vérifier les permissions sur le "
+"système de fichiers du serveur: %1."
+msgstr ""
+
+#: CRM/Advimport/Upload/Form/MapFields.php
+msgid ""
+"A previous import will be re-imported. This can be useful when testing an "
+"import. However, depending on your configuration, it can create duplicate "
+"data."
+msgstr ""
+
+#: CRM/Advimport/Upload/Form/MapFields.php
+msgid "Re-import"
+msgstr ""
+
+#: CRM/Advimport/Upload/Form/MapFields.php
+msgid "Advanced import: Map Fields"
+msgstr ""
+
+#: CRM/Advimport/Upload/Form/MapFields.php
+msgid "Previous"
+msgstr ""
+
+#: CRM/Advimport/Upload/Form/MapFields.php
+#: CRM/Dataexplorer/Explore/Generator/Advimport.php
+msgid "Import"
+msgstr ""
+
+#: CRM/Advimport/Upload/Form/MapFields.php
+msgid "Review Data >>"
+msgstr ""
+
+#: CRM/Advimport/Upload/Form/MapFields.php
+msgid "Start Import >>"
+msgstr ""
+
+#: CRM/Advimport/Upload/Form/MapFields.php
+msgid ""
+"All items were already processed. To force the import to run again, go to "
+"the main Advanced Import screen and click the re-import button."
+msgstr ""
+
+#: CRM/Advimport/Upload/Form/Results.php
+msgid "Advanced import: result"
+msgstr ""
+
+#: Civi/Advimport/Events.php
+msgid "Advimport - Items"
+msgstr ""
+
+#: advimport.php ang/advimport/ListStringsCtrl.html
+msgid "Advanced Import"
+msgstr ""
+
+#: advimport.php
+msgid "APIv3 Entities"
+msgstr ""
+
+#: advimport.php
+msgid "Groups - Add Contact to Group"
+msgstr ""
+
+#: advimport.php
+msgid "Groups - Remove Contact from Group"
+msgstr ""
+
+#: advimport.php
+msgid "Stripe Subscriptions - experimental"
+msgstr ""
+
+#: advimport.php
+msgid "Stripe Failed Events - experimental"
+msgstr ""
+
+#: ang/advimport/ListStringsCtrl.html
+msgid "Add a short help text here?"
+msgstr ""
+
+#: ang/advimport/ListStringsCtrl.html
+msgid "Process all items"
+msgstr ""
+
+#: ang/advimport/ListStringsCtrl.html
+msgid "Add new row"
+msgstr ""
+
+#: ang/advimport/ListStringsCtrl.html
+msgid "Download"
+msgstr ""
+
+#: ang/advimport/ListStringsCtrl.html
+msgid "Import:"
+msgstr ""
+
+#: ang/advimport/ListStringsCtrl.html
+msgid "Display:"
+msgstr ""
+
+#: ang/advimport/ListStringsCtrl.html
+msgid "All"
+msgstr ""
+
+#: ang/advimport/ListStringsCtrl.html
+msgid "OK"
+msgstr ""
+
+#: ang/advimport/ListStringsCtrl.html
+#: templates/CRM/Advimport/Upload/Form/DataUpload.tpl
+msgid "Errors"
+msgstr ""
+
+#: ang/advimport/ListStringsCtrl.html
+#: templates/CRM/Advimport/Upload/Form/DataUpload.tpl
+msgid "Warnings"
+msgstr ""
+
+#: ang/advimport/ListStringsCtrl.html
+msgid "Filter:"
+msgstr ""
+
+#: ang/advimport/ListStringsCtrl.html
+msgid "Bulk Update:"
+msgstr ""
+
+#: ang/advimport/ListStringsCtrl.html
+msgid "Update"
+msgstr ""
+
+#: ang/advimport/ListStringsCtrl.html
+msgid "Not data, or access denied."
+msgstr ""
+
+#: ang/advimport/ListStringsCtrl.js ang/advimport/plupload.js
+msgid "advimport"
+msgstr ""
+
+#: ang/advimport/ListStringsCtrl.js
+msgid "No results matched the selected filters."
+msgstr ""
+
+#: ang/advimport/ListStringsCtrl.js
+msgid "Browse..."
+msgstr ""
+
+#: ang/advimport/ListStringsCtrl.js
+#: templates/CRM/Advimport/Upload/Form/DataUpload.tpl
+msgid "Success"
+msgstr ""
+
+#: ang/advimport/ListStringsCtrl.js
+msgid "Error"
+msgstr ""
+
+#: ang/advimport/ListStringsCtrl.js
+msgid "Warning"
+msgstr ""
+
+#: ang/advimport/ListStringsCtrl.js
+msgid "Update complete"
+msgstr ""
+
+#: ang/advimport/ListStringsCtrl.js
+msgid "%1 rows updated."
+msgstr ""
+
+#: ang/advimport/ListStringsCtrl.js
+msgid ""
+"Reminder: To process the actual update, you still need to process all items."
+msgstr ""
+
+#: ang/advimport/ListStringsCtrl.js
+msgid "Nothing to update"
+msgstr ""
+
+#: ang/advimport/ListStringsCtrl.js
+msgid ""
+"Either all rows are already of the specified value, or it was not possible "
+"to update the values."
+msgstr ""
+
+#: ang/advimport/ListStringsCtrl.js
+#: templates/CRM/Advimport/Upload/Form/DataUpload.tpl
+msgid "Cancel"
+msgstr ""
+
+#: ang/advimport/ListStringsCtrl.js
+msgid "Add"
+msgstr ""
+
+#: ang/advimport/ListStringsCtrl.js
+msgid "Please fill in all the required fields."
+msgstr ""
+
+#: api/v3/AdvimportRow/Create.php
+msgid "Advimport table not found: %1"
+msgstr ""
+
+#: api/v3/Job/Advimportcleanup.php
+msgid ""
+"You must provide a days=123 parameters. Imports older than this number of "
+"days will be deleted."
+msgstr ""
+
+#: api/v3/Job/Advimportcleanup.php
+msgid "The days=123 parameter is not numeric."
+msgstr ""
+
+#: templates/CRM/Advimport/Upload/Form/DataUpload.tpl
+msgid ""
+"If selected, a group or tag will automatically be created, using the source "
+"name and the current date/time."
+msgstr ""
+
+#: templates/CRM/Advimport/Upload/Form/DataUpload.tpl
+msgid "An import task is currently running:"
+msgid_plural "There are currently %count import tasks running:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/CRM/Advimport/Upload/Form/DataUpload.tpl
+msgid "Queue"
+msgstr ""
+
+#: templates/CRM/Advimport/Upload/Form/DataUpload.tpl
+msgid "Since"
+msgstr ""
+
+#: templates/CRM/Advimport/Upload/Form/DataUpload.tpl
+msgid "Items left"
+msgstr ""
+
+#: templates/CRM/Advimport/Upload/Form/DataUpload.tpl
+msgid "Run now"
+msgstr ""
+
+#: templates/CRM/Advimport/Upload/Form/DataUpload.tpl
+msgid ""
+"The import queue is empty. If there are tasks already running, they will be "
+"shown on this screen."
+msgstr ""
+
+#: templates/CRM/Advimport/Upload/Form/DataUpload.tpl
+msgid "Recent imports"
+msgstr ""
+
+#: templates/CRM/Advimport/Upload/Form/DataUpload.tpl
+msgid "ID"
+msgstr ""
+
+#: templates/CRM/Advimport/Upload/Form/DataUpload.tpl
+msgid "Author"
+msgstr ""
+
+#: templates/CRM/Advimport/Upload/Form/DataUpload.tpl
+msgid "File Name"
+msgstr ""
+
+#: templates/CRM/Advimport/Upload/Form/DataUpload.tpl
+msgid "Items"
+msgstr ""
+
+#: templates/CRM/Advimport/Upload/Form/DataUpload.tpl
+msgid "Re-import errors"
+msgstr ""
+
+#: templates/CRM/Advimport/Upload/Form/DataUpload.tpl
+msgid "Re-import everything"
+msgstr ""
+
+#: templates/CRM/Advimport/Upload/Form/MapFields.tpl
+msgid "Data import: map fields"
+msgstr ""
+
+#: templates/CRM/Advimport/Upload/Form/MapFields.tpl
+msgid "Are you sure you want to continue?"
+msgstr ""
+
+#: templates/CRM/Advimport/Upload/Form/MapFields.tpl
+msgid ""
+"This will import all rows in this import, unless they have already been "
+"processed successfully."
+msgstr ""
+
+#: templates/CRM/Advimport/Upload/Form/MapFields.tpl
+msgid "The data looks OK, you can continue to the next step."
+msgstr ""
+
+#: templates/CRM/Advimport/Upload/Form/MapFields.tpl
+msgid "Please check if the uploaded fields match the destination fields:"
+msgstr ""
+
+#: templates/CRM/Advimport/Upload/Form/Results.tpl
+msgid "Data import complete"
+msgstr ""
+
+#: templates/CRM/Advimport/Upload/Form/Results.tpl
+msgid "Done"
+msgstr ""
+
+#: templates/CRM/Advimport/Upload/Form/Results.tpl
+msgid "Data import is complete."
+msgstr ""
+
+#: templates/CRM/Advimport/Upload/Form/Results.tpl
+msgid "Click here to import more data."
+msgstr ""
+
+#: templates/CRM/Advimport/Upload/Form/Results.tpl
+msgid "Total items:"
+msgstr ""
+
+#: templates/CRM/Advimport/Upload/Form/Results.tpl
+msgid "Success:"
+msgstr ""
+
+#: templates/CRM/Advimport/Upload/Form/Results.tpl
+msgid "Warnings:"
+msgstr ""
+
+#: templates/CRM/Advimport/Upload/Form/Results.tpl
+msgid "Errors:"
+msgstr ""
+
+#: templates/CRM/Advimport/Upload/Form/Results.tpl
+msgid "Added to tag %1"
+msgstr ""
+
+#: templates/CRM/Advimport/Upload/Form/Results.tpl
+msgid "Added to group %1"
+msgstr ""
