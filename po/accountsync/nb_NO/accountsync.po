@@ -1,0 +1,459 @@
+# Copyright CiviCRM LLC (c) 2004-2015
+# This file is distributed under the same license as the CiviCRM package.
+# If you contribute heavily to a translation and deem your work copyrightable,
+# make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: accountsync\n"
+"POT-Creation-Date: 2024-08-21 05:01+0000\n"
+"Language-Team: Norwegian Bokmål (https://app.transifex.com/civicrm/teams/1905/nb/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nb\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: CRM/Accountsync/BAO/AccountInvoice.php
+msgid "Unknown"
+msgstr ""
+
+#: CRM/Accountsync/BAO/AccountInvoice.php
+msgid "Completed"
+msgstr ""
+
+#: CRM/Accountsync/BAO/AccountInvoice.php
+msgid "Pending"
+msgstr ""
+
+#: CRM/Accountsync/BAO/AccountInvoice.php
+msgid "Cancelled"
+msgstr ""
+
+#: CRM/Accountsync/Check.php
+msgid ""
+"There are %1 records in the `civicrm_account_contact` table which have a "
+"NULL connector_id. These need updating manually to 0 or the connector ID if "
+"using the connectors extension."
+msgstr ""
+
+#: CRM/Accountsync/Check.php
+msgid "AccountSync: Database issues"
+msgstr ""
+
+#: CRM/Accountsync/Check.php
+msgid ""
+"There are %1 records in the `civicrm_account_invoice` table which have a "
+"NULL connector_id. These need updating manually to 0 or the connector ID if "
+"using the connectors extension."
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php
+msgid "Account Contacts"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php
+msgid "Account Contact"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php
+#: CRM/Accountsync/DAO/AccountInvoice.php managed/contact_list.mgd.php
+msgid "ID"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php
+msgid "Unique AccountContact ID"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php
+msgid "Contact ID"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php
+msgid "FK to Contact"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php managed/contact_errors.mgd.php
+#: managed/contact_list.mgd.php managed/contact_match.mgd.php
+msgid "CiviCRM Contact ID"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php managed/contact_errors.mgd.php
+#: managed/contact_list.mgd.php
+msgid "Accounts Contact ID"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php
+#: CRM/Accountsync/DAO/AccountInvoice.php
+msgid "External Reference"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php
+msgid "Display Name"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php
+msgid "Name from Accounts Package"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php
+#: CRM/Accountsync/DAO/AccountInvoice.php
+msgid "Last Sync Date"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php
+#: CRM/Accountsync/DAO/AccountInvoice.php
+msgid "When was the contact last synced."
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php
+#: CRM/Accountsync/DAO/AccountInvoice.php managed/contact_match.mgd.php
+msgid "Accounts Modified Date"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php
+#: CRM/Accountsync/DAO/AccountInvoice.php
+msgid "When was the invoice last Altered in the accounts system."
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php
+#: CRM/Accountsync/DAO/AccountInvoice.php
+msgid "Account System Data"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php
+#: CRM/Accountsync/DAO/AccountInvoice.php
+msgid "json array of data as returned from accounts system"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php
+#: CRM/Accountsync/DAO/AccountInvoice.php managed/contact_errors.mgd.php
+#: managed/invoice_errors.mgd.php
+msgid "Account Error Data"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php
+#: CRM/Accountsync/DAO/AccountInvoice.php
+msgid "json array of error data as returned from accounts system"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php
+#: CRM/Accountsync/DAO/AccountInvoice.php managed/contact_list.mgd.php
+msgid "Accounts Needs Update"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php
+#: CRM/Accountsync/DAO/AccountInvoice.php
+msgid "Include in next push to accounts"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php
+#: CRM/Accountsync/DAO/AccountInvoice.php
+msgid "Connector ID"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php
+#: CRM/Accountsync/DAO/AccountInvoice.php
+msgid ""
+"ID of connector. Relevant to connect to more than one account of the same "
+"type"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php
+#: CRM/Accountsync/DAO/AccountInvoice.php managed/contact_match.mgd.php
+msgid "Account Plugin"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php
+#: CRM/Accountsync/DAO/AccountInvoice.php
+msgid "Name of plugin creating the account"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php managed/contact_list.mgd.php
+#: managed/contact_match.mgd.php
+msgid "Do Not Sync"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php
+msgid "Do not sync this contact"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php
+#: CRM/Accountsync/DAO/AccountInvoice.php managed/contact_list.mgd.php
+msgid "Error Resolved"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountContact.php
+#: CRM/Accountsync/DAO/AccountInvoice.php
+msgid "Filter out if resolved"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountInvoice.php
+msgid "Account Invoices"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountInvoice.php
+msgid "Account Invoice"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountInvoice.php
+msgid "Unique AccountInvoice ID"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountInvoice.php
+#: managed/SavedSearch_Non_queued_Contributions.mgd.php
+#: managed/invoice_errors.mgd.php
+msgid "Contribution ID"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountInvoice.php
+msgid "FK to contribution table."
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountInvoice.php managed/invoice_errors.mgd.php
+msgid "Accounts Invoice ID"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountInvoice.php
+msgid "Accounts Status ID"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountInvoice.php
+msgid "Status in accounts system (mapped to civicrm definition)"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountInvoice.php
+msgid "Accounting system status"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountInvoice.php
+msgid "Last Modified Date"
+msgstr ""
+
+#: CRM/Accountsync/DAO/AccountInvoice.php
+msgid "Connection"
+msgstr ""
+
+#: Civi/Hooks/SearchKitTasks.php
+msgid "Retry sync"
+msgstr ""
+
+#: Civi/Hooks/SearchKitTasks.php
+msgid "Processing ..."
+msgstr ""
+
+#: Civi/Hooks/SearchKitTasks.php
+msgid "Successfully marked %1 records to retry next time the sync job runs."
+msgstr ""
+
+#: Civi/Hooks/SearchKitTasks.php
+msgid "An error occurred while attempting to mark %1 records for retry."
+msgstr ""
+
+#: Civi/Hooks/SearchKitTasks.php
+msgid "Mark as resolved"
+msgstr ""
+
+#: Civi/Hooks/SearchKitTasks.php
+msgid "Successfully marked %1 records as resolved."
+msgstr ""
+
+#: Civi/Hooks/SearchKitTasks.php
+msgid "An error occurred while marking errors as resolved."
+msgstr ""
+
+#: Civi/Hooks/SearchKitTasks.php
+msgid "Do not sync"
+msgstr ""
+
+#: Civi/Hooks/SearchKitTasks.php
+msgid "Successfully marked %1 records as \"Do not Sync\"."
+msgstr ""
+
+#: Civi/Hooks/SearchKitTasks.php
+msgid "An error occurred while marking errors as \"Do not Sync\"."
+msgstr ""
+
+#: accountsync.php
+msgid ""
+"You are deleting a contact that has been synced to your accounts system. It "
+"is recommended you restore the contact & fix this"
+msgstr ""
+
+#: accountsync.php
+msgid ""
+"You have deleted a contact that has been synced to your accounts system. The"
+" sync tracking record has been deleted. Resolution is unclear"
+msgstr ""
+
+#: accountsync.php
+msgid ""
+"You have deleted an invoice that has been synced to your accounts system. "
+"You will need to remove it from your accounting package"
+msgstr ""
+
+#: ang/accountsync/EditCtrl.html
+msgid "Name not provided."
+msgstr ""
+
+#: ang/accountsync/EditCtrl.html
+msgid "Exclude"
+msgstr ""
+
+#: ang/accountsync/EditCtrl.html
+msgid "Create: "
+msgstr ""
+
+#: ang/accountsync/EditCtrl.html
+msgid "Match"
+msgstr ""
+
+#: ang/accountsync/EditCtrl.html
+msgid "Save"
+msgstr ""
+
+#: ang/accountsync/EditCtrl.js
+msgid "accountsync"
+msgstr ""
+
+#: ang/accountsync/EditCtrl.js
+msgid "Saving..."
+msgstr ""
+
+#: ang/accountsync/EditCtrl.js
+msgid "Saved"
+msgstr ""
+
+#: managed/SavedSearch_Non_queued_Contributions.mgd.php
+msgid "Non Queued Contributions"
+msgstr ""
+
+#: managed/SavedSearch_Non_queued_Contributions.mgd.php
+msgid ""
+"These contributions are not present in the Account Invoice Table. Therefore,"
+" they are not in the queue to be pushed to the external accounting system."
+msgstr ""
+
+#: managed/SavedSearch_Non_queued_Contributions.mgd.php
+msgid "Contact Display Name"
+msgstr ""
+
+#: managed/SavedSearch_Non_queued_Contributions.mgd.php
+msgid "Total Amount"
+msgstr ""
+
+#: managed/SavedSearch_Non_queued_Contributions.mgd.php
+msgid "Contribution Status"
+msgstr ""
+
+#: managed/SavedSearch_Non_queued_Contributions.mgd.php
+msgid "Contribution Date"
+msgstr ""
+
+#: managed/SavedSearch_Non_queued_Contributions.mgd.php
+#: managed/invoice_errors.mgd.php
+msgid "View Contribution"
+msgstr ""
+
+#: managed/SavedSearch_Non_queued_Contributions.mgd.php
+msgid "Update Contribution"
+msgstr ""
+
+#: managed/SavedSearch_Non_queued_Contributions.mgd.php
+msgid "Delete Contribution"
+msgstr ""
+
+#: managed/contact_errors.mgd.php
+msgid "Contact Synchronization Errors"
+msgstr ""
+
+#: managed/contact_errors.mgd.php managed/invoice_errors.mgd.php
+msgid "id"
+msgstr ""
+
+#: managed/contact_errors.mgd.php
+msgid "Contact"
+msgstr ""
+
+#: managed/contact_errors.mgd.php
+msgid "View CiviCRM Contact"
+msgstr ""
+
+#: managed/contact_errors.mgd.php managed/invoice_errors.mgd.php
+msgid "Last Synchronization Date"
+msgstr ""
+
+#: managed/contact_list.mgd.php
+msgid "Accountsync Contact list"
+msgstr ""
+
+#: managed/contact_list.mgd.php
+msgid "View CiviCRM Contact ID"
+msgstr ""
+
+#: managed/contact_list.mgd.php
+msgid "CiviCRM Display Name"
+msgstr ""
+
+#: managed/contact_list.mgd.php managed/contact_match.mgd.php
+msgid "Accounts Display Name"
+msgstr ""
+
+#: managed/contact_list.mgd.php
+msgid "Accounts"
+msgstr ""
+
+#: managed/contact_match.mgd.php
+msgid "Accountsync Contact Match"
+msgstr ""
+
+#: managed/contact_match.mgd.php
+msgid "Accountsync Contact Match Table 1"
+msgstr ""
+
+#: managed/contact_match.mgd.php
+msgid "AccountsContact ID"
+msgstr ""
+
+#: managed/contact_match.mgd.php
+msgid "Click to match with an existing contact"
+msgstr ""
+
+#: managed/contact_match.mgd.php
+msgid "Accounts system Contact ID"
+msgstr ""
+
+#: managed/invoice_errors.mgd.php
+msgid "Invoice Synchronization Errors"
+msgstr ""
+
+#: managed/navigation.mgd.php
+msgid "Errors"
+msgstr ""
+
+#: managed/navigation.mgd.php
+msgid "Invoice Errors"
+msgstr ""
+
+#: managed/navigation.mgd.php
+msgid "Contact Errors"
+msgstr ""
+
+#: managed/navigation.mgd.php
+msgid "Match Contacts (legacy)"
+msgstr ""
+
+#: managed/navigation.mgd.php
+msgid "Match Contacts"
+msgstr ""
+
+#: managed/navigation.mgd.php
+msgid "List of synced contacts"
+msgstr ""
+
+#: managed/navigation.mgd.php
+msgid "Non-Queued Contributions"
+msgstr ""
+
+#: templates/CRM/accountsync/EditCtrl.hlp
+msgid "The name recorded in the accounting package."
+msgstr ""
