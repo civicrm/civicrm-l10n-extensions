@@ -1,0 +1,2976 @@
+# Copyright CiviCRM LLC (c) 2004-2015
+# This file is distributed under the same license as the CiviCRM package.
+# If you contribute heavily to a translation and deem your work copyrightable,
+# make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: action_provider\n"
+"POT-Creation-Date: 2023-01-27 19:24+0000\n"
+"Language-Team: Norwegian Bokmål (https://app.transifex.com/civicrm/teams/1905/nb/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nb\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: Civi/ActionProvider/Action/Activity/Actions.php
+msgid "Activity: Create/Update"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/Actions.php
+msgid "Activity: Update status"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/Actions.php
+msgid "Activity: Delete"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/Actions.php
+msgid "Activity: Get activity by ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/Actions.php
+msgid "Activity: Get contact IDs from an activity"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/Actions.php
+msgid "Activity: Get most recent activity of a contact"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/Actions.php
+msgid "Activity: Upload attachment"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/Actions.php
+msgid "Activity: Upload file to a custom field"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/Actions.php
+msgid "Activity: Assign"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/Assign.php
+#: Civi/ActionProvider/Action/Activity/CreateActivity.php
+#: Civi/ActionProvider/Action/Activity/DeleteActivity.php
+#: Civi/ActionProvider/Action/Activity/GetActivity.php
+#: Civi/ActionProvider/Action/Activity/GetActivityContact.php
+#: Civi/ActionProvider/Action/Activity/GetMostRecentActivity.php
+#: Civi/ActionProvider/Action/Activity/UpdateActivityStatus.php
+#: Civi/ActionProvider/Action/Activity/UploadAttachment.php
+#: Civi/ActionProvider/Action/Activity/UploadCustomFileField.php
+#: Civi/ActionProvider/Action/Communication/CreatePdf.php
+#: Civi/ActionProvider/Action/Communication/SendEmail.php
+#: Civi/ActionProvider/Action/Communication/SendPdfByEmail.php
+#: Civi/ActionProvider/Action/Generic/ReplaceTokensInHTML.php
+msgid "Activity ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/Assign.php
+msgid "Assignee ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/CreateActivity.php
+msgid "Default Subject"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/CreateActivity.php
+msgid "Subject when you don't get use a parameter for the subejct."
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/CreateActivity.php
+#: Civi/ActionProvider/Action/Activity/GetMostRecentActivity.php
+msgid "Activity Type"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/CreateActivity.php
+#: Civi/ActionProvider/Action/Activity/GetMostRecentActivity.php
+#: Civi/ActionProvider/Action/Activity/UpdateActivityStatus.php
+msgid "Activity Status"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/CreateActivity.php
+msgid "Priority"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/CreateActivity.php
+#: Civi/ActionProvider/Action/BulkMail/Send.php
+#: Civi/ActionProvider/Action/CiviCase/CreateCase.php
+#: Civi/ActionProvider/Action/CiviCase/UpdateCase.php
+#: Civi/ActionProvider/Action/Communication/MessageTemplateByName.php
+#: Civi/ActionProvider/Action/Communication/SendEmail.php
+#: Civi/ActionProvider/Action/Communication/SendPdfByEmail.php
+#: Civi/ActionProvider/Action/Contact/CreateNote.php
+msgid "Subject"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/CreateActivity.php
+msgid "Use this field when you want to set the subject from another field."
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/CreateActivity.php
+msgid "Source Contact ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/CreateActivity.php
+msgid "Target Contact ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/CreateActivity.php
+msgid "Assignee Contact ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/CreateActivity.php
+msgid "Activity Date"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/CreateActivity.php
+#: Civi/ActionProvider/Action/Contribution/CreateContribution.php
+#: Civi/ActionProvider/Action/Contribution/CreateContributionRecur.php
+#: Civi/ActionProvider/Action/Contribution/CreateContributionWithParameters.php
+#: Civi/ActionProvider/Action/Contribution/UpdateContribution.php
+msgid "Campaign"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/CreateActivity.php
+msgid "Details"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/CreateActivity.php
+#: Civi/ActionProvider/Action/CiviCase/CreateCase.php
+#: Civi/ActionProvider/Action/CiviCase/FindContactWithRoleOnCase.php
+#: Civi/ActionProvider/Action/CiviCase/GetCaseDataById.php
+#: Civi/ActionProvider/Action/CiviCase/UpdateCase.php
+#: Civi/ActionProvider/Action/CiviCase/UpdateCaseStatus.php
+#: Civi/ActionProvider/Action/CiviCase/UpdateCustomData.php
+#: Civi/ActionProvider/Action/CiviCase/UploadCustomFileField.php
+#: Civi/ActionProvider/Action/CiviCase/ValidateChecksum.php
+#: Civi/ActionProvider/Action/Communication/CreatePdf.php
+#: Civi/ActionProvider/Action/Communication/SendEmail.php
+#: Civi/ActionProvider/Action/Communication/SendPdfByEmail.php
+#: Civi/ActionProvider/Action/Generic/ReplaceTokensInHTML.php
+#: Civi/ActionProvider/Action/Relationship/CreateRelationship.php
+#: Civi/ActionProvider/Action/Relationship/CreateRelationshipWithTypeParameter.php
+#: Civi/ActionProvider/Action/Relationship/UpdateRelationshipById.php
+msgid "Case ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/CreateActivity.php
+msgid "Activity record ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/CreateActivity.php
+msgid "Could not create activity."
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/GetActivityContact.php
+#: Civi/ActionProvider/Action/Activity/GetMostRecentActivity.php
+msgid "Record type"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/GetActivityContact.php
+#: Civi/ActionProvider/Action/Group/AddMultipleToGroupParameter.php
+msgid "Contact IDs"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/GetActivityContact.php
+msgid "First found contact ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/GetMostRecentActivity.php
+msgid "Error on no activity found"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/GetMostRecentActivity.php
+#: Civi/ActionProvider/Action/CiviCase/CreateCase.php
+#: Civi/ActionProvider/Action/CiviCase/FindContactWithRoleOnCase.php
+#: Civi/ActionProvider/Action/CiviCase/UpdateCase.php
+#: Civi/ActionProvider/Action/CiviCase/ValidateChecksum.php
+#: Civi/ActionProvider/Action/Communication/CreatePdf.php
+#: Civi/ActionProvider/Action/Contact/BlockCommunication.php
+#: Civi/ActionProvider/Action/Contact/ContactDataById.php
+#: Civi/ActionProvider/Action/Contact/ContactHasSubType.php
+#: Civi/ActionProvider/Action/Contact/CreateNote.php
+#: Civi/ActionProvider/Action/Contact/CreateUpdateAddress.php
+#: Civi/ActionProvider/Action/Contact/CreateUpdateEmailAddress.php
+#: Civi/ActionProvider/Action/Contact/CreateUpdateHousehold.php
+#: Civi/ActionProvider/Action/Contact/CreateUpdateIndividual.php
+#: Civi/ActionProvider/Action/Contact/CreateUpdateOrganization.php
+#: Civi/ActionProvider/Action/Contact/FindByCustomField.php
+#: Civi/ActionProvider/Action/Contact/FindByEmailOrCreateEmailName.php
+#: Civi/ActionProvider/Action/Contact/FindByExternalId.php
+#: Civi/ActionProvider/Action/Contact/FindContactByEmail.php
+#: Civi/ActionProvider/Action/Contact/FindIndividualByNameAndEmail.php
+#: Civi/ActionProvider/Action/Contact/FindOrCreateContactByEmail.php
+#: Civi/ActionProvider/Action/Contact/FindOrCreateContactByEmailAndName.php
+#: Civi/ActionProvider/Action/Contact/FindOrCreateOrganizationByName.php
+#: Civi/ActionProvider/Action/Contact/FindOrganizationByName.php
+#: Civi/ActionProvider/Action/Contact/GenerateChecksum.php
+#: Civi/ActionProvider/Action/Contact/GetAddress.php
+#: Civi/ActionProvider/Action/Contact/GetContactIdFromMasterAddress.php
+#: Civi/ActionProvider/Action/Contact/GetCurrentUserContactID.php
+#: Civi/ActionProvider/Action/Contact/GetEmailAddress.php
+#: Civi/ActionProvider/Action/Contact/MarkContactAsDeceased.php
+#: Civi/ActionProvider/Action/Contact/RemoveContactSubType.php
+#: Civi/ActionProvider/Action/Contact/RestoreContactFromTrash.php
+#: Civi/ActionProvider/Action/Contact/SetCommunicationStyle.php
+#: Civi/ActionProvider/Action/Contact/SetContactSubType.php
+#: Civi/ActionProvider/Action/Contact/SetEmployer.php
+#: Civi/ActionProvider/Action/Contact/SetPreferredCommunicationMethod.php
+#: Civi/ActionProvider/Action/Contact/UpdateCustomData.php
+#: Civi/ActionProvider/Action/Contact/UploadCustomFileField.php
+#: Civi/ActionProvider/Action/Contact/UsePrimaryAddressOfContact.php
+#: Civi/ActionProvider/Action/Contact/UsePrimaryAddressOfRelatedContact.php
+#: Civi/ActionProvider/Action/Contact/ValidateChecksum.php
+#: Civi/ActionProvider/Action/Contribution/CreateContribution.php
+#: Civi/ActionProvider/Action/Contribution/CreateContributionRecur.php
+#: Civi/ActionProvider/Action/Contribution/CreateContributionWithParameters.php
+#: Civi/ActionProvider/Action/Contribution/CreateSoftContribution.php
+#: Civi/ActionProvider/Action/Contribution/UpdateContribution.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateParticipant.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateParticipantWithDynamicStatus.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateParticipantWithDynamicStatusRole.php
+#: Civi/ActionProvider/Action/Event/CreateParticipant.php
+#: Civi/ActionProvider/Action/Event/DeleteParticipant.php
+#: Civi/ActionProvider/Action/Event/GetParticipant.php
+#: Civi/ActionProvider/Action/Event/ParticipantFindByCustomField.php
+#: Civi/ActionProvider/Action/Event/UpdateParticipantStatus.php
+#: Civi/ActionProvider/Action/Event/UpdateParticipantStatusWithDynamicStatus.php
+#: Civi/ActionProvider/Action/Generic/ReplaceTokensInHTML.php
+#: Civi/ActionProvider/Action/Group/AddToGroup.php
+#: Civi/ActionProvider/Action/Group/AddToGroupParameter.php
+#: Civi/ActionProvider/Action/Group/GetGroupSubscriptions.php
+#: Civi/ActionProvider/Action/Group/RemoveFromGroup.php
+#: Civi/ActionProvider/Action/Group/RemoveFromGroupParameter.php
+#: Civi/ActionProvider/Action/Group/UpdateGroupSubscriptions.php
+#: Civi/ActionProvider/Action/MailingEvent/MailingEventConfirm.php
+#: Civi/ActionProvider/Action/MailingEvent/MailingEventSubscribe.php
+#: Civi/ActionProvider/Action/Membership/CreateOrUpdateMembership.php
+#: Civi/ActionProvider/Action/Membership/CreateOrUpdateMembershipWithTypeParameter.php
+#: Civi/ActionProvider/Action/Phone/CreateUpdatePhone.php
+#: Civi/ActionProvider/Action/Phone/GetPhone.php
+#: Civi/ActionProvider/Action/Relationship/GetRelationshipByContactId.php
+#: Civi/ActionProvider/Action/Tag/AddTagToContact.php
+#: Civi/ActionProvider/Action/Tag/AddTagsToContact.php
+#: Civi/ActionProvider/Action/Tag/SyncTagsToContact.php
+#: Civi/ActionProvider/Action/Website/CreateUpdateWebsite.php
+#: Civi/ActionProvider/Action/Website/GetWebsite.php
+#: Civi/ActionProvider/Condition/ContactHasSubtype.php
+#: Civi/ActionProvider/Condition/ContactHasTag.php
+msgid "Contact ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/GetMostRecentActivity.php
+msgid "Could not find an activity"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/UpdateActivityStatus.php
+#: Civi/ActionProvider/Action/CiviCase/UpdateCaseStatus.php
+msgid "Status ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/UploadAttachment.php
+#: Civi/ActionProvider/Action/Activity/UploadCustomFileField.php
+#: Civi/ActionProvider/Action/BulkMail/AddAttachment.php
+#: Civi/ActionProvider/Action/CiviCase/UploadCustomFileField.php
+#: Civi/ActionProvider/Action/Contact/UploadCustomFileField.php
+#: Civi/ActionProvider/Action/Event/UploadCustomFileField.php
+#: Civi/ActionProvider/Action/Generic/ReuploadFile.php
+msgid "File"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Activity/UploadCustomFileField.php
+#: Civi/ActionProvider/Action/CiviCase/UploadCustomFileField.php
+#: Civi/ActionProvider/Action/Contact/UploadCustomFileField.php
+#: Civi/ActionProvider/Action/Event/UploadCustomFileField.php
+msgid "File field"
+msgstr ""
+
+#: Civi/ActionProvider/Action/BulkMail/Actions.php
+msgid "Mailing: Add attachment"
+msgstr ""
+
+#: Civi/ActionProvider/Action/BulkMail/Actions.php
+msgid "Mailing: Create and send mass mailing"
+msgstr ""
+
+#: Civi/ActionProvider/Action/BulkMail/AddAttachment.php
+msgid "Mailing ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/BulkMail/Send.php
+#: Civi/ActionProvider/Action/Communication/MessageTemplateByName.php
+#: Civi/ActionProvider/Action/Generic/ResolveOptionValues.php
+#: api/v3/ActionProvider/Getaction.php api/v3/ActionProvider/Getcondition.php
+msgid "Name"
+msgstr ""
+
+#: Civi/ActionProvider/Action/BulkMail/Send.php
+#: Civi/ActionProvider/Action/Communication/MessageTemplateByName.php
+#: Civi/ActionProvider/Action/Communication/SendEmail.php
+#: Civi/ActionProvider/Action/Communication/SendPdfByEmail.php
+msgid "HTML Body"
+msgstr ""
+
+#: Civi/ActionProvider/Action/BulkMail/Send.php
+msgid "Template Options"
+msgstr ""
+
+#: Civi/ActionProvider/Action/BulkMail/Send.php
+#: Civi/ActionProvider/Action/Group/AddToGroup.php
+#: Civi/ActionProvider/Action/Group/RemoveFromGroup.php
+msgid "Select group"
+msgstr ""
+
+#: Civi/ActionProvider/Action/BulkMail/Send.php
+#: Civi/ActionProvider/Action/Communication/SendEmail.php
+#: Civi/ActionProvider/Action/Communication/SendPdfByEmail.php
+msgid "Sender Contact ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/BulkMail/Send.php
+#: Civi/ActionProvider/Action/Communication/SendEmail.php
+#: Civi/ActionProvider/Action/Communication/SendPdfByEmail.php
+msgid "From name"
+msgstr ""
+
+#: Civi/ActionProvider/Action/BulkMail/Send.php
+msgid "From E-mail"
+msgstr ""
+
+#: Civi/ActionProvider/Action/BulkMail/Send.php
+msgid "Reply to"
+msgstr ""
+
+#: Civi/ActionProvider/Action/BulkMail/Send.php
+#: Civi/ActionProvider/Action/SMS/SMSSend.php
+msgid "Scheduled date"
+msgstr ""
+
+#: Civi/ActionProvider/Action/BulkMail/Send.php
+msgid "Bulk mail record ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Campaign/Actions.php
+msgid "Campaign: Get or create"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Campaign/Actions.php
+msgid "Campaign: Update"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Campaign/FindOrCreateCampaign.php
+msgid "Campaign type"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Campaign/FindOrCreateCampaign.php
+#: Civi/ActionProvider/Action/Campaign/UpdateCampaign.php
+#: Civi/ActionProvider/Action/Event/CreateEventFromTemplate.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateEvent.php
+#: Civi/ActionProvider/Action/Group/GetGroup.php
+msgid "Title"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Campaign/FindOrCreateCampaign.php
+#: Civi/ActionProvider/Action/Campaign/UpdateCampaign.php
+#: Civi/ActionProvider/Action/Event/CreateEventFromTemplate.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateEvent.php
+#: Civi/ActionProvider/Action/Group/Create.php
+#: Civi/ActionProvider/Action/Group/GetGroup.php
+#: Civi/ActionProvider/Action/Relationship/CreateRelationship.php
+#: Civi/ActionProvider/Action/Relationship/CreateRelationshipWithTypeParameter.php
+#: Civi/ActionProvider/Action/Relationship/UpdateRelationshipById.php
+msgid "Description"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Campaign/FindOrCreateCampaign.php
+msgid "Integer"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Campaign/UpdateCampaign.php
+#: Civi/ActionProvider/Action/Event/CreateEventFromTemplate.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateParticipant.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateParticipantWithDynamicStatus.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateParticipantWithDynamicStatusRole.php
+#: Civi/ActionProvider/Action/Event/CreateParticipant.php
+msgid "Campaign ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Campaign/UpdateCampaign.php
+msgid "Start Date"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Campaign/UpdateCampaign.php
+msgid "End Date"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Campaign/UpdateCampaign.php
+msgid "Is Active"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Campaign/UpdateCampaign.php
+msgid "Campaign Type"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Campaign/UpdateCampaign.php
+msgid "Campaign Status"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Campaign/UpdateCampaign.php
+msgid "External Identifier"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Campaign/UpdateCampaign.php
+msgid "Parent ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Campaign/UpdateCampaign.php
+msgid "Goal General"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Campaign/UpdateCampaign.php
+msgid "Goal Revenue"
+msgstr ""
+
+#: Civi/ActionProvider/Action/CiviCase/Actions.php
+msgid "CiviCase: Get by ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/CiviCase/Actions.php
+msgid "CiviCase: Get contact with a role on the case"
+msgstr ""
+
+#: Civi/ActionProvider/Action/CiviCase/Actions.php
+msgid "CiviCase: Create"
+msgstr ""
+
+#: Civi/ActionProvider/Action/CiviCase/Actions.php
+msgid "CiviCase: Update"
+msgstr ""
+
+#: Civi/ActionProvider/Action/CiviCase/Actions.php
+msgid "CiviCase: Update status"
+msgstr ""
+
+#: Civi/ActionProvider/Action/CiviCase/Actions.php
+msgid "CiviCase: Update custom data"
+msgstr ""
+
+#: Civi/ActionProvider/Action/CiviCase/Actions.php
+msgid "CiviCase: Upload file to a custom field for a case"
+msgstr ""
+
+#: Civi/ActionProvider/Action/CiviCase/Actions.php
+msgid "CiviCase: Validate checksum of role on case"
+msgstr ""
+
+#: Civi/ActionProvider/Action/CiviCase/CreateCase.php
+#: Civi/ActionProvider/Action/CiviCase/UpdateCase.php
+msgid "Case Type"
+msgstr ""
+
+#: Civi/ActionProvider/Action/CiviCase/CreateCase.php
+#: Civi/ActionProvider/Action/CiviCase/UpdateCase.php
+msgid "Creator Contact ID (Case Manager)"
+msgstr ""
+
+#: Civi/ActionProvider/Action/CiviCase/CreateCase.php
+#: Civi/ActionProvider/Action/CiviCase/UpdateCase.php
+#: Civi/ActionProvider/Action/CiviCase/UpdateCaseStatus.php
+msgid "Case Status"
+msgstr ""
+
+#: Civi/ActionProvider/Action/CiviCase/CreateCase.php
+#: Civi/ActionProvider/Action/CiviCase/UpdateCase.php
+msgid "Created date"
+msgstr ""
+
+#: Civi/ActionProvider/Action/CiviCase/CreateCase.php
+#: Civi/ActionProvider/Action/CiviCase/UpdateCase.php
+#: Civi/ActionProvider/Action/Event/CreateEventFromTemplate.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateEvent.php
+#: Civi/ActionProvider/Action/Membership/CreateOrUpdateMembership.php
+#: Civi/ActionProvider/Action/Membership/CreateOrUpdateMembershipWithTypeParameter.php
+#: Civi/ActionProvider/Action/Membership/UpdateMembership.php
+#: Civi/ActionProvider/Action/Relationship/CreateRelationship.php
+#: Civi/ActionProvider/Action/Relationship/CreateRelationshipWithTypeParameter.php
+msgid "Start date"
+msgstr ""
+
+#: Civi/ActionProvider/Action/CiviCase/CreateCase.php
+#: Civi/ActionProvider/Action/CiviCase/UpdateCase.php
+#: Civi/ActionProvider/Action/Event/CreateEventFromTemplate.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateEvent.php
+#: Civi/ActionProvider/Action/Membership/CreateOrUpdateMembership.php
+#: Civi/ActionProvider/Action/Membership/CreateOrUpdateMembershipWithTypeParameter.php
+#: Civi/ActionProvider/Action/Membership/UpdateMembership.php
+#: Civi/ActionProvider/Action/Relationship/CreateRelationship.php
+#: Civi/ActionProvider/Action/Relationship/CreateRelationshipWithTypeParameter.php
+msgid "End date"
+msgstr ""
+
+#: Civi/ActionProvider/Action/CiviCase/CreateCase.php
+#: Civi/ActionProvider/Action/CiviCase/UpdateCase.php
+msgid "Could not create case"
+msgstr ""
+
+#: Civi/ActionProvider/Action/CiviCase/FindContactWithRoleOnCase.php
+#: Civi/ActionProvider/Action/CiviCase/ValidateChecksum.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateParticipant.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateParticipantWithDynamicStatus.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateParticipantWithDynamicStatusRole.php
+#: Civi/ActionProvider/Action/Event/CreateParticipant.php
+#: Civi/ActionProvider/Action/Event/GetParticipant.php
+msgid "Role"
+msgstr ""
+
+#: Civi/ActionProvider/Action/CiviCase/ValidateChecksum.php
+#: Civi/ActionProvider/Action/Contact/GenerateChecksum.php
+#: Civi/ActionProvider/Action/Contact/ValidateChecksum.php
+msgid "Checksum"
+msgstr ""
+
+#: Civi/ActionProvider/Action/CiviCase/ValidateChecksum.php
+#: Civi/ActionProvider/Action/Contact/ValidateChecksum.php
+msgid "ContactID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/CiviCase/ValidateChecksum.php
+#: Civi/ActionProvider/Action/Contact/ValidateChecksum.php
+#: Civi/ActionProvider/Action/Relationship/ValidateChecksum.php
+msgid "Invalid checksum, can not access contact data."
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/Actions.php
+msgid "Communication: Get message template by name"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/Actions.php
+msgid "Communication: Send e-mail"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/Actions.php
+msgid "Communication: Create PDF"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/Actions.php
+msgid "Communication: Create PDF and send by e-mail"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/CreatePdf.php
+msgid "<a href=\"%1\">Download document(s)<a/>"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/CreatePdf.php
+msgid "Created PDF"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/CreatePdf.php
+#: Civi/ActionProvider/Action/Event/SendEmailToParticipants.php
+msgid "Message"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/CreatePdf.php
+#: Civi/ActionProvider/Action/Communication/SendEmail.php
+#: Civi/ActionProvider/Action/Communication/SendPdfByEmail.php
+#: Civi/ActionProvider/Action/Contribution/CreateContribution.php
+#: Civi/ActionProvider/Action/Contribution/CreateContributionWithParameters.php
+#: Civi/ActionProvider/Action/Contribution/CreateLineItem.php
+#: Civi/ActionProvider/Action/Contribution/CreateSoftContribution.php
+#: Civi/ActionProvider/Action/Contribution/GetContribution.php
+#: Civi/ActionProvider/Action/Contribution/LinkContributionToMembership.php
+#: Civi/ActionProvider/Action/Contribution/LinkContributionToParticipant.php
+#: Civi/ActionProvider/Action/Contribution/UpdateContribution.php
+#: Civi/ActionProvider/Action/Generic/ReplaceTokensInHTML.php
+msgid "Contribution ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/CreatePdf.php
+#: Civi/ActionProvider/Action/Communication/SendEmail.php
+#: Civi/ActionProvider/Action/Communication/SendPdfByEmail.php
+msgid "Recurring Contribution ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/CreatePdf.php
+#: Civi/ActionProvider/Action/Communication/SendEmail.php
+#: Civi/ActionProvider/Action/Communication/SendPdfByEmail.php
+#: Civi/ActionProvider/Action/Contribution/GetContribution.php
+#: Civi/ActionProvider/Action/Contribution/GetContributionByCustomField.php
+#: Civi/ActionProvider/Action/Contribution/LinkContributionToParticipant.php
+#: Civi/ActionProvider/Action/Event/GetParticipantById.php
+#: Civi/ActionProvider/Action/Event/ParticipantFindByCustomField.php
+#: Civi/ActionProvider/Action/Event/SendParticipantRegistrationMail.php
+#: Civi/ActionProvider/Action/Event/UpdateParticipantById.php
+#: Civi/ActionProvider/Action/Generic/ReplaceTokensInHTML.php
+msgid "Participant ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/CreatePdf.php
+msgid "Subject (for the activity)"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/CreatePdf.php
+#: Civi/ActionProvider/Action/Communication/MessageTemplateByName.php
+#: Civi/ActionProvider/Action/Communication/SendPdfByEmail.php
+msgid "Print Page (PDF) Format"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/CreatePdf.php
+#: Civi/ActionProvider/Action/Communication/SendPdfByEmail.php
+#: Civi/ActionProvider/Action/Generic/DownloadFileLink.php
+msgid "Filename"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/CreatePdf.php
+#: Civi/ActionProvider/Action/Communication/SendPdfByEmail.php
+msgid "document"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/CreatePdf.php
+#: Civi/ActionProvider/Action/Communication/SendPdfByEmail.php
+msgid "Without the extension .pdf or .zip"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/CreatePdf.php
+msgid "Batch output mode"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/CreatePdf.php
+msgid "All files in one zip"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/CreatePdf.php
+msgid "Merge all files into one PDF"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/CreatePdf.php
+msgid ""
+"When this action is executed in batch mode, meaning that it generates more "
+"than one pdf, in which way do you want to retrieve the generated PDFs"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/CreatePdf.php
+msgid "PDF Letter Activity"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/CreatePdf.php
+#: Civi/ActionProvider/Action/Communication/SendPdfByEmail.php
+msgid "Download Url"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/CreatePdf.php
+#: Civi/ActionProvider/Action/Communication/SendPdfByEmail.php
+msgid "Path in filesystem"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/CreatePdf.php
+#: Civi/ActionProvider/Action/Generic/DownloadFileLink.php
+#: Civi/ActionProvider/Action/Generic/ReuploadFile.php
+msgid "File ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/CreatePdf.php
+msgid ""
+"\n"
+"      This action generates PDF files for the contacts. <br />\n"
+"      When this action is used in a batch you can define how you want to download the\n"
+"      generated PDFs: either in one zip file or in one pdf. <br />\n"
+"      <br />\n"
+"      The input for this action is a contact ID and the message. You can use the <em>Find Message Template by name</em> action\n"
+"      to retrieve the message.\n"
+"    "
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/MessageTemplateByName.php
+#: Civi/ActionProvider/Action/Communication/SendEmail.php
+#: Civi/ActionProvider/Action/Communication/SendPdfByEmail.php
+msgid "Plain text Body"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/SendEmail.php
+#: Civi/ActionProvider/Action/Communication/SendPdfByEmail.php
+msgid "Send E-mail from E-mail adress of Sender Contact ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/SendEmail.php
+#: Civi/ActionProvider/Action/Communication/SendPdfByEmail.php
+msgid "Set E-mail address of Sender Contact ID as Reply To"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/SendEmail.php
+#: Civi/ActionProvider/Action/Communication/SendPdfByEmail.php
+msgid "Do not use Sender Contact ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/SendEmail.php
+#: Civi/ActionProvider/Action/Communication/SendPdfByEmail.php
+msgid "Use Sender Contact ID as"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/SendEmail.php
+#: Civi/ActionProvider/Action/Communication/SendPdfByEmail.php
+msgid "CC"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/SendEmail.php
+#: Civi/ActionProvider/Action/Communication/SendPdfByEmail.php
+msgid "BCC"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/SendEmail.php
+#: Civi/ActionProvider/Action/Communication/SendPdfByEmail.php
+msgid "Alternative Recipient Email"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/SendEmail.php
+#: Civi/ActionProvider/Action/Communication/SendPdfByEmail.php
+msgid "From email"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/SendEmail.php
+#: Civi/ActionProvider/Action/Communication/SendPdfByEmail.php
+msgid "Attachment(s)"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/SendEmail.php
+#: Civi/ActionProvider/Action/Communication/SendPdfByEmail.php
+msgid ""
+"Give either the path to the file or the File ID in the CiviCRM database."
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/SendEmail.php
+#: Civi/ActionProvider/Action/Communication/SendPdfByEmail.php
+msgid "Receiver Contact ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Communication/SendPdfByEmail.php
+msgid "PDF Message"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Get by ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Create or update address of a contact"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Create or update an e-mail address of a contact"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Use primary address of another contact"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Use primary address of related contact"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Address: Get by ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Get e-mail address"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Address: Get state/province ID by name"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Address: Get country ID by name/ISO code"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Address: Get address by ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Get contact ID of a master address"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Get contact ID of the currently logged in user"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Get Individual by name and email"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Get by external id"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Get contact by custom field"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Get organization by name"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Get or create organization by name"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Create or update Individual"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Create or update Household"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Create or update Organization"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Update custom data"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Create Note"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Mark as deceased"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Set subtype"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Remove subtype"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Has subtype"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Set employer"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Upload file to a custom field for a contact"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Edit communication styles"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Edit preferred communication methods"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Get or create contact by e-mail"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Get contact by e-mail"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Validate checksum"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Generate checksum"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Restore from trash"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Block Communication (set all do not fields)"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Get maximum contact ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Get By Email or Create By Email and Names"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Get or Create By Email and Names"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Create or update website"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Get website"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Create or update phone number"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Contact: Get phone number"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/Actions.php
+msgid "Address: Get country or state/province from ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/AddressComponentIdLookup.php
+msgid "Select the entity you wish to look up"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/AddressComponentIdLookup.php
+#: Civi/ActionProvider/Action/Generic/ReplaceEntityTokensInHTML.php
+msgid "Entity ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/AddressComponentIdLookup.php
+#: Civi/ActionProvider/Action/Generic/CalculateValue.php
+#: Civi/ActionProvider/Action/Generic/ExplodeList.php
+#: Civi/ActionProvider/Action/Generic/FormatValue.php
+#: Civi/ActionProvider/Action/Generic/ImplodeList.php
+#: Civi/ActionProvider/Action/Generic/MapValue.php
+#: Civi/ActionProvider/Action/Generic/OptionValueToLabel.php
+#: Civi/ActionProvider/Action/Generic/RegexReplaceValue.php
+#: Civi/ActionProvider/Action/Generic/ResolveOptionValues.php
+#: Civi/ActionProvider/Action/Generic/SetParameterValue.php
+#: Civi/ActionProvider/Action/Generic/SetValue.php
+#: Civi/ActionProvider/Action/Generic/StringReplaceWithParameter.php
+#: Civi/ActionProvider/Condition/ArrayParameterContains.php
+#: Civi/ActionProvider/Condition/CompareParameterValue.php
+#: Civi/ActionProvider/Condition/ParameterHasValue.php
+msgid "Value"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/ContactActionUtils.php
+msgid "Address: is primary"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/ContactActionUtils.php
+#: Civi/ActionProvider/Action/Event/CreateEventFromTemplate.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateEvent.php
+msgid "Address: Location type"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/ContactActionUtils.php
+msgid "Address: update existing"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/ContactActionUtils.php
+#: Civi/ActionProvider/Action/Generic/Geocode.php
+msgid "Address Name"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/ContactActionUtils.php
+#: Civi/ActionProvider/Action/Generic/Geocode.php
+msgid "Street Address"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/ContactActionUtils.php
+#: Civi/ActionProvider/Action/Generic/Geocode.php
+msgid "Supplemental Address 1"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/ContactActionUtils.php
+#: Civi/ActionProvider/Action/Generic/Geocode.php
+msgid "Supplemental Address 2"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/ContactActionUtils.php
+#: Civi/ActionProvider/Action/Generic/Geocode.php
+msgid "Supplemental Address 3"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/ContactActionUtils.php
+#: Civi/ActionProvider/Action/Generic/Geocode.php
+msgid "Street Name"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/ContactActionUtils.php
+#: Civi/ActionProvider/Action/Generic/Geocode.php
+msgid "Street Number"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/ContactActionUtils.php
+#: Civi/ActionProvider/Action/Generic/Geocode.php
+msgid "Street Unit"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/ContactActionUtils.php
+#: Civi/ActionProvider/Action/Generic/Geocode.php
+msgid "Postal Code"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/ContactActionUtils.php
+#: Civi/ActionProvider/Action/Generic/Geocode.php
+msgid "City"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/ContactActionUtils.php
+#: Civi/ActionProvider/Action/Generic/Geocode.php
+msgid "State/Province"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/ContactActionUtils.php
+#: Civi/ActionProvider/Action/Generic/Geocode.php
+msgid "Country"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/ContactActionUtils.php
+msgid "Manual Geo Code"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/ContactActionUtils.php
+#: Civi/ActionProvider/Action/Generic/Geocode.php
+msgid "Latitude"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/ContactActionUtils.php
+#: Civi/ActionProvider/Action/Generic/Geocode.php
+msgid "Longitude"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/ContactActionUtils.php
+msgid "Phone: is primary"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/ContactActionUtils.php
+msgid "Phone: Location type"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/ContactActionUtils.php
+msgid "Phone: update existing"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/ContactActionUtils.php
+msgid "Phonenumber"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/ContactActionUtils.php
+msgid "Email: is primary"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/ContactActionUtils.php
+msgid "E-mail: Location type"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/ContactActionUtils.php
+msgid "E-mail: update existing"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/ContactActionUtils.php
+#: Civi/ActionProvider/Action/Contact/FindByEmailOrCreateEmailName.php
+#: Civi/ActionProvider/Action/Contact/FindContactByEmail.php
+#: Civi/ActionProvider/Action/Contact/FindIndividualByNameAndEmail.php
+#: Civi/ActionProvider/Action/Contact/FindOrCreateContactByEmail.php
+#: Civi/ActionProvider/Action/Contact/FindOrCreateContactByEmailAndName.php
+msgid "E-mail"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/ContactHasSubType.php
+#: Civi/ActionProvider/Action/Contact/CreateUpdateHousehold.php
+#: Civi/ActionProvider/Action/Contact/CreateUpdateIndividual.php
+#: Civi/ActionProvider/Action/Contact/CreateUpdateOrganization.php
+#: Civi/ActionProvider/Action/Contact/FindOrCreateOrganizationByName.php
+#: Civi/ActionProvider/Action/Contact/FindOrganizationByName.php
+#: Civi/ActionProvider/Action/Contact/RemoveContactSubType.php
+#: Civi/ActionProvider/Action/Contact/SetContactSubType.php
+#: ang/action_provider/crmApActionConfiguration.html
+#: ang/action_provider/parameterSpec.html
+msgid " - Select - "
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/ContactHasSubType.php
+#: Civi/ActionProvider/Action/Contact/CreateUpdateHousehold.php
+#: Civi/ActionProvider/Action/Contact/CreateUpdateIndividual.php
+#: Civi/ActionProvider/Action/Contact/CreateUpdateOrganization.php
+#: Civi/ActionProvider/Action/Contact/FindOrCreateOrganizationByName.php
+#: Civi/ActionProvider/Action/Contact/FindOrganizationByName.php
+#: Civi/ActionProvider/Action/Contact/RemoveContactSubType.php
+#: Civi/ActionProvider/Action/Contact/SetContactSubType.php
+msgid "Contact sub type"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/ContactHasSubType.php
+msgid "Has type"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/CreateNote.php
+#: Civi/ActionProvider/Action/Contribution/CreateContribution.php
+#: Civi/ActionProvider/Action/Contribution/CreateContributionWithParameters.php
+#: Civi/ActionProvider/Action/Contribution/UpdateContribution.php
+msgid "Note"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/CreateNote.php
+msgid "Note Date"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/CreateNote.php
+msgid "Note ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/CreateUpdateAddress.php
+#: Civi/ActionProvider/Action/Contact/GetAddressById.php
+#: Civi/ActionProvider/Action/Contact/UsePrimaryAddressOfContact.php
+#: Civi/ActionProvider/Action/Contact/UsePrimaryAddressOfRelatedContact.php
+msgid "Address ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/CreateUpdateEmailAddress.php
+msgid "Email ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/CreateUpdateHousehold.php
+#: Civi/ActionProvider/Action/Contact/CreateUpdateIndividual.php
+msgid "Leave empty to create a new Individual"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/CreateUpdateHousehold.php
+#: Civi/ActionProvider/Action/Contact/FindOrCreateContactByEmailAndName.php
+msgid "Household name"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/CreateUpdateHousehold.php
+#: Civi/ActionProvider/Action/Contact/CreateUpdateIndividual.php
+#: Civi/ActionProvider/Action/Contact/CreateUpdateOrganization.php
+#: Civi/ActionProvider/Action/Contribution/CreateContribution.php
+#: Civi/ActionProvider/Action/Contribution/CreateContributionWithParameters.php
+#: Civi/ActionProvider/Action/Contribution/UpdateContribution.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateParticipant.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateParticipantWithDynamicStatus.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateParticipantWithDynamicStatusRole.php
+#: Civi/ActionProvider/Action/Event/CreateParticipant.php
+#: Civi/ActionProvider/Action/Membership/CreateOrUpdateMembership.php
+#: Civi/ActionProvider/Action/Membership/CreateOrUpdateMembershipWithTypeParameter.php
+msgid "Source"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/CreateUpdateHousehold.php
+#: Civi/ActionProvider/Action/Contact/CreateUpdateIndividual.php
+#: Civi/ActionProvider/Action/Contact/CreateUpdateOrganization.php
+msgid "Created Date"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/CreateUpdateHousehold.php
+#: Civi/ActionProvider/Action/Contact/CreateUpdateIndividual.php
+#: Civi/ActionProvider/Action/Contact/CreateUpdateOrganization.php
+msgid "Do not mail"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/CreateUpdateHousehold.php
+#: Civi/ActionProvider/Action/Contact/CreateUpdateIndividual.php
+#: Civi/ActionProvider/Action/Contact/CreateUpdateOrganization.php
+msgid "Do not e-mail"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/CreateUpdateHousehold.php
+#: Civi/ActionProvider/Action/Contact/CreateUpdateIndividual.php
+#: Civi/ActionProvider/Action/Contact/CreateUpdateOrganization.php
+msgid "Do not Phone"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/CreateUpdateHousehold.php
+#: Civi/ActionProvider/Action/Contact/CreateUpdateIndividual.php
+#: Civi/ActionProvider/Action/Contact/CreateUpdateOrganization.php
+msgid "Do not SMS"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/CreateUpdateHousehold.php
+#: Civi/ActionProvider/Action/Contact/CreateUpdateIndividual.php
+#: Civi/ActionProvider/Action/Contact/CreateUpdateOrganization.php
+msgid "Address record ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/CreateUpdateHousehold.php
+#: Civi/ActionProvider/Action/Contact/CreateUpdateIndividual.php
+#: Civi/ActionProvider/Action/Contact/CreateUpdateOrganization.php
+msgid "Email record ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/CreateUpdateHousehold.php
+#: Civi/ActionProvider/Action/Contact/CreateUpdateIndividual.php
+#: Civi/ActionProvider/Action/Contact/CreateUpdateOrganization.php
+msgid "Phone ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/CreateUpdateIndividual.php
+msgid "Individual prefix"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/CreateUpdateIndividual.php
+#: Civi/ActionProvider/Action/Contact/FindIndividualByNameAndEmail.php
+msgid "First name"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/CreateUpdateIndividual.php
+#: Civi/ActionProvider/Action/Contact/FindIndividualByNameAndEmail.php
+msgid "Last name"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/CreateUpdateIndividual.php
+msgid "Middle name"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/CreateUpdateIndividual.php
+msgid "Nickname"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/CreateUpdateIndividual.php
+msgid "Individual suffix"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/CreateUpdateIndividual.php
+msgid "Formal Title"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/CreateUpdateIndividual.php
+msgid "Job Title"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/CreateUpdateIndividual.php
+msgid "Birth date"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/CreateUpdateIndividual.php
+msgid "Is deceased"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/CreateUpdateIndividual.php
+#: Civi/ActionProvider/Action/Contact/MarkContactAsDeceased.php
+msgid "Deceased date"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/CreateUpdateIndividual.php
+msgid "Gender"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/CreateUpdateIndividual.php
+msgid "No mass mail (opt-out)"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/CreateUpdateIndividual.php
+msgid "Preferred Language"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/CreateUpdateOrganization.php
+msgid "Leave empty to create a new Organization"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/CreateUpdateOrganization.php
+#: Civi/ActionProvider/Action/Contact/FindOrCreateContactByEmailAndName.php
+#: Civi/ActionProvider/Action/Contact/FindOrCreateOrganizationByName.php
+#: Civi/ActionProvider/Action/Contact/FindOrganizationByName.php
+msgid "Organization name"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/FindByCustomField.php
+#: Civi/ActionProvider/Action/Contact/FindByExternalId.php
+#: Civi/ActionProvider/Action/Contribution/GetContributionByCustomField.php
+#: Civi/ActionProvider/Action/Event/ParticipantFindByCustomField.php
+msgid "No parameter given"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/FindByCustomField.php
+#: Civi/ActionProvider/Action/Contact/FindByEmailOrCreateEmailName.php
+#: Civi/ActionProvider/Action/Contact/FindByExternalId.php
+#: Civi/ActionProvider/Action/Contact/FindContactByEmail.php
+#: Civi/ActionProvider/Action/Contact/FindOrCreateContactByEmail.php
+#: Civi/ActionProvider/Action/Contact/FindOrCreateContactByEmailAndName.php
+#: Civi/ActionProvider/Condition/ContactHasSubtype.php
+msgid "Contact type"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/FindByCustomField.php
+#: Civi/ActionProvider/Action/Event/ParticipantFindByCustomField.php
+msgid "Fail on not found"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/FindByEmailOrCreateEmailName.php
+#: Civi/ActionProvider/Action/Contact/FindOrCreateContactByEmailAndName.php
+msgid "First Name"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/FindByEmailOrCreateEmailName.php
+#: Civi/ActionProvider/Action/Contact/FindOrCreateContactByEmailAndName.php
+msgid "Last Name"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/FindByExternalId.php
+msgid "External ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/FindContactByEmail.php
+msgid "Returns the first found contact with an e-mail address"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/FindIndividualByNameAndEmail.php
+msgid "Exact Match"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/FindIndividualByNameAndEmail.php
+msgid ""
+"This action looks up a contact by its name and e-mail address. If exact "
+"match is set it looks up a contact when an exact match is found."
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/GetAddress.php
+#: Civi/ActionProvider/Action/Contact/GetContactIdFromMasterAddress.php
+#: Civi/ActionProvider/Action/Contact/GetEmailAddress.php
+#: Civi/ActionProvider/Action/Contact/UsePrimaryAddressOfContact.php
+#: Civi/ActionProvider/Action/Contact/UsePrimaryAddressOfRelatedContact.php
+#: Civi/ActionProvider/Action/Phone/CreateUpdatePhone.php
+#: Civi/ActionProvider/Action/Phone/GetPhone.php
+msgid "Location type"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/GetCountryId.php
+msgid "Use Country ISO Code"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/GetCountryId.php
+#: Civi/ActionProvider/Action/Contact/GetStateProvinceId.php
+msgid "State/Province name"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/GetCountryId.php
+#: Civi/ActionProvider/Action/Contact/GetStateProvinceId.php
+msgid "Country ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/GetCurrentUserContactID.php
+msgid "Fallback Contact"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/GetStateProvinceId.php
+msgid "Use abbreviation"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/GetStateProvinceId.php
+msgid "State/Province ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/SaveMaxContactId.php
+msgid "Max Contact ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/SetCommunicationStyle.php
+msgid "Communication Style"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/SetCommunicationStyle.php
+msgid ""
+"Set the communication style either with a parameter or with the "
+"configuration"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/SetEmployer.php
+msgid "Employer Contact ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/SetPreferredCommunicationMethod.php
+msgid "add"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/SetPreferredCommunicationMethod.php
+msgid "set"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/SetPreferredCommunicationMethod.php
+msgid "unset"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/SetPreferredCommunicationMethod.php
+msgid "Option"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/SetPreferredCommunicationMethod.php
+msgid "Mode"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/UsePrimaryAddressOfContact.php
+#: Civi/ActionProvider/Action/Contact/UsePrimaryAddressOfRelatedContact.php
+msgid "Update existing"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/UsePrimaryAddressOfContact.php
+msgid "Address: Automatically create relationships"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/UsePrimaryAddressOfContact.php
+msgid ""
+"CiviCRM can create relationships automatically when you create an shared "
+"address. Such as household member, employer of etc."
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/UsePrimaryAddressOfContact.php
+msgid "Master Contact ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/UsePrimaryAddressOfContact.php
+msgid ""
+"This is the contact from which the primary address is going to be used."
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contact/UsePrimaryAddressOfRelatedContact.php
+#: Civi/ActionProvider/Action/Relationship/CreateRelationship.php
+#: Civi/ActionProvider/Action/Relationship/CreateRelationshipWithTypeParameter.php
+#: Civi/ActionProvider/Action/Relationship/EndRelationship.php
+#: Civi/ActionProvider/Action/Relationship/GetRelationship.php
+#: Civi/ActionProvider/Action/Relationship/GetRelationshipByContactId.php
+#: Civi/ActionProvider/Action/Relationship/UpdateRelationshipById.php
+#: Civi/ActionProvider/Action/Relationship/ValidateChecksum.php
+msgid "Relationship type"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/Actions.php
+msgid "Contribution: Get data"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/Actions.php
+msgid "Contribution: Get data by custom field"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/Actions.php
+msgid "Contribution: Create"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/Actions.php
+msgid "Contribution: Create (with parameters)"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/Actions.php
+msgid "Contribution: Create recurring contribution"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/Actions.php
+msgid "Contribution: repeat recurring contribution"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/Actions.php
+msgid "Contribution: Update"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/Actions.php
+msgid "Contribution: Create Line Item"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/Actions.php
+msgid "Contribution: Link to membership"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/Actions.php
+msgid "Contribution: Link to participant"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/Actions.php
+msgid "Contribution: Create soft contribution"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/Actions.php
+msgid "Contribution: Move contribution to another contact"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/ContributionRecurRepeatTransaction.php
+msgid "Send e-mail receipt"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/ContributionRecurRepeatTransaction.php
+#: Civi/ActionProvider/Action/Contribution/CreateContribution.php
+#: Civi/ActionProvider/Action/Contribution/CreateContributionRecur.php
+#: Civi/ActionProvider/Action/Contribution/CreateContributionWithParameters.php
+#: Civi/ActionProvider/Action/Contribution/UpdateContribution.php
+msgid "Contribution Recur ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/ContributionRecurRepeatTransaction.php
+msgid "Original Contribution ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/CreateContribution.php
+#: Civi/ActionProvider/Action/Contribution/CreateContributionRecur.php
+#: Civi/ActionProvider/Action/Contribution/CreateContributionWithParameters.php
+#: Civi/ActionProvider/Action/Contribution/UpdateContribution.php
+msgid "Financial Type"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/CreateContribution.php
+#: Civi/ActionProvider/Action/Contribution/CreateContributionWithParameters.php
+#: Civi/ActionProvider/Action/Contribution/UpdateContribution.php
+msgid "Payment instrument"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/CreateContribution.php
+#: Civi/ActionProvider/Action/Contribution/CreateContributionWithParameters.php
+#: Civi/ActionProvider/Action/Contribution/UpdateContribution.php
+msgid "Status of contribution"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/CreateContribution.php
+#: Civi/ActionProvider/Action/Contribution/CreateContributionWithParameters.php
+msgid "Skip Line Item"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/CreateContribution.php
+#: Civi/ActionProvider/Action/Contribution/CreateContributionRecur.php
+#: Civi/ActionProvider/Action/Contribution/CreateContributionWithParameters.php
+#: Civi/ActionProvider/Action/Contribution/UpdateContribution.php
+msgid "Amount"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/CreateContribution.php
+#: Civi/ActionProvider/Action/Contribution/CreateContributionWithParameters.php
+msgid "Fee Amount"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/CreateContribution.php
+#: Civi/ActionProvider/Action/Contribution/CreateContributionWithParameters.php
+msgid "Net Amount"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/CreateContribution.php
+#: Civi/ActionProvider/Action/Contribution/CreateContributionWithParameters.php
+msgid "Non-Deductible Amount"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/CreateContribution.php
+msgid "Receive Date"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/CreateContribution.php
+#: Civi/ActionProvider/Action/Contribution/CreateContributionWithParameters.php
+msgid "Receipt Date"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/CreateContribution.php
+#: Civi/ActionProvider/Action/Contribution/CreateContributionWithParameters.php
+msgid "Thank-you Date"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/CreateContribution.php
+#: Civi/ActionProvider/Action/Contribution/CreateContributionRecur.php
+#: Civi/ActionProvider/Action/Contribution/CreateContributionWithParameters.php
+#: Civi/ActionProvider/Action/Contribution/UpdateContribution.php
+msgid "Currency"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/CreateContribution.php
+#: Civi/ActionProvider/Action/Contribution/CreateContributionWithParameters.php
+#: Civi/ActionProvider/Action/Contribution/UpdateContribution.php
+msgid "Transaction ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/CreateContribution.php
+#: Civi/ActionProvider/Action/Contribution/CreateContributionWithParameters.php
+msgid "Check Number"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/CreateContributionRecur.php
+msgid "Payment Processor"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/CreateContributionRecur.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateParticipant.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateParticipantWithDynamicStatus.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateParticipantWithDynamicStatusRole.php
+#: Civi/ActionProvider/Action/Event/CreateParticipant.php
+#: Civi/ActionProvider/Action/Event/UpdateParticipantStatus.php
+#: Civi/ActionProvider/Action/Event/UpdateParticipantStatusWithDynamicStatus.php
+#: Civi/ActionProvider/Action/Membership/OverrideStatus.php
+msgid "Status"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/CreateContributionRecur.php
+#: Civi/ActionProvider/Action/Event/CreateRecurringEvent.php
+#: Civi/ActionProvider/Action/Event/GetRecurringEvent.php
+msgid "Frequency Interval"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/CreateContributionRecur.php
+#: Civi/ActionProvider/Action/Event/CreateRecurringEvent.php
+#: Civi/ActionProvider/Action/Event/GetRecurringEvent.php
+msgid "Frequency Unit"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/CreateContributionWithParameters.php
+#: Civi/ActionProvider/Action/Contribution/UpdateContribution.php
+msgid "Receive date"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/CreateLineItem.php
+msgid "Line Item ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/CreateLineItem.php
+msgid "None"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/CreateLineItem.php
+msgid "Membership"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/CreateLineItem.php
+msgid "Event Registration"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/CreateLineItem.php
+msgid "Default Quantity"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/CreateLineItem.php
+msgid "Default Label"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/CreateLineItem.php
+msgid "Contribution Amount"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/CreateLineItem.php
+msgid "Linked Object"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/CreateLineItem.php
+msgid "Linked Entity ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/CreateLineItem.php
+#: Civi/ActionProvider/Action/Generic/ResolveOptionValues.php
+msgid "Label"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/CreateLineItem.php
+msgid "Quantity"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/CreateLineItem.php
+msgid "Unit Price"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/CreateSoftContribution.php
+msgid "Soft credit type"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/LinkContributionToMembership.php
+msgid "Set membership to pending"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/LinkContributionToMembership.php
+#: Civi/ActionProvider/Action/Membership/CreateOrUpdateMembership.php
+#: Civi/ActionProvider/Action/Membership/CreateOrUpdateMembershipWithTypeParameter.php
+#: Civi/ActionProvider/Action/Membership/GetMembershipById.php
+#: Civi/ActionProvider/Action/Membership/OverrideStatus.php
+#: Civi/ActionProvider/Action/Membership/UpdateMembership.php
+msgid "Membership ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/LinkContributionToParticipant.php
+msgid "Add Line Item"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/MoveContribution.php
+msgid "Old Contact ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/MoveContribution.php
+msgid "New Contact ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Contribution/UpdateContribution.php
+msgid "Receipt date"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/Actions.php
+msgid "Participant: Update status"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/Actions.php
+msgid "Participant: Update status given by a parameter"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/Actions.php
+msgid "Participant: Register contact for an event"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/Actions.php
+msgid "Participant: Create/Update event registration"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/Actions.php
+msgid ""
+"Participant: Create/Update event registration (with status as parameter)"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/Actions.php
+msgid ""
+"Participant: Create/Update event registration (with status and role as "
+"parameter)"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/Actions.php
+msgid "Event: Create or update"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/Actions.php
+msgid "Event: Repeat"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/Actions.php
+msgid "Event: Create new event from a template"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/Actions.php
+msgid "Event: Get repetition"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/Actions.php
+msgid "Event: Get by ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/Actions.php
+msgid "Event: Upload file to a custom field for an event"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/Actions.php
+msgid "Event: Delete"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/Actions.php
+msgid "Participant: Get by contact ID and event ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/Actions.php
+msgid "Participant: Get by ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/Actions.php
+msgid "Participant: Get by Custom Field"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/Actions.php
+msgid "Participant: Update by ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/Actions.php
+msgid "Participant: Delete"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/Actions.php
+msgid "Participant: Send Registration Confirmation"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/Actions.php
+msgid "Participant: Send e-mail to participants"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/Actions.php
+msgid "Event: Update is public and is active state"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateEventFromTemplate.php
+msgid "Event Template"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateEventFromTemplate.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateEvent.php
+msgid "Add address"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateEventFromTemplate.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateEvent.php
+msgid "Event Type"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateEventFromTemplate.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateEvent.php
+msgid "Summary"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateEventFromTemplate.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateEvent.php
+#: Civi/ActionProvider/Action/Event/UpdateEventStatus.php
+msgid "Is active"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateEventFromTemplate.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateEvent.php
+#: Civi/ActionProvider/Action/Event/UpdateEventStatus.php
+msgid "Is public"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateEventFromTemplate.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateEvent.php
+msgid "Max. Participants"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateEventFromTemplate.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateEvent.php
+msgid "Text when event is full"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateEventFromTemplate.php
+msgid "Event Organiser"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateEventFromTemplate.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateEvent.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateParticipant.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateParticipantWithDynamicStatus.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateParticipantWithDynamicStatusRole.php
+#: Civi/ActionProvider/Action/Event/CreateParticipant.php
+#: Civi/ActionProvider/Action/Event/CreateRecurringEvent.php
+#: Civi/ActionProvider/Action/Event/DeleteEvent.php
+#: Civi/ActionProvider/Action/Event/DeleteParticipant.php
+#: Civi/ActionProvider/Action/Event/GetEvent.php
+#: Civi/ActionProvider/Action/Event/GetParticipant.php
+#: Civi/ActionProvider/Action/Event/GetRecurringEvent.php
+#: Civi/ActionProvider/Action/Event/ParticipantFindByCustomField.php
+#: Civi/ActionProvider/Action/Event/UpdateEventStatus.php
+#: Civi/ActionProvider/Action/Event/UpdateParticipantStatus.php
+#: Civi/ActionProvider/Action/Event/UpdateParticipantStatusWithDynamicStatus.php
+#: Civi/ActionProvider/Action/Event/UploadCustomFileField.php
+msgid "Event ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateEventFromTemplate.php
+msgid "Could not create event from template."
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateEvent.php
+msgid "Waitlist Text"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateEvent.php
+msgid "Could not update or create an event."
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateParticipant.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateParticipantWithDynamicStatus.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateParticipantWithDynamicStatusRole.php
+msgid "Update existing event registration"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateParticipant.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateParticipantWithDynamicStatus.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateParticipantWithDynamicStatusRole.php
+#: Civi/ActionProvider/Action/Event/CreateParticipant.php
+#: Civi/ActionProvider/Action/Event/UpdateParticipantById.php
+msgid "Participant record ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateParticipant.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateParticipantWithDynamicStatus.php
+#: Civi/ActionProvider/Action/Event/CreateOrUpdateParticipantWithDynamicStatusRole.php
+#: Civi/ActionProvider/Action/Event/CreateParticipant.php
+msgid "Could not update or create a participant record"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateParticipant.php
+msgid "Create participant when already registered"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateRecurringEvent.php
+#: Civi/ActionProvider/Action/Event/GetRecurringEvent.php
+msgid "Sunday"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateRecurringEvent.php
+#: Civi/ActionProvider/Action/Event/GetRecurringEvent.php
+msgid "Monday"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateRecurringEvent.php
+#: Civi/ActionProvider/Action/Event/GetRecurringEvent.php
+msgid "Tuesday"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateRecurringEvent.php
+#: Civi/ActionProvider/Action/Event/GetRecurringEvent.php
+msgid "Wednesday"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateRecurringEvent.php
+#: Civi/ActionProvider/Action/Event/GetRecurringEvent.php
+msgid "Thursday"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateRecurringEvent.php
+#: Civi/ActionProvider/Action/Event/GetRecurringEvent.php
+msgid "Friday"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateRecurringEvent.php
+#: Civi/ActionProvider/Action/Event/GetRecurringEvent.php
+msgid "Saturday"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateRecurringEvent.php
+#: Civi/ActionProvider/Action/Event/GetRecurringEvent.php
+msgid "First"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateRecurringEvent.php
+#: Civi/ActionProvider/Action/Event/GetRecurringEvent.php
+msgid "Second"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateRecurringEvent.php
+#: Civi/ActionProvider/Action/Event/GetRecurringEvent.php
+msgid "Third"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateRecurringEvent.php
+#: Civi/ActionProvider/Action/Event/GetRecurringEvent.php
+msgid "Fourth"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateRecurringEvent.php
+#: Civi/ActionProvider/Action/Event/GetRecurringEvent.php
+msgid "Last"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateRecurringEvent.php
+#: Civi/ActionProvider/Action/Event/GetRecurringEvent.php
+msgid "Start from (default to start of event)"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateRecurringEvent.php
+#: Civi/ActionProvider/Action/Event/GetRecurringEvent.php
+msgid "Ends after"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateRecurringEvent.php
+#: Civi/ActionProvider/Action/Event/GetRecurringEvent.php
+msgid "End on"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateRecurringEvent.php
+#: Civi/ActionProvider/Action/Event/GetRecurringEvent.php
+msgid "Repeats On (day of weeks)"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateRecurringEvent.php
+#: Civi/ActionProvider/Action/Event/GetRecurringEvent.php
+msgid "Limit to day of the month"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateRecurringEvent.php
+#: Civi/ActionProvider/Action/Event/GetRecurringEvent.php
+msgid "Limit to day of week"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/CreateRecurringEvent.php
+#: Civi/ActionProvider/Action/Event/GetRecurringEvent.php
+msgid "Limit to week number in month"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/DeleteParticipant.php
+msgid "Could not delete participant"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/GetRecurringEvent.php
+msgid "Day of the month"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/GetRecurringEvent.php
+msgid "Day of the week"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/GetRecurringEvent.php
+msgid "After"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/GetRecurringEvent.php
+msgid "On"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/GetRecurringEvent.php
+msgid "Repeats by"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/GetRecurringEvent.php
+msgid "Ends"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/SendEmailToParticipants.php
+msgid "Event"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/SendEmailToParticipants.php
+msgid "Sender contact ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/SendEmailToParticipants.php
+msgid "subject"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/SendEmailToParticipants.php
+msgid "With participant status"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/SendParticipantRegistrationMail.php
+msgid "From Name"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/SendParticipantRegistrationMail.php
+msgid "From Email"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/SendParticipantRegistrationMail.php
+msgid "Profile"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/UpdateEventStatus.php
+msgid "Updates the Active and Public state of an event."
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/UpdateEventStatus.php
+msgid "Could not update event status."
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/UpdateParticipantById.php
+msgid "Could not update the participant record"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/UpdateParticipantStatus.php
+#: Civi/ActionProvider/Action/Event/UpdateParticipantStatusWithDynamicStatus.php
+msgid "Old status ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/UpdateParticipantStatus.php
+#: Civi/ActionProvider/Action/Event/UpdateParticipantStatusWithDynamicStatus.php
+msgid "New status ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/UpdateParticipantStatus.php
+#: Civi/ActionProvider/Action/Event/UpdateParticipantStatusWithDynamicStatus.php
+msgid "Could not find a participant record"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Event/UpdateParticipantStatus.php
+#: Civi/ActionProvider/Action/Event/UpdateParticipantStatusWithDynamicStatus.php
+msgid "Could not update participant status"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/Actions.php
+msgid "Other: Show option value(s) as their Label(s)"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/Actions.php
+msgid "Other: Resolve/map input to option values"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/Actions.php
+msgid "Other: Set Value"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/Actions.php
+msgid "Other: Replace text"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/Actions.php
+msgid "Other: Modify Value with Regular Expression"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/Actions.php
+msgid "Other: Map Value"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/Actions.php
+msgid "Other: Set Value from parameter"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/Actions.php
+msgid "Other: Calculate value (binary arithmetic operation)"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/Actions.php
+msgid "Other: Format Value"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/Actions.php
+msgid "Other: Set date value"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/Actions.php
+msgid "Other: Modify date value"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/Actions.php
+msgid "Other: Explode List"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/Actions.php
+msgid "Other: Implode List"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/Actions.php
+msgid "Other: Concat (merge) a date and a time field to one field"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/Actions.php
+msgid "Other: Link to download file"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/Actions.php
+msgid "Other: Reuse existing file"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/Actions.php
+msgid "Other: Replace tokens in HTML"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/Actions.php
+msgid "Other: Replace entity tokens in HTML"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/Actions.php
+msgid "Other: Retrieve Geocoding (Latitude, Longitude)"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/CalculateValue.php
+#: Civi/ActionProvider/Condition/ContactHasTag.php
+msgid "Operator"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/CalculateValue.php
+msgid "First operand"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/CalculateValue.php
+msgid "Second operand"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/ConcatDateTimeValue.php
+msgid ""
+"This action is useful when you have separate fields for date and time and your next action needs one field. \n"
+"    For example to create an event you need one field for start date and time. This action provides this"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/ConcatDateTimeValue.php
+msgid "Date field"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/ConcatDateTimeValue.php
+msgid "Time field"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/ConcatDateTimeValue.php
+#: Civi/ActionProvider/Action/Generic/ModifyDateValue.php
+#: Civi/ActionProvider/Action/Generic/SetDateValue.php
+msgid "Date"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/DownloadFileLink.php
+msgid "URL"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/DownloadFileLink.php
+msgid "Link"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/ExplodeList.php
+#: Civi/ActionProvider/Action/Generic/ImplodeList.php
+msgid "Separator"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/FormatValue.php
+msgid "Format (sprintf)"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/FormatValue.php
+msgid "Input Value 1"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/FormatValue.php
+msgid "Input Value 2"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/FormatValue.php
+msgid "Input Value 3"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/FormatValue.php
+msgid "Input Value 4"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/FormatValue.php
+msgid "Input Value 5"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/MapValue.php
+msgid "Data Mapping (JSON)"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/MapValue.php
+msgid "If not Mapped"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/MapValue.php
+msgid "leave as is"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/MapValue.php
+msgid "empty"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/MapValue.php
+#: Civi/ActionProvider/Action/Generic/RegexReplaceValue.php
+msgid "Input Value"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/ModifyDateValue.php
+msgid "Format"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/ModifyDateValue.php
+msgid "Date interval"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/ModifyDateValue.php
+#: Civi/ActionProvider/Action/Generic/SetDateValue.php
+msgid "Include time"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/ModifyDateValue.php
+#: Civi/ActionProvider/Action/Generic/SetDateValue.php
+#: Civi/ActionProvider/Parameter/Specification.php
+#: Civi/ActionProvider/Utils/Tokens.php
+msgid "No"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/ModifyDateValue.php
+#: Civi/ActionProvider/Action/Generic/SetDateValue.php
+#: Civi/ActionProvider/Parameter/Specification.php
+#: Civi/ActionProvider/Utils/Tokens.php
+msgid "Yes"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/OptionValueToLabel.php
+#: Civi/ActionProvider/Action/Generic/ResolveOptionValues.php
+msgid "Option Group"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/RegexReplaceValue.php
+msgid "Find (regular expression with delimiters and modifiers)"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/RegexReplaceValue.php
+msgid "Replace (string with group references, e.g. $1)"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/RegexReplaceValue.php
+msgid "Replace Count"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/RegexReplaceValue.php
+msgid "all"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/ReplaceEntityTokensInHTML.php
+#: Civi/ActionProvider/Action/Generic/ReplaceTokensInHTML.php
+msgid "HTML Text"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/ReplaceEntityTokensInHTML.php
+#: Civi/ActionProvider/Action/Generic/ReplaceTokensInHTML.php
+msgid "Either enter the text above or select an parameter below."
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/ReplaceEntityTokensInHTML.php
+#: Civi/ActionProvider/Action/Generic/ReplaceTokensInHTML.php
+msgid ""
+"Either select a parameter with the HTML text or enther the HTML text above."
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/ReplaceEntityTokensInHTML.php
+msgid "Entity"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/ResolveOptionValues.php
+msgid "Best match"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/ResolveOptionValues.php
+msgid "Exact, discard others"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/ResolveOptionValues.php
+msgid "%1% match, discard others"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/ResolveOptionValues.php
+msgid "Multi-Value/List"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/ResolveOptionValues.php
+msgid "Match On"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/ResolveOptionValues.php
+msgid "Match Type"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/ResolveOptionValues.php
+msgid "Trim Characters"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/ResolveOptionValues.php
+msgid "Input Value(s)"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/ResolveOptionValues.php
+msgid "Output Value(s)"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/ReuploadFile.php
+msgid ""
+"This action makes it possible to copy an existing file and reuse it for "
+"something else."
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/StringReplaceWithParameter.php
+msgid "Search"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Generic/StringReplaceWithParameter.php
+msgid "Replacement"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Group/Actions.php
+msgid "Contact: Add to Group"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Group/Actions.php
+msgid "Contact: Add to Group (with group ID as parameter)"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Group/Actions.php
+msgid "Contact: Add multiple to Group (with group ID as parameter)"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Group/Actions.php
+msgid "Contact: Remove from  group (with group ID as parameter)"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Group/Actions.php
+msgid "Contact: Remove from  group"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Group/Actions.php
+msgid "Contact: Subscribe/Unsubscribe to groups."
+msgstr ""
+
+#: Civi/ActionProvider/Action/Group/Actions.php
+msgid "Contact: Get list of subscribed groups."
+msgstr ""
+
+#: Civi/ActionProvider/Action/Group/Actions.php
+msgid "Group: Create or update"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Group/Actions.php
+msgid "Group: Get by ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Group/Actions.php
+msgid "Group: Delete"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Group/AddMultipleToGroupParameter.php
+#: Civi/ActionProvider/Action/Group/AddToGroupParameter.php
+#: Civi/ActionProvider/Action/Group/Create.php
+#: Civi/ActionProvider/Action/Group/DeleteGroup.php
+#: Civi/ActionProvider/Action/Group/GetGroup.php
+#: Civi/ActionProvider/Action/Group/RemoveFromGroupParameter.php
+#: Civi/ActionProvider/Action/SMS/SMSSend.php
+msgid "Group ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Group/AddToGroup.php
+#: Civi/ActionProvider/Action/Group/RemoveFromGroup.php
+msgid "Or group name"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Group/Create.php
+msgid "Check title for existence"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Group/Create.php
+msgid "Check whether the group already exists based on the title"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Group/Create.php
+msgid "Group type"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Group/Create.php
+msgid "Visibility"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Group/Create.php
+msgid "Group is hidden"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Group/Create.php
+msgid "Group Title"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Group/Create.php
+msgid "Group record ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Group/GetGroupSubscriptions.php
+#: Civi/ActionProvider/Action/Group/UpdateGroupSubscriptions.php
+msgid "Subscribe/Unsubscribe from group"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Group/GetGroupSubscriptions.php
+#: Civi/ActionProvider/Action/Group/UpdateGroupSubscriptions.php
+msgid "Group IDs"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Group/GetGroupSubscriptions.php
+msgid ""
+"This action will return a list of the groups to which a user is subscribed. "
+"You have to specify which groups you want to check."
+msgstr ""
+
+#: Civi/ActionProvider/Action/Group/UpdateGroupSubscriptions.php
+msgid ""
+"This action will subscribe/unsubscribe a contact from a certain set of "
+"groups. The parameter Group IDs is a list of which a contact needs to be "
+"subscribed to, the groups missing from the list are the groups from which "
+"the contact will be unsubscribed."
+msgstr ""
+
+#: Civi/ActionProvider/Action/MailingEvent/Actions.php
+msgid "Mailing Event: Subscribe to mailing list"
+msgstr ""
+
+#: Civi/ActionProvider/Action/MailingEvent/Actions.php
+msgid "Mailing Event: Unsubscribe from mailing list"
+msgstr ""
+
+#: Civi/ActionProvider/Action/MailingEvent/Actions.php
+msgid "Mailing Event: Confirm mailing list subscription"
+msgstr ""
+
+#: Civi/ActionProvider/Action/MailingEvent/MailingEventConfirm.php
+msgid "Confirm mailing list subscription"
+msgstr ""
+
+#: Civi/ActionProvider/Action/MailingEvent/MailingEventConfirm.php
+msgid "Subscribe Event ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/MailingEvent/MailingEventConfirm.php
+#: Civi/ActionProvider/Action/MailingEvent/MailingEventUnsubscribe.php
+msgid "Hash"
+msgstr ""
+
+#: Civi/ActionProvider/Action/MailingEvent/MailingEventSubscribe.php
+msgid "Subscribe to mailing list"
+msgstr ""
+
+#: Civi/ActionProvider/Action/MailingEvent/MailingEventSubscribe.php
+msgid "Subscribe e-mail"
+msgstr ""
+
+#: Civi/ActionProvider/Action/MailingEvent/MailingEventSubscribe.php
+msgid "Subscribe to group"
+msgstr ""
+
+#: Civi/ActionProvider/Action/MailingEvent/MailingEventSubscribe.php
+msgid "Subscription ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/MailingEvent/MailingEventUnsubscribe.php
+msgid "Is opt out"
+msgstr ""
+
+#: Civi/ActionProvider/Action/MailingEvent/MailingEventUnsubscribe.php
+msgid "Job Id"
+msgstr ""
+
+#: Civi/ActionProvider/Action/MailingEvent/MailingEventUnsubscribe.php
+msgid "Event Queue ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Membership/Actions.php
+msgid "Membership: Create or update"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Membership/Actions.php
+msgid "Membership: Create or update (with type as parameter)"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Membership/Actions.php
+msgid "Membership: Update"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Membership/Actions.php
+msgid "Membership: Override Status"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Membership/Actions.php
+msgid "Membership: Get by ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Membership/Actions.php
+msgid "Membership: Get type"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Membership/Actions.php
+msgid "Membership: Get status"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Membership/Actions.php
+msgid "Membership: Get type by organization"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Membership/CreateOrUpdateMembership.php
+#: Civi/ActionProvider/Action/Membership/CreateOrUpdateMembershipWithTypeParameter.php
+#: Civi/ActionProvider/Action/Membership/GetMembershipType.php
+msgid "Membership Type"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Membership/CreateOrUpdateMembership.php
+#: Civi/ActionProvider/Action/Membership/CreateOrUpdateMembershipWithTypeParameter.php
+#: Civi/ActionProvider/Action/Membership/UpdateMembership.php
+msgid "Join date"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Membership/CreateOrUpdateMembership.php
+#: Civi/ActionProvider/Action/Membership/CreateOrUpdateMembershipWithTypeParameter.php
+#: Civi/ActionProvider/Action/Membership/UpdateMembership.php
+msgid "Could not update or create an membership."
+msgstr ""
+
+#: Civi/ActionProvider/Action/Membership/GetMembershipStatus.php
+msgid "Membership Status"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Membership/GetMembershipTypeByOrganization.php
+msgid "Membership Organization Contact ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Membership/OverrideStatus.php
+msgid "Status Override End Date"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Phone/CreateUpdatePhone.php
+#: Civi/ActionProvider/Action/Phone/GetPhone.php
+msgid "Phone Type"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Phone/CreateUpdatePhone.php
+#: Civi/ActionProvider/Action/Phone/GetPhone.php
+msgid "Phone"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Relationship/Actions.php
+msgid "Relationship: Get type ID by name"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Relationship/Actions.php
+msgid "Relationship: Get by contact A and B"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Relationship/Actions.php
+msgid "Relationship: Get by Contact ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Relationship/Actions.php
+msgid "Relationship: Create"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Relationship/Actions.php
+msgid "Relationship: Create or update"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Relationship/Actions.php
+msgid "Relationship: Update by ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Relationship/Actions.php
+msgid "Relationship: Create (with relationship type parameter)"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Relationship/Actions.php
+msgid "Relationship: End"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Relationship/Actions.php
+msgid "Relationship: Validate checksums"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Relationship/CreateOrUpdateRelationship.php
+msgid "Update inactive relationships"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Relationship/CreateRelationship.php
+msgid "Set start date to today?"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Relationship/CreateRelationship.php
+#: Civi/ActionProvider/Action/Relationship/CreateRelationshipWithTypeParameter.php
+#: Civi/ActionProvider/Action/Relationship/EndRelationship.php
+#: Civi/ActionProvider/Action/Relationship/GetRelationship.php
+#: Civi/ActionProvider/Action/Relationship/UpdateRelationshipById.php
+#: Civi/ActionProvider/Action/Relationship/ValidateChecksum.php
+msgid "Contact ID A"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Relationship/CreateRelationship.php
+#: Civi/ActionProvider/Action/Relationship/CreateRelationshipWithTypeParameter.php
+#: Civi/ActionProvider/Action/Relationship/EndRelationship.php
+#: Civi/ActionProvider/Action/Relationship/GetRelationship.php
+#: Civi/ActionProvider/Action/Relationship/UpdateRelationshipById.php
+#: Civi/ActionProvider/Action/Relationship/ValidateChecksum.php
+msgid "Contact ID B"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Relationship/CreateRelationship.php
+#: Civi/ActionProvider/Action/Relationship/CreateRelationshipWithTypeParameter.php
+msgid "Relationship record ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Relationship/CreateRelationshipWithTypeParameter.php
+msgid "Set start date?"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Relationship/EndRelationship.php
+msgid "Set end date?"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Relationship/GetRelationship.php
+#: Civi/ActionProvider/Action/Relationship/GetRelationshipByContactId.php
+msgid "Also return inactive relationships"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Relationship/GetRelationshipByContactId.php
+msgid "Contact is"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Relationship/GetRelationshipByContactId.php
+msgid "Contact A"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Relationship/GetRelationshipByContactId.php
+msgid "Contact B"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Relationship/GetRelationshipTypeIdByName.php
+msgid "Relationship name"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Relationship/GetRelationshipTypeIdByName.php
+msgid "Relationship Type ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Relationship/UpdateRelationshipById.php
+msgid "Relationship ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Relationship/ValidateChecksum.php
+msgid "Checksum Contact A"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Relationship/ValidateChecksum.php
+msgid "ContactID A"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Relationship/ValidateChecksum.php
+msgid "Checksum Contact B"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Relationship/ValidateChecksum.php
+msgid "ContactID B"
+msgstr ""
+
+#: Civi/ActionProvider/Action/SMS/Actions.php
+msgid "SMS: Create and send mass sms"
+msgstr ""
+
+#: Civi/ActionProvider/Action/SMS/SMSSend.php
+msgid "Message Subject"
+msgstr ""
+
+#: Civi/ActionProvider/Action/SMS/SMSSend.php
+msgid "Message Text"
+msgstr ""
+
+#: Civi/ActionProvider/Action/SMS/SMSSend.php
+msgid "SMS Provider ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/SMS/SMSSend.php
+msgid "User Creator ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/SMS/SMSSend.php
+msgid "Bulk SMSMail record ID"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Tag/Actions.php
+msgid "Contact: Add tag by tag name"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Tag/Actions.php
+msgid "Contact: Add tag(s)"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Tag/Actions.php
+msgid "Contact: Sync tag(s)"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Tag/AddTagToContact.php
+msgid "Tag"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Tag/AddTagsToContact.php
+#: Civi/ActionProvider/Action/Tag/SyncTagsToContact.php
+#: Civi/ActionProvider/Condition/ContactHasTag.php
+msgid "Tags"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Tag/AddTagsToContact.php
+msgid "Set either the tags at the configuration or at the parameter section."
+msgstr ""
+
+#: Civi/ActionProvider/Action/Tag/SyncTagsToContact.php
+msgid ""
+"With this action you can synchronize a set of contacts with the selected "
+"tags. For example: the configuration of tag ids is set to Tag 1, Tag 2 and "
+"Tag 3. The incoming parameter tags has Tag 2 and Tag 3. The Contact has Tag "
+"1 and Tag 2. This action results in removing Tag 1 from the contact and "
+"adding Tag 3 to the contact."
+msgstr ""
+
+#: Civi/ActionProvider/Action/Website/CreateUpdateWebsite.php
+#: Civi/ActionProvider/Action/Website/GetWebsite.php
+msgid "Website Type"
+msgstr ""
+
+#: Civi/ActionProvider/Action/Website/CreateUpdateWebsite.php
+#: Civi/ActionProvider/Action/Website/GetWebsite.php
+msgid "Url"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/ArrayParameterContains.php
+#: Civi/ActionProvider/Condition/CheckParameters.php
+#: Civi/ActionProvider/Condition/CompareParameterRegex.php
+#: Civi/ActionProvider/Condition/CompareParameterValue.php
+#: Civi/ActionProvider/Condition/ParameterHasValue.php
+#: Civi/ActionProvider/Condition/ParameterIsEmpty.php
+#: Civi/ActionProvider/Condition/ParameterIsNotEmpty.php
+#: Civi/ActionProvider/Condition/ParametersAreEqual.php
+msgid "Parameter"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/ArrayParameterContains.php
+msgid "Array parameter contains"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/CheckParameters.php
+msgid "Condition"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/CheckParameters.php
+msgid "All are not empty"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/CheckParameters.php
+msgid "One of is not empty"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/CheckParameters.php
+msgid "All are empty"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/CheckParameters.php
+msgid "Mix of empty/not empty"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/CheckParameters.php
+msgid "Mix of empty/some not empty"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/CheckParameters.php
+msgid ""
+"When you use <em>All are not empty</em>, <em>One of is not empty</em>, or "
+"<em>All are not empty</em> the use Parameters 1. <br />If you use <em>Mix of"
+" empty/not empty</em> the use Parameters 1 for the Is not empty values and "
+"Parameters 2 for the is empty values"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/CheckParameters.php
+#: Civi/ActionProvider/Condition/ParametersAreEqual.php
+msgid "Parameters (1)"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/CheckParameters.php
+#: Civi/ActionProvider/Condition/ParametersAreEqual.php
+msgid "Parameters (2)"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/CheckParameters.php
+msgid "Parameters are (not) empty"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/CompareParameterRegex.php
+msgid "Regular Expression"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/CompareParameterRegex.php
+msgid "Invert Regex Matching Result"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/CompareParameterRegex.php
+msgid "Compare Parameter with an regular Expression"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/CompareParameterRegex.php
+msgid "no"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/CompareParameterRegex.php
+msgid "yes"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/CompareParameterValue.php
+msgid "Comparison"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/CompareParameterValue.php
+msgid "Greater than"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/CompareParameterValue.php
+msgid "Greater than or equal to"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/CompareParameterValue.php
+msgid "Lesser than or equal to"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/CompareParameterValue.php
+msgid "Lesser than"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/CompareParameterValue.php
+msgid "Equal to"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/CompareParameterValue.php
+msgid "Not Equal to"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/CompareParameterValue.php
+msgid "Compare parameter value"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/ContactHasSubtype.php
+msgid "Contact has (sub)type"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/ContactHasTag.php
+msgid "Has one of the selected tags"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/ContactHasTag.php
+msgid "Has all of the selected tags"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/ContactHasTag.php
+msgid "Does not have any of the selected tags"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/ContactHasTag.php
+msgid "Contact has tag"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/ParameterHasValue.php
+msgid "Parameter has value"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/ParameterIsEmpty.php
+msgid "Parameter is empty"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/ParameterIsNotEmpty.php
+msgid "Parameter is not empty"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/ParametersAreEqual.php
+msgid "Parameters are equal"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/ParametersDontMatch.php
+#: Civi/ActionProvider/Condition/ParametersMatch.php
+msgid "Parameter 1"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/ParametersDontMatch.php
+#: Civi/ActionProvider/Condition/ParametersMatch.php
+msgid "Parameter 2"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/ParametersDontMatch.php
+msgid "Parameters don't match"
+msgstr ""
+
+#: Civi/ActionProvider/Condition/ParametersMatch.php
+msgid "Parameters match"
+msgstr ""
+
+#: Civi/ActionProvider/Utils/UserInterface/AddConditionConfigToQuickForm.php
+#: Civi/ActionProvider/Utils/UserInterface/AddConfigToQuickForm.php
+msgid "- Select -"
+msgstr ""
+
+#: Civi/ActionProvider/Utils/UserInterface/AddConditionConfigToQuickForm.php
+#: Civi/ActionProvider/Utils/UserInterface/AddConfigToQuickForm.php
+#: ang/action_provider/crmApToken.js
+msgid "Tokens"
+msgstr ""
+
+#: Civi/ActionProvider/Utils/UserInterface/AddMappingToQuickForm.php
+msgid "- select -"
+msgstr ""
+
+#: ang/action_provider/crmApActionConfiguration.html
+#: ang/action_provider/crmApConditionConfiguration.html
+msgid "Configuration"
+msgstr ""
+
+#: ang/action_provider/crmApActionConfiguration.html
+msgid "Parameter Mapping"
+msgstr ""
+
+#: ang/action_provider/crmApConditionConfiguration.html
+msgid "Parameters"
+msgstr ""
+
+#: ang/action_provider/crmApConditionConfiguration.html
+msgid "Remove"
+msgstr ""
+
+#: ang/action_provider/crmApConditionConfiguration.html
+msgid "Add item"
+msgstr ""
+
+#: ang/action_provider/crmApConditionConfiguration.html
+msgid "Map output data if condition is not valid"
+msgstr ""
+
+#: api/v3/ActionProvider/Getaction.php api/v3/ActionProvider/Getcondition.php
+msgid "Context"
+msgstr ""
