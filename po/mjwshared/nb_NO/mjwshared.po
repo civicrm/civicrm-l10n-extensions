@@ -1,0 +1,486 @@
+# Copyright CiviCRM LLC (c) 2004-2015
+# This file is distributed under the same license as the CiviCRM package.
+# If you contribute heavily to a translation and deem your work copyrightable,
+# make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: mjwshared\n"
+"POT-Creation-Date: 2026-02-11 11:01+0100\n"
+"Language-Team: Norwegian Bokmål (https://app.transifex.com/civicrm/teams/1905/nb/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nb\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: CRM/Core/Payment/MJWTrait.php
+msgid "Contribution: %1"
+msgstr ""
+
+#: CRM/Core/Payment/MJWTrait.php
+msgid "Unable to complete payment! Missing %1."
+msgstr ""
+
+#: CRM/Mjwshared/Form/PaymentRefund.php
+msgid "You do not have permission to issue refunds."
+msgstr ""
+
+#: CRM/Mjwshared/Form/PaymentRefund.php
+msgid ""
+"There is more than one payment for this Contribution. You need to select a "
+"specific payment to refund."
+msgstr ""
+
+#: CRM/Mjwshared/Form/PaymentRefund.php
+msgid ""
+"No Payment found. Make sure you specified a valid Payment or Contribution."
+msgstr ""
+
+#: CRM/Mjwshared/Form/PaymentRefund.php
+msgid "Do you want to cancel these registrations when you refund the payment?"
+msgstr ""
+
+#: CRM/Mjwshared/Form/PaymentRefund.php
+msgid "Do you want to cancel these memberships when you refund the payment?"
+msgstr ""
+
+#: CRM/Mjwshared/Form/PaymentRefund.php
+msgid "Amount to Refund"
+msgstr ""
+
+#: CRM/Mjwshared/Form/PaymentRefund.php
+msgid "Process Refund"
+msgstr ""
+
+#: CRM/Mjwshared/Form/PaymentRefund.php
+msgid "Cancel"
+msgstr ""
+
+#: Civi/Api4/Action/ContributionRecur/UpdateAmountOnRecurMJW.php
+msgid "Amount must be greater than 0.0"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php api/v3/Mjwpayment.php
+msgid "Contribution ID"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Total Payment Amount"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Fee Amount"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Payment Processor for this payment"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Payment Date"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Send out notifications based on contribution status change?"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Payment Method (FK to payment_instrument option group values)"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Card Type ID (FK to accept_creditcard option group values)"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Transaction Result Code"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Transaction ID supplied by external processor. This may not be unique."
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Payment Processor external order reference"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "Check Number"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Create.php
+msgid "PAN Truncation (Last 4 digits of credit card)"
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Refund.php
+msgid "Refund was processed successfully."
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Refund.php
+msgid "Cancelled %1 participant registration(s)."
+msgstr ""
+
+#: Civi/Api4/Action/PaymentMJW/Refund.php
+msgid "Cancelled %1 membership(s)."
+msgstr ""
+
+#: Civi/Mjwshared/Check.php
+msgid "You are using a development version of %1 extension."
+msgstr ""
+
+#: Civi/Mjwshared/Check.php
+msgid "%1: Development version"
+msgstr ""
+
+#: Civi/Mjwshared/Check.php
+msgid ""
+"The %1 extension requires the %2 extension version %3 or greater but your "
+"system has version %4."
+msgstr ""
+
+#: Civi/Mjwshared/Check.php
+msgid "%1: Missing Requirements"
+msgstr ""
+
+#: Civi/Mjwshared/Check.php
+msgid "Upgrade now"
+msgstr ""
+
+#: Civi/Mjwshared/Check.php
+msgid ""
+"You have the uk.co.nfpservice.onlineworldpay extension installed.\n"
+"        There are multiple versions of this extension on various sites and the source code has not been released.\n"
+"        It is known to be cause issues with other payment processors and should be disabled"
+msgstr ""
+
+#: Civi/Mjwshared/Check.php
+msgid "Incompatible Extension: uk.co.nfpservice.onlineworldpay"
+msgstr ""
+
+#: Civi/Mjwshared/Check.php
+msgid ""
+"If you are using Drupal webform_civicrm to accept payments you should download and install the\n"
+"            <strong><a href=\"https://civicrm.org/extensions/contribution-transact-api\">contributiontransactlegacy</a></strong> extension.\n"
+"            This fixes a number of issues that cause payments to fail with extensions such as <strong><a href=\"https://civicrm.org/extensions/stripe-payment-processor\">Stripe</a></strong>."
+msgstr ""
+
+#: Civi/Mjwshared/Check.php
+msgid "Recommended Extension: contributiontransactlegacy"
+msgstr ""
+
+#: Civi/Mjwshared/Check.php
+msgid "Install now"
+msgstr ""
+
+#: Civi/Mjwshared/Check.php
+msgid ""
+"You need to disable \"Separate Membership Payment\" or disable the payment processors: %2 on contribution page %1 because it is not supported and will not work.\n"
+"                See <a href=\"https://lab.civicrm.org/extensions/stripe/-/issues/134\">Stripe#134</a>."
+msgstr ""
+
+#: Civi/Mjwshared/Check.php
+msgid "Payments: Invalid configuration"
+msgstr ""
+
+#: Civi/Mjwshared/Check.php
+msgid ""
+"It is recommended that you install the <strong><a href=\"https://civicrm.org/extensions/sweetalert\">sweetalert</a></strong> extension.\n"
+"        This allows extensions such as Stripe to show useful messages to the user when processing payment.\n"
+"        If this is not installed it will fallback to the browser \"alert\" message but you will\n"
+"        not see some messages (such as <em>we are pre-authorizing your card</em> and <em>please wait</em>) and the feedback to the user will not be as helpful."
+msgstr ""
+
+#: Civi/Mjwshared/Check.php
+msgid "Recommended Extension: sweetalert"
+msgstr ""
+
+#: Civi/Mjwshared/Check.php
+msgid ""
+"You have multiple domains configured and some domains are missing the "
+"scheduled job \"Job.process_paymentprocessor_webhooks\": %1"
+msgstr ""
+
+#: Civi/Mjwshared/Check.php
+msgid "Payments: Multidomain scheduled jobs"
+msgstr ""
+
+#: Civi/Mjwshared/Check.php
+msgid ""
+"You have %1 payment processor webhooks in \"processing\" status for %2 payment processors.\n"
+"        This means that the system started processing them but something went wrong that can't be fixed automatically.\n"
+"        Please check and identify the problem. Then you can mark them for retry."
+msgstr ""
+
+#: Civi/Mjwshared/Check.php
+msgid "Payment Processor Webhooks: Processing failed"
+msgstr ""
+
+#: Civi/PaymentprocessorWebhook/Tasks.php
+msgid "Retry Paymentprocessor Webhooks"
+msgstr ""
+
+#: Civi/PaymentprocessorWebhook/Tasks.php
+msgid "Schedule retry for %1 %2."
+msgstr ""
+
+#: Civi/PaymentprocessorWebhook/Tasks.php
+msgid "Scheduling retry for %1 %2..."
+msgstr ""
+
+#: Civi/PaymentprocessorWebhook/Tasks.php
+msgid ""
+"%1 %2 have been scheduled for retry (will retry next time scheduled jobs are"
+" run)."
+msgstr ""
+
+#: Civi/PaymentprocessorWebhook/Tasks.php
+msgid "An error occurred while attempting to schedule retry for %1 %2."
+msgstr ""
+
+#: ang/afsearchPaymentProcessorWebhookDetail.aff.php
+msgid "Payment Processor Webhook Detail"
+msgstr ""
+
+#: ang/afsearchPaymentProcessorWebhooks.aff.php
+#: managed/Navigation_afsearchPaymentProcessorWebhooks.mgd.php
+msgid "Payment Processor Webhooks"
+msgstr ""
+
+#: api/v3/Mjwpayment.php templates/CRM/Mjwshared/Form/PaymentRefund.tpl
+msgid "Transaction ID"
+msgstr ""
+
+#: api/v3/Mjwpayment.php
+msgid "Transaction id supplied by external processor. This may not be unique."
+msgstr ""
+
+#: js/crm.payment.js
+msgid "Please complete the reCaptcha"
+msgstr ""
+
+#: js/crm.payment.js
+msgid "Please apply the Discount Code or clear the Discount Code text-field"
+msgstr ""
+
+#: js/crm.payment.js
+msgid "Please check and fill in all required fields!"
+msgstr ""
+
+#: js/crm.payment.js
+msgid "mjwshared"
+msgstr ""
+
+#: managed/ProcessPaymentprocessorWebhooks.mgd.php
+msgid "Process incomplete payment processor webhooks"
+msgstr ""
+
+#: managed/SavedSearch_Paymentprocessor_Webhook_Detail.mgd.php
+msgid "Paymentprocessor Webhook Detail"
+msgstr ""
+
+#: managed/SavedSearch_Paymentprocessor_Webhook_Detail.mgd.php
+#: managed/SavedSearch_Paymentprocessor_Webhook_Search.mgd.php
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "ID"
+msgstr ""
+
+#: managed/SavedSearch_Paymentprocessor_Webhook_Detail.mgd.php
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Identifier"
+msgstr ""
+
+#: managed/SavedSearch_Paymentprocessor_Webhook_Detail.mgd.php
+#: managed/SavedSearch_Paymentprocessor_Webhook_Search.mgd.php
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Message"
+msgstr ""
+
+#: managed/SavedSearch_Paymentprocessor_Webhook_Detail.mgd.php
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Trigger"
+msgstr ""
+
+#: managed/SavedSearch_Paymentprocessor_Webhook_Detail.mgd.php
+#: managed/SavedSearch_Paymentprocessor_Webhook_Search.mgd.php
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Status"
+msgstr ""
+
+#: managed/SavedSearch_Paymentprocessor_Webhook_Detail.mgd.php
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Data"
+msgstr ""
+
+#: managed/SavedSearch_Paymentprocessor_Webhook_Search.mgd.php
+msgid "Paymentprocessor Webhook Search"
+msgstr ""
+
+#: managed/SavedSearch_Paymentprocessor_Webhook_Search.mgd.php
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Created Date"
+msgstr ""
+
+#: managed/SavedSearch_Paymentprocessor_Webhook_Search.mgd.php
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Processed Date"
+msgstr ""
+
+#: managed/SavedSearch_Paymentprocessor_Webhook_Search.mgd.php
+#: schema/PaymentprocessorWebhook.entityType.php
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
+msgid "Payment Processor"
+msgstr ""
+
+#: managed/SavedSearch_Paymentprocessor_Webhook_Search.mgd.php
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Event ID"
+msgstr ""
+
+#: managed/SavedSearch_Paymentprocessor_Webhook_Search.mgd.php
+msgid "Detail"
+msgstr ""
+
+#: managed/SavedSearch_Paymentprocessor_Webhook_Search.mgd.php
+msgid "Retry"
+msgstr ""
+
+#: managed/SavedSearch_Paymentprocessor_Webhook_Search.mgd.php
+msgid "Delete"
+msgstr ""
+
+#: managed/cg_extend_financialtrxn.mgd.php
+msgid "Financial Transaction (Payment)"
+msgstr ""
+
+#: managed/customdata.mgd.php
+msgid "Payment details"
+msgstr ""
+
+#: managed/navigationmenu.mgd.php
+msgid "Payment Shared Settings"
+msgstr ""
+
+#: mjwshared.php
+msgid "Record Refund"
+msgstr ""
+
+#: mjwshared.php
+msgid "Refund Payment"
+msgstr ""
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Paymentprocessor Webhook"
+msgstr ""
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Paymentprocessor Webhooks"
+msgstr ""
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Track the processing of payment processor webhooks"
+msgstr ""
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Unique PaymentprocessorWebhook ID"
+msgstr ""
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Payment Processor for this webhook"
+msgstr ""
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Webhook event ID"
+msgstr ""
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Webhook trigger event type"
+msgstr ""
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "When the webhook was first received by the IPN code"
+msgstr ""
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Has this webhook been processed yet?"
+msgstr ""
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Processing status"
+msgstr ""
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Optional key to group webhooks, as needed by some processors."
+msgstr ""
+
+#: schema/PaymentprocessorWebhook.entityType.php
+msgid "Stores data sent that is needed for processing. JSON suggested."
+msgstr ""
+
+#: settings/mjwshared.setting.php
+msgid "Enable refund payment via UI?"
+msgstr ""
+
+#: settings/mjwshared.setting.php
+msgid ""
+"Enables a \"Refund payment\" option next to the edit payment option on Payments. Find payments by expanding contributions.\n"
+"    For more detail see the <a href=\"%1\">Refund documentation</a>"
+msgstr ""
+
+#: settings/mjwshared.setting.php
+msgid "Disable the \"Record Refund\" link on edit contribution"
+msgstr ""
+
+#: settings/mjwshared.setting.php
+msgid ""
+"By default CiviCRM includes a \"Record Refund\" link on edit contribution. "
+"This can be confusing when our payment refund UI is enabled because the "
+"contribution \"Record Refund\" does not communicate with the payment "
+"processor."
+msgstr ""
+
+#: settings/mjwshared.setting.php
+msgid "Enable Javascript debugging?"
+msgstr ""
+
+#: settings/mjwshared.setting.php
+msgid ""
+"Enables debug logging to browser console for javascript based payment "
+"processors."
+msgstr ""
+
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
+msgid "Total Amount"
+msgstr ""
+
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
+msgid "Amount Paid"
+msgstr ""
+
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
+msgid "Payment date"
+msgstr ""
+
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
+msgid "Order Reference"
+msgstr ""
+
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
+msgid "This payment was used to register the following participants:"
+msgstr ""
+
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
+msgid "This payment was used for the following memberships:"
+msgstr ""
+
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
+msgid ""
+"When you click \"Process Refund\" a refund will be requested using the %1 "
+"payment processor and, if successful, recorded on the Contribution record."
+msgstr ""
+
+#: templates/CRM/Mjwshared/Form/PaymentRefund.tpl
+msgid ""
+"This payment was recorded manually and did not use a payment processor. A "
+"refund will be recorded but you will need to process the actual refund "
+"externally."
+msgstr ""
