@@ -1,0 +1,673 @@
+# Copyright CiviCRM LLC (c) 2004-2015
+# This file is distributed under the same license as the CiviCRM package.
+# If you contribute heavily to a translation and deem your work copyrightable,
+# make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: CiviCRM_extensions\n"
+"POT-Creation-Date: 2023-01-27 19:21+0000\n"
+"PO-Revision-Date: 2015-01-10 05:32+0000\n"
+"Language-Team: Norwegian Bokmål (http://app.transifex.com/civicrm/civicrm_extensions/language/nb/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nb\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: CRM/Core/Payment/Stripe.php
+msgid "Stripe"
+msgstr ""
+
+#: CRM/Core/Payment/Stripe.php
+msgid "Successfully cancelled the subscription in CiviCRM ONLY."
+msgstr ""
+
+#: CRM/Core/Payment/Stripe.php
+msgid ""
+"The recurring contribution cannot be cancelled (No reference (trxn_id) "
+"found)."
+msgstr ""
+
+#: CRM/Core/Payment/Stripe.php
+msgid "Could not delete Stripe subscription: %1"
+msgstr ""
+
+#: CRM/Core/Payment/Stripe.php
+msgid "Successfully cancelled the subscription at Stripe."
+msgstr ""
+
+#: CRM/Core/Payment/Stripe.php
+msgid ""
+"Stripe will be automatically notified and the subscription will be "
+"cancelled."
+msgstr ""
+
+#: CRM/Core/Payment/Stripe.php
+msgid ""
+"If you select 'Send cancellation request..' then Stripe will be "
+"automatically notified and the subscription will be cancelled."
+msgstr ""
+
+#: CRM/Stripe/Check.php
+msgid "You are using a development version of %1 extension."
+msgstr ""
+
+#: CRM/Stripe/Check.php
+msgid "%1: Development version"
+msgstr ""
+
+#: CRM/Stripe/Check.php
+msgid ""
+"The %1 extension requires the %2 extension version %3 or greater but your "
+"system has version %4."
+msgstr ""
+
+#: CRM/Stripe/Check.php
+msgid "%1: Missing Requirements"
+msgstr ""
+
+#: CRM/Stripe/Check.php
+msgid "Upgrade now"
+msgstr ""
+
+#: CRM/Stripe/Check.php
+msgid ""
+"The <em>%1</em> extension requires the <em>Payment Shared</em> extension "
+"which is not installed. See <a href=\"%2\" target=\"_blank\">details</a> for"
+" more information."
+msgstr ""
+
+#: CRM/Stripe/Check.php
+msgid "Install now"
+msgstr ""
+
+#: CRM/Stripe/Check.php
+msgid ""
+"If you are using Stripe to accept payments on public forms (eg. contribution/event registration forms) it is recommended that you install the <strong><a href=\"https://lab.civicrm.org/extensions/firewall\">firewall</a></strong> extension.\n"
+"        Some sites have become targets for spammers who use the payment endpoint to try and test credit cards by submitting invalid payments to your Stripe account."
+msgstr ""
+
+#: CRM/Stripe/Check.php
+msgid "Recommended Extension: firewall"
+msgstr ""
+
+#: CRM/Stripe/Check.php
+msgid ""
+"Thankyou for upgrading to Stripe 6.6. You MUST check your configuration to make sure it will continue working:\n"
+"        <ul>\n"
+"          <li><strong>Access AJAX API</strong> permission is required for all users that make payments using Stripe (including the anonymous user).\n"
+"          You need to check that all users making Stripe payments have the CiviCRM permission <strong>Access AJAX API</strong> otherwise payments will fail.</li>\n"
+"          <li>Billing address fields are now disabled by default (if you require additional fields collect them via a profile).\n"
+"          If you require the billing address fields you can enable them in <em>Administer->CiviContribute->Stripe Settings->Disable billing address fields</em>.\n"
+"          They will be removed in a future version - if this is a problem please contact <a href=\"https://mjw.pt/support\">MJW</a> and let us know why!</li>\n"
+"          <li><a href=\"https://docs.civicrm.org/mjwshared/en/latest/refunds/\">Refund UI</a> is now enabled by default.</li>\n"
+"        </ul>"
+msgstr ""
+
+#: CRM/Stripe/Check.php
+msgid ""
+"Stripe: You need to check some settings now that you have upgraded to 6.6"
+msgstr ""
+
+#: CRM/Stripe/Check.php
+msgid "I've read this"
+msgstr ""
+
+#: CRM/Stripe/Check.php
+msgid ""
+"I've read this and made any necessary configuration changes - don't show me this upgrade message any\n"
+"      more"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "Stripe Paymentintents"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "Stripe Paymentintent"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "Unique ID"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "Stripe Intent ID"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "The Stripe PaymentIntent/SetupIntent/PaymentMethod ID"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php api/v3/Stripe/Importsubscription.php
+msgid "Contribution ID"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "FK ID from civicrm_contribution"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "Payment Processor"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "Foreign key to civicrm_payment_processor.id"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "Description"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "Description of this paymentIntent"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "Status"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "The status of the paymentIntent"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "Identifier"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid ""
+"An identifier that we can use in CiviCRM to find the paymentIntent if we do "
+"not have the ID (eg. session key)"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "FK to Contact"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "Created Date"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "When was paymentIntent created"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "Flags"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid ""
+"Flags associated with this PaymentIntent (NC=no contributionID when "
+"doPayment called)"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "Referrer"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "HTTP referrer of this paymentIntent"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php api/v3/StripePaymentintent.php
+msgid "Extra Data"
+msgstr ""
+
+#: CRM/Stripe/DAO/StripePaymentintent.php
+msgid "Extra data collected to help with diagnostics (such as email, name)"
+msgstr ""
+
+#: CRM/Stripe/Form/UpdateWebhook.php
+msgid "Update / Create webhook"
+msgstr ""
+
+#: CRM/Stripe/Form/UpdateWebhook.php
+msgid "All webhooks update successfully."
+msgstr ""
+
+#: CRM/Stripe/PaymentIntent.php
+msgid "Payment failed: %1"
+msgstr ""
+
+#: CRM/Stripe/PaymentIntent.php
+msgid "Payment failed."
+msgstr ""
+
+#: CRM/Stripe/Recur.php
+msgid "Now"
+msgstr ""
+
+#: CRM/Stripe/Recur.php
+msgid "Start date"
+msgstr ""
+
+#: CRM/Stripe/Upgrader/Base.php
+msgid "Upgrade %1 to revision %2"
+msgstr ""
+
+#: CRM/Stripe/Webhook.php
+msgid ""
+"Webhook API version is set to %2 but CiviCRM requires %3. To correct this "
+"please delete the webhook at Stripe and then revisit this page which will "
+"recreate it correctly. <em>Webhook path is: <a href=\"%1\" "
+"target=\"_blank\">%1</a>.</em>"
+msgstr ""
+
+#: CRM/Stripe/Webhook.php
+msgid ""
+"Unable to update the webhook %1. To correct this please delete the webhook "
+"at Stripe and then revisit this page which will recreate it correctly. Error"
+" was: %2"
+msgstr ""
+
+#: CRM/Stripe/Webhook.php
+msgid ""
+"Problems detected with Stripe webhook! <em>Webhook path is: <a href=\"%1\" "
+"target=\"_blank\">%1</a>.</em>"
+msgstr ""
+
+#: CRM/Stripe/Webhook.php
+msgid "View and fix problems"
+msgstr ""
+
+#: CRM/Stripe/Webhook.php
+msgid ""
+"Could not check/update existing webhooks, got error from stripe <em>%1</em>"
+msgstr ""
+
+#: CRM/Stripe/Webhook.php
+msgid "Could not create webhook, got error from stripe <em>%1</em>"
+msgstr ""
+
+#: CRM/Stripe/Webhook.php
+msgid ""
+"Stripe Webhook missing or needs update! <em>Expected webhook path is: <a "
+"href=\"%1\" target=\"_blank\">%1</a></em>"
+msgstr ""
+
+#: CRM/Stripe/Webhook.php
+msgid "Stripe Payment Processor: %1 (%2)"
+msgstr ""
+
+#: api/v3/Stripe/Cleanup.php
+msgid "Set this to TRUE to execute this API function"
+msgstr ""
+
+#: api/v3/Stripe/Importallcustomers.php
+#: api/v3/Stripe/Importallsubscriptions.php api/v3/Stripe/Importcharge.php
+#: api/v3/Stripe/Importcustomer.php api/v3/Stripe/Importcustomers.php
+#: api/v3/Stripe/Importsubscriptions.php api/v3/Stripe/Listevents.php
+msgid "Use the given Payment Processor ID"
+msgstr ""
+
+#: api/v3/Stripe/Importcharge.php api/v3/Stripe/Importsubscription.php
+msgid "Contact ID"
+msgstr ""
+
+#: api/v3/Stripe/Importcharge.php
+msgid "Import a specific charge"
+msgstr ""
+
+#: api/v3/Stripe/Importcharge.php
+msgid ""
+"Optionally, provide contribution ID of existing contribution you want to "
+"link to."
+msgstr ""
+
+#: api/v3/Stripe/Importcharge.php
+msgid "The charge does not have an invoice, it cannot be imported."
+msgstr ""
+
+#: api/v3/Stripe/Importcharge.php
+msgid ""
+"The charge has a subscription, but the subscription is not in CiviCRM. "
+"Please import the subscription and try again."
+msgstr ""
+
+#: api/v3/Stripe/Importcustomer.php
+msgid "Import a specific customer"
+msgstr ""
+
+#: api/v3/Stripe/Importcustomers.php api/v3/Stripe/Importsubscriptions.php
+msgid "Limit number of Customers/Subscriptions to be imported"
+msgstr ""
+
+#: api/v3/Stripe/Importcustomers.php
+msgid "Start importing customers after this one"
+msgstr ""
+
+#: api/v3/Stripe/Importsubscription.php
+msgid ""
+"There is a mismatch between the contact id for the customer indicated by the"
+" subscription (%1) and the contact id provided via the API params (%2)."
+msgstr ""
+
+#: api/v3/Stripe/Importsubscription.php
+msgid "Stripe Subscription ID"
+msgstr ""
+
+#: api/v3/Stripe/Importsubscription.php api/v3/StripeCustomer.php
+#: api/v3/StripeInvoice.php
+msgid "Payment Processor ID"
+msgstr ""
+
+#: api/v3/Stripe/Importsubscription.php
+msgid "Contribution Recur ID"
+msgstr ""
+
+#: api/v3/Stripe/Importsubscription.php
+msgid "Membership ID"
+msgstr ""
+
+#: api/v3/Stripe/Importsubscription.php
+msgid "Link to existing membership automatically"
+msgstr ""
+
+#: api/v3/Stripe/Importsubscriptions.php
+msgid "Start importing subscriptions after this one"
+msgstr ""
+
+#: api/v3/Stripe/Ipn.php
+msgid "CiviCRM System Log id to replay from system log."
+msgstr ""
+
+#: api/v3/Stripe/Ipn.php
+msgid "An event id as generated by Stripe."
+msgstr ""
+
+#: api/v3/Stripe/Ipn.php
+msgid "The payment processor to use (required if using evtid)"
+msgstr ""
+
+#: api/v3/Stripe/Ipn.php
+msgid ""
+"Set to 1 to override contribution page settings and do not send a receipt "
+"(default is to use contribution page settings). )"
+msgstr ""
+
+#: api/v3/Stripe/Listevents.php
+msgid ""
+"Limit to the given Stripe events type, defaults to "
+"invoice.payment_succeeded."
+msgstr ""
+
+#: api/v3/Stripe/Listevents.php
+msgid "Limit number of results returned (100 is max, 25 default)"
+msgstr ""
+
+#: api/v3/Stripe/Listevents.php
+msgid "Only return results after this id."
+msgstr ""
+
+#: api/v3/Stripe/Listevents.php
+msgid "How to format the output, brief or raw. Defaults to brief."
+msgstr ""
+
+#: api/v3/Stripe/Listevents.php
+msgid ""
+"List events via the Stripe API (default: stripe) or via the CiviCRM System "
+"Log (systemlog)."
+msgstr ""
+
+#: api/v3/Stripe/Listevents.php
+msgid ""
+"If set to 1, filter out all transactions that have been processed already."
+msgstr ""
+
+#: api/v3/Stripe/Listevents.php
+msgid ""
+"Pass a Stripe subscription id to filter results to charges to that "
+"subscription id."
+msgstr ""
+
+#: api/v3/Stripe/Listevents.php
+msgid "Source can only be set to %1 or %2."
+msgstr ""
+
+#: api/v3/Stripe/Listevents.php
+msgid "Filter processed can only be set to 0 or 1."
+msgstr ""
+
+#: api/v3/Stripe/Listevents.php
+msgid "Subscription should start with sub_."
+msgstr ""
+
+#: api/v3/Stripe/Listevents.php
+msgid ""
+"Subscription and source are incompatible. Please choose one or the other."
+msgstr ""
+
+#: api/v3/Stripe/Populatelog.php api/v3/Stripe/Populatewebhookqueue.php
+msgid "The id of the payment processor."
+msgstr ""
+
+#: api/v3/Stripe/Populatelog.php api/v3/Stripe/Populatewebhookqueue.php
+msgid "The event type - defaults to invoice.payment_succeeded."
+msgstr ""
+
+#: api/v3/Stripe/Retryall.php
+msgid "The payment processor to use."
+msgstr ""
+
+#: api/v3/Stripe/Retryall.php
+msgid "Limit the number of unprocessed events to retry."
+msgstr ""
+
+#: api/v3/StripeCustomer.php
+msgid "Stripe Customer ID"
+msgstr ""
+
+#: api/v3/StripeCustomer.php
+msgid "CiviCRM Contact ID"
+msgstr ""
+
+#: api/v3/StripeCustomer.php
+msgid ""
+"If set only this customer will be updated, otherwise we try and update ALL "
+"customers"
+msgstr ""
+
+#: api/v3/StripeInvoice.php
+msgid "Stripe Invoice ID"
+msgstr ""
+
+#: api/v3/StripeInvoice.php
+msgid "Send Email Receipt"
+msgstr ""
+
+#: api/v3/StripePaymentintent.php
+msgid "Payment Method ID"
+msgstr ""
+
+#: api/v3/StripePaymentintent.php
+msgid "Payment Intent ID"
+msgstr ""
+
+#: api/v3/StripePaymentintent.php
+msgid "Payment amount"
+msgstr ""
+
+#: api/v3/StripePaymentintent.php
+msgid "Whether we should try to capture the amount, not just confirm it"
+msgstr ""
+
+#: api/v3/StripePaymentintent.php
+msgid "Describe the payment"
+msgstr ""
+
+#: api/v3/StripePaymentintent.php
+msgid "Currency (eg. EUR)"
+msgstr ""
+
+#: api/v3/StripePaymentintent.php
+msgid "The stripe payment processor id"
+msgstr ""
+
+#: api/v3/StripePaymentintent.php
+msgid "Bad Request"
+msgstr ""
+
+#: js/civicrmStripeConfirm.js js/civicrm_stripe.js
+msgid "The payment failed - please try a different payment method."
+msgstr ""
+
+#: js/civicrmStripeConfirm.js
+msgid "Payment successful"
+msgstr ""
+
+#: js/civicrmStripeConfirm.js
+msgid "The payment failed - unknown error."
+msgstr ""
+
+#: js/civicrmStripeConfirm.js js/civicrm_stripe.js
+msgid "Unknown error"
+msgstr ""
+
+#: js/civicrmStripeConfirm.js js/civicrm_stripe.js
+msgid "Configuration error - unable to process paymentIntent"
+msgstr ""
+
+#: js/civicrmStripeConfirm.js
+msgid "Please wait..."
+msgstr ""
+
+#: js/civicrmStripeConfirm.js js/civicrm_stripe.js js/recur_start.js
+msgid "com.drastikbydesign.stripe"
+msgstr ""
+
+#: js/civicrm_stripe.js
+msgid "Please wait"
+msgstr ""
+
+#: js/civicrm_stripe.js
+msgid " while we pre-authorize your card..."
+msgstr ""
+
+#: js/civicrm_stripe.js
+msgid " preparing your payment..."
+msgstr ""
+
+#: js/civicrm_stripe.js
+msgid "Please enter your card details"
+msgstr ""
+
+#: js/civicrm_stripe.js
+msgid "Please check your card details!"
+msgstr ""
+
+#: js/civicrm_stripe.js
+msgid ""
+"Could not load payment element - Is there a problem with your network "
+"connection?"
+msgstr ""
+
+#: js/recur_start.js
+msgid "Your membership payment will start on %1"
+msgstr ""
+
+#: js/recur_start.js
+msgid "Your recurring contribution will start on %1"
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid "Show 6.6 upgrade message (system check)"
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid "Allow Stripe to send a receipt for one-off payments?"
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid ""
+"Sets the \"email_receipt\" parameter on a Stripe Charge so that Stripe can "
+"send an email receipt."
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid "Disable billing address fields"
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid ""
+"Disable the fixed billing address fields block. Historically this was "
+"required by CiviCRM but since Stripe 6.x the stripe element collects "
+"everything it requires to make payment."
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid "Statement Descriptor"
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid ""
+"The text that will be shown on the customer bank/card statement.\n"
+"If this is empty it will be generated by CiviCRM using the information available (Contact/ContributionID + event/contribution title).\n"
+"<br/>If you want to use a fixed descriptor specify one here - make sure you comply with the <a href=\"%1\" target=\"_blank\">Statement descriptor requirements</a>.\n"
+"<br/>Max length 22 characters."
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid "Statement descriptor Suffix (Cards only)"
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid ""
+"For credit cards you can specify a static <a href=\"%2\" target=\"_blank\">\"prefix\"</a> in the Stripe account dashboard.\n"
+"If this is empty the \"suffix\" will be generated by CiviCRM using the information available (Contact/ContributionID + event/contribution title).\n"
+"<br/>If you want to use a fixed descriptor specify the suffix here - make sure you comply with the <a href=\"%1\" target=\"_blank\">Statement descriptor requirements</a>.\n"
+"<br/>Max length 12 characters"
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid "Country where your account is registered"
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid ""
+"If this is empty the <a href=\"%2\" target=\"_blank\">paymentRequest</a> button will not be enabled. If set, the <a href=\"%2\" target=\"_blank\">paymentRequest</a> button will be shown instead of the card element if supported by the client browser.\n"
+"Required by the paymentRequest button. 2-character code (eg. \"US\") that can be found <a href=\"%1\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid "Enable public selection of future recurring start dates for intervals"
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid ""
+"Allow public selection of start date for a recurring contribution for "
+"intervals"
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid "Restrict allowable days of the month for Recurring Contributions"
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid "Restrict allowable days of the month"
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid "Maximum number of webhooks to process simultaneously."
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid ""
+"Default 50. This helps prevents webhooks from Stripe failing if a large "
+"number are triggered at the same time by delaying processing of any over "
+"this limit."
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid "Enable Stripe IPN (Webhook) debugging?"
+msgstr ""
+
+#: settings/stripe.setting.php
+msgid "Enables debugging to CiviCRM log for IPN / webhook issues."
+msgstr ""
+
+#: stripe.php
+msgid "Stripe Settings"
+msgstr ""
