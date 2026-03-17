@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: qrcodecheckin\n"
-"POT-Creation-Date: 2026-02-25 11:01+0100\n"
+"POT-Creation-Date: 2026-03-17 10:01+0100\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2026\n"
 "Language-Team: Turkish (https://app.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -34,23 +34,6 @@ msgid ""
 msgstr ""
 "Tıkladığınız bağlantı bozuk gibi görünüyor. Lütfen yeniden denetleyip "
 "bağlantı adresinin bir satır sonu ile bölünmediğinden emin olun."
-
-#: Civi/QRCodeCheckin/EventConfirmTextToken.php
-msgid ""
-"<p><img alt=\"QR Code with link to checkin page\" src=\"%1\">You should see "
-"a QR code above which will be used to quickly check you into the event. If "
-"you do not see a code display above, please enable the display of images in "
-"your email program or try accessing it <a href=\"%1\">directly</a>. You may "
-"want to take a screen grab of your QR Code in case you need to display it "
-"when you do not have Internet access.</p>"
-msgstr ""
-"<p><img alt=\"QR Code with link to checkin page\" src=\"%1\">Yukarıda "
-"etkinliğe hızlıca girebilmeniz için kullanacağınız kare kodu görüyor "
-"olmalısınız. Yukarıda bir kod görmüyorsanız, lütfen e-posta uygulamanızda "
-"görsellerin görüntülenmesi seçeneğini etkinleştirin ya da koda <a "
-"href=\"%1\">doğrudan</a> erişmeyi deneyin. İnternet erişiminiz yokken "
-"görüntülemeniz gerekebilir diye kare kodunuzun ekran görüntüsünü almak "
-"isteyebilirsiniz.</p>"
 
 #: managed/CustomGroup_QRCode.mgd.php
 msgid "QRCode"
@@ -115,22 +98,31 @@ msgid "QRCode image and link for event "
 msgstr "Etklinliğin kare kod görseli ve bağlantısı"
 
 #: qrcodecheckin.php
-msgid ""
-"<div><img alt=\"QR Code with link to checkin page\" "
-"src=\"%1\"></div><div>You should see a QR code above which will be used to "
-"quickly check you into the event. If you do not see a code display above, "
-"please enable the display of images in your email program or try accessing "
-"it <a href=\"%1\">directly</a>. You may want to take a screen grab of your "
-"QR Code in case you need to display it when you do not have Internet "
-"access.</div>"
+msgid "QR Code with link to checkin page"
 msgstr ""
-"<div><img alt=\"QR Code with link to checkin page\" "
-"src=\"%1\"></div><div>Yukarıda etkinliğe hızlıca girebilmeniz için "
-"kullanacağınız kare kodu görüyor olmalısınız. Yukarıda bir kod "
-"görmüyorsanız, lütfen e-posta uygulamanızda görsellerin görüntülenmesi "
-"seçeneğini etkinleştirin ya da koda <a href=\"%1\">doğrudan</a> erişmeyi "
-"deneyin. İnternet erişiminiz yokken görüntülemeniz gerekebilir diye kare "
-"kodunuzun ekran görüntüsünü almak isteyebilirsiniz.</div>"
+
+#: qrcodecheckin.php
+msgid ""
+"You have multiple registrations for this event. Each QR code above "
+"corresponds to a different registration. If you do not see codes displayed "
+"above, please enable the display of images in your email program or try "
+"accessing them directly (links below). You may want to take a screen grab of"
+" your QR Codes in case you need to display them when you do not have "
+"Internet access."
+msgstr ""
+
+#: qrcodecheckin.php
+msgid "QR code #%1"
+msgstr ""
+
+#: qrcodecheckin.php
+msgid ""
+"You should see a QR code above which will be used to quickly check you into "
+"the event. If you do not see a code displayed above, please enable the "
+"display of images in your email program or try accessing it <a "
+"href=\"%1\">directly</a>. You may want to take a screen grab of your QR Code"
+" in case you need to display it when you do not have Internet access."
+msgstr ""
 
 #: qrcodecheckin.php
 msgid "QR Code Checkin Settings"
@@ -176,6 +168,16 @@ msgstr "Düğme görüntülensin"
 #: settings/qrcodecheckin.setting.php
 msgid "Automatically Check In"
 msgstr "Otomatik giriş yapılsın"
+
+#: settings/qrcodecheckin.setting.php
+msgid "Send all QR codes in one email"
+msgstr ""
+
+#: settings/qrcodecheckin.setting.php
+msgid ""
+"If a contact registers multiple participants, this will send the primary "
+"contact all the QR codes."
+msgstr ""
 
 #: templates/CRM/Qrcodecheckin/Page/QrcodecheckinLanding.tpl
 msgid ""
