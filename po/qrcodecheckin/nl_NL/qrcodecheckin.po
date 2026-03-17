@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: qrcodecheckin\n"
-"POT-Creation-Date: 2025-10-14 11:01+0200\n"
+"POT-Creation-Date: 2026-03-17 10:01+0100\n"
 "Last-Translator: HanV <han.velthuis@kpnmail.nl>, 2024\n"
 "Language-Team: Dutch (https://app.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -43,6 +43,14 @@ msgstr ""
 msgid "QRCode Public link"
 msgstr ""
 
+#: managed/afformPlacement.mgd.php
+msgid "QR Code Landing Page"
+msgstr ""
+
+#: managed/afformPlacement.mgd.php
+msgid "Add to QR Code Check-In landing page."
+msgstr ""
+
 #: qrcodecheckin.js
 msgid "There was an error updating the status. Sorry."
 msgstr "Het bijwerken van de status is mislukt."
@@ -66,6 +74,10 @@ msgid "Enable QR Code tokens for this Event"
 msgstr "QR-codes voor dit evenement inschakelen"
 
 #: qrcodecheckin.php
+msgid "Add QR Code to confirmation emails"
+msgstr ""
+
+#: qrcodecheckin.php
 msgid "QR Code Checkin"
 msgstr "QR-code Aanmelden"
 
@@ -86,21 +98,35 @@ msgid "QRCode image and link for event "
 msgstr "QR-code afbeelding en link van evenement"
 
 #: qrcodecheckin.php
-msgid ""
-"<div><img alt=\"QR Code with link to checkin page\" "
-"src=\"%1\"></div><div>You should see a QR code above which will be used to "
-"quickly check you into the event. If you do not see a code display above, "
-"please enable the display of images in your email program or try accessing "
-"it <a href=\"%1\">directly</a>. You may want to take a screen grab of your "
-"QR Code in case you need to display it when you do not have Internet "
-"access.</div>"
+msgid "QR Code with link to checkin page"
 msgstr ""
-"<div><img alt=\"QR Code with link to checkin page\" src=\"%1\"></div><div>U "
-"zou hierboven een QR-code moeten zien waarmee u zich snel kunt aanmelden "
-"voor het evenement. Als u geen code ziet, schakel dan in uw e-mailprogramma "
-"het tonen van afbeeldingen in of probeer de de afbeelding te <a "
-"href=\"%1\">gebruiken</a>. U kunt een schermafdruk maken van de QR-code "
-"indien u later mogelijk geen toegang hebt tot internet.</div>"
+
+#: qrcodecheckin.php
+msgid ""
+"You have multiple registrations for this event. Each QR code above "
+"corresponds to a different registration. If you do not see codes displayed "
+"above, please enable the display of images in your email program or try "
+"accessing them directly (links below). You may want to take a screen grab of"
+" your QR Codes in case you need to display them when you do not have "
+"Internet access."
+msgstr ""
+
+#: qrcodecheckin.php
+msgid "QR code #%1"
+msgstr ""
+
+#: qrcodecheckin.php
+msgid ""
+"You should see a QR code above which will be used to quickly check you into "
+"the event. If you do not see a code displayed above, please enable the "
+"display of images in your email program or try accessing it <a "
+"href=\"%1\">directly</a>. You may want to take a screen grab of your QR Code"
+" in case you need to display it when you do not have Internet access."
+msgstr ""
+
+#: qrcodecheckin.php
+msgid "QR Code Checkin Settings"
+msgstr ""
 
 #: settings/qrcodecheckin.setting.php
 msgid ""
@@ -119,6 +145,38 @@ msgstr ""
 "Indien ingeschakeld, u kunt een QR-code voor het aanmelden voor dit "
 "evenement toevoegen bij het e-mailen."
 
+#: settings/qrcodecheckin.setting.php
+msgid "QR Code Scan Action"
+msgstr ""
+
+#: settings/qrcodecheckin.setting.php
+msgid "The action to take when a QR code is scanned."
+msgstr ""
+
+#: settings/qrcodecheckin.setting.php
+msgid ""
+"Choose whether scanning a QR code automatically checks in the participant, "
+"or presents an \"Attended\" button."
+msgstr ""
+
+#: settings/qrcodecheckin.setting.php
+msgid "Show Button"
+msgstr ""
+
+#: settings/qrcodecheckin.setting.php
+msgid "Automatically Check In"
+msgstr ""
+
+#: settings/qrcodecheckin.setting.php
+msgid "Send all QR codes in one email"
+msgstr ""
+
+#: settings/qrcodecheckin.setting.php
+msgid ""
+"If a contact registers multiple participants, this will send the primary "
+"contact all the QR codes."
+msgstr ""
+
 #: templates/CRM/Qrcodecheckin/Page/QrcodecheckinLanding.tpl
 msgid ""
 "Congratulations! Your QR Code for checkin works. Please present your code to"
@@ -130,3 +188,9 @@ msgstr ""
 #: templates/CRM/Qrcodecheckin/Page/QrcodecheckinLanding.tpl
 msgid "Update to Attended"
 msgstr "Wijzigen in Aanwezig"
+
+#: templates/qrcode-checkin-event-options.tpl
+msgid ""
+"If enabled, confirmation emails will contain the QR code. Can be used in "
+"addition to or instead of tokens."
+msgstr ""
