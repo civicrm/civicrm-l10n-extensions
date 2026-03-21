@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = it: it_IT, sl: sl_SI, pl: pl_PL, ca: ca_ES, nl: nl_NL, et: et_EE, nb: nb_NO, ja: ja_JP, cs: cs_CZ, hu: hu_HU, fi: fi_FI, lv: lv_LV, lt: lt_LT, km: km_KH, el: el_GR, vi: vi_VN, da: da_DK, he: he_IL, tr: tr_TR, fr: fr_FR, de: de_DE, es: es_ES, ru: ru_RU, sv: sv_SE, id: id_ID, sk: sk_SK, bg: bg_BG, ro: ro_RO, sq: sq_AL, af: af_ZA, hi: hi_IN, pt: pt_PT
+lang_map = he: he_IL, tr: tr_TR, es: es_ES, ru: ru_RU, id: id_ID, pl: pl_PL, ja: ja_JP, da: da_DK, sv: sv_SE, sl: sl_SI, fi: fi_FI, km: km_KH, vi: vi_VN, ro: ro_RO, cs: cs_CZ, lt: lt_LT, el: el_GR, de: de_DE, ca: ca_ES, nl: nl_NL, lv: lv_LV, fr: fr_FR, bg: bg_BG, af: af_ZA, et: et_EE, hu: hu_HU, hi: hi_IN, it: it_IT, nb: nb_NO, sk: sk_SK, sq: sq_AL, pt: pt_PT
 
 [o:civicrm:p:civicrm_extensions:r:Civixero]
 file_filter = po/Civixero/<lang>/Civixero.po
@@ -135,6 +135,13 @@ source_lang = en
 file_filter = po/casetokens/<lang>/casetokens.po
 source_file = po/casetokens/pot/casetokens.pot
 source_lang = en
+
+[o:civicrm:p:civicrm_extensions:r:cdashtabs]
+file_filter   = po/cdashtabs/<lang>/cdashtabs.po
+source_file   = po/cdashtabs/pot/cdashtabs.pot
+type          = POT
+minimum_perc  = 0
+resource_name = cdashtabs
 
 [o:civicrm:p:civicrm_extensions:r:cdntaxreceipts]
 file_filter = po/cdntaxreceipts/<lang>/cdntaxreceipts.po
