@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: qrcodecheckin\n"
-"POT-Creation-Date: 2026-03-17 10:01+0100\n"
+"POT-Creation-Date: 2026-03-19 10:01+0100\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>, 2026\n"
 "Language-Team: English (United Kingdom) (https://app.transifex.com/civicrm/teams/1905/en_GB/)\n"
 "MIME-Version: 1.0\n"
@@ -97,7 +97,7 @@ msgstr "QRCode image and link for event "
 
 #: qrcodecheckin.php
 msgid "QR Code with link to checkin page"
-msgstr ""
+msgstr "QR Code with link to checkin page"
 
 #: qrcodecheckin.php
 msgid ""
@@ -108,10 +108,16 @@ msgid ""
 " your QR Codes in case you need to display them when you do not have "
 "Internet access."
 msgstr ""
+"You have multiple registrations for this event. Each QR code above "
+"corresponds to a different registration. If you do not see codes displayed "
+"above, please enable the display of images in your email program or try "
+"accessing them directly (links below). You may want to take a screen grab of"
+" your QR Codes in case you need to display them when you do not have "
+"Internet access."
 
 #: qrcodecheckin.php
 msgid "QR code #%1"
-msgstr ""
+msgstr "QR code #%1"
 
 #: qrcodecheckin.php
 msgid ""
@@ -121,6 +127,11 @@ msgid ""
 "href=\"%1\">directly</a>. You may want to take a screen grab of your QR Code"
 " in case you need to display it when you do not have Internet access."
 msgstr ""
+"You should see a QR code above which will be used to quickly check you into "
+"the event. If you do not see a code displayed above, please enable the "
+"display of images in your email program or try accessing it <a "
+"href=\"%1\">directly</a>. You may want to take a screen grab of your QR Code"
+" in case you need to display it when you do not have Internet access."
 
 #: qrcodecheckin.php
 msgid "QR Code Checkin Settings"
@@ -142,6 +153,14 @@ msgid ""
 msgstr ""
 "If enabled, when sending email to contacts you can include a QR Checkin Code"
 " token for this event."
+
+#: settings/qrcodecheckin.setting.php
+msgid ""
+"The events that will use QRCodes, sending the code in the confirmation "
+"email."
+msgstr ""
+"The events that will use QRCodes, sending the code in the confirmation "
+"email."
 
 #: settings/qrcodecheckin.setting.php
 msgid "QR Code Scan Action"
@@ -169,13 +188,15 @@ msgstr "Automatically Check In"
 
 #: settings/qrcodecheckin.setting.php
 msgid "Send all QR codes in one email"
-msgstr ""
+msgstr "Send all QR codes in one email"
 
 #: settings/qrcodecheckin.setting.php
 msgid ""
 "If a contact registers multiple participants, this will send the primary "
 "contact all the QR codes."
 msgstr ""
+"If a contact registers multiple participants, this will send the primary "
+"contact all the QR codes."
 
 #: templates/CRM/Qrcodecheckin/Page/QrcodecheckinLanding.tpl
 msgid ""
