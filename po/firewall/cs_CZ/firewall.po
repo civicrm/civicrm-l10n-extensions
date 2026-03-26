@@ -5,12 +5,13 @@
 # Translators:
 # Martin Máša <my.melody.production@gmail.com>, 2022
 # Jiří Podhorecký <jirka.p@volny.cz>, 2026
+# J Nezbeda, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: firewall\n"
 "POT-Creation-Date: 2023-01-27 19:24+0000\n"
-"Last-Translator: Jiří Podhorecký <jirka.p@volny.cz>, 2026\n"
+"Last-Translator: J Nezbeda, 2026\n"
 "Language-Team: Czech (https://app.transifex.com/civicrm/teams/1905/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,31 +21,31 @@ msgstr ""
 
 #: CRM/Firewall/DAO/FirewallIpaddress.php
 msgid "Firewall Ipaddresses"
-msgstr ""
+msgstr "IP adresy firewallu"
 
 #: CRM/Firewall/DAO/FirewallIpaddress.php
 msgid "Firewall Ipaddress"
-msgstr ""
+msgstr "IP adresa firewallu"
 
 #: CRM/Firewall/DAO/FirewallIpaddress.php
 msgid "Unique FirewallIpaddress ID"
-msgstr ""
+msgstr "Unikátní ID FirewallIpaddress"
 
 #: CRM/Firewall/DAO/FirewallIpaddress.php
 msgid "IP Address"
-msgstr ""
+msgstr "IP adresa"
 
 #: CRM/Firewall/DAO/FirewallIpaddress.php
 msgid "IP address used"
-msgstr ""
+msgstr "Použitá IP adresa"
 
 #: CRM/Firewall/DAO/FirewallIpaddress.php
 msgid "Access Date"
-msgstr ""
+msgstr "Datum přístupu"
 
 #: CRM/Firewall/DAO/FirewallIpaddress.php
 msgid "When the IP address accessed"
-msgstr ""
+msgstr "Kdy bylo přistupováno na IP adresu"
 
 #: CRM/Firewall/DAO/FirewallIpaddress.php
 msgid "Event Type"
@@ -52,15 +53,15 @@ msgstr "Typ události"
 
 #: CRM/Firewall/DAO/FirewallIpaddress.php
 msgid "The type of event that triggered this log"
-msgstr ""
+msgstr "Druh události, který vyvolal tento log záznam"
 
 #: CRM/Firewall/DAO/FirewallIpaddress.php
 msgid "Source"
-msgstr ""
+msgstr "Zdroj"
 
 #: CRM/Firewall/DAO/FirewallIpaddress.php
 msgid "Origin of this access request"
-msgstr ""
+msgstr "Původ tohoto požadavku na přístup"
 
 #: CRM/Firewall/Upgrader/Base.php
 msgid "Upgrade %1 to revision %2"
@@ -69,63 +70,73 @@ msgstr "Aktualizace %1 k revizi 2%"
 #: Civi/Firewall/Firewall.php
 msgid "Session expired. Please reload and try again."
 msgstr ""
+"Relace vypršela. Prosím, znovu aktualizujte stránku a zkuste to znova."
 
 #: Civi/Firewall/Firewall.php
 msgid "Session invalid. Please reload and try again."
 msgstr ""
+"Relace je neplatná. Prosím, znovu aktualizujte stránku a zkuste to znova."
 
 #: Civi/Firewall/Firewall.php
 msgid "Blocked"
-msgstr ""
+msgstr "Zablokováno"
 
 #: firewall.php
 msgid "Firewall Settings"
-msgstr ""
+msgstr "Nastavení firewallu"
 
 #: settings/firewall.setting.php
 msgid "Is server behind reverse proxy?"
-msgstr ""
+msgstr "Je server za reverzní proxy?"
 
 #: settings/firewall.setting.php
 msgid ""
 "If yes, try to retrieve the IP address of the actual client instead of using"
 " REMOTE_ADDR header"
 msgstr ""
+"Pokud ano, zkuste získat IP adresu skutečného klienta místo použití hlavičky"
+" REMOTE_ADDR"
 
 #: settings/firewall.setting.php
 msgid "Firewall Reverse Proxy Header"
-msgstr ""
+msgstr "Firewall reverzní proxy hlavička"
 
 #: settings/firewall.setting.php
 msgid "Reverse Proxy Header (default HTTP_X_FORWARDED_FOR)"
-msgstr ""
+msgstr "Hlavička reverzního proxy serveru (výchozí je HTTP_X_FORWARDED_FOR)"
 
 #: settings/firewall.setting.php
 msgid "List of reverse proxy IP addresses"
-msgstr ""
+msgstr "Seznam IP adres reverzní proxy"
 
 #: settings/firewall.setting.php
 msgid ""
 "List of reverse proxy IP addresses that may be seen by your server. Used to "
 "help identify client IP address"
 msgstr ""
+"Seznam IP adres reverzní proxy, které můžete vidět na vašem serveru. Používá"
+" se k identifikaci IP adresy klienta"
 
 #: settings/firewall.setting.php
 msgid "List of IP addresses to always allow"
-msgstr ""
+msgstr "Seznam IP adres, které vždy povolit"
 
 #: settings/firewall.setting.php
 msgid ""
 "List of IP addresses that will never be blocked. For IPv4 can include "
 "wildcards eg. 192.168.*"
 msgstr ""
+"Seznam IP adres, které nikdy nebudou blokovány. Pro IPv4 adresy lze použít "
+"zástupné znaky – např. 192.168.*"
 
 #: settings/firewall.setting.php
 msgid "List of IP addresses to block"
-msgstr ""
+msgstr "Seznam IP adres k blokaci"
 
 #: settings/firewall.setting.php
 msgid ""
 "List of IP addresses that will always be blocked. For IPv4 can include "
 "wildcards eg. 192.168.*"
 msgstr ""
+"Seznam IP adres, které budou vždy blokovány. Pro IPv4 adresy lze použít "
+"zástupné znaky – např. 192.168.*"
