@@ -41,6 +41,9 @@ msgid ""
 "NULL connector_id. These need updating manually to 0 or the connector ID if "
 "using the connectors extension."
 msgstr ""
+"V SQL tabulce `civicrm_account_contact` jsou %1 záznam(y), které mají NULL v"
+" connector_id. Ty je třeba aktualizovat ručně na 0 nebo vložit ID konektoru,"
+" pokud používáte rozšíření konektorů."
 
 #: CRM/Accountsync/Check.php
 msgid "AccountSync: Database issues"
@@ -52,23 +55,26 @@ msgid ""
 "NULL connector_id. These need updating manually to 0 or the connector ID if "
 "using the connectors extension."
 msgstr ""
+"V SQL tabulce `civicrm_account_invoice` jsou %1 záznam(y), které mají NULL v"
+" connector_id. Ty je třeba aktualizovat ručně na 0 nebo vložit ID konektoru,"
+" pokud používáte rozšíření konektorů."
 
 #: CRM/Accountsync/DAO/AccountContact.php
 msgid "Account Contacts"
-msgstr ""
+msgstr "Kontakty účtu"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 msgid "Account Contact"
-msgstr ""
+msgstr "Kontakt účtu"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php managed/contact_list.mgd.php
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 msgid "Unique AccountContact ID"
-msgstr ""
+msgstr "Unikátní ID pro AccountContact"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 msgid "Contact ID"
@@ -76,7 +82,7 @@ msgstr "ID Kontaktu"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 msgid "FK to Contact"
-msgstr ""
+msgstr "Cizí klíč na kontakt"
 
 #: CRM/Accountsync/DAO/AccountContact.php managed/contact_errors.mgd.php
 #: managed/contact_list.mgd.php managed/contact_match.mgd.php
@@ -99,7 +105,7 @@ msgstr "Zobrazované jméno"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 msgid "Name from Accounts Package"
-msgstr ""
+msgstr "Jméno pro balíček účtů"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php
@@ -109,53 +115,53 @@ msgstr "Poslední datum synchronizace"
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "When was the contact last synced."
-msgstr "Kdy byly kontakty naposledy synchronizovány."
+msgstr "Kdy byl kontakt naposledy synchronizován."
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php managed/contact_match.mgd.php
 msgid "Accounts Modified Date"
-msgstr "Datum úpravy účtů"
+msgstr "Datum úpravy účetního záznamu"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "When was the invoice last Altered in the accounts system."
-msgstr ""
+msgstr "Kdy byla faktura naposledy upravena v účetním systému."
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Account System Data"
-msgstr ""
+msgstr "Data účetního systému"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "json array of data as returned from accounts system"
-msgstr ""
+msgstr "pole json dat jak se vrátilo z účetního systému"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php managed/contact_errors.mgd.php
 #: managed/invoice_errors.mgd.php
 msgid "Account Error Data"
-msgstr ""
+msgstr "Chyba dat účetního systému"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "json array of error data as returned from accounts system"
-msgstr ""
+msgstr "pole json chybových dat jak se vrátilo z účetního systému"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php managed/contact_list.mgd.php
 msgid "Accounts Needs Update"
-msgstr ""
+msgstr "Účetní systém potřebuje aktualizaci"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Include in next push to accounts"
-msgstr ""
+msgstr "Zahrnuto do příští dávky do účetního systému"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Connector ID"
-msgstr ""
+msgstr "ID konektoru"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php
@@ -163,57 +169,59 @@ msgid ""
 "ID of connector. Relevant to connect to more than one account of the same "
 "type"
 msgstr ""
+"ID konektoru. Relevantní pro připojení k více než jednomu účetnímu systému "
+"stejného typu"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php managed/contact_match.mgd.php
 msgid "Account Plugin"
-msgstr ""
+msgstr "Rozšíření účetního systému"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Name of plugin creating the account"
-msgstr ""
+msgstr "Jméno rozšíření vytvářející tento účet"
 
 #: CRM/Accountsync/DAO/AccountContact.php managed/contact_list.mgd.php
 #: managed/contact_match.mgd.php
 msgid "Do Not Sync"
-msgstr ""
+msgstr "Nesynchronizovat"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 msgid "Do not sync this contact"
-msgstr ""
+msgstr "Nesynchronizovat tento kontakt"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php managed/contact_list.mgd.php
 msgid "Error Resolved"
-msgstr ""
+msgstr "Chyba vyřešena"
 
 #: CRM/Accountsync/DAO/AccountContact.php
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Filter out if resolved"
-msgstr ""
+msgstr "Odfiltrovat ty, které jsou vyřešené"
 
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Account Invoices"
-msgstr ""
+msgstr "Účetní faktury"
 
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Account Invoice"
-msgstr ""
+msgstr "Účetní faktura"
 
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Unique AccountInvoice ID"
-msgstr ""
+msgstr "Unikátní ID pro AccountInvoice"
 
 #: CRM/Accountsync/DAO/AccountInvoice.php
 #: managed/SavedSearch_Non_queued_Contributions.mgd.php
 #: managed/invoice_errors.mgd.php
 msgid "Contribution ID"
-msgstr ""
+msgstr "ID příspěvku"
 
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "FK to contribution table."
-msgstr ""
+msgstr "Cizí klíč do tabulky příspěvků."
 
 #: CRM/Accountsync/DAO/AccountInvoice.php managed/invoice_errors.mgd.php
 msgid "Accounts Invoice ID"
@@ -233,7 +241,7 @@ msgstr ""
 
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Last Modified Date"
-msgstr ""
+msgstr "Poslední datum úpravy"
 
 #: CRM/Accountsync/DAO/AccountInvoice.php
 msgid "Connection"
@@ -261,7 +269,7 @@ msgstr "Označit za vyřešené"
 
 #: Civi/Hooks/SearchKitTasks.php
 msgid "Successfully marked %1 records as resolved."
-msgstr ""
+msgstr "Úspěšně označeno %1 záznamů jako vyřešeno."
 
 #: Civi/Hooks/SearchKitTasks.php
 msgid "An error occurred while marking errors as resolved."
@@ -438,11 +446,11 @@ msgstr "Chyby"
 
 #: managed/navigation.mgd.php
 msgid "Invoice Errors"
-msgstr ""
+msgstr "Fakturační chyby"
 
 #: managed/navigation.mgd.php
 msgid "Contact Errors"
-msgstr ""
+msgstr "Chyby kontaktu"
 
 #: managed/navigation.mgd.php
 msgid "Match Contacts (legacy)"
