@@ -4,13 +4,13 @@
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
 # Maria <maria.vogel@civiservice.de>, 2022
-# Torben Bertram, 2024
+# Torben Bertram, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: qrcodecheckin\n"
-"POT-Creation-Date: 2026-03-17 10:01+0100\n"
-"Last-Translator: Torben Bertram, 2024\n"
+"POT-Creation-Date: 2026-03-19 10:01+0100\n"
+"Last-Translator: Torben Bertram, 2026\n"
 "Language-Team: German (https://app.transifex.com/civicrm/teams/1905/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,19 +38,19 @@ msgstr ""
 
 #: managed/CustomGroup_QRCode.mgd.php
 msgid "QRCode"
-msgstr ""
+msgstr "QR-Code"
 
 #: managed/CustomGroup_QRCode.mgd.php
 msgid "QRCode Public link"
-msgstr ""
+msgstr "QR-Code öffentlicher Link"
 
 #: managed/afformPlacement.mgd.php
 msgid "QR Code Landing Page"
-msgstr ""
+msgstr "QR-Code Landing Page"
 
 #: managed/afformPlacement.mgd.php
 msgid "Add to QR Code Check-In landing page."
-msgstr ""
+msgstr "Füge zur QR-Code Check-In landing page hinzu."
 
 #: qrcodecheckin.js
 msgid "There was an error updating the status. Sorry."
@@ -76,7 +76,7 @@ msgstr "Aktiviere QR Code Token für diese Veranstaltung"
 
 #: qrcodecheckin.php
 msgid "Add QR Code to confirmation emails"
-msgstr ""
+msgstr "Füge QR-Code zur Bestätigungs-Mail hinzu"
 
 #: qrcodecheckin.php
 msgid "QR Code Checkin"
@@ -100,7 +100,7 @@ msgstr "QR Code Bild und Link zur Veranstaltung"
 
 #: qrcodecheckin.php
 msgid "QR Code with link to checkin page"
-msgstr ""
+msgstr "QR-Code mit Link zur Check-In-Seite"
 
 #: qrcodecheckin.php
 msgid ""
@@ -111,10 +111,16 @@ msgid ""
 " your QR Codes in case you need to display them when you do not have "
 "Internet access."
 msgstr ""
+"Sie haben mehrfache Anmeldungen für diese Veranstaltung. Jeder QR-Code hier "
+"bezieht sich auf eine andere Anmeldung. Sollten Sie die QR-Codes hier oben "
+"nicht sehen, dann erlauben Sie bitte das Anzeigen von Bildern in Ihrem "
+"E-Mail-Programm oder greifen Sie direkt auf sie zu (Link untenstehend). Sie "
+"können einen Screenshot von Ihren QR-Codes machen, um die Codes auch ohne "
+"Internetzugriff anzeigen zu können."
 
 #: qrcodecheckin.php
 msgid "QR code #%1"
-msgstr ""
+msgstr "QR-Code #%1"
 
 #: qrcodecheckin.php
 msgid ""
@@ -124,10 +130,16 @@ msgid ""
 "href=\"%1\">directly</a>. You may want to take a screen grab of your QR Code"
 " in case you need to display it when you do not have Internet access."
 msgstr ""
+"Sie sollten hier oben einen QR-Code sehen, mit dem Sie sich schnell am "
+"Check-In anmelden können. Wenn Sie keinen Code sehen, aktivieren Sie bitte "
+"die Anzeige von Bildern in Ihrem E-Mail-Programm oder versuchen Sie es <a "
+"href=\"%1\">direkt</a>. Vielleicht möchten Sie eine Bildschirmaufnahme Ihres"
+" QR-Codes machen, falls Sie diesen bei fehlendem Internetzugang zeigen "
+"müssen."
 
 #: qrcodecheckin.php
 msgid "QR Code Checkin Settings"
-msgstr ""
+msgstr "QR-Code Check-in Einstellungen"
 
 #: settings/qrcodecheckin.setting.php
 msgid ""
@@ -147,36 +159,48 @@ msgstr ""
 " an Kontakte verwendet werden."
 
 #: settings/qrcodecheckin.setting.php
-msgid "QR Code Scan Action"
+msgid ""
+"The events that will use QRCodes, sending the code in the confirmation "
+"email."
 msgstr ""
+"Die Veranstaltung welche QR-Codes benutzen wird, der Code wird in der "
+"Bestätigungs-Mail versendet."
+
+#: settings/qrcodecheckin.setting.php
+msgid "QR Code Scan Action"
+msgstr "QR-Code Scan-Aktion"
 
 #: settings/qrcodecheckin.setting.php
 msgid "The action to take when a QR code is scanned."
-msgstr ""
+msgstr "Die Aktion, die benutzt wird wenn ein QR-Code gescannt wird."
 
 #: settings/qrcodecheckin.setting.php
 msgid ""
 "Choose whether scanning a QR code automatically checks in the participant, "
 "or presents an \"Attended\" button."
 msgstr ""
+"Entscheide, ob das Sacnnen vom QR-Code den Teilnehmenden automatisch "
+"eincheckt oder aber einen \"Teilgenommen\"-Knopf zeigt."
 
 #: settings/qrcodecheckin.setting.php
 msgid "Show Button"
-msgstr ""
+msgstr "Zeige Button"
 
 #: settings/qrcodecheckin.setting.php
 msgid "Automatically Check In"
-msgstr ""
+msgstr "Automatischer Check-In"
 
 #: settings/qrcodecheckin.setting.php
 msgid "Send all QR codes in one email"
-msgstr ""
+msgstr "Sende alle QR-Codes in einer E-Mail"
 
 #: settings/qrcodecheckin.setting.php
 msgid ""
 "If a contact registers multiple participants, this will send the primary "
 "contact all the QR codes."
 msgstr ""
+"Falls ein Kontakt mehrere Teilnehmende anmeldet, dann wird diese Einstellung"
+" dem Hauptkontakt alle QR-Codes senden."
 
 #: templates/CRM/Qrcodecheckin/Page/QrcodecheckinLanding.tpl
 msgid ""
@@ -195,3 +219,5 @@ msgid ""
 "If enabled, confirmation emails will contain the QR code. Can be used in "
 "addition to or instead of tokens."
 msgstr ""
+"Bestätigungs-Mails enthalten den QR-Code, wenn aktiviert. Kann zusätzlich "
+"oder anstelle von Token benutzt werden."
