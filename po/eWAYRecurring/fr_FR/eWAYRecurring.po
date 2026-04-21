@@ -3,15 +3,15 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Guillaume Sorel <serviceclient@all-in-appli.com>, 2022
-# Alain Rihs <alainrihs@sunrise.ch>, 2022
-# Usha Matisson, 2025
+# Guillaume Sorel <serviceclient@all-in-appli.com>, 2026
+# Usha Matisson, 2026
+# Alain Rihs <alainrihs@sunrise.ch>, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: eWAYRecurring\n"
-"POT-Creation-Date: 2025-10-28 10:01+0100\n"
-"Last-Translator: Usha Matisson, 2025\n"
+"POT-Creation-Date: 2026-04-21 11:01+0200\n"
+"Last-Translator: Alain Rihs <alainrihs@sunrise.ch>, 2026\n"
 "Language-Team: French (https://app.transifex.com/civicrm/teams/1905/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -111,6 +111,64 @@ msgid ""
 "details see the <a href=\"%1\">upgrade notes</a>."
 msgstr ""
 
+#: ang/afsearchFailedRecurringContributions.aff.php
+#: managed/Navigation_afsearchFailedRecurringContributions.mgd.php
+#: managed/SavedSearch_Failed_Recurring_Contributions.mgd.php
+msgid "Failed Recurring Contributions"
+msgstr ""
+
+#: ang/ewayrecurring/crmSearchTaskResetRecur.ctrl.js
+msgid "au.com.agileware.ewayrecurring"
+msgstr ""
+
+#: ang/ewayrecurring/crmSearchTaskResetRecur.ctrl.js
+msgid "In Progress"
+msgstr ""
+
+#: ang/ewayrecurring/crmSearchTaskResetRecur.ctrl.js
+msgid ""
+"Clear the failures on %1 selected recurring contribution and reset its "
+"status to \"%2\""
+msgstr ""
+
+#: ang/ewayrecurring/crmSearchTaskResetRecur.ctrl.js
+msgid "Successfully reactivated %1 Recurring Contributions."
+msgstr ""
+
+#: ang/ewayrecurring/crmSearchTaskResetRecur.ctrl.js
+msgid "Reactivation Complete"
+msgstr ""
+
+#: ang/ewayrecurring/crmSearchTaskResetRecur.ctrl.js
+msgid ""
+"An error occurring while attempting to reactivate %1 Recurring "
+"Contributions."
+msgstr ""
+
+#: ang/ewayrecurring/crmSearchTaskResetRecur.ctrl.js
+msgid "Reactivation Error"
+msgstr ""
+
+#: ang/ewayrecurring/crmSearchTaskResetRecur.html
+msgid "Update Schedule Date"
+msgstr ""
+
+#: ang/ewayrecurring/crmSearchTaskResetRecur.html
+msgid "Update the next scheduled payment date. Leave blank for no change."
+msgstr ""
+
+#: ang/ewayrecurring/crmSearchTaskResetRecur.html
+msgid "Reactivating Recurring Contributions..."
+msgstr ""
+
+#: ang/ewayrecurring/crmSearchTaskResetRecur.html
+msgid "Cancel"
+msgstr "Annuler"
+
+#: ang/ewayrecurring/crmSearchTaskResetRecur.html
+msgid "Reactivate Recurring Contributions"
+msgstr ""
+
 #: eWAYRecurring.php
 msgid "API Key is a required field."
 msgstr ""
@@ -145,6 +203,22 @@ msgstr ""
 msgid "CiviContribute: edit payment tokens"
 msgstr ""
 
+#: eWAYRecurring.php
+#: managed/SavedSearch_Failed_Recurring_Contributions.mgd.php
+msgid "Reactivate"
+msgstr ""
+
+#: eWAYRecurring.php
+msgid ""
+"Found %1 failed recurring contributions that may be stuck due to e.g. "
+"invalid card details. Visit <a href=\"%2\">Failed Recurring "
+"Contributions</a> for more details ."
+msgstr ""
+
+#: eWAYRecurring.php
+msgid "eWAYRecurring - failed recurring contributions"
+msgstr ""
+
 #: js/eway.js
 msgid "The credit card list has been updated."
 msgstr ""
@@ -169,6 +243,52 @@ msgstr ""
 msgid "eWAY Error"
 msgstr ""
 
+#: managed/SavedSearch_Failed_Recurring_Contributions.mgd.php
+msgid "Failed Recurring Contribution Listing"
+msgstr ""
+
+#: managed/SavedSearch_Failed_Recurring_Contributions.mgd.php
+msgid "Contact"
+msgstr "Contact"
+
+#: managed/SavedSearch_Failed_Recurring_Contributions.mgd.php
+msgid "View Contact"
+msgstr "Voir le contact"
+
+#: managed/SavedSearch_Failed_Recurring_Contributions.mgd.php
+#: schema/EwayContributionTransactions.entityType.php
+msgid "ID"
+msgstr "Id."
+
+#: managed/SavedSearch_Failed_Recurring_Contributions.mgd.php
+msgid "Start Date"
+msgstr "Date de début"
+
+#: managed/SavedSearch_Failed_Recurring_Contributions.mgd.php
+msgid "Next Scheduled Date"
+msgstr ""
+
+#: managed/SavedSearch_Failed_Recurring_Contributions.mgd.php
+#: schema/EwayContributionTransactions.entityType.php
+msgid "Status"
+msgstr "État"
+
+#: managed/SavedSearch_Failed_Recurring_Contributions.mgd.php
+msgid "Amount"
+msgstr "Montant"
+
+#: managed/SavedSearch_Failed_Recurring_Contributions.mgd.php
+msgid "Frequency"
+msgstr "Périodicité"
+
+#: managed/SavedSearch_Failed_Recurring_Contributions.mgd.php
+msgid "Number of Failures"
+msgstr ""
+
+#: managed/SavedSearch_Failed_Recurring_Contributions.mgd.php
+msgid "Retry Failed Attempt On"
+msgstr ""
+
 #: schema/EwayContributionTransactions.entityType.php
 msgid "Eway Contribution Transactions"
 msgstr ""
@@ -180,10 +300,6 @@ msgstr ""
 #: schema/EwayContributionTransactions.entityType.php
 msgid "FIXME"
 msgstr ""
-
-#: schema/EwayContributionTransactions.entityType.php
-msgid "ID"
-msgstr "Id."
 
 #: schema/EwayContributionTransactions.entityType.php
 msgid "Unique EwayContributionTransactions ID"
@@ -212,10 +328,6 @@ msgstr ""
 #: schema/EwayContributionTransactions.entityType.php
 msgid "Failed Message"
 msgstr ""
-
-#: schema/EwayContributionTransactions.entityType.php
-msgid "Status"
-msgstr "État"
 
 #: schema/EwayContributionTransactions.entityType.php
 msgid "Tries"
