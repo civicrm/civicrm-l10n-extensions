@@ -11,7 +11,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: donrec\n"
-"POT-Creation-Date: 2026-03-28 10:01+0100\n"
+"POT-Creation-Date: 2026-05-06 11:01+0200\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>, 2026\n"
 "Language-Team: English (United Kingdom) (https://app.transifex.com/civicrm/teams/1905/en_GB/)\n"
 "MIME-Version: 1.0\n"
@@ -117,6 +117,8 @@ msgid "Selected fields"
 msgstr "Selected fields"
 
 #: CRM/Admin/Form/DonrecProfile.php donrec.php
+#: managed/CustomGroup_zwb_donation_receipt.mgd.php
+#: managed/CustomGroup_zwb_donation_receipt_item.mgd.php
 #: templates/CRM/Admin/Form/DonrecProfile.tpl
 #: templates/CRM/Donrec/Page/Tab.tpl
 msgid "Receipt ID"
@@ -315,14 +317,6 @@ msgstr "Packet size can only contain positive integers"
 #: CRM/Admin/Page/DonrecProfiles.php
 msgid "Never"
 msgstr "Never"
-
-#: CRM/Donrec/DataStructure.php
-msgid "Donation Receipt"
-msgstr "Donation Receipt"
-
-#: CRM/Donrec/DataStructure.php
-msgid "Donation Receipt Item"
-msgstr "Donation Receipt Item"
 
 #: CRM/Donrec/Exporters/CSV.php
 msgid "CSV File"
@@ -602,6 +596,7 @@ msgstr "To:"
 
 #: CRM/Donrec/Form/Task/ContributeTask.php CRM/Donrec/Form/Task/Create.php
 #: CRM/Donrec/Form/Task/DonrecTask.php
+#: managed/CustomGroup_zwb_donation_receipt.mgd.php
 msgid "Profile"
 msgstr "Profile"
 
@@ -1054,19 +1049,22 @@ msgstr "Статус"
 msgid "- any -"
 msgstr "- any -"
 
-#: donrec.php templates/CRM/Donrec/Page/Tab.tpl
+#: donrec.php managed/1_OptionGroup_donrec_status.mgd.php
+#: templates/CRM/Donrec/Page/Tab.tpl
 msgid "original"
 msgstr "original"
 
-#: donrec.php templates/CRM/Donrec/Page/Tab.tpl
+#: donrec.php managed/1_OptionGroup_donrec_status.mgd.php
+#: templates/CRM/Donrec/Page/Tab.tpl
 msgid "copy"
 msgstr "copy"
 
-#: donrec.php templates/CRM/Donrec/Page/Tab.tpl
+#: donrec.php managed/1_OptionGroup_donrec_status.mgd.php
+#: templates/CRM/Donrec/Page/Tab.tpl
 msgid "withdrawn"
 msgstr "withdrawn"
 
-#: donrec.php
+#: donrec.php managed/1_OptionGroup_donrec_status.mgd.php
 msgid "withdrawn_copy"
 msgstr "withdrawn_copy"
 
@@ -1085,6 +1083,173 @@ msgstr "bulk receipt"
 #: donrec.php
 msgid "Issued by contact"
 msgstr "Issued by contact"
+
+#: managed/1_OptionGroup_donrec_status.mgd.php
+#: managed/CustomGroup_zwb_donation_receipt.mgd.php
+#: managed/CustomGroup_zwb_donation_receipt_item.mgd.php
+msgid "status"
+msgstr "status"
+
+#: managed/1_OptionGroup_donrec_type.mgd.php
+#: managed/CustomGroup_zwb_donation_receipt_item.mgd.php
+msgid "type"
+msgstr ""
+
+#: managed/1_OptionGroup_donrec_type.mgd.php
+msgid "single"
+msgstr ""
+
+#: managed/1_OptionGroup_donrec_type.mgd.php
+msgid "bulk"
+msgstr ""
+
+#: managed/CustomGroup_zwb_donation_receipt.mgd.php
+msgid "Donation Receipt"
+msgstr "Donation Receipt"
+
+#: managed/CustomGroup_zwb_donation_receipt.mgd.php
+msgid "shipping_postal_code"
+msgstr ""
+
+#: managed/CustomGroup_zwb_donation_receipt.mgd.php
+msgid "shipping_country"
+msgstr ""
+
+#: managed/CustomGroup_zwb_donation_receipt.mgd.php
+msgid "Shipping Addressee Display"
+msgstr ""
+
+#: managed/CustomGroup_zwb_donation_receipt.mgd.php
+msgid "shipping_supplemental_address_1"
+msgstr ""
+
+#: managed/CustomGroup_zwb_donation_receipt.mgd.php
+msgid "supplemental_address_2"
+msgstr ""
+
+#: managed/CustomGroup_zwb_donation_receipt.mgd.php
+msgid "city"
+msgstr ""
+
+#: managed/CustomGroup_zwb_donation_receipt.mgd.php
+msgid "original_file"
+msgstr ""
+
+#: managed/CustomGroup_zwb_donation_receipt.mgd.php
+msgid "street_address"
+msgstr ""
+
+#: managed/CustomGroup_zwb_donation_receipt.mgd.php
+#: managed/CustomGroup_zwb_donation_receipt_item.mgd.php
+msgid "issued_on"
+msgstr ""
+
+#: managed/CustomGroup_zwb_donation_receipt.mgd.php
+#: managed/CustomGroup_zwb_donation_receipt_item.mgd.php
+msgid "issued_by"
+msgstr ""
+
+#: managed/CustomGroup_zwb_donation_receipt.mgd.php
+#: templates/CRM/Admin/Page/DonrecProfiles.tpl
+msgid "Profile ID"
+msgstr "Profile ID"
+
+#: managed/CustomGroup_zwb_donation_receipt.mgd.php
+msgid "date_from"
+msgstr ""
+
+#: managed/CustomGroup_zwb_donation_receipt.mgd.php
+msgid "Addressee Display"
+msgstr ""
+
+#: managed/CustomGroup_zwb_donation_receipt.mgd.php
+msgid "date_to"
+msgstr ""
+
+#: managed/CustomGroup_zwb_donation_receipt.mgd.php
+msgid "supplemental_address_1"
+msgstr ""
+
+#: managed/CustomGroup_zwb_donation_receipt.mgd.php
+msgid "Display Name"
+msgstr "Display Name"
+
+#: managed/CustomGroup_zwb_donation_receipt.mgd.php
+msgid "postal_code"
+msgstr ""
+
+#: managed/CustomGroup_zwb_donation_receipt.mgd.php
+msgid "Contact Type"
+msgstr "Contact Type"
+
+#: managed/CustomGroup_zwb_donation_receipt.mgd.php
+msgid "country"
+msgstr ""
+
+#: managed/CustomGroup_zwb_donation_receipt.mgd.php
+msgid "Gender"
+msgstr "Gender"
+
+#: managed/CustomGroup_zwb_donation_receipt.mgd.php
+msgid "shipping_street_address"
+msgstr ""
+
+#: managed/CustomGroup_zwb_donation_receipt.mgd.php
+msgid "Prefix"
+msgstr "Prefix"
+
+#: managed/CustomGroup_zwb_donation_receipt.mgd.php
+msgid "shipping_supplemental_address_2"
+msgstr ""
+
+#: managed/CustomGroup_zwb_donation_receipt.mgd.php
+msgid "Postal Greeting Display"
+msgstr ""
+
+#: managed/CustomGroup_zwb_donation_receipt.mgd.php
+msgid "shipping_city"
+msgstr ""
+
+#: managed/CustomGroup_zwb_donation_receipt.mgd.php
+msgid "Email Greeting Display"
+msgstr ""
+
+#: managed/CustomGroup_zwb_donation_receipt.mgd.php
+#: managed/CustomGroup_zwb_donation_receipt_item.mgd.php
+msgid "exporters"
+msgstr ""
+
+#: managed/CustomGroup_zwb_donation_receipt_item.mgd.php
+msgid "Donation Receipt Item"
+msgstr "Donation Receipt Item"
+
+#: managed/CustomGroup_zwb_donation_receipt_item.mgd.php
+msgid "contribution_hash"
+msgstr ""
+
+#: managed/CustomGroup_zwb_donation_receipt_item.mgd.php
+msgid "currency"
+msgstr ""
+
+#: managed/CustomGroup_zwb_donation_receipt_item.mgd.php
+msgid "receive_date"
+msgstr ""
+
+#: managed/CustomGroup_zwb_donation_receipt_item.mgd.php
+msgid "financial_type_id"
+msgstr ""
+
+#: managed/CustomGroup_zwb_donation_receipt_item.mgd.php
+msgid "non_deductible_amount"
+msgstr ""
+
+#: managed/CustomGroup_zwb_donation_receipt_item.mgd.php
+msgid "total_amount"
+msgstr ""
+
+#: managed/CustomGroup_zwb_donation_receipt_item.mgd.php
+msgid "issued_in"
+msgstr ""
 
 #: templates/CRM/Admin/Form/DonrecProfile.hlp
 msgid ""
@@ -1723,10 +1888,6 @@ msgstr "Manage general extension settings"
 #: templates/CRM/Admin/Page/DonrecProfiles.tpl
 msgid "General settings"
 msgstr "General settings"
-
-#: templates/CRM/Admin/Page/DonrecProfiles.tpl
-msgid "Profile ID"
-msgstr "Profile ID"
 
 #: templates/CRM/Admin/Page/DonrecProfiles.tpl
 msgid "Sort descending"
