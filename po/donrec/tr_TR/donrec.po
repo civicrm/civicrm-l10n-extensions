@@ -1721,39 +1721,43 @@ msgstr "Değişkenler"
 
 #: templates/CRM/Admin/Form/DonrecProfile.tpl
 msgid "Store original PDF"
-msgstr ""
+msgstr "Özgün PDF tutulsun"
 
 #: templates/CRM/Admin/Form/DonrecProfile.tpl
 msgid "Watermarks"
-msgstr ""
+msgstr "Filigranlar"
 
 #: templates/CRM/Admin/Form/DonrecProfile.tpl
 msgid "Draft Text"
-msgstr ""
+msgstr "Taslak yazı"
 
 #: templates/CRM/Admin/Form/DonrecProfile.tpl
 msgid "Copy Text"
-msgstr ""
+msgstr "Yazıyı kopyala"
 
 #: templates/CRM/Admin/Form/DonrecProfile.tpl
 msgid "E-Mails"
-msgstr ""
+msgstr "E-postalar"
 
 #: templates/CRM/Admin/Form/DonrecProfile.tpl
 msgid ""
 "Sending donation receipts by email can be tricky, make sure you know how you"
 " want to detect and handle bounces or returns."
 msgstr ""
+"Bağış alındılarının e-posta ile gönderilmesi incelikli olabilir. Geri dönen "
+"e-postaların nasıl algılanıp işleneceğini bildiğinizden emin olun. "
 
 #: templates/CRM/Admin/Form/DonrecProfile.tpl
 msgid ""
 "You should also have a look at the <a href=\"%1\">return processing "
 "feature</a>."
 msgstr ""
+"Ayrıca <a href=\"%1\">geri dönüş işleme özelliğine</a> baktığınızdan emin "
+"olun."
 
 #: templates/CRM/Admin/Form/DonrecProfile.tpl
 msgid "Email-Template"
-msgstr ""
+msgstr "E-posta kalıbı"
 
 #: templates/CRM/Admin/Form/DonrecProfile.tpl
 msgid "From Email Address"
@@ -1761,27 +1765,27 @@ msgstr "\"Kimden\" e-posta adresi"
 
 #: templates/CRM/Admin/Form/DonrecProfile.tpl
 msgid "BCC Email Address"
-msgstr ""
+msgstr "Gizli e-posta adresi"
 
 #: templates/CRM/Admin/Form/DonrecProfile.tpl
 msgid "Return Path Email Address"
-msgstr ""
+msgstr "Geri dönüş yolu e-posta adresi"
 
 #: templates/CRM/Admin/Form/DonrecProfile.tpl
 msgid "Custom Mail handling"
-msgstr ""
+msgstr "Özel e-posta işleme"
 
 #: templates/CRM/Admin/Form/DonrecProfile.tpl
 msgid "Custom Mail Header"
-msgstr ""
+msgstr "Özel e-posta üst bilgisi"
 
 #: templates/CRM/Admin/Form/DonrecProfile.tpl
 msgid "Activity Contact Id"
-msgstr ""
+msgstr "Etkinlik kişi kimliği"
 
 #: templates/CRM/Admin/Form/DonrecProfile.tpl
 msgid "Withdraw Receipt"
-msgstr ""
+msgstr "Alındıyı geri çek"
 
 #: templates/CRM/Admin/Form/DonrecProfile.tpl
 #: templates/CRM/Donrec/Page/Tab.tpl
@@ -1794,6 +1798,9 @@ msgid ""
 "    For example you want donation receipts for financial type Donation but not Event Fee. You organized an event where people had to pay the event fee and could give an additional donation. This ended up as one contribution with two line items, one for with financial type Event Fee the other line item has the financial type Donation. So only the last line items will have a donation receipt.<br /> <br />\n"
 "    Switching this on or off is not without a risk and therefor it is advisable to test extensively before using this in production."
 msgstr ""
+"Bağışa eklenen satır ögelerine göre bağış alındılarını oluşturur. Her satır ögesi için bir alındı oluşturur. Bu seçenek etkinleştirildiğinde, birden fazla satır ögesi bulunan bir bağış için bağış alındısı oluşturabilirsiniz. Ancak yalnızca belirli bir mali türdeki satır ögeleri için alındı oluşturabilirsiniz.<br /><br />\n"
+"    Örneğin, bağış mali türü için bağış alındıları istiyorsunuz, ancak etkinlik ücreti için istemiyorsunuz. İnsanların etkinlik ücreti ödemesi ve ek bağış yapması gereken bir etkinlik düzenlediniz. Bu, iki satır ögesi bulunan tek bir bağış olarak sonuçlandı; biri etkinlik ücreti mali türünde, diğeri bağış mali türünde. Bu nedenle, yalnızca son satır ögeleri için bağış alındısı oluşturulur.\n"
+"    Bunu açıp kapatmak risk oluşturabilir ve bu nedenle üretim ortamında kullanmadan önce kapsamlı bir şekilde denenmesi önerilir."
 
 #: templates/CRM/Admin/Form/Setting/DonrecSettings.hlp
 msgid ""
@@ -1801,6 +1808,9 @@ msgid ""
 "your system administrator to set the correct setting, and install the tool "
 "if it's not there yet."
 msgstr ""
+"Aktarılmış PDF dışa aktarıcı için <code>pdfunite</code> aracı "
+"gerekli.<br/>Sistem yöneticinizden doğru ayarları yapmasını ve araç henüz "
+"kurulmamışsa kurmasını isteyin."
 
 #: templates/CRM/Admin/Form/Setting/DonrecSettings.hlp
 msgid ""
@@ -1809,6 +1819,10 @@ msgid ""
 "printed. This works only for PDF-Viewers, which implement this feature "
 "correctly."
 msgstr ""
+"Burada pdftk yolunu belirtebilirsiniz. Oluşturulan PDF dosyalarını yalnızca "
+"ekranda görülebilecek ve yazdırabilecek şekilde \"şifrelemek\" için "
+"kullanılır. Bu özellik, yalnızca bu özelliği doğru işleyen PDF "
+"görüntüleyicileri ile çalışır."
 
 #: templates/CRM/Admin/Form/Setting/DonrecSettings.hlp
 msgid ""
@@ -1817,50 +1831,54 @@ msgid ""
 "will be used by default. This is useful if you want to use a specific email "
 "(e.g., work, home) for sending receipts."
 msgstr ""
+"Bağış alındıları gönderilirken alıcının e-posta adresinin kullanılacağı "
+"konum türünü seçin. Ayarlanmadığında, varsayılan olarak birincil e-posta "
+"adresi kullanılır. Alındı göndermek için belirli bir e-posta adresi (iş, ev "
+"gibi) kullanmak istiyorsanız yararlıdır."
 
 #: templates/CRM/Admin/Form/Setting/DonrecSettings.tpl
 msgid "Enable line item"
-msgstr ""
+msgstr "Satır ögesini etkinleştir"
 
 #: templates/CRM/Admin/Form/Setting/DonrecSettings.tpl
 msgid "Generator Packet Size"
-msgstr ""
+msgstr "Oluşturucu paket boyutu"
 
 #: templates/CRM/Admin/Form/Setting/DonrecSettings.tpl
 msgid "The <code>pdfinfo</code> Tool"
-msgstr ""
+msgstr "<code>pdfinfo</code> aracı"
 
 #: templates/CRM/Admin/Form/Setting/DonrecSettings.tpl
 msgid "The <code>pdfunite</code> Tool"
-msgstr ""
+msgstr "<code>pdfunite</code> aracı"
 
 #: templates/CRM/Admin/Form/Setting/DonrecSettings.tpl
 msgid "External Tool: command line for encryption"
-msgstr ""
+msgstr "Dış araç: Şifreleme için komut satırı"
 
 #: templates/CRM/Admin/Form/Setting/DonrecSettings.tpl
 msgid "CiviOffice Integration"
-msgstr ""
+msgstr "CiviOffice bütünleştirmesi"
 
 #: templates/CRM/Admin/Page/DonrecProfiles.tpl
 msgid "New profile"
-msgstr ""
+msgstr "Yeni profil"
 
 #: templates/CRM/Admin/Page/DonrecProfiles.tpl
 msgid "Manage general extension settings"
-msgstr ""
+msgstr "Genel eklenti ayarları yönetimi"
 
 #: templates/CRM/Admin/Page/DonrecProfiles.tpl
 msgid "General settings"
-msgstr ""
+msgstr "Genel ayarlar"
 
 #: templates/CRM/Admin/Page/DonrecProfiles.tpl
 msgid "Sort descending"
-msgstr ""
+msgstr "Azalan sıralama"
 
 #: templates/CRM/Admin/Page/DonrecProfiles.tpl
 msgid "Sort ascending"
-msgstr ""
+msgstr "Artan sıralama"
 
 #: templates/CRM/Admin/Page/DonrecProfiles.tpl
 msgid "Default"
@@ -1872,19 +1890,19 @@ msgstr "Etkin"
 
 #: templates/CRM/Admin/Page/DonrecProfiles.tpl
 msgid "Locked"
-msgstr ""
+msgstr "Kilitli"
 
 #: templates/CRM/Admin/Page/DonrecProfiles.tpl
 msgid "Usage count"
-msgstr ""
+msgstr "Kullanım sayısı"
 
 #: templates/CRM/Admin/Page/DonrecProfiles.tpl
 msgid "First usage"
-msgstr ""
+msgstr "İlk kullanım"
 
 #: templates/CRM/Admin/Page/DonrecProfiles.tpl
 msgid "Last usage"
-msgstr ""
+msgstr "Son kullanım"
 
 #: templates/CRM/Admin/Page/DonrecProfiles.tpl
 msgid "Operations"
@@ -1896,11 +1914,11 @@ msgstr "Etkisiz"
 
 #: templates/CRM/Admin/Page/DonrecProfiles.tpl
 msgid "Unlocked"
-msgstr ""
+msgstr "Kilidi açık"
 
 #: templates/CRM/Admin/Page/DonrecProfiles.tpl
 msgid "Edit profile %1"
-msgstr ""
+msgstr "%1 profilini düzenle"
 
 #: templates/CRM/Admin/Page/DonrecProfiles.tpl
 msgid "Edit"
@@ -1908,7 +1926,7 @@ msgstr "Düzenle"
 
 #: templates/CRM/Admin/Page/DonrecProfiles.tpl
 msgid "Copy profile %1"
-msgstr ""
+msgstr "%1 profilini kopyala"
 
 #: templates/CRM/Admin/Page/DonrecProfiles.tpl
 msgid "Copy"
@@ -1916,23 +1934,23 @@ msgstr "Kopyala"
 
 #: templates/CRM/Admin/Page/DonrecProfiles.tpl
 msgid "Activate profile %1"
-msgstr ""
+msgstr "%1 profilini etkinleştir"
 
 #: templates/CRM/Admin/Page/DonrecProfiles.tpl
 msgid "Deactivate profile %1"
-msgstr ""
+msgstr "%1 profilini etkisizleştir"
 
 #: templates/CRM/Admin/Page/DonrecProfiles.tpl
 msgid "Set profile %1 as default"
-msgstr ""
+msgstr "%1 profilini varsayılan olarak ayarla"
 
 #: templates/CRM/Admin/Page/DonrecProfiles.tpl
 msgid "Delete profile %1"
-msgstr ""
+msgstr "%1 profilini sil"
 
 #: templates/CRM/Donrec/Form/ProcessReturns.tpl
 msgid "Process Email Returns"
-msgstr ""
+msgstr "Geri dönene e-postaları işle"
 
 #: templates/CRM/Donrec/Form/ProcessReturns.tpl
 #: templates/CRM/Donrec/Form/Task/DonrecResetTask.tpl
@@ -1940,6 +1958,8 @@ msgid ""
 "This tool allows you to process bounced or returned (emailed) donation "
 "receipts into activities."
 msgstr ""
+"Bu araç, geri dönen (e-posta ile gönderilmiş) bağış alındılarını "
+"etkinliklere dönüştürmenizi sağlar."
 
 #: templates/CRM/Donrec/Form/ProcessReturns.tpl
 #: templates/CRM/Donrec/Form/Task/DonrecResetTask.tpl
@@ -1947,10 +1967,12 @@ msgid ""
 "You should create a new, exclusive email account, and set the return path to"
 " that account while sending."
 msgstr ""
+"Yeni, bir özel e-posta hesabı oluşturmalı ve gönderirken bu hesaba geri "
+"dönüş yolunu ayarlamalısınız."
 
 #: templates/CRM/Donrec/Form/ProcessReturns.tpl
 msgid "Account Access"
-msgstr ""
+msgstr "Hesap erişimi"
 
 #: templates/CRM/Donrec/Form/Task/DonrecResetTask.tpl
 msgid ""
@@ -1958,52 +1980,57 @@ msgid ""
 " code containing the contact ID to the the email template, and provide a "
 "pattern below to recognise it."
 msgstr ""
+"Makbuzun gönderildiği kişiyi benzersiz bir şekilde tanımlamak için, e-posta "
+"kalıbına kişi kimliğinin bulunduğu bir kod ekleyebilir ve onu tanımak için "
+"aşağıda bir model belirtebilirsiniz."
 
 #: templates/CRM/Donrec/Form/Task/Rebook.tpl
 msgid "Are you sure you want to rebook the selected contributions?"
-msgstr ""
+msgstr "Seçilmiş katkıları yeniden ayırtmak istediğinize emin misiniz?"
 
 #: templates/CRM/Donrec/Form/Task/Rebook.tpl
 msgid "Number of selected contributions:"
-msgstr ""
+msgstr "Seçilmiş katkı sayısı:"
 
 #: templates/CRM/Donrec/Form/Task/Rebook.tpl
 msgid "Are you sure you want to rebook the contribution?"
-msgstr ""
+msgstr "Katkıyı yeniden ayırtmak istediğinize emin misiniz?"
 
 #: templates/CRM/Donrec/Form/Task/Rebook.tpl
 msgid "Please enter the target CiviCRM ID?"
-msgstr ""
+msgstr "Lütfen hedef CiviCRM kimliğini yazın"
 
 #: templates/CRM/Donrec/Form/Task/creation_parameters.tpl
 msgid "Filter contributions by receive date"
-msgstr ""
+msgstr "Katkıları alınma tarihine göre süz"
 
 #: templates/CRM/Donrec/Form/Task/remaining_snapshot.tpl
 msgid "Unfinished run detected"
-msgstr ""
+msgstr "Tamamlanmamış bir çalışma bulundu"
 
 #: templates/CRM/Donrec/Form/Task/remaining_snapshot.tpl
 msgid "You have an unfinished run, do you want to continue with it?"
-msgstr ""
+msgstr "Tamamlanmamış bir çalışmanız var. Sürdürülmesini ister misiniz?"
 
 #: templates/CRM/Donrec/Form/Task/remaining_snapshot.tpl
 msgid "Otherwise it <b>will be deleted</b>!"
-msgstr ""
+msgstr "Yoksa <b>silinecek</b>!"
 
 #: templates/CRM/Donrec/Form/Task/remaining_snapshot.tpl
 msgid "An interrupted run has been detected. Do you want to continue with it?"
-msgstr ""
+msgstr "Kesintiye uğramış bir çalışma bulundu. Sürdürülmesini ister misiniz?"
 
 #: templates/CRM/Donrec/Form/Task/remaining_snapshot.tpl
 msgid "Otherwise the selection <b>will be deleted</b>!"
-msgstr ""
+msgstr "Yoksa seçim <b>silinecek</b>!"
 
 #: templates/CRM/Donrec/Form/Task/remaining_snapshot.tpl
 msgid ""
 "<b>Caution!</b> Some receipts have already been created. If you do not "
 "continue with this run, you should probably delete them manually."
 msgstr ""
+"<b>Dikkat!</b> Bazı alındılar zaten oluşturulmuş. Bu çalışmayı "
+"sürdürmezseniz, bunları el ile silmeniz gerekebilir."
 
 #: templates/CRM/Donrec/Form/Task/remaining_snapshot.tpl
 #: templates/CRM/Donrec/Page/Staging.tpl
@@ -2013,33 +2040,33 @@ msgstr "İstatistikler"
 #: templates/CRM/Donrec/Form/Task/remaining_snapshot.tpl
 #: templates/CRM/Donrec/Page/Staging.tpl
 msgid "contact count"
-msgstr ""
+msgstr "kişi sayısı"
 
 #: templates/CRM/Donrec/Form/Task/remaining_snapshot.tpl
 #: templates/CRM/Donrec/Page/Staging.tpl
 msgid "contribution count"
-msgstr ""
+msgstr "katkı sayısı"
 
 #: templates/CRM/Donrec/Form/Task/remaining_snapshot.tpl
 #: templates/CRM/Donrec/Page/Staging.tpl
 msgid "total amount"
-msgstr ""
+msgstr "toplam tutar"
 
 #: templates/CRM/Donrec/Form/Task/remaining_snapshot.tpl
 msgid "created on"
-msgstr ""
+msgstr "oluşturulma"
 
 #: templates/CRM/Donrec/Form/Task/remaining_snapshot.tpl
 msgid "Use remaining snapshot"
-msgstr ""
+msgstr "Kalan ekran görüntüsü kullanılsın"
 
 #: templates/CRM/Donrec/Page/Runner.tpl
 msgid "creation in progress, please wait..."
-msgstr ""
+msgstr "oluşturulurken lütfen bekleyin..."
 
 #: templates/CRM/Donrec/Page/Runner.tpl templates/CRM/Donrec/Page/Staging.tpl
 msgid "PLEASE DO NOT CLOSE OR REFRESH THIS PAGE!"
-msgstr ""
+msgstr "LÜTFEN BU SAYFAYI KAPATMAYIN YA DA YENİLEMEYİN!"
 
 #: templates/CRM/Donrec/Page/Runner.tpl templates/CRM/Donrec/Page/Staging.tpl
 msgid "Back"
@@ -2047,7 +2074,7 @@ msgstr "Geri"
 
 #: templates/CRM/Donrec/Page/Runner.tpl
 msgid "Progress Log"
-msgstr ""
+msgstr "İşlem günlüğü"
 
 #: templates/CRM/Donrec/Page/Runner.tpl templates/CRM/Donrec/Page/Tab.tpl
 msgid "Date"
@@ -2064,17 +2091,20 @@ msgstr "İndir"
 #: templates/CRM/Donrec/Page/Runner.tpl
 msgid ""
 "The donation receipts have been generated. You can now download the results."
-msgstr ""
+msgstr "Bağış alındıları oluşturuldu. Şimdi sonuçları indirebilirsiniz."
 
 #: templates/CRM/Donrec/Page/Runner.tpl
 msgid "There was a problem. Please check the log below for more information."
 msgstr ""
+"Bir sorun çıktı. Ayrıntılı bilgi almak için lütfen aşağıdaki günlüğe bakın."
 
 #: templates/CRM/Donrec/Page/Runner.tpl
 msgid ""
 "You haven't downloaded the resulting file yet. Are you sure you want to "
 "leave this page? The file would be lost."
 msgstr ""
+"Sonuç dosyasını henüz indirmediniz. Bu sayfadan ayrılmak istediğinize emin "
+"misiniz? Dosya kaybolabilir."
 
 #: templates/CRM/Donrec/Page/Staging.tpl
 msgid ""
@@ -2082,6 +2112,9 @@ msgid ""
 "selected time span. These will be marked as receipted once you hit the "
 "\"Issue donation receipt(s)\" button below."
 msgstr ""
+"Seçilmiş zaman aralığı için (geçerli) alındı olmadan bir dizi katkı bulundu."
+" Aşağıdaki \"Bağış alındılarını gönder\" düğmesine bastığınızda bunlar "
+"alındı hazırlanmış olarak işaretlenecek."
 
 #: templates/CRM/Donrec/Page/Staging.tpl
 msgid ""
@@ -2089,6 +2122,9 @@ msgid ""
 "You can also choose \"Don't generate files\" if you only want to mark them "
 "as receipted."
 msgstr ""
+"Gereksinimlerinize göre çeşitli sonuç biçimleri arasından seçim "
+"yapabilirsiniz. Yalnızca alındı hazırlanmış olarak işaretlemek istiyorsanız "
+"\"Dosya oluşturma\" seçeneğini de seçebilirsiniz."
 
 #: templates/CRM/Donrec/Page/Staging.tpl
 msgid ""
@@ -2096,84 +2132,93 @@ msgid ""
 "will be marked as receipted. We strongly recommend testing the creation of "
 "any larger batch of donation receipts."
 msgstr ""
+"\"Deneme çalışması\" düğmesi, hiçbir katkının alındı hazırlanmış olarak "
+"işaretlenmemesi dışında aynı şeyleri yapar. Daha büyük bir bağış alındısı "
+"grubunun oluşturulmasını denemenizi önemle öneririz."
 
 #: templates/CRM/Donrec/Page/Staging.tpl
 msgid ""
 "Please navigate this page using the buttons below and do not leave the page "
 "via the browser's back button."
 msgstr ""
+"Lütfen bu sayfada gezinmek için aşağıdaki düğmeleri kullanın ve tarayıcının "
+"geri düğmesini kullanarak sayfadan ayrılmayın."
 
 #: templates/CRM/Donrec/Page/Staging.tpl
 msgid ""
 "<b>Caution:</b> this is a resumed non-test run. If you press the abort "
 "button, the run will be deleted for good."
 msgstr ""
+"<b>Dikkat:</b> Bu işlem sürdürülmüş bir deneme olmayan çalışma. İptal "
+"düğmesine basarsanız, sorunu çözmek için çalışma silinecek. "
 
 #: templates/CRM/Donrec/Page/Staging.tpl
 msgid "selected contacts"
-msgstr ""
+msgstr "seçilmiş kişi"
 
 #: templates/CRM/Donrec/Page/Staging.tpl
 msgid "Period from"
-msgstr ""
+msgstr "Dönem başlangıcı"
 
 #: templates/CRM/Donrec/Page/Staging.tpl
 msgid "Period to"
-msgstr ""
+msgstr "Dönem bitişi"
 
 #: templates/CRM/Donrec/Page/Staging.tpl
 msgid ""
 "Sorry, but at least one of the selected contributions is already being "
 "processed for a donation receipt:"
 msgstr ""
+"Ne yazık ki, ancak seçilmiş katkılardan en az biri bağış alındısı için zaten"
+" işleniyor:"
 
 #: templates/CRM/Donrec/Page/Staging.tpl
 msgid "The conflicting other donation receipt process was created by"
-msgstr ""
+msgstr "Çakışan diğer bağış alındısı işlemi tarafından oluşturuldu"
 
 #: templates/CRM/Donrec/Page/Staging.tpl
 msgid "It will automatically expire on"
-msgstr ""
+msgstr "Otomatik olarak şu zamanda geçersiz olacak"
 
 #: templates/CRM/Donrec/Page/Staging.tpl
 msgid "Delete other process and restart"
-msgstr ""
+msgstr "Diğer işlemi sil ve yeniden başlat"
 
 #: templates/CRM/Donrec/Page/Staging.tpl
 msgid "Donation receipt type"
-msgstr ""
+msgstr "Bağış alındısı türü"
 
 #: templates/CRM/Donrec/Page/Staging.tpl
 msgid "single receipts"
-msgstr ""
+msgstr "tek alındılar"
 
 #: templates/CRM/Donrec/Page/Staging.tpl
 msgid "bulk receipts"
-msgstr ""
+msgstr "toplu alındılar"
 
 #: templates/CRM/Donrec/Page/Staging.tpl
 msgid "Result formats"
-msgstr ""
+msgstr "Sonuç biçimleri"
 
 #: templates/CRM/Donrec/Page/Staging.tpl
 msgid "Test run"
-msgstr ""
+msgstr "Deneme çalışması"
 
 #: templates/CRM/Donrec/Page/Staging.tpl
 msgid "Abort"
-msgstr ""
+msgstr "İptal"
 
 #: templates/CRM/Donrec/Page/Tab.tpl
 msgid "Create new donation receipt"
-msgstr ""
+msgstr "Yeni bağış alındısı oluştur"
 
 #: templates/CRM/Donrec/Page/Tab.tpl
 msgid "withdrawn copy"
-msgstr ""
+msgstr "geri çekilmiş kopya"
 
 #: templates/CRM/Donrec/Page/Tab.tpl
 msgid "Exporters"
-msgstr ""
+msgstr "Dışa aktarıcılar"
 
 #: templates/CRM/Donrec/Page/Tab.tpl
 msgid "Creation date"
@@ -2205,7 +2250,7 @@ msgstr "Reddet"
 
 #: templates/CRM/Donrec/Page/Tab.tpl
 msgid "Issued To"
-msgstr ""
+msgstr "Şuraya gönderildi"
 
 #: templates/CRM/Donrec/Page/Tab.tpl
 msgid "Name"
@@ -2225,7 +2270,7 @@ msgstr "Posta kodu"
 
 #: templates/CRM/Donrec/Page/Tab.tpl
 msgid "Street"
-msgstr ""
+msgstr "Sokak"
 
 #: templates/CRM/Donrec/Page/Tab.tpl
 msgid "City"
@@ -2253,11 +2298,11 @@ msgstr "Mali tür"
 
 #: templates/CRM/Donrec/Page/Tab.tpl
 msgid "DonationReceipt"
-msgstr ""
+msgstr "BagisAlindisi"
 
 #: templates/CRM/Donrec/Page/Tab.tpl
 msgid "The donation receipt has been successfully withdrawn"
-msgstr ""
+msgstr "Bağış alındısı geri çekildi"
 
 #: templates/CRM/Donrec/Page/Tab.tpl
 msgid "Success"
@@ -2265,28 +2310,28 @@ msgstr "Başarılı"
 
 #: templates/CRM/Donrec/Page/Tab.tpl
 msgid "Are you sure you want to withdraw this donation receipt?"
-msgstr ""
+msgstr "Bu bağış alındısını geri çekmek istediğinize emin misiniz?"
 
 #: templates/CRM/Donrec/Page/Tab.tpl
 msgid "The donation receipt has been successfully copied"
-msgstr ""
+msgstr "Bağış alındısı kopyalandı"
 
 #: templates/CRM/Donrec/Page/Tab.tpl
 msgid "Any existing copies of this receipt will have to be deleted manually."
-msgstr ""
+msgstr "Bu alındının var olan kopyaları el ile silinmelidir."
 
 #: templates/CRM/Donrec/Page/Tab.tpl
 msgid "You could also just withdraw it."
-msgstr ""
+msgstr "Ayrıca geri çekebilirsiniz."
 
 #: templates/CRM/Donrec/Page/Tab.tpl
 msgid "The donation receipt has been successfully deleted"
-msgstr ""
+msgstr "Bağış alındısı silindi"
 
 #: templates/CRM/Donrec/Page/Tab.tpl
 msgid "Are you sure you want to delete this donation receipt?"
-msgstr ""
+msgstr "Bu bağış alındısını silmek istediğinize emin misiniz?"
 
 #: templates/CRM/Donrec/Page/Tempfile.tpl
 msgid "Temporary file dowload failed."
-msgstr ""
+msgstr "Geçici dosya indirilemedi."
