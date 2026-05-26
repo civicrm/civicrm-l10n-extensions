@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: cdashtabs\n"
-"POT-Creation-Date: 2026-03-21 10:02+0100\n"
+"POT-Creation-Date: 2026-05-23 11:02+0200\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2026\n"
 "Language-Team: Turkish (https://app.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -42,22 +42,6 @@ msgid ""
 msgstr ""
 "Profil başlığını düzenlemek için <a href=\"%1\">bu profilin ayarlarını "
 "düzenleyin</a>."
-
-#: CRM/Cdashtabs/Form/Section.php cdashtabs.php
-msgid "Display on Contact Dashboard?"
-msgstr "Kişi panosunda görüntülensin"
-
-#: CRM/Cdashtabs/Form/Section.php cdashtabs.php
-msgid "Display only for contacts of type"
-msgstr "Yalnızca şu türdeki kişilere görüntülensin"
-
-#: CRM/Cdashtabs/Form/Section.php cdashtabs.php
-msgid "Display pre- and post-help on Contact Dashboard?"
-msgstr "Kişi panosunda önceki ve sonraki yardım görüntülensin"
-
-#: CRM/Cdashtabs/Form/Section.php cdashtabs.php
-msgid "Provide \"Edit\" button?"
-msgstr "“Düzenle” düğmesi sunulsun"
 
 #: CRM/Cdashtabs/Form/Section.php templates/CRM/Cdashtabs/Page/Section.tpl
 msgid "Order"
@@ -100,9 +84,33 @@ msgstr "Kişi panosu sekmesini düzenle"
 msgid "Contact Dashboard Tabs: Sections"
 msgstr "Kişi panosu sekmeleri: Bölümler"
 
-#: cdashtabs.php
+#: CRM/Cdashtabs/Utils.php
+msgid "Display on Contact Dashboard?"
+msgstr "Kişi panosunda görüntülensin"
+
+#: CRM/Cdashtabs/Utils.php
+msgid "Display only for contacts of type(s)"
+msgstr "Yalnızca şu kişi türleri için görüntülensin"
+
+#: CRM/Cdashtabs/Utils.php
 msgid "Select contact types"
 msgstr "Kişi türlerini seçin"
+
+#: CRM/Cdashtabs/Utils.php
+msgid "Display only for contacts in group(s)"
+msgstr "Yalnızca şu kişi grupları için görüntülensin"
+
+#: CRM/Cdashtabs/Utils.php
+msgid "Select groups"
+msgstr "Grupları seçin"
+
+#: CRM/Cdashtabs/Utils.php
+msgid "Display pre- and post-help on Contact Dashboard?"
+msgstr "Kişi panosunda önceki ve sonraki yardım görüntülensin"
+
+#: CRM/Cdashtabs/Utils.php
+msgid "Provide \"Edit\" button?"
+msgstr "“Düzenle” düğmesi sunulsun"
 
 #: cdashtabs.php
 msgid "Contact Dashboard Tabs"
@@ -121,8 +129,12 @@ msgid "The option label is displayed to users."
 msgstr "Kullanıcılara görüntülenecek seçenek etiketi"
 
 #: templates/CRM/Cdashtabs/Form/Section.tpl
-msgid "Leave blank to display for all contacts."
-msgstr "Tüm kişilere görüntülenmesi için boş bırakın."
+msgid "Leave blank to display regardless of contact type."
+msgstr "Kişi türünden bağımsız olarak görüntülenmesi için boş bırakın."
+
+#: templates/CRM/Cdashtabs/Form/Section.tpl
+msgid "Leave blank to display regardless of contact groups."
+msgstr "Kişi gruplarından bağımsız olarak görüntülenmesi için boş bırakın."
 
 #: templates/CRM/Cdashtabs/Page/Section.tpl
 msgid "Type"
