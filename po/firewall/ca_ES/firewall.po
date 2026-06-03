@@ -3,85 +3,22 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# ixiam <info@ixiam.com>, 2022
+# Francesc Bassas i Bullich <francesc@babu.cat>, 2026
 # 
 msgid ""
 msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: firewall\n"
-"POT-Creation-Date: 2023-01-27 19:24+0000\n"
-"Last-Translator: ixiam <info@ixiam.com>, 2022\n"
+"POT-Creation-Date: 2026-06-03 11:02+0200\n"
+"Last-Translator: Francesc Bassas i Bullich <francesc@babu.cat>, 2026\n"
 "Language-Team: Catalan (https://app.transifex.com/civicrm/teams/1905/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: CRM/Firewall/DAO/FirewallIpaddress.php
-msgid "Firewall Ipaddresses"
-msgstr ""
-
-#: CRM/Firewall/DAO/FirewallIpaddress.php
-msgid "Firewall Ipaddress"
-msgstr ""
-
-#: CRM/Firewall/DAO/FirewallIpaddress.php
-msgid "Unique FirewallIpaddress ID"
-msgstr ""
-
-#: CRM/Firewall/DAO/FirewallIpaddress.php
-msgid "IP Address"
-msgstr ""
-
-#: CRM/Firewall/DAO/FirewallIpaddress.php
-msgid "IP address used"
-msgstr ""
-
-#: CRM/Firewall/DAO/FirewallIpaddress.php
-msgid "Access Date"
-msgstr ""
-
-#: CRM/Firewall/DAO/FirewallIpaddress.php
-msgid "When the IP address accessed"
-msgstr ""
-
-#: CRM/Firewall/DAO/FirewallIpaddress.php
-msgid "Event Type"
-msgstr ""
-
-#: CRM/Firewall/DAO/FirewallIpaddress.php
-msgid "The type of event that triggered this log"
-msgstr ""
-
-#: CRM/Firewall/DAO/FirewallIpaddress.php
-msgid "Source"
-msgstr ""
-
-#: CRM/Firewall/DAO/FirewallIpaddress.php
-msgid "Origin of this access request"
-msgstr ""
-
-#: CRM/Firewall/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Actualitzar %1 a la revisió %2"
 
 #: Civi/Firewall/Firewall.php
 msgid "Session expired. Please reload and try again."
@@ -95,8 +32,56 @@ msgstr ""
 msgid "Blocked"
 msgstr ""
 
-#: firewall.php
-msgid "Firewall Settings"
+#: schema/FirewallIpaddress.entityType.php
+msgid "Firewall Ipaddress"
+msgstr ""
+
+#: schema/FirewallIpaddress.entityType.php
+msgid "Firewall Ipaddresses"
+msgstr ""
+
+#: schema/FirewallIpaddress.entityType.php
+msgid "IP addresses logged by firewall"
+msgstr ""
+
+#: schema/FirewallIpaddress.entityType.php
+msgid "ID"
+msgstr "Identificador"
+
+#: schema/FirewallIpaddress.entityType.php
+msgid "Unique FirewallIpaddress ID"
+msgstr ""
+
+#: schema/FirewallIpaddress.entityType.php
+msgid "IP Address"
+msgstr ""
+
+#: schema/FirewallIpaddress.entityType.php
+msgid "IP address used"
+msgstr ""
+
+#: schema/FirewallIpaddress.entityType.php
+msgid "Access Date"
+msgstr ""
+
+#: schema/FirewallIpaddress.entityType.php
+msgid "When the IP address accessed"
+msgstr ""
+
+#: schema/FirewallIpaddress.entityType.php
+msgid "Event Type"
+msgstr ""
+
+#: schema/FirewallIpaddress.entityType.php
+msgid "The type of event that triggered this log"
+msgstr ""
+
+#: schema/FirewallIpaddress.entityType.php
+msgid "Source"
+msgstr ""
+
+#: schema/FirewallIpaddress.entityType.php
+msgid "Origin of this access request"
 msgstr ""
 
 #: settings/firewall.setting.php
@@ -145,4 +130,44 @@ msgstr ""
 msgid ""
 "List of IP addresses that will always be blocked. For IPv4 can include "
 "wildcards eg. 192.168.*"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid "Threshold of card decline events before an IP Address is blocked"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid ""
+"How many times should an IP Address be able to trigger a card decline before"
+" being blocked"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid "Threshold of how many invalid CSRF Failures"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid ""
+"How many times should an IP Address be able to submit with a bad CSRF value "
+"before being blocked"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid "Threshold of Form protection events before an IP Address is blocked"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid ""
+"How many times should an IP Address be able to trigger form protection event"
+" before being blocked"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid "Threshold of card fraud events before an IP Address is blocked"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid ""
+"How many times should an IP Address be able to trigger a card fraud before "
+"being blocked"
 msgstr ""
