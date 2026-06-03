@@ -12,23 +12,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: mjwshared\n"
-"POT-Creation-Date: 2026-04-03 11:01+0200\n"
+"POT-Creation-Date: 2026-06-03 11:02+0200\n"
 "Last-Translator: Andi Chandler <andi@gowling.com>, 2026\n"
 "Language-Team: English (United Kingdom) (https://app.transifex.com/civicrm/teams/1905/en_GB/)\n"
 "MIME-Version: 1.0\n"
@@ -36,6 +21,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: en_GB\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: CRM/Core/Payment/MJWTrait.php
+msgid "Unknown System Error."
+msgstr "Unknown System Error."
 
 #: CRM/Core/Payment/MJWTrait.php
 msgid "Contribution: %1"
@@ -50,6 +39,10 @@ msgid "You do not have permission to issue refunds."
 msgstr "You do not have permission to issue refunds."
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
+msgid "Refund payment"
+msgstr ""
+
+#: CRM/Mjwshared/Form/PaymentRefund.php
 msgid ""
 "There is more than one payment for this Contribution. You need to select a "
 "specific payment to refund."
@@ -62,6 +55,10 @@ msgid ""
 "No Payment found. Make sure you specified a valid Payment or Contribution."
 msgstr ""
 "No Payment found. Make sure you specified a valid Payment or Contribution."
+
+#: CRM/Mjwshared/Form/PaymentRefund.php
+msgid "Contribution / Payment does not match"
+msgstr ""
 
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid "Do you want to cancel these registrations when you refund the payment?"
@@ -83,6 +80,18 @@ msgstr "Process Refund"
 #: CRM/Mjwshared/Form/PaymentRefund.php
 msgid "Cancel"
 msgstr "Cancel"
+
+#: CRM/Mjwshared/Form/PaymentRefund.php
+msgid "Cannot refund more than the original amount"
+msgstr ""
+
+#: CRM/Mjwshared/Form/PaymentRefund.php
+msgid "Cannot refund zero or negative amount"
+msgstr ""
+
+#: CRM/Mjwshared/Form/PaymentRefund.php
+msgid "Refund processed"
+msgstr ""
 
 #: Civi/Api4/Action/ContributionRecur/UpdateAmountOnRecurMJW.php
 msgid "Amount must be greater than 0.0"
@@ -411,7 +420,7 @@ msgstr "Delete"
 msgid "Financial Transaction (Payment)"
 msgstr "Financial Transaction (Payment)"
 
-#: managed/customdata.mgd.php
+#: managed/customdata.mgd.php templates/CRM/Mjwshared/Form/PaymentRefund.tpl
 msgid "Payment details"
 msgstr "Payment details"
 
