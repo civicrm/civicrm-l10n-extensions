@@ -3,85 +3,22 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# HanV <han.velthuis@kpnmail.nl>, 2021
+# HanV <han.velthuis@kpnmail.nl>, 2026
 # 
 msgid ""
 msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: firewall\n"
-"POT-Creation-Date: 2023-01-27 19:24+0000\n"
-"Last-Translator: HanV <han.velthuis@kpnmail.nl>, 2021\n"
+"POT-Creation-Date: 2026-06-03 11:02+0200\n"
+"Last-Translator: HanV <han.velthuis@kpnmail.nl>, 2026\n"
 "Language-Team: Dutch (https://app.transifex.com/civicrm/teams/1905/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: CRM/Firewall/DAO/FirewallIpaddress.php
-msgid "Firewall Ipaddresses"
-msgstr "Firewall IP-Adressen"
-
-#: CRM/Firewall/DAO/FirewallIpaddress.php
-msgid "Firewall Ipaddress"
-msgstr "Firewall IP-Adres"
-
-#: CRM/Firewall/DAO/FirewallIpaddress.php
-msgid "Unique FirewallIpaddress ID"
-msgstr "Uniek Firewall IP-Adres-id"
-
-#: CRM/Firewall/DAO/FirewallIpaddress.php
-msgid "IP Address"
-msgstr "IP-Adres"
-
-#: CRM/Firewall/DAO/FirewallIpaddress.php
-msgid "IP address used"
-msgstr "IP-adres gebruikt"
-
-#: CRM/Firewall/DAO/FirewallIpaddress.php
-msgid "Access Date"
-msgstr "Toegangsdatum"
-
-#: CRM/Firewall/DAO/FirewallIpaddress.php
-msgid "When the IP address accessed"
-msgstr "Wanneer is het IP-Adres gebruikt"
-
-#: CRM/Firewall/DAO/FirewallIpaddress.php
-msgid "Event Type"
-msgstr "Evenementstype"
-
-#: CRM/Firewall/DAO/FirewallIpaddress.php
-msgid "The type of event that triggered this log"
-msgstr "Het type evenement dat deze log heeft aangemaakt"
-
-#: CRM/Firewall/DAO/FirewallIpaddress.php
-msgid "Source"
-msgstr "Bron"
-
-#: CRM/Firewall/DAO/FirewallIpaddress.php
-msgid "Origin of this access request"
-msgstr "Herkomst van dit toegangsverzoek"
-
-#: CRM/Firewall/Upgrader/Base.php
-msgid "Upgrade %1 to revision %2"
-msgstr "Upgrade %1 naar versie %2"
 
 #: Civi/Firewall/Firewall.php
 msgid "Session expired. Please reload and try again."
@@ -95,9 +32,57 @@ msgstr "Sessie is ongeldig. Ververs de pagina en probeer het opnieuw."
 msgid "Blocked"
 msgstr "Geblokkeerd"
 
-#: firewall.php
-msgid "Firewall Settings"
-msgstr "Firewall Instellingen"
+#: schema/FirewallIpaddress.entityType.php
+msgid "Firewall Ipaddress"
+msgstr "Firewall IP-Adres"
+
+#: schema/FirewallIpaddress.entityType.php
+msgid "Firewall Ipaddresses"
+msgstr "Firewall IP-Adressen"
+
+#: schema/FirewallIpaddress.entityType.php
+msgid "IP addresses logged by firewall"
+msgstr ""
+
+#: schema/FirewallIpaddress.entityType.php
+msgid "ID"
+msgstr "ID"
+
+#: schema/FirewallIpaddress.entityType.php
+msgid "Unique FirewallIpaddress ID"
+msgstr "Uniek Firewall IP-Adres-id"
+
+#: schema/FirewallIpaddress.entityType.php
+msgid "IP Address"
+msgstr "IP-Adres"
+
+#: schema/FirewallIpaddress.entityType.php
+msgid "IP address used"
+msgstr "IP-adres gebruikt"
+
+#: schema/FirewallIpaddress.entityType.php
+msgid "Access Date"
+msgstr "Toegangsdatum"
+
+#: schema/FirewallIpaddress.entityType.php
+msgid "When the IP address accessed"
+msgstr "Wanneer is het IP-Adres gebruikt"
+
+#: schema/FirewallIpaddress.entityType.php
+msgid "Event Type"
+msgstr "Evenementstype"
+
+#: schema/FirewallIpaddress.entityType.php
+msgid "The type of event that triggered this log"
+msgstr "Het type evenement dat deze log heeft aangemaakt"
+
+#: schema/FirewallIpaddress.entityType.php
+msgid "Source"
+msgstr "Bron"
+
+#: schema/FirewallIpaddress.entityType.php
+msgid "Origin of this access request"
+msgstr "Herkomst van dit toegangsverzoek"
 
 #: settings/firewall.setting.php
 msgid "Is server behind reverse proxy?"
@@ -154,3 +139,43 @@ msgid ""
 msgstr ""
 "Lijst met IP-adressen die altijd geblokkeerd moeten worden. Bij IPv4 kunnen "
 "wildcards gebruikt worden, bijv. 192.168.*"
+
+#: settings/firewall.setting.php
+msgid "Threshold of card decline events before an IP Address is blocked"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid ""
+"How many times should an IP Address be able to trigger a card decline before"
+" being blocked"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid "Threshold of how many invalid CSRF Failures"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid ""
+"How many times should an IP Address be able to submit with a bad CSRF value "
+"before being blocked"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid "Threshold of Form protection events before an IP Address is blocked"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid ""
+"How many times should an IP Address be able to trigger form protection event"
+" before being blocked"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid "Threshold of card fraud events before an IP Address is blocked"
+msgstr ""
+
+#: settings/firewall.setting.php
+msgid ""
+"How many times should an IP Address be able to trigger a card fraud before "
+"being blocked"
+msgstr ""
