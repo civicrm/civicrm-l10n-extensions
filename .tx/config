@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = he: he_IL, tr: tr_TR, el: el_GR, et: et_EE, hi: hi_IN, da: da_DK, cs: cs_CZ, lt: lt_LT, sq: sq_AL, ru: ru_RU, sv: sv_SE, sl: sl_SI, ca: ca_ES, es: es_ES, it: it_IT, vi: vi_VN, fi: fi_FI, de: de_DE, nb: nb_NO, km: km_KH, fr: fr_FR, bg: bg_BG, ro: ro_RO, id: id_ID, ja: ja_JP, nl: nl_NL, af: af_ZA, hu: hu_HU, sk: sk_SK, pl: pl_PL, lv: lv_LV, pt: pt_PT
+lang_map = de: de_DE, ja: ja_JP, nl: nl_NL, pl: pl_PL, tr: tr_TR, et: et_EE, ru: ru_RU, sv: sv_SE, fi: fi_FI, af: af_ZA, sk: sk_SK, pt: pt_PT, hi: hi_IN, cs: cs_CZ, es: es_ES, vi: vi_VN, hu: hu_HU, sl: sl_SI, nb: nb_NO, km: km_KH, id: id_ID, he: he_IL, da: da_DK, lt: lt_LT, ca: ca_ES, bg: bg_BG, lv: lv_LV, el: el_GR, sq: sq_AL, ro: ro_RO, it: it_IT, fr: fr_FR
 
 [o:civicrm:p:civicrm_extensions:r:Civixero]
 file_filter = po/Civixero/<lang>/Civixero.po
@@ -872,6 +872,13 @@ resource_name = search_kit_report_starter_pack
 file_filter = po/searchcountries/<lang>/searchcountries.po
 source_file = po/searchcountries/pot/searchcountries.pot
 source_lang = en
+
+[o:civicrm:p:civicrm_extensions:r:searchkitmaps]
+file_filter   = po/searchkitmaps/<lang>/searchkitmaps.po
+source_file   = po/searchkitmaps/pot/searchkitmaps.pot
+type          = POT
+minimum_perc  = 0
+resource_name = searchkitmaps
 
 [o:civicrm:p:civicrm_extensions:r:selectedcontributionamountcount]
 file_filter = po/selectedcontributionamountcount/<lang>/selectedcontributionamountcount.po
