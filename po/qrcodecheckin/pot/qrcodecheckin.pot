@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: qrcodecheckin\n"
-"POT-Creation-Date: 2026-03-19 10:01+0100\n"
+"POT-Creation-Date: 2026-07-02 11:01+0200\n"
 "Language-Team: CiviCRM Translators <civicrm-translators@lists.civicrm.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,9 +20,21 @@ msgid "Qrcodecheckin: denied access, hash mis-match for participant id: %1"
 msgstr ""
 
 #: CRM/Qrcodecheckin/Page/QrcodecheckinLanding.php
+msgid "Was %1, now Attended"
+msgstr ""
+
+#: CRM/Qrcodecheckin/Page/QrcodecheckinLanding.php
 msgid ""
 "Woops! The link you clicked on appears to be broken. Please check again and "
 "ensure it was not split by a line break."
+msgstr ""
+
+#: api/v3/Qrcodecheckin/Cleanupimages.php
+msgid "Days since event end"
+msgstr ""
+
+#: api/v3/Qrcodecheckin/Cleanupimages.php
+msgid "Delete images for events that ended at least this many days ago."
 msgstr ""
 
 #: managed/CustomGroup_QRCode.mgd.php
@@ -31,6 +43,16 @@ msgstr ""
 
 #: managed/CustomGroup_QRCode.mgd.php
 msgid "QRCode Public link"
+msgstr ""
+
+#: managed/Job_CleanupImages.mgd.php
+msgid "QR Code: Clean up old images"
+msgstr ""
+
+#: managed/Job_CleanupImages.mgd.php
+msgid ""
+"Deletes QR code image files for events that have ended. Events without an "
+"end date are never cleaned up."
 msgstr ""
 
 #: managed/afformPlacement.mgd.php
@@ -80,6 +102,14 @@ msgstr ""
 
 #: qrcodecheckin.php
 msgid "QRCode image and link for event "
+msgstr ""
+
+#: qrcodecheckin.php
+msgid "QRCode link for event"
+msgstr ""
+
+#: qrcodecheckin.php
+msgid "QRCode image and link for event"
 msgstr ""
 
 #: qrcodecheckin.php
