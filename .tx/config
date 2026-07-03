@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = de: de_DE, ja: ja_JP, nl: nl_NL, pl: pl_PL, tr: tr_TR, et: et_EE, ru: ru_RU, sv: sv_SE, fi: fi_FI, af: af_ZA, sk: sk_SK, pt: pt_PT, hi: hi_IN, cs: cs_CZ, es: es_ES, vi: vi_VN, hu: hu_HU, sl: sl_SI, nb: nb_NO, km: km_KH, id: id_ID, he: he_IL, da: da_DK, lt: lt_LT, ca: ca_ES, bg: bg_BG, lv: lv_LV, el: el_GR, sq: sq_AL, ro: ro_RO, it: it_IT, fr: fr_FR
+lang_map = it: it_IT, ru: ru_RU, af: af_ZA, km: km_KH, el: el_GR, sq: sq_AL, tr: tr_TR, hi: hi_IN, id: id_ID, fr: fr_FR, sl: sl_SI, bg: bg_BG, lv: lv_LV, nl: nl_NL, fi: fi_FI, nb: nb_NO, et: et_EE, es: es_ES, vi: vi_VN, he: he_IL, ca: ca_ES, ro: ro_RO, de: de_DE, ja: ja_JP, sk: sk_SK, cs: cs_CZ, lt: lt_LT, pl: pl_PL, sv: sv_SE, pt: pt_PT, hu: hu_HU, da: da_DK
 
 [o:civicrm:p:civicrm_extensions:r:Civixero]
 file_filter = po/Civixero/<lang>/Civixero.po
@@ -678,6 +678,13 @@ source_file   = po/ncn_civi_zoom/pot/ncn_civi_zoom.pot
 type          = pot
 minimum_perc  = 0
 resource_name = ncn_civi_zoom
+
+[o:civicrm:p:civicrm_extensions:r:nextcloud]
+file_filter   = po/nextcloud/<lang>/nextcloud.po
+source_file   = po/nextcloud/pot/nextcloud.pot
+type          = POT
+minimum_perc  = 0
+resource_name = nextcloud
 
 [o:civicrm:p:civicrm_extensions:r:nickfix]
 file_filter = po/nickfix/<lang>/nickfix.po
