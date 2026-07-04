@@ -25,15 +25,15 @@ msgstr ""
 
 #: CRM/Nextcloud/DAO/EntityNextcloud.php
 msgid "Entity Nextclouds"
-msgstr ""
+msgstr "Entität Nextclouds"
 
 #: CRM/Nextcloud/DAO/EntityNextcloud.php
 msgid "Entity Nextcloud"
-msgstr ""
+msgstr "Entität Nextcloud"
 
 #: CRM/Nextcloud/DAO/EntityNextcloud.php
 msgid "Unique EntityNextcloud ID"
-msgstr ""
+msgstr "Eindeutige EntityNextcloud-ID"
 
 #: CRM/Nextcloud/DAO/EntityNextcloud.php
 msgid "Entity Table"
@@ -43,6 +43,8 @@ msgstr "Entitätstabelle"
 msgid ""
 "physical tablename for entity being joined to file, e.g. civicrm_contact"
 msgstr ""
+"physischer Tabellenname für die Entität, die in die Datei gejoint wird, z.B."
+" civicrm_contact"
 
 #: CRM/Nextcloud/DAO/EntityNextcloud.php
 #: Civi/ActionProvider/Action/Nextcloud/DirectoryLink.php
@@ -54,19 +56,19 @@ msgstr "Entitäts-ID"
 
 #: CRM/Nextcloud/DAO/EntityNextcloud.php
 msgid "FK to entity table specified in entity_table column."
-msgstr ""
+msgstr "FK zur Entitätstabelle, die in der Spalte entity_table angegeben ist."
 
 #: CRM/Nextcloud/DAO/EntityNextcloud.php
 msgid "Tag ID"
-msgstr ""
+msgstr "Tag-ID"
 
 #: CRM/Nextcloud/DAO/EntityNextcloud.php
 msgid "File or directory number in nextcloud"
-msgstr ""
+msgstr "Datei- oder Verzeichnisnummer in Nexcloud"
 
 #: CRM/Nextcloud/Upgrader.php
 msgid "NextCloud Entity"
-msgstr ""
+msgstr "NextCloud Entität"
 
 #: CRM/Nextcloud/Upgrader.php
 msgid "Contact"
@@ -95,35 +97,37 @@ msgstr "Entität"
 #: Civi/ActionProvider/Action/Nextcloud/SharePathWithPublic.php
 #: Civi/ActionProvider/Action/Nextcloud/SharePathWithUser.php
 msgid "Nextcloud Permission (Default)"
-msgstr ""
+msgstr "Nextcloud Berechtigung (Standard)"
 
 #: Civi/ActionProvider/Action/Nextcloud/SharePathWithPublic.php
 #: Civi/ActionProvider/Action/Nextcloud/SharePathWithUser.php
 msgid ""
 "Bitmask: 1 = read; 2 = update; 4 = create; 8 = delete; 16 = share; 31 = all"
 msgstr ""
+"Bitmask: 1 = lesen; 2 = aktualisieren; 4 = erstellen; 8 = löschen; 16 = "
+"teilen; 31 = alle"
 
 #: Civi/ActionProvider/Action/Nextcloud/SharePathWithPublic.php
 #: Civi/ActionProvider/Action/Nextcloud/SharePathWithUser.php
 msgid "Nextcloud Permission"
-msgstr ""
+msgstr "Nextcloud Berechtigung"
 
 #: Civi/ActionProvider/Action/Nextcloud/SharePathWithPublic.php
 #: Civi/ActionProvider/Action/Nextcloud/SharePathWithUser.php
 msgid "Share result"
-msgstr ""
+msgstr "Teile Ergebnisse"
 
 #: Civi/ActionProvider/Action/Nextcloud/SharePathWithPublic.php
 msgid "Share url"
-msgstr ""
+msgstr "Teile URL"
 
 #: Civi/ActionProvider/Action/Nextcloud/SharePathWithUser.php
 msgid "Nextcloud Username"
-msgstr ""
+msgstr "Nextcloud Username"
 
 #: Civi/ActionProvider/Action/Nextcloud/UploadFile.php
 msgid "Filename prefix"
-msgstr ""
+msgstr "Präfix Dateiname"
 
 #: Civi/ActionProvider/Action/Nextcloud/UploadFile.php
 msgid "File"
@@ -131,31 +135,31 @@ msgstr "Datei"
 
 #: Civi/ActionProvider/Action/Nextcloud/UploadFile.php
 msgid "Upload result"
-msgstr ""
+msgstr "Ergebnis hochladen"
 
 #: Civi/CompilerPass/Nextcloud.php
 msgid "NextCloud: Directory Link"
-msgstr ""
+msgstr "NextCloud: Verzeichnis-Link"
 
 #: Civi/CompilerPass/Nextcloud.php
 msgid "NextCloud: Upload File"
-msgstr ""
+msgstr "NextCloud: Datei hochladen"
 
 #: Civi/CompilerPass/Nextcloud.php
 msgid "NextCloud: Share Path with User"
-msgstr ""
+msgstr "NextCloud: Teile Pfad mit User"
 
 #: Civi/CompilerPass/Nextcloud.php
 msgid "NextCloud: Share Path with Public"
-msgstr ""
+msgstr "NextCloud: Teile Pfad mit Public"
 
 #: Civi/CompilerPass/Nextcloud.php
 msgid "Nextcloud Directory Link"
-msgstr ""
+msgstr "Nextcloud Verzeichnis-Link"
 
 #: Civi/DataProcessor/FieldOutputHandler/Nextcloud/DirectoryLink.php
 msgid "Entity ID field"
-msgstr ""
+msgstr "Feld Entitäts-ID"
 
 #: Civi/DataProcessor/FieldOutputHandler/Nextcloud/DirectoryLink.php
 msgid "- select -"
@@ -163,90 +167,102 @@ msgstr "- wählen -"
 
 #: Civi/Nextcloud/Helper.php
 msgid "<strong>Http Connection Error:</strong> with %1"
-msgstr ""
+msgstr "<strong>HTTP-Verbindungsfehler:</strong> mit %1"
 
 #: Civi/Nextcloud/Helper.php
 msgid ""
 "<strong>Unauthorized:</strong> wrong user, wrong password, wrong user "
 "password combination, no user, no password, something like that"
 msgstr ""
+"<strong>Unauthorisiert:</strong> falscher User, falsches Passwort, falsche "
+"User-Passwort-Kombination, kein User, kein Passwort, irgendetwas in dieser "
+"Richtung"
 
 #: Civi/Nextcloud/Helper.php
 msgid ""
 "<strong>Not Found:</strong> maybe the civicrm directory is not created, will"
 " try after saving these values"
 msgstr ""
+"<strong>Nicht gefunden:</strong> vielleicht ist das CiviCRM-Verzeichnis "
+"nicht angelegt. Werde es noch einmal versuchen nach dem Speichern dieser "
+"Werte."
 
 #: Civi/Nextcloud/Helper.php
 msgid "Bad request using url: %1"
-msgstr ""
+msgstr "Bad request bei Benutzung der url: %1"
 
 #: Civi/Nextcloud/Helper.php
 msgid "<strong>%1 :</strong> unknown response phrase"
-msgstr ""
+msgstr "<strong>%1 :</strong> unbekannte Antwortsphrase"
 
 #: nextcloud.php templates/CRM/Contact/Page/View/Summary/nextcloud.tpl
 msgid "Nextcloud"
-msgstr ""
+msgstr "Nextcloud"
 
 #: settings/nextcloud.setting.php
 msgid "NextCloud External URL"
-msgstr ""
+msgstr "NextCloud Externe URL"
 
 #: settings/nextcloud.setting.php
 msgid "Points to the nextcloud webinterface."
-msgstr ""
+msgstr "Zeigt auf das Nextcloud-Webinterface"
 
 #: settings/nextcloud.setting.php
 msgid "NextCloud Internal URL"
-msgstr ""
+msgstr "NextCloud Interne URL"
 
 #: settings/nextcloud.setting.php
 msgid ""
 "Used for the API connection. Can be different from the external url, for "
 "example behind a proxy, or when docker is used."
 msgstr ""
+"Wird für API-Verbindungen benutzt. Kann abweichend sein von der Externen "
+"URL, z.B. hinter einem Proxy oder wenn Docker in Benutzung ist."
 
 #: settings/nextcloud.setting.php
 msgid "NextCloud User"
-msgstr ""
+msgstr "NextCloud User"
 
 #: settings/nextcloud.setting.php
 msgid "Used for the API credentials."
-msgstr ""
+msgstr "Benutzt für API Credentials."
 
 #: settings/nextcloud.setting.php
 msgid "NextCloud Password"
-msgstr ""
+msgstr "NextCloud Passwort"
 
 #: settings/nextcloud.setting.php
 msgid "Used for the API credentials"
-msgstr ""
+msgstr "Benutzt für API Credentials."
 
 #: settings/nextcloud.setting.php
 msgid "CiviCRM file directory"
-msgstr ""
+msgstr "CiviCRM Dateiverzeichnis"
 
 #: settings/nextcloud.setting.php
 msgid ""
 "Directory where the files are stored, every entity type has its own "
 "subdirectory."
 msgstr ""
+"Verzeichnis wo die Dateien abgelegt werden, jede Entität hat ihr eigenes "
+"Unterverzeichnis."
 
 #: settings/nextcloud.setting.php
 msgid "Enabled entities"
-msgstr ""
+msgstr "Aktivierte Entitäten"
 
 #: settings/nextcloud.setting.php
 msgid "Check the entities that you want to enable in the interface"
-msgstr ""
+msgstr "Prüfe die Entitäten, die im Interface aktiviert sein sollen"
 
 #: templates/CRM/Contact/Page/View/Summary/nextcloud.tpl
 msgid "View in Nextcloud"
-msgstr ""
+msgstr "Zeige in Nextcloud"
 
 #: templates/CRM/Nextcloud/Form/Settings.tpl
 msgid ""
 "Some fields are loaded as 'readonly' as they have been set (overridden) in "
 "civicrm.settings.php."
 msgstr ""
+"Manche Felder werden als 'readonly' geladen, da sie als (überschrieben) in "
+"der civicrm.settings.php eingestellt wurden."
