@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = it: it_IT, ru: ru_RU, af: af_ZA, km: km_KH, el: el_GR, sq: sq_AL, tr: tr_TR, hi: hi_IN, id: id_ID, fr: fr_FR, sl: sl_SI, bg: bg_BG, lv: lv_LV, nl: nl_NL, fi: fi_FI, nb: nb_NO, et: et_EE, es: es_ES, vi: vi_VN, he: he_IL, ca: ca_ES, ro: ro_RO, de: de_DE, ja: ja_JP, sk: sk_SK, cs: cs_CZ, lt: lt_LT, pl: pl_PL, sv: sv_SE, pt: pt_PT, hu: hu_HU, da: da_DK
+lang_map = hi: hi_IN, nl: nl_NL, fi: fi_FI, ja: ja_JP, lv: lv_LV, sk: sk_SK, pt: pt_PT, hu: hu_HU, da: da_DK, id: id_ID, de: de_DE, af: af_ZA, es: es_ES, ro: ro_RO, cs: cs_CZ, lt: lt_LT, pl: pl_PL, ru: ru_RU, el: el_GR, km: km_KH, fr: fr_FR, sl: sl_SI, bg: bg_BG, vi: vi_VN, nb: nb_NO, et: et_EE, he: he_IL, ca: ca_ES, it: it_IT, sq: sq_AL, tr: tr_TR, sv: sv_SE
 
 [o:civicrm:p:civicrm_extensions:r:Civixero]
 file_filter = po/Civixero/<lang>/Civixero.po
@@ -130,6 +130,13 @@ source_lang = en
 file_filter = po/capscorrect/<lang>/capscorrect.po
 source_file = po/capscorrect/pot/capscorrect.pot
 source_lang = en
+
+[o:civicrm:p:civicrm_extensions:r:caseroles]
+file_filter   = po/caseroles/<lang>/caseroles.po
+source_file   = po/caseroles/pot/caseroles.pot
+type          = POT
+minimum_perc  = 0
+resource_name = caseroles
 
 [o:civicrm:p:civicrm_extensions:r:casetokens]
 file_filter = po/casetokens/<lang>/casetokens.po
