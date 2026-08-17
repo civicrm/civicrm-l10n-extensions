@@ -15,9 +15,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: mosaico\n"
 "POT-Creation-Date: 2026-02-18 11:01+0100\n"
 "Last-Translator: Melisa Olavarria, 2026\n"
@@ -42,15 +39,15 @@ msgstr "Asistente (Bootstrap CSS)"
 
 #: CRM/Mosaico/Utils.php
 msgid "Automatically select a driver"
-msgstr "Seleccionar automáticamente un controlador"
+msgstr "Seleccionar automáticamente un conductor"
 
 #: CRM/Mosaico/Utils.php
 msgid "Intervention Image API (gd)"
-msgstr "API Intervention Image (gd)"
+msgstr "API de imágenes de intervención (gd)"
 
 #: CRM/Mosaico/Utils.php
 msgid "Intervention Image API (imagick)"
-msgstr "API Intervention Image (imagick)"
+msgstr "API de imágenes de intervención (imagick)"
 
 #: CRM/Mosaico/Utils.php
 msgid "(Deprecated) Direct ImageMagick API"
@@ -136,7 +133,7 @@ msgstr "Plantilla base"
 
 #: ang/crmMosaico/BlockMailing.html
 msgid "Mailing Name"
-msgstr "Nombre del envío de correo"
+msgstr "Nombre del Envío de Correo"
 
 #: ang/crmMosaico/BlockMailing.html
 msgid "Campaign"
@@ -172,7 +169,7 @@ msgstr ""
 
 #: ang/crmMosaico/BlockMailing.html
 msgid "Unsubscribe Group"
-msgstr "Grupo de cancelación de suscripción"
+msgstr "Grupo de cancelación de Suscripción"
 
 #: ang/crmMosaico/BlockMailing.html
 msgid "Language"
@@ -263,7 +260,7 @@ msgid ""
 "You have enabled A/B testing. We will send each test message to a subset of "
 "your subscribers. Later, you can decide the final mailing."
 msgstr ""
-"Ha activado las pruebas A/B. Enviaremos cada mensaje de prueba a un "
+"Ha habilitado las pruebas A/B. Enviaremos cada mensaje de prueba a un "
 "subconjunto de sus suscriptores. Más adelante, podrá decidir el envío de "
 "correo final."
 
@@ -302,12 +299,12 @@ msgstr "Seleccionar"
 
 #: ang/crmMosaico/CreateFromBaseTemplate.html
 msgid "Create Template"
-msgstr "Crear plantilla"
+msgstr "Crear Plantilla"
 
 #: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
 #: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
 msgid "Mailing"
-msgstr "Envío de correo"
+msgstr "Envío de Correo"
 
 #: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
 #: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
@@ -347,12 +344,12 @@ msgstr "Opciones"
 #: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
 #: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
 msgid "Advanced Mailing Options"
-msgstr "Opciones avanzadas del envío de correo"
+msgstr "Opciones avanzadas del Envío de Correo"
 
 #: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
 #: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
 msgid "Submit Mailing"
-msgstr "Enviar correo"
+msgstr "Enviar Correo"
 
 #: ang/crmMosaico/EditMailingCtrl/bootstrap-single.html
 #: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
@@ -376,7 +373,7 @@ msgstr "Diseño"
 
 #: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
 msgid "Add A/B Test"
-msgstr "Añadir prueba A/B"
+msgstr "Añadir Prueba A/B"
 
 #: ang/crmMosaico/EditMailingCtrl/bootstrap-wizard.html
 msgid ""
@@ -486,7 +483,7 @@ msgstr "Opciones"
 
 #: ang/crmMosaico/TemplateItem.html
 msgid "Reset"
-msgstr "Reiniciarla"
+msgstr "Reiniciar"
 
 #: ang/crmMosaico/TemplateItem.html
 msgid "Are you sure you want to reset this?"
@@ -595,8 +592,8 @@ msgid ""
 "The extension %1 expects %2 version <code>%3</code> or newer. Found version "
 "<code>%4</code>."
 msgstr ""
-"La extensión %1 espera la versión %2 <code>%3</code> o más nueva. Encontrada"
-" la versión <code>%4</code>."
+"La extensión %1 espera la versión %2 <code>%3</code> o más nueva. Se "
+"encontró la versión <code>%4</code>."
 
 #: mosaico.php
 msgid "Outdated dependency"
@@ -711,7 +708,7 @@ msgid ""
 "to civicrm_option_value."
 msgstr ""
 "ID de la categoría a la que pertenece actualmente esta plantilla de envío de"
-" correo. Clave foránea a civicrm_option_value."
+" correo. Clave externa a civicrm_option_value."
 
 #: schema/MosaicoTemplate.entityType.php
 msgid "Domain ID"
@@ -723,7 +720,7 @@ msgstr "ID de dominio al que pertenece esta plantilla de mensaje."
 
 #: settings/Mosaico.setting.php
 msgid "Mosaico editor layout"
-msgstr "Diseño del editor de Mosaico"
+msgstr "Diseño del editor Mosaico"
 
 #: settings/Mosaico.setting.php
 msgid "How should the CiviMail composition screen look?"
@@ -755,10 +752,10 @@ msgid ""
 "size (in pixels). Use scale factor setting to keep some buffer (2x or 3x) so"
 " upscale doesn't look distorted or low resolution. Example"
 msgstr ""
-"Al subir imágenes, el editor de Mosaico las recorta al tamaño estrictamente "
-"necesario (en píxeles). Use la configuración del factor de escala para "
-"mantener cierto margen (2x o 3x), de modo que el escalado no se vea "
-"distorsionado ni con baja resolución. Ejemplo"
+"Al subir imágenes, el editor de Mosaico las recorta al tamaño necesario (en "
+"píxeles). Use la configuración del factor de escala para mantener cierto "
+"margen (2x o 3x), de modo que el escalado no se vea distorsionado ni con "
+"baja resolución. Ejemplo"
 
 #: settings/Mosaico.setting.php
 msgid "3x => Upto 285 pixels (covers both 2 and 3 column block images)"
@@ -771,11 +768,11 @@ msgstr ""
 
 #: settings/Mosaico.setting.php
 msgid "Mosaico Custom Templates Directory"
-msgstr "Directorio de plantillas personalizadas de Mosaico"
+msgstr "Directorio de Plantillas Personalizadas de Mosaico"
 
 #: settings/Mosaico.setting.php
 msgid "Mosaico Custom Templates URL"
-msgstr "URL de plantillas personalizadas de Mosaico"
+msgstr "URL de Plantillas Personalizadas de Mosaico"
 
 #: settings/Mosaico.setting.php
 msgid "Hide these base templates"
@@ -787,7 +784,7 @@ msgstr "Tokens destacados de Mosaico"
 
 #: settings/Mosaico.setting.php
 msgid "Mosaico Custom Theme Colors"
-msgstr "Colores personalizados del tema de Mosaico"
+msgstr "Colores Personalizados del Tema de Mosaico"
 
 #: settings/Mosaico.setting.php
 msgid ""
