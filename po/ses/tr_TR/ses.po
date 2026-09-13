@@ -10,45 +10,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: ses\n"
 "POT-Creation-Date: 2026-08-29 11:02+0200\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2026\n"
@@ -65,28 +26,35 @@ msgid ""
 "are corrected. Check that the secret is the IAM secret access key, not an "
 "SES SMTP password."
 msgstr ""
+"Amazon SES bu kimlik doğrulama bilgilerini reddetti (%1). Bu durum "
+"düzeltilene kadar hiçbir e-posta gönderilmeyecek. Parolanın SES SMTP "
+"parolası değil, IAM gizli erişim anahtarı olduğundan emin olun."
 
 #: CRM/Ses/ConnectionTest.php
 msgid "SES credentials rejected"
-msgstr ""
+msgstr "SES kimlik doğrulama bilgileri reddedildi"
 
 #: CRM/Ses/ConnectionTest.php
 msgid "Could not reach Amazon SES to check these credentials: %1"
 msgstr ""
+"Bu kimlik doğrulama bilgilerini kontrol etmek için Amazon SES ile iletişim "
+"kurulamadı: %1"
 
 #: CRM/Ses/ConnectionTest.php
 msgid "SES not reachable"
-msgstr ""
+msgstr "SES ile iletişim kurulamıyor"
 
 #: CRM/Ses/ConnectionTest.php
 msgid ""
 "Amazon SES accepted these credentials. Permission to send cannot be verified"
 " without sending an email."
 msgstr ""
+"Amazon SES bu kimlik doğrulama bilgilerini kabul etti. E-posta gönderilmeden"
+" gönderme izni doğrulanamaz."
 
 #: CRM/Ses/ConnectionTest.php
 msgid "SES credentials verified"
-msgstr ""
+msgstr "SES kimlik doğrulama bilgileri doğrulandı"
 
 #: CRM/Ses/ConnectionTest.php
 msgid ""
@@ -95,20 +63,27 @@ msgid ""
 "suppressed at Amazon SES and their mail will still be dropped, without any "
 "error. Add the permission or turn the option off."
 msgstr ""
+"Engelleme listesinin kaldırılması etkinleştirildi, ancak bu IAM ilkesi "
+"ses:DeleteSuppressedDestination işlevine izin vermiyor. Bir kişiyi "
+"beklemeden çıkarmak, onu Amazon SES üzerinde engelleyecek ve e-postaları "
+"herhangi bir hata olmadan yine de bırakılacaktır. İzni ekleyin ya da "
+"seçeneği kapatın."
 
 #: CRM/Ses/ConnectionTest.php
 msgid "SES permission missing"
-msgstr ""
+msgstr "SES izni eksik"
 
 #: CRM/Ses/ConnectionTest.php
 msgid ""
 "Could not determine whether this IAM policy allows "
 "ses:DeleteSuppressedDestination: %1"
 msgstr ""
+"Bu IAM ilkesinin ses:DeleteSuppressedDestination işlevine izin verip "
+"vermediği belirlenemedi: %1"
 
 #: CRM/Ses/ConnectionTest.php
 msgid "SES permission unknown"
-msgstr ""
+msgstr "SES izni bilinmiyor"
 
 #: CRM/Ses.php
 msgid "Ses Transactional Emails (do not delete)"
@@ -116,23 +91,27 @@ msgstr "Amazon SES işlemsel e-postaları (silmeyin)"
 
 #: CRM/Ses.php
 msgid "SES Access Key must be a string."
-msgstr ""
+msgstr "SES erişim anahtarı bir dizge olmalıdır."
 
 #: CRM/Ses.php
 msgid ""
 "SES Access Key has leading or trailing whitespace. Re-paste it without the "
 "surrounding space or newline."
 msgstr ""
+"SES erişim anahtarının önünde veya sonunda boşluklar var. Başta ve sonra "
+"boşluk veya yeni satır olmadan yeniden yapıştırın."
 
 #: CRM/Ses.php
 msgid "SES Secret Key must be a string."
-msgstr ""
+msgstr "SES gizli anahtarı bir dizge olmalıdır."
 
 #: CRM/Ses.php
 msgid ""
 "SES Secret Key has leading or trailing whitespace. Re-paste it without the "
 "surrounding space or newline."
 msgstr ""
+"SES gizli anahtarının önünde veya sonunda boşluklar var. Başta ve sonra "
+"boşluk veya yeni satır olmadan yeniden yapıştırın."
 
 #: CRM/Ses.php
 msgid ""
@@ -140,18 +119,26 @@ msgid ""
 "The SES API needs the secret access key from IAM; SMTP credentials only work"
 " over SMTP."
 msgstr ""
+"Bu, bir IAM gizli erişim anahtarından ziyade bir SES SMTP parolasına "
+"benziyor. SES API uyguaması, IAM üzerinden gizli erişim anahtarına gerek "
+"duyar; SMTP kimlik doğrulama bilgileri yalnızca SMTP üzerinden çalışır."
 
 #: CRM/Ses.php
 msgid ""
 "SES Secret Key contains HTML-escaped characters (such as \"&#43;\" in place "
 "of \"+\"). Re-paste it directly from AWS."
 msgstr ""
+"SES gizli anahtarında, \"+\" yerine \"&#43;\" gibi) HTML kodundan kaçırılan "
+"karakterler bulunuyor. Doğrudan AWS üzerinden kopyalayıp yeniden yapıştırın."
 
 #: CRM/Ses.php
 msgid ""
 "SES Secret Key looks percent-encoded (an escape sequence beginning with "
 "\"%\" in place of \"+\" or \"/\"). Re-paste it directly from AWS."
 msgstr ""
+"SES gizli anahtarı yüzde olarak kodlanmış gibi görünüyor (\"+\" veya \"/\" "
+"yerine \"%\" ile başlayan bir kaçış dizisi). Doğrudan AWS üzerinden "
+"kopyalayıp yeniden yapıştırın."
 
 #: managed/Mailprotocol.mgd.php
 msgid "SES"
@@ -168,6 +155,8 @@ msgstr "SES erişim anahtarı"
 #: settings/ses.setting.php
 msgid "The IAM Access Key ID, typically 20 characters beginning \"AKIA\"."
 msgstr ""
+"IAM erişim anahtarı kimliği, genellikle \"AKIA\" ile başlayan 20 karakter "
+"uzunluğundadır."
 
 #: settings/ses.setting.php
 msgid "SES Secret Key"
@@ -178,6 +167,8 @@ msgid ""
 "The IAM Secret Access Key, typically 40 characters. Not the SES SMTP "
 "password - that only works over SMTP, not for the API."
 msgstr ""
+"IAM gizli erişim anahtarı, genellikle 40 karakter uzunluğundadır. SES SMTP "
+"parolası değildir. O yalnızca SMTP üzerinden çalışır, API için değildir."
 
 #: settings/ses.setting.php
 msgid "SES Region"
