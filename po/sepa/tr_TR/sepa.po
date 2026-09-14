@@ -11,12 +11,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: sepa\n"
 "POT-Creation-Date: 2026-09-10 13:16+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2026\n"
@@ -38,7 +32,7 @@ msgstr "Bir kerelik ufuğu"
 
 #: CRM/Admin/Form/Setting/SepaSettings.php
 msgid "One-off notice days"
-msgstr ""
+msgstr "Tek seferlik bildirim günleri"
 
 #: CRM/Admin/Form/Setting/SepaSettings.php
 msgid "Recurring horizon"
@@ -50,11 +44,11 @@ msgstr "Yinelenme ek süresi"
 
 #: CRM/Admin/Form/Setting/SepaSettings.php
 msgid "Recurring notice days (follow-up)"
-msgstr ""
+msgstr "Yinelenen bildirim günleri (izleme)"
 
 #: CRM/Admin/Form/Setting/SepaSettings.php
 msgid "Recurring notice days (initial)"
-msgstr ""
+msgstr "Yinelenen bildirim günleri (başlangıç)"
 
 #: CRM/Admin/Form/Setting/SepaSettings.php
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
@@ -219,7 +213,7 @@ msgstr "Büyük gruplar"
 #: CRM/Admin/Form/Setting/SepaSettings.php
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
 msgid "Groups by Financial Types"
-msgstr ""
+msgstr "Mali türlere göre gruplar"
 
 #: CRM/Admin/Form/Setting/SepaSettings.php
 #: templates/CRM/Admin/Form/Setting/SepaSettings.tpl
@@ -304,7 +298,7 @@ msgstr "[%s] talimatı sonlandırılamadı. Birleştirme işlemi sürüyor!"
 
 #: CRM/Sepa/BAO/SEPAMandate.php CRM/Sepa/Page/EditMandate.php
 msgid "Cannot read mandate [%1]. Error was: '%2'"
-msgstr ""
+msgstr "[%1] talimatı okunamadı. Hata iletisi: '%2'"
 
 #: CRM/Sepa/BAO/SEPAMandate.php
 msgid "You can only modify the end date of recurring contribution mandates."
@@ -503,7 +497,7 @@ msgstr "Katkı kimliği dış anahtarı"
 
 #: CRM/Sepa/DAO/SEPAContributionGroup.php
 msgid "Txgroup ID"
-msgstr ""
+msgstr "Gönderici grup kimliği"
 
 #: CRM/Sepa/DAO/SEPAContributionGroup.php
 msgid "FK to civicrm_sdd_txgroup"
@@ -888,7 +882,7 @@ msgstr "Bu ögenin oluşturulma zamanı"
 
 #: CRM/Sepa/DAO/SEPASddFile.php
 msgid "Created ID"
-msgstr ""
+msgstr "Oluşturan kimliği"
 
 #: CRM/Sepa/DAO/SEPASddFile.php
 msgid "FK to Contact ID of creator"
@@ -955,6 +949,8 @@ msgid ""
 "Financial type of contained contributions if CiviSEPA is generating groups "
 "matching financial types."
 msgstr ""
+"CiviSEPA mali türler ile eşleşen gruplar oluşturuyorsa, kapsanan katkıların "
+"mali türü."
 
 #: CRM/Sepa/DAO/SEPATransactionGroup.php
 msgid "fk sepa group Status options in civicrm_option_values"
@@ -964,7 +960,7 @@ msgstr ""
 
 #: CRM/Sepa/DAO/SEPATransactionGroup.php
 msgid "Sdd Creditor ID"
-msgstr ""
+msgstr "SEPA Direct Debit alacaklı kimliği"
 
 #: CRM/Sepa/DAO/SEPATransactionGroup.php
 msgid "fk to SDD Creditor Id"
@@ -972,7 +968,7 @@ msgstr "SDD alacaklı kimliği dış anahtarı"
 
 #: CRM/Sepa/DAO/SEPATransactionGroup.php
 msgid "Sdd File ID"
-msgstr ""
+msgstr "SEPA Direct Debit dosya kimliği"
 
 #: CRM/Sepa/DAO/SEPATransactionGroup.php
 msgid "fk to SDD File Id"
@@ -1011,7 +1007,7 @@ msgstr "Bitiş tarihi"
 msgid ""
 "The mandate to clone/replace from does not exist or you do not have "
 "permission for it."
-msgstr ""
+msgstr "Çoğaltma/değiştirme yetkisi yok ya da bunun için izniniz yok."
 
 #: CRM/Sepa/Form/CreateMandate.php
 msgid "You can only replace RCUR mandates"
@@ -1534,11 +1530,11 @@ msgstr "CiviSEPA sağlık denetimi"
 #: CRM/Sepa/Logic/Queue/Close.php CRM/Sepa/Page/CloseGroup.php
 #: CRM/Sepa/Page/MarkGroupReceived.php
 msgid "Cannot close group, another update is in progress!"
-msgstr ""
+msgstr "Grup kapatılamadı. Başka bir güncelleme sürüyor!"
 
 #: CRM/Sepa/Logic/Queue/Close.php
 msgid "Marking SDD Group(s) Received: [%1]"
-msgstr ""
+msgstr "SEPA Direct Debit grupları alınmış olarak işaretleniyor: [%1]"
 
 #: CRM/Sepa/Logic/Queue/Close.php
 msgid "Closing SDD Group(s) [%1]"
@@ -1578,11 +1574,11 @@ msgstr "Tamamlanmış talimatlar temizleniyor"
 
 #: CRM/Sepa/Logic/Queue/Update.php
 msgid "Process %1 mandates (%2-%3)"
-msgstr ""
+msgstr "%1 talimatı işle (%2-%3)"
 
 #: CRM/Sepa/Logic/Queue/Update.php
 msgid "Cleaning up %1 groups"
-msgstr ""
+msgstr "%1 grup temizleniyor"
 
 #: CRM/Sepa/Logic/Settings.php
 msgid "Thank you"
@@ -1658,7 +1654,7 @@ msgstr "SEPA grubunu kapat"
 
 #: CRM/Sepa/Page/CloseGroup.php
 msgid "Cannot load creditor."
-msgstr ""
+msgstr "Alacaklı yüklenemedi."
 
 #: CRM/Sepa/Page/CloseGroup.php
 msgid "Error was: %1"
@@ -1666,19 +1662,19 @@ msgstr "Hata şuydu: %1"
 
 #: CRM/Sepa/Page/CloseGroup.php
 msgid "Cannot delete file #%1"
-msgstr ""
+msgstr "%1 numaralı dosya silinemedi"
 
 #: CRM/Sepa/Page/CloseGroup.php
 msgid "Cannot load group #%1"
-msgstr ""
+msgstr "%1 numaralı grup yüklenemedi"
 
 #: CRM/Sepa/Page/CloseGroup.php
 msgid "Cannot load for group #%1"
-msgstr ""
+msgstr "%1 numaralı grup için yüklenemdi"
 
 #: CRM/Sepa/Page/CloseGroup.php
 msgid "Cannot close group #%1"
-msgstr ""
+msgstr "%1 numaralı grup kapatılamadı"
 
 #: CRM/Sepa/Page/CreateMandate.php
 msgid "Create SEPA Mandate"
@@ -1726,7 +1722,7 @@ msgstr "Herhangi bir alacaklı bulunamadı."
 
 #: CRM/Sepa/Page/CreateMandate.php
 msgid "Couldn't load mandate #%1"
-msgstr ""
+msgstr "%1 numaralı talimat yüklenemedi"
 
 #: CRM/Sepa/Page/CreateMandate.php
 msgid "Mandate #%s seems to be broken!"
@@ -1778,7 +1774,7 @@ msgstr "CiviSEPA panosu"
 
 #: CRM/Sepa/Page/DashBoard.php
 msgid "Couldn't read transaction groups. Error was: %1"
-msgstr ""
+msgstr "Hesap hareketi grubu okunamadı. Hata iletisi: %1"
 
 #: CRM/Sepa/Page/DashBoard.php
 msgid "Unknown batcher mode '%s'. No batching triggered."
@@ -1884,7 +1880,7 @@ msgstr "SEPA grup katkıları"
 
 #: CRM/Sepa/Page/ListGroup.php
 msgid "Cannot read SEPA transaction group [%1]. Error was: %2"
-msgstr ""
+msgstr "[%1] SEPA hesap hareketi grubu okunamadı. Hata iletisi: %2"
 
 #: CRM/Sepa/Page/MandateTab.php sepa.php
 msgid "SEPA Mandates"
@@ -1892,7 +1888,7 @@ msgstr "SEPA talimatları"
 
 #: CRM/Sepa/Page/MarkGroupReceived.php
 msgid "Mark SEPA group received"
-msgstr ""
+msgstr "SEPA grubu alınmış olarak işaretlendi"
 
 #: CRM/Sepa/Page/MarkGroupReceived.php templates/CRM/Sepa/Page/DeleteGroup.tpl
 msgid "No group_id given!"
@@ -1900,11 +1896,12 @@ msgstr "group_id belirtilmemiş!"
 
 #: CRM/Sepa/Page/MarkGroupReceived.php
 msgid "Cannot mark TEST groups as received."
-msgstr ""
+msgstr "Deneme grupları alınmış olarak işaretlenemedi."
 
 #: CRM/Sepa/Page/MarkGroupReceived.php
 msgid "Couldn't close SDD group #%1.<br/>Error was: %2"
 msgstr ""
+"%1 numaralı SEPA Direct Debit grubu kapatılamadı.<br/>Hata iletisi: %2"
 
 #: CRM/Sepa/Page/SepaFile.php
 msgid "Generate XML File"
@@ -2057,15 +2054,15 @@ msgstr "Ödemenin alınacağı gün"
 
 #: Civi/Sepa/ActionProvider/Action/CreateRecurringMandate.php
 msgid "Creditor (Leave empty to use default)"
-msgstr ""
+msgstr "Alacaklı (varsayılan değerin kullanılması için boş bırakın)"
 
 #: Civi/Sepa/ActionProvider/Action/CreateRecurringMandate.php
 msgid "Financial Type (Leave empty to use default)"
-msgstr ""
+msgstr "Mali tür (varsayılan değerin kullanılması için boş bırakın)"
 
 #: Civi/Sepa/ActionProvider/Action/CreateRecurringMandate.php
 msgid "Campaign (Leave empty to use default)"
-msgstr ""
+msgstr "Kampanya (varsayılan değerin kullanılması için boş bırakın)"
 
 #: Civi/Sepa/ActionProvider/Action/CreateRecurringMandate.php
 #: Civi/Sepa/ActionProvider/Action/FindMandate.php
@@ -2120,11 +2117,11 @@ msgstr "Yıllık tutar"
 
 #: Civi/Sepa/ActionProvider/Action/FindMandate.php
 msgid "Contribution ID (One-off)"
-msgstr ""
+msgstr "Katkı kimliği (tek seferlik)"
 
 #: Civi/Sepa/ActionProvider/Action/TerminateMandate.php
 msgid "Cancel Reason (if no parameter)"
-msgstr ""
+msgstr "İptal etme nedeni (bir parametre yoksa)"
 
 #: Civi/Sepa/ContainerSpecs.php
 msgid "Create SEPA Mandate (One-Off)"
@@ -2140,7 +2137,7 @@ msgstr "SEPA talimatı arama"
 
 #: Civi/Sepa/ContainerSpecs.php
 msgid "Terminate SEPA Mandate"
-msgstr ""
+msgstr "SEPA talimatını sonlandır"
 
 #: Civi/Sepa/ContainerSpecs.php
 #: templates/CRM/Contact/Page/View/Summary.sepa.tpl
@@ -2169,11 +2166,11 @@ msgstr "SEPA talimatı bağlantısı"
 
 #: Civi/Sepa/ContainerSpecs.php
 msgid "Join Sepa Mandate on Contribution"
-msgstr ""
+msgstr "Katkıda SEPA talimatına katıl"
 
 #: Civi/Sepa/ContainerSpecs.php
 msgid "Join Sepa Mandate on Contribution Recur"
-msgstr ""
+msgstr "Katkı yinelenmesinde SEPA talimatına katıl"
 
 #: Civi/Sepa/DataProcessor/Join/AbstractMandateJoin.php
 msgid "Select field"
@@ -2185,7 +2182,7 @@ msgstr "Zorunlu"
 
 #: Civi/Sepa/DataProcessor/Join/AbstractMandateJoin.php
 msgid "Not required"
-msgstr ""
+msgstr "Zorunlu değil"
 
 #: api/v3/SepaTransactionGroup.php
 msgid "SEPA DD Transaction Batch"
@@ -2223,7 +2220,7 @@ msgstr "Hesap referansı"
 
 #: js/CreateMandate.js
 msgid "org.project60.sepa"
-msgstr ""
+msgstr "org.project60.sepa"
 
 #: js/RetryCollection.js
 msgid ""
@@ -2719,6 +2716,8 @@ msgstr ""
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid "Whether to group transactions by financial types additionally."
 msgstr ""
+"Hesap hareketlerinin ayrıca mali türlere göre gruplanıp gruplanmayacağını "
+"belirler."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
@@ -2726,6 +2725,9 @@ msgid ""
 " groups with mixed financial type contributions can cause issues with "
 "overlapping Financial ACLs' permissions."
 msgstr ""
+"Mali EDL eklentisini kullanıyorsanız bu ayarları etkinleştirin. Karışık mali"
+" türlerde katkıları olan hesap hareketi grupları, çakışan mali EDL izinleri "
+"ile ilgili sorunlara neden olabilir."
 
 #: templates/CRM/Admin/Form/Setting/SepaSettings.hlp
 msgid ""
@@ -3001,21 +3003,25 @@ msgid ""
 "source with the field id. Or the any other data source which holds a "
 "contribution ID field."
 msgstr ""
+"Katkının kimliğini seçin. Alan kimliğine sahip katkı kaynağında ya da bir "
+"katkı kimliği alanı tutan diğer herhangi bir veri kaynağı olabilir."
 
 #: templates/CRM/Sepa/Form/DataProcessor/Join/MandateContributionJoin.tpl
 #: templates/CRM/Sepa/Form/DataProcessor/Join/MandateContributionRecurJoin.tpl
 msgid "Required join"
-msgstr ""
+msgstr "Katılmak zorunlu"
 
 #: templates/CRM/Sepa/Form/DataProcessor/Join/MandateContributionJoin.tpl
 msgid ""
 "Required means that both Sepa Mandate Entity ID field and the Contribution "
 "ID need to be set. "
 msgstr ""
+"Zorunlu, hem SEPA talimat varlığı kimliği alanının hem de katkı kimliğinin "
+"ayarlanmasının zorunlu olduğu anlamına gelir."
 
 #: templates/CRM/Sepa/Form/DataProcessor/Join/MandateContributionJoin.tpl
 msgid "Join on Contribution ID field"
-msgstr ""
+msgstr "Katkı kimliği alanına katılsın"
 
 #: templates/CRM/Sepa/Form/DataProcessor/Join/MandateContributionRecurJoin.tpl
 msgid ""
@@ -3023,16 +3029,20 @@ msgid ""
 "contribution recur source with the field id. Or the contribution source and "
 "field contribution_recur_id."
 msgstr ""
+"Yinelenen katkının kimliğini seçin. Alan kimliğine sahip katkı yinelenen "
+"kaynağında ya da katkı kaynağı ve alanı contribution_recur_id olabilir."
 
 #: templates/CRM/Sepa/Form/DataProcessor/Join/MandateContributionRecurJoin.tpl
 msgid ""
 "Required means that both Sepa Mandate Entity ID field and the Recurring "
 "Contribution ID need to be set. "
 msgstr ""
+"Zorunlu, hem SEPA talimat varlığı kimliği alanının hem de yinelenen katkı "
+"kimliğinin ayarlanmasının zorunlu olduğu anlamına gelir."
 
 #: templates/CRM/Sepa/Form/DataProcessor/Join/MandateContributionRecurJoin.tpl
 msgid "Join on Contribution Recur ID field"
-msgstr ""
+msgstr "Yinelenen katkı kimliği alanına katılsın"
 
 #: templates/CRM/Sepa/Form/RetryCollection.hlp
 msgid ""
@@ -3292,6 +3302,8 @@ msgid ""
 "Note that only groups with contributions of authorized financial types are "
 "being displayed."
 msgstr ""
+"Yalnızca yetkili mali türlerin katkılarına sahip grupların görüntüleneceğini"
+" unutmayın."
 
 #: templates/CRM/Sepa/Page/DashBoard.tpl
 msgid "Group Name"
@@ -3932,6 +3944,8 @@ msgid ""
 "Note that only mandates associated with contributions of authorized "
 "financial types are being displayed."
 msgstr ""
+"Yalnızca yetkili mali türlerin katkılarıyla ilişkili talimatların "
+"görüntüleneceğini unutmayın."
 
 #: templates/CRM/Sepa/Page/MandateTab.tpl
 msgid "One-Off SEPA Mandates"
