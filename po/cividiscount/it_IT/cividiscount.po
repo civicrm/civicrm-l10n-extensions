@@ -9,15 +9,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: CiviCRM_extensions\n"
 "POT-Creation-Date: 2025-10-07 11:01+0200\n"
 "PO-Revision-Date: 2014-04-28 23:36+0000\n"
@@ -31,7 +22,7 @@ msgstr ""
 
 #: CRM/CiviDiscount/BAO/Item.php CRM/CiviDiscount/Form/Admin.php
 msgid "Percent"
-msgstr ""
+msgstr "Percentuale"
 
 #: CRM/CiviDiscount/BAO/Item.php CRM/CiviDiscount/Form/Admin.php
 msgid "Fixed Amount"
@@ -97,7 +88,7 @@ msgstr "Importo Sconto"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Total Limit"
-msgstr ""
+msgstr "Totale Limite"
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "Per-User Limit"
@@ -203,7 +194,7 @@ msgstr ""
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid "You have a criteria without an = sign"
-msgstr ""
+msgstr "Hai un criterio senza il segno ="
 
 #: CRM/CiviDiscount/Form/Admin.php
 msgid ""
@@ -384,7 +375,7 @@ msgstr "Aggiungi Codice Sconto"
 
 #: managed/SavedSearch_Discount_Uses.mgd.php
 msgid "Discount Uses"
-msgstr ""
+msgstr "Utilizzi Sconto"
 
 #: managed/SavedSearch_Discount_Uses.mgd.php
 msgid "Used By"
@@ -469,7 +460,7 @@ msgstr "Utilizzi Massimi (per utente)"
 
 #: schema/DiscountCode.entityType.php
 msgid "Count Use"
-msgstr ""
+msgstr "Conteggio Utilizzo"
 
 #: schema/DiscountCode.entityType.php
 msgid "Number of times this code has been used"
@@ -481,7 +472,7 @@ msgstr "Elenco serializzato degli eventi per i quali può essere usato questo co
 
 #: schema/DiscountCode.entityType.php
 msgid "Pricesets"
-msgstr ""
+msgstr "Listini Prezzi"
 
 #: schema/DiscountCode.entityType.php
 msgid "Serialized list of pricesets for which this code can be used"
@@ -527,15 +518,15 @@ msgstr "Data di scadenza di questo sconto"
 
 #: schema/DiscountCode.entityType.php
 msgid "Discount Msg Enabled"
-msgstr ""
+msgstr "Messaggio di Sconto Abilitato"
 
 #: schema/DiscountCode.entityType.php
 msgid "Discount Msg"
-msgstr ""
+msgstr "Messaggio di Sconto"
 
 #: schema/DiscountCode.entityType.php
 msgid "Not Eligible Message"
-msgstr ""
+msgstr "Messaggio di non idoneità"
 
 #: schema/DiscountCode.entityType.php
 msgid "Discount Filters"
@@ -547,11 +538,11 @@ msgstr ""
 
 #: schema/DiscountTrack.entityType.php
 msgid "Discount Tracking"
-msgstr ""
+msgstr "Tracciamento Sconto"
 
 #: schema/DiscountTrack.entityType.php
 msgid "Discount Trackings"
-msgstr ""
+msgstr "Tracciamenti Sconto"
 
 #: schema/DiscountTrack.entityType.php
 msgid "Record an instance of a discount use"
@@ -579,7 +570,7 @@ msgstr "Contatto"
 
 #: schema/DiscountTrack.entityType.php
 msgid "Used Date"
-msgstr ""
+msgstr "Data d'Uso"
 
 #: schema/DiscountTrack.entityType.php
 msgid "Date of use"
@@ -599,7 +590,7 @@ msgstr "Tabella Entità"
 
 #: schema/DiscountTrack.entityType.php
 msgid "Table where referenced item is stored"
-msgstr ""
+msgstr "Tabella dove è memorizzato l'elemento di riferimento"
 
 #: schema/DiscountTrack.entityType.php
 msgid "Entity ID"
@@ -641,7 +632,7 @@ msgstr "Questo sconto non sarà più utilizzabile dopo questa data. Lascia vuoto
 msgid ""
 "Used to associate this discount code with an organization. Every time this "
 "code is used it will be recorded on that organization's contact record."
-msgstr ""
+msgstr "Usato per associare questo codice sconto con un'organizzazione. Ogni volta che questo codice viene utilizzato, sarà registrato nella scheda contatto di quell'organizzazione."
 
 #: templates/CRM/CiviDiscount/Form/Admin.hlp
 msgid ""
@@ -654,7 +645,7 @@ msgid ""
 "Autodiscount is generally used with a randomly-generated code which is "
 "<em>not</em> given out to users. Cividiscount will apply the discount with "
 "no code required."
-msgstr ""
+msgstr "Lo Sconto automatico viene generalmente usato con un codice generato casualmente che <em>non</em> viene fornito agli utenti. Cividiscount applicherà lo sconto senza bisogno di alcun codice."
 
 #: templates/CRM/CiviDiscount/Form/Admin.hlp
 msgid ""
@@ -671,13 +662,13 @@ msgid ""
 "If your form uses a price set, the discount will be applied to <em>all</em> "
 "options in the set by default. However, if you want the discount to be "
 "applied <em>only</em> to specific price options - select those options here."
-msgstr ""
+msgstr "Se il tuo modulo utilizza un listino prezzi, lo sconto verrà applicato a <em>tutte</em> le opzioni nel listino per impostazione predefinita. Tuttavia, se vuoi che lo sconto venga applicato solo a specifiche opzioni di prezzo - seleziona queste opzioni qui."
 
 #: templates/CRM/CiviDiscount/Form/Admin.hlp
 msgid ""
 "Discount the price of purchasing memberships. Only active memberships with "
 "start and end dates defined will appear in this list."
-msgstr ""
+msgstr "Sconta il prezzo di acquisto delle adesioni. Solo le adesioni attive con date definite di inizio e fine appariranno in questa lista."
 
 #: templates/CRM/CiviDiscount/Form/Admin.hlp
 msgid ""
@@ -710,7 +701,7 @@ msgstr "Vuoi continuare?"
 
 #: templates/CRM/CiviDiscount/Form/Admin.tpl
 msgid "Random"
-msgstr ""
+msgstr "Casuale"
 
 #: templates/CRM/CiviDiscount/Form/Admin.tpl
 msgid "Do not use spaces in the Discount Code."
