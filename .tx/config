@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = el: el_GR, km: km_KH, da: da_DK, de: de_DE, cs: cs_CZ, sl: sl_SI, vi: vi_VN, ca: ca_ES, ja: ja_JP, es: es_ES, fi: fi_FI, sv: sv_SE, nl: nl_NL, it: it_IT, nb: nb_NO, fr: fr_FR, pt: pt_PT, tr: tr_TR, bg: bg_BG, he: he_IL, sq: sq_AL, hu: hu_HU, lv: lv_LV, ru: ru_RU, pl: pl_PL, id: id_ID, ro: ro_RO, lt: lt_LT, hi: hi_IN, sk: sk_SK, et: et_EE, af: af_ZA
+lang_map = de: de_DE, fi: fi_FI, fr: fr_FR, sq: sq_AL, hi: hi_IN, id: id_ID, sl: sl_SI, it: it_IT, lv: lv_LV, pl: pl_PL, af: af_ZA, el: el_GR, es: es_ES, pt: pt_PT, tr: tr_TR, et: et_EE, vi: vi_VN, ja: ja_JP, he: he_IL, bg: bg_BG, ru: ru_RU, ro: ro_RO, sk: sk_SK, km: km_KH, da: da_DK, nb: nb_NO, cs: cs_CZ, ca: ca_ES, sv: sv_SE, nl: nl_NL, hu: hu_HU, lt: lt_LT
 
 [o:civicrm:p:civicrm_extensions:r:Civixero]
 file_filter            = po/Civixero/<lang>/Civixero.po
@@ -296,6 +296,15 @@ keep_translations      = false
 file_filter            = po/civiruleslogger/<lang>/civiruleslogger.po
 source_file            = po/civiruleslogger/pot/civiruleslogger.pot
 source_lang            = en
+replace_edited_strings = false
+keep_translations      = false
+
+[o:civicrm:p:civicrm_extensions:r:civisms]
+file_filter            = po/civisms/<lang>/civisms.po
+source_file            = po/civisms/pot/civisms.pot
+type                   = POT
+minimum_perc           = 0
+resource_name          = civisms
 replace_edited_strings = false
 keep_translations      = false
 
