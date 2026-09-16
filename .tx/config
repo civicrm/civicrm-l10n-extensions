@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = de: de_DE, fi: fi_FI, fr: fr_FR, sq: sq_AL, hi: hi_IN, id: id_ID, sl: sl_SI, it: it_IT, lv: lv_LV, pl: pl_PL, af: af_ZA, el: el_GR, es: es_ES, pt: pt_PT, tr: tr_TR, et: et_EE, vi: vi_VN, ja: ja_JP, he: he_IL, bg: bg_BG, ru: ru_RU, ro: ro_RO, sk: sk_SK, km: km_KH, da: da_DK, nb: nb_NO, cs: cs_CZ, ca: ca_ES, sv: sv_SE, nl: nl_NL, hu: hu_HU, lt: lt_LT
+lang_map = sv: sv_SE, sl: sl_SI, tr: tr_TR, et: et_EE, af: af_ZA, bg: bg_BG, km: km_KH, hu: hu_HU, de: de_DE, pt: pt_PT, ro: ro_RO, sk: sk_SK, ca: ca_ES, pl: pl_PL, el: el_GR, ru: ru_RU, it: it_IT, es: es_ES, he: he_IL, da: da_DK, nb: nb_NO, fi: fi_FI, fr: fr_FR, hi: hi_IN, nl: nl_NL, lt: lt_LT, cs: cs_CZ, id: id_ID, lv: lv_LV, ja: ja_JP, sq: sq_AL, vi: vi_VN
 
 [o:civicrm:p:civicrm_extensions:r:Civixero]
 file_filter            = po/Civixero/<lang>/Civixero.po
@@ -752,6 +752,15 @@ source_file            = po/gtmtracking/pot/gtmtracking.pot
 type                   = POT
 minimum_perc           = 0
 resource_name          = gtmtracking
+replace_edited_strings = false
+keep_translations      = false
+
+[o:civicrm:p:civicrm_extensions:r:helloasso_payment_processor]
+file_filter            = po/helloasso_payment_processor/<lang>/helloasso_payment_processor.po
+source_file            = po/helloasso_payment_processor/pot/helloasso_payment_processor.pot
+type                   = POT
+minimum_perc           = 0
+resource_name          = helloasso_payment_processor
 replace_edited_strings = false
 keep_translations      = false
 
