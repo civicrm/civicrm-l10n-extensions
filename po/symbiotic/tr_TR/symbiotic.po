@@ -409,23 +409,32 @@ msgid ""
 "handful of tables. See also the symbiotic.checkmissingfk API function, which"
 " provides more details and can help fix these errors."
 msgstr ""
+"%1 tablosunda dış anahtarlar eksik. Lütfen yeni bir CiviCRM kurulumunda "
+"\"show create table %1\" ile karşılaştırın ve dış anahtarları yeniden "
+"oluşturun. Bu sorun veri bozulmasına ve yükseltme sorunlarına neden "
+"olabilir. Dış anahtarlar diğer tablolarda da eksik olabilir. Bu kontrol "
+"yalnızca bazı tablolara bakıyor. Ayrıntılı bilgi almak için bu hataları "
+"düzeltmeye yardımcı olabilecek symbiotic.checkmissingfk API işlevine de "
+"bakın."
 
 #: CRM/Symbiotic/Utils/Check/ForeignKeys.php
 msgid "SymbioTIC - Foreign Keys %1"
-msgstr ""
+msgstr "SymbioTIC - Dış anahtarlar %1"
 
 #: CRM/Symbiotic/Utils/Check/ForeignKeys.php
 msgid "SymbioTIC - Foreign Keys"
-msgstr ""
+msgstr "SymbioTIC - Dış anahtarlar"
 
 #: CRM/Symbiotic/Utils/Check/GroupCache.php
 msgid ""
 "Group Cache Rebuild was not set to daily (or active): %1, %2, %3. Fixing."
 msgstr ""
+"Grup ön belleği yeniden oluşturma günlük (veya etkin) olarak ayarlanmamış: "
+"%1, %2, %3. Düzeltiliyor."
 
 #: CRM/Symbiotic/Utils/Check/GroupCache.php
 msgid "SymbioTIC - Group Cache"
-msgstr ""
+msgstr "SymbioTIC - Grup ön belleği"
 
 #: CRM/Symbiotic/Utils/Check/GroupCache.php
 msgid ""
@@ -434,91 +443,103 @@ msgid ""
 "to identify the group (select id from civicrm_group where saved_search_id = "
 "XX). Error was: %1"
 msgstr ""
+"Grup ön belleği yeniden oluşturulamadı. Hata ayıklamak için, grubu "
+"tanımlamaya yardımcı olan saved_search_id "
+"CRM_Contact_BAO_SavedSearch::getSearchParams() için geriye doğru izlemeye "
+"bakın (select id from saved_search_id = XX). Hata şuydu:% 1"
 
 #: CRM/Symbiotic/Utils/Check/GroupCache.php
 msgid "Group Cache Rebuild is enabled, but has not run recently."
 msgstr ""
+"Grup ön belleğini yeniden oluşturma etkinleştirilmiş, ancak son zamanlarda "
+"çalışmamış."
 
 #: CRM/Symbiotic/Utils/Check/GroupCache.php
 msgid "Group Cache Rebuild seems OK: %1. Last run: %2"
 msgstr ""
+"Grup ön belleğini yeniden oluşturma tamam görünüyor: %1. Son çalışma: %2"
 
 #: CRM/Symbiotic/Utils/Check/GroupCache.php
 msgid "SymbioTIC- Group Cache"
-msgstr ""
+msgstr "SymbioTIC- Grup ön belleği"
 
 #: CRM/Symbiotic/Utils/Check/HostingExpiration.php
 msgid "Failed to check the status of the hosting agreement: Error %1"
-msgstr ""
+msgstr "Barındırma sözleşmesinin durumu kontrol edilemedi: %1 hatası"
 
 #: CRM/Symbiotic/Utils/Check/HostingExpiration.php
 msgid "%1 - Hosting unknown status"
-msgstr ""
+msgstr "%1 - Barındırma durumu bilinmiyor"
 
 #: CRM/Symbiotic/Utils/Check/HostingExpiration.php
 msgid "Your hosting has expired."
-msgstr ""
+msgstr "Barındırmanızın geçerlilik süresi doldu."
 
 #: CRM/Symbiotic/Utils/Check/HostingExpiration.php
 msgid "%1 - Hosting expired"
-msgstr ""
+msgstr "%1 - Barındırma geçerlilik süresi doldu"
 
 #: CRM/Symbiotic/Utils/Check/HostingExpiration.php
 msgid "Your hosting has expired on %1."
-msgstr ""
+msgstr "Barındırma süreniz %1 zamanında doldu."
 
 #: CRM/Symbiotic/Utils/Check/HostingExpiration.php
 msgid "%1 - Hosting expired %2"
-msgstr ""
+msgstr "%1 - Barındırma geçerlilik süresi doldu %2"
 
 #: CRM/Symbiotic/Utils/Check/HostingExpiration.php
 msgid ""
 "Your hosting has expired on %1, but sometimes the payment processor is "
 "running a bit late."
 msgstr ""
+"Barındırmanızın geçerlilik süresi %1 zamanında doldu. Ancak bazen ödeme "
+"aracısı biraz gecikiyor."
 
 #: CRM/Symbiotic/Utils/Check/HostingExpiration.php
 msgid "Your hosting will renew automatically on %1."
-msgstr ""
+msgstr "Barındırmanız %1 zamanında otomatik olarak yenilenecek."
 
 #: CRM/Symbiotic/Utils/Check/HostingExpiration.php
 msgid "%1 - Hosting"
-msgstr ""
+msgstr "%1 - Barındırma"
 
 #: CRM/Symbiotic/Utils/Check/HostingExpiration.php
 msgid "Your hosting expires on %1."
-msgstr ""
+msgstr "Barındırmanızın geçerlilik süresi %1 zamanında dolacak."
 
 #: CRM/Symbiotic/Utils/Check/HostingExpiration.php
 msgid "Your hosting does not have an expiry date, or it was not detected."
-msgstr ""
+msgstr "Barındırmanızın bir geçerlilik süresi sonu yok veya öğrenilemedi."
 
 #: CRM/Symbiotic/Utils/Check/Invoice.php
 msgid ""
 "Tax and Invoicing is disabled but seems to be used - please check <a "
 "%1>CiviContribute Component Settings</a>."
 msgstr ""
+"Vergi ve Faturalama kapatılmış ancak kullanılıyor gibi görünüyor. Lütfen <a "
+"%1>CiviContribute bileşen ayarlarını kontrol edin</a>."
 
 #: CRM/Symbiotic/Utils/Check/Invoice.php
 msgid "SymbioTIC - Invoice"
-msgstr ""
+msgstr "SymbioTIC - Fatura"
 
 #: CRM/Symbiotic/Utils/Check/Jobs.php
 msgid ""
 "Not checking Scheduled Jobs, because this is not a production environment."
 msgstr ""
+"Bu bir üretim ortamı olmadığı için zamanlanmış görevler kontrol edilmiyor."
 
 #: CRM/Symbiotic/Utils/Check/Jobs.php
 msgid "SymbioTIC - Scheduled Jobs"
-msgstr ""
+msgstr "SymbioTIC - Zamanlanmış görevler"
 
 #: CRM/Symbiotic/Utils/Check/Jobs.php
 msgid "Scheduled Jobs seem OK, found %1 active jobs."
-msgstr ""
+msgstr "Zamanlanmış görevler iyi görünüyor. %1 etkin görev bulundu."
 
 #: CRM/Symbiotic/Utils/Check/Jobs.php
 msgid "SymbioTIC - Jobs"
-msgstr ""
+msgstr "SymbioTIC - Görevler"
 
 #: CRM/Symbiotic/Utils/Check/Jobs.php
 msgid "Failure"
@@ -526,85 +547,99 @@ msgstr "Sorun"
 
 #: CRM/Symbiotic/Utils/Check/Jobs.php
 msgid "%1 - Failing Job"
-msgstr ""
+msgstr "%1 - Görev tamamlanamadı"
 
 #: CRM/Symbiotic/Utils/Check/Jobs.php
 msgid "Scheduled Job %1 is failing. Error was: %2"
-msgstr ""
+msgstr "%1 zamanlanmış görevi tamamlanamadı. Hata şuydu:%2"
 
 #: CRM/Symbiotic/Utils/Check/Jobs.php
 msgid "%1 - Job not running"
-msgstr ""
+msgstr "%1 - Görev çalışmıyor"
 
 #: CRM/Symbiotic/Utils/Check/Jobs.php
 msgid ""
 "Job %1 is enabled, but has not run recently (set to %2 but has not run since"
 " %3, which is less than %4)."
 msgstr ""
+"% 1 görevi etkin, ancak yakın zamanda çalışmamış (%2 olarak ayarlanmış ancak"
+" %4 zamanından küçük olan %3 zamanından beri çalışmamış)."
 
 #: CRM/Symbiotic/Utils/Check/Jobs.php
 msgid ""
 "Job %1 is enabled, but does not seem to be running (set to %2, no logs "
 "found)."
 msgstr ""
+"%1 görevi etkin, ancak çalışmıyor gibi görünüyor (%2 olarak ayarlanmış, "
+"günlük bulunamadı)."
 
 #: CRM/Symbiotic/Utils/Check/Jobs.php
 msgid ""
 "Job %1 is enabled, but has not run recently (set to %2 but has not run since"
 " %3)."
 msgstr ""
+"%1 görevi etkin, ancak son zamanlarda çalışmamış (%2 olarak ayarlanmış ancak"
+" %3 zamanından beri çalışmamış)."
 
 #: CRM/Symbiotic/Utils/Check/LogTables.php
 msgid ""
 "Column %1 missing on table %2. Run \"cv api symbiotic.fixschemalog\", or "
 "compare with \"SHOW CREATE TABLE\" on the original table."
 msgstr ""
+"%2 tablosunda% 1 sütunu eksik. \"cv api symbiotic.fixschemalog\" komutunu "
+"yürütün ya da özgün tabloyu \"SHOW CREATE TABLE\" ile karşılaştırın."
 
 #: CRM/Symbiotic/Utils/Check/LogTables.php
 msgid "SymbioTIC - Log Table %1"
-msgstr ""
+msgstr "SymbioTIC - %1 günlük tablosu"
 
 #: CRM/Symbiotic/Utils/Check/LogTables.php
 msgid "SymbioTIC - Log Tables"
-msgstr ""
+msgstr "SymbioTIC - Günlük tabloları"
 
 #: CRM/Symbiotic/Utils/Check/MailingsPending.php
 msgid "No mailings are pending to be processed."
-msgstr ""
+msgstr "İşlenmek üzere bekleyen bir e-posta yok."
 
 #: CRM/Symbiotic/Utils/Check/MailingsPending.php
 msgid "SymbioTIC - Mailings OK"
-msgstr ""
+msgstr "SymbioTIC - E-postalar iyi görünüyor"
 
 #: CRM/Symbiotic/Utils/Check/MailingsPending.php
 msgid ""
 "Mailings have been waiting to be processed for the past %1 minutes (job %3)."
 " The last email was sent %2 minutes ago."
 msgstr ""
+"Son %1 dakikadır (%3 görevi) işlenmeyi bekleyen e-postalar var. Son e-posta "
+"%2 dakika önce gönderildi."
 
 #: CRM/Symbiotic/Utils/Check/MailingsPending.php
 msgid "SymbioTIC - Mailings pending"
-msgstr ""
+msgstr "SymbioTIC - Bekleyen e-postalar var"
 
 #: CRM/Symbiotic/Utils/Check/MysqlUtf8mb4.php
 msgid ""
 "No support for emojis in mailing. You should upgrade using API "
 "System.utf8conversion."
 msgstr ""
+"E-postalarda emojiler desteklenmiyor. API System.utf8conversion komutu ile "
+"yükseltmelisiniz."
 
 #: CRM/Symbiotic/Utils/Check/MysqlUtf8mb4.php
 msgid "SymbioTIC - Utf8mb4 support"
-msgstr ""
+msgstr "SymbioTIC - Utf8mb4 desteği"
 
 #: CRM/Symbiotic/Utils/Check/NoRecentLogins.php
 msgid ""
 "The last login by a user (excluding the superadmin) was %1 days ago. Is this"
 " CiviCRM instance still in use?"
 msgstr ""
+"Bir kullanıcı tarafından son oturum açma (süper yönetici dışında) %1 gün "
+"önceydi. Bu CiviCRM kopyası hala kullanılıyor mu?"
 
 #: CRM/Symbiotic/Utils/Check/NoRecentLogins.php
 msgid "%1 - No logins since %2 days"
-msgstr ""
+msgstr "%1 - %2 günden beri oturum açılmamış"
 
 #: CRM/Symbiotic/Utils/Check/Permissions.php
 msgid ""
@@ -612,34 +647,38 @@ msgid ""
 "forms' permissions, and Profile ID %1 has public fields. Please double-check"
 " if this is OK (all profiles should restrict to a group)."
 msgstr ""
+"Anonim kullanıcıların 'profil listeleme' veya 'profil listeleme ve formlar' "
+"izinleri var ve %1 profil kimliğinde herkese açık alanlar var. Lütfen bunun "
+"uygun olup olmadığını iki kez kontrol edin (tüm profiller bir grupla "
+"kısıtlanmalıdır)."
 
 #: CRM/Symbiotic/Utils/Check/Permissions.php
 msgid "%1 - Profile Permissions"
-msgstr ""
+msgstr "%1 - Profil izinleri"
 
 #: CRM/Symbiotic/Utils/Check/Permissions.php
 msgid "Profile permissions are OK."
-msgstr ""
+msgstr "Profil izinleri iyi görünüyor."
 
 #: CRM/Symbiotic/Utils/Check/Php.php
 msgid "php%1-bcmath is missing."
-msgstr ""
+msgstr "php%1-bcmath eksik."
 
 #: CRM/Symbiotic/Utils/Check/Php.php
 msgid "SymbioTIC - PHP bccomp"
-msgstr ""
+msgstr "SymbioTIC - PHP bccomp"
 
 #: CRM/Symbiotic/Utils/Check/Php.php
 msgid "SymbioTIC - PHP"
-msgstr ""
+msgstr "SymbioTIC - PHP"
 
 #: CRM/Symbiotic/Utils/Check/PublicReports.php
 msgid "permission: %1 (if zero, this means anonymous users), grouprole: %2"
-msgstr ""
+msgstr "İzin: %1 (sıfır anonim kullanıcılar anlamına gelir), grup rolü: %2"
 
 #: CRM/Symbiotic/Utils/Check/PublicReports.php
 msgid "untitled"
-msgstr ""
+msgstr "başlıksız"
 
 #: CRM/Symbiotic/Utils/Check/PublicReports.php
 msgid ""
@@ -649,72 +688,80 @@ msgid ""
 "is from incorrectly upgraded data. Otherwise verify the permissions under "
 "the Access tab of the Report Instance."
 msgstr ""
+"<a %2>%1 herkese açık rapor var</a>. Lütfen bunun uygun olup olmadığını "
+"gözden geçirin (bağlı olmayan bir kullanıcı olarak görüntüleyin, örneğin "
+"gizli bir sekme kullanın). Olası hızlı düzeltme: Rapor kopyasına gidin ve "
+"\"İşlemler > Kaydet\" üzerine tıklayın. Hata yanlış yükseltilmiş verilerden "
+"kaynaklanıyor olabilir. Yoksa, rapor kopyasının Erişim sekmesi altındaki "
+"izinleri doğrulayın."
 
 #: CRM/Symbiotic/Utils/Check/PublicReports.php
 msgid "SymbioTIC - Public Reports"
-msgstr ""
+msgstr "SymbioTIC - Herkese açık raporlar"
 
 #: CRM/Symbiotic/Utils/Check/PublicReports.php
 msgid ""
 "No <a %1>public reports</a> found (view as a non-connected user, ex: in a "
 "private tab)."
 msgstr ""
+"<a %1>Herhangi bir herkese açık rapor</a> bulunmuyor (bağlı olmayan bir "
+"kullanıcı olarak görüntüleyin, örneğin gizli bir sekme kullanın)."
 
 #: CRM/Symbiotic/Utils/Check/Sparkpost.php
 msgid "Outgoing emails are blocked and are being logged in a text file."
-msgstr ""
+msgstr "Giden e-postalar engelleniyor ve bir yazı dosyasına kaydediliyor."
 
 #: CRM/Symbiotic/Utils/Check/Sparkpost.php
 msgid "SymbioTIC - Email disabled"
-msgstr ""
+msgstr "SymbioTIC - E-postalar kapatılmış"
 
 #: CRM/Symbiotic/Utils/Check/Sparkpost.php
 msgid "Outgoing emails are being logged to the database"
-msgstr ""
+msgstr "Giden e-postalar veri tabanına kaydediliyor"
 
 #: CRM/Symbiotic/Utils/Check/Sparkpost.php
 msgid "SymbioTIC - Email logged to DB"
-msgstr ""
+msgstr "SymbioTIC - E-posta günlüğü veri tabanına kaydediliyor"
 
 #: CRM/Symbiotic/Utils/Check/Sparkpost.php
 msgid "<a %1>Default email domain</a> is set to EXAMPLE.ORG."
-msgstr ""
+msgstr "<a %1>Varsayılan e-posta etki alanı</a> EXAMPLE.ORG olarak ayarlandı."
 
 #: CRM/Symbiotic/Utils/Check/Sparkpost.php
 msgid "SymbioTIC - Default Domain"
-msgstr ""
+msgstr "SymbioTIC - Varsayılan etki alanı"
 
 #: CRM/Symbiotic/Utils/Check/Sparkpost.php
 msgid "<a %1>Outgoing emails</a> password seems badly encrypted."
-msgstr ""
+msgstr "<a %1>Giden e-posta</a> parolası kötü şifrelenmiş gibi görünüyor."
 
 #: CRM/Symbiotic/Utils/Check/Sparkpost.php
 msgid "SymbioTIC - Invalid outbound email password"
-msgstr ""
+msgstr "SymbioTIC - Giden e-posta parolası geçersiz"
 
 #: CRM/Symbiotic/Utils/Check/Sparkpost.php
 msgid "<a %1>SparkPost API key</a> seems badly encrypted."
-msgstr ""
+msgstr "<a %1>SparkPost API anahtarı</a> kötü şifrelenmiş gibi görünüyor."
 
 #: CRM/Symbiotic/Utils/Check/Sparkpost.php
 msgid "SymbioTIC - Invalid SparkPost key"
-msgstr ""
+msgstr "SymbioTIC - SparkPost anahtarı geçersiz"
 
 #: CRM/Symbiotic/Utils/Check/Sparkpost.php
 msgid "Outgoing emails are not using SMTP delivery."
-msgstr ""
+msgstr "Giden e-postalar SMTP aktarımını kullanmıyor."
 
 #: CRM/Symbiotic/Utils/Check/Sparkpost.php
 msgid "Invalid outbound email method"
-msgstr ""
+msgstr "Giden e-posta yöntemi geçersiz"
 
 #: CRM/Symbiotic/Utils/Check/Sparkpost.php
 msgid "SMTP"
-msgstr ""
+msgstr "SMTP"
 
 #: CRM/Symbiotic/Utils/Check/Sparkpost.php
 msgid "Sendmail"
-msgstr ""
+msgstr "Sendmail"
 
 #: CRM/Symbiotic/Utils/Check/Sparkpost.php
 msgid "Disabled"
@@ -722,15 +769,15 @@ msgstr "Etkisizleştirilmiş"
 
 #: CRM/Symbiotic/Utils/Check/Sparkpost.php
 msgid "Mail"
-msgstr ""
+msgstr "Mail"
 
 #: CRM/Symbiotic/Utils/Check/Sparkpost.php
 msgid "Mock"
-msgstr ""
+msgstr "Mock"
 
 #: CRM/Symbiotic/Utils/Check/Sparkpost.php
 msgid "Redirect to DB"
-msgstr ""
+msgstr "Veri tabanına yönlendir"
 
 #: CRM/Symbiotic/Utils/Check/Sparkpost.php
 msgid "unknown"
@@ -742,84 +789,103 @@ msgid ""
 " emails settings page or by sending an email to a test contact. Outbound "
 "method: %1"
 msgstr ""
+"Giden e-postalar doğru yapılandırılmış gibi görünüyor. Giden e-posta "
+"ayarları sayfasından veya bir deneme kişisine bir e-posta göndererek "
+"deneyebilirsiniz. Gönderim yöntemi: %1"
 
 #: CRM/Symbiotic/Utils/Check/Sparkpost.php
 msgid "SymbioTIC - Outgoing emails"
-msgstr ""
+msgstr "SymbioTIC - Giden e-postalar"
 
 #: CRM/Symbiotic/Utils/Check/StripeSpam.php
 msgid ""
 "%1 failed Stripe Payment Intents in the past hour. Please check the logs. "
 "They are problably hitting the CiviCRM REST API."
 msgstr ""
+"Son bir saat içinde %1 Stripe ödeme girişimi başarısız oldu. Lütfen günlük "
+"kayıtlarına bakın. Büyük olasılıkla CiviCRM REST API vuruluyor."
 
 #: CRM/Symbiotic/Utils/Check/StripeSpam.php
 msgid "%1 failed Stripe Payment Intents in the past hour."
-msgstr ""
+msgstr "Son bir saat içinde %1 Stripe ödeme girişimi başarısız oldu."
 
 #: CRM/Symbiotic/Utils/Check/StripeSpam.php
 msgid "%1 - Failed Stripe Payment Intents"
-msgstr ""
+msgstr "%1 - Stripe ödeme girişimi başarısız oldu"
 
 #: CRM/Symbiotic/Utils/Check/SymbioticMetrics.php
 msgid "System metrics for monitoring"
-msgstr ""
+msgstr "İzleme için sistem ölçümleri"
 
 #: CRM/Symbiotic/Utils/Check/Timestamps.php
 msgid "PHP/MySQL timestamps are OK: PHP %1 vs MySQL %2, timezone = %3"
 msgstr ""
+"PHP/MySQL zaman damgaları iyi görünüyor: PHP %1 ve MySQL %2, Saat dilimi = "
+"%3"
 
 #: CRM/Symbiotic/Utils/Check/Timestamps.php
 msgid "SymbioTIC - Timestamps"
-msgstr ""
+msgstr "SymbioTIC - Zaman damgaları"
 
 #: CRM/Symbiotic/Utils/Check/Timestamps.php
 msgid "PHP/MySQL timestamps ERROR: PHP %1 vs MySQL %2, timezone = %3"
 msgstr ""
+"PHP/MySQL zaman damgaları sorunu: PHP %1 ve MySQL %2, Saat dilimi = %3"
 
 #: CRM/Symbiotic/Utils/Check/Timestamps.php
 msgid ""
 "Please send this in a support ticket: Timestamps: PHP %1, MySQL %2, tz %3"
 msgstr ""
+"Lütfen bunu bir destek kaydı olarak gönderin: Zaman damgaları: PHP %1, MySQL"
+" %2, tz %3"
 
 #: CRM/Symbiotic/Utils/Check/Translation.php
 msgid "Hello in US-English"
-msgstr ""
+msgstr "Amerikan İngilizcesi ile merhaba"
 
 #: CRM/Symbiotic/Utils/Check/Translation.php
 msgid ""
 "Failed to translate to %1, the locale might not be supported by the server."
 msgstr ""
+"%1 diline çevrilemedi. Yerel ayar sunucu tarafından desteklenmiyor olabilir."
 
 #: CRM/Symbiotic/Utils/Check/Translation.php
 msgid "SymbioTIC - Translation"
-msgstr ""
+msgstr "SymbioTIC - Çeviri"
 
 #: CRM/Symbiotic/Utils/Check/Translation.php
 msgid "Multilingual is enabled, but the enabled locales variable was empty."
 msgstr ""
+"Çok dil özelliği açık, ancak etkinleştirilmiş yerel ayarlar değişkeni boş."
 
 #: CRM/Symbiotic/Utils/Check/Translation.php
 msgid ""
 "Failed to translate to %1, the locale might not be supported by the server "
 "or the .mo file might be missing from the symbiotic extension."
 msgstr ""
+"%1 diline çevrilemedi. Yerel ayar sunucu tarafından desteklenmiyor olabilir "
+"veya .mo dosyası simbiotic eklentisinde eksik olabilir."
 
 #: CRM/Symbiotic/Utils/Check/Translation.php
 msgid ""
 "Language %1 is mapped to %2, but %3 is enabled. The CiviCRM constants might "
 "be incorrectly defined (check in the local.settings.php)."
 msgstr ""
+"%1 dili %2 ile eşleştirilmiş. Ancak %3 etkin. CiviCRM sabitleri yanlış "
+"tanımlanmış olabilir (local.settings.php dosyasına bakın)."
 
 #: CRM/Symbiotic/Utils/Check/Translation.php
 msgid "Translation seems to be working correctly: %1"
-msgstr ""
+msgstr "Çeviri doğru çalışıyor gibi görünüyor: % 1"
 
 #: CRM/Symbiotic/Utils/Check/Translation.php
 msgid ""
 "The %1 locale is not enabled by the operating system. See: \"locale -a\" and"
 " \"dpkg-reconfigure locales\", then restart php-fpm or apache."
 msgstr ""
+"%1 yerel ayarı işletim sistemi tarafından etkinleştirilmemiş. \"locale -a\" "
+"ve \"dpkg-reconfigure locales\" komutlarının çıktılarına bakın ve ardından "
+"php-fpm veya apache hizmetlerini yeniden başlatın."
 
 #: CRM/Symbiotic/Utils/Check/Wordpress.php
 msgid ""
@@ -827,10 +893,13 @@ msgid ""
 "civicrm.settings.php). Extensions such as SparkPost will not load during "
 "cron."
 msgstr ""
+"CIVICRM_CMSDIR tanımlanmamış. Wp-config.php dosyasında (veya "
+"civicrm.settings.php) olmalı. SparkPost gibi eklentiler zamanlanmış görev "
+"sırasında yüklenmez."
 
 #: CRM/Symbiotic/Utils/Check/Wordpress.php
 msgid "SymbioTIC - WordPress CMSDIR"
-msgstr ""
+msgstr "SymbioTIC - WordPress CMSDIR"
 
 #: CRM/Symbiotic/Utils/Check/Wordpress.php
 msgid ""
