@@ -1,0 +1,1887 @@
+# Copyright CiviCRM LLC (c) 2004-2015
+# This file is distributed under the same license as the CiviCRM package.
+# If you contribute heavily to a translation and deem your work copyrightable,
+# make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: helloasso_payment_processor\n"
+"POT-Creation-Date: 2026-09-16 18:26+0000\n"
+"Language-Team: CiviCRM Translators <civicrm-translators@lists.civicrm.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: CRM/Core/Payment/HelloAsso.mgd.php
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+#: CRM/HelloassoPaymentProcessor/Upgrader.php
+#: Civi/HelloassoPaymentProcessor/CheckoutOption/HelloAssoHostedCheckout.php
+#: helloasso_payment_processor.php
+msgid "HelloAsso"
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.mgd.php
+msgid "HelloAsso Payments Processor"
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.mgd.php
+msgid "Client Id"
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.mgd.php
+msgid "Client Secret"
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.mgd.php
+msgid "Organization Name"
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid ""
+"Client Id is not set in the Administer CiviCRM &raquo; System Settings "
+"&raquo; Payment Processors."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid ""
+"Client Secret Id is not set in the Administer CiviCRM &raquo; System "
+"Settings &raquo; Payment Processors."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid ""
+"HelloAsso Organization Name is not set in the Administer CiviCRM &raquo; "
+"System Settings &raquo; Payment Processors."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid ""
+"HelloAsso authorization screen is selected for this processor, but no linked "
+"HelloAsso organization is stored yet."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid "Invalid HelloAsso processor configuration for %1:"
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid ""
+"HelloAsso installment cancellation is available only for processors "
+"connected through the authorization screen."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid "The HelloAsso order ID is missing from this recurring contribution."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid ""
+"The HelloAsso order ID stored on this recurring contribution is invalid."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid ""
+"The HelloAsso plan was cancelled, but its local CiviCRM records could not be "
+"synchronized: %1"
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid ""
+"Future HelloAsso installments were cancelled successfully. Payments already "
+"collected were not refunded."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php helloasso_payment_processor.php
+msgid "sandbox"
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php helloasso_payment_processor.php
+msgid "production"
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid "%1 (#%2, sandbox linked to live processor #%3)"
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid "%1 (#%2, %3)"
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+#: Civi/HelloassoPaymentProcessor/CheckoutOption/HelloAssoHostedCheckout.php
+msgid ""
+"The HelloAsso payment processor is currently unavailable. Please try again "
+"later."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid "Unable to reload contribution %1."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+#: CRM/HelloassoPaymentProcessor/HelloAssoClient.php
+msgid "HelloAsso refunds are disabled by this extension."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid ""
+"HelloAsso refund cannot be requested without a payment ID and a positive "
+"amount."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid ""
+"HelloAsso accepted the refund request but did not return a refund operation "
+"ID."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid ""
+"HelloAsso refund cannot be requested because the original CiviCRM payment "
+"could not be found."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid ""
+"HelloAsso only supports full refunds through this integration. Partial "
+"refunds must be handled manually in HelloAsso."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid "Unable to find the contribution to update for the HelloAsso checkout."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid "Online contribution"
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid "Unknown error while preparing the HelloAsso redirect."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid "Unable to update contribution %1."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+#: Civi/HelloassoPaymentProcessor/CheckoutOption/HelloAssoHostedCheckout.php
+msgid "HelloAsso installment payments are disabled."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid "Invalid HelloAsso installment schedule: %1"
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid "HelloAsso error"
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid "The %1 must contain at least 3 characters (HelloAsso rule)."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid "The %1 must not contain 3 repeated characters (HelloAsso rule)."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid "The %1 must not contain numbers (HelloAsso rule)."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid "The %1 must contain at least one vowel (HelloAsso rule)."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid "The value of %1 is not allowed by HelloAsso."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid "The %1 contains unauthorized characters (HelloAsso rule)."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid "first name"
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid "last name"
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php helloasso_payment_processor.php
+msgid "First name and last name must not be identical (HelloAsso rule)."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid ""
+"No primary email address is available to start the HelloAsso checkout for "
+"contribution %1."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid "Online contribution: %1"
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid "Invalid HelloAsso webhook payload in the queue."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid "No matching contribution. Webhook ignored."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid ""
+"Untrusted webhook ignored; no locally expected HelloAsso object identifier."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid "OK"
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid ""
+"HelloAsso object not found (404). Short and long follow-up checks have been "
+"disabled to avoid repeated calls."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid ""
+"A recurring HelloAsso payment is missing its order or installment identity."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid ""
+"The HelloAsso installment mapping table is missing. Apply the extension "
+"database upgrades before processing installments."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid "The contribution mapped to this HelloAsso installment no longer exists."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid "CiviCRM could not create the contribution for HelloAsso installment %1."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid ""
+"Contribution %1 is locked by DonRec. The status used for the tax receipt "
+"differs from the current HelloAsso payment gateway status (%2). Metadata has "
+"been synchronized, but the contribution status has not been changed."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid "HelloAsso notification signature is required but missing."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid ""
+"HelloAsso notification signature cannot be verified because the local "
+"signing key is missing."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid "HelloAsso notification signature mismatch."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid "HelloAsso partner webhook signature is required but missing."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid ""
+"HelloAsso partner webhook signature cannot be verified because the local "
+"signature key is missing."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid "HelloAsso partner webhook signature mismatch."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid "HelloAsso webhook payment ID could not be confirmed by the API."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid ""
+"HelloAsso webhook checkout intent could not be confirmed with a payment by "
+"the API."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid "HelloAsso webhook payload could not be stored in the queue."
+msgstr ""
+
+#: CRM/Core/Payment/HelloAsso.php
+msgid "Duplicate webhook ignored."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Civirules/Condition/NotFutureInstallment.php
+msgid "Contribution is not a future scheduled HelloAsso installment."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/HelloAssoClient.php
+msgid ""
+"HelloAsso authentication is currently being refreshed. Please retry the "
+"payment."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/HelloAssoClient.php
+msgid "HelloAsso: unable to authenticate with the payment processor API keys."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/HelloAssoClient.php
+msgid ""
+"HelloAsso installment cancellation requires an authorization-screen "
+"connection."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/HelloAssoClient.php
+msgid ""
+"The HelloAsso authorization does not include the RefundManagement privilege "
+"required to cancel future installments."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/HelloAssoClient.php
+msgid ""
+"HelloAsso refused the cancellation. Reconnect the organization through the "
+"authorization screen and grant the OrganizationAdmin or FormAdmin role; the "
+"client must also include the RefundManagement privilege."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/HelloAssoClient.php
+#: CRM/HelloassoPaymentProcessor/PartnerAuth.php
+msgid ""
+"HelloAsso payment is temporarily unavailable: the linked organization is not "
+"currently allowed by HelloAsso to receive online payments."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/HelloAssoClient.php
+msgid "HelloAsso plugin-public mode requires a saved payment processor ID."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/HelloAssoClient.php
+#: CRM/HelloassoPaymentProcessor/PartnerAuth.php
+msgid "HelloAsso API error (%1)"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/HelloAssoClient.php
+msgid "HelloAsso live API calls require SSL verification to be enabled."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/HelloAssoClient.php
+msgid ""
+"HelloAsso processor configuration is incomplete: organization slug is "
+"missing."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+msgid "HelloAsso partner authorization"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+msgid "HelloAsso partner authorization failed: %1 (%2)"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+msgid "HelloAsso partner authorization failed: %1"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+msgid "HelloAsso organization %1 is now linked."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+msgid "HelloAsso linked organization has been disconnected."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+msgid "HelloAsso partner settings have been saved on this page."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+#: helloasso_payment_processor.php
+msgid "HelloAsso sandbox authorization screen"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+msgid "HelloAsso authorization screen"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+msgid "Sandbox shared client ID"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+msgid "Shared client ID"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+msgid "Sandbox shared client secret"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+msgid "Shared client secret"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+#: helloasso_payment_processor.php
+msgid "Connect sandbox to HelloAsso"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+#: helloasso_payment_processor.php
+msgid "Connect to HelloAsso"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+msgid "Payment processor ID: %1"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+msgid ""
+"This page is used to enter the shared client, display the link status and "
+"start the HelloAsso connection. The general authorization-screen activation "
+"switch is configured in the HelloAsso settings."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+#: helloasso_payment_processor.php
+msgid "Open HelloAsso settings"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+msgid "Leave blank to keep the current secret."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+msgid "Authorization URL"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+msgid "Token URL"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+msgid ""
+"Community HelloAsso authorization-screen credentials are currently used for "
+"this rail. Enter a local client ID and client secret here only if you want "
+"to override the community credentials."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+msgid ""
+"Local HelloAsso authorization-screen credentials are currently used for this "
+"rail."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+msgid "Save authorization-screen settings"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+msgid "Callback URL to declare at HelloAsso:"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+#: helloasso_payment_processor.php
+msgid "Webhook management: %1"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+#: helloasso_payment_processor.php
+msgid "Registered webhook URL: %1"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+msgid ""
+"The authorization screen is disabled globally. Enable it in HelloAsso "
+"settings, then return to this page to connect an organization."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+#: helloasso_payment_processor.php
+msgid "Organization linked: %1"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+#: helloasso_payment_processor.php
+msgid ""
+"The HelloAsso authorization link on this rail can no longer be renewed%1%2. "
+"Reconnect the organization before accepting new payments through the "
+"authorization screen."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+#: helloasso_payment_processor.php
+msgid ""
+"The HelloAsso organization linked on this rail is not currently allowed to "
+"receive online payments%1%2. Check its administrative status in HelloAsso "
+"before accepting new payments through the authorization screen."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+#: helloasso_payment_processor.php
+msgid ""
+"The latest HelloAsso authorization-link renewal failed on this rail. Check "
+"the next maintenance job or reconnect the organization if the problem "
+"persists."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+#: helloasso_payment_processor.php
+msgid "Linked on: %1"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+#: helloasso_payment_processor.php
+msgid "Access token valid until: %1"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+#: helloasso_payment_processor.php
+msgid "Authorization link valid until: %1"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+msgid "HelloAsso partner information could not be retrieved: %1"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+msgid "Disconnect the linked organization"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+msgid "No HelloAsso organization is linked yet."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+msgid ""
+"The HelloAsso partner settings form token is invalid. Please reload the page "
+"and try again."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+msgid "HelloAsso partner API status: reachable."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+msgid "Partner account: %1"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+msgid "Authorized partner domain: %1"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+msgid "Partner API privileges: %1"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+msgid "Partner notification URLs returned by HelloAsso: %1"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+msgid "HelloAsso did not return any partner notification URL on this client."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
+msgid "none"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/PartnerAuth.php
+msgid "HelloAsso partner authorization state is invalid or expired."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/PartnerAuth.php
+msgid "HelloAsso partner authorization did not return an organization slug."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/PartnerAuth.php
+msgid "HelloAsso partner authorization requires a payment processor."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/PartnerAuth.php
+msgid "HelloAsso partner authorization is not linked to an organization."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/PartnerAuth.php
+msgid ""
+"HelloAsso partner authorization is currently being refreshed. Please retry "
+"the payment."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/PartnerAuth.php
+msgid "HelloAsso partner authorization cannot be refreshed."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/PartnerAuth.php
+msgid "HelloAsso partner authorization refresh token has expired."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/PartnerAuth.php
+msgid "HelloAsso partner authorization response is missing OAuth tokens."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/PartnerAuth.php
+msgid ""
+"HelloAsso payment is temporarily unavailable: HelloAsso connection must be "
+"restored by an administrator."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/PartnerAuth.php
+msgid "HelloAsso partner authorization is disabled."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/PartnerAuth.php
+msgid ""
+"HelloAsso partner client ID and secret must be configured before connecting "
+"an organization."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/PartnerAuth.php
+msgid ""
+"HelloAsso partner authorization requires SSL verification to be enabled."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/ProcessorAuthConfig.php
+msgid "HelloAsso processor authorization table is missing."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/ProcessorAuthConfig.php
+msgid "Unsupported HelloAsso connection mode."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/ProcessorAuthConfig.php
+msgid "Unsupported HelloAsso webhook ownership mode."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Service.php
+msgid "No active HelloAsso payment processor found for mode %1."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Service.php
+msgid ""
+"No active HelloAsso authorization-screen processor is linked for mode %1."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Service.php
+msgid "HelloAsso payment processor not found: %1"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Upgrader.php
+msgid "HelloAsso: analyze concatenated legacy trxn_id values (%1 cases)"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Upgrader.php
+msgid "HelloAsso: too many cases (%1) for GUI repair. Use terminal mode."
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Upgrader.php
+msgid ""
+"HelloAsso: repair legacy trxn_id values (batch %1, contributions %2 to %3)"
+msgstr ""
+
+#: CRM/HelloassoPaymentProcessor/Upgrader.php
+msgid "HelloAsso: final report of remaining legacy trxn_id values"
+msgstr ""
+
+#: Civi/HelloassoPaymentProcessor/CheckoutOption/HelloAssoHostedCheckout.php
+#: settings/helloasso_payment_processor.setting.php
+msgid "You will be redirected to HelloAsso to complete your payment."
+msgstr ""
+
+#: Civi/HelloassoPaymentProcessor/CheckoutOption/HelloAssoHostedCheckout.php
+msgid "HelloAsso requires between %1 and %2 installments for this form."
+msgstr ""
+
+#: Civi/HelloassoPaymentProcessor/CheckoutOption/HelloAssoHostedCheckout.php
+msgid "No active HelloAsso connection is available for this Checkout Option."
+msgstr ""
+
+#: ang/crmHelloassoPaymentProcessor/checkoutBlockAdmin.html
+msgid ""
+"Payment details will be shown here depending on the selected Checkout "
+"Option. For payment to be taken you must either set a Checkout Option value "
+"on the Contribution or add a user input to select one."
+msgstr ""
+
+#: ang/crmHelloassoPaymentProcessor/checkoutBlockAdminSettings.html
+msgid ""
+"This CiviCRM version still supports the standard HelloAsso Afform payment "
+"option, but not the installment controls for that checkout block."
+msgstr ""
+
+#: ang/crmHelloassoPaymentProcessor/checkoutBlockAdminSettings.html
+msgid "Offer HelloAsso installment payments"
+msgstr ""
+
+#: ang/crmHelloassoPaymentProcessor/checkoutBlockAdminSettings.html
+msgid "Minimum installments"
+msgstr ""
+
+#: ang/crmHelloassoPaymentProcessor/checkoutBlockAdminSettings.html
+msgid "Maximum installments"
+msgstr ""
+
+#: ang/crmHelloassoPaymentProcessor/installments.component.js
+#: js/civicrmHelloAsso.js js/quickform-checkout.js
+msgid "helloasso-payment-processor"
+msgstr ""
+
+#: ang/crmHelloassoPaymentProcessor/installments.component.js
+msgid "Pay in full"
+msgstr ""
+
+#: ang/crmHelloassoPaymentProcessor/installments.component.js
+msgid "%1 monthly installments"
+msgstr ""
+
+#: ang/crmHelloassoPaymentProcessor/installmentsField.html
+msgid "Installment schedule"
+msgstr ""
+
+#: api/v3/Job/ProcessHelloasso.php api/v3/Job/ProcessHelloassoLongFollowup.php
+#: api/v3/Job/RefreshHelloassoPartnerLinks.php
+#: schema/HelloAssoMetadata.entityType.php
+msgid "Payment processor ID"
+msgstr ""
+
+#: api/v3/Job/ProcessHelloasso.php api/v3/Job/ProcessHelloassoLongFollowup.php
+msgid "Restrict processing to one HelloAsso payment processor."
+msgstr ""
+
+#: api/v3/Job/ProcessHelloasso.php api/v3/Job/ProcessHelloassoLongFollowup.php
+#: schema/HelloAssoInstallment.entityType.php
+#: schema/HelloAssoMetadata.entityType.php
+msgid "Contribution ID"
+msgstr ""
+
+#: api/v3/Job/ProcessHelloasso.php api/v3/Job/ProcessHelloassoLongFollowup.php
+msgid "Force processing for a specific contribution."
+msgstr ""
+
+#: api/v3/Job/ProcessHelloasso.php api/v3/Job/ProcessHelloassoLongFollowup.php
+msgid "Contribution statuses"
+msgstr ""
+
+#: api/v3/Job/ProcessHelloasso.php
+msgid ""
+"Comma-separated contribution status names to include, for example "
+"\"Pending,Failed\"."
+msgstr ""
+
+#: api/v3/Job/ProcessHelloasso.php api/v3/Job/ProcessHelloassoLongFollowup.php
+msgid "Receive date from"
+msgstr ""
+
+#: api/v3/Job/ProcessHelloasso.php api/v3/Job/ProcessHelloassoLongFollowup.php
+msgid "Only process contributions received on or after this date/time."
+msgstr ""
+
+#: api/v3/Job/ProcessHelloasso.php api/v3/Job/ProcessHelloassoLongFollowup.php
+msgid "Receive date to"
+msgstr ""
+
+#: api/v3/Job/ProcessHelloasso.php api/v3/Job/ProcessHelloassoLongFollowup.php
+msgid "Only process contributions received on or before this date/time."
+msgstr ""
+
+#: api/v3/Job/ProcessHelloasso.php api/v3/Job/ProcessHelloassoLongFollowup.php
+msgid "Due before"
+msgstr ""
+
+#: api/v3/Job/ProcessHelloasso.php
+msgid ""
+"Only process follow-ups due on or before this date/time. Leave empty to "
+"disable this filter."
+msgstr ""
+
+#: api/v3/Job/ProcessHelloasso.php
+msgid "Only scheduled follow-ups"
+msgstr ""
+
+#: api/v3/Job/ProcessHelloasso.php
+msgid ""
+"When enabled, only contributions with a scheduled HelloAsso follow-up are "
+"processed."
+msgstr ""
+
+#: api/v3/Job/ProcessHelloasso.php api/v3/Job/ProcessHelloassoLongFollowup.php
+msgid "Limit"
+msgstr ""
+
+#: api/v3/Job/ProcessHelloasso.php api/v3/Job/ProcessHelloassoLongFollowup.php
+msgid "Maximum number of contributions to process per payment processor."
+msgstr ""
+
+#: api/v3/Job/ProcessHelloassoLongFollowup.php
+msgid ""
+"Comma-separated contribution status names to include, for example "
+"\"Completed,Pending\"."
+msgstr ""
+
+#: api/v3/Job/ProcessHelloassoLongFollowup.php
+msgid ""
+"Only process long follow-ups due on or before this date/time. Leave empty to "
+"use now."
+msgstr ""
+
+#: api/v3/Job/RefreshHelloassoPartnerLinks.php
+msgid "Restrict maintenance to one linked HelloAsso payment processor."
+msgstr ""
+
+#: helloasso_payment_processor.php managed/NavigationHelloAsso.mgd.php
+msgid "HelloAsso settings"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"HelloAsso online payments, authorization-screen connections, secure webhooks "
+"and payment reconciliation."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "Classic API key"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"Production authorization-screen mode is locked while classic live API "
+"credentials are still stored on this payment processor."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"Production authorization-screen mode is locked until the production client "
+"ID and client secret are configured."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "HelloAsso production authorization screen"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "Connect production to HelloAsso"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "HelloAsso production connection"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "Live payment processor ID"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "Live connection mode"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "Automatically enable the webhook"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"Enable automatic registration of the live HelloAsso webhook for this CiviCRM "
+"instance by default. Uncheck only if another instance retains control of the "
+"webhook URL."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"This block connects the production HelloAsso authorization screen on this "
+"live processor: OAuth link, linked organization and webhook registration. "
+"The live payment rail can switch to the authorization screen only when this "
+"processor no longer uses classic API keys."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"The production authorization-screen option is greyed out because this live "
+"processor still contains classic API credentials. You can connect and test "
+"the authorization screen first, then remove the live API key fields from "
+"this processor and save the processor. The authorization-screen option will "
+"become selectable once those fields are empty."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"No live API key is stored on this processor. You can therefore enable "
+"production authorization-screen mode on this processor once the OAuth link "
+"has been validated."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"The production authorization-screen option is also greyed out because the "
+"production client ID and client secret are not configured yet."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "Production organization linked: %1"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "No HelloAsso production organization is linked to this processor yet."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"Enter the shared client ID and client secret on the authorization-screen "
+"settings page first, then return to start the connection."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "Open production authorization-screen settings"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "HelloAsso sandbox connection"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "Sandbox payment processor ID"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "Sandbox connection mode"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"Enable automatic registration of the HelloAsso webhook for this CiviCRM "
+"instance by default. Uncheck only if multiple CiviCRM instances share the "
+"same HelloAsso organization and you want to manage the webhook manually."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"Sandbox API credentials are already present on this processor. API key mode "
+"remains the safest choice until you explicitly switch."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"No sandbox API key is stored on this processor. The HelloAsso sandbox "
+"authorization screen is therefore offered by default."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "Sandbox organization linked: %1"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "No HelloAsso sandbox organization is linked to this processor yet."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "Open authorization-screen settings"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"This button remains disabled until the shared HelloAsso authorization-screen "
+"client ID and client secret are configured."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"Enter the HelloAsso client ID used by this payment processor for the "
+"selected environment. Keep the live and test values aligned with the "
+"matching HelloAsso application."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"Enter the HelloAsso client secret paired with the client ID above. Store the "
+"live and sandbox secrets separately."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"Enter the HelloAsso organization slug or organization name expected by this "
+"processor when building API calls and payment links."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"Base HelloAsso API URL for live payments. Keep the default production URL "
+"unless HelloAsso explicitly instructs otherwise."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "Sandbox client ID for HelloAsso test payments."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "Sandbox client secret for HelloAsso test payments."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "Sandbox organization slug or name used for test API calls."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"Base HelloAsso API URL for sandbox payments. Keep the sandbox default unless "
+"HelloAsso explicitly instructs otherwise."
+msgstr ""
+
+#: helloasso_payment_processor.php js/quickform-checkout.js
+msgid "Number of installments"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "HelloAsso authorization-screen setup"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"This HelloAsso processor can be saved a first time without API credentials "
+"when the authorization screen is enabled."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"Enter the processor name, save once, then return to this processor to "
+"configure the live and sandbox authorization-screen connections."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"HelloAsso helps associations collect online payments and provides its "
+"services free of charge. It covers all transaction fees so that you can "
+"receive the full amount paid by your supporters, without fees. Voluntary "
+"contributions left by them are its only source of revenue."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "manual / another instance in control"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "managed by this CiviCRM instance"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "No matching HelloAsso payment processor was found on this instance."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"The operational choice between API key and authorization screen remains on "
+"the processor record. This page enables the authorization-screen flow, "
+"explains how it works and starts the connection."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "Target processor:"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "No organization is linked on this rail yet."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "Open this authorization-screen settings page"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"Enable the authorization-screen switch below and save the page before "
+"starting the connection."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"Open this authorization-screen settings page first to enter the shared "
+"client ID and client secret, then return to start the connection."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "HelloAsso authorization-screen flow"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"The switch below enables or hides the authorization-screen interface on "
+"HelloAsso processors. Shared client credentials and connection startup "
+"remain managed from the dedicated authorization-screen pages."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"For an initial configuration: enable the authorization screen here, save the "
+"page, then open the sandbox or production rail to enter the client ID and "
+"client secret before starting the connection."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"The official button above opens the HelloAsso connection. If you need to "
+"adjust client credentials or check the link status, use the settings link "
+"first."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "Refresh this HelloAsso settings page"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "Missing metadata columns: %1"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "Missing authorization columns: %1"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "Missing indexes: %1"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"The HelloAsso v2 schema upgrade is incomplete. %1 Run <code>cv updb</code> "
+"and then <code>cv flush</code> before relying on webhook queueing, follow-up "
+"sync, or legacy repair."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "HelloAsso: Incomplete V2 Upgrade"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "The HelloAsso schema check could not be completed: %1"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "HelloAsso: Schema Check Failed"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "refresh refused"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "payment refused"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "instead of"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"Domain mismatch detected: this CiviCRM instance runs on a different host "
+"than the one authorized for the HelloAsso link: %1. OAuth callbacks will not "
+"function correctly on this staging/dev instance."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "HelloAsso: Domain Mismatch (Staging/Dev Instance)"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"The HelloAsso webhook registered for %1 points to a different domain. "
+"Inbound payments will not be processed on this CiviCRM instance: %2."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "HelloAsso: Webhook Domain Mismatch"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"One or more HelloAsso authorization links have expired and must be "
+"reconnected: %1"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "HelloAsso: Authorization Expired"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"One or more HelloAsso authorization links can no longer be renewed. "
+"Reconnect them before accepting new payments through the authorization "
+"screen: %1"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "HelloAsso: Reconnection Required"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"One or more HelloAsso organizations linked on this instance are not "
+"currently allowed by HelloAsso to receive online payments. Check their "
+"administrative status before accepting new payments through the "
+"authorization screen: %1"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "HelloAsso: Organization Cannot Receive Payments"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"The last HelloAsso authorization-link renewal failed for: %1. The "
+"maintenance job will retry; reconnect if the failure continues."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "HelloAsso: Authorization Renewal Failed"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "One or more HelloAsso authorization links will expire soon: %1"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "HelloAsso: Authorization Expiring Soon"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"One or more HelloAsso links expect automatic webhook registration, but no "
+"webhook is stored yet: %1. Reconnect the authorization screen to push the "
+"webhook, or disable automatic webhook registration on that processor if "
+"another CiviCRM instance must keep manual control of the HelloAsso webhook "
+"URL."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "HelloAsso: Webhook Not Configured"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "The HelloAsso authorization check could not be completed: %1"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "HelloAsso: Authorization Check Failed"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"One or more HelloAsso payment processors have no payment method configured: "
+"%1. Configure a payment method on the processor; new processors use the "
+"dedicated HelloAsso payment instrument by default."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "HelloAsso: Payment Method Missing"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"One or more HelloAsso payment processors use Check as their payment method: "
+"%1. Review the processor configuration and select the dedicated HelloAsso "
+"payment instrument or your existing HelloAsso online payment method."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "HelloAsso: Payment Method Requires Review"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"One or more HelloAsso payment processors still rely on API keys that could "
+"not authenticate: %1"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "HelloAsso: API Key Authentication Failed"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "The HelloAsso API key health check could not be completed: %1"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "HelloAsso: API Key Check Failed"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "Unknown authentication failure"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "Missing site URL"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"You opened the HelloAsso test processor directly. CiviCRM stores the live "
+"and test values together on this screen. To avoid overwriting production, "
+"you will be redirected to the associated live processor record."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"HelloAsso has accepted the refund request for payment %1. Refund operation "
+"%2 has been recorded in CiviCRM; the final HelloAsso refund state will be "
+"confirmed later by webhook or scheduled synchronization."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "HelloAsso refund requested"
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "HelloAsso requires between 2 and 12 installments."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "HelloAsso installments must be monthly."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "HelloAsso installments must be collected every month."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "First/last name must contain at least 3 characters (HelloAsso rule)."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"First/last name must not contain 3 repeated characters (HelloAsso rule)."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "First/last name must not contain numbers (HelloAsso rule)."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "First/last name must contain at least one vowel (HelloAsso rule)."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid "This value is not allowed by HelloAsso."
+msgstr ""
+
+#: helloasso_payment_processor.php
+msgid ""
+"First/last name contains unauthorized special characters (HelloAsso rule)."
+msgstr ""
+
+#: js/quickform-checkout.js
+msgid "One-time payment"
+msgstr ""
+
+#: js/quickform-checkout.js
+msgid ""
+"Pay in full or split this payment into a fixed schedule of 2 to 12 monthly "
+"installments handled by HelloAsso."
+msgstr ""
+
+#: managed/ProcessHelloAsso.mgd.php
+msgid ""
+"Process scheduled HelloAsso payment follow-ups and targeted synchronisations."
+msgstr ""
+
+#: managed/ProcessHelloAsso.mgd.php
+msgid "Process scheduled long-window HelloAsso consistency checks."
+msgstr ""
+
+#: managed/ProcessHelloAsso.mgd.php
+msgid ""
+"Refresh linked HelloAsso authorizations once their current refresh tokens "
+"reach mid-life."
+msgstr ""
+
+#: schema/HelloAssoInstallment.entityType.php
+msgid "Hello Asso Installment"
+msgstr ""
+
+#: schema/HelloAssoInstallment.entityType.php
+msgid "Hello Asso Installments"
+msgstr ""
+
+#: schema/HelloAssoInstallment.entityType.php
+msgid "Idempotent mapping of HelloAsso installments to CiviCRM contributions"
+msgstr ""
+
+#: schema/HelloAssoInstallment.entityType.php
+#: schema/HelloAssoInstallmentLineItem.entityType.php
+#: schema/HelloAssoMetadata.entityType.php
+#: schema/HelloAssoProcessorAuth.entityType.php
+msgid "ID"
+msgstr ""
+
+#: schema/HelloAssoInstallment.entityType.php
+#: schema/HelloAssoProcessorAuth.entityType.php
+msgid "Payment Processor ID"
+msgstr ""
+
+#: schema/HelloAssoInstallment.entityType.php
+#: schema/HelloAssoInstallmentLineItem.entityType.php
+msgid "Contribution Recur ID"
+msgstr ""
+
+#: schema/HelloAssoInstallment.entityType.php
+msgid "Checkout Intent ID"
+msgstr ""
+
+#: schema/HelloAssoInstallment.entityType.php
+msgid "Order ID"
+msgstr ""
+
+#: schema/HelloAssoInstallment.entityType.php
+#: schema/HelloAssoInstallmentLineItem.entityType.php
+msgid "Installment Number"
+msgstr ""
+
+#: schema/HelloAssoInstallment.entityType.php
+msgid "Helloasso Payment ID"
+msgstr ""
+
+#: schema/HelloAssoInstallment.entityType.php
+msgid "Amount"
+msgstr ""
+
+#: schema/HelloAssoInstallment.entityType.php
+msgid "Payment Date"
+msgstr ""
+
+#: schema/HelloAssoInstallment.entityType.php
+msgid "State"
+msgstr ""
+
+#: schema/HelloAssoInstallment.entityType.php
+#: schema/HelloAssoInstallmentLineItem.entityType.php
+#: schema/HelloAssoProcessorAuth.entityType.php
+msgid "Created At"
+msgstr ""
+
+#: schema/HelloAssoInstallment.entityType.php
+#: schema/HelloAssoProcessorAuth.entityType.php
+msgid "Updated At"
+msgstr ""
+
+#: schema/HelloAssoInstallmentLineItem.entityType.php
+msgid "HelloAsso Installment Line Item"
+msgstr ""
+
+#: schema/HelloAssoInstallmentLineItem.entityType.php
+msgid "HelloAsso Installment Line Items"
+msgstr ""
+
+#: schema/HelloAssoInstallmentLineItem.entityType.php
+msgid "Original and per-installment line-item allocation for HelloAsso plans"
+msgstr ""
+
+#: schema/HelloAssoInstallmentLineItem.entityType.php
+msgid "Line Item Ordinal"
+msgstr ""
+
+#: schema/HelloAssoInstallmentLineItem.entityType.php
+msgid "Source Line Item ID"
+msgstr ""
+
+#: schema/HelloAssoInstallmentLineItem.entityType.php
+msgid "Entity Table"
+msgstr ""
+
+#: schema/HelloAssoInstallmentLineItem.entityType.php
+msgid "Entity ID"
+msgstr ""
+
+#: schema/HelloAssoInstallmentLineItem.entityType.php
+msgid "Price Field Value ID"
+msgstr ""
+
+#: schema/HelloAssoInstallmentLineItem.entityType.php
+msgid "Financial Type ID"
+msgstr ""
+
+#: schema/HelloAssoInstallmentLineItem.entityType.php
+msgid "Label"
+msgstr ""
+
+#: schema/HelloAssoInstallmentLineItem.entityType.php
+msgid "Original Amount"
+msgstr ""
+
+#: schema/HelloAssoInstallmentLineItem.entityType.php
+msgid "Allocated Amount"
+msgstr ""
+
+#: schema/HelloAssoMetadata.entityType.php
+msgid "Hello Asso Metadata"
+msgstr ""
+
+#: schema/HelloAssoMetadata.entityType.php
+msgid "Hello Asso Metadatas"
+msgstr ""
+
+#: schema/HelloAssoMetadata.entityType.php
+msgid "HelloAsso payment reconciliation metadata"
+msgstr ""
+
+#: schema/HelloAssoMetadata.entityType.php
+msgid "Unique HelloassoMetaData ID"
+msgstr ""
+
+#: schema/HelloAssoMetadata.entityType.php
+msgid "FK to Contribution"
+msgstr ""
+
+#: schema/HelloAssoMetadata.entityType.php
+msgid "Contribution"
+msgstr ""
+
+#: schema/HelloAssoMetadata.entityType.php
+msgid "Signing Key"
+msgstr ""
+
+#: schema/HelloAssoMetadata.entityType.php
+msgid "Key used to sign contribution"
+msgstr ""
+
+#: schema/HelloAssoMetadata.entityType.php
+msgid "HelloAsso Reference command ID"
+msgstr ""
+
+#: schema/HelloAssoMetadata.entityType.php
+msgid "Checkout intent ID"
+msgstr ""
+
+#: schema/HelloAssoMetadata.entityType.php
+msgid "HelloAsso Payment ID"
+msgstr ""
+
+#: schema/HelloAssoMetadata.entityType.php
+msgid "Last event type"
+msgstr ""
+
+#: schema/HelloAssoMetadata.entityType.php
+msgid "Last known state"
+msgstr ""
+
+#: schema/HelloAssoMetadata.entityType.php
+msgid "Sync origin date"
+msgstr ""
+
+#: schema/HelloAssoMetadata.entityType.php
+msgid "Next scheduled sync date"
+msgstr ""
+
+#: schema/HelloAssoMetadata.entityType.php
+msgid "Last sync date"
+msgstr ""
+
+#: schema/HelloAssoMetadata.entityType.php
+msgid "Sync attempt count"
+msgstr ""
+
+#: schema/HelloAssoMetadata.entityType.php
+msgid "Sync technical error count"
+msgstr ""
+
+#: schema/HelloAssoMetadata.entityType.php
+msgid "Long follow-up scheme"
+msgstr ""
+
+#: schema/HelloAssoMetadata.entityType.php
+msgid "Long sync origin date"
+msgstr ""
+
+#: schema/HelloAssoMetadata.entityType.php
+msgid "Next scheduled long sync date"
+msgstr ""
+
+#: schema/HelloAssoMetadata.entityType.php
+msgid "Last long sync date"
+msgstr ""
+
+#: schema/HelloAssoMetadata.entityType.php
+msgid "Long sync attempt count"
+msgstr ""
+
+#: schema/HelloAssoMetadata.entityType.php
+msgid "Long sync technical error count"
+msgstr ""
+
+#: schema/HelloAssoProcessorAuth.entityType.php
+msgid "Hello Asso Processor Auth"
+msgstr ""
+
+#: schema/HelloAssoProcessorAuth.entityType.php
+msgid "Hello Asso Processor Auths"
+msgstr ""
+
+#: schema/HelloAssoProcessorAuth.entityType.php
+msgid "HelloAsso per-processor OAuth and webhook state"
+msgstr ""
+
+#: schema/HelloAssoProcessorAuth.entityType.php
+msgid "Connection Mode"
+msgstr ""
+
+#: schema/HelloAssoProcessorAuth.entityType.php
+msgid "Organization Slug"
+msgstr ""
+
+#: schema/HelloAssoProcessorAuth.entityType.php
+msgid "Access Token"
+msgstr ""
+
+#: schema/HelloAssoProcessorAuth.entityType.php
+msgid "Refresh Token"
+msgstr ""
+
+#: schema/HelloAssoProcessorAuth.entityType.php
+msgid "Expires At"
+msgstr ""
+
+#: schema/HelloAssoProcessorAuth.entityType.php
+msgid "Refresh Issued At"
+msgstr ""
+
+#: schema/HelloAssoProcessorAuth.entityType.php
+msgid "Refresh Expires At"
+msgstr ""
+
+#: schema/HelloAssoProcessorAuth.entityType.php
+msgid "Refresh Status"
+msgstr ""
+
+#: schema/HelloAssoProcessorAuth.entityType.php
+msgid "Last Refresh Error"
+msgstr ""
+
+#: schema/HelloAssoProcessorAuth.entityType.php
+msgid "Last Refresh Error Date"
+msgstr ""
+
+#: schema/HelloAssoProcessorAuth.entityType.php
+msgid "Last Refresh Http Status"
+msgstr ""
+
+#: schema/HelloAssoProcessorAuth.entityType.php
+msgid "Linked At"
+msgstr ""
+
+#: schema/HelloAssoProcessorAuth.entityType.php
+msgid "Redirect Uri"
+msgstr ""
+
+#: schema/HelloAssoProcessorAuth.entityType.php
+msgid "Webhook Ownership"
+msgstr ""
+
+#: schema/HelloAssoProcessorAuth.entityType.php
+msgid "Webhook Url"
+msgstr ""
+
+#: schema/HelloAssoProcessorAuth.entityType.php
+msgid "Webhook Signature Key"
+msgstr ""
+
+#: schema/HelloAssoProcessorAuth.entityType.php
+msgid "Webhook Updated At"
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid "Standard frontend bridge (mjwshared)"
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid ""
+"Enable the standard HelloAsso frontend integration based on CRM.payment and "
+"mjwshared."
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid "Secure handling of failure and cancellation URLs"
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid ""
+"Avoid redirecting users to fragile CiviCRM or AJAX URLs when a payment is "
+"cancelled or fails."
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid "Webhook processing queue"
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid ""
+"Place HelloAsso webhooks in the PaymentprocessorWebhook queue instead of "
+"processing them immediately."
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid "Payment status reliability for automations (T+5 / T+15 / T+45 min)"
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid ""
+"Enable automatic checks at T+5, T+15 and T+45 after creation of a HelloAsso "
+"checkout. The final check expires an unpaid installment plan or marks a "
+"classic checkout as abandoned while keeping its contribution pending for "
+"cart reminders. Long-term monitoring of later changes, including refunds, "
+"remains independent."
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid "Afform / Form Builder integration"
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid ""
+"Publish a HelloAsso Checkout Option for Afform / Form Builder based on the "
+"CiviCRM core checkout mechanism."
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid "Enable HelloAsso refunds"
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid ""
+"Allow CiviCRM users with refund permissions to request full HelloAsso "
+"refunds from the payment refund screen. Refunds require the HelloAsso "
+"authorization-screen mode. HelloAsso partial refunds remain unsupported by "
+"this integration."
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid "Enable HelloAsso installment payments"
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid ""
+"Allow finite monthly installment checkout payloads for HelloAsso payment "
+"processors."
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid "HelloAsso redirect message on standard forms"
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid ""
+"Message displayed on standard contribution and event forms when the selected "
+"payment processor is HelloAsso."
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid "Enable HelloAsso SEPA direct debit"
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid ""
+"Offer SEPA direct debit on HelloAsso Checkout, including installment "
+"checkouts. HelloAsso only displays it for eligible organizations and may "
+"keep card payment available."
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid "Maximum processing batch size (Cron)"
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid ""
+"Maximum number of HelloAsso contributions processed per payment processor "
+"during a normal cron execution."
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid "Strict legacy signature verification"
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid ""
+"Reject HelloAsso webhooks whose legacy invoiceID/sig signature is missing or "
+"invalid."
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid "Strict partner signature verification"
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid ""
+"Reject HelloAsso partner webhooks whose x-ha-signature header is missing or "
+"invalid when a webhook signature key is stored for this processor."
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid "HelloAsso authorization screen: enable shared connection"
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid ""
+"Enable the shared HelloAsso OAuth authorization screen. When this setting is "
+"disabled, the authorization-screen interface is no longer offered on "
+"HelloAsso processor pages."
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid "HelloAsso authorization screen: production client ID"
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid "Client ID dedicated to the HelloAsso production authorization screen."
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid "HelloAsso authorization screen: sandbox client ID"
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid "Client ID dedicated to the HelloAsso sandbox authorization screen."
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid "HelloAsso authorization screen: production client secret"
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid ""
+"Client secret dedicated to the HelloAsso production authorization screen."
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid "HelloAsso authorization screen: sandbox client secret"
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid "Client secret dedicated to the HelloAsso sandbox authorization screen."
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid "HelloAsso authorization screen: authorization URL"
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid ""
+"HelloAsso authorization screen URL. In production, the default value is "
+"https://auth.helloasso.com/authorize."
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid "HelloAsso authorization screen URL for sandbox mode."
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid "HelloAsso authorization screen: token URL"
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid ""
+"HelloAsso endpoint used to exchange the authorization code and refresh OAuth "
+"tokens."
+msgstr ""
+
+#: settings/helloasso_payment_processor.setting.php
+msgid ""
+"HelloAsso endpoint used to exchange the authorization code and refresh OAuth "
+"tokens for sandbox mode."
+msgstr ""

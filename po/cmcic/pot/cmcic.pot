@@ -5,11 +5,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: cmcic\n"
-"POT-Creation-Date: 2023-07-29 05:01+0000\n"
+"POT-Creation-Date: 2026-09-16 18:43+0000\n"
 "Language-Team: CiviCRM Translators <civicrm-translators@lists.civicrm.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: CRM/Cmcic/Page/Cmcic.php
+msgid "Unable to start the Monetico checkout."
+msgstr ""
 
 #: CRM/Cmcic/Page/Cmcic.php templates/CRM/Cmcic/Page/Cmcic.tpl
 msgid "Please Click the pay now button if you are not automatically redirected"
@@ -19,7 +23,7 @@ msgstr ""
 msgid "Pay Now"
 msgstr ""
 
-#: CRM/Core/Payment/Cmcic.php
+#: CRM/Core/Payment/Cmcic.php CRM/Core/Payment/cmcic.mgd.php
 msgid "CMCIC"
 msgstr ""
 
@@ -37,4 +41,50 @@ msgstr ""
 
 #: CRM/Core/Payment/Cmcic.php
 msgid "This function is not implemented"
+msgstr ""
+
+#: CRM/Core/Payment/Cmcic.php
+msgid "Unable to prepare the payment reference."
+msgstr ""
+
+#: CRM/Core/Payment/Cmcic.php
+msgid ""
+"Monetico online refunds are disabled. Enable setting cmcic_enable_refunds to "
+"proceed."
+msgstr ""
+
+#: CRM/Core/Payment/Cmcic.php
+msgid "Could not determine contribution reference for refund."
+msgstr ""
+
+#: CRM/Core/Payment/Cmcic.php
+msgid "Refund amount must be greater than zero."
+msgstr ""
+
+#: CRM/Core/Payment/cmcic.mgd.php
+msgid "CMCIC (CyberMut)"
+msgstr ""
+
+#: Civi/Cmcic/CheckoutOption/CmcicHostedCheckout.php
+msgid "You will be redirected to Monetico to complete your payment."
+msgstr ""
+
+#: Civi/Cmcic/CheckoutOption/CmcicHostedCheckout.php
+msgid "No active Monetico payment processor is available for this mode."
+msgstr ""
+
+#: cmcic.php
+msgid "test"
+msgstr ""
+
+#: cmcic.php
+msgid "production"
+msgstr ""
+
+#: cmcic.php
+msgid "Monetico: insecure HTTP return URL"
+msgstr ""
+
+#: cmcic.php
+msgid "Monetico: server confirmation URL"
 msgstr ""
