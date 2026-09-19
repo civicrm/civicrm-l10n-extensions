@@ -10,9 +10,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: symbiotic\n"
 "POT-Creation-Date: 2026-08-31 19:25+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2026\n"
@@ -460,7 +457,8 @@ msgstr ""
 #: CRM/Symbiotic/Utils/Check/GroupCache.php
 msgid "Group Cache Rebuild seems OK: %1. Last run: %2"
 msgstr ""
-"Grup ön belleğini yeniden oluşturma tamam görünüyor: %1. Son çalışma: %2"
+"Grup ön belleğini yeniden oluşturmada sorun yok gibi görünüyor: %1. Son "
+"çalışma: %2"
 
 #: CRM/Symbiotic/Utils/Check/GroupCache.php
 msgid "SymbioTIC- Group Cache"
@@ -538,7 +536,8 @@ msgstr "SymbioTIC - Zamanlanmış görevler"
 
 #: CRM/Symbiotic/Utils/Check/Jobs.php
 msgid "Scheduled Jobs seem OK, found %1 active jobs."
-msgstr "Zamanlanmış görevler iyi görünüyor. %1 etkin görev bulundu."
+msgstr ""
+"Zamanlanmış görevlerde sorun yok gibi görünüyor. %1 etkin görev bulundu."
 
 #: CRM/Symbiotic/Utils/Check/Jobs.php
 msgid "SymbioTIC - Jobs"
@@ -606,7 +605,7 @@ msgstr "İşlenmek üzere bekleyen bir e-posta yok."
 
 #: CRM/Symbiotic/Utils/Check/MailingsPending.php
 msgid "SymbioTIC - Mailings OK"
-msgstr "SymbioTIC - E-postalar iyi görünüyor"
+msgstr "SymbioTIC - E-postalarda sorun yok gibi görünüyor"
 
 #: CRM/Symbiotic/Utils/Check/MailingsPending.php
 msgid ""
@@ -661,7 +660,7 @@ msgstr "%1 - Profil izinleri"
 
 #: CRM/Symbiotic/Utils/Check/Permissions.php
 msgid "Profile permissions are OK."
-msgstr "Profil izinleri iyi görünüyor."
+msgstr "Profil izinlerinde sorun yok gibi görünüyor."
 
 #: CRM/Symbiotic/Utils/Check/Php.php
 msgid "php%1-bcmath is missing."
@@ -823,8 +822,8 @@ msgstr "İzleme için sistem ölçümleri"
 #: CRM/Symbiotic/Utils/Check/Timestamps.php
 msgid "PHP/MySQL timestamps are OK: PHP %1 vs MySQL %2, timezone = %3"
 msgstr ""
-"PHP/MySQL zaman damgaları iyi görünüyor: PHP %1 ve MySQL %2, Saat dilimi = "
-"%3"
+"PHP/MySQL zaman damgalarında sorun yok gibi görünüyor: PHP %1 ve MySQL %2, "
+"Saat dilimi = %3"
 
 #: CRM/Symbiotic/Utils/Check/Timestamps.php
 msgid "SymbioTIC - Timestamps"
@@ -910,16 +909,21 @@ msgid ""
 "wp-config.php (or civicrm.settings.php). Extensions such as SparkPost will "
 "not load during cron."
 msgstr ""
+"CIVICRM_CMSDIR geçersiz bir klasörü (%1) gösteriyor. Wp-config.php (veya "
+"civicrm.settings.php) dosyasında olmalıdır. SparkPost gibi eklentiler "
+"zamanlanmış görev sırasında yüklenmez."
 
 #: CRM/Symbiotic/Utils/Check/Wordpress.php
 msgid ""
 "WordPress CiviCRM base page (%1) seems to be correctly configured. Clean URL"
 " test: %2"
 msgstr ""
+"WordPress CiviCRM temel sayfası (%1) doğru yapılandırılmış gibi görünüyor. "
+"Temiz adres sınaması: %2"
 
 #: CRM/Symbiotic/Utils/Check/Wordpress.php
 msgid "SymbioTIC - WordPress Base Page"
-msgstr ""
+msgstr "SymbioTIC - WordPress temel sayfası"
 
 #: CRM/Symbiotic/Utils/Check/Wordpress.php
 msgid ""
@@ -929,6 +933,11 @@ msgid ""
 "post_type FROM wp_posts WHERE post_name IN (\"civicrm\") AND post_type IN "
 "(\"page\",\"attachment\"))."
 msgstr ""
+"get_page_by_path(\"%1\") ile bir WordPress sayfası yüklenemedi. Veri "
+"tabanında \"civicrm\" adres on eki, küçük harfli \"civicrm\" başlığı ve "
+"\"post\" post_type ile %2 sayfasının var olup olmadığını denetleyin (SELECT "
+"ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN "
+"(\"civicrm\") AND post_type IN (\"page\",\"attachment\"))."
 
 #: CRM/Symbiotic/Utils/Check/Wordpress.php
 msgid ""
@@ -936,36 +945,41 @@ msgid ""
 "may have very odd bugs on Event Registration and Contribution pages (with "
 "CiviCRM clean URLs, when not using shortcodes)."
 msgstr ""
+"Kalıcı bağlantı yapısı geçersiz görünüyor: \"%1\". Şöyle olmalı: \"%2\" "
+"yoksa Etkinlik kaydı ve Katkı sayfalarında (ve kısa kodları "
+"kullanmadığınızda CiviCRM temiz adreslerinde) çok garip sorunlar çıkabilir."
 
 #: CRM/Symbiotic/Utils/Check/Wordpress.php
 msgid "SymbioTIC - WordPress Permalinks"
-msgstr ""
+msgstr "SymbioTIC - WordPress kalıcı bağlantıları"
 
 #: CRM/Symbiotic/Utils/Check/Wordpress.php
 msgid "The WordPress permalink structure seems correctly setup: %1"
-msgstr ""
+msgstr "WordPress kalıcı bağlantı yapısı doğru ayarlanmış gibi görünüyor: %1"
 
 #: CRM/Symbiotic/Utils/Check/Wordpress.php
 msgid ""
 "The get_option function does not exist; could not check if permalinks are "
 "correctly setup."
 msgstr ""
+"get_option işlevi bulunamadı. Kalıcı bağlantıların doğru ayarlanıp "
+"ayarlanmadığı denetlenemedi."
 
 #: CRM/Symbiotic/Utils/Check/Wordpress.php
 msgid "Please enable the Wordfence plugin."
-msgstr ""
+msgstr "Lütfen Wordfence eklentisini etkinleştirin."
 
 #: CRM/Symbiotic/Utils/Check/Wordpress.php
 msgid "SymbioTIC - Wordfence missing"
-msgstr ""
+msgstr "SymbioTIC - Wordfence eksik"
 
 #: CRM/Symbiotic/Utils/Check/Wordpress.php
 msgid "WordPress requirements seem OK."
-msgstr ""
+msgstr "WordPress gereksinimleri karşılanıyor gibi görünüyor."
 
 #: CRM/Symbiotic/Utils/Check/Wordpress.php
 msgid "SymbioTIC - WordPress"
-msgstr ""
+msgstr "SymbioTIC - WordPress"
 
 #: Civi/Symbiotic/CheckCollate.php
 msgid ""
