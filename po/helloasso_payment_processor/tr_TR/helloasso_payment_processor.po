@@ -10,9 +10,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: helloasso_payment_processor\n"
 "POT-Creation-Date: 2026-09-16 18:26+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2026\n"
@@ -29,15 +26,15 @@ msgstr ""
 #: Civi/HelloassoPaymentProcessor/CheckoutOption/HelloAssoHostedCheckout.php
 #: helloasso_payment_processor.php
 msgid "HelloAsso"
-msgstr ""
+msgstr "HelloAsso"
 
 #: CRM/Core/Payment/HelloAsso.mgd.php
 msgid "HelloAsso Payments Processor"
-msgstr ""
+msgstr "HelloAsso ödeme aracısı"
 
 #: CRM/Core/Payment/HelloAsso.mgd.php
 msgid "Client Id"
-msgstr ""
+msgstr "Müşteri kimliği"
 
 #: CRM/Core/Payment/HelloAsso.mgd.php
 msgid "Client Secret"
@@ -52,59 +49,73 @@ msgid ""
 "Client Id is not set in the Administer CiviCRM &raquo; System Settings "
 "&raquo; Payment Processors."
 msgstr ""
+"\"CiviCRM\" &amp;raquo; \"Sistem ayarları\" &amp;raquo; \"Ödeme aracıları\" "
+"bölümünden Müşteri kimliği ayarlanmamış."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid ""
 "Client Secret Id is not set in the Administer CiviCRM &raquo; System "
 "Settings &raquo; Payment Processors."
 msgstr ""
+"\"CiviCRM\" &amp;raquo; \"Sistem ayarları\" &amp;raquo; \"Ödeme aracıları\" "
+"bölümünden Müşteri parolası ayarlanmamış."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid ""
 "HelloAsso Organization Name is not set in the Administer CiviCRM &raquo; "
 "System Settings &raquo; Payment Processors."
 msgstr ""
+"CiviCRM &raquo; Sistem ayarları &raquo; Ödeme aracıları bölümünden HelloAsso"
+" Kuruluş adı  ayarlanmamış."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid ""
 "HelloAsso authorization screen is selected for this processor, but no linked"
 " HelloAsso organization is stored yet."
 msgstr ""
+"Bu aracı için HelloAsso yetkilendirme ekranı seçilmiş. Ancak henüz "
+"bağlantılı bir HelloAsso kuruluşu kaydedilmemiş."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid "Invalid HelloAsso processor configuration for %1:"
-msgstr ""
+msgstr "%1 için HelloAsso aracısı yapılandırması geçersiz:"
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid ""
 "HelloAsso installment cancellation is available only for processors "
 "connected through the authorization screen."
 msgstr ""
+"HelloAsso taksit iptali yalnızca yetkilendirme ekranı üzerinden bağlanmış "
+"aracılar için geçerlidir."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid "The HelloAsso order ID is missing from this recurring contribution."
-msgstr ""
+msgstr "Bu yinelenen katkıda HelloAsso sipariş kimliği eksik."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid ""
 "The HelloAsso order ID stored on this recurring contribution is invalid."
-msgstr ""
+msgstr "Bu yinelenen katkıda kayıtlı HelloAsso sipariş kimliği geçersiz."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid ""
 "The HelloAsso plan was cancelled, but its local CiviCRM records could not be"
 " synchronized: %1"
 msgstr ""
+"HelloAsso tarifesi iptal edildi. Ancak yerel CiviCRM kayıtları eşitlenemedi:"
+" %1"
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid ""
 "Future HelloAsso installments were cancelled successfully. Payments already "
 "collected were not refunded."
 msgstr ""
+"Gelecekteki HelloAsso taksitleri iptal edildi. Alınmış ödemeler iade "
+"edilmedi."
 
 #: CRM/Core/Payment/HelloAsso.php helloasso_payment_processor.php
 msgid "sandbox"
-msgstr ""
+msgstr "kum havuzu"
 
 #: CRM/Core/Payment/HelloAsso.php helloasso_payment_processor.php
 msgid "production"
@@ -112,11 +123,11 @@ msgstr "üretim"
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid "%1 (#%2, sandbox linked to live processor #%3)"
-msgstr ""
+msgstr "%1 (#%2, kum havuzu #%3 canlı aracısına bağlı)"
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid "%1 (#%2, %3)"
-msgstr ""
+msgstr "%1 (#%2, %3)"
 
 #: CRM/Core/Payment/HelloAsso.php
 #: Civi/HelloassoPaymentProcessor/CheckoutOption/HelloAssoHostedCheckout.php
@@ -124,127 +135,140 @@ msgid ""
 "The HelloAsso payment processor is currently unavailable. Please try again "
 "later."
 msgstr ""
+"HelloAsso ödeme aracısı şu anda kullanılamıyor. Lütfen bir süre sonra "
+"yeniden deneyin."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid "Unable to reload contribution %1."
-msgstr ""
+msgstr "%1 katkısı yeniden yüklenemedi."
 
 #: CRM/Core/Payment/HelloAsso.php
 #: CRM/HelloassoPaymentProcessor/HelloAssoClient.php
 msgid "HelloAsso refunds are disabled by this extension."
-msgstr ""
+msgstr "HelloAsso geri ödemeleri bu eklentide kullanıma alınmamış."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid ""
 "HelloAsso refund cannot be requested without a payment ID and a positive "
 "amount."
 msgstr ""
+"HelloAsso geri ödemesi, ödeme kimliği ve pozitif bir tutar olmadan "
+"istenemez."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid ""
 "HelloAsso accepted the refund request but did not return a refund operation "
 "ID."
 msgstr ""
+"HelloAsso geri ödeme isteğini kabul etti ancak bir geri ödeme işlem kimliği "
+"döndürmedi."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid ""
 "HelloAsso refund cannot be requested because the original CiviCRM payment "
 "could not be found."
 msgstr ""
+"Özgün CiviCRM ödemesi bulunamadığı için HelloAsso geri ödemesi istenemez."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid ""
 "HelloAsso only supports full refunds through this integration. Partial "
 "refunds must be handled manually in HelloAsso."
 msgstr ""
+"HelloAsso yalnızca bu bütünleştirme ile tam geri ödemeleri destekler. "
+"Parçalı geri ödemeler HelloAsso üzerinde el ile yapılmalıdır."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid "Unable to find the contribution to update for the HelloAsso checkout."
-msgstr ""
+msgstr "HelloAsso ödemesi için güncelleme katkısı bulunamadı."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid "Online contribution"
-msgstr ""
+msgstr "Çevrim içi katkı"
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid "Unknown error while preparing the HelloAsso redirect."
-msgstr ""
+msgstr "HelloAsso yönlendirmesi hazırlanırken bilinmeyen bir sorun çıktı."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid "Unable to update contribution %1."
-msgstr ""
+msgstr "%1 katkısı güncellenemedi."
 
 #: CRM/Core/Payment/HelloAsso.php
 #: Civi/HelloassoPaymentProcessor/CheckoutOption/HelloAssoHostedCheckout.php
 msgid "HelloAsso installment payments are disabled."
-msgstr ""
+msgstr "HelloAsso için taksitli ödemeler kullanıma alınmamış."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid "Invalid HelloAsso installment schedule: %1"
-msgstr ""
+msgstr "HelloAsso taksit zamanlaması geçersiz: %1"
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid "HelloAsso error"
-msgstr ""
+msgstr "HelloAsso sorunu"
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid "The %1 must contain at least 3 characters (HelloAsso rule)."
-msgstr ""
+msgstr "%1 en az 3 karakter uzunluğunda olmalıdır (HelloAsso kuralı)."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid "The %1 must not contain 3 repeated characters (HelloAsso rule)."
-msgstr ""
+msgstr "%1 içinde 3 yinelenen karakter bulunmamalıdır (HelloAsso kuralı)."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid "The %1 must not contain numbers (HelloAsso rule)."
-msgstr ""
+msgstr "%1 içinde rakamlar bulunmamalıdır (HelloAsso kuralı)."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid "The %1 must contain at least one vowel (HelloAsso rule)."
-msgstr ""
+msgstr "%1 içinde en az bir sesli harf bulunmalıdır (HelloAsso kuralı)."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid "The value of %1 is not allowed by HelloAsso."
-msgstr ""
+msgstr "HelloAsso %1 değerinin kullanılmasına izin vermiyor."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid "The %1 contains unauthorized characters (HelloAsso rule)."
-msgstr ""
+msgstr "%1 içinde izin verilmeyen karakterler bulunuyor (HelloAsso kuralı)."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid "first name"
-msgstr ""
+msgstr "ad"
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid "last name"
-msgstr ""
+msgstr "soyad"
 
 #: CRM/Core/Payment/HelloAsso.php helloasso_payment_processor.php
 msgid "First name and last name must not be identical (HelloAsso rule)."
-msgstr ""
+msgstr "Ad ve soyad aynı olmamalıdır (HelloAsso kuralı)."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid ""
 "No primary email address is available to start the HelloAsso checkout for "
 "contribution %1."
 msgstr ""
+"%1 katkısının HelloAsso ödemesini başlatmak için bir birincil e-posta adresi"
+" yok."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid "Online contribution: %1"
-msgstr ""
+msgstr "Çevrim içi katkı: %1"
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid "Invalid HelloAsso webhook payload in the queue."
-msgstr ""
+msgstr "Kuyrukta geçersiz bir HelloAsso internet kancası yükü var."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid "No matching contribution. Webhook ignored."
-msgstr ""
+msgstr "Eşleşen bir katkı yok. İnternet kancası yok sayıldı."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid ""
 "Untrusted webhook ignored; no locally expected HelloAsso object identifier."
 msgstr ""
+"Güvenilmeyen internet kancası yok sayıldı. Yerel olarak beklenen HelloAsso "
+"nesne tanımlayıcısı yok."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid "OK"
@@ -255,27 +279,31 @@ msgid ""
 "HelloAsso object not found (404). Short and long follow-up checks have been "
 "disabled to avoid repeated calls."
 msgstr ""
+"HelloAsso nesnesi bulunamadı (404). Yinelenen aramaları önlemek için kısa ve"
+" uzun izleme denetimleri kapatıldı."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid ""
 "A recurring HelloAsso payment is missing its order or installment identity."
-msgstr ""
+msgstr "Yinelenen bir HelloAsso ödemesinde sipariş veya taksit kimliği eksik."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid ""
 "The HelloAsso installment mapping table is missing. Apply the extension "
 "database upgrades before processing installments."
 msgstr ""
+"HelloAsso taksit eşleme tablosu eksik. Taksitleri işlemeden önce eklenti "
+"veri tabanı yükseltmelerini yapın."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid ""
 "The contribution mapped to this HelloAsso installment no longer exists."
-msgstr ""
+msgstr "Bu HelloAsso taksiti ile eşlesen katkı artık yok."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid ""
 "CiviCRM could not create the contribution for HelloAsso installment %1."
-msgstr ""
+msgstr "CiviCRM, HelloAsso %1. taksidinin katkısını oluşturamadı."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid ""
@@ -283,24 +311,29 @@ msgid ""
 "differs from the current HelloAsso payment gateway status (%2). Metadata has"
 " been synchronized, but the contribution status has not been changed."
 msgstr ""
+"%1 katkısı DonRec tarafından kilitlenmiş. Vergi alındısı için kullanılan "
+"durum, var olan HelloAsso ödeme ağ geçidi durumundan (%2) farklı. Üst "
+"veriler eşitlendi, ancak katkı durumu değiştirilmedi."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid "HelloAsso notification signature is required but missing."
-msgstr ""
+msgstr "HelloAsso bildirim imzası gerekiyor ancak eksik."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid ""
 "HelloAsso notification signature cannot be verified because the local "
 "signing key is missing."
 msgstr ""
+"Yerel imzalama anahtarı eksik olduğu için HelloAsso bildirim imzası "
+"doğrulanamadı."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid "HelloAsso notification signature mismatch."
-msgstr ""
+msgstr "HelloAsso bildirimi imza uyuşmazlığı."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid "HelloAsso partner webhook signature is required but missing."
-msgstr ""
+msgstr "HelloAsso iş ortağı internet kancası imzası gerekli ancak eksik."
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid ""
@@ -1464,7 +1497,7 @@ msgstr "Ödeme tarihi"
 
 #: schema/HelloAssoInstallment.entityType.php
 msgid "State"
-msgstr "İl"
+msgstr "Durum"
 
 #: schema/HelloAssoInstallment.entityType.php
 #: schema/HelloAssoInstallmentLineItem.entityType.php
