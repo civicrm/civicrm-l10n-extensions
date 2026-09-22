@@ -406,6 +406,9 @@ msgid ""
 "authorization screen and grant the OrganizationAdmin or FormAdmin role; the "
 "client must also include the RefundManagement privilege."
 msgstr ""
+"HelloAsso iptal isteğini reddetti. Kuruluşu kimlik doğrulama ekranından "
+"yeniden bağlayın ve OrganizationAdmin veya FormAdmin rolünü verin. İstemcide"
+" ayrıca RefundManagement yetkisi de bulunmalıdır."
 
 #: CRM/HelloassoPaymentProcessor/HelloAssoClient.php
 #: CRM/HelloassoPaymentProcessor/PartnerAuth.php
@@ -413,88 +416,94 @@ msgid ""
 "HelloAsso payment is temporarily unavailable: the linked organization is not"
 " currently allowed by HelloAsso to receive online payments."
 msgstr ""
+"HelloAsso ödemesi geçici olarak kullanılamıyor: Bağlantılı kuruluşun şu anda"
+" HelloAsso tarafından çevrim içi ödeme almasına izin verilmiyor."
 
 #: CRM/HelloassoPaymentProcessor/HelloAssoClient.php
 msgid "HelloAsso plugin-public mode requires a saved payment processor ID."
 msgstr ""
+"HelloAsso eklentisinin herkese açık kipi için kaydedilmiş bir ödeme aracısı "
+"kimliği gerekir."
 
 #: CRM/HelloassoPaymentProcessor/HelloAssoClient.php
 #: CRM/HelloassoPaymentProcessor/PartnerAuth.php
 msgid "HelloAsso API error (%1)"
-msgstr ""
+msgstr "HelloAsso API sorunu (%1)"
 
 #: CRM/HelloassoPaymentProcessor/HelloAssoClient.php
 msgid "HelloAsso live API calls require SSL verification to be enabled."
 msgstr ""
+"HelloAsso canlı API çağrılarının etkinleştirilmesi için SSL doğrulaması "
+"gerekir."
 
 #: CRM/HelloassoPaymentProcessor/HelloAssoClient.php
 msgid ""
 "HelloAsso processor configuration is incomplete: organization slug is "
 "missing."
-msgstr ""
+msgstr "HelloAsso aracısı yapılandırması eksik: kuruluş adres son eki eksik."
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "HelloAsso partner authorization"
-msgstr ""
+msgstr "HelloAsso iş ortağı yetkilendirmesi"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "HelloAsso partner authorization failed: %1 (%2)"
-msgstr ""
+msgstr "HelloAsso iş ortağı yetkilendirilemedi: %1 (%2)"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "HelloAsso partner authorization failed: %1"
-msgstr ""
+msgstr "HelloAsso iş ortağı yetkilendirilemedi: %1"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "HelloAsso organization %1 is now linked."
-msgstr ""
+msgstr "HelloAsso %1 kuruluşu bağlandı."
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "HelloAsso linked organization has been disconnected."
-msgstr ""
+msgstr "HelloAsso bağlı kuruluşun bağlantısı kesildi."
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "HelloAsso partner settings have been saved on this page."
-msgstr ""
+msgstr "HelloAsso iş ortağı ayarları bu sayfaya kaydedildi."
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 #: helloasso_payment_processor.php
 msgid "HelloAsso sandbox authorization screen"
-msgstr ""
+msgstr "HelloAsso kum havuzu kimlik doğrulama ekranı"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "HelloAsso authorization screen"
-msgstr ""
+msgstr "HelloAsso kimlik doğrulama ekranı"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "Sandbox shared client ID"
-msgstr ""
+msgstr "Kum havuzu paylaşılan istemci kimliği"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "Shared client ID"
-msgstr ""
+msgstr "Paylaşılan istemci kimliği"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "Sandbox shared client secret"
-msgstr ""
+msgstr "Kum havuzu paylaşılan istemci parolası"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "Shared client secret"
-msgstr ""
+msgstr "Paylaşılan istemci parolası"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 #: helloasso_payment_processor.php
 msgid "Connect sandbox to HelloAsso"
-msgstr ""
+msgstr "Kum havuzunu HelloAsso ile bağla"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 #: helloasso_payment_processor.php
 msgid "Connect to HelloAsso"
-msgstr ""
+msgstr "HelloAsso ile bağla"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "Payment processor ID: %1"
-msgstr ""
+msgstr "Ödeme aracısı kimliği: %1"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid ""
@@ -502,23 +511,26 @@ msgid ""
 "start the HelloAsso connection. The general authorization-screen activation "
 "switch is configured in the HelloAsso settings."
 msgstr ""
+"Bu sayfa paylaşılan istemciyi yazmak, bağlantı durumunu görüntülemek ve "
+"HelloAsso bağlantısını başlatmak için kullanılır. Genel kimlik doğrulama "
+"ekranı etkinleştirme anahtarı HelloAsso ayarlarından yapılandırılır."
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 #: helloasso_payment_processor.php
 msgid "Open HelloAsso settings"
-msgstr ""
+msgstr "HelloAsso ayarlarını aç"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "Leave blank to keep the current secret."
-msgstr ""
+msgstr "Var olan parolanın korunması için boş bırakın."
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "Authorization URL"
-msgstr ""
+msgstr "Kimlik doğrulama adresi"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "Token URL"
-msgstr ""
+msgstr "Kod adresi"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid ""
@@ -526,30 +538,36 @@ msgid ""
 "this rail. Enter a local client ID and client secret here only if you want "
 "to override the community credentials."
 msgstr ""
+"Topluluk HelloAsso kimlik doğrulama ekranı kimlik doğrulama bilgileri şu "
+"anda bu ray için kullanılıyor. Yalnızca topluluk kimlik doğrulama "
+"bilgilerini değiştirmek istiyorsanız buraya yerel bir istemci kimliği ve "
+"istemci parolası yazın."
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid ""
 "Local HelloAsso authorization-screen credentials are currently used for this"
 " rail."
 msgstr ""
+"Yerel HelloAsso kimlik doğrulama ekranı kimlik doğrulama bilgileri şu anda "
+"bu ray için kullanılıyor."
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "Save authorization-screen settings"
-msgstr ""
+msgstr "Kimlik doğrulama ekranı ayarlarını kaydet"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "Callback URL to declare at HelloAsso:"
-msgstr ""
+msgstr "HelloAsso tarafında bildirilecek geri çağırma adresi:"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 #: helloasso_payment_processor.php
 msgid "Webhook management: %1"
-msgstr ""
+msgstr "İnternet kancası yönetimi: %1"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 #: helloasso_payment_processor.php
 msgid "Registered webhook URL: %1"
-msgstr ""
+msgstr "Kaydedilmiş internet kancası adresi: %1"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid ""
