@@ -5,11 +5,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Civixero\n"
-"POT-Creation-Date: 2025-10-03 11:01+0200\n"
+"POT-Creation-Date: 2026-09-23 11:01+0200\n"
 "Language-Team: CiviCRM Translators <civicrm-translators@lists.civicrm.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: CRM/Civixero/Base.php
+msgid "%1 Pull completed with errors"
+msgstr ""
 
 #: CRM/Civixero/Contact.php CRM/Civixero/Invoice.php
 msgid "Failed to store %1 (%2)"
@@ -29,6 +33,10 @@ msgstr ""
 
 #: CRM/Civixero/Contact.php
 msgid "Attempt to sync Contact %1 to Xero entry for existing Contact %2. "
+msgstr ""
+
+#: CRM/Civixero/Contact.php
+msgid "Contact Push aborted due to throttling by Xero"
 msgstr ""
 
 #: CRM/Civixero/Contact.php
@@ -86,7 +94,7 @@ msgid "Authorize with Xero"
 msgstr ""
 
 #: CRM/Civixero/Invoice.php
-msgid "Failed to push contributionID: %1 (AccountsContactID: %2)"
+msgid "Failed to push contributionID: %1"
 msgstr ""
 
 #: CRM/Civixero/Invoice.php
@@ -131,12 +139,6 @@ msgstr ""
 
 #: Civixero.php
 msgid "Xero Authorization Required"
-msgstr ""
-
-#: Civixero.php
-msgid ""
-"Xero access token has expired. You need to re-authorize with Xero to re-"
-"enable the connection."
 msgstr ""
 
 #: Civixero.php
@@ -219,6 +221,18 @@ msgstr ""
 msgid "Xero Authorize"
 msgstr ""
 
+#: settings/Civixero.setting.php
+msgid "Use CiviCRM invoice number when pushing to Xero"
+msgstr ""
+
+#: settings/Civixero.setting.php
+msgid ""
+"When enabled, if the contribution has an invoice number it will be used as "
+"the Xero invoice number. If the contribution has no invoice number (or this "
+"setting is disabled) the invoice number is generated as (prefix + "
+"contribution ID)."
+msgstr ""
+
 #: templates/CRM/Civixero/Form/XeroAuthorize.tpl
 msgid "Xero client authentication details"
 msgstr ""
@@ -249,6 +263,14 @@ msgstr ""
 msgid "Disabled"
 msgstr ""
 
+#: templates/CRM/Civixero/Page/Inline/ContactSyncErrors.tpl
+msgid "Contact Sync Errors with Xero"
+msgstr ""
+
+#: templates/CRM/Civixero/Page/Inline/ContactSyncErrors.tpl
+msgid "Contact sync error with Xero"
+msgstr ""
+
 #: templates/CRM/Civixero/Page/Inline/ContactSyncStatus.tpl
 msgid "Xero Sync Status"
 msgstr ""
@@ -264,3 +286,21 @@ msgstr ""
 #: templates/CRM/Civixero/Page/Inline/ContactSyncStatus.tpl
 msgid "Contact is queued for sync with Xero"
 msgstr ""
+
+#: templates/CRM/Civixero/Page/Inline/ContactSyncStatus.tpl
+msgid "Push Now"
+msgstr ""
+
+#: templates/CRM/Civixero/Page/Inline/ContactSyncStatus.tpl
+msgid "Pushing..."
+msgstr ""
+
+#: templates/CRM/Civixero/Page/Inline/InvoiceSyncErrors.tpl
+msgid "Invoice Sync Errors with Xero"
+msgstr ""
+
+#: templates/CRM/Civixero/Page/Inline/InvoiceSyncErrors.tpl
+msgid "%count Contribution not synced with Xero"
+msgid_plural "%count Contributions not synced with Xero"
+msgstr[0] ""
+msgstr[1] ""
