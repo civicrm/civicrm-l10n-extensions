@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = sv: sv_SE, sl: sl_SI, tr: tr_TR, et: et_EE, af: af_ZA, bg: bg_BG, km: km_KH, hu: hu_HU, de: de_DE, pt: pt_PT, ro: ro_RO, sk: sk_SK, ca: ca_ES, pl: pl_PL, el: el_GR, ru: ru_RU, it: it_IT, es: es_ES, he: he_IL, da: da_DK, nb: nb_NO, fi: fi_FI, fr: fr_FR, hi: hi_IN, nl: nl_NL, lt: lt_LT, cs: cs_CZ, id: id_ID, lv: lv_LV, ja: ja_JP, sq: sq_AL, vi: vi_VN
+lang_map = id: id_ID, sq: sq_AL, hu: hu_HU, ca: ca_ES, fr: fr_FR, es: es_ES, lt: lt_LT, cs: cs_CZ, pt: pt_PT, it: it_IT, nl: nl_NL, pl: pl_PL, fi: fi_FI, bg: bg_BG, sk: sk_SK, hi: hi_IN, lv: lv_LV, ja: ja_JP, et: et_EE, ro: ro_RO, ru: ru_RU, km: km_KH, de: de_DE, nb: nb_NO, vi: vi_VN, sv: sv_SE, sl: sl_SI, tr: tr_TR, da: da_DK, af: af_ZA, el: el_GR, he: he_IL
 
 [o:civicrm:p:civicrm_extensions:r:Civixero]
 file_filter            = po/Civixero/<lang>/Civixero.po
@@ -881,6 +881,15 @@ keep_translations      = false
 file_filter            = po/maxadditionalparticipants/<lang>/maxadditionalparticipants.po
 source_file            = po/maxadditionalparticipants/pot/maxadditionalparticipants.pot
 source_lang            = en
+replace_edited_strings = false
+keep_translations      = false
+
+[o:civicrm:p:civicrm_extensions:r:mediascaler]
+file_filter            = po/mediascaler/<lang>/mediascaler.po
+source_file            = po/mediascaler/pot/mediascaler.pot
+type                   = POT
+minimum_perc           = 0
+resource_name          = mediascaler
 replace_edited_strings = false
 keep_translations      = false
 
