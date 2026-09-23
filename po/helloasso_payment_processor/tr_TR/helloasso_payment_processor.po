@@ -574,11 +574,13 @@ msgid ""
 "The authorization screen is disabled globally. Enable it in HelloAsso "
 "settings, then return to this page to connect an organization."
 msgstr ""
+"Kimlik doğrulama ekranı genel olarak kapatılmış. HelloAsso ayarlarından "
+"açın, ardından bir kuruluşa bağlanmak için bu sayfaya dönün."
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 #: helloasso_payment_processor.php
 msgid "Organization linked: %1"
-msgstr ""
+msgstr "Kuruluş bağlandı: %1"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 #: helloasso_payment_processor.php
@@ -587,6 +589,9 @@ msgid ""
 "Reconnect the organization before accepting new payments through the "
 "authorization screen."
 msgstr ""
+"Bu raydaki HelloAsso kimlik doğrulama bağlantısı artık yenilenemez%1%2. "
+"Kimlik doğrulama ekranı ile yeni ödemeleri kabul etmeden önce kuruluşu "
+"yeniden bağlayın."
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 #: helloasso_payment_processor.php
@@ -595,6 +600,9 @@ msgid ""
 "receive online payments%1%2. Check its administrative status in HelloAsso "
 "before accepting new payments through the authorization screen."
 msgstr ""
+"Bu rayda bağlantılı HelloAsso kuruluşunun şu anda çevrim içi ödeme almasına "
+"izin verilmiyor%1%2. Kimlik doğrulama ekranından yeni ödemeleri kabul "
+"etmeden önce HelloAsso içindeki yönetim durumunu kontrol edin."
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 #: helloasso_payment_processor.php
@@ -603,63 +611,70 @@ msgid ""
 "the next maintenance job or reconnect the organization if the problem "
 "persists."
 msgstr ""
+"Bu rayda en son HelloAsso kimlik doğrulama bağlantısı yenilenemedi. Bir "
+"sonraki bakım görevini kontrol edin ya da sorun sürüyorsa kuruluşu yeniden "
+"bağlayın."
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 #: helloasso_payment_processor.php
 msgid "Linked on: %1"
-msgstr ""
+msgstr "Bağlanma tarihi: %1"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 #: helloasso_payment_processor.php
 msgid "Access token valid until: %1"
-msgstr ""
+msgstr "Erişim kodunun geçerlilik sonu: %1"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 #: helloasso_payment_processor.php
 msgid "Authorization link valid until: %1"
-msgstr ""
+msgstr "Kimlik doğrulama bağlantısının geçerlilik sonu: %1"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "HelloAsso partner information could not be retrieved: %1"
-msgstr ""
+msgstr "HelloAsso iş ortağı bilgileri alınamadı: %1"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "Disconnect the linked organization"
-msgstr ""
+msgstr "Bağlı kuruluşun bağlantısını kes"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "No HelloAsso organization is linked yet."
-msgstr ""
+msgstr "Henüz bir HelloAsso kuruluşu bağlı değil."
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid ""
 "The HelloAsso partner settings form token is invalid. Please reload the page"
 " and try again."
 msgstr ""
+"HelloAsso iş ortağı ayarları formu kodu geçersiz. Lütfen sayfayı yeniden "
+"yükleyip yeniden deneyin."
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "HelloAsso partner API status: reachable."
-msgstr ""
+msgstr "HelloAsso iş ortağı API durumu: Erişilebilir."
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "Partner account: %1"
-msgstr ""
+msgstr "İş ortağı hesabı: %1"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "Authorized partner domain: %1"
-msgstr ""
+msgstr "Kimliği doğrulanmış iş ortağı etki alanı: %1"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "Partner API privileges: %1"
-msgstr ""
+msgstr "İş ortağı API izinleri: %1"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "Partner notification URLs returned by HelloAsso: %1"
-msgstr ""
+msgstr "HelloAsso tarafından döndürülen iş ortağı bildirim adresleri: %1"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "HelloAsso did not return any partner notification URL on this client."
 msgstr ""
+"HelloAsso, bu istemci ile ilgili herhangi bir iş ortağı bildirimi adresi "
+"döndürmedi."
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "none"
@@ -668,112 +683,130 @@ msgstr "yok"
 #: CRM/HelloassoPaymentProcessor/PartnerAuth.php
 msgid "HelloAsso partner authorization state is invalid or expired."
 msgstr ""
+"HelloAsso iş ortağı kimlik doğrulama durumu geçersiz veya geçerlilik süresi "
+"dolmuş."
 
 #: CRM/HelloassoPaymentProcessor/PartnerAuth.php
 msgid "HelloAsso partner authorization did not return an organization slug."
 msgstr ""
+"HelloAsso iş ortağı kimlik doğrulaması bir kuruluş adres son eki döndürmedi."
 
 #: CRM/HelloassoPaymentProcessor/PartnerAuth.php
 msgid "HelloAsso partner authorization requires a payment processor."
 msgstr ""
+"HelloAsso iş ortağı kimlik doğrulaması için bir ödeme aracısı gereklidir."
 
 #: CRM/HelloassoPaymentProcessor/PartnerAuth.php
 msgid "HelloAsso partner authorization is not linked to an organization."
-msgstr ""
+msgstr "HelloAsso iş ortağı kimlik doğrulaması bir kuruluşa bağlı değil."
 
 #: CRM/HelloassoPaymentProcessor/PartnerAuth.php
 msgid ""
 "HelloAsso partner authorization is currently being refreshed. Please retry "
 "the payment."
 msgstr ""
+"HelloAsso iş ortağı kimlik doğrulaması şu anda yenileniyor. Lütfen ödemeyi "
+"yeniden deneyin."
 
 #: CRM/HelloassoPaymentProcessor/PartnerAuth.php
 msgid "HelloAsso partner authorization cannot be refreshed."
-msgstr ""
+msgstr "HelloAsso iş ortağı kimlik doğrulaması yenilenemedi."
 
 #: CRM/HelloassoPaymentProcessor/PartnerAuth.php
 msgid "HelloAsso partner authorization refresh token has expired."
 msgstr ""
+"HelloAsso iş ortağı kimlik doğrulama yenileme kodunun geçerlilik süresi "
+"dolmuş."
 
 #: CRM/HelloassoPaymentProcessor/PartnerAuth.php
 msgid "HelloAsso partner authorization response is missing OAuth tokens."
-msgstr ""
+msgstr "HelloAsso iş ortağı kimlik doğrulama yanıtı OAuth kodları eksik."
 
 #: CRM/HelloassoPaymentProcessor/PartnerAuth.php
 msgid ""
 "HelloAsso payment is temporarily unavailable: HelloAsso connection must be "
 "restored by an administrator."
 msgstr ""
+"HelloAsso ödemesi geçici olarak kullanılamıyor: HelloAsso bağlantısı bir "
+"yönetici tarafından geri yüklenmeli."
 
 #: CRM/HelloassoPaymentProcessor/PartnerAuth.php
 msgid "HelloAsso partner authorization is disabled."
-msgstr ""
+msgstr "HelloAsso iş ortağı kimlik doğrulaması kapatıldı."
 
 #: CRM/HelloassoPaymentProcessor/PartnerAuth.php
 msgid ""
 "HelloAsso partner client ID and secret must be configured before connecting "
 "an organization."
 msgstr ""
+"Bir kuruluşa bağlanmadan önce HelloAsso iş ortağı istemci kimliği ve "
+"parolası yapılandırılmalıdır."
 
 #: CRM/HelloassoPaymentProcessor/PartnerAuth.php
 msgid ""
 "HelloAsso partner authorization requires SSL verification to be enabled."
 msgstr ""
+"HelloAsso iş ortağı kimlik doğrulaması için, SSL doğrulaması açılmalıdır."
 
 #: CRM/HelloassoPaymentProcessor/ProcessorAuthConfig.php
 msgid "HelloAsso processor authorization table is missing."
-msgstr ""
+msgstr "HelloAsso aracı kimlik doğrulama tablosu eksik."
 
 #: CRM/HelloassoPaymentProcessor/ProcessorAuthConfig.php
 msgid "Unsupported HelloAsso connection mode."
-msgstr ""
+msgstr "HelloAsso bağlantı kipi desteklenmiyor."
 
 #: CRM/HelloassoPaymentProcessor/ProcessorAuthConfig.php
 msgid "Unsupported HelloAsso webhook ownership mode."
-msgstr ""
+msgstr "HelloAsso internet kancası sahiplik kipi desteklenmiyor."
 
 #: CRM/HelloassoPaymentProcessor/Service.php
 msgid "No active HelloAsso payment processor found for mode %1."
-msgstr ""
+msgstr "%1 kipi için etkin bir HelloAsso ödeme aracısı bulunamadı."
 
 #: CRM/HelloassoPaymentProcessor/Service.php
 msgid ""
 "No active HelloAsso authorization-screen processor is linked for mode %1."
 msgstr ""
+"%1 kipi için etkin bir HelloAsso kimlik doğrulama ekranı aracısı bağlı "
+"değil."
 
 #: CRM/HelloassoPaymentProcessor/Service.php
 msgid "HelloAsso payment processor not found: %1"
-msgstr ""
+msgstr "HelloAsso ödeme aracısı bulunamadı:% 1"
 
 #: CRM/HelloassoPaymentProcessor/Upgrader.php
 msgid "HelloAsso: analyze concatenated legacy trxn_id values (%1 cases)"
 msgstr ""
+"HelloAsso: Birleştirilmiş eski trxn_id değerlerini inceleyin (%1 olay)"
 
 #: CRM/HelloassoPaymentProcessor/Upgrader.php
 msgid "HelloAsso: too many cases (%1) for GUI repair. Use terminal mode."
 msgstr ""
+"HelloAsso: Görsel kullanıcı arayüzü onarımı için çok fazla olay (%1). "
+"Uçbirim kipini kullanın."
 
 #: CRM/HelloassoPaymentProcessor/Upgrader.php
 msgid ""
 "HelloAsso: repair legacy trxn_id values (batch %1, contributions %2 to %3)"
-msgstr ""
+msgstr "HelloAsso: Eski trxn_id değerlerini onar (%1, katkı %2 ile %3 arası)"
 
 #: CRM/HelloassoPaymentProcessor/Upgrader.php
 msgid "HelloAsso: final report of remaining legacy trxn_id values"
-msgstr ""
+msgstr "HelloAsso: Kalan eski trxn_id değerlerinin son raporu"
 
 #: Civi/HelloassoPaymentProcessor/CheckoutOption/HelloAssoHostedCheckout.php
 #: settings/helloasso_payment_processor.setting.php
 msgid "You will be redirected to HelloAsso to complete your payment."
-msgstr ""
+msgstr "Ödemenizi tamamlamak için HelloAsso üzerine yönlendirileceksiniz."
 
 #: Civi/HelloassoPaymentProcessor/CheckoutOption/HelloAssoHostedCheckout.php
 msgid "HelloAsso requires between %1 and %2 installments for this form."
-msgstr ""
+msgstr "HelloAsso üzerinde bu form için %1 ile %2 arasında taksit gerekiyor."
 
 #: Civi/HelloassoPaymentProcessor/CheckoutOption/HelloAssoHostedCheckout.php
 msgid "No active HelloAsso connection is available for this Checkout Option."
-msgstr ""
+msgstr "Bu ödeme seçeneği için etkin bir HelloAsso bağlantısı yok."
 
 #: ang/crmHelloassoPaymentProcessor/checkoutBlockAdmin.html
 msgid ""
@@ -781,41 +814,47 @@ msgid ""
 "Option. For payment to be taken you must either set a Checkout Option value "
 "on the Contribution or add a user input to select one."
 msgstr ""
+"Seçilmiş ödeme seçeneğine bağlı olarak ödeme ayrıntıları burada "
+"görüntülenir. Ödemenin alınması için katkıda bir ödeme seçeneği değeri "
+"ayarlamanız ya da birini seçmesi için bir kullanıcı seçim alanı eklemeniz "
+"gerekir."
 
 #: ang/crmHelloassoPaymentProcessor/checkoutBlockAdminSettings.html
 msgid ""
 "This CiviCRM version still supports the standard HelloAsso Afform payment "
 "option, but not the installment controls for that checkout block."
 msgstr ""
+"Bu CiviCRM sürümü hala standart HelloAsso Afform ödeme seçeneğini "
+"destekliyor. Ancak bu ödeme bloğu için taksit denetimlerini desteklemiyor."
 
 #: ang/crmHelloassoPaymentProcessor/checkoutBlockAdminSettings.html
 msgid "Offer HelloAsso installment payments"
-msgstr ""
+msgstr "HelloAsso taksitli ödemeleri sunun"
 
 #: ang/crmHelloassoPaymentProcessor/checkoutBlockAdminSettings.html
 msgid "Minimum installments"
-msgstr ""
+msgstr "En az taksit sayısı"
 
 #: ang/crmHelloassoPaymentProcessor/checkoutBlockAdminSettings.html
 msgid "Maximum installments"
-msgstr ""
+msgstr "En fazla taksit sayısı"
 
 #: ang/crmHelloassoPaymentProcessor/installments.component.js
 #: js/civicrmHelloAsso.js js/quickform-checkout.js
 msgid "helloasso-payment-processor"
-msgstr ""
+msgstr "helloasso-odeme-aracisi"
 
 #: ang/crmHelloassoPaymentProcessor/installments.component.js
 msgid "Pay in full"
-msgstr ""
+msgstr "Tamamını öde"
 
 #: ang/crmHelloassoPaymentProcessor/installments.component.js
 msgid "%1 monthly installments"
-msgstr ""
+msgstr "%1 aylık taksit"
 
 #: ang/crmHelloassoPaymentProcessor/installmentsField.html
 msgid "Installment schedule"
-msgstr ""
+msgstr "Taksit zamanlaması"
 
 #: api/v3/Job/ProcessHelloasso.php api/v3/Job/ProcessHelloassoLongFollowup.php
 #: api/v3/Job/RefreshHelloassoPartnerLinks.php
@@ -825,7 +864,7 @@ msgstr "Ödeme aracısı kimliği"
 
 #: api/v3/Job/ProcessHelloasso.php api/v3/Job/ProcessHelloassoLongFollowup.php
 msgid "Restrict processing to one HelloAsso payment processor."
-msgstr ""
+msgstr "İşlem bir HelloAsso ödeme aracısı ile sınırlanır."
 
 #: api/v3/Job/ProcessHelloasso.php api/v3/Job/ProcessHelloassoLongFollowup.php
 #: schema/HelloAssoInstallment.entityType.php
@@ -835,33 +874,33 @@ msgstr "Katkı kimliği"
 
 #: api/v3/Job/ProcessHelloasso.php api/v3/Job/ProcessHelloassoLongFollowup.php
 msgid "Force processing for a specific contribution."
-msgstr ""
+msgstr "Belirli bir katkı için işleme dayatması."
 
 #: api/v3/Job/ProcessHelloasso.php api/v3/Job/ProcessHelloassoLongFollowup.php
 msgid "Contribution statuses"
-msgstr ""
+msgstr "Katkı durumları"
 
 #: api/v3/Job/ProcessHelloasso.php
 msgid ""
 "Comma-separated contribution status names to include, for example "
 "\"Pending,Failed\"."
-msgstr ""
+msgstr "Virgül ile ayrılmış katkı durum adları. Örnek: \"Bekliyor, Başarısız\"."
 
 #: api/v3/Job/ProcessHelloasso.php api/v3/Job/ProcessHelloassoLongFollowup.php
 msgid "Receive date from"
-msgstr ""
+msgstr "Alınma tarihi başlangıcı"
 
 #: api/v3/Job/ProcessHelloasso.php api/v3/Job/ProcessHelloassoLongFollowup.php
 msgid "Only process contributions received on or after this date/time."
-msgstr ""
+msgstr "Yalnızca bu tarih ve saatte veya sonrasında alınan katkılar işlenir."
 
 #: api/v3/Job/ProcessHelloasso.php api/v3/Job/ProcessHelloassoLongFollowup.php
 msgid "Receive date to"
-msgstr ""
+msgstr "Alınma tarihi bitişi"
 
 #: api/v3/Job/ProcessHelloasso.php api/v3/Job/ProcessHelloassoLongFollowup.php
 msgid "Only process contributions received on or before this date/time."
-msgstr ""
+msgstr "Yalnızca bu tarih ve saatte veya öncesinde alınan katkılar işlenir."
 
 #: api/v3/Job/ProcessHelloasso.php api/v3/Job/ProcessHelloassoLongFollowup.php
 msgid "Due before"
