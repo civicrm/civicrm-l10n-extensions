@@ -904,23 +904,27 @@ msgstr "Yalnızca bu tarih ve saatte veya öncesinde alınan katkılar işlenir.
 
 #: api/v3/Job/ProcessHelloasso.php api/v3/Job/ProcessHelloassoLongFollowup.php
 msgid "Due before"
-msgstr ""
+msgstr "Öncesinde tamamlanmış"
 
 #: api/v3/Job/ProcessHelloasso.php
 msgid ""
 "Only process follow-ups due on or before this date/time. Leave empty to "
 "disable this filter."
 msgstr ""
+"Yalnızca bu tarih ve saatte veya öncesinde yapılması gereken izlemeler "
+"işlenir. Bu süzgeci kapatmak için boş bırakın."
 
 #: api/v3/Job/ProcessHelloasso.php
 msgid "Only scheduled follow-ups"
-msgstr ""
+msgstr "Yalnızca zamanlanmış izlemeler"
 
 #: api/v3/Job/ProcessHelloasso.php
 msgid ""
 "When enabled, only contributions with a scheduled HelloAsso follow-up are "
 "processed."
 msgstr ""
+"Etkinleştirildiğinde, yalnızca zamanlanmış bir HelloAsso izlemesi olan "
+"katkılar işlenir."
 
 #: api/v3/Job/ProcessHelloasso.php api/v3/Job/ProcessHelloassoLongFollowup.php
 msgid "Limit"
@@ -928,73 +932,81 @@ msgstr "Sınır"
 
 #: api/v3/Job/ProcessHelloasso.php api/v3/Job/ProcessHelloassoLongFollowup.php
 msgid "Maximum number of contributions to process per payment processor."
-msgstr ""
+msgstr "Ödeme aracısı başına işlenecek en fazla katkı sayısı."
 
 #: api/v3/Job/ProcessHelloassoLongFollowup.php
 msgid ""
 "Comma-separated contribution status names to include, for example "
 "\"Completed,Pending\"."
-msgstr ""
+msgstr "Virgül ile ayrılmış katkı durum adları. Örnek: \"Tamamlandı, Bekliyor\"."
 
 #: api/v3/Job/ProcessHelloassoLongFollowup.php
 msgid ""
 "Only process long follow-ups due on or before this date/time. Leave empty to"
 " use now."
 msgstr ""
+"Yalnızca bu tarih ve saatte veya öncesinde yapılması gereken uzun izlemeleri"
+" işler. Şimdi kullanılması için boş bırakın."
 
 #: api/v3/Job/RefreshHelloassoPartnerLinks.php
 msgid "Restrict maintenance to one linked HelloAsso payment processor."
-msgstr ""
+msgstr "Bakım bağlantılı bir HelloAsso ödeme aracısıyla sınırlanır."
 
 #: helloasso_payment_processor.php managed/NavigationHelloAsso.mgd.php
 msgid "HelloAsso settings"
-msgstr ""
+msgstr "HelloAsso ayarları"
 
 #: helloasso_payment_processor.php
 msgid ""
 "HelloAsso online payments, authorization-screen connections, secure webhooks"
 " and payment reconciliation."
 msgstr ""
+"HelloAsso çevrim içi ödemeleri, kimlik doğrulama ekranı bağlantıları, "
+"güvenli internet kancaları ve ödeme mutabakatı."
 
 #: helloasso_payment_processor.php
 msgid "Classic API key"
-msgstr ""
+msgstr "Klasik API anahtarı"
 
 #: helloasso_payment_processor.php
 msgid ""
 "Production authorization-screen mode is locked while classic live API "
 "credentials are still stored on this payment processor."
 msgstr ""
+"Klasik canlı API kimlik bilgileri bu ödeme aracısında tutulurken üretim "
+"kimlik doğrulama ekranı kipi kilitlenir."
 
 #: helloasso_payment_processor.php
 msgid ""
 "Production authorization-screen mode is locked until the production client "
 "ID and client secret are configured."
 msgstr ""
+"Üretim kimlik doğrulama ekranı kipi, üretim istemci kimliği ve istemci "
+"parolası yapılandırılana kadar kilitlenir."
 
 #: helloasso_payment_processor.php
 msgid "HelloAsso production authorization screen"
-msgstr ""
+msgstr "HelloAsso üretim kimlik doğrulama ekranı"
 
 #: helloasso_payment_processor.php
 msgid "Connect production to HelloAsso"
-msgstr ""
+msgstr "Üretimi HelloAsso ile bağla"
 
 #: helloasso_payment_processor.php
 msgid "HelloAsso production connection"
-msgstr ""
+msgstr "HelloAsso üretim bağlantısı"
 
 #: helloasso_payment_processor.php
 msgid "Live payment processor ID"
-msgstr ""
+msgstr "Canlı ödeme aracısı kimliği"
 
 #: helloasso_payment_processor.php
 msgid "Live connection mode"
-msgstr ""
+msgstr "Canlı bağlantı kipi"
 
 #: helloasso_payment_processor.php
 msgid "Automatically enable the webhook"
-msgstr ""
+msgstr "İnternet kancası otomatik olarak etkinleştirilsin"
 
 #: helloasso_payment_processor.php
 msgid ""
@@ -1002,6 +1014,9 @@ msgid ""
 " instance by default. Uncheck only if another instance retains control of "
 "the webhook URL."
 msgstr ""
+"Varsayılan olarak bu CiviCRM kopyası için canlı HelloAsso internet "
+"kancasının otomatik kaydını etkinleştirin. Yalnızca başka bir kopyanın "
+"internet kancası adresinin kontrolünü elinde tutuyorsa işareti kaldırın."
 
 #: helloasso_payment_processor.php
 msgid ""
