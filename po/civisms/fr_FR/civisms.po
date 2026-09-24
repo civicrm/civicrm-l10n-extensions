@@ -3,9 +3,11 @@
 # If you contribute heavily to a translation and deem your work copyrightable,
 # make sure you license it to CiviCRM LLC under Academic Free License 3.0.
 # Translators:
-# Jonathan Dahan <jonathan.dahan@live.fr>, 2026
 # Carolina Bardisa <c.bardisa@ixiam.com>, 2026
+# Mathieu Lu <mathieu@bidon.ca>, 2026
 # Guillaume Sorel <serviceclient@all-in-appli.com>, 2026
+# Usha Matisson, 2026
+# Jonathan Dahan <jonathan.dahan@live.fr>, 2026
 # 
 msgid ""
 msgstr ""
@@ -13,14 +15,284 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: civisms\n"
-"POT-Creation-Date: 2026-09-16 18:18+0000\n"
-"Last-Translator: Guillaume Sorel <serviceclient@all-in-appli.com>, 2026\n"
+"POT-Creation-Date: 2026-09-23 21:33+0000\n"
+"Last-Translator: Jonathan Dahan <jonathan.dahan@live.fr>, 2026\n"
 "Language-Team: French (https://app.transifex.com/civicrm/teams/1905/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: CRM/Civisms/Form/CampaignCompose.php
+msgid "The campaign mailing could not be found."
+msgstr "Le mailing associé à la campagne est introuvable."
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "Content type"
+msgstr "Type de contenu"
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "Text"
+msgstr "Texte"
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "Rich card"
+msgstr "Carte enrichie"
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "Image only"
+msgstr "Image uniquement"
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "Carousel"
+msgstr "Carrousel"
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "Message"
+msgstr "Message"
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "Card title"
+msgstr "Titre de la carte"
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "Card description"
+msgstr "Description de la carte"
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "Card image"
+msgstr "Image de la carte"
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "The image must be smaller than 15 MB."
+msgstr "L’image doit peser moins de 15 Mo."
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "Image height"
+msgstr "Hauteur de l’image"
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "Short"
+msgstr "Petite"
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "Medium"
+msgstr "Moyenne"
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "Tall"
+msgstr "Grande"
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "Image"
+msgstr "Image"
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "Number of cards"
+msgstr "Nombre de cartes"
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "Card %1 title"
+msgstr "Titre de la carte %1"
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "Card %1 description"
+msgstr "Description de la carte %1"
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "Card %1 image"
+msgstr "Image de la carte %1"
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "Button label"
+msgstr "Libellé du bouton"
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "Button URL"
+msgstr "URL du bouton"
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+#: templates/CRM/Civisms/Form/CampaignSchedule.tpl
+msgid "SMS fallback"
+msgstr "SMS de secours"
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+#: Civi/Api4/SmppOutbound.php
+msgid "Purpose"
+msgstr "Objet"
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "Transactional"
+msgstr "Transactionnel"
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "Marketing / fundraising"
+msgstr "Marketing / collecte de fonds"
+
+#: CRM/Civisms/Form/CampaignCompose.php
+msgid "Previous"
+msgstr "Précédent"
+
+#: CRM/Civisms/Form/CampaignCompose.php
+msgid "Next"
+msgstr "Suivant"
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "Cancel"
+msgstr "Annuler"
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "A message is required for a text RCS message."
+msgstr "Un message est requis pour un RCS au format texte."
+
+#: CRM/Civisms/Form/CampaignCompose.php
+msgid "An SMS fallback is required when the rich message has no text body."
+msgstr ""
+"Un SMS de secours est requis lorsque le message enrichi ne contient pas de "
+"texte."
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "A card title is required."
+msgstr "Le titre de la carte est requis."
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "A card description is required."
+msgstr "La description de la carte est requise."
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "The card description must not exceed 500 UTF-8 bytes."
+msgstr "La description de la carte ne doit pas dépasser 500 octets en UTF-8."
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "An image is required for a rich card."
+msgstr "Une image est requise pour une carte enrichie."
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "An image is required for an image-only message."
+msgstr "Une image est requise pour un message composé uniquement d’une image."
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "A carousel requires between 2 and 8 cards."
+msgstr "Un carrousel doit contenir entre 2 et 8 cartes."
+
+#: CRM/Civisms/Form/CampaignCompose.php
+msgid "Every card requires a title and description."
+msgstr "Chaque carte doit comporter un titre et une description."
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "An image is required for every carousel card."
+msgstr "Une image est requise pour chaque carte du carrousel."
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "A button requires both a label and a URL."
+msgstr "Un bouton doit comporter un libellé et une URL."
+
+#: CRM/Civisms/Form/CampaignCompose.php CRM/Civisms/Form/Compose.php
+msgid "Enter an absolute HTTP or HTTPS URL."
+msgstr "Saisissez une URL HTTP ou HTTPS absolue."
+
+#: CRM/Civisms/Form/CampaignCompose.php
+msgid "The selected provider does not support rich campaigns."
+msgstr ""
+"Le fournisseur sélectionné ne prend pas en charge les campagnes enrichies."
+
+#: CRM/Civisms/Form/CampaignCompose.php
+msgid "Compose rich message"
+msgstr "Composer un message enrichi"
+
+#: CRM/Civisms/Form/CampaignCompose.php
+msgid "The rich card image could not be resolved."
+msgstr "L’image de la carte enrichie est introuvable."
+
+#: CRM/Civisms/Form/CampaignCompose.php
+msgid "The campaign image could not be resolved."
+msgstr "L’image de la campagne est introuvable."
+
+#: CRM/Civisms/Form/CampaignRecipients.php
+msgid ""
+"Configure and activate an RCS-capable CiviSMS Connect provider before "
+"creating a rich-message campaign."
+msgstr ""
+"Configurez et activez un fournisseur CiviSMS Connect compatible avec le RCS "
+"avant de créer une campagne de messages enrichis."
+
+#: CRM/Civisms/Form/CampaignRecipients.php
+msgid "Campaign name"
+msgstr "Nom de la campagne"
+
+#: CRM/Civisms/Form/CampaignRecipients.php
+msgid "Message provider"
+msgstr "Fournisseur de messagerie"
+
+#: CRM/Civisms/Form/CampaignRecipients.php
+msgid "Select recipients"
+msgstr "Sélectionner les destinataires"
+
+#: CRM/Civisms/Form/CampaignSchedule.php
+msgid "Schedule or send"
+msgstr "Planifier ou envoyer"
+
+#: CRM/Civisms/Form/Compose.php
+msgid "The requested contact was not found."
+msgstr "Le contact demandé est introuvable."
+
+#: CRM/Civisms/Form/Compose.php
+msgid "Send an RCS message to %1"
+msgstr "Envoyer un message RCS à %1"
+
+#: CRM/Civisms/Form/Compose.php
+msgid ""
+"Configure and activate an SMS Partner provider before sending an RCS "
+"message."
+msgstr ""
+"Configurez et activez un fournisseur SMS Partner avant d’envoyer un message "
+"RCS."
+
+#: CRM/Civisms/Form/Compose.php civisms.php
+msgid "CiviSMS Connect"
+msgstr "CiviSMS Connect"
+
+#: CRM/Civisms/Form/Compose.php
+msgid "Provider"
+msgstr "Fournisseur"
+
+#: CRM/Civisms/Form/Compose.php Civi/Api4/SmppOutbound.php
+msgid "Recipient"
+msgstr "Destinataire"
+
+#: CRM/Civisms/Form/Compose.php
+msgid "Activity subject"
+msgstr "Objet de l’activité"
+
+#: CRM/Civisms/Form/Compose.php
+msgid "RCS message"
+msgstr "Message RCS"
+
+#: CRM/Civisms/Form/Compose.php
+msgid "Send message"
+msgstr "Envoyer le message"
+
+#: CRM/Civisms/Form/Compose.php
+msgid "An SMS fallback is required for this rich message."
+msgstr "Un SMS de secours est requis pour ce message enrichi."
+
+#: CRM/Civisms/Form/Compose.php
+msgid "The selected provider is not available for rich messages."
+msgstr ""
+"Le fournisseur sélectionné n’est pas disponible pour les messages enrichis."
+
+#: CRM/Civisms/Form/Compose.php
+msgid "The selected phone number does not belong to this contact."
+msgstr "Le numéro de téléphone sélectionné n’appartient pas à ce contact."
+
+#: CRM/Civisms/Form/Compose.php
+msgid "The RCS message was accepted by the provider."
+msgstr "Le message RCS a été accepté par le fournisseur."
+
+#: CRM/Civisms/Form/Compose.php
+msgid "The message was not sent: %1"
+msgstr "Le message n’a pas été envoyé : %1"
 
 #: Civi/Api4/SmppOutbound.php
 msgid "SMPP outbound messages"
@@ -35,16 +307,8 @@ msgid "Queue ID"
 msgstr "Id. de la file d'attente"
 
 #: Civi/Api4/SmppOutbound.php
-msgid "Recipient"
-msgstr "Destinataire"
-
-#: Civi/Api4/SmppOutbound.php
 msgid "Sender"
 msgstr "Expéditeur"
-
-#: Civi/Api4/SmppOutbound.php
-msgid "Purpose"
-msgstr "Objet"
 
 #: Civi/Api4/SmppOutbound.php
 msgid "Status"
@@ -75,8 +339,16 @@ msgid "Updated at"
 msgstr "Mis à jour à"
 
 #: civisms.php
-msgid "CiviSMS Connect"
-msgstr "CiviSMS Connect"
+msgid "Send RCS message"
+msgstr "Envoyer un message RCS"
+
+#: civisms.php
+msgid "New SMS / RCS campaign"
+msgstr "Nouvelle campagne SMS / RCS"
+
+#: js/compose.js
+msgid "Tokens"
+msgstr "Champs de fusion"
 
 #: settings/CiviSms.setting.php
 msgid "Log SMS provider payloads"
@@ -102,3 +374,142 @@ msgid ""
 msgstr ""
 "Diagnostic temporaire : enregistre l'expéditeur, le destinataire et le "
 "contenu du message. À désactiver une fois les réponses examinées."
+
+#: templates/CRM/Civisms/Form/CampaignCompose.tpl
+msgid ""
+"The recipient snapshot contains %1 contact(s). Tokens are resolved "
+"separately for every recipient when the queue runs."
+msgstr ""
+"La liste des destinataires contient %1 contact(s). Les champs de fusion sont"
+" remplacés séparément pour chaque destinataire lors du traitement de la file"
+" d’attente."
+
+#: templates/CRM/Civisms/Form/CampaignCompose.tpl
+msgid ""
+"Required for text RCS. Optional for image and carousel messages when an "
+"explicit SMS fallback is provided."
+msgstr ""
+"Requis pour les RCS au format texte. Facultatif pour les images et les "
+"carrousels lorsqu’un SMS de secours est fourni explicitement."
+
+#: templates/CRM/Civisms/Form/CampaignCompose.tpl
+msgid "SMS fallback characters:"
+msgstr "Caractères du SMS de secours :"
+
+#: templates/CRM/Civisms/Form/CampaignCompose.tpl
+#: templates/CRM/Civisms/Form/Compose.tpl
+msgid "segments:"
+msgstr "segments :"
+
+#: templates/CRM/Civisms/Form/CampaignCompose.tpl
+#: templates/CRM/Civisms/Form/Compose.tpl
+msgid "Plain RCS text:"
+msgstr "Texte RCS simple :"
+
+#: templates/CRM/Civisms/Form/CampaignCompose.tpl
+#: templates/CRM/Civisms/Form/Compose.tpl
+msgid "UTF-8 bytes"
+msgstr "octets en UTF-8"
+
+#: templates/CRM/Civisms/Form/CampaignCompose.tpl
+#: templates/CRM/Civisms/Form/Compose.tpl
+msgid "RCS rich card"
+msgstr "Carte enrichie RCS"
+
+#: templates/CRM/Civisms/Form/CampaignCompose.tpl
+msgid ""
+"MediaScaler prepares and publishes the image once for the whole campaign."
+msgstr ""
+"MediaScaler prépare et publie l’image une seule fois pour toute la campagne."
+
+#: templates/CRM/Civisms/Form/CampaignCompose.tpl
+#: templates/CRM/Civisms/Form/CampaignSchedule.tpl
+#: templates/CRM/Civisms/Form/Compose.tpl
+msgid "RCS image"
+msgstr "Image RCS"
+
+#: templates/CRM/Civisms/Form/CampaignCompose.tpl
+#: templates/CRM/Civisms/Form/CampaignSchedule.tpl
+#: templates/CRM/Civisms/Form/Compose.tpl
+msgid "RCS carousel"
+msgstr "Carrousel RCS"
+
+#: templates/CRM/Civisms/Form/CampaignCompose.tpl
+#: templates/CRM/Civisms/Form/Compose.tpl
+msgid "Card %1"
+msgstr "Carte %1"
+
+#: templates/CRM/Civisms/Form/CampaignCompose.tpl
+#: templates/CRM/Civisms/Form/Compose.tpl
+msgid "Action and SMS fallback"
+msgstr "Action et SMS de secours"
+
+#: templates/CRM/Civisms/Form/CampaignCompose.tpl
+#: templates/CRM/Civisms/Form/Compose.tpl
+msgid ""
+"Leave empty to reuse the message and append the button URL automatically."
+msgstr ""
+"Laissez ce champ vide pour réutiliser le message et ajouter automatiquement "
+"l’URL du bouton."
+
+#: templates/CRM/Civisms/Form/CampaignCompose.tpl
+msgid ""
+"Preview before scheduling. Tokens remain visible because they are resolved "
+"per recipient by the worker."
+msgstr ""
+"Prévisualisez la campagne avant de la planifier. Les champs de fusion "
+"restent visibles, car ils sont remplacés pour chaque destinataire lors du "
+"traitement."
+
+#: templates/CRM/Civisms/Form/CampaignSchedule.tpl
+msgid "Preview RCS campaign"
+msgstr "Prévisualiser la campagne RCS"
+
+#: templates/CRM/Civisms/Form/CampaignSchedule.tpl
+msgid "Content type:"
+msgstr "Type de contenu :"
+
+#: templates/CRM/Civisms/Form/CampaignSchedule.tpl
+msgid "RCS text"
+msgstr "Texte RCS"
+
+#: templates/CRM/Civisms/Form/CampaignSchedule.tpl
+msgid "RCS action:"
+msgstr "Action RCS :"
+
+#: templates/CRM/Civisms/Form/CampaignSchedule.tpl
+msgid "No SMS fallback configured."
+msgstr "Aucun SMS de secours configuré."
+
+#: templates/CRM/Civisms/Form/Compose.tpl
+msgid ""
+"This contact has opted out of SMS. Confirm the lawful basis before sending."
+msgstr ""
+"Ce contact a demandé à ne pas recevoir de SMS. Vérifiez la base juridique "
+"avant l’envoi."
+
+#: templates/CRM/Civisms/Form/Compose.tpl
+msgid "SMS fallback: up to %1 characters before token resolution."
+msgstr ""
+"SMS de secours : jusqu’à %1 caractères avant le remplacement des champs de "
+"fusion."
+
+#: templates/CRM/Civisms/Form/Compose.tpl
+msgid "Entered:"
+msgstr "Saisi :"
+
+#: templates/CRM/Civisms/Form/Compose.tpl
+msgid ""
+"MediaScaler converts, resizes, strips metadata, and publishes this image "
+"over HTTPS."
+msgstr ""
+"MediaScaler convertit et redimensionne cette image, supprime ses "
+"métadonnées, puis la publie en HTTPS."
+
+#: templates/CRM/Civisms/Form/Compose.tpl
+msgid ""
+"Preview before sending. Contact tokens are resolved when the message is "
+"submitted."
+msgstr ""
+"Prévisualisez le message avant de l’envoyer. Les champs de fusion du contact"
+" sont remplacés lors de l’envoi."
