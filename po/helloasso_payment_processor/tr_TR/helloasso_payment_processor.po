@@ -1025,6 +1025,10 @@ msgid ""
 "The live payment rail can switch to the authorization screen only when this "
 "processor no longer uses classic API keys."
 msgstr ""
+"Bu blok, bu canlı aracıdaki üretim HelloAsso kimlik doğrulama ekranını "
+"bağlar: OAuth bağlantısı, bağlantılı kuruluş ve internet kancası kaydı. "
+"Canlı ödeme rayı, yalnızca bu aracı artık klasik API anahtarlarını "
+"kullanmadığında kimlik doğrulama ekranına geçebilir."
 
 #: helloasso_payment_processor.php
 msgid ""
@@ -1034,6 +1038,11 @@ msgid ""
 "this processor and save the processor. The authorization-screen option will "
 "become selectable once those fields are empty."
 msgstr ""
+"Bu canlı aracı hala klasik API kimlik doğrulama bilgilerini kullandığından, "
+"üretim kimlik doğrulama ekranı seçeneği gri olarak görüntülenir. Önce kimlik"
+" doğrulama ekranını bağlayabilir ve deneyebilir, ardından canlı API anahtarı"
+" alanlarını bu aracıdan kaldırabilir ve aracıyı kaydedebilirsiniz. Kimlik "
+"doğrulama ekranı seçeneği, bu alanlar boşaldığında seçilebilir olur."
 
 #: helloasso_payment_processor.php
 msgid ""
@@ -1041,42 +1050,49 @@ msgid ""
 "production authorization-screen mode on this processor once the OAuth link "
 "has been validated."
 msgstr ""
+"Bu aracıda herhangi bir canlı API anahtarı kaydedilmez. Bu nedenle, OAuth "
+"bağlantısı doğrulandıktan sonra bu aracıda üretim kimlik doğrulama ekranı "
+"kipini açabilirsiniz."
 
 #: helloasso_payment_processor.php
 msgid ""
 "The production authorization-screen option is also greyed out because the "
 "production client ID and client secret are not configured yet."
 msgstr ""
+"Üretim istemci kimliği ve istemci parolası henüz yapılandırılmadığı için "
+"üretim kimlik doğrulama ekranı seçeneği de gri görüntülenir."
 
 #: helloasso_payment_processor.php
 msgid "Production organization linked: %1"
-msgstr ""
+msgstr "Üretim kuruluşu bağlandı: %1"
 
 #: helloasso_payment_processor.php
 msgid "No HelloAsso production organization is linked to this processor yet."
-msgstr ""
+msgstr "Bu aracıya henüz bir HelloAsso üretim kuruluşu bağlı değil."
 
 #: helloasso_payment_processor.php
 msgid ""
 "Enter the shared client ID and client secret on the authorization-screen "
 "settings page first, then return to start the connection."
 msgstr ""
+"Önce kimlik doğrulama ekranı ayarları sayfasına paylaşılan istemci kimliğini"
+" ve istemci parolasını yazın, ardından bağlantıyı başlatmak için geri dönün."
 
 #: helloasso_payment_processor.php
 msgid "Open production authorization-screen settings"
-msgstr ""
+msgstr "Üretim kimlik doğrulama ekranı ayarlarını aç"
 
 #: helloasso_payment_processor.php
 msgid "HelloAsso sandbox connection"
-msgstr ""
+msgstr "HelloAsso kum havuzu bağlantısı"
 
 #: helloasso_payment_processor.php
 msgid "Sandbox payment processor ID"
-msgstr ""
+msgstr "Kum havuzu ödeme aracısı kimliği"
 
 #: helloasso_payment_processor.php
 msgid "Sandbox connection mode"
-msgstr ""
+msgstr "Kun havuzu bağlantı kipi"
 
 #: helloasso_payment_processor.php
 msgid ""
@@ -1084,36 +1100,46 @@ msgid ""
 "instance by default. Uncheck only if multiple CiviCRM instances share the "
 "same HelloAsso organization and you want to manage the webhook manually."
 msgstr ""
+"Bu CiviCRM kopyası için varsayılan olarak HelloAsso internet kancasının "
+"otomatik kaydını etkinleştirin. Yalnızca birden fazla CiviCRM kopyası aynı "
+"HelloAsso kuruluşunu paylaşıyorsa ve internet kancasını el ile yönetmek "
+"istiyorsanız işareti kaldırın."
 
 #: helloasso_payment_processor.php
 msgid ""
 "Sandbox API credentials are already present on this processor. API key mode "
 "remains the safest choice until you explicitly switch."
 msgstr ""
+"Sandbox API kimlik doğrulama bilgileri bu aracıda zaten var. API anahtar "
+"kipi, açıkça geçiş yapana kadar en güvenli seçim olmayı sürdürüyor."
 
 #: helloasso_payment_processor.php
 msgid ""
 "No sandbox API key is stored on this processor. The HelloAsso sandbox "
 "authorization screen is therefore offered by default."
 msgstr ""
+"Bu işlemcide herhangi bir kum havuzu API anahtarı kaydedilmez. Bu nedenle "
+"HelloAsso kum havuzu kimlik doğrulama ekranı varsayılan olarak sunulur."
 
 #: helloasso_payment_processor.php
 msgid "Sandbox organization linked: %1"
-msgstr ""
+msgstr "Kum havuzu kuruluşu bağlandı: %1"
 
 #: helloasso_payment_processor.php
 msgid "No HelloAsso sandbox organization is linked to this processor yet."
-msgstr ""
+msgstr "Bu aracıya henüz bir HelloAsso kum havuzu kuruluşu bağlı değil."
 
 #: helloasso_payment_processor.php
 msgid "Open authorization-screen settings"
-msgstr ""
+msgstr "Kimlik doğrulama ekranı ayarlarını aç"
 
 #: helloasso_payment_processor.php
 msgid ""
 "This button remains disabled until the shared HelloAsso authorization-screen"
 " client ID and client secret are configured."
 msgstr ""
+"Bu düğme, paylaşılan HelloAsso kimlik doğrulama ekranı istemci kimliği ve "
+"istemci parolası yapılandırılana kadar etkisizleştirilmiş olarak kalır."
 
 #: helloasso_payment_processor.php
 msgid ""
@@ -1121,50 +1147,63 @@ msgid ""
 "selected environment. Keep the live and test values aligned with the "
 "matching HelloAsso application."
 msgstr ""
+"Seçilmiş ortam için bu ödeme aracısı tarafından kullanılacak HelloAsso "
+"istemci kimliğini yazın. Canlı ve test değerlerini eşleşen HelloAsso "
+"uygulamasıyla uyumlu tutun."
 
 #: helloasso_payment_processor.php
 msgid ""
 "Enter the HelloAsso client secret paired with the client ID above. Store the"
 " live and sandbox secrets separately."
 msgstr ""
+"Yukarıdaki istemci kimliğiyle eşleştirilmiş HelloAsso istemci parolasını "
+"yazın. Canlı ve kum havuzu parolalarını ayrı ayrı kaydedin."
 
 #: helloasso_payment_processor.php
 msgid ""
 "Enter the HelloAsso organization slug or organization name expected by this "
 "processor when building API calls and payment links."
 msgstr ""
+"API çağrıları ve ödeme bağlantıları oluştururken bu aracı tarafından "
+"beklenen HelloAsso kuruluş adres son ekini veya kuruluş adını yazın."
 
 #: helloasso_payment_processor.php
 msgid ""
 "Base HelloAsso API URL for live payments. Keep the default production URL "
 "unless HelloAsso explicitly instructs otherwise."
 msgstr ""
+"Canlı ödemeler için temel HelloAsso API adresi. HelloAsso açıkça aksini "
+"belirtmedikçe varsayılan üretim adresini koruyun."
 
 #: helloasso_payment_processor.php
 msgid "Sandbox client ID for HelloAsso test payments."
-msgstr ""
+msgstr "HelloAsso test ödemeleri için kum havuzu istemci kimliği."
 
 #: helloasso_payment_processor.php
 msgid "Sandbox client secret for HelloAsso test payments."
-msgstr ""
+msgstr "HelloAsso test ödemeleri için kum havuzu istemci parolası."
 
 #: helloasso_payment_processor.php
 msgid "Sandbox organization slug or name used for test API calls."
 msgstr ""
+"Test API çağrıları için kullanılan kum havuzu kuruluş adres son eki veya "
+"adı."
 
 #: helloasso_payment_processor.php
 msgid ""
 "Base HelloAsso API URL for sandbox payments. Keep the sandbox default unless"
 " HelloAsso explicitly instructs otherwise."
 msgstr ""
+"Kum havuzu ödemeleri için temel HelloAsso API adresi. HelloAsso açıkça "
+"aksini belirtmedikçe kum havuzu varsayılanı olarak koruyun."
 
 #: helloasso_payment_processor.php js/quickform-checkout.js
 msgid "Number of installments"
-msgstr ""
+msgstr "Taksit sayısı"
 
 #: helloasso_payment_processor.php
 msgid "HelloAsso authorization-screen setup"
-msgstr ""
+msgstr "HelloAsso kimlik doğrulama ekranı kurulumu"
 
 #: helloasso_payment_processor.php
 msgid ""
