@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = id: id_ID, sq: sq_AL, hu: hu_HU, ca: ca_ES, fr: fr_FR, es: es_ES, lt: lt_LT, cs: cs_CZ, pt: pt_PT, it: it_IT, nl: nl_NL, pl: pl_PL, fi: fi_FI, bg: bg_BG, sk: sk_SK, hi: hi_IN, lv: lv_LV, ja: ja_JP, et: et_EE, ro: ro_RO, ru: ru_RU, km: km_KH, de: de_DE, nb: nb_NO, vi: vi_VN, sv: sv_SE, sl: sl_SI, tr: tr_TR, da: da_DK, af: af_ZA, el: el_GR, he: he_IL
+lang_map = lt: lt_LT, fi: fi_FI, sv: sv_SE, el: el_GR, id: id_ID, it: it_IT, bg: bg_BG, lv: lv_LV, tr: tr_TR, vi: vi_VN, sq: sq_AL, hu: hu_HU, nl: nl_NL, et: et_EE, ru: ru_RU, es: es_ES, de: de_DE, nb: nb_NO, sl: sl_SI, he: he_IL, cs: cs_CZ, pt: pt_PT, ro: ro_RO, km: km_KH, da: da_DK, sk: sk_SK, ja: ja_JP, af: af_ZA, pl: pl_PL, ca: ca_ES, fr: fr_FR, hi: hi_IN
 
 [o:civicrm:p:civicrm_extensions:r:Civixero]
 file_filter            = po/Civixero/<lang>/Civixero.po
@@ -254,6 +254,15 @@ keep_translations      = false
 file_filter            = po/civihr/<lang>/civihr.po
 source_file            = po/civihr/pot/civihr.pot
 source_lang            = en
+replace_edited_strings = false
+keep_translations      = false
+
+[o:civicrm:p:civicrm_extensions:r:civiinputmask]
+file_filter            = po/civiinputmask/<lang>/civiinputmask.po
+source_file            = po/civiinputmask/pot/civiinputmask.pot
+type                   = POT
+minimum_perc           = 0
+resource_name          = civiinputmask
 replace_edited_strings = false
 keep_translations      = false
 
