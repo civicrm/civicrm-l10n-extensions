@@ -115,15 +115,15 @@ msgstr ""
 
 #: CRM/Core/Payment/HelloAsso.php helloasso_payment_processor.php
 msgid "sandbox"
-msgstr "kum havuzu"
+msgstr "deneme yolu"
 
 #: CRM/Core/Payment/HelloAsso.php helloasso_payment_processor.php
 msgid "production"
-msgstr "üretim"
+msgstr "canlı yol"
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid "%1 (#%2, sandbox linked to live processor #%3)"
-msgstr "%1 (#%2, kum havuzu #%3 canlı aracısına bağlı)"
+msgstr "%1 (#%2, deneme yolu #%3 canlı yol aracısına bağlı)"
 
 #: CRM/Core/Payment/HelloAsso.php
 msgid "%1 (#%2, %3)"
@@ -469,7 +469,7 @@ msgstr "HelloAsso iş ortağı ayarları bu sayfaya kaydedildi."
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 #: helloasso_payment_processor.php
 msgid "HelloAsso sandbox authorization screen"
-msgstr "HelloAsso kum havuzu kimlik doğrulama ekranı"
+msgstr "HelloAsso deneme yolu kimlik doğrulama ekranı"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "HelloAsso authorization screen"
@@ -477,7 +477,7 @@ msgstr "HelloAsso kimlik doğrulama ekranı"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "Sandbox shared client ID"
-msgstr "Kum havuzu paylaşılan istemci kimliği"
+msgstr "Deneme yolu paylaşılan istemci kimliği"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "Shared client ID"
@@ -485,7 +485,7 @@ msgstr "Paylaşılan istemci kimliği"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "Sandbox shared client secret"
-msgstr "Kum havuzu paylaşılan istemci parolası"
+msgstr "Deneme yolu paylaşılan istemci parolası"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "Shared client secret"
@@ -494,7 +494,7 @@ msgstr "Paylaşılan istemci parolası"
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 #: helloasso_payment_processor.php
 msgid "Connect sandbox to HelloAsso"
-msgstr "Kum havuzunu HelloAsso ile bağla"
+msgstr "Deneme yolunu HelloAsso ile bağla"
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 #: helloasso_payment_processor.php
@@ -539,7 +539,7 @@ msgid ""
 "to override the community credentials."
 msgstr ""
 "Topluluk HelloAsso kimlik doğrulama ekranı kimlik doğrulama bilgileri şu "
-"anda bu ray için kullanılıyor. Yalnızca topluluk kimlik doğrulama "
+"anda bu yol için kullanılıyor. Yalnızca topluluk kimlik doğrulama "
 "bilgilerini değiştirmek istiyorsanız buraya yerel bir istemci kimliği ve "
 "istemci parolası yazın."
 
@@ -549,7 +549,7 @@ msgid ""
 " rail."
 msgstr ""
 "Yerel HelloAsso kimlik doğrulama ekranı kimlik doğrulama bilgileri şu anda "
-"bu ray için kullanılıyor."
+"bu yol için kullanılıyor."
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 msgid "Save authorization-screen settings"
@@ -589,7 +589,7 @@ msgid ""
 "Reconnect the organization before accepting new payments through the "
 "authorization screen."
 msgstr ""
-"Bu raydaki HelloAsso kimlik doğrulama bağlantısı artık yenilenemez%1%2. "
+"Bu yoldaki HelloAsso kimlik doğrulama bağlantısı artık yenilenemez%1%2. "
 "Kimlik doğrulama ekranı ile yeni ödemeleri kabul etmeden önce kuruluşu "
 "yeniden bağlayın."
 
@@ -600,9 +600,9 @@ msgid ""
 "receive online payments%1%2. Check its administrative status in HelloAsso "
 "before accepting new payments through the authorization screen."
 msgstr ""
-"Bu rayda bağlantılı HelloAsso kuruluşunun şu anda çevrim içi ödeme almasına "
-"izin verilmiyor%1%2. Kimlik doğrulama ekranından yeni ödemeleri kabul "
-"etmeden önce HelloAsso içindeki yönetim durumunu kontrol edin."
+"Bu yol ile bağlantılı HelloAsso kuruluşunun şu anda çevrim içi ödeme "
+"almasına izin verilmiyor%1%2. Kimlik doğrulama ekranından yeni ödemeleri "
+"kabul etmeden önce HelloAsso içindeki yönetim durumunu kontrol edin."
 
 #: CRM/HelloassoPaymentProcessor/Page/PartnerAuth.php
 #: helloasso_payment_processor.php
@@ -611,7 +611,7 @@ msgid ""
 "the next maintenance job or reconnect the organization if the problem "
 "persists."
 msgstr ""
-"Bu rayda en son HelloAsso kimlik doğrulama bağlantısı yenilenemedi. Bir "
+"Bu yolda en son HelloAsso kimlik doğrulama bağlantısı yenilenemedi. Bir "
 "sonraki bakım görevini kontrol edin ya da sorun sürüyorsa kuruluşu yeniden "
 "bağlayın."
 
@@ -973,7 +973,7 @@ msgid ""
 "Production authorization-screen mode is locked while classic live API "
 "credentials are still stored on this payment processor."
 msgstr ""
-"Klasik canlı API kimlik bilgileri bu ödeme aracısında tutulurken üretim "
+"Klasik canlı API kimlik bilgileri bu ödeme aracısında tutulurken canlı yol "
 "kimlik doğrulama ekranı kipi kilitlenir."
 
 #: helloasso_payment_processor.php
@@ -981,20 +981,20 @@ msgid ""
 "Production authorization-screen mode is locked until the production client "
 "ID and client secret are configured."
 msgstr ""
-"Üretim kimlik doğrulama ekranı kipi, üretim istemci kimliği ve istemci "
-"parolası yapılandırılana kadar kilitlenir."
+"Canlı yol kimlik doğrulama ekranı kipi, canlı yol istemci kimliği ve istemci"
+" parolası yapılandırılana kadar kilitlenir."
 
 #: helloasso_payment_processor.php
 msgid "HelloAsso production authorization screen"
-msgstr "HelloAsso üretim kimlik doğrulama ekranı"
+msgstr "HelloAsso canlı yol kimlik doğrulama ekranı"
 
 #: helloasso_payment_processor.php
 msgid "Connect production to HelloAsso"
-msgstr "Üretimi HelloAsso ile bağla"
+msgstr "Canlı yolu HelloAsso ile bağla"
 
 #: helloasso_payment_processor.php
 msgid "HelloAsso production connection"
-msgstr "HelloAsso üretim bağlantısı"
+msgstr "HelloAsso canlı yol bağlantısı"
 
 #: helloasso_payment_processor.php
 msgid "Live payment processor ID"
@@ -1025,9 +1025,9 @@ msgid ""
 "The live payment rail can switch to the authorization screen only when this "
 "processor no longer uses classic API keys."
 msgstr ""
-"Bu blok, bu canlı aracıdaki üretim HelloAsso kimlik doğrulama ekranını "
+"Bu blok, bu canlı aracıdaki canlı yol HelloAsso kimlik doğrulama ekranını "
 "bağlar: OAuth bağlantısı, bağlantılı kuruluş ve internet kancası kaydı. "
-"Canlı ödeme rayı, yalnızca bu aracı artık klasik API anahtarlarını "
+"Canlı ödeme yolu, yalnızca bu aracı artık klasik API anahtarlarını "
 "kullanmadığında kimlik doğrulama ekranına geçebilir."
 
 #: helloasso_payment_processor.php
@@ -1038,11 +1038,11 @@ msgid ""
 "this processor and save the processor. The authorization-screen option will "
 "become selectable once those fields are empty."
 msgstr ""
-"Bu canlı aracı hala klasik API kimlik doğrulama bilgilerini kullandığından, "
-"üretim kimlik doğrulama ekranı seçeneği gri olarak görüntülenir. Önce kimlik"
-" doğrulama ekranını bağlayabilir ve deneyebilir, ardından canlı API anahtarı"
-" alanlarını bu aracıdan kaldırabilir ve aracıyı kaydedebilirsiniz. Kimlik "
-"doğrulama ekranı seçeneği, bu alanlar boşaldığında seçilebilir olur."
+"Bu canlı araç hala klasik API kimlik doğrulama bilgilerini kullandığından, "
+"canlı yol kimlik doğrulama ekranı seçeneği gri olarak görüntülenir. Önce "
+"kimlik doğrulama ekranını bağlayabilir ve deneyebilir, ardından canlı API "
+"anahtarı alanlarını bu aracıdan kaldırabilir ve aracıyı kaydedebilirsiniz. "
+"Kimlik doğrulama ekranı seçeneği, bu alanlar boşaldığında seçilebilir olur."
 
 #: helloasso_payment_processor.php
 msgid ""
@@ -1051,24 +1051,24 @@ msgid ""
 "has been validated."
 msgstr ""
 "Bu aracıda herhangi bir canlı API anahtarı kaydedilmez. Bu nedenle, OAuth "
-"bağlantısı doğrulandıktan sonra bu aracıda üretim kimlik doğrulama ekranı "
-"kipini açabilirsiniz."
+"bağlantısı doğrulandıktan sonra bu aracıda canlı yol kimlik doğrulama "
+"ekranını açabilirsiniz."
 
 #: helloasso_payment_processor.php
 msgid ""
 "The production authorization-screen option is also greyed out because the "
 "production client ID and client secret are not configured yet."
 msgstr ""
-"Üretim istemci kimliği ve istemci parolası henüz yapılandırılmadığı için "
-"üretim kimlik doğrulama ekranı seçeneği de gri görüntülenir."
+"Canlı yol istemci kimliği ve istemci parolası henüz yapılandırılmadığı için "
+"canlı yol kimlik doğrulama ekranı seçeneği de gri görüntülenir."
 
 #: helloasso_payment_processor.php
 msgid "Production organization linked: %1"
-msgstr "Üretim kuruluşu bağlandı: %1"
+msgstr "Canlı yol kuruluşu bağlandı: %1"
 
 #: helloasso_payment_processor.php
 msgid "No HelloAsso production organization is linked to this processor yet."
-msgstr "Bu aracıya henüz bir HelloAsso üretim kuruluşu bağlı değil."
+msgstr "Bu aracıya henüz bir HelloAsso canlı yol kuruluşu bağlı değil."
 
 #: helloasso_payment_processor.php
 msgid ""
@@ -1080,19 +1080,19 @@ msgstr ""
 
 #: helloasso_payment_processor.php
 msgid "Open production authorization-screen settings"
-msgstr "Üretim kimlik doğrulama ekranı ayarlarını aç"
+msgstr "Canlı yol kimlik doğrulama ekranı ayarlarını aç"
 
 #: helloasso_payment_processor.php
 msgid "HelloAsso sandbox connection"
-msgstr "HelloAsso kum havuzu bağlantısı"
+msgstr "HelloAsso deneme yolu bağlantısı"
 
 #: helloasso_payment_processor.php
 msgid "Sandbox payment processor ID"
-msgstr "Kum havuzu ödeme aracısı kimliği"
+msgstr "Deneme yolu ödeme aracısı kimliği"
 
 #: helloasso_payment_processor.php
 msgid "Sandbox connection mode"
-msgstr "Kun havuzu bağlantı kipi"
+msgstr "Deneme yolu bağlantı kipi"
 
 #: helloasso_payment_processor.php
 msgid ""
@@ -1110,24 +1110,24 @@ msgid ""
 "Sandbox API credentials are already present on this processor. API key mode "
 "remains the safest choice until you explicitly switch."
 msgstr ""
-"Sandbox API kimlik doğrulama bilgileri bu aracıda zaten var. API anahtar "
-"kipi, açıkça geçiş yapana kadar en güvenli seçim olmayı sürdürüyor."
+"Deneme yolu API kimlik doğrulama bilgileri bu aracıda zaten var. API anahtar"
+" kipi, açıkça geçiş yapana kadar en güvenli seçim olmayı sürdürüyor."
 
 #: helloasso_payment_processor.php
 msgid ""
 "No sandbox API key is stored on this processor. The HelloAsso sandbox "
 "authorization screen is therefore offered by default."
 msgstr ""
-"Bu işlemcide herhangi bir kum havuzu API anahtarı kaydedilmez. Bu nedenle "
-"HelloAsso kum havuzu kimlik doğrulama ekranı varsayılan olarak sunulur."
+"Bu işlemcide herhangi bir deneme yolu API anahtarı kaydedilmez. Bu nedenle "
+"HelloAsso deneme yolu kimlik doğrulama ekranı varsayılan olarak sunulur."
 
 #: helloasso_payment_processor.php
 msgid "Sandbox organization linked: %1"
-msgstr "Kum havuzu kuruluşu bağlandı: %1"
+msgstr "Deneme yolu kuruluşu bağlandı: %1"
 
 #: helloasso_payment_processor.php
 msgid "No HelloAsso sandbox organization is linked to this processor yet."
-msgstr "Bu aracıya henüz bir HelloAsso kum havuzu kuruluşu bağlı değil."
+msgstr "Bu aracıya henüz bir HelloAsso deneme yolu kuruluşu bağlı değil."
 
 #: helloasso_payment_processor.php
 msgid "Open authorization-screen settings"
@@ -1148,7 +1148,7 @@ msgid ""
 "matching HelloAsso application."
 msgstr ""
 "Seçilmiş ortam için bu ödeme aracısı tarafından kullanılacak HelloAsso "
-"istemci kimliğini yazın. Canlı ve test değerlerini eşleşen HelloAsso "
+"istemci kimliğini yazın. Canlı ve deneme değerlerini eşleşen HelloAsso "
 "uygulamasıyla uyumlu tutun."
 
 #: helloasso_payment_processor.php
@@ -1157,7 +1157,7 @@ msgid ""
 " live and sandbox secrets separately."
 msgstr ""
 "Yukarıdaki istemci kimliğiyle eşleştirilmiş HelloAsso istemci parolasını "
-"yazın. Canlı ve kum havuzu parolalarını ayrı ayrı kaydedin."
+"yazın. Canlı ve deneme yolu parolalarını ayrı ayrı kaydedin."
 
 #: helloasso_payment_processor.php
 msgid ""
@@ -1173,29 +1173,29 @@ msgid ""
 "unless HelloAsso explicitly instructs otherwise."
 msgstr ""
 "Canlı ödemeler için temel HelloAsso API adresi. HelloAsso açıkça aksini "
-"belirtmedikçe varsayılan üretim adresini koruyun."
+"belirtmedikçe varsayılan canlı yol adresini koruyun."
 
 #: helloasso_payment_processor.php
 msgid "Sandbox client ID for HelloAsso test payments."
-msgstr "HelloAsso test ödemeleri için kum havuzu istemci kimliği."
+msgstr "HelloAsso deneme ödemeleri için deneme yolu istemci kimliği."
 
 #: helloasso_payment_processor.php
 msgid "Sandbox client secret for HelloAsso test payments."
-msgstr "HelloAsso test ödemeleri için kum havuzu istemci parolası."
+msgstr "HelloAsso deneme ödemeleri için deneme yolu istemci parolası."
 
 #: helloasso_payment_processor.php
 msgid "Sandbox organization slug or name used for test API calls."
 msgstr ""
-"Test API çağrıları için kullanılan kum havuzu kuruluş adres son eki veya "
-"adı."
+"Deneme API çağrıları için kullanılan deneme yolu kuruluş adresi son eki veya"
+" adı."
 
 #: helloasso_payment_processor.php
 msgid ""
 "Base HelloAsso API URL for sandbox payments. Keep the sandbox default unless"
 " HelloAsso explicitly instructs otherwise."
 msgstr ""
-"Kum havuzu ödemeleri için temel HelloAsso API adresi. HelloAsso açıkça "
-"aksini belirtmedikçe kum havuzu varsayılanı olarak koruyun."
+"Deneme yolu ödemeleri için temel HelloAsso API adresi. HelloAsso açıkça "
+"aksini belirtmedikçe deneme yolu varsayılanı olarak koruyun."
 
 #: helloasso_payment_processor.php js/quickform-checkout.js
 msgid "Number of installments"
@@ -1210,12 +1210,16 @@ msgid ""
 "This HelloAsso processor can be saved a first time without API credentials "
 "when the authorization screen is enabled."
 msgstr ""
+"Bu HelloAsso aracısı, ilk kez kimlik doğrulama ekranı açıldığında API kimlik"
+" doğrulama bilgileri olmadan kaydedilebilir."
 
 #: helloasso_payment_processor.php
 msgid ""
 "Enter the processor name, save once, then return to this processor to "
 "configure the live and sandbox authorization-screen connections."
 msgstr ""
+"Aracı adını yazın, bir kez kaydedin, ardından canlı ve deneme yolu kimlik "
+"doğrulama ekranı bağlantılarını yapılandırmak için bu aracıya dönün."
 
 #: helloasso_payment_processor.php
 msgid ""
@@ -1224,18 +1228,23 @@ msgid ""
 "receive the full amount paid by your supporters, without fees. Voluntary "
 "contributions left by them are its only source of revenue."
 msgstr ""
+"HelloAsso, derneklerin çevrim içi ödemeleri toplamasına yardımcı olur ve "
+"hizmetlerini ücretsiz olarak sağlar. Destekçileriniz tarafından ödenen "
+"tutarın tümünü ücretsiz olarak alabilmeniz için tüm işlem ücretlerini "
+"yüklenir. Dernekler tarafından verilen gönüllü katkılar tek gelir "
+"kaynağıdır."
 
 #: helloasso_payment_processor.php
 msgid "manual / another instance in control"
-msgstr ""
+msgstr "el ile / başka br kopya tarafından denetleniyor"
 
 #: helloasso_payment_processor.php
 msgid "managed by this CiviCRM instance"
-msgstr ""
+msgstr "bu CiviCRM kopyası tarafından yönetiliyor"
 
 #: helloasso_payment_processor.php
 msgid "No matching HelloAsso payment processor was found on this instance."
-msgstr ""
+msgstr "Bu kopya ile eşleşen bir HelloAsso ödeme aracısı bulunamadı."
 
 #: helloasso_payment_processor.php
 msgid ""
@@ -1243,34 +1252,42 @@ msgid ""
 "the processor record. This page enables the authorization-screen flow, "
 "explains how it works and starts the connection."
 msgstr ""
+"API anahtarı ve kimlik doğrulama ekranı arasındaki operasyonel seçim aracı "
+"kaydında kalır. Bu sayfa kimlik doğrulama ekranı akışını açar, nasıl "
+"çalıştığını açıklar ve bağlantıyı başlatır."
 
 #: helloasso_payment_processor.php
 msgid "Target processor:"
-msgstr ""
+msgstr "Hedef aracı:"
 
 #: helloasso_payment_processor.php
 msgid "No organization is linked on this rail yet."
-msgstr ""
+msgstr "Henüz bu yol ile bağlanmış bir kuruluş yok."
 
 #: helloasso_payment_processor.php
 msgid "Open this authorization-screen settings page"
-msgstr ""
+msgstr "Bu kimlik doğrulama ekranı ayarları sayfasını açın"
 
 #: helloasso_payment_processor.php
 msgid ""
 "Enable the authorization-screen switch below and save the page before "
 "starting the connection."
 msgstr ""
+"Aşağıdaki kimlik doğrulama ekranı anahtarını açın ve bağlantıyı başlatmadan "
+"önce sayfayı kaydedin."
 
 #: helloasso_payment_processor.php
 msgid ""
 "Open this authorization-screen settings page first to enter the shared "
 "client ID and client secret, then return to start the connection."
 msgstr ""
+"Paylaşılan istemci kimliğini ve istemci parolasını yazmak için önce bu "
+"kimlik doğrulama ekranı ayarları sayfasını açın, ardından bağlantıyı "
+"başlatmak için geri dönün."
 
 #: helloasso_payment_processor.php
 msgid "HelloAsso authorization-screen flow"
-msgstr ""
+msgstr "HelloAsso kimlik doğrulama ekranı akışı"
 
 #: helloasso_payment_processor.php
 msgid ""
@@ -1278,6 +1295,10 @@ msgid ""
 "HelloAsso processors. Shared client credentials and connection startup "
 "remain managed from the dedicated authorization-screen pages."
 msgstr ""
+"Aşağıdaki anahtar, HelloAsso işlemcilerinde kimlik doğrulama ekranı "
+"arayüzünü görüntüler ya da gizler. Paylaşılan istemci kimlik doğrulama "
+"bilgileri ve bağlantı başlangıcı, özel kimlik doğrulama ekranı sayfalarından"
+" yönetilmeyi sürdürür."
 
 #: helloasso_payment_processor.php
 msgid ""
@@ -1285,6 +1306,9 @@ msgid ""
 " page, then open the sandbox or production rail to enter the client ID and "
 "client secret before starting the connection."
 msgstr ""
+"İlk yapılandırma için: Kimlik doğrulama ekranını buradan açın, sayfayı "
+"kaydedin, ardından bağlantıyı başlatmadan önce istemci kimliğini ve istemci "
+"parolasını yazmak için deneme ya da canlı yolu açın."
 
 #: helloasso_payment_processor.php
 msgid ""
@@ -1292,22 +1316,25 @@ msgid ""
 "adjust client credentials or check the link status, use the settings link "
 "first."
 msgstr ""
+"Yukarıdaki resmi düğme HelloAsso bağlantısını açar. İstemci kimlik doğrulama"
+" bilgilerini ayarlamanız veya bağlantı durumunu denetlemeniz gerekiyorsa, "
+"önce ayarlar bağlantısını kullanın."
 
 #: helloasso_payment_processor.php
 msgid "Refresh this HelloAsso settings page"
-msgstr ""
+msgstr "Bu HelloAsso ayarları sayfasını yenileyin"
 
 #: helloasso_payment_processor.php
 msgid "Missing metadata columns: %1"
-msgstr ""
+msgstr "Üst veri sütunları eksik: %1"
 
 #: helloasso_payment_processor.php
 msgid "Missing authorization columns: %1"
-msgstr ""
+msgstr "Kimlik doğrulama sütunları eksik: %1"
 
 #: helloasso_payment_processor.php
 msgid "Missing indexes: %1"
-msgstr ""
+msgstr "Dizinler eksik: %1"
 
 #: helloasso_payment_processor.php
 msgid ""
@@ -1315,30 +1342,33 @@ msgid ""
 "and then <code>cv flush</code> before relying on webhook queueing, follow-up"
 " sync, or legacy repair."
 msgstr ""
+"HelloAsso v2 şema yükseltmesi tamamlanmamış. %1 internet kancası kuyruğuna, "
+"izleme eşitlemesine veya eski onarıma güvenmeden önce <code>cv updb</code> "
+"ve ardından <code>cv flush</code> çalıştırın."
 
 #: helloasso_payment_processor.php
 msgid "HelloAsso: Incomplete V2 Upgrade"
-msgstr ""
+msgstr "HelloAsso: V2 yükseltmesi tamamlanmamış"
 
 #: helloasso_payment_processor.php
 msgid "The HelloAsso schema check could not be completed: %1"
-msgstr ""
+msgstr "HelloAsso şema denetimi tamamlanamadı: %1"
 
 #: helloasso_payment_processor.php
 msgid "HelloAsso: Schema Check Failed"
-msgstr ""
+msgstr "HelloAsso: Şema denetimi tamamlanamadı"
 
 #: helloasso_payment_processor.php
 msgid "refresh refused"
-msgstr ""
+msgstr "yenileme reddedildi"
 
 #: helloasso_payment_processor.php
 msgid "payment refused"
-msgstr ""
+msgstr "ödeme reddedildi"
 
 #: helloasso_payment_processor.php
 msgid "instead of"
-msgstr ""
+msgstr "şunun yerine"
 
 #: helloasso_payment_processor.php
 msgid ""
@@ -1346,30 +1376,37 @@ msgid ""
 "than the one authorized for the HelloAsso link: %1. OAuth callbacks will not"
 " function correctly on this staging/dev instance."
 msgstr ""
+"Etki alanı uyuşmazlığı bulundu: Bu CiviCRM kopyası, HelloAsso bağlantısı "
+"için doğrulanmış olandan farklı bir sunucuda çalışıyor: %1. OAuth geri "
+"çağrıları bu deneme/geliştirme kopyasında doğru şekilde çalışmayacak."
 
 #: helloasso_payment_processor.php
 msgid "HelloAsso: Domain Mismatch (Staging/Dev Instance)"
-msgstr ""
+msgstr "HelloAsso: Etki alanı uyuşmazlığı (Deneme/Geliştirme kopyası)"
 
 #: helloasso_payment_processor.php
 msgid ""
 "The HelloAsso webhook registered for %1 points to a different domain. "
 "Inbound payments will not be processed on this CiviCRM instance: %2."
 msgstr ""
+"%1 için kayıtlı HelloAsso internet kancası farklı bir etki alanını "
+"gösteriyor. Şu CiviCRM kopyasına gelen ödemeler işlenmeyecek: %2."
 
 #: helloasso_payment_processor.php
 msgid "HelloAsso: Webhook Domain Mismatch"
-msgstr ""
+msgstr "HelloAsso: İnternet kancası etki alanı uyuşmazlığı"
 
 #: helloasso_payment_processor.php
 msgid ""
 "One or more HelloAsso authorization links have expired and must be "
 "reconnected: %1"
 msgstr ""
+"Bir ya da birkaç HelloAsso kimlik doğrulama bağlantısının süresi dolmuş ve "
+"yeniden bağlanması gerekiyor:% 1"
 
 #: helloasso_payment_processor.php
 msgid "HelloAsso: Authorization Expired"
-msgstr ""
+msgstr "HelloAsso: Kimlik doğrulamasının geçerlilik süresi dolmuş"
 
 #: helloasso_payment_processor.php
 msgid ""
@@ -1377,10 +1414,13 @@ msgid ""
 "Reconnect them before accepting new payments through the authorization "
 "screen: %1"
 msgstr ""
+"Bir ya da birkaç HelloAsso kimlik doğrulama bağlantısı artık yenilenemez. "
+"Kimlik doğrulama ekranı üzerinden yeni ödemeleri kabul etmeden önce bunları "
+"yeniden bağlayın: %1"
 
 #: helloasso_payment_processor.php
 msgid "HelloAsso: Reconnection Required"
-msgstr ""
+msgstr "HelloAsso: Yeniden bağlama gerekiyor"
 
 #: helloasso_payment_processor.php
 msgid ""
@@ -1389,28 +1429,36 @@ msgid ""
 "administrative status before accepting new payments through the "
 "authorization screen: %1"
 msgstr ""
+"Bu kopyaya bağlı bir ya da birkaç HelloAsso kuruluşunun şu anda HelloAsso "
+"tarafından çevrim içi ödeme almasına izin verilmiyor. Kimlik doğrulama "
+"ekranından yeni ödemeleri kabul etmeden önce yönetici durumlarını "
+"denetleyin: %1"
 
 #: helloasso_payment_processor.php
 msgid "HelloAsso: Organization Cannot Receive Payments"
-msgstr ""
+msgstr "HelloAsso: Kuruluş ödeme alamıyor"
 
 #: helloasso_payment_processor.php
 msgid ""
 "The last HelloAsso authorization-link renewal failed for: %1. The "
 "maintenance job will retry; reconnect if the failure continues."
 msgstr ""
+"Son HelloAsso kimlik doğrulama bağlantısı yenilemesi yapılamadı: %1. Bakım "
+"görevi yeniden deneyecek. Sorun sürerse yeniden bağlayın."
 
 #: helloasso_payment_processor.php
 msgid "HelloAsso: Authorization Renewal Failed"
-msgstr ""
+msgstr "HelloAsso: Kimlik doğrulama yenilemesi yapılamadı"
 
 #: helloasso_payment_processor.php
 msgid "One or more HelloAsso authorization links will expire soon: %1"
 msgstr ""
+"Bir ya da birkaç HelloAsso kimlik doğrulama bağlantısının geçerlilik süresi "
+"yakında dolacak:% 1"
 
 #: helloasso_payment_processor.php
 msgid "HelloAsso: Authorization Expiring Soon"
-msgstr ""
+msgstr "HelloAsso: Kimlik doğrulamasının geçerlilik süresi yakında dolacak"
 
 #: helloasso_payment_processor.php
 msgid ""
@@ -1420,18 +1468,24 @@ msgid ""
 "another CiviCRM instance must keep manual control of the HelloAsso webhook "
 "URL."
 msgstr ""
+"Bir ya da birkaç HelloAsso bağlantısı otomatik internet kancası kaydını "
+"bekliyor. Ancak henüz herhangi bir internet kancası kaydedilmemiş: %1. "
+"İnternet kancasının oluşturulması için kimlik doğrulama ekranını yeniden "
+"bağlayın veya başka bir CiviCRM kopyasının HelloAsso internet kancası "
+"adresini el ile denetlemesi gerekiyorsa bu aracıda otomatik internet kancası"
+" kaydını kapatın."
 
 #: helloasso_payment_processor.php
 msgid "HelloAsso: Webhook Not Configured"
-msgstr ""
+msgstr "HelloAsso: İnternet kancası yapılandırılmamış"
 
 #: helloasso_payment_processor.php
 msgid "The HelloAsso authorization check could not be completed: %1"
-msgstr ""
+msgstr "HelloAsso kimlik doğrulama denetimi tamamlanamadı:% 1"
 
 #: helloasso_payment_processor.php
 msgid "HelloAsso: Authorization Check Failed"
-msgstr ""
+msgstr "HelloAsso: Kimlik doğrulama denetimi tamamlanamadı"
 
 #: helloasso_payment_processor.php
 msgid ""
@@ -1439,10 +1493,13 @@ msgid ""
 "%1. Configure a payment method on the processor; new processors use the "
 "dedicated HelloAsso payment instrument by default."
 msgstr ""
+"Bir ya da birkaç HelloAsso ödeme aracısının yapılandırılmış bir ödeme "
+"yöntemi yok: %1. Aracıda bir ödeme yöntemi yapılandırın. Yeni aracılar "
+"varsayılan olarak özel HelloAsso ödeme aracını kullanır."
 
 #: helloasso_payment_processor.php
 msgid "HelloAsso: Payment Method Missing"
-msgstr ""
+msgstr "HelloAsso: Ödeme yöntemi eksik"
 
 #: helloasso_payment_processor.php
 msgid ""
@@ -1450,36 +1507,41 @@ msgid ""
 "%1. Review the processor configuration and select the dedicated HelloAsso "
 "payment instrument or your existing HelloAsso online payment method."
 msgstr ""
+"Bir ya da birkaç HelloAsso ödeme aracısı ödeme yöntemi olarak Check "
+"kullanır: %1. Aracı yapılandırmasını gözden geçirin ve özel HelloAsso ödeme "
+"aracını ya da var olan HelloAsso çevrim içi ödeme yönteminizi seçin."
 
 #: helloasso_payment_processor.php
 msgid "HelloAsso: Payment Method Requires Review"
-msgstr ""
+msgstr "HelloAsso: Ödeme yönteminin gözden geçirilmesi gerekiyor"
 
 #: helloasso_payment_processor.php
 msgid ""
 "One or more HelloAsso payment processors still rely on API keys that could "
 "not authenticate: %1"
 msgstr ""
+"Bir ya da birkaç HelloAsso ödeme aracısı, hâlâ kimliği doğrulanamayan API "
+"anahtarları kullanıyor: %1"
 
 #: helloasso_payment_processor.php
 msgid "HelloAsso: API Key Authentication Failed"
-msgstr ""
+msgstr "HelloAsso: API anahtarı kimlik doğrulaması yapılamadı"
 
 #: helloasso_payment_processor.php
 msgid "The HelloAsso API key health check could not be completed: %1"
-msgstr ""
+msgstr "HelloAsso API anahtarı durum denetimi tamamlanamadı: %1"
 
 #: helloasso_payment_processor.php
 msgid "HelloAsso: API Key Check Failed"
-msgstr ""
+msgstr "HelloAsso: API anahtarı denetimi yapılamadı"
 
 #: helloasso_payment_processor.php
 msgid "Unknown authentication failure"
-msgstr ""
+msgstr "Bilinmeyen bir kimlik doğrulama sorunu çıktı"
 
 #: helloasso_payment_processor.php
 msgid "Missing site URL"
-msgstr ""
+msgstr "Site adresi eksik"
 
 #: helloasso_payment_processor.php
 msgid ""
@@ -1487,6 +1549,9 @@ msgid ""
 "and test values together on this screen. To avoid overwriting production, "
 "you will be redirected to the associated live processor record."
 msgstr ""
+"HelloAsso deneme aracısını doğrudan açtınız. CiviCRM, canlı ve deneme "
+"değerlerini bu ekranda birlikte kaydeder. Canlı değerlerinin üzerine "
+"yazılmasını önlemek için, ilgili canlı aracı kaydına yönlendirileceksiniz."
 
 #: helloasso_payment_processor.php
 msgid ""
@@ -1494,86 +1559,96 @@ msgid ""
 "%2 has been recorded in CiviCRM; the final HelloAsso refund state will be "
 "confirmed later by webhook or scheduled synchronization."
 msgstr ""
+"HelloAsso, %1 ödemesi için geri ödeme isteğini kabul etti. %2 geri ödeme "
+"işlemi CiviCRM üzerinde kaydedildi. Son HelloAsso geri ödeme durumu daha "
+"sonra internet kancası veya zamanlanmış eşitleme ile onaylanacak."
 
 #: helloasso_payment_processor.php
 msgid "HelloAsso refund requested"
-msgstr ""
+msgstr "HelloAsso geri ödeme isteği yapıldı"
 
 #: helloasso_payment_processor.php
 msgid "HelloAsso requires between 2 and 12 installments."
-msgstr ""
+msgstr "HelloAsso taksitleri 2 ile 12 arasında olmalıdır."
 
 #: helloasso_payment_processor.php
 msgid "HelloAsso installments must be monthly."
-msgstr ""
+msgstr "HelloAsso taksitleri aylık olmalıdır."
 
 #: helloasso_payment_processor.php
 msgid "HelloAsso installments must be collected every month."
-msgstr ""
+msgstr "HelloAsso taksit ödemeleri her ay alınmalıdır."
 
 #: helloasso_payment_processor.php
 msgid "First/last name must contain at least 3 characters (HelloAsso rule)."
-msgstr ""
+msgstr "Ad/Soyad en az 3 karakter uzunluğunda olmalıdır (HelloAsso kuralı)."
 
 #: helloasso_payment_processor.php
 msgid ""
 "First/last name must not contain 3 repeated characters (HelloAsso rule)."
-msgstr ""
+msgstr "Ad/Soyad 3 yinelenen karakterden oluşmamalıdır (HelloAsso kuralı)."
 
 #: helloasso_payment_processor.php
 msgid "First/last name must not contain numbers (HelloAsso rule)."
-msgstr ""
+msgstr "Ad/Soyad içinde rakamlar olmamalıdır (HelloAsso kuralı)."
 
 #: helloasso_payment_processor.php
 msgid "First/last name must contain at least one vowel (HelloAsso rule)."
-msgstr ""
+msgstr "Ad/Soyad içinde en az bir sesli harf bulunmalıdır (HelloAsso kuralı)."
 
 #: helloasso_payment_processor.php
 msgid "This value is not allowed by HelloAsso."
-msgstr ""
+msgstr "Bu değere HelloAsso tarafından izin verilmiyor."
 
 #: helloasso_payment_processor.php
 msgid ""
 "First/last name contains unauthorized special characters (HelloAsso rule)."
 msgstr ""
+"Ad/Soyad içinde kullanılmasına izin verilmeyen özel karakterler var "
+"(HelloAsso kuralı)."
 
 #: js/quickform-checkout.js
 msgid "One-time payment"
-msgstr ""
+msgstr "Bir kerelik ödeme"
 
 #: js/quickform-checkout.js
 msgid ""
 "Pay in full or split this payment into a fixed schedule of 2 to 12 monthly "
 "installments handled by HelloAsso."
 msgstr ""
+"Tümünü bir kerede ödeyin ya da HelloAsso tarafından işlenecek 2 ile 12 aylık"
+" sabit taksite bölün."
 
 #: managed/ProcessHelloAsso.mgd.php
 msgid ""
 "Process scheduled HelloAsso payment follow-ups and targeted "
 "synchronisations."
 msgstr ""
+"Zamanlanmış HelloAsso ödeme izlemelerini ve hedeflenmiş eşitlemeleri işler."
 
 #: managed/ProcessHelloAsso.mgd.php
 msgid "Process scheduled long-window HelloAsso consistency checks."
-msgstr ""
+msgstr "Zamanlanmış uzun dönem HelloAsso tutarlılık denetimlerini işler."
 
 #: managed/ProcessHelloAsso.mgd.php
 msgid ""
 "Refresh linked HelloAsso authorizations once their current refresh tokens "
 "reach mid-life."
 msgstr ""
+"Var olan yenileme kodları ömrünün yarısına geldiğinde bağlantılı HelloAsso "
+"kimlik doğrulamalarını yeniler."
 
 #: schema/HelloAssoInstallment.entityType.php
 msgid "Hello Asso Installment"
-msgstr ""
+msgstr "Hello Asso taksidi"
 
 #: schema/HelloAssoInstallment.entityType.php
 msgid "Hello Asso Installments"
-msgstr ""
+msgstr "Hello Asso taksitleri"
 
 #: schema/HelloAssoInstallment.entityType.php
 msgid "Idempotent mapping of HelloAsso installments to CiviCRM contributions"
-msgstr ""
+msgstr "HelloAsso taksitlerinin CiviCRM katkıları ile Idempotent eşleştirmesi"
 
 #: schema/HelloAssoInstallment.entityType.php
 #: schema/HelloAssoInstallmentLineItem.entityType.php
@@ -1594,20 +1669,20 @@ msgstr "Katkı yinelenme kimliği"
 
 #: schema/HelloAssoInstallment.entityType.php
 msgid "Checkout Intent ID"
-msgstr ""
+msgstr "Ödeme amacı kimliği"
 
 #: schema/HelloAssoInstallment.entityType.php
 msgid "Order ID"
-msgstr ""
+msgstr "Sipariş kimliği"
 
 #: schema/HelloAssoInstallment.entityType.php
 #: schema/HelloAssoInstallmentLineItem.entityType.php
 msgid "Installment Number"
-msgstr ""
+msgstr "Taksit numarası"
 
 #: schema/HelloAssoInstallment.entityType.php
 msgid "Helloasso Payment ID"
-msgstr ""
+msgstr "HelloAsso ödeme kimliği"
 
 #: schema/HelloAssoInstallment.entityType.php
 msgid "Amount"
@@ -1634,23 +1709,25 @@ msgstr "Güncellenme"
 
 #: schema/HelloAssoInstallmentLineItem.entityType.php
 msgid "HelloAsso Installment Line Item"
-msgstr ""
+msgstr "HelloAsso taksit satırı kalemi"
 
 #: schema/HelloAssoInstallmentLineItem.entityType.php
 msgid "HelloAsso Installment Line Items"
-msgstr ""
+msgstr "HelloAsso taksit satırı kalemleri"
 
 #: schema/HelloAssoInstallmentLineItem.entityType.php
 msgid "Original and per-installment line-item allocation for HelloAsso plans"
 msgstr ""
+"HelloAsso planları için asıl ve hesaplanan taksitlere göre kalemlerin "
+"dağılımı"
 
 #: schema/HelloAssoInstallmentLineItem.entityType.php
 msgid "Line Item Ordinal"
-msgstr ""
+msgstr "Satır ögesi sıralaması"
 
 #: schema/HelloAssoInstallmentLineItem.entityType.php
 msgid "Source Line Item ID"
-msgstr ""
+msgstr "Kaynak satır ögesi kimliği"
 
 #: schema/HelloAssoInstallmentLineItem.entityType.php
 msgid "Entity Table"
@@ -1662,7 +1739,7 @@ msgstr "Varlık kimliği"
 
 #: schema/HelloAssoInstallmentLineItem.entityType.php
 msgid "Price Field Value ID"
-msgstr ""
+msgstr "Fiyat alanı değeri kimliği"
 
 #: schema/HelloAssoInstallmentLineItem.entityType.php
 msgid "Financial Type ID"
@@ -1674,27 +1751,27 @@ msgstr "Etiket"
 
 #: schema/HelloAssoInstallmentLineItem.entityType.php
 msgid "Original Amount"
-msgstr ""
+msgstr "Asıl tutar"
 
 #: schema/HelloAssoInstallmentLineItem.entityType.php
 msgid "Allocated Amount"
-msgstr ""
+msgstr "Hesaplanan tutar"
 
 #: schema/HelloAssoMetadata.entityType.php
 msgid "Hello Asso Metadata"
-msgstr ""
+msgstr "Hello Asso üst verileri"
 
 #: schema/HelloAssoMetadata.entityType.php
 msgid "Hello Asso Metadatas"
-msgstr ""
+msgstr "Hello Asso üst verileri"
 
 #: schema/HelloAssoMetadata.entityType.php
 msgid "HelloAsso payment reconciliation metadata"
-msgstr ""
+msgstr "HelloAsso ödeme mutabakatı üst verileri"
 
 #: schema/HelloAssoMetadata.entityType.php
 msgid "Unique HelloassoMetaData ID"
-msgstr ""
+msgstr "Benzersiz HelloassoMetaData kimliği"
 
 #: schema/HelloAssoMetadata.entityType.php
 msgid "FK to Contribution"
@@ -1706,83 +1783,83 @@ msgstr "Katkı"
 
 #: schema/HelloAssoMetadata.entityType.php
 msgid "Signing Key"
-msgstr ""
+msgstr "İmzalama anahtarı"
 
 #: schema/HelloAssoMetadata.entityType.php
 msgid "Key used to sign contribution"
-msgstr ""
+msgstr "Katkıyı imzalamak için kullanılan anahtar"
 
 #: schema/HelloAssoMetadata.entityType.php
 msgid "HelloAsso Reference command ID"
-msgstr ""
+msgstr "HelloAsso başvuru komutu kimliği"
 
 #: schema/HelloAssoMetadata.entityType.php
 msgid "Checkout intent ID"
-msgstr ""
+msgstr "Ödeme amacı kimliği"
 
 #: schema/HelloAssoMetadata.entityType.php
 msgid "HelloAsso Payment ID"
-msgstr ""
+msgstr "HelloAsso ödeme kimliği"
 
 #: schema/HelloAssoMetadata.entityType.php
 msgid "Last event type"
-msgstr ""
+msgstr "Son işlem türü"
 
 #: schema/HelloAssoMetadata.entityType.php
 msgid "Last known state"
-msgstr ""
+msgstr "Bilinen son durum"
 
 #: schema/HelloAssoMetadata.entityType.php
 msgid "Sync origin date"
-msgstr ""
+msgstr "Eşitleme kaynağı tarihi"
 
 #: schema/HelloAssoMetadata.entityType.php
 msgid "Next scheduled sync date"
-msgstr ""
+msgstr "Sonraki zamanlanmış eşitleme tarihi"
 
 #: schema/HelloAssoMetadata.entityType.php
 msgid "Last sync date"
-msgstr ""
+msgstr "Son eşitleme tarihi"
 
 #: schema/HelloAssoMetadata.entityType.php
 msgid "Sync attempt count"
-msgstr ""
+msgstr "Eşitleme girişimi sayısı"
 
 #: schema/HelloAssoMetadata.entityType.php
 msgid "Sync technical error count"
-msgstr ""
+msgstr "Eşitleme teknik sorun sayısı"
 
 #: schema/HelloAssoMetadata.entityType.php
 msgid "Long follow-up scheme"
-msgstr ""
+msgstr "Uzun dönem izleme şeması"
 
 #: schema/HelloAssoMetadata.entityType.php
 msgid "Long sync origin date"
-msgstr ""
+msgstr "Uzun dönem eşitleme kaynağı tarihi"
 
 #: schema/HelloAssoMetadata.entityType.php
 msgid "Next scheduled long sync date"
-msgstr ""
+msgstr "Sonraki zamanlanmış uzun dönem eşitleme tarihi"
 
 #: schema/HelloAssoMetadata.entityType.php
 msgid "Last long sync date"
-msgstr ""
+msgstr "Son uzun dönem eşitleme tarihi"
 
 #: schema/HelloAssoMetadata.entityType.php
 msgid "Long sync attempt count"
-msgstr ""
+msgstr "Uzun dönem eşitleme girişimi sayısı"
 
 #: schema/HelloAssoMetadata.entityType.php
 msgid "Long sync technical error count"
-msgstr ""
+msgstr "Uzun dönem eşitleme teknik sorun sayısı"
 
 #: schema/HelloAssoProcessorAuth.entityType.php
 msgid "Hello Asso Processor Auth"
-msgstr ""
+msgstr "Hello Asso aracı kimlik doğrulaması"
 
 #: schema/HelloAssoProcessorAuth.entityType.php
 msgid "Hello Asso Processor Auths"
-msgstr ""
+msgstr "Hello Asso aracı kimlik doğrulamaları"
 
 #: schema/HelloAssoProcessorAuth.entityType.php
 msgid "HelloAsso per-processor OAuth and webhook state"
@@ -2003,11 +2080,12 @@ msgstr ""
 
 #: settings/helloasso_payment_processor.setting.php
 msgid "HelloAsso authorization screen: sandbox client ID"
-msgstr ""
+msgstr "HelloAsso kimlik doğrulama ekranı: Deneme yolu istemci kimliği"
 
 #: settings/helloasso_payment_processor.setting.php
 msgid "Client ID dedicated to the HelloAsso sandbox authorization screen."
 msgstr ""
+"HelloAsso deneme yolu kimlik doğrulama ekranına ayrılmış istemci kimliği."
 
 #: settings/helloasso_payment_processor.setting.php
 msgid "HelloAsso authorization screen: production client secret"
@@ -2020,11 +2098,12 @@ msgstr ""
 
 #: settings/helloasso_payment_processor.setting.php
 msgid "HelloAsso authorization screen: sandbox client secret"
-msgstr ""
+msgstr "HelloAsso kimlik doğrulama ekranı: Deneme yolu istemci parolası"
 
 #: settings/helloasso_payment_processor.setting.php
 msgid "Client secret dedicated to the HelloAsso sandbox authorization screen."
 msgstr ""
+"HelloAsso deneme yolu kimlik doğrulama ekranına ayrılmış istemci parolası."
 
 #: settings/helloasso_payment_processor.setting.php
 msgid "HelloAsso authorization screen: authorization URL"
@@ -2038,7 +2117,7 @@ msgstr ""
 
 #: settings/helloasso_payment_processor.setting.php
 msgid "HelloAsso authorization screen URL for sandbox mode."
-msgstr ""
+msgstr "Deneme yolu için HelloAsso kimlik doğrulama ekranı adresi."
 
 #: settings/helloasso_payment_processor.setting.php
 msgid "HelloAsso authorization screen: token URL"
@@ -2055,3 +2134,5 @@ msgid ""
 "HelloAsso endpoint used to exchange the authorization code and refresh OAuth"
 " tokens for sandbox mode."
 msgstr ""
+"Kimlik doğrulama kodunu değiştirmek ve deneme yolunun OAuth kodlarını "
+"yenilemek için kullanılan HelloAsso uç noktası."
