@@ -1863,109 +1863,117 @@ msgstr "Hello Asso aracı kimlik doğrulamaları"
 
 #: schema/HelloAssoProcessorAuth.entityType.php
 msgid "HelloAsso per-processor OAuth and webhook state"
-msgstr ""
+msgstr "Her HelloAsso aracısının OAuth ve internet kancası durumu"
 
 #: schema/HelloAssoProcessorAuth.entityType.php
 msgid "Connection Mode"
-msgstr ""
+msgstr "Bağlantı kipi"
 
 #: schema/HelloAssoProcessorAuth.entityType.php
 msgid "Organization Slug"
-msgstr ""
+msgstr "Kuruluş adres son eki"
 
 #: schema/HelloAssoProcessorAuth.entityType.php
 msgid "Access Token"
-msgstr ""
+msgstr "Erişim kodu"
 
 #: schema/HelloAssoProcessorAuth.entityType.php
 msgid "Refresh Token"
-msgstr ""
+msgstr "Kodu yenile"
 
 #: schema/HelloAssoProcessorAuth.entityType.php
 msgid "Expires At"
-msgstr ""
+msgstr "Geçerlilik süresi sonu"
 
 #: schema/HelloAssoProcessorAuth.entityType.php
 msgid "Refresh Issued At"
-msgstr ""
+msgstr "Yenilemenin yayınlanma tarihi"
 
 #: schema/HelloAssoProcessorAuth.entityType.php
 msgid "Refresh Expires At"
-msgstr ""
+msgstr "Yenilemenin geçerlilik süresi sonu"
 
 #: schema/HelloAssoProcessorAuth.entityType.php
 msgid "Refresh Status"
-msgstr ""
+msgstr "Yenileme durumu"
 
 #: schema/HelloAssoProcessorAuth.entityType.php
 msgid "Last Refresh Error"
-msgstr ""
+msgstr "Son yenileme sorunu"
 
 #: schema/HelloAssoProcessorAuth.entityType.php
 msgid "Last Refresh Error Date"
-msgstr ""
+msgstr "Son yenileme sorunu tarihi"
 
 #: schema/HelloAssoProcessorAuth.entityType.php
 msgid "Last Refresh Http Status"
-msgstr ""
+msgstr "Son yenileme http durumu"
 
 #: schema/HelloAssoProcessorAuth.entityType.php
 msgid "Linked At"
-msgstr ""
+msgstr "Bağlantı zamanı"
 
 #: schema/HelloAssoProcessorAuth.entityType.php
 msgid "Redirect Uri"
-msgstr ""
+msgstr "Yönlendirme adresi"
 
 #: schema/HelloAssoProcessorAuth.entityType.php
 msgid "Webhook Ownership"
-msgstr ""
+msgstr "İnternet kancası sahipliği"
 
 #: schema/HelloAssoProcessorAuth.entityType.php
 msgid "Webhook Url"
-msgstr ""
+msgstr "İnternet kancası adresi"
 
 #: schema/HelloAssoProcessorAuth.entityType.php
 msgid "Webhook Signature Key"
-msgstr ""
+msgstr "İnternet kancası imza anahtarı"
 
 #: schema/HelloAssoProcessorAuth.entityType.php
 msgid "Webhook Updated At"
-msgstr ""
+msgstr "İnternet kancası güncelleme zamanı"
 
 #: settings/helloasso_payment_processor.setting.php
 msgid "Standard frontend bridge (mjwshared)"
-msgstr ""
+msgstr "Standart ön yüz köprüsü (mjwshared)"
 
 #: settings/helloasso_payment_processor.setting.php
 msgid ""
 "Enable the standard HelloAsso frontend integration based on CRM.payment and "
 "mjwshared."
 msgstr ""
+"CRM.payment ve mjwshared temelli standart HelloAsso ön yüz bütünleştirmesini"
+" açar."
 
 #: settings/helloasso_payment_processor.setting.php
 msgid "Secure handling of failure and cancellation URLs"
 msgstr ""
+"Tamamlanmayan ve iptal edilen işlem adreslerinin güvenli bir şekilde "
+"işlenmesi"
 
 #: settings/helloasso_payment_processor.setting.php
 msgid ""
 "Avoid redirecting users to fragile CiviCRM or AJAX URLs when a payment is "
 "cancelled or fails."
 msgstr ""
+"Bir ödeme iptal edildiğinde veya tamamlanamadığında kullanıcıları kırılgan "
+"CiviCRM veya AJAX adreslerine yönlendirmekten kaçının."
 
 #: settings/helloasso_payment_processor.setting.php
 msgid "Webhook processing queue"
-msgstr ""
+msgstr "İnternet kancası işleme kuyruğu"
 
 #: settings/helloasso_payment_processor.setting.php
 msgid ""
 "Place HelloAsso webhooks in the PaymentprocessorWebhook queue instead of "
 "processing them immediately."
 msgstr ""
+"HelloAsso internet kancaları hemen işlenmek yerine PaymentprocessorWebhook "
+"kuyruğuna yerleştirilsin."
 
 #: settings/helloasso_payment_processor.setting.php
 msgid "Payment status reliability for automations (T+5 / T+15 / T+45 min)"
-msgstr ""
+msgstr "Otomasyonlar için ödeme durumu güvenilirliği (T+5 / T+15 / T+45 dk)"
 
 #: settings/helloasso_payment_processor.setting.php
 msgid ""
@@ -1975,6 +1983,12 @@ msgid ""
 "cart reminders. Long-term monitoring of later changes, including refunds, "
 "remains independent."
 msgstr ""
+"HelloAsso ödemesi oluşturulduktan sonra T+5, T+15 ve T+45 zamanlarında "
+"otomatik denetimleri açar. Son denetimin süresi, bir taksit planı "
+"ödenmediğinde veya katkı sepet anımsatıcıları ile beklemede tutulurken "
+"klasik bir ödemenin terk edilmiş olarak işaretlenmesi ile sona erer. Geri "
+"ödemeler ile sonraki değişikliklerin uzun dönemde izlenmesi bundan "
+"bağımsızdır."
 
 #: settings/helloasso_payment_processor.setting.php
 msgid "Afform / Form Builder integration"
