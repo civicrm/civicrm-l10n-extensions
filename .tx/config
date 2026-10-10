@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = lt: lt_LT, fi: fi_FI, sv: sv_SE, el: el_GR, id: id_ID, it: it_IT, bg: bg_BG, lv: lv_LV, tr: tr_TR, vi: vi_VN, sq: sq_AL, hu: hu_HU, nl: nl_NL, et: et_EE, ru: ru_RU, es: es_ES, de: de_DE, nb: nb_NO, sl: sl_SI, he: he_IL, cs: cs_CZ, pt: pt_PT, ro: ro_RO, km: km_KH, da: da_DK, sk: sk_SK, ja: ja_JP, af: af_ZA, pl: pl_PL, ca: ca_ES, fr: fr_FR, hi: hi_IN
+lang_map = hi: hi_IN, id: id_ID, lv: lv_LV, ru: ru_RU, sk: sk_SK, bg: bg_BG, es: es_ES, sl: sl_SI, ja: ja_JP, el: el_GR, sq: sq_AL, af: af_ZA, sv: sv_SE, vi: vi_VN, de: de_DE, fr: fr_FR, it: it_IT, nl: nl_NL, nb: nb_NO, cs: cs_CZ, hu: hu_HU, he: he_IL, ro: ro_RO, fi: fi_FI, tr: tr_TR, pt: pt_PT, ca: ca_ES, pl: pl_PL, lt: lt_LT, et: et_EE, km: km_KH, da: da_DK
 
 [o:civicrm:p:civicrm_extensions:r:Civixero]
 file_filter            = po/Civixero/<lang>/Civixero.po
@@ -85,6 +85,15 @@ keep_translations      = false
 file_filter            = po/angularprofiles/<lang>/angularprofiles.po
 source_file            = po/angularprofiles/pot/angularprofiles.pot
 source_lang            = en
+replace_edited_strings = false
+keep_translations      = false
+
+[o:civicrm:p:civicrm_extensions:r:anonymoustracking]
+file_filter            = po/anonymoustracking/<lang>/anonymoustracking.po
+source_file            = po/anonymoustracking/pot/anonymoustracking.pot
+type                   = POT
+minimum_perc           = 0
+resource_name          = anonymoustracking
 replace_edited_strings = false
 keep_translations      = false
 
