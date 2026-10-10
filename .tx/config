@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = hi: hi_IN, id: id_ID, lv: lv_LV, ru: ru_RU, sk: sk_SK, bg: bg_BG, es: es_ES, sl: sl_SI, ja: ja_JP, el: el_GR, sq: sq_AL, af: af_ZA, sv: sv_SE, vi: vi_VN, de: de_DE, fr: fr_FR, it: it_IT, nl: nl_NL, nb: nb_NO, cs: cs_CZ, hu: hu_HU, he: he_IL, ro: ro_RO, fi: fi_FI, tr: tr_TR, pt: pt_PT, ca: ca_ES, pl: pl_PL, lt: lt_LT, et: et_EE, km: km_KH, da: da_DK
+lang_map = sl: sl_SI, vi: vi_VN, nl: nl_NL, ro: ro_RO, da: da_DK, sq: sq_AL, sv: sv_SE, it: it_IT, pl: pl_PL, sk: sk_SK, es: es_ES, fr: fr_FR, nb: nb_NO, hu: hu_HU, lt: lt_LT, fi: fi_FI, et: et_EE, ru: ru_RU, lv: lv_LV, ja: ja_JP, el: el_GR, af: af_ZA, de: de_DE, ca: ca_ES, id: id_ID, cs: cs_CZ, he: he_IL, tr: tr_TR, pt: pt_PT, hi: hi_IN, bg: bg_BG, km: km_KH
 
 [o:civicrm:p:civicrm_extensions:r:Civixero]
 file_filter            = po/Civixero/<lang>/Civixero.po
@@ -1222,6 +1222,15 @@ keep_translations      = false
 file_filter            = po/relationshipblock/<lang>/relationshipblock.po
 source_file            = po/relationshipblock/pot/relationshipblock.pot
 source_lang            = en
+replace_edited_strings = false
+keep_translations      = false
+
+[o:civicrm:p:civicrm_extensions:r:reply]
+file_filter            = po/reply/<lang>/reply.po
+source_file            = po/reply/pot/reply.pot
+type                   = POT
+minimum_perc           = 0
+resource_name          = reply
 replace_edited_strings = false
 keep_translations      = false
 
