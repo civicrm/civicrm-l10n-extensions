@@ -11,11 +11,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: ckeditor5\n"
-"POT-Creation-Date: 2026-10-22 11:01+0200\n"
+"POT-Creation-Date: 2026-10-29 10:02+0100\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2026\n"
 "Language-Team: Turkish (https://app.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -29,10 +26,18 @@ msgid "Default"
 msgstr "Varsayılan"
 
 #: CRM/Ckeditor5/Form/Presets.php
+msgid "Front-end forms"
+msgstr ""
+
+#: CRM/Ckeditor5/Form/Presets.php
+msgid "Form Builder"
+msgstr "Form oluşturucu"
+
+#: CRM/Ckeditor5/Form/Presets.php
 msgid "Unknown editor preset."
 msgstr "Düzenleyici hazır ayarı bilinmiyor."
 
-#: CRM/Ckeditor5/Form/Presets.php ckeditor5.php
+#: CRM/Ckeditor5/Form/Presets.php
 msgid "CKEditor 5 presets"
 msgstr "CKEditor 5 hazır ayarları"
 
@@ -49,12 +54,14 @@ msgid "Toolbar dropdown"
 msgstr "Araç çubuğu açılan listesi"
 
 #: CRM/Ckeditor5/Form/Presets.php
-msgid "Show the menu bar in fullscreen mode"
-msgstr "Menü çubuğu tam ekran kipinde görüntülensin"
+msgid "Display the CKEditor menu bar in fullscreen mode"
+msgstr ""
 
 #: CRM/Ckeditor5/Form/Presets.php
-msgid "Keep every toolbar item visible in fullscreen mode"
-msgstr "Tam ekran kipinde her araç çubuğu ögesini görüntüler"
+msgid ""
+"Wrap the toolbar onto multiple rows instead of hiding buttons in an overflow"
+" menu"
+msgstr ""
 
 #: CRM/Ckeditor5/Form/Presets.php
 msgid "Tables without an explicit type"
@@ -177,6 +184,14 @@ msgstr ""
 msgid "Saved"
 msgstr "Kaydedildi"
 
+#: CRM/Ckeditor5/Upgrader.php
+msgid "CKEditor 5"
+msgstr ""
+
+#: ckeditor5.php
+msgid "Configure CKEditor 5"
+msgstr ""
+
 #: js/admin-presets.js js/plugins/civi-tokens.js js/wysiwyg/crm.ckeditor5.js
 msgid "ckeditor5"
 msgstr "ckeditor5"
@@ -186,12 +201,12 @@ msgid "Separator"
 msgstr "Ayıraç"
 
 #: js/admin-presets.js
-msgid "Up"
-msgstr "Yukarı"
+msgid "Move left"
+msgstr ""
 
 #: js/admin-presets.js
-msgid "Down"
-msgstr "Aşağı"
+msgid "Move right"
+msgstr ""
 
 #: js/admin-presets.js
 msgid "Remove"
@@ -380,17 +395,37 @@ msgstr ""
 "HTML kodunu süzmez veya izinleri değiştirmez."
 
 #: templates/CRM/Ckeditor5/Form/Presets.tpl
+msgid "Live editor preview"
+msgstr "Canlı düzenleyici ön izlemesi"
+
+#: templates/CRM/Ckeditor5/Form/Presets.tpl
+msgid ""
+"Unsaved settings are previewed here. This sample is never saved. "
+"Configuration changes reset the sample. Upload and file manager commands are"
+" disabled in the preview. Extensions can override your settings."
+msgstr ""
+"Kaydedilmemiş ayarlar buradan ön izlenir. Bu örnek asla kaydedilmez. "
+"Yapılandırma değişiklikleri örneği sıfırlar. Yükleme ve dosya yöneticisi "
+"komutları ön izlemede kullanılamaz. Eklentiler ayarlarınızı değiştirebilir."
+
+#: templates/CRM/Ckeditor5/Form/Presets.tpl
 msgid "Toolbar"
 msgstr "Araç çubuğu"
 
 #: templates/CRM/Ckeditor5/Form/Presets.tpl
 msgid ""
-"Add buttons, then drag them to reorder, or use Up and Down. Separators may "
-"be repeated. The file manager button is ignored in Base64 mode."
+"Choose a button below or drag it onto the toolbar. Drag toolbar buttons to "
+"reorder them. Separators may be repeated. The file manager button is ignored"
+" in Base64 mode."
 msgstr ""
-"Düğmeler ekleyin, ardından yeniden sıralamak için sürükleyin veya Yukarı ve "
-"Aşağı düğmelerini kullanın. Ayırıcılar yinelenebilir. Base64 kipinde dosya "
-"yöneticisi düğmesi yok sayılır."
+
+#: templates/CRM/Ckeditor5/Form/Presets.tpl
+msgid "Available buttons"
+msgstr ""
+
+#: templates/CRM/Ckeditor5/Form/Presets.tpl
+msgid "Toolbar order"
+msgstr "Araç çubuğu sırası"
 
 #: templates/CRM/Ckeditor5/Form/Presets.tpl
 msgid "Available button"
@@ -399,10 +434,6 @@ msgstr "Kullanılabilecek düğme"
 #: templates/CRM/Ckeditor5/Form/Presets.tpl
 msgid "Add"
 msgstr "Ekle"
-
-#: templates/CRM/Ckeditor5/Form/Presets.tpl
-msgid "Toolbar order"
-msgstr "Araç çubuğu sırası"
 
 #: templates/CRM/Ckeditor5/Form/Presets.tpl
 msgid "Find and replace"
@@ -422,11 +453,10 @@ msgstr "Tam ekran kipi"
 
 #: templates/CRM/Ckeditor5/Form/Presets.tpl
 msgid ""
-"The CiviCRM default hides the menu bar and keeps all toolbar items visible "
-"when the editor fills the viewport."
+"By default, fullscreen hides CKEditor's optional menu bar and wraps the "
+"complete toolbar onto additional rows when necessary. These settings do not "
+"affect Drupal or CiviCRM administration menus."
 msgstr ""
-"CiviCRM varsayılanı, menü çubuğunu gizler ve düzenleyici görünüm alanını "
-"doldurduğunda tüm araç çubuğu ögelerini görünür tutar."
 
 #: templates/CRM/Ckeditor5/Form/Presets.tpl
 msgid "Layout tables"
@@ -464,12 +494,11 @@ msgstr ""
 
 #: templates/CRM/Ckeditor5/Form/Presets.tpl
 msgid ""
-"Restrict or disable image uploads and server file browsing for this preset. "
-"Users without CiviCRM file permissions never receive elFinder access."
+"Uploading a new image requires the CMS upload files permission. Browsing "
+"existing server images separately requires access uploaded files. The "
+"selected preset may disable either control even when the user has "
+"permission."
 msgstr ""
-"Bu hazır ayar için görsel yüklemelerini ve sunucu dosyasına göz atmayı "
-"kısıtlayın veya kapatın. CiviCRM dosya izinleri olmayan kullanıcılar hiçbir "
-"zaman elFinder erişimi almaz."
 
 #: templates/CRM/Ckeditor5/Form/Presets.tpl
 msgid "HTML QA mode"
@@ -561,20 +590,6 @@ msgstr ""
 "sağlanmalıdır. Bu sayfa e-postada CSS satır içi değildir veya bülten HTML "
 "kodunun korunacağını garanti etmez. Boş bir liste, devralınan adlandırılmış "
 "biçemleri kaldırır."
-
-#: templates/CRM/Ckeditor5/Form/Presets.tpl
-msgid "Live editor preview"
-msgstr "Canlı düzenleyici ön izlemesi"
-
-#: templates/CRM/Ckeditor5/Form/Presets.tpl
-msgid ""
-"Unsaved settings are previewed here. This sample is never saved. "
-"Configuration changes reset the sample. Upload and file manager commands are"
-" disabled in the preview. Extensions can override your settings."
-msgstr ""
-"Kaydedilmemiş ayarlar buradan ön izlenir. Bu örnek asla kaydedilmez. "
-"Yapılandırma değişiklikleri örneği sıfırlar. Yükleme ve dosya yöneticisi "
-"komutları ön izlemede kullanılamaz. Eklentiler ayarlarınızı değiştirebilir."
 
 #: templates/CRM/Ckeditor5/Page/ImageManager.tpl
 msgid "(In your native language) The current time is %1."
