@@ -5,20 +5,17 @@
 # Translators:
 # Andreas Howiller <andreas.howiller@civiservice.de>, 2026
 # Mathieu Lu <mathieu@bidon.ca>, 2026
-# Torben Bertram, 2026
 # Jonathan Dahan <jonathan.dahan@live.fr>, 2026
+# Torben Bertram, 2026
 # 
 msgid ""
 msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: ckeditor5\n"
-"POT-Creation-Date: 2026-10-22 11:01+0200\n"
-"Last-Translator: Jonathan Dahan <jonathan.dahan@live.fr>, 2026\n"
+"POT-Creation-Date: 2026-10-29 10:02+0100\n"
+"Last-Translator: Torben Bertram, 2026\n"
 "Language-Team: German (https://app.transifex.com/civicrm/teams/1905/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,10 +28,18 @@ msgid "Default"
 msgstr "Standard"
 
 #: CRM/Ckeditor5/Form/Presets.php
+msgid "Front-end forms"
+msgstr ""
+
+#: CRM/Ckeditor5/Form/Presets.php
+msgid "Form Builder"
+msgstr "Form Builder"
+
+#: CRM/Ckeditor5/Form/Presets.php
 msgid "Unknown editor preset."
 msgstr "Unbekannte Editor-Voreinstellung."
 
-#: CRM/Ckeditor5/Form/Presets.php ckeditor5.php
+#: CRM/Ckeditor5/Form/Presets.php
 msgid "CKEditor 5 presets"
 msgstr "CKEditor-5-Voreinstellungen"
 
@@ -51,12 +56,14 @@ msgid "Toolbar dropdown"
 msgstr "Dropdown-Menü in der Werkzeugleiste"
 
 #: CRM/Ckeditor5/Form/Presets.php
-msgid "Show the menu bar in fullscreen mode"
-msgstr "Menüleiste im Vollbildmodus anzeigen"
+msgid "Display the CKEditor menu bar in fullscreen mode"
+msgstr ""
 
 #: CRM/Ckeditor5/Form/Presets.php
-msgid "Keep every toolbar item visible in fullscreen mode"
-msgstr "Alle Elemente der Werkzeugleiste im Vollbildmodus sichtbar halten"
+msgid ""
+"Wrap the toolbar onto multiple rows instead of hiding buttons in an overflow"
+" menu"
+msgstr ""
 
 #: CRM/Ckeditor5/Form/Presets.php
 msgid "Tables without an explicit type"
@@ -180,6 +187,14 @@ msgstr ""
 msgid "Saved"
 msgstr "Gespeichert"
 
+#: CRM/Ckeditor5/Upgrader.php
+msgid "CKEditor 5"
+msgstr ""
+
+#: ckeditor5.php
+msgid "Configure CKEditor 5"
+msgstr ""
+
 #: js/admin-presets.js js/plugins/civi-tokens.js js/wysiwyg/crm.ckeditor5.js
 msgid "ckeditor5"
 msgstr "CKEditor 5"
@@ -189,12 +204,12 @@ msgid "Separator"
 msgstr "Trennzeichen"
 
 #: js/admin-presets.js
-msgid "Up"
-msgstr "Nach oben"
+msgid "Move left"
+msgstr ""
 
 #: js/admin-presets.js
-msgid "Down"
-msgstr "Nach unten"
+msgid "Move right"
+msgstr ""
 
 #: js/admin-presets.js
 msgid "Remove"
@@ -386,18 +401,38 @@ msgstr ""
 "Berechtigungen."
 
 #: templates/CRM/Ckeditor5/Form/Presets.tpl
+msgid "Live editor preview"
+msgstr "Live-Vorschau des Editors"
+
+#: templates/CRM/Ckeditor5/Form/Presets.tpl
+msgid ""
+"Unsaved settings are previewed here. This sample is never saved. "
+"Configuration changes reset the sample. Upload and file manager commands are"
+" disabled in the preview. Extensions can override your settings."
+msgstr ""
+"Nicht gespeicherte Einstellungen werden hier als Vorschau angezeigt. Dieses "
+"Beispiel wird niemals gespeichert. Änderungen an der Konfiguration setzen "
+"das Beispiel zurück. Upload- und Dateimanagerbefehle sind in der Vorschau "
+"deaktiviert. Erweiterungen können Ihre Einstellungen überschreiben."
+
+#: templates/CRM/Ckeditor5/Form/Presets.tpl
 msgid "Toolbar"
 msgstr "Werkzeugleiste"
 
 #: templates/CRM/Ckeditor5/Form/Presets.tpl
 msgid ""
-"Add buttons, then drag them to reorder, or use Up and Down. Separators may "
-"be repeated. The file manager button is ignored in Base64 mode."
+"Choose a button below or drag it onto the toolbar. Drag toolbar buttons to "
+"reorder them. Separators may be repeated. The file manager button is ignored"
+" in Base64 mode."
 msgstr ""
-"Fügen Sie Schaltflächen hinzu und ziehen Sie sie anschließend in die "
-"gewünschte Reihenfolge, oder verwenden Sie Nach oben und Nach unten. "
-"Trennzeichen können mehrfach verwendet werden. Die Schaltfläche des "
-"Dateimanagers wird im Base64-Modus ignoriert."
+
+#: templates/CRM/Ckeditor5/Form/Presets.tpl
+msgid "Available buttons"
+msgstr ""
+
+#: templates/CRM/Ckeditor5/Form/Presets.tpl
+msgid "Toolbar order"
+msgstr "Reihenfolge der Werkzeugleiste"
 
 #: templates/CRM/Ckeditor5/Form/Presets.tpl
 msgid "Available button"
@@ -406,10 +441,6 @@ msgstr "Verfügbare Schaltfläche"
 #: templates/CRM/Ckeditor5/Form/Presets.tpl
 msgid "Add"
 msgstr "Hinzufügen"
-
-#: templates/CRM/Ckeditor5/Form/Presets.tpl
-msgid "Toolbar order"
-msgstr "Reihenfolge der Werkzeugleiste"
 
 #: templates/CRM/Ckeditor5/Form/Presets.tpl
 msgid "Find and replace"
@@ -429,12 +460,10 @@ msgstr "Vollbildmodus"
 
 #: templates/CRM/Ckeditor5/Form/Presets.tpl
 msgid ""
-"The CiviCRM default hides the menu bar and keeps all toolbar items visible "
-"when the editor fills the viewport."
+"By default, fullscreen hides CKEditor's optional menu bar and wraps the "
+"complete toolbar onto additional rows when necessary. These settings do not "
+"affect Drupal or CiviCRM administration menus."
 msgstr ""
-"Die CiviCRM-Standardeinstellung blendet die Menüleiste aus und hält alle "
-"Elemente der Werkzeugleiste sichtbar, wenn der Editor das gesamte "
-"Ansichtsfenster ausfüllt."
 
 #: templates/CRM/Ckeditor5/Form/Presets.tpl
 msgid "Layout tables"
@@ -473,12 +502,11 @@ msgstr ""
 
 #: templates/CRM/Ckeditor5/Form/Presets.tpl
 msgid ""
-"Restrict or disable image uploads and server file browsing for this preset. "
-"Users without CiviCRM file permissions never receive elFinder access."
+"Uploading a new image requires the CMS upload files permission. Browsing "
+"existing server images separately requires access uploaded files. The "
+"selected preset may disable either control even when the user has "
+"permission."
 msgstr ""
-"Beschränken oder deaktivieren Sie für diese Voreinstellung Bild-Uploads und "
-"das Durchsuchen von Serverdateien. Benutzer ohne CiviCRM-Dateiberechtigungen"
-" erhalten niemals Zugriff auf elFinder."
 
 #: templates/CRM/Ckeditor5/Form/Presets.tpl
 msgid "HTML QA mode"
@@ -572,21 +600,6 @@ msgstr ""
 " Ihr Theme oder Ihre Erweiterung bereitgestellt werden. Diese Seite bettet "
 "CSS für E-Mails nicht inline ein und garantiert nicht die Erhaltung von "
 "Newsletter-HTML. Eine leere Liste entfernt übernommene benannte Stile."
-
-#: templates/CRM/Ckeditor5/Form/Presets.tpl
-msgid "Live editor preview"
-msgstr "Live-Vorschau des Editors"
-
-#: templates/CRM/Ckeditor5/Form/Presets.tpl
-msgid ""
-"Unsaved settings are previewed here. This sample is never saved. "
-"Configuration changes reset the sample. Upload and file manager commands are"
-" disabled in the preview. Extensions can override your settings."
-msgstr ""
-"Nicht gespeicherte Einstellungen werden hier als Vorschau angezeigt. Dieses "
-"Beispiel wird niemals gespeichert. Änderungen an der Konfiguration setzen "
-"das Beispiel zurück. Upload- und Dateimanagerbefehle sind in der Vorschau "
-"deaktiviert. Erweiterungen können Ihre Einstellungen überschreiben."
 
 #: templates/CRM/Ckeditor5/Page/ImageManager.tpl
 msgid "(In your native language) The current time is %1."
