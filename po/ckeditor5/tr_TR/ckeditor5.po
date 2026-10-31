@@ -11,11 +11,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: ckeditor5\n"
-"POT-Creation-Date: 2026-10-29 10:02+0100\n"
+"POT-Creation-Date: 2026-10-31 10:01+0100\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2026\n"
 "Language-Team: Turkish (https://app.transifex.com/civicrm/teams/1905/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -30,7 +27,7 @@ msgstr "Varsayılan"
 
 #: CRM/Ckeditor5/Form/Presets.php
 msgid "Front-end forms"
-msgstr ""
+msgstr "Ön yüz formları"
 
 #: CRM/Ckeditor5/Form/Presets.php
 msgid "Form Builder"
@@ -58,13 +55,15 @@ msgstr "Araç çubuğu açılan listesi"
 
 #: CRM/Ckeditor5/Form/Presets.php
 msgid "Display the CKEditor menu bar in fullscreen mode"
-msgstr ""
+msgstr "Tam ekran kipinde CKEditor menü çubuğu görüntülensin"
 
 #: CRM/Ckeditor5/Form/Presets.php
 msgid ""
 "Wrap the toolbar onto multiple rows instead of hiding buttons in an overflow"
 " menu"
 msgstr ""
+"Menü taştığında düğmeler gizlenmesin araç çubuğu birden fazla satıra "
+"genişletilsin"
 
 #: CRM/Ckeditor5/Form/Presets.php
 msgid "Tables without an explicit type"
@@ -189,11 +188,21 @@ msgstr "Kaydedildi"
 
 #: CRM/Ckeditor5/Upgrader.php
 msgid "CKEditor 5"
+msgstr "CKEditor 5"
+
+#: ckeditor5.php
+msgid "CKEditor 5: upload images"
+msgstr ""
+
+#: ckeditor5.php
+msgid ""
+"Upload images directly from CKEditor 5. This does not grant access to browse"
+" existing uploaded files."
 msgstr ""
 
 #: ckeditor5.php
 msgid "Configure CKEditor 5"
-msgstr ""
+msgstr "CKEditor 5 yapılandırması"
 
 #: js/admin-presets.js js/plugins/civi-tokens.js js/wysiwyg/crm.ckeditor5.js
 msgid "ckeditor5"
@@ -205,11 +214,11 @@ msgstr "Ayıraç"
 
 #: js/admin-presets.js
 msgid "Move left"
-msgstr ""
+msgstr "Sola taşı"
 
 #: js/admin-presets.js
 msgid "Move right"
-msgstr ""
+msgstr "Sağa taşı"
 
 #: js/admin-presets.js
 msgid "Remove"
@@ -421,10 +430,13 @@ msgid ""
 "reorder them. Separators may be repeated. The file manager button is ignored"
 " in Base64 mode."
 msgstr ""
+"Aşağıdan bir düğme seçin ya da araç çubuğuna sürükleyin. Aırasını "
+"değiştirmek için araç çubuğu düğmelerini sürükleyin. Ayırıcılar "
+"yinelenebilir. Base64 kipinde dosya yöneticisi düğmesi yok sayılır."
 
 #: templates/CRM/Ckeditor5/Form/Presets.tpl
 msgid "Available buttons"
-msgstr ""
+msgstr "Kullanılabilecek düğmeler"
 
 #: templates/CRM/Ckeditor5/Form/Presets.tpl
 msgid "Toolbar order"
@@ -460,6 +472,9 @@ msgid ""
 "complete toolbar onto additional rows when necessary. These settings do not "
 "affect Drupal or CiviCRM administration menus."
 msgstr ""
+"Varsayılan olarak, tam ekranda isteğe bağlı CKEditor menü çubuğu gizlenir ve"
+" gerektiğinde tüm araç çubuğu ek satırlara genişletilir. Bu ayarlar Drupal "
+"veya CiviCRM yönetim menülerini etkilemez."
 
 #: templates/CRM/Ckeditor5/Form/Presets.tpl
 msgid "Layout tables"
@@ -497,10 +512,10 @@ msgstr ""
 
 #: templates/CRM/Ckeditor5/Form/Presets.tpl
 msgid ""
-"Uploading a new image requires the CMS upload files permission. Browsing "
-"existing server images separately requires access uploaded files. The "
-"selected preset may disable either control even when the user has "
-"permission."
+"Uploading a new image requires the CiviCRM permission \"CKEditor 5: upload "
+"images\". Browsing existing server images separately requires \"access "
+"uploaded files\". The selected preset may disable either control even when "
+"the user has permission."
 msgstr ""
 
 #: templates/CRM/Ckeditor5/Form/Presets.tpl
