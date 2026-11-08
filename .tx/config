@@ -1,6 +1,6 @@
 [main]
 host     = https://www.transifex.com
-lang_map = sl: sl_SI, vi: vi_VN, nl: nl_NL, ro: ro_RO, da: da_DK, sq: sq_AL, sv: sv_SE, it: it_IT, pl: pl_PL, sk: sk_SK, es: es_ES, fr: fr_FR, nb: nb_NO, hu: hu_HU, lt: lt_LT, fi: fi_FI, et: et_EE, ru: ru_RU, lv: lv_LV, ja: ja_JP, el: el_GR, af: af_ZA, de: de_DE, ca: ca_ES, id: id_ID, cs: cs_CZ, he: he_IL, tr: tr_TR, pt: pt_PT, hi: hi_IN, bg: bg_BG, km: km_KH
+lang_map = pl: pl_PL, es: es_ES, el: el_GR, hu: hu_HU, id: id_ID, he: he_IL, hi: hi_IN, sv: sv_SE, sk: sk_SK, nl: nl_NL, lt: lt_LT, ja: ja_JP, de: de_DE, bg: bg_BG, km: km_KH, vi: vi_VN, fr: fr_FR, nb: nb_NO, fi: fi_FI, sl: sl_SI, it: it_IT, ru: ru_RU, lv: lv_LV, af: af_ZA, ca: ca_ES, tr: tr_TR, ro: ro_RO, da: da_DK, sq: sq_AL, et: et_EE, cs: cs_CZ, pt: pt_PT
 
 [o:civicrm:p:civicrm_extensions:r:Civixero]
 file_filter            = po/Civixero/<lang>/Civixero.po
@@ -1484,6 +1484,15 @@ keep_translations      = false
 file_filter            = po/uscounties/<lang>/uscounties.po
 source_file            = po/uscounties/pot/uscounties.pot
 source_lang            = en
+replace_edited_strings = false
+keep_translations      = false
+
+[o:civicrm:p:civicrm_extensions:r:vereinsabfrage]
+file_filter            = po/vereinsabfrage/<lang>/vereinsabfrage.po
+source_file            = po/vereinsabfrage/pot/vereinsabfrage.pot
+type                   = POT
+minimum_perc           = 0
+resource_name          = vereinsabfrage
 replace_edited_strings = false
 keep_translations      = false
 
