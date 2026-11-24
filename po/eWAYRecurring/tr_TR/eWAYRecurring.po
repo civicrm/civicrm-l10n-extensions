@@ -11,9 +11,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Project-Id-Version: eWAYRecurring\n"
 "POT-Creation-Date: 2026-11-22 11:01+0100\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2026\n"
@@ -87,19 +84,19 @@ msgstr ""
 
 #: CRM/Core/Payment/eWAYRecurring.php
 msgid "The selected card could not be found."
-msgstr ""
+msgstr "Seçilmiş kart bulunamadı."
 
 #: CRM/Core/Payment/eWAYRecurring.php
 msgid "The selected card does not belong to this contact."
-msgstr ""
+msgstr "Seçilmiş kart bu kişiye ait değil."
 
 #: CRM/Core/Payment/eWAYRecurring.php
 msgid "The selected card was saved for a different payment processor."
-msgstr ""
+msgstr "Seçilmiş kart farklı bir ödeme aracısı için kaydedilmiş."
 
 #: CRM/Core/Payment/eWAYRecurring.php
 msgid "The selected card has expired."
-msgstr ""
+msgstr "Seçilmiş kartın geçerlilik süresi dolmuş."
 
 #: CRM/eWAYRecurring/Form/Settings.php
 msgid "Submit"
@@ -107,7 +104,7 @@ msgstr "Gönder"
 
 #: CRM/eWAYRecurring/Form/Settings.php
 msgid "The eWay Recurring settings have been saved."
-msgstr ""
+msgstr "eWay Recurring ayarları kaydedildi."
 
 #: CRM/eWAYRecurring/Form/Settings.php
 msgid "Settings saved"
@@ -140,7 +137,7 @@ msgstr ""
 
 #: CRM/eWAYRecurring/Utils.php
 msgid "Recurring payment skipped because this contribution was cancelled"
-msgstr ""
+msgstr "Bu katkı iptal edildiği için yinelenen ödeme atlandı"
 
 #: CRM/eWAYRecurring/Utils.php
 msgid ""
@@ -150,14 +147,19 @@ msgid ""
 "collect it anyway, set this contribution to Failed and put the recurring "
 "contribution's next scheduled date back to %2."
 msgstr ""
+"Bu katkı iptal edildi, bu nedenle eWAY Recurring eklentisi bu taksiti "
+"atladı: %1 yinelenen katkının bir sonraki zamanlanmış tarihi %2 yerine %3%4 "
+"olarak değiştirildi. Bağışçıdan bu taksit için ücret alınmayacak. Yine de "
+"ödemeyi almak için bu katkıyı Tamamlanamadı olarak ayarlayın ve yinelenen "
+"katkının bir sonraki zamanlanmış tarihini %2 olarak düzeltin."
 
 #: CRM/eWAYRecurring/Utils.php
 msgid " and its failed attempts and retry date were cleared"
-msgstr ""
+msgstr " ve başarısız denemeler ile yeniden deneme tarihi temizlendi"
 
 #: CRM/eWAYRecurring/Utils.php
 msgid "eWAY approved this payment but it could not be completed"
-msgstr ""
+msgstr "eWAY bu ödemeyi onayladı ancak tamamlayamadı"
 
 #: CRM/eWAYRecurring/Utils.php
 msgid ""
@@ -170,14 +172,24 @@ msgid ""
 "the contribution by hand (set it to Completed and enter the eWAY transaction"
 " ID)."
 msgstr ""
+"eWAY bu ödemeyi onayladı, ancak CiviCRM katkıyı Tamamlandı olarak "
+"işaretleyemedi. Bağışçıdan ödeme alındı. eWAY işlem kimliği: %1. Nedeni: %2."
+" eWAY Recurring doğrulama işi, yaklaşık bir gün boyunca her çalıştırmada "
+"yeniden deneyecek. Yine de tamamlayamazsa, eWay Recurring belgelerindeki "
+"\"Ödemeler eWay tarafından onaylandı ancak CiviCRM tarafından "
+"tamamlanamadı\" bölümüne bakın: eWAY Business Center üzerinden ödemenin "
+"alınıp alınmadığını denetleyin. Burada gösterilen nedeni düzeltin, ardından "
+"katkıyı el ile tamamlayın (Tamamlandı olarak ayarlayın ve eWAY işlem "
+"kimliğini yazın)."
 
 #: CRM/eWAYRecurring/Utils.php
 msgid "not known"
-msgstr ""
+msgstr "bilinmiyor"
 
 #: CRM/eWAYRecurring/Utils.php
 msgid "eWAY approved this payment but it was never completed: action needed"
 msgstr ""
+"eWAY bu ödemeyi onayladı ancak tamamlayamadı: İşlem yapılması gerekiyor"
 
 #: CRM/eWAYRecurring/Utils.php
 msgid ""
@@ -187,32 +199,42 @@ msgid ""
 "then complete the contribution by hand (set it to Completed and enter the "
 "eWAY transaction ID). Last message: %2"
 msgstr ""
+"Doğrulama işi %1 denemeden sonra vazgeçti. eWAY bu ödemeyi onayladı, bu "
+"nedenle bağışçıdan ödeme alındı, ancak katkı hala Bekliyor durumunda. eWAY "
+"Business Center üzerinden ödemenin alınıp alınmadığını denetleyin, aşağıdaki"
+" nedeni düzeltin, ardından katkıyı el ile tamamlayın (Tamamlandı olarak "
+"ayarlayın ve eWAY işlem kimliğini yazın). Son ileti: %2"
 
 #: Civi/EwayRecurring/Api4/ContributionRecurEwaySpecProvider.php
 msgid "Paid Through eWAY"
-msgstr ""
+msgstr "eWAY ile ödendi"
 
 #: Civi/EwayRecurring/Api4/ContributionRecurEwaySpecProvider.php
 msgid ""
 "Yes when the payment processor is an eWAY Recurring one. Shows nothing else "
 "about the processor."
 msgstr ""
+"Ödeme aracısı eWAY Recurring olduğunda Evet. Aracı ile ilgili başka bir şey "
+"göstermez."
 
 #: Civi/EwayRecurring/Api4/ContributionRecurEwaySpecProvider.php
 msgid "Waiting on a Cancelled Contribution"
-msgstr ""
+msgstr "İptal edilen bir katkı bekliyor"
 
 #: Civi/EwayRecurring/Api4/ContributionRecurEwaySpecProvider.php
 msgid ""
 "Yes when the record is due to be charged but a Cancelled contribution dated "
 "on or after the date it is waiting on stops the scheduled job charging it."
 msgstr ""
+"Kaydın ödemesinin alınması gerektiğinde Evet. Ancak beklendiği tarihte veya "
+"sonrasında tarihlenmiş İptal edilen bir katkı, zamanlanan işin ödemesinin "
+"alınmasını durdurur."
 
 #: ang/afsearchBlockedRecurringContributions.aff.php
 #: managed/Navigation_afsearchBlockedRecurringContributions.mgd.php
 #: managed/SavedSearch_Blocked_Recurring_Contributions.mgd.php
 msgid "Blocked Recurring Contributions"
-msgstr ""
+msgstr "Yinelenen katkılar engellenmiş"
 
 #: ang/afsearchFailedRecurringContributions.aff.php
 #: managed/Navigation_afsearchFailedRecurringContributions.mgd.php
@@ -232,24 +254,28 @@ msgid_plural ""
 "Cancel %1 selected recurring contributions? They will never be charged "
 "again."
 msgstr[0] ""
+"%1 seçilmiş yinelenen katkı iptal edilsin mi? Bir daha asla ödeme "
+"alınmayacak."
 msgstr[1] ""
+"%1 seçilmiş yinelenen katkı iptal edilsin mi? Bir daha asla ödeme "
+"alınmayacak."
 
 #: ang/ewayrecurring/crmSearchTaskCancelRecur.ctrl.js
 msgid "Successfully cancelled %1 Recurring Contributions."
-msgstr ""
+msgstr "%1 seçilmiş yinelenen katkı iptal edildi."
 
 #: ang/ewayrecurring/crmSearchTaskCancelRecur.ctrl.js
 msgid "Cancellation Complete"
-msgstr ""
+msgstr "İptal edildi"
 
 #: ang/ewayrecurring/crmSearchTaskCancelRecur.ctrl.js
 msgid ""
 "An error occurred while attempting to cancel %1 Recurring Contributions."
-msgstr ""
+msgstr "%1 yinelenen katkı iptal edilirken bir sorun çıktı?"
 
 #: ang/ewayrecurring/crmSearchTaskCancelRecur.ctrl.js
 msgid "Cancellation Error"
-msgstr ""
+msgstr "İptal sorunu"
 
 #: ang/ewayrecurring/crmSearchTaskCancelRecur.html
 msgid "Cancellation Reason"
@@ -257,11 +283,11 @@ msgstr "İptal nedeni"
 
 #: ang/ewayrecurring/crmSearchTaskCancelRecur.html
 msgid "Optional. Saved with the recurring contribution."
-msgstr ""
+msgstr "İsteğe bağlı. Yinelenen katkı ile kaydedildi."
 
 #: ang/ewayrecurring/crmSearchTaskCancelRecur.html
 msgid "Cancelling Recurring Contributions..."
-msgstr ""
+msgstr "Yinelenen katkılar iptal ediliyor..."
 
 #: ang/ewayrecurring/crmSearchTaskCancelRecur.html
 msgid "Go Back"
@@ -269,7 +295,7 @@ msgstr "Geri dön"
 
 #: ang/ewayrecurring/crmSearchTaskCancelRecur.html
 msgid "Cancel Recurring Contributions"
-msgstr ""
+msgstr "Yinelenen katkıları iptal et"
 
 #: ang/ewayrecurring/crmSearchTaskResetRecur.ctrl.js
 msgid "In Progress"
@@ -338,11 +364,11 @@ msgstr "API parolası alanının doldurulması zorunludur."
 
 #: eWAYRecurring.php
 msgid "Test API Key is a required field."
-msgstr ""
+msgstr "Deneme API anahtarı alanının doldurulması zorunludur."
 
 #: eWAYRecurring.php
 msgid "Test API Password is a required field."
-msgstr ""
+msgstr "Deneme API parolası alanının doldurulması zorunludur."
 
 #: eWAYRecurring.php
 msgid ""
@@ -380,7 +406,7 @@ msgstr "Yeniden etkinleştir"
 
 #: eWAYRecurring.php
 msgid "Cancel Recurring Contribution"
-msgstr ""
+msgstr "Yinelenen katkıyı iptal et"
 
 #: eWAYRecurring.php
 msgid ""
